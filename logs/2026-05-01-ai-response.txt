@@ -1274,3 +1274,58 @@ content length: 2738
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2740, prompt_tokens=14421, total_tokens=17161, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1872, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13397)
+content length: 2107
+============================================================
+{
+  "news": [
+    {
+      "title": "WisdomTree加密ETP季度净流入1.37亿美元",
+      "summary": "WisdomTree报告2026年第一季度其加密ETP产品净流入1.37亿美元，显示机构资金持续流入加密市场。主要影响BTC和ETH，表明长期看涨，可能推动价格上行。信号为 bullish。",
+      "reason": "机构资金净流入是直接利好，属于优先级二，ETF机构类别。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/399725/wisdomtrees-crypto-etps-reported-net-inflows-of-137-million-in-q1"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗冲突推高油价至115美元央行鹰派",
+      "summary": "伊朗冲突导致国际油价飙升至115美元，各国央行采取鹰派立场应对通胀压力。高油价和紧缩政策利空风险资产，加密货币面临抛售压力。看空BTC和ETH。",
+      "reason": "宏观经济因素影响风险资产，属于优先级二，直接利空。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOODlvbXh3ci1pdUJZTEg5dWtBYUdsXzhvM25xcVZwbjRoaXpYLW1PZzVFdGdkYW9fYWljN1dmMWYwV3RUTVNXcW5vS2tCZ0d1WXNPOS1GcUNUcXM4a1YyeFFHN3BYS3Rqa0Z5TXBUZmF0Y1otRVhEQURrLU9nQjFXRDdGRXRrcTZNSjVFZmZNbnlvQ0tmZE9CdVJ3"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "狗狗币升至两月新高矿企拟借壳上市",
+      "summary": "Dogecoin价格触及两个月高点，因一家DOGE挖矿公司计划通过合并上市。这提升了市场对DOGE的看涨情绪，可能吸引更多买盘。信号 bullish。",
+      "reason": "直接利好DOGE，项目更新和价格表现，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["DOGE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/366320/dogecoin-2-month-high-doge-mining-firm-go-public"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tokenized RWA市值自2025年增长420%",
+      "summary": "代币化现实世界资产(RWA)总价值自2025年以来增长420%，显示机构采用加速。长期利好加密生态，但短期影响有限。信号 neutral。",
+      "reason": "中期趋势信号，属于优先级二，但无即时交易驱动。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t0tpb8/tokenized_rwas_are_up_by_420_since_2025/"}],
+      "urgency": "days"
+    }
+  ]
+}
