@@ -412,3 +412,79 @@ content length: 2008
   ],
   "note": "今日交易相关消息较少，仅筛选出3条值得关注的新事件。以太坊基金会抛售为明确利空，而10亿美元买盘提供支撑，两者形成多空博弈。MSTR股价反弹为短期情绪指标。建议结合技术面分析。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3800, prompt_tokens=14598, total_tokens=18398, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2936, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13574)
+content length: 2300
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗冲突结束，特朗普通报美国国会",
+      "summary": "特朗普告知美国国会伊朗冲突已结束，标志中东地缘政治紧张局势实质性缓和。冲突期间油价曾飙升至115美元，加剧通胀压力，冲突结束将推动油价回落，降低通胀预期，可能使美联储政策更宽松。加密货币作为风险资产，受宏观情绪提振，短期看涨。影响所有主流币种。",
+      "reason": "地缘政治重大转折，直接影响风险资产走势，优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510999.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "XRP情绪指数创两年新高，价格表现滞后",
+      "summary": "Cointelegraph报道XRP市场情绪达到两年最高水平，但价格并未同步上涨，出现情绪-价格背离。这可能预示两种结果：情绪发酵后推动突破，或市场过热回调。当前资金费率与OI未明显异常，建议关注短期情绪驱动行情。",
+      "reason": "市场情绪信号，可能预示短期交易机会，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/xrp-sentiment-hits-2-year-high-but-why-is-price-stuck?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket和Kalshi累计交易量1500亿美元",
+      "summary": "预测市场Polymarket和Kalshi在4月累计交易量达1500亿美元，创历史新高。反映全球对事件驱动交易的需求激增，尤其在地缘政治与宏观经济不确定性期间。虽不直接影响币价，但显示资金活跃度与市场结构成熟，间接利好加密生态。",
+      "reason": "市场结构指标，反映资金活跃度，优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399759/polymarket-and-kalshis-combined-lifetime-volumes-hit-150-billion-in-april?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "英国央行考虑暂缓推出数字英镑",
+      "summary": "据报道英国央行正考虑暂缓推出央行数字货币（CBDC），原因为技术复杂性和隐私关切。暂缓CBDC对现有加密货币构成短期利好，减少央行竞争压力，尤其利好比特币等去中心化资产。但影响力度有限，需后续政策动向。",
+      "reason": "监管政策信号，中期利好加密货币，优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510998.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取消息经去重后，高质量新消息较少，仅选出4条。伊朗冲突结束为最重要事件。"
+}

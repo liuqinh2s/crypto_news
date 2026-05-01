@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-02",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 14598,
+    "completion_tokens": 3800,
+    "total_tokens": 18398
+  },
+  "content_length": 2300,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"伊朗冲突结束，特朗普通报美国国会\",\n      \"summary\": \"特朗普告知美国国会伊朗冲突已结束，标志中东地缘政治紧张局势实质性缓和。冲突期间油价曾飙升至115美元，加剧通胀压力，冲突结束将推动油价回落，降低通胀预期，可能使美联储政策更宽松。加密货币作为风险资产，受宏观情绪提振，短期看涨。影响所有主流币种。\",\n      \"reason\": \"地缘政治重大转折，直接影响风险资产走势，优先级一。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"SOL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 5,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/510999.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"XRP情绪指数创两年新高，价格表现滞后\",\n      \"summary\": \"Cointelegraph报道XRP市场情绪达到两年最高水平，但价格并未同步上涨，出现情绪-价格背离。这可能预示两种结果：情绪发酵后推动突破，或市场过热回调。当前资金费率与OI未明显异常，建议关注短期情绪驱动行情。\",\n      \"reason\": \"市场情绪信号，可能预示短期交易机会，优先级三。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/xrp-sentiment-hits-2-year-high-but-why-is-price-stuck?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Polymarket和Kalshi累计交易量1500亿美元\",\n      \"summary\": \"预测市场Polymarket和Kalshi在4月累计交易量达1500亿美元，创历史新高。反映全球对事件驱动交易的需求激增，尤其在地缘政治与宏观经济不确定性期间。虽不直接影响币价，但显示资金活跃度与市场结构成熟，间接利好加密生态。\",\n      \"reason\": \"市场结构指标，反映资金活跃度，优先级二。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/399759/polymarket-and-kalshis-combined-lifetime-volumes-hit-150-billion-in-april?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"英国央行考虑暂缓推出数字英镑\",\n      \"summary\": \"据报道英国央行正考虑暂缓推出央行数字货币（CBDC），原因为技术复杂性和隐私关切。暂缓CBDC对现有加密货币构成短期利好，减少央行竞争压力，尤其利好比特币等去中心化资产。但影响力度有限，需后续政策动向。\",\n      \"reason\": \"监管政策信号，中期利好加密货币，优先级二。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/510998.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮抓取消息经去重后，高质量新消息较少，仅选出4条。伊朗冲突结束为最重要事件。\"\n}"
+}
