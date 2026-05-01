@@ -672,3 +672,102 @@ content length: 4974
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2915, prompt_tokens=10507, total_tokens=13422, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1539, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9483)
+content length: 3541
+============================================================
+{
+  "news": [
+    {
+      "title": "2.47亿USDT转入Binance",
+      "summary": "据监测，2.47亿枚USDT于5月1日转入Binance交易所。大额稳定币流入通常被视为资金入场信号，可能用于购买加密货币，产生买盘推动价格上涨。该事件影响BTC、ETH及主流币种，短期内看多。",
+      "reason": "大额USDT转入交易所属于链上异动，通常预示资金入场，对市场看多。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/510936.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸提取400 BTC",
+      "summary": "某巨鲸地址从Binance提取400枚BTC，价值约3078万美元。大额BTC从交易所提出通常代表囤币行为，减少市场抛压，看多信号。该事件利好BTC。",
+      "reason": "大额BTC转出交易所是典型囤币信号，降低交易所可用供应，看多。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/510943.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Drift协议遭黑客攻击",
+      "summary": "DeFi协议Drift被利用，导致约2.85亿美元损失，Carrot协议成为首个受害者。黑客攻击引发市场恐慌，可能造成相关代币抛售和整体DeFi板块承压。看空DeFi代币及市场情绪。",
+      "reason": "重大安全事件，巨额损失，直接影响相关协议和代币，并可能引发连锁反应。",
+      "category": "项目更新",
+      "impact_coins": ["CARROT", "DRIFT"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/defi-protocol-carrot-becomes-first-casualty-of-285m-drift-exploit"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CryptoQuant警告BTC回调风险",
+      "summary": "CryptoQuant分析指出，比特币4月上涨主要由期货驱动而非现货杠杆，缺乏持续动力，可能面临回调。该信号对BTC看空，建议谨慎追多。",
+      "reason": "专业机构分析，指出上涨结构不健康，潜在回调风险。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/bitcoin-risks-decline-rally-speculative-not-structural-cryptoquant"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "21.4亿美元期权到期",
+      "summary": "5月1日，名义价值21.4亿美元的比特币和以太坊期权即将到期交割。大量期权到期可能引发市场波动和价格震荡，短期中性，需关注最大痛点位置。",
+      "reason": "期权到期事件通常导致价格波动，影响BTC和ETH。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/510945.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "a16z解除4000枚HYPE质押",
+      "summary": "被标记为a16z的地址解除超4000枚HYPE的质押，价值约1050万美元。质押解除可能意味准备卖出，对HYPE构成抛压，短期看空。",
+      "reason": "知名机构解除质押，可能准备套现，对代币价格不利。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/510937.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线MegaETH",
+      "summary": "Binance宣布将上线MegaETH（MEGA），并开放交易、理财等业务。新币上线带来关注度和流动性，短期看多MEGA。",
+      "reason": "交易所上币利好，吸引资金和交易量。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数26",
+      "summary": "当前恐惧贪婪指数为26（恐惧），处于历史低位。极度恐惧通常暗示市场超卖，中长期可能迎来反弹，但短期仍可能继续下跌。属于市场情绪信号，对BTC等主流币种中长期看多。",
+      "reason": "恐惧贪婪指数低于30是历史抄底区域，但短期不作为交易信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    }
+  ]
+}
