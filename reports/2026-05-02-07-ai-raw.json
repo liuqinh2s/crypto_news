@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-02",
+  "hour": "07",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 5/6 策略=完整内容 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13201,
+    "completion_tokens": 1939,
+    "total_tokens": 15140
+  },
+  "content_length": 1932,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"CLARITY法案最终文本公布\",\n      \"summary\": \"美国《CLARITY法案》关于稳定币奖励机制的最终文本已公布，允许加密公司向用户提供稳定币奖励，同时屏蔽底层银行收益。Coinbase政策负责人确认文本已公开。该法案若通过，将合法化稳定币收益产品，吸引更多资金进入加密生态，对USDT、USDC等稳定币及整个市场构成重大利好。但需关注后续立法进程。\",\n      \"reason\": \"稳定币监管重大突破，直接影响稳定币需求及市场情绪，属于优先级一（监管动态）\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDT\", \"USDC\", \"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/policy/2026/05/01/clarity-act-text-lets-crypto-firms-offer-stablecoin-rewards-while-shielding-bank-yield\"\n        },\n        {\n          \"name\": \"Bloomberg\",\n          \"url\": \"https://www.bloomberg.com/news/articles/2026-05-01/coinbase-says-deal-reached-on-key-part-of-crypto-market-bill\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美联储6月维持利率概率92.8%\",\n      \"summary\": \"CME美联储观察数据显示，美联储6月维持利率不变的概率高达92.8%，累计降息25基点概率仅7.2%。利率持续高位将抑制风险资产流动性，但市场已充分预期，短期对加密市场影响中性偏空。不过如果经济数据超预期恶化，降息预期可能升温。\",\n      \"reason\": \"宏观经济数据影响所有风险资产，属于优先级二，同时为交易提供利率预期参考\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511007.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"三项指标暗示BTC或冲击80K\",\n      \"summary\": \"Cointelegraph分析指出，比特币现货成交量上升、期货未平仓合约增长、以及价格突破关键阻力位，三项数据暗示BTC可能即将突破80,000美元。当前BTC在78,000美元附近震荡，若站稳将打开上行空间。但技术指标并非决定性，需警惕假突破。\",\n      \"reason\": \"市场情绪和技术面信号，属于优先级三，可作为短线交易参考\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/3-bitcoin-data-points-suggest-rally-to-80k-is-imminent\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

@@ -645,3 +645,216 @@ content length: 3237
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1125, prompt_tokens=11994, total_tokens=13119, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=783, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10970)
+content length: 809
+============================================================
+{
+  "news": [
+    {
+      "title": "稳定币奖励法案公布",
+      "summary": "美国《CLARITY法案》最终文本公布，允许加密公司提供稳定币奖励，同时保护银行收益。该法案为稳定币发行和收益分配提供了明确的监管框架，可能推动USDT、USDC等稳定币需求增长，并吸引传统金融机构参与。短期看多稳定币及相关DeFi项目，但需关注后续立法进展。影响币种：USDT、USDC、ETH（DeFi生态）。信号：bullish。",
+      "reason": "优先级一：重大监管动态，明确稳定币奖励合法性，直接利好稳定币市场，为行业提供清晰合规路径。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/01/clarity-act-text-lets-crypto-firms-offer-stablecoin-rewards-while-shielding-bank-yield"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经筛选，本轮消息中仅此一条符合优先级一的监管动态具有交易价值。其余消息多为重复（如Binance上币公告、恐惧贪婪指数、以太坊基金会售ETH等）或对行情影响微弱（如地方性AI禁令、普通公司新闻），故只输出一条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2370, prompt_tokens=11994, total_tokens=14364, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1921, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11904), prompt_cache_hit_tokens=11904, prompt_cache_miss_tokens=90)
+content length: 1169
+============================================================
+{
+  "news": [
+    {
+      "title": "Coinbase就法案关键部分达成协议",
+      "summary": "Coinbase 宣布已就《CLARITY 法案》中关于稳定币奖励机制的关键部分达成协议，该法案允许加密企业提供稳定币收益并保护银行收益。此消息为监管利好，可能推动市场对稳定币及相关代币的信心，尤其利好 USDT、USDC 等稳定币项目，同时利好整体加密市场。看多信号，但需关注后续立法进展。",
+      "reason": "监管政策重大进展，直接影响稳定币及加密市场情绪，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-01/coinbase-says-deal-reached-on-key-part-of-crypto-market-bill"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储6月维持利率概率92.8%",
+      "summary": "据 CME FedWatch 数据，美联储在6月维持当前利率不变的概率为 92.8%，加息概率极低。这意味着货币政策短期保持宽松，利好风险资产包括加密货币。但需注意通胀数据变化，若 CPI 超预期可能改变预期。整体看多，但影响程度中等，因市场已充分预期。",
+      "reason": "宏观经济数据影响风险资产偏好，中期利好，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511007.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1863, prompt_tokens=11994, total_tokens=13857, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1616, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11904), prompt_cache_hit_tokens=11904, prompt_cache_miss_tokens=90)
+content length: 610
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储6月维持利率不变概率92.8%",
+      "summary": "根据CME FedWatch数据，美联储在6月议息会议上维持利率不变的概率高达92.8%。这意味着市场预期利率将保持高位，对风险资产包括加密货币构成宏观压力。尽管短期影响有限，但持续高利率环境会抑制资金流入加密市场，可能限制BTC和ETH的上行空间。整体信号偏中性，但中长期看若降息预期推迟则利空。",
+      "reason": "宏观利率预期影响风险资产定价，虽非突发事件但持续影响市场情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511007.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本时段大部分消息与历史重复或无关交易，仅筛选出一条轻微影响的市场数据。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1767, prompt_tokens=13201, total_tokens=14968, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1223, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=12177)
+content length: 1502
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案稳定币奖励文本公布",
+      "summary": "美国《CLARITY法案》关于稳定币奖励机制的最终文本已公布，允许加密公司提供稳定币奖励，同时屏蔽银行收益。Coinbase政策负责人称该法案基于实际运作理解，消除了此前假设性风险。该法案若通过将利好稳定币发行商（如USDT、USDC）及合规交易所，市场情绪转为乐观，推动加密市场整体上涨。",
+      "reason": "稳定币奖励机制是监管重大进展，直接影响稳定币需求和市场流动性，属于优先级一（监管动态）。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "ETH", "BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/01/clarity-act-text-lets-crypto-firms-offer-stablecoin-rewards-while-shielding-bank-yield"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-01/coinbase-says-deal-reached-on-key-part-of-crypto-market-bill"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储6月维持利率概率92.8%",
+      "summary": "据CME美联储观察，美联储6月维持利率不变的概率为92.8%，累计降息25个基点概率仅7.2%。7月维持利率不变概率88.8%。市场预期高利率将持续，紧缩环境抑制风险资产需求，加密市场承压。",
+      "reason": "宏观经济数据（利率预期）直接影响风险资产走势，属于优先级二（宏观经济）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511007.html"
+        },
+        {
+          "name": "CME FedWatch",
+          "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1939, prompt_tokens=13201, total_tokens=15140, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1224, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13184), prompt_cache_hit_tokens=13184, prompt_cache_miss_tokens=17)
+content length: 1932
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案最终文本公布",
+      "summary": "美国《CLARITY法案》关于稳定币奖励机制的最终文本已公布，允许加密公司向用户提供稳定币奖励，同时屏蔽底层银行收益。Coinbase政策负责人确认文本已公开。该法案若通过，将合法化稳定币收益产品，吸引更多资金进入加密生态，对USDT、USDC等稳定币及整个市场构成重大利好。但需关注后续立法进程。",
+      "reason": "稳定币监管重大突破，直接影响稳定币需求及市场情绪，属于优先级一（监管动态）",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/01/clarity-act-text-lets-crypto-firms-offer-stablecoin-rewards-while-shielding-bank-yield"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-01/coinbase-says-deal-reached-on-key-part-of-crypto-market-bill"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储6月维持利率概率92.8%",
+      "summary": "CME美联储观察数据显示，美联储6月维持利率不变的概率高达92.8%，累计降息25基点概率仅7.2%。利率持续高位将抑制风险资产流动性，但市场已充分预期，短期对加密市场影响中性偏空。不过如果经济数据超预期恶化，降息预期可能升温。",
+      "reason": "宏观经济数据影响所有风险资产，属于优先级二，同时为交易提供利率预期参考",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511007.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "三项指标暗示BTC或冲击80K",
+      "summary": "Cointelegraph分析指出，比特币现货成交量上升、期货未平仓合约增长、以及价格突破关键阻力位，三项数据暗示BTC可能即将突破80,000美元。当前BTC在78,000美元附近震荡，若站稳将打开上行空间。但技术指标并非决定性，需警惕假突破。",
+      "reason": "市场情绪和技术面信号，属于优先级三，可作为短线交易参考",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/3-bitcoin-data-points-suggest-rally-to-80k-is-imminent"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
