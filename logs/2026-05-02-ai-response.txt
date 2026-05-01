@@ -272,3 +272,55 @@ content length: 4254
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2993, prompt_tokens=15874, total_tokens=18867, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2080, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=14850)
+content length: 2055
+============================================================
+{
+  "news": [
+    {
+      "title": "加拿大养老金AIMCo买入Strategy",
+      "summary": "加拿大养老金巨头AIMCo于2026年Q1买入138万股Strategy股票，目前浮盈约6900万美元。Strategy是比特币最大的企业持有者，AIMCo的买入表明传统大型机构认可Strategy的比特币策略，间接利好比特币。信号：看多。影响币种：BTC。",
+      "reason": "优先级二：机构动向。养老金巨头增持Strategy，对比特币构成间接利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/01/canadian-pension-giant-aimco-buys-the-dip-in-strategy-now-sitting-on-usd69-million-unrealized-gain"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/510992.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普加密项目合作方涉诈骗",
+      "summary": "特朗普加密项目合作方被曝与受制裁诈骗团伙有关联。该消息可能对特朗普相关代币（如WLFI）造成负面情绪，但对比特币等主流币影响有限。信号：看空（针对特朗普相关项目）。影响币种：暂无明确主流币种，但可能影响整体市场情绪。",
+      "reason": "优先级一：项目方负面事件。虽然影响范围有限，但涉及特朗普个人品牌，可能引发短期抛压。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc1pMVFJ1V2ZZU3JlMTNYbS1xZGhhODl2dHkyd29Uc2c1MFFXcVAxRl9mb0xuUHhwSTFkenpCRFZVeUZEZ3ZPNC1VZFNxWG1xY3c3V2hqcm55RUtzNGl3bEp5QTF3WnZlOVBCRGNpNkNiNVo5M1RmTHFRZjE1MGQ1LXF2Z2Q1Y00xY2NRbXRaVEdpbVhtRGxMbUhSZ3dZWTNwbmo0S0oxcUFncEx5ZFNB?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储领导层变动影响预期",
+      "summary": "关于美联储即将到来的领导层变动可能影响未来货币政策。若新主席偏鸽，则利好风险资产；若偏鹰，则利空。目前市场仍在观望，信号中性。影响币种：BTC、ETH等整体加密市场。",
+      "reason": "优先级二：宏观经济数据。美联储领导层变动直接影响利率路径，对风险资产影响较大。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Cryptonews.net", "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE02cU12ZXFnMjZTclctUmJNaV9YOGtlbUo5RFk4cms0eW43aWhYTXJuMGMzZEZpT01UbXRGQUhYS09wM1Ffa3p5azlTVTZLdWlqUG1nckFDVmg?oc=5"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于大部分消息与历史重复，仅筛选出3条有效新消息。"
+}
