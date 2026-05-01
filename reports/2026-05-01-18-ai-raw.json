@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-01",
+  "hour": "18",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12885,
+    "completion_tokens": 2270,
+    "total_tokens": 15155
+  },
+  "content_length": 2223,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"巴西央行禁虚拟资产跨境结算\",\n      \"summary\": \"巴西央行发布新规，禁止受监管的eFX跨境支付通道使用虚拟资产进行结算。这意味着巴西境内合规的跨境支付机构不能通过加密货币如USDT、BTC等进行结算，可能影响巴西用户的出入金通道和加密流动性。该政策短期对巴西加密市场构成利空，限制合规渠道的加密使用，但长期可能推动去中心化替代方案。影响币种主要为稳定币 USDT/USDC 以及 BTC/ETH 在巴西市场的流动性。信号：看空，但影响范围限于巴西，全球影响有限。\",\n      \"reason\": \"优先级一监管政策，直接影响巴西加密合规使用，可能引发局部抛压。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDT\", \"USDC\", \"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/510952.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Meta推出USDC创作者支付\",\n      \"summary\": \"Meta宣布在Solana和Polygon上推出USDC创作者支付功能，允许内容创作者以USDC接收收入。这是大型科技公司采用加密货币支付的里程碑，直接利好Solana和Polygon生态，增加链上USDC使用场景和需求。可能吸引更多用户进入Solana和Polygon，推动SOL和MATIC（POL）价格上涨。信号：看多。\",\n      \"reason\": \"优先级二项目更新，大型科技公司集成加密支付，显著提升生态采用。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"SOL\", \"POL\", \"USDC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t0o1jz/meta_launches_usdc_creator_payouts_on_solana_and/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"霍尔木兹海峡对峙升级\",\n      \"summary\": \"CNBC报道霍尔木兹海峡对峙威胁豪华汽车巨头，但更深远影响是可能推高油价。地缘政治紧张通常引发避险情绪，但历史表明石油价格飙升可能压制风险资产包括加密货币。目前比特币已反弹至77k上方，但若油价持续上涨，可能引发通胀担忧和美联储鹰派预期，对加密构成中期利空。信号：短期中性，中期偏空。\",\n      \"reason\": \"优先级二宏观经济，地缘政治风险影响风险资产偏好，需关注油价走势。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CNBC\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiggFBVV95cUxObGh6MnZIRFJIZnk3T2VmLUpNUUNwMWUzTkM2aVR5TE1hRTQ5ZWhUVHcwQTJSRWYxY3htVDh0Z29aVzV5NEU0UDRLUVd5eTRJeS1ycGlZNFZjMVNocDlMVFp4Mnk2YS1fYjd5eDlvbHVJMHI0bjlTYnF3bTQzRU9PVDdB0gGHAUFVX3lxTE90eF9FSkl1eUlkLWcxQjZuaFdBSjVnNC1iMVBCeG5rbXlUZnZKdUlURHFET0I5WkxDellwSzBkdmROZ0Rmc1hzSzI2TGdSdzJCeVcyMlJyTXdjZGJNVWNYQjhTVnB5N2dQeEQ3TUE5TlV6U0NyT3hRSjFxQ1JqaDl3VHg5Q2NuMA?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"由于历史消息大量重复，仅筛选出3条有独立交易价值的新消息。\"\n}"
+}

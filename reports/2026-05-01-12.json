@@ -23,26 +23,6 @@
       "urgency": "immediate"
     },
     {
-      "title": "加密市场结构法案或推进",
-      "summary": "消息人士透露，加密市场结构法案可能在五月中旬推进。该法案旨在建立明确的加密资产监管框架，若通过将为市场带来合规利好，吸引更多机构资金。主要利好BTC、ETH等主流币及合规交易所代币BNB。中期看多信号。",
-      "reason": "监管法案推进属优先级一重大监管动态，直接影响市场预期。",
-      "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH",
-        "BNB"
-      ],
-      "signal": "bullish",
-      "impact_level": 3,
-      "sources": [
-        {
-          "name": "金色财经",
-          "url": "https://jinse.com.cn/lives/510922.html"
-        }
-      ],
-      "urgency": "days"
-    },
-    {
       "title": "Q1 GDP增速放缓利好币市",
       "summary": "Benzinga报道，美国Q1 GDP数据弱于预期，市场预期美联储可能放缓紧缩步伐，利好风险资产。比特币、以太坊价格短暂持稳，狗狗币小幅上涨。宏观经济数据走软增加了降息预期，对加密货币中期走势构成支撑。主要利好BTC、ETH。",
       "reason": "宏观经济数据属于优先级二，影响风险资产整体走势。",
@@ -62,25 +42,6 @@
       "urgency": "hours"
     },
     {
-      "title": "恐惧贪婪指数26极度恐惧",
-      "summary": "当前恐惧贪婪指数为26，处于Fear区间。历史数据表明，当指数低于30时，往往对应市场底部区域，适合中长期布局。但短期可能继续下探，建议分批建仓。该指数反映市场情绪，无明显方向但偏向中长期看多。",
-      "reason": "属优先级三市场情绪信号，极值区域有参考意义。",
-      "category": "市场情绪",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
-      "signal": "neutral",
-      "impact_level": 2,
-      "sources": [
-        {
-          "name": "Alternative.me Fear & Greed Index",
-          "url": "https://alternative.me/crypto/fear-and-greed-index/"
-        }
-      ],
-      "urgency": "days"
-    },
-    {
       "title": "美国参议院禁赌预测市场",
       "summary": "CoinTelegraph报道，美国参议院通过法案禁止自身成员参与预测市场投注。此举虽直接针对官员行为，但可能为后续监管预测市场平台（如Polymarket）提供先例，利空相关代币。主要影响POLY等预测市场币种。",
       "reason": "监管政策延伸，属优先级一，虽有针对性但影响有限。",
@@ -97,24 +58,6 @@
         }
       ],
       "urgency": "hours"
-    },
-    {
-      "title": "Binance将上线MegaETH",
-      "summary": "Binance公告将于近期上线MegaETH (MEGA)并开放多种交易对。新币上线通常伴随短期投机热潮，MEGA价格可能大幅波动。利好消息，但风险较高，适合短线交易。MEGA是主要影响币种，可能带动以太坊生态情绪。",
-      "reason": "交易所上币属优先级一，直接影响对应币种。",
-      "category": "交易所",
-      "impact_coins": [
-        "MEGA"
-      ],
-      "signal": "bullish",
-      "impact_level": 2,
-      "sources": [
-        {
-          "name": "Binance",
-          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
-        }
-      ],
-      "urgency": "immediate"
     },
     {
       "title": "Circle推出无gas小额支付",

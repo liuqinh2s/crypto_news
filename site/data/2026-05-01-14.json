@@ -55,44 +55,6 @@
         }
       ],
       "urgency": "hours"
-    },
-    {
-      "title": "加密市场结构法案或五月中旬推进",
-      "summary": "消息人士透露，美国加密市场结构法案可能在5月中旬获得推进。该法案旨在为数字资产提供监管框架，若通过将利好整个市场，增加合规性和机构参与。中长期看多。",
-      "reason": "重大监管动态：法案推进是监管利好，影响广泛。",
-      "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
-      "signal": "bullish",
-      "impact_level": 4,
-      "sources": [
-        {
-          "name": "金色财经",
-          "url": "https://jinse.com.cn/lives/510925.html"
-        }
-      ],
-      "urgency": "days"
-    },
-    {
-      "title": "美国参议院禁止自身预测市场投注",
-      "summary": "美国参议院通过法案，禁止议员在预测市场进行投注。这可能对Polymarket等预测市场平台产生监管压力，短期利空相关代币（如POLY、REP等），但影响范围有限。",
-      "reason": "监管政策：直接限制预测市场，利空相关币种。",
-      "category": "监管政策",
-      "impact_coins": [
-        "POLY",
-        "REP"
-      ],
-      "signal": "bearish",
-      "impact_level": 2,
-      "sources": [
-        {
-          "name": "CoinTelegraph",
-          "url": "https://cointelegraph.com/news/us-senate-bans-itself-from-betting-on-prediction-markets"
-        }
-      ],
-      "urgency": "hours"
     }
   ],
   "total_fetched": 37,

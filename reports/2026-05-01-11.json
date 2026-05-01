@@ -3,24 +3,6 @@
   "hour": "11",
   "news": [
     {
-      "title": "比特币ETF流出4.9亿美元",
-      "summary": "据CoinTelegraph报道，现货比特币ETF近24小时净流出超4.9亿美元，创近期新高，显示机构资金离场。此信号对BTC短期价格构成压力，看空。",
-      "reason": "优先级一：ETF资金大规模流出直接影响BTC价格，属于机构减持信号。",
-      "category": "ETF机构",
-      "impact_coins": [
-        "BTC"
-      ],
-      "signal": "bearish",
-      "impact_level": 4,
-      "sources": [
-        {
-          "name": "CoinTelegraph",
-          "url": "https://cointelegraph.com/markets/spot-bitcoin-etf-outflows-top-490m-is-btcs-rally-losing-momentum"
-        }
-      ],
-      "urgency": "immediate"
-    },
-    {
       "title": "加密市场结构法案或五月推进",
       "summary": "消息人士称，美国加密市场结构法案可能于五月中旬在国会推进，若通过将提供明确监管框架，利好主流币合规化。中性偏多，需关注后续进展。",
       "reason": "优先级二：监管政策利好中期影响，可能推动市场情绪。",
