@@ -1061,3 +1061,63 @@ content length: 3651
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3042, prompt_tokens=13630, total_tokens=16672, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2225, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=12606)
+content length: 1962
+============================================================
+{
+  "news": [
+    {
+      "title": "加拿大禁止加密ATM",
+      "summary": "加拿大宣布成立金融犯罪机构并禁止加密货币ATM，以打击洗钱。这是加拿大首次在全国范围内禁止加密ATM，可能减少加国加密流动性，但对全球市场影响有限。短期看空BTC和ETH，因监管趋严，但可能刺激去中心化替代方案。",
+      "reason": "监管政策新动态，直接影响加密市场情绪，属于优先级一中的重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t0r0vr/canada_to_launch_financial_crimes_agency_and_ban/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "代币化黄金交易量创新高",
+      "summary": "Tokenized Gold Q1 2026交易量超过2025全年总和，表明机构对代币化实物资产需求激增。这对PAXG、XAUT等相关代币构成利好，但间接利好BTC作为数字黄金的叙事。看多信号，但需警惕短期过热。",
+      "reason": "链上指标异常增长，反映机构入场趋势，属于优先级二中的机构动向。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "PAXG", "XAUT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t0q99y/tokenized_gold_q1_2026_volume_surpasses_all_of/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "分析师警告比特币崩盘风险",
+      "summary": "KITCO分析师指出比特币当前走势类似2022年崩盘前的形态，市场可能面临重大回调。该观点引发短期看空情绪，但需结合资金费率等指标验证。如果BTC无法突破$80k，可能加速下跌。",
+      "reason": "KOL集体看空信号，属于优先级三中的市场情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "KITCO via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaGw5eTVDVEl0TXFIYVVxWldBbHBNRnNhanN4U01pRjg3ak5zQ2M2UE0zMUpSY2NuR1oyZ0FxTFN1aHAzRXJkUl8wNDl6cUMyMWRMMHB5azZWdFJkOERWNGpIN1NGeDNGSnoxeEpkbi1YdGExdng4RFozWk5DVnBEUmZ3eDZsNlF4RFlnZHpaUkVQSDBEdlFuNTdKVWdPMG1yUTVzTWxSX05hRF93b1E?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于历史消息已覆盖大部分事件，本轮仅筛选出3条新且有交易价值的消息。"
+}

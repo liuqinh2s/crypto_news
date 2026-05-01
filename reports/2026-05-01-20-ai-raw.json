@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-01",
+  "hour": "20",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13630,
+    "completion_tokens": 3042,
+    "total_tokens": 16672
+  },
+  "content_length": 1962,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"加拿大禁止加密ATM\",\n      \"summary\": \"加拿大宣布成立金融犯罪机构并禁止加密货币ATM，以打击洗钱。这是加拿大首次在全国范围内禁止加密ATM，可能减少加国加密流动性，但对全球市场影响有限。短期看空BTC和ETH，因监管趋严，但可能刺激去中心化替代方案。\",\n      \"reason\": \"监管政策新动态，直接影响加密市场情绪，属于优先级一中的重大监管动态。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t0r0vr/canada_to_launch_financial_crimes_agency_and_ban/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"代币化黄金交易量创新高\",\n      \"summary\": \"Tokenized Gold Q1 2026交易量超过2025全年总和，表明机构对代币化实物资产需求激增。这对PAXG、XAUT等相关代币构成利好，但间接利好BTC作为数字黄金的叙事。看多信号，但需警惕短期过热。\",\n      \"reason\": \"链上指标异常增长，反映机构入场趋势，属于优先级二中的机构动向。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"PAXG\", \"XAUT\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t0q99y/tokenized_gold_q1_2026_volume_surpasses_all_of/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"分析师警告比特币崩盘风险\",\n      \"summary\": \"KITCO分析师指出比特币当前走势类似2022年崩盘前的形态，市场可能面临重大回调。该观点引发短期看空情绪，但需结合资金费率等指标验证。如果BTC无法突破$80k，可能加速下跌。\",\n      \"reason\": \"KOL集体看空信号，属于优先级三中的市场情绪。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"KITCO via Crypto Twitter\",\n          \"url\": \"https://news.google.com/rss/articles/CBMirgFBVV95cUxOaGw5eTVDVEl0TXFIYVVxWldBbHBNRnNhanN4U01pRjg3ak5zQ2M2UE0zMUpSY2NuR1oyZ0FxTFN1aHAzRXJkUl8wNDl6cUMyMWRMMHB5azZWdFJkOERWNGpIN1NGeDNGSnoxeEpkbi1YdGExdng4RFozWk5DVnBEUmZ3eDZsNlF4RFlnZHpaUkVQSDBEdlFuNTdKVWdPMG1yUTVzTWxSX05hRF93b1E?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"由于历史消息已覆盖大部分事件，本轮仅筛选出3条新且有交易价值的消息。\"\n}"
+}
