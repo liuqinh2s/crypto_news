@@ -309,3 +309,79 @@ content length: 4714
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1714, prompt_tokens=6122, total_tokens=7836, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=787, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=5098)
+content length: 2401
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF净流入2350万美元",
+      "summary": "昨日美国现货比特币ETF净流入2350万美元，与此前连续大幅流出形成反差，显示机构买盘有所恢复。可能影响BTC价格短期反弹，但流入规模较小，需观察持续性。看多信号。",
+      "reason": "ETF资金流向直接影响BTC价格，属于优先级一。虽仅2350万，但扭转了此前4.9亿流出的悲观情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/510928.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "ETH ETF净流出2370万美元",
+      "summary": "昨日美国现货以太坊ETF净流出2370万美元，延续近期颓势，表明机构对ETH兴趣低迷。可能压制ETH价格，尤其当前ETH表现弱于BTC。看空信号。",
+      "reason": "ETH ETF流出直接利空ETH，与BTC ETF流入形成对比，影响资金情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/510929.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "民主党施压Tether涉嫌贿赂",
+      "summary": "民主党参议员就Tether涉嫌贿赂美商务部长一事对其施压，若调查升级可能导致USDT监管收紧或信任危机。USDT是市场主要流动性工具，任何负面消息都可能引发短期抛售，影响BTC、ETH等主流币。看空信号。",
+      "reason": "Tether面临监管压力属于优先级一的重大监管动态，可能引发系统性风险。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/510925.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线MegaETH (MEGA)",
+      "summary": "Binance将上线MegaETH (MEGA)并开放现货及衍生品交易，新币上线通常带来短期炒作资金和流动性。MEGA作为以太坊生态热门项目，可能吸引交易者关注。短期内看多MEGA。",
+      "reason": "交易所上币直接影响对应币种交易量和价格，属于优先级一。MEGA是新项目，但上币效应显著。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数26（恐惧）",
+      "summary": "当前恐惧贪婪指数为26，处于恐惧区间但未到极度恐惧（<20）。历史数据显示该区域往往接近局部底部，但短期可能继续震荡。中长期看多可布局，但需等待情绪反转信号。中性偏多。",
+      "reason": "情绪指数极值对中期趋势有参考价值，当前恐惧水平提供潜在抄底机会，但非立即买入信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
