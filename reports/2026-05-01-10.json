@@ -1,0 +1,108 @@
+{
+  "date": "2026-05-01",
+  "hour": "10",
+  "news": [
+    {
+      "title": "比特币ETF流出近5亿美元",
+      "summary": "多个加密货币新闻源报道，比特币ETF在最近交易日内净流出近5亿美元，显示机构投资者情绪转向恐惧。这可能引发短期抛压，影响BTC价格。信号看空，对BTC构成直接利空。",
+      "reason": "优先级一：ETF资金流动直接影响行情，大规模净流出为明确看空信号。",
+      "category": "ETF机构",
+      "impact_coins": [
+        "BTC"
+      ],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPblY1Q1k2U3l6VGJTdlQ2M2VmZ1I0T1ZIYy1JNlpzQ05Kc0NBcDIza1FXbmMtQTh5OVh5andrR3RsU05LTDY5WEJkcEU4LXpkVHZsT3UxcFQ0UWhZX05udFNhSEF3OUlYNkJMbk9NREx6R1RqemhobDNWUDdnRnljX3Fad2stMFVfT2RWbUZnbGFFbGR3VEZkN0dnbDVBOVppTmxyc2x5ZFh1clQwZzVmNw?oc=5"
+        },
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5qWjVwSUY0X0FubE0wTjBNOHg4SU9iSS1NZE5NSlRpbGtXOXh5eVRFRzUxR1BpdkFfVlo4bFNZUnRMSDBsdWRIM1RmM3g1b3dwNnVpQVZJcEo?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架MegaETH",
+      "summary": "Binance宣布将上线MegaETH（MEGA）并开放现货、杠杆及合约交易，种子标签适用。新币上线通常带来短期价格上涨和流动性增加，但需注意高波动风险。信号看多MEGA。",
+      "reason": "优先级一：交易所上币直接影响对应币种价格，属于直接利好。",
+      "category": "交易所",
+      "impact_coins": [
+        "MEGA"
+      ],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架Chip",
+      "summary": "Binance将上线Chip（CHIP）并开放现货及衍生品交易，CHIP通过HODLer空投分配。新币上市通常带来短线交易机会，但项目热度有待验证。信号看多CHIP。",
+      "reason": "优先级一：交易所上币直接影响价格，属利好。",
+      "category": "交易所",
+      "impact_coins": [
+        "CHIP"
+      ],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国多州禁止比特币ATM",
+      "summary": "加拿大和印第安纳州相继宣布禁止或限制比特币ATM，区域监管收紧可能限制加密货币的零售进入渠道，轻微利空整体市场情绪，但影响范围有限。信号中性偏空。",
+      "reason": "优先级一：监管动态，但限制ATM而非核心交易，影响中等。",
+      "category": "监管政策",
+      "impact_coins": [
+        "BTC",
+        "ETH"
+      ],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t0ffrn/us_canada_is_banning_crypto_atms/"
+        },
+        {
+          "name": "WFIE News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc3p2OVFLM0ZBbW5maFYxdVVlajhZYzUxdG9jOW5QMDFoaG1iR0JpM1NyZl93SmNPUjdYb2VZUkg1M1pxMFl3Qzg0d0h0ZWRUejlpcUx4OTR5bWtjdGc2S3ZPbEtCcFdKUjRKUzhrM3YxSlVXUUdjQ0lqV052YkJCMXFaci1XOEMyRzBhXzBxcmlwb1p3VW9ZNQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数降至26",
+      "summary": "加密货币恐惧贪婪指数当前为26（恐惧），处于历史低位。通常极度恐惧区域（<20）是抄底信号，但26仍属恐慌区间，可能暗示市场超卖，中长期偏多，短期可能继续震荡。信号中性。",
+      "reason": "优先级三：市场情绪极值可作中长期参考，但当前数值未达极端。",
+      "category": "市场情绪",
+      "impact_coins": [
+        "BTC",
+        "ETH"
+      ],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "total_fetched": 39,
+  "generated_at": "2026-05-01T10:05:33.703662+08:00"
+}
