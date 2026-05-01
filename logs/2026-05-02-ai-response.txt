@@ -121,3 +121,154 @@ content length: 4325
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2068, prompt_tokens=16204, total_tokens=18272, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1781, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15180)
+content length: 719
+============================================================
+{
+  "news": [
+    {
+      "title": "CoinShares AUM达74亿美元",
+      "summary": "欧洲加密资管公司CoinShares在纳斯达克上市后首次年度申报中披露，截至2026年第一季度末管理资产规模（AUM）达74亿美元。该数据表明机构资金仍在流入加密市场，尽管近期价格波动，但长期资管规模增长利好市场情绪。可能影响BTC、ETH等主流币，信号偏看多。",
+      "reason": "机构动向，CoinShares AUM创纪录显示机构持续布局，属中期利好信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399741/european-crypto-asset-manager-coinshares-2025-earnings?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时历史消息与素材高度重复，仅筛选出1条未出现过的独立消息。恐惧贪婪指数26已持续多时，未变化。Binance公告均为旧闻。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3229, prompt_tokens=16204, total_tokens=19433, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1567, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=16128), prompt_cache_hit_tokens=16128, prompt_cache_miss_tokens=76)
+content length: 4254
+============================================================
+{
+  "news": [
+    {
+      "title": "Riot Q1收入增，AMD合作翻倍",
+      "summary": "比特币矿企Riot Platforms公布Q1财报，数据中心收入增长，且与AMD的芯片合作规模翻倍。这显示矿企多元化收入能力增强，对Riot股票和比特币矿工群体是积极信号。短期可能提振BTC miner板块，但BTC本身影响有限。信号：bullish，影响矿工股及BTC。",
+      "reason": "矿企财报超预期，反映行业健康度，间接利好BTC。属优先级二：机构动向。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/366347/riot-stock-pops-bitcoin-miner-data-center-revenue-doubled-amd-deal"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MoonPay推AI代理稳定币卡",
+      "summary": "MoonPay与Mastercard合作推出借记卡，允许AI代理使用稳定币支付。这打通了AI代理与链下消费的通道，可能推动稳定币（USDC/USDT）在AI场景的采用。长期利好稳定币生态，但短期无直接影响。信号：bullish，影响稳定币及支付概念币。",
+      "reason": "支付创新，稳定币用例扩展，属优先级二：技术升级/里程碑。",
+      "category": "项目更新",
+      "impact_coins": ["USDC", "USDT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/366341/moonpay-launches-debit-mastercard-ai-agents-pay-stablecoins"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Meta用USDC支付创作者",
+      "summary": "Meta开始在Solana和Polygon上通过USDC向创作者支付报酬，此举将显著增加USDC在社交平台的使用量。对Solana和Polygon生态是积极信号，可能提升链上活跃度。信号：bullish，影响USDC、SOL、MATIC。",
+      "reason": "大型科技公司采用稳定币支付，推动链上活动，属优先级二：机构动向。",
+      "category": "项目更新",
+      "impact_coins": ["USDC", "SOL", "MATIC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t0xjhh/meta_just_started_paying_creators_in_usdc_and_the/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Galaxy称Tether XXI媲美MSTR",
+      "summary": "Galaxy Research认为Tether与XXI的合并可能打造出类似MicroStrategy的比特币巨头。这凸显了Tether的盈利能力和比特币储备潜力，可能增强市场对Tether和MicroStrategy的信心。信号：bullish，影响MSTR和Tether相关资产。",
+      "reason": "机构研报看好，可能影响MSTR股价及比特币持仓预期，属优先级二：机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t0z4hg/why_galaxy_sees_tether_xxi_merger_rivaling/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线多只股票永续",
+      "summary": "Binance Futures推出MSFT、AVGO、BABA、MU、SNDK、QQQ、SPY、AAPL、TSM等股票永续合约。这为加密投资者提供了传统股票敞口，可能推动资金流入Binance，并促进加密与传统金融融合。短期对加密市场影响有限，但中长期利好平台币BNB。信号：neutral，影响BNB及传统金融代币化。",
+      "reason": "交易所推出新合约产品，虽非直接影响加密，但反映行业扩展，属优先级一：交易所上币。",
+      "category": "交易所",
+      "impact_coins": ["BNB"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/16fe15060947481ab240fb398230a3ee"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bisq协议漏洞暂停交易",
+      "summary": "去中心化交易所Bisq发现1 Trade协议漏洞，调查期间暂停交易。这可能影响Bisq用户和交易量，但Bisq市场规模较小。对整体加密市场影响微乎其微。信号：bearish，仅影响BSQ。",
+      "reason": "交易所安全事件，但影响范围小，属优先级一：项目方重大事件（黑客攻击）。",
+      "category": "项目更新",
+      "impact_coins": ["BSQ"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Reddit r/bitcoin",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1t0xgkt/psa_bisq_1_trade_protocol_exploit_discovered/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Eric Trump加密项目陷危机",
+      "summary": "Eric Trump的加密项目被曝投资者损失5亿美元，项目濒临崩溃。这打击了特朗普家族相关加密项目的声誉，可能对WLFI等代币造成下行压力。但项目非主流，影响有限。信号：bearish，影响WLFI及相关meme币。",
+      "reason": "名人项目负面事件，可能引发恐慌抛售，属优先级一：项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["WLFI"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeWlLdzJ5dFgzM2EzemlRVVV1WTRmM3hZT2Z5RnVtVXBQRW9UR3lvWVlpc05lTHFQMzNqQy1DSFVxMFN5cGx0SzQtU0l5U1dlR05PQTZRQWd5RGxkSndiREZnUlE5V1ZSb2l6ejJwUEpUa3prNkhTSVFTTmFUQmx1RUVB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
