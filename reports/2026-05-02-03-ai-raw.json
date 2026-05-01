@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-02",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 14255,
+    "completion_tokens": 3789,
+    "total_tokens": 18044
+  },
+  "content_length": 2008,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"以太坊基金会抛售1万ETH\",\n      \"summary\": \"以太坊基金会已完成向Tom Lee的BitMine出售1万ETH（约2300万美元），作为其财务策略的一部分。此前基金会已多次出售ETH，本次交易后总销售额达4700万美元。同时，历史数据显示基金会关联钱包还向Kraken存入1744枚ETH，显示持续减持倾向。这将增加市场ETH抛压，短期内可能打压价格。影响币种：ETH。信号看空，建议合约做多者谨慎。\",\n      \"reason\": \"以太坊基金会大规模抛售ETH，属于项目方重大事件，直接影响ETH供需，是明确的看空信号。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/business/2026/05/01/ethereum-foundation-finalizes-sale-of-10-000-ether-to-bitmine-as-part-of-its-treasury-strategy\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"ETH显现10亿美元买盘支撑\",\n      \"summary\": \"市场数据显示以太坊出现约10亿美元的买盘力量，尽管美联储维持鹰派立场。该买盘可能来自机构资金或巨鲸逢低吸纳，表明市场对ETH有较强支撑。结合近期ETH价格在2300美元附近企稳，买盘信号有助于缓解抛压，可能推动ETH短期反弹。影响币种：ETH。信号看多。\",\n      \"reason\": \"大额买盘属于链上异动或市场结构变化，显示资金流入，是看多信号。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t129z0/ethereum_shows_strength_with_1_billion_in_buying/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"MSTR涨9% BTC重回7.8万\",\n      \"summary\": \"比特币价格反弹至78000美元，推动MicroStrategy（MSTR）股价上涨9%。MSTR作为最大企业比特币持有者，股价与BTC高度联动。此次上涨反映市场短期乐观情绪，但此前机构增持（如加拿大养老金AIMCo买入Strategy股票）也提供支撑。不过需注意比特币在8万美元附近面临阻力。影响币种：BTC。信号中性偏多，短期交易者可关注突破情况。\",\n      \"reason\": \"机构相关反弹，反映市场情绪和资金流入，属于中期影响消息。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Bitcoin Magazine\",\n          \"url\": \"https://bitcoinmagazine.com/news/strategy-mstr-stock-bitcoin-price-back-78k\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ],\n  \"note\": \"今日交易相关消息较少，仅筛选出3条值得关注的新事件。以太坊基金会抛售为明确利空，而10亿美元买盘提供支撑，两者形成多空博弈。MSTR股价反弹为短期情绪指标。建议结合技术面分析。\"\n}"
+}
