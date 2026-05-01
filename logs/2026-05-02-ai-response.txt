@@ -554,3 +554,94 @@ content length: 2631
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3027, prompt_tokens=13440, total_tokens=16467, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1628, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=12416)
+content length: 3237
+============================================================
+{
+  "news": [
+    {
+      "title": "Clarity Act允许稳定币收益",
+      "summary": "CoinDesk披露Clarity Act法案文本细节，允许加密公司提供稳定币收益，同时保护银行收益。该法案若通过，将显著利好稳定币发行商（如USDT/USDC）及相关DeFi协议，增加资金入场意愿。看多稳定币生态，但需关注后续立法进展。",
+      "reason": "稳定币监管法案新进展，优先级一，直接影响稳定币市场结构和资金流动。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "DAI"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/01/clarity-act-text-lets-crypto-firms-offer-stablecoin-rewards-while-shielding-bank-yield"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC三数据预示冲8万",
+      "summary": "CoinTelegraph分析指出，三个链上数据（如活跃地址、矿工持仓、交易所流量）显示BTC突破80K美元在即。当前BTC在78K附近震荡，若数据验证，短期看多。但需警惕宏观压力。",
+      "reason": "技术面分析提供交易信号，属于市场结构分析，优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/3-bitcoin-data-points-suggest-rally-to-80k-is-imminent"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "本周宏观数据密集发布",
+      "summary": "CNBC预告5月第一周将有重要就业和收入数据公布。若数据强劲可能打压降息预期，利空风险资产；若疲软则利好。当前市场对宏观敏感，需密切关注。",
+      "reason": "宏观经济数据直接影响风险资产走势，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTXRfM0NRNlFXNDNCcVBDTTI0UlRVaFdpTDNnSzQ4Uk9oV2YwQ3lQbGlpcnJvQzh5Y1NVaXl0ejY4aTNSN0FaMjZHdWlBelRvRFV4LTdmekh2YTBUX19UckYza0RLZTIxeVBGZHhPOE9HejVQZkNXNHhfZmo5bldyZkwyUThVZmxlcXhBVA?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普称加密可解决住房危机",
+      "summary": "特朗普在Mar-a-Lago峰会上表示加密货币可解决住房短缺问题，释放积极信号。尽管具体措施不明，但特朗普团队持续拥抱加密，有利于市场情绪。短期利好，但影响有限。",
+      "reason": "政治人物积极言论提升市场情绪，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Palm Beach Post",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWS1oUklURUhLRjhYZVY0c0JaRVhmYTVYb0ZCUmNMMy1uc3F1OFR4dktDTFBQMkhKTGw0ZFdxdmVDa1cwcF9mY2VJMVo0eTVFYXNWM1lIZHloRGFGb2ZUa25FSWRUZndzWUZyWE52TUNBSjBZWE5KZGp6dnFBdVFHYTJGZGVQaVh2dmpjX0dXeS0xQjZVV1RTblJsVzVoOWFKU2daQ3BiXy1wRWR0YmpyRmUyWXRkUGYzckNQVW1sWQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CleanSpark扩张德州矿场",
+      "summary": "Yahoo Finance报道CleanSpark在德州扩张及比特币挖矿增长，股价估值引发关注。矿商扩张通常看多BTC，但需关注整体算力增长后对价格的影响。",
+      "reason": "矿商动态影响算力和市场信心，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjdqX3J0S3A4d2oxdUdDRmVta0JiMnotNXZ4OGxaS0szQ290N253dk11LWlmSmZTbmw2aHJDdU1Ka2FhRnp5SVpSX2x0d2d3S1Y1N0pWYlVGaF9oazk3VjMwZm5FclZUaTFzSDBEMmQ2eGx2MS15akR5UVgwbF9RZENhRFZPRUZMZ3VhaVBCQ2h2QTlod3Z1aUVNaGY4dkN3TmRn?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
