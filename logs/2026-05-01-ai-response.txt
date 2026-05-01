@@ -1197,3 +1197,80 @@ content length: 2708
   ],
   "note": "由于大量重复新闻，仅筛选出4条新消息。Binance公告、恐惧贪婪指数、巴西央行禁令、Bithumb诉讼、SBI收购等已在历史中出现，未重复收录。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5693, prompt_tokens=14529, total_tokens=20222, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=4549, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13505)
+content length: 2738
+============================================================
+{
+  "news": [
+    {
+      "title": "Tether Q1利润超10亿美元",
+      "summary": "Tether发布Q1财报，净利润达10.4亿美元，储备缓冲创纪录82亿美元，总资产约1917.7亿美元。利润主要来自美国国债和黄金储备收益。USDT供应量未直接变化，但利润增长反映稳定币生态健康，可能吸引更多资金流入。影响USDT及整体市场情绪，短期中性偏多。",
+      "reason": "稳定币领导者利润创新高，显示生态基本面强劲，间接利好流动性。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/399722/tether-posts-over-1-billion-q1-profit-as-reserve-buffer-reaches-record-8-2-billion"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/510960.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Fed官员异议抑制降息预期",
+      "summary": "美联储内部分歧加剧，多名官员反对6月降息，市场对降息预期降温。美联储和欧洲央行本周维持利率不变。降息推迟将施压风险资产，比特币在80K受阻。宏观紧缩预期利空BTC/ETH，短期下跌风险增大。",
+      "reason": "美联储降息预期是短期核心宏观变量，鹰派信号直接利空加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkZoZlM3VFU1VlUtX3RMelpBNExUWkMtbEZnWEFRcjVfc1ZOOTFBT0dWd3JZdlhDc185UDQyZzVKc0V6VWxPR3lwcmRzc0F2R0RJNDNUY0RzX2VwUVNjWTJjaFJkcERwTkNCQW9SclZfeXNpeXBkRVNwZ2hVV0lsWEJpZ3lYSFczYzcxSF9wZ3JPZUIxZ2pSNVBxeDBFNHlpcHNr?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "4月加密VC融资额暴跌74%",
+      "summary": "2026年4月加密市场VC融资额仅6.59亿美元，环比暴跌74%，创2024年7月以来新低。融资低迷反映机构风险偏好下降，新项目资金减少，可能抑制后续创新和代币供应。短期利空市场情绪，但长期或降低抛压。",
+      "reason": "VC融资额是早期指标，骤降显示市场信心不足，利空整体情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/510967.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "DOGE鲸鱼持仓创新高",
+      "summary": "DOGE价格潜在上涨20%，因鲸鱼地址持仓量达历史新高，显示大户增持。技术面显示可能已触底。巨鲸增持通常预示价格上行，短期利好DOGE。",
+      "reason": "链上鲸鱼异动是直接价格信号，增持=看多。",
+      "category": "链上异动",
+      "impact_coins": ["DOGE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/dogecoin-targets-20-gains-as-doge-whale-holdings-reach-new-highs"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗提交与美国谈判新提案",
+      "summary": "伊朗媒体称伊方已提交与美谈判新提案，此前美国威胁重启军事行动。伊朗地缘风险若缓解，将降低油价及避险情绪，利好风险资产如比特币。但谈判进展不确定，短期中性偏多。",
+      "reason": "地缘政治缓和利于风险偏好，加密货币作为风险资产受益。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/510965.html"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
