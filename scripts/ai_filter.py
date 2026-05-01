@@ -377,6 +377,103 @@ def _load_history_titles(hours: int = 6) -> str:
             lines.append(f"# {past_date} {past_hour}:00：无数据\n")
     return "\n".join(lines)
 
+
+def _load_history_filtered_titles(hours: int = 6) -> list[str]:
+    """加载近几小时已筛选报告中的新闻标题，用于程序化去重"""
+    titles = []
+    now_dt = datetime.now(BJT)
+    for i in range(1, hours + 1):
+        past_dt = now_dt - timedelta(hours=i)
+        past_date = past_dt.strftime("%Y-%m-%d")
+        past_hour = past_dt.strftime("%H")
+        report_path = REPORTS_DIR / f"{past_date}-{past_hour}.json"
+        if report_path.exists():
+            try:
+                data = json.loads(report_path.read_text(encoding="utf-8"))
+                for item in data.get("news", []):
+                    title = item.get("title", "").strip()
+                    if title:
+                        titles.append(title)
+            except Exception:
+                pass
+    return titles
+
+
+def _normalize_title(title: str) -> str:
+    """将标题归一化，用于相似度比较：去除标点、空格、统一大小写"""
+    title = title.lower()
+    # 去除常见标点和空格
+    title = re.sub(r'[\s，。、：；！？""''（）\[\]【】\-—·,.!?:;\'"()\[\]{}]', '', title)
+    # 统一数字格式：去除千分位逗号
+    title = re.sub(r'(\d),(\d)', r'\1\2', title)
+    return title
+
+
+def _titles_are_similar(title_a: str, title_b: str) -> bool:
+    """判断两个标题是否描述同一事件"""
+    norm_a = _normalize_title(title_a)
+    norm_b = _normalize_title(title_b)
+
+    # 完全相同
+    if norm_a == norm_b:
+        return True
+
+    # 一个包含另一个
+    if len(norm_a) > 4 and len(norm_b) > 4:
+        if norm_a in norm_b or norm_b in norm_a:
+            return True
+
+    # 提取关键词（长度>=2的中文/英文片段），计算重叠率
+    def extract_keywords(text: str) -> set:
+        # 提取中文词（2字以上连续中文）和英文词
+        cn_words = set(re.findall(r'[\u4e00-\u9fff]{2,}', text))
+        en_words = set(re.findall(r'[a-z]{2,}', text))
+        # 提取数字（含小数）
+        numbers = set(re.findall(r'\d+\.?\d*', text))
+        return cn_words | en_words | numbers
+
+    kw_a = extract_keywords(norm_a)
+    kw_b = extract_keywords(norm_b)
+
+    if not kw_a or not kw_b:
+        return False
+
+    overlap = kw_a & kw_b
+    smaller = min(len(kw_a), len(kw_b))
+
+    if smaller == 0:
+        return False
+
+    # 如果较短标题的关键词有 60% 以上重叠，认为是同一事件
+    return len(overlap) / smaller >= 0.6
+
+
+def _dedup_against_history(filtered_news: list[dict], history_titles: list[str]) -> list[dict]:
+    """对 AI 筛选结果进行程序化去重，移除与历史报告重复的新闻"""
+    if not history_titles:
+        return filtered_news
+
+    deduped = []
+    removed = []
+
+    for news in filtered_news:
+        title = news.get("title", "").strip()
+        is_dup = False
+        for hist_title in history_titles:
+            if _titles_are_similar(title, hist_title):
+                is_dup = True
+                removed.append((title, hist_title))
+                break
+        if not is_dup:
+            deduped.append(news)
+
+    if removed:
+        logger.info(f"🔄 去重：移除 {len(removed)} 条与历史报告重复的新闻")
+        for new_t, old_t in removed:
+            logger.debug(f"  去重: 「{new_t}」 ≈ 历史「{old_t}」")
+
+    return deduped
+
 # ── AI 调用 ──────────────────────────────────────────
 
 def _call_ai_once(client, model_name: str, system_prompt: str, user_prompt: str,
@@ -622,6 +719,10 @@ def ai_filter_news(news_items: list[dict]) -> list[dict]:
     history_text = _load_history_titles(hours=6)
     logger.info(f"📚 已加载历史新闻标题（{len(history_text)} 字符）")
 
+    # 加载历史已筛选报告标题，用于程序化去重
+    history_filtered_titles = _load_history_filtered_titles(hours=6)
+    logger.info(f"📚 已加载历史筛选标题 {len(history_filtered_titles)} 条，用于去重")
+
     providers = _get_fallback_providers()
     if not providers:
         logger.error("无可用的 AI 提供商，跳过 AI 筛选")
@@ -636,7 +737,9 @@ def ai_filter_news(news_items: list[dict]) -> list[dict]:
         )
 
         if result and len(result) >= 3:
-            return _backfill_sources(result, news_items)
+            result = _backfill_sources(result, news_items)
+            result = _dedup_against_history(result, history_filtered_titles)
+            return result
 
         if result and (best_result is None or len(result) > len(best_result)):
             best_result = result
@@ -646,7 +749,9 @@ def ai_filter_news(news_items: list[dict]) -> list[dict]:
 
     if best_result:
         logger.warning(f"⚠️ 所有提供商均未达到 3 条，使用最佳部分结果（{len(best_result)} 条）")
-        return _backfill_sources(best_result, news_items)
+        best_result = _backfill_sources(best_result, news_items)
+        best_result = _dedup_against_history(best_result, history_filtered_titles)
+        return best_result
 
     logger.error("❌ 所有提供商均失败，返回空列表")
     return []

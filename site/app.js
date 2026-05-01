@@ -51,6 +51,48 @@
     localStorage.setItem("crypto-radar-theme", next);
   });
 
+  // ── 去重工具 ─────────────────────────────────────
+  function normalizeTitle(title) {
+    return title.toLowerCase()
+      .replace(/[\s，。、：；！？""''（）\[\]【】\-—·,.!?:;'"()\[\]{}]/g, '')
+      .replace(/(\d),(\d)/g, '$1$2');
+  }
+
+  function titlesAreSimilar(a, b) {
+    const na = normalizeTitle(a);
+    const nb = normalizeTitle(b);
+    if (na === nb) return true;
+    if (na.length > 4 && nb.length > 4) {
+      if (na.includes(nb) || nb.includes(na)) return true;
+    }
+    // 关键词重叠检测
+    function extractKw(t) {
+      const cn = t.match(/[\u4e00-\u9fff]{2,}/g) || [];
+      const en = t.match(/[a-z]{2,}/g) || [];
+      const nums = t.match(/\d+\.?\d*/g) || [];
+      return new Set([...cn, ...en, ...nums]);
+    }
+    const kwA = extractKw(na);
+    const kwB = extractKw(nb);
+    if (!kwA.size || !kwB.size) return false;
+    let overlap = 0;
+    for (const k of kwA) { if (kwB.has(k)) overlap++; }
+    const smaller = Math.min(kwA.size, kwB.size);
+    return smaller > 0 && overlap / smaller >= 0.6;
+  }
+
+  function deduplicateNews(items) {
+    const seen = [];
+    return items.filter((item) => {
+      const title = (item.news || item).title || '';
+      for (const s of seen) {
+        if (titlesAreSimilar(title, s)) return false;
+      }
+      seen.push(title);
+      return true;
+    });
+  }
+
   // ── 工具 ──────────────────────────────────────
   function isWithinHours(dateStr, hourStr, hours) {
     const d = new Date(dateStr + "T" + hourStr + ":00:00+08:00");
@@ -352,13 +394,16 @@
       // 按 impact_level 降序排列
       recentItems.sort((a, b) => getImpactLevel(b.news) - getImpactLevel(a.news));
 
+      // 去重：跨时段合并时移除重复新闻（保留 impact_level 更高的）
+      const dedupedRecent = deduplicateNews(recentItems);
+
       // 渲染多空比例条
-      renderSentimentBar(recentItems);
+      renderSentimentBar(dedupedRecent);
 
       // 渲染最新消息
-      if (recentItems.length) {
+      if (dedupedRecent.length) {
         recentNewsEl.innerHTML = "";
-        recentItems.forEach((item) =>
+        dedupedRecent.forEach((item) =>
           recentNewsEl.appendChild(renderNewsCard(item.news, item.date, item.hour))
         );
       } else {
@@ -399,15 +444,17 @@
       ].join(" ").toLowerCase();
       return keywords.every((kw) => haystack.includes(kw));
     });
-    searchMeta.textContent = `找到 ${matched.length} 条结果`;
-    if (!matched.length) {
+    // 去重搜索结果
+    const dedupedMatched = deduplicateNews(matched);
+    searchMeta.textContent = `找到 ${dedupedMatched.length} 条结果`;
+    if (!dedupedMatched.length) {
       searchResults.innerHTML = renderEmpty("没有找到相关消息");
       return;
     }
     searchResults.innerHTML = "";
     // 搜索结果也按 impact_level 降序
-    matched.sort((a, b) => getImpactLevel(b.news) - getImpactLevel(a.news));
-    matched.forEach((item) =>
+    dedupedMatched.sort((a, b) => getImpactLevel(b.news) - getImpactLevel(a.news));
+    dedupedMatched.forEach((item) =>
       searchResults.appendChild(renderNewsCard(item.news, item.date, item.hour))
     );
   }
