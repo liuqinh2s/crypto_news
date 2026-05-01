@@ -501,3 +501,174 @@ content length: 3802
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3269, prompt_tokens=8540, total_tokens=11809, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1355, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7516)
+content length: 4974
+============================================================
+{
+  "news": [
+    {
+      "title": "2.47亿USDT转入Binance",
+      "summary": "监测数据显示，2.47亿USDT从未知钱包转入Binance交易所。大额稳定币流入交易所通常被视为准备买入的信号，可能预示短期看多情绪。但需警惕资金可能用于套利或做市。该事件直接影响BTC、ETH及主流币种。",
+      "reason": "巨鲸异动：大额USDT转入交易所，属优先级一稳定币供应量变化，资金入场信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH", "USDT"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510936.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Riot转入500BTC至NYDIG",
+      "summary": "矿企Riot Platforms再次向NYDIG转入500枚比特币（约3850万美元）。矿工向托管或机构转入BTC通常是潜在的卖出信号，可能增加市场抛压。这对BTC构成短期看空影响。",
+      "reason": "链上异动：矿工转入交易所/托管机构，属于优先级一巨鲸异动（抛压信号）。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510932.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BitMine质押16万ETH",
+      "summary": "BitMine再次质押超过16万枚以太坊（约3.2亿美元），锁仓行为减少市场流通供应，对ETH价格形成支撑。属于长期看多信号，但短期影响取决于质押动机。",
+      "reason": "项目更新：大额质押锁定，属优先级一项目方重大事件（利好）。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510931.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至26",
+      "summary": "恐惧贪婪指数为26（恐惧），接近极度恐惧区域。历史上该区域是中长期抄底机会，市场悲观情绪可能过度，后续反弹概率较大。对整体市场中性偏多，但短期可能继续下探。",
+      "reason": "市场情绪：恐惧贪婪指数极低，属优先级三，中长线看多信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上线MegaETH (MEGA)并开放现货交易，同时支持理财、借贷等产品。新币上线交易所通常带来短期炒作和交易量激增，利好MEGA价格。但种子标签提示高风险，需注意波动。",
+      "reason": "交易所：上币公告，属优先级一直接影响行情。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "a16z地址解除HYPE质押",
+      "summary": "被Arkham标记为a16z的地址解除了超过4000枚HYPE的质押（价值约180万美元），可能准备出售。VIP减持信号，对HYPE构成抛压，看空。",
+      "reason": "链上异动：巨鲸解除质押，属优先级一巨鲸异动（潜在抛售）。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510937.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "渣打预测欧洲央行6月加息",
+      "summary": "渣打银行预测欧洲央行将在6月加息25个基点。紧缩货币政策将打压风险资产，包括加密货币。宏观环境转紧，整体利空。",
+      "reason": "宏观经济：加息预期，属优先级二，影响风险资产走势。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510935.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "老旧ETH钱包遭批量攻击",
+      "summary": "安全公司Specter报告，大量创建超过5年的以太坊钱包正被攻击，已损失超过80万美元。安全事件可能引发用户恐慌，短期打压ETH情绪，但规模较小影响有限。",
+      "reason": "链上异动：安全事件，属优先级一项目方重大事件（黑客攻击），但规模小。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510939.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC突破77000美元",
+      "summary": "比特币价格突破77000美元，创近期高点。但伴随ETF资金流出和地缘风险，上涨持续性存疑。突破本身为看多信号，但需警惕假突破。",
+      "reason": "市场结构：价格突破关键位，属优先级一直接影响行情。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/510942.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗局势限制BTC上行",
+      "summary": "比特币反弹至77000美元，但因美以伊紧张局势和油价飙升，风险资产上行空间受限。地缘政治不确定性可能引发避险情绪，利空风险资产。",
+      "reason": "宏观经济：地缘政治风险，属优先级二，中期影响行情。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX0o2andzYzdFU3Nyb1FHRlpBelpPM2Z5WU4wU1E0UUtRTnVaaTVfSE5iUTQzRFVHOExVR0VTMFJnNjhOUm1mYVJoUXZDb29OX1Q5MDNkTk53ay0yQUstWXVBNXFidVMzelNaZXN6UjBucEZ2bFI2eERGQWhIc3dnOHhxUWRGQXdmV1Y0SjJhU3lXRWhGU1dZ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
