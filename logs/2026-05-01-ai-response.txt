@@ -76,3 +76,97 @@ content length: 3135
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2236, prompt_tokens=5517, total_tokens=7753, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=835, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=4493)
+content length: 3530
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币ETF流出4.9亿美元",
+      "summary": "据CoinTelegraph报道，现货比特币ETF近24小时净流出超4.9亿美元，创近期新高，显示机构资金离场。此信号对BTC短期价格构成压力，看空。",
+      "reason": "优先级一：ETF资金大规模流出直接影响BTC价格，属于机构减持信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/spot-bitcoin-etf-outflows-top-490m-is-btcs-rally-losing-momentum"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "加密市场结构法案或五月推进",
+      "summary": "消息人士称，美国加密市场结构法案可能于五月中旬在国会推进，若通过将提供明确监管框架，利好主流币合规化。中性偏多，需关注后续进展。",
+      "reason": "优先级二：监管政策利好中期影响，可能推动市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/510922.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Arbitrum DAO投票释放冻结ETH",
+      "summary": "Arbitrum DAO开始投票是否释放此前冻结的以太坊，若通过将增加流通供应，对ETH短期有潜在抛压，但长期利好Arbitrum生态。偏空。",
+      "reason": "优先级二：项目方重大事件，影响ETH和ARB。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "ARB"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/510923.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "多州禁止比特币ATM",
+      "summary": "加拿大部分地区及美国印第安纳州相继出台禁令限制比特币ATM，反映监管收紧趋势，可能抑制散户入场情绪，对BTC偏空。",
+      "reason": "优先级一：监管禁令直接打击加密采用渠道，影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t0ffrn/us_canada_is_banning_crypto_atms/"},
+        {"name": "14 News", "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc3p2OVFLM0ZBbW5maFYxdVVlajhZYzUxdG9jOW5QMDFoaG1iR0JpM1NyZl93SmNPUjdYb2VZUkg1M1pxMFl3Qzg0d0h0ZWRUejlpcUx4OTR5bWtjdGc2S3ZPbEtCcFdKUjRKUzhrM3YxSlVXUUdjQ0lqV052YkJCMXFaci1XOEMyRzBhXzBxcmlwb1p3VW9ZNQ?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上架MegaETH和Chip",
+      "summary": "Binance宣布将上线MegaETH (MEGA)和Chip (CHIP)，并开放交易对及合约。新币上线通常带来短期炒作机会，看多。",
+      "reason": "优先级一：交易所上币直接影响对应币种价格。",
+      "category": "交易所",
+      "impact_coins": ["MEGA", "CHIP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f"},
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至26",
+      "summary": "当前恐惧贪婪指数为26，处于恐惧区间，但未达极度恐惧。历史经验表明恐惧区域可能接近底部，但需观望。中性。",
+      "reason": "优先级三：情绪指标，可作为中长期参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Visa将稳定币融入支付体系",
+      "summary": "Visa正将稳定币整合到主流支付基础设施中，可能推动USDC等稳定币采用，长期利好加密支付生态。偏多。",
+      "reason": "优先级二：大型机构动向，中期利好。",
+      "category": "项目更新",
+      "impact_coins": ["USDC", "USDT", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t0f14r/visa_is_quietly_building_stablecoins_into/"}],
+      "urgency": "days"
+    }
+  ]
+}
