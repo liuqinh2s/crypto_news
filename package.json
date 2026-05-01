@@ -5,10 +5,18 @@
   "scripts": {
     "fetch": "python scripts/fetch_news.py",
     "filter": "python scripts/ai_filter.py",
-    "build": "python scripts/build.py",
+    "dedup": "python scripts/dedup_reports.py",
+    "build": "python scripts/dedup_reports.py && python scripts/build.py",
     "report": "python scripts/generate_report.py",
     "start": "python -m http.server 8080 -d site"
   },
-  "keywords": ["crypto", "news", "bitcoin", "ethereum", "trading", "ai"],
+  "keywords": [
+    "crypto",
+    "news",
+    "bitcoin",
+    "ethereum",
+    "trading",
+    "ai"
+  ],
   "license": "MIT"
 }

@@ -37,6 +37,9 @@ jobs:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: python scripts/generate_report.py
 
+      - name: Dedup existing reports
+        run: python scripts/dedup_reports.py
+
       - name: Build site data
         run: python scripts/build.py
 

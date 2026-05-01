@@ -444,8 +444,8 @@ def _titles_are_similar(title_a: str, title_b: str) -> bool:
     if smaller == 0:
         return False
 
-    # 如果较短标题的关键词有 60% 以上重叠，认为是同一事件
-    return len(overlap) / smaller >= 0.6
+    # 如果较短标题的关键词有 70% 以上重叠，认为是同一事件
+    return len(overlap) / smaller >= 0.7
 
 
 def _dedup_against_history(filtered_news: list[dict], history_titles: list[str]) -> list[dict]:
