@@ -3,29 +3,6 @@
   "hour": "14",
   "news": [
     {
-      "title": "BTC ETF净流入2350万",
-      "summary": "美国现货比特币ETF昨日净流入2350万美元，而以太坊ETF净流出2370万美元。这可能反映机构对BTC的偏好增强，但对ETH信心不足。BTC方面利好，ETH方面利空。综合看，BTC短期有资金支撑，ETH面临抛压。",
-      "reason": "直接影响行情：ETF资金流动是市场风向标。BTC净流入为bullish信号，ETH净流出为bearish信号。",
-      "category": "ETF机构",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
-      "signal": "bullish",
-      "impact_level": 4,
-      "sources": [
-        {
-          "name": "金色财经",
-          "url": "https://jinse.com.cn/lives/510928.html"
-        },
-        {
-          "name": "金色财经",
-          "url": "https://jinse.com.cn/lives/510929.html"
-        }
-      ],
-      "urgency": "hours"
-    },
-    {
       "title": "Riot Platforms转入500 BTC至NYDIG",
       "summary": "比特币矿企Riot Platforms再次向NYDIG转入500枚比特币。NYDIG为机构托管方，矿工转入通常为潜在出售做准备，可能增加市场抛压。此举看空BTC，但500枚数量中等，影响有限。",
       "reason": "巨鲸异动：矿工向托管方转移比特币常用于兑换法币，可能预示抛售。",
@@ -60,25 +37,6 @@
         }
       ],
       "urgency": "hours"
-    },
-    {
-      "title": "恐惧贪婪指数26 (恐惧)",
-      "summary": "恐惧贪婪指数降至26，处于恐惧区间。历史上该区域常是中长期底部区域，适合分批建仓。但短期价格可能仍有波动，不宜追空。",
-      "reason": "市场情绪信号：极端恐惧通常暗示过度悲观，中长期看多。",
-      "category": "市场情绪",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
-      "signal": "bullish",
-      "impact_level": 2,
-      "sources": [
-        {
-          "name": "Alternative.me",
-          "url": "https://alternative.me/crypto/fear-and-greed-index/"
-        }
-      ],
-      "urgency": "days"
     },
     {
       "title": "BTC突破7.7万，做空者承压",
@@ -135,24 +93,6 @@
         }
       ],
       "urgency": "hours"
-    },
-    {
-      "title": "Binance上线MegaETH (MEGA)",
-      "summary": "Binance宣布上线MegaETH (MEGA)，并添加种子标签。新币上线通常带来短期炒作和流动性，MEGA可能获得上涨动力。但种子标签提示高风险，波动剧烈。",
-      "reason": "交易所事件：新币上线直接利好对应币种。",
-      "category": "交易所",
-      "impact_coins": [
-        "MEGA"
-      ],
-      "signal": "bullish",
-      "impact_level": 3,
-      "sources": [
-        {
-          "name": "Binance公告",
-          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
-        }
-      ],
-      "urgency": "immediate"
     }
   ],
   "total_fetched": 37,

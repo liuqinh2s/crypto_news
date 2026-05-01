@@ -3,24 +3,6 @@
   "hour": "12",
   "news": [
     {
-      "title": "比特币ETF流出4.9亿美元",
-      "summary": "据CoinTelegraph报道，现货比特币ETF在近6小时内净流出超过4.9亿美元，创近期新高。大规模资金流出通常反映机构投资者情绪转为悲观，可能预示着BTC价格短期下行压力增大。主要受影响币种为BTC，可能带动ETH等主流币跟随回调。信号明确看空。",
-      "reason": "ETF资金流直接影响BTC供需，属优先级一重大机构动向。",
-      "category": "ETF机构",
-      "impact_coins": [
-        "BTC"
-      ],
-      "signal": "bearish",
-      "impact_level": 4,
-      "sources": [
-        {
-          "name": "CoinTelegraph",
-          "url": "https://cointelegraph.com/markets/spot-bitcoin-etf-outflows-top-490m-is-btcs-rally-losing-momentum"
-        }
-      ],
-      "urgency": "hours"
-    },
-    {
       "title": "民主党参议员施压Tether涉贿",
       "summary": "金色财经报道，美国民主党参议员就Tether涉嫌贿赂美商务部长一事对其施压。该事件可能引发监管调查，威胁USDT的稳定性，进而影响整个加密市场流动性。若USDT被认定违规，可能导致大规模抛售和信任危机。USDT本身及相关交易对风险较高，整体市场看空。",
       "reason": "涉及稳定币监管，属优先级一重大监管动态，直接影响市场流动性。",
