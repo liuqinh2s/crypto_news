@@ -1,0 +1,76 @@
+name: Hourly Crypto News Report
+
+on:
+  workflow_dispatch: # 支持手动触发
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: hourly-report
+  cancel-in-progress: true
+
+jobs:
+  fetch-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch news & AI filter
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+          HUOSHAN_API_KEY: ${{ secrets.HUOSHAN_API_KEY }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: python scripts/generate_report.py
+
+      - name: Build site data
+        run: python scripts/build.py
+
+      - name: Commit reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/ site/data/ logs/
+          git diff --cached --quiet || git commit -m "📡 $(date -u +'%Y-%m-%d %H:%M') UTC report"
+          git push
+
+  deploy-pages:
+    needs: fetch-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Pull latest
+        run: git pull origin main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

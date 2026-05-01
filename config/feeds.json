@@ -1,0 +1,164 @@
+{
+    "rss_feeds": {
+        "CoinDesk": {
+            "urls": [
+                "https://www.coindesk.com/arc/outboundfeeds/rss/",
+                "https://rsshub.rssforever.com/coindesk/most-popular",
+                "https://news.google.com/rss/search?q=site:coindesk.com&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "The Block": {
+            "urls": [
+                "https://www.theblock.co/rss.xml",
+                "https://rsshub.rssforever.com/theblock",
+                "https://news.google.com/rss/search?q=site:theblock.co&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "Decrypt": {
+            "urls": [
+                "https://decrypt.co/feed",
+                "https://news.google.com/rss/search?q=site:decrypt.co+crypto&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "CoinTelegraph": {
+            "urls": [
+                "https://cointelegraph.com/rss",
+                "https://rsshub.rssforever.com/cointelegraph",
+                "https://news.google.com/rss/search?q=site:cointelegraph.com&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "Bitcoin Magazine": {
+            "urls": [
+                "https://bitcoinmagazine.com/.rss/full/",
+                "https://bitcoinmagazine.com/feed",
+                "https://news.google.com/rss/search?q=site:bitcoinmagazine.com&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "Blockworks": {
+            "urls": [
+                "https://blockworks.co/feed",
+                "https://news.google.com/rss/search?q=site:blockworks.co+crypto&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "DL News": {
+            "urls": [
+                "https://www.dlnews.com/rss/",
+                "https://news.google.com/rss/search?q=site:dlnews.com+crypto&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "金色财经": {
+            "urls": [
+                "https://rsshub.rssforever.com/jinse/lives",
+                "https://rsshub.app/jinse/lives",
+                "https://news.google.com/rss/search?q=site:jinse.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+            ]
+        },
+        "PANews": {
+            "urls": [
+                "https://rsshub.rssforever.com/panewslab/news",
+                "https://rsshub.app/panewslab/news",
+                "https://news.google.com/rss/search?q=site:panewslab.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+            ]
+        },
+        "律动BlockBeats": {
+            "urls": [
+                "https://rsshub.rssforever.com/theblockbeats/newsflash",
+                "https://rsshub.app/theblockbeats/newsflash",
+                "https://news.google.com/rss/search?q=site:theblockbeats.info&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+            ]
+        },
+        "吴说区块链": {
+            "urls": [
+                "https://rsshub.rssforever.com/wublock",
+                "https://rsshub.app/wublock",
+                "https://news.google.com/rss/search?q=%E5%90%B4%E8%AF%B4%E5%8C%BA%E5%9D%97%E9%93%BE+crypto&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+            ]
+        },
+        "Bloomberg Crypto": {
+            "urls": [
+                "https://news.google.com/rss/search?q=bloomberg+crypto+bitcoin&hl=en-US&gl=US&ceid=US:en",
+                "https://rsshub.rssforever.com/bloomberg/crypto"
+            ]
+        },
+        "Reuters Crypto": {
+            "urls": [
+                "https://news.google.com/rss/search?q=reuters+cryptocurrency+bitcoin&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "CNBC Crypto": {
+            "urls": [
+                "https://news.google.com/rss/search?q=site:cnbc.com+crypto+bitcoin&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "Reddit r/cryptocurrency": {
+            "urls": [
+                "https://www.reddit.com/r/cryptocurrency/hot/.rss",
+                "https://rsshub.rssforever.com/reddit/subreddit/cryptocurrency/hot",
+                "https://rsshub.app/reddit/subreddit/cryptocurrency/hot"
+            ]
+        },
+        "Reddit r/bitcoin": {
+            "urls": [
+                "https://www.reddit.com/r/bitcoin/hot/.rss",
+                "https://rsshub.rssforever.com/reddit/subreddit/bitcoin/hot",
+                "https://rsshub.app/reddit/subreddit/bitcoin/hot"
+            ]
+        },
+        "Crypto Twitter": {
+            "urls": [
+                "https://rsshub.rssforever.com/twitter/list/crypto_news",
+                "https://rsshub.app/twitter/list/crypto",
+                "https://news.google.com/rss/search?q=bitcoin+OR+ethereum+OR+crypto&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "宏观经济": {
+            "urls": [
+                "https://news.google.com/rss/search?q=federal+reserve+OR+CPI+OR+interest+rate+crypto&hl=en-US&gl=US&ceid=US:en",
+                "https://news.google.com/rss/search?q=%E7%BE%8E%E8%81%94%E5%82%A8+%E5%8A%A0%E6%81%AF+%E9%99%8D%E6%81%AF+CPI&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+            ]
+        }
+    },
+    "trending_feeds": {
+        "Binance公告": {
+            "type": "api",
+            "url": "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&pageNo=1&pageSize=20",
+            "parser": "binance_announcement"
+        },
+        "OKX公告": {
+            "type": "api",
+            "url": "https://www.okx.com/api/v5/support/announcements?page=1&limit=20",
+            "parser": "okx_announcement"
+        },
+        "Bitget公告": {
+            "type": "api",
+            "url": "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=all",
+            "parser": "bitget_announcement"
+        },
+        "Whale Alert": {
+            "type": "rss",
+            "urls": [
+                "https://rsshub.rssforever.com/whalealert/recent",
+                "https://rsshub.app/whalealert/recent"
+            ]
+        },
+        "Fear & Greed Index": {
+            "type": "api",
+            "url": "https://api.alternative.me/fng/?limit=1",
+            "parser": "fear_greed"
+        },
+        "DeFi Llama": {
+            "type": "rss",
+            "urls": [
+                "https://rsshub.rssforever.com/defillama/protocol",
+                "https://news.google.com/rss/search?q=DeFi+TVL+protocol&hl=en-US&gl=US&ceid=US:en"
+            ]
+        },
+        "雪球加密": {
+            "type": "rss",
+            "urls": [
+                "https://rsshub.rssforever.com/xueqiu/hotstock/0",
+                "https://news.google.com/rss/search?q=%E6%AF%94%E7%89%B9%E5%B8%81+%E4%BB%A5%E5%A4%AA%E5%9D%8A+%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+            ]
+        }
+    }
+}

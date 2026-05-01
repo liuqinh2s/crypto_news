@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Reports (keep directory structure)
+reports/*.json
+reports/*.md
+
+# Site data
+site/data/

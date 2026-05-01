@@ -1,0 +1,14 @@
+{
+  "name": "crypto-news-radar",
+  "version": "1.0.0",
+  "description": "币圈消息雷达 - 每小时扫描全网加密货币消息，AI 筛选交易信号",
+  "scripts": {
+    "fetch": "python scripts/fetch_news.py",
+    "filter": "python scripts/ai_filter.py",
+    "build": "python scripts/build.py",
+    "report": "python scripts/generate_report.py",
+    "start": "python -m http.server 8080 -d site"
+  },
+  "keywords": ["crypto", "news", "bitcoin", "ethereum", "trading", "ai"],
+  "license": "MIT"
+}
