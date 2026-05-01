@@ -41,6 +41,18 @@ def _extract_keywords(text: str) -> set[str]:
     return cn_words | en_words | numbers
 
 
+def _bigram_similarity(a: str, b: str) -> float:
+    """计算两个字符串的 bigram（二字组）相似度，适合捕捉中文近义表述"""
+    if len(a) < 2 or len(b) < 2:
+        return 0.0
+    bigrams_a = set(a[i:i+2] for i in range(len(a) - 1))
+    bigrams_b = set(b[i:i+2] for i in range(len(b) - 1))
+    if not bigrams_a or not bigrams_b:
+        return 0.0
+    overlap = len(bigrams_a & bigrams_b)
+    return (2.0 * overlap) / (len(bigrams_a) + len(bigrams_b))
+
+
 def _titles_are_similar(title_a: str, title_b: str) -> bool:
     """判断两个标题是否描述同一事件"""
     norm_a = _normalize_title(title_a)
@@ -53,18 +65,21 @@ def _titles_are_similar(title_a: str, title_b: str) -> bool:
         if norm_a in norm_b or norm_b in norm_a:
             return True
 
+    # 关键词重叠检测
     kw_a = _extract_keywords(norm_a)
     kw_b = _extract_keywords(norm_b)
 
-    if not kw_a or not kw_b:
-        return False
+    if kw_a and kw_b:
+        overlap = kw_a & kw_b
+        smaller = min(len(kw_a), len(kw_b))
+        if smaller > 0 and len(overlap) / smaller >= 0.7:
+            return True
 
-    overlap = kw_a & kw_b
-    smaller = min(len(kw_a), len(kw_b))
-    if smaller == 0:
-        return False
+    # bigram 相似度兜底：捕捉"上线/上架/将上线"等近义表述
+    if _bigram_similarity(norm_a, norm_b) >= 0.6:
+        return True
 
-    return len(overlap) / smaller >= 0.7
+    return False
 
 
 # ── 去重主逻辑 ────────────────────────────────────────
@@ -96,8 +111,9 @@ def dedup_reports(dry_run: bool = False) -> dict:
         print("📭 没有找到报告文件")
         return {"total_files": 0, "total_removed": 0}
 
-    # 已出现过的标题集合（归一化后）
+    # 已出现过的标题和 URL
     seen_titles: list[str] = []
+    seen_urls: set[str] = set()
     total_removed = 0
     modified_files = 0
 
@@ -123,16 +139,32 @@ def dedup_reports(dry_run: bool = False) -> dict:
                 deduped.append(item)
                 continue
 
+            # 提取该条新闻的所有来源 URL
+            item_urls = set()
+            for s in item.get("sources", []):
+                if isinstance(s, dict):
+                    url = s.get("url", "")
+                    if url and url.startswith("http"):
+                        item_urls.add(url)
+
+            # 优先级 1：URL 精确匹配（最可靠）
+            dup_url = item_urls & seen_urls
+            if dup_url:
+                removed_in_file.append((title, f"URL重复: {next(iter(dup_url))[:60]}..."))
+                continue
+
+            # 优先级 2：标题相似度匹配（兜底）
             is_dup = False
             for seen in seen_titles:
                 if _titles_are_similar(title, seen):
                     is_dup = True
-                    removed_in_file.append((title, seen))
+                    removed_in_file.append((title, f"标题相似: {seen}"))
                     break
 
             if not is_dup:
                 deduped.append(item)
                 seen_titles.append(title)
+                seen_urls.update(item_urls)
 
         if removed_in_file:
             total_removed += len(removed_in_file)
@@ -149,11 +181,16 @@ def dedup_reports(dry_run: bool = False) -> dict:
                     encoding="utf-8",
                 )
         else:
-            # 即使没有重复，也要把标题加入 seen
+            # 即使没有重复，也要把标题和 URL 加入 seen
             for item in news:
                 title = item.get("title", "").strip()
                 if title:
                     seen_titles.append(title)
+                for s in item.get("sources", []):
+                    if isinstance(s, dict):
+                        url = s.get("url", "")
+                        if url and url.startswith("http"):
+                            seen_urls.add(url)
 
     stats = {
         "total_files": len(files),

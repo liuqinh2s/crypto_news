@@ -74,21 +74,47 @@
     }
     const kwA = extractKw(na);
     const kwB = extractKw(nb);
-    if (!kwA.size || !kwB.size) return false;
-    let overlap = 0;
-    for (const k of kwA) { if (kwB.has(k)) overlap++; }
-    const smaller = Math.min(kwA.size, kwB.size);
-    return smaller > 0 && overlap / smaller >= 0.6;
+    if (kwA.size && kwB.size) {
+      let overlap = 0;
+      for (const k of kwA) { if (kwB.has(k)) overlap++; }
+      const smaller = Math.min(kwA.size, kwB.size);
+      if (smaller > 0 && overlap / smaller >= 0.7) return true;
+    }
+    // bigram 相似度兜底：捕捉"上线/上架/将上线"等近义表述
+    function bigramSimilarity(s1, s2) {
+      if (s1.length < 2 || s2.length < 2) return 0;
+      const bg = (s) => { const r = new Set(); for (let i = 0; i < s.length - 1; i++) r.add(s.slice(i, i + 2)); return r; };
+      const a = bg(s1), b = bg(s2);
+      let ov = 0;
+      for (const x of a) { if (b.has(x)) ov++; }
+      return (2 * ov) / (a.size + b.size);
+    }
+    if (bigramSimilarity(na, nb) >= 0.6) return true;
+    return false;
   }
 
   function deduplicateNews(items) {
-    const seen = [];
+    const seenTitles = [];
+    const seenUrls = new Set();
     return items.filter((item) => {
-      const title = (item.news || item).title || '';
-      for (const s of seen) {
+      const news = item.news || item;
+      const title = news.title || '';
+
+      // 优先级 1：URL 精确匹配
+      const urls = (news.sources || [])
+        .filter((s) => typeof s === 'object' && s.url && s.url.startsWith('http'))
+        .map((s) => s.url);
+      for (const u of urls) {
+        if (seenUrls.has(u)) return false;
+      }
+
+      // 优先级 2：标题相似度
+      for (const s of seenTitles) {
         if (titlesAreSimilar(title, s)) return false;
       }
-      seen.push(title);
+
+      seenTitles.push(title);
+      urls.forEach((u) => seenUrls.add(u));
       return true;
     });
   }

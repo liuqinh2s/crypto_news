@@ -378,9 +378,10 @@ def _load_history_titles(hours: int = 6) -> str:
     return "\n".join(lines)
 
 
-def _load_history_filtered_titles(hours: int = 6) -> list[str]:
-    """加载近几小时已筛选报告中的新闻标题，用于程序化去重"""
+def _load_history_filtered_titles(hours: int = 6) -> tuple[list[str], set[str]]:
+    """加载近几小时已筛选报告中的新闻标题和来源 URL，用于程序化去重"""
     titles = []
+    urls = set()
     now_dt = datetime.now(BJT)
     for i in range(1, hours + 1):
         past_dt = now_dt - timedelta(hours=i)
@@ -394,9 +395,14 @@ def _load_history_filtered_titles(hours: int = 6) -> list[str]:
                     title = item.get("title", "").strip()
                     if title:
                         titles.append(title)
+                    for s in item.get("sources", []):
+                        if isinstance(s, dict):
+                            url = s.get("url", "")
+                            if url and url.startswith("http"):
+                                urls.add(url)
             except Exception:
                 pass
-    return titles
+    return titles, urls
 
 
 def _normalize_title(title: str) -> str:
@@ -407,6 +413,18 @@ def _normalize_title(title: str) -> str:
     # 统一数字格式：去除千分位逗号
     title = re.sub(r'(\d),(\d)', r'\1\2', title)
     return title
+
+
+def _bigram_similarity(a: str, b: str) -> float:
+    """计算两个字符串的 bigram（二字组）相似度，适合捕捉中文近义表述"""
+    if len(a) < 2 or len(b) < 2:
+        return 0.0
+    bigrams_a = set(a[i:i+2] for i in range(len(a) - 1))
+    bigrams_b = set(b[i:i+2] for i in range(len(b) - 1))
+    if not bigrams_a or not bigrams_b:
+        return 0.0
+    overlap = len(bigrams_a & bigrams_b)
+    return (2.0 * overlap) / (len(bigrams_a) + len(bigrams_b))
 
 
 def _titles_are_similar(title_a: str, title_b: str) -> bool:
@@ -435,42 +453,62 @@ def _titles_are_similar(title_a: str, title_b: str) -> bool:
     kw_a = extract_keywords(norm_a)
     kw_b = extract_keywords(norm_b)
 
-    if not kw_a or not kw_b:
-        return False
+    if kw_a and kw_b:
+        overlap = kw_a & kw_b
+        smaller = min(len(kw_a), len(kw_b))
+        # 如果较短标题的关键词有 70% 以上重叠，认为是同一事件
+        if smaller > 0 and len(overlap) / smaller >= 0.7:
+            return True
 
-    overlap = kw_a & kw_b
-    smaller = min(len(kw_a), len(kw_b))
+    # bigram 相似度兜底：捕捉"上线/上架/将上线"等近义表述
+    if _bigram_similarity(norm_a, norm_b) >= 0.6:
+        return True
 
-    if smaller == 0:
-        return False
-
-    # 如果较短标题的关键词有 70% 以上重叠，认为是同一事件
-    return len(overlap) / smaller >= 0.7
+    return False
 
 
-def _dedup_against_history(filtered_news: list[dict], history_titles: list[str]) -> list[dict]:
+def _dedup_against_history(filtered_news: list[dict], history_titles: list[str],
+                          history_urls: set[str] | None = None) -> list[dict]:
     """对 AI 筛选结果进行程序化去重，移除与历史报告重复的新闻"""
-    if not history_titles:
+    if not history_titles and not history_urls:
         return filtered_news
+
+    if history_urls is None:
+        history_urls = set()
 
     deduped = []
     removed = []
 
     for news in filtered_news:
         title = news.get("title", "").strip()
+
+        # 优先级 1：URL 精确匹配
+        news_urls = set()
+        for s in news.get("sources", []):
+            if isinstance(s, dict):
+                url = s.get("url", "")
+                if url and url.startswith("http"):
+                    news_urls.add(url)
+
+        dup_url = news_urls & history_urls
+        if dup_url:
+            removed.append((title, f"URL重复: {next(iter(dup_url))[:60]}"))
+            continue
+
+        # 优先级 2：标题相似度匹配
         is_dup = False
         for hist_title in history_titles:
             if _titles_are_similar(title, hist_title):
                 is_dup = True
-                removed.append((title, hist_title))
+                removed.append((title, f"标题相似: {hist_title}"))
                 break
         if not is_dup:
             deduped.append(news)
 
     if removed:
         logger.info(f"🔄 去重：移除 {len(removed)} 条与历史报告重复的新闻")
-        for new_t, old_t in removed:
-            logger.debug(f"  去重: 「{new_t}」 ≈ 历史「{old_t}」")
+        for new_t, reason in removed:
+            logger.debug(f"  去重: 「{new_t}」 → {reason}")
 
     return deduped
 
@@ -719,9 +757,9 @@ def ai_filter_news(news_items: list[dict]) -> list[dict]:
     history_text = _load_history_titles(hours=6)
     logger.info(f"📚 已加载历史新闻标题（{len(history_text)} 字符）")
 
-    # 加载历史已筛选报告标题，用于程序化去重
-    history_filtered_titles = _load_history_filtered_titles(hours=6)
-    logger.info(f"📚 已加载历史筛选标题 {len(history_filtered_titles)} 条，用于去重")
+    # 加载历史已筛选报告标题和 URL，用于程序化去重
+    history_filtered_titles, history_filtered_urls = _load_history_filtered_titles(hours=6)
+    logger.info(f"📚 已加载历史筛选标题 {len(history_filtered_titles)} 条、URL {len(history_filtered_urls)} 个，用于去重")
 
     providers = _get_fallback_providers()
     if not providers:
@@ -738,7 +776,7 @@ def ai_filter_news(news_items: list[dict]) -> list[dict]:
 
         if result and len(result) >= 3:
             result = _backfill_sources(result, news_items)
-            result = _dedup_against_history(result, history_filtered_titles)
+            result = _dedup_against_history(result, history_filtered_titles, history_filtered_urls)
             return result
 
         if result and (best_result is None or len(result) > len(best_result)):
@@ -750,7 +788,7 @@ def ai_filter_news(news_items: list[dict]) -> list[dict]:
     if best_result:
         logger.warning(f"⚠️ 所有提供商均未达到 3 条，使用最佳部分结果（{len(best_result)} 条）")
         best_result = _backfill_sources(best_result, news_items)
-        best_result = _dedup_against_history(best_result, history_filtered_titles)
+        best_result = _dedup_against_history(best_result, history_filtered_titles, history_filtered_urls)
         return best_result
 
     logger.error("❌ 所有提供商均失败，返回空列表")
