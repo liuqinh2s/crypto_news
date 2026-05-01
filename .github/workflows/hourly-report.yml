@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add reports/ site/data/ logs/
+          git add -f reports/ site/data/ logs/
           git diff --cached --quiet || git commit -m "📡 $(date -u +'%Y-%m-%d %H:%M') UTC report"
           git push
 
