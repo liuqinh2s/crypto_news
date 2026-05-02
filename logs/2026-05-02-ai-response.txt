@@ -1525,3 +1525,63 @@ content length: 1847
   ],
   "note": "本轮素材中大部分Binance公告和历史重复，恐惧贪婪指数未变，仅筛选出3条新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1513, prompt_tokens=8597, total_tokens=10110, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=833, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7573)
+content length: 1744
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC期权仅25%概率5月到$84K",
+      "summary": "据CoinTelegraph，尽管比特币近期上涨，但BTC期权市场定价显示5月触及84,000美元的概率仅为25%。这意味着市场对持续上涨信心不足，短期内可能面临回调压力。该数据反映机构对冲情绪，建议谨慎追多。影响币种：BTC。信号：bearish（看涨概率低，可能预示短期见顶）。",
+      "reason": "直接反映市场对BTC价格预期，期权概率低暗示多头动能可能衰竭，属优先级三市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-rally-extends-yet-btc-options-price-only-25-chance-of-84k-in-may"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "英改革党领袖涉加密捐赠利益冲突",
+      "summary": "英国改革党领袖因接受加密投资者500万英镑捐赠被指存在利益冲突，可能引发监管审查。此类政治丑闻易导致监管收紧，对加密行业形象不利。影响币种：BTC、ETH及相关合规币种。信号：bearish（监管趋紧风险）。",
+      "reason": "涉及政治与加密关联，可能引发监管负面关注，属优先级一监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511026.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket与Kalshi交易量破1500亿美元",
+      "summary": "预测市场Polymarket和Kalshi累计交易量突破1500亿美元，显示链上预测市场持续活跃。大量资金涌入预测平台反映市场投机情绪升温，同时为加密生态带来新流量，长期利好ETH等基础设施。影响币种：ETH、MATIC（Polygon）等。信号：bullish（生态繁荣）。",
+      "reason": "预测市场爆发代表加密应用层增长，属优先级二生态里程碑，但非直接行情驱动。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "MATIC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511025.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于大量Binance公告及ETF数据在历史消息中已存在且无更新，仅筛选出3条有交易价值的新消息。"
+}
