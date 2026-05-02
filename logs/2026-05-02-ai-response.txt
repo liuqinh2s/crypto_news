@@ -858,3 +858,130 @@ content length: 1932
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2020, prompt_tokens=11136, total_tokens=13156, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=524, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10112)
+content length: 4014
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案奖励机制公布",
+      "summary": "Coinbase政策负责人宣布，《CLARITY法案》中关于稳定币奖励机制的最终条文现已公布，允许加密公司提供稳定币奖励同时屏蔽银行存款收益。该法案为美国加密市场提供了更清晰的监管框架，利好稳定币和DeFi项目，可能吸引更多机构入场。影响币种：USDT、USDC、DAI等稳定币及DeFi代币。信号：看多。",
+      "reason": "监管政策重大进展，直接影响稳定币奖励和银行收益划分，属于优先级一监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "DAI"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511006.html"
+        },
+        {
+          "name": "Bloomberg Crypto",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-01/coinbase-says-deal-reached-on-key-part-of-crypto-market-bill"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "以太坊基金会售出1万ETH",
+      "summary": "以太坊基金会已向BitMine出售1万枚ETH，价值约2300万美元，作为其财务策略的一部分。此前基金会已多次出售ETH，此次抛售增加市场抛压，短期利空ETH价格。但基金会表示此为正常财务管理，不影响长期发展。影响币种：ETH。信号：看空。",
+      "reason": "项目方重大事件，直接抛售大量代币，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/01/ethereum-foundation-finalizes-sale-of-10000-ether-to-bitmine/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "加拿大养老金AIMCo买入Strategy",
+      "summary": "加拿大养老金巨头AIMCo在第一季度买入138万股Strategy（MSTR）股票，当前浮盈约6900万美元，表明传统机构对比特币的间接配置需求增加。Strategy是比特币持仓最大的上市公司，此举提振市场信心，利好BTC及MSTR。影响币种：BTC。信号：看多。",
+      "reason": "机构动向，大型养老金买入比特币Proxy股票，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511010.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tether Q1利润10.4亿美元",
+      "summary": "Tether发布Q1财报，净利润10.4亿美元，储备金达到82.3亿美元历史新高，显示稳定币发行商基本面强劲。USDT作为主要交易对，其增发通常被视为资金入场信号，但此次为利润报告，对流动性影响中性偏多。影响币种：BTC、ETH。信号：中性。",
+      "reason": "稳定币供应量变化相关，虽非直接增发，但体现项目健康度，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/01/tether-posts-104-billion-q1-profit-reaches-823-billion-reserve-buffer/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储6月维持利率概率92.8%",
+      "summary": "据CME数据显示，美联储6月维持利率不变的概率高达92.8%，市场预期利率环境稳定，利好风险资产。虽然并非降息，但暂停加息的预期缓解了宏观压力，对加密货币市场构成支撑。影响币种：BTC、ETH。信号：看多。",
+      "reason": "宏观经济数据预期，直接影响风险资产定价，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511007.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Paradigm提时间戳逃生机制",
+      "summary": "Paradigm研究员提出时间戳逃生机制，旨在保护中本聪时代比特币免受量子攻击威胁。该提案目前处于研究阶段，若实施将提升比特币长期安全性，但短期影响有限。影响币种：BTC。信号：中性。",
+      "reason": "技术升级提案，虽非立即执行，但关系到比特币核心安全，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/xxxxx/paradigm-proposes-timestamp-escape-hatch-quantum-threats"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币技术指标暗示涨至8万",
+      "summary": "CoinTelegraph报道指出，三个比特币链上数据点暗示价格可能反弹至8万美元。尽管BTC已从低点回升至7.8万附近，但技术面看涨信号增强，可能吸引技术交易者入场。影响币种：BTC。信号：看多。",
+      "reason": "链上指标异常，技术分析信号，属于优先级二。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/three-bitcoin-data-suggest-rally-80k-imminent"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
