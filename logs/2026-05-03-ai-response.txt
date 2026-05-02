@@ -403,3 +403,94 @@ content length: 2549
   ],
   "note": "本轮筛选仅4条有效新消息，因多数历史公告重复，且Binance公告类均为旧闻。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2514, prompt_tokens=9625, total_tokens=12139, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1152, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8601)
+content length: 3234
+============================================================
+{
+  "news": [
+    {
+      "title": "CryptoQuant警告BTC涨势投机",
+      "summary": "CryptoQuant分析指出，比特币4月上涨主要由投机驱动，现货需求疲软，且链上指标显示真实购买力不足。若需求未能跟进，可能面临回调风险。该信号对BTC偏空，短期需警惕价格回落。",
+      "reason": "权威链上分析机构发出明确看空警告，直接影响BTC短期交易决策。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399790/cryptoquant-bitcoin-april-price-surge-speculative-spot-demand-weak-correction-risk?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitdeer出售186枚BTC",
+      "summary": "矿企Bitdeer本周出售186枚比特币，目前持仓归零。矿工清仓通常被视为抛压信号，表明短期内市场供应增加，可能对BTC价格形成下行压力。",
+      "reason": "矿工大规模抛售属于链上异动，直接影响BTC供需关系。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511069.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普家族再涉加密操纵",
+      "summary": "Reddit社区爆料特朗普家族再次卷入加密货币市场操纵，具体细节未公开，但此类事件加剧市场对加密行业政治关联的担忧，可能引起短期负面情绪，对BTC及主流币不利。",
+      "reason": "涉及重要政治人物负面消息，可能引发市场恐慌和监管关注。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t20v9v/trump_family_caught_in_cryptolinked_market/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加拿大拟禁加密货币ATM",
+      "summary": "加拿大政府因欺诈担忧计划禁止加密货币ATM，此举可能限制加密货币的便捷出入金渠道，影响市场流动性。加拿大市场占比较小，但监管趋严信号对整体情绪偏空。",
+      "reason": "监管禁令直接冲击加密基础设施，但影响范围有限。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t20rig/canada_wants_to_ban_crypto_atms_as_fraud_fears/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitmine囤积ETH创纪录",
+      "summary": "Bitmine以太坊持仓量创历史新高，引发集中度风险和质押收益疑问。大量ETH锁定可能减少流通供应，短期利好价格，但集中度增加可能导致未来抛压风险。中性信号。",
+      "reason": "巨鲸囤积ETH直接影响供需，但集中度风险需关注。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNlhhakNNMkpTQ1VQQ01SOWxaNV9JeXpFbXBXMzI1Q0xMV1NvT2RGaHJOMy1sS3FuRTViam90bms0SEVhR2oyVVNJS0MtcmxBWnBVaF93azVRMlNMWklVOU5wY3BzbEROVlRDYXRoQVBjaUNyWnlYQ0Y2dG9KWk9RZkdlbkkzUWlrYWIyOWFrbW45Tlg3R215Mnhoa3VTRGxNcVFwYWpsOE4xYWhfb2d5Y2Q0SWZ1eTBpc0Mza1ZhRlNYRU9RdkFQTUZJV2ZIQWJRU19nWmxReEhMcG5vdk5aV9IB5gFBVV95cUxOLWxPNEdHR0tzd1p6NXdWN3JBTE53blRkQVpoUUV5OTJ2VUt6WmVzREd6cDN6UXo2UkhmaTVlOEU1SkRmdm82NHJSamZQYnFVMlR4MmtzcjhYREVxT3Foa196dGp2a2ZyZGdudTdzeFZCeEpPYklTcVExcU13ODY2OEE3bmdPejQ3TEhUZ1ZJQUY1Q2h4MjBFUU9sd2VmQTdreUpGR09Fa0RVeTBVX2xBak5yLWhYWld0aDdKTC03cHRvMTBkdEtrSWlMQ09iV3pMMTlzc19lMHIwaEZ3VmZUM0NNeUgxUQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
