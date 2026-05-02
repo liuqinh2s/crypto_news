@@ -2035,3 +2035,62 @@ content length: 1617
   ],
   "note": "本轮筛选出3条新消息，其余多为重复或无关内容，交易价值有限。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2185, prompt_tokens=9869, total_tokens=12054, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1262, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8845)
+content length: 2109
+============================================================
+{
+  "news": [
+    {
+      "title": "白宫确认五月比特币利好",
+      "summary": "据Forbes报道，白宫悄然确认即将在五月发布一项可能改变比特币价格格局的重大消息。尽管具体内容未披露，但市场预期可能涉及加密货币监管框架或战略储备计划。此消息将直接利好BTC，并可能带动整个加密市场上涨。信号看多。",
+      "reason": "白宫直接确认重大消息，影响级别高，符合优先级一监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Forbes via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUXMxaDlKdzJVNl9SdFZHZ0NtSDVJemczMXZxNkFibnRjaDVUMHYwZHBoUVZ5UVVfRVlNUlVOX29EdDMyVFdjR1VNNjN3dUhETnNjMDVNcVBFWUwxYk9TdVF1OVpfbnk5MmdjOE9kRFlvVXpmQUpQUFNJQ1E5alg2NjZfMzd1YWpERnpwR0Z5RWpabC1GMXBUNUpXbVpaeW45TU5YU1lOS3huN2lBczZSdVRVeWRmY3hSQ0p1Vg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tillis拖延CLARITY法案",
+      "summary": "Crypto Briefing报道，参议员Tillis正在拖延CLARITY法案的推进，该法案此前被视为提供监管清晰度的利好。拖延可能导致市场不确定性增加，短期利空BTC及受益于监管的币种。",
+      "reason": "直接影响行情，符合优先级一监管动态，但需注意此前有妥协消息，此消息可能形成反差，加剧波动。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaTRoM01Nc2VQZjBVXzlkUnhJYTFNT1JxS0hSTG9QcnM1RUhwRDAtdGJoNkoxekxQeHZzOGhFRWxUWnhiSTdtRlFqZlR5djMwa3hGMHN2RHVkdi1NZW1NZlo1SGdwR3IwVDlrV1FFMjNJZ2JCU0p0N2x0N2JpczdYc0NSczVwYk81OEhvQkxlMHlmY3AtbjRBbkZ2dld1Z1E?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Riot Q1营收1.67亿美元",
+      "summary": "Riot Platforms公布一季度财报，营收1.67亿美元，数据中心业务贡献3300万美元。财报显示矿企运营稳健，但对比特币价格直接影响有限。信号中性，但可视为对BTC挖矿生态的支撑。",
+      "reason": "矿企财报对BTC有中期影响，符合优先级二机构动向，但非直接价格驱动。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/riot-posts-167m-in-q1-revenue-as-data-center-arm-pulls-in-33m-in-first-quarter"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
