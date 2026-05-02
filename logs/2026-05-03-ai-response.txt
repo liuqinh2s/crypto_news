@@ -148,3 +148,95 @@ content length: 2129
   ],
   "note": "由于大量历史重复消息，仅筛选出3条新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2107, prompt_tokens=10058, total_tokens=12165, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=974, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9034)
+content length: 2846
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗备战美方军事冒险",
+      "summary": "伊朗军方官员表示已为美方可能的军事冒险做好充分准备，地缘政治紧张局势升级。这可能导致风险资产（包括比特币和以太坊）短期承压，资金避险情绪升温。从合约做多视角看，地缘冲突通常引发抛售，信号偏空。",
+      "reason": "地缘政治风险直接影响风险资产行情，属于优先级一（宏观因素），市场可能迅速反应。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511064.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普批评银行阻挠加密货币立法",
+      "summary": "特朗普在TRUMP持有者活动中批评银行阻挠加密货币立法，暗示支持加密行业。这可能推动美国国会加速推进利好监管，如CLARITY法案。虽然立法过程不确定，但言论本身提振市场信心，对BTC和ETH产生积极情绪。信号偏多。",
+      "reason": "监管政策动态，特朗普作为政治人物发声可能影响立法进度，属于优先级一（监管动态）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511062.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "WisdomTree加密ETP季净流入1.37亿美元",
+      "summary": "WisdomTree旗下加密货币ETP产品一季度净流入1.37亿美元，显示机构资金持续进入加密市场。尽管金额不大，但表明传统金融机构对数字资产的配置意愿，对BTC和ETH形成中长期买盘支撑。信号偏多。",
+      "reason": "机构动向是中期影响因子，资金流入代表需求增加，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511061.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伯克希尔现金创纪录并反对比特币",
+      "summary": "伯克希尔哈撒韦现金储备达3970亿美元创纪录，同时Greg Abel保持巴菲特的反比特币立场。巨额现金表明巴菲特看淡风险资产，反加密立场对市场情绪有轻微打压，但影响有限。信号偏空。",
+      "reason": "机构巨头言论影响市场情绪，属于优先级三，但巴菲特影响力大，可视为中期情绪指标。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhbV9KaGRjZHFBVGd4Y2RXSWJDVG1BZFNTd3BzWi12c1NwZ0ZDNGVCUjhxcmtTdUgxWmt5N1FPRFRLLXZoVnVhTnVIX1JaYUdmY2JwMWtDOW5aOTY5Q2lMQ2MwY0dubnhMOEVnaWJJV0EzeTlXUWRTeg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid推出零费预测市场",
+      "summary": "Hyperliquid发起HIP-4提案，推出零费结果预测市场，直接竞争Polymarket。该项目更新对Hyperliquid生态有正面影响，但主要影响平台代币HYPE，对BTC/ETH影响中性。关注HYPE交易机会。",
+      "reason": "项目更新，属于优先级二，但影响力仅限于特定代币。",
+      "category": "项目更新",
+      "impact_coins": ["HYPE"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t1vdxo/hyperliquid_launches_hip4_and_targets_polymarket/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮消息中巴西央行禁令、CLARITY法案妥协、比特币空投警告等与历史重复已排除；恐惧贪婪指数未变；Binance公告均为重复；剩余5条新消息中地缘政治和特朗普言论影响较大。"
+}
