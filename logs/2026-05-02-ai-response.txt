@@ -1975,3 +1975,63 @@ content length: 2629
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1797, prompt_tokens=9120, total_tokens=10917, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1182, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8096)
+content length: 1617
+============================================================
+{
+  "news": [
+    {
+      "title": "Riot Q1营收1.67亿美元",
+      "summary": "比特币矿企Riot Platforms公布2026年Q1财报，营收1.67亿美元，其中数据中心业务贡献3300万美元。矿企收入增长显示其经营状况良好，但比特币价格未受直接提振。对BTC影响中性，但若矿企持续扩张可能增加算力，长期或对价格形成压力。",
+      "reason": "矿企财报反映行业基本面，属于优先级二项目更新，但影响有限。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/riot-posts-167m-in-q1-revenue-as-data-center-arm-pulls-in-33m-in-first-quarter"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "分析师：BTC跌至5.9万才筑底",
+      "summary": "CryptoQuant分析师模型显示，当前比特币走势尚未完成中长期筑底，价格可能需跌至5.9万美元才能确认底部。该观点基于链上数据，可能引发市场恐慌情绪，对短期走势构成利空，但中长期若实现则可能是买入机会。",
+      "reason": "分析师模型属于市场情绪信号，但具有一定权威性，可能影响短期交易决策。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511041.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国威胁制裁霍尔木兹航运",
+      "summary": "美国威胁对向伊朗支付霍尔木兹海峡安全通行费的航运公司实施制裁，地缘政治风险升级。可能推高油价并引发风险资产抛售，比特币等加密货币短期承压，但影响程度取决于后续行动。",
+      "reason": "地缘政治冲突属于宏观经济风险，可能影响整体市场情绪，但间接影响加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511040.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选出3条新消息，其余多为重复或无关内容，交易价值有限。"
+}
