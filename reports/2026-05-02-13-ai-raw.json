@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-02",
+  "hour": "13",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8889,
+    "completion_tokens": 1700,
+    "total_tokens": 10589
+  },
+  "content_length": 1847,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC ETF净流入6.3亿美元\",\n      \"summary\": \"昨日美国比特币现货ETF净流入6.298亿美元，以太坊ETF净流入1.012亿美元，显示机构资金大举入场。比特币现货ETF连续多日净流入，以太坊ETF同步吸金，利好BTC和ETH价格。从合约做多视角看，这是明确看多信号，资金流入推动上涨。\",\n      \"reason\": \"ETF资金流入是优先级一的高影响消息，直接反映机构需求，对BTC/ETH构成看多动力。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511023.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"BlackRock买入2.84亿BTC\",\n      \"summary\": \"在地缘政治紧张背景下，BlackRock客户向比特币投资2.84亿美元。这是机构持续增持比特币的又一例证，表明传统大型资管公司在风险事件中视比特币为避险资产。资金流入利好BTC价格，看多信号。\",\n      \"reason\": \"机构动向是优先级二消息，BlackRock作为全球最大资产管理公司，其客户投资行为具有标杆意义，推动市场信心。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Briefing via Crypto Twitter\",\n          \"url\": \"https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFNvS1NtWDQ1NzR2Y0RUbVh3dGZhSDlfcFpPYXV6eUJoNm5YalB4TlNUUFNXWU5PbnlNbWF2LTFZUFJMOXVvckRPMlJpZ2o3cUd0ajJ6S2V2d2lpNTRoVXI4dlRZbWdhUDhRNy1GUmtKakJSM2hnUlNOaEs0N0xubVRjdjZMU2l4eDRuSXM5aEpqdHhFNDBnZ2FfZw?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"对冲基金资产规模创新高\",\n      \"summary\": \"美股创新高之际，对冲基金资产规模创新高，反映市场风险偏好提升。虽然非加密货币直接消息，但宏观流动性充裕和风险情绪改善通常利好加密资产，比特币、以太坊等有望间接受益。中性偏多信号。\",\n      \"reason\": \"宏观经济数据（风险偏好）是优先级二消息，对冲基金规模新高暗示资金充裕，可能溢出至加密市场。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511024.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮素材中大部分Binance公告和历史重复，恐惧贪婪指数未变，仅筛选出3条新消息。\"\n}"
+}

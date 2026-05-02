@@ -1465,3 +1465,63 @@ content length: 2080
   ],
   "note": "当前市场消息较少，筛选出4条相关新闻，其他多为重复或无关内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1700, prompt_tokens=8889, total_tokens=10589, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=922, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7865)
+content length: 1847
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF净流入6.3亿美元",
+      "summary": "昨日美国比特币现货ETF净流入6.298亿美元，以太坊ETF净流入1.012亿美元，显示机构资金大举入场。比特币现货ETF连续多日净流入，以太坊ETF同步吸金，利好BTC和ETH价格。从合约做多视角看，这是明确看多信号，资金流入推动上涨。",
+      "reason": "ETF资金流入是优先级一的高影响消息，直接反映机构需求，对BTC/ETH构成看多动力。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511023.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BlackRock买入2.84亿BTC",
+      "summary": "在地缘政治紧张背景下，BlackRock客户向比特币投资2.84亿美元。这是机构持续增持比特币的又一例证，表明传统大型资管公司在风险事件中视比特币为避险资产。资金流入利好BTC价格，看多信号。",
+      "reason": "机构动向是优先级二消息，BlackRock作为全球最大资产管理公司，其客户投资行为具有标杆意义，推动市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFNvS1NtWDQ1NzR2Y0RUbVh3dGZhSDlfcFpPYXV6eUJoNm5YalB4TlNUUFNXWU5PbnlNbWF2LTFZUFJMOXVvckRPMlJpZ2o3cUd0ajJ6S2V2d2lpNTRoVXI4dlRZbWdhUDhRNy1GUmtKakJSM2hnUlNOaEs0N0xubVRjdjZMU2l4eDRuSXM5aEpqdHhFNDBnZ2FfZw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "对冲基金资产规模创新高",
+      "summary": "美股创新高之际，对冲基金资产规模创新高，反映市场风险偏好提升。虽然非加密货币直接消息，但宏观流动性充裕和风险情绪改善通常利好加密资产，比特币、以太坊等有望间接受益。中性偏多信号。",
+      "reason": "宏观经济数据（风险偏好）是优先级二消息，对冲基金规模新高暗示资金充裕，可能溢出至加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511024.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分Binance公告和历史重复，恐惧贪婪指数未变，仅筛选出3条新消息。"
+}
