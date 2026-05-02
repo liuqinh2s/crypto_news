@@ -2154,3 +2154,67 @@ content length: 2054
   ],
   "note": "当前时间段高质量新消息较少，仅筛选出3条，其余重复或无关消息已排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2108, prompt_tokens=10225, total_tokens=12333, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1373, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9201)
+content length: 1840
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸开多9000万美元",
+      "summary": "金色财经报道，某巨鲸重仓开多，总仓位约9000万美元。该巨鲸可能以ETH或BTC为主，大额多头建仓表明其看涨后市，但未披露具体币种和杠杆率。若为ETH，则可能提振ETH短期走势；若为BTC，则利好BTC。需警惕高杠杆风险。信号：看多。",
+      "reason": "巨鲸大额建仓多单，直接反映大户看涨情绪，属链上异动，交易价值高。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511048.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伯克希尔现金储备创纪录",
+      "summary": "伯克希尔哈撒韦一季度现金储备激增至3970亿美元，同时净卖出超80亿美元股票。巴菲特极度保守的操作通常被视为对市场估值过高或经济前景谨慎的信号，可能压制风险资产如加密货币的短期情绪。信号：看空。",
+      "reason": "巴菲特现金储备创纪录是强烈的宏观避险信号，历史上类似操作后市场常出现调整，对BTC等风险资产构成利空。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511050.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511053.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "2.92亿美元DeFi黑客攻击",
+      "summary": "CoinDesk报道，近期发生一起2.92亿美元的DeFi黑客攻击，引发行业对DeFi安全性的担忧。此类事件通常导致相关协议代币下跌，并可能引发更广泛的DeFi板块抛售。具体受影响项目尚未明确，但整体DeFi市场情绪偏空。信号：看空。",
+      "reason": "重大黑客攻击直接冲击DeFi板块信心，历史经验显示同类事件后DeFi代币普遍承压，属项目更新中的高风险事件。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AAVE", "UNI"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/02/the-usd292m-crypto-hack-exposed-defi-s-weak-spots-here-s-what-must-change-insiders-say"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取消息中多数为Binance公告重复或低价值新闻，仅筛选出3条具有交易参考价值的新消息。"
+}
