@@ -2218,3 +2218,135 @@ content length: 1840
   ],
   "note": "本轮抓取消息中多数为Binance公告重复或低价值新闻，仅筛选出3条具有交易参考价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2536, prompt_tokens=9948, total_tokens=12484, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2132, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8924)
+content length: 851
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币ETF连续5周净流入",
+      "summary": "据Crypto Briefing报道，在美伊紧张局势缓解背景下，比特币ETF已连续5周录得净流入，显示机构资金持续进场。这通常被视为看多信号，因为ETF流入意味着传统资金通过合规渠道买入BTC。当前BTC价格约78,000美元，ETF资金流入有望提供支撑。可能影响BTC及整体加密货币市场，短期看多。",
+      "reason": "ETF持续流入是优先级一的关键信号，且历史消息中未明确提及连续5周，属于新数据。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR241VzUxNUpwaEdRYVk0VThmNTNpbzJEczZHdzJteXNzOHJva0JJdlVMT05XRWZXZFd4VzBKZ0MxVDVqREE2NnJra2xYVE1zMjR4SEN2eVV5SUdJNk1tVVVFb0ZGazNYd0FjcmJPeVhVNjBCVVA5Z3pTUXhEV0xZbnZzUzIxaTE5V3hYSmN2S25XTy15YnhHQnlB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于近6小时历史消息已覆盖大部分重要事件，本轮仅发现一条未重复的关键消息，其余均为重复或无关内容。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4574, prompt_tokens=9948, total_tokens=14522, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=4003, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=92)
+content length: 1352
+============================================================
+{
+  "news": [
+    {
+      "title": "A16z支持CFTC限制州预测市场",
+      "summary": "A16z公开支持CFTC的立场，反对各州自行禁止预测市场，主张联邦层面统一监管。此举有助于消除监管碎片化，为预测市场行业提供更清晰的法规环境。影响预测市场相关代币情绪，但对主流币影响中性，监管明朗化长期利好行业。",
+      "reason": "监管政策更新，A16z作为顶级风投的态度可能影响市场预期和监管走向，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/a16z-sides-with-cftc-against-states-seeking-to-ban-prediction-markets"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF连续5周净流入",
+      "summary": "据Crypto Briefing报道，比特币ETF已连续5周实现净流入，同期美伊紧张局势有所缓解。这表明机构投资者持续看好比特币，资金入场信号明确，可能推动BTC突破8万美元阻力位，ETH也受提振。",
+      "reason": "机构持续流入是看多信号，直接影响BTC价格，属于优先级一ETF机构动态。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR241VzUxNUpwaEdRYVk0VThmNTNpbzJEczZHdzJteXNzOHJva0JJdlVMT05XRWZXZFd4VzBKZ0MxVDVqREE2NnJra2xYVE1zMjR4SEN2eVV5SUdJNk1tVVVFb0ZGazNYd0FjcmJPeVhVNjBCVVA5Z3pTUXhEV0xZbnZzUzIxaTE5V3hYSmN2S25XTy15YnhHQnlB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于严格去重，本轮仅有两条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2825, prompt_tokens=9948, total_tokens=12773, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2131, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=92)
+content length: 1736
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF连续5周净流入",
+      "summary": "比特币ETF连续5周实现资金净流入，美伊紧张局势缓和推动风险偏好回升，可能提振BTC价格。看多信号。",
+      "reason": "ETF资金持续流入是看多信号，美伊局势缓和降低避险情绪，利好风险资产。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR241VzUxNUpwaEdRYVk0VThmNTNpbzJEczZHdzJteXNzOHJva0JJdlVMT05XRWZXZFd4VzBKZ0MxVDVqREE2NnJra2xYVE1zMjR4SEN2eVV5SUdJNk1tVVVFb0ZGazNYd0FjcmJPeVhVNjBCVVA5Z3pTUXhEV0xZbnZzUzIxaTE5V3hYSmN2S25XTy15YnhHQnlB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CFTC限制州级预测市场",
+      "summary": "美CFTC主席表态将限制州级监管机构干预预测市场，此举有利于预测市场合法化和交易活跃，利好预测市场代币。看多信号。",
+      "reason": "监管放松信号，直接利好预测市场相关币种。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511055.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "A16z支持CFTC反对禁令",
+      "summary": "风投巨头A16z表态支持CFTC立场，反对州级禁止预测市场的法律，进一步巩固监管利好，利好预测市场代币。看多信号。",
+      "reason": "机构背书加强监管利好预期。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/a16z-sides-with-cftc-against-states-seeking-to-ban-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有价值的新消息较少，仅选出3条，其余多为重复或无关内容。"
+}

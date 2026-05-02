@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-02",
+  "hour": "23",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9948,
+    "completion_tokens": 2825,
+    "total_tokens": 12773
+  },
+  "content_length": 1736,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC ETF连续5周净流入\",\n      \"summary\": \"比特币ETF连续5周实现资金净流入，美伊紧张局势缓和推动风险偏好回升，可能提振BTC价格。看多信号。\",\n      \"reason\": \"ETF资金持续流入是看多信号，美伊局势缓和降低避险情绪，利好风险资产。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Briefing\",\n          \"url\": \"https://news.google.com/rss/articles/CBMimgFBVV95cUxOR241VzUxNUpwaEdRYVk0VThmNTNpbzJEczZHdzJteXNzOHJva0JJdlVMT05XRWZXZFd4VzBKZ0MxVDVqREE2NnJra2xYVE1zMjR4SEN2eVV5SUdJNk1tVVVFb0ZGazNYd0FjcmJPeVhVNjBCVVA5Z3pTUXhEV0xZbnZzUzIxaTE5V3hYSmN2S25XTy15YnhHQnlB?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"CFTC限制州级预测市场\",\n      \"summary\": \"美CFTC主席表态将限制州级监管机构干预预测市场，此举有利于预测市场合法化和交易活跃，利好预测市场代币。看多信号。\",\n      \"reason\": \"监管放松信号，直接利好预测市场相关币种。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"POLY\", \"REP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511055.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"A16z支持CFTC反对禁令\",\n      \"summary\": \"风投巨头A16z表态支持CFTC立场，反对州级禁止预测市场的法律，进一步巩固监管利好，利好预测市场代币。看多信号。\",\n      \"reason\": \"机构背书加强监管利好预期。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"POLY\", \"REP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/a16z-sides-with-cftc-against-states-seeking-to-ban-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前时段有价值的新消息较少，仅选出3条，其余多为重复或无关内容。\"\n}"
+}
