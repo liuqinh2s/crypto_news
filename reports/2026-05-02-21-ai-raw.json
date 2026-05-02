@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-02",
+  "hour": "21",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9918,
+    "completion_tokens": 3385,
+    "total_tokens": 13303
+  },
+  "content_length": 2054,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Visa扩展加密借记卡\",\n      \"summary\": \"Visa宣布与Lightspark合作，推出稳定币和比特币借记卡，进一步扩大加密支付采用。这代表传统金融巨头对加密资产的认可，可能吸引更多用户和资金流入。影响BTC及稳定币市场，为看多信号。\",\n      \"reason\": \"机构采用信号，符合优先级二的机构动向，直接利好BTC和稳定币生态。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\", \"USDC\", \"USDT\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance UK\",\n          \"url\": \"https://news.google.com/rss/articles/CBMijAFBVV95cUxQU1RyMWdST2U5WXF4TTNrWHdQZHdnWWJoUlFDUjFQUnV5bEVJQ3BCNVM1WmgtR24ydjFvYTFIYWRJMlQ5YUZzdUxQRkZfTWFuWUpabm9xNmFvMHVoZFIwc1ZQQWp5V3V6MTNEQ2lSZ3BtNU95SUZCODVaMzRxTW9tdEFicFoycWxCeHY3RA?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"BTC/ETH出现9050万杠杆多头\",\n      \"summary\": \"在美伊紧张局势下，比特币和以太坊出现9050万美元的杠杆多头头寸。大量杠杆多头积聚可能导致资金费率上升，增加多头拥挤风险，短期内可能引发清算。整体偏空，需警惕回调。\",\n      \"reason\": \"市场结构信号，杠杆多头拥挤是短期看空指标，符合优先级三的资金费率异常。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Briefing\",\n          \"url\": \"https://news.google.com/rss/articles/CBMimgFBVV95cUxQalZlS0puOGtJQ2U3UmxzcW5XOHBfbU5kOXhLWnZuT3REQ0JFb1pUbXhXVFBtX3pXQndCeURNQ3pMeTBNdHRONmw4YnA4dk5RVm9icU13djRrcGpBQ0M3dUl4S0FjYkFrSXdVekNmZWExZy05MG1mRFgxM2oteUk3ZjN6bTdfaG5OZThwMlg5bTJBWjg1NllPTTN3?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"GENIUS法案稳定币监管争议\",\n      \"summary\": \"GENIUS法案为稳定币打开了大门，但监管机构试图缩小范围。这可能增加稳定币发行和使用的合规成本，短期内对稳定币市场偏空，间接影响加密市场流动性。影响中性偏空。\",\n      \"reason\": \"监管政策动向，符合优先级一的重大监管动态，但当前不确定性较大。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDC\", \"USDT\", \"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t1oxvy/the_genius_act_opened_the_door_for_stablecoins/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前时间段高质量新消息较少，仅筛选出3条，其余重复或无关消息已排除。\"\n}"
+}
