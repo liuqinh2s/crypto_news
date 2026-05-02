@@ -582,3 +582,98 @@ content length: 2416
   ],
   "note": "当前市场相对平静，大部分新闻为重复信息或低影响内容，仅筛选出3条有实际交易价值的消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2387, prompt_tokens=9959, total_tokens=12346, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1041, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8935)
+content length: 3173
+============================================================
+{
+  "news": [
+    {
+      "title": "贝莱德敦促OCC放宽代币化储备上限",
+      "summary": "贝莱德在致美国货币监理署（OCC）的评论信中，敦促其放弃对代币化储备设定上限的想法，并扩大合格资产范围。此举旨在推动稳定币和代币化资产创新，可能为机构大规模入场铺路。利好USDT、USDC等稳定币及整个DeFi生态。",
+      "reason": "贝莱德作为全球最大资管公司，其监管意见对政策走向有重大影响，若OCC采纳，将显著利好合规稳定币和代币化市场。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399812/blackrock-urges-occ-to-drop-tokenized-reserve-cap-idea-expand-eligible-assets-in-genius-act-comment-letter"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511076.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH解除质押量72小时暴增72,000%",
+      "summary": "过去两周等待解除质押的ETH数量激增72,000%，大量ETH正在排队退出质押池。这可能意味着持有者准备抛售，或者对以太坊未来信心下降。若解除的ETH流入市场，将形成明显抛压，利空ETH。",
+      "reason": "质押解除量异常飙升属于链上异动，直接影响ETH供给预期，可能引发价格下跌。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511079.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Arbitrum解冻7100万美元ETH应对Kelp损失",
+      "summary": "Arbitrum委员会投票决定解冻价值7100万美元的ETH，用于遏制Kelp DAO的损失。此举虽旨在保护生态，但大规模解冻可能引发短期抛售，同时暴露了Arbitrum治理风险。偏空ARB和ETH。",
+      "reason": "Arbitrum作为主流L2，其治理动作直接影响ARB代币和生态项目，解冻资金可能导致市场波动。",
+      "category": "项目更新",
+      "impact_coins": ["ARB", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511075.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Zcash修复关键共识漏洞",
+      "summary": "Zcash基金会发布Zebra 4.4.0，修复了多项关键共识安全漏洞。虽然技术升级本身利好，但漏洞披露可能短期影响投资者信心，且对ZEC价格影响有限。中性偏多。",
+      "reason": "安全漏洞修复可防止潜在攻击，对Zcash网络长期健康有利，但短期价格影响不大。",
+      "category": "项目更新",
+      "impact_coins": ["ZEC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511074.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国PMI 52.7%确认扩张，或助推加密牛市",
+      "summary": "美国制造业PMI录得52.7%，确认经济扩张阶段，历史数据显示这可能催化类似2017年的加密牛市。宏观环境向好利好风险资产，但需关注通胀后续影响。偏多BTC、ETH。",
+      "reason": "PMI作为宏观经济领先指标，扩张期通常利好风险资产，与加密市场历史走势有正相关性。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdk5jeXlQNjFlUEtpZGdPdjM4YktQNUQ5M1ktNHQwVkNkMmZnZmIyRDI4bGhzZTZXYjgxMHhPTXJtUFRqaVFoYXN2WF9ydHF0M3R3VDNkWUF6OGJjYkE0U2NXNEN2ZzI3NVJFeVFNNXQwTlB6MjlhN185eXhCcnFoWVdxNUtzV3hVcV9iY3pqLXNQbjFfMGxr0gGcAUFVX3lxTE1RcERWNUZSREYxcWN2RWFFZUN1bmcwWnhTMXdwczZCR0V1TFZPS285NHZXa1JKR2JIVUhsRkFsU0dKbjl3cGFtMGc2UTFEcHgtYi0tbFk2Q0hzRmtMUWMwemNsZkN3d2RQbkpITUZnTGNCUGhvNlJmTWlQUWZsdV9kdXRkQnJ3amNpXzV4Qm5scEVoWG8wcEZ1TTZEcQ"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
