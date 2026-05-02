@@ -1812,3 +1812,166 @@ content length: 2622
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=507, prompt_tokens=8753, total_tokens=9260, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=465, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7729)
+content length: 72
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取消息中，所有内容均与历史消息重复或为无交易价值的分析/公告，无新事件可筛选。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=917, prompt_tokens=8753, total_tokens=9670, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=835, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8704), prompt_cache_hit_tokens=8704, prompt_cache_miss_tokens=49)
+content length: 160
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中，所有消息均已在近6小时历史标题中出现（包括Binance重复公告、ETF数据、恐惧贪婪指数、Tether利润、Clarity Act、以太坊基金会OTC出售等），无新的高价值交易信号。DeFi TVL排名和普通分析文章影响微弱，不符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=683, prompt_tokens=8753, total_tokens=9436, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=648, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8704), prompt_cache_hit_tokens=8704, prompt_cache_miss_tokens=49)
+content length: 65
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的所有消息均与历史消息重复或无交易价值，未筛选出有效的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1025, prompt_tokens=9451, total_tokens=10476, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=996, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8427)
+content length: 56
+============================================================
+{
+  "news": [],
+  "note": "当前时段无值得关注的新消息，所有素材与历史标题重复。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2031, prompt_tokens=9451, total_tokens=11482, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1690, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9344), prompt_cache_hit_tokens=9344, prompt_cache_miss_tokens=107)
+content length: 732
+============================================================
+{
+  "news": [
+    {
+      "title": "DeFi TVL增长：RAIN领涨379%",
+      "summary": "DeFi Llama月度TVL增长排名显示，RAIN协议以379%的增长率领先，表明DeFi领域资金流入强劲。这可能带动RAIN及相关代币价格上涨，但对BTC/ETH影响有限。短期看多RAIN，但小币种波动大，需谨慎。",
+      "reason": "属于DeFi TVL重大变化，反映资金流向，影响相关币种价格。优先级二（链上异动）。",
+      "category": "链上异动",
+      "impact_coins": ["RAIN"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "MEXC",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE81NGV3MEw1VmI5ZnlLcHU3SzU1NTExUUk1LTg2dVQ2T2p5UWEzNHhjTEl2WkQtVURBcEZRT1pqcVY2bUkwZndGbQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分公告和新闻与历史消息重复（如Binance上币、ETF流入、恐惧贪婪指数等），仅此条DeFi TVL排名为有效新消息。其余消息因重复或价值低已被排除。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2629, prompt_tokens=3601, total_tokens=6230, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1646, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=2577)
+content length: 2629
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊基金会售出1万ETH",
+      "summary": "以太坊基金会通过OTC交易向BitMine出售1万ETH，这是第三笔此类交易，前期已售出大量ETH。该行为表明基金会持续减持，可能对ETH价格构成抛压。短期看空ETH，中期需关注后续抛售节奏。",
+      "reason": "项目方重大抛售，直接影响ETH供需，属优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-foundation-sells-another-10000-eth-to-bitmine-in-third-otc-deal"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架MegaETH (MEGA)",
+      "summary": "Binance宣布上线MegaETH (MEGA)并标注种子标签，同时支持赚币、转换、保证金及合约。新币上线通常带来短期资金流入和交易量激增，短期看多MEGA，但种子代币波动较大，注意风险。",
+      "reason": "交易所上币直接影响代币价格，属优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架Chip (CHIP)",
+      "summary": "Binance宣布上线Chip (CHIP)并标注种子标签，同时支持多种产品。CHIP作为USD.AI生态代币，上币将提升其流动性和关注度，短期看多CHIP，但种子代币风险较高。",
+      "reason": "交易所上币直接利好代币，属优先级一。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至39",
+      "summary": "当前加密货币恐惧贪婪指数为39（恐惧），处于中性偏悲观区间，但未极端。市场情绪偏谨慎，可能暗示短期震荡，但非抄底或恐慌离场信号，对BTC、ETH等主流币影响中性。",
+      "reason": "市场情绪指标，接近恐惧区间但未极端，可作为参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线AIGENSYN永续合约",
+      "summary": "Binance Futures于4月29日推出AIGENSYNUSDT永续合约，支持最高75倍杠杆。合约上线增加交易工具，可能带来短期波动，但AIGENSYN为小市值AI概念币，影响有限。",
+      "reason": "交易所上线合约提供做空工具，但币种较小，影响中等。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/524345e64dd14a23989bfe1e547760b5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
