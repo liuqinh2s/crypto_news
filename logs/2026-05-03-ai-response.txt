@@ -1,29 +1,23 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2325, prompt_tokens=9223, total_tokens=11548, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=919, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8199)
+content length: 3468
+============================================================
 {
-  "date": "2026-05-03",
-  "hour": "00",
   "news": [
     {
       "title": "CLARITY法案妥协文本禁止稳定币收益作储备",
       "summary": "美国参议院公布CLARITY法案妥协文本，明确禁止将稳定币收益用于储备金。这限制了稳定币发行方的利润来源，可能影响USDT/USDC等稳定币的商业模式，导致资金从稳定币流向其他资产或DeFi。短期看，市场反应中性偏负面，但法案推进为行业提供监管清晰度，长期利好。主要影响稳定币及DeFi项目。",
       "reason": "重大监管动态，直接影响稳定币市场结构和投资者信心，属于优先级一。",
       "category": "监管政策",
-      "impact_coins": [
-        "USDT",
-        "USDC",
-        "ETH",
-        "AAVE"
-      ],
+      "impact_coins": ["USDT", "USDC", "ETH", "AAVE"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
-        {
-          "name": "金色财经",
-          "url": "https://jinse.com.cn/lives/511058.html"
-        },
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/399780/coinbase-says-deal-reached-on-clarity-act-stablecoin-yield-clearing-path-to-long-stalled-senate-markup"
-        }
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511058.html"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/399780/coinbase-says-deal-reached-on-clarity-act-stablecoin-yield-clearing-path-to-long-stalled-senate-markup"}
       ],
       "urgency": "hours"
     },
@@ -32,17 +26,11 @@
       "summary": "Tether报告2026年第一季度净利润10.4亿美元，显示其盈利能力强劲。利润主要来自储备资产收益，但并未直接导致USDT增发。不过，高利润可能增强市场对USDT的信任，稳定币供应量维持高位，间接利好加密市场资金流入。整体信号中性偏多，但需关注后续是否增发。",
       "reason": "稳定币发行商财报反映其健康度，影响市场对USDT的信心，属于优先级一中的稳定币供应量变化相关。",
       "category": "市场结构",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
-        {
-          "name": "Reddit",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t1ss20/tether_reports_104_billion_net_profit_for_q1_2026/"
-        }
+        {"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t1ss20/tether_reports_104_billion_net_profit_for_q1_2026/"}
       ],
       "urgency": "days"
     },
@@ -51,16 +39,11 @@
       "summary": "根据CEX数据，若比特币价格突破81,961美元，主流交易所累计空单清算强度将达10.7亿美元。这意味着一波强劲的轧空行情可能推动BTC快速上涨，短期看多信号强烈。目前BTC在78,000美元附近，距离目标约5%，一旦突破可能引发连锁反应。",
       "reason": "链上异动数据直接预示短期价格波动，属于优先级一中的清算风险信息。",
       "category": "链上异动",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bullish",
       "impact_level": 4,
       "sources": [
-        {
-          "name": "金色财经",
-          "url": "https://jinse.com.cn/lives/511057.html"
-        }
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511057.html"}
       ],
       "urgency": "immediate"
     },
@@ -69,38 +52,39 @@
       "summary": "Alberta Investment Management（AIMCo）通过投资2.19亿美元于Strategy（原MicroStrategy）以间接获得比特币敞口。机构资金持续流入，看好比特币长期价值，增加市场信心。该举动显示传统大型机构仍在布局，利好BTC。",
       "reason": "机构动向，主权基金/养老金入场，属于优先级二中的机构动向，但影响较大。",
       "category": "ETF机构",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
-        {
-          "name": "Crypto Briefing",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeEZyNFQtdElMUl9PUG5qYWVGTGNJYmUyZjgyYUlDZWZjUkd3NUZJN1Vac0RjN3dCWlhWc0ZCb0NNVHM2NFQ2cVBtRnF4Q093WXBZTkdUNnQ2QVZUYUdUTHEzT0hUaVNLUG1xcWpfWE5oLUNsUFp1b3VsbzdNb3JRNVN1cXhDOEVwaUppQmZMRXB3QWw1bXkyYVRudzUxUnlBOXc?oc=5"
-        }
+        {"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeEZyNFQtdElMUl9PUG5qYWVGTGNJYmUyZjgyYUlDZWZjUkd3NUZJN1Vac0RjN3dCWlhWc0ZCb0NNVHM2NFQ2cVBtRnF4Q093WXBZTkdUNnQ2QVZUYUdUTHEzT0hUaVNLUG1xcWpfWE5oLUNsUFp1b3VsbzdNb3JRNVN1cXhDOEVwaUppQmZMRXB3QWw1bXkyYVRudzUxUnlBOXc?oc=5"}
       ],
       "urgency": "hours"
+    },
+    {
+      "title": "CFTC主席限制州级监管干预预测市场",
+      "summary": "美CFTC主席表示将限制州级监管机构干预预测市场，维护联邦监管权威。此举利好预测市场平台（如Polymarket），减少监管不确定性。对加密预测市场是积极信号，可能吸引更多用户和流动性。",
+      "reason": "监管政策变化，直接利好预测市场赛道，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["POL", "REP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511055.html"}
+      ],
+      "urgency": "days"
     },
     {
       "title": "Eric Trump通过American Bitcoin财富增至2.8亿美元",
       "summary": "Eric Trump通过American Bitcoin将个人财富从约1.9亿美元增至2.8亿美元，显示其对比特币的持续押注。虽为个人新闻，但Trump家族关联可能吸引市场关注，短期情绪偏多。",
       "reason": "名人效应，但影响力有限，属于优先级三中的KOL动态。",
       "category": "市场情绪",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bullish",
       "impact_level": 1,
       "sources": [
-        {
-          "name": "金色财经",
-          "url": "https://jinse.com.cn/lives/511054.html"
-        }
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511054.html"}
       ],
       "urgency": "hours"
     }
-  ],
-  "total_fetched": 33,
-  "generated_at": "2026-05-03T00:01:14.747652+08:00"
+  ]
 }
