@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-02",
+  "hour": "16",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9552,
+    "completion_tokens": 3613,
+    "total_tokens": 13165
+  },
+  "content_length": 2242,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Tether Q1利润超10亿美元\",\n      \"summary\": \"Tether在2026年第一季度净利润超过10亿美元，USDT采用率持续增长。Q1利润创新高显示稳定币发行商盈利能力强劲，USDT市值扩大通常意味着资金流入加密市场，是看多信号。可能带动整体加密货币市场上涨，尤其利好BTC、ETH及与USDT流动性相关的币种。\",\n      \"reason\": \"Tether利润大增反映USDT需求旺盛，稳定币供应量增加往往是牛市前兆，优先级一中的稳定币供应量变化直接关联资金入场。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t1jm3u/tether_q1_profit_surges_past_1b_as_usdt_adoption/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"DeFi TVL增长排名: RAIN领涨379%\",\n      \"summary\": \"DeFi Llama数据显示，月度DeFi TVL增长排名中RAIN以379%的增幅领先，其他DeFi协议也表现强劲。TVL大幅增长反映DeFi生态活跃度提升，资金流入DeFi领域，利好相关代币如UNI、AAVE等。该消息属于链上指标异动，预示DeFi板块可能迎来一波行情。\",\n      \"reason\": \"TVL骤增是链上异常信号，优先级二中的DeFi重大事件，直接反映用户和资金动向，对DeFi币种有中期利好。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"UNI\", \"AAVE\", \"RAIN\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Bitget\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJNkxaN1BDNnJ2UHRlVGZyVXBGRWlDdjZPbGk1UHgtb0NIazVqUzRuczFtajNkM1VJRVlTQTBLOVpMYzJncFhXbzFCWTFXbm5uYWR0OUlWVl9EOFhheFlvbWJuTdIBY0FVX3lxTFBJNkxaN1BDNnJ2UHRlVGZyVXBGRWlDdjZPbGk1UHgtb0NIazVqUzRuczFtajNkM1VJRVlTQTBLOVpMYzJncFhXbzFCWTFXbm5uYWR0OUlWVl9EOFhheFlvbWJuTQ\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Saylor阐述数字信用框架\",\n      \"summary\": \"MicroStrategy执行主席Michael Saylor在Bitcoin 2026大会上详细介绍了数字信用的概念，强调比特币作为数字信用的基础层。该言论强化了比特币的机构叙事，可能提振市场信心。MicroStrategy作为最大企业比特币持有者，其观点对市场情绪有中期影响，但无直接交易信号，中性偏多。\",\n      \"reason\": \"机构动态（MicroStrategy）属于优先级二，Saylor的观点可能影响机构投资者对比特币的看法，对BTC有温和正面作用。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t1jjpk/saylor_drops_comprehensive_breakdown_of_digital/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前时间窗口内有效新消息较少，仅筛选出3条符合标准的消息。Binance公告均为历史重复，恐惧贪婪指数未变，其他多数为重复内容或低价值讨论。\"\n}"
+}
