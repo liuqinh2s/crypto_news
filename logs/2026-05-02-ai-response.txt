@@ -1721,3 +1721,94 @@ content length: 2242
   ],
   "note": "当前时间窗口内有效新消息较少，仅筛选出3条符合标准的消息。Binance公告均为历史重复，恐惧贪婪指数未变，其他多数为重复内容或低价值讨论。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1735, prompt_tokens=9562, total_tokens=11297, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=722, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8538)
+content length: 2622
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊基金会再售1万ETH",
+      "summary": "以太坊基金会通过场外交易向BitMine出售10,000 ETH，这是第三笔此类交易。过去几周基金会已累计出售大量ETH。此举可能增加ETH卖压，短期看空。影响币种主要为ETH。基金会的持续抛售可能表明其对近期价格缺乏信心，或为资助生态开发。但大规模场外交易减少了对交易所的直接冲击，仍需关注后续动向。",
+      "reason": "优先级一链上异动：项目方重大事件（基金会持续出售ETH）直接影响ETH价格，属于卖压信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-foundation-sells-another-10000-eth-to-bitmine-in-third-otc-deal"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "本周比特币ETF净流入1.628亿美元",
+      "summary": "本周美国比特币现货ETF累计净流入1.628亿美元，延续近期资金流入趋势。机构资金持续入场显示传统投资者对比特币的配置需求仍在，利好比特币价格。结合此前日流入6.298亿美元的数据，整体流入强劲，支撑比特币在78,000美元上方。看多信号。",
+      "reason": "优先级一ETF机构：ETF资金流入为直接看多信号，反映机构需求。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511039.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "某巨鲸做多8万ETH浮盈311万美元",
+      "summary": "链上数据显示，某巨鲸地址通过杠杆做多80,000 ETH，当前浮盈约311万美元。该操作表明大户对ETH后市乐观，可能吸引跟风买盘。但浮盈仓位若平仓可能带来抛压，需监控。短期看多情绪增强，但注意高杠杆风险。",
+      "reason": "优先级一链上异动：巨鲸大额做多行为显示市场情绪和潜在方向，影响ETH。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511038.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日本央行前行长称2%通胀目标已实现",
+      "summary": "日本央行前行长黑田东彦表示日本2%的通胀目标已实现，暗示货币政策可能正常化。若日本央行退出超宽松政策，可能推高日元并影响全球流动性，间接利空风险资产（包括加密货币）。但实际政策尚未改变，影响有限。",
+      "reason": "优先级二宏观经济：主要央行官员言论影响货币政策预期，间接影响风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511033.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗外长称仍愿与美国进行外交对话",
+      "summary": "伊朗外长表示尽管紧张局势升级，仍愿意与美国进行外交对话。地缘政治缓和信号可能降低避险情绪，利好风险资产如加密货币。此前伊朗相关制裁和冲突威胁曾压制市场，宽松预期推动比特币等上涨。",
+      "reason": "优先级二宏观经济：地缘政治缓和改善风险偏好，间接利好加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511032.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
