@@ -88,3 +88,63 @@ content length: 3468
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2497, prompt_tokens=9733, total_tokens=12230, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1589, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8709)
+content length: 2129
+============================================================
+{
+  "news": [
+    {
+      "title": "巴西央行禁止稳定币跨境结算",
+      "summary": "巴西央行宣布禁止使用稳定币和加密货币进行跨境支付结算，旨在加强资本管制和金融稳定。此举直接影响USDT、USDC等稳定币在巴西的跨境使用场景，可能导致拉美地区稳定币需求下降。巴西作为拉美最大经济体，该禁令为监管打压信号，利空稳定币及依赖跨境支付的加密货币生态。但比特币等非稳定币资产可能因替代需求而受间接利好，总体偏空稳定币。",
+      "reason": "直接影响稳定币使用的重大监管动态，巴西市场重要性高，属优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "分析师警告比特币eCash分叉风险",
+      "summary": "开发者Paul Sztorc发起比特币eCash分叉，计划向所有BTC持有者空投eCash代币。但多位安全专家警告该分叉存在“危险”漏洞，可能误导用户授权恶意交易或导致资产损失。此事件短期可能引发比特币社区分歧和抛压，但实际影响有限，因分叉代码尚未经过充分审计。信号中性，建议规避相关操作，关注后续社区反应。",
+      "reason": "比特币网络重大事件，虽属项目更新但可能引发市场波动，属优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/05/02/bitcoin-s-hazardous-airdrop-why-developers-are-warning-against-paul-sztorc-s-ecash-fork"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "分析师Michaël van de Poppe看空ETH",
+      "summary": "知名分析师Michaël van de Poppe表示以太坊‘需要等待’，警告尽管有机构买入，ETH短期仍有下行风险。当前ETH价格在$3,200附近，市场情绪偏空。该言论反映做多拥挤或技术面疲软，可能加速短期回调。对于合约交易者，建议警惕空头机会，但需注意机构潜在支撑。",
+      "reason": "KOL集体看空信号，属市场情绪类，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Stocktwits via Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlB0M0FYOFMyS1JOX2xCQ1J5aTVBUGQzUjdhRmN5TWdOWGFOM1V2aUl0VDNOY3ZVdTVFeUJBazFCMjZfM0szY1p3ZmQ2UWpRVW1DUHZSM2JfQU9Hc09QWTRoRzlEekRvNmtpQTVycW04VzAyQVZSLXdpT1hRMXcxRGNaVzJ5aDBwRWJTNGpIWFhFWDBvT3d3R1g2NXVYY21UeVUzTGhWRjFtbm5I?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于大量历史重复消息，仅筛选出3条新消息。"
+}
