@@ -1076,3 +1076,94 @@ content length: 3635
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4060, prompt_tokens=11699, total_tokens=15759, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2317, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10675)
+content length: 3707
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY Act稳定币收益规则最终敲定",
+      "summary": "《CLARITY法案》中关于稳定币收益的最终条文已公布，允许加密公司提供稳定币奖励，同时屏蔽银行收益。该法案为稳定币发行和收益分配提供了明确法律框架，被视为美国加密监管的重大突破。受影响的币种包括USDT、USDC等稳定币，以及DeFi协议如AAVE、Compound。信号中性偏多，因合规化有望吸引机构资金入场，但短期可能引发存量资金重新配置。",
+      "reason": "优先级一：重大监管动态，直接利好稳定币生态和合规项目，影响广泛。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "AAVE", "COMP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeVBxUFc0LTFlOG9hMF9rckxCQ0ZoNkRyOWxZb285MUU1YUxiakl6ek9HS3BFT2xrY3M0UXA2eG1JcjFmSzdFNWRTTTB4T0R2aFpZRTdSUG9XZHdfOU1jT3FJXzZPTXRfMi1CeGtrbE1zNW55RXBCQlJoTTk1WU1udlBta1NIYzRsbjNjSFJRdnBGS2p6ME5teWlmZHNqT2oxR2EwTWlsNXVyV1BrMGplSHlQdDF0LXVuT0FQRmVSTUxHRVpVcmVVOA?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Morgan Stanley买入2240万美元BTC",
+      "summary": "摩根士丹利在地缘政治紧张局势下买入2240万美元比特币，显示传统金融机构在避险需求下配置数字资产的趋势。此举可能提振市场信心，带动其他机构效仿。直接利好BTC，短期看多，但需注意买入规模相对较小，情绪推动大于实际资金。",
+      "reason": "优先级一：机构动向，大行增持比特币是明确的看多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUl9xR1VVYXplRTAzT0RUU0NzNEVJQlZtclRLUE9EVTY5SkNmZ1d1WjlDektISElTWXdCTlNuWFBydWxLcnBVTFVFeTU4dnYyODQ3enFtQmpfRHFfQlJPSW5SclpNZW5uSkxuSEZMZ3BndGFSd0NRR2ZjVHByLUZ2eV90blVxNzcyMDlkTmQ1d3NQOUky?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SBI与Visa推加密货币卡，高达10%奖励",
+      "summary": "日本SBI集团与Visa联合推出加密货币借记卡，提供最高10%的BTC、ETH、XRP消费返现奖励。此举将大幅增加加密货币在日常支付中的应用场景，短期内可能刺激用户持有和消费相关币种。但对价格影响有限，属于中期市场推广积极信号。",
+      "reason": "优先级三：机构合作与产品落地，促进采用，但非直接买卖压力。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWjFTRnc4eFFEejk5bmd2UDBfWFcyY1o0a3VPVlc3RWE0emNsMDhXMzNQeVl1WlFTR2hwalM1LXMzRmRHd18xN182RmctWmpHOE00dUNCUTBPY2tqc0w2U3FPSW5Kb3JRT3BEQkJGb1laUm1XOGdqVXBYNUdoOUpLZFphWjZVZzBnRVlQV05yeDByelJER0tobU1GLXpxSmkxaVlnOHhyM0F3VVhsbDhLTS16VlM5eG9nT2t6SlA0ZUlFOUl6WWtkbzdQNlhBUDdVNDhiVHNjb0xJUXM?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美OFAC警告：伊朗通行费面临制裁风险",
+      "summary": "美国财政部外国资产控制办公室（OFAC）警告，通过数字资产向伊朗支付“霍尔木兹海峡通行费”存在制裁风险。此举可能限制涉及伊朗的加密交易，导致部分资金流向避险资产如BTC。地缘政治紧张加剧，短期可能推高BTC等避险资产价格，但制裁范围有限，整体影响中性偏多。",
+      "reason": "优先级二：监管警告涉及地缘政治，可能影响加密支付通道和避险情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511014.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "4月加密公司融资6亿美元，VC信心不减",
+      "summary": "尽管市场低迷，4月份加密货币公司仍筹集了6亿美元风险投资，显示长期资本对行业的信心。资金多投向基础设施和DeFi项目，可能促进技术发展并支撑相关代币估值。但融资到代币表现有滞后，短期影响温和。",
+      "reason": "优先级二：行业数据反映资本流向，中期利好市场信心和项目发展。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "SOL", "AVAX"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "DL News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMjdLLUFRN29sZXRVSDZ2Xy1XaGk5Z1FYc2dyNkZwUFp1aEFhcnl1bzRaV2JoM2dtWFZHNUNKdTJwTnZfYkhtZ0hVNGZFemFaWGY3MHp2VlUyd0pySUt2UExMcTV2QVk3TmduNjc0LWpGd21HOEtQQU5jOXJKanpIcVFSXzhNcEJ5RWw3TC14b3ZobEgwRFM0b3ZrSWhha3VaaEZ2aThyZVRNM2Fo?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
