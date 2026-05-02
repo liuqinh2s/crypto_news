@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-02",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9290,
+    "completion_tokens": 2608,
+    "total_tokens": 11898
+  },
+  "content_length": 2312,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC突破78000美元\",\n      \"summary\": \"比特币价格突破78,000美元，创近期新高，同时标普500指数创新高。参议院清除Clarity Act障碍，稳定币收益条款达成妥协，推动市场情绪。利好BTC及整体加密市场，短期看多。\",\n      \"reason\": \"直接影响行情：BTC价格突破关键阻力位，且伴随立法积极进展，机构资金流入预期增强。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"CoinDesk\", \"url\": \"https://www.coindesk.com/markets/2026/05/02/bitcoin-above-usd78-000-as-senate-clears-clarity-act-yield-hurdle-s-and-p-500-sets-new-record\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"伊美冲突风险升高\",\n      \"summary\": \"伊朗高级军事官员表示伊美再次爆发军事冲突可能性很大，地缘政治紧张加剧。可能引发避险情绪，短期利空风险资产，加密市场或受拖累。但比特币作为数字黄金可能获得部分避险资金。\",\n      \"reason\": \"中期影响：地缘政治风险影响全球市场，加密货币作为风险资产短期承压。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511031.html\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"4月加密融资额骤降74%\",\n      \"summary\": \"4月加密融资额环比下降74%至6.59亿美元，创2024年7月以来新低。反映一级市场资金收紧，可能预示市场情绪降温，但短期对二级市场直接影响有限。\",\n      \"reason\": \"市场结构信号：融资额下降显示资本入场意愿减弱，中期偏空。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511028.html\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Coinbase比特币溢价转正\",\n      \"summary\": \"Coinbase比特币溢价指数时隔4日再次转正，暂报0.0037%，显示美国市场买盘活跃，机构需求回升。短期看多信号，可能推动BTC继续上行。\",\n      \"reason\": \"链上异动：溢价转正表明Coinbase现货买盘强劲，多为机构入场。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511027.html\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"BTC ETF净流入6.3亿美元\",\n      \"summary\": \"昨日美国比特币现货ETF净流入6.298亿美元，以太坊ETF净流入1.012亿美元，显示机构大规模增持。持续资金流入为市场提供支撑，看多。\",\n      \"reason\": \"ETF机构资金流入是直接影响行情的关键指标，大额净流入表明机构看涨。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511029\"}\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
