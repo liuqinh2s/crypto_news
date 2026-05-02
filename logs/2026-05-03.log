@@ -526,3 +526,107 @@
 2026-05-02 21:01:20 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
 2026-05-02 21:01:20 [INFO] 📦 JSON 已保存: reports/2026-05-03-05.json
 2026-05-02 21:01:20 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-05-02 22:00:34 [INFO] 🚀 开始抓取 2026-05-03 06:00 币圈新闻
+2026-05-02 22:00:34 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-02 22:00:34 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-02 22:00:34 [INFO]   ⏭ Decrypt: 过滤掉 35 条非近期新闻
+2026-05-02 22:00:34 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-02 22:00:34 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-02 22:00:35 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-02 22:00:35 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:35 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-05-02 22:00:36 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:36 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 24 条非近期新闻
+2026-05-02 22:00:36 [INFO]   ⏭ Crypto Twitter: 过滤掉 44 条非近期新闻
+2026-05-02 22:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-02 22:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-02 22:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-05-02 22:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-02 22:00:50 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:50 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:50 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-02 22:00:50 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-02 22:00:50 [INFO]   ✓ CoinDesk: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ The Block: 1 条
+2026-05-02 22:00:50 [INFO]   ✓ Decrypt: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ Blockworks: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ DL News: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ 金色财经: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ PANews: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-05-02 22:00:50 [INFO]   ✓ Reddit r/bitcoin: 1 条
+2026-05-02 22:00:50 [INFO]   ✓ Crypto Twitter: 6 条
+2026-05-02 22:00:50 [INFO]   ✓ 宏观经济: 1 条
+2026-05-02 22:00:50 [INFO]   ✓ Binance公告: 20 条
+2026-05-02 22:00:50 [INFO]   ✓ OKX公告: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ Bitget公告: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ Whale Alert: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-02 22:00:50 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-02 22:00:50 [INFO]   ✓ 雪球加密: 0 条
+2026-05-02 22:00:50 [INFO] 📊 共抓取 32 条新闻
+2026-05-02 22:00:50 [INFO] 📋 原始新闻已保存: reports/2026-05-03-06-raw.json (32 条)
+2026-05-02 22:00:50 [INFO] 📋 标题摘要已保存: reports/2026-05-03-06-raw-titles.md
+2026-05-02 22:00:50 [INFO] ✅ 抓取完成，共 32 条，已保存到 reports/2026-05-03-06-raw.json
+2026-05-02 22:00:51 [INFO] 🤖 开始 AI 筛选 2026-05-03 06:00 币圈消息
+2026-05-02 22:00:51 [INFO] 📋 已加载原始新闻: reports/2026-05-03-06-raw.json (32 条)
+2026-05-02 22:00:51 [INFO] 📚 已加载历史新闻标题（16512 字符）
+2026-05-02 22:00:51 [INFO] 📚 已加载历史筛选标题 22 条、URL 23 个，用于去重
+2026-05-02 22:00:51 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-02 22:00:51 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-02 22:00:51 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（32 条，7585 字符，temp=0.3）
+2026-05-02 22:01:18 [INFO] AI 原始返回已保存: logs/2026-05-03-ai-response.txt (finish_reason=stop, 861 字符)
+2026-05-02 22:01:18 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-03-06-ai-raw.json
+2026-05-02 22:01:18 [DEBUG] parse_json_response 输入长度: 861 字符
+2026-05-02 22:01:18 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "油价破百冲击降息预期",
+      "summary": "伊朗地缘冲突升级导致布伦特原油价格突破100美元/桶，市场担忧通胀压力加剧，美联储降息预期推迟。高油价可能抑制风险资产偏好，加密货币作为风险资产承压。比特币近期反弹至78K附近后，宏观利空可能限制上行空间，短期看空信号。影响BTC、ETH等主流币种。",
+      "reason": "地缘冲突推动油价破百，直接影响美联储降息预期，属于宏观经济重大事件，对风险资产包括加密货币构成利空。历史消息中未出现油价破百的具体报道，具有新信息价值。",
+      "ca
+2026-05-02 22:01:18 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-02 22:01:18 [INFO] ✅ AI 返回 1 条新闻
+2026-05-02 22:01:18 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-02 22:01:18 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（32 条，7585 字符，temp=0.3）
+2026-05-02 22:01:59 [INFO] AI 原始返回已保存: logs/2026-05-03-ai-response.txt (finish_reason=stop, 2416 字符)
+2026-05-02 22:01:59 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-03-06-ai-raw.json
+2026-05-02 22:01:59 [DEBUG] parse_json_response 输入长度: 2416 字符
+2026-05-02 22:01:59 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "加拿大拟禁加密货币ATM",
+      "summary": "加拿大政府因欺诈担忧提议禁止加密货币ATM，将比特币访问作为政治目标。此举可能限制散户入场渠道，对BTC需求产生负面影响。事件对加拿大市场有直接影响，但全球影响有限。信号偏空，主要影响BTC。",
+      "reason": "监管政策直接影响比特币使用场景，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+     
+2026-05-02 22:01:59 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-05-02 22:01:59 [INFO] ✅ AI 返回 3 条新闻
+2026-05-02 22:01:59 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-05-02 22:01:59 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-05-02 22:01:59 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-02 22:01:59 [DEBUG]   去重: 「加拿大拟禁加密货币ATM」 → URL重复: https://www.reddit.com/r/CryptoCurrency/comments/1t20rig/can
+2026-05-02 22:01:59 [INFO] 📦 JSON 已保存: reports/2026-05-03-06.json
+2026-05-02 22:01:59 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息

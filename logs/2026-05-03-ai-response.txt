@@ -494,3 +494,91 @@ content length: 3234
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2123, prompt_tokens=10051, total_tokens=12174, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1707, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9027)
+content length: 861
+============================================================
+{
+  "news": [
+    {
+      "title": "油价破百冲击降息预期",
+      "summary": "伊朗地缘冲突升级导致布伦特原油价格突破100美元/桶，市场担忧通胀压力加剧，美联储降息预期推迟。高油价可能抑制风险资产偏好，加密货币作为风险资产承压。比特币近期反弹至78K附近后，宏观利空可能限制上行空间，短期看空信号。影响BTC、ETH等主流币种。",
+      "reason": "地缘冲突推动油价破百，直接影响美联储降息预期，属于宏观经济重大事件，对风险资产包括加密货币构成利空。历史消息中未出现油价破百的具体报道，具有新信息价值。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbU5UQnlZWGNRWVhYOS1ZVFZRY0FKTDYwT1Jrdm5iRWsyUnZfUWlGYnRVQzUyTFJCTXRPMXFIdHJBNHBQZTlDWERmTWxaMU80VTk3cGh2elcwUFFuZmszeS1rbTVlTVFnMkFRcjlnT19SUC16TFh5cndRUE9ac1p6RldEZHpOV2NqZWl2dXpnNkRHcXNVY0cyZFh3OVBDTDZC?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中多数消息为历史重复或低价值内容，仅筛选出一条符合标准的关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3472, prompt_tokens=10051, total_tokens=13523, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2317, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9984), prompt_cache_hit_tokens=9984, prompt_cache_miss_tokens=67)
+content length: 2416
+============================================================
+{
+  "news": [
+    {
+      "title": "加拿大拟禁加密货币ATM",
+      "summary": "加拿大政府因欺诈担忧提议禁止加密货币ATM，将比特币访问作为政治目标。此举可能限制散户入场渠道，对BTC需求产生负面影响。事件对加拿大市场有直接影响，但全球影响有限。信号偏空，主要影响BTC。",
+      "reason": "监管政策直接影响比特币使用场景，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t20rig/canada_wants_to_ban_crypto_atms_as_fraud_fears/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitmine以太坊持仓创纪录",
+      "summary": "Bitmine持有创纪录的以太坊数量，引发集中度风险和质押奖励问题。大量ETH集中在单一矿池，若抛售将带来巨大抛压，同时质押奖励可能因集中而降低。对ETH偏空，短期可能压制价格。",
+      "reason": "链上异动，巨鲸集中度风险，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNlhhakNNMkpTQ1VQQ01SOWxaNV9JeXpFbXBXMzI1Q0xMV1NvT2RGaHJOMy1sS3FuRTViam90bms0SEVhR2oyVVNJS0MtcmxBWnBVaF93azVRMlNMWklVOU5wY3BzbEROVlRDYXRoQVBjaUNyWnlYQ0Y2dG9KWk9RZkdlbkkzUWlrYWIyOWFrbW45Tlg3R215Mnhoa3VTRGxNcVFwYWpsOE4xYWhfb2d5Y2Q0SWZ1eTBpc0Mza1ZhRlNYRU9RdkFQTUZJV2ZIQWJRU19nWmxReEhMcG5vdk5aV9IB5gFBVV95cUxOLWxPNEdHR0tzd1p6NXdWN3JBTE53blRkQVpoUUV5OTJ2VUt6WmVzREd6cDN6UXo2UkhmaTVlOEU1SkRmdm82NHJSamZQYnFVMlR4MmtzcjhYREVxT3Foa196dGp2a2ZyZGdudTdzeFZCeEpPYklTcVExcU13ODY2OEE3bmdPejQ3TEhUZ1ZJQUY1Q2h4MjBFUU9sd2VmQTdreUpGR09Fa0RVeTBVX2xBak5yLWhYWld0aDdKTC03cHRvMTBkdEtrSWlMQ09iV3pMMTlzc19lMHIwaEZ3VmZUM0NNeUgxUQ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗冲突推油价破100美元",
+      "summary": "伊朗冲突导致油价突破100美元，市场担忧通胀压力影响美联储降息路径。高油价可能推迟降息，对风险资产（包括BTC/ETH）构成利空。地缘政治紧张加剧市场避险情绪，短期偏空。",
+      "reason": "宏观经济事件直接影响风险资产定价，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbU5UQnlZWGNRWVhYOS1ZVFZRY0FKTDYwT1Jrdm5iRWsyUnZfUWlGYnRVQzUyTFJCTXRPMXFIdHJBNHBQZTlDWERmTWxaMU80VTk3cGh2elcwUFFuZmszeS1rbTVlTVFnMkFRcjlnT19SUC16TFh5cndRUE9ac1p6RldEZHpOV2NqZWl2dXpnNkRHcXNVY0cyZFh3OVBDTDZC"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场相对平静，大部分新闻为重复信息或低影响内容，仅筛选出3条有实际交易价值的消息。"
+}
