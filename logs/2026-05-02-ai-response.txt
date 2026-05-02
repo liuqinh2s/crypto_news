@@ -985,3 +985,94 @@ content length: 4014
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2815, prompt_tokens=10757, total_tokens=13572, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1186, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9733)
+content length: 3635
+============================================================
+{
+  "news": [
+    {
+      "title": "稳定币收益法案达成协议",
+      "summary": "美国参议员Tillis和Alsobrooks就稳定币收益法案达成协议，允许加密公司提供稳定币奖励同时屏蔽银行存款利率。该法案可能为稳定币发行提供明确监管框架，利好USDT、USDC等合规稳定币，并提振整体市场信心。这是重大监管进展，信号偏多。",
+      "reason": "稳定币监管框架的突破性进展，直接影响稳定币生态和整体市场情绪，属于优先级一的监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t1aysu/vault_tillisalsobrooks_cinch_deal_on_stablecoin/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美防长：比特币是国家安全资产",
+      "summary": "美国国防部长Hegseth在演讲中将比特币定义为国家安全资产，称俄罗斯和中国正在扩大比特币储备，美国需加强战略布局。此举可能推动美国官方将比特币纳入战略储备，利好比特币中长期走势。信号偏多。",
+      "reason": "高级别政府官员对比特币的正面定性，可能影响政策方向，属于优先级一的重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t1a8xs/hegseth_recasts_bitcoin_as_national_security/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase将上线BILL代币",
+      "summary": "Coinbase宣布将新增支持Billions（BILL）代币，这是继Binance后又一主流交易所上币。BILL可能获得流动性溢价和交易量增长，短期利好BILL价格。但需注意上币初期波动风险。",
+      "reason": "Coinbase上币直接影响对应币种价格，属于优先级一的交易所事件。",
+      "category": "交易所",
+      "impact_coins": ["BILL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "吴说区块链",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5kTEc5ejdUTVViemdFN19Tdkhua3A1TWFSd3dIUUNwanVDQnBVX3RFTUFWMHlTOHZUR3U2a043ZlFiVzhnbF9ncEZTTHcwZUYzLUFZOEU3MDMtVEJjdUJEbEczVUUzYzBHeVl4THc5TG5TY05ENHYtSnBEazBsQQ?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SBI与Visa推出加密货币卡",
+      "summary": "日本金融巨头SBI集团与Visa联合推出加密货币借记卡，支持BTC、ETH、XRP消费，并提供最高10%的促销奖励。这将扩大加密货币支付场景，增加机构采用，利好BTC、ETH、XRP等主流币。信号偏多。",
+      "reason": "大型金融机构与支付巨头合作，推动加密货币主流采用，属于优先级二的机构动向。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin News via 雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWjFTRnc4eFFEejk5bmd2UDBfWFcyY1o0a3VPVlc3RWE0emNsMDhXMzNQeVl1WlFTR2hwalM1LXMzRmRHd18xN182RmctWmpHOE00dUNCUTBPY2tqc0w2U3FPSW5Kb3JRT3BEQkJGb1laUm1XOGdqVXBYNUdoOUpLZFphWjZVZzBnRVlQV05yeDByelJER0tobU1GLXpxSmkxaVlnOHhyM0F3VVhsbDhLTS16VlM5eG9nT2t6SlA0ZUlFOUl6WWtkbzdQNlhBUDdVNDhiVHNjb0xJUXM?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "DOGE涨至两月新高",
+      "summary": "Dogecoin受挖矿公司计划合并上市消息推动，涨至0.109美元上方，创两个月新高，日交易量达20亿美元。短期看多情绪强烈，但需警惕利好兑现后的回调风险。",
+      "reason": "项目方重大事件（挖矿公司合并上市）带动币价，属于优先级一的项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["DOGE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yellow.com via 雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPMF9YU1RzRDMxTEEtSkczb1BJWEJVTEFxMndHbjZmdjliOGk3TXFZckxSdTI0b29zOUhzbnBqbVRTeEcxaTFQWWhwV2pNVzRpSUdxNnJCYnRSZFl2dmhOekN4OWZtcHJjMExwUHlHcmNCVjEtc1I3cjdCUTdzTmg2eXU4bGxjSmFKRGxYa3dEVWpKaTVlUjh1TFVmdFh5TFRWNHkwUVVTSlZMTk1CSDA0UkJDb2Uzbkl0dVNIUmZ4Y2RlbU1fZjVRVEx6QkJYYWczblJxSjB0X216bUxDVXd2NnRvZEtlWVZXOXpyRGI3OTIzX240bjRQR0U1WDd6RWJNdDhHMS1vX19RRUZkRjNBZEk3cnpRa3RYSUx5U3VfTG1mQ055LXI1TlJuV0VINGktOFBUMkEtalRLdkxaeUhKRVJiT0laLUk?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
