@@ -1258,3 +1258,210 @@ content length: 3031
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2193, prompt_tokens=9169, total_tokens=11362, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1680, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=0), prompt_cache_hit_tokens=0, prompt_cache_miss_tokens=9169)
+content length: 1228
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币挖矿难度下调2.3%",
+      "summary": "比特币网络于2026年5月2日自动调整挖矿难度，下调2.30%至132.47 T。这是自4月中旬以来的首次难度下调，反映算力出现一定下降。难度下调意味着矿工挖矿成本降低，可能缓解矿工抛售压力，短期对BTC价格形成支撑，但影响程度有限。通常难度调整是中性事件，但结合当前市场恐慌指数39，可能矿工惜售情绪增强。",
+      "reason": "链上异动——挖矿难度调整直接影响矿工成本和抛售行为，属于链上指标异常（优先级二）。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511021.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Anchorage Digital提交GENIUS案意见",
+      "summary": "加密托管机构Anchorage Digital向美国相关监管机构提交了关于GENIUS Act（稳定币监管法案）的实施意见书，强调建立统一稳定的监管框架对于稳定币发展的重要性。该法案旨在规范稳定币发行、储备和赎回。此举显示行业对监管合规的推进，可能加速稳定币立法进程。若法案通过，将利好合规稳定币项目（如USDC、USDS），对加密市场整体情绪有正面提振，但短期影响有限。",
+      "reason": "监管政策动态——稳定币监管框架是影响市场的基础设施，属于重大监管动态（优先级一）。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "USDS"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511019.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮筛选仅发现2条有价值的非重复消息，因大部分公告已历史重复，且其他素材无关。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1678, prompt_tokens=9169, total_tokens=10847, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1230, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=81)
+content length: 1124
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币挖矿难度下调2.30%",
+      "summary": "比特币挖矿难度于2026年5月2日下调2.30%至132.47T。难度下调通常发生在全网算力下降后，矿工出块收益短期提升，但可能吸引算力回归。对BTC价格影响中性，但中期可能缓解矿工抛压。",
+      "reason": "链上关键指标变动，直接影响矿工行为和BTC供给端，属于优先级二链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511021.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Anchorage提交GENIUS Act意见书",
+      "summary": "加密托管机构Anchorage Digital向美国国会提交关于GENIUS Act（稳定币监管法案）的实施意见书，强调建立联邦稳定币监管框架的重要性。此举表明行业正积极参与政策制定，可能加速稳定币合规进程，利好USDT、USDC等合规稳定币及整体市场情绪。",
+      "reason": "稳定币监管法案进展属于优先级一重大监管动态，直接影响稳定币市场结构和资金流入。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "DAI"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511019.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分Binance公告与历史消息重复，恐惧贪婪指数同样重复，Tether黄金购买量也重复，因此仅筛选出两条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1101, prompt_tokens=9169, total_tokens=10270, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=701, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=81)
+content length: 1039
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币挖矿难度下调2.30%至132.47T",
+      "summary": "比特币网络挖矿难度于2026年5月2日下调2.30%至132.47T。难度下调通常意味着部分矿工退出或算力下降，短期内可能减轻矿工抛压，对BTC价格构成微弱支撑，但整体影响有限。",
+      "reason": "链上指标异常，属于优先级二中的'链上指标异常'，难度下调可能影响矿工行为和BTC供需。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511021.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Anchorage Digital提交GENIUS Act意见书",
+      "summary": "加密货币托管机构Anchorage Digital向监管机构提交了GENIUS Act实施意见书，强调建立清晰稳定币监管框架的重要性。此举可能推动美国稳定币立法进展，若法案落地将利好合规稳定币项目及整个加密市场。",
+      "reason": "重大监管动态，属于优先级一中的'重大监管动态'，稳定币法案进展可能影响市场情绪和合规预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511019.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1739, prompt_tokens=10634, total_tokens=12373, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=929, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=0), prompt_cache_hit_tokens=0, prompt_cache_miss_tokens=10634)
+content length: 2080
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币挖矿难度下调2.30%",
+      "summary": "比特币挖矿难度在区块高度947,520处下调2.30%至132.47T，全网近7天平均算力965.99EH/s。难度下调通常表示部分矿工退出或算力下降，对币价影响中性，但可能暗示矿工压力缓解，短期利好矿工但非直接价格驱动。影响币种：BTC。",
+      "reason": "链上关键指标变化，直接影响BTC挖矿生态，属于优先级二的中期影响。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511021.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tether Q1黄金购买放缓",
+      "summary": "Tether 2026年Q1仅增持约6吨黄金，远低于Q4的27吨，总黄金储备约132吨（198亿美元），占USDT储备的10%。放缓表明Tether对黄金态度趋于保守，但USDT储备依然充足，对市场整体资金面影响有限，信号中性。",
+      "reason": "Tether储备变化影响稳定币信心，但幅度较小，属优先级二的中期影响。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511017.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Anchorage Digital提交GENIUS Act意见",
+      "summary": "Anchorage Digital向OCC提交关于GENIUS Act稳定币监管框架的意见书，强调联邦监管的重要性。这是稳定币立法进程中的一步，若通过将利好合规稳定币发行方，但短期影响有限。影响币种：稳定币相关（USDT/USDC）及ETH。",
+      "reason": "监管政策进展，属于优先级一的监管动态，但非最终决定，影响中等。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511019.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普称封锁伊朗港口像海盗",
+      "summary": "特朗普表示美军封锁伊朗港口类似海盗行为，是赚钱的生意。地缘紧张局势可能推高避险情绪，短期利好BTC作为避险资产，但长期不确定性增加。影响币种：BTC，ETH。",
+      "reason": "地缘政治事件影响风险资产偏好，属于优先级二的中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511018.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场消息较少，筛选出4条相关新闻，其他多为重复或无关内容。"
+}
