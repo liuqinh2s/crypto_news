@@ -285,3 +285,94 @@ content length: 3043
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2809, prompt_tokens=11430, total_tokens=14239, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1638, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10406)
+content length: 2946
+============================================================
+{
+  "news": [
+    {
+      "title": "朝鲜黑客冻结ETH被试图查封",
+      "summary": "据The Block报道，朝鲜恐袭受害者债权人正试图查封被Arbitrum DAO冻结的Kelp DAO ETH（约7100万美元），该资金涉及朝鲜黑客组织Lazarus。目前DeFi United DAO投票在即，资金归属未定。若法院支持查封，可能引发对Arbitrum生态和LSD协议的安全性质疑。影响币种：ETH、ARB。信号：看空，因冻结资金不确定性增加监管风险和抛压预期。",
+      "reason": "链上异动，涉及朝鲜黑客、法院冻结、大额ETH，直接影响ETH情绪，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "ARB"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399819/north-korea-terrorism-creditors-move-to-seize-arbitrum-frozen-kelp-dao-eth-ahead-of-defi-united-vote"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Cash App上线BTC储备证明",
+      "summary": "Jack Dorsey旗下金融应用Cash App宣布上线比特币储备证明功能，用户可验证其持有的BTC是否真实储备。此举提升平台透明度，或增强散户持有信心。可能带动BTC需求，但影响有限。信号：看多，但属于缓慢利好。",
+      "reason": "机构动向，增加BTC透明度和信任度，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511141.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "霍尔木兹海峡受阻推高油价",
+      "summary": "因伊朗局势紧张，霍尔木兹海峡交通受阻，伊拉克开始借道叙利亚向外运输石油。能源成本上升可能引发通胀，间接利空风险资产，包括加密货币。但地缘波动也可能推动BTC作为避险资产需求。信号：中性偏空，短期油价上涨利空风险资产，但BTC避险属性或抵消。",
+      "reason": "地缘政治影响能源价格，间接影响加密市场，属于优先级二（宏观经济）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511140.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊Glamsterdam升级达关键目标",
+      "summary": "以太坊基金会宣布基本完成Glamsterdam升级关键目标，2亿Gas Limit下限已达成共识。升级将提升网络容量和效率，利好ETH扩展性和用户体验。信号：看多，技术升级通常提振市场信心。",
+      "reason": "重大技术升级，直接影响ETH网络性能和估值，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511139.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "MicroStrategy暂停买入待财报",
+      "summary": "MicroStrategy暂停比特币购买计划，等待5月5日Q1财报公布。此前Michael Saylor已表示本周未购币。暂停行为短期削弱市场买入预期，可能带来轻微抛压。信号：看空，但影响有限，因只是暂缓而非减持。",
+      "reason": "机构动向，MicroStrategy是最大BTC持仓机构，暂停购买影响市场情绪，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQWVnZXJUV29qZmQwV3htano2cFRkcGxoVE1zSFN1RldnRU15WUlVNlVjaTFZc0lNNXBDWjRNTF9WY2QwU1RJTW13QnU5MFhfNFU5WnYzUzVUYWNzeEVUX0c4Z1p2UVl3b3cybWxKeGotTVBNVkxncmQ1anpjYWFidkpoWk9IWk9sQkRuM2JGempyREtMUEJOU19ubmJjS29sTmdkVUhhWQ"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
