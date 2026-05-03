@@ -888,3 +888,79 @@ content length: 1583
   ],
   "note": "本轮筛选仅3条有效新消息，其余多为历史重复或对交易影响微弱。Binance系列公告及CryptoQuant、Arbitrum、伊朗冲突等已在历史中出现，故排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1872, prompt_tokens=9002, total_tokens=10874, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=563, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7978)
+content length: 2830
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币承压：内幕做空与伊朗风险",
+      "summary": "Reddit报道称，比特币面临内幕做空和伊朗地缘政治风险的双重压力。伊朗冲突推高油价至100美元以上，可能影响美联储降息预期，进而对风险资产构成利空。消息来源指出有内部人士做空BTC，结合CryptoQuant此前警告的投机性上涨，市场回调风险加剧。该消息直接影响BTC，信号偏空。",
+      "reason": "直接影响行情：地缘政治风险叠加内幕做空信号，可能引发BTC短期抛售。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t27g9j/bitcoin_under_pressure_as_insider_short_and_iran/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z：稳定币是过时词汇",
+      "summary": "a16z合伙人表示“稳定币”一词是加密货币波动历史遗留下来的，暗示未来可能演变为更广泛的支付代币概念。这一观点可能影响市场对稳定币赛道（如USDT、USDC）的长期预期，但短期影响有限。同时可能利好合规稳定币项目。",
+      "reason": "优先级二：机构动向，a16z作为顶级风投的观点可能影响行业叙事。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0UtOEtMVEhnMnJKVWJXV0ZrbEdRU09tUWYtWU13TmxYdTN0U0FjZ3R4QUJGdFVOWkpQcl92d0NtWTYyOEljbS1ZdmE4VGMtYjNXNi1PalhvRlhobXhyQ3JYYnlETjRmX2I2NlNlX1NUdGdDdTY0SHRyVlV0NDV1aHQ0TVp1UG1OSGQ5MGNBVXc4MzVlRnhPeWxkUFFPQk9GMGc?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "机构轮动或回归加密市场",
+      "summary": "多家媒体讨论“The Great Rotation”是否将回归加密市场，认为宏观环境（PMI 52.7%扩张）和机构兴趣增加可能推动资金流入。若实现，将利好BTC和ETH等主流币。但目前仅为讨论阶段，需关注后续资金数据。",
+      "reason": "中期影响行情：机构动向是市场重要驱动因素，若轮动确认则显著看多。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU0xkaE5LMWZJQUljdldHbnpFX3NPZG56MXJ3MF9rVmhsUnFJbTF6b1BsSnNZdUh5Rll1N2hSUFlQWFJNR2NFcHhfcllDZHVfb0FBZmlqOGNWbmpZUUIySDdIMFBtZTBGVE5pOHdmb3dNcHNIWmxlQ09ZdVJ3UU9BQjBB?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密货币市场周报：BTC持稳 ETH企稳",
+      "summary": "雪球加密快照点评：比特币本周保持坚挺，以太坊在震荡中企稳。市场情绪中性，未出现极端波动。该综述无新增重大信息，但可作为市场状态参考。",
+      "reason": "市场情绪信号，但无交易价值，仅作背景参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNWdnY1VZUlg1WFBicnVpNGloT2RlaG5YUDJ5VlhsQVRNdk9RMmhLdjNnamg1a0M1d1VjV1NjTFU2aGNzZGpiTGFmR0dGWndyM3ZDN3NvZW1GbDBxekVSS053cGdzWXRnaGw0OERPN1JhejR3VUlQTnVpTWhxN281V3czenFiV1pfV2RhbVpKQ3RqWGllQ2pvR1Q0TXc0Z0tNUk9hUjVQTUtGM0NtUXN6T2JWQTJGQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大量Binance公告重复历史，仅选出4条新消息。恐惧贪婪指数47与历史09:00相同，已跳过。"
+}
