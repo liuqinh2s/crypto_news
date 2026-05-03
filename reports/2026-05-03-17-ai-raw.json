@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-03",
+  "hour": "17",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4151,
+    "completion_tokens": 2135,
+    "total_tokens": 6286
+  },
+  "content_length": 2279,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"鲸鱼购入3.22亿ETH\",\n      \"summary\": \"据crypto.news报道，以太坊鲸鱼在价格持稳于2300美元时累计买入3.22亿美元ETH。大额买入通常被视为机构或大户看涨信号，可能推动ETH短期价格上涨。\",\n      \"reason\": \"巨鲸异动直接影响行情，买入=看涨，属于优先级一。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"crypto.news\",\n          \"url\": \"https://news.google.com/rss/articles/CBMieEFVX3lxTFA0eml1MVFBRWJXSTM4UDhnZVNsQlotQ3doVmdzek9xaDc1MzJhNGVCUmRpcGdremM1MDNnQ2xDYmgtdjVkZ2djTVVUUlA3SHpOeHVfT1h6VS1fTlY1alBBN2RPbzlOMWNiTHN6Ym9qQ3lQa3ZrbzZzNw?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Binance上架MEGA\",\n      \"summary\": \"Binance宣布将上线MegaETH（MEGA）现货，并同步开放Earn、保证金及永续合约。新币上线通常带来交易量激增和短期涨幅，但需注意Seed Tag高风险提示。\",\n      \"reason\": \"交易所上币直接影响对应币种价格，属于优先级一。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"MEGA\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Binance上架CHIP\",\n      \"summary\": \"Binance将上线Chip（CHIP）现货，并支持HODLer空投及衍生品交易。CHIP作为AI概念币，上币或引发短期炒作，但需注意Seed Tag风险。\",\n      \"reason\": \"交易所上币，直接影响CHIP价格。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"CHIP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"比特币4月涨幅创12月新高\",\n      \"summary\": \"Reddit r/bitcoin用户发帖称比特币在4月录得12个月以来最强月度涨幅。强劲的月线表现强化了市场看涨情绪，可能吸引更多买盘，但需注意短期过热风险。\",\n      \"reason\": \"市场情绪信号，历史强势表现对后市有正面暗示，属于优先级三。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit\",\n          \"url\": \"https://www.reddit.com/r/Bitcoin/comments/1t2eha8/bitcoin_posts_strongest_monthly_gain_in_12_months/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"其他素材如恐惧贪婪指数47（中性）、Robinhood收入下滑（偏空但影响弱）、大量Binance合约上线（同质化高）等因交易价值较低未被纳入。\"\n}"
+}

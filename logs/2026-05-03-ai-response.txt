@@ -1608,3 +1608,201 @@ content length: 2857
   ],
   "note": "本轮素材中多数Binance公告与历史重复，地缘政治风险事件（伊朗）已作为主要新闻入选，其他如Robinhood财报、本周加密法律总结等因影响较弱或内容不具体而未纳入。共计5条消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2601, prompt_tokens=8863, total_tokens=11464, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1733, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7839)
+content length: 1727
+============================================================
+{
+  "note": "当前时段高价值新闻较少，仅筛选出2条。",
+  "news": [
+    {
+      "title": "比特币技术分析现中性",
+      "summary": "FOREX.com发布技术分析指出，比特币市场中性偏见的关注度开始上升。这可能意味着短期内多空力量均衡，价格可能进入震荡整理阶段。对BTC影响中性，交易者应警惕方向选择。",
+      "reason": "市场技术分析信号，反映短期情绪变化，属于市场情绪类。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLWp5NVY3WU9nU3dUNW5XWGl5X2hTWGF1RmQ1TXhlLXlVVWVEVGlmUXowU0ZDNnpaWjEwaHRMWG9LMWdLN0RLQ0VvYWtIRFlabjY4TnBJck5LcDY1NXctZk80LWlqbG5EUE94cG8zdmdXM1NZcEFJMjRJcDE0SlpqaWtiWERLLWxkaC1yaXpjdkdoeUhMT3VWZ3VTWHVBSlZnRVhQOGNPNnhwZXVMQVNDU3lyTFlvdkp6OGFXYS1xS0JUa0HSAc8BQVVfeXFMTThheGhUTmotMXQ4MG5hSWVPWUZsdXdhUEgwNXAzemd4bXI1OHh5LUt2WTNoTndNNEctWmk3SjRydmY1RmVVTWhxcTFzTjdGRDdXYl84c3pra2ZmZ1JCUHg2bjFHR3ZhSUxjOF9EWlJHUjkzTVdXYmoxZDJYMGhfQ2FNSllrdGZ6SHE4anFuUkVDelhHUkI0d195R3VQY2R0WV9YbEgxdjlic3hqZTRKSE9jc0JReVJFcUp1R1I3eWh3Sk1TVkxVQTV6bHAtbTU4?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Dragonfly：机构兜底波动难超美股",
+      "summary": "PANews对话Dragonfly合伙人，认为散户离场但机构资金兜底，今年加密货币波动性难以超过美股。这暗示市场可能进入机构主导的慢牛格局，短期波动收敛，对BTC和ETH构成中性偏多支撑。",
+      "reason": "机构观点反映市场结构变化，属于中期影响。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PANews",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82NUc3V1NBYURCc2J5aWVLcmh0N0NYMG1mR3F3alJxeVdKNTFqN2JVNVJYSFhqOVRjZ29Ldk45Nktja0pKTGZHdkRUcF9Vakh3dnUyT2lVVFZ1NGlNRDVzZlUzYXdqTHlhX2RYSkF5dmxTdFNsMVNCcTFoY1hRZlE?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1468, prompt_tokens=8863, total_tokens=10331, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1040, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8832), prompt_cache_hit_tokens=8832, prompt_cache_miss_tokens=31)
+content length: 884
+============================================================
+{
+  "news": [
+    {
+      "title": "Dragonfly合伙人：机构兜底加密市场",
+      "summary": "据PANews报道，Dragonfly合伙人在对话中指出，散户投资者正在离场，而机构资金正在介入并兜底市场。他认为今年加密货币的波动性可能低于美股，暗示机构吸筹为市场提供支撑。这一观点若被广泛接受，可能增强市场信心，对BTC、ETH等主流币形成中长期利好。短期来看，散户离场可能导致流动性下降，但机构托底效应可缓解抛压。",
+      "reason": "机构观点对市场情绪有引导作用，且与散户离场形成对比，可能影响BTC、ETH等主流币走势。属于KOL集体看多信号，可归为市场情绪类别。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PANews via Google News",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82NUc3V1NBYURCc2J5aWVLcmh0N0NYMG1mR3F3alJxeVdKNTFqN2JVNVJYSFhqOVRjZ29Ldk45Nktja0pKTGZHdkRUcF9Vakh3dnUyT2lVVFZ1NGlNRDVzZlUzYXdqTHlhX2RYSkF5dmxTdFNsMVNCcTFoY1hRZlE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他28条素材均与历史消息重复或属排除项（如Binance旧公告、恐惧贪婪指数未变、低质内容），仅本条为新且有交易参考价值。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1922, prompt_tokens=8863, total_tokens=10785, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1513, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8832), prompt_cache_hit_tokens=8832, prompt_cache_miss_tokens=31)
+content length: 860
+============================================================
+{
+  "news": [
+    {
+      "title": "Dragonfly：散户离场机构兜底",
+      "summary": "Dragonfly合伙人接受PANews采访时表示，当前加密货币市场散户投资者逐渐离场，机构投资者成为市场主导力量。他认为今年加密货币的波动性难以超过美股，市场结构正在发生变化。这反映出市场情绪趋于谨慎，机构主导可能降低波动但短期缺乏散户资金推动。对BTC、ETH等主流币种影响偏中性，但长期可能有利于市场稳定。",
+      "reason": "机构观点反映了市场结构变化，属于市场情绪信号，对交易决策有参考价值；该消息未在历史清单中重复出现，具有唯一性。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PANews",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82NUc3V1NBYURCc2J5aWVLcmh0N0NYMG1mR3F3alJxeVdKNTFqN2JVNVJYSFhqOVRjZ29Ldk45Nktja0pKTGZHdkRUcF9Vakh3dnUyT2lVVFZ1NGlNRDVzZlUzYXdqTHlhX2RYSkF5dmxTdFNsMVNCcTFoY1hRZlE?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分消息与历史标题重复（如比特币月度表现、鲸鱼增持、Binance公告等），仅有本条机构观点为新增且有交易参考价值，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=995, prompt_tokens=9779, total_tokens=10774, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=933, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8755)
+content length: 114
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中大部分为历史重复内容（如Binance公告、恐惧贪婪指数、鲸鱼增持ETH、比特币月度涨幅等），无新的关键交易信号。市场情绪指数47呈中性，暂无显著多空催化剂。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1526, prompt_tokens=9779, total_tokens=11305, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1497, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=51)
+content length: 55
+============================================================
+{
+  "news": [],
+  "note": "所有抓取的消息均已在历史消息标题中出现，无新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2135, prompt_tokens=4151, total_tokens=6286, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1210, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=3127)
+content length: 2279
+============================================================
+{
+  "news": [
+    {
+      "title": "鲸鱼购入3.22亿ETH",
+      "summary": "据crypto.news报道，以太坊鲸鱼在价格持稳于2300美元时累计买入3.22亿美元ETH。大额买入通常被视为机构或大户看涨信号，可能推动ETH短期价格上涨。",
+      "reason": "巨鲸异动直接影响行情，买入=看涨，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "crypto.news",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0eml1MVFBRWJXSTM4UDhnZVNsQlotQ3doVmdzek9xaDc1MzJhNGVCUmRpcGdremM1MDNnQ2xDYmgtdjVkZ2djTVVUUlA3SHpOeHVfT1h6VS1fTlY1alBBN2RPbzlOMWNiTHN6Ym9qQ3lQa3ZrbzZzNw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架MEGA",
+      "summary": "Binance宣布将上线MegaETH（MEGA）现货，并同步开放Earn、保证金及永续合约。新币上线通常带来交易量激增和短期涨幅，但需注意Seed Tag高风险提示。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架CHIP",
+      "summary": "Binance将上线Chip（CHIP）现货，并支持HODLer空投及衍生品交易。CHIP作为AI概念币，上币或引发短期炒作，但需注意Seed Tag风险。",
+      "reason": "交易所上币，直接影响CHIP价格。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币4月涨幅创12月新高",
+      "summary": "Reddit r/bitcoin用户发帖称比特币在4月录得12个月以来最强月度涨幅。强劲的月线表现强化了市场看涨情绪，可能吸引更多买盘，但需注意短期过热风险。",
+      "reason": "市场情绪信号，历史强势表现对后市有正面暗示，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1t2eha8/bitcoin_posts_strongest_monthly_gain_in_12_months/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他素材如恐惧贪婪指数47（中性）、Robinhood收入下滑（偏空但影响弱）、大量Binance合约上线（同质化高）等因交易价值较低未被纳入。"
+}
