@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-03",
+  "hour": "19",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9229,
+    "completion_tokens": 2377,
+    "total_tokens": 11606
+  },
+  "content_length": 2374,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"伊朗交易所Nobitex遭制裁调查\",\n      \"summary\": \"据报道，伊朗大型加密货币交易所Nobitex正面临美国制裁相关调查。该交易所是伊朗最大的加密交易平台，此次调查可能切断其与国际金融体系的联系，导致伊朗用户交易受限，并可能引发其他交易所加强合规审查。事件主要影响伊朗本地市场，但对全球加密货币市场情绪有轻微负面影响，尤其是涉及制裁风险的币种。信号为看空，但影响范围有限。\",\n      \"reason\": \"伊朗主要交易所遭制裁调查属于监管政策事件，直接影响该国加密交易流动性，可能引发恐慌性抛售，符合优先级一中的重大监管动态。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"crypto.news\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUkR5U3Rac2ltclo4ejBBT0YzN2tqQ193YXR2dE9RQjV0Zk9SRmxLQlhwSjc1TUNGWEo3bTVCT3g4ZC1IQktHd2Jub284Zjk4UGdEb2NYNVNkc1Y0QU55Y2pVaGNpM1pfWFVSemhQbUZlQlY5YjJXUjYyVGFJWU1KWG5pUy1WSmQ0?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"矿企Keel转向AI基础设施\",\n      \"summary\": \"比特币矿企Keel Infrastructure Corp.宣布从比特币挖矿转向AI基础设施，与科技巨头合作。此举反映矿业利润下降，矿企寻求多元化收入。短期内可能减少比特币算力，但长期看有助于公司生存。对BTC价格影响中性，但对矿业板块有指导意义。信号中性，关注后续算力变化。\",\n      \"reason\": \"矿企战略转型属于项目更新，中期影响行情，符合优先级二中的机构动向。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiogFBVV95cUxQSnNFU19TZzZ4Y2hBQ0JFSTVMTHVsT0VKaGw5UXVyc01kSGZGYjZTWkJaUlRUWVlKVFNUUU9UejlvSlFwcnpncHhtUDJDRmNvQzYzWHdfeXcwU2djazN2ZzViR25rWkN4blBMMG9jVU1ySEstR1lQeGhMOWh0YnNOLWFBcTN6X0l5NnZ5c3NmOTNPQjR2WGlxVkUyeFlhOE5hT2c?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"巴西禁止加密转账  Meta推USDC支付\",\n      \"summary\": \"巴西宣布禁止加密转账，限制加密货币作为支付手段，同时也禁止交易所提供转账服务。这对比特币和山寨币在巴西的采用构成打击，可能引发短期抛售。同时，Meta推出USDC支付功能，稳定币应用场景扩大，形成对冲。整体看，巴西禁令是利空，但影响局限于一国。信号偏空，关注巴西市场反应。\",\n      \"reason\": \"巴西禁令属于重大监管动态，直接影响当地市场情绪和流动性，符合优先级一中的监管政策。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"USDC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Bitcoin News\",\n          \"url\": \"https://news.google.com/rss/articles/CBMioAFBVV95cUxQSzVHc1BiZVZBcTZSajBwb045blB5NXRnNFNiNGxzQkNUSk9ab0tXc1FzMnpGdExDRnJuMi1ma1JJYzFBYWNwVzRCVVdHV0Zvbm9sZlZJN1JZV0g0Y3FxeWZlbUhLd0dFYnNERVFQcTVLZUFHSEdtWW00M0RvVHRmUG5abVZYaTAzMGlubzFROEFrVXE5Y3ktcXRkVmVTOVZv?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮素材中大部分与历史重复，仅输出3条有效新消息。\"\n}"
+}
