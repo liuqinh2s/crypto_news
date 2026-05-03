@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-04",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10601,
+    "completion_tokens": 2750,
+    "total_tokens": 13351
+  },
+  "content_length": 1430,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"韩国KB与Pantera合作\",\n      \"summary\": \"韩国KB金融集团宣布与Pantera Capital达成合作，扩大数字资产战略。此举显示传统金融机构加速布局加密领域，可能带动亚洲市场机构资金流入。影响币种：BTC、ETH等主流币。看多信号，因为机构合作增加市场信心。\",\n      \"reason\": \"机构合作，中期利好，优先级二。未在历史消息中重复。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511144.html\"}],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"加密卡月消费升至6亿美元\",\n      \"summary\": \"数据显示加密卡月度消费额升至6亿美元，其中USDT占比达62.5%。反映稳定币支付采用率提升，资金持续流入加密生态系统。对USDT、稳定币相关项目利好，也间接利好主流币。看多信号，表明实际使用需求增长。\",\n      \"reason\": \"市场结构数据，反映稳定币采用，未出现于历史消息。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"USDT\", \"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511142.html\"}],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"UnblockPay融资450万美元\",\n      \"summary\": \"加密支付提供商UnblockPay完成450万美元种子轮融资，Wintermute参投。显示资本对支付赛道兴趣，但金额较小，短期影响有限。对UnblockPay代币（如有）中性偏多，但对整体市场影响微弱。\",\n      \"reason\": \"项目融资，低优先级但未重复，作为补充。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511143.html\"}],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"近6小时主要消息（美联储加息、MicroStrategy暂停买入、伊朗局势、Binance多币上架等）已在历史消息中反复出现，严格去重后仅有3条新增有价值消息。\"\n}"
+}

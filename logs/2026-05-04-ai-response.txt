@@ -376,3 +376,82 @@ content length: 2946
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2776, prompt_tokens=10601, total_tokens=13377, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2397, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9577)
+content length: 940
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国KB金融与Pantera合作",
+      "summary": "韩国KB金融集团与Pantera Capital达成合作，扩大数字资产战略。KB金融是韩国大型金融机构，此举标志传统金融进一步拥抱加密，可能引导韩国资本流入，利好整体市场。受影响币种包括BTC、ETH及韩国热门币种。看多信号。",
+      "reason": "机构合作，可能带来增量资金，属于中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511144.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密卡月消费达6亿美元",
+      "summary": "数据显示，加密卡月度消费额已升至6亿美元，其中USDT占比62.5%。这表明稳定币在支付领域使用增长，反映实际需求上升，对稳定币生态及整体加密市场情绪有正面作用。看多USDT和加密支付相关项目。",
+      "reason": "实际应用数据利好，显示稳定币需求真实增长。",
+      "category": "市场结构",
+      "impact_coins": ["USDT", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511142.html"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "消息较少，仅筛选出2条新的有交易价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2750, prompt_tokens=10601, total_tokens=13351, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2175, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=105)
+content length: 1430
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国KB与Pantera合作",
+      "summary": "韩国KB金融集团宣布与Pantera Capital达成合作，扩大数字资产战略。此举显示传统金融机构加速布局加密领域，可能带动亚洲市场机构资金流入。影响币种：BTC、ETH等主流币。看多信号，因为机构合作增加市场信心。",
+      "reason": "机构合作，中期利好，优先级二。未在历史消息中重复。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511144.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "加密卡月消费升至6亿美元",
+      "summary": "数据显示加密卡月度消费额升至6亿美元，其中USDT占比达62.5%。反映稳定币支付采用率提升，资金持续流入加密生态系统。对USDT、稳定币相关项目利好，也间接利好主流币。看多信号，表明实际使用需求增长。",
+      "reason": "市场结构数据，反映稳定币采用，未出现于历史消息。",
+      "category": "市场结构",
+      "impact_coins": ["USDT", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511142.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "UnblockPay融资450万美元",
+      "summary": "加密支付提供商UnblockPay完成450万美元种子轮融资，Wintermute参投。显示资本对支付赛道兴趣，但金额较小，短期影响有限。对UnblockPay代币（如有）中性偏多，但对整体市场影响微弱。",
+      "reason": "项目融资，低优先级但未重复，作为补充。",
+      "category": "项目更新",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511143.html"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时主要消息（美联储加息、MicroStrategy暂停买入、伊朗局势、Binance多币上架等）已在历史消息中反复出现，严格去重后仅有3条新增有价值消息。"
+}
