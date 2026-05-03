@@ -2142,3 +2142,69 @@ content length: 2529
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2616, prompt_tokens=9655, total_tokens=12271, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1524, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8631)
+content length: 2680
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor下周恢复购买比特币",
+      "summary": "MicroStrategy创始人Michael Saylor宣布本周未购入比特币，但下周将恢复购买。这显示机构持续增持比特币的意愿，利好BTC价格。影响币种：BTC。信号：看多。",
+      "reason": "MicroStrategy是最大比特币持仓机构之一，其购买行为直接影响市场供需和情绪。属于优先级二机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511120.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase就CLARITY法案达成协议",
+      "summary": "Coinbase与监管方就CLARITY法案达成妥协，该法案将禁止加密平台对稳定币提供被动收益。这限制稳定币收益产品，可能减少DeFi资金流入，但法案通过概率增加，长期看为合规铺路。影响币种：USDT, USDC, ETH。信号：看空。",
+      "reason": "监管政策直接影响稳定币生态和DeFi收益，属于优先级一监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t2m5gi/coinbase_reaches_deal_on_clarity_act_that_bans/"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "民调：选民不信任特朗普监管加密",
+      "summary": "CoinDesk民调显示美国选民不信任特朗普政府监管加密行业，可能影响中期选举和监管方向。若监管不确定性增加，短期或压制加密市场情绪。影响币种：BTC, ETH。信号：看空。",
+      "reason": "市场情绪和监管预期变化属于优先级一监管动态，民调结果可能引发市场担忧。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/03/u-s-voters-don-t-trust-trump-administration-to-oversee-crypto-sector-coindesk-poll-finds"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Figure CEO：区块链重构华尔街管道",
+      "summary": "Figure CEO Mike Cagney表示区块链将重构华尔街金融基础设施，传统中介或被替代。长期利好区块链应用，但短期无直接价格影响。影响币种：ETH, AVAX等公链。信号：中性。",
+      "reason": "属于行业长期叙事，但缺乏短期交易价值。根据筛选标准，影响微弱，但作为补充消息保留。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AVAX"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511121.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Riot Platforms力挺比特币储备",
+      "summary": "Riot Platforms副总裁称其比特币储备是数据中心业务最高效融资来源，暗示公司将长期持有比特币。机构持续看好比特币，利好市场信心。影响币种：BTC。信号：看多。",
+      "reason": "机构动向属优先级二，显示矿企看好比特币，可能减少抛压。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaXlYVzNoS01mQVN0dFYtYWE5U1lNMkUtbFJzeFNma19aVjM3SFcyZ2gtSTUyZ25LdnEyNlFLZDl2ZDVBSmFiTHNFMV9ESmZpamdHRVE4dnZ0c2pSb3FUSTZ1N09pWXkxdHJRLWt5MlZ3LVNEMmxTX0FwSkJfVW9RU0FtYy1RTi1jX1J5WVJsSmxaUHBQaUdRWHJn?oc=5"}],
+      "urgency": "hours"
+    }
+  ]
+}
