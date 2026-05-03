@@ -615,3 +615,94 @@ content length: 2815
   ],
   "note": "当前时段符合条件的消息较少，仅筛选出4条关键消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3194, prompt_tokens=10970, total_tokens=14164, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1707, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9946)
+content length: 3401
+============================================================
+{
+  "news": [
+    {
+      "title": "Uphold被罚500万美元和解",
+      "summary": "纽约总检察长办公室与加密交易平台Uphold达成500万美元和解，指控其未经注册提供加密收益产品并误导投资者。这是首次针对加密收益产品促销的执法行动，可能引发对其他类似平台的调查。受影响币种包括所有涉收益产品的代币，但主要对DeFi和CeFi收益项目（如质押、借贷）构成监管压力。信号看空，短期可能引发抛售。",
+      "reason": "首次针对加密收益产品促销的执法行动，优先级一监管动态，影响行业合规预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "AAVE", "COMP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399825/new-york-ag-settles-for-5-million-with-uphold-in-first-enforcement-action-against-a-crypto-yield-product-promoter"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "稳定币奖励协议扫清立法障碍",
+      "summary": "美国参议院达成协议，允许加密公司向稳定币持有者支付利息，系稳定币立法关键突破。该协议移除了一项主要障碍，可能推动《稳定币法案》通过。Coinbase等平台将受益，合规稳定币如USDC、USDT需求看涨。信号看多，长期利好加密市场资金流入。",
+      "reason": "优先级一监管政策，稳定币立法重大进展，直接影响合规稳定币及交易所业务。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "USDT", "DAI", "COIN"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "PYMNTS.com via Google News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMXZlOVFkckpWU1FMbF9MYzJUTlMxWWRtaVZSOFJQdHgxcEY3UWFQb1dKWHNlS2xsMWRienA4NzBLUDZaNHZKSl9maS1HVk1lZlA5b0ZDdjQ2S3FOUTVmcE94aGdMNVlmRHdSS1hFTHk3T2R5MjBlcWlWSC1uTkJzazhOc2M1UE9lVHdVWFNpdDYtUS15alBUTTJveFJKcW8?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币矿工转向AI影响价格目标",
+      "summary": "比特币矿工因收益下滑加速转向AI计算业务，可能导致算力下降和挖矿成本上升。分析师指出，这一趋势可能削弱5月11.5万美元价格目标的基础。短期看空信号，但长期矿工结构变化利好网络安全。影响BTC和矿业股。",
+      "reason": "优先级二技术升级/项目更新，矿工行为变化影响BTC供需预期。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "MARA", "RIOT"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDh6TWRxWDc2UjlmUGtGdzZfWlpkVVF3TTQtS0hMNmVCYlhwblE1NVZtSFVTcFlKOFlrTm9UMzNzRFRjTWRwWUJFaDNzWE8wRk1UYURqb3hic01mRnI0MjZDY05xS3Z4WW9aTHlxaTVqSzFNV2h2blFFbjVkdzQ5cHNvNEdBOFlfdXk3LVM2UmZhUHFUMExLRnc1NA?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币4月涨幅创近一年最佳",
+      "summary": "比特币在2026年4月录得自2025年4月以来最佳月度表现，涨幅约15%，受益于美伊紧张局势缓和及宏观情绪改善。当前BTC价格接近7.9万美元，但CryptoQuant警告反弹缺乏交易量支撑。短期看多，但需警惕回调风险。",
+      "reason": "优先级二市场结构信号，月涨幅数据反映趋势强度，但需结合量能判断持续性。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdHNBTDhxMG1YVmRxV3pRVm9aUWlYZF9IY0tBM3ZNeGVYV0ZGalpiS1poMFVEMTM0ZUZTM0tjVFYtZUthbWpoMnY1RGF2enRBU203REdGZkJoc2NWVW13QmFLV0xSU001ak92N1RUMTUtQXcwY1RXWEt6eHhnbWgxNVZ5VzFPWTdkbzlRQ1EtRQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储官员警告私人信贷风险外溢",
+      "summary": "美联储理事巴尔警告，私人信贷市场的脆弱性可能通过‘心理传染’外溢至整个金融体系，引发系统性风险。该言论加剧市场对信贷紧缩的担忧，可能间接影响风险资产包括加密货币。信号偏空，但影响有限。",
+      "reason": "优先级二宏观经济，美联储官员讲话影响风险偏好，但非直接针对加密。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511153.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
