@@ -828,3 +828,63 @@ content length: 2744
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1936, prompt_tokens=8783, total_tokens=10719, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1273, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7759)
+content length: 1583
+============================================================
+{
+  "news": [
+    {
+      "title": "BIO多签转8000万枚至交易所",
+      "summary": "Bio Protocol多签钱包于8小时前将8000万枚BIO代币转入Binance和OKX交易所。大额转入通常预示潜在抛售，对BIO形成直接抛压。该消息为链上异动，明确看空BIO。",
+      "reason": "巨鲸大额代币转入交易所是优先级一信号，直接增加卖压，对BIO价格构成下行风险。",
+      "category": "链上异动",
+      "impact_coins": ["BIO"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511083.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "DOGE鲸鱼移动1168万枚至新地址",
+      "summary": "一个沉睡1年半的DOGE巨鲸地址于1小时前将1168万枚DOGE（约117万美元）转移至新地址。虽未直接转入交易所，但大额异动可能预示后续抛售或重新分配，短期增加不确定性，对DOGE偏利空。",
+      "reason": "沉睡巨鲸醒来并移动代币，可能为抛售做准备，属于链上异动，需关注后续动作。",
+      "category": "链上异动",
+      "impact_coins": ["DOGE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511088.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸开MEGA多单浮亏84万美元",
+      "summary": "某巨鲸近三日平掉ETH空单后，开立了MEGA（MegaETH）两倍多单，目前浮亏超84万美元。MEGA刚上线Binance，价格波动剧烈，该操作显示大户对MEGA短期看多但已承压，警示MEGA回调风险。",
+      "reason": "大户交易行为反映市场情绪，浮亏可能引发止损或进一步波动，对MEGA短期走势偏空。",
+      "category": "链上异动",
+      "impact_coins": ["MEGA"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511086.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选仅3条有效新消息，其余多为历史重复或对交易影响微弱。Binance系列公告及CryptoQuant、Arbitrum、伊朗冲突等已在历史中出现，故排除。"
+}

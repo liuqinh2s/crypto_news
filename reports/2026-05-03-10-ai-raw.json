@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-03",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8783,
+    "completion_tokens": 1936,
+    "total_tokens": 10719
+  },
+  "content_length": 1583,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BIO多签转8000万枚至交易所\",\n      \"summary\": \"Bio Protocol多签钱包于8小时前将8000万枚BIO代币转入Binance和OKX交易所。大额转入通常预示潜在抛售，对BIO形成直接抛压。该消息为链上异动，明确看空BIO。\",\n      \"reason\": \"巨鲸大额代币转入交易所是优先级一信号，直接增加卖压，对BIO价格构成下行风险。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BIO\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511083.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"DOGE鲸鱼移动1168万枚至新地址\",\n      \"summary\": \"一个沉睡1年半的DOGE巨鲸地址于1小时前将1168万枚DOGE（约117万美元）转移至新地址。虽未直接转入交易所，但大额异动可能预示后续抛售或重新分配，短期增加不确定性，对DOGE偏利空。\",\n      \"reason\": \"沉睡巨鲸醒来并移动代币，可能为抛售做准备，属于链上异动，需关注后续动作。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"DOGE\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511088.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"巨鲸开MEGA多单浮亏84万美元\",\n      \"summary\": \"某巨鲸近三日平掉ETH空单后，开立了MEGA（MegaETH）两倍多单，目前浮亏超84万美元。MEGA刚上线Binance，价格波动剧烈，该操作显示大户对MEGA短期看多但已承压，警示MEGA回调风险。\",\n      \"reason\": \"大户交易行为反映市场情绪，浮亏可能引发止损或进一步波动，对MEGA短期走势偏空。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"MEGA\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511086.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮筛选仅3条有效新消息，其余多为历史重复或对交易影响微弱。Binance系列公告及CryptoQuant、Arbitrum、伊朗冲突等已在历史中出现，故排除。\"\n}"
+}
