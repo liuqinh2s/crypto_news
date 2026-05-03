@@ -1343,3 +1343,130 @@ content length: 3345
   ],
   "note": "多数Binance公告日期较旧（4月中下旬），但鉴于历史消息为空，仍选取相对重要的新币上线。Cipher Digital转型消息时效性较低但属中期影响。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1217, prompt_tokens=8620, total_tokens=9837, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=834, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7596)
+content length: 816
+============================================================
+{
+  "news": [
+    {
+      "title": "美财政部注入350亿流动性",
+      "summary": "美国财政部向市场注入350亿美元流动性，支持比特币潜在升至11.5万美元。该消息来自Crypto Briefing报道，显示宏观流动性增加，利好风险资产。比特币作为加密市场风向标，有望受益于资金面宽松。信号：看多。",
+      "reason": "直接影响风险资产估值，流动性注入属重大宏观利好，且此前未重复。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTV8tUUZwUllpWG0wUTdEa2pBczl1Uzdic0R6eXNuNzlyTUE2MnpYeDZFN2FEaGNOV3VzRzNhbEwyUHhpWkRJX2duTUVFeVppVEVvRFBfaGhDTzlqcmJBeXI5Q1lhemhTNVAtcy1yWUdmV0htT2M0eVNUSkpCV01pY0I1UUtCel9hLTR1TlY4cFFrUTdGMjhmTHBKLVQ2ZjVNR0xZTg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材大部分与历史重复，仅有美国财政部流动性注入一条新消息且影响重大，因此只输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2707, prompt_tokens=8620, total_tokens=11327, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1342, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8576), prompt_cache_hit_tokens=8576, prompt_cache_miss_tokens=44)
+content length: 3241
+============================================================
+{
+  "news": [
+    {
+      "title": "美财政部注资350亿流动性",
+      "summary": "美国财政部注入350亿美元流动性，分析师认为这可能支持比特币上涨至115,000美元。注资增加市场资金，利好风险资产，比特币作为领先加密货币将受益。信号：看多，影响BTC。",
+      "reason": "宏观经济流动性注入是影响风险资产的重要事件，符合优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTV8tUUZwUllpWG0wUTdEa2pBczl1Uzdic0R6eXNuNzlyTUE2MnpYeDZFN2FEaGNOV3VzRzNhbEwyUHhpWkRJX2duTUVFeVppVEVvRFBfaGhDTzlqcmJBeXI5Q1lhemhTNVAtcy1yWUdmV0htT2M0eVNUSkpCV01pY0I1UUtCel9hLTR1TlY4cFFrUTdGMjhmTHBKLVQ2ZjVNR0xZTg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Cipher Digital挖矿转AI",
+      "summary": "Cipher Digital宣布从比特币挖矿转向人工智能基础设施，与科技巨头合作。这反映矿工运营模式转变，可能减少BTC抛售压力，但对挖矿行业产生示范效应。信号：中性偏多，影响BTC挖矿板块。",
+      "reason": "矿工转型是链上异动信号，影响挖矿生态，符合优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRHBwUGFvUjlZTVJLWTc3MFNaOXI0LS1jeDB5Vm1EZlJoMzl5ZVYyeC15S1RodGFMbk9MR0kxajdQQ3AzUlpjQVJSRmw5dFFCYl9CVkcyWE1VTmZwbi1LSjB6UmI4VXVlNl9xY1l3dnhGU2NYNWc4SGJTdklacEQ2c19pZV9ZYVc1eWpHTS03MTdNLXpWRnEyX2M1SHJzaVFFZU5RcVpUaHM?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗局势升级避险升温",
+      "summary": "伊朗官员透露正在研究超过8条贸易替代通道，以应对制裁；伊朗称美以军事袭击导致近1500所学校受损，外交部谴责特朗普。地缘政治紧张加剧，可能引发避险情绪，利空风险资产包括加密货币。信号：看空，影响BTC、ETH。",
+      "reason": "地缘政治风险是影响整体市场情绪的重要因素，符合优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511102.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511101.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511100.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "LAB币6小时暴跌80%",
+      "summary": "LAB代币今晨突破4美元后迅速回落，6小时内跌幅超80%。如此剧烈的价格波动可能涉及市场操纵或项目问题，对持有者造成巨大损失。信号：看空LAB，同时警示山寨币风险。",
+      "reason": "代币极端价格波动属于链上异动，可能影响市场信心，符合优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["LAB"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511098.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币4月涨幅12月最佳",
+      "summary": "比特币在4月录得12个月来最佳月度表现，但CryptoQuant指出上涨由投机因素驱动，需警惕回调。月线强势但基本面存疑，短期可能面临修正。信号：中性，中长期看多但短期谨慎。",
+      "reason": "比特币月度表现是市场结构信号，结合CryptoQuant观点提供多空平衡，符合优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitbo",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOeEJpeU1EZGNRVUZZbkkzUkRIN21hUGtsTnV2LTNJVFZtR3FmWkcyLUxBSEJOVERfampuNHFfWGhGUHRGcUM4YTFQTjNnLUlmRDhXTXhFcjNhU0hKbVUzb01yMDM?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
