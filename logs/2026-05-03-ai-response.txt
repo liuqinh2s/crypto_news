@@ -677,3 +677,63 @@ content length: 3173
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2207, prompt_tokens=10093, total_tokens=12300, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1411, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9069)
+content length: 1914
+============================================================
+{
+  "news": [
+    {
+      "title": "美财政部账户规模创新高",
+      "summary": "美国财政部一般账户（TGA）规模升至约1万亿美元，创2021年4月以来新高。TGA增加意味着财政部吸收流动性，可能减少银行储备，对风险资产（包括加密货币）构成间接流动性压力，但影响相对间接。对BTC、ETH等整体偏空，但程度有限。",
+      "reason": "宏观经济数据变化，TGA规模扩大可能抽走市场流动性，对风险资产不利，属于中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511081.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bullish推出RLUSD期权及Mezo Prime",
+      "summary": "Bullish交易所扩大机构加密业务，推出RLUSD期权产品以及Mezo Prime服务。RLUSD是受监管的稳定币，期权产品为机构提供新的对冲和投机工具，Mezo Prime提供大宗交易和托管服务。这显示机构对加密市场参与度提升，有利于增加市场深度和合法性，对整体市场偏多，尤其利好ETH和DeFi相关币种。",
+      "reason": "机构动向：Bullish推出新产品，表明机构资金持续入场，提升市场信心，属于优先级二的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeHZkd0czSVFkVEU5SGRWU0w5VWFqNnZPclNjQjIwVlFqaUNseVFSQmVIalRwb2k2bFUxSGNJTnJxSEtUWTZLVzVmM3JKQ0dRYmhSSnBRWVdUcDRFTFBmbEFlanFjZHpvaGhoYXAyTkxfanBMTTdUY2tremlfWjc0VVJsU2lwT2NlemZYazRldnRvOVdqWTVlSlBOTlZfbmhQbk9pMWJFZEl5UQ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数升至47中性",
+      "summary": "加密货币恐惧贪婪指数从之前的39（恐惧）升至47（中性），表明市场情绪有所修复但尚未过热。中性区域通常意味着市场方向不明确，但脱离极端恐惧可能为短期反弹提供支持，不过交易信号较弱。",
+      "reason": "市场情绪指数变化，脱离极端恐惧区域，可能预示短期企稳，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "经过筛选与历史消息去重，本轮仅有3条有交易价值的新消息。其余素材多为重复公告或无关内容。"
+}
