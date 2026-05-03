@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-03",
+  "hour": "12",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10221,
+    "completion_tokens": 2100,
+    "total_tokens": 12321
+  },
+  "content_length": 2260,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"比特币月度涨幅创12月新高\",\n      \"summary\": \"CoinTelegraph报道，比特币在4月录得过去12个月中最佳月度表现，但CryptoQuant指出4月上涨主要由投机性因素推动，现货需求疲软，存在回调风险。比特币价格坚挺，但链上数据不支持持续上涨，需警惕短期回调。影响币种BTC，信号中性偏空。\",\n      \"reason\": \"优先级一：直接影响行情。月度表现亮眼但机构警告投机驱动，提供多空博弈信息。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/news/bitcoin-posts-its-strongest-monthly-gain-in-12-months-in-april\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"比特币需求滞后但两因素或拯救涨势\",\n      \"summary\": \"AMBCrypto报道，尽管有2750亿美元资金流入，但比特币现货需求依然滞后。文章指出两个潜在利好因素：宏观环境改善和机构采用加速，可能支撑BTC后续涨势。短期需求不足构成压力，但长期因素仍在。影响币种BTC，信号中性。\",\n      \"reason\": \"优先级二：机构动向与市场情绪。资金流入与需求背离，揭示市场结构矛盾。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"AMBCrypto\", \"url\": \"https://news.google.com/rss/articles/CBMingFBVV95cUxPZGppVE8wNlI0TGdxUnB6bmUxMm1udldZa0RERFVJN09rNTEtZWQyTmVTMDgxa2dUM3pOc0dyQkhjcGNNNzNsSF9rZksxckhUd3ctQ3FkSnVKcUdoVlJBazc0OU9jNkJWVTFINldxVUJ4TUtXT01iV3lHR3h3VkN6RlN2cFp6Ym1yTElGVGpTREZpSFZURmthREV2SURQZ9IBowFBVV95cUxPN3R1US1kYlEtR1NSVDVNZmlaczJQaVpzUnc0bExxbFdodE5EcFlTVFhCd0hJUmFrOXlZck9fRWlCWjZPQjkwcEZFSnVLT2xod0hicTUtdTFnN0U2ckprWHFKSHlOYlZUOE8xaTNqNXR6RGJqWGNyNGYxTlZQVnhVOTVpWlppQzVuMFV5cUhVT2lzV1dTUWNhc0xsczhSdTF1OHV3?oc=5\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"a16z称稳定币一词已过时\",\n      \"summary\": \"a16z公开表示“稳定币”一词是加密动荡过去的残余，暗示行业认知演变。可能推动监管对稳定币定义的重新思考，短期对USDT/USDC无直接影响，但反映机构态度变化。影响币种稳定币相关，信号中性。\",\n      \"reason\": \"优先级二：监管政策。知名风投言论可能影响监管讨论，但无实质性政策变化。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDT\", \"USDC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\"name\": \"Yahoo Finance\", \"url\": \"https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0UtOEtMVEhnMnJKVWJXV0ZrbEdRU09tUWYtWU13TmxYdTN0U0FjZ3R4QUJGdFVOWkpQcl92d0NtWTYyOEljbS1ZdmE4VGMtYjNXNi1PalhvRlhobXhyQ3JYYnlETjRmX2I2NlNlX1NUdGdDdTY0SHRyVlV0NDV1aHQ0TVp1UG1OSGQ5MGNBVXc4MzVlRnhPeWxkUFFPQk9GMGc?oc=5\"}\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮抓取素材中大量Binance公告与历史重复，仅筛选出3条有价值的新闻。其余如恐惧贪婪指数47、雪球快照等均为重复或低价值内容。\"\n}"
+}
