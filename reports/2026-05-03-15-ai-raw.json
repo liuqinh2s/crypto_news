@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-03",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8377,
+    "completion_tokens": 2253,
+    "total_tokens": 10630
+  },
+  "content_length": 2032,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Powell退出Warsh接任引发BTC抛售担忧\",\n      \"summary\": \"据报道，美联储主席鲍威尔即将退出，由Warsh接任，市场预期政策收紧可能加速，导致比特币面临抛售压力。这一宏观政策变化可能影响整体风险资产，尤其是BTC。从合约做多视角看，短期偏空。影响币种：BTC。\",\n      \"reason\": \"美联储领导层变动直接影响宏观流动性预期，属于优先级二中的宏观经济消息，且市场已开始定价抛售。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Briefing\",\n          \"url\": \"https://news.google.com/rss/articles/CBMikwFBVV95cUxPcEFQMW9IT1R3OGRlV29pRGliTndvdU83aUg4ZzUxUVF2d1NLdDFET1NxMFV4ZHZxZHRQOFFLYS1vZ2ZtQWw2ZkJld0Ffc01iOUdfVXgwY2g4eUpfblZ0czhGb3ItVjAxSEtvc1pnV21BUlR4bURlak82Z2hmeDh4S1d6VGdQMV9PbGtWc2FsQ01TUlE?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"CLARITY法案未通过也无妨\",\n      \"summary\": \"Chris Perkins表示，即使CLARITY法案未通过，加密行业仍将正常发展。该法案旨在为数字资产提供监管清晰度，该言论可能缓和市场对监管风险的担忧，短期偏中性，但长期有利于行业信心。影响币种：BTC、ETH。\",\n      \"reason\": \"监管法案相关的核心人物表态，属于优先级一中的监管动态，但言论偏温和，中性信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/crypto-industry-will-be-just-fine-if-clarity-act-doesnt-pass-chris-perkins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"以太坊Glamsterdam升级推动Gas上限至2亿\",\n      \"summary\": \"以太坊即将进行的Glamsterdam升级可能将Gas上限提升至2亿，这将显著提高L1交易容量，重新引发关于Layer1扩展性的讨论。升级利好ETH网络，但短期内可能因技术调整带来不确定性。偏多信号。影响币种：ETH。\",\n      \"reason\": \"重大技术升级属于优先级二中的项目更新，直接提升网络性能，看多。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t2dmgq/ethereums_glamsterdam_upgrade_could_push_gas/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前抓取素材中，大部分公告与历史重复，仅有三条新消息具有交易决策价值。\"\n}"
+}

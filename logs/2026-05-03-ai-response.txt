@@ -1470,3 +1470,63 @@ content length: 3241
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2253, prompt_tokens=8377, total_tokens=10630, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1426, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=0), prompt_cache_hit_tokens=0, prompt_cache_miss_tokens=8377)
+content length: 2032
+============================================================
+{
+  "news": [
+    {
+      "title": "Powell退出Warsh接任引发BTC抛售担忧",
+      "summary": "据报道，美联储主席鲍威尔即将退出，由Warsh接任，市场预期政策收紧可能加速，导致比特币面临抛售压力。这一宏观政策变化可能影响整体风险资产，尤其是BTC。从合约做多视角看，短期偏空。影响币种：BTC。",
+      "reason": "美联储领导层变动直接影响宏观流动性预期，属于优先级二中的宏观经济消息，且市场已开始定价抛售。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcEFQMW9IT1R3OGRlV29pRGliTndvdU83aUg4ZzUxUVF2d1NLdDFET1NxMFV4ZHZxZHRQOFFLYS1vZ2ZtQWw2ZkJld0Ffc01iOUdfVXgwY2g4eUpfblZ0czhGb3ItVjAxSEtvc1pnV21BUlR4bURlak82Z2hmeDh4S1d6VGdQMV9PbGtWc2FsQ01TUlE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY法案未通过也无妨",
+      "summary": "Chris Perkins表示，即使CLARITY法案未通过，加密行业仍将正常发展。该法案旨在为数字资产提供监管清晰度，该言论可能缓和市场对监管风险的担忧，短期偏中性，但长期有利于行业信心。影响币种：BTC、ETH。",
+      "reason": "监管法案相关的核心人物表态，属于优先级一中的监管动态，但言论偏温和，中性信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/crypto-industry-will-be-just-fine-if-clarity-act-doesnt-pass-chris-perkins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "以太坊Glamsterdam升级推动Gas上限至2亿",
+      "summary": "以太坊即将进行的Glamsterdam升级可能将Gas上限提升至2亿，这将显著提高L1交易容量，重新引发关于Layer1扩展性的讨论。升级利好ETH网络，但短期内可能因技术调整带来不确定性。偏多信号。影响币种：ETH。",
+      "reason": "重大技术升级属于优先级二中的项目更新，直接提升网络性能，看多。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t2dmgq/ethereums_glamsterdam_upgrade_could_push_gas/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前抓取素材中，大部分公告与历史重复，仅有三条新消息具有交易决策价值。"
+}
