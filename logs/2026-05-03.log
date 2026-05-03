@@ -1184,3 +1184,158 @@
 2026-05-03 04:02:32 [DEBUG]   去重: 「a16z称稳定币一词已过时」 → URL重复: https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0UtOEt
 2026-05-03 04:02:32 [INFO] 📦 JSON 已保存: reports/2026-05-03-12.json
 2026-05-03 04:02:32 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息
+2026-05-03 05:00:35 [INFO] 🚀 开始抓取 2026-05-03 13:00 币圈新闻
+2026-05-03 05:00:35 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-03 05:00:35 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-03 05:00:35 [INFO]   ⏭ Decrypt: 过滤掉 20 条非近期新闻
+2026-05-03 05:00:35 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-03 05:00:36 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-03 05:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:36 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:37 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:37 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-03 05:00:37 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:37 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:37 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:37 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:37 [INFO]   ⏭ Crypto Twitter: 过滤掉 47 条非近期新闻
+2026-05-03 05:00:37 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-05-03 05:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-03 05:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-03 05:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-03 05:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-03 05:00:51 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:51 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-03 05:00:51 [INFO]   ✓ CoinDesk: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ The Block: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Decrypt: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-03 05:00:51 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Blockworks: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ DL News: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ 金色财经: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ PANews: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-03 05:00:51 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-05-03 05:00:51 [INFO]   ✓ Crypto Twitter: 3 条
+2026-05-03 05:00:51 [INFO]   ✓ 宏观经济: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Binance公告: 20 条
+2026-05-03 05:00:51 [INFO]   ✓ OKX公告: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Bitget公告: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Whale Alert: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-03 05:00:51 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-03 05:00:51 [INFO]   ✓ 雪球加密: 0 条
+2026-05-03 05:00:51 [INFO] 📊 共抓取 28 条新闻
+2026-05-03 05:00:51 [INFO] 📋 原始新闻已保存: reports/2026-05-03-13-raw.json (28 条)
+2026-05-03 05:00:51 [INFO] 📋 标题摘要已保存: reports/2026-05-03-13-raw-titles.md
+2026-05-03 05:00:51 [INFO] ✅ 抓取完成，共 28 条，已保存到 reports/2026-05-03-13-raw.json
+2026-05-03 05:00:52 [INFO] 🤖 开始 AI 筛选 2026-05-03 13:00 币圈消息
+2026-05-03 05:00:52 [INFO] 📋 已加载原始新闻: reports/2026-05-03-13-raw.json (28 条)
+2026-05-03 05:00:52 [INFO] 📚 已加载历史新闻标题（14995 字符）
+2026-05-03 05:00:52 [INFO] 📚 已加载历史筛选标题 19 条、URL 20 个，用于去重
+2026-05-03 05:00:52 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-03 05:00:52 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-03 05:00:52 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（28 条，5308 字符，temp=0.3）
+2026-05-03 05:01:08 [INFO] AI 原始返回已保存: logs/2026-05-03-ai-response.txt (finish_reason=stop, 845 字符)
+2026-05-03 05:01:08 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-03-13-ai-raw.json
+2026-05-03 05:01:08 [DEBUG] parse_json_response 输入长度: 845 字符
+2026-05-03 05:01:08 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Cipher Digital转型AI基础设施",
+      "summary": "Cipher Digital宣布从比特币挖矿转型至AI基础设施，与多家科技巨头合作。这一消息表明矿工正在寻求多元化收入来源，可能减少比特币算力增长，但短期内对BTC价格影响有限。长期看，若更多矿工效仿，可能影响比特币网络安全。信号中性，影响币种主要涉及BTC，但直接关联度低。",
+      "reason": "项目重大转型，属于优先级二的技术升级/机构动向，但影响程度较低，未在历史消息中出现。",
+      "category": 
+2026-05-03 05:01:08 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-03 05:01:08 [INFO] ✅ AI 返回 1 条新闻
+2026-05-03 05:01:08 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-03 05:01:08 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（28 条，5308 字符，temp=0.3）
+2026-05-03 05:01:20 [INFO] AI 原始返回已保存: logs/2026-05-03-ai-response.txt (finish_reason=stop, 165 字符)
+2026-05-03 05:01:20 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-03-13-ai-raw.json
+2026-05-03 05:01:20 [DEBUG] parse_json_response 输入长度: 165 字符
+2026-05-03 05:01:20 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "当前抓取素材中，所有Binance公告已重复出现于历史消息中；CoinTelegraph和Crypto Twitter关于比特币月涨幅及CryptoQuant警告也已被历史消息覆盖；Fear & Greed指数未变；Reddit帖子无交易价值。因此未筛选出有效的新消息。"
+}
+2026-05-03 05:01:20 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-03 05:01:20 [INFO] ✅ AI 返回 0 条新闻
+2026-05-03 05:01:20 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 返回空数组，将重试
+2026-05-03 05:01:20 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（28 条，5308 字符，temp=0.3）
+2026-05-03 05:01:39 [INFO] AI 原始返回已保存: logs/2026-05-03-ai-response.txt (finish_reason=stop, 841 字符)
+2026-05-03 05:01:39 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-03-13-ai-raw.json
+2026-05-03 05:01:39 [DEBUG] parse_json_response 输入长度: 841 字符
+2026-05-03 05:01:39 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "矿企Cipher转向AI基础设施",
+      "summary": "Cipher Digital宣布从比特币挖矿全面转向AI基础设施，并与多家科技巨头合作。此举可能减少比特币网络算力，但显示机构对AI领域的兴趣。短期内对BTC影响有限，但可能引发其他矿企效仿，中长期看算力下降若持续可能对BTC价格产生压力。信号中性，需观察后续算力变化。",
+      "reason": "矿企转型可能影响比特币算力和市场情绪，但与科技巨头合作显示机构青睐，属于中期影响。",
+      "category": "项目更新",
+  
+2026-05-03 05:01:39 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-03 05:01:39 [INFO] ✅ AI 返回 1 条新闻
+2026-05-03 05:01:39 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 1 条（期望 3），将重试
+2026-05-03 05:01:39 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（28 条，7771 字符，temp=0.3）
+2026-05-03 05:02:05 [INFO] AI 原始返回已保存: logs/2026-05-03-ai-response.txt (finish_reason=stop, 870 字符)
+2026-05-03 05:02:05 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-03-13-ai-raw.json
+2026-05-03 05:02:05 [DEBUG] parse_json_response 输入长度: 870 字符
+2026-05-03 05:02:05 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "矿企Cipher Digital转向AI",
+      "summary": "Cipher Digital宣布从比特币挖矿转向AI基础设施，与科技巨头合作。该消息表明矿企因挖矿利润下降而寻求多元化，可能减少比特币抛压，但长期看挖矿算力可能下降。对BTC影响中性偏多，因抛压减少；对AI相关代币可能有利好。",
+      "reason": "机构动向，矿企转型影响算力和BTC供需，属于中期影响行情消息。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+2026-05-03 05:02:05 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-03 05:02:05 [INFO] ✅ AI 返回 1 条新闻
+2026-05-03 05:02:05 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-03 05:02:05 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（28 条，7771 字符，temp=0.3）
+2026-05-03 05:02:15 [INFO] AI 原始返回已保存: logs/2026-05-03-ai-response.txt (finish_reason=stop, 134 字符)
+2026-05-03 05:02:15 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-03-13-ai-raw.json
+2026-05-03 05:02:15 [DEBUG] parse_json_response 输入长度: 134 字符
+2026-05-03 05:02:15 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮素材中所有消息均与历史消息重复，无新增有效交易信号。Binance公告均为旧闻，市场情绪指数未变，其余新闻如比特币月涨幅、CryptoQuant警告等已在前6小时出现过。因此未筛选出任何值得关注的新消息。"
+}
+2026-05-03 05:02:15 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-03 05:02:15 [INFO] ✅ AI 返回 0 条新闻
+2026-05-03 05:02:15 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 返回空数组，将重试
+2026-05-03 05:02:15 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（28 条，5308 字符，temp=0.3）
+2026-05-03 05:02:48 [INFO] AI 原始返回已保存: logs/2026-05-03-ai-response.txt (finish_reason=stop, 3345 字符)
+2026-05-03 05:02:48 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-03-13-ai-raw.json
+2026-05-03 05:02:48 [DEBUG] parse_json_response 输入长度: 3345 字符
+2026-05-03 05:02:48 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Bitcoin四月涨幅创12月新高",
+      "summary": "据CoinTelegraph报道，比特币在四月份录得12个月来最佳月度表现。这显示市场情绪回暖，可能吸引更多买盘，但需警惕短期过热。该数据对BTC构成看多信号，但需结合后续资金流向判断。",
+      "reason": "优先级三：市场情绪信号，月度涨幅反映市场强势，可能推动短期看多情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bu
+2026-05-03 05:02:48 [DEBUG] 从 JSON 对象的 news 字段提取到 6 条记录
+2026-05-03 05:02:48 [INFO] ✅ AI 返回 6 条新闻
+2026-05-03 05:02:48 [INFO] ✅ AI 筛选出 6 条交易相关消息，符合预期
+2026-05-03 05:02:48 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
+2026-05-03 05:02:48 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-03 05:02:48 [DEBUG]   去重: 「Bitcoin四月涨幅创12月新高」 → URL重复: https://cointelegraph.com/news/bitcoin-posts-its-strongest-m
+2026-05-03 05:02:48 [INFO] 📦 JSON 已保存: reports/2026-05-03-13.json
+2026-05-03 05:02:48 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
