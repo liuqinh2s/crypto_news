@@ -455,3 +455,79 @@ content length: 1430
   ],
   "note": "近6小时主要消息（美联储加息、MicroStrategy暂停买入、伊朗局势、Binance多币上架等）已在历史消息中反复出现，严格去重后仅有3条新增有价值消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3324, prompt_tokens=9918, total_tokens=13242, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2097, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8894)
+content length: 2792
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊退出队列暴涨72000%",
+      "summary": "以太坊信标链验证者退出队列规模激增72000%，主要由于近期DeFi黑客攻击导致大量验证者恐慌退出。大量退出可能引发ETH抛压，加剧市场对以太坊安全性的担忧。短期内对ETH形成利空信号，需关注质押解除后的流通量增加。",
+      "reason": "链上异动直接影响ETH供需，属优先级一重大事件。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa2hPRXNVWVNjNFZLSFRJeEVtUHBXSHJaRVMzZjFjYUlSdENZRWlMMmpzVThncEpFalN0VEpxUjRoblpxaWhhcTlQRUNTV3BKTUp6SjRueUkyMFNWSnhOcEpLdHRadmRFa1F4V3dWTEg1alYwbXdsVVRydlFQcVYxdHZBXzRxR3d0dndFRDMwenlLNlV4YzlyUmh2OUI?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "主权国家采用提振机构信心",
+      "summary": "Blockstream CEO Adam Back表示，主权国家对比特币的采用（如萨尔瓦多等国）正显著提升机构投资者的信心。尽管暂无新国家宣布，但言论可能强化市场对比特币长期价值的认可，短期情绪偏多。",
+      "reason": "机构信心言论属市场情绪信号，影响BTC长期预期。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMGNOQVpWbU0xaDVvSl9PRlV3S3lZTk81MkFWZ2FPTDdibHNJV3FRU1FucnBkZ1lnZ2h6WHd2ckRiUnJHQ3Zxa3llTHJia0YzcTZqeXg0Z0xydHlMcEpkdHJCYUhmQjNfaVAtaWUwbXFMTlJKM1dMVWwtbDJXWUJLWlpzV1VvaklPVjBGN3Z5UEpBTXA2WnRpUVpFU0ExUFQwTUZFc2VwR2U?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "AI资本支出热潮转向半导体ETF",
+      "summary": "AI领域巨额资本支出推动资金流向半导体ETF，而非加密货币，显示当前市场风险偏好更青睐科技股。这可能分流加密市场流动性，短期内对BTC和ETH形成资金面压力，属于结构性利空。",
+      "reason": "市场结构变化影响资金流向，属优先级二宏观经济关联。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVHRRbVAzc3VLenZSVDh5Rm10dEw3NXZHRUNqN2FObmEzUG84Ul92LWNXd0RfTXlONGJrT2xlUGdNSTZWb0VIOVM2eGI3YzdXTVIwZG5xOW90MGRuTlVDNWYwWXFsME5nR1R1SlFia0NHZEdaXzk1anJEU2xmNmJ0Z01wUG9pSExZN1JIZVNaOXFfWUpBME1abg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Canton Network防范DeFi安全风险",
+      "summary": "Digital Asset CEO称，Canton Network允许机构在DeFi中有效防范安全风险，例如北韩黑客攻击。该网络采用隐私计算架构，可能吸引更多机构参与DeFi，对以太坊等生态长期利好，但短期影响有限。",
+      "reason": "项目技术更新可能推动机构采用，属优先级三长期因素。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/366086/how-canton-network-lets-institutions-guard-against-defi-security-risks"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时有效新消息较少，仅筛选出4条符合标准的高价值信息。其余历史重复消息（如Binance上币、恐惧贪婪指数等）已过滤。"
+}
