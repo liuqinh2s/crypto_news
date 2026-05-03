@@ -737,3 +737,94 @@ content length: 1914
   ],
   "note": "经过筛选与历史消息去重，本轮仅有3条有交易价值的新消息。其余素材多为重复公告或无关内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1744, prompt_tokens=9171, total_tokens=10915, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=669, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8147)
+content length: 2744
+============================================================
+{
+  "news": [
+    {
+      "title": "交易员获利550ETH抛售ASTEROID",
+      "summary": "某交易员用3 ETH买入42.8亿枚ASTEROID代币，随后全部卖出获得550 ETH，净赚547 ETH。该操作发生在链上，导致ASTEROID价格短期承压。属于典型的短线投机行为，但金额不大（约100万美元），对大盘影响有限。信号：看空ASTEROID，但对整体市场中性。",
+      "reason": "链上异动，巨鲸短线交易可能引发ASTEROID抛压，符合优先级一（巨鲸异动）。",
+      "category": "链上异动",
+      "impact_coins": ["ASTEROID"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511084.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BIO多签钱包转入8000万枚BIO至交易所",
+      "summary": "Bio Protocol多签钱包在8小时前将8000万枚BIO（约合数百万美元）转入Binance和OKX交易所。大额转入交易所通常预示潜在抛售，可能对BIO价格造成压力。BIO是去中心化科学（DeSci）项目代币，近期关注度较高。信号：看空BIO。",
+      "reason": "巨鲸异动，大额转入交易所符合优先级一（巨鲸异动），直接产生抛压信号。",
+      "category": "链上异动",
+      "impact_coins": ["BIO"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511083.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国TGA升至1万亿美元，流动性收紧",
+      "summary": "美国财政部一般账户（TGA）余额升至约1万亿美元，创2021年4月以来新高。TGA增加意味着财政部从市场回笼资金，减少银行准备金，对风险资产（包括加密货币）构成流动性压力。历史上TGA大幅上升常伴随市场回调。信号：看空BTC/ETH等主流币。",
+      "reason": "宏观经济数据，直接影响市场流动性，符合优先级二（宏观经济）。TGA上升是紧缩信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511081.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国法院冻结KelpDAO资金，Arbitrum受影响",
+      "summary": "美国法院下令冻结Arbitrum生态项目KelpDAO的合约资金，此前KelpDAO因涉嫌违规被Arbitrum委员会投票解冻7100万美元ETH。该事件暴露了DeFi项目法律风险，市场对Arbitrum生态信心受挫。短期利空ARB及相关代币。信号：看空ARB。",
+      "reason": "项目重大事件（法院冻结），影响DeFi生态信心，符合优先级一（项目方重大事件）。",
+      "category": "项目更新",
+      "impact_coins": ["ARB", "KELP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t26rpe/arbitrums_kelpdao_freeze_hit_by_us_court_order/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普威胁重启对伊朗空袭，地缘风险升温",
+      "summary": "特朗普称有可能重启对伊朗的空袭，此前伊朗提出30天内解决问题的方案。地缘政治紧张可能推高油价，加剧通胀压力，进而影响美联储降息预期。风险资产（包括加密货币）通常承压。信号：看空BTC/ETH。",
+      "reason": "地缘政治风险影响宏观经济预期，符合优先级二（宏观经济）。战争风险引发避险情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511082.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
