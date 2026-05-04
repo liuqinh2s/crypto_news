@@ -531,3 +531,66 @@ content length: 2713
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2727, prompt_tokens=15634, total_tokens=18361, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1600, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=14610)
+content length: 2389
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普称美伊处于迷你战争",
+      "summary": "美国总统特朗普称美国与伊朗处于“迷你战争”状态，地缘政治紧张加剧。霍尔木兹海峡受控，伊朗威胁阿联酋。可能影响原油和风险资产，加密货币短期承压，避险情绪升温。看空BTC、ETH等主流币。",
+      "reason": "优先级一：重大地缘政治风险直接影响风险资产走势，属于直接影响行情的消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511251.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SEC与马斯克就Twitter收购和解",
+      "summary": "美国SEC与Elon Musk就2022年Twitter收购案达成和解，和解细节未公布。此举消除马斯克相关监管不确定性，可能提振市场对DOGE等马斯克概念币的信心。但消息非直接针对加密，影响中性偏多。",
+      "reason": "优先级二：监管和解消除不确定性，间接利好风险资产，尤其与马斯克相关的加密项目。",
+      "category": "监管政策",
+      "impact_coins": ["DOGE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVHdyRnJ6eFdkLUcwdGN6QTB1OGhGOU9QczFQYVRBQ0JLeFRYWnRsTnNBRUJiNVluTjE3VHpBNVlCYU9yeDhsNG5IMFdKTWdOLWlkTXdGYXhDeDFidnV5cWhSSXFwY1htNkl4SWVPdUtJU0lRRHNwWmZYc2FFUHpQbTdXaGp2MmZTVU02dlUtUmkwamVjNEtHZXQ3cXhPZXFiQ0R0M0NKRXlKQdIBrwFBVV95cUxPaFVpNTI3TUhkTGItd0FRWFlIUkdaalBxdGt1aC05anlMcEJFTnN5VG90cHdkek9EYUQ1WlFENmg3dUF4a0VSeFVkOTRpZlZxMUxob0M3dVhzMTlzU2syazQ1Q0NsS1VWQUNsMDVPMjk2dXdaQXJmNnQtV0t2VF90M1VlMlNfMGIxb1ZHOVlDQktuX1cwMHB2Q3BXNEhDdzloTXRRMTlKTFhBdnpZUUlR?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave紧急听证会寻求解除冻结令",
+      "summary": "Aave获得紧急听证会，试图解除法院对其约7300万美元ETH的冻结令。该冻结源于Kelp DAO黑客事件，Aave主张“小偷不拥有赃物”。若解冻成功，将利好Aave和DeFi生态，增强市场信心；反之可能引发连锁清算。看多Aave和ETH。",
+      "reason": "优先级一：项目重大事件（黑客攻击、司法冻结）直接影响Aave及DeFi板块，可能引发ETH抛压或反弹。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "DL News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeHItbDJWXzV0Z2tsRkE4R2ozTG1zbTVkNnFjWkdYOTVjZFg4ZE96bGF5bWpDeTNOYjFxRmFhVHFjTkRBN1Y2REdIOS1fVzhEc1Iyb211OElseWd5VVRrT0lKNEtsdTJtODlNREt2ZjZwQnNXZGd5eVMtVm9sZDIzU3VvMHRYVHBjbTE0clBQenVQM3BRWHl6SXVVMWlhODQ?oc=5"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/366744/aave-unfreeze-71m-arbitrum-kelp-dao-hack"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
