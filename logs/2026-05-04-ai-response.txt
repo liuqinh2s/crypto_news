@@ -936,3 +936,105 @@ content length: 2612
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1472, prompt_tokens=11217, total_tokens=12689, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=261, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10193)
+content length: 3130
+============================================================
+{
+  "news": [
+    {
+      "title": "Bisq协议遭攻击损失11BTC",
+      "summary": "去中心化交易所Bisq协议遭遇黑客攻击，损失11枚比特币。该事件直接影响Bisq平台及BSQ代币，同时可能引发对DEX安全性的担忧。短期看空BSQ及相关DEX代币，但影响范围有限，比特币本身未受直接冲击。",
+      "reason": "优先级一黑客事件，直接影响Bisq生态",
+      "category": "项目更新",
+      "impact_coins": ["BSQ", "BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511166.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "休眠2年鲸鱼存入141BTC至Kraken",
+      "summary": "某休眠两年巨鲸将141.26枚比特币转入Kraken交易所，价值超1100万美元。大额转入交易所通常预示潜在抛售，对BTC形成短线卖压。但141枚BTC量级较小，影响有限，需关注后续动向。短期看空BTC。",
+      "reason": "优先级一巨鲸异动，可能引发抛售",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511162.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至40，市场恐慌",
+      "summary": "今日恐慌与贪婪指数降至40，等级由中性转为恐慌。该指数处于40并非极端值（历史抄底区<20），但恐慌情绪可能抑制短期买盘，同时为中长期提供潜在抄底机会。对BTC和ETH影响中性偏多，因恐慌后常伴随反弹。",
+      "reason": "优先级三市场情绪指标，但未达极端阈值",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC突破80000美元",
+      "summary": "比特币价格突破80000美元关口，创阶段性新高。此前受美伊紧张局势推动，BTC一度涨至79000美元上方，现延续涨势。突破关键心理位可能吸引追多资金，但需警惕获利回吐。短期看多BTC，但需关注后续动能。",
+      "reason": "价格行为，直接反映市场情绪",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511172.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Sonic Labs拨款100万美元回购S代币",
+      "summary": "Sonic Labs宣布已拨款100万美元用于在币安平台回购其代币S。回购行为通常推动价格上涨，且项目方主动买入表明信心。直接利好S代币，短期看多。",
+      "reason": "优先级一项目方重大事件，直接影响代币价格",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511164.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ZachXBT警告虚假预测市场PolyArb",
+      "summary": "链上侦探ZachXBT指出PolyArb为带有钱包盗取器的虚假预测市场产品。该警告提示用户远离，可能引发对相关项目的抛售，但未直接影响主流币种。对PolyArb及相关代币利空，但影响面有限。",
+      "reason": "潜在黑客风险，但非主流项目",
+      "category": "项目更新",
+      "impact_coins": [],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511168.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Coinbase推澳大利亚养老金支持加密投资",
+      "summary": "Coinbase推出澳大利亚自管养老金（SMSF）支持，用户可将养老金投资于比特币等数字资产。该举措增加合规资金流入渠道，长期利好BTC和ETH。但对短期影响有限。",
+      "reason": "优先级二机构动向，但未立即生效",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511161.html"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
