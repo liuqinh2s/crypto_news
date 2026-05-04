@@ -1994,3 +1994,94 @@ content length: 4448
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2521, prompt_tokens=17075, total_tokens=19596, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1465, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=16051)
+content length: 2781
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken起诉Etana托管欺诈",
+      "summary": "Kraken母公司Payward起诉加密托管机构Etana及其CEO，指控其欺诈导致2500万美元加密资产损失。该诉讼凸显托管风险，可能影响市场对中心化托管机构的信任，短期利空整体市场情绪，尤其对依赖托管服务的机构投资者信心造成冲击。受影响币种包括BTC和ETH。",
+      "reason": "交易所重大法律纠纷，直接影响市场对托管安全的信心，属于优先级一的监管/交易所事件。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/04/kraken-s-parent-company-payward-alleges-usd25-million-crypto-custody-fraud-in-lawsuit-against-etana-and-firm-s-ceo"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SEC推迟预测市场ETF审查",
+      "summary": "美国SEC宣布推迟对首批预测市场ETF的审查决定。这意味着监管机构对新型加密衍生品持谨慎态度，短期内可能抑制预测市场代币和相关概念币的炒作热情，但长期看推迟审查并非否决，影响中性偏空。受影响币种包括REP、POLY等预测市场代币。",
+      "reason": "监管政策动态，直接影响预测市场相关代币和ETF预期，属于优先级一的监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["REP", "POLY"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511218.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "西联汇款在Solana推稳定币",
+      "summary": "国际汇款巨头西联汇款宣布在Solana区块链上推出美元稳定币USDPT。这是传统金融机构大规模采用区块链的又一里程碑，显著利好Solana生态，可能吸引更多资金流入SOL及生态项目。同时，稳定币供应增加对整体市场偏多。",
+      "reason": "传统金融机构发行稳定币，属于优先级二的机构动向，直接利好Solana和稳定币生态。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511215.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸开2.13亿美元空单",
+      "summary": "Reddit用户监测到巨鲸在一小时内开立了价值2.13亿美元的空头头寸，疑似内幕交易。大量空单积聚可能预示短期回调压力，尤其是比特币价格在8万美元附近遭遇伊朗消息冲击后，空头增加可能加剧波动。需警惕短期下跌风险。",
+      "reason": "链上异动显示大额空单，属于优先级一的巨鲸动向，直接影响市场预期。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t3fnb9/whales_have_opened_213m_worth_of_short_positions/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普称美商船穿越霍尔木兹",
+      "summary": "特朗普宣布两艘悬挂美国国旗的商船成功穿越霍尔木兹海峡，表明美伊紧张局势暂时缓和。此前伊朗导弹报告导致比特币暴跌至7.9万美元，此消息缓解了地缘风险，利好风险资产，加密货币可能迎来反弹。",
+      "reason": "地缘政治缓和直接影响风险情绪，属于优先级一的重大事件，且与伊朗导弹报告形成对冲。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "SOL", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511221.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
