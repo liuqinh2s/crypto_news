@@ -440,3 +440,94 @@ content length: 3946
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3653, prompt_tokens=16521, total_tokens=20174, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2596, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15497)
+content length: 2713
+============================================================
+{
+  "news": [
+    {
+      "title": "GameStop收购eBay或抛BTC",
+      "summary": "GameStop提出以555亿美元收购eBay，其持有3.68亿美元比特币。若收购需现金，可能出售BTC造成抛压。目前市场担忧其比特币持仓前景，短期利空BTC。",
+      "reason": "巨鲸异动：GameStop持有大量BTC，潜在抛售直接影响BTC价格，属优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/04/gamestop-s-usd55-5-billion-ebay-takeover-bid-puts-its-usd368-million-bitcoin-stash-in-the-crosshairs"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗全面管控霍尔木兹海峡",
+      "summary": "伊朗宣称霍尔木兹海峡完全处于其管控之下，地缘紧张局势升级。此前阿联酋遭导弹袭击，油价及风险资产承压。比特币等加密资产作为风险资产可能受拖累，短期看空。",
+      "reason": "地缘政治风险影响风险资产情绪，属于宏观经济因素（优先级二），但影响力大。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511250.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储威廉姆斯鹰派发言",
+      "summary": "纽约联储主席威廉姆斯预计今年通胀3%，2027年回归2%，并警告就业市场风险。市场解读为降息预期推迟，利空风险资产。BTC、ETH等承压。",
+      "reason": "宏观紧缩信号直接影响风险资产定价，属优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511244.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tether Gold市值破33亿美元",
+      "summary": "Tether Gold (XAUT) 市值突破33亿美元，显示投资者对黄金挂钩代币的避险需求上升。可能分流部分资金，但对主流币影响中性偏弱。",
+      "reason": "稳定币供应量变化（黄金代币）属优先级一，但并非USDT增发，影响有限。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/tether-gold-tops-33b-as-demand-for-bullion-backed-tokens-rises"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "本周关注就业数据与财报",
+      "summary": "本周将公布美国就业数据及多只科技股财报，可能引发市场波动。若数据超预期，或强化美联储鹰派立场，利空加密市场。目前市场情绪谨慎。",
+      "reason": "宏观经济数据（优先级二）将影响风险资产走势，属于前瞻信息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRHdpdS1mZWphRGJ3TjZ3SlVfTThma2JwNVg2NUNCNlM2QkZJbjFVNWgzTG5tSEtHZElQc2FWREo3ZDZBXzcwc0VDbkdqckV6MzBsSk1iM2lFcXJpYjZVZlg2cWZTYnFIOF9rdWl6WFhXQ3ZlLXdJR3dVdkpnUU12cWVPeW1OU1hkVnVDa3VlRQ"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
