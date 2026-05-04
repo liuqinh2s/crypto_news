@@ -178,3 +178,63 @@ content length: 1970
   ],
   "note": "由于近6小时历史消息已覆盖多数重大事件，本轮仅筛选出3条新增有效信息，均属中等或轻度影响。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3168, prompt_tokens=15919, total_tokens=19087, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2496, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=14895)
+content length: 1792
+============================================================
+{
+  "news": [
+    {
+      "title": "Base网络采用零知识技术",
+      "summary": "Coinbase孵化的Base网络宣布采用Succinct的零知识技术，以增强可扩展性和隐私性。这可能会提升Base生态的竞争力，吸引更多DeFi和游戏项目迁移。对ETH及Base生态代币（如OP、ARB）构成长期利好，但短期影响有限。信号为轻度看多。",
+      "reason": "技术升级属于中期影响，提升L2扩展性，对ETH和L2代币有利。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "OP", "ARB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399926/coinbase-incubated-base-network-adopts-succincts-zero-knowledge-tech"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bernstein：预测市场进入机构时代",
+      "summary": "Bernstein报告指出，预测市场在完成首笔大宗交易后进入机构化时代。这预示预测市场赛道（如Polymarket）将获得更多机构资金，利好相关代币（如POLY、REP）。但当前预测市场ETF被SEC推迟，监管不确定性仍存。信号中性偏多。",
+      "reason": "机构化趋势利好预测市场代币，但监管延迟形成对冲。影响级别中等偏低。",
+      "category": "市场结构",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bernstein-prediction-markets-institutional-block-trade"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "ETH持有者恢复盈利，目标3K",
+      "summary": "随着ETH价格回升，绝大多数持有者恢复盈利。分析师指出ETH图表显示3,000美元目标位。这提振市场信心，但需注意3K关口阻力。短期看多ETH，但需关注突破情况。",
+      "reason": "市场情绪改善，盈利比例上升支撑价格，但属于滞后指标。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/ethereum-holders-back-in-profit-as-eth-price-gears-for-3k-breakout"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "多数高优先级消息已在历史中重复（如Clarity Act进展、BTC突破8万、巨鲸异动等），本轮仅筛选出3条中度相关的消息。"
+}

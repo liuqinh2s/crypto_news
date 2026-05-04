@@ -175,3 +175,84 @@
 2026-05-04 17:01:47 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
 2026-05-04 17:01:47 [INFO] 📦 JSON 已保存: reports/2026-05-05-01.json
 2026-05-04 17:01:47 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-05-04 18:00:40 [INFO] 🚀 开始抓取 2026-05-05 02:00 币圈新闻
+2026-05-04 18:00:41 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-04 18:00:41 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-04 18:00:41 [INFO]   ⏭ Decrypt: 过滤掉 31 条非近期新闻
+2026-05-04 18:00:41 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-05-04 18:00:41 [INFO]   ⏭ CoinTelegraph: 过滤掉 28 条非近期新闻
+2026-05-04 18:00:41 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:41 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 49 条非近期新闻
+2026-05-04 18:00:41 [INFO]   ⏭ CoinDesk: 过滤掉 22 条非近期新闻
+2026-05-04 18:00:41 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-04 18:00:41 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-04 18:00:41 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:41 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 22 条非近期新闻
+2026-05-04 18:00:41 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-05-04 18:00:42 [INFO]   ⏭ DL News: 过滤掉 49 条非近期新闻
+2026-05-04 18:00:42 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:42 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-04 18:00:42 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:42 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:42 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:42 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:42 [INFO]   ⏭ Crypto Twitter: 过滤掉 44 条非近期新闻
+2026-05-04 18:00:43 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 8 条非近期新闻
+2026-05-04 18:00:56 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-04 18:00:56 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-04 18:00:56 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-04 18:00:57 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:57 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-04 18:00:57 [INFO]   ✓ CoinDesk: 3 条
+2026-05-04 18:00:57 [INFO]   ✓ The Block: 2 条
+2026-05-04 18:00:57 [INFO]   ✓ Decrypt: 4 条
+2026-05-04 18:00:57 [INFO]   ✓ CoinTelegraph: 2 条
+2026-05-04 18:00:57 [INFO]   ✓ Bitcoin Magazine: 2 条
+2026-05-04 18:00:57 [INFO]   ✓ Blockworks: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ DL News: 1 条
+2026-05-04 18:00:57 [INFO]   ✓ 金色财经: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ PANews: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ Bloomberg Crypto: 1 条
+2026-05-04 18:00:57 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-04 18:00:57 [INFO]   ✓ Reddit r/cryptocurrency: 3 条
+2026-05-04 18:00:57 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-05-04 18:00:57 [INFO]   ✓ Crypto Twitter: 6 条
+2026-05-04 18:00:57 [INFO]   ✓ 宏观经济: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ Binance公告: 20 条
+2026-05-04 18:00:57 [INFO]   ✓ OKX公告: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ Bitget公告: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ Whale Alert: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-04 18:00:57 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-04 18:00:57 [INFO]   ✓ 雪球加密: 0 条
+2026-05-04 18:00:57 [INFO] 📊 共抓取 48 条新闻
+2026-05-04 18:00:57 [INFO] 📋 原始新闻已保存: reports/2026-05-05-02-raw.json (48 条)
+2026-05-04 18:00:57 [INFO] 📋 标题摘要已保存: reports/2026-05-05-02-raw-titles.md
+2026-05-04 18:00:57 [INFO] ✅ 抓取完成，共 48 条，已保存到 reports/2026-05-05-02-raw.json
+2026-05-04 18:00:58 [INFO] 🤖 开始 AI 筛选 2026-05-05 02:00 币圈消息
+2026-05-04 18:00:58 [INFO] 📋 已加载原始新闻: reports/2026-05-05-02-raw.json (48 条)
+2026-05-04 18:00:58 [INFO] 📚 已加载历史新闻标题（33281 字符）
+2026-05-04 18:00:58 [INFO] 📚 已加载历史筛选标题 31 条、URL 35 个，用于去重
+2026-05-04 18:00:58 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-04 18:00:58 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-04 18:00:58 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（48 条，11208 字符，temp=0.3）
+2026-05-04 18:01:48 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 1792 字符)
+2026-05-04 18:01:48 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-02-ai-raw.json
+2026-05-04 18:01:48 [DEBUG] parse_json_response 输入长度: 1792 字符
+2026-05-04 18:01:48 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Base网络采用零知识技术",
+      "summary": "Coinbase孵化的Base网络宣布采用Succinct的零知识技术，以增强可扩展性和隐私性。这可能会提升Base生态的竞争力，吸引更多DeFi和游戏项目迁移。对ETH及Base生态代币（如OP、ARB）构成长期利好，但短期影响有限。信号为轻度看多。",
+      "reason": "技术升级属于中期影响，提升L2扩展性，对ETH和L2代币有利。",
+      "category": "项目更新",
+      "impact_coins": ["
+2026-05-04 18:01:48 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-05-04 18:01:48 [INFO] ✅ AI 返回 3 条新闻
+2026-05-04 18:01:48 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-05-04 18:01:48 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-05-04 18:01:48 [INFO] 📦 JSON 已保存: reports/2026-05-05-02.json
+2026-05-04 18:01:48 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
