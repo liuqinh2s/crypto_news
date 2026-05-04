@@ -706,3 +706,142 @@ content length: 3401
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3423, prompt_tokens=10708, total_tokens=14131, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1238, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9684)
+content length: 4998
+============================================================
+{
+  "news": [
+    {
+      "title": "美中央司令部增兵霍尔木兹海峡",
+      "summary": "美国中央司令部宣布将为霍尔木兹海峡行动提供导弹驱逐舰及战机，加剧中东紧张局势。地缘政治风险上升可能推动比特币作为避险资产上涨，但也可能引发短期市场恐慌抛售。主要影响BTC、ETH及整体加密市场。短期内看多比特币避险需求，但需警惕冲突升级导致全面风险资产下跌。",
+      "reason": "直接影响市场的地缘政治事件，可能引发避险情绪，属于优先级一的重大动态。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511158.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美官员澄清：行动不涉军舰护航",
+      "summary": "美国官员澄清特朗普解困霍尔木兹海峡船只的行动不涉及军舰护航，一定程度上缓和了军事冲突担忧。该消息可能削弱比特币的避险涨幅，短期利空BTC。但整体地缘风险未完全消除，需结合后续动态判断。",
+      "reason": "对同一事件的缓和更新，与上述行动形成对冲，影响市场情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511155.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储6月维持利率概率92.8%",
+      "summary": "美联储6月维持利率不变的概率高达92.8%，市场对暂停加息的预期升温。宽松货币政策预期利好风险资产，加密市场有望受益。BTC、ETH等可能迎来资金流入。看多信号。",
+      "reason": "宏观政策直接影响风险资产定价，属于优先级二的宏观经济数据。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511156.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巴西禁止加密汇款从外汇公司",
+      "summary": "巴西出台政策禁止外汇公司进行加密货币汇款，限制加密资金出入。该监管措施将影响巴西用户使用加密资产进行跨境转移，短期利空BTC和稳定币交易量，但长期影响有限。",
+      "reason": "监管政策直接限制加密使用场景，属于优先级一的监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "USDT"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "PYMNTS.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOG5hN1NXMjlVSzNfdFZSb3N4NHUtQlhtUzVaS0o0YVFzTS1EMl84RkdaTWpqM2tSYTNRWjRTeWhXTWdwZjRFd3ZWSlFIZWJiQVRwbS0tM1dFQ1hfYlNsVUJ1SGhJbTI3Z2VKZDhQdENSekZNUENnZGtuNlhFanJhWkw1cG90NHJjYzB5eHFjeVhVRnE1SUFWQnZvYw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Delphi协调后比特币涨15%",
+      "summary": "Delphi Digital进行策略协调后，比特币价格上涨15%，显示机构协调购买行为。这增强了市场信心，可能触发更多买盘。短期看多BTC，ETH可能跟随。",
+      "reason": "机构动向直接影响价格，属于优先级二的机构动态。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPXzV0SW9IWERabVE0VTBlOVdSY1A3R0p2dEN0TTN3LXc2d3BhVE1kM0hFZ3dBTVVjcm9Ia1RFTll2VHh5UXVrQVFtc1RUdlVhREt2Y1Y3RXZXZm5IeHlKdmZpMllvN3FMTjNNNVdvc0hNaFJ3OEJJamdpV1MxOTZkS0Z5OVhtam50OUJPOA?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "以太坊价格触及2350美元",
+      "summary": "在美伊紧张局势下，以太坊价格上涨至2350美元，同时机构流入增加。这表明ETH作为避险资产和DeFi生态的吸引力。短期看多ETH，但需关注后续地缘发展。",
+      "reason": "主要币种价格异动，反映市场情绪和资金流向。",
+      "category": "市场结构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0I0OWlXUVFpSWJlTDRZWXlXVzY5aWxEYUlpY1FEQVNIUEdWREctdk4zbV9aUHhubWo1bmhqUF82M3ZWaFplQU8xeG5xenVEbzhIRTZsSlFaSTZabC1ETWVTd3NQVHF6aGJjeFFEMGNXR1A0NFBPa19lWDdTdngtMXhDOUdJWjF2dGxfSjJYaXh0eGVQNGtoaTB6d3pFeTJHekJV?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至40恐惧",
+      "summary": "恐惧与贪婪指数降至40，进入恐惧区间，较此前47有所下降。历史数据显示，极度恐惧或恐慌性下跌后往往伴随反转。该信号暗示市场情绪悲观，可能形成底部，中长期看多买入机会。",
+      "reason": "市场情绪指标接近极值，属于优先级三的情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "朝鲜否认参与加密黑客事件",
+      "summary": "朝鲜官方否认参与近期加密货币黑客攻击案件，可能缓解市场对地缘黑客风险的担忧。短期内对加密市场情绪有一定提振，但实际影响有限。中性偏多。",
+      "reason": "涉及国家级黑客指控，此前相关事件曾影响市场，此次否认属更新。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "UPI",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNHVwWmRGZHpCdmZtb1ZVaGg1RENGeVExY2xEdktSUG5yQjhkVlJHZnVneXUyUFpHdTJPcmM4VmhMbzhoOS1SRHgzcXVieEgySXJGSUg3OWZKeE1fOEN5bm11VXNhRU5xS1UzNUpGcGxuaF9hdXVjdXdvbEJhcElWeF9TSV95bUdQWE5ESHlLNGVFdUxDeV93RTZic05nZF95d0J1azR0QUNCdU4wenBKSkln0gG3AUFVX3lxTE9mUWMtQVA2b2pQQlBYdXdtWURkY0psWjh1Ylh0aF9RbEVxc19YLWJ0OHhMb2JyY0JTLTlQdHFsR0pESXlPNS1ob0ZfeHZaTlFuVktJMkpvWElzMkhHMDVpQnpCRVh4Y2U2UWNWWkt2OVBvTGRwbnItSmNDZDRBSk5ZY1ZTUUk3RFBlTU9rUldvUVdIaUFvMWVXVkx3cmdmdFNkZm9ZRWVLUjUxNWRYQ1VSSkZQdmo0MA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
