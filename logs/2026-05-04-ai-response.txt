@@ -1288,3 +1288,99 @@ content length: 3059
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3623, prompt_tokens=13454, total_tokens=17077, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3035, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=12430)
+content length: 1342
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF净流入1.538亿",
+      "summary": "据Crypto Briefing报道，比特币现货ETF在近期录得1.538亿美元净流入，扭转此前连续流出态势。资金回流表明机构投资者在比特币突破8万美元后重新进场，可能推动BTC进一步上行。该数据为日内更新，与之前4900万美元净流出形成对比，短线看多信号。",
+      "reason": "ETF资金流是直接影响BTC价格的关键指标，净流入为 bullish 信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR0FCWTBYZ00wdzZiU3oxRF9ab2xWYmtMRXUzZVk5cGJuZFBINWtveWNrZTl3b01odXBqYmJhTG1wbXc4ZzdWUVF6QmV6d2hNTk96UTBQODVZVjA2UnVOY3gtNC02TlNnd0Yxdm9qS081RjcyYkRzdV9MN2lrUTlqSlZiQVJsZFZRS1haa1ZjQTFhdXVa?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊ETF周净流出8247万",
+      "summary": "金色财经数据显示，美国现货以太坊ETF上周净流出8247万美元，显示机构资金持续撤离。可能与以太坊质押规模激增带来的卖压预期有关，短期内ETH可能面临下行压力。该数据为周度更新，相对滞后但方向明确。",
+      "reason": "ETF资金持续流出对ETH构成利空，且历史消息中未出现相同数据。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511186.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本时段内大多数消息与历史重复或影响微弱，仅选出2条ETF资金流向相关的关键消息。其他如比特币突破8万美元、巨鲸异动、爆仓数据等已在前6小时历史中涵盖，按去重规则跳过。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3534, prompt_tokens=13454, total_tokens=16988, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2697, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13440), prompt_cache_hit_tokens=13440, prompt_cache_miss_tokens=14)
+content length: 1974
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF净流入1.54亿，ETH ETF净流出8247万",
+      "summary": "今日数据显示，比特币现货ETF录得1.538亿美元净流入，而以太坊现货ETF净流出8247万美元（上周数据）。这表明机构资金短期偏好BTC，对ETH持谨慎态度。受此影响，BTC价格突破8万美元，ETH则面临抛压。信号：BTC看多，ETH看空。",
+      "reason": "ETF资金流是优先级一信号，直接反映机构动向，对比特币和以太坊价格有直接影响。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR0FCWTBYZ00wdzZiU3oxRF9ab2xWYmtMRXUzZVk5cGJuZFBINWtveWNrZTl3b01odXBqYmJhTG1wbXc4ZzdWUVF6QmV6d2hNTk96UTBQODVZVjA2UnVOY3gtNC02TlNnd0Yxdm9qS081RjcyYkRzdV9MN2lrUTlqSlZiQVJsZFZRS1haa1ZjQTFhdXVa?oc=5"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511186.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CFTC对预测市场规则反应不一",
+      "summary": "美国商品期货交易委员会(CFTC)就预测市场规则制定收到混合反馈，部分参与者支持更严格监管，另一些反对。这可能影响Polymarket等预测市场平台及相关代币。当前不确定性增加，短期利空预测市场概念币，但长期合规可能利好。信号：偏空。",
+      "reason": "监管政策属于优先级一，CFTC的规则制定直接影响预测市场赛道，但反馈不一表明短期不确定性，可能打压投机情绪。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/cftc-mixed-responses-prediction-market-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国现货以太坊ETF上周净流出8247万美元",
+      "summary": "上周美国现货以太坊ETF净流出8247万美元，显示机构投资者对ETH短期信心不足。这与BTC ETF形成对比，加剧ETH相对弱势。可能限制ETH突破，面临回调风险。信号：看空ETH。",
+      "reason": "ETF资金流数据是优先级一，以太坊ETF持续流出体现机构抛压，对ETH价格构成利空。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511186.html"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时大部分消息与历史重复，仅有3条具有独立价值的新消息。主要事件为比特币突破8万美元，但该事件已在历史中充分反应，故未重复选入。"
+}

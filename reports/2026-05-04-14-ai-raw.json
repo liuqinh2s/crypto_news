@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-04",
+  "hour": "14",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13454,
+    "completion_tokens": 3534,
+    "total_tokens": 16988
+  },
+  "content_length": 1974,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC ETF净流入1.54亿，ETH ETF净流出8247万\",\n      \"summary\": \"今日数据显示，比特币现货ETF录得1.538亿美元净流入，而以太坊现货ETF净流出8247万美元（上周数据）。这表明机构资金短期偏好BTC，对ETH持谨慎态度。受此影响，BTC价格突破8万美元，ETH则面临抛压。信号：BTC看多，ETH看空。\",\n      \"reason\": \"ETF资金流是优先级一信号，直接反映机构动向，对比特币和以太坊价格有直接影响。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"Crypto Briefing\", \"url\": \"https://news.google.com/rss/articles/CBMilAFBVV95cUxPR0FCWTBYZ00wdzZiU3oxRF9ab2xWYmtMRXUzZVk5cGJuZFBINWtveWNrZTl3b01odXBqYmJhTG1wbXc4ZzdWUVF6QmV6d2hNTk96UTBQODVZVjA2UnVOY3gtNC02TlNnd0Yxdm9qS081RjcyYkRzdV9MN2lrUTlqSlZiQVJsZFZRS1haa1ZjQTFhdXVa?oc=5\"},\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511186.html\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"CFTC对预测市场规则反应不一\",\n      \"summary\": \"美国商品期货交易委员会(CFTC)就预测市场规则制定收到混合反馈，部分参与者支持更严格监管，另一些反对。这可能影响Polymarket等预测市场平台及相关代币。当前不确定性增加，短期利空预测市场概念币，但长期合规可能利好。信号：偏空。\",\n      \"reason\": \"监管政策属于优先级一，CFTC的规则制定直接影响预测市场赛道，但反馈不一表明短期不确定性，可能打压投机情绪。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"POLY\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/news/cftc-mixed-responses-prediction-market-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"美国现货以太坊ETF上周净流出8247万美元\",\n      \"summary\": \"上周美国现货以太坊ETF净流出8247万美元，显示机构投资者对ETH短期信心不足。这与BTC ETF形成对比，加剧ETH相对弱势。可能限制ETH突破，面临回调风险。信号：看空ETH。\",\n      \"reason\": \"ETF资金流数据是优先级一，以太坊ETF持续流出体现机构抛压，对ETH价格构成利空。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/511186.html\"}\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"近6小时大部分消息与历史重复，仅有3条具有独立价值的新消息。主要事件为比特币突破8万美元，但该事件已在历史中充分反应，故未重复选入。\"\n}"
+}
