@@ -845,3 +845,94 @@ content length: 4998
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2033, prompt_tokens=11264, total_tokens=13297, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=991, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10240)
+content length: 2612
+============================================================
+{
+  "news": [
+    {
+      "title": "Bisq遭攻击损失11BTC",
+      "summary": "去中心化交易所Bisq协议遭遇黑客攻击，损失11枚比特币（约80万美元）。该事件直接暴露了DEX安全漏洞，可能引发用户对去中心化平台的信任危机，导致短期BTC抛压。影响币种主要为BTC，信号看空。",
+      "reason": "项目方重大安全事件，直接影响用户资产安全，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511166.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "休眠鲸鱼141枚BTC存入Kraken",
+      "summary": "一个休眠两年的比特币鲸鱼地址将141.26枚BTC（约1100万美元）转入Kraken交易所。大额转入交易所通常为卖出信号，可能带来短期抛压。影响BTC，信号看空。",
+      "reason": "巨鲸异动，大额转入交易所预示潜在抛售，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511162.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase推澳大利亚养老金买币",
+      "summary": "Coinbase推出面向澳大利亚自管养老金（SMSF）的支持，允许将养老金投资于比特币等数字资产。这是机构入场的又一信号，为市场带来新增资金，利好BTC和ETH等主流资产。信号看多。",
+      "reason": "机构动向，为养老金等长期资金提供合规入口，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511161.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数降至40(恐惧)",
+      "summary": "今日恐慌与贪婪指数从昨日的47降至40，等级由中性转为恐惧。数值虽未达极值，但情绪转弱可能预示阶段性底部临近，历史看极度恐惧（<20）是中期买入区间。当前信号中性偏多。",
+      "reason": "市场情绪指标变化，接近恐惧区间，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "巴西禁止外汇公司加密汇款",
+      "summary": "巴西出台新规，禁止外汇公司（FX）从事加密货币汇款业务。此举限制加密进出通道，对当地市场构成监管利空，可能影响全球合规情绪。信号看空，影响较小。",
+      "reason": "监管动态，限制汇款渠道，属于优先级一但影响范围有限。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PYMNTS.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOG5hN1NXMjlVSzNfdFZSb3N4NHUtQlhtUzVaS0o0YVFzTS1EMl84RkdaTWpqM2tSYTNRWjRTeWhXTWdwZjRFd3ZWSlFIZWJiQVRwbS0tM1dFQ1hfYlNsVUJ1SGhJbTI3Z2VKZDhQdENSekZNUENnZGtuNlhFanJhWkw1cG90NHJjYzB5eHFjeVhVRnE1SUFWQnZvYw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
