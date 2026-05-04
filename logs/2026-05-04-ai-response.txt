@@ -1098,3 +1098,98 @@ content length: 2459
   ],
   "note": "本轮抓取素材中多数为历史重复消息，仅筛选出3条有效新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2371, prompt_tokens=11426, total_tokens=13797, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1226, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10402)
+content length: 2914
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy暂停BTC购买",
+      "summary": "Michael Saylor的Strategy公司在Q1财报发布前暂停了每周比特币购买，这是自2024年10月以来的首次暂停。此举可能暗示公司正在评估市场状况或为财报做准备，短期可能减弱买盘支撑，但中长期看机构囤币趋势未变。影响BTC价格，短期偏空。",
+      "reason": "机构动向，对BTC有直接影响，符合优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399828/strategy-pauses-bitcoin-purchase-q1-earnings?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸向币安充值6200枚ETH",
+      "summary": "过去24小时内，某巨鲸向币安累计充值6200枚ETH，价值约1454万美元。大额ETH转入交易所通常被视为潜在抛售信号，短期可能对ETH价格构成下行压力。影响ETH，短期偏空。",
+      "reason": "链上异动，大额充值交易所为优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511180.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "鲸鱼多单浮亏超1600万美元",
+      "summary": "链上鲸鱼地址pension-usdt.eth的BTC和ETH多头头寸浮亏超过1600万美元。若价格继续下跌，可能触发大规模清算，增加市场抛压。影响BTC和ETH，短期偏空。",
+      "reason": "链上异动，高杠杆多单浮亏可能引发清算，符合优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511174.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普承诺护航霍尔木兹海峡",
+      "summary": "特朗普宣布计划护送霍尔木兹海峡被困船只，缓解美伊紧张局势。此举推动亚洲科技股创纪录上涨，加密货币市场受风险偏好提升影响，BTC重新站上80000美元，ETH、DOGE等跟随上涨。短期利好风险资产，但地缘政治仍有不确定性。影响BTC、ETH、DOGE，短期看多。",
+      "reason": "地缘政治事件影响风险偏好，符合优先级二（宏观经济）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511176.html"
+        },
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMjBBUXdIRHFWa2EyTHBnNmhtNC1Ybk1oLU5vdGdhSU03RXBadzc5VU0zX2VUMDBPWUh0MXB1LXUxVDc1NEJtNlBlaWM0SnAyd01VVVhramxYQlBUN0x4UU53Y2dRZFVyQVBldWZnNkwtZTg0MUkxWkxMVE12cFFPN2V5S0lObEkyUmxxN1FON3o4d0JGUkxtRkN2QktvaUJuOG9HejBKd1FfamdUQ3RJUk1JeVVyZG8?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至40",
+      "summary": "恐惧贪婪指数降至40，进入恐惧区间（之前为中性47）。表明市场情绪转向谨慎，历史上恐惧区间往往是中长期买点，但短期可能继续下行测试支撑。影响BTC、ETH，中性偏多。",
+      "reason": "市场情绪指标极值变化，符合优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
