@@ -594,3 +594,98 @@ content length: 2389
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2494, prompt_tokens=12655, total_tokens=15149, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1356, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11631)
+content length: 2815
+============================================================
+{
+  "news": [
+    {
+      "title": "加拿大首个受监管数字美元",
+      "summary": "加拿大推出首个受监管的数字美元，由Shopify和加拿大国家银行等支持，旨在24/7结算交易。这可能对USDT/USDC等稳定币构成竞争，但短期影响有限。利好加拿大合规稳定币生态，但整体对BTC/ETH影响中性。",
+      "reason": "优先级一：稳定币竞争格局变化，可能影响USDC等。但影响范围有限，需观察后续采用。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "USDT"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVzFMMDlkMFhEUkRXNnMxTVJMMlpQeURZZFRNQTVsRW83RmotZmw5VDRKTXJVODBuaXpZOXhINTRRS3JhS0NqeFlVZFFzUDBnaXRZaFJza1lzLUl0RVFfVGg1czJGQS1qSHcyRUcyRlB5Y1ZsS1BCdkRlZFZfUHNjQWRyZVJWbkJEdmtzYlNFZnRycUc0VWlENkhWX3VjMVNzdENPRXZubEpLbGNENE1ERk9QdndqeHlFcUJMdF9DRGU1V0g5cGV1V2tSM245RVg4blBpVWlJbjlkS1E5cWZGVDVKLU5UUlE?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普拒绝确认美伊停火",
+      "summary": "特朗普拒绝确认美伊停火协议是否有效，同时称美国与伊朗处于‘迷你战争’状态。伊朗外长称霍尔木兹海峡‘自由计划’是僵局。地缘风险升级利好避险资产BTC，短期可能推动比特币上涨。",
+      "reason": "优先级一：地缘政治紧张直接刺激风险规避情绪，BTC作为数字黄金受益。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511259.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511258.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储6月维持利率概率95.2%",
+      "summary": "CME数据显示美联储6月维持利率不变概率95.2%。威廉姆斯表示尚未看到通胀蔓延迹象，且目前无需加息。市场预期宽松不变，利好风险资产包括加密货币。",
+      "reason": "优先级二：宏观经济数据影响市场流动性预期，维持利率宽松支撑BTC/ETH。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511261.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tom Lee：伊朗袭击影响暂时",
+      "summary": "Tom Lee认为伊朗袭击事件对股市影响暂时，暗示市场将快速消化。结合比特币已突破8万美元，乐观情绪可能延续，但需警惕短期回调风险。",
+      "reason": "优先级二：知名分析师观点影响市场情绪，间接支撑BTC延续涨势。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511255.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "白宫拟对AI模型发布前审查",
+      "summary": "白宫计划在AI模型发布前实施审查，可能影响加密与AI交叉领域项目（如Haun Ventures等）。短期利空AI概念币，但整体影响有限。",
+      "reason": "优先级二：监管政策影响AI+加密项目，可能抑制相关代币炒作。",
+      "category": "监管政策",
+      "impact_coins": ["FET", "AGIX", "RNDR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511253.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
