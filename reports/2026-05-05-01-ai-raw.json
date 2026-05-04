@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-05",
+  "hour": "01",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17131,
+    "completion_tokens": 2349,
+    "total_tokens": 19480
+  },
+  "content_length": 1970,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"阿联酋遭伊朗导弹袭击\",\n      \"summary\": \"阿联酋国防部称监测到4枚来自伊朗的巡航导弹，富查伊拉石油工业区遭无人机袭击起火，伊朗革命卫队警告违规海上活动将遭拦截。地缘政治紧张升级，可能引发避险情绪，短期利空风险资产（BTC、ETH等加密货币）。历史上类似事件曾导致BTC短时下跌。当前BTC在$80k附近，风险厌恶情绪或致回调。\",\n      \"reason\": \"地缘政治突发事件，直接影响市场风险偏好，属于优先级一（重大地缘事件）。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"SOL\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511236.html\"\n        },\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511235.html\"\n        },\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511233.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Shopify等支持新数字货币\",\n      \"summary\": \"Shopify和加拿大国家银行等机构支持一种新的数字货币，用于24/7交易结算。这表明传统金融机构和商业巨头进一步探索数字资产结算，可能推动稳定币或代币化资产采用。但具体细节有限，短期内对币价影响较弱。长期看多加密货币生态。\",\n      \"reason\": \"机构采用信号，属于优先级二（机构动向），但影响力中等。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"德州居民起诉MARA挖矿噪音\",\n      \"summary\": \"德州居民起诉比特币矿企MARA Holdings，指控其挖矿噪音扰民。这可能引发监管对矿企运营的关注，短期利空MARA股价，但对整体加密货币市场影响有限。若诉讼导致更严矿业监管，可能影响比特币算力。\",\n      \"reason\": \"矿业监管风险，属于优先级二（监管动态），但影响范围局限于矿企。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/366654/texas-lawsuit-mara-holdings-bitcoin-mining-noise\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"由于近6小时历史消息已覆盖多数重大事件，本轮仅筛选出3条新增有效信息，均属中等或轻度影响。\"\n}"
+}

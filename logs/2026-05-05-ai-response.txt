@@ -62,3 +62,119 @@ content length: 2438
   ],
   "note": "本轮抓取中大部分消息与历史重复，仅筛选出3条新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1641, prompt_tokens=17131, total_tokens=18772, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1075, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=16107)
+content length: 1419
+============================================================
+{
+  "news": [
+    {
+      "title": "Shopify等支持新数字结算货币",
+      "summary": "Shopify和加拿大国家银行等机构支持一种新的数字结算货币，旨在实现全天候交易结算。该货币可能基于区块链技术，提高传统金融结算效率。这一消息利好代币化证券和支付相关项目，如XRP、XLM和稳定币生态，但具体币种不明确。短期看多情绪，但需等待更多细节。",
+      "reason": "新消息，未在历史标题中出现。机构合作推动区块链结算，中期利好行业。",
+      "category": "项目更新",
+      "impact_coins": ["XRP", "XLM", "USDC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "阿联酋石油工业区遭伊朗无人机袭击",
+      "summary": "阿联酋富查伊拉石油工业区遭伊朗无人机袭击起火，地缘紧张局势升级。此前伊朗曾威胁封锁霍尔木兹海峡，此次袭击加剧中东不稳定，短期可能推高油价并引发避险情绪，利空比特币等风险资产。BTC已从80K回落至79K区域，若冲突扩大，进一步下跌风险增加。",
+      "reason": "地缘政治重大升级，直接影响风险资产情绪，与历史消息中的警告不同，是实际攻击事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511235.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511233.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前市场消息重复度高，仅筛选出两条新消息。历史消息中已涵盖BTC突破80K、BitMine买入ETH、SEC推迟预测市场ETF、DTCC代币化、CLARITY Act等重大事件，但均为重复内容，不再列入。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2349, prompt_tokens=17131, total_tokens=19480, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1609, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=17024), prompt_cache_hit_tokens=17024, prompt_cache_miss_tokens=107)
+content length: 1970
+============================================================
+{
+  "news": [
+    {
+      "title": "阿联酋遭伊朗导弹袭击",
+      "summary": "阿联酋国防部称监测到4枚来自伊朗的巡航导弹，富查伊拉石油工业区遭无人机袭击起火，伊朗革命卫队警告违规海上活动将遭拦截。地缘政治紧张升级，可能引发避险情绪，短期利空风险资产（BTC、ETH等加密货币）。历史上类似事件曾导致BTC短时下跌。当前BTC在$80k附近，风险厌恶情绪或致回调。",
+      "reason": "地缘政治突发事件，直接影响市场风险偏好，属于优先级一（重大地缘事件）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511236.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511235.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511233.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Shopify等支持新数字货币",
+      "summary": "Shopify和加拿大国家银行等机构支持一种新的数字货币，用于24/7交易结算。这表明传统金融机构和商业巨头进一步探索数字资产结算，可能推动稳定币或代币化资产采用。但具体细节有限，短期内对币价影响较弱。长期看多加密货币生态。",
+      "reason": "机构采用信号，属于优先级二（机构动向），但影响力中等。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "德州居民起诉MARA挖矿噪音",
+      "summary": "德州居民起诉比特币矿企MARA Holdings，指控其挖矿噪音扰民。这可能引发监管对矿企运营的关注，短期利空MARA股价，但对整体加密货币市场影响有限。若诉讼导致更严矿业监管，可能影响比特币算力。",
+      "reason": "矿业监管风险，属于优先级二（监管动态），但影响范围局限于矿企。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/366654/texas-lawsuit-mara-holdings-bitcoin-mining-noise"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于近6小时历史消息已覆盖多数重大事件，本轮仅筛选出3条新增有效信息，均属中等或轻度影响。"
+}
