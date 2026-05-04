@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-05",
+  "hour": "00",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 18812,
+    "completion_tokens": 3511,
+    "total_tokens": 22323
+  },
+  "content_length": 2438,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"DTCC将推出代币化证券平台\",\n      \"summary\": \"华尔街巨头美国存管信托与清算公司（DTCC）计划推出代币化证券平台，将于7月试点、10月上线。该平台将允许传统金融资产以代币化形式交易和结算，多家华尔街大行已签约参与。这标志着传统金融基础设施向区块链大规模迁移，可能推动RWA代币化浪潮，利好以太坊等智能合约平台。从中长期看，机构资金入场将提升加密货币市场的流动性和合法性，属于重大看多信号。\",\n      \"reason\": \"优先级一：重大机构动态——DTCC作为华尔街核心基础设施，其代币化平台将直接连接传统金融与加密世界，影响深远。历史未出现该消息。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"ETH\", \"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/business/2026/05/04/wall-street-giant-dtcc-plans-tokenized-securities-platform-with-july-pilot-october-launch\"\n        },\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/366646/dtcc-reveals-launch-tokenization-service-wall-street-giants-onboard\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"FINRA批准Securitize代币化IPO承销\",\n      \"summary\": \"美国金融业监管局（FINRA）批准Securitize公司进行代币化IPO的承销和托管业务。Securitize是合规化的代币化证券平台，此次批准意味着其可直接在传统证券法框架内发行和托管代币化股票。这为代币化证券的合法化铺平道路，推动RWA赛道发展，短期利好Securitize合作项目及合规代币化资产，但整体市场影响有限。属中期看多信号。\",\n      \"reason\": \"优先级二：监管合规重大突破——FINRA批准代币化IPO承销是监管层面对代币化证券的认可，历史上同类事件较少，属于新消息。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"ETH\", \"POLY\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/399895/finra-green-lights-securitize-for-tokenized-ipo-underwriting-and-custody\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"CFTC主席谈及预测市场诉讼与立法\",\n      \"summary\": \"CFTC主席Michael Selig在CNBC采访中评论了预测市场诉讼和加密立法，表示监管机构正在评估预测市场ETF的风险，并暗示后续可能推出更明确的规则。此前SEC已推迟首批预测市场ETF的审查。CFTC的立场可能影响Polymarket等去中心化预测平台，短期增加不确定性，但长期明确监管框架反而有利于行业发展。该消息偏中性，但需关注后续立法进展。\",\n      \"reason\": \"优先级二：监管动态——CFTC主席对预测市场诉讼和立法的评论可能影响相关项目走势，且历史中未出现相同内容。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"POLY\", \"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CNBC\",\n          \"url\": \"https://news.google.com/rss/articles/CBMitwFBVV95cUxQLWxfU3N1U3Y4eHRrdnZucGcxcmhISjdKakpWeUQ2STNEa2ltZkdILTU5LWRtNWZObjFqd1pvWTBSLXBxM1ljWmtTN2ZJQnBGTVJ2MlAyc01GSWFDRGxMa1FPclBBa1piMEU1bmlVYktfNFNFLVpOOGhwYmVQS21VdXZqV1F3UFpHQXNKYUxCT2JkT2RsNFI4d2lRUjBVRGJnckMtMWxZcmg0d0xPX0tTQS02MU1yb28\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮抓取中大部分消息与历史重复，仅筛选出3条新消息。\"\n}"
+}
