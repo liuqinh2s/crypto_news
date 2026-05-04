@@ -1887,3 +1887,110 @@ content length: 3106
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4539, prompt_tokens=16116, total_tokens=20655, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2493, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15092)
+content length: 4448
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC本周或轻松触及95K",
+      "summary": "CoinTelegraph分析指出，比特币本周可能轻松达到9.5万美元，技术面和资金流均支持上涨。近期比特币重回8万美元，ETF资金流入持续，空头爆仓达3亿美元，市场情绪改善。但需注意地缘政治风险和美联储政策不确定性。影响币种：BTC。信号：bullish。",
+      "reason": "专业分析文章，给出明确价格目标，市场情绪看多信号，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/btc-price-can-easily-hit-95k-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储独立性担忧加剧",
+      "summary": "CNBC报道，前美联储官员Warsh对美联储独立性的看法引发困惑和担忧。市场担心政治干预可能削弱美联储抗通胀决心，导致利率政策不确定性上升。这利空风险资产，包括加密货币。影响币种：BTC、ETH。信号：bearish。",
+      "reason": "宏观事件，美联储独立性影响加息预期，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EQkdJeVVWNVdsZXE4X2dscDQ0NkZxMnp6MGxrM1plWE5QR080cGpxWHpFWXdHNk10cDR2OVhZcFVONlRESGZSU0U0Q0hjNXBjUFhpZ2paNXBTa2h1eXBOd3o3dDJmcTVEWE9CTU1UT0dMemtBdGfSAXtBVV95cUxPQlZvNDlkVXRNY3BRcnk1YXE2Y1h2c1QwMmlsQ3ZjeFVETmViWHNOVS11V2JQVmhHY1BVREJCeHVPU0FiTVVVdy1CUnpSSDJVZHl5RnR0UDJ2YU1pR0J2Ym1CcEdJOTdoU0hNc0ZJdlh3NE9LMDFPQWNFRUk?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hut 8再融资比特币抵押贷款",
+      "summary": "比特币矿企Hut 8宣布通过再融资优化其比特币抵押信用额度，显示其对BTC长期价值的信心。此举降低资金成本，增强资产负债表，体现机构持续看多BTC。影响币种：BTC。信号：bullish。",
+      "reason": "机构动向，体现大资金继续看好比特币，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMTl2UmxSMXljWWs1d1FPWVZTYW9NWE5weDNCYjJVcHpQR2MyamlnTjJlbk9nMGUwbkVYbU9FN2JVUXBPVEVhRkVrVEZ3b084VDFwcktGSGRjczRxRFNteWo0aTVBaC1vYmQ3ci1MZElDOXYzeUNPTnlmdXVvcDZFNWhFZWVGQkNNQ1lfN2JDc1pVRmx3MVlQY3hyV24xU1lvZ1ZjdVRYTld6NHNKZExFMmEtZndHdDhlU1IyUTJDaWJiM2RnLTVRY0k2S1lXMlhSclp5Mg?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "以太坊开发者北极圈会议",
+      "summary": "以太坊核心开发者齐聚北极圈，讨论网络改进。会议聚焦扩展性和安全性，为未来升级做准备。此举显示开发活跃度，有望提升ETH网络效能和信心。影响币种：ETH。信号：bullish。",
+      "reason": "技术升级相关，长期利好ETH，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "DL News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOWNGN2lKRzhtY0VoX1I4OEFheVdwd19fb0thSGVYalFvNjNsNVpNWkNyUEowQXVQWnlWblhqOFhoY091Wm5JQl9OZ1hScndLV3FFckRDLV9kczJkTURLdkpvYk15LVkxc0F5X283WkE5cGhXSzNGS1pMN1Zob0JIYUI4ZjI1VTN6Zk1ETUphd0J1QldOTnNWckpBQ1pEbE52X3UtOVNOLXFxbWZWcHhVdk9DVHJ1LWxqcU4wbHhR?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Chainlink预言机锁定1000亿美元",
+      "summary": "Chainlink预言机网络目前保护超过1000亿美元的价值，显示其在DeFi和传统金融中的核心地位。此里程碑增强LINK作为基础设施资产的价值主张，吸引长期持有者。影响币种：LINK。信号：bullish。",
+      "reason": "项目重大进展，展示网络效应，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["LINK"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTy1pa2x4Q0JSOURlVW1CaXBzc1NHM0hVYnh3bTlNNExPQTc5UUlDeUlkdERyblJ1T3VxNUhOOENpRVhPX05ZeklhczEzLWtleGRUZlFfRDk5Z2x5Szh6a1V0WkdXVGMtRkhrSk1fbnE2RU5jeWZZOHMxVWVjcTc1d2E4ODZ0Q0pwc1NmdTZqRjBQcG1NLVdYNg?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "非农数据前瞻：黄金比特币联动",
+      "summary": "Investing.com发布非农数据倒计时，分析黄金、比特币和油价在地缘政治风险下的表现。市场预期非农将影响美联储政策转向，比特币可能因风险情绪波动。影响币种：BTC、ETH。信号：neutral。",
+      "reason": "宏观经济前瞻事件，非农数据对风险资产有重要影响，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRkR3Wjh3QjZSSGs2b3NPQjkxV1BIa29TUHBheVBNLWpoRUhJR0U4LUI1OS1pTHlkREVGX2Q5WDdaakxLMW90RzBRUW1nS3ZXNHkwUkMxSjRkYXRjSjNpYjdUekY0UWpQMzZHSkpJZHBISXY1Mmp2amNHUVNFdWZXQXdjSzFveEdPUWJvblo4OU4wS3hRVFhvaEhwTXIwRnU0RGY4elNVSHJZelBfVkozbw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
