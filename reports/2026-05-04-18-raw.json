@@ -1,0 +1,351 @@
+{
+  "date": "2026-05-04",
+  "hour": "18",
+  "total": 49,
+  "fetched_at": "2026-05-04T18:00:33.532871+08:00",
+  "news": [
+    {
+      "source": "The Block",
+      "title": "North Korea blames ‘reptile media’ over reports of crypto theft",
+      "summary": "<p>North Korea rejected U.S. cybercrime claims as 'absurd slander,' blaming media as crypto theft attributed to the country exceeded $6 billion.</p>",
+      "link": "https://www.theblock.co/post/399854/north-korea-blames-crypto-theft-reports?utm_source=rss&utm_medium=rss",
+      "published": "Mon, 04 May 2026 04:40:49 -0400"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "US law firm attempts to block transfer of frozen ETH from Kelp exploit",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"US law firm attempts to block transfer of frozen ETH from Kelp exploit\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJJTIwVGhlJTIwUmV2aXZhbCUyMG9mJTIwR2VuZXJhbCUyMFBhcnRuZXJzaGlwcyUyMGluJTIwdGhlJTIwQWdlJTIwb2YlMjBUb2tlbm9taWNzJTJDJTIwUGFydCUyMDIuanBnP3ByZWZpeD1tZWRpYSUyRmFydGljbGUtY292ZXJz.jpg\" /></p><p>Gerstein Harrow has fi",
+      "link": "https://cointelegraph.com/news/law-firm-tries-to-claim-kelp-exploit-eth-because-clients-owed-by-dprk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 04 May 2026 08:27:35 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "OpenClaw发布2026.5.3版本更新，强化文件传输与Agent控制能力",
+      "summary": "【OpenClaw发布2026.5.3版本更新，强化文件传输与Agent控制能力】金色财经报道，5 月 4 日，AI 代理工具 OpenClaw 发布 2026.5.3 版本更新，重点优化文件传输机制、实时任务控制能力及插件系统安全性。本次更新新增「节点配对文件传输」功能，支持在多节点间直接传递文件，默认拒绝访问并设置 16MB 传输上限，以提升安全性。同时，引入/steer 指令，可在不中断当前任务的情况下对运行中的 Agent 进行实时干预，以及/side 指令用于快速侧边提问，避免干扰主任务流程。在插件生态方面，OpenClaw 强化了安装与更新流程，支持官方 npm 包、ClawHub 回退机制及依赖状态检测，并提升漏洞修复与异常恢复能力。此外，多平台通信渠道（包括 WhatsApp、Discord、Telegram、Slack 等）也进行了传输稳定性与状态反馈优化。开发团队表示，此次版本重点在于减少使用摩擦并提升系统可靠性，使长时间运行的 AI 代理在复杂环境下具备更高稳定性与安全性。<p>原文链接: <a href=\"https://x.com/openclaw/statu",
+      "link": "https://jinse.com.cn/lives/511205.html",
+      "published": "Mon, 04 May 2026 09:54:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BNB突破630美元",
+      "summary": "【BNB突破630美元】金色财经报道，行情显示，BNB突破630美元，现报630.03美元，24小时涨幅达到1.8%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/511204.html",
+      "published": "Mon, 04 May 2026 09:39:54 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Hyperliquid将就下架TST永续合约投票，某巨鲸疑借博弈结算机制套利",
+      "summary": "【Hyperliquid将就下架TST永续合约投票，某巨鲸疑借博弈结算机制套利】金色财经报道，MLM发文指出，TST日内涨幅超110%，触及去年10月以来高位。链上数据显示某地址在24小时前从Bitget转入约90万枚USDC，并在Hyperliquid建立大额多头仓位。目前该地址持仓已增至约1.336亿枚TST（约300万美元），浮盈约105万美元，收益超50%。 \n据悉，Hyperliquid验证者将在约24小时内就TST、ZEREBRO等永续合约是否下架进行投票。若通过，下架前将按1小时TWAP现货预言机价格进行结算，或为大额持仓提供规避滑点、按预期价格退出的套利路径。整体来看，该事件凸显部分资金利用机制设计进行策略性博弈，短期内或加剧相关资产价格波动。",
+      "link": "https://jinse.com.cn/lives/511203.html",
+      "published": "Mon, 04 May 2026 09:19:17 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伊朗革命卫队：违规海上活动将面临“强制拦截”",
+      "summary": "【伊朗革命卫队：违规海上活动将面临“强制拦截”】金色财经报道，5月4日电，伊朗伊斯兰革命卫队公共关系部副主管兼发言人萨达尔·侯赛因·穆哈比4日发布消息称，霍尔木兹海峡的管理流程没有发生任何变化。所有符合革命卫队海军所发布运输通行协议，并在指定路线内、经协调进行的民用与商用船舶航行，均是安全且有保障的。同时他指出，任何不符合革命卫队海军原则的海上活动，都将面临严重风险。违规船只将被强制拦截。所有航运公司及运输保险机构，必须严格关注革命卫队发布的相关通告。 (央视新闻)",
+      "link": "https://jinse.com.cn/lives/511202.html",
+      "published": "Mon, 04 May 2026 09:07:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "港交所拟重启黄金期货交易",
+      "summary": "【港交所拟重启黄金期货交易】金色财经报道，5月4日讯，港交所市场主管余学勤出席立法会一个委员会会议时表示，会征询市场参与者及持份者的意见，优化合约设计和完善机制。他表示，因地缘政治影响，投资者就黄金买卖和储备时要分散风险，因此认为黄金期货的设计和香港实体黄金生态圈的连动绝对有必要。港交所会继续研究，迎合投资者需求，让新的期货产品交易有更显著增长。（界面）",
+      "link": "https://jinse.com.cn/lives/511201.html",
+      "published": "Mon, 04 May 2026 08:44:45 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Tether 过去 2 周已新增铸造 50 亿枚 USDT",
+      "summary": "【Tether 过去 2 周已新增铸造 50 亿枚 USDT】金色财经报道，5月4日，据 Onchain Lens 监测，随着 Tether 在 Tron 网络上铸造 10 亿枚 USDT，过去 Tether 已在以太坊和 Tron 网络上新增铸造 50 亿枚 USDT。<p>原文链接: <a href=\"https://x.com/OnchainLens/status/2051216569012044017\">https://x.com/OnchainLens/status/2051216569012044017</a></p>",
+      "link": "https://jinse.com.cn/lives/511200.html",
+      "published": "Mon, 04 May 2026 08:41:46 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "区块链交易平台 Ekiden 完成 200 万美元种子轮融资",
+      "summary": "【区块链交易平台 Ekiden 完成 200 万美元种子轮融资】金色财经报道，区块链交易平台 Ekiden 宣布完成 200 万美元种子轮融资，公司估值达到 2000 万美元。本轮融资由 Unicorn Factory Ventures 和 P2 Ventures 领投，同时吸引了曾投资 GSR、Pyth、Aptos、LayerZero 和 Cube Exchange 等项目的天使投资人参与。<p>原文链接: <a href=\"https://techfundingnews.com/ekiden-pitch-deck-2m-seed-20m-valuation-on-chain-derivatives-trading/\">https://techfundingnews.com/ekiden-pitch-deck-2m-seed-20m-valuation-on-chain-derivatives-trading/</a></p>",
+      "link": "https://jinse.com.cn/lives/511199.html",
+      "published": "Mon, 04 May 2026 08:20:57 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "Bitcoin Tops $80,000 for Three-Month High as Asian Stocks Rise - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPMjBBUXdIRHFWa2EyTHBnNmhtNC1Ybk1oLU5vdGdhSU03RXBadzc5VU0zX2VUMDBPWUh0MXB1LXUxVDc1NEJtNlBlaWM0SnAyd01VVVhramxYQlBUN0x4UU53Y2dRZFVyQVBldWZnNkwtZTg0MUkxWkxMVE12cFFPN2V5S0lObEkyUmxxN1FON3o4d0JGUkxtRkN2QktvaUJuOG9HejBKd1FfamdUQ3RJUk1JeVVyZG8?oc=5\" target=\"_blank\">Bitcoin Tops $80,000 for Three-Month High as Asian Stocks Rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMjBBUXdIRHFWa2EyTHBnNmhtNC1Ybk1oLU5vdGdhSU03RXBadzc5VU0zX2VUMDBPWUh0MXB1LXUxVDc1NEJtNlBlaWM0SnAyd01VVVhramxYQlBUN0x4UU53Y2dRZFVyQVBldWZnNkwtZTg0MUkxWkxMVE12cFFPN2V5S0lObEkyUmxxN1FON3o4d0JGUkxtRkN2QktvaUJuOG9HejBKd1FfamdUQ3RJUk1JeVVyZG8?oc=5",
+      "published": "Mon, 04 May 2026 09:12:31 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "Reuters: Iran’s Largest Crypto Exchange Nobitex Linked to Ayatollah Khamenei’s Relatives - ForkLog",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNeV9VUVNreWZFYmFrSWY2d2FDZ0thUGI0NzM3T2Q3TllzWlBrX0k3OXlCWWVDSkR1MkxBNU1qVFRNeERjb1ZVRWdCcGM5X2xiY0d0dXdiQ1EybEVsNm02ekNsSjhFeWhDaWtEZzVZZEN1VEt1eG85cWJob0tQQlNXbXBSVmIyUlhuM1QyTVQ4QTdOUlo0Tlp3c2VMc05TV0pmOE1VY3lMRHdnYWEyeUE?oc=5\" target=\"_blank\">Reuters: Iran’s Largest Crypto Exchange Nobitex Linked to Ayatollah Khamenei’s Relatives</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ForkLog</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeV9VUVNreWZFYmFrSWY2d2FDZ0thUGI0NzM3T2Q3TllzWlBrX0k3OXlCWWVDSkR1MkxBNU1qVFRNeERjb1ZVRWdCcGM5X2xiY0d0dXdiQ1EybEVsNm02ekNsSjhFeWhDaWtEZzVZZEN1VEt1eG85cWJob0tQQlNXbXBSVmIyUlhuM1QyTVQ4QTdOUlo0Tlp3c2VMc05TV0pmOE1VY3lMRHdnYWEyeUE?oc=5",
+      "published": "Mon, 04 May 2026 08:05:55 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "German finance minister: ‘We want to tax cryptocurrencies differently’ -1-year tax exemption may be abolished, EU also considering crypto tax",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1t3cq5y/german_finance_minister_we_want_to_tax/\"> <img alt=\"German finance minister: ‘We want to tax cryptocurrencies differently’ -1-year tax exemption may be abolished, EU also considering crypto tax\" src=\"https://external-preview.redd.it/NU6NUleJM1N-AL8Pl-EBi8yafiEQ-2lmk0ATTKGmESE.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=643b34b4ba5ba72db2d0fd6a0b0495595b346ebb\" title=\"German finance minister: ‘We want to tax c",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1t3cq5y/german_finance_minister_we_want_to_tax/",
+      "published": "2026-05-04T09:32:06+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "[BTC] Weekly price prediction - $85k target?",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thejohnnyr\"> /u/thejohnnyr </a> <br /> <span><a href=\"/r/CookieMarket/comments/1t3c6m0/will_btc_reach_85k_by_end_of_week/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1t3c7tl/btc_weekly_price_prediction_85k_target/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1t3c7tl/btc_weekly_price_prediction_85k_target/",
+      "published": "2026-05-04T09:02:54+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "FOSS COMMUNITY OUTREACH",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>The 12-Month &quot;Black Screen&quot; Vulnerability, Stolen Architecture, and the 1373 Closed-Source Bait &amp; Switch</p> <p>​For over a year, the Bitaxe and NerdMiner ecosystems have been plagued by the &quot;Black Screen of Death.&quot; The device fan spins, the backlight stays on, but the system crashes, drops off the network, or enters a self-test failure loop.</p> <p>​The corporate team (Lars aka &quot;wantclue&quot; and Skot) has blamed power supplies, co",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1t3cnbp/foss_community_outreach/",
+      "published": "2026-05-04T09:27:32+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Everyone talks about cold wallets and how keys should be separated \"Not your keys not your Coins\" , but we also need to separate the transactions sent via hot wallets from being seen by wallet providers.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1t3bvgh/everyone_talks_about_cold_wallets_and_how_keys/\"> <img alt=\"Everyone talks about cold wallets and how keys should be separated &quot;Not your keys not your Coins&quot; , but we also need to separate the transactions sent via hot wallets from being seen by wallet providers.\" src=\"https://preview.redd.it/xw6kdp6e23zg1.png?width=140&amp;height=93&amp;auto=webp&amp;s=08dfcc08917b1c71d6acf3bc54f45bf2c48d7949\" title=\"Everyone",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1t3bvgh/everyone_talks_about_cold_wallets_and_how_keys/",
+      "published": "2026-05-04T08:42:45+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "The Pentagon just confirmed it runs classified Bitcoin operations. States don't run black ops on things that don't matter.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Defense Secretary Hegseth confirmed this week the US is running classified operations to secure Bitcoin dominance over China. He called himself a &quot;long and enthusiastic&quot; supporter.</p> <p>The same apparatus that weaponizes SWIFT, that cuts countries off from dollar settlement, is now running black ops on the monetary alternative. That's not adoption. That's control.</p> <p>Every strategic asset the US has ever dominated followed the same arc: ignore, r",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1t3d0td/the_pentagon_just_confirmed_it_runs_classified/",
+      "published": "2026-05-04T09:49:25+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Are you decentralized?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Bitcoin is, so get in now!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/unthocks\"> /u/unthocks </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1t3cxfw/are_you_decentralized/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1t3cxfw/are_you_decentralized/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1t3cxfw/are_you_decentralized/",
+      "published": "2026-05-04T09:44:00+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Bitcoin’s outperforming stocks, but running into a big resistance zone",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>So with Bitcoin having recently outperformed US stocks, it’s now approaching a key resistance zone where many recent buyers are still at a loss. to me this means some investors may sell as price recovers to their entry levels. At the same time, strong long-term holders and a solid base below current prices are helping support the market.</p> <p>Bitcoin outperforming equities here is interesting, but it also looks like it’s running into a fairly defined resistanc",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1t3cjc1/bitcoins_outperforming_stocks_but_running_into_a/",
+      "published": "2026-05-04T09:21:11+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Tops $80,000 for Three-Month High as Asian Stocks Rise - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPMjBBUXdIRHFWa2EyTHBnNmhtNC1Ybk1oLU5vdGdhSU03RXBadzc5VU0zX2VUMDBPWUh0MXB1LXUxVDc1NEJtNlBlaWM0SnAyd01VVVhramxYQlBUN0x4UU53Y2dRZFVyQVBldWZnNkwtZTg0MUkxWkxMVE12cFFPN2V5S0lObEkyUmxxN1FON3o4d0JGUkxtRkN2QktvaUJuOG9HejBKd1FfamdUQ3RJUk1JeVVyZG8?oc=5\" target=\"_blank\">Bitcoin Tops $80,000 for Three-Month High as Asian Stocks Rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMjBBUXdIRHFWa2EyTHBnNmhtNC1Ybk1oLU5vdGdhSU03RXBadzc5VU0zX2VUMDBPWUh0MXB1LXUxVDc1NEJtNlBlaWM0SnAyd01VVVhramxYQlBUN0x4UU53Y2dRZFVyQVBldWZnNkwtZTg0MUkxWkxMVE12cFFPN2V5S0lObEkyUmxxN1FON3o4d0JGUkxtRkN2QktvaUJuOG9HejBKd1FfamdUQ3RJUk1JeVVyZG8?oc=5",
+      "published": "Mon, 04 May 2026 09:12:31 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Tops $80,000 for First Time Since January as Stocks Rise - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQc3NRQ1loR1NqWi1Temw2M1FwRDFHemQ0bEU0SF93UUNwbVpkbXphVzlKMjEzU21NcnAxRUJpUDEwZkVWaUFWSDV3MTNLTDVBTjhxekdHeEJvSHNwbDg3bGYzRjVMalFlSTlsRHYxNkRVQWR6YmN3UlJSbVJ3OGN1aXZ3VUlpemE2d0Zsbk1GYmtDOXRS?oc=5\" target=\"_blank\">Bitcoin Tops $80,000 for First Time Since January as Stocks Rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc3NRQ1loR1NqWi1Temw2M1FwRDFHemQ0bEU0SF93UUNwbVpkbXphVzlKMjEzU21NcnAxRUJpUDEwZkVWaUFWSDV3MTNLTDVBTjhxekdHeEJvSHNwbDg3bGYzRjVMalFlSTlsRHYxNkRVQWR6YmN3UlJSbVJ3OGN1aXZ3VUlpemE2d0Zsbk1GYmtDOXRS?oc=5",
+      "published": "Mon, 04 May 2026 09:12:31 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Price Breaks $80,000. Why It’s Just a Blip for the Crypto. - Barron's",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPU01mZnBkUVNrOXpqNGhpYkJucTNfVWZiRXBxYS1JN0dWSkoxV0JPaFFRb1libWNRby1NbURHamRMR0lwblVZa1FvOGJLc3EtcnNNdm9udVRtOHU4R2JhWmFfS3JId3lCQTRMQ2pEOXZ4aGZjYmE3eHljR3puOEdZN1l1VG8?oc=5\" target=\"_blank\">Bitcoin Price Breaks $80,000. Why It’s Just a Blip for the Crypto.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU01mZnBkUVNrOXpqNGhpYkJucTNfVWZiRXBxYS1JN0dWSkoxV0JPaFFRb1libWNRby1NbURHamRMR0lwblVZa1FvOGJLc3EtcnNNdm9udVRtOHU4R2JhWmFfS3JId3lCQTRMQ2pEOXZ4aGZjYmE3eHljR3puOEdZN1l1VG8?oc=5",
+      "published": "Mon, 04 May 2026 09:11:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase, Strategy, and Other Crypto Stocks Get a Boost as Bitcoin Rallies - Barron's",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNM3RfWnI4ZGxITGJjb0dWSHNVenJVcXA4TmM3UHFnUllQQXAyTU5zaHRVVnp2dkVtbWNHZmlyMWhDdDVGXzVmT3JSVjIweGdlMDNXVTFNR3RuOENCMjNIQktUQmJQU3hyZU9PNjlXRVlrQjJSVUd4ZHVfZjg2bWp4YXAxVmRBYUdCanc?oc=5\" target=\"_blank\">Coinbase, Strategy, and Other Crypto Stocks Get a Boost as Bitcoin Rallies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM3RfWnI4ZGxITGJjb0dWSHNVenJVcXA4TmM3UHFnUllQQXAyTU5zaHRVVnp2dkVtbWNHZmlyMWhDdDVGXzVmT3JSVjIweGdlMDNXVTFNR3RuOENCMjNIQktUQmJQU3hyZU9PNjlXRVlrQjJSVUd4ZHVfZjg2bWp4YXAxVmRBYUdCanc?oc=5",
+      "published": "Mon, 04 May 2026 09:47:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin News: $80,000 Resistance Broken as Saylor Signals Strategy Buy Return - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQLVl5QS1DWU9NMXRzOTR5NU1oVkZpNzktZXllVUhlRGhndUpyVXpLdmtXN0swZ3M3aWh4eHBGVzRqY2YxbS1LdkpaenBlTjNfZVZ2M0FQb1ZLUF9rRHJhRDBpM1pzdEJUSW9BMklKU1ZYd1NGWnljcDlRVk5LazdZdGRGT01RZXpRYWZxclM0RHZLaU5uREJIU3dFNA?oc=5\" target=\"_blank\">Bitcoin News: $80,000 Resistance Broken as Saylor Signals Strategy Buy Return</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLVl5QS1DWU9NMXRzOTR5NU1oVkZpNzktZXllVUhlRGhndUpyVXpLdmtXN0swZ3M3aWh4eHBGVzRqY2YxbS1LdkpaenBlTjNfZVZ2M0FQb1ZLUF9rRHJhRDBpM1pzdEJUSW9BMklKU1ZYd1NGWnljcDlRVk5LazdZdGRGT01RZXpRYWZxclM0RHZLaU5uREJIU3dFNA?oc=5",
+      "published": "Mon, 04 May 2026 08:44:28 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Price Hits $80K: We Asked Grok If BTC Could Hold $80K in May - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPaFREQ0laM3BLRUhjbU1OcGNVZG1mQUFUN0k2azJnWGQ4dWgtLUNjZUFKRkVvcXg4TmxoZ29YaEIwUG13Sm0wMHJNUVlwejZvTTUtSnRRbzlTYkdWX2dkUmgydGwwRmJNNWVkT3FhZWtIdlFnc042cjhTQ1M1Rml2UWpvY0N0aUhIRzZrUFRESXVWbmUzTXA3RG1lYXR1NTdiVmt3cTBNMkhKTUpwS0E?oc=5\" target=\"_blank\">Bitcoin Price Hits $80K: We Asked Grok If BTC Could Hold $80K in May</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaFREQ0laM3BLRUhjbU1OcGNVZG1mQUFUN0k2azJnWGQ4dWgtLUNjZUFKRkVvcXg4TmxoZ29YaEIwUG13Sm0wMHJNUVlwejZvTTUtSnRRbzlTYkdWX2dkUmgydGwwRmJNNWVkT3FhZWtIdlFnc042cjhTQ1M1Rml2UWpvY0N0aUhIRzZrUFRESXVWbmUzTXA3RG1lYXR1NTdiVmt3cTBNMkhKTUpwS0E?oc=5",
+      "published": "Mon, 04 May 2026 09:26:39 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Tests Critical $83.6K Level As Market Gains Hold - Investing.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOS0hHN3ZCOTA0SHNrNlBIWl9MSkE0WExzNUdCc1ZydUx0NVlIWElLaUkxRm55WGF6TGJoUFpMTzdNMm1aMFJFY19tQ24wcTdQdDhmemVYbEJVbkN3NEZ4SXF5ZzU2QzR0TC1sTkdZbEhGT0FXRUlETzZ2VGxjTkN5dHhnYzB2bVZybVZjVEV2eGJTRlJndUd3aDFCWHV6YkxC?oc=5\" target=\"_blank\">Bitcoin Tests Critical $83.6K Level As Market Gains Hold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS0hHN3ZCOTA0SHNrNlBIWl9MSkE0WExzNUdCc1ZydUx0NVlIWElLaUkxRm55WGF6TGJoUFpMTzdNMm1aMFJFY19tQ24wcTdQdDhmemVYbEJVbkN3NEZ4SXF5ZzU2QzR0TC1sTkdZbEhGT0FXRUlETzZ2VGxjTkN5dHhnYzB2bVZybVZjVEV2eGJTRlJndUd3aDFCWHV6YkxC?oc=5",
+      "published": "Mon, 04 May 2026 09:13:15 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Poll Finds 62% of Americans Don’t Trust Trump on Crypto - Gizmodo",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOMEZFcmtWNFdiYjI3ZWsyc1ByYTZ1VTJWS2dCN0wzcHZSWWtGOWdXM1AtWjRuZXZzb2tUUzNYdjFfRHRjSFpJZHdTRGMtT3RQUVZ0UVEtdUlIcnRqYnpwbFpzME1nZ3RyWV9wTV9rS1RFTGJxVzhMT0p1LTZNcmJDTWJJZG5xSVhBTnZ0dA?oc=5\" target=\"_blank\">Poll Finds 62% of Americans Don’t Trust Trump on Crypto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gizmodo</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMEZFcmtWNFdiYjI3ZWsyc1ByYTZ1VTJWS2dCN0wzcHZSWWtGOWdXM1AtWjRuZXZzb2tUUzNYdjFfRHRjSFpJZHdTRGMtT3RQUVZ0UVEtdUlIcnRqYnpwbFpzME1nZ3RyWV9wTV9rS1RFTGJxVzhMT0p1LTZNcmJDTWJJZG5xSVhBTnZ0dA?oc=5",
+      "published": "Mon, 04 May 2026 09:30:54 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Tops $80,000 After A 3-Month Wait—What Happens To Ethereum Next? - Benzinga",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQeWZJZi1XcmppVWZGQV9zdDVFWFM0ZEQ3bndvbEZSdmt1YWpFUjZ0dDZjRENqRjZvcEZodGE4d0xKWGZvZGhvbF9yUEVVRUxDaU9aX3JZUTFfYWxNMHZ4cHR1SXJ3Q2wtam5ZV1B2UVp6bnJhajdwMXdtTFladndjcGFzMTQwMEdrdXRhUU5LTTlVVnoxRVJTUFBybDc3ZmllTXRFQjNjYW8xNzViSElmUkdaeGtrcndKdnpyeDBSVU85WDNzOEM3bWxwTQ?oc=5\" target=\"_blank\">Bitcoin Tops $80,000 After A 3-Month Wait—What Happens To Ethereum Next?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeWZJZi1XcmppVWZGQV9zdDVFWFM0ZEQ3bndvbEZSdmt1YWpFUjZ0dDZjRENqRjZvcEZodGE4d0xKWGZvZGhvbF9yUEVVRUxDaU9aX3JZUTFfYWxNMHZ4cHR1SXJ3Q2wtam5ZV1B2UVp6bnJhajdwMXdtTFladndjcGFzMTQwMEdrdXRhUU5LTTlVVnoxRVJTUFBybDc3ZmllTXRFQjNjYW8xNzViSElmUkdaeGtrcndKdnpyeDBSVU85WDNzOEM3bWxwTQ?oc=5",
+      "published": "Mon, 04 May 2026 09:31:45 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Crypto Risk Rises: Jobs Data, Fed Signals Could Shift Market - Whalesbook",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNZXB1Y0R3ZVRGWDAxcXh2VXpKUG8xUzhWU3hUOUdCd3ZLODhwaVF1STVHSHZiZldRWkNaUEFDak50TXpYQkFSWGtDNDIwbGtVMlp2T29VUEVrTUxnMk9DYmM0OU05NWJzU3JJOWV6SVFyNDdFaVhEaWItYlhiU1ViN1BUZDd4WjB1WkxEMk5NYi1kbVVoQnFvamRmYU1RbkN1alZhbXRHS1FXaGlremg1eVV5TS1TeVNDbER3RU44SG5tU2hNQmtB?oc=5\" target=\"_blank\">Crypto Risk Rises: Jobs Data, Fed Signals Could Shift Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Whalesbook</font>",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZXB1Y0R3ZVRGWDAxcXh2VXpKUG8xUzhWU3hUOUdCd3ZLODhwaVF1STVHSHZiZldRWkNaUEFDak50TXpYQkFSWGtDNDIwbGtVMlp2T29VUEVrTUxnMk9DYmM0OU05NWJzU3JJOWV6SVFyNDdFaVhEaWItYlhiU1ViN1BUZDd4WjB1WkxEMk5NYi1kbVVoQnFvamRmYU1RbkN1alZhbXRHS1FXaGlremg1eVV5TS1TeVNDbER3RU44SG5tU2hNQmtB?oc=5",
+      "published": "Mon, 04 May 2026 08:35:18 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "summary": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01",
+      "published": "2026-05-04T14:29:57.125000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f",
+      "published": "2026-04-30T18:47:58.718000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "summary": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861",
+      "published": "2026-04-30T17:07:29.704000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/KZT Spot Trading Pair",
+      "summary": "Binance Adds USDT/KZT Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/51c9c56c7d3141fdac18cb9a152defc8",
+      "published": "2026-04-30T13:00:06.261000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/524345e64dd14a23989bfe1e547760b5",
+      "published": "2026-04-29T21:27:04.104000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c8d2380a71ee4b56980cf7798d2e3d8f",
+      "published": "2026-04-28T16:00:03.344000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "summary": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/52ca7793dcdd43ad822f43cfacc42231",
+      "published": "2026-04-28T12:00:02.694000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/75a90e75150c4917b54c5251cba87225",
+      "published": "2026-04-27T16:00:37.542000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e4b4751f7ee845dd9df5c1bfd94ade51",
+      "published": "2026-04-22T22:51:55.953000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cc3774b86f974052a01ab88d8a08be55",
+      "published": "2026-04-21T21:00:07.020000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "summary": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d",
+      "published": "2026-04-21T20:00:32.132000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-04-21",
+      "summary": "Binance Margin Will Add New Pairs - 2026-04-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dc394582165d4c6da83c54b78791687f",
+      "published": "2026-04-21T11:00:08.299000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-21",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/592c10e64f90408d8c553848a35d18fe",
+      "published": "2026-04-20T15:00:05.964000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",
+      "summary": "Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/16fe15060947481ab240fb398230a3ee",
+      "published": "2026-04-16T17:44:56.813000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CHIPUSDT Perpetual Contract Pre-Market Trading (2026-04-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CHIPUSDT Perpetual Contract Pre-Market Trading (2026-04-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9db6d823933341f1abcc04ed9ceab35d",
+      "published": "2026-04-16T14:14:15.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GENIUSUSDT Perpetual Contract (2026-04-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GENIUSUSDT Perpetual Contract (2026-04-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/741ea1c99c1e4897a5bd77aa5db4abc4",
+      "published": "2026-04-16T10:03:08.861000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add USDS (USDS) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add USDS (USDS) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a9581bcaef24410a1dace51722112c8",
+      "published": "2026-04-09T15:30:12.073000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MUUSDT and SNDKUSDT USDⓈ-Margined Equity Perpetual Contracts (2026-04-07)",
+      "summary": "Binance Futures Will Launch MUUSDT and SNDKUSDT USDⓈ-Margined Equity Perpetual Contracts (2026-04-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/80549fadb3e447d1a859b8cedd0ccd69",
+      "published": "2026-04-03T21:30:07.828000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch QQQUSDT, SPYUSDT, AAPLUSDT and TSMUSDT USDⓈ-Margined Perpetual Contracts (2026-04-06)",
+      "summary": "Binance Futures Will Launch QQQUSDT, SPYUSDT, AAPLUSDT and TSMUSDT USDⓈ-Margined Perpetual Contracts (2026-04-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4cde981dc32d4268b7645e9d16e8d63a",
+      "published": "2026-04-02T17:15:03.208000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PRLUSDT Perpetual Contract (2026-04-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PRLUSDT Perpetual Contract (2026-04-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0116dd83010043bd95c37626e2277bbe",
+      "published": "2026-04-01T17:51:00.284000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 40 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 40，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-05-04T08:00:00+08:00"
+    }
+  ]
+}
