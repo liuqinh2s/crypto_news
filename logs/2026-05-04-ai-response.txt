@@ -1038,3 +1038,63 @@ content length: 3130
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2815, prompt_tokens=10799, total_tokens=13614, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1616, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9775)
+content length: 2459
+============================================================
+{
+  "news": [
+    {
+      "title": "BlackRock比特币ETP达11亿",
+      "summary": "BlackRock的比特币ETP产品AUM达到11亿美元，创下历史新高，表明机构投资者对比特币的需求持续增长。这一里程碑进一步增强了市场对比特币作为资产类别的信心，可能吸引更多传统资金入场。直接影响BTC价格，看多信号。",
+      "reason": "机构巨量入场是中期利好信号，BlackRock作为全球最大资产管理公司，其ETP资金流入标志着主流接纳度提升。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcWZ4U0EwQ19jOXphZXJmbXVlM21JTzBDOEtvbEJ6d1h2bXNKNU5ZdTR3dmluQWs3ekNsZUQ5TVVrTlhTN0M1OVZ4OEVIY3BjZV9jdTc5RDhVUEFRQXM3b3FOX2xuRm1wWFR0N3NVN1FCTEtKWW03VDBOOTkzbHU0c0hOby1IVjYxOGpzV3BhbG1neUljc2VZZVNNSER0SHM"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普“自由计划”推升ETH/DOGE",
+      "summary": "特朗普宣布‘Project Freedom’后，以太坊和狗狗币出现明显上涨，而比特币和XRP相对平稳。该计划可能涉及监管放松或基础设施支持，刺激市场对山寨币的短期热情。直接影响ETH和DOGE，短期看多。",
+      "reason": "政策面利好消息直接推动币价，属于影响行情的事件。特朗普政治影响力大，其声明可能导致市场情绪波动。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPZllCUDZtWTFyMWpIRVhPOFpodTA4VVJpVlhJbWxlSHk5QWZJUzZfMEl4eXR4R3ZPa0ZOcmV5SEwweFgxcW9LODVhbDNMZW9xRzlBV0VFRHZLalJCWC1kTlJrRlJiZzZzYllRbTlFNXNGSDYwZ0lMNDdBMkVTd24wZVpMX3pqR05jc1dvSzZGSkZ3U1Z0OFhnTldteGRUajlueTF5WmZnN3RiWEhQck5sdVpsRHUyVGVDSERlN2hTa0J5dEpWdUhTczUxamVZai16QTYwUGxCNlVVUkh0RVo5Q1lxc2ZIX2ozcjZCdm5XQ3BkU1NSd0sxd19FQklTMHJUdUZYbXpMU3dVTTF1aVlrQ2JiOUdEdFEyeDhtNkJjMkpDUQ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗制裁破解者从死囚到加密",
+      "summary": "WSJ报道揭露伊朗最大加密货币交易所由最高领袖家族成员创立，该人物曾因制裁破解被判处死刑后获释。此事件可能加剧美国对伊朗利用加密逃避制裁的打压，增加地缘政治风险。对加密货币市场整体偏空，尤其可能引发监管收紧。",
+      "reason": "涉及国家级制裁和加密交易所背景，可能引起监管关注，属于监管风险信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTTNuMmVrYWE1NW4xT181OXhRUHZHNDNRNXRfdVA2c3owWHpyTEFmWk5mQjRuYTJrTzJxNDQ2VDRPdU11TFVXUHBaMGtXcUNjQk56blRuZG9aS2t0ajlkRE1ZMTlCX3VpM3NySUFhUnRNN0lmMlBnNXdsZElkNG94bG50VkozTHhCMFh2NGNpY2hsOVdBbVFEQjhPSktNVWE4UEJzYlRlWW55ZEo5aFE"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中多数为历史重复消息，仅筛选出3条有效新消息。"
+}
