@@ -314,3 +314,129 @@ content length: 2589
   ],
   "note": "本轮抓取消息多数与历史重复，仅筛选出4条新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2700, prompt_tokens=17251, total_tokens=19951, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2672, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=16227)
+content length: 52
+============================================================
+{
+  "news": [],
+  "note": "近6小时无新消息，所有素材均为历史消息重复。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=904, prompt_tokens=17251, total_tokens=18155, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=873, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=17152), prompt_cache_hit_tokens=17152, prompt_cache_miss_tokens=99)
+content length: 62
+============================================================
+{
+  "news": [],
+  "note": "近6小时内所有重大消息已在历史中出现重复，无新增有价值交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3320, prompt_tokens=17251, total_tokens=20571, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1858, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=17152), prompt_cache_hit_tokens=17152, prompt_cache_miss_tokens=99)
+content length: 3946
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC突破80K+伊朗袭击",
+      "summary": "比特币突破80,000美元创三个月新高，但随后因伊朗导弹袭击霍尔木兹海峡导致风险资产承压，价格回落至80K附近。当日空头清算3.01亿美元，显示多头强势但地缘风险升温。影响BTC及风险资产，短期看多但需警惕回调，信号bullish但shortsqueeze后中性。",
+      "reason": "比特币关键价位突破伴随地缘政治风险，属于影响行情直接消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/price-predictions-54-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada"},
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/04/28/bitcoin-bounces-around-80k-as-iran-strike-unsettles-crypto-risk-assets"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Clarity Act稳定币妥协推涨",
+      "summary": "美国参议员公布Clarity Act稳定币妥协方案，保留稳定币收益，推动Circle(CRCL)和Coinbase(COIN)股票大涨16-18%。该法案进展被视为加密货币监管重大利好，提振市场信心。影响BTC、ETH及稳定币相关资产，信号bullish。",
+      "reason": "监管政策重大进展，直接影响行情。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDC", "USDT"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/04/28/circle-coinbase-lead-crypto-stocks-rally-amid-clarity-act-progress-bitcoin-hitting-80000"},
+        {"name": "Fast Company", "url": "https://www.fastcompany.com/"} 
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Upbit推出Ethereum L2链",
+      "summary": "韩国最大交易所Upbit与Optimism Foundation合作推出GIWA Chain，基于OP Stack的以太坊L2。此举有望降低交易成本并吸引韩国用户进入以太坊生态，利好ETH和OP。短期对ETH需求有支撑，信号bullish。",
+      "reason": "交易所链上基建升级，影响ETH生态。",
+      "category": "交易所",
+      "impact_coins": ["ETH", "OP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/399935/south-koreas-largest-crypto-exchange-upbit-launches-ethereum-blockchain-with-optimism-foundation-support"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Aave抗争7300万ETH冻结令",
+      "summary": "Aave向法院申请解除7300万美元ETH冻结命令，称冻结资金源自盗窃，平台不应承担损失。若Aave胜诉将强化DeFi抗审查性，利好AAVE和以太坊DeFi生态。短期存在不确定性，但长期看多。",
+      "reason": "重大法律事件影响DeFi龙头和ETH。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/399923/aave-fights-73-million-eth-freeze-argues-thief-does-not-own-what-steals"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hut 8以更低利率融资",
+      "summary": "比特币矿商Hut 8用FalconX贷款替换Coinbase信用额度，降低借贷成本并加码AI业务。该举措显示矿企财务优化，间接减少抛压，对BTC偏利好。影响BTC，信号bullish。",
+      "reason": "矿企债务重组影响比特币供应预期。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/04/28/hut-8-swaps-coinbase-credit-line-for-cheaper-falconx-deal-slashing-borrowing-costs-as-it-bets-big-on-ai"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC突破清空3亿美元空头",
+      "summary": "比特币突破8万触发3.01亿美元空头清算，空头轧空明显。但短期高额清算后市场可能进入调整，需关注后续资金费率。影响BTC，短期看多但注意过热回调。",
+      "reason": "巨额空头清算直接影响价格，属于市场结构重大事件。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巴克莱预测2027前不降息",
+      "summary": "巴克莱银行预测美联储因通胀和油价担忧，2027年前不会降息。紧缩预期压制风险资产，加密货币承压。影响BTC、ETH等，信号bearish。",
+      "reason": "宏观紧缩预期影响整体市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Crypto Briefing", "url": "https://cryptobriefing.com/barclays-no-fed-rate-cuts-2027/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}

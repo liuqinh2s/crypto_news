@@ -338,3 +338,110 @@
 2026-05-04 19:01:25 [DEBUG]   去重: 「Base引入Succinct零知识技术」 → URL重复: https://www.theblock.co/post/399926/coinbase-incubated-base-
 2026-05-04 19:01:25 [INFO] 📦 JSON 已保存: reports/2026-05-05-03.json
 2026-05-04 19:01:25 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-05-04 20:00:36 [INFO] 🚀 开始抓取 2026-05-05 04:00 币圈新闻
+2026-05-04 20:00:36 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-04 20:00:36 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-04 20:00:36 [INFO]   ⏭ The Block: 过滤掉 17 条非近期新闻
+2026-05-04 20:00:36 [INFO]   ⏭ Decrypt: 过滤掉 32 条非近期新闻
+2026-05-04 20:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-04 20:00:37 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-04 20:00:37 [INFO]   ⏭ CoinDesk: 过滤掉 24 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 9 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ Reuters Crypto: 过滤掉 49 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ CNBC Crypto: 过滤掉 48 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 21 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 21 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:37 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:38 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:38 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-04 20:00:38 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:38 [INFO]   ⏭ 雪球加密: 过滤掉 48 条非近期新闻
+2026-05-04 20:00:38 [INFO]   ⏭ Crypto Twitter: 过滤掉 38 条非近期新闻
+2026-05-04 20:00:49 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:49 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-04 20:00:49 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 2 条非近期新闻
+2026-05-04 20:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-04 20:00:52 [INFO]   ✓ CoinDesk: 1 条
+2026-05-04 20:00:52 [INFO]   ✓ The Block: 3 条
+2026-05-04 20:00:52 [INFO]   ✓ Decrypt: 3 条
+2026-05-04 20:00:52 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-04 20:00:52 [INFO]   ✓ Bitcoin Magazine: 1 条
+2026-05-04 20:00:52 [INFO]   ✓ Blockworks: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ DL News: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ 金色财经: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ PANews: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ Reuters Crypto: 1 条
+2026-05-04 20:00:52 [INFO]   ✓ CNBC Crypto: 2 条
+2026-05-04 20:00:52 [INFO]   ✓ Reddit r/cryptocurrency: 4 条
+2026-05-04 20:00:52 [INFO]   ✓ Reddit r/bitcoin: 4 条
+2026-05-04 20:00:52 [INFO]   ✓ Crypto Twitter: 12 条
+2026-05-04 20:00:52 [INFO]   ✓ 宏观经济: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ Binance公告: 20 条
+2026-05-04 20:00:52 [INFO]   ✓ OKX公告: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ Bitget公告: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ Whale Alert: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-04 20:00:52 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-04 20:00:52 [INFO]   ✓ 雪球加密: 2 条
+2026-05-04 20:00:52 [INFO] 📊 共抓取 55 条新闻
+2026-05-04 20:00:52 [INFO] 📋 原始新闻已保存: reports/2026-05-05-04-raw.json (55 条)
+2026-05-04 20:00:52 [INFO] 📋 标题摘要已保存: reports/2026-05-05-04-raw-titles.md
+2026-05-04 20:00:52 [INFO] ✅ 抓取完成，共 55 条，已保存到 reports/2026-05-05-04-raw.json
+2026-05-04 20:00:52 [INFO] 🤖 开始 AI 筛选 2026-05-05 04:00 币圈消息
+2026-05-04 20:00:52 [INFO] 📋 已加载原始新闻: reports/2026-05-05-04-raw.json (55 条)
+2026-05-04 20:00:52 [INFO] 📚 已加载历史新闻标题（32506 字符）
+2026-05-04 20:00:52 [INFO] 📚 已加载历史筛选标题 26 条、URL 30 个，用于去重
+2026-05-04 20:00:52 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-04 20:00:52 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-04 20:00:52 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（55 条，14111 字符，temp=0.3）
+2026-05-04 20:01:29 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 52 字符)
+2026-05-04 20:01:29 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-04-ai-raw.json
+2026-05-04 20:01:29 [DEBUG] parse_json_response 输入长度: 52 字符
+2026-05-04 20:01:29 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "近6小时无新消息，所有素材均为历史消息重复。"
+}
+2026-05-04 20:01:29 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-04 20:01:29 [INFO] ✅ AI 返回 0 条新闻
+2026-05-04 20:01:29 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-05-04 20:01:29 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（55 条，14111 字符，temp=0.3）
+2026-05-04 20:01:42 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 62 字符)
+2026-05-04 20:01:42 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-04-ai-raw.json
+2026-05-04 20:01:42 [DEBUG] parse_json_response 输入长度: 62 字符
+2026-05-04 20:01:42 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "近6小时内所有重大消息已在历史中出现重复，无新增有价值交易信号。"
+}
+2026-05-04 20:01:42 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-04 20:01:42 [INFO] ✅ AI 返回 0 条新闻
+2026-05-04 20:01:42 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 返回空数组，将重试
+2026-05-04 20:01:42 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（55 条，14111 字符，temp=0.3）
+2026-05-04 20:02:21 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 3946 字符)
+2026-05-04 20:02:21 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-04-ai-raw.json
+2026-05-04 20:02:21 [DEBUG] parse_json_response 输入长度: 3946 字符
+2026-05-04 20:02:21 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "BTC突破80K+伊朗袭击",
+      "summary": "比特币突破80,000美元创三个月新高，但随后因伊朗导弹袭击霍尔木兹海峡导致风险资产承压，价格回落至80K附近。当日空头清算3.01亿美元，显示多头强势但地缘风险升温。影响BTC及风险资产，短期看多但需警惕回调，信号bullish但shortsqueeze后中性。",
+      "reason": "比特币关键价位突破伴随地缘政治风险，属于影响行情直接消息。",
+      "category": "宏观经济",
+      "impact_coins"
+2026-05-04 20:02:21 [DEBUG] 从 JSON 对象的 news 字段提取到 7 条记录
+2026-05-04 20:02:21 [INFO] ✅ AI 返回 7 条新闻
+2026-05-04 20:02:21 [INFO] ✅ AI 筛选出 7 条交易相关消息，符合预期
+2026-05-04 20:02:21 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
+2026-05-04 20:02:21 [INFO] 🔄 去重：移除 4 条与历史报告重复的新闻
+2026-05-04 20:02:21 [DEBUG]   去重: 「Upbit推出Ethereum L2链」 → URL重复: https://www.theblock.co/post/399935/south-koreas-largest-cry
+2026-05-04 20:02:21 [DEBUG]   去重: 「Aave抗争7300万ETH冻结令」 → URL重复: https://www.theblock.co/post/399923/aave-fights-73-million-e
+2026-05-04 20:02:21 [DEBUG]   去重: 「Hut 8以更低利率融资」 → URL重复: https://www.coindesk.com/markets/2026/04/28/hut-8-swaps-coin
+2026-05-04 20:02:21 [DEBUG]   去重: 「巴克莱预测2027前不降息」 → 标题相似: 巴克莱预计2027年前不降息
+2026-05-04 20:02:21 [INFO] 📦 JSON 已保存: reports/2026-05-05-04.json
+2026-05-04 20:02:21 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
