@@ -190,3 +190,94 @@ content length: 3380
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3228, prompt_tokens=16614, total_tokens=19842, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2198, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15590)
+content length: 2849
+============================================================
+{
+  "news": [
+    {
+      "title": "PARITY法案提案加密税底线",
+      "summary": "美国众议员Steven Horsford在Consensus Miami提出PARITY法案，旨在为加密货币税收提供持久框架。该法案若通过，将为行业带来明确税收规则，减少不确定性，利好整个加密市场。可能影响BTC、ETH等主流币及税务相关项目，偏看多信号。",
+      "reason": "监管政策进展有助于消除不确定性，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/05/rep-steven-horsford-pitches-parity-act-as-durable-floor-for-crypto-tax-at-consensus-miami"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Solana 'Alpenglow'升级将到来",
+      "summary": "Solana联合创始人Yakovenko表示，'Alpenglow'升级预计下季度上线。该升级旨在提升网络性能与可扩展性。技术升级通常利好原生代币，可能吸引更多开发者与用户，推动SOL价格上涨。消息对SOL偏看多。",
+      "reason": "技术升级属于中期影响，对Solana生态有积极推动作用。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/05/05/solana-s-alpenglow-upgrade-could-arrive-next-quarter-co-founder-yakovenko-says"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Western Union Solana稳定币重塑支付",
+      "summary": "分析师指出，Western Union基于Solana的稳定币有望重构其支付模型，降低跨境汇款成本。此举显示传统金融巨头采用区块链，增强Solana生态实用性，利好SOL及稳定币相关项目。信号偏看多。",
+      "reason": "传统机构采用是市场情绪催化剂，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC", "USDT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/05/western-union-s-solana-based-stablecoin-could-reshape-its-payment-model-analyst-says"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "努钦：衰退时利率将降至1%",
+      "summary": "前财长努钦称若经济衰退，利率可能降至1%。这暗示未来宽松货币环境，利好风险资产包括加密货币。可能推动BTC、ETH等上涨。但仅为个人观点，需结合官方数据。偏看多。",
+      "reason": "宏观宽松预期是中短期利好因素，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511352.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "XRP再现66%涨幅分形",
+      "summary": "技术分析显示XRP价格走势复制了2025年的图表分形，上次该形态出现后XRP上涨66%。技术面信号可能吸引交易者，短期内推动XRP上涨。但需警惕假突破风险，偏看多。",
+      "reason": "技术信号可引起短期交易行为，属于优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/xrp-replays-2025-fractal-that-sparked-a-66-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
