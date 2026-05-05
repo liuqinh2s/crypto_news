@@ -1041,3 +1041,147 @@
 2026-05-05 03:01:33 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
 2026-05-05 03:01:33 [INFO] 📦 JSON 已保存: reports/2026-05-05-11.json
 2026-05-05 03:01:33 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-05-05 04:00:34 [INFO] 🚀 开始抓取 2026-05-05 12:00 币圈新闻
+2026-05-05 04:00:34 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-05 04:00:34 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-05 04:00:34 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-05 04:00:34 [INFO]   ⏭ Decrypt: 过滤掉 35 条非近期新闻
+2026-05-05 04:00:34 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ CoinDesk: 过滤掉 24 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-05 04:00:35 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-05 04:00:35 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ 宏观经济: 过滤掉 44 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:35 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:36 [INFO]   ⏭ Crypto Twitter: 过滤掉 48 条非近期新闻
+2026-05-05 04:00:36 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-05 04:00:39 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 24 条非近期新闻
+2026-05-05 04:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-05 04:00:50 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-05 04:00:50 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-05 04:00:50 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:50 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-05 04:00:50 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-05 04:00:50 [INFO]   ✓ CoinDesk: 1 条
+2026-05-05 04:00:50 [INFO]   ✓ The Block: 1 条
+2026-05-05 04:00:50 [INFO]   ✓ Decrypt: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-05 04:00:50 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ Blockworks: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ DL News: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ 金色财经: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ PANews: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-05 04:00:50 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-05 04:00:50 [INFO]   ✓ Reddit r/bitcoin: 1 条
+2026-05-05 04:00:50 [INFO]   ✓ Crypto Twitter: 2 条
+2026-05-05 04:00:50 [INFO]   ✓ 宏观经济: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ Binance公告: 20 条
+2026-05-05 04:00:50 [INFO]   ✓ OKX公告: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ Bitget公告: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ Whale Alert: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-05 04:00:50 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-05 04:00:50 [INFO]   ✓ 雪球加密: 0 条
+2026-05-05 04:00:50 [INFO] 📊 共抓取 29 条新闻
+2026-05-05 04:00:50 [INFO] 📋 原始新闻已保存: reports/2026-05-05-12-raw.json (29 条)
+2026-05-05 04:00:50 [INFO] 📋 标题摘要已保存: reports/2026-05-05-12-raw-titles.md
+2026-05-05 04:00:50 [INFO] ✅ 抓取完成，共 29 条，已保存到 reports/2026-05-05-12-raw.json
+2026-05-05 04:00:51 [INFO] 🤖 开始 AI 筛选 2026-05-05 12:00 币圈消息
+2026-05-05 04:00:51 [INFO] 📋 已加载原始新闻: reports/2026-05-05-12-raw.json (29 条)
+2026-05-05 04:00:51 [INFO] 📚 已加载历史新闻标题（19548 字符）
+2026-05-05 04:00:51 [INFO] 📚 已加载历史筛选标题 22 条、URL 25 个，用于去重
+2026-05-05 04:00:51 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-05 04:00:51 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-05 04:00:51 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（29 条，6299 字符，temp=0.3）
+2026-05-05 04:01:20 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 161 字符)
+2026-05-05 04:01:20 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-12-ai-raw.json
+2026-05-05 04:01:20 [DEBUG] parse_json_response 输入长度: 161 字符
+2026-05-05 04:01:20 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取的29条素材中，所有潜在有效消息均已出现在历史消息中（如比特币测试8万美元、Clarity法案推动加密股票上涨、西联汇款推出USDPT、WLFI起诉孙宇晨、Binance上MegaETH等），恐惧贪婪指数也与此前11:00数值相同（50），无新交易信号。"
+}
+2026-05-05 04:01:20 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-05 04:01:20 [INFO] ✅ AI 返回 0 条新闻
+2026-05-05 04:01:20 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-05-05 04:01:20 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（29 条，6299 字符，temp=0.3）
+2026-05-05 04:01:50 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 712 字符)
+2026-05-05 04:01:50 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-12-ai-raw.json
+2026-05-05 04:01:50 [DEBUG] parse_json_response 输入长度: 712 字符
+2026-05-05 04:01:50 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Clarity Act推升加密股",
+      "summary": "受美国CLARITY法案（稳定币监管法案）进展提振，加密相关股票集体上涨，Circle股价飙升近20%。该法案旨在为稳定币提供监管框架，并已获得两党妥协。Circle作为USDC发行商直接受益，市场情绪转向乐观。该消息可能提振整体加密市场风险偏好，利好USDC生态及Solana等合作链。短期看多加密市场，但需注意法案尚未最终通过。",
+      "reason": "监管法案进展直接影响市场预期，Circle股价大涨显示资金看好合规稳定币前景，属于
+2026-05-05 04:01:50 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-05 04:01:50 [INFO] ✅ AI 返回 1 条新闻
+2026-05-05 04:01:50 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-05-05 04:01:50 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（29 条，6299 字符，temp=0.3）
+2026-05-05 04:02:02 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 95 字符)
+2026-05-05 04:02:02 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-12-ai-raw.json
+2026-05-05 04:02:02 [DEBUG] parse_json_response 输入长度: 95 字符
+2026-05-05 04:02:02 [DEBUG] 输入内容前 300 字符: {"news": [], "note": "本轮抓取素材与历史消息高度重复，无新增有价值消息。所有Binance公告、市场行情报道、监管动态等已在过去6小时内报道过。建议关注后续新进展。"}
+2026-05-05 04:02:02 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-05 04:02:02 [INFO] ✅ AI 返回 0 条新闻
+2026-05-05 04:02:02 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 返回空数组，将重试
+2026-05-05 04:02:02 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（29 条，8773 字符，temp=0.3）
+2026-05-05 04:02:37 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 1291 字符)
+2026-05-05 04:02:37 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-12-ai-raw.json
+2026-05-05 04:02:37 [DEBUG] parse_json_response 输入长度: 1291 字符
+2026-05-05 04:02:37 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Western Union推出Solana稳定币",
+      "summary": "全球汇款巨头Western Union开始在Solana上推出其USDPT稳定币，标志着传统金融巨头正式进入加密货币稳定币领域。这一举措可能大幅增加Solana链上稳定币流动性和采用率，对SOL和USDPT生态形成利好。看多SOL和整个Solana生态代币。",
+      "reason": "传统金融巨头采用Solana发行稳定币，是重要的采用信号，可能带动资金流入Solana生态。属于项目更新，影响较大。",
+      "ca
+2026-05-05 04:02:37 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-05 04:02:37 [INFO] ✅ AI 返回 2 条新闻
+2026-05-05 04:02:37 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-05-05 04:02:37 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（29 条，8773 字符，temp=0.3）
+2026-05-05 04:02:56 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 55 字符)
+2026-05-05 04:02:56 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-12-ai-raw.json
+2026-05-05 04:02:56 [DEBUG] parse_json_response 输入长度: 55 字符
+2026-05-05 04:02:56 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取全部为重复或无关消息，无新增有效交易信号。"
+}
+2026-05-05 04:02:56 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-05 04:02:56 [INFO] ✅ AI 返回 0 条新闻
+2026-05-05 04:02:56 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 返回空数组，将重试
+2026-05-05 04:02:56 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（29 条，6299 字符，temp=0.3）
+2026-05-05 04:03:45 [INFO] AI 原始返回已保存: logs/2026-05-05-ai-response.txt (finish_reason=stop, 3976 字符)
+2026-05-05 04:03:45 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-05-12-ai-raw.json
+2026-05-05 04:03:45 [DEBUG] parse_json_response 输入长度: 3976 字符
+2026-05-05 04:03:45 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "BTC测试8万美元关口",
+      "summary": "比特币价格测试80,000美元，但亚洲买盘减弱，香港AI IPO热潮可能分流资金。短期内BTC承压，可能回撤。影响比特币。",
+      "reason": "直接影响行情的价格测试，结合买盘减弱信号，属于短期悲观信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "so
+2026-05-05 04:03:45 [DEBUG] 从 JSON 对象的 news 字段提取到 8 条记录
+2026-05-05 04:03:45 [INFO] ✅ AI 返回 8 条新闻
+2026-05-05 04:03:45 [INFO] ✅ AI 筛选出 8 条交易相关消息，符合预期
+2026-05-05 04:03:45 [INFO] 🔗 来源链接覆盖: 8/8 条新闻有有效链接
+2026-05-05 04:03:45 [INFO] 📦 JSON 已保存: reports/2026-05-05-12.json
+2026-05-05 04:03:45 [INFO] ✅ AI 筛选完成，共 8 条交易相关消息

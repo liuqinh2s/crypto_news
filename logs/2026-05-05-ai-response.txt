@@ -1098,3 +1098,204 @@ content length: 2474
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1863, prompt_tokens=10862, total_tokens=12725, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1775, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9838)
+content length: 161
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的29条素材中，所有潜在有效消息均已出现在历史消息中（如比特币测试8万美元、Clarity法案推动加密股票上涨、西联汇款推出USDPT、WLFI起诉孙宇晨、Binance上MegaETH等），恐惧贪婪指数也与此前11:00数值相同（50），无新交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2030, prompt_tokens=10862, total_tokens=12892, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1744, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10752), prompt_cache_hit_tokens=10752, prompt_cache_miss_tokens=110)
+content length: 712
+============================================================
+{
+  "news": [
+    {
+      "title": "Clarity Act推升加密股",
+      "summary": "受美国CLARITY法案（稳定币监管法案）进展提振，加密相关股票集体上涨，Circle股价飙升近20%。该法案旨在为稳定币提供监管框架，并已获得两党妥协。Circle作为USDC发行商直接受益，市场情绪转向乐观。该消息可能提振整体加密市场风险偏好，利好USDC生态及Solana等合作链。短期看多加密市场，但需注意法案尚未最终通过。",
+      "reason": "监管法案进展直接影响市场预期，Circle股价大涨显示资金看好合规稳定币前景，属于中期利好信号。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399973/crypto-stocks-rally-circle-jumps?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为重复性或低价值消息，仅筛选出1条有交易参考价值的新信息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=820, prompt_tokens=10862, total_tokens=11682, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=770, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10752), prompt_cache_hit_tokens=10752, prompt_cache_miss_tokens=110)
+content length: 95
+============================================================
+{"news": [], "note": "本轮抓取素材与历史消息高度重复，无新增有价值消息。所有Binance公告、市场行情报道、监管动态等已在过去6小时内报道过。建议关注后续新进展。"}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2424, prompt_tokens=11652, total_tokens=14076, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1949, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10628)
+content length: 1291
+============================================================
+{
+  "news": [
+    {
+      "title": "Western Union推出Solana稳定币",
+      "summary": "全球汇款巨头Western Union开始在Solana上推出其USDPT稳定币，标志着传统金融巨头正式进入加密货币稳定币领域。这一举措可能大幅增加Solana链上稳定币流动性和采用率，对SOL和USDPT生态形成利好。看多SOL和整个Solana生态代币。",
+      "reason": "传统金融巨头采用Solana发行稳定币，是重要的采用信号，可能带动资金流入Solana生态。属于项目更新，影响较大。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDPT"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/western-union-officially-launches-usdpt-stablecoin-on-solana"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "WLFI起诉孙宇晨诽谤",
+      "summary": "Eric Trump的World Liberty Financial（WLF）项目对Tron创始人Justin Sun提起诽谤诉讼，指控其损害WLFI声誉。该法律纠纷可能对TRX价格造成轻微负面影响，同时增加WLFI项目的不确定性。但鉴于事件规模小，影响有限。看空TRX，但评级较低。",
+      "reason": "涉及知名人物和法律纠纷，可能影响市场情绪，但属于个别事件，影响范围有限。",
+      "category": "项目更新",
+      "impact_coins": ["TRX", "WLFI"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t43map/eric_trumps_wlfi_files_defamation_case_against/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "筛选过程中发现大多数消息与历史重复或无关。仅两条新消息符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1351, prompt_tokens=11652, total_tokens=13003, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1321, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11648), prompt_cache_hit_tokens=11648, prompt_cache_miss_tokens=4)
+content length: 55
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取全部为重复或无关消息，无新增有效交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3374, prompt_tokens=4070, total_tokens=7444, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1775, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=3046)
+content length: 3976
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC测试8万美元关口",
+      "summary": "比特币价格测试80,000美元，但亚洲买盘减弱，香港AI IPO热潮可能分流资金。短期内BTC承压，可能回撤。影响比特币。",
+      "reason": "直接影响行情的价格测试，结合买盘减弱信号，属于短期悲观信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-tests-usd80-000-as-asia-s-bid-fades-and-hong-kong-ai-ipos-surge"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Clarity Act推动加密股票大涨",
+      "summary": "美国《清晰法案》获得进展，加密相关股票（Coinbase、Circle等）集体上涨，Circle涨近20%。法案提供监管框架，利好加密市场整体，尤其利好合规平台。",
+      "reason": "监管政策重大利好，直接推动股价，间接提升市场信心，影响BTC、ETH等主流币。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/399973/crypto-stocks-rally-circle-jumps"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "西联汇款在Solana推出稳定币",
+      "summary": "Western Union在Solana上推出USDPT稳定币，用于跨境支付。这是传统金融巨头采用公链的标志，长期利好Solana生态及稳定币应用。",
+      "reason": "传统金融机构采用区块链，项目更新利好Solana和稳定币概念，中期利好。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDPT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/western-union-officially-launches-usdpt-stablecoin-on-solana"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上架MegaETH（MEGA）并开放现货、杠杆、合约等交易。对MEGA代币是重大利好，预计价格短期上涨。",
+      "reason": "交易所上币直接利好对应币种，属于高优先级事件。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线Chip (CHIP)",
+      "summary": "Binance将在现货市场上线Chip（CHIP）并开启HODLer空投、理财等。CHIP为AI概念代币，上市初期波动大，偏正面。",
+      "reason": "交易所上币直接利好，AI赛道活跃，短期交易机会。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "稳定币新规推动加密股票飙升",
+      "summary": "美国稳定币监管草案利好，Coinbase、Circle等股价大涨18%，市场预期稳定币合规化将吸引更多资金，利好USDC及整体流动性。",
+      "reason": "监管政策利好，稳定币增发预期推动资金流入，属于宏观经济层面利好。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Fast Company via Google News", "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRTdsdXhCTHNIc3E4UXZmd3B4MGtzN3p4cF9KeFZFdVBUSGIyRGdaQ285MDFua0l6SS05S1FJWjRVYnhlT0s0U2FKZ2t3aWJtenB6TFphU0xKMDRJcGtYb0V2TkZTZ1doS2RiWDFqcjdxbzZlMnVVc3Q2a3E0VjJmcjlJM2YxZFJzZmtNN0w2RUJNOHl6UDFCWjl2NEVrZVlpTTc5Q1lLUTFFdndBR1hPc3g4OVY2ZHd0QzBJ?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance推出AMD等美股合约",
+      "summary": "Binance期货将上线AMD、高通、美国航空的USDT永续合约，允许用户交易股票代币。扩展产品线，增加市场多样性。",
+      "reason": "交易所推出新产品，增加交易品种，间接利好Binance生态，但短期影响有限。",
+      "category": "交易所",
+      "impact_coins": ["AMD", "QCOM", "USAR"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上架USDS稳定币",
+      "summary": "Binance将增加USDS（Sky协议稳定币）用于理财、借贷、杠杆等，丰富稳定币选择，但USDS市值较小。",
+      "reason": "交易所新增稳定币，促进流动性，但影响有限。",
+      "category": "交易所",
+      "impact_coins": ["USDS"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/0a9581bcaef24410a1dace51722112c8"}],
+      "urgency": "days"
+    }
+  ]
+}
