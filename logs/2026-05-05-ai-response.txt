@@ -2016,3 +2016,118 @@ content length: 3086
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2595, prompt_tokens=12725, total_tokens=15320, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=744, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11701)
+content length: 4431
+============================================================
+{
+  "news": [
+    {
+      "title": "Bullish收购Equiniti 42亿",
+      "summary": "加密平台Bullish宣布以42.5亿美元收购Equiniti，打造代币化证券基础设施。这是机构入场重大信号，直接利好RWA赛道，可能带动相关代币如ONDO、POLY等上涨。从多空角度，看多信号强烈。影响币种：RWA相关代币。",
+      "reason": "机构巨额收购，属于优先级一机构动向，对行业结构有深远影响。",
+      "category": "ETF机构",
+      "impact_coins": ["ONDO", "POLY"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/05/crypto-platform-bullish-to-buy-equiniti-for-usd4-25-billion-building-tokenized-securities-infrastructure"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC ETF净流入5.32亿美元",
+      "summary": "美国现货比特币ETF连续第三天净流入5.32亿美元，由贝莱德和富达主导。此前已有类似消息但今日数据为最新，显示机构持续买入，推高BTC价格突破8万美元。看多信号，比特币和以太坊均受益。",
+      "reason": "ETF资金流入是优先级一，直接推动BTC价格。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/399990/us-spot-bitcoin-etfs-draw-532-million-as-inflows-extend-to-a-third-day-led-by-blackrock-and-fidelity"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸抛售55万HYPE",
+      "summary": "巨鲸Loracle.hl抛售556,729枚HYPE，价值约2290万美元。HYPE是HyperLiquid生态代币，大额抛售将产生价格压力，短期看空。影响币种：HYPE。",
+      "reason": "巨鲸异动，优先级一，直接抛压信号。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511320.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸存入USDC做空ETH",
+      "summary": "某巨鲸向HyperLiquid存入311.7万USDC挂单做空ETH，显示专业资金对ETH短期看空。该信号为bearish，但需留意极端行情下爆仓风险。影响币种：ETH。",
+      "reason": "链上异动，大额做空行为，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511314.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "波兰将再提交加密法案",
+      "summary": "波兰总理图斯克表示政府将再次提交加密资产法案，可能推动合规框架落地。欧洲监管逐步明朗，对市场情绪偏多，尤其利好ETH、SOL等主流币。",
+      "reason": "监管政策动态，优先级一，合规方向利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511318.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitmine ETH持币达518万枚",
+      "summary": "Bitmine Immersion Technologies宣布其ETH持有量增至518万枚（约131亿美元），显示机构持续增持ETH，看多信号。影响币种：ETH。",
+      "reason": "机构动向，优先级二，ETH持仓增加利好。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "富途牛牛", "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUG1vNXlsdUVRb3VqNkNyWHVBNHc5bXRtUk5PdHNSdWtWSVdXamhXZnZETmRMUWVpSWxHRHB1YzlzSGFuRkVyNXJGTEhLTVRqY0JsUnpIdGlva1lvc1ByeUVWclFWYjR3TnFSYkp5Z0FYZXRaTE9JLVVRaFZrNE8weEFQckM4ZHRFbnB6cWhLZW9kdXg2NGRRT1RKcGhIRjh6MTZfTzRTX2FoNlNQ"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase澳支持退休金投加密",
+      "summary": "Coinbase澳大利亚推出针对自管理退休基金的加密支持，使更多散户机构资金可进入加密市场。长期利好，看多BTC、ETH。",
+      "reason": "机构入场渠道扩展，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/399990/us-spot-bitcoin-etfs-draw-532-million-as-inflows-extend-to-a-third-day-led-by-blackrock-and-fidelity?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗美国冲突升级令市场紧张",
+      "summary": "CNBC报道美伊新一轮袭击破坏和平希望，油价上涨可能抑制美联储降息预期，对风险资产包括加密不利。短期看空，影响BTC、ETH。",
+      "reason": "地缘政治风险，宏观经济影响，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CNBC", "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTjVDbzF5Vkg5TzB1Y3ljM3d3emNUaHptbjF5U2ZqZGxpWnZ3S0hPaXUzT1pVOVJib0VNSGFrT1NkWC1iUFAzNXI4Rnh0UjZyc21sU3Z4MkRxZHdNeHFzaHhuaTFFemUyeS10ckdRaEJWTkRNa3ZFcWVFU2pLZERhVEM5ONIBiAFBVV95cUxQYnMtNXJHa0h2VlRRWWswNUMyM1FJYW9vbEJRWWFfVGc3SDdNQ2p2clRaYWFKYnNDLTJDVVkxNEdpOHZNZTl0dHk0aGZtcU5qdTZ6bXpKLVl5b2FJYWJEMlZOaHF4SzRhNVE0Qy0zSkJ3Z0dWalpTRnkxU0JjTG1YbkNpek9XX0NZ?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
