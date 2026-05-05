@@ -511,3 +511,126 @@ content length: 3183
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3176, prompt_tokens=15341, total_tokens=18517, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1588, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=14317)
+content length: 4240
+============================================================
+{
+  "news": [
+    {
+      "title": "CME将推出比特币波动率期货",
+      "summary": "芝商所(CME)宣布将推出现金结算的比特币波动率期货，为投资者提供新的对冲工具。该产品基于比特币波动率指数，允许交易者对冲BTC价格波动风险。此举可能吸引更多机构参与比特币衍生品市场，增加流动性。对BTC影响中性偏多，因为提供了更完善的风险管理工具。",
+      "reason": "CME推出新衍生品是市场结构重大事件，可能影响BTC价格波动率和机构参与度，符合优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400121/cme-group-to-launch-cash-settled-bitcoin-volatility-futures"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Solana与Google Cloud推出AI Agent支付",
+      "summary": "Solana基金会与Google Cloud合作推出基于稳定币的付费服务，专为AI代理设计。该服务允许AI代理自动进行链上支付，采用按需付费模式。这标志着Solana在AI与区块链融合领域迈出重要一步，可能推动SOL需求增长。对SOL和Solana生态代币看多。",
+      "reason": "大型科技公司与Layer1合作落地应用，直接利好SOL生态，符合优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/366876/solana-google-cloud-launch-stablecoin-payments-service-ai-agents"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "田纳西银行协会选择Stablecore",
+      "summary": "田纳西银行协会(TBA)指定Stablecore为首选数字资产提供商，为会员银行提供合规的数字资产托管和交易服务。这是传统银行体系向加密资产开放的又一信号，可能推动行业合规化进程。利好整体市场情绪，尤其是合规相关代币如USDC和机构押注的Layer1。",
+      "reason": "传统金融协会采纳加密服务是监管利好，增强市场信心，符合优先级一（监管动态）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/tennessee-bankers-association-stablecore-digital-asset-provider"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Kelp指责LayerZero批准桥接漏洞",
+      "summary": "Kelp协议声称LayerZero批准了导致2.92亿美元桥接攻击的设置，双方就安全责任产生分歧。此事件可能引发对LayerZero安全性的质疑，导致其代币ZRO抛售压力，同时Kelp相关资产也可能受影响。短期看空LayerZero生态。",
+      "reason": "重大安全事件责任争议，直接影响项目代币价格，符合优先级一（项目方重大事件）。",
+      "category": "项目更新",
+      "impact_coins": ["ZRO", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/web3/2026/05/05/kelp-claims-that-layerzero-approved-the-setup-it-blamed-for-usd292-million-bridge-hack"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国占全球加密交易三分之一",
+      "summary": "数据显示韩国加密货币交易量占全球约三分之一，凸显亚洲市场的主导地位。高交易量可能意味着散户热情，但也存在监管风险。对市场整体影响中性，但韩国投资者偏好的代币（如Altcoins）可能短期受关注。",
+      "reason": "市场结构数据揭示资金流向，符合优先级二（链上指标异常/市场结构）。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t4qz5n/onethird_of_global_crypto_trading_happens_in/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "AMD Q1业绩超预期，数据中心收入增57%",
+      "summary": "AMD公布第一季度财报，营收超预期，数据中心收入同比增长57%。虽然不直接涉及加密，但芯片股走强可能带动科技股情绪，间接利好加密市场。此外，AMD股价上涨可能推动其相关代币（如AMDUSDT合约）的交易活跃度。",
+      "reason": "宏观经济/科技巨头财报影响风险资产情绪，符合优先级二（宏观经济数据）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94cU9qRmZ5Szh1bnRWMjhMbUtfVXBpak9RTlJmbG52dERGU2pyajQ4VC1pYWZ5TVNoQ0R6UFk0V0U2NzY0SC1lRkdPeTVsdWlEZDNTUElrUXpvZjBsVzNHdXRxRnlvUldCREpmaUhvOHNUZw"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ledger钱包集成Hyperliquid永续合约",
+      "summary": "Ledger与Yield.xyz合作，将Hyperliquid的永续合约交易引入硬件钱包。用户可在冷钱包中直接进行高杠杆交易，提升安全性。这为DeFi衍生品带来更多用户，利好Hyperliquid（HYPE）和Ledger生态。",
+      "reason": "主要硬件钱包集成DeFi协议，提升可用性，符合优先级二（DeFi重大事件）。",
+      "category": "项目更新",
+      "impact_coins": ["HYPE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400110/ledger-hyperliquid-perps-trading-hardware-wallets-yield-xyz"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
