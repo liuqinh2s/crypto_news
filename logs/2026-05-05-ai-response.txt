@@ -787,3 +787,127 @@ content length: 1672
   ],
   "note": "本轮抓取素材中多数消息与历史标题重复，仅筛选出3条有交易价值的新消息。其余内容如Binance公告、World Liberty诉讼等均已在前6小时历史中多次出现，故未选入。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3123, prompt_tokens=12617, total_tokens=15740, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1770, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11593)
+content length: 3582
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗战争或持续两到三周",
+      "summary": "特朗普最新表态称伊朗战争可能还会持续两到三周，地缘政治风险升级。这可能加剧市场避险情绪，短期内对BTC、ETH等风险资产构成压力。但若局势快速缓解，可能出现反弹。影响以负面为主，但冲突持续时间和强度存在不确定性。",
+      "reason": "地缘政治紧张直接影响风险偏好，属于优先级一中的重大事件，市场关注度高。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511277.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国5月12日起处理关税退款",
+      "summary": "美国政府宣布将于5月12日起开始处理关税退款，这有助于缓解贸易紧张局势，改善经济前景。对加密市场而言，宏观经济压力减轻可能带来流动性改善，整体利好风险资产。但影响较为间接，市场反应需观察。",
+      "reason": "宏观政策放松信号，可能提振风险偏好，属于优先级二中的宏观经济数据。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511276.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitmine再度质押19.2万ETH",
+      "summary": "Bitmine再次质押192,816枚ETH（约4.56亿美元），显示其对以太坊的长期信心。此前Bitmine已持有大量ETH，此次加仓进一步减少流通供给，对ETH构成看多信号。但需注意质押解锁可能带来潜在抛压。",
+      "reason": "大额质押减少流通量，是链上异动中的巨鲸行为，直接利好ETH。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511275.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "但斌建仓Circle，看多USDC生态",
+      "summary": "知名投资人但斌表示已建仓Circle（USDC发行商），认为其股价有望提升。此举反映传统资金对合规稳定币的认可，可能带动USDC需求及整体市场情绪。Circle上市或进展利好加密市场，但短期影响有限。",
+      "reason": "名人效应叠加机构动向，属于优先级二中的机构动向，情绪面看多。",
+      "category": "市场情绪",
+      "impact_coins": ["USDC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511273.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket暗示代币即将发行",
+      "summary": "Polymarket官方团队成员暗示POLY代币可能很快发行，预测市场赛道或将迎来新催化。若代币上线交易，将直接利好POLY及同类项目。短期注意炒作风险，但整体看多。",
+      "reason": "项目重大更新，代币发行直接影响价格，属于优先级一中的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["POLY"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511271.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Multicoin钱包大额质押196万HYPE",
+      "summary": "三个与Multicoin关联的钱包质押196万枚HYPE（约8206万美元），显示机构对Hyperliquid生态的长期看好。大额质押减少流通，短期利多HYPE，但需关注解锁风险。",
+      "reason": "链上大额质押，属于巨鲸异动，直接利好对应币种。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511270.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "银行团体批评稳定币法案条款",
+      "summary": "美国银行贸易团体表示，参议院稳定币法案中对存款保险的豁免条款‘不够完善’，可能影响法案推进。这给Clarity Act等监管进展带来不确定性，短期利空稳定币相关资产，但长期若修正可能更健康。",
+      "reason": "监管政策动向，直接影响稳定币市场结构，属于优先级一中的重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "USDT"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399966/bank-trade-groups-stablecoin-reward?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "部分历史重复消息（如Binance公告、恐惧贪婪指数、Bitcoin回升至8万等）已排除，以上7条为今日核心新消息。"
+}
