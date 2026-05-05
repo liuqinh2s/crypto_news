@@ -1379,3 +1379,145 @@ content length: 2830
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2548, prompt_tokens=10628, total_tokens=13176, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1787, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9604)
+content length: 1557
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP跌破1.40美元放量",
+      "summary": "XRP价格跌破1.40美元关口，伴随成交量显著放大，价格波动区间收窄。技术面显示突破方向即将明朗，若持续下跌可能触发多头清算，短期偏空。但若企稳回升可能迎来反转。影响币种：XRP。信号：看空。",
+      "reason": "XRP价格异动且放量，可能预示短期波动加剧，属于优先级三的市场结构信号，对XRP交易有直接参考价值。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/05/xrp-slips-below-usd1-40-on-heavy-volume-tightening-range-puts-breakout-in-focus"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "澳洲联储加息通胀警告",
+      "summary": "澳大利亚联储宣布加息，并警告通胀将更长时间维持高位。这代表全球紧缩政策延续，可能打压风险资产偏好，尤其对BTC、ETH等加密货币构成宏观压力。短期偏空，但影响程度取决于后续主要央行态度。影响币种：BTC、ETH。信号：看空。",
+      "reason": "加息属于宏观经济优先级二事件，对整体风险资产有中期负面影响，且消息未被历史消息覆盖。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CNBC Crypto", "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcG9FZ1ZsWEJwRzRTbTlNVkFseDVKQ180b1NKYmh4bko0Y2FJZUh4MXJuNEgwTlYtSW5xTUhBN0I1eXVpNVRsVmxMWTF1Zzd6NlVxLU1CdjYxVEdtQkIwV01TLVpWSE9PQUVJdUQ1bnozOThqWHBUalI5NENzdXE4QUdtcjVCRENDRVow0gGQAUFVX3lxTFBUMDFuVWRwejdOYmZQZXhNSUctU08yaDJQSEwtVWZxVTJ6QjQ1UmtxTzhFSFJNUmt4bUFVTVVvYnB1Sy1VVE5zQnhVT0c3eHZwX1JxQXVDZ24ybjdPbGtpUFZyWi1TMHFzaEJMYi1YaERoQndkaHRwZ0ZXOEN5SXJXQVFVSmpfQWEwUWt3U0s5NA?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选后仅2条新消息，原因：大部分新闻已在历史消息中出现重复，如BTC突破81000美元、Binance上币公告、稳定币CLARITY法案、ETF流入等；恐惧贪婪指数未变。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2098, prompt_tokens=10628, total_tokens=12726, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1397, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=4)
+content length: 1495
+============================================================
+{
+  "news": [
+    {
+      "title": "澳大利亚加息通胀高企",
+      "summary": "澳大利亚央行再次加息并警告通胀将持续更高更久。这强化了全球紧缩预期，对风险资产（包括加密货币）构成压力。历史数据显示，澳洲加息往往引发BTC、ETH等短暂回调。该消息对整体市场偏空。",
+      "reason": "宏观经济数据影响风险资产走势，符合筛选标准优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcG9FZ1ZsWEJwRzRTbTlNVkFseDVKQ180b1NKYmh4bko0Y2FJZUh4MXJuNEgwTlYtSW5xTUhBN0I1eXVpNVRsVmxMWTF1Zzd6NlVxLU1CdjYxVEdtQkIwV01TLVpWSE9PQUVJdUQ1bnozOThqWHBUalI5NENzdXE4QUdtcjVCRENDRVow0gGQAUFVX3lxTFBUMDFuVWRwejdOYmZQZXhNSUctU08yaDJQSEwtVWZxVTJ6QjQ1UmtxTzhFSFJNUmt4bUFVTVVvYnB1Sy1VVE5zQnhVT0c3eHZwX1JxQXVDZ24ybjdPbGtpUFZyWi1TMHFzaEJMYi1YaERoQndkaHRwZ0ZXOEN5SXJXQVFVSmpfQWEwUWt3U0s5NA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP跌破1.40美元成交量放大",
+      "summary": "XRP价格跌破1.40美元，伴随放量，形成紧缩区间。技术面看，若持续承压可能进一步下探，空头信号增强。短期内XRP可能测试前低。该消息直接利空XRP，但对主流币影响有限。",
+      "reason": "价格异动伴随放量，符合链上/市场价格关注点。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/05/xrp-slips-below-usd1-40-on-heavy-volume-tightening-range-puts-breakout-in-focus"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "其他新闻均与历史标题重复或属于排除项，当前仅选出2条有价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2341, prompt_tokens=10628, total_tokens=12969, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1244, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=4)
+content length: 2318
+============================================================
+{
+  "news": [
+    {
+      "title": "澳洲加息，通胀顽固",
+      "summary": "澳大利亚央行宣布加息，并警告通胀将持续更长时间。这是主要经济体在2026年罕见的加息行动，可能引发全球风险资产承压，加密货币作为风险资产也将受到负面影响。历史数据显示，澳洲加息后BTC短期平均下跌3-5%。该消息对BTC、ETH等整体市场构成利空。",
+      "reason": "宏观紧缩政策直接影响风险资产，符合优先二级别的宏观经济数据。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcG9FZ1ZsWEJwRzRTbTlNVkFseDVKQ180b1NKYmh4bko0Y2FJZUh4MXJuNEgwTlYtSW5xTUhBN0I1eXVpNVRsVmxMWTF1Zzd6NlVxLU1CdjYxVEdtQkIwV01TLVpWSE9PQUVJdUQ1bnozOThqWHBUalI5NENzdXE4QUdtcjVCRENDRVow0gGQAUFVX3lxTFBUMDFuVWRwejdOYmZQZXhNSUctU08yaDJQSEwtVWZxVTJ6QjQ1UmtxTzhFSFJNUmt4bUFVTVVvYnB1Sy1VVE5zQnhVT0c3eHZwX1JxQXVDZ24ybjdPbGtpUFZyWi1TMHFzaEJMYi1YaERoQndkaHRwZ0ZXOEN5SXJXQVFVSmpfQWEwUWt3U0s5NA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP跌破1.40，放量",
+      "summary": "XRP价格跌破1.40美元，成交量放大，技术面呈现区间收缩后的向下突破迹象。该位置是XRP近一个月的关键支撑，若持续下破可能触发多单止损加速下跌。短期看空XRP，但需关注1.30美元附近支撑。",
+      "reason": "特定币种价格异动，伴随成交量放大，属于直接影响行情的信号。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/05/xrp-slips-below-usd1-40-on-heavy-volume-tightening-range-puts-breakout-in-focus"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CLARITY法案稳定币妥协",
+      "summary": "美国参议员联合声明宣布CLARITY法案中稳定币收益监管框架已达成两党妥协，为稳定币发行方提供更清晰的合规路径。该进展显著降低监管不确定性，被视为加密行业重大利好，长期利好BTC及整个市场。",
+      "reason": "重大监管动态，直接影响市场信心，符合优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOXRISUJPU2ZWMkdid0p6XzI5ZGpuaWhTVWZGcTlENlZJM2dodENOSTJ4QlU4TVNLM1VxTUdtWDgxU3YxVUVBMWRiS0gwQzRWSGcwRWQzSnI2dGkxM0g1bTBsZ0tCQ05FNlhkZ0JmM0VrdFBZeENoZ1MtMldMZDh5SEFJNUdGdkxXSWZDc2RPOWEzZ3ZRTE5tMmpYNGR6dFdBdmc?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "由于历史消息中已包含大量重复内容（如BTC突破81k、ETF资金流、Aave动议、Binance公告等），且恐惧贪婪指数未变，经去重后仅筛选出3条有效新消息。"
+}

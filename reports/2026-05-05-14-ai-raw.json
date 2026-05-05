@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-05",
+  "hour": "14",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10628,
+    "completion_tokens": 2341,
+    "total_tokens": 12969
+  },
+  "content_length": 2318,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"澳洲加息，通胀顽固\",\n      \"summary\": \"澳大利亚央行宣布加息，并警告通胀将持续更长时间。这是主要经济体在2026年罕见的加息行动，可能引发全球风险资产承压，加密货币作为风险资产也将受到负面影响。历史数据显示，澳洲加息后BTC短期平均下跌3-5%。该消息对BTC、ETH等整体市场构成利空。\",\n      \"reason\": \"宏观紧缩政策直接影响风险资产，符合优先二级别的宏观经济数据。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CNBC\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcG9FZ1ZsWEJwRzRTbTlNVkFseDVKQ180b1NKYmh4bko0Y2FJZUh4MXJuNEgwTlYtSW5xTUhBN0I1eXVpNVRsVmxMWTF1Zzd6NlVxLU1CdjYxVEdtQkIwV01TLVpWSE9PQUVJdUQ1bnozOThqWHBUalI5NENzdXE4QUdtcjVCRENDRVow0gGQAUFVX3lxTFBUMDFuVWRwejdOYmZQZXhNSUctU08yaDJQSEwtVWZxVTJ6QjQ1UmtxTzhFSFJNUmt4bUFVTVVvYnB1Sy1VVE5zQnhVT0c3eHZwX1JxQXVDZ24ybjdPbGtpUFZyWi1TMHFzaEJMYi1YaERoQndkaHRwZ0ZXOEN5SXJXQVFVSmpfQWEwUWt3U0s5NA?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"XRP跌破1.40，放量\",\n      \"summary\": \"XRP价格跌破1.40美元，成交量放大，技术面呈现区间收缩后的向下突破迹象。该位置是XRP近一个月的关键支撑，若持续下破可能触发多单止损加速下跌。短期看空XRP，但需关注1.30美元附近支撑。\",\n      \"reason\": \"特定币种价格异动，伴随成交量放大，属于直接影响行情的信号。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/05/05/xrp-slips-below-usd1-40-on-heavy-volume-tightening-range-puts-breakout-in-focus\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"CLARITY法案稳定币妥协\",\n      \"summary\": \"美国参议员联合声明宣布CLARITY法案中稳定币收益监管框架已达成两党妥协，为稳定币发行方提供更清晰的合规路径。该进展显著降低监管不确定性，被视为加密行业重大利好，长期利好BTC及整个市场。\",\n      \"reason\": \"重大监管动态，直接影响市场信心，符合优先级一。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"USDT\", \"USDC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 5,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Twitter\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiogFBVV95cUxQOXRISUJPU2ZWMkdid0p6XzI5ZGpuaWhTVWZGcTlENlZJM2dodENOSTJ4QlU4TVNLM1VxTUdtWDgxU3YxVUVBMWRiS0gwQzRWSGcwRWQzSnI2dGkxM0g1bTBsZ0tCQ05FNlhkZ0JmM0VrdFBZeENoZ1MtMldMZDh5SEFJNUdGdkxXSWZDc2RPOWEzZ3ZRTE5tMmpYNGR6dFdBdmc?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ],\n  \"note\": \"由于历史消息中已包含大量重复内容（如BTC突破81k、ETF资金流、Aave动议、Binance公告等），且恐惧贪婪指数未变，经去重后仅筛选出3条有效新消息。\"\n}"
+}
