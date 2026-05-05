@@ -1299,3 +1299,83 @@ content length: 3976
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2681, prompt_tokens=10348, total_tokens=13029, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1552, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9324)
+content length: 2830
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC/ETH ETF净流入5.3亿/6130万",
+      "summary": "昨日美国比特币现货ETF净流入5.32亿美元，以太坊ETF净流入6130万美元，表明机构资金持续流入，市场情绪乐观。利好BTC、ETH，看多信号明确。",
+      "reason": "ETF资金流入是直接影响行情的关键指标，净流入看多BTC/ETH，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511291.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC突破8.2万将触发13亿空单清算",
+      "summary": "据Coinglass数据，若比特币突破8.2万美元，主流CEX累计空单清算强度将达13.28亿美元。当前BTC在8.1万附近，空头密集，突破可能引发轧空行情，推动价格快速上涨。看多BTC。",
+      "reason": "空单清算数据预示潜在轧空，属市场结构信号，影响直接。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511293.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Aptos链上稳定币市值创新高",
+      "summary": "Aptos链上稳定币市值突破19亿美元，创历史新高，表明链上流动性增强，生态活跃度提升。利好APT，中期看多。",
+      "reason": "链上指标异常（TVL/稳定币增长）属中期影响信号，反映生态基本面改善。",
+      "category": "链上异动",
+      "impact_coins": ["APT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511294.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "大户止损5668万美元BTC空头",
+      "summary": "某交易员止损其5668万美元比特币空头仓位，亏损194万美元。空头止损意味着买入平仓，短期增加BTC买压，看多BTC。",
+      "reason": "巨鲸异动（大额空头止损）属优先级一，直接影响价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511297.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，并开放Earn、Convert、VIP Loan、Margin及Futures等服务。新币上币通常短期利好，交易量和价格可能上升。看多MEGA。",
+      "reason": "交易所上币公告属优先级一，直接影响对应币种。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"},
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线AMD、QCOM等永续合约",
+      "summary": "Binance Futures将于2026-05-06上线AMDUSDT、QCOMUSDT和USARUSDT永续合约。增加交易对，吸引更多参与者，短期可能提振相关标的情绪。看多AMD、QCOM、USAR。",
+      "reason": "交易所上合约属优先级一，但影响标的为股票型代币，影响中等。",
+      "category": "交易所",
+      "impact_coins": ["AMD", "QCOM", "USAR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01"}],
+      "urgency": "hours"
+    }
+  ]
+}
