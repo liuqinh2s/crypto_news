@@ -689,3 +689,101 @@ content length: 2815
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2052, prompt_tokens=12155, total_tokens=14207, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1369, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11131)
+content length: 1445
+============================================================
+{
+  "news": [
+    {
+      "title": "加拿大推出首个监管数字美元",
+      "summary": "加拿大推出了首个受监管的数字美元，旨在与美国的稳定币竞争。该数字美元由加拿大央行和私营部门合作发行，将用于国内支付和跨境结算。这可能对USDT和USDC构成竞争，但短期内影响有限。信号中性偏空，因为可能分流部分稳定币需求。主要影响稳定币市场，间接影响BTC和ETH。",
+      "reason": "监管政策类消息，影响稳定币市场格局，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVzFMMDlkMFhEUkRXNnMxTVJMMlpQeURZZFRNQTVsRW83RmotZmw5VDRKTXJVODBuaXpZOXhINTRRS3JhS0NqeFlVZFFzUDBnaXRZaFJza1lzLUl0RVFfVGg1czJGQS1qSHcyRUcyRlB5Y1ZsS1BCdkRlZFZfUHNjQWRyZVJWbkJEdmtzYlNFZnRycUc0VWlENkhWX3VjMVNzdENPRXZubEpLbGNENE1ERk9QdndqeHlFcUJMdF9DRGU1V0g5cGV1V2tSM245RVg4blBpVWlJbjlkS1E5cWZGVDVKLU5UUlE?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数升至50中性",
+      "summary": "加密货币恐惧贪婪指数从40（恐惧）升至50（中性），表明市场情绪有所改善，但尚未进入贪婪区域。通常，中性区域意味着市场处于平衡状态，短期内可能继续震荡。历史数据显示，从恐惧回升至中性往往伴随短期反弹，但需结合其他指标确认趋势。信号中性偏多，但影响有限。主要影响比特币和以太坊。",
+      "reason": "市场情绪指标变化，属于优先级三，但数值变化幅度较小。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前市场主要关注比特币突破8万美元、地缘政治紧张局势以及ETF需求，但这些消息已在历史标题中多次出现，故未重复纳入。本筛选仅包含本轮抓取中的新消息，仅有两条符合交易价值标准。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2519, prompt_tokens=12155, total_tokens=14674, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1860, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12032), prompt_cache_hit_tokens=12032, prompt_cache_miss_tokens=123)
+content length: 1672
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普威胁伊朗开火",
+      "summary": "特朗普最新表态称，如果伊朗在波斯湾或霍尔木兹海峡附近向美国船只开火，将被“从地球表面抹去”。这进一步加剧了中东地缘政治紧张，市场避险情绪升温。比特币等风险资产可能承压，但短期也可能因避险资金流入而波动。总体看空短期风险偏好，但对BTC中期影响中性。",
+      "reason": "直接影响风险资产，优先级一的地缘政治风险，历史消息中有类似但具体威胁升级，属于新信息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511265.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "威廉姆斯预期长期利率3%",
+      "summary": "美联储威廉姆斯发表讲话，表示长期来看联邦基金利率可能在3%左右。这暗示利率将维持高位，目前市场预期6月不加息概率95.2%。高利率环境对加密货币等风险资产不利，因为资金成本上升。观点偏鹰派，短期利空BTC和ETH。",
+      "reason": "美联储官员讲话影响宏观预期，属于宏观经济数据，历史消息中未出现此具体数值，是新信息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511262.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数回升至50",
+      "summary": "恐惧贪婪指数从40（恐惧）上升至50（中性），表明市场情绪有所改善，但尚未进入贪婪区间。这反映了比特币突破8万美元后的乐观情绪，但指数仍处于中性区域，不构成极端信号。短期看市场情绪中性偏积极，但需警惕过热。",
+      "reason": "市场情绪指标更新，历史数值40已变化，属于新数据。优先级三，但数值变化不大。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数消息与历史标题重复，仅筛选出3条有交易价值的新消息。其余内容如Binance公告、World Liberty诉讼等均已在前6小时历史中多次出现，故未选入。"
+}

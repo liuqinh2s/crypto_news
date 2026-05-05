@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-05",
+  "hour": "08",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12155,
+    "completion_tokens": 2519,
+    "total_tokens": 14674
+  },
+  "content_length": 1672,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"特朗普威胁伊朗开火\",\n      \"summary\": \"特朗普最新表态称，如果伊朗在波斯湾或霍尔木兹海峡附近向美国船只开火，将被“从地球表面抹去”。这进一步加剧了中东地缘政治紧张，市场避险情绪升温。比特币等风险资产可能承压，但短期也可能因避险资金流入而波动。总体看空短期风险偏好，但对BTC中期影响中性。\",\n      \"reason\": \"直接影响风险资产，优先级一的地缘政治风险，历史消息中有类似但具体威胁升级，属于新信息。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511265.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"威廉姆斯预期长期利率3%\",\n      \"summary\": \"美联储威廉姆斯发表讲话，表示长期来看联邦基金利率可能在3%左右。这暗示利率将维持高位，目前市场预期6月不加息概率95.2%。高利率环境对加密货币等风险资产不利，因为资金成本上升。观点偏鹰派，短期利空BTC和ETH。\",\n      \"reason\": \"美联储官员讲话影响宏观预期，属于宏观经济数据，历史消息中未出现此具体数值，是新信息。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511262.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数回升至50\",\n      \"summary\": \"恐惧贪婪指数从40（恐惧）上升至50（中性），表明市场情绪有所改善，但尚未进入贪婪区间。这反映了比特币突破8万美元后的乐观情绪，但指数仍处于中性区域，不构成极端信号。短期看市场情绪中性偏积极，但需警惕过热。\",\n      \"reason\": \"市场情绪指标更新，历史数值40已变化，属于新数据。优先级三，但数值变化不大。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮抓取素材中多数消息与历史标题重复，仅筛选出3条有交易价值的新消息。其余内容如Binance公告、World Liberty诉讼等均已在前6小时历史中多次出现，故未选入。\"\n}"
+}
