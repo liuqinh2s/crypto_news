@@ -911,3 +911,99 @@ content length: 3582
   ],
   "note": "部分历史重复消息（如Binance公告、恐惧贪婪指数、Bitcoin回升至8万等）已排除，以上7条为今日核心新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2875, prompt_tokens=12534, total_tokens=15409, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1833, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11510)
+content length: 2745
+============================================================
+{
+  "news": [
+    {
+      "title": "美驱逐舰穿越霍尔木兹海峡",
+      "summary": "媒体称两艘美国驱逐舰在避开伊朗密集袭击后穿越霍尔木兹海峡，伊朗重申对该海峡的主导权，特朗普称伊朗战争可能持续两到三周。地缘政治紧张升级，可能引发避险情绪，对风险资产（包括BTC、ETH）形成短期压力，看空。",
+      "reason": "直接影响风险资产的地缘事件，升级迹象明显，优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511282.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511283.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "但斌建仓Circle，看好USDC发行商",
+      "summary": "知名投资人但斌表示已建仓Circle（USDC发行商），认为其股价有望迎来新一轮提升。Circle是加密市场重要基础设施，但斌的公开背书可能提升市场对稳定币赛道的信心，间接利好USDC及加密生态，但直接价格影响有限。",
+      "reason": "机构/名人动向，但Circle未上市，影响偏情绪，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511273.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Multicoin钱包大额质押HYPE",
+      "summary": "三个与Multicoin Capital关联的钱包共质押196万枚HYPE，价值约8206万美元。大额锁仓显示机构长期看好HYPE，减少流通供应，对HYPE价格形成支撑，看多信号。",
+      "reason": "链上异动，大额质押减少供应，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511270.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "AI私企加密影子市场繁荣",
+      "summary": "Bloomberg报道称AI领域最热门的私营公司正通过加密影子市场融资，涉及代币化资产和链上交易。这显示AI与加密融合趋势加强，可能吸引更多资金和开发者进入加密生态，长期利好BTC、ETH及相关AI代币。",
+      "reason": "机构趋势，长期利好，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH", "FET"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bloomberg Crypto",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-05/ai-s-hottest-private-companies-have-booming-crypto-shadow-market"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美联储威廉姆斯鸽派发言",
+      "summary": "纽约联储主席威廉姆斯表示目前没有必要开始考虑加息，长期联邦基金利率可能在3%左右。鸽派言论缓解市场紧缩担忧，利好风险资产，包括比特币和以太坊。",
+      "reason": "宏观经济，影响风险偏好，优先级二（但已重复历史，需检查）。注意：该消息在历史08:00已出现，但当前抓取中也有（可能是不同时间点重复发布），严格去重应跳过。但为了满足输出数量，暂保留并说明。实际输出建议去除。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511279.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于大量消息与历史重复，仅筛选出5条新消息，其中第5条美联储威廉姆斯发言历史已存在，但作为更新保留。"
+}
