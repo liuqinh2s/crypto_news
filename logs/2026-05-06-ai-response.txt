@@ -1,0 +1,102 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3085, prompt_tokens=16358, total_tokens=19443, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1525, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15334)
+content length: 3881
+============================================================
+{
+  "news": [
+    {
+      "title": "Jito Labs推Solana自托管工具",
+      "summary": "Jito Labs推出了新的自托管交易工具JTX，旨在为Solana用户提供更安全的交易体验。随着Solana链上活动升温，该工具可能吸引更多用户和流动性。对SOL为看多信号，但影响有限。",
+      "reason": "优先级二：技术升级，Solana生态活跃度提升。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/05/05/jito-labs-launches-jtx-as-self-custody-trading-heats-up-on-solana"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Securitize联合Jump,Jupiter推链上股票",
+      "summary": "Securitize联合Jump和Jupiter在Solana上推出完全链上、受监管的股票交易。这是RWA代币化的重要进展，可能推动SOL需求。看多SOL和RWA相关代币。",
+      "reason": "优先级二：机构动态，RWA代币化进展，中期影响。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "RWA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/400051/securitize-taps-jump-and-jupiter-as-it-rolls-out-fully-onchain-regulated-onchain-stocks"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Wormhole将TAO代币跨链至Solana",
+      "summary": "Wormhole将Bittensor的TAO代币的“规范”版本桥接到Solana。这有助于TAO的流动性提升和Solana生态扩展。对TAO和SOL均为看多信号。",
+      "reason": "优先级二：技术升级，跨链整合，可能带来资金流入。",
+      "category": "项目更新",
+      "impact_coins": ["TAO", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/400038/wormhole-bridges-canonical-version-of-bittensors-tao-token-to-solana"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Sequans出售1025枚BTC用于偿债",
+      "summary": "加密货币矿企Sequans出售了1025枚比特币（约合8200万美元），用于债务赎回和回购，同时收入下降24.8%。此举显示资金压力，可能对BTC产生轻微抛压，但规模较小。",
+      "reason": "优先级一：巨鲸/公司异动，卖出BTC，利空信号。但数量有限，影响不大。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/400035/sequans-sells-1025-bitcoin-to-fund-debt-redemption-and-buybacks-as-revenue-drops-24-8"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MoonPay以1亿美元收购Solana基础设施",
+      "summary": "MoonPay通过全股票交易以1亿美元收购Solana交易基础设施平台，强化其在Solana生态中的布局。对SOL为看多信号，体现机构信心。",
+      "reason": "优先级二：机构动向，收购整合，利好SOL生态。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Crypto Twitter/Fortune", "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41V2tmZUp0eU1LMW5TVV8xaGNUYUpyVk1IM05tdDI3YXhJS0VmY3c0LWFEbENmV1B1Y0puMjNyWlJlTU5YWFhvLU01WFdqcHZWdy1MUlZzalBBZlpVNHZ5eXgzYnp3WDVCT3dwTzhmWk9HWlotdWt3a193"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid财库持有约9% HYPE",
+      "summary": "Hyperliquid财库公司已持有约9%的HYPE流通量，表明供应集中度上升。这可能限制抛压，但也暗示潜在砸盘风险。短中期影响中性，但需关注解锁计划。",
+      "reason": "优先级一：链上异动，大量代币集中于单一地址，可能影响供需。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "吴说区块链", "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZDVGWGZIaGhyUzBnclJoOE52OWtNQWV3SXJUM2ptNThGWEZSR0VYbzJpVGVFTmlxWVFZb1JTUjgwY0V3czc5TncxSEQ2WVNGV0l1SGVrMTFUc1FBVVRETTVvWXNXTEhvWHhqaDhvZ1dFNXRkMlUyRTdNa3lfeFIwTjNvWENGbGl0MXAzdGpmTS0?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BitMEX推出24/7外汇永续合约",
+      "summary": "BitMEX为加密货币交易者开放24/7外汇永续合约交易，可能吸引传统外汇交易者进入加密领域。对加密市场整体影响微弱，但增加了交易品种。",
+      "reason": "优先级三：市场结构变化，但影响有限。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t4glvq/bitmex_opens_247_fx_perpetual_trading_for_crypto/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
