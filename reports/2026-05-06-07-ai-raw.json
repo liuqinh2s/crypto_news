@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-06",
+  "hour": "07",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 15378,
+    "completion_tokens": 2843,
+    "total_tokens": 18221
+  },
+  "content_length": 1817,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC短时清算推高至8万上方\",\n      \"summary\": \"比特币短时清算激增，空头平仓推动BTC突破8万美元至多个月新高。24小时内空头清算金额约7.9亿美元，市场情绪回暖。若突破8.2万美元阻力，可能挑战9万美元。但需警惕短期回调。影响币种：BTC。看多信号。\",\n      \"reason\": \"比特币短时清算量激增是直接影响行情的事件，属于优先级一的‘市场结构’（清算数据），且未在历史消息中重复出现。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/markets/bitcoin-eyes-clear-path-to-90k-as-79b-shorts-unwind-since-february\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Ripple：市场结构法案未定\",\n      \"summary\": \"Ripple CEO Brad Garlinghouse表示，尽管稳定币方面有妥协，但美国全面的市场结构法案尚未确定，未来两周是关键窗口。这增加了监管不确定性，若法案通过将利好整个加密货币行业，尤其是XRP。但目前仍存在变数，短期偏中性。影响币种：XRP、整体市场。\",\n      \"reason\": \"重大监管动态属于优先级一，此消息为Ripple CEO的最新表态，历史中虽有Ripple相关消息但未提及此具体内容，属于新进展。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/news/ripple-ceo-market-structure-progress-stablecoin-compromise\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Consensys CEO：世界将代币化\",\n      \"summary\": \"Consensys创始人Joseph Lubin在Consensus Miami表示，未来整个世界经济都将被代币化。这一观点强化了长期代币化叙事，但短期无直接交易影响。可能提振市场情绪，尤其利好与代币化相关的项目如Centrifuge、Figure等。影响币种：ETH、相关代币化概念。\",\n      \"reason\": \"属于优先级二的技术升级/里程碑相关观点，但更偏向情绪面，未在历史消息中出现。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"CoinDesk\", \"url\": \"https://www.coindesk.com/business/2026/05/05/the-world-s-entire-economy-will-be-tokenized-says-consensys-joseph-lubin\"}\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"经过严格去重筛选，本轮仅有3条未在历史消息中重复且具有交易价值的新消息。其余素材均为重复内容或低价值信息，因此输出少于5条。\"\n}"
+}
