@@ -2348,3 +2348,94 @@ content length: 4482
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2278, prompt_tokens=16671, total_tokens=18949, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1108, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15647)
+content length: 3072
+============================================================
+{
+  "news": [
+    {
+      "title": "State Street Galaxy推代币化基金",
+      "summary": "State Street与Galaxy合作推出代币化现金管理基金，将传统金融资产上链。该基金旨在提升机构资金结算效率，标志传统金融巨头进一步拥抱加密货币。影响BTC、ETH及整体市场情绪，看多信号。",
+      "reason": "机构采用是中期利好，State Street作为全球托管银行，其代币化产品将吸引更多传统资金入场。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/05/state-street-and-galaxy-launch-tokenized-fund-to-bring-cash-management-onchain"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "K Wave Media放弃BTC储备转向AI",
+      "summary": "纳斯达克上市公司K Wave Media宣布放弃大规模比特币储备计划，将4.85亿美元资金转向人工智能领域。此举直接减少潜在BTC购买力，对比特币形成短线利空信号。但该公司此前仅为计划阶段，实际影响有限。",
+      "reason": "上市公司放弃BTC储备计划，减少未来买盘，属于基本面利空，但金额不大。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/05/nasdaq-firm-scraps-massive-bitcoin-treasury-plan-to-redirect-usd485-million-to-ai"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Jump与Securitize合作链上股票交易",
+      "summary": "Jump Trading与Securitize宣布合作推进链上股票交易，利用区块链技术实现传统证券的代币化。此举将进一步打通传统金融与DeFi的桥梁，利好代币化概念和板块，长期看多。",
+      "reason": "机构合作推动现实资产上链，提升加密生态价值，属中期利好。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AVAX"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "吴说区块链",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSjl2VmwxYkRaRlJ0dUFZOW1oNEc3blE5U3E0X1NZWEw3ZzNSX0kyNGptUW5VVWhDQVVjOVJxek9rZkk3SlNaam5XajlEQU0xc3UxVThxZVk2ZXpMSS0wU2cybmtkMGkzdERMbDFnSnJ3ZjAtc3J5dzZnRXZYbU84NXhCWl9uYVJNSjlv?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "ARB因治理委员会选举跳涨",
+      "summary": "ArbitrumDAO选出新安全委员会成员后，ARB短时上涨。治理更新增强协议安全性，短期利好ARB，但属于项目内部事件，影响有限。",
+      "reason": "项目治理更新通常对币价有短期提振，但持续性弱。",
+      "category": "项目更新",
+      "impact_coins": ["ARB"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t4fj8k/arb_jumps_as_arbitrumdao_picks_new_security/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "荷兰用户仍可访问预测市场",
+      "summary": "尽管Polymarket被荷兰监管禁止，但Kalshi和Hyperliquid仍向荷兰用户提供预测市场服务，规避禁令。显示监管执行存在漏洞，对预测市场相关代币（如KALSHI未发币，但影响Hyperliquid代币HYPE）形成中性偏多信号。",
+      "reason": "监管限制未完全生效，市场情绪略偏乐观，但影响范围小。",
+      "category": "监管政策",
+      "impact_coins": ["HYPE"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-hyperliquid-offer-prediction-markets-to-dutch-users-despite-polymarket-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
