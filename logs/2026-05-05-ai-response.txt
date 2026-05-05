@@ -2131,3 +2131,121 @@ content length: 4431
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3912, prompt_tokens=15990, total_tokens=19902, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2093, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=14966)
+content length: 4633
+============================================================
+{
+  "news": [
+    {
+      "title": "a16z筹集22亿美元新基金",
+      "summary": "a16z Crypto宣布为其第五只基金筹集22亿美元，并表示加密基本面处于“历史最高点”。这显示顶级风投对加密行业的长期信心，资金将投向基础设施和应用层。可能推动BTC、ETH及整个市场情绪向好。看多信号。",
+      "reason": "大型风投基金入场，表明机构长期看好加密市场，属于优先级二级的机构动向，影响广泛。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/05/andreessen-horowitz-raises-usd2-2-billion-in-a-new-fund-saying-crypto-fundamentals-are-at-an-all-time-high"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "渣打银行投资GSR估值10亿",
+      "summary": "渣打银行以10亿美元估值收购加密货币做市商GSR的股份，进一步扩大加密业务。这是传统金融机构深度参与加密市场的又一例证，增强市场流动性和机构信任。利多BTC、ETH及相关代币。看多。",
+      "reason": "传统银行巨头入股加密做市商，属于优先级二级的机构动向，提升市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/05/standard-chartered-expands-further-into-crypto-with-stake-in-gsr-at-usd1-billion-valuation"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase裁员14%转向AI",
+      "summary": "Coinbase宣布裁员约700人（14%），理由是市场波动和AI时代重组。虽然裁员短期可能被看作利空，但公司强调聚焦AI和效率提升，长期可能改善盈利能力。短期情绪偏空，但影响有限。中性。",
+      "reason": "头部交易所裁员影响市场情绪，但属于公司战略调整，不直接改变基本面，评中性。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/05/coinbase-cuts-14-of-staff-as-ai-reshapes-how-crypto-companies-operate"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-05/coinbase-to-cut-14-of-workforce-citing-volatile-markets-ai"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "银行纷纷放弃降息预测",
+      "summary": "多家银行因通胀顽固和地缘风险放弃2026年降息预期，但比特币并未受影响，反而突破8万美元。这表明BTC短期与宏观脱钩，但若利率持续高位，中期可能压制风险资产。短期看多，中期偏空。",
+      "reason": "宏观经济数据影响风险资产，但比特币走势显示独立行情，属于优先级二，需关注后续美联储动态。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/daybook-us/2026/05/05/one-bank-after-another-scraps-fed-rate-cut-forecasts-bitcoin-doesn-t-care"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Wasabi黑客转币Tornado",
+      "summary": "Wasabi协议攻击者已将全部被盗资金转入Tornado Cash混币器，约数百万美元。这显示黑客正在清洗赃物，对Wasabi协议和隐私代币构成负面消息，但市场影响范围有限。利空WASABI相关资产。",
+      "reason": "安全问题属于优先级一的项目重大事件，但Wasabi规模较小，影响有限。",
+      "category": "项目更新",
+      "impact_coins": ["WASABI"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511322.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strategy 90天内增持0.5% BTC",
+      "summary": "MicroStrategy（现Strategy）在90天内增持了比特币总供应量的0.5%，目前持有量巨大。这显示机构持续买入，提供强大买盘支撑。利多BTC，增强市场信心。看多。",
+      "reason": "机构持续增持比特币属于优先级二的机构动向，直接增加需求。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMkNfclBiZ2dkRUFibmtiZVNIR1FWQ3Y0Nm41aEdVM2lTM0pSb2Q5ZzdhU2Zic2RKWk50UU81ZHRweEppa2pOQWg1bWRmbWtZVU0xWS0tS2dUbGVkOXAzS0dOX0tVSzhZTGVEMDZwbnJYbDlkNzYxbVlfRUV0Qzc1RTlhYTN2VHBoZHIzSVFJNVNvNGs0"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "地缘紧张：美以或打击伊朗",
+      "summary": "美军航母穿越阿拉伯海，以色列与美国协调准备对伊朗新一轮打击。地缘冲突可能推高油价，间接影响加密货币市场（避险或风险共振）。历史看，突发战争初期利空风险资产，但BTC近期表现抗压。短期中性偏空。",
+      "reason": "地缘政治风险影响风险偏好，属于优先级二的宏观经济因素，但直接影响有限。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511324.html"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511325.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "FalconX与Sygnum推代币化信贷",
+      "summary": "FalconX与Sygnum合作向机构客户推出代币化信贷产品，将传统信贷上链。这有助于连接传统金融与DeFi，提升加密金融基础设施。长期利好以太坊等智能合约平台。看多ETH及RWA代币。",
+      "reason": "机构级DeFi基础设施发展，属于优先级二的技术升级/里程碑，影响偏长期。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/399947/falconx-sygnum-partner-tokenized-credit-offering-institutional-clients"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "筛选出8条新消息，均为当日新事件，已排除重复项。"
+}
