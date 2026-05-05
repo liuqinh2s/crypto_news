@@ -1521,3 +1521,94 @@ content length: 2318
   ],
   "note": "由于历史消息中已包含大量重复内容（如BTC突破81k、ETF资金流、Aave动议、Binance公告等），且恐惧贪婪指数未变，经去重后仅筛选出3条有效新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3054, prompt_tokens=10935, total_tokens=13989, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1817, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9911)
+content length: 3041
+============================================================
+{
+  "news": [
+    {
+      "title": "Ripple分享朝鲜威胁情报",
+      "summary": "Ripple宣布将向加密公司共享朝鲜威胁情报，旨在提升行业安全，抵御黑客攻击。该消息主要影响XRP，可能加强Ripple生态合作，但直接价格影响有限。信号中性，表明Ripple积极构建安全网络，对XRP生态长期利好但非短期催化剂。",
+      "reason": "项目更新，涉及行业安全合作，影响XRP生态，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["XRP"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/05/05/ripple-to-share-north-korean-threat-intelligence-with-crypto-firms"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Haun Ventures融资10亿美元",
+      "summary": "Haun Ventures成功融资10亿美元，将AI与加密货币结合作为投资重点。机构资本持续流入，利好整体市场，尤其对AI概念币和主流币BTC/ETH有积极情绪推动。信号看多，显示风投长期信心。",
+      "reason": "机构动向，大规模融资推动市场情绪，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/haun-ventures-raises-1b-crypto-ai-funds"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polygon推出私有稳定币支付",
+      "summary": "Polygon推出面向机构的私有稳定币支付解决方案，旨在提高交易隐私和效率。利好MATIC（POL），可能吸引更多机构采用。信号看多，但短期影响有限。",
+      "reason": "项目更新，技术升级带来潜在采用增长，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["MATIC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/polygon-rolls-out-private-payments-for-institutions"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗局势影响降息预期",
+      "summary": "伊朗紧张局势推高油价，可能导致全球通胀压力上升，使美联储推迟降息。这对风险资产如BTC、ETH构成利空，因紧缩政策压制估值。信号看空，宏观环境恶化。",
+      "reason": "宏观经济事件，直接影响风险资产定价，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ1FuME5peWpPbHdfNjl2aDFUWUZwV0ZxaFNIRllweC1LMWxRRXl3VHlUY0FHdW45QVdMUVBzd01nSGxRQ2Rxa2VibXhzN0JGVDFCUzYyN0tGQWc1cHJPeUJFdXNabk9OblA3azhWSEFCNWVTaEhCWnBRbFNzU2oyM2FmaHBEakRNcFNsMHhfMTE4LWRwazh5NGFZTWZHdw"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitmine持有518万枚ETH",
+      "summary": "Bitmine Immersion Technologies宣布持有518万枚ETH，总资产达131亿美元，显示机构大规模囤积ETH。信号看多，巨鲸持仓增加减少流动性，利好ETH价格。",
+      "reason": "机构动向/链上异动，大额持仓信息影响ETH供需预期，属于优先级一（巨鲸异动）。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOGU1VVlUdXQzRWtmb0V6Q0NjRmltRm9vNWtsSGpHVWhhQnJTVS1xbTlJbDdkQ2VKamJyVnZVS1FnSjlCZm02ZEpJNUs2LTlwMXQ1ejJCNDg0ZExzaVBGcjh1VDNQd1N6MlM1X1NYMUtORHpUUVB6Ry1JcVBWT0NQejcwNWN2eUctRFdKXzA5S0tDYWpYaW1Pb0tiTW9icHFScWNITU1UMWotb2ZSQm91RVdR"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
