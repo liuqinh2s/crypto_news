@@ -1842,3 +1842,177 @@ content length: 4327
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1414, prompt_tokens=11263, total_tokens=12677, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1157, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10239)
+content length: 655
+============================================================
+{
+  "news": [
+    {
+      "title": "朝鲜威胁美国涉黑客指控",
+      "summary": "朝鲜罕见公开威胁美国，针对美国指控其参与加密货币黑客攻击。这是朝鲜首次直接回应此类指控，可能加剧地缘政治紧张。若冲突升级，可能引发避险情绪，利空风险资产如BTC、ETH；但若仅是口头威胁，影响有限。目前市场情绪中性，需关注后续动向。",
+      "reason": "优先级一：地缘政治风险加剧，可能影响整体市场风险偏好，属于直接影响行情的消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t4a4o2/north_korea_just_threatened_the_us_over_crypto/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时间段内多数消息与历史重复，仅筛选出1条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4208, prompt_tokens=11263, total_tokens=15471, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3585, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11136), prompt_cache_hit_tokens=11136, prompt_cache_miss_tokens=127)
+content length: 1439
+============================================================
+{
+  "news": [
+    {
+      "title": "北韩威胁美国回应黑客指控",
+      "summary": "北韩罕见直接威胁美国官员，回应其参与加密货币黑客攻击的指控，称将采取报复措施。此举可能加剧美朝地缘政治紧张，引发市场避险情绪，导致BTC、ETH等主流加密货币短期承压。若冲突升级，可能进一步影响全球风险资产。目前市场反应有限，但需关注后续发展。看空信号，但影响程度取决于实际冲突是否升级。",
+      "reason": "地缘政治紧张升级可能引发风险资产抛售，符合优先级二宏观经济。北韩直接威胁美国是罕见事件，可能带来短期市场波动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t4a4o2/north_korea_just_threatened_the_us_over_crypto/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase：二季度加密市场中性",
+      "summary": "Coinbase发布二季度加密市场展望，认为市场整体中性，地缘政治不确定性是主导因素。报告指出，宏观经济、监管进展等变量仍存在较大不确定性，建议投资者谨慎。该展望未给出明确方向性预测，但机构中性态度可能抑制短期投机热情。影响有限，主要作为市场情绪参考。",
+      "reason": "主要交易所的季度展望对市场情绪有轻微影响，但无具体行动或数据变动，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "PANews via Google News",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ibDJXV0hOeU5mYmctRzdPbDlPbkRGbnlWUHpQR28xclRsODJMdFllN1pqRjFnNjc4cW9lcVl0R2tadVJjVmc1b2dZZ1JfQUx1czJIZDVnRlVWR2R4bzRJYlpRdVY3Q0dvZzlpUGZ4WmxRVGxLQU9zME9fTVpvOEE?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮新闻多为重复内容，仅筛选出2条新消息，可能不够全面，建议关注后续更新。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1694, prompt_tokens=11263, total_tokens=12957, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1632, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11136), prompt_cache_hit_tokens=11136, prompt_cache_miss_tokens=127)
+content length: 115
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的40条消息中，所有重要事件（如BTC ETF流入、SEC暂停预测市场ETF、加拿大稳定币、Binance公告等）均已出现在近6小时历史消息中，无新交易价值讯息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2007, prompt_tokens=12289, total_tokens=14296, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=781, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11265)
+content length: 3086
+============================================================
+{
+  "news": [
+    {
+      "title": "美国比特币ETF净流入5.32亿美元",
+      "summary": "周一美国现货比特币ETF净流入5.32亿美元，连续第三日净流入，主要由贝莱德和富达领投。这表明机构资金持续通过合规渠道进入比特币市场，买盘力量增强。积极情绪可能传导至以太坊等其他主流币种，但ETH ETF本身也有净流入。",
+      "reason": "ETF资金连续流入是牛市信号，直接影响BTC价格。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399990/us-spot-bitcoin-etfs-draw-532-million-as-inflows-extend-to-a-third-day-led-by-blackrock-and-fidelity"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普称鲍威尔是灾难",
+      "summary": "特朗普公开批评美联储主席鲍威尔维持高利率，称其为'灾难'。市场解读为政治压力可能影响未来降息预期，但短期内美联储独立性受质疑，可能引发风险资产波动。若降息预期升温，利好BTC等风险资产；若引发不确定性，则短期利空。",
+      "reason": "宏观经济层面，直接影响利率预期和风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkQ1J1T0lta3VPUkJSSW1Nc25NMDhmZWRfODFWMTNLNUxDRkxzT091VEpFQjZBWllDSk9TaGo0OXIzb2tFbTBhTjlXTXpoaHRqZXlkTUd4MndmVENHcHhsVTk3dU55aG1nOWJFNFJpRkZGMWc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "朝鲜因黑客指控威胁美国",
+      "summary": "朝鲜就加密货币黑客指控直接威胁美国，这是罕见的直接表态。地缘政治紧张升级可能引发避险情绪，导致资金短期流出风险资产（包括加密货币）。但若局势缓和，抛压可能迅速消退。目前主要影响整体市场情绪。",
+      "reason": "地缘政治风险直接影响加密货币市场风险偏好。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t4a4o2/north_korea_just_threatened_the_us_over_crypto/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave请求法院阻止扣押7100万美元加密货币",
+      "summary": "DeFi借贷平台Aave请求法院阻止美国政府扣押与朝鲜黑客指控相关的7100万美元加密货币。该案件涉及DeFi协议的资金安全和监管管辖权，若法院支持Aave，可能利好DeFi板块；若扣押成立，或引发对DeFi合规的担忧。短期事件驱动，影响有限。",
+      "reason": "DeFi监管事件，可能影响Aave及相关币种。",
+      "category": "监管政策",
+      "impact_coins": ["AAVE"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/05/defi-lender-aave-asks-court-to-block-usd71-million-crypto-seizure-tied-to-north-korea-claims"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Coinbase二季度展望中性",
+      "summary": "Coinbase发布二季度加密市场展望，认为地缘政治不确定性主导全局，整体展望中性。作为头部交易所的观点，这可能强化市场区间震荡预期，短期内难以出现单边趋势。投资者应关注宏观事件突破。",
+      "reason": "权威机构观点影响市场情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PANews",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ibDJXV0hOeU5mYmctRzdPbDlPbkRGbnlWUHpQR28xclRsODJMdFllN1pqRjFnNjc4cW9lcVl0R2tadVJjVmc1b2dZZ1JfQUx1czJIZDVnRlVWR2R4bzRJYlpRdVY3Q0dvZzlpUGZ4WmxRVGxLQU9zME9fTVpvOEE?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
