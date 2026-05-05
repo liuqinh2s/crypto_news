@@ -1612,3 +1612,110 @@ content length: 3041
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3494, prompt_tokens=10594, total_tokens=14088, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2447, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9570)
+content length: 2867
+============================================================
+{
+  "news": [
+    {
+      "title": "摩根士丹利增持57枚BTC",
+      "summary": "摩根士丹利增持约57枚比特币，总持仓达2678枚。机构持续增持比特币，显示长期看好，可能带动更多传统资金入场。信号：看多，影响BTC。",
+      "reason": "机构增持属于优先级二，直接利好BTC价格。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511307.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Telegram将成TON主导验证者",
+      "summary": "Pavel Durov宣布Telegram将成为TON主导力量及最大验证者，增强TON生态信心。可能吸引更多用户和资金，利好TON代币。信号：看多，影响TON。",
+      "reason": "项目方重大事件，直接利好TON。",
+      "category": "项目更新",
+      "impact_coins": ["TON"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511305.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "俄罗斯主要交易所推SOL等指数",
+      "summary": "俄罗斯最大加密货币交易所上线SOL、XRP、TRX和BNB指数产品，增加机构可投资性，可能提升这些币种的流动性及需求。信号：看多，影响SOL、XRP、TRX、BNB。",
+      "reason": "交易所推出指数属于市场结构利好，增加正规化渠道。",
+      "category": "市场结构",
+      "impact_coins": ["SOL", "XRP", "TRX", "BNB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t48sxz/russia_expands_crypto_push_as_countrys_largest/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "意大利央行推动代币化SEPA",
+      "summary": "意大利央行敦促欧盟考虑构建代币化版SEPA支付系统，推动区块链支付合规化。长期利好欧洲加密支付生态，尤其是稳定币项目。信号：看多，影响ETH（基于以太坊的稳定币）及整体市场情绪。",
+      "reason": "监管政策利好，推动区块链在传统金融的应用。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "USDC", "USDT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511308.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊拉克下调油价缓解地缘风险",
+      "summary": "伊拉克大幅下调油价以吸引穿越霍尔木兹海峡的买家，暗示霍尔木兹海峡局势可能缓和，降低战争风险。若地缘风险下降，有利于风险资产（包括加密货币），信号：看多BTC、ETH。",
+      "reason": "地缘政治直接影响宏观风险偏好，属于优先级的宏观经济因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511310.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国考虑特朗普霍尔木兹计划",
+      "summary": "韩国正在考虑特朗普的霍尔木兹计划，可能参与护航或调解。若进展顺利，将进一步缓解中东紧张局势，利好风险资产。信号：看多BTC、ETH。",
+      "reason": "地缘政治缓和信号，影响宏观情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511304.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
