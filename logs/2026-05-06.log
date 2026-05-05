@@ -247,3 +247,91 @@
 2026-05-05 18:01:23 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
 2026-05-05 18:01:23 [INFO] 📦 JSON 已保存: reports/2026-05-06-02.json
 2026-05-05 18:01:23 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-05-05 19:00:44 [INFO] 🚀 开始抓取 2026-05-06 03:00 币圈新闻
+2026-05-05 19:00:44 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-05 19:00:44 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-05 19:00:45 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ Decrypt: 过滤掉 30 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ CoinTelegraph: 过滤掉 27 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ CoinDesk: 过滤掉 18 条非近期新闻
+2026-05-05 19:00:45 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-05 19:00:45 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ Reuters Crypto: 过滤掉 49 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ CNBC Crypto: 过滤掉 47 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-05 19:00:45 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-05-05 19:00:46 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:46 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:46 [INFO]   ⏭ 宏观经济: 过滤掉 47 条非近期新闻
+2026-05-05 19:00:46 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:46 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:46 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:46 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-05 19:00:46 [INFO]   ⏭ Crypto Twitter: 过滤掉 44 条非近期新闻
+2026-05-05 19:00:50 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 5 条非近期新闻
+2026-05-05 19:01:00 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-05 19:01:00 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-05 19:01:00 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-05 19:01:00 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-05 19:01:01 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-05 19:01:01 [INFO]   ✓ CoinDesk: 7 条
+2026-05-05 19:01:01 [INFO]   ✓ The Block: 2 条
+2026-05-05 19:01:01 [INFO]   ✓ Decrypt: 5 条
+2026-05-05 19:01:01 [INFO]   ✓ CoinTelegraph: 3 条
+2026-05-05 19:01:01 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ Blockworks: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ DL News: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ 金色财经: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ PANews: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ Reuters Crypto: 1 条
+2026-05-05 19:01:01 [INFO]   ✓ CNBC Crypto: 3 条
+2026-05-05 19:01:01 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-05 19:01:01 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-05-05 19:01:01 [INFO]   ✓ Crypto Twitter: 6 条
+2026-05-05 19:01:01 [INFO]   ✓ 宏观经济: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ Binance公告: 20 条
+2026-05-05 19:01:01 [INFO]   ✓ OKX公告: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ Bitget公告: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ Whale Alert: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-05 19:01:01 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-05 19:01:01 [INFO]   ✓ 雪球加密: 0 条
+2026-05-05 19:01:01 [INFO] 📊 共抓取 52 条新闻
+2026-05-05 19:01:01 [INFO] 📋 原始新闻已保存: reports/2026-05-06-03-raw.json (52 条)
+2026-05-05 19:01:01 [INFO] 📋 标题摘要已保存: reports/2026-05-06-03-raw-titles.md
+2026-05-05 19:01:01 [INFO] ✅ 抓取完成，共 52 条，已保存到 reports/2026-05-06-03-raw.json
+2026-05-05 19:01:01 [INFO] 🤖 开始 AI 筛选 2026-05-06 03:00 币圈消息
+2026-05-05 19:01:01 [INFO] 📋 已加载原始新闻: reports/2026-05-06-03-raw.json (52 条)
+2026-05-05 19:01:01 [INFO] 📚 已加载历史新闻标题（31917 字符）
+2026-05-05 19:01:01 [INFO] 📚 已加载历史筛选标题 33 条、URL 34 个，用于去重
+2026-05-05 19:01:01 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-05 19:01:01 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-05 19:01:01 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（52 条，12498 字符，temp=0.3）
+2026-05-05 19:01:56 [INFO] AI 原始返回已保存: logs/2026-05-06-ai-response.txt (finish_reason=stop, 5116 字符)
+2026-05-05 19:01:56 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-06-03-ai-raw.json
+2026-05-05 19:01:56 [DEBUG] parse_json_response 输入长度: 5116 字符
+2026-05-05 19:01:56 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Drift协议被攻击2.95亿美元",
+      "summary": "Solana链上永续合约协议Drift遭朝鲜黑客攻击，损失约2.95亿美元。团队已公布用户补偿计划。此事件直接冲击Solana DeFi生态，可能导致SOL及相关代币短期下跌。看空信号，建议规避DRIFT及Solana生态代币。",
+      "reason": "优先级一：项目方重大事件（黑客攻击），对Solana生态及DRIFT价格有直接负面影响。",
+      "category": "链上异动",
+      "impact_coins
+2026-05-05 19:01:56 [DEBUG] 从 JSON 对象的 news 字段提取到 8 条记录
+2026-05-05 19:01:56 [INFO] ✅ AI 返回 8 条新闻
+2026-05-05 19:01:56 [INFO] ✅ AI 筛选出 8 条交易相关消息，符合预期
+2026-05-05 19:01:56 [INFO] 🔗 来源链接覆盖: 8/8 条新闻有有效链接
+2026-05-05 19:01:56 [INFO] 🔄 去重：移除 3 条与历史报告重复的新闻
+2026-05-05 19:01:56 [DEBUG]   去重: 「State Street与Galaxy在Solana推基金」 → 标题相似: State Street Galaxy推代币化基金
+2026-05-05 19:01:56 [DEBUG]   去重: 「PARITY Act提案：加密税安全港」 → URL重复: https://www.coindesk.com/policy/2026/05/05/rep-steven-horsfo
+2026-05-05 19:01:56 [DEBUG]   去重: 「Western Union基于Solana的稳定币」 → URL重复: https://www.coindesk.com/business/2026/05/05/western-union-s
+2026-05-05 19:01:56 [INFO] 📦 JSON 已保存: reports/2026-05-06-03.json
+2026-05-05 19:01:56 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息

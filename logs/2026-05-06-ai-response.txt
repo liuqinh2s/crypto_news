@@ -281,3 +281,142 @@ content length: 2849
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3551, prompt_tokens=16105, total_tokens=19656, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1564, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15081)
+content length: 5116
+============================================================
+{
+  "news": [
+    {
+      "title": "Drift协议被攻击2.95亿美元",
+      "summary": "Solana链上永续合约协议Drift遭朝鲜黑客攻击，损失约2.95亿美元。团队已公布用户补偿计划。此事件直接冲击Solana DeFi生态，可能导致SOL及相关代币短期下跌。看空信号，建议规避DRIFT及Solana生态代币。",
+      "reason": "优先级一：项目方重大事件（黑客攻击），对Solana生态及DRIFT价格有直接负面影响。",
+      "category": "链上异动",
+      "impact_coins": ["SOL", "DRIFT"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/05/drift-outlines-a-recovery-plan-for-users-after-usd295-million-dprk-linked-exploit"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上架MegaETH (MEGA)并开放现货及合约交易，同时支持理财、借贷等。新币上线通常带来短期炒作资金流入，对MEGA形成利好。但需注意Seed Tag标记，波动可能较大。看多信号。",
+      "reason": "优先级一：交易所上币公告，直接影响MEGA价格。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "State Street与Galaxy在Solana推基金",
+      "summary": "道富银行和Galaxy在Solana链上推出名为SWEEP的代币化基金，旨在将闲置稳定币投入生息资产。这是传统金融机构采用Solana的又一标志性事件，有望吸引更多资金进入Solana生态，对SOL构成长期利好。看多信号。",
+      "reason": "优先级二：机构动向，传统金融巨头采用公链，利好SOL。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400086/state-street-and-galaxy-launch-fund-on-solana-designed-to-sweep-stablecoins-into-productive-vehicle"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MoonPay收购Solana执行层DFlow",
+      "summary": "MoonPay以约1亿美元全股票交易收购Solana执行层DFlow，后者被Coinbase、Phantom等使用。该收购将增强MoonPay在Solana生态的基础设施能力，进一步巩固Solana在支付和DeFi领域的地位，利好SOL。",
+      "reason": "优先级二：机构动向，收购整合对Solana生态有正面推动。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400078/moonpay-acquires-solana-execution-layer-firm-dflow-used-coinbase-phantom"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "PARITY Act提案：加密税安全港",
+      "summary": "美国众议员Steven Horsford在Consensus Miami提出PARITY法案，旨在为加密货币税收提供“持久底线”，明确税务处理规则。该提案如通过将降低合规不确定性，利好整个加密市场。但立法过程漫长，短期影响有限。看多信号。",
+      "reason": "优先级一：重大监管动态，税收明确化利好行业长期发展。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/05/rep-steven-horsford-pitches-parity-act-as-durable-floor-for-crypto-tax-at-consensus-miami"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Western Union基于Solana的稳定币",
+      "summary": "分析师称，Western Union计划在Solana上发行稳定币可能重塑其支付模型，降低跨境转账成本。这是传统支付巨头采用区块链的又一案例，利好Solana生态系统和稳定币赛道。看多信号。",
+      "reason": "优先级二：机构采用，对SOL及稳定币概念有正面情绪影响。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/05/western-union-s-solana-based-stablecoin-could-reshape-its-payment-model-analyst-says"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bernstein：Figure面临4万亿美元机会",
+      "summary": "Bernstein报告指出，Figure Technology的代币化信贷市场机会高达4万亿美元，因其区块链平台将贷款成本降低91%。Figure正挑战房利美和房地美，该消息利好Figure及其代币化概念，但直接加密市场影响有限。中性偏多。",
+      "reason": "优先级二：机构报告提及代币化巨大潜力，中期利好相关概念。",
+      "category": "市场结构",
+      "impact_coins": ["FIG", "BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/figure-stock-bernstein-tokenized-credit-expansion"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "SEC拟取消强制季度财报",
+      "summary": "美国SEC提议取消上市公司季度财报要求，改为半年报。这将减少短期业绩压力，利好长期投资，可能减少市场波动。对加密市场间接利好，但并非直接驱动因素。中性信号。",
+      "reason": "优先级三：宏观经济政策变化，影响风险偏好，但传导至加密较间接。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPenp2RnhreGVZTHpWbjlSemsyU0ZYMFhIZ0haTFhHYmpVeUFZc3U0SVprN3BqMGhwNzZwWTNkUy1kTHVkcEpKX0liMXM0NFIyNWxKREUtNEZLSUFCbkVodUhRT0NUZUkxQUx0ajd6MWVZTTk1ZGFyN0Jlcm54clo1NjdidlYyZEE4OHdIMUZiR0VoZDJfdkNaOXM2RDE2QlZsbDY1Q3VqbGFNcmZ2cTA4S3FrZnBuQnZCMEHSAb8BQVVfeXFMT3RIelQtdTd5bEpFWGZyYmJjQVR1d0RySVZ0RlhFQ1B4cUlPS3ZHNkRob0Itald1UGtKbXVsb2FSN3lkUEF1SHJOUnJuWmpQNV85ZDZLbWEyMlFRTjVOSndTOTU5V0lfVEE2Y2F6SEVicUczLVQyRVJTUUNfSGxuS2JKSE05cVBiYkl3NG5FRDJhaFhXTDFWQ1JsbXhzNzYtd00tZGlfT01FeUU4TnN2T2MtSUx5WmpyUUhJRXdnVkk"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
