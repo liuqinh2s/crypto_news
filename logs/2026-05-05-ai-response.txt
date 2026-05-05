@@ -1719,3 +1719,126 @@ content length: 2867
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4052, prompt_tokens=11034, total_tokens=15086, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2285, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10010)
+content length: 4327
+============================================================
+{
+  "news": [
+    {
+      "title": "币安下架ENA/BTC等交易对",
+      "summary": "币安宣布将于近期下架ENA/BTC、CFX/BTC等多个现货交易对。此举可能因流动性不足或合规要求，直接利空ENA和CFX。这些币种在币安上的交易量将受限，短期抛压可能增加，但影响范围有限，因为下架的是BTC交易对而非USDT交易对。",
+      "reason": "交易所下架交易对直接影响对应币种交易流动性，属于优先级一的事件。",
+      "category": "交易所",
+      "impact_coins": ["ENA", "CFX"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511313.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase澳大利亚支持退休基金",
+      "summary": "Coinbase Australia宣布推出支持自我管理退休基金（SMSF）的加密货币交易服务，允许澳大利亚用户通过养老金账户投资BTC、ETH等数字资产。此举为机构资金入场开辟新渠道，长期利好比特币和以太坊，增加增量买盘。",
+      "reason": "机构入场通道拓展，属于优先级二的机构动向，影响中期行情。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/399982/coinbase-australia-launches-smsf-support?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加拿大推出首个合规稳定币",
+      "summary": "Tetra Digital在加拿大推出首个受监管的稳定币，标志北美监管框架下的稳定币落地。此举有助于提升加密市场合规信心，吸引传统资金，但短期内对市场影响有限，需观察后续采用情况。",
+      "reason": "监管进展属于优先级一，但加拿大市场较小，影响中性偏多。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t49e8y/canada_debuts_first_regulated_stablecoin_created/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "SEC暂停24个预测市场ETF",
+      "summary": "美国SEC在预测市场ETF计划推出前紧急暂停了24只相关ETF的上市，理由是需要更多时间评估市场操纵风险。此举直接利空预测市场代币如POL、REP等，并可能引发对加密货币ETF审批整体收紧的担忧，间接利空BTC/ETH。",
+      "reason": "SEC暂停ETF属于监管打压，优先级一，直接影响市场情绪和预测币种。",
+      "category": "监管政策",
+      "impact_coins": ["POL", "REP", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t49mrx/sec_pauses_24_prediction_market_etfs_before/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strategy股价月涨50%",
+      "summary": "MicroStrategy（Strategy）股价在过去一个月上涨50%，比特币突破8万美元，公司持有大量BTC。股价飙升反映市场对机构持仓比特币的乐观情绪，巩固其作为比特币代理股的地位，可能吸引更多资金通过股票间接投资BTC。",
+      "reason": "机构大手笔买入比特币的连锁反应，属于优先级二机构动向，看多比特币。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeVFsc1VuaTI0WTNTNldBVE1HSUo5YXNzYTZyVk8xaGlKa0NKaEU2SEtPLUFnTVJFTXU5OTllejhXNkgzOFBJVjhYT2FLZkE5V25zRDl2aW4wRUo0b3g4ZDRNUEZ0dEhqd1VYMXE1Tkt5M1lVdjV5Z0w5Y0poSkw2RDFyU25MSjE3MUFqWnVyaVNQLVVRektWSWUxWEVHQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hut8债务再融资+AI转型",
+      "summary": "比特币矿企Hut 8完成比特币担保债务再融资，并宣布进军AI计算领域。此举优化资产负债表并拓展营收来源，利好HUT股价，间接提振比特币矿业信心，但对比特币价格直接影响有限。",
+      "reason": "矿企重大战略调整，属于优先级二项目更新，中性偏多。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXR5eTdmcDFINEVFb0hNaXhjMXczMGFvTEFtTDNmLUtUeWo0V1ZTZHlsZkFkY2hLN1lKbDhCVzliWE5TaTR3RGNJRFU1d2NxYUd3VTRyRDlSUU1mSFdQNl9mR3FiOUhHajZYR2RsWV9EbG9nY21RX0oteTZKWmJBTGZFX1JXelVqcFhhTms2Y0otQ1NC?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普抨击鲍威尔高利率",
+      "summary": "特朗普公开称美联储主席鲍威尔是'灾难'，要求降息。此举加剧市场对美联储政治压力的担忧，可能加快降息预期，利好风险资产包括加密货币。但若美联储独立性受损，长期负面影响需警惕。",
+      "reason": "宏观经济事件影响利率预期，属于优先级二，关注后续联储反应。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkQ1J1T0lta3VPUkJSSW1Nc25NMDhmZWRfODFWMTNLNUxDRkxzT091VEpFQjZBWllDSk9TaGo0OXIzb2tFbTBhTjlXTXpoaHRqZXlkTUd4MndmVENHcHhsVTk3dU55aG1nOWJFNFJpRkZGMWc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
