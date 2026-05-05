@@ -634,3 +634,63 @@ content length: 4240
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5350, prompt_tokens=17108, total_tokens=22458, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=4568, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=16084)
+content length: 2072
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken考虑IPO并合作MoneyGram",
+      "summary": "加密货币交易所Kraken正在考虑IPO，同时已与MoneyGram合作，允许用户在50万个网点将加密资产兑换为现金。这一合作提升了Kraken的合规性和用户基础，IPO计划则表明公司进入成熟发展阶段，有望吸引更多传统资金流入加密市场。直接影响币种：BTC、ETH。信号：看多。",
+      "reason": "交易所IPO属于重大机构动态，直接影响市场信心，且为新增消息（历史中仅有MoneyGram合作，未提及IPO）。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/05/kraken-eyes-ipo-as-it-partners-with-moneygram-to-bridge-crypto-to-cash-gap"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CFTC拟保护非托管软件开发者",
+      "summary": "美国商品期货交易委员会（CFTC）拟正式确立规则，明确非托管软件开发者的法律保护范围，继此前针对Phantom钱包的无异议函之后。此举将降低去中心化钱包、DApp等开发者的监管不确定性，利好DeFi生态及相关代币如UNI、AAVE、LINK等。信号：看多。",
+      "reason": "监管政策利好，为去中心化基础设施提供法律确定性，属于优先级一的监管动态。历史消息中未出现该具体进展。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "UNI", "AAVE", "LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400133/cftc-looks-to-cement-non-custodial-software-developer-protections-following-phantom-no-action-letter"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kelp DAO弃LayerZero转投Chainlink",
+      "summary": "在经历2.92亿美元跨链桥攻击后，Kelp DAO决定放弃LayerZero，改用Chainlink的跨链基础设施。此举验证了Chainlink在跨链安全领域的领先地位，有望推动LINK代币需求增加；同时引发对LayerZero安全性的质疑，其代币ZRO可能承压。信号：LINK看多。",
+      "reason": "项目方因安全漏洞更换基础设施，属于项目重大更新，直接影响相关币种价格。历史消息中有Kelp指责LayerZero，但转向Chainlink是新的具体行动。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "ZRO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400131/kelp-dao-ditches-layerzero-chainlink-cross-chain-infrastructure-292-million-exploit"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮近6小时历史消息高度重复，核心事件已在前6小时标题中覆盖，经去重后仅筛选出3条新增高价值信息。"
+}
