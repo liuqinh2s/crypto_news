@@ -1,16 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4023, prompt_tokens=15097, total_tokens=19120, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3415, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=14073)
+content length: 1733
+============================================================
 {
-  "date": "2026-05-07",
-  "hour": "00",
   "news": [
     {
       "title": "Kraken推出受监管现货保证金交易",
       "summary": "Kraken宣布在美国推出受监管的加密货币现货保证金交易，通过与Bitnomial达成协议。此举允许美国用户在合规框架下进行杠杆交易，可能吸引更多交易量，提升市场流动性。对BTC、ETH等主流币种中性偏多，监管合规利好长期发展。",
       "reason": "交易所重大动态，直接影响交易环境和投资者信心，属于优先级一。",
       "category": "交易所",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
@@ -26,9 +28,7 @@
       "summary": "Solana公司及Jito基金会宣布在亚洲扩展面向机构的Solana质押服务，旨在吸引亚洲机构投资者参与SOL质押。这可能提升SOL锁仓量和价格稳定性，利好SOL，属于中期积极信号。",
       "reason": "机构级别质押扩展属于基础设施利好，中期提升SOL价值，优先级二。",
       "category": "项目更新",
-      "impact_coins": [
-        "SOL"
-      ],
+      "impact_coins": ["SOL"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
@@ -44,10 +44,7 @@
       "summary": "稳定币行业集体反对英国央行拟议的无托管钱包禁令，认为此举限制去中心化金融。若实施将影响稳定币使用，但目前仍在辩论阶段，短期影响有限，长期监管方向偏空。",
       "reason": "监管政策变动影响稳定币生态，属于中期信号。",
       "category": "监管政策",
-      "impact_coins": [
-        "USDT",
-        "USDC"
-      ],
+      "impact_coins": ["USDT", "USDC"],
       "signal": "bearish",
       "impact_level": 2,
       "sources": [
@@ -59,6 +56,5 @@
       "urgency": "days"
     }
   ],
-  "total_fetched": 55,
-  "generated_at": "2026-05-07T00:02:06.754854+08:00"
+  "note": "筛选结果显示只有三条有价值的未重复消息，其他均为重复或非交易相关。"
 }
