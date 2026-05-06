@@ -1607,3 +1607,63 @@ content length: 2547
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3560, prompt_tokens=11081, total_tokens=14641, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2522, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10057)
+content length: 2233
+============================================================
+{
+  "news": [
+    {
+      "title": "哥伦比亚总统提议建设比特币矿场",
+      "summary": "哥伦比亚总统提出在哥伦比亚建设比特币挖矿中心，利用该国丰富的水电资源。这一政府支持信号可能吸引矿工迁入，增加算力与市场信心，对BTC构成长期利好。但具体实施尚未明确，短期影响有限。",
+      "reason": "政府支持挖矿，潜在利好BTC，属于监管政策类消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/bitcoin",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1t54q64/colombian_president_proposes_building_a_bitcoin/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币ETH走势分化分析",
+      "summary": "文章分析比特币与以太坊在四月份复苏中的不同表现：比特币因宏观乐观情绪突破8.1万美元，而以太坊相对疲软，在2325美元附近寻找支撑。市场偏好可能继续倾向BTC，对BTC中性偏多，ETH中性偏空。",
+      "reason": "市场结构分析，反映投资者情绪和资金流向分化。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter/AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTzg4NWotWjhZZGExUmNPNnREcUp4eFRhR01yemgzYldYZnRIYlZxWThLWERKVE9EZEZxUmJ3anlNamJ5QlFUTjloWjdoSHdOaG1vVlRWODhESE9BaTVWYWdPdkg5NGRibmpQUFBqQW51UXhfclBNaUpXVU9SSURjN19Uc3BfRmdoZmxPQWdBRVJRbThnM3AyZ2tNMVdLZ9IBowFBVV95cUxPdWt0OTJTdng2RU84T1RhVnlCeU0wTDRVQjhETG9fLWU2NV9JSy0tbGdJckdwYWo3XzlsREtwWjFOUmJ3ODEzTF9kRWtkam90cVVrYjFmT0tVTjRuam9lckRkdlhCSVJWVmtieFV0bW5JUGFsc01kY1owRWF5QWczd1Rfc3FqdTAtaFlWU1VBalg4ZkE5YVc3VE9OVU41d2RHV0k4"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "以太坊2325支撑位暂时守住",
+      "summary": "以太坊价格在2325美元附近获得支撑，走势平淡。若跌破可能引发进一步下跌，但当前守住显示多头意愿。短期对ETH中性偏多，但需关注后续能否反弹。",
+      "reason": "技术分析，提供关键支撑位参考。",
+      "category": "市场结构",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "雪球加密/Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRndDSXJkZVpYWGtaM21rTTVUc2FSTVR0LXR3SkhBVWZBZDA0RWhnN3ZOVHNOSVBYMk8tMUFVZnhDV0lDR2VsUWZDUUtPWk8wdEZvTXpiTzlWSFZ0TW5PMUZPRUJ0dExjdmczZ0xRSVZFaHJnSGtfLTdDRjh3YmJUb2RQdnNnWVJwYW1qeUpaYW4zNGRFQ3psMjJRLVhkZldGUTRTTW52TVViNUk?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为重复消息，仅有3条新消息值得关注，但影响力较低。"
+}
