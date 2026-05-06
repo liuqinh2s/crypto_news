@@ -124,3 +124,174 @@ content length: 2415
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5894, prompt_tokens=17833, total_tokens=23727, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2846, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=16809)
+content length: 6856
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储古尔斯比暗示加息",
+      "summary": "芝加哥联储主席古尔斯比表示，如果生产率增长符合预期，美联储可能会加息。这一鹰派言论超出市场预期，此前市场预计降息。加息将收紧流动性，利空比特币和整体加密市场。影响币种：BTC、ETH。信号：看空。",
+      "reason": "美联储官员意外发出加息信号，直接影响风险资产定价，属于优先级一宏观消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511517.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普加密法案将参议院标记",
+      "summary": "福克斯商业报道，特朗普推动美国成为'加密资本世界'的议程取得进展，加密货币法案接近参议院标记（markup）。这是立法重要步骤，若通过将提供监管清晰度，利好整个加密行业。影响币种：BTC、ETH。信号：看多。",
+      "reason": "监管进展属于优先级一，直接提升市场信心。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Twitter - Fox Business",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdjZkeVIwQWN6OWVMQWMtalE1WjgzaFdmQlhFRU5qOTI4dktCalBhTzBPbGVZUXBnN0tzTTlXVU1Cb2RqbWJNaGE2TV9UQTBFTHdsRnZ6TzY1YWI2QUE4V24xeUlKVUdsckx0OU01ZFoxZVpjZFpucnliRzg1UHkycmZqZmtkT3pWZ0xkbm1hVjJ4bXRCcWlvc2dVOGVuM05CZGx1Y3o4dXdWSGdTQkE0Qjl2b001MXUzRU5McmVLc9IBxAFBVV95cUxQWEh0RXU2VjAwVHBnMVBqbE1Kd3NNWEFuWEZXeG11dzdhYi1obU0tckl6Yy1CRjQtTmpqQWtXcXJoVUpZTXV5Z1hoS3JyVnVpU3dDZXJjcjlIVWtYLVJVankzWTBYajA1M2hMbXlmbEZNb2ZMQkpOeVZOWVdKRTE0NXdTaTRQRWRfZk9odlRFd2QxYk5wYW55RHBkQ280TV9KVFd5cG1pZVV5c1Vfckw1ZzZVbXJwcmVMa3htb3ZvbFVPcmNi?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗未回应美国14点提议",
+      "summary": "伊朗表示尚未回应美国对其14点框架备忘录的看法，谈判仍存不确定性。此前市场因美伊和平协议希望推高比特币至82K，此消息可能增加地缘风险，打压风险资产。影响币种：BTC、ETH、原油相关。信号：看空。",
+      "reason": "地缘政治情绪变化直接影响风险资产，属于优先级一（宏观）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511516.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SEC称ZK证明合规利好隐私币",
+      "summary": "Reddit社区热议美国SEC表示零知识证明（ZK）合规，利好隐私币。此前Zcash因Multicoin投资大涨37%，此消息可能进一步推动ZEC、DASH等。虽无官方公告，但情绪已发酵。影响币种：ZEC、DASH。信号：看多。",
+      "reason": "监管态度变化直接影响隐私币估值，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["ZEC", "DASH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5k23s/privacy_coins_are_mooning_because_the_sec_just/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ripple与摩根大通使用XRPL跨境",
+      "summary": "Ripple与摩根大通合作，利用XRP Ledger进行代币化美国国债的跨境转移，标志传统金融进一步采用XRP。这将增加XRP的实际用途和网络效应。影响币种：XRP。信号：看多。",
+      "reason": "重大机构合作，直接利好XRP，属于优先级一（项目更新）。",
+      "category": "项目更新",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400281/ripple-jpmorgan-xrp-ledger-transfer-tokenized-treasury-across-borders?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH多头累积246K枚",
+      "summary": "链上数据显示ETH累积地址在过去一周增加246K枚ETH，价格测试$2.4K阻力。累积行为表明长期持有者看涨，若突破$2.4K则目标更高。影响币种：ETH。信号：看多。",
+      "reason": "链上异动（累积）是中期看多信号，属优先级二。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/ether-tests-24k-accumulators-add-264k-eth-how-high-can-price-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase裁员AI重组运营",
+      "summary": "Coinbase宣布裁员，CEO表示人工智能正在改变运营模式。裁员虽削减成本但反映行业调整，可能短期打压市场情绪。影响币种：COIN（股票）、BTC、ETH。信号：看空。",
+      "reason": "头部交易所负面消息影响市场信心，属优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "ABC7 San Francisco",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM2d3TDFPN0l5REFvV1B2dTU2bThSVTBXQTdFc3k0TVpqaVBzUmVYTjhiZzRlSFZRNVRsLTBSRUtLcXlGWkRUS05YenlBbWdLVEtpenE0bU5haGhaS2RhenF5QTVFTmJQcHA2bW1XOGJjbHh3OHNhY05jV2dLaDdyWXp3djJydm9hbjJVOXJsejZfcWNaakN6MURBZ1pnRG9RV1h2WUthSG0xSGpMMXFWczZHa3hqTkVEbWFVa3dWVkFVOWxEeWtPR2tVMnjSAdIBQVVfeXFMTjBxOWFlRFY3Q0YtejBYemIzcG1aU3VjTXFxcjNuZEUtNXNLUXVLUVlvYVViREVfVjk3UGl1RHlvXzdoRkJvaFR6ZDJUQTRJRzdyLUJScmZ4VHowSXI2Y2xBSm1UM0lyYzNSRlpuTXMyOTJ5UnFGUE5tZjIyNm51bXZGTy1NNXZYaDBoUnpfNjhkYkswcHF4OWVhd3FMT1FQMVc0V24xM2tJcWxzYzR0ZXpyYkh3TEpsZDljTVJqSzB3a2tDcXY4QndLdXhXWVNlRURR?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "矿工财报压力测试在即",
+      "summary": "加密矿工即将公布第一季度财报，市场预期利润可能下滑。Hut 8虽签署AI数据中心大单，但整体行业面临电费、算力竞争压力。财报可能引发抛售或反弹。影响币种：BTC、矿业股。信号：中性。",
+      "reason": "矿工财报属于中期基本面，可能引发波动但方向不确定。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "ETF Database",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lfamNGS3k4aDZjb2pmN0h0Mk81dmpQNi0tbTg3aGlxVjZ6cU1mNTZhR1huVE9iU21ITy1mNjF0WDNqVGdBbEphMEw4dDJjSFNxUmFtSklsY2JFcjNWaWJSeUxlQzd5R3NwR0NTUTR1WlZCRUN4cTEwYV9jRHEwcFJodUw4Tzl5aGRMa2Fqc1M1b2U1cVMwcVBTSWJNQQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Boltz推出非托管USDC交换",
+      "summary": "Boltz发布非托管USDC交换服务，允许用户直接在比特币网络上交换比特币和USDC，无需第三方托管。这增强了比特币的DeFi生态，但短期对BTC价格影响有限。影响币种：BTC。信号：看多。",
+      "reason": "技术创新提提升比特币实用性，属长期利好，但短期影响较小。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/business/boltz-launches-non-custodial-usdc-swaps-bridging-bitcoin-directly-to-circles-regulated-dollar"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "VanEck预测比特币五年内达100万美元",
+      "summary": "VanEck数字资产研究主管预测比特币将在五年内达到100万美元，理由是机构采用和稀缺性。尽管是远见预测，但可能提振市场情绪。影响币种：BTC。信号：中性。",
+      "reason": "权威机构看多观点影响市场情绪，属市场情绪指标。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlM5Tnl6eWZXb1JRMmVHTkh5ZDlMb01LZ0xoYVZwd08yR3Y1UGhDeDkwenl6a0tzQW5vUkoxZk5TUS1uZFhQNXN1cDdXbjZZblFIajdTSTVlQkpOMWdPYWZnNnR5TU5sVzBwNmhiQXFXM1lnRjFVQkpNRjVoS20tRVZfUVpGLWFUUTZKYmY4QnpUVEt5ZEF6ZTllNjRpLWhmRGFWUzVSejJvTi1BZURLUUEwQ2sxZU93ekFESkprRDFOZw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
