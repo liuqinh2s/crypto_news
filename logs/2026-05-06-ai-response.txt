@@ -1004,3 +1004,94 @@ content length: 3952
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2407, prompt_tokens=12480, total_tokens=14887, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1601, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11456)
+content length: 2255
+============================================================
+{
+  "news": [
+    {
+      "title": "Paradigm存入2436枚ETH",
+      "summary": "Paradigm Capital向Coinbase存入2436枚ETH（约575万美元），可能为潜在抛售做准备。巨鲸存入交易所通常被视作看空信号，ETH短期面临抛压。影响ETH。",
+      "reason": "巨鲸异动，直接供应压力。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511399.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗总统称对话仍可能",
+      "summary": "伊朗总统表示理性对话仍有可能，中东紧张局势缓和信号。此前美伊冲突推高避险情绪，缓和利好风险资产，BTC等加密货币短期上涨。",
+      "reason": "地缘政治缓和，直接影响风险资产偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511398.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美参议院主席猛批鲍威尔",
+      "summary": "美国参议院银行委员会主席批评鲍威尔留任理事会是重大错误，暗示美联储内部矛盾加剧。可能影响未来货币政策路径，若加息预期减弱利好加密。但短期市场情绪偏谨慎。",
+      "reason": "宏观政策信号，影响利率预期。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511396.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "离岸人民币升破6.82",
+      "summary": "离岸人民币兑美元升破6.82，创近期新高。人民币升值可能吸引外资流入A股，间接提振加密市场情绪，但直接影响有限。",
+      "reason": "人民币升值反映资本流动，影响风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511393.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ekubo Swap路由安全事件",
+      "summary": "Ekubo在EVM链上的Swap路由合约发生安全事件，建议撤销相关地址授权。可能引发对EVM DeFi安全的担忧，影响相关链上资产。短期利空EVM链DeFi相关代币。",
+      "reason": "项目方重大事件，安全漏洞影响用户信任。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511395.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
