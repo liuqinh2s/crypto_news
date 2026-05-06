@@ -2134,3 +2134,142 @@ content length: 4380
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3536, prompt_tokens=17322, total_tokens=20858, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2046, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=16298)
+content length: 4262
+============================================================
+{
+  "news": [
+    {
+      "title": "摩根士丹利推低费加密交易",
+      "summary": "摩根士丹利正式推出加密货币交易服务，费用低于竞争对手。这是主流投行首次直接提供加密交易，标志机构采用迈出重要一步。可能影响BTC、ETH及整体市场情绪，看多信号。",
+      "reason": "机构入场直接利好，提升流动性和合规性预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/06/morgan-stanley-brings-crypto-trading-with-lower-fees-than-rivals"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CME将推出比特币波动率期货",
+      "summary": "CME集团宣布将于6月1日推出受监管的比特币波动率期货，为机构提供对冲工具。新衍生品有望增加市场深度，吸引更多专业投资者入场，看多BTC。",
+      "reason": "新金融工具提升比特币市场成熟度，利好长期发展。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/cme-group-to-launch-regulated-bitcoin-volatility-futures"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币负资金费率创十年最长",
+      "summary": "比特币永续合约资金费率持续为负，创下本十年最长纪录。分析机构K33指出，这增加了短期轧空风险，市场做空拥挤，一旦反弹可能剧烈。短期看多BTC。",
+      "reason": "负费率持续，空头拥挤，易引发挤压行情。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400182/bitcoin-longest-negative-funding-streak-this-decade-k33-flags-short-squeeze-risk"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy或卖比特币赚2.2B税惠",
+      "summary": "Strategy（原MicroStrategy）考虑出售部分比特币持仓，以利用2.2亿美元税收亏损结转。尽管Saylor曾承诺永不卖出，但此举可能带来抛压，短期看空BTC。",
+      "reason": "最大比特币持有者之一可能出售，直接利空。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/sstrategy-mstr-bitcoin-sales-pivot"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Q1公司买入5万枚BTC创新高",
+      "summary": "2026年第一季度，上市公司共买入50,351枚比特币，创历史新高。尽管Strategy亏损125亿美元，但其他公司增持势头强劲，显示机构需求旺盛，看多BTC。",
+      "reason": "机构持续增持，需求基本面强劲。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5af5o/companies_bought_a_record_50351_bitcoin_in_q1/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Solana携手谷歌云推AI支付",
+      "summary": "Solana与谷歌云合作，将加密支付集成到AI API中。这为Solana带来实际应用场景，提升生态价值，看多SOL。",
+      "reason": "重大合作伙伴关系，提升Solana采用。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5afcy/solana_and_google_cloud_bring_crypto_payments_to/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "西联汇款在Solana发行稳定币",
+      "summary": "西联汇款（Western Union）在Solana链上推出稳定币用于跨境汇款。此举将传统金融与加密结合，利好Solana生态及稳定币采用，看多SOL。",
+      "reason": "传统金融机构采用Solana，增强网络效应。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5af5o/companies_bought_a_record_50351_bitcoin_in_q1/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "DeFi协议Ekubo遭攻击损失140万",
+      "summary": "攻击者通过approval漏洞从StarkNet上DeFi协议Ekubo盗走140万美元的封装比特币（wBTC）。虽金额不大，但提醒生态安全风险，短期内可能轻微利空相关资产。",
+      "reason": "安全事件打击信心，但影响有限。",
+      "category": "链上异动",
+      "impact_coins": ["wBTC", "BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400189/attackers-drain-1-4m-in-wrapped-bitcoin-from-defi-protocol-ekubo-in-approval-based-exploit"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
