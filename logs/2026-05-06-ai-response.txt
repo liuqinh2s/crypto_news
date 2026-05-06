@@ -1924,3 +1924,114 @@ content length: 3664
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2310, prompt_tokens=11938, total_tokens=14248, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=996, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10914)
+content length: 3495
+============================================================
+{
+  "news": [
+    {
+      "title": "Circle在Solana增发7.5亿USDC",
+      "summary": "Circle在Solana链上过去24小时增铸约7.5亿枚USDC，使总供应量增加。稳定币大规模增发通常预示资金入场，对加密市场整体看涨。链上数据显示增发主要发生在Solana网络，可能推动SOL及生态代币需求。",
+      "reason": "优先级一：稳定币大量铸造=资金入场信号，直接利好市场。",
+      "category": "链上异动",
+      "impact_coins": ["SOL", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511467.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗和平希望油价暴跌10%",
+      "summary": "美伊接近达成和平协议的消息推动布伦特原油日内重挫10%至98美元/桶，WTI跌超8%。油价暴跌缓解通胀担忧，利好风险资产，比特币突破82000美元。短期看多BTC及整个加密市场，但需警惕协议反复风险。",
+      "reason": "优先级二：宏观经济数据（油价大跌）利好风险资产，更新油价跌幅扩大。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511475.html"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/06/bitcoin-nasdaq-futures-rally-as-oil-crashes-6-on-iran-peace-deal-hopes"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BitMine买入10万ETH",
+      "summary": "BitMine Immersion Technologies以2.38亿美元买入101,745 ETH，持有ETH总数达518万枚。机构大额买入ETH显示长期看涨信心，直接利好ETH价格，可能带动以太坊生态代币。",
+      "reason": "优先级一：机构大额买入=强看多信号，链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdnhwSHc0OU5MZEdfVEFfa09lOGwxbVNOekkyRjA4cnlWSFJtYmZyWUd6M3MzYmRQNnRLTkdZZkNLLXJadUtNOE01UFdHdWJVdVN2MGZBMDZnSk8xT0ZyQ3NCY0dSUWswSXEtVFlxS2IwZl9OWkE1VnMyb0ZlRngwZ1FXVDB4TXBhbFhZUkVJaUQwUFJE"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Manta Network终止质押计划",
+      "summary": "Manta Network宣布将终止Manta质押计划，具体细节未披露。质押终止可能减少代币锁定需求，短期内对MANTA价格构成利空，但若伴随解锁计划需谨慎。影响局限于MANTA及生态项目。",
+      "reason": "优先级二：项目重大更新，直接影响代币供需。",
+      "category": "项目更新",
+      "impact_coins": ["MANTA"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511472.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Western Union在Solana发稳定币",
+      "summary": "Western Union宣布在Solana上发行稳定币用于汇款，标志传统金融巨头采用加密网络。此举将提升Solana网络使用的真实需求，长期利好SOL及生态，但短期影响有限。",
+      "reason": "优先级二：机构采用Solana，中期利好。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t58ryi/western_union_launches_stablecoin_on_solana_for/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Telegram成为TON最大验证者",
+      "summary": "Telegram取代TON基金会成为TON最大验证者，消息后TON代币大涨。Telegram深度参与网络共识，增强生态信心，短期看涨TON。",
+      "reason": "优先级二：项目关键进展，直接影响TON市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["TON"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t58pfc/telegram_replaces_ton_foundation_as_tons_largest/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
