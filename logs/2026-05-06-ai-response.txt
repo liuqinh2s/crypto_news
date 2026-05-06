@@ -2362,3 +2362,79 @@ content length: 4630
   ],
   "note": "筛选过程中排除了大量重复事件（如摩根士丹利加密交易、Strategy出售比特币、美伊和平、ZEC暴涨、Hut 8合同等历史已覆盖），保留7条新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2341, prompt_tokens=16063, total_tokens=18404, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1344, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15039)
+content length: 2610
+============================================================
+{
+  "news": [
+    {
+      "title": "Y Combinator首办加密初创面试",
+      "summary": "Y Combinator宣布将于2026年在纽约首次举办加密货币初创公司面试活动，标志着主流孵化器对加密领域的进一步认可。此举可能吸引更多优质项目进入加密生态，提升行业创新和资本流入。影响币种：整体市场情绪，尤其利好生态型项目如ETH、SOL。中长期看多信号。",
+      "reason": "头部孵化器首次将加密初创面试扩展到纽约，显示加密行业主流化趋势，属机构动向，中期利好市场情绪。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400239/y-combinator-crypto-startup-interviews-new-york-first-time"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "稳定币法案Clarity Act今夏通过",
+      "summary": "Coinbase首席法律官Grewal在Consensus大会上表示，Clarity Act有望今夏通过，并呼吁银行接受稳定币妥协方案。该法案将为稳定币提供联邦监管框架，可能加速银行和机构采用。影响币种：USDT、USDC等稳定币，以及整体加密市场。若通过，将大幅降低监管不确定性，长期看多。",
+      "reason": "稳定币监管法案进展直接影响市场合规性和机构入场节奏，属重大监管动态，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400230/clarity-act-will-pass-this-summer-coinbase-clo-grewal-backs-stablecoin-compromise-urges-banks-to-accept-deal"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "三星SDS承建韩国区块链证券系统",
+      "summary": "三星SDS赢得韩国证券存管所合同，将构建代币化证券平台，推动韩国资本市场基础设施升级。此举表明韩国在代币化领域的积极推进，可能带动亚洲其他地区跟进。影响币种：代币化相关项目如POLYX、ONDO，以及主流币ETH。利好信号，但影响需要时间发酵。",
+      "reason": "大型企业参与国家证券代币化系统建设，属项目更新与机构动向，中期利好代币化赛道。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "POLYX", "ONDO"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/samsung-sds-to-build-token-securities-platform-for-korea-securities-depository"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "纽交所代币化伙伴警告合成股票风险",
+      "summary": "纽约证券交易所的代币化合作伙伴警告称，合成股票代币可能误导散户投资者，强调需要清晰的标识和风险披露。该言论可能引发监管对代币化股票的关注，短期增加合规不确定性。影响币种：代币化股票相关项目如POLYX、TEMPLE等。中性偏空，但影响有限。",
+      "reason": "来自交易所合作方的警示可能影响代币化产品的监管态度，属监管政策相关，但偏负面。",
+      "category": "监管政策",
+      "impact_coins": ["POLYX", "TEMPLE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/06/nyse-tokenization-partners-warn-synthetic-stock-tokens-could-mislead-retail-traders"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本次抓取中多条重大消息（BTC突破82K、Hut 8/摩根士丹利/Strategy等）已在前几小时历史标题中覆盖，故输出4条新消息。"
+}
