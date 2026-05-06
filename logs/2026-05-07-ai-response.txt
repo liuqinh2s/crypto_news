@@ -662,3 +662,94 @@ content length: 3742
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3078, prompt_tokens=14952, total_tokens=18030, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1921, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13928)
+content length: 3041
+============================================================
+{
+  "news": [
+    {
+      "title": "纳斯达克支持SEC加密新政",
+      "summary": "Nasdaq总裁表示SEC新的加密监管立场允许市场‘重建’，意味着监管环境正从打压转向支持。此举利好整个加密市场，特别是比特币和以太坊等主流资产，可能吸引更多传统金融机构入场。短期看多情绪增强。",
+      "reason": "直接信号：监管政策转向宽松，利好行业长期发展，符合优先级一中的重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "格兰特·卡多恩增持BTC",
+      "summary": "知名投资人Grant Cardone表示其比特币+房地产策略可能跑赢REITs，并已将更多BTC加入 treasury。这是机构/个人持续买入比特币的信号，直接增加需求，利好BTC价格。",
+      "reason": "机构动向：知名人士公开增持BTC，属于优先级二中的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/06/bitcoin-real-estate-strategy-could-outperform-reits-says-grant-cardone-he-adds-btc-to-treasury"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "华尔街清算所寻求高性能区块链",
+      "summary": "华尔街清算所（DTCC）正在寻找‘高性能’区块链来代币化公司行为。此举表明传统金融基础设施正积极探索区块链，可能推动RWA（真实世界资产）代币化，利好以太坊、Solana等高性能公链。",
+      "reason": "机构采用：传统金融巨头探索区块链，属于优先级二中的机构动向，中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/06/wall-street-s-clearinghouse-seeks-high-performance-blockchains-to-tokenize-corporate-actions"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "明尼苏达州禁止加密ATM",
+      "summary": "明尼苏达州因诈骗担忧成为最新禁止加密ATM的州。短期可能影响加密采用情绪，尤其对山寨币和小额交易构成压力，但影响范围有限，整体市场影响中性偏空。",
+      "reason": "监管政策：地方级禁令，虽影响有限但属于监管收紧信号，符合优先级一中的重大监管动态（降低影响等级）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "InForum",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTEItZDVGQjFPd0dySTVFZmEzOXpSZHRwUXJ5SkJoVEpSMmpSV2NETzlPSEtNaFI4SGp5X2ltdndIZXBXeVBXQ1k1TlRWX2dXNlNxYVJHU1NFdTN6WTBtNUFjcFhrcENLUGotblBHcDlxODNoMDRoLVdYei1pU29rV3JwVkVjSDJTZnEwRnA5cw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Reid Hoffman：NFT可能回归",
+      "summary": "LinkedIn联合创始人Reid Hoffman表示随着AI代理对在线身份的压力，NFT可能回归。此言论可能提振NFT市场情绪，但对加密货币整体市场影响有限，属于市场情绪信号。",
+      "reason": "市场情绪：知名人士对NFT的乐观预测，但缺乏直接交易价值，归类为市场情绪，影响级别低。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH", "NFT"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/06/reid-hoffman-says-nfts-may-make-a-comeback-as-ai-agents-strain-online-identity"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
