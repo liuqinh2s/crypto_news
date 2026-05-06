@@ -789,3 +789,79 @@ content length: 1817
   ],
   "note": "经过严格去重筛选，本轮仅有3条未在历史消息中重复且具有交易价值的新消息。其余素材均为重复内容或低价值信息，因此输出少于5条。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2946, prompt_tokens=14083, total_tokens=17029, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1897, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13059)
+content length: 2783
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy或出售BTC付股息",
+      "summary": "Michael Saylor的Strategy公司暗示可能出售部分比特币持仓以支付股息义务，打破此前'永不卖出'的承诺。这可能意味着巨鲸抛压，对BTC形成利空。比特币近期突破8万美元，但若Strategy出售数千枚BTC，可能压制价格。今日BTC暂报81,500美元。",
+      "reason": "直接影响行情：巨鲸可能抛售BTC，符合优先级一。历史消息中仅有Strategy财报亏损，未提及出售信号，属于新进展。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/05/michael-saylor-s-strategy-signals-potential-bitcoin-sale-to-fund-dividends-obligations"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "RippleCEO：市场结构法案未定",
+      "summary": "Ripple CEO Brad Garlinghouse表示，尽管稳定币方面达成妥协，但关键的市场结构法案尚未定局，未来两周至关重要。这为XRP和整体加密监管前景带来不确定性。若法案通过将利好，若失败则利空。短期中性偏观望。",
+      "reason": "市场结构法案影响监管政策走向，属于优先级一监管动态。历史中虽有其他Ripple言论，但本条聚焦法案进展，有新信息。",
+      "category": "监管政策",
+      "impact_coins": ["XRP", "BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/ripple-ceo-market-structure-progress-stablecoin-compromise"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave：债权人欲扣押被盗ETH",
+      "summary": "Aave表示，债权人正试图在受害者追回之前扣押被窃的7100万美元ETH，影响此前黑客事件资金返还。这可能加剧ETH抛压，并引发DeFi信任危机。短期对ETH偏空，但对Aave协议影响有限。",
+      "reason": "涉及黑客事件后续及DeFi安全，属于优先级一项目方重大事件。历史中未出现此具体进展，新消息。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t4vs31/aave_says_creditors_are_trying_to_seize_stolen/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至46",
+      "summary": "加密货币恐惧贪婪指数从50降至46，进入恐惧区间，表明市场情绪偏向悲观。历史低位往往预示中长期买入机会，但短期可能继续承压。当前比特币在8万以上，需要警惕回调风险。",
+      "reason": "市场情绪极值信号，符合优先级三。历史记录中数值为50，最新更新为46，有变化。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Wormhole桥接TAO至Solana",
+      "summary": "Wormhole将BitTensor的TAO代币规范版桥接到Solana，扩大TAO在多链的流动性。对TAO和Solana生态利好，但短期价格影响有限。TAO近期随AI叙事上涨，桥接可能增加交易者兴趣。",
+      "reason": "链上跨链事件，属于优先级二技术升级/里程碑。历史中未出现此消息，有新信息。",
+      "category": "项目更新",
+      "impact_coins": ["TAO", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t4whs7/wormhole_bridges_canonical_version_of_bittensors/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
