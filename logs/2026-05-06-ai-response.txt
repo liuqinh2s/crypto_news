@@ -1667,3 +1667,62 @@ content length: 2233
   ],
   "note": "本轮抓取素材中多数为重复消息，仅有3条新消息值得关注，但影响力较低。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1639, prompt_tokens=10945, total_tokens=12584, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=949, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9921)
+content length: 1801
+============================================================
+{
+  "news": [
+    {
+      "title": "Taurus获塞浦路斯MiFID许可",
+      "summary": "加密货币托管公司Taurus获得塞浦路斯MiFID许可证，可直接进入欧盟资本市场。这标志着加密合规化的重要进展，有望吸引更多机构资金。影响比特币、以太坊等主流币，中长期看多。",
+      "reason": "监管利好，MiFID许可证使加密托管服务纳入欧盟金融框架，提升机构参与信心。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Anchorage推出代理银行服务",
+      "summary": "加密托管机构Anchorage与谷歌云合作推出代理银行服务，CEO称这是万亿美元级机会。该服务允许机构客户通过链上账户管理资金，推动传统金融与加密融合。利好BTC、ETH等主流币。",
+      "reason": "机构创新，强化加密基础设施，吸引传统资金入场。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/anchorage-google-cloud-launch-agentic-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "分析师：Warsh任Fed主席利好加密",
+      "summary": "加密分析师Andrew Parish认为，若Kevin Warsh出任美联储主席，即使最坏情景下加密前景仍看涨。因Warsh可能采取更宽松货币政策，利好风险资产。对BTC、ETH等整体市场情绪偏多。",
+      "reason": "宏观经济预期转变，市场博弈美联储人事变动，若兑现则流动性环境改善。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sOUtwWkk0MmVaTFlkZ08tZ0FRVTI3Y2JydGx1RHNUYm1TYkQ5RFd5TUxPRmRJejgzU1o3ZW0tOGxXeFFaMFJlZW1FbHMwaE0tc0ZJRXR2a01EUUE?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}

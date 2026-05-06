@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-06",
+  "hour": "16",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10945,
+    "completion_tokens": 1639,
+    "total_tokens": 12584
+  },
+  "content_length": 1801,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Taurus获塞浦路斯MiFID许可\",\n      \"summary\": \"加密货币托管公司Taurus获得塞浦路斯MiFID许可证，可直接进入欧盟资本市场。这标志着加密合规化的重要进展，有望吸引更多机构资金。影响比特币、以太坊等主流币，中长期看多。\",\n      \"reason\": \"监管利好，MiFID许可证使加密托管服务纳入欧盟金融框架，提升机构参与信心。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Anchorage推出代理银行服务\",\n      \"summary\": \"加密托管机构Anchorage与谷歌云合作推出代理银行服务，CEO称这是万亿美元级机会。该服务允许机构客户通过链上账户管理资金，推动传统金融与加密融合。利好BTC、ETH等主流币。\",\n      \"reason\": \"机构创新，强化加密基础设施，吸引传统资金入场。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/anchorage-google-cloud-launch-agentic-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"分析师：Warsh任Fed主席利好加密\",\n      \"summary\": \"加密分析师Andrew Parish认为，若Kevin Warsh出任美联储主席，即使最坏情景下加密前景仍看涨。因Warsh可能采取更宽松货币政策，利好风险资产。对BTC、ETH等整体市场情绪偏多。\",\n      \"reason\": \"宏观经济预期转变，市场博弈美联储人事变动，若兑现则流动性环境改善。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Cryptonews.net\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sOUtwWkk0MmVaTFlkZ08tZ0FRVTI3Y2JydGx1RHNUYm1TYkQ5RFd5TUxPRmRJejgzU1o3ZW0tOGxXeFFaMFJlZW1FbHMwaE0tc0ZJRXR2a01EUUE?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
