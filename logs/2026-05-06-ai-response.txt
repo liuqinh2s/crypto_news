@@ -1403,3 +1403,114 @@ content length: 3360
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2562, prompt_tokens=10631, total_tokens=13193, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1913, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9607)
+content length: 1434
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP突破1.42美元看涨形态",
+      "summary": "XRP价格升至1.42美元以上，交易者关注2025年曾引发66%涨幅的突破形态。若历史重演，XRP可能迎来新一轮上涨。需注意整体市场情绪和比特币走势影响。直接利好XRP，看多信号。",
+      "reason": "XRP价格突破关键技术位并伴随历史看涨模式，属于市场情绪和技术分析重要信号，可能引发短期交易机会。",
+      "category": "市场情绪",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/06/xrp-above-usd1-42-as-traders-watch-2025-breakout-pattern-that-led-to-66-rally"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitmine持有518万枚ETH巨量囤积",
+      "summary": "Bitmine Immersion Technologies宣布持有518万枚ETH，总加密资产达131亿美元。这是明确的巨鲸囤积行为，显示机构对ETH长期看好，减少市场流通供应，利好ETH价格。",
+      "reason": "巨鲸大量持有且未转入交易所，属链上异动中的囤币信号，对ETH有直接看多推动作用。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVHVwWXlJMDMwaE5CaFB0WDQtNFd2bXhMc0R0aFUzTW5BU2dQd1M0WFV4Sm5XanNkV2JYenBTN1pjWGxhQndTMGJWbjhweXJvYXRrUllNTUtURXI4QnROVmlTR2RyZ29wcDJPOEkxaVdQQnNnOXBEZFhvQmMycG1McmlWS05XeGQ0bDRiMGZvcFVxS1ZxZUV6bndhVjlXc3Y1d1BNd094N0ZiRFJ5LXUxdlIxR3BTNFVKOWhsRg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分新闻已被历史消息覆盖，仅筛选出2条具有实际交易价值的新消息。剩余公告类、重复消息及无重大影响内容已排除。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1953, prompt_tokens=10631, total_tokens=12584, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=746, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=7)
+content length: 2866
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP突破1.42美元关注突破形态",
+      "summary": "XRP价格突破1.42美元，交易者关注2025年类似突破模式，当时该模式引发了66%的涨幅。技术形态显示XRP可能延续上涨趋势，若突破确认，目标可看更高。利好XRP，但需警惕假突破风险。",
+      "reason": "XRP形成突破性技术形态，历史重复模式可能引发短期上涨行情，交易价值高。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/06/xrp-above-usd1-42-as-traders-watch-2025-breakout-pattern-that-led-to-66-rally"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸起诉Coinbase拒退被盗DAI",
+      "summary": "一名加密货币巨鲸起诉Coinbase，称交易所拒绝归还其因钓鱼攻击被盗的DAI代币。该事件可能引发对Coinbase安全流程的质疑，短期内增加DAI交易所提现风险，并可能拖累Coinbase相关代币及DeFi情绪。",
+      "reason": "涉及Coinbase安全争议和巨鲸法律行动，可能影响平台信任度和DAI流动性。",
+      "category": "交易所",
+      "impact_coins": ["DAI", "COIN"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/400152/crypto-whale-sues-coinbase-for-allegedly-refusing-to-return-stolen-dai"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "朝鲜黑客疑似再次攻击Aave",
+      "summary": "Reddit社区讨论称朝鲜黑客可能在Aave协议上进行双重攻击，利用先前漏洞再次获利。若属实，Aave将面临锁仓量下降和信任危机，短期内AAVE价格承压，DeFi板块整体情绪受挫。",
+      "reason": "黑客攻击事件直接威胁DeFi协议安全，可能引发恐慌抛售。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t52rkm/did_north_korean_hackers_just_play_aave_twice/"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Bitmine持有518万枚ETH机构巨鲸",
+      "summary": "Bitmine Immersion Technologies宣布其持有的ETH达到518万枚，加密货币和现金总持有量达131亿美元。如此大规模的ETH持仓显示机构对ETH长期价值的信心，减少市场抛压预期，利好ETH。",
+      "reason": "巨量ETH持仓信息属于链上异动和机构动向，提振市场信心。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Moomoo", "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVHVwWXlJMDMwaE5CaFB0WDQtNFd2bXhMc0R0aFUzTW5BU2dQd1M0WFV4Sm5XanNkV2JYenBTN1pjWGxhQndTMGJWbjhweXJvYXRrUllNTUtURXI4QnROVmlTR2RyZ29wcDJPOEkxaVdQQnNnOXBEZFhvQmMycG1McmlWS05XeGQ0bDRiMGZvcFVxS1ZxZUV6bndhVjlXc3Y1d1BNd094N0ZiRFJ5LXUxdlIxR3BTNFVKOWhsRg?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线AMD等股票合约",
+      "summary": "Binance Futures将于今日上线AMDUSDT、QCOMUSDT和USARUSDT永续合约。新合约带来交易机会，增加市场流动性，但对加密原生市场影响有限，主要涉及股票代币。",
+      "reason": "新合约上线吸引交易量，但影响范围局限在特定代币。",
+      "category": "交易所",
+      "impact_coins": ["AMD", "QCOM", "USAR"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01"}],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "已排除重复的Strategy卖BTC、Kelp攻击、CME比特币波动率期货、恐惧贪婪46等消息。"
+}

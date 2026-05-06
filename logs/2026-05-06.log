@@ -1170,3 +1170,105 @@
 2026-05-06 04:01:22 [INFO] 🔗 来源链接覆盖: 8/8 条新闻有有效链接
 2026-05-06 04:01:22 [INFO] 📦 JSON 已保存: reports/2026-05-06-12.json
 2026-05-06 04:01:22 [INFO] ✅ AI 筛选完成，共 8 条交易相关消息
+2026-05-06 05:00:38 [INFO] 🚀 开始抓取 2026-05-06 13:00 币圈新闻
+2026-05-06 05:00:38 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-06 05:00:38 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-06 05:00:39 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ Decrypt: 过滤掉 39 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-06 05:00:39 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-06 05:00:39 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ CoinDesk: 过滤掉 23 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:39 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:40 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:40 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:40 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-05-06 05:00:40 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:40 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:40 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-06 05:00:40 [INFO]   ⏭ Crypto Twitter: 过滤掉 48 条非近期新闻
+2026-05-06 05:00:40 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-05-06 05:00:54 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-06 05:00:54 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-06 05:00:54 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-06 05:00:54 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-06 05:00:54 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:55 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-06 05:00:55 [INFO]   ✓ CoinDesk: 2 条
+2026-05-06 05:00:55 [INFO]   ✓ The Block: 1 条
+2026-05-06 05:00:55 [INFO]   ✓ Decrypt: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-06 05:00:55 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ Blockworks: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ DL News: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ 金色财经: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ PANews: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-06 05:00:55 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-05-06 05:00:55 [INFO]   ✓ Crypto Twitter: 2 条
+2026-05-06 05:00:55 [INFO]   ✓ 宏观经济: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ Binance公告: 20 条
+2026-05-06 05:00:55 [INFO]   ✓ OKX公告: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ Bitget公告: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ Whale Alert: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-06 05:00:55 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-06 05:00:55 [INFO]   ✓ 雪球加密: 1 条
+2026-05-06 05:00:55 [INFO] 📊 共抓取 31 条新闻
+2026-05-06 05:00:55 [INFO] 📋 原始新闻已保存: reports/2026-05-06-13-raw.json (31 条)
+2026-05-06 05:00:55 [INFO] 📋 标题摘要已保存: reports/2026-05-06-13-raw-titles.md
+2026-05-06 05:00:55 [INFO] ✅ 抓取完成，共 31 条，已保存到 reports/2026-05-06-13-raw.json
+2026-05-06 05:00:55 [INFO] 🤖 开始 AI 筛选 2026-05-06 13:00 币圈消息
+2026-05-06 05:00:55 [INFO] 📋 已加载原始新闻: reports/2026-05-06-13-raw.json (31 条)
+2026-05-06 05:00:55 [INFO] 📚 已加载历史新闻标题（20141 字符）
+2026-05-06 05:00:55 [INFO] 📚 已加载历史筛选标题 23 条、URL 23 个，用于去重
+2026-05-06 05:00:55 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-06 05:00:55 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-06 05:00:55 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（31 条，6345 字符，temp=0.3）
+2026-05-06 05:01:31 [INFO] AI 原始返回已保存: logs/2026-05-06-ai-response.txt (finish_reason=stop, 1434 字符)
+2026-05-06 05:01:31 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-06-13-ai-raw.json
+2026-05-06 05:01:31 [DEBUG] parse_json_response 输入长度: 1434 字符
+2026-05-06 05:01:31 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "XRP突破1.42美元看涨形态",
+      "summary": "XRP价格升至1.42美元以上，交易者关注2025年曾引发66%涨幅的突破形态。若历史重演，XRP可能迎来新一轮上涨。需注意整体市场情绪和比特币走势影响。直接利好XRP，看多信号。",
+      "reason": "XRP价格突破关键技术位并伴随历史看涨模式，属于市场情绪和技术分析重要信号，可能引发短期交易机会。",
+      "category": "市场情绪",
+      "impact_coins": ["XRP"],
+      "si
+2026-05-06 05:01:31 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-06 05:01:31 [INFO] ✅ AI 返回 2 条新闻
+2026-05-06 05:01:31 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-05-06 05:01:31 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（31 条，6345 字符，temp=0.3）
+2026-05-06 05:01:55 [INFO] AI 原始返回已保存: logs/2026-05-06-ai-response.txt (finish_reason=stop, 2866 字符)
+2026-05-06 05:01:55 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-06-13-ai-raw.json
+2026-05-06 05:01:55 [DEBUG] parse_json_response 输入长度: 2866 字符
+2026-05-06 05:01:55 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "XRP突破1.42美元关注突破形态",
+      "summary": "XRP价格突破1.42美元，交易者关注2025年类似突破模式，当时该模式引发了66%的涨幅。技术形态显示XRP可能延续上涨趋势，若突破确认，目标可看更高。利好XRP，但需警惕假突破风险。",
+      "reason": "XRP形成突破性技术形态，历史重复模式可能引发短期上涨行情，交易价值高。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "
+2026-05-06 05:01:55 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-05-06 05:01:55 [INFO] ✅ AI 返回 5 条新闻
+2026-05-06 05:01:55 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-05-06 05:01:55 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-05-06 05:01:55 [INFO] 📦 JSON 已保存: reports/2026-05-06-13.json
+2026-05-06 05:01:55 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
