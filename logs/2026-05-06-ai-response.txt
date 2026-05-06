@@ -1288,3 +1288,118 @@ content length: 4326
   ],
   "note": "根据筛选标准，从27条素材中选出7条关键消息，其余为过时或无关内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2367, prompt_tokens=11267, total_tokens=13634, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1112, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10243)
+content length: 3360
+============================================================
+{
+  "news": [
+    {
+      "title": "加密市场结构立法下周审议",
+      "summary": "美国参议员宣布加密市场结构立法将于下周进行审议，目标在7月4日前签署成为法律。若通过，将为加密资产提供明确监管框架，利好整个行业。主要影响BTC、ETH等主流币，长期看多信号。",
+      "reason": "重大监管利好，优先级一，直接影响行情。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511419.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国现货BTC ETF净流入4.67亿美元",
+      "summary": "5月5日美国现货比特币ETF净流入4.6738亿美元，显示机构持续增持BTC。大规模资金流入支撑价格，看多信号。",
+      "reason": "ETF资金流向直接影响BTC价格，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511411.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国现货ETH ETF净流入9758万美元",
+      "summary": "5月5日美国现货以太坊ETF净流入9758万美元，同样显示机构对ETH的需求强劲。利好ETH价格，看多。",
+      "reason": "ETF资金流向直接影响ETH价格，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511412.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸做空2032万美元BTC",
+      "summary": "某巨鲸做空价值2032万美元比特币，清算价82,236.61美元。若BTC上涨至清算价上方，将导致空头挤压，可能推动价格进一步上行。短期偏多，但需关注风险。",
+      "reason": "大额做空仓位，链上异动，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511410.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "2.8万枚ETH转入EtherFi",
+      "summary": "约2.8万枚ETH（价值约6600万美元）从未知钱包转移至EtherFi，可能为质押或流动性提供。ETH流出交易所通常视为囤币信号，但对价格影响中性偏多。",
+      "reason": "大额ETH转移，链上异动，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511417.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitcoin Core漏洞威胁节点安全",
+      "summary": "Bitcoin Core披露一个漏洞，允许矿工在他人节点上运行代码，约43%节点尚未修复。可能影响网络安全性，短期利空BTC，但修复后影响有限。",
+      "reason": "技术漏洞影响BTC网络，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511406.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Multicoin Capital大额建仓Zcash",
+      "summary": "Multicoin Capital联合创始人表示，自二月起已大额建仓Zcash（ZEC）。机构增持表明看好ZEC前景，看多信号。",
+      "reason": "机构动向，直接利好ZEC，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["ZEC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511413.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Robinhood上线前多代币异常交易",
+      "summary": "Kaiko报告指出，多个代币在Robinhood上线公告前出现异常交易活动，暗示可能存在内幕交易。对相关代币短期有波动风险，但影响不确定。",
+      "reason": "交易所相关异常交易，优先级二。",
+      "category": "交易所",
+      "impact_coins": ["未明确"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511408.html"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
