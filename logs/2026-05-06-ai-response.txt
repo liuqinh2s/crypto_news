@@ -2273,3 +2273,92 @@ content length: 4262
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3477, prompt_tokens=16970, total_tokens=20447, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1569, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15946)
+content length: 4630
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken重启IPO计划",
+      "summary": "据报道，加密货币交易所Kraken正在重启IPO计划，已与投行接洽，可能于明年上市。这一消息提振了市场对中心化交易所板块的信心。Kraken若成功上市，将增加合规透明度，利好加密行业整体估值，尤其对Coinbase等竞品构成潜在竞争但更强化了合规叙事。影响币种：Kraken暂无原生代币，但可关联平台币如BNB、OKB等。整体看多，因上市标志着主流化进程。",
+      "reason": "机构动向，交易所上市属于重大事件，直接影响市场情绪和合规叙事。",
+      "category": "ETF机构",
+      "impact_coins": ["BNB", "OKB", "BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdThPWTFwUzI2VVlsUFFDMHNVUDdCdmN2YjRQVmpZSS1VaGVFalZkY3hXc21QZGhRZ0dLYVg1UXV6Ui1ZX2d0VU1kS0lFZU5GdVFuNHlhallGWU1nZVVhdWdheExjdUVfSHRxSk9NQWU1ZWl3bDR3S0JNYUhzRlVEYlFuRkF4LW04Z3VwaHRTdHBGY2NRMjFaT1VRSkpa?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币核心修复高危内存漏洞",
+      "summary": "Bitcoin Core在数月前悄悄修复了一个高危内存漏洞，但仍有大量节点未更新。该漏洞可能导致节点崩溃或潜在远程攻击。虽然补丁已发布，但运行旧版本的节点仍面临风险。可能引发短期恐慌，但对BTC价格直接影响有限，因未发生实际攻击。认为中性偏空，需关注节点更新进度。",
+      "reason": "重大技术安全漏洞，直接影响比特币网络稳定性，属于链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/400203/bitcoin-core-quietly-patched-high-severity-memory-bug-months-before-public-disclosure-but-many-nodes-may-still-run-affected-software?utm_source=rss&utm_medium=rss"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "21Shares上线策略ETN于伦交所",
+      "summary": "21Shares在伦敦证券交易所推出了与MicroStrategy (Strategy) 相关的ETN（代码STRC），进一步扩大了英国投资者的比特币敞口。此举为机构提供了合规的比特币关联产品，可能增加MSTR股价和比特币的买盘。看多信号，尤其利好MSTR和BTC。",
+      "reason": "机构产品上市，扩大比特币投资渠道，属于ETF机构类别。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/400207/21shares-lists-strategy-linked-strc-etn-london-stock-exchange-expands-uk-footprint?utm_source=rss&utm_medium=rss"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tom Lee：加密货币春天已至",
+      "summary": "知名分析师Tom Lee表示，基于技术指标和机构入场的迹象，加密货币市场已开启新一轮牛市周期。此类KOL言论通常提振散户情绪，但需警惕过度乐观。对BTC和ETH情绪面利好，但为中期观点。",
+      "reason": "市场情绪信号，知名人物看法影响交易者心理。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZTVhUVhIREgxZWJfXzZ5NXpnQldlcWdiWHIxZnF6UFNvMlRwRVlCb2h0ZWdBRzVYdjB4TzlQQURBbHAxeUJjSUx4VHNLRmdMWWFVcFp6Z2dVRVJyMGlNQi1KaGtZMWhJQUN2VzJKQ1FUZ1hxeFh0NG5RcEQ5Ui1iNm9jeFNfTkpLWC16TW5KREtYRGExa01pZw?oc=5"}],
+      "urgency": "days"
+    },
+    {
+      "title": "OpenTrade融资1700万扩展稳定币收益",
+      "summary": "OpenTrade完成1700万美元融资，用于建设稳定币与现实世界资产收益的基础设施，其TVL已超2亿美元。该项目旨在连接传统金融与DeFi，推动稳定币采用。长期看多稳定币生态，利好USDC、DAI等。",
+      "reason": "中期影响，DeFi基础设施发展，属于项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["USDC", "DAI", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/06/opentrade-raises-usd17-million-to-expand-stablecoin-yield-infrastructure"}, {"name": "The Block", "url": "https://www.theblock.co/post/400187/opentrade-raises-17m-to-expand-stablecoin-yield-infrastructure-after-topping-200m-tvl?utm_source=rss&utm_medium=rss"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Linea将ZK rollup贡献给Linux基金会",
+      "summary": "以太坊Layer2项目Linea将其ZK rollup技术栈贡献给Linux基金会，推动开源协作。此举可能加速ZK技术的标准化和应用，利好以太坊扩展方案。对ETH及L2代币如ARB、OP等构成中长期利好。",
+      "reason": "技术升级与开放协作，中期影响以太坊生态。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "ARB", "OP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/linea-contributes-zk-rollup-stack-to-linux-foundation-open-source-group?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Bubblemaps预警MYSTERY代币狙击",
+      "summary": "链上分析平台Bubblemaps发现MYSTERY代币在发行时被90个钱包狙击，存在集中抛售风险。投资者需警惕该代币的拉高出货行为。直接利空MYSTERY，并警示其他新币风险。",
+      "reason": "项目风险警示，属于链上异动，可能引发快速价格变动。",
+      "category": "链上异动",
+      "impact_coins": ["MYSTERY"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/bubblemaps-flags-mystery-over-90-wallet-launch-sniping-cluster?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "筛选过程中排除了大量重复事件（如摩根士丹利加密交易、Strategy出售比特币、美伊和平、ZEC暴涨、Hut 8合同等历史已覆盖），保留7条新消息。"
+}
