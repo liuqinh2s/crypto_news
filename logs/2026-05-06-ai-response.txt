@@ -1514,3 +1514,96 @@ content length: 2866
   ],
   "note": "已排除重复的Strategy卖BTC、Kelp攻击、CME比特币波动率期货、恐惧贪婪46等消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2144, prompt_tokens=11070, total_tokens=13214, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1836, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10046)
+content length: 834
+============================================================
+{
+    "news": [
+        {
+            "title": "Iggy Azalea因MOTHER迷因币面临集体诉讼",
+            "summary": "说唱歌手Iggy Azalea因推广MOTHER迷因币被提起集体诉讼，指控其未披露代币经济模型及潜在抛售行为。该诉讼可能引发监管关注，对MOTHER币价造成压力。若判罚或和解，可能影响其他名人发币项目。信号：利空MOTHER及类似meme币。",
+            "reason": "涉及名人法律风险，可能引发监管关注，影响meme币市场情绪。虽然非主流币种，但属于项目重大事件，符合筛选标准。",
+            "category": "项目更新",
+            "impact_coins": ["MOTHER"],
+            "signal": "bearish",
+            "impact_level": 2,
+            "sources": [
+                {
+                    "name": "CoinTelegraph",
+                    "url": "https://cointelegraph.com/news/iggy-azalea-class-action-lawsuit-mother-memecoin"
+                }
+            ],
+            "urgency": "hours"
+        }
+    ],
+    "note": "本轮抓取的36条新闻中，35条与历史消息重复（如Strategy出售比特币、ETF资金流入、Kelp DAO迁移、巨鲸异动等），已严格去重排除。仅筛选出1条新消息，后续轮次请关注更多差异化内容。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1910, prompt_tokens=11070, total_tokens=12980, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=988, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11008), prompt_cache_hit_tokens=11008, prompt_cache_miss_tokens=62)
+content length: 2547
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy或出售BTC付股息",
+      "summary": "Michael Saylor暗示Strategy可能出售部分BTC以支付股息义务，打破此前'永不卖出'的承诺。Strategy Q1净亏损145亿美元，BTC持仓账面亏损。若大规模抛售将增加市场卖压，但Saylor称此举旨在'为市场接种'。可能影响BTC短期价格。看空信号。",
+      "reason": "顶级机构潜在抛售信号，直接影响BTC供需。虽已发酵但仍持续，需关注实际执行。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/06/bitcoin-tops-usd81-000-as-strategy-mulls-selling-its-btc-to-fund-dividend-obligations"},
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/strategy-could-sell-bitcoin-just-to-inoculate-the-market-michael-saylor"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Iggy Azalea遭MOTHER诉讼",
+      "summary": "说唱歌手Iggy Azalea因推广MOTHER memecoin面临集体诉讼，指控其未披露代币发行中的利益关系。MOTHER价格可能承压，监管关注度提升。看空MOTHER及类似名人币。",
+      "reason": "名人代币法律风险事件，直接打压MOTHER及同类项目，影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["MOTHER"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/iggy-azalea-class-action-lawsuit-mother-memecoin"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kelp DAO迁移至Chainlink",
+      "summary": "Kelp DAO因2.92亿美元漏洞攻击放弃LayerZero，选择迁移至Chainlink CCIP跨链基础设施。rsETH持有者需关注迁移进度。对LINK需求增加，对LayerZero信任受损。中性偏多LINK。",
+      "reason": "重大安全事件后续，影响跨链生态格局，涉及Kelp相关代币。",
+      "category": "链上异动",
+      "impact_coins": ["LINK", "rsETH", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/kelp-dao-to-migrate-rseth-to-chainlink-as-it-continues-to-blame-layerzero-infrastructure-failure"},
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/06/north-korea-terror-victims-escalate-fight-to-seize-usd71-million-from-aave-hack"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩黑客受害者扣押Aave资金",
+      "summary": "朝鲜黑客攻击受害者请求法院扣押Aave协议中约7100万美元ETH，债权人试图先行追索。Aave面临资金冻结风险，可能影响AAVE及DeFi借贷市场。看空AAVE。",
+      "reason": "DeFi协议法律风险，可能导致流动性危机，直接影响AAVE。",
+      "category": "监管政策",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/06/north-korea-terror-victims-escalate-fight-to-seize-usd71-million-from-aave-hack"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
