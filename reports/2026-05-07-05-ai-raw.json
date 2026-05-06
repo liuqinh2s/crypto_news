@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-07",
+  "hour": "05",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13853,
+    "completion_tokens": 1859,
+    "total_tokens": 15712
+  },
+  "content_length": 1864,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"白宫设定7月4日加密法案截止日\",\n      \"summary\": \"白宫设定了7月4日的最后期限，通过里程碑式的加密货币市场监管法案。该法案旨在为数字资产提供明确的监管框架，若通过将极大提振市场信心，吸引机构资金入场。利好所有主流币种，尤其是BTC和ETH。这是强烈的看多信号。\",\n      \"reason\": \"直接影响行情的重大监管利好，优先级一。法案通过将使美国成为加密货币友好管辖区，推动行业合规化，吸引大量资金。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"SOL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400320/white-house-aims-for-july-4-deadline-to-pass-landmark-crypto-regulation-bill?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Hyperliquid比特币鲸鱼多头仓位创新高\",\n      \"summary\": \"Hyperliquid上的比特币鲸鱼净多头仓位达到2026年最高水平，表明大型交易者强烈看涨BTC。资金费率和持仓量数据支持多头主导格局。这可能推动BTC进一步上涨，但需警惕极端拥挤后的回调风险。短期看多。\",\n      \"reason\": \"链上异动，优先级一。鲸鱼多头仓位可作为市场情绪和资金流向的关键指标，直接关联BTC价格。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400302/bitcoin-whales-hyperliquid-net-long-positions-2026-high?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Aave清算Kelp DAO攻击者剩余仓位\",\n      \"summary\": \"Aave已清算Kelp DAO攻击者剩余的rsETH仓位。此次清算表明DeFi协议风险事件接近尾声，但短期内可能对rsETH和相关LST资产造成抛压。对Aave本身是中性偏多，因其有效管理了风险。\",\n      \"reason\": \"项目更新，优先级二。涉及DeFi风险事件和协议清算，影响rsETH、Aave及LST赛道。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"AAVE\", \"ETH\", \"rsETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400315/aave-liquidates-kelp-dao-attackers-remaining-rseth-positions?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
