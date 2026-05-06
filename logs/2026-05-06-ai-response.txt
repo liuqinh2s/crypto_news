@@ -1817,3 +1817,110 @@ content length: 3075
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3042, prompt_tokens=12044, total_tokens=15086, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1585, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11020)
+content length: 3664
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗和平希望油价暴跌6%",
+      "summary": "受伊朗和平协议新希望影响，国际油价暴跌6%，比特币突破82,000美元。宏观风险偏好回升，资金从大宗商品流向风险资产。可能影响所有加密货币，尤其是BTC和ETH。看多信号：地缘政治缓和+油价下跌利好风险资产。",
+      "reason": "宏观风险偏好大幅改善，直接推动比特币上涨，属于重大宏观事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/06/bitcoin-nasdaq-futures-rally-as-oil-crashes-6-on-iran-peace-deal-hopes"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strategy亏损扩大股价下跌",
+      "summary": "Strategy公布财报显示损失扩大，比特币持仓价值达640亿美元，但公司可能为支付股息而减持BTC。Michael Saylor此前暗示出售比特币，市场担忧实际抛售压力。可能影响BTC价格，短期偏空。看空信号：机构潜在抛售。",
+      "reason": "最大机构持有者考虑减持比特币，直接增加抛压预期，影响市场情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Barron's",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQcXVRc2lDSEx4TFdLeDZNZV9IcUxvUXYzS1hNenk1R1BNMjhpTVZ4US10Q2ZpVnZhUXA3WUFhdzZOZ2dYTC1RLU1PZkQ3RXlHblJRYkFhRktWaHRXdFZqa0pIZ3dfSXVoWXoweFZjNnI?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "OKX上线OpenAI/SpaceX永续",
+      "summary": "OKX推出OpenAI和SpaceX的永续期货合约，允许交易者做多或做空这些未上市巨头的股价。此举显示加密衍生品市场与传统投资标的的融合加深，可能吸引更多传统投资者进入加密生态。影响整体市场情绪，中性偏多。",
+      "reason": "交易所推出新型衍生品，扩大加密市场吸引力，属于题材性利好。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/06/okx-joins-crypto-s-pre-ipo-frenzy-with-openai-spacex-perpetual-futures"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CME将推比特币波动率期货",
+      "summary": "CME宣布将推出比特币波动率期货，为投资者提供对冲BTC波动风险的新工具。该产品有助于提升机构参与度，增加市场深度和成熟度。利好BTC生态，中长期看多。",
+      "reason": "主流交易所推出新衍生品，提升比特币市场工具，吸引机构资金。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Markets Media",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xUERnb0xVRExpRGxZTjRTa2YzdVpuNDNTaGE5R3FtcEo3bjhnVm42ZGUwVGJkSkFTcWw2cG1ManhXeFplOHJWU3o0S0N1a3Bja2dMekxfVHZqbkNNRUhwcWhLT21BWkUyaG1xS2laZzl4WVpKbWJTNQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitwise预测稳定币供应2030年4万亿",
+      "summary": "Bitwise首席投资官表示，大型科技公司的稳定币测试可能推动全球稳定币供应到2030年达到4万亿美元。若实现，将大幅增加加密市场流动性，利好整个行业。长期看多BTC、ETH及DeFi代币。",
+      "reason": "稳定币增长是加密流动性重要指标，大机构预测具有前瞻性。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400170/bitwise-cio-says-big-tech-stablecoin-tests-could-help-drive-4-trillion-supply-by-2030?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Solana打造AI机器经济支付",
+      "summary": "Solana基金会主席Lily Liu表示，Solana正在为AI机器经济构建支付基础设施，强调区块链在自动化交易和微支付中的潜力。这强化了SOL作为高性能公链的叙事，可能吸引开发者关注。中线看多SOL。",
+      "reason": "行业领袖讲话，突出Solana技术定位，具有概念炒作价值。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/06/beyond-humans-lily-liu-says-solana-is-building-the-payment-rails-for-the-ai-machine-economy"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
