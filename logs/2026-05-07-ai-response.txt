@@ -511,3 +511,154 @@ content length: 1864
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3784, prompt_tokens=14488, total_tokens=18272, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3336, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13464)
+content length: 1188
+============================================================
+{
+  "news": [
+    {
+      "title": "美国比特币储备即将更新",
+      "summary": "白宫顾问透露，美国比特币储备的最新情况将在未来几周内公布。此前美国已建立战略比特币储备，此次更新可能涉及规模调整或管理细则。若确认增持或明确储备政策，将对BTC形成重大利好，吸引更多机构入场。信号看多，影响BTC。",
+      "reason": "优先级一：重大监管动态。白宫直接表态，直接影响BTC价格预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/06/u-s-bitcoin-reserve-update-coming-in-next-few-weeks-white-house-s-adviser-says"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密货币法案8月或投票",
+      "summary": "美国参议员表示，加密市场结构法案（Clarity Act）可能在8月前进行投票。该法案旨在明确监管框架，若通过将利好整个加密行业，吸引更多传统资本。信号看多，影响BTC、ETH及主流币。",
+      "reason": "优先级一：重大监管动态。立法进展是关键催化剂，市场情绪有望提振。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/kirsten-gillibrand-crypto-market-structure-august-vote"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "经过严格去重，本轮有效新消息较少，仅筛选出两条高优先级监管动态，其余均为重复或低价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2340, prompt_tokens=14488, total_tokens=16828, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=855, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14464), prompt_cache_hit_tokens=14464, prompt_cache_miss_tokens=24)
+content length: 3742
+============================================================
+{
+  "news": [
+    {
+      "title": "美比特币储备更新在即",
+      "summary": "白宫顾问表示，美国比特币战略储备的更新将在未来几周内公布。这可能涉及政府持有的BTC或相关政策的调整，直接影响市场对比特币官方地位的预期。如果储备增加或政策利好，将是强看多信号；反之则可能打压情绪。影响币种：BTC。看多信号。",
+      "reason": "政府比特币储备动向属于重大监管事件，直接影响BTC价格预期。历史消息中未出现此具体更新，属于新进展。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/06/u-s-bitcoin-reserve-update-coming-in-next-few-weeks-white-house-s-adviser-says"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid BTC巨鲸多头持仓创新高",
+      "summary": "Hyperliquid上的比特币巨鲸净多头头寸达到2026年新高，表明大型交易者强烈看涨比特币。大量资金涌入做多，可能推动BTC短期上涨，但需注意高持仓下的清算风险。影响币种：BTC。看多信号。",
+      "reason": "链上异动数据直接反映大资金动向，对BTC有重要参考价值。历史消息中未出现此数据。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400302/bitcoin-whales-hyperliquid-net-long-positions-2026-high"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Aave清算Kelp DAO攻击者剩余rsETH",
+      "summary": "Aave协议清算了Kelp DAO攻击者剩余的rsETH头寸。这标志着DeFi安全事件的后续处理，可能减少市场不确定性，对Aave和rsETH相关的LRT生态构成短期利好。影响币种：ETH、LRT相关代币。看多信号。",
+      "reason": "DeFi重大事件清算完成，消除风险隐患，对相关币种有积极影响。历史消息中未出现此清算完成的具体新闻。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "rsETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400315/aave-liquidates-kelp-dao-attackers-remaining-rseth-positions"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "量子威胁报告称Q-Day最早2030年",
+      "summary": "Project Eleven报告警告，量子计算威胁可能“突然来临”，最早2030年达到Q-Day，届时现有加密算法可能被破解。这对比特币和以太坊长期安全构成利空，但短期影响有限。影响币种：BTC、ETH。看空信号（长期）。",
+      "reason": "量子威胁是比特币和以太坊的长期风险，报告引发市场对技术安全的担忧。虽然影响时间较远，但属于重大技术风险提示。历史消息中仅出现此报告标题，未详细展开。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367047/bitcoin-ethereum-q-day-quantum-threat-could-arrive-2030"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国参议员：加密法案8月前可能投票",
+      "summary": "美国参议员Gillibrand表示，加密市场结构法案（Clarity Act）可能在8月前进行投票。这是监管框架的重大推进，若通过将利好整个加密货币行业。影响币种：BTC、ETH及主流币。看多信号。",
+      "reason": "监管立法进展属于优先级一，直接影响行业预期。历史消息中虽有类似表述，但本条提供了更具体的时间节点（8月前），属于更新。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/kirsten-gillibrand-crypto-market-structure-august-vote"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普兄弟旗下矿企亏损收窄",
+      "summary": "American Bitcoin（特朗普兄弟支持的矿企）第一季度亏损收窄，挖矿收入增长。矿企财务状况改善利好比特币挖矿板块，但该公司亏损仍持续。影响币种：BTC。中性信号。",
+      "reason": "矿企财报反映挖矿行业健康状况，对BTC有间接影响。历史消息中出现过“American Bitcoin Reports Q1 Results”，但本条提供了具体数据变化，属于更新。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reuters Crypto",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTjZwRHRvRjgzUmpFOWpRLTRQWFB2NkU0MWVmZ3hTU0wyZkYwendudnU1ZXhqZVpzUkhYR2oxR05oRGtRc3FQS2RURUduQnYtTTJJZGNMRWt3T3dPdDI2Nm9iSWJURWNXOU5kWEh3MWxmZE1XQUw5SmtnZmkzZWd0LV9sTEpCMTNwbG1zZHFaQVhDUWVacGZuZUxVY0FoOW5QQ1ZWd0lBOWtkcHk0RlBYNFdfUi14UF9uUmRnMA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
