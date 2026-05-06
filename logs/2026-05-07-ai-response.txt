@@ -361,3 +361,94 @@ content length: 3101
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2025, prompt_tokens=13380, total_tokens=15405, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=986, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=12356)
+content length: 2826
+============================================================
+{
+  "news": [
+    {
+      "title": "OKX上线AI公司永续期货",
+      "summary": "OKX将推出OpenAI、SpaceX和Anthropic的Pre-IPO永续期货合约，允许交易者在这些公司上市前押注其股价。该消息直接利好相关概念代币如FET、AGIX等，但也可能分流资金至传统科技股。短多长中性，合约上线初期可能带动交易量激增，需警惕情绪过热。",
+      "reason": "主要交易所推出新兴科技公司Pre-IPO合约，直接吸引投机资金，属于交易所重大动态。",
+      "category": "交易所",
+      "impact_coins": ["FET", "AGIX", "AI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367022/okx-openai-spacex-anthropic-perpetual-futures-pre-ipo"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ondo/JPMorgan等在XRP上结算国债",
+      "summary": "Ondo Finance、JPMorgan、Mastercard和Ripple合作，通过XRP Ledger结算代币化美国国债。这标志着传统金融巨头进一步采用区块链技术，直接利好XRP和RWA代币。此举可能推动XRP价格上涨，并增强市场对RWA赛道信心。",
+      "reason": "传统金融巨头与Ripple合作，实质进展利好XRP和RWA生态，属于重大机构合作。",
+      "category": "项目更新",
+      "impact_coins": ["XRP", "ONDO"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367033/ondo-jpmorgan-mastercard-ripple-settle-tokenized-treasuries-xrp-ledger"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bittrex要求退还SEC和解金",
+      "summary": "Bittrex加密交易所向法院申请退还此前因SEC诉讼支付的2400万美元和解金，理由是目前SEC转向亲加密政策。若成功，将鼓励其他交易所撤回和解，削弱SEC监管威慑力。整体看多市场情绪，但短期影响有限。",
+      "reason": "监管反转信号，可能改善加密市场监管预期，属于监管政策动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367038/bittrex-wants-24-million-settlement-back-sec-pro-crypto"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密支持共和党候选人赢初选",
+      "summary": "一名获得加密货币政治行动委员会支持的共和党候选人在印第安纳州国会初选中获胜，显示加密政治影响力上升。这有利于推进亲加密立法，如市场结构法案。中期看多政策前景，利好整体市场。",
+      "reason": "加密政治影响力提升，利好监管环境改善，属于监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/crypto-pac-backed-republican-candidate-indiana-primary"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币市场主导率超61%",
+      "summary": "比特币市场主导率（BTC.D）升至61%以上，创近期新高。这表明资金从山寨币转向比特币，短期利空主流山寨币。若BTC.D持续上升，可能预示山寨币季节延迟，但长期看比特币走强有利于整体市场稳定。",
+      "reason": "市场结构指标异常，直接影响资金流向判断，属于市场结构。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "SOL", "XRP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/Bitcoin-market-dominance-moves-above-61%-Will-altcoins-follow"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
