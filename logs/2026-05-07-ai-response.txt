@@ -295,3 +295,69 @@ content length: 6856
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2469, prompt_tokens=16158, total_tokens=18627, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1016, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15134)
+content length: 3101
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储官员暗示可能加息",
+      "summary": "芝加哥联储主席古尔斯比表示，如果生产率增长符合预期，可能会加息。这增加了紧缩预期，对风险资产不利。若加息落地，将导致资金成本上升，降低加密市场流动性。影响BTC、ETH及整体市场。信号偏空。",
+      "reason": "宏观紧缩信号直接影响风险资产走势，优先级高。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511517.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ondo/JPM等合作XRPL结算国债",
+      "summary": "Ondo、摩根大通、万事达卡和Ripple联合使用XRP Ledger进行代币化国债的国际结算。这表明XRP Ledger在机构级RWA领域取得进展，提升了XRP的实用性和采用预期。看好XRP及RWA相关代币。",
+      "reason": "重大机构合作落地，直接利好XRP，属于项目关键进展。",
+      "category": "项目更新",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/367033/ondo-jpmorgan-mastercard-ripple-settle-tokenized-treasuries-xrp-ledger"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "OKX将推OpenAI/SpaceX预IPO合约",
+      "summary": "OKX宣布将上线OpenAI、SpaceX和Anthropic的永续合约，这些热门未上市公司的预IPO交易将吸引大量投机资金。可能带动AI概念代币（如AGIX、FET）和投机情绪，但直接代币影响有限。信号中性偏多。",
+      "reason": "交易所推出高关注度产品，可能影响市场情绪和相关概念币。",
+      "category": "交易所",
+      "impact_coins": ["FET", "AGIX"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/367022/okx-openai-spacex-anthropic-perpetual-futures-pre-ipo"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase裁员称AI改变运营",
+      "summary": "Coinbase宣布裁员，CEO称AI正在改变运营方式。裁员通常被市场视为负面信号，可能反映公司成本压力或战略收缩，短期压制Coinbase股票及加密市场情绪。",
+      "reason": "头部交易所裁员是直接影响市场的消息，属于公司基本面负面。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "ABC7 San Francisco", "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM2d3TDFPN0l5REFvV1B2dTU2bThSVTBXQTdFc3k0TVpqaVBzUmVYTjhiZzRlSFZRNVRsLTBSRUtLcXlGWkRUS05YenlBbWdLVEtpenE0bU5haGhaS2RhenF5QTVFTmJQcHA2bW1XOGJjbHh3OHNhY05jV2dLaDdyWXp3djJydm9hbjJVOXJsejZfcWNaakN6MURBZ1pnRG9RV1h2WUthSG0xSGpMMXFWczZHa3hqTkVEbWFVa3dWVkFVOWxEeWtPR2tVMnjSAdIBQVVfeXFMTjBxOWFlRFY3Q0YtejBYemIzcG1aU3VjTXFxcjNuZEUtNXNLUXVLUVlvYVViREVfVjk3UGl1RHlvXzdoRkJvaFR6ZDJUQTRJRzdyLUJScmZ4VHowSXI2Y2xBSm1UM0lyYzNSRlpuTXMyOTJ5UnFGUE5tZjIyNm51bXZGTy1NNXZYaDBoUnpfNjhkYkswcHF4OWVhd3FMT1FQMVc0V24xM2tJcWxzYzR0ZXpyYkh3TEpsZDljTVJqSzB3a2tDcXY4QndLdXhXWVNlRURR?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "矿工财报压力测试来临",
+      "summary": "ETF Database报道称矿工面临盈利压力，多家矿企即将公布财报。若财报不及预期，可能导致矿机抛售或BTC抛压增加。短期对BTC偏空，但需关注实际数据。",
+      "reason": "矿工是BTC市场重要参与者，财报压力可能引发抛售，属于链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "ETF Database", "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lfamNGS3k4aDZjb2pmN0h0Mk81dmpQNi0tbTg3aGlxVjZ6cU1mNTZhR1huVE9iU21ITy1mNjF0WDNqVGdBbEphMEw4dDJjSFNxUmFtSklsY2JFcjNWaWJSeUxlQzd5R3NwR0NTUTR1WlZCRUN4cTEwYV9jRHEwcFJodUw4Tzl5aGRMa2Fqc1M1b2U1cVMwcVBTSWJNQQ?oc=5"}],
+      "urgency": "hours"
+    }
+  ]
+}
