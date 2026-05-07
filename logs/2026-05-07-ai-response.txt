@@ -1998,3 +1998,102 @@ content length: 3812
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2625, prompt_tokens=14066, total_tokens=16691, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1033, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13042)
+content length: 3922
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸从Binance提取2亿美元BTC",
+      "summary": "某新建地址从Binance提取价值超2亿美元比特币，为近期最大单笔提币之一。大额BTC从交易所转出通常被视为囤币信号，减少市场抛压。短期看多BTC，可能推动价格突破8.5万美元阻力。",
+      "reason": "优先级一：巨鲸异动（大额转出交易所=囤币信号），直接影响BTC供求。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511634.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "白宫计划7月4日前通过Clarity Act",
+      "summary": "白宫加密货币顾问表示希望7月4日通过Clarity Act，该法案将为加密资产提供更明确的监管框架。若通过，将大幅降低合规不确定性，吸引机构资金入场。看多BTC、ETH及合规代币。",
+      "reason": "优先级一：重大监管动态（ETF审批/合规框架落地=重大利好），直接影响市场信心。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL", "XRP"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [{"name": "Seeking Alpha", "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMldOTDNUMVNJUkRFQUFjTUs0VDkwend4Ym5VMjBsREx0MnVTWTNhQm5DSVV2eTZNNzhQQVVsZ1RPUUMyTWdBNDdEQzdSS1ZOY0tteF9oc0trcmgyb003enNLTlhTM0JxS3J2bFlzeGs4RXVCM09pT1lOYXVQb1l1UFcwMFliRWY3bGlPZHhiSUFwMlNKbDNLSVo4TjV1Q2lHZVlDMnY4SlRpQjRp?oc=5"}],
+      "urgency": "days"
+    },
+    {
+      "title": "灰度DeFi基金新增ENA移除AERO",
+      "summary": "灰度DeFi基金调整持仓，新增ENA（Ethena）并移除AERO（Aerodrome），ETH持仓占比重回第一。机构调仓信号，可能吸引资金流入ENA，同时AERO或面临抛压。看多ENA，看空AERO。",
+      "reason": "优先级二：机构动向（灰度信托变动=影响对应币种），中期信号。",
+      "category": "ETF机构",
+      "impact_coins": ["ENA", "AERO", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511637.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "美银警告大型IPO标志牛市落幕",
+      "summary": "美银策略师称SpaceX和Anthropic等大型IPO可能标志牛市落幕，历史模式显示大型IPO后市场常见顶。若宏观情绪恶化，风险资产（包括加密货币）可能承压。中期看空BTC/ETH。",
+      "reason": "优先级二：宏观经济数据/机构观点（影响风险资产走势），市场情绪信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511631.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitwise CEO称四年周期已死",
+      "summary": "Bitwise CEO表示随着机构时代到来，加密货币四年周期模式已失效，市场进入长期增长阶段。该观点若被认可，可能削弱周期交易者的恐慌情绪，但短期需要观察。中性偏多。",
+      "reason": "优先级二：市场结构变化（机构时代），影响中期叙事。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/400381/bitwise-ceo-says-four-year-crypto-cycle-is-dead-as-institutional-era-takes-hold"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Anthropic AI合规代理将扩展至交易所",
+      "summary": "Anthropic为银行推出AI合规代理，下一站是加密货币交易所。此举可能提高交易所合规效率，但增加监管监督，短期中性，长期利好合规化。",
+      "reason": "优先级二：机构动向/监管技术，影响交易所合规成本。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t65m4t/anthropic_brings_ai_compliance_agents_to_banking/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国2027年起对虚拟资产征税",
+      "summary": "韩国财政经济部确认按原计划于2027年1月1日起对虚拟资产征税。韩国作为重要加密市场，征税可能促使部分资金离场或转向海外，短期利空韩国相关代币。",
+      "reason": "优先级一：重大监管动态（国家级税收政策=利空），直接影响市场。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511635.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance US被曝meme币老鼠仓",
+      "summary": "Binance US上线小市值meme币，内部人士疑似提前买入，涉嫌老鼠仓操作。该事件打击交易所信誉，可能导致用户流失，并对相关meme币带来负面情绪。短期看空相关币种。",
+      "reason": "优先级一：交易所上币/负面事件（老鼠仓=利空），影响市场信任。",
+      "category": "交易所",
+      "impact_coins": ["MEME"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511629.html"}],
+      "urgency": "immediate"
+    }
+  ]
+}
