@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-07",
+  "hour": "14",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11768,
+    "completion_tokens": 2638,
+    "total_tokens": 14406
+  },
+  "content_length": 1886,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Aave清算Kelp黑客rsETH仓位\",\n      \"summary\": \"去中心化借贷协议Aave在以太坊和Arbitrum上清算了Kelp DAO黑客的rsETH仓位。黑客此前攻击了Kelp DAO，获得大量rsETH并存入Aave作为抵押。Aave通过清算收回了部分资产，降低了协议坏账风险。此举可能减少市场对rsETH和Aave的担忧，但对ETH短期或有卖压。整体偏积极，因消除了不确定风险。\",\n      \"reason\": \"涉及黑客攻击后续清算，直接影响Aave、Kelp DAO相关资产和ETH价格，属优先级一中的项目方重大事件。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\", \"AAVE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/aave-liquidates-kelp-dao-hackers-rseth-stash-ethereum-arbitrum\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"比特币有望升破85,000美元的三个信号\",\n      \"summary\": \"CoinDesk分析指出，三个技术信号暗示比特币可能上涨至85,000美元：1) 比特币主导率升至61%显示资金回流；2) 稳定币供应量增加；3) 链上活跃地址上升。这些信号若持续，比特币可能突破当前横盘区间。但需注意伊朗停火消息推动股市上涨，暂时分流了加密资金。整体看多，但需确认后续走势。\",\n      \"reason\": \"提供明确的看多技术信号，属市场情绪类，但影响级别较低。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/05/07/three-signals-pointing-to-a-possible-bitcoin-move-to-usd85-000\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Bithumb拟通过合作进军越南市场\",\n      \"summary\": \"韩国交易所Bithumb与越南SSID签署合作伙伴关系，计划扩展至越南市场。此举可能增加亚洲加密交易量，但短期内对价格影响有限。Bithumb的国际化扩张有助于提升其竞争力，但越南监管环境尚不明确。中性偏多，长期利好加密生态。\",\n      \"reason\": \"交易所扩张新闻，属于中期影响，市场结构变化。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400341/bithumb-vietnam-ssid\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前时段高质量新消息较少，多数为重复公告或非交易相关讨论。仅筛选出3条有价值的消息，均已去重。未发现优先级一的重大事件（如巨鲸异动、ETF资金流、监管动态等）。\"\n}"
+}
