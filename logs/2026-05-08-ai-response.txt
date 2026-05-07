@@ -1,23 +1,35 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2822, prompt_tokens=14961, total_tokens=17783, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=971, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13937)
+content length: 4721
+============================================================
 {
-  "date": "2026-05-08",
-  "hour": "00",
   "news": [
+    {
+      "title": "CME将推比特币波动率期货",
+      "summary": "芝加哥商品交易所（CME）宣布将推出比特币波动率期货，为华尔街提供对冲比特币价格波动的工具。这是首个针对比特币的波动率衍生品，可能吸引更多机构参与，但短期可能增加市场波动。影响BTC。看多信号，因引入风险管理工具利于机构长期配置。",
+      "reason": "新衍生品推出，直接影响比特币市场结构和机构参与度，属于优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUzd0VE83M04xajBBVjd0LXZDY2ZPbnRVUk80dzdSM0FSX0VjVFAxUUFBTHRxTGhCZTNCSGZXc1FqeS1IU2xwaUxvSEJzU0hjMjVGeU1WSVRmUmE4aDlicDJMU011X0NYX3ZseFMzYjlOb1p5MzN4ald3bHdMVGloZ2tfSDNtV0FpQ1pESDlIV1pDX2x2c3RtLUt6cThtcm8?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
     {
       "title": "美联储警告冲击加密货币前景",
       "summary": "美联储发布最新警告，暗示可能维持高利率更长时间，以应对通胀压力。这对风险资产构成压力，比特币和主流加密货币可能承压。影响BTC和ETH。整体看空，因宏观紧缩环境抑制投机需求。",
       "reason": "宏观经济消息直接影响风险资产价格，属于优先级二。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
-        {
-          "name": "blockhead.co",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNTNfVUR3Q3RTYUhMdldBaVJWMzZMMlh4WjBPVWxtakhFV1ozakN3YWVBbFBUcUdzMkpCb1BTemljQWdMcko1OXkyUHItUEg1NHBvYXJicy1sTnVtYkNEcmZVZDkyQkRGN0k1M3JJYjcya2lxeVdoT0pPLVpuRkE0aDBR?oc=5"
-        }
+        {"name": "blockhead.co", "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNTNfVUR3Q3RTYUhMdldBaVJWMzZMMlh4WjBPVWxtakhFV1ozakN3YWVBbFBUcUdzMkpCb1BTemljQWdMcko1OXkyUHItUEg1NHBvYXJicy1sTnVtYkNEcmZVZDkyQkRGN0k1M3JJYjcya2lxeVdoT0pPLVpuRkE0aDBR?oc=5"}
       ],
       "urgency": "immediate"
     },
@@ -26,16 +38,11 @@
       "summary": "摩根大通预测Strategy（原MicroStrategy）今年以当前速度可能购买多达300亿美元比特币。这表明机构持续买入，支撑比特币需求。影响BTC。看多信号，反映机构信心。",
       "reason": "权威投行预测机构购买量，属于优先级二中的机构动向。",
       "category": "ETF机构",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/400443/jpmorgan-strategy-bitcoin-buying-30-billion-mstr?utm_source=rss&utm_medium=rss"
-        }
+        {"name": "The Block", "url": "https://www.theblock.co/post/400443/jpmorgan-strategy-bitcoin-buying-30-billion-mstr?utm_source=rss&utm_medium=rss"}
       ],
       "urgency": "hours"
     },
@@ -44,16 +51,11 @@
       "summary": "首支追踪Canton网络的Crypto ETF已上市，标志着ETF市场进一步扩展到新公链。可能吸引资金流入Canton代币，并提升整体市场情绪。影响Canton等相关币种。中性偏多，但需观察实际流入。",
       "reason": "新ETF推出属于优先级一中的ETF动态，但Canton非主流币，影响有限。",
       "category": "ETF机构",
-      "impact_coins": [
-        "Canton"
-      ],
+      "impact_coins": ["Canton"],
       "signal": "neutral",
       "impact_level": 3,
       "sources": [
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/400436/crypto-etf-boom-continues-with-debut-of-first-fund-to-track-canton?utm_source=rss&utm_medium=rss"
-        }
+        {"name": "The Block", "url": "https://www.theblock.co/post/400436/crypto-etf-boom-continues-with-debut-of-first-fund-to-track-canton?utm_source=rss&utm_medium=rss"}
       ],
       "urgency": "immediate"
     },
@@ -62,17 +64,11 @@
       "summary": "Polygon网络成功将区块生产时间缩短至1.75秒，提升交易速度和可扩展性。此次升级有助于推动支付应用和DeFi采用，利好MATIC/POL代币。看多信号。",
       "reason": "重大技术升级，直接影响网络性能和代币价值，属于优先级二中的技术升级。",
       "category": "项目更新",
-      "impact_coins": [
-        "MATIC",
-        "POL"
-      ],
+      "impact_coins": ["MATIC", "POL"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
-        {
-          "name": "CoinTelegraph",
-          "url": "https://cointelegraph.com/news/polygon-reduces-block-production-time-175-second?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        }
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/polygon-reduces-block-production-time-175-second?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
       ],
       "urgency": "hours"
     },
@@ -81,16 +77,11 @@
       "summary": "分析师指出XRP在历史底部区域已横盘数月，技术指标暗示强支撑，可能反弹至12美元。同时Ripple相关消息提振情绪。影响XRP。看多信号，但需谨慎。",
       "reason": "技术分析+价格评论，属于优先级二中的市场结构分析，但非直接事件。",
       "category": "市场结构",
-      "impact_coins": [
-        "XRP"
-      ],
+      "impact_coins": ["XRP"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
-        {
-          "name": "CoinTelegraph",
-          "url": "https://cointelegraph.com/markets/xrp-probably-going-to-12-dollars-price-holds-bottom-for-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        }
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/xrp-probably-going-to-12-dollars-price-holds-bottom-for-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
       ],
       "urgency": "days"
     },
@@ -99,19 +90,11 @@
       "summary": "参议员Elizabeth Warren致信马克·扎克伯格，要求披露Meta最新稳定币计划的细节。此举可能引发更多监管审查，对稳定币和加密行业构成压力。影响USDT、USDC等稳定币以及整体市场。看空信号。",
       "reason": "监管动态，属于优先级一中的重大监管动态。",
       "category": "监管政策",
-      "impact_coins": [
-        "USDT",
-        "USDC",
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["USDT", "USDC", "BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
-        {
-          "name": "Reddit r/cryptocurrency",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t6easw/elizabeth_warren_seeks_information_on_metas/"
-        }
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t6easw/elizabeth_warren_seeks_information_on_metas/"}
       ],
       "urgency": "hours"
     },
@@ -120,21 +103,13 @@
       "summary": "亚马逊AWS与Coinbase和Stripe合作，为AI代理提供USDC支付功能。这一集成将扩大稳定币在AI领域的应用，利好USDC和整个加密支付生态。影响USDC、ETH等。看多信号。",
       "reason": "重大商业合作，推动稳定币采用，属于优先级二中的机构动向。",
       "category": "项目更新",
-      "impact_coins": [
-        "USDC",
-        "ETH"
-      ],
+      "impact_coins": ["USDC", "ETH"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/400421/aws-taps-coinbase-and-stripe-to-power-usdc-payments-for-ai-agents?utm_source=rss&utm_medium=rss"
-        }
+        {"name": "The Block", "url": "https://www.theblock.co/post/400421/aws-taps-coinbase-and-stripe-to-power-usdc-payments-for-ai-agents?utm_source=rss&utm_medium=rss"}
       ],
       "urgency": "hours"
     }
-  ],
-  "total_fetched": 56,
-  "generated_at": "2026-05-08T00:01:44.896372+08:00"
+  ]
 }

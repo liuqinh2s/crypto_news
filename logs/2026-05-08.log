@@ -1,0 +1,84 @@
+2026-05-07 16:00:43 [INFO] 🚀 开始抓取 2026-05-08 00:00 币圈新闻
+2026-05-07 16:00:43 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-07 16:00:43 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-07 16:00:43 [INFO]   ⏭ Decrypt: 过滤掉 34 条非近期新闻
+2026-05-07 16:00:43 [INFO]   ⏭ The Block: 过滤掉 15 条非近期新闻
+2026-05-07 16:00:43 [INFO]   ⏭ CoinTelegraph: 过滤掉 27 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ CoinDesk: 过滤掉 18 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-07 16:00:44 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-07 16:00:44 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 19 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:44 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:45 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:45 [INFO]   ⏭ Crypto Twitter: 过滤掉 44 条非近期新闻
+2026-05-07 16:00:48 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 21 条非近期新闻
+2026-05-07 16:00:59 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-07 16:00:59 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-07 16:00:59 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-07 16:00:59 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:59 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-07 16:00:59 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-07 16:00:59 [INFO]   ✓ CoinDesk: 7 条
+2026-05-07 16:00:59 [INFO]   ✓ The Block: 4 条
+2026-05-07 16:00:59 [INFO]   ✓ Decrypt: 3 条
+2026-05-07 16:00:59 [INFO]   ✓ CoinTelegraph: 3 条
+2026-05-07 16:00:59 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ Blockworks: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ DL News: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ 金色财经: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ PANews: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-07 16:00:59 [INFO]   ✓ Reddit r/cryptocurrency: 6 条
+2026-05-07 16:00:59 [INFO]   ✓ Reddit r/bitcoin: 4 条
+2026-05-07 16:00:59 [INFO]   ✓ Crypto Twitter: 6 条
+2026-05-07 16:00:59 [INFO]   ✓ 宏观经济: 1 条
+2026-05-07 16:00:59 [INFO]   ✓ Binance公告: 20 条
+2026-05-07 16:00:59 [INFO]   ✓ OKX公告: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ Bitget公告: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ Whale Alert: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-07 16:00:59 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-07 16:00:59 [INFO]   ✓ 雪球加密: 0 条
+2026-05-07 16:00:59 [INFO] 📊 共抓取 56 条新闻
+2026-05-07 16:00:59 [INFO] 📋 原始新闻已保存: reports/2026-05-08-00-raw.json (56 条)
+2026-05-07 16:00:59 [INFO] 📋 标题摘要已保存: reports/2026-05-08-00-raw-titles.md
+2026-05-07 16:00:59 [INFO] ✅ 抓取完成，共 56 条，已保存到 reports/2026-05-08-00-raw.json
+2026-05-07 16:01:00 [INFO] 🤖 开始 AI 筛选 2026-05-08 00:00 币圈消息
+2026-05-07 16:01:00 [INFO] 📋 已加载原始新闻: reports/2026-05-08-00-raw.json (56 条)
+2026-05-07 16:01:00 [INFO] 📚 已加载历史新闻标题（28870 字符）
+2026-05-07 16:01:00 [INFO] 📚 已加载历史筛选标题 32 条、URL 33 个，用于去重
+2026-05-07 16:01:00 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-07 16:01:00 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-07 16:01:00 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（56 条，12401 字符，temp=0.3）
+2026-05-07 16:01:44 [INFO] AI 原始返回已保存: logs/2026-05-08-ai-response.txt (finish_reason=stop, 4721 字符)
+2026-05-07 16:01:44 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-08-00-ai-raw.json
+2026-05-07 16:01:44 [DEBUG] parse_json_response 输入长度: 4721 字符
+2026-05-07 16:01:44 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "CME将推比特币波动率期货",
+      "summary": "芝加哥商品交易所（CME）宣布将推出比特币波动率期货，为华尔街提供对冲比特币价格波动的工具。这是首个针对比特币的波动率衍生品，可能吸引更多机构参与，但短期可能增加市场波动。影响BTC。看多信号，因引入风险管理工具利于机构长期配置。",
+      "reason": "新衍生品推出，直接影响比特币市场结构和机构参与度，属于优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+   
+2026-05-07 16:01:44 [DEBUG] 从 JSON 对象的 news 字段提取到 8 条记录
+2026-05-07 16:01:44 [INFO] ✅ AI 返回 8 条新闻
+2026-05-07 16:01:44 [INFO] ✅ AI 筛选出 8 条交易相关消息，符合预期
+2026-05-07 16:01:44 [INFO] 🔗 来源链接覆盖: 8/8 条新闻有有效链接
+2026-05-07 16:01:44 [INFO] 📦 JSON 已保存: reports/2026-05-08-00.json
+2026-05-07 16:01:44 [INFO] ✅ AI 筛选完成，共 8 条交易相关消息
