@@ -972,3 +972,82 @@ content length: 3019
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1164, prompt_tokens=11552, total_tokens=12716, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=839, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10528)
+content length: 781
+============================================================
+{
+  "news": [
+    {
+      "title": "Haun Ventures 10亿美元加密基金",
+      "summary": "Haun Ventures宣布关闭一只10亿美元基金，专门投资加密货币和区块链初创公司。该基金由前联邦检察官、现风投家Katie Haun创立，专注于早期和成长阶段项目。此举显示机构级风投对加密领域的长期信心，可能提振市场情绪。影响整个加密生态系统，尤其是受投项目相关代币。信号看多，但需注意基金投资周期较长，短期行情影响有限。",
+      "reason": "机构级风投基金规模巨大，反映主流资本持续流入，中期看多信号。符合优先级二机构动向标准。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5vn46/haun_ventures_closes_1b_fund_focused_on_crypto/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分新闻与近6小时历史标题重复（如Binance公告、恐惧贪婪指数、白宫法案等），仅此一条新消息符合筛选标准。其余多为重复内容或低价值营销/讨论，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2254, prompt_tokens=11552, total_tokens=13806, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1421, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11520), prompt_cache_hit_tokens=11520, prompt_cache_miss_tokens=32)
+content length: 1941
+============================================================
+{
+  "news": [
+    {
+      "title": "Haun Ventures关闭10亿加密基金",
+      "summary": "Haun Ventures宣布关闭一只10亿美元基金，专注于加密货币和区块链投资。该基金规模巨大，表明机构长期看好加密赛道，可能为一级市场带来流动性，间接利好二级市场情绪。影响代币主要为BTC、ETH及公链项目。从长期看，这是看多信号，代表资本持续涌入。",
+      "reason": "机构大额募资是中期利好，符合优先级二'机构动向'，提供流动性支持。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5vn46/haun_ventures_closes_1b_fund_focused_on_crypto/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "贝莱德建议配置比特币与黄金",
+      "summary": "贝莱德发布文章《投资组合多元化：比特币、黄金与替代资产》，强调比特币作为另类资产的配置价值。这显示全球最大资管公司对比特币的认可，可能吸引更多传统资金入场。短期对BTC情绪有提振，看多信号。",
+      "reason": "大型金融机构公开看多，提升市场信心，属于优先级二'机构动向'。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Crypto Twitter - BlackRock", "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb3ZKem1WTlVsaWU5djFUYmhVaDlZQk9IMGxkbFBseXdzN0ptaldJcF9CRWY0a29sOFo2XzJiakE0VjF1WVk4X0ZJWlg0V2dHWUJTMzhjOWRLZ2UwUkhId3FOODJMYjJ6OXJrWUUzMkJ6alZMVHBCZjJ3ZzRPUFJ0RkZ2NDZBWVBsWVVWdW1nZU9mcW9uLURwSmt3RjVSbWUtRUUwRUtFX3h0Rm8?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "ETH在2400美元附近涨势乏力",
+      "summary": "CoinTelegraph分析指出，以太坊价格在接近2400美元时多次反弹失败，原因包括链上活动低迷、ETF资金流出及技术阻力。这暗示ETH短期可能面临下行压力，建议关注2300支撑位。对ETH偏看空，但属于技术性调整。",
+      "reason": "市场分析为交易者提供关键点位参考，属于优先级二'市场结构'。",
+      "category": "市场结构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/3-reasons-why-Ether-price-rallies-fizzle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中多数消息与历史重复或为低级讨论，仅有3条高质量新消息，满足下限但较少。"
+}
