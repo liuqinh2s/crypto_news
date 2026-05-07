@@ -1301,3 +1301,130 @@ content length: 3497
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2841, prompt_tokens=11435, total_tokens=14276, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1466, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10411)
+content length: 3705
+============================================================
+{
+  "news": [
+    {
+      "title": "JPMorgan/Mastercard XRP跨境结算",
+      "summary": "JPMorgan与Mastercard首次通过XRP Ledger完成跨境美国国债转账，标志着传统金融巨头采用XRP进行资产结算。这是对XRP技术实用性的重大认可，可能吸引更多机构使用XRP网络，直接利好XRP价格。短期看多XRP，同时提升市场对Ripple生态的信心。",
+      "reason": "优先级一：直接影响行情。JPMorgan和Mastercard的参与是XRP的里程碑事件，历史上此类消息会引发价格大幅波动。",
+      "category": "项目更新",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/jpmorgan-mastercard-first-cross-border-us-treasury-settlement-xrp-ledger"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国比特币ETF净流入4585万美元",
+      "summary": "5月6日美国现货比特币ETF净流入4585万美元，显示机构资金持续入场。连续净流入推升BTC需求，对价格形成支撑。尽管近期BTC在8.1万附近震荡，但资金流入是积极信号，短期看多BTC。",
+      "reason": "优先级一：ETF资金流入直接影响BTC供需，是市场情绪和趋势的晴雨表。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511571.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国以太坊ETF净流入1152万美元",
+      "summary": "5月6日美国现货以太坊ETF净流入1152万美元，延续近期温和流入趋势。ETH价格在2.4K附近受阻，但ETF资金持续流入表明机构兴趣未减。短期中性偏多，需关注突破情况。",
+      "reason": "优先级一：ETH ETF资金数据，影响ETH价格走势。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511570.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "HyperLabs向CEX存入40万HYPE",
+      "summary": "HyperLabs近11小时向中心化交易所存入40万枚HYPE（约1734万美元）。巨鲸向交易所转币通常准备抛售，形成潜在卖压。HYPE近期涨幅较大，若抛售兑现可能引发回调。短期看空HYPE。",
+      "reason": "优先级一：链上异动，大额转入交易所是明确抛压信号。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511563.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "1inch做市商TrustedVolumes遭攻击",
+      "summary": "1inch流动性提供商TrustedVolumes正在遭受持续攻击，损失约587万美元。虽然攻击针对做市商而非1inch协议本身，但可能引发对1inch生态安全的担忧，影响1INCH代币短期情绪。1INCH价格或承压。短期看空1INCH。",
+      "reason": "优先级一：安全事件直接影响代币信任度和价格。",
+      "category": "项目更新",
+      "impact_coins": ["1INCH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400332/1inch-trustedvolumes-exploit"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511557.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸nemorino.eth买入2091枚ETH",
+      "summary": "巨鲸nemorino.eth进行波段操作，买入2091枚ETH并存入Spark。大额买入行为显示对ETH的信心，但需关注后续是否转出。单个巨鲸操作影响有限，但若持续买入可视为积极信号。短期中性偏多ETH。",
+      "reason": "优先级一：巨鲸异动，大额买入为看多信号，但幅度一般。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511562.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "阿波罗CEO警告市场调整风险",
+      "summary": "阿波罗CEO警告称市场将出现调整，外部冲击概率30-35%。该言论可能加剧投资者避险情绪，尤其对风险资产如加密货币形成压力。但缺乏具体细节，影响有限。短期中性偏空大盘。",
+      "reason": "优先级二：宏观情绪预警，可能引发短期抛售。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511568.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
