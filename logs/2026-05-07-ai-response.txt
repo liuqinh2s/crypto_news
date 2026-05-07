@@ -1051,3 +1051,253 @@ content length: 1941
   ],
   "note": "本轮素材中多数消息与历史重复或为低级讨论，仅有3条高质量新消息，满足下限但较少。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2864, prompt_tokens=11439, total_tokens=14303, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2310, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10415)
+content length: 1390
+============================================================
+{
+  "news": [
+    {
+      "title": "Haun Ventures获10亿加密基金",
+      "summary": "Haun Ventures宣布关闭一只10亿美元基金，专注于加密货币和区块链投资。这是近期大型风投基金之一，表明机构对加密市场长期看好。资金将用于支持早期和成长阶段的加密项目。该消息可能提振市场信心，带动主流币种如BTC、ETH及整个加密生态走强。从合约做多视角，这是看多信号，机构资金入场意味着增量流动性。",
+      "reason": "优先级二：机构动向，大额基金关闭代表机构看多，中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5vn46/haun_ventures_closes_1b_fund_focused_on_crypto/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "ETH突破2400遇阻三原因",
+      "summary": "CoinTelegraph分析称，以太坊价格在接近2400美元时屡次遇阻，原因包括：1）链上活跃度下降，Gas费持续低迷；2）期货资金费率偏低，多头信心不足；3）比特币主导率上升至61%，分流资金。ETH/BTC比率持续走弱。此分析指向ETH短期上行乏力，可能继续震荡或回调。对ETH持有者偏空，但对比特币相对有利。短期交易者可考虑做空ETH或做多BTC/ETH比率。",
+      "reason": "优先级二：技术分析类但基于链上数据，影响ETH短期走势。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/3-reasons-why-Ether-price-rallies-fizzle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选仅找到2条值得关注的新消息，其余素材与历史消息重复或影响微弱，已排除。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2320, prompt_tokens=11439, total_tokens=13759, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2014, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=47)
+content length: 771
+============================================================
+{
+  "news": [
+    {
+      "title": "Haun Ventures完成10亿加密基金",
+      "summary": "Haun Ventures宣布完成10亿美元基金募集，专注于加密货币和区块链投资。该基金延续了此前对web3和数字资产领域的布局，显示出顶级风投对行业的长期信心。尽管市场情绪中性，但大额基金入场通常意味着机构资本正在布局，对BTC和ETH等主流资产形成中长期利好。可能带动市场情绪回暖，但短期内影响有限。",
+      "reason": "属于机构动向（优先级二），大额基金关闭募集表明资金入场信号，看多。该消息未出现在历史标题中，是新消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5vn46/haun_ventures_closes_1b_fund_focused_on_crypto/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取消息中，大部分与历史标题重复（如Binance旧公告、American Bitcoin财报、恐惧贪婪指数等），仅有Haun Ventures完成10亿基金属新且有交易价值的信息，因此输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2193, prompt_tokens=11439, total_tokens=13632, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2159, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=47)
+content length: 63
+============================================================
+{
+  "news": [],
+  "note": "近6小时所有消息均为重复或低交易价值内容，无符合筛选标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1388, prompt_tokens=12371, total_tokens=13759, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1120, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11347)
+content length: 700
+============================================================
+{
+  "news": [
+    {
+      "title": "Haun Ventures 关闭10亿美元加密基金",
+      "summary": "Haun Ventures宣布关闭一个10亿美元基金，专注于加密货币和区块链领域的投资。这是2026年规模最大的加密风投基金之一，表明机构资本仍在持续流入加密领域。对BTC、ETH及整个加密市场构成中期看多信号，资金入场将推动流动性和估值。",
+      "reason": "符合优先级二'机构动向'，Haun Ventures是知名风投，10亿美元基金规模大，表明机构长期看好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5vn46/haun_ventures_closes_1b_fund_focused_on_crypto/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效新闻较少，多数为重复内容或排除项，仅筛选出1条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1256, prompt_tokens=12371, total_tokens=13627, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=795, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=83)
+content length: 1268
+============================================================
+{
+  "news": [
+    {
+      "title": "American Bitcoin Q1亏损8200万美元但产量创纪录",
+      "summary": "Eric Trump支持的American Bitcoin在2026年第一季度开采817枚BTC，创历史最高季度产量，但净亏损8200万美元。尽管矿机运营改善，但资产减值与运营成本导致亏损。对BTC偏空，因亏损显示高成本压力，但产量增长部分对冲。影响币种：BTC。",
+      "reason": "项目方重大事件：亏损与产量数据更新，直接影响市场对矿业盈利能力的看法，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400327/eric-trump-american-bitcoin-82-million-loss-q1?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Haun Ventures关闭10亿美元加密基金",
+      "summary": "风险投资公司Haun Ventures宣布关闭一支10亿美元规模的基金，专注于加密货币和区块链领域投资。这表明机构长期看好加密行业，资金涌入有助于提升市场信心。对BTC、ETH等主流币种偏多。",
+      "reason": "机构动向：大额基金落地是中期利好信号，符合优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5vn46/haun_ventures_closes_1b_fund_focused_on_crypto/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "因本轮素材大部分与历史消息重复，仅筛选出两条新且有交易价值的信息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2033, prompt_tokens=4629, total_tokens=6662, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=612, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=3605)
+content length: 3497
+============================================================
+{
+  "news": [
+    {
+      "title": "摩根士丹利E*TRADE推加密现货交易",
+      "summary": "摩根士丹利旗下E*TRADE宣布推出加密货币现货交易服务，单笔交易费率0.5%。这是继多只比特币ETF获批后，又一家华尔街巨头直接涉足加密现货交易，预计将吸引大量传统投资者入场。影响比特币、以太坊等主流币种，属于重大机构利好信号。",
+      "reason": "机构动向，直接利好加密货币市场主流资产，提升合规性和流动性。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "디지털투데이 via Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2haMXp5Ym1mSDZYZld3elZQRm8yUlNEQ2tjSDdkcnJUYnVjR3A1alFyeFpIekJQMVdCbzhlUDBxUHp1ZnJ1ekxiMGZEZkJFYnl1TWhpVzFSMkFSbFFRaXpnTDF2ekd3RXZ5RG5LQlVXVDFrb1NrejVyakhNR3dtV2JCOXV6aVc5UTJ3MFFraVR5SEFLcWZNeTVmQmlWQmEzTEZEM08wb0pTcHItbGRoWFRVNjlVQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上线MegaETH（MEGA），并标记为Seed Tag，同时开通理财、转换、VIP借贷、保证金及期货交易。MEGA为ETH Layer 2生态项目，上线主流交易所将显著提升其流动性和价格预期，短期看多MEGA，同时可能带动ETH生态情绪。",
+      "reason": "交易所上币直接刺激对应币种价格，且MEGA属于热点L2概念。",
+      "category": "交易所",
+      "impact_coins": ["MEGA", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance Announcement",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "American Bitcoin Q1亏损8200万美元",
+      "summary": "Eric Trump关联的American Bitcoin公司报告Q1净亏损8200万美元，尽管挖矿产量创纪录且BTC储备增加30%。亏损原因包括运营成本及市场波动，短期可能引发对比特币矿企盈利能力担忧，但产量增长显示长期信心。影响比特币价格情绪偏负面。",
+      "reason": "知名关联方亏损可能削弱市场信心，矿企动态影响BTC供需预期。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400327/eric-trump-american-bitcoin-82-million-loss-q1?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT1VtNVZfMGI0VmxlVUl1V2NYeEFlMHoyU1NhXzB2LURQdVVEYlVueGJKSTBsclpwVXJxWmpXVlAzVUhLN1FNRURmWktGaC13WDhfTDNXTjlKRTVIVC14RmVZbW5RZUkxYmlIN1FxUXFaMDhXWDRodm5TV1dKR2xxTVFLX25JWk5JQkVwNTlYS3E1UVlwRVJUdVJWNEM2MjZo?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Haun Ventures完成10亿美元加密基金",
+      "summary": "知名加密风投Haun Ventures宣布关闭一只10亿美元基金，专注于加密货币和区块链投资。这表明顶级风投对行业长期发展仍有信心，将支持早期项目并提升市场流动性。中长线利好整个加密市场，尤其利好ETH及应用层项目。",
+      "reason": "大规模机构基金募集代表资本流入，增强市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/CryptoCurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t5vn46/haun_ventures_closes_1b_fund_focused_on_crypto/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线AMDUSDT等股票合约",
+      "summary": "Binance Futures推出AMDUSDT、QCOMUSDT、USARUSDT等USDⓈ-Margined永续合约，允许用户交易美股科技公司代币化合约。此举扩大加密交易品种，吸引传统股票交易者，对平台自身是利好，但对加密原生币种直接影响有限。",
+      "reason": "交易所新增交易对可能提升平台流量，但非加密原生资产影响较小。",
+      "category": "交易所",
+      "impact_coins": ["BNB"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance Announcement",
+          "url": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
