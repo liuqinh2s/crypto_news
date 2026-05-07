@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-08",
+  "hour": "05",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 14721,
+    "completion_tokens": 2451,
+    "total_tokens": 17172
+  },
+  "content_length": 2070,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"JPMorgan称比特币超越黄金\",\n      \"summary\": \"JPMorgan发布报告指出，在伊朗冲突背景下，比特币正取代黄金成为更受欢迎的抗通胀资产（debasement trade）。机构认为比特币的流动性和可分割性使其在避险需求中更具优势。这可能吸引更多机构资金流入BTC，利好比特币价格。\",\n      \"reason\": \"主流投行观点转变，直接影响市场情绪和资金流向，属优先级二（机构动向）。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400486/jpmorgan-bitcoin-over-gold-debasement-trade-iran-conflict\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"伊朗南部爆炸及导弹打击\",\n      \"summary\": \"伊朗军方人士称霍尔木兹海峡内敌方单位遭导弹打击，同时伊朗南部发生爆炸，伊媒指阿联酋可能参与敌对行动。地缘冲突急剧升级，可能引发全球风险资产抛售，加密货币短期承压。但长期可能推动比特币作为避险资产需求。\",\n      \"reason\": \"地缘政治紧张升级，直接影响风险偏好，属优先级二（宏观因素）。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511693.html\"\n        },\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511690.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"壳牌CEO警告石油短缺加剧\",\n      \"summary\": \"Shell CEO表示，由于伊朗战争，石油市场每天短缺近10亿桶，且缺口持续扩大。能源价格飙升将推高通胀，强化美联储紧缩预期，对风险资产（包括加密货币）构成利空。\",\n      \"reason\": \"能源危机加剧通胀担忧，间接影响加密货币作为风险资产的价格，属优先级二（宏观数据）。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CNBC\",\n          \"url\": \"https://news.google.com/rss/articles/CBMifkFVX3lxTE5wVi1FNWxOb2ZuY0ExRk1qd3ZVbXVUbm8ySUhtNWIzUGZyUFZ6Y0JRcURUNWk4YW5SUjFaZHF5Y3BlaldJcGdQZ2k2aS1jUFNqUXFzRnlSdFducU1xTm9XV3RfaWE0ajZsSUhiZk9hdzlyVzlGRHJXTVhkYlZFZ9IBgwFBVV95cUxOVDVURE85R3R3cVEzTllHQWhCYTRHVm1yTFRnYzJHeFRLdGtvdU9OOC1NS0wyWnFPcURMb01YTzdpTTZMQldDLVZSU3dOVHp3X19zOFFSNDdQcDZ2NF91eGNpaloxWW9QR0RCZjlKRkgydF9Oc0hrQnVrV29aY0VXai1POA\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前时段高质量新消息较少，仅选出3条。多数消息已在历史中出现重复，或属于无关内容。\"\n}"
+}
