@@ -1428,3 +1428,63 @@ content length: 3705
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2687, prompt_tokens=10884, total_tokens=13571, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2024, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9860)
+content length: 1707
+============================================================
+{
+  "news": [
+    {
+      "title": "OpenAI牵头AI巨头联手",
+      "summary": "OpenAI牵头AMD、NVIDIA、Intel、微软、博通等巨头罕见联手，旨在解决AI网络层瓶颈。这标志着AI基础设施的重大合作，可能加速AI应用落地，利好相关AI代币（如FET、AGIX、RNDR等）。但消息为行业技术进展，短期对加密市场影响有限，看多AI赛道长期发展。",
+      "reason": "AI巨头罕见合作，对AI相关加密项目有潜在利好，属于项目更新但影响力中等。",
+      "category": "项目更新",
+      "impact_coins": ["FET", "AGIX", "RNDR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511579.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy称BTC年均涨2.3%即可",
+      "summary": "Strategy（原MicroStrategy）表示，只要比特币价格每年上涨2.3%，公司就能永久承担所有股息支出。这是MicroStrategy创始人Michael Saylor的典型看多宣言，表明其对比特币长期价格的信心，并暗示公司财务稳健。该言论利好比特币市场情绪，但需注意Saylor此前也有类似表态，可能已被市场消化。",
+      "reason": "MicroStrategy作为最大企业比特币持有者，其声明直接强化市场信心，属于机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511577.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "市场乐观情绪创近4月新高",
+      "summary": "Santiment数据显示，社交媒体上加密市场乐观情绪达近4个月高点，FOMO升温可能加剧市场波动。当前恐惧贪婪指数为47（中性），但乐观情绪高涨通常是短期见顶信号，历史上类似情绪往往伴随回调。建议警惕短期抛压，尤其是山寨币。",
+      "reason": "市场情绪极值信号，历史规律显示高乐观后常出现调整，属于市场情绪分类。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511574.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数消息与历史重复（如ETF资金流、上币公告、黑客攻击等），仅在去重后选取3条具有交易价值的新消息。"
+}
