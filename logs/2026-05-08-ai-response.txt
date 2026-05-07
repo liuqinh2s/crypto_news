@@ -113,3 +113,94 @@ content length: 4721
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2647, prompt_tokens=14640, total_tokens=17287, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1709, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13616)
+content length: 2670
+============================================================
+{
+  "news": [
+    {
+      "title": "美国财政部要求Binance合规",
+      "summary": "美国财政部对Binance提出合规要求，源于其与伊朗相关的加密货币报告。这可能引发更严格的监管行动，包括罚款或限制。影响BTC、BNB等币种，看空信号。",
+      "reason": "重大监管动态，直接影响Binance运营和整体市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "BNB"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "德国考虑2027年加密税改",
+      "summary": "德国政府正考虑2027年加密税改，可能取消一年持有期免税政策。这将对长期持有者产生负面影响，增加抛售压力。影响BTC、ETH等主要币种，看空。",
+      "reason": "监管政策变化，中期影响市场结构和投资者行为。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/germany-signals-2027-crypto-tax-overhaul-one-year-holding-perk-under-threat"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "20家机构排队发行稳定币",
+      "summary": "Anchorage Digital透露有20家银行和科技巨头正排队发行稳定币，显示机构对稳定币市场的浓厚兴趣。这将推动稳定币供应增长，利好整个加密生态，看多。",
+      "reason": "机构入场信号，增加稳定币流动性，利好市场。",
+      "category": "市场结构",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/07/anchorage-says-it-has-a-pipeline-of-up-to-20-big-firms-looking-to-issue-stablecoins"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "首只Canton ETF发行",
+      "summary": "首只追踪Canton网络的ETF正式上市，标志着加密ETF市场进一步扩展。Canton为隐私公链，该ETF可能吸引传统资金流入，对Canton代币和相关概念利好，看多Canton及整体ETF生态。",
+      "reason": "合规ETF产品创新，为加密市场带来新资金。",
+      "category": "ETF机构",
+      "impact_coins": ["CANTON", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400436/crypto-etf-boom-continues-with-debut-of-first-fund-to-track-canton"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Arbitrum拟解冻Kelp被黑资金",
+      "summary": "Arbitrum社区投票通过释放7100万美元被冻结的Kelp黑客相关ETH，这有助于缓解市场对资金安全的担忧，但大量解锁可能带来短期抛压。对ARB和ETH中性偏空。",
+      "reason": "项目重大事件，涉及资金解锁和治理决策。",
+      "category": "项目更新",
+      "impact_coins": ["ARB", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/arbitrum-vote-on-proposal-to-unfreeze-71m-eth-passes-with-90-majority"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
