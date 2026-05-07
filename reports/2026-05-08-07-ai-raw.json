@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-08",
+  "hour": "07",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13436,
+    "completion_tokens": 2579,
+    "total_tokens": 16015
+  },
+  "content_length": 1887,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"日本代币化7.5万亿债券市场\",\n      \"summary\": \"日本宣布将利用区块链技术对7.5万亿美元的债券市场进行代币化，这是全球最大规模的传统资产上链举措之一。此举将极大推动RWA（现实世界资产）赛道发展，吸引机构资金入场，并提升加密货币的整体合法性和采用率。利好BTC、ETH及RWA相关代币如ONDO、POLY等。长期看多信号。\",\n      \"reason\": \"国家级代币化债券市场，影响力巨大，属于优先级一的重大监管/宏观经济消息。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"ONDO\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t6nqzg/japan_to_tokenize_75_trillion_bond_market_with/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Solv协议抛弃LayerZero迁移至Chainlink\",\n      \"summary\": \"Solv Protocol宣布将放弃LayerZero跨链技术，将其7亿美元代币化比特币技术迁移至Chainlink CCIP。此举对LayerZero（ZRO）是重大利空，可能导致需求下降；对Chainlink（LINK）是利好，验证了其跨链技术的领先地位。短期ZRO承压，LINK获支撑。\",\n      \"reason\": \"项目重大技术迁移，直接影响ZRO和LINK代币价值，属于优先级二的项目更新。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ZRO\", \"LINK\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/367154/solv-protocol-dump-layerzero-migrate-700m-tokenized-bitcoin-chainlink\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"加密PAC选举前投入720万美元\",\n      \"summary\": \"多个加密政治行动委员会（PACs）在5个美国州选举中投入720万美元支持候选人，表明加密行业正积极通过政治影响争取有利监管。这有助于推动亲加密立法，降低监管不确定性风险。对加密市场整体情绪偏利好，但影响缓慢。\",\n      \"reason\": \"监管相关政治动向，影响中期市场情绪和监管预期，属于优先级二的监管政策信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/crypto-pacs-spending-candidates-five-states-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

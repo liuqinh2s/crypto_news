@@ -714,3 +714,62 @@ content length: 4115
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2579, prompt_tokens=13436, total_tokens=16015, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1879, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=12412)
+content length: 1887
+============================================================
+{
+  "news": [
+    {
+      "title": "日本代币化7.5万亿债券市场",
+      "summary": "日本宣布将利用区块链技术对7.5万亿美元的债券市场进行代币化，这是全球最大规模的传统资产上链举措之一。此举将极大推动RWA（现实世界资产）赛道发展，吸引机构资金入场，并提升加密货币的整体合法性和采用率。利好BTC、ETH及RWA相关代币如ONDO、POLY等。长期看多信号。",
+      "reason": "国家级代币化债券市场，影响力巨大，属于优先级一的重大监管/宏观经济消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "ONDO"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t6nqzg/japan_to_tokenize_75_trillion_bond_market_with/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Solv协议抛弃LayerZero迁移至Chainlink",
+      "summary": "Solv Protocol宣布将放弃LayerZero跨链技术，将其7亿美元代币化比特币技术迁移至Chainlink CCIP。此举对LayerZero（ZRO）是重大利空，可能导致需求下降；对Chainlink（LINK）是利好，验证了其跨链技术的领先地位。短期ZRO承压，LINK获支撑。",
+      "reason": "项目重大技术迁移，直接影响ZRO和LINK代币价值，属于优先级二的项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["ZRO", "LINK"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367154/solv-protocol-dump-layerzero-migrate-700m-tokenized-bitcoin-chainlink"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密PAC选举前投入720万美元",
+      "summary": "多个加密政治行动委员会（PACs）在5个美国州选举中投入720万美元支持候选人，表明加密行业正积极通过政治影响争取有利监管。这有助于推动亲加密立法，降低监管不确定性风险。对加密市场整体情绪偏利好，但影响缓慢。",
+      "reason": "监管相关政治动向，影响中期市场情绪和监管预期，属于优先级二的监管政策信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/crypto-pacs-spending-candidates-five-states-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
