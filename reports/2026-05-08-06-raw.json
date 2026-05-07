@@ -1,0 +1,498 @@
+{
+  "date": "2026-05-08",
+  "hour": "06",
+  "total": 70,
+  "fetched_at": "2026-05-08T06:00:32.928440+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Coinbax wins $20,000 PitchFest prize at Consensus Miami for stablecoin compliance",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/07/coinbax-wins-usd20-000-pitchfest-prize-at-consensus-miami-for-stablecoin-compliance",
+      "published": "Thu, 07 May 2026 21:35:01 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Privacy and accountability can coexist onchain, say panelists at Consensus Miami",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/05/07/privacy-and-accountability-can-coexist-onchain-say-panelists-at-consensus-miami",
+      "published": "Thu, 07 May 2026 21:14:23 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "AI agents and large corporates will lead the next stablecoin boom, executives say",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/07/ai-agents-and-large-corporates-will-lead-the-next-stablecoin-boom-executives-say",
+      "published": "Thu, 07 May 2026 21:10:50 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coinbase stock declines 5% after missing Q1 estimates on crypto slowdown",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/07/coinbase-stock-drops-4-after-surprise-1q-miss-as-crypto-trading-slows",
+      "published": "Thu, 07 May 2026 20:51:35 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase loses nearly $400 million in Q1 as CEO seeks to reduce dependence on spot crypto trading",
+      "summary": "<p>The company is transforming from a \"spot-focused crypto platform to a place\" where users can trade many asset classes.</p>",
+      "link": "https://www.theblock.co/post/400489/coinbase-loses-nearly-400-million-ceo-seeks-to-reduce-dependence-spot-crypto-trading?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 07 May 2026 17:22:16 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Dorsey’s Block raises full-year guidance after ‘strong’ Q1, records $173 million bitcoin remeasurement loss",
+      "summary": "<p>Cash App's bitcoin business was down 31% year-over-year, while Square reported a negligible gross profit impact from crypto.</p>",
+      "link": "https://www.theblock.co/post/400500/dorseys-block-raises-full-year-guidance-after-strong-q1-records-173-million-bitcoin-remeasurement-loss?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 07 May 2026 17:16:19 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "IREN stock surges as Nvidia backs AI expansion with warrants tied to 30 million shares",
+      "summary": "<p>Alongside the AI infrastructure expansion, Nvidia took warrants that may eventually convert into a $2.1 billion stake in IREN.</p>",
+      "link": "https://www.theblock.co/post/400498/iren-stock-surges-as-nvidia-backs-ai-expansion-with-warrants-tied-to-30-million-shares?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 07 May 2026 17:11:09 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "JPMorgan says bitcoin is gaining over gold as debasement trade after Iran conflict",
+      "summary": "<p>Investors are increasingly choosing bitcoin over gold as a debasement trade since the Iran conflict began, JPMorgan analysts said.</p>",
+      "link": "https://www.theblock.co/post/400486/jpmorgan-bitcoin-over-gold-debasement-trade-iran-conflict?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 07 May 2026 16:01:51 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Coinbase Shares Slide as Crypto Giant Reports $394 Million Q1 Loss",
+      "summary": "Crypto exchange Coinbase reported a consecutive quarterly loss as transaction revenue plummeted 40% amid a volatile market.",
+      "link": "https://decrypt.co/367216/coinbase-shares-slide-crypto-giant-reports-394-million-q1-loss",
+      "published": "Thu, 07 May 2026 21:24:36 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tom Lee Says BitMine May Slow Ethereum Buys After Amassing Nearly $12 Billion of ETH",
+      "summary": "Leading Ethereum treasury firm BitMine Immersion Technologies may start slowing its ETH purchases as it approaches its 5% supply goal.",
+      "link": "https://decrypt.co/367192/tom-lee-bitmine-slow-ethereum-buys-12-billion-eth",
+      "published": "Thu, 07 May 2026 20:54:20 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Chrome Deletes Its Own Privacy Promise for Sneaky On-Device AI",
+      "summary": "Chrome is quietly installing a 4GB AI on your devices. And now, its latest version has removed the disclosure that promised to keep your data off Google’s servers.",
+      "link": "https://decrypt.co/367193/chrome-removes-privacy-claim-gemini-nano-google",
+      "published": "Thu, 07 May 2026 20:52:05 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Fund managers double down on Bitcoin as crypto sentiment rebounds — CoinShares",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Fund managers double down on Bitcoin as crypto sentiment rebounds — CoinShares\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL3NwYWNlX2JsYWNrJTIwaG9sZV9tb25leSUyMGJpdGNvaW4yJTIwKDEpLmpwZz9wcmVmaXg9bWVkaWElMkZhcnRpY2xlLWNvdmVycw==.jpg\" /></p><p>Institutional investors are gradually increasing crypto exposure as Bitcoin leads allo",
+      "link": "https://cointelegraph.com/news/fund-managers-boost-bitcoin-exposure-crypto-sentiment-rebounds-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 07 May 2026 20:55:08 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Bitcoin falls under $80K but four-month high in weekly BTC ETF inflows may curb selling",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin falls under $80K but four-month high in weekly BTC ETF inflows may curb selling\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmNvaW50ZWxlZ3JhcGguY29tL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJJTIwQml0Y29pbiUyMGhhc2hyYXRlJTIwcm9sbGVyY29hc3RlciUyMEVURi5qcGc/cHJlZml4PW1lZGlhJTJGYXJ0aWNsZS1jb3ZlcnM=.jpg\" /></p><p>Bitcoin hit resistance at $82,800, triggering a drop below $80,00",
+      "link": "https://cointelegraph.com/markets/bitcoin-slips-below-80k-while-weekly-etf-inflows-hit-january-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 07 May 2026 20:05:09 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "消息人士称3艘美军驱逐舰在霍尔木兹海峡附近遭袭",
+      "summary": "【消息人士称3艘美军驱逐舰在霍尔木兹海峡附近遭袭】金色财经报道，5月8日，伊朗方面消息人士当地时间8日称，3艘美军驱逐舰在霍尔木兹海峡附近遭到伊朗海军打击。据了解，上述驱逐舰正向阿曼海方向撤离。目前伊朗及美国官方均未对此作出回应。 (央视新闻)<p>原文链接: <a href=\"https://www.cls.cn/detail/2365483\">https://www.cls.cn/detail/2365483</a></p>",
+      "link": "https://jinse.com.cn/lives/511699.html",
+      "published": "Thu, 07 May 2026 21:54:21 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美媒称美军袭击伊朗南部多地",
+      "summary": "【美媒称美军袭击伊朗南部多地】金色财经报道，5月8日，当地时间5月7日晚至今天（5月8日）凌晨，伊朗南部格什姆岛及阿巴斯港附近传出多次爆炸声。伊朗官方暂未对爆炸确切原因作出官方回应。美国福克斯新闻记者援引美方官员消息在社交媒体发帖称，“美军刚刚对伊朗格什姆港和阿巴斯港实施了打击。”这一报道暂未得到美国官方证实。 (CCTV国际时讯)<p>原文链接: <a href=\"https://www.cls.cn/detail/2365481\">https://www.cls.cn/detail/2365481</a></p>",
+      "link": "https://jinse.com.cn/lives/511698.html",
+      "published": "Thu, 07 May 2026 21:30:05 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "英伟达与IREN宣布达成战略合作",
+      "summary": "【英伟达与IREN宣布达成战略合作】金色财经报道，5月8日，英伟达与IREN宣布达成战略合作，以加速部署高达5吉瓦的人工智能基础设施。英伟达获得了一项五年期认购权，可以每股70美元的价格购买IREN最多3000万股股票，这意味着英伟达有权向IREN投资至多21亿美元。<p>原文链接: <a href=\"https://www.cls.cn/detail/2365478\">https://www.cls.cn/detail/2365478</a></p>",
+      "link": "https://jinse.com.cn/lives/511697.html",
+      "published": "Thu, 07 May 2026 21:29:32 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伊朗首都德黑兰西部启动防空系统",
+      "summary": "【伊朗首都德黑兰西部启动防空系统】金色财经报道，5月8日，伊朗首都德黑兰西部当地时间7日夜间启动防空系统，以应对数架小型飞行器。 (央视新闻)<p>原文链接: <a href=\"https://www.cls.cn/detail/2365477\">https://www.cls.cn/detail/2365477</a></p>",
+      "link": "https://jinse.com.cn/lives/511696.html",
+      "published": "Thu, 07 May 2026 21:29:07 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Coinbase将暂停KAITO、SENT、SAHARA等永续期货交易",
+      "summary": "【Coinbase将暂停KAITO、SENT、SAHARA等永续期货交易】金色财经报道，5月8日，Coinbase 宣布多个永续期货将在  5 月 21 日 UTC 时间 13:00（或前后）暂停交易。包括KAITO-PERP、SENT-PERP、SAHARA-PERP、CAKE-PERP、TOSHI-PERP、AKT-PERP、VET-PERP、ANIME-PERP、THETA-PERP、ZK-PERP、KERNEL-PERP、BARD-PERP。<p>原文链接: <a href=\"https://x.com/CoinbaseMarkets/status/2052473617233969579\">https://x.com/CoinbaseMarkets/status/2052473617233969579</a></p>",
+      "link": "https://jinse.com.cn/lives/511695.html",
+      "published": "Thu, 07 May 2026 21:08:49 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美元指数7日上涨0.05%",
+      "summary": "【美元指数7日上涨0.05%】金色财经报道，5月8日，美元指数7日上涨0.05%，在汇市尾市收于98.063。",
+      "link": "https://jinse.com.cn/lives/511694.html",
+      "published": "Thu, 07 May 2026 20:55:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伊军方人士称霍尔木兹海峡内敌方单位遭伊朗导弹打击",
+      "summary": "【伊军方人士称霍尔木兹海峡内敌方单位遭伊朗导弹打击】金色财经报道，5月8日，一名伊朗军方人士当地时间7日表示，在美军对一艘伊朗油轮发动袭击后，霍尔木兹海峡内的“敌方单位”遭到伊朗导弹打击，并在受损后撤离相关区域。 (央视新闻)<p>原文链接: <a href=\"https://www.cls.cn/detail/2365470\">https://www.cls.cn/detail/2365470</a></p>",
+      "link": "https://jinse.com.cn/lives/511693.html",
+      "published": "Thu, 07 May 2026 20:39:59 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "CoreWeave一季度营收20.78亿美元",
+      "summary": "【CoreWeave一季度营收20.78亿美元】金色财经报道，5月8日，CoreWeave一季度营收20.78亿美元，IBES预期19.65亿美元。一季度调整后息税折旧摊销前利润 EBITDA)为11.57亿美元，市场预期11.50亿美元；一季度调整后营业利润2100万美元，市场预期2460万美元；一季度每股亏损1.40美元；一季度调整后息税折旧摊销前利润率56%；一季度调整后净亏损5.89亿美元，市场预期亏损4.46亿美元。<p>原文链接: <a href=\"https://www.cls.cn/detail/2365471\">https://www.cls.cn/detail/2365471</a></p>",
+      "link": "https://jinse.com.cn/lives/511692.html",
+      "published": "Thu, 07 May 2026 20:39:34 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国务卿批准向中东国家出售价值258亿美元的武器",
+      "summary": "【美国务卿批准向中东国家出售价值258亿美元的武器】金色财经报道，5月8日，美国国务卿鲁比奥当地时间5月7日批准向中东伙伴国出售数百枚防空拦截弹及其他武器，相关交易总额达258亿美元。据悉，这一数字是上周政府宣布达成这些协议时所披露金额的三倍。据美国国务院发言人透露，鲁比奥于5月1日紧急批准了向巴林、以色列、科威特、卡塔尔和阿拉伯联合酋长国进行的上述武器销售。 (央视新闻)<p>原文链接: <a href=\"https://www.cls.cn/detail/2365463\">https://www.cls.cn/detail/2365463</a></p>",
+      "link": "https://jinse.com.cn/lives/511691.html",
+      "published": "Thu, 07 May 2026 20:27:11 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伊朗南部发生爆炸，伊媒指阿联酋或涉“敌对行动”",
+      "summary": "【伊朗南部发生爆炸，伊媒指阿联酋或涉“敌对行动”】金色财经报道，5月8日，伊朗南部格什姆岛及阿巴斯港附近传出多次爆炸声。据伊朗法尔斯通讯社报道，伊朗格什姆岛的巴赫曼码头在“伊朗武装部队与敌方交火”后遭到袭击。德黑兰时报称，阿联酋或与格什姆岛爆炸有关。塔斯尼姆通讯社则报道，有迹象表明阿联酋在格什姆岛的巴赫曼港采取了敌对行动，而阿巴斯港的爆炸则与伊方针对两架小型飞机的防御活动有关。塔斯尼姆通讯社表示：“如果此事属实，阿联酋将为其敌对行动付出代价。”另据阿拉伯电视台报道，以色列官员称以方与伊朗传出的爆炸声无关。目前，伊朗官方暂未对此作出回应。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260508035128765800\">https://flash.jin10.com/detail/20260508035128765800</a></p>",
+      "link": "https://jinse.com.cn/lives/511690.html",
+      "published": "Thu, 07 May 2026 20:18:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美联储威廉姆斯：目前经济中存在很多不确定性",
+      "summary": "【美联储威廉姆斯：目前经济中存在很多不确定性】金色财经报道，5月8日，美联储威廉姆斯表示，目前经济中存在很多不确定性，去年经济表现好于许多人的预期，经济在稳定的就业市场中展现出强大的韧性。并表示，当前利率并未处于历史高位。<p>原文链接: <a href=\"https://www.cls.cn/detail/2365465\">https://www.cls.cn/detail/2365465</a></p>",
+      "link": "https://jinse.com.cn/lives/511689.html",
+      "published": "Thu, 07 May 2026 20:16:11 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "在岸人民币兑美元较周三夜盘收盘涨65点",
+      "summary": "【在岸人民币兑美元较周三夜盘收盘涨65点】金色财经报道，5月8日，在岸人民币兑美元（CNY）北京时间03:00收报6.8068元，较周三夜盘收盘涨65点。成交量5659.8亿美元。",
+      "link": "https://jinse.com.cn/lives/511688.html",
+      "published": "Thu, 07 May 2026 20:06:01 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美股高开低走 三大指数集体收跌",
+      "summary": "【美股高开低走 三大指数集体收跌】金色财经报道，5月8日，美股高开低走，三大指数集体收跌，道指跌0.63%，标普500指数跌0.38%，纳指跌0.13%。英伟达股价上涨1.77%，谷歌-A股价下跌0.01%，苹果股价下跌0.02%，微软股价上涨1.65%，亚马逊股价下跌1.39%，Meta Platforms Inc Class A股价上涨0.64%，特斯拉股价上涨3.28%，奈飞股价下跌0.02%。",
+      "link": "https://jinse.com.cn/lives/511687.html",
+      "published": "Thu, 07 May 2026 20:05:33 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "Strategy’s Bitcoin Threat Hides an Uglier Truth - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNOEFCb3ZEamtzcW13N3F3V09KdElZM1FNYkMyUHZ5WGZZWWlSM203WjNMRGdwY1RCRExUVXUyQ1NoSE5EN1J2b2ROX1ZfZGhRTWVpRXJQT2RGanhMVDMzLXhPQy00REhJSDQ5VVRSWnRYakJqYTdCRC1VektXLXhHMkZPSDlmNjRyUXBjZDhyLWc1SDlhQnROSHI4ZGp1NmU1cTdj?oc=5\" target=\"_blank\">Strategy’s Bitcoin Threat Hides an Uglier Truth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOEFCb3ZEamtzcW13N3F3V09KdElZM1FNYkMyUHZ5WGZZWWlSM203WjNMRGdwY1RCRExUVXUyQ1NoSE5EN1J2b2ROX1ZfZGhRTWVpRXJQT2RGanhMVDMzLXhPQy00REhJSDQ5VVRSWnRYakJqYTdCRC1VektXLXhHMkZPSDlmNjRyUXBjZDhyLWc1SDlhQnROSHI4ZGp1NmU1cTdj?oc=5",
+      "published": "Thu, 07 May 2026 21:00:01 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "Coinbase logs second straight quarterly loss as crypto trading momentum fades - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQN1FFdGI5X2pnQUhtd0VZbWZRbWtaWTlZYnlMTW8tb2NkcEpmTlo3SmhKNU4xMEpzMmFZcnlCZnY2T0ZsdW9QcmZsMkhuYlJyVDd1QjBFTU8tRjgxbHZZMDYtSjF4dG10b05NQ3JhSTRmaUYteDdYTXhlcmN4ano0aENqdUFpcjFROEVEenlYUnBIX1VXdG1nQWEyVmhlRGx6cEt1SERERXFYSjJNMHNycUh0NFYyVk1HLVJvcXVYWG8zaVVkcFE?oc=5\" target=\"_blank\">Coinbase logs second straight quarterly loss as crypto trading momentum fades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQN1FFdGI5X2pnQUhtd0VZbWZRbWtaWTlZYnlMTW8tb2NkcEpmTlo3SmhKNU4xMEpzMmFZcnlCZnY2T0ZsdW9QcmZsMkhuYlJyVDd1QjBFTU8tRjgxbHZZMDYtSjF4dG10b05NQ3JhSTRmaUYteDdYTXhlcmN4ano0aENqdUFpcjFROEVEenlYUnBIX1VXdG1nQWEyVmhlRGx6cEt1SERERXFYSjJNMHNycUh0NFYyVk1HLVJvcXVYWG8zaVVkcFE?oc=5",
+      "published": "Thu, 07 May 2026 20:41:48 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Coinbase posts steep first-quarter loss after slide in crypto prices, shares fall 4% - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE40alp3SFlUTk5Od210YWlwd1Q3WEtvLUJxcWRpN1d1SHEySndxdW9yQ2lybmF3c1JKbkZPcTRrTVctdHVvVjh4STlLbGFBSllkM19sTkd1OUVINWk5dzkzclY5V1Q5Um13SWZmQmpxYUJTaUZYTHfSAXtBVV95cUxNRkVoQ2lrTVhTQmhCaXYwUkVzX3R6RDZrREs3bGNTZUR5QU5QYzNidHMzcXhFSGtNZlBpSDJRSHRDdEVaNUdtNXUxS0NYcWVKdTVselpUOEVWaTZnT1BLRmlJWEhwUGxCcUJEZ0lhQ2lkamVCRXRSRm5HOGs?oc=5\" target=\"_blank\">Coinbase posts steep first-quarter loss after slide in crypto prices, shares fall 4%</a>&nbsp;&nbsp;",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40alp3SFlUTk5Od210YWlwd1Q3WEtvLUJxcWRpN1d1SHEySndxdW9yQ2lybmF3c1JKbkZPcTRrTVctdHVvVjh4STlLbGFBSllkM19sTkd1OUVINWk5dzkzclY5V1Q5Um13SWZmQmpxYUJTaUZYTHfSAXtBVV95cUxNRkVoQ2lrTVhTQmhCaXYwUkVzX3R6RDZrREs3bGNTZUR5QU5QYzNidHMzcXhFSGtNZlBpSDJRSHRDdEVaNUdtNXUxS0NYcWVKdTVselpUOEVWaTZnT1BLRmlJWEhwUGxCcUJEZ0lhQ2lkamVCRXRSRm5HOGs?oc=5",
+      "published": "Thu, 07 May 2026 20:28:28 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "IREN shares pop 13% on AI infrastructure deal with Nvidia - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1Ibjd6aUM3QzlEZVplTXQ1MjJrZVVCR1F3VlBsNzZGWXVQQW5mZXkyaUxwNWJUUVc4UGRJUkx1RXYwVTQzRFFhSE0tTlVNQWVvMG04MXRZRU02YldrR3JGWXdxOE1KYUdsdU9QU1MtNmp6OFdpbWFCdWc0R1XSAYIBQVVfeXFMTjlkVTZERGZmNEwyQ1lFT1F4T0k2MmI5QVQxaGR6T3FOMkJyUHJFMmVSdS1RSGtsYkxkSTFjUm1Rd3ZCNUtzRlE4MGRlZktSWE40TWNzWFZsbEpmeW5OQXRYa2ZCN1IwbGdlRndjRGhxRHNtWGZOUE5FVmk4WFcySnE1Zw?oc=5\" target=\"_blank\">IREN shares pop 13% on AI infrastructure deal with Nvidia</a>&nbsp;&nbsp;<font co",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Ibjd6aUM3QzlEZVplTXQ1MjJrZVVCR1F3VlBsNzZGWXVQQW5mZXkyaUxwNWJUUVc4UGRJUkx1RXYwVTQzRFFhSE0tTlVNQWVvMG04MXRZRU02YldrR3JGWXdxOE1KYUdsdU9QU1MtNmp6OFdpbWFCdWc0R1XSAYIBQVVfeXFMTjlkVTZERGZmNEwyQ1lFT1F4T0k2MmI5QVQxaGR6T3FOMkJyUHJFMmVSdS1RSGtsYkxkSTFjUm1Rd3ZCNUtzRlE4MGRlZktSWE40TWNzWFZsbEpmeW5OQXRYa2ZCN1IwbGdlRndjRGhxRHNtWGZOUE5FVmk4WFcySnE1Zw?oc=5",
+      "published": "Thu, 07 May 2026 21:28:19 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Datadog stock soars 31% on blockbuster earnings as AI winners emerge in software - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1IbC1BdzEzOURmQU44ZmU2OUttbXgwbHVVSVBka2l2OW0wSmdyWFh2RlAwTmZ4WkJVZ2pEWGF0cThRYkw3bGNEeU1YbFp4NFRuUmRWTWtiaDd5a29QMWlsYi1kX0QwYTRIOU1zTk4xS2ZEZDFXT0tOWHZ30gF_QVVfeXFMTUdYYWVjWVFRVW85bnZtbmt4cDFSYXJRYnRXVXpCdHB3bzlwc0pwN1lONUhhcDJLQVcwT2JUcGtmbGVPbUZLMUFzQXBkbkNMUmxCRkhfYzhlUVBxZnhhbHV4NlVlZ2I5N1F2Z1p0LWNCS0w5OV9pWU1hYXlUN1Bkbw?oc=5\" target=\"_blank\">Datadog stock soars 31% on blockbuster earnings as AI winners emerge in software</a>&nbsp",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1IbC1BdzEzOURmQU44ZmU2OUttbXgwbHVVSVBka2l2OW0wSmdyWFh2RlAwTmZ4WkJVZ2pEWGF0cThRYkw3bGNEeU1YbFp4NFRuUmRWTWtiaDd5a29QMWlsYi1kX0QwYTRIOU1zTk4xS2ZEZDFXT0tOWHZ30gF_QVVfeXFMTUdYYWVjWVFRVW85bnZtbmt4cDFSYXJRYnRXVXpCdHB3bzlwc0pwN1lONUhhcDJLQVcwT2JUcGtmbGVPbUZLMUFzQXBkbkNMUmxCRkhfYzhlUVBxZnhhbHV4NlVlZ2I5N1F2Z1p0LWNCS0w5OV9pWU1hYXlUN1Bkbw?oc=5",
+      "published": "Thu, 07 May 2026 20:26:03 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Japan To Tokenize $7.5 Trillion Bond Market With Blockchain",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1t6nqzg/japan_to_tokenize_75_trillion_bond_market_with/\"> <img alt=\"Japan To Tokenize $7.5 Trillion Bond Market With Blockchain\" src=\"https://external-preview.redd.it/auPytkBPbIxbYRH9qhHkbXP-O__WWLKeF3Hk-i-2DF0.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1d995abbeb30b4bb6572999729f229ed25aa8db2\" title=\"Japan To Tokenize $7.5 Trillion Bond Market With Blockchain\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"ht",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1t6nqzg/japan_to_tokenize_75_trillion_bond_market_with/",
+      "published": "2026-05-07T21:14:45+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Has anyone here actually used Bitcoin/Lightning payments at a real store through Square yet?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I keep seeing news about Square enabling BTC payments and I’m curious how practical it is right now in the real world.</p> <p>Do you need Cash App/Strike specifically? </p> <p>Do merchants usually know they even have it enabled? </p> <p>Can you just scan and pay instantly or do you still have to awkwardly ask the cashier first?</p> <p>Would love to hear some real experiences from people who’ve actually bought coffee/food/etc using Lightning at checkout.</p> </di",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1t6mx4q/has_anyone_here_actually_used_bitcoinlightning/",
+      "published": "2026-05-07T20:44:16+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Do I sell stock or Bitcoin?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm in a financial pinch and need to liquidate somewhere</p> <p>I have 0.105 Bitcoin and my Avg Cost is $101k (my dumbass bought at the peak)</p> <p>I also have $21k in a Taxable Brokerage Acct in Index Funds</p> <p>I need around $10k, which is exactly how much Bitcoin I have. Should I take the L and sell the Bitcoin or should I sell the Stock?</p> <p>Also planning on buying back in once my work picks back up again. </p> </div><!-- SC_ON --> &#32; submitted by &",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1t6mi5p/do_i_sell_stock_or_bitcoin/",
+      "published": "2026-05-07T20:29:17+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Brief - Lowenstein Sandler LLP",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQczl5TVV5Z21QZjZqdzJXRjBJSF9iUnA5cEpXeEFORkNqTURBQWdWa0tkWEFkcnYzd3gtZktuWjhuS2VDdy1FS3dEUjNIYmVfd1BldHFuSFYtTVo1c3JnYU53M29oUUpVd2RZNGFzSk1NQUVXLTJaSTQ0Z0lzLXA2OWVB?oc=5\" target=\"_blank\">Crypto Brief</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lowenstein Sandler LLP</font>",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQczl5TVV5Z21QZjZqdzJXRjBJSF9iUnA5cEpXeEFORkNqTURBQWdWa0tkWEFkcnYzd3gtZktuWjhuS2VDdy1FS3dEUjNIYmVfd1BldHFuSFYtTVo1c3JnYU53M29oUUpVd2RZNGFzSk1NQUVXLTJaSTQ0Z0lzLXA2OWVB?oc=5",
+      "published": "Thu, 07 May 2026 20:23:52 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "San Antonio to crack down on Bitcoin ATM scams with warning sign - San Antonio Report",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQSl91bjh3RnVST1E1cVFWX0FtQ29jSGtMVndnRkI3SFlMYjFpRFJ4M25NQUdpYVJMV3NOd0Q2N3pDd1Vzd1BmaElWRTJLdktaRFp4Uy1EVWVnWEtIXy1YWkFpX2xhRktDOE1LdXk2VHNSSHZDVE5UczgzbE8tdjBlcDkzWmtvdllWcndCVjZlTjNtSDdaLVZ5a3hRSXBBcEhLWHNLWFZxSGhlX1BFbVE?oc=5\" target=\"_blank\">San Antonio to crack down on Bitcoin ATM scams with warning sign</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">San Antonio Report</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSl91bjh3RnVST1E1cVFWX0FtQ29jSGtMVndnRkI3SFlMYjFpRFJ4M25NQUdpYVJMV3NOd0Q2N3pDd1Vzd1BmaElWRTJLdktaRFp4Uy1EVWVnWEtIXy1YWkFpX2xhRktDOE1LdXk2VHNSSHZDVE5UczgzbE8tdjBlcDkzWmtvdllWcndCVjZlTjNtSDdaLVZ5a3hRSXBBcEhLWHNLWFZxSGhlX1BFbVE?oc=5",
+      "published": "Thu, 07 May 2026 21:45:47 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase Global Swings to Loss Amid Softer Crypto Market - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNalFlaUgtUFRNQWViRWMyaTZKbl9LaFM3ZHE0Wkp1WktSc0p0STI2dU93Zk45SExNZk5Yc0Z0a2VfMmlHRXpKaWhUN2JqLWhYQUFuU2RwcS1CR3ZlOS1tVU11MVF6N0lkS1ktVEx5S180MUpqSHhwR0FtZ2RwRFhqaGkwNkZaOVpjZmh2bWdHeWdhMldrLWZkbzdxVlVYSFgzVnk3OE93?oc=5\" target=\"_blank\">Coinbase Global Swings to Loss Amid Softer Crypto Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNalFlaUgtUFRNQWViRWMyaTZKbl9LaFM3ZHE0Wkp1WktSc0p0STI2dU93Zk45SExNZk5Yc0Z0a2VfMmlHRXpKaWhUN2JqLWhYQUFuU2RwcS1CR3ZlOS1tVU11MVF6N0lkS1ktVEx5S180MUpqSHhwR0FtZ2RwRFhqaGkwNkZaOVpjZmh2bWdHeWdhMldrLWZkbzdxVlVYSFgzVnk3OE93?oc=5",
+      "published": "Thu, 07 May 2026 21:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Strategy’s Bitcoin Threat Hides an Uglier Truth - Bloomberg",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNOEFCb3ZEamtzcW13N3F3V09KdElZM1FNYkMyUHZ5WGZZWWlSM203WjNMRGdwY1RCRExUVXUyQ1NoSE5EN1J2b2ROX1ZfZGhRTWVpRXJQT2RGanhMVDMzLXhPQy00REhJSDQ5VVRSWnRYakJqYTdCRC1VektXLXhHMkZPSDlmNjRyUXBjZDhyLWc1SDlhQnROSHI4ZGp1NmU1cTdj?oc=5\" target=\"_blank\">Strategy’s Bitcoin Threat Hides an Uglier Truth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOEFCb3ZEamtzcW13N3F3V09KdElZM1FNYkMyUHZ5WGZZWWlSM203WjNMRGdwY1RCRExUVXUyQ1NoSE5EN1J2b2ROX1ZfZGhRTWVpRXJQT2RGanhMVDMzLXhPQy00REhJSDQ5VVRSWnRYakJqYTdCRC1VektXLXhHMkZPSDlmNjRyUXBjZDhyLWc1SDlhQnROSHI4ZGp1NmU1cTdj?oc=5",
+      "published": "Thu, 07 May 2026 21:00:01 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase posts steep first-quarter loss after slide in crypto prices, shares fall 4% - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE40alp3SFlUTk5Od210YWlwd1Q3WEtvLUJxcWRpN1d1SHEySndxdW9yQ2lybmF3c1JKbkZPcTRrTVctdHVvVjh4STlLbGFBSllkM19sTkd1OUVINWk5dzkzclY5V1Q5Um13SWZmQmpxYUJTaUZYTHfSAXtBVV95cUxNRkVoQ2lrTVhTQmhCaXYwUkVzX3R6RDZrREs3bGNTZUR5QU5QYzNidHMzcXhFSGtNZlBpSDJRSHRDdEVaNUdtNXUxS0NYcWVKdTVselpUOEVWaTZnT1BLRmlJWEhwUGxCcUJEZ0lhQ2lkamVCRXRSRm5HOGs?oc=5\" target=\"_blank\">Coinbase posts steep first-quarter loss after slide in crypto prices, shares fall 4%</a>&nbsp;&nbsp;",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40alp3SFlUTk5Od210YWlwd1Q3WEtvLUJxcWRpN1d1SHEySndxdW9yQ2lybmF3c1JKbkZPcTRrTVctdHVvVjh4STlLbGFBSllkM19sTkd1OUVINWk5dzkzclY5V1Q5Um13SWZmQmpxYUJTaUZYTHfSAXtBVV95cUxNRkVoQ2lrTVhTQmhCaXYwUkVzX3R6RDZrREs3bGNTZUR5QU5QYzNidHMzcXhFSGtNZlBpSDJRSHRDdEVaNUdtNXUxS0NYcWVKdTVselpUOEVWaTZnT1BLRmlJWEhwUGxCcUJEZ0lhQ2lkamVCRXRSRm5HOGs?oc=5",
+      "published": "Thu, 07 May 2026 20:28:28 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Georgia inmate accused of targeting Lindale woman in $13k bitcoin scam - KLTV.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQLXNMMS1RYWttWmEydjBhQy02MUZhVm5CVWdwaUwzNDhEMkdBMGl3c1VsZ1FZNmh4ZThYTFVEMlBKaGhIS0IxQ0kyb0dwMFlnbEJTX0ZTSGNYMHJMYXI2MmFJTUEwdjBERnpvOVdhMGJBTEs2Q1ltWUJubE11eEpMM3ZieEwyc3NOVWxvRFZFUnRxakUxQkVEc3paaTQ?oc=5\" target=\"_blank\">Georgia inmate accused of targeting Lindale woman in $13k bitcoin scam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KLTV.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLXNMMS1RYWttWmEydjBhQy02MUZhVm5CVWdwaUwzNDhEMkdBMGl3c1VsZ1FZNmh4ZThYTFVEMlBKaGhIS0IxQ0kyb0dwMFlnbEJTX0ZTSGNYMHJMYXI2MmFJTUEwdjBERnpvOVdhMGJBTEs2Q1ltWUJubE11eEpMM3ZieEwyc3NOVWxvRFZFUnRxakUxQkVEc3paaTQ?oc=5",
+      "published": "Thu, 07 May 2026 21:01:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase Stock Falls On Q1 Miss. Trading Volumes, Crypto Prices Drag Results. - Investor's Business Daily",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNQm5RLU5QbE5GMWwwY0UxTGNfRVVyVTQ3YmhncmViSi1fR3QtTUhVQWlVeWJKWjBPRzQ5Z0pBRHBSVDFQaVQ5dnF5NFBFNU11MzVNWVBYdXplN3k1cnlXWDBLWnZZY2VndUVKdlRvU3c5MmlRcnhQV0dNVUkySlpBZEhhMVdTeU1LaEtsc2RWdUFGeVIyUmhxQWI4SUxVMUZRNi1tRFRCSzVXUzBDclpxbXlwcXdMSTNuQ2dFUlZ3UGxkUElGbkE?oc=5\" target=\"_blank\">Coinbase Stock Falls On Q1 Miss. Trading Volumes, Crypto Prices Drag Results.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investor's Business Daily</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQm5RLU5QbE5GMWwwY0UxTGNfRVVyVTQ3YmhncmViSi1fR3QtTUhVQWlVeWJKWjBPRzQ5Z0pBRHBSVDFQaVQ5dnF5NFBFNU11MzVNWVBYdXplN3k1cnlXWDBLWnZZY2VndUVKdlRvU3c5MmlRcnhQV0dNVUkySlpBZEhhMVdTeU1LaEtsc2RWdUFGeVIyUmhxQWI4SUxVMUZRNi1tRFRCSzVXUzBDclpxbXlwcXdMSTNuQ2dFUlZ3UGxkUElGbkE?oc=5",
+      "published": "Thu, 07 May 2026 20:46:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase turns into a poster child for the crypto selloff - MarketWatch",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQa2IxLVhvUEFBUE9FOHN3dmZPcjAwdXRqT0hJZk5Jb1k3SWhFMzM3MEpJYWI4amF6d21MSTR1VWd6aWR5dkc3ZE1TQ0tET1A2TGtjU1N5MHo0Zl9SZ1RSdHM5N1AweEh6enZzaW16TnQxUkxKODZxNE5XenBUbzZQNVNpWm1HNDdWQWtMb0llVUpyYV92ejRqem9vZ0RaQ0VvS1E?oc=5\" target=\"_blank\">Coinbase turns into a poster child for the crypto selloff</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketWatch</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa2IxLVhvUEFBUE9FOHN3dmZPcjAwdXRqT0hJZk5Jb1k3SWhFMzM3MEpJYWI4amF6d21MSTR1VWd6aWR5dkc3ZE1TQ0tET1A2TGtjU1N5MHo0Zl9SZ1RSdHM5N1AweEh6enZzaW16TnQxUkxKODZxNE5XenBUbzZQNVNpWm1HNDdWQWtMb0llVUpyYV92ejRqem9vZ0RaQ0VvS1E?oc=5",
+      "published": "Thu, 07 May 2026 21:03:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase stock drops as company posts second consecutive quarterly loss amid crypto slump - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNE1QZngyQ193YWozUlZUWVJVNVBNckpSRkVqcS1ESkdYd1JCcWVOb0NRaWE1NVZaLXJPTnN4emZ5aEk1MlNIcXVXbkx6V1B4cEVkRk95cDNkUWd6ZGpaQ3VuUWJ1UV9wQkJSN3hoRXQ5emRBRXUzMkdjcExKSTZzbUE4czRyZ3FsalVFZThpYTZya2hDVXZreWRnN2dodFpEemI5bVhjWEJDb0htMnQ2Ym1iYnRTV0pHZGw4b1Q2bVJfN3Vtb3Z4VGplTjI2akFUMU1FOFNoeWVNV2NzZFBuenZGWDRSTEN4?oc=5\" target=\"_blank\">Coinbase stock drops as company posts second consecutive quarterly loss amid crypto slump</a>&nbsp;&nbsp;<font colo",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNE1QZngyQ193YWozUlZUWVJVNVBNckpSRkVqcS1ESkdYd1JCcWVOb0NRaWE1NVZaLXJPTnN4emZ5aEk1MlNIcXVXbkx6V1B4cEVkRk95cDNkUWd6ZGpaQ3VuUWJ1UV9wQkJSN3hoRXQ5emRBRXUzMkdjcExKSTZzbUE4czRyZ3FsalVFZThpYTZya2hDVXZreWRnN2dodFpEemI5bVhjWEJDb0htMnQ2Ym1iYnRTV0pHZGw4b1Q2bVJfN3Vtb3Z4VGplTjI2akFUMU1FOFNoeWVNV2NzZFBuenZGWDRSTEN4?oc=5",
+      "published": "Thu, 07 May 2026 21:05:28 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase posts second consecutive quarterly loss amid crypto slump - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQZUF1Z1RxT0FSOHVYMGtsQ0ZZLXpvTDdzdVVrWVBSUWYzZzVSQjN5YUxpR1psSDlmZzk0MEpJc2lYdS1CQnJMaEJxVzQzNzQxUHc5d2hHMUFUWVVKNWxFYWotV0ZhdnlhdU9DYmpxaVlaMGxaZFo5MHpOQXNZMm5FWC1LSDlvV2xSVWVwaEpMT1NvQXVrQ0VpQkR4U2dZUEdlQUpWRzZ6OWdlY3FUVV8tRGl5REVTVng2cy1mSEN3M3lISkd0RUwzeXBn?oc=5\" target=\"_blank\">Coinbase posts second consecutive quarterly loss amid crypto slump</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZUF1Z1RxT0FSOHVYMGtsQ0ZZLXpvTDdzdVVrWVBSUWYzZzVSQjN5YUxpR1psSDlmZzk0MEpJc2lYdS1CQnJMaEJxVzQzNzQxUHc5d2hHMUFUWVVKNWxFYWotV0ZhdnlhdU9DYmpxaVlaMGxaZFo5MHpOQXNZMm5FWC1LSDlvV2xSVWVwaEpMT1NvQXVrQ0VpQkR4U2dZUEdlQUpWRzZ6OWdlY3FUVV8tRGl5REVTVng2cy1mSEN3M3lISkd0RUwzeXBn?oc=5",
+      "published": "Thu, 07 May 2026 20:28:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "JPMorgan says bitcoin is gaining over gold as debasement trade after Iran conflict - The Block",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPckdHaTlOVTJfY1VvMGZrWjJWQUJHeFJVZE5LYWZWeVhCeHVzOHM3cklKRndlRkt1M3NKVnhpakU0d3h2YURMLUowdWlwOHpZaU1EWkVaSmREYVBxempSR2hMb2R5UkZWUUFTZkJDNUM3QWtDRWVZS0plZTh2WGFPUHdDUkdFQ3lob3A4b1hHMW1JbElxRWNEVg?oc=5\" target=\"_blank\">JPMorgan says bitcoin is gaining over gold as debasement trade after Iran conflict</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Block</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPckdHaTlOVTJfY1VvMGZrWjJWQUJHeFJVZE5LYWZWeVhCeHVzOHM3cklKRndlRkt1M3NKVnhpakU0d3h2YURMLUowdWlwOHpZaU1EWkVaSmREYVBxempSR2hMb2R5UkZWUUFTZkJDNUM3QWtDRWVZS0plZTh2WGFPUHdDUkdFQ3lob3A4b1hHMW1JbElxRWNEVg?oc=5",
+      "published": "Thu, 07 May 2026 20:01:51 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "New Nvidia deal pumps crypto stock - thestreet.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQcUp5ei0wLTVHWXJGaEFsRUxhOGRJSHk1cVdDa3hyUm5JVzBMekVDTkRaY3pKTGg3U0NqTU9Yd1N2eGdtWFhSRzNvbmQxSDFvV256R0JaS2EzaVlLcjBSWVRkVkd4bTlGM1otSjV5cWRuVTVYYThJdnNGZkIxZ3NzRA?oc=5\" target=\"_blank\">New Nvidia deal pumps crypto stock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestreet.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcUp5ei0wLTVHWXJGaEFsRUxhOGRJSHk1cVdDa3hyUm5JVzBMekVDTkRaY3pKTGg3U0NqTU9Yd1N2eGdtWFhSRzNvbmQxSDFvV256R0JaS2EzaVlLcjBSWVRkVkd4bTlGM1otSjV5cWRuVTVYYThJdnNGZkIxZ3NzRA?oc=5",
+      "published": "Thu, 07 May 2026 21:44:29 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase logs second straight quarterly loss as crypto trading momentum fades - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQN1FFdGI5X2pnQUhtd0VZbWZRbWtaWTlZYnlMTW8tb2NkcEpmTlo3SmhKNU4xMEpzMmFZcnlCZnY2T0ZsdW9QcmZsMkhuYlJyVDd1QjBFTU8tRjgxbHZZMDYtSjF4dG10b05NQ3JhSTRmaUYteDdYTXhlcmN4ano0aENqdUFpcjFROEVEenlYUnBIX1VXdG1nQWEyVmhlRGx6cEt1SERERXFYSjJNMHNycUh0NFYyVk1HLVJvcXVYWG8zaVVkcFE?oc=5\" target=\"_blank\">Coinbase logs second straight quarterly loss as crypto trading momentum fades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQN1FFdGI5X2pnQUhtd0VZbWZRbWtaWTlZYnlMTW8tb2NkcEpmTlo3SmhKNU4xMEpzMmFZcnlCZnY2T0ZsdW9QcmZsMkhuYlJyVDd1QjBFTU8tRjgxbHZZMDYtSjF4dG10b05NQ3JhSTRmaUYteDdYTXhlcmN4ano0aENqdUFpcjFROEVEenlYUnBIX1VXdG1nQWEyVmhlRGx6cEt1SERERXFYSjJNMHNycUh0NFYyVk1HLVJvcXVYWG8zaVVkcFE?oc=5",
+      "published": "Thu, 07 May 2026 20:41:48 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase logs second straight quarterly loss as crypto trading momentum fades - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOOWhvZ0FhcndJUE12dXZpb0xud2lVOWZ3NUNuUTFhQmc5RXJ6cjdHTXZVQkVqVjBtYmZWdWZjREV1VGk0VUl4T213UDhGOG11NWVsdkY3bmlRMnFxbXN0OVRxTWtlYTZVM21DaTR2cHRwNnNRUWRVbXZJUXA4MGo5akxLLXp1QlVtX1VGVmYxZEJsWF9BOUJxRVNhaGRmS2NuLVNjcHRMcw?oc=5\" target=\"_blank\">Coinbase logs second straight quarterly loss as crypto trading momentum fades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOWhvZ0FhcndJUE12dXZpb0xud2lVOWZ3NUNuUTFhQmc5RXJ6cjdHTXZVQkVqVjBtYmZWdWZjREV1VGk0VUl4T213UDhGOG11NWVsdkY3bmlRMnFxbXN0OVRxTWtlYTZVM21DaTR2cHRwNnNRUWRVbXZJUXA4MGo5akxLLXp1QlVtX1VGVmYxZEJsWF9BOUJxRVNhaGRmS2NuLVNjcHRMcw?oc=5",
+      "published": "Thu, 07 May 2026 20:15:33 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Tom Lee Says BitMine May Slow Ethereum Buys After Amassing Nearly $12 Billion of ETH - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOTS1UcmRrbnJJcDFtX1Bmck8tdmRTTVFpNmRtSlVWR05CNXByTnVHOU5FeXhjQkFQT0ttTVhOYTB4NzluVjJIcnhYbUJpcTFVczVna1Y5bTMtcUpCanUzWU5tTmFpVWFvZWlvMWNseV9YRDJRc1VQYnU5ckVCa1VQVmt5R3RlRVpmay0ybHlpV3E2d1U?oc=5\" target=\"_blank\">Tom Lee Says BitMine May Slow Ethereum Buys After Amassing Nearly $12 Billion of ETH</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTS1UcmRrbnJJcDFtX1Bmck8tdmRTTVFpNmRtSlVWR05CNXByTnVHOU5FeXhjQkFQT0ttTVhOYTB4NzluVjJIcnhYbUJpcTFVczVna1Y5bTMtcUpCanUzWU5tTmFpVWFvZWlvMWNseV9YRDJRc1VQYnU5ckVCa1VQVmt5R3RlRVpmay0ybHlpV3E2d1U?oc=5",
+      "published": "Thu, 07 May 2026 20:54:20 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c",
+      "published": "2026-05-07T14:59:29.304000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "summary": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01",
+      "published": "2026-05-04T14:29:57.125000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f",
+      "published": "2026-04-30T18:47:58.718000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "summary": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861",
+      "published": "2026-04-30T17:07:29.704000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/KZT Spot Trading Pair",
+      "summary": "Binance Adds USDT/KZT Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/51c9c56c7d3141fdac18cb9a152defc8",
+      "published": "2026-04-30T13:00:06.261000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/524345e64dd14a23989bfe1e547760b5",
+      "published": "2026-04-29T21:27:04.104000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c8d2380a71ee4b56980cf7798d2e3d8f",
+      "published": "2026-04-28T16:00:03.344000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "summary": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/52ca7793dcdd43ad822f43cfacc42231",
+      "published": "2026-04-28T12:00:02.694000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/75a90e75150c4917b54c5251cba87225",
+      "published": "2026-04-27T16:00:37.542000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e4b4751f7ee845dd9df5c1bfd94ade51",
+      "published": "2026-04-22T22:51:55.953000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cc3774b86f974052a01ab88d8a08be55",
+      "published": "2026-04-21T21:00:07.020000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "summary": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d",
+      "published": "2026-04-21T20:00:32.132000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-04-21",
+      "summary": "Binance Margin Will Add New Pairs - 2026-04-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dc394582165d4c6da83c54b78791687f",
+      "published": "2026-04-21T11:00:08.299000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-21",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/592c10e64f90408d8c553848a35d18fe",
+      "published": "2026-04-20T15:00:05.964000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",
+      "summary": "Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/16fe15060947481ab240fb398230a3ee",
+      "published": "2026-04-16T17:44:56.813000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CHIPUSDT Perpetual Contract Pre-Market Trading (2026-04-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CHIPUSDT Perpetual Contract Pre-Market Trading (2026-04-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9db6d823933341f1abcc04ed9ceab35d",
+      "published": "2026-04-16T14:14:15.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GENIUSUSDT Perpetual Contract (2026-04-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GENIUSUSDT Perpetual Contract (2026-04-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/741ea1c99c1e4897a5bd77aa5db4abc4",
+      "published": "2026-04-16T10:03:08.861000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add USDS (USDS) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add USDS (USDS) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a9581bcaef24410a1dace51722112c8",
+      "published": "2026-04-09T15:30:12.073000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MUUSDT and SNDKUSDT USDⓈ-Margined Equity Perpetual Contracts (2026-04-07)",
+      "summary": "Binance Futures Will Launch MUUSDT and SNDKUSDT USDⓈ-Margined Equity Perpetual Contracts (2026-04-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/80549fadb3e447d1a859b8cedd0ccd69",
+      "published": "2026-04-03T21:30:07.828000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch QQQUSDT, SPYUSDT, AAPLUSDT and TSMUSDT USDⓈ-Margined Perpetual Contracts (2026-04-06)",
+      "summary": "Binance Futures Will Launch QQQUSDT, SPYUSDT, AAPLUSDT and TSMUSDT USDⓈ-Margined Perpetual Contracts (2026-04-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4cde981dc32d4268b7645e9d16e8d63a",
+      "published": "2026-04-02T17:15:03.208000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 47 (Neutral)",
+      "summary": "当前加密市场恐惧贪婪指数为 47，分类为「Neutral」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-05-07T08:00:00+08:00"
+    }
+  ]
+}
