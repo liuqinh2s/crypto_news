@@ -2460,3 +2460,94 @@ content length: 3962
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4936, prompt_tokens=16110, total_tokens=21046, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3722, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15086)
+content length: 3057
+============================================================
+{
+  "news": [
+    {
+      "title": "美国战略比特币储备数周内宣布",
+      "summary": "白宫加密货币顾问透露，美国战略比特币储备（SBR）的公告将在数周内发布。该举措若落地，将代表美国政府正式将比特币纳入国家储备，可能引发机构FOMO和需求激增，对BTC价格产生重大利好。目前市场等待具体细节，建议密切关注官方声明。影响币种：BTC。看多。",
+      "reason": "直接影响行情的重大政策消息，优先级一，可能引爆市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t6cc20/us_strategic_bitcoin_reserve_announcement_coming/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Aave因KelpDAO攻击修改标准",
+      "summary": "在KelpDAO遭利用后，Aave计划全面改革抵押品和上市标准，加强风控。这短期可能导致部分高风险资产被移除，TVL下降，但长期提升协议安全性。对AAVE代币短期中性偏空，但利好DeFi生态健康。影响币种：AAVE。中性信号。",
+      "reason": "DeFi重大安全事件后的协议调整，影响Aave及DeFi信心。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/07/aave-to-overhaul-collateral-and-listing-standards-after-kelpdao-exploit"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "AWS利用Coinbase实现AI代理USDC支付",
+      "summary": "亚马逊AWS将集成Coinbase和Stripe，使AI代理能通过USDC进行支付。这标志着稳定币在云端AI场景的实际应用落地，将推动USDC采用量和Coinbase交易量，利好稳定币生态和支付概念。影响币种：USDC、COIN（股票）。看多。",
+      "reason": "机构采用稳定币的新进展，中期利好USDC及Coinbase。",
+      "category": "项目更新",
+      "impact_coins": ["USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400421/aws-taps-coinbase-and-stripe-to-power-usdc-payments-for-ai-agents"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CME推出比特币波动率期货",
+      "summary": "芝加哥商品交易所（CME）将推出比特币波动率期货，为机构提供对冲波动风险的新工具。此举将增加市场成熟度，吸引更多传统投资者，对比特币长期稳定有利。短期影响中性，但衍生品丰富化是积极信号。影响币种：BTC。看多。",
+      "reason": "市场结构创新，提升机构参与度，属中期利好。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUzd0VE83M04xajBBVjd0LXZDY2ZPbnRVUk80dzdSM0FSX0VjVFAxUUFBTHRxTGhCZTNCSGZXc1FqeS1IU2xwaUxvSEJzU0hjMjVGeU1WSVRmUmE4aDlicDJMU011X0NYX3ZseFMzYjlOb1p5MzN4ald3bHdMVGloZ2tfSDNtV0FpQ1pESDlIV1pDX2x2c3RtLUt6cThtcm8?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币布林带突破信号，指标作者看多",
+      "summary": "比特币价格测试布林带上轨，指标创建者John Bollinger个人转向看多，历史上类似形态后BTC往往上涨。当前BTC在81000美元附近震荡，技术面转积极，但需注意前高阻力。影响币种：BTC。短期看多。",
+      "reason": "市场情绪信号，技术分析重要参考，可能引发短线交易。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-tests-bollinger-bands-breakout-as-creator-flips-bullish-on-btc"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
