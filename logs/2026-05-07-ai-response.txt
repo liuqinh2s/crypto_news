@@ -1727,3 +1727,91 @@ content length: 3391
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2883, prompt_tokens=12829, total_tokens=15712, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1563, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11805)
+content length: 3368
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币ETF连续5日净流入17亿美元",
+      "summary": "据The Block报道，美国现货比特币ETF已连续5天净流入，累计流入金额接近17亿美元。这一大规模资金流入表明机构需求强劲，直接推动比特币价格突破81,500美元。当前ETF资金流入是看多信号，可能带动BTC及ETH等主流币进一步上涨。",
+      "reason": "重大ETF资金流入数据，直接影响BTC价格，属于优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/400349/spot-bitcoin-etfs-five-day-inflow-streak"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美伊达成霍尔木兹海峡共识",
+      "summary": "消息人士称，美伊已就逐步开放霍尔木兹海峡以换取缓解封锁达成共识，欧洲天然气价格一度下跌5.5%，WTI原油日内大跌4%至93.14美元/桶。地缘政治风险缓解提振市场情绪，黄金连续第三日上涨，日韩股市续创新高，比特币等风险资产也受益反弹。该消息对加密货币市场整体看多。",
+      "reason": "地缘政治重大缓解，降低风险溢价，利好风险资产，属于优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511605.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "传奇经济学家警告美国衰退",
+      "summary": "一位传奇经济学家发出警告称，美国经济衰退几乎不可避免，美股可能暴跌30%。该观点基于当前宏观数据，若成真将拖累全球风险资产，包括加密货币。不过短期需观察其他信号，如美联储反应。该消息对加密市场偏空，但需结合实际情况。",
+      "reason": "重大宏观预警，可能引发避险情绪，属于优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511612.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "American Bitcoin增持300枚BTC",
+      "summary": "Trump家族支持的美国比特币公司（American Bitcoin）增持300枚比特币，目前总持仓达7,300枚BTC。此前其Q1成本下降23%，表明矿业效率提升。持续增持显示机构对BTC的长期看好，是看多信号。",
+      "reason": "机构增持BTC，直接增加买盘，属于优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511616.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "阿联酋监管稳定币开发兑换通道",
+      "summary": "阿联酋监管机构支持稳定币开发商构建AED（迪拉姆）与USD的兑换通道，用于机构结算。这有助于推动稳定币在跨境支付和机构采用，利好USDT、USDC等稳定币及整个加密生态。属于长期看多信号。",
+      "reason": "监管框架建设，推动稳定币采用，属于优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/uae-regulated-stablecoins-to-develop-aed-usd-conversion-rails-for-institutional-settlement"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线BILL永续合约",
+      "summary": "Binance宣布将于今日上线BILLUSDT永续合约，杠杆最高75倍。新合约上市通常吸引资金和交易量，短期对BILL币种看多，但需注意上线后高波动风险。",
+      "reason": "交易所上币合约上线，直接影响BILL价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BILL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "1inch做市商TrustedVolumes被盗670万美元",
+      "summary": "1inch流动性提供者TrustedVolumes遭遇持续攻击，损失约670万美元。1inch官方声明协议及用户资金未受影响，但该事件可能对1inch代币价格和DeFi信心造成短期压力。属于看空信号。",
+      "reason": "DeFi安全事件，虽规模不大但影响项目信任，属于优先级一（黑客攻击）。",
+      "category": "项目更新",
+      "impact_coins": ["1INCH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511615.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
