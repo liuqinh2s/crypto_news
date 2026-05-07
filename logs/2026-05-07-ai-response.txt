@@ -1875,3 +1875,126 @@ content length: 2280
   ],
   "note": "本次筛选后只有3条高质量新消息。其他消息多为重复或低优先级事件，已按去重规则排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3660, prompt_tokens=12363, total_tokens=16023, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2188, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11339)
+content length: 3812
+============================================================
+{
+  "news": [
+    {
+      "title": "Glassnode：8.5万美元供应过剩限制BTC上涨",
+      "summary": "链上分析公司Glassnode指出，比特币在8.5万美元附近存在大量供应过剩，可能限制价格进一步上行。当前BTC已从81500美元回落至81000美元以下，抛压信号明显。该分析基于UTXO分布和链上成本基础，显示该区域为强阻力。影响币种：BTC。信号看空，短期可能面临回调。",
+      "reason": "链上数据分析直接指向价格阻力位，影响短期交易决策。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511632.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美银：SpaceX/Anthropic IPO或标志牛市落幕",
+      "summary": "美国银行警告称，SpaceX和Anthropic等大型IPO可能意味着市场周期接近顶峰，类似科技泡沫时期。若这些IPO抽走大量流动性，可能对风险资产（包括加密货币）形成压力。这属于宏观情绪信号，短期看空BTC和ETH。",
+      "reason": "宏观经济观点影响市场情绪，且历史经验表明大型IPO常伴随市场见顶。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511631.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance US上线小市值meme币疑存老鼠仓",
+      "summary": "据报道，Binance US上线某小市值meme币时，疑似存在内幕交易（老鼠仓），上线前已有地址大量买入。此事件损害交易所信誉，可能引发监管关注，并导致相关代币价格剧烈波动。目前具体币种未公开，但整体偏空。",
+      "reason": "交易所负面事件可直接打击市场信心，且老鼠仓操作对上线币种构成抛压。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511629.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "StepStone加入LSEG数字市场基础设施平台",
+      "summary": "另类投资管理公司StepStone宣布加入伦敦证券交易所集团（LSEG）的数字市场基础设施平台，旨在提升私人资产交易的效率和透明度。这是传统金融机构采用区块链技术的又一案例，利好整体加密生态，尤其是RWA和代币化概念。",
+      "reason": "传统金融巨头拥抱区块链基础设施，中期利好加密行业合规化。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "LINK"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511628.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "全球最大加密管理公司瞄准北欧市场",
+      "summary": "据AMWatch报道，全球最大的加密货币资产管理公司（推测为Grayscale或类似机构）正在瞄准“服务不足”的北欧机构市场。此举可能带来新的机构资金流入，利好BTC和ETH。北欧地区监管相对友好，且养老金基金等大型机构可能入场。",
+      "reason": "机构资金流入预期是重要催化剂，直接增加需求。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "AMWatch via Google News",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrTEwzUlpOY1lscFBIYkk3Qk4tdTZFY1ptN2VuVW1lazRqcFJlS1FNNzFGU0h1ZjMxN3JSRzNrOGRuVmhhcm00RkNEYlJQME1Gd3hDMGhGdV9ubzlXTjk2a2EzWlVVV0Jwel9SdHU2NA?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Anthropic将AI合规代理引入银行及加密交易所",
+      "summary": "Anthropic（Claude）宣布为银行业提供AI合规代理，并计划扩展至加密货币交易所。AI驱动的合规工具可降低交易所监管成本，提高反洗钱效率，对合规交易所构成长期利好。但短期影响有限。",
+      "reason": "AI与加密合规结合是长期趋势，有利于行业正规化。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "BNB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t65m4t/anthropic_brings_ai_compliance_agents_to_banking/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Ethos完成2275万美元A轮融资 a16z领投",
+      "summary": "Web3项目Ethos完成2275万美元A轮融资，a16z领投。该项目致力于构建去中心化身份与声誉系统，融资规模较大且由顶级风投支持，利好相关赛道（DID、Soulbound代币）。但短期对主流币影响微弱。",
+      "reason": "顶级风投布局显示行业信心，但项目处于早期，交易价值有限。",
+      "category": "项目更新",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511620.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
