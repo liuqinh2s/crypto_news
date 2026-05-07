@@ -2097,3 +2097,102 @@ content length: 3922
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1863, prompt_tokens=15014, total_tokens=16877, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=450, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13990)
+content length: 3716
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC突破位分析：历史警示",
+      "summary": "CoinDesk报道，比特币未能突破关键技术位，历史数据显示类似形态后往往出现回调。当前BTC在8.1万美元附近整理，若无法站稳8.3万美元，可能下探7.5万美元支撑。影响币种BTC、ETH。信号中性偏空。",
+      "reason": "优先级二：技术分析，直接影响BTC短期走势，需关注突破有效性。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/daybook-us/2026/05/07/bitcoin-narrowly-missed-a-major-breakout-history-says-be-careful"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "代币清洗利于BTC长期牛市",
+      "summary": "分析师Ben Cowen指出，数百万加密代币正在被淘汰，这对BTC可持续牛市是必要的。当前市场正在洗牌，劣质项目出清，资金向BTC聚集。影响BTC。信号看多。",
+      "reason": "优先级三：市场情绪信号，分析师观点影响中期走势。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/07/purge-of-millions-of-crypto-tokens-underway-btc-needs-it-for-sustainable-bull-cycle-ben-cowen"}],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC布林带突破信号出现",
+      "summary": "比特币布林带收窄后出现突破信号，布林带发明人John Bollinger确认信号积极。若BTC突破8.3万美元，可能加速上涨至8.5万美元。影响BTC。信号看多。",
+      "reason": "优先级二：技术分析，量化信号，直接影响BTC短期交易。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-bollinger-bands-push-key-breakout-creator-acts-positive-signal"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "NY Mellon持有100万股Strategy",
+      "summary": "纽约梅隆银行13F文件显示持有100万股Strategy（原MicroStrategy），价值约1.87亿美元。表明传统金融机构通过间接方式持有比特币敞口。影响BTC、MSTR。信号看多。",
+      "reason": "优先级二：机构动向，直接机构增持，市场信心提升。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511643.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "ZachXBT指控LAB代币操纵",
+      "summary": "链上侦探ZachXBT指控LAB团队在中心化交易所操纵其代币价格，可能涉及拉高出货。影响LAB、相关CEX上币币种。若确认，LAB价格可能暴跌。信号看空。",
+      "reason": "优先级一：项目方重大事件，操纵指控直接影响代币价格及信任。",
+      "category": "项目更新",
+      "impact_coins": ["LAB"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511642.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "华尔街投行大量招聘加密岗",
+      "summary": "Bloomberg报道，华尔街多家投行发布数十个加密职位，但附带条件（如要求相关经验或合规背景）。表明传统金融对加密兴趣上升，但招聘条件谨慎。影响BTC、ETH。信号中性偏多。",
+      "reason": "优先级二：机构动向，反映行业人才流入，长期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-07/wall-street-firms-post-dozens-of-crypto-jobs-with-a-catch"}],
+      "urgency": "days"
+    },
+    {
+      "title": "美司法部调查26亿石油交易",
+      "summary": "美国司法部正调查涉及伊朗战争的26亿美元石油交易，可能影响伊朗相关加密资产。中东局势紧张引发战争担忧，但近期伊朗和平进展可能缓和。影响BTC、ETH。信号中性。",
+      "reason": "优先级二：宏观经济，地缘政治风险，影响风险资产情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511646.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase将上线KAIO合约",
+      "summary": "Coinbase宣布即将上线KAIO（KAIO）永续合约交易，增加交易品种和流动性。影响KAIO，短期看多。",
+      "reason": "优先级一：交易所上币，尤其是Coinbase，直接增加流动性和曝光。",
+      "category": "交易所",
+      "impact_coins": ["KAIO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511645.html"}],
+      "urgency": "immediate"
+    }
+  ]
+}
