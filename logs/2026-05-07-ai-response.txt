@@ -2196,3 +2196,146 @@ content length: 3716
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3516, prompt_tokens=15691, total_tokens=19207, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1762, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=14667)
+content length: 4681
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币ETF连续5周净流入",
+      "summary": "Decrypt报道，比特币ETF已连续5周实现净流入，总流入金额近17亿美元，表明机构需求持续回归。同时市场对冲头寸正在平仓，进一步支撑价格。这对BTC是强烈看多信号，可能推动比特币突破近期阻力位。",
+      "reason": "直接显示机构资金流入，历史级别持续买入，对BTC价格有重大正面影响。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367090/bitcoin-etfs-post-5-week-buying-streak-as-hedges-unwind-institutional-appetite-returns"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kraken 6亿美元收购Reap",
+      "summary": "Kraken母公司以6亿美元收购稳定币支付基础设施公司Reap，旨在拓展亚洲市场。收购将增强Kraken在稳定币领域的竞争力，可能推动稳定币采用和交易量增长。对加密市场整体中性偏多，尤其利好稳定币生态。",
+      "reason": "大型交易所并购，提升稳定币基础设施，间接利好整个加密市场流动性。",
+      "category": "交易所",
+      "impact_coins": ["USDT", "USDC", "DAI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/07/kraken-to-buy-stablecoin-payments-firm-reap-in-usd600-million-deal-bloomberg"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-07/kraken-parent-to-buy-reap-for-600-million-in-asian-expansion"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国失业金人数20万",
+      "summary": "美国上周首次申领失业救济人数为20万人，低于预期，显示劳动力市场仍具韧性。这可能强化美联储维持高利率的立场，对风险资产轻微利空，但当前市场情绪受伊朗局势缓解主导，影响有限。",
+      "reason": "宏观经济数据直接关联美联储政策预期，但数据本身中性偏强。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511652.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "WTI原油跌破90美元",
+      "summary": "WTI原油期货价格跌破90美元/桶，日内跌幅超4%。主因伊朗考虑开放霍尔木兹海峡、美伊达成缓解封锁共识，能源供应紧张缓解。油价下跌利好全球通胀预期下行，有助于风险资产估值修复，对BTC/ETH产生正面情绪带动。",
+      "reason": "宏观风险偏好提升，油价与加密市场常呈负相关，该事件短期利好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511655.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "TD Cowen上调Strategy目标价",
+      "summary": "TD Cowen将Strategy（原名MicroStrategy）目标价从先前水平上调至395美元，理由是其转向STRC发行以及比特币收益率展望改善。这强化了比特币作为公司核心资产的价值，长期利好BTC价格。",
+      "reason": "机构研报上调目标价，直接关联比特币持仓价值和市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400393/td-cowen-raises-strategy-price-target-to-395-on-shift-toward-strc-issuance-and-improved-btc-yield-outlook"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitwise收购Superstate代币化基金",
+      "summary": "Bitwise宣布收购Superstate旗下2.67亿美元代币化‘carry基金’，正式进军代币化资产领域。此举显示传统资管巨头加速布局链上金融，长期利好整个加密生态和ETH等基础公链。",
+      "reason": "机构采用信号，推动代币化趋势，对ETH及DeFi相关代币有正面影响。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/07/bitwise-expands-into-tokenized-funds-with-planned-takeover-of-superstate-s-uscc-fund"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Treasure Global部署1亿美元ETH财库",
+      "summary": "Treasure Global宣布将部署1亿美元设立以ETH为核心的数字资产财库，表明企业正在将ETH纳入资产负债表。此举增加ETH的机构需求，对ETH价格构成中长期利好。",
+      "reason": "机构直接增持ETH，类似MicroStrategy效应，但规模较小。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511650.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Zcash 24小时飙升109%",
+      "summary": "Zcash（ZEC）在24小时内暴涨109%，成为市值前100加密货币中表现最佳。上涨可能源于隐私币叙事重燃或交易所上币预期，但暴涨后回调风险极大，不建议追高。",
+      "reason": "极端价格异动，属优先级一的市场信号，但需警惕炒作风险。",
+      "category": "市场情绪",
+      "impact_coins": ["ZEC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWEk1Q2tIc0Q4a3I2ZG1WNmgwbm9kbG9kUldTYkx3NWhkTi0xa0VCMUIyOFB0VjIxTTlXaVZaYmNCQngzbE1RYU5wcEhHeXNMRFRDd0lQck5fazg4aExwR3Z1bU8zZ0huSk1OOWtpcXotdDEwT2VBTm16RFc2X1JFcDNsSktWUVkyUGJ5Y1lDODk?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
