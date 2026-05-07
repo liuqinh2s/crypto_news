@@ -753,3 +753,222 @@ content length: 3041
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=983, prompt_tokens=13083, total_tokens=14066, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=938, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=12059)
+content length: 81
+============================================================
+{
+  "news": [],
+  "note": "本轮素材与近6小时历史消息高度重复，无新增高价值交易信号。恐惧贪婪指数47，市场情绪中性，无明显异动。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2527, prompt_tokens=13083, total_tokens=15610, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1861, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13056), prompt_cache_hit_tokens=13056, prompt_cache_miss_tokens=27)
+content length: 1448
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数升至47",
+      "summary": "恐惧贪婪指数从46（恐惧）升至47（恐惧），变化极小，仍处于中性偏恐惧区间。该指数反映市场情绪冷淡，无极端信号。历史数据显示，该指数低于20为历史抄底区，高于80为过热警告。当前数值无明确交易指引，但中性偏恐惧有利于中长期布局。",
+      "reason": "恐惧贪婪指数是市场情绪指标，虽变化微弱，但属于新鲜数据，且未被历史标题重复（此前为46）。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "纽约拟禁止加密ATM",
+      "summary": "纽约州推动立法禁止加密货币ATM机，以应对欺诈和洗钱问题。此前明尼苏达州、田纳西州已实施类似禁令。该政策影响加密ATM运营和用户便捷性，但整体市场影响有限。对BTC、ETH等主流币无明显直接冲击，但可能抑制部分零售入场。",
+      "reason": "属于监管动态，优先级一。虽然州级监管影响范围有限，但多地跟进形成趋势，需关注。历史标题中未出现纽约禁令。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "AARP",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNFNCUVRFQW9HY0UxTFVJaXUxalY2T0dpNUxwaFZOTGwtSE9pUkltM1kyUlUyUFRQNGtRYXd1b1FqNVNXWXotMGF2TWlVTkZlWUhtY0RTNldEY0pwSE5uaUxYSWplSXhDOGlvdHpEUGRDRjBoaTMwa0ViNm0waFYxMV8waTFsakJIREpmcmJLN0ZIUGRrYTZoTEd0cmt6MjVnOHN0QVZsM0lGU3JpRjA2MHFvTGRqYW5tUF9TUG00NVVvUFRMU0pKdkZVczRvOUp6Z1hkVGI3bS0?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分新闻与历史标题重复，仅筛选出2条有价值且未重复的消息。恐惧贪婪指数变化极小，纽约禁令影响有限，无重大交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3264, prompt_tokens=13083, total_tokens=16347, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2631, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13056), prompt_cache_hit_tokens=13056, prompt_cache_miss_tokens=27)
+content length: 1337
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数升至47",
+      "summary": "恐惧贪婪指数从46升至47，仍处于中性区间。数值变化表明市场情绪没有显著改善，仍偏谨慎。但相对低位可能为中长期积累提供机会。影响币种：BTC、ETH。信号：中性（但仍处于恐惧区域边界，历史上低于20才是抄底区）。",
+      "reason": "恐惧贪婪指数是市场情绪指标，数值变化反映情绪波动，虽然变化不大，但作为唯一更新的情绪指标值得关注。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "纽约州拟禁止加密ATM诈骗",
+      "summary": "纽约州推动立法停止加密ATM机诈骗，继明尼苏达、田纳西之后，更多州加强监管。这可能会影响加密ATM运营商和部分零售投资者，但对整体市场影响有限。监管趋严信号可能短暂压制市场情绪。影响币种：BTC、ETH。信号：bearish（轻微）。",
+      "reason": "监管政策动态，虽为地方性，但纽约是金融中心，可能引发连锁反应。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "AARP", "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNFNCUVRFQW9HY0UxTFVJaXUxalY2T0dpNUxwaFZOTGwtSE9pUkltM1kyUlUyUFRQNGtRYXd1b1FqNVNXWXotMGF2TWlVTkZlWUhtY0RTNldEY0pwSE5uaUxYSWplSXhDOGlvdHpEUGRDRjBoaTMwa0ViNm0waFYxMV8waTFsakJIREpmcmJLN0ZIUGRrYTZoTEd0cmt6MjVnOHN0QVZsM0lGU3JpRjA2MHFvTGRqYW5tUF9TUG00NVVvUFRMU0pKdkZVczRvOUp6Z1hkVGI3bS0?oc=5"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时新闻中大部分为重复消息，仅有恐惧贪婪指数微调和纽约州加密ATM禁令两条新消息。符合条件的高价值交易信号较少。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=397, prompt_tokens=14143, total_tokens=14540, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=366, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13119)
+content length: 59
+============================================================
+{
+  "news": [],
+  "note": "本轮素材与历史消息高度重复，无新增对交易有实质影响的消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3586, prompt_tokens=14143, total_tokens=17729, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3155, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14080), prompt_cache_hit_tokens=14080, prompt_cache_miss_tokens=63)
+content length: 956
+============================================================
+{
+    "news": [
+        {
+            "title": "纽约拟禁加密ATM",
+            "summary": "纽约州效仿明尼苏达和田纳西，提出法案禁止加密货币ATM以应对诈骗和洗钱。这反映了美国各州对加密监管的进一步收紧，可能推动联邦层面更严格规则。对主流币种BTC/ETH影响有限，但短期情绪偏空，尤其对合规代币和ATM相关项目不利。",
+            "reason": "各州连锁监管动作，中期利空信号。",
+            "category": "监管政策",
+            "impact_coins": ["BTC", "ETH"],
+            "signal": "bearish",
+            "impact_level": 2,
+            "sources": [
+                {
+                    "name": "AARP",
+                    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNFNCUVRFQW9HY0UxTFVJaXUxalY2T0dpNUxwaFZOTGwtSE9pUkltM1kyUlUyUFRQNGtRYXd1b1FqNVNXWXotMGF2TWlVTkZlWUhtY0RTNldEY0pwSE5uaUxYSWplSXhDOGlvdHpEUGRDRjBoaTMwa0ViNm0waFYxMV8waTFsakJIREpmcmJLN0ZIUGRrYTZoTEd0cmt6MjVnOHN0QVZsM0lGU3JpRjA2MHFvTGRqYW5tUF9TUG00NVVvUFRMU0pKdkZVczRvOUp6Z1hkVGI3bS0?oc=5"
+                }
+            ],
+            "urgency": "days"
+        }
+    ],
+    "note": "本轮素材中大部分消息与历史重复，仅发现此条新消息，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4507, prompt_tokens=5453, total_tokens=9960, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3361, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=4429)
+content length: 3019
+============================================================
+{
+  "news": [
+    {
+      "title": "Binance上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，并开放Earn、Convert、VIP Loan、Margin及Futures产品。MegaETH是近期以太坊Layer2热点项目，主打高性能。上线Binance将带来极大流动性，正回购效应。短期内MEGA价格将大幅波动，看多信号。",
+      "reason": "交易所上币直接影响币价，属于优先级一事件。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Nasdaq总裁：SEC新立场利好市场",
+      "summary": "纳斯达克总裁称SEC对加密货币的新立场让市场重新开始'建设'，暗示监管环境正转向友好。这将提振市场信心，吸引传统资金入场。可能影响BTC、ETH等主流资产。中长期看多信号。",
+      "reason": "监管政策重大利好，直接影响市场预期，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Grant Cardone增持BTC",
+      "summary": "知名投资人Grant Cardone表示比特币-房地产策略可跑赢REITs，并已增加BTC treasury。机构持续买入比特币，显示长期看多信心。BTC多头信号。",
+      "reason": "机构增持BTC属重大机构动向，中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/06/bitcoin-real-estate-strategy-could-outperform-reits-says-grant-cardone-he-adds-btc-to-treasury"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "华尔街清算所探索区块链代币化",
+      "summary": "华尔街主要清算所寻求'高性能'区块链来代币化公司行动（corporate actions），例如股息、拆分等。这将推动传统金融资产上链，利好以太坊等技术平台。长期看多加密生态。",
+      "reason": "传统金融机构采用区块链，属于重大机构动向，中期利好。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/06/wall-street-s-clearinghouse-seeks-high-performance-blockchains-to-tokenize-corporate-actions"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特突破$81k，特朗普寻求伊朗进展",
+      "summary": "比特币价格站稳81,000美元，以太坊、XRP、狗狗币盘整。特朗普寻求伊朗外交进展，地缘风险缓和有助于风险资产。短期情绪偏暖，但需关注谈判结果。中性偏多。",
+      "reason": "宏观经济地缘风险缓和，影响风险资产偏好，属于中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "XRP", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance via Google News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjhpSFVZYmdRRkptZ08yQW81aV8yaFBLNmtqTEEyV05sOW1QRFN0QmRSNW85b0s1R2ZIQXlzQnVRTVQ5WWIxYWRoUTBYVEZUVTZJYlQwWWpCMnFkSnFOQWZWUlVmZGgtSTVsVmRJTTdfd1RzdlRLWkl4UGFoVEozQ3drUkV1a1RMc2NBZUo2WXQzNFhMX0hZ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
