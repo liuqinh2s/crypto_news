@@ -2339,3 +2339,124 @@ content length: 4681
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2198, prompt_tokens=16027, total_tokens=18225, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1872, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15003)
+content length: 841
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken联手速汇金推出加密提现",
+      "summary": "Kraken宣布与MoneyGram合作，允许用户在全球100多个国家的MoneyGram网点将加密货币兑换为法币现金。此举大幅降低了加密资金出金门槛，提升流动性便利性，对BTC、ETH等主流币种构成正面情绪提振。尽管短期价格影响有限，但长期有利于扩大用户基础和采用率，属于看多信号。",
+      "reason": "交易所与支付巨头合作增加法币出入金通道，属于交易所基础设施升级，对市场情绪有积极影响，符合优先级一中的交易所相关动态。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/bitcoin",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1t6ayvs/kraken_to_let_customers_cash_out_crypto_at/"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数消息与历史重复，仅有Kraken-MoneyGram合作一条为全新且具有一定交易价值的信息。其他如白宫Clarity Act、Bitwise接管等均为重复报道。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3761, prompt_tokens=16027, total_tokens=19788, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2076, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=0), prompt_cache_hit_tokens=0, prompt_cache_miss_tokens=16027)
+content length: 3962
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitwise收购Superstate代币化基金",
+      "summary": "Bitwise宣布接管Superstate旗下2.67亿美元代币化Crypto Carry Fund，标志着传统资管巨头加速布局代币化资产。该基金投资于加密货币套利策略，Bitwise的入场可能提升代币化板块的流动性并吸引更多机构资金。对RWA（真实世界资产）代币如ONDO、LINK等构成利好，但短期影响有限。整体看多RWA赛道，但属于中长期催化剂。",
+      "reason": "机构代币化收购是优先级二的机构动向，显示传统金融对链上资产兴趣增加，影响RWA相关代币。",
+      "category": "ETF机构",
+      "impact_coins": ["ONDO", "LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/07/bitwise-expands-into-tokenized-funds-with-planned-takeover-of-superstate-s-uscc-fund"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Sui处理超1万亿美元稳定币交易",
+      "summary": "Mysten Labs联合创始人表示，自8月以来Sui网络已处理超过1万亿美元的稳定币交易量，并计划推出免费、私密的支付系统。这一数据表明Sui在稳定币支付场景中占据关键地位，网络采用率显著提升。若支付功能落地，可能进一步推动SUI需求。短期看多SUI，但需警惕抛压。",
+      "reason": "链上异动指标显示Sui稳定币使用量激增，是优先级二的链上数据，直接反映网络价值。",
+      "category": "链上异动",
+      "impact_coins": ["SUI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/400396/mysten-labs-abiodun-says-sui-processed-over-1-trillion-in-stablecoin-volume-since-august-as-it-eyes-free-private-payments?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Solv迁移至Chainlink CCIP",
+      "summary": "Solv Protocol宣布将其跨链基础设施从LayerZero迁移至Chainlink CCIP，以支撑超过7亿美元代币化BTC。此举增强安全性和可靠性，对Solv生态及Chainlink网络构成利好。迁移可能短期内增加LINK的质押需求，并提升Solv的代币化BTC流动性。看多LINK，中性偏多SOLV。",
+      "reason": "项目更新属于优先级二的技术升级，涉及知名协议迁移，可能带动代币价格。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "SOLV"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t6a6cv/solv_protocol_migrates_from_layerzero_to/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "State Street推进多币种加密ETF",
+      "summary": "State Street暗示将推出追踪多种加密货币的指数ETF，可能成为比特币ETF的补充产品。此举预示传统金融巨头加速布局加密ETF市场，推动机构资金流入。若获批，将利好整个加密市场，尤其对ETH等市值靠前的币种形成支撑。短期看多BTC和ETH，但需等待更多细节。",
+      "reason": "ETF机构动向是优先级一的潜在利好，State Street是大型托管行，其表态具有风向标意义。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQjVIal93dnh4QU9KU292WGpvbFhvRmllZlJQRVJnMGYwTHp0eWVoU3BoTlMtYThSSmMtYmtTN1BKbm84RVBMTG1QXzFINEtzd2djbllmVVlCV3pGbjN3Zm9rQ1Q0ZFk0VVpZUU0zNjNoc01NNU5KclR6SVkyZ2FUVUNPeXg0TE5HS1pOc1VzSDdxaDRpQWQ3ZC1R"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Balchunas警告：交易所面临华尔街价格战",
+      "summary": "ETF分析师Eric Balchunas警告称，随着华尔街巨头（如摩根士丹利、高盛）推出低成本加密交易服务，现有加密货币交易所将面临份额流失和费率压力。短期可能导致交易所代币（如BNB、GT）承压，但长期竞争促进市场成熟，利好整体加密采用。看空交易所代币，看多主流币。",
+      "reason": "市场结构变化影响交易所代币估值，属优先级二，可能引发短期抛售。",
+      "category": "市场结构",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ3hNdzBSaGdLZFVwSkNQUGlZNkcydmJYUjRxSGZYSm5ENWpXQ29ZZjRyU0xZRVpBWlpHczhXcm5GcE9Qb2RzdlJydEJTUUtyVl9wVHhQZEI1eDZTSlJpSDZVMGdEaEtjNnduQl83ZlZyU21TbnpqVVZnNFRCWTd5aDlXblRjM0dwa2lHand4SjAyOGpqVjBRQUdwdE5Yc3JVbm1RbVV3"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kraken接入MoneyGram兑现点",
+      "summary": "Kraken与MoneyGram合作，允许用户在全球100多个国家的MoneyGram网点将加密货币兑现为法币。此举大幅提升出入金便利性，降低传统用户进入门槛，对Kraken生态及整体加密采用率构成长期利好。短期情绪积极，利好BTC和ETH，但Kraken币种（如KCS）未直接关联。",
+      "reason": "交易所与支付巨头合作提升实用性，属优先级二的项目更新，可能推动用户增长。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Reddit", "url": "https://www.reddit.com/r/Bitcoin/comments/1t6ayvs/kraken_to_let_customers_cash_out_crypto_at/"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
