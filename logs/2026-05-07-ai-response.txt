@@ -1815,3 +1815,63 @@ content length: 3368
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3157, prompt_tokens=13696, total_tokens=16853, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2116, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=12672)
+content length: 2280
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy暗示卖出BTC",
+      "summary": "据报道，MicroStrategy（Strategy）在近期财报中暗示可能出售部分比特币持仓，以筹集资金或管理流动性。消息传出后，比特币价格在8.15万美元附近横盘。若Strategy真的卖出，将带来巨大抛压，直接利空BTC。但需注意，Strategy之前声明仅需BTC年涨2.3%即可覆盖股息，此次暗示出售可能为短期压力测试。整体信号偏空，影响币种BTC。",
+      "reason": "优先级一：巨鲸异动/项目方重大事件。MicroStrategy持有大量BTC，任何出售信号都会直接影响市场供需。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Investing.com via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPY2UyTFNRYWZYMlFKVHpEd0NrVDNkeENidmZkeFJxUXRrMzQ4NTREcG5VbC1IRTZSREtVMWNrS1B2QjVFaHQtLWYzNExTemxIX29QU1Q2NjR5ZS03a2l3Vy1oMTRDOHN4bjVHRExvTWt1R0RtR04ybld0WEdyTXpUZTA3bkFPcTkxaTNzZ2taUGNjY1p5VjVJU3U5V1RrTFhhb2hKcGdnNGlyWVphX29rTl9EYlAzeUZBUVdlV2U3UnpuMS16OFFkRXg4TWhySTQwTk80?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国明年起对虚拟资产征税",
+      "summary": "韩国财政经济部确认，将按原计划于2027年1月1日起对虚拟资产交易征税。此前韩国曾多次推迟征税，此次确认表明监管趋严。征税将提高交易成本，短期内可能抑制韩国市场交易量，对BTC、ETH等主要币种形成轻度利空。但距离执行还有较长时间，实际影响有限。",
+      "reason": "优先级一：重大监管动态。韩国是主要加密市场，明确征税节点将影响投资者行为。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511623.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "VanEck Bitwise预测BTC百万美元",
+      "summary": "VanEck加入Bitwise，预测比特币长期目标价达100万美元。两家知名机构同时发出极端看多预测，提振市场信心。虽然此类预测缺乏时间表，但作为情绪信号，可能吸引散户和机构关注，短期利好BTC。不过需注意，过高预测也暗示当前价格较低，但实际走势仍需基本面配合。",
+      "reason": "优先级三：市场情绪信号。机构集体看多可引发FOMO，对短期价格有正面推动。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTnVneVhFeENSamFUSDlkbTVydjFSTmNYcnJZNG5GRFFxUm91T3NEV2xoc0ZSZ1h2MzVtaHZxVGhHSVU1SXpzQXdVeDV6OXBYSk5IRGRNbmRWSFpzcXg0UER5WHdlOVRVZVFORGVPWmtvQk9TWWx2Z0oxeHpvS3doWDl0WFZnMnV5LXZ5eDJZaWxPemRjTGU3Zkg1WGN4OUpq?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本次筛选后只有3条高质量新消息。其他消息多为重复或低优先级事件，已按去重规则排除。"
+}
