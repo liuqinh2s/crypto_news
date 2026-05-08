@@ -506,3 +506,153 @@ content length: 2695
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1727, prompt_tokens=12051, total_tokens=13778, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1198, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11027)
+content length: 1266
+============================================================
+{
+  "news": [
+    {
+      "title": "稳定币法案重获生机",
+      "summary": "一项涉及稳定币监管的跨党派法案在经历伦理争议后，因稳定币交易协议的达成而重新获得推动力。该法案旨在为稳定币发行提供联邦监管框架，可能加速机构采用。若通过，利好USDT、USDC等稳定币及整个加密市场。信号看多，因监管清晰化减少不确定性。",
+      "reason": "直接影响监管政策，优先级一；法案重启可能推动市场情绪和机构入场。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400608/shifted-vibes-stablecoin-deal-revives-crypto-bill-despite-lingering-ethics-disputes"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "多家大行更新美联储降息预测",
+      "summary": "主要银行已更新对美联储何时降息的预测，市场对降息时点的预期分歧加大。当前就业数据强劲但消费者信心下滑，美联储官员表态谨慎。若降息预期升温，将利好BTC等风险资产。信号中性偏牛，因宏观环境复杂，但降息预期对加密是长期利好。",
+      "reason": "宏观经济数据影响风险资产走势，优先级二；银行预测更新反映市场预期变化。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Ual9fS1dmbkl5QjJPQTJ0ZlVQLWZ1V3I5N0Rpek80TmIwMFFVN2VYUWtJbnh1MkRnRzVXa1JBenRiUTRtNTBwRzBRczREdlNrcXJUaVh0M3A?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3244, prompt_tokens=12051, total_tokens=15295, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1956, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12032), prompt_cache_hit_tokens=12032, prompt_cache_miss_tokens=19)
+content length: 3330
+============================================================
+{
+  "news": [
+    {
+      "title": "CryptoQuant警示BTC获利抛压加大",
+      "summary": "CryptoQuant发布报告称，比特币当前处于‘熊市反弹’模式，链上数据显示获利了结行为可能进一步增加。分析师指出，短期持有者已开始大量抛售，若价格无法突破80,000美元阻力位，卖压将加速。该消息直接影响BTC，是短期看空信号，建议交易者关注78,000美元支撑。",
+      "reason": "优先级一：链上异动信号，直接反映交易行为。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400613/cryptoquant-bitcoin-profit-taking-bear-market-rally"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "稳定币法案获两党支持渡过伦理争议",
+      "summary": "美国稳定币监管法案在经历伦理争议后重新获得通过动力，主要得益于稳定币市场的一笔大型交易。该法案若通过将明确稳定币发行及储备规则，对USDT、USDC等稳定币构成长期利好。市场解读为监管明确化将吸引机构入场，整体利多加密市场。",
+      "reason": "优先级一：重大监管动态，影响行业整体。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400608/shifted-vibes-stablecoin-deal-revives-crypto-bill-despite-lingering-ethics-disputes"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "多家大行更新美联储降息预测",
+      "summary": "摩根大通、高盛等主要银行上调了对美联储首次降息时间的预测，多数预计至少推迟至2026年下半年。此前4月就业数据强劲，通胀仍具粘性，降息预期降温。对加密市场而言，高利率环境压制风险资产估值，中长期偏空。",
+      "reason": "优先级二：宏观经济数据直接影响风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Ual9fS1dmbkl5QjJPQTJ0ZlVQLWZ1V3I5N0Rpek80TmIwMFFVN2VYUWtJbnh1MkRnRzVXa1JBenRiUTRtNTBwRzBRczREdlNrcXJUaVh0M3A?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase反弹，Altcoin普涨BTC守住8万",
+      "summary": "比特币在80,000美元上方企稳，同时山寨币集体走强，Coinbase股价随之反弹。市场情绪从短暂恐慌中恢复，但持续性存疑。该信号显示短期资金可能从BTC轮动至Altcoin，但整体量能不足，未形成趋势突破。",
+      "reason": "优先级三：市场结构变化，关注资金流向。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "SOL", "XRP"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/08/coinbase-rebounds-as-altcoins-surge-with-bitcoin-holding-above-usd80-000"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储金融报告称私人信贷风险可控",
+      "summary": "美联储发布半年度金融稳定报告，认为私人信贷领域的赎回风险‘可控’，未构成系统性威胁。该言论缓解了市场对信贷紧缩的担忧，对风险资产形成温和支撑。不过报告同时指出资产估值偏高，对长期走势保持谨慎。",
+      "reason": "优先级二：宏观经济相关，影响风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511882.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美股连六周收高，科技股领涨",
+      "summary": "纳指和标普500指数连续第六周上涨并创新高，因科技股（尤其是存储芯片）大涨。市场风险偏好提升，可能间接推动加密资金流入。但加密货币与美股相关性近期下降，需观察联动效应。",
+      "reason": "优先级二：宏观环境，风险资产联动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511881.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
