@@ -773,3 +773,63 @@ content length: 1887
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1324, prompt_tokens=12142, total_tokens=13466, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=723, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11118)
+content length: 1689
+============================================================
+{
+  "news": [
+    {
+      "title": "Solv迁移700M BTC至Chainlink",
+      "summary": "Solv Protocol宣布放弃LayerZero，将7亿美元代币化比特币技术迁移至Chainlink。这可能导致SOLV代币短期波动，并影响LayerZero生态信心。迁移是看多Chainlink生态的信号，但对LayerZero代币利空。",
+      "reason": "重大项目迁移，影响多个生态币种，优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["SOLV", "LINK", "BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367154/solv-protocol-dump-layerzero-migrate-700m-tokenized-bitcoin-chainlink"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY Act或下周推进",
+      "summary": "Coinbase高管表示，CLARITY Act（加密货币监管法案）可能最早下周进行标记（markup）。若通过，将明确加密资产分类，利好合规代币如BTC、ETH，但可能对未注册证券代币构成压力。短期看多合规币种。",
+      "reason": "重大监管动态，政策进展直接影响市场情绪，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/clarity-act-markup-could-happen-as-early-as-next-week-coinbase-exec"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至38",
+      "summary": "加密货币恐惧贪婪指数从47降至38（恐惧），表明市场情绪转为谨慎。历史数据中该指数处于恐惧区间时，往往是中长期买入机会，但短期可能继续下探。信号中性偏多，适合分批建仓。",
+      "reason": "市场情绪极值信号，变化明显，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮有效新消息较少，多数与历史重复，仅选出3条。"
+}
