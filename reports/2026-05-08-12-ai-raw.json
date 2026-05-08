@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-08",
+  "hour": "12",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10162,
+    "completion_tokens": 2650,
+    "total_tokens": 12812
+  },
+  "content_length": 2236,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"美法院裁定10%全球关税不成立\",\n      \"summary\": \"美国法院裁定特朗普此前实施的10%全球关税不成立，此举缓解了贸易冲突升级担忧，有利于全球风险资产。作为宏观经济利好，可能推动比特币及整体加密货币市场反弹。看多信号。\",\n      \"reason\": \"宏观经济重大利好，降低贸易不确定性，有利于风险资产。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://www.jinse.cn\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美国政府存入UNI、CRO、LINK至Coinbase\",\n      \"summary\": \"美国政府地址向Coinbase Prime存入UNI、CRO和LINK代币，总价值未公开但可能带来抛售压力。该行为通常被视为政府准备出售的信号，利空相关代币。\",\n      \"reason\": \"链上异动：政府资金流入交易所，预示潜在抛售。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"UNI\", \"CRO\", \"LINK\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://www.jinse.cn\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"ENS团队向Coinbase存入146万枚ENS\",\n      \"summary\": \"ENS团队向Coinbase存入146万枚ENS（价值约932万美元），可能为准备出售。大额解锁或抛售将对ENS价格构成下行压力，短期看空。\",\n      \"reason\": \"项目方大额转入交易所，抛压明显。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ENS\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://www.jinse.cn\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"CLARITY法案下周审议启动\",\n      \"summary\": \"Coinbase高管透露《CLARITY法案》审议程序最早可能于下周启动。该法案旨在明确加密货币监管框架，若通过将为行业带来合规利好，推动市场信心。\",\n      \"reason\": \"监管政策重大进展，利好整体加密市场。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://www.jinse.cn\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"CZ提出重启Binance.US\",\n      \"summary\": \"CZ（赵长鹏）公开表示希望重启Binance.US，此前该平台因监管问题受限。若成功恢复，将提升BNB应用场景及市场对币安生态的信心，利好BNB。\",\n      \"reason\": \"交易所重大动向，直接影响BNB及币安生态。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"BNB\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://www.jinse.cn\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

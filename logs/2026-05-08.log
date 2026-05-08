@@ -1086,3 +1086,108 @@
 2026-05-08 03:02:46 [DEBUG]   去重: 「Solv协议弃LayerZero转投Chainlink」 → 标题相似: Solv协议抛弃LayerZero迁移至Chainlink
 2026-05-08 03:02:46 [INFO] 📦 JSON 已保存: reports/2026-05-08-11.json
 2026-05-08 03:02:46 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-05-08 04:00:35 [INFO] 🚀 开始抓取 2026-05-08 12:00 币圈新闻
+2026-05-08 04:00:35 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-08 04:00:35 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-08 04:00:36 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-08 04:00:36 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-08 04:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ Blockworks: 过滤掉 22 条非近期新闻
+2026-05-08 04:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 21 条非近期新闻
+2026-05-08 04:00:37 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:37 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:37 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:37 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:37 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-05-08 04:00:37 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:37 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 24 条非近期新闻
+2026-05-08 04:00:37 [INFO]   ⏭ Crypto Twitter: 过滤掉 47 条非近期新闻
+2026-05-08 04:00:38 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-05-08 04:00:38 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 3 条非近期新闻
+2026-05-08 04:00:44 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:44 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-08 04:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-08 04:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-08 04:00:52 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:52 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-08 04:00:52 [INFO]   ✓ CoinDesk: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ The Block: 1 条
+2026-05-08 04:00:52 [INFO]   ✓ Decrypt: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Blockworks: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ DL News: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ 金色财经: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ PANews: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-05-08 04:00:52 [INFO]   ✓ Reddit r/bitcoin: 1 条
+2026-05-08 04:00:52 [INFO]   ✓ Crypto Twitter: 3 条
+2026-05-08 04:00:52 [INFO]   ✓ 宏观经济: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Binance公告: 20 条
+2026-05-08 04:00:52 [INFO]   ✓ OKX公告: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Bitget公告: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Whale Alert: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-08 04:00:52 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-08 04:00:52 [INFO]   ✓ 雪球加密: 1 条
+2026-05-08 04:00:52 [INFO] 📊 共抓取 29 条新闻
+2026-05-08 04:00:52 [INFO] 📋 原始新闻已保存: reports/2026-05-08-12-raw.json (29 条)
+2026-05-08 04:00:52 [INFO] 📋 标题摘要已保存: reports/2026-05-08-12-raw-titles.md
+2026-05-08 04:00:52 [INFO] ✅ 抓取完成，共 29 条，已保存到 reports/2026-05-08-12-raw.json
+2026-05-08 04:00:52 [INFO] 🤖 开始 AI 筛选 2026-05-08 12:00 币圈消息
+2026-05-08 04:00:52 [INFO] 📋 已加载原始新闻: reports/2026-05-08-12-raw.json (29 条)
+2026-05-08 04:00:52 [INFO] 📚 已加载历史新闻标题（19254 字符）
+2026-05-08 04:00:52 [INFO] 📚 已加载历史筛选标题 17 条、URL 19 个，用于去重
+2026-05-08 04:00:52 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-08 04:00:52 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-08 04:00:52 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（29 条，6126 字符，temp=0.3）
+2026-05-08 04:01:07 [INFO] AI 原始返回已保存: logs/2026-05-08-ai-response.txt (finish_reason=stop, 163 字符)
+2026-05-08 04:01:07 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-08-12-ai-raw.json
+2026-05-08 04:01:07 [DEBUG] parse_json_response 输入长度: 163 字符
+2026-05-08 04:01:07 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取的29条素材中，绝大多数为历史已出现过的重复消息（如Binance旧公告、恐惧贪婪指数、Coinbase财报等），或为无交易价值的普通用户帖、旧闻。唯一稍有价值的Solv Protocol技术迁移事件也已在上小时历史消息中重复。因此未筛选出符合标准的新消息。"
+}
+2026-05-08 04:01:07 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-08 04:01:07 [INFO] ✅ AI 返回 0 条新闻
+2026-05-08 04:01:07 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-05-08 04:01:07 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（29 条，6126 字符，temp=0.3）
+2026-05-08 04:01:48 [INFO] AI 原始返回已保存: logs/2026-05-08-ai-response.txt (finish_reason=stop, 2236 字符)
+2026-05-08 04:01:48 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-08-12-ai-raw.json
+2026-05-08 04:01:48 [DEBUG] parse_json_response 输入长度: 2236 字符
+2026-05-08 04:01:48 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "美法院裁定10%全球关税不成立",
+      "summary": "美国法院裁定特朗普此前实施的10%全球关税不成立，此举缓解了贸易冲突升级担忧，有利于全球风险资产。作为宏观经济利好，可能推动比特币及整体加密货币市场反弹。看多信号。",
+      "reason": "宏观经济重大利好，降低贸易不确定性，有利于风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      
+2026-05-08 04:01:48 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-05-08 04:01:48 [INFO] ✅ AI 返回 5 条新闻
+2026-05-08 04:01:48 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-05-08 04:01:48 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-05-08 04:01:48 [INFO] 🔄 去重：移除 3 条与历史报告重复的新闻
+2026-05-08 04:01:48 [DEBUG]   去重: 「美法院裁定10%全球关税不成立」 → 标题相似: 美法院裁定特朗普全球关税不成立
+2026-05-08 04:01:48 [DEBUG]   去重: 「美国政府存入UNI、CRO、LINK至Coinbase」 → 标题相似: 美国政府地址向Coinbase存入UNI、CRO、LINK
+2026-05-08 04:01:48 [DEBUG]   去重: 「ENS团队向Coinbase存入146万枚ENS」 → 标题相似: ENS团队向Coinbase存入146万枚ENS
+2026-05-08 04:01:48 [INFO] 📦 JSON 已保存: reports/2026-05-08-12.json
+2026-05-08 04:01:48 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息
