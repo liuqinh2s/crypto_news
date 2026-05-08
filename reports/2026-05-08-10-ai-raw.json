@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-08",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10785,
+    "completion_tokens": 1220,
+    "total_tokens": 12005
+  },
+  "content_length": 1926,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Hyperliquid亏损1.65亿美元\",\n      \"summary\": \"Hyperliquid Strategies公布截至3月31日的九个月净亏损1.65亿美元，但HYPE treasury仍持续增长。该消息可能对HYPE代币产生短期利空压力，市场可能担忧其盈利能力。但treasury增长或预示长期信心。信号偏向bearish，影响HYPE及相关DeFi项目。\",\n      \"reason\": \"优先级一：项目方重大财务事件，直接影响HYPE价格情绪。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400512/hyperliquid-strategies-net-loss?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"机构增配数字资产，比特币核心配置\",\n      \"summary\": \"CoinShares最新调查显示，机构投资者持续增配数字资产，尤其是比特币仍居核心配置地位。这表明机构资金仍在流入，利好BTC及整体市场。信号bullish，可能支撑中长期价格。\",\n      \"reason\": \"优先级二：机构动向，反映主流资金态度，影响市场情绪。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"디지털투데이\",\n          \"url\": \"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZXJhZWJtSjJLRkc4Tld0THZtT0lfV0oyalJocjJHdVJuVFUwUlVtT3A5eGlvNHpUTF9IcFB1bUZfYXd6aEY0eTZiVzVHUm1zVUlaTTJRYXR6TTRzQUY5ek1yOWQ0QkQ0NW5DcW9fX0J5VWtyYWwtcHJzLVU0cnUyeUpTNmJTNjM0aDBBQVRuNzF4cjFsNXByZ3lpcHBSZ090ODRpY01iWmxHaUQwNkVTdFcwZkZseW1QMnBNQjVKRldyTlRoU0R6WndKME5KNFNZS3N2SWxn?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数降至38\",\n      \"summary\": \"恐惧贪婪指数当前为38（恐惧），处于历史中等偏低位置。恐惧情绪通常被视为反向买入机会，但短期可能继续下探。信号中性偏bullish，适合中长期布局，但需警惕地缘风险。\",\n      \"reason\": \"优先级三：恐惧贪婪指数极值（<20极度恐惧，此处38仍属恐惧区间），市场情绪信号。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"其他新闻多为重复或低价值信息，仅筛选出3条关键消息。\"\n}"
+}
