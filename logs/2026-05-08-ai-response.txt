@@ -2166,3 +2166,94 @@ content length: 4594
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2764, prompt_tokens=17785, total_tokens=20549, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1765, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=16761)
+content length: 2584
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸向币安存入7.8万ETH",
+      "summary": "链上数据显示，地址Garrett Jin向币安交易所存入超过7.8万枚ETH，价值约1.8亿美元。大额ETH转入交易所通常预示潜在的抛售压力，可能对ETH价格构成短期利空。该地址历史行为显示其与早期以太坊投资者有关联，此次转账可能为卖出准备。",
+      "reason": "巨鲸向交易所大额转账是链上异动信号，优先级一，直接指示抛压。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511854.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗称仍在审议美国和平提案",
+      "summary": "伊朗通讯社报道，伊朗方面仍在审议美国提出的结束战争的提案，尚未做出最终决定。此前美伊冲突升级导致油价飙升，若和平提案取得进展，可能缓解地缘紧张局势，利好风险资产包括加密货币。当前比特币跌破8万美元，地缘缓和或提供反弹契机。",
+      "reason": "地缘政治局势直接影响风险偏好，优先级二，中期影响行情。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511848.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "哈塞特：今年将降息",
+      "summary": "前白宫经济顾问哈塞特表示，今年会看到降息，因为美联储主席提名人沃什。这与近期美联储理事米兰言论一致，市场对2026年降息预期有所升温。降息预期利好风险资产，包括加密货币，可能推动BTC、ETH等反弹。",
+      "reason": "降息预期是宏观宽松信号，直接影响风险资产定价，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511847.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美军袭击数艘试图突破封锁油轮",
+      "summary": "美军袭击了数艘试图突破封锁的油轮，霍尔木兹海峡局势再度紧张。此前伊朗油轮遇袭事件已推高油价，此次美军直接行动可能进一步加剧中东冲突，短期避险情绪升温，不利于比特币等风险资产。但若冲突持续，可能刺激黄金和部分加密货币的避险需求。",
+      "reason": "地缘冲突升级直接影响市场情绪，优先级一，短期内利空风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511846.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BNB链月活钱包创新高",
+      "summary": "BNB Chain在过去30天内活跃钱包数达到5030万个，创历史新高。活跃地址增长表明链上使用量增加，是网络健康和生态繁荣的信号，利好BNB及BSC生态代币。同时，持续的高活性可能吸引更多开发者与应用，长期利好。",
+      "reason": "链上指标异常（活跃地址骤升）是中期信号，优先级二，显示生态增长。",
+      "category": "市场结构",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t78hxo/bnb_chain_hits_record_503_million_active_wallets/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
