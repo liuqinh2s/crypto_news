@@ -1619,3 +1619,102 @@ content length: 3863
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3403, prompt_tokens=12585, total_tokens=15988, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1857, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11561)
+content length: 3801
+============================================================
+{
+  "news": [
+    {
+      "title": "Zcash一周涨70%",
+      "summary": "Zcash (ZEC) 在过去一周内上涨70%，主要受隐私币关注度提升和AI监控担忧推动。消息来自CoinTelegraph。可能影响ZEC价格，但需警惕短期获利回吐。从合约做多视角看，隐私币热点可能吸引资金，但加速上涨后回调风险增加，建议观望而非追高。信号：中性。",
+      "reason": "价格大幅波动，属于市场结构变化，关注持续性和回调风险。",
+      "category": "市场结构",
+      "impact_coins": ["ZEC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/zcash-price-surges-privacy-coins-ai-surveillance-concerns"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "鲸鱼20倍杠杆开多443 BTC",
+      "summary": "某鲸鱼地址以20倍杠杆建立443.42枚比特币多头头寸，价值约3535万美元。高杠杆多头头寸表明大户看多，但存在清算风险。若价格下跌，可能引发强制平仓，加剧抛压。从合约做多视角看，该信号偏多，但需警惕杠杆踩踏。影响币种：BTC。",
+      "reason": "大额杠杆多头头寸属于链上异动，直接影响BTC短期供需和心理。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511809.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Ripple有望获OCC牌照",
+      "summary": "Ripple稳定币业务高级副总裁表示，Ripple很快将获得美国货币监理署（OCC）特许牌照。这将使Ripple成为受监管的金融机构，利好XRP和其稳定币RLUSD。从合约做多视角看，合规进展将提升XRP的机构采用预期，是明显看多信号。影响币种：XRP。",
+      "reason": "重大监管利好，直接影响XRP合规性和使用场景。",
+      "category": "监管政策",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511808.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "德意志银行增持Strategy股票",
+      "summary": "德意志银行增持Strategy（原MicroStrategy）股票至7.85亿股，持仓价值达1.4亿美元。Strategy是全球最大的比特币上市公司持有者，增持其股票间接增加比特币的机构敞口。从合约做多视角看，这是机构看多的信号，利好BTC。",
+      "reason": "大型银行增持比特币相关股票，属于机构动向，增强市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511804.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance支持Chiliz 2.0",
+      "summary": "Binance将支持Chiliz（CHZ）2.0主网集成和合约互换。这意味着用户可在Binance上无缝兑换新旧代币，提升CHZ流动性和采用。从合约做多视角看，交易所支持通常带来短期上涨动力，是看多信号。影响币种：CHZ。",
+      "reason": "交易所重大更新，直接影响CHZ的交易和兑换。",
+      "category": "项目更新",
+      "impact_coins": ["CHZ"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511797.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "欧洲央行行长警告欧元稳定币风险",
+      "summary": "欧洲央行行长拉加德表示，欧元稳定币将对银行业和货币政策构成风险。该言论反映监管层对稳定币的担忧，可能影响欧元区稳定币项目，但对比特币等非主权加密货币影响有限。从合约做多视角看，短期偏空，但实际冲击较小。",
+      "reason": "监管层表态可能影响市场情绪，尤其对欧元稳定币相关项目。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511799.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "美国判决朝鲜IT工人同谋",
+      "summary": "美国法院判决8名协助朝鲜IT工人的“笔记本电脑农夫”入狱，涉及诈骗和洗钱。该事件表明美国加大对加密货币犯罪的打击力度，可能对加密货币的监管环境产生短期压制。但从合约做多视角看，长期合规化利好，短期影响有限。影响币种：BTC、ETH。",
+      "reason": "监管执法行动，反映美国对加密犯罪的立场，但影响范围有限。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/us-sentences-eight-in-five-months-laptop-farmers-north-korea"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase CEO套现5.5亿美元",
+      "summary": "Coinbase CEO在过去一年通过出售COIN股票累计套现约5.5亿美元。内部人大量抛售可能暗示对公司短期前景的担忧，但CEO套现动机多样，未必直接看空。从合约做多视角看，该消息偏空，可能影响市场对Coinbase及加密市场的信心。影响币种：BTC、ETH。",
+      "reason": "公司高管大规模套现，属于市场情绪指标，可能引发抛售担忧。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511810.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
