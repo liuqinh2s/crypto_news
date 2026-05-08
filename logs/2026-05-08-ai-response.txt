@@ -1492,3 +1492,130 @@ content length: 2130
   ],
   "note": "由于多数新闻已在历史消息中重复出现，仅筛选出3条新消息。其中美联储不降息消息影响较大，其余两条影响轻微。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3995, prompt_tokens=11201, total_tokens=15196, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2466, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=10177)
+content length: 3863
+============================================================
+{
+  "news": [
+    {
+      "title": "美伊冲突升级比特币大跌",
+      "summary": "美军遭袭击后对伊朗开火，地缘政治风险加剧，比特币从8.1万美元回落至7.9万美元。避险情绪升温，风险资产承压。影响比特币及主流币，短期看空。",
+      "reason": "直接影响行情的重大地缘政治事件，导致比特币急跌，属于优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "FX168",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wX1ZmZzc0dF8tOFBfYVEwMVRRNUl4TU5ibWhJQnd5SUpCVUxnY3NvT3NGNThoeTF1UWpneW00R3hycDhRMVk0UmpEX051M25jLTIzdENaY25IZ2JTSEN1ODR5YWZONjlFaTk4dnJVQjFTWmZHLU92VA?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Coinbase宕机后恢复交易",
+      "summary": "AWS弗吉尼亚北部数据中心过热导致Coinbase宕机超2小时，现已恢复。中断期间影响用户交易，可能加剧短期波动。事件暴露中心化风险，但恢复后市场情绪平稳。影响Coinbase相关币种，中性偏空。",
+      "reason": "直接导致交易所无法交易，属于影响行情的突发事件，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["COIN"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/aws-data-center-overheating-impacting-coinbase-others?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511803.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MSTR暗示卖BTC分红",
+      "summary": "Strategy (MSTR) 股价涨8.7%，公司暗示可能出售部分比特币持仓以支付股息。若实施，将导致BTC抛压，利空比特币。但市场可能解读为公司资产灵活运用，短期中性偏空。影响BTC及MSTR。",
+      "reason": "巨鲸/机构相关，直接影响BTC供需，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXpPNm9nM0ZKRnBQOGc3Sm1hcXY0UW9mUm90bTBsckRiZ1NYdTVyVTBRbDhqcjVDdDNqYXlPWVA2dXJhMzlpQmpRT0RZNTRJTmE4bm5RZEJ5Si1KNzZxM2xFUHFRemZOZkRkMVFMS19kNDdrY0dVMWpUSlJOMmdHYklRTWxQdWlwSV9KZnQ1WnVZQmJ6?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "纽约退休基金增持BTC敞口",
+      "summary": "纽约州退休基金通过增持MSTR股票加码4100万美元比特币敞口，显示机构持续配置。利好比特币，看多信号。影响BTC。",
+      "reason": "机构动向，直接资金流入信号，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511798.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸质押7600万美金ETH",
+      "summary": "Grapefruit Trading将超过7600万美元ETH质押至Eth2.0，减少交易所流通供应，利好ETH价格。质押行为表明长期持有信心。影响ETH。",
+      "reason": "链上异动，大额转出交易所（质押），属于囤币信号，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511789.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "万事达卡等完成代币化国债结算",
+      "summary": "万事达卡、摩根大通、Ripple和Ondo完成跨链代币化国债跨境结算试验，推动合规代币化资产发展。利好Ripple和Ondo，显示传统金融深度参与。影响XRP、ONDO。",
+      "reason": "机构合作及传统金融入场信号，中期利好相关币种，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["XRP", "ONDO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511792.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "欧央行警告欧元稳定币风险",
+      "summary": "欧洲央行行长拉加德表示欧元稳定币将对银行业和货币政策构成风险，暗示可能加强监管。利空欧元稳定币及相关项目，但影响较远。影响USDC、EURT等。",
+      "reason": "监管政策表态，中期影响稳定币生态，优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["USDC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511799.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
