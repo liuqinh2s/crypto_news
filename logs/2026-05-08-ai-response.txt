@@ -833,3 +833,91 @@ content length: 1689
   ],
   "note": "本轮有效新消息较少，多数与历史重复，仅选出3条。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4096, prompt_tokens=12063, total_tokens=16159, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2539, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=11039)
+content length: 3538
+============================================================
+{
+  "news": [
+    {
+      "title": "美法院裁定特朗普全球关税不成立",
+      "summary": "美国法院裁定特朗普此前宣布的10%全球关税不成立，该裁决消除了贸易战升级的担忧，利好全球风险资产。BTC和ETH作为风险资产代表，可能迎来反弹。此消息为宏观政策面重大利好，看多。",
+      "reason": "关税裁决大幅降低贸易战风险，改善市场情绪，属于重大宏观利好，直接影响风险资产走势。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511714.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "华尔街巨头大量招募数字资产人才",
+      "summary": "摩根大通、贝莱德等华尔街巨头逆势大量招募数字资产人才，显示机构对加密行业的长期看好。此举将推动更多合规资金入场，利好BTC、ETH及整个市场。机构动向是中期看多信号。",
+      "reason": "机构人才布局预示业务扩张，潜在资金流入，属于中期利多。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511732.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "大量银行排队通过Anchorage发稳定币",
+      "summary": "Anchorage CEO透露约20家银行和科技巨头正排队通过该公司发行稳定币。稳定币增发通常意味着资金入场，将增加加密货币市场的流动性，利好BTC、ETH及DeFi板块。此为强烈看多信号。",
+      "reason": "稳定币供应扩大是流动性改善的前兆，直接利好资金流入。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "USDC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511729.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "ENS团队向Coinbase存入146万枚ENS",
+      "summary": "ENS团队向Coinbase存入146万枚ENS（约932万美元），通常预示抛售意图。大量筹码转入交易所可能对ENS价格造成下行压力，属于利空信号。影响ENS及同板块代币。",
+      "reason": "大额转入交易所是典型抛压信号，符合链上异动筛选标准。",
+      "category": "链上异动",
+      "impact_coins": ["ENS"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511724.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国政府地址向Coinbase存入UNI、CRO、LINK",
+      "summary": "美国政府相关地址向Coinbase Prime存入UNI、CRO和LINK等代币，可能为出售准备。这将对相关币种形成抛压，短期利空。关注后续是否卖出。",
+      "reason": "政府地址转出至交易所是潜在抛售信号，影响UNI、CRO、LINK等。",
+      "category": "链上异动",
+      "impact_coins": ["UNI", "CRO", "LINK"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511722.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "鲸鱼3倍杠杆做多197万枚TON",
+      "summary": "某鲸鱼过去5小时内以3倍杠杆做多197万枚TON，显示大户对TON短期看涨。杠杆做多可能推动价格上涨，但需注意清算风险。该信号偏多，但杠杆多单可能加剧波动。",
+      "reason": "大额杠杆做多反映短期看多情绪，可能带动价格上涨。",
+      "category": "链上异动",
+      "impact_coins": ["TON"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511718.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "亚太股市因美伊紧张低开",
+      "summary": "受伊朗与美国最新冲突影响，亚太股市开盘走低，避险情绪升温。短期可能拖累加密货币市场，但加密货币与股市关联度减弱，影响有限。整体偏空，持续时间预计不长。",
+      "reason": "地缘冲突加剧市场避险，间接影响加密货币，但历史相关性不高。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CNBC", "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPazkyS3ZFbGV4SVRYX0hPRTVjNm5KeENDZ0tfd255czNuY0otdjhhVHhiQ0dBbHdQaFlIS1RoZFlrelNiSXlPV1lOWlhCRUktd3U0Ync5ZzktV0ExcWNFN2tOMEl5dEU4VHJQXzZOMzdiZ0M0VFlhSVg3enlwYkRuS0hZY0xaQnRraUhCQ09KZmpSY0VEY1BiTHFRMkFtaFdFVlhDLTNDaEljV1JFZ1HSAbMBQVVfeXFMTWpxSldVUEhrZFZfTms1ajdyNXU0aGpqX0VlM3I1SHM4TmFGQXpVRjVfMWtTcTRnQ2NKaEx0dGtyWGkxTTR3NWtkYk5Ja3dzaTFlZC11VExaTFJoRjlTdExOX2o5Tjh3ejd6Zm0zcnJScjhHcFQ4Mm1nU05VQWtVWmZhYWRoLTFSTWpYVjVXUkFqbV8wSkcySzNwbHF6Mnc0Vm13REdFZ2NKMnkwdVhheGxxN3M?oc=5"}],
+      "urgency": "immediate"
+    }
+  ]
+}
