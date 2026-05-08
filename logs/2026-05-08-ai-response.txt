@@ -1204,3 +1204,142 @@ content length: 2236
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2466, prompt_tokens=9802, total_tokens=12268, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1034, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8778)
+content length: 3881
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF净流出2.685亿美元",
+      "summary": "美国现货比特币ETF昨日净流出2.685亿美元，显示机构资金撤离，可能对BTC价格构成短期下行压力。该信号为看空，但需结合后续流入情况判断趋势。影响币种：BTC。",
+      "reason": "ETF资金大幅净流出为直接利空信号，优先级一，影响行情。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511766.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH ETF净流出1.036亿美元",
+      "summary": "美国现货以太坊ETF昨日净流出1.036亿美元，反映机构对ETH信心减弱，可能引发ETH价格回调。看空信号。影响币种：ETH。",
+      "reason": "ETH ETF净流出为直接利空，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511767.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Block Q1盈利超预期股价涨8%",
+      "summary": "Block（前Square）Q1财报显示盈利意外超预期，尽管比特币价格下跌导致1.73亿美元加密资产重估损失，但主营支付业务强劲，股价盘后涨8%。对比特币市场情绪有提振作用，但影响有限。中性偏多。影响币种：BTC。",
+      "reason": "机构动向，Block业绩好于预期，可能带动加密市场信心。优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/blocks-rises-8-percent-after-q1-earnings-surprise"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "20.1亿美元BTC/ETH期权到期",
+      "summary": "今日将有名义价值20.1亿美元的比特币和以太坊期权到期交割，其中BTC期权约12亿美元，ETH期权约8亿美元。到期前可能引发价格波动，但方向不确定。中性信号，需关注持仓结构。影响币种：BTC、ETH。",
+      "reason": "期权到期是市场结构事件，可能增大波动，优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511763.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Coinbase宕机超2小时",
+      "summary": "加密货币交易所Coinbase发生宕机，持续时间超过2小时，用户无法正常交易。可能引发部分用户恐慌或被迫转向其他交易所，短期影响交易量，但对市场长期影响有限。偏空信号，因交易所问题可能削弱信心。影响币种：BTC、ETH等。",
+      "reason": "交易所故障为直接影响，优先级一，但影响程度中等。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511770.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "达里奥警告美国滞胀危机",
+      "summary": "桥水基金创始人达里奥警告美国可能陷入滞胀型金融危机，建议配置黄金作为终极货币。该言论强化了避险情绪，对加密货币整体偏空，但比特币作为数字黄金可能受益于部分避险需求。中性偏空。影响币种：BTC。",
+      "reason": "宏观风险事件，优先级二，影响市场情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511768.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日本发布加密货币质押指引",
+      "summary": "日本加密货币商业协会（JCBA）发布加密货币质押业务运营指引，推动行业透明化与投资者保护。该消息利好质押概念项目，可能促进日本市场发展。偏向利好ETH、SOL等支持质押的币种。影响币种：ETH、SOL。",
+      "reason": "监管政策利好，优先级二，中期影响。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511759.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CZ：机构资金改变周期结构",
+      "summary": "币安创始人CZ表示美国市场对全球加密市场影响巨大，机构资金正在改变市场周期结构。该观点反映长期趋势，短期中性，但暗示机构主导的市场可能更平稳。中性信号。影响币种：BTC、ETH。",
+      "reason": "行业观点，优先级三，但CZ影响力较大，可作为情绪参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511762.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
