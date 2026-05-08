@@ -74,3 +74,94 @@ content length: 2655
   ],
   "note": "当前市场消息重复度高，有效新事件较少，仅筛选出4条具有交易价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2898, prompt_tokens=16284, total_tokens=19182, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1643, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15260)
+content length: 3001
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken申请OCC特许成为联邦银行",
+      "summary": "Kraken母公司向美国货币监理署(OCC)申请国家银行牌照，若获批将成为首家联邦级加密银行。此举标志着加密交易所合规化进程加速，可能推动更多机构入场。影响BTC、ETH等主流币，监管明确性利好整体市场。看多信号。",
+      "reason": "重大监管动态，Kraken申请OCC特许是合规里程碑，对加密行业有深远影响，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/08/kraken-parent-goes-for-the-occ-charter-in-big-to-become-a-federal-crypto-bank"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国比特币ETF净流出2022枚BTC",
+      "summary": "5月8日美国比特币ETF净流出2022枚BTC，以太坊ETF净流出34349枚ETH，表明机构资金短期内撤离。叠加BTC跌破8万美元，抛压增加。利空BTC、ETH，短期看空信号。",
+      "reason": "ETF资金流向直接影响行情，属于优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511866.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗局势升级：美伊交火油轮遇袭",
+      "summary": "霍尔木兹海峡附近美伊海军交火，两艘伊朗油轮遇袭，伊朗威胁军事回应。地缘风险推高油价，BTC等风险资产承压。短期利空BTC、ETH，避险情绪或导致资金流出。",
+      "reason": "地缘冲突升级影响风险资产，属于优先级二（宏观经济类）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511871.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "参议院法案推动放宽加密风险规则",
+      "summary": "据Politico报道，加密巨头推动参议院法案放宽对高风险资产的监管限制，旨在为机构投资创造更友好环境。若通过，将显著提升市场信心。利好BTC、ETH及整个加密市场。",
+      "reason": "重大监管动态，直接影响行情，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Politico via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUS16QXBndVlxOVdDWUtVY3dueUEtek9MV2JwcDVabU1DR0p0UHJhM1dfZk11Q0NYZ25hbWUzbXA5bkVOaHNiX0hQdVB5aTd6M2pIQlVINzFoNU9rWWhacExuTkp6aG1UUTRHWVlxR1JTWkVfWlNBZk9KQURNejI2VkZjaENldXF6T2d2dU9lalEzbWpOaGVBX0VJUjZ5VFFSYnpGVnZ4SQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "贝莱德CEO芬克呼吁加密监管",
+      "summary": "贝莱德CEO Larry Fink公开要求加密行业制定明确监管框架，认为这将是机构大规模入场的前提。其言论代表传统金融巨头立场，可能加速政策落地。利好整体市场。",
+      "reason": "机构巨头言论影响市场情绪和监管预期，属于优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Motley Fool via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX1ZhTDB4V2U4SERaNjVVUVJWT0NFUUw3amNTOGVCaW4wNVVrT1VWdlJVWEhIRG9jemVwZm9JcXJsT1k0ZlY3aXo1SzVSOEVFNDBXU3lTODZ4SEVVQ2RpNXBicHA3dXI1UXUydjZJbE9qc0UzN3Frd3N1R3RMNWNEUC13dWNFdVdqN0hBdXM1bnhkQXFNaG5KRw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
