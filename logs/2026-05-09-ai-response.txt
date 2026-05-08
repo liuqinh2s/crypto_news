@@ -165,3 +165,154 @@ content length: 3001
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2750, prompt_tokens=14096, total_tokens=16846, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2252, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=13072)
+content length: 1305
+============================================================
+{
+  "news": [
+    {
+      "title": "SEC启动链上市场结构规则制定",
+      "summary": "美国SEC正在考虑针对链上市场结构和软件应用制定新规则，旨在为加密资产交易提供更清晰的监管框架。此举可能影响所有基于智能合约的DeFi协议和中心化交易所，尤其是ETH及L2生态项目。若规则偏向合规友好，将推动机构资金入场，属看多信号；若过于严格，可能压制创新。当前阶段为中性，但长期利好合规项目。",
+      "reason": "SEC监管动态直接影响加密市场合规预期，属于优先级一的关键消息，且为本次去重后的新消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400587/sec-weighs-new-rulemaking-for-onchain-market-structures-and-software-applications"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "MSTR股票信号80%上涨潜力",
+      "summary": "CoinTelegraph分析指出，MicroStrategy（MSTR）股票技术面显示有80%的上涨潜力，尽管Q1出现亏损。若MSTR股价上涨，将间接提振比特币市场信心，因为MSTR持有大量BTC。该消息对BTC构成看多情绪，但仅为技术分析，非基本面变化。建议关注后续机构动向。",
+      "reason": "MSTR是比特币最大持仓机构之一，其股价信号影响市场情绪，属于优先级二的中期影响消息。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/strategys-mstr-stock-signals-80-percent-rally-despite-q1-loss"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮筛选出的新消息较少，仅2条符合交易价值标准，其余均为历史重复信息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2958, prompt_tokens=14096, total_tokens=17054, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1437, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14080), prompt_cache_hit_tokens=14080, prompt_cache_miss_tokens=16)
+content length: 3671
+============================================================
+{
+  "news": [
+    {
+      "title": "SEC或制定链上市规",
+      "summary": "美国SEC正在考虑针对链上市结构和软件应用制定新规则，此举可能为DeFi和加密交易所提供更明确的监管框架。影响BTC、ETH等主流币及DeFi代币。若规则利好合规项目，中长期看多；短期可能因不确定性承压。但整体偏向于利好，因为监管清晰度吸引机构资金。",
+      "reason": "新消息，历史未提及。SEC监管动向直接影响市场情绪和机构入场意愿。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400587/sec-weighs-new-rulemaking-for-onchain-market-structures-and-software-applications"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "IREN获34亿美元AI订单",
+      "summary": "比特币矿企IREN宣布与英伟达签署34亿美元AI计算协议，包括21亿美元股权融资。该交易使IREN股价盘后大涨，并凸显矿企向AI转型趋势。直接影响IREN代币及比特币挖矿板块。看多IREN及相关AI代币，但比特币本身影响中性。",
+      "reason": "新消息，历史仅提及Bernstein目标价，此为正式公告。机构级利好，影响AI与挖矿板块。",
+      "category": "项目更新",
+      "impact_coins": ["IREN", "BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367289/bitcoin-miner-iren-secures-3-4-billion-nvidia-ai-deal"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MSTR或迎80%反弹",
+      "summary": "CoinTelegraph报道，Strategy（MSTR）股票技术信号显示潜在80%涨幅，尽管Q1亏损。该公司大量持有比特币，股价与BTC高度联动。短期看多MSTR及比特币，但需警惕宏观风险。",
+      "reason": "新消息，历史未出现。MSTR作为比特币持仓标杆，技术面信号影响市场情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/strategys-mstr-stock-signals-80-percent-rally-despite-q1-loss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "摩根士丹利推低价加密交易",
+      "summary": "摩根士丹利公布加密交易服务，手续费低于竞争对手。此举标志传统金融机构进一步布局加密市场，可能吸引更多机构资金。利好BTC、ETH及整体市场，看多信号。",
+      "reason": "新消息，历史有类似但强调更低价。机构入场是中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance UK",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX1BSR003ZVJPd1pEb2p2WlUyRjJySWtRS0loTFJJeFR3SG9IV01JSkVoVEhnTy1BNUpXS2hRUWpMREZzc1ZncmxzaTlEV2tQUUN4MXNKcG5xUXRLR0M2ckhqUEItdWFTRmczZnduWm1PSHNQcE5KbXNRa0luX0hGN2Nwa3N1ZFdKNU9pcDFTano?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SEC将明确加密托管规则",
+      "summary": "SEC表示将提供加密托管（crypto vaults）的监管清晰度，可能为机构托管资产铺平道路。若规则明确且友好，将利好BTC、ETH等主流资产，并推动ETF和机构采用。偏多。",
+      "reason": "新消息，历史未提及。监管明确性对机构入场至关重要。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Markets Media",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE80RlF6STFCcExHRTlLTHlaeGJrQ1Z2LU05MnhYSWotTHdrWFBXaVpIUmZTRUdwVnVnMXcyakRQYjBSb2ZTLTNSd2pONDZaQUNaNUtzdWJyRjFMX2hKY2poM0lIbmN0TGJ1d1ZaNzZSNEZYUWxKdzBPNg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储转关注通胀降息压力缓",
+      "summary": "美联储官员表示，4月就业数据强劲使得降息紧迫性降低，但通胀仍是焦点。市场降息预期减弱，短期利空风险资产（包括BTC）；但若通胀受控，中长期仍有利。短期偏熊，但属预期内。",
+      "reason": "新消息，历史有类似但侧重不同。美联储动向直接影响宏观流动性。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlcW9TZkE2WXFOS3g3VnNsaVRpNDZLaFN1TGVSVjVMTGxMMjN5WjRnQzV5V2VtajVRcDNDSFRoX2pMbDgyRnVwc1pRam40X1puZTdyOHQyYVQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
