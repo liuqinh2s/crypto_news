@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-08",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9956,
+    "completion_tokens": 3053,
+    "total_tokens": 13009
+  },
+  "content_length": 2130,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"美联储2026年料不降息\",\n      \"summary\": \"据Crypto Briefing报道，市场预期美联储在2026年不会降息，因通胀担忧持续。这对比特币等风险资产构成利空，因为高利率环境抑制资金流入加密货币市场。信号：看空，影响BTC和ETH。\",\n      \"reason\": \"宏观环境直接影响风险资产定价，符合优先级二中的宏观经济数据。市场预期不降息意味着紧缩持续，利空加密货币。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Briefing\",\n          \"url\": \"https://news.google.com/rss/articles/CBMinwFBVV95cUxONTZDRi1QeVJvRWJXNGN5N3A2LTRiUzl3cnVnVkdwYllkamwwZkRJVnEwVy04aTUzdXM4RERWOEJnZ3dDanNJMzY1OXhvdmZNTTkyTnRqdkZJQjdtWnoxcEtBYXRyZWczYzQzOG9MdWt2RDF3djc1TkU2blhFV1ZBTUlZeVpqbDBjSTdkenZjTFFuLS1IbE1ZSHBDQS1vcjA?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"永续DEX仍难获机构青睐\",\n      \"summary\": \"CoinDesk共识大会讨论指出，永续合约DEX在机构采用方面仍面临流动性、合规和托管等障碍，短期内难以成为主流交易工具。此消息对相关DeFi代币（如HYPE、dYdX等）情绪偏空，但影响有限。\",\n      \"reason\": \"属于市场结构类消息，反映机构对DEX的冷淡态度，对Perp DEX赛道构成轻微利空。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"HYPE\", \"DYDX\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/05/08/perp-dexs-still-don-t-work-for-institutions-consensus-panelists-explain-why\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"ETH价格预测：关注$2260支撑\",\n      \"summary\": \"Traders Union发布以太坊价格预测，指出$2,260为关键支撑位，若跌破可能进一步下跌。当前ETH下跌1.87%，情绪偏空，但属于一般分析，交易价值较低。\",\n      \"reason\": \"市场情绪类消息，提供技术位参考，但权威性有限，影响等级较低。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Traders Union via 雪球\",\n          \"url\": \"https://news.google.com/rss/articles/CBMirAFBVV95cUxQeHdqWW9MdUpKb2JMTkxtTzBESlhkSDk2dUMzUm85S1ZIMWx6R2x3TTZJWGdMWXptTEJZMVpqY25CeXlnRU5JVUVocllsSU5LQjRnR0RfZVMxdkxjSVJUZ3JYQkJkUHp1MTJBT3lTTkhxQy1tcklGRmhhUzFkWV9mN2VSNGZMMlQteEdldFhlcjRJdUstSk9ndFBNYmkzT3dZQ1Z5am9zeV92VG9P?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"由于多数新闻已在历史消息中重复出现，仅筛选出3条新消息。其中美联储不降息消息影响较大，其余两条影响轻微。\"\n}"
+}
