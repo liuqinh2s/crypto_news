@@ -1,16 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3849, prompt_tokens=16712, total_tokens=20561, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2700, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=15688)
+content length: 2655
+============================================================
 {
-  "date": "2026-05-09",
-  "hour": "00",
   "news": [
     {
       "title": "参议院拟放松加密风险资产规则",
       "summary": "据Politico报道，加密巨头正在推动美国参议院一项法案，旨在放松对高风险加密资产的监管规则。该法案可能为机构投资者提供更宽松的环境，降低合规成本。如果通过，将利好整个加密市场，尤其是BTC和ETH。这是监管转向友好的明确信号，短期情绪利多。",
       "reason": "直接影响行情的重大监管动态，若法案推进将改变市场预期，优先级一。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 4,
       "sources": [
@@ -26,10 +28,7 @@
       "summary": "摩根士丹利宣布扩大加密货币交易服务，并接入ADX（阿布扎比证券交易所）加密平台。此举标志着传统金融机构进一步接纳数字资产，增加机构资金流入预期。对BTC和ETH构成中期看多信号，提升市场信心。",
       "reason": "机构动向，直接体现传统金融对加密资产的接受度，优先级二。",
       "category": "ETF机构",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
@@ -45,9 +44,7 @@
       "summary": "矿企TeraWulf Q1报告显示，HPC（高性能计算）收入达2100万美元，首次超过比特币挖矿收入。这反映矿企向AI算力转型的趋势，可能减少比特币抛压，长期对BTC供需有利，但短期影响有限。",
       "reason": "链上/矿企动态，显示行业结构变化，对矿工和BTC有一定影响，优先级二。",
       "category": "项目更新",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "neutral",
       "impact_level": 2,
       "sources": [
@@ -63,10 +60,7 @@
       "summary": "币安创始人CZ在Reddit上表示，对美国政府对加密态度的180度大转弯感到惊讶。这暗示监管环境正在改善，有助于提振市场情绪，短期看多BTC和ETH。",
       "reason": "KOL言论影响市场情绪，且CZ作为行业领袖，其观点有一定分量，优先级三。",
       "category": "市场情绪",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
@@ -78,6 +72,5 @@
       "urgency": "hours"
     }
   ],
-  "total_fetched": 50,
-  "generated_at": "2026-05-09T00:02:00.113298+08:00"
+  "note": "当前市场消息重复度高，有效新事件较少，仅筛选出4条具有交易价值的新消息。"
 }
