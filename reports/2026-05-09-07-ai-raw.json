@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-09",
+  "hour": "07",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11873,
+    "completion_tokens": 2038,
+    "total_tokens": 13911
+  },
+  "content_length": 2203,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Estonia FSA警告Zondacrypto\",\n      \"summary\": \"爱沙尼亚金融监管局对加密货币交易所Zondacrypto发布投资者警告，指出其可能未经授权运营。这并非全面禁令，但可能引发用户担忧和资金外流。影响币种：ZONDACRYPTO相关代币（如ZND）。信号：bearish（短期抛压）。\",\n      \"reason\": \"监管警告直接影响交易所声誉和用户信心，属于优先级一监管动态，但影响范围有限。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"ZND\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/estonia-fsa-investor-warning-zondacrypto\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美国加密市场结构法案推进\",\n      \"summary\": \"美国加密市场结构法案在近期获得显著推进预期，多位议员表示有望尽快达成一致。该法案旨在明确数字资产监管框架，若通过将大幅降低合规不确定性，利好整体市场。影响币种：各类合规币种如BTC、ETH、SOL、ADA。信号：bullish（长期利好）。\",\n      \"reason\": \"监管清晰化是市场长期利好，属于优先级一重大监管动态，虽未最终通过但预期改善。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"SOL\", \"ADA\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511889.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"霍尔木兹海峡航运中断影响\",\n      \"summary\": \"过去24小时无大型商船通过霍尔木兹海峡，地缘紧张局势持续。虽然目前停火，但航运受阻可能推高能源价格，引发通胀担忧，进而影响风险资产包括加密货币。影响币种：BTC、ETH。信号：bearish（避险情绪升温）。\",\n      \"reason\": \"地缘政治风险影响风险偏好，属于优先级二宏观经济事件，间接影响加密市场。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511887.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"贝莱德将推出代币化货币基金\",\n      \"summary\": \"贝莱德准备推出两个代币化货币市场基金，进一步推动RWA赛道发展。此举将吸引传统资金通过代币化产品进入加密生态，增加流动性，利好RWA相关项目和ETH。影响币种：ETH、CRV、AAVE、ONDO。信号：bullish（机构入场）。\",\n      \"reason\": \"全球最大资管公司布局代币化，属于优先级二机构动向，具有持续影响力。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"ETH\", \"CRV\", \"AAVE\", \"ONDO\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Bloomberg\",\n          \"url\": \"https://www.bloomberg.com/news/articles/2026-05-08/blackrock-readies-launch-of-two-tokenized-money-market-funds\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
