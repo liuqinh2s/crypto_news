@@ -449,3 +449,79 @@ content length: 2722
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2421, prompt_tokens=10996, total_tokens=13417, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1099, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9844)
+content length: 2908
+============================================================
+{
+  "news": [
+    {
+      "title": "美银预计今年不降息",
+      "summary": "美国银行预计美联储2026年不会降息，因通胀持续和就业强劲。该预期削弱了市场对流动性宽松的幻想，可能压制风险资产估值。加密货币作为高风险资产，面临资金外流压力。影响BTC、ETH等主流币，偏空信号。",
+      "reason": "宏观紧缩信号，直接压制风险资产，符合优先级二宏观经济类。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OODhteWpQTV9RdG8ydzZISGJpa2RsOVVRaldkZ1l2bWN2NTF4UTdLOTVjVHQ4V3dKaktvSlhSOFNWaWp1VWZvSE5kc3dhNUw1bGVSZWNWSE0?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "英央行警告稳定币规则冲突",
+      "summary": "英国央行行长贝利警告，英国与美国的稳定币监管规则可能发生冲突，并指出稳定币存在“挤兑风险”。此言论可能引发市场对稳定币合规性和流动性的担忧，进而影响USDT/USDC等稳定币的估值和资金流向，间接利空加密货币市场，尤其对依赖稳定币交易的DeFi协议构成压力。",
+      "reason": "重要监管信号，涉及稳定币核心，符合优先级一监管政策类。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400639/boes-bailey-warns-of-looming-wrestle-with-us-over-stablecoin-rules-flags-run-risk-for-uk?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave v4以太坊存款突破5千万",
+      "summary": "Aave v4在以太坊上的存款总额超过5000万美元，一个月内翻倍。显示DeFi借贷需求强劲增长，Aave TVL持续攀升，利好AAVE和ETH。资金涌入DeFi表明市场信心恢复，可能带动其他协议跟涨，偏多信号。",
+      "reason": "链上异动，DeFi TVL快速增长，符合优先级二链上指标异常。",
+      "category": "链上异动",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14TnhLMm1ucGtrbWRxMFJFVUNva0VFNEZPVDFFNTdOSVQ1VE9iSVVFa3pfbGlnX0NhSGZ4dHRNWTlwR1ZYWXhsT2hkRHdVRndVaDR6ai1sQlplYTh3WFlxdFpaM21fTW9M?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "普京称乌克兰冲突将结束",
+      "summary": "俄罗斯总统普京表示他认为乌克兰冲突即将结束。该言论可能缓解地缘政治紧张局势，降低市场避险情绪，利好风险资产包括加密货币。但冲突实际进展仍不确定，影响有限，偏中性看多。",
+      "reason": "地缘政治缓和信号，可能提振风险偏好，符合优先级二宏观经济类。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkI4bDZTNHhmTUcxNWRqeEo0WVBrZm9nOTFhU1p6NW1yc0JmcktmejlOdjYzVzh6bWZsWV9zSkZSTnZmMFczOEVVY19tNkdoZ0tfeDNtRWRONTRmVy1LTUUwcDhaQVFRY0tqM0V5WUJLLTVOSlNtTmtna3dqWG81UElQVDhaOVVpUGowalFKcTBRS0dzVGx1X0hpQjhwdTDSAaQBQVVfeXFMTjlEUUVET2pQMkxleTZ2cDVsd0dDM0Z1TWdzMWlDOG5oYzVaRHdCZmtzNmRISTZwOWlDMFc0dlFRNWlKcV9zOUxMa1hFbGs2R1VDSnFReklEbmdXdHR5emdBb1Z3VjJHNlVPNEFMNmsybDRabWdpOTFIOE5fNVlwbG9WOXYxZ1A5SDU4YzE1S0hXeWVyc0pSZkRFZkdTaHZlNlQ5OUs?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场整体消息面清淡，有效新消息较少，仅筛选出4条具有交易价值的消息。"
+}
