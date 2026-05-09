@@ -667,3 +667,67 @@ content length: 2376
   ],
   "note": "本轮有效新消息较少，仅筛选出3条符合标准的关键消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2549, prompt_tokens=9602, total_tokens=12151, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1852, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8450)
+content length: 1820
+============================================================
+{
+  "news": [
+    {
+      "title": "Arbitrum 7100万ETH转Aave获准",
+      "summary": "Arbitrum同意将约7100万美元的ETH转入Aave协议，此前该资金因法律纠纷被冻结。目前法院已批准转移，但朝鲜恐怖主义相关债权人仍保留法律索赔权。此举将增加Aave的流动性，但法律风险未消。影响币种：ARB、AAVE、ETH。信号中性偏弱看空，因潜在法律隐患。",
+      "reason": "链上大额资金转移，涉及主流DeFi协议，市场关注度高。属于优先级一（巨鲸异动/项目重大事件）。",
+      "category": "链上异动",
+      "impact_coins": ["ARB", "AAVE", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400642/arbitrums-71-million-in-eth-cleared-for-aave-transfer-as-north-korea-terrorism-creditors-retain-legal-claim"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国消费者信心跌至冰点",
+      "summary": "最新数据显示美国消费者信心指数大幅下滑至冰点，因通胀持续高企且美联储降息预期减弱。此前美国银行已预期今年不降息，叠加强劲就业数据，市场紧缩预期升温。消费者信心恶化可能进一步削弱风险偏好，利空比特币等风险资产。",
+      "reason": "宏观经济数据直接影响风险资产定价，属于优先级二（宏观经济）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512000.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗警告霍尔木兹海峡控制权",
+      "summary": "伊朗高级官员发出警告，不要关闭霍尔木兹海峡，同时传出伊朗试图掌控海峡海底互联网电缆。此举加剧中东地缘紧张，可能影响全球石油运输及网络基础设施，导致避险情绪升温。加密货币作为风险资产可能承压。",
+      "reason": "地缘政治风险影响整体市场情绪，属于优先级二（宏观经济/地缘）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512002.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512001.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本时段新消息较少，仅筛选出3条具有交易价值的新闻。其余重复或无关消息已剔除。"
+}
