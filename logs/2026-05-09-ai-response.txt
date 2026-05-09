@@ -2453,3 +2453,72 @@ content length: 2077
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4714, prompt_tokens=9894, total_tokens=14608, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3647, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8742)
+content length: 2663
+============================================================
+{
+  "news": [
+    {
+      "title": "2亿USDT转出Binance",
+      "summary": "监测到2亿枚USDT从Binance转出至未知地址。大额稳定币从交易所转出通常被视为资金准备入场购买加密货币的信号，可能预示着即将到来的买盘压力，利好BTC、ETH等主流资产。需注意也可能是内部整理或OTC交易，但历史上此类异动往往伴随行情上行。建议关注后续资金动向。",
+      "reason": "符合优先级一「链上异动」中大额转出交易所=囤币/入场信号，对全市场有积极指引。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511981.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "贝莱德推代币化货币市场基金",
+      "summary": "全球最大资管公司贝莱德宣布将在以太坊上推出两只代币化货币市场基金，深化其代币化战略。此举标志着传统金融巨头进一步融入区块链生态，有望吸引大量机构资金进入以太坊网络，直接利好ETH及RWA相关代币。短期情绪提振，中期可能推动ETH需求和网络活跃度。",
+      "reason": "机构巨头入场代币化，符合优先级二「ETF机构」中的机构动向，利好ETH。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/09/blackrock-deepens-tokenization-push-with-new-onchain-fund-offerings"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511979.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "LayerZero承认Kelp漏洞错误",
+      "summary": "跨链协议LayerZero公开承认在Kelp漏洞事件中犯下错误，该漏洞涉及2.92亿美元资金。消息对市场信心造成冲击，可能引发投资者对LayerZero安全性的担忧，导致ZRO和rsETH等代币面临抛压。同时，此次事件可能影响Arbitrum生态信任度，短期利空相关资产。建议密切关注后续赔偿或修复方案。",
+      "reason": "属于优先级一「项目方重大事件」中黑客攻击/安全事件，直接影响对应代币价格。",
+      "category": "项目更新",
+      "impact_coins": ["ZRO", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/05/09/layerzero-says-it-made-a-mistake-in-usd292-million-kelp-exploit"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗战争加速消耗石油库存",
+      "summary": "机构报告指出伊朗冲突正以前所未有的速度消耗全球石油缓冲库存，能源供应紧张可能推高油价，进而加剧通胀预期。高通胀迫使美联储维持高利率更久，不利于风险资产包括加密货币。该消息对BTC、ETH构成宏观压力，短期偏空。",
+      "reason": "属于优先级二「宏观经济」中的地缘政治事件，影响风险资产整体走势。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511982.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy实现9.4% BTC收益率",
+      "summary": "Strategy（原MicroStrategy）CEO披露，公司今年迄今实现9.4%的BTC收益率，并获取50亿美元BTC收益。作为全球最大比特币持有者之一，其积极业绩和持续买入行为强化了市场对比特币长期价值的信心，有望带动其他机构跟进。短线情绪利好，中长期价格支撑。",
+      "reason": "符合优先级二「ETF机构」中的机构动向，MicroStrategy增持是典型看多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511975.html"}],
+      "urgency": "days"
+    }
+  ]
+}
