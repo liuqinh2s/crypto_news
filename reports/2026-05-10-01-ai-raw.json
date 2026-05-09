@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-10",
+  "hour": "01",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10767,
+    "completion_tokens": 1691,
+    "total_tokens": 12458
+  },
+  "content_length": 1882,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"体育博彩或受金融监管\",\n      \"summary\": \"一家致力于成为预测市场提供商的公司提议将体育博彩作为金融产品而非赌博进行监管。这可能为预测市场代币（如REP、POLY、SNX等）带来更清晰的合规框架，但短期内可能引发监管不确定性。看多信号，因合规可能吸引机构资金，但需关注具体立法进展。\",\n      \"reason\": \"涉及监管政策变化，直接影响预测市场相关代币的合规前景和估值。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"REP\", \"POLY\", \"SNX\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/policy/2026/05/09/sports-betting-should-be-regulated-as-a-financial-product-not-gambling-aspiring-prediction-market-provider-says\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"比特币量子迁移或已太迟\",\n      \"summary\": \"Project Eleven报告指出，比特币向抗量子算法的迁移可能为时已晚，现有量子计算进展可能在未来十年内威胁比特币安全。该报告警告需加快升级，否则比特币可能面临量子攻击风险。对BTC长期看空，但短期影响有限，需关注技术进展。\",\n      \"reason\": \"直接关乎比特币长期安全性，属于重大技术风险，但短期内不会触发市场反应。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/business/2026/05/09/it-might-be-too-late-for-bitcoin-s-quantum-migration-project-eleven-report-argues\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"2017年Linux漏洞威胁加密安全\",\n      \"summary\": \"Cointelegraph报道称，一个2017年发现的Linux内核漏洞（CVE-2017-1000112）近期被重新评估，可能对加密行业构成重大安全风险。该漏洞可被利用攻击加密节点和钱包，影响所有基于Linux系统的加密基础设施。短期看空市场情绪，但具体利用尚未大规模出现。\",\n      \"reason\": \"安全漏洞可能引发抛售或恐慌，但影响范围广泛，属于潜在系统性风险。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/features/copy-fail-linux-vulnerability-crypto-security\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前时段有价值的新消息较少，多数消息为历史重复或无关内容，仅筛选出3条中等影响的消息。\"\n}"
+}
