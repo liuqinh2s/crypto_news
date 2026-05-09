@@ -1272,3 +1272,149 @@ content length: 3165
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1035, prompt_tokens=9891, total_tokens=10926, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1006, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8867)
+content length: 55
+============================================================
+{
+  "news": [],
+  "note": "本轮素材与历史消息高度重复，无新增高价值交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=484, prompt_tokens=9891, total_tokens=10375, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=431, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=35)
+content length: 100
+============================================================
+{
+  "news": [],
+  "note": "当前抓取的所有消息均与历史消息重复或属于排除项（如Binance旧公告、Reddit普通讨论、恐惧贪婪指数未变），无新增值得关注的关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1184, prompt_tokens=9891, total_tokens=11075, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1148, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=35)
+content length: 66
+============================================================
+{
+  "news": [],
+  "note": "当前抓取素材中所有消息均与历史消息重复或无关紧要，缺乏新的关键交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1042, prompt_tokens=10707, total_tokens=11749, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=504, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9683)
+content length: 1086
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案5月14日审核",
+      "summary": "美国参议院银行委员会将于5月14日对《CLARITY法案》进行标记（markup），这是该法案首次进入委员会投票阶段。该法案旨在为加密货币设立明确的市场结构规则，包括稳定币监管框架。若通过，将为美国加密行业提供监管确定性，吸引机构资金入场。受此影响，整体市场情绪有望改善，BTC、ETH及合规概念币种（如XRP、SOL）可能受益。该事件为重大监管利好，信号看多。",
+      "reason": "直接监管政策进展，优先级一，可能推动牛市预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/us-clarity-act-markup-date-set-tim-scott-crypto-industry"},
+        {"name": "Reuters", "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVnc3V1lOeFg0SDgxQWdqNjUxX3dBUjYzcHJ2T1RSZ0ZQVXdMNlF4ZnY4TGVRc2U3Vkp6WklxcG1kdm5jeFlsM2tqZlNEXzV6TExCUERKeXFBeTJXS0JTblpJRjBYMWRTWjQ3dmhhUzVsNzlpZnkzN0hQdXBjbnZ6bWZNMFBvaGhrVmhTQnl6TjVwVlVsTVJLbnBndjR0WnlfVXhUNTlSSWZGUkxWcGVWTFU3RFdfWDNhdUQ2bXg5Z3A0X0dNY1Bhcy1VSk1xZkxVSHkxeVBqODFOOEk?oc=5"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本次抓取素材中，Binance公告均为旧闻且重复，其他消息多为社区讨论或已过时消息，仅有CLARITY法案一条具有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=394, prompt_tokens=10707, total_tokens=11101, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=361, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=83)
+content length: 64
+============================================================
+{"news": [], "note": "所有素材均与历史消息重复，无新的交易价值消息。当前市场缺乏关键催化剂，建议观望。"}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2136, prompt_tokens=3831, total_tokens=5967, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=752, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=2807)
+content length: 3357
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY Act 5月14日听证",
+      "summary": "美国参议院银行委员会将于5月14日对《CLARITY Act》进行标记（markup），这是该加密货币法案的立法进程关键一步。法案旨在明确数字资产监管框架，若通过将利好整个加密市场。影响币种包括BTC、ETH及合规代币。看多信号，中长期利好。",
+      "reason": "重大监管政策进展，直接影响行业合规预期，符合优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/us-clarity-act-markup-date-set-tim-scott-crypto-industry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"},
+        {"name": "Reuters Crypto", "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVnc3V1lOeFg0SDgxQWdqNjUxX3dBUjYzcHJ2T1RSZ0ZQVXdMNlF4ZnY4TGVRc2U3Vkp6WklxcG1kdm5jeFlsM2tqZlNEXzV6TExCUERKeXFBeTJXS0JTblpJRjBYMWRTWjQ3dmhhUzVsNzlpZnkzN0hQdXBjbnZ6bWZNMFBvaGhrVmhTQnl6TjVwVlVsTVJLbnBndjR0WnlfVXhUNTlSSWZGUkxWcGVWTFU3RFdfWDNhdUQ2bXg5Z3A0X0dNY1Bhcy1VSk1xZkxVSHkxeVBqODFOOEk?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上架MegaETH",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，并开放Earn、Convert、VIP Loan、Margin及Futures。MegaETH是以太坊Layer 2扩容方案，此次上币将显著提升其流动性和关注度，短期看多MEGA。注意Seed Tag可能带来波动。",
+      "reason": "交易所上币公告，直接影响对应币种价格，符合优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f"},
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架CHIP代币",
+      "summary": "Binance宣布将上线Chip (CHIP)，并同步开放Earn、Convert、VIP Loan、Margin及Futures。CHIP为USD.AI生态代币，上币后流动性增加，短期看多CHIP。但需注意Seed Tag和空投可能带来的抛压。",
+      "reason": "交易所上币公告，直接影响币价，符合优先级一。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"},
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/cc3774b86f974052a01ab88d8a08be55"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数跌至38",
+      "summary": "加密货币恐惧与贪婪指数降至38（恐惧），较之前进一步下降，表明市场情绪低迷。历史表明极度恐惧（<20）是中线买入信号，但当前38仍属恐惧区间，尚未到极值。短期可能继续承压，但中长期可关注抄底机会。",
+      "reason": "市场情绪极值指标，符合优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Samourai钱包开发者案新进展",
+      "summary": "Samourai Wallet开发者Keonne Rodriguez的妻子接受采访，呼吁释放开发者。Samourai因涉嫌洗钱被美国司法部起诉，此案涉及加密隐私工具监管。若最终判决不利，可能打击隐私币及混币器项目；反之则利好。当前为舆论战，市场关注度较高，但直接交易影响有限。",
+      "reason": "监管执法动态，影响隐私币相关项目，符合优先级一/二。",
+      "category": "监管政策",
+      "impact_coins": ["PRIVACY_COINS"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t7sl4r/free_samourai_wallet_devs_interview_with_keonne/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
