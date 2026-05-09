@@ -699,3 +699,157 @@
 2026-05-09 22:01:18 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
 2026-05-09 22:01:18 [INFO] 📦 JSON 已保存: reports/2026-05-10-06.json
 2026-05-09 22:01:18 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-05-09 23:00:32 [INFO] 🚀 开始抓取 2026-05-10 07:00 币圈新闻
+2026-05-09 23:00:32 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-09 23:00:32 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-09 23:00:32 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-09 23:00:32 [INFO]   ⏭ Decrypt: 过滤掉 38 条非近期新闻
+2026-05-09 23:00:32 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-09 23:00:32 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-09 23:00:33 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ Blockworks: 过滤掉 17 条非近期新闻
+2026-05-09 23:00:33 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:34 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:34 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:34 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:34 [INFO]   ⏭ Crypto Twitter: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-09 23:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-09 23:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-09 23:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-09 23:00:48 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:48 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-09 23:00:48 [INFO]   ✓ CoinDesk: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ The Block: 1 条
+2026-05-09 23:00:48 [INFO]   ✓ Decrypt: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-09 23:00:48 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Blockworks: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ DL News: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ 金色财经: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ PANews: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Crypto Twitter: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ 宏观经济: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Binance公告: 20 条
+2026-05-09 23:00:48 [INFO]   ✓ OKX公告: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Bitget公告: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Whale Alert: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-09 23:00:48 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-09 23:00:48 [INFO]   ✓ 雪球加密: 0 条
+2026-05-09 23:00:48 [INFO] 📊 共抓取 23 条新闻
+2026-05-09 23:00:48 [INFO] 📋 原始新闻已保存: reports/2026-05-10-07-raw.json (23 条)
+2026-05-09 23:00:48 [INFO] 📋 标题摘要已保存: reports/2026-05-10-07-raw-titles.md
+2026-05-09 23:00:48 [INFO] ✅ 抓取完成，共 23 条，已保存到 reports/2026-05-10-07-raw.json
+2026-05-09 23:00:49 [INFO] 🤖 开始 AI 筛选 2026-05-10 07:00 币圈消息
+2026-05-09 23:00:49 [INFO] 📋 已加载原始新闻: reports/2026-05-10-07-raw.json (23 条)
+2026-05-09 23:00:49 [INFO] 📚 已加载历史新闻标题（18334 字符）
+2026-05-09 23:00:49 [INFO] 📚 已加载历史筛选标题 17 条、URL 18 个，用于去重
+2026-05-09 23:00:49 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-09 23:00:49 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-09 23:00:49 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（23 条，4309 字符，temp=0.3）
+2026-05-09 23:01:04 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 682 字符)
+2026-05-09 23:01:04 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-07-ai-raw.json
+2026-05-09 23:01:04 [DEBUG] parse_json_response 输入长度: 682 字符
+2026-05-09 23:01:04 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Strategy CEO称仅在特定情况卖出BTC",
+      "summary": "Strategy（原MicroStrategy）CEO Phong Le表示，公司仅在特定情况下才会出售比特币，例如税务规划或资本结构优化。这延续了公司长期持有比特币的策略。MicroStrategy是全球最大的公开交易比特币持有者之一，此举巩固了市场对其不会大量抛售的信心，可能减少BTC的潜在抛压，形成看多信号。",
+      "reason": "机构动向：全球最大比特币持有公司CEO表态坚持持有，直接影响BTC供需预期。",
+
+2026-05-09 23:01:04 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-09 23:01:04 [INFO] ✅ AI 返回 1 条新闻
+2026-05-09 23:01:04 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-09 23:01:04 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（23 条，4309 字符，temp=0.3）
+2026-05-09 23:01:17 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 663 字符)
+2026-05-09 23:01:17 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-07-ai-raw.json
+2026-05-09 23:01:17 [DEBUG] parse_json_response 输入长度: 663 字符
+2026-05-09 23:01:17 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Strategy CEO称仅特定情况卖BTC",
+      "summary": "Strategy（原MicroStrategy）CEO Phong Le表示，公司仅在特定情况下才会出售比特币，例如税务优化、资本结构重组等。Strategy持有大量BTC，此举表明其长期持有策略未变，短期抛压风险低。对BTC影响中性偏多，因市场预期其不会主动卖出。",
+      "reason": "机构动态：全球最大BTC持仓公司CEO表态，影响市场对BTC抛压的预期。",
+      "category": "ETF机构",
+  
+2026-05-09 23:01:17 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-09 23:01:17 [INFO] ✅ AI 返回 1 条新闻
+2026-05-09 23:01:17 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-05-09 23:01:17 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（23 条，4309 字符，temp=0.3）
+2026-05-09 23:01:37 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 1389 字符)
+2026-05-09 23:01:37 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-07-ai-raw.json
+2026-05-09 23:01:37 [DEBUG] parse_json_response 输入长度: 1389 字符
+2026-05-09 23:01:37 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Arbitrum转移7100万ETH至Aave",
+      "summary": "据报道，Arbitrum的7100万美元ETH（约合7100万枚ETH）已获准转移至Aave协议，但朝鲜恐怖主义债权人仍保留法律索赔权。该事件涉及链上大额资金流动，可能影响ARB、AAVE及ETH的短期走势。转移至Aave可能用于借贷或质押，不直接构成抛压，但法律索赔保留带来不确定性。短期看中性，中长期需关注法律进展。",
+      "reason": "链上大额资金转移，涉及Arbitrum和Aave两大DeFi生态，规模7100万
+2026-05-09 23:01:37 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-09 23:01:37 [INFO] ✅ AI 返回 2 条新闻
+2026-05-09 23:01:37 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-05-09 23:01:37 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（23 条，6397 字符，temp=0.3）
+2026-05-09 23:01:58 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 759 字符)
+2026-05-09 23:01:58 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-07-ai-raw.json
+2026-05-09 23:01:58 [DEBUG] parse_json_response 输入长度: 759 字符
+2026-05-09 23:01:58 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Strategy CEO：仅在特定情况卖BTC",
+      "summary": "Strategy（原MicroStrategy）CEO Phong Le表示，公司仅在特定情况下才会出售比特币，且其抛售不会影响市场。Strategy持有超过4%的比特币总供应量，该表态缓解了市场对巨鲸抛售的担忧，短期利好BTC情绪。",
+      "reason": "Strategy是全球最大的比特币企业持有者，CEO言论直接关联未来抛售风险，属于机构动向，降低市场对卖压的担忧。",
+      "category": "ETF机
+2026-05-09 23:01:58 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-09 23:01:58 [INFO] ✅ AI 返回 1 条新闻
+2026-05-09 23:01:58 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-09 23:01:58 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（23 条，6397 字符，temp=0.3）
+2026-05-09 23:02:16 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 675 字符)
+2026-05-09 23:02:16 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-07-ai-raw.json
+2026-05-09 23:02:16 [DEBUG] parse_json_response 输入长度: 675 字符
+2026-05-09 23:02:16 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Strategy CEO：仅特定情况出售BTC",
+      "summary": "Strategy（原MicroStrategy）CEO Phong Le表示，公司仅在特定情况下才会出售比特币，且其比特币销售不会影响市场，尽管公司持有超过BTC最大供应量的4%。该表态缓解了市场对大型持有者抛售的担忧，属于机构看多信号。可能影响币种：BTC。信号：看多。",
+      "reason": "机构巨头Strategy CEO明确表态仅会在特定情况卖出BTC，消除了短期抛压担忧，利多BTC。",
+      "categ
+2026-05-09 23:02:16 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-09 23:02:16 [INFO] ✅ AI 返回 1 条新闻
+2026-05-09 23:02:16 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-05-09 23:02:16 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（23 条，4309 字符，temp=0.3）
+2026-05-09 23:03:02 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 2838 字符)
+2026-05-09 23:03:02 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-07-ai-raw.json
+2026-05-09 23:03:02 [DEBUG] parse_json_response 输入长度: 2838 字符
+2026-05-09 23:03:02 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Arbitrum 7100万ETH转移Aave涉法律纠纷",
+      "summary": "Arbitrum基金会将7100万ETH（约1.4亿美元）转移到Aave协议，旨在提供流动性。但与此同时，与朝鲜恐怖主义相关的债权人保留了法律索赔权，可能对资金安全构成威胁。此事件直接影响ETH和ARB代币。短期内，ETH流动性增加可能利多，但法律风险带来抛售压力，整体信号偏中性。建议关注后续法律进展，若债权行权可能导致市场波动。",
+      "reason": "大额资金转移涉及法律纠纷，属链上异动，可能影响ETH和AR
+2026-05-09 23:03:02 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-05-09 23:03:02 [INFO] ✅ AI 返回 5 条新闻
+2026-05-09 23:03:02 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-05-09 23:03:02 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-05-09 23:03:02 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-09 23:03:02 [DEBUG]   去重: 「Arbitrum 7100万ETH转移Aave涉法律纠纷」 → URL重复: https://www.theblock.co/post/400642/arbitrums-71-million-in-
+2026-05-09 23:03:02 [INFO] 📦 JSON 已保存: reports/2026-05-10-07.json
+2026-05-09 23:03:02 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
