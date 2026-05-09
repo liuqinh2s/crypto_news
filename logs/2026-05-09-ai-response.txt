@@ -2394,3 +2394,62 @@ content length: 2366
   ],
   "note": "本轮有效新消息较少，多数为重复历史或低相关性内容。已根据优先级筛选出4条有交易价值的信息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1832, prompt_tokens=9171, total_tokens=11003, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=936, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8019)
+content length: 2077
+============================================================
+{
+  "news": [
+    {
+      "title": "云巨头支持AI代理稳定币钱包",
+      "summary": "AWS和Google Cloud本周均向AI代理提供稳定币钱包功能，标志着传统云服务商正式支持链上支付。此举可能加速稳定币在AI代理场景中的采用，利好USDT、USDC等稳定币生态，并间接提升以太坊等主流DeFi链的活跃度。短期情绪利好，但需观察实际使用量。",
+      "reason": "重大云服务商直接集成稳定币钱包，属于基础设施级利好，可能推动稳定币需求和加密支付普及。",
+      "category": "项目更新",
+      "impact_coins": ["USDT", "USDC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t83v05/aws_and_google_cloud_both_gave_ai_agents_a/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Zcash设定2027年抗量子目标",
+      "summary": "Zcash宣布计划2027年实现抗量子密码学里程碑，成为首批应对量子威胁的隐私币。若成功，将极大增强Zcash长期安全性和价值主张。短期影响有限，但为中期技术催化剂，可能吸引注重隐私和未来安全的投资者，利多ZEC。",
+      "reason": "隐私币核心技术升级，属于里程碑事件，对ZEC有长期支撑。",
+      "category": "项目更新",
+      "impact_coins": ["ZEC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t832s4/zcash_targeting_postquantum_crypto_milestone_by/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "福布斯预测美元崩溃或引爆比特币",
+      "summary": "福布斯文章指出美国39万亿美元债务危机可能引发美元崩溃，并预测比特币将像黄金一样大幅上涨。虽为观点性内容，但来自主流财经媒体，可能影响散户情绪。中长期看多比特币，但无新增实质数据，属于市场情绪信号。",
+      "reason": "主流媒体对美元债务危机的极端预测，可能强化比特币作为对冲资产的叙事，影响市场心理。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Forbes via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNcEtUX01FSFhuenNIT2lrMW1zMnVBd0FsY1Q5R181WEVfOTBxcF91ZTEzck9GWmNpNU9KWG1Fd05lSXBzRURpeGRnb2lNX3lsZ203ck1TMVl0WWFfSWlLb0NCRVZ1WGxRZ3dYZVVtQzJYQlYwSHdqNmItMWN2eF9ReGFfWWdNTlhfS2RNc2VqdUdCOXJQWXl3YS1BSjVQZ2ljUHptWlJkalJPOXg0YklEbW9tRWRhUnRaN08tLURaV05tX0M4T2RSd2doX1YwU3R2VGI1VjNsZXZaWF82TlJoVE41R0txX2tLM2pKVHVXLTZ3SWlGVXpz?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
