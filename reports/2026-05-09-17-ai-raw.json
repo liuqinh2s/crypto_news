@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-09",
+  "hour": "17",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8534,
+    "completion_tokens": 2064,
+    "total_tokens": 10598
+  },
+  "content_length": 2167,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"巨鲸增持14.3万HYPE\",\n      \"summary\": \"链上数据显示某巨鲸地址增持143,674枚HYPE，价值约626万美元。该地址可能为机构或个人大户，大额增持通常被视为看多信号，表明对HYPE后市看好。HYPE是Hyperliquid生态代币，近期表现活跃。此次增持可能带动市场情绪，短期对HYPE价格形成支撑，但需注意后续是否锁仓或转出。\",\n      \"reason\": \"链上异动，巨鲸大额增持直接影响对应币种供需，属于优先级一的事件。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511958.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"BNB链代币化股票市值激增\",\n      \"summary\": \"BNB Chain上与中国相关的代币化股票市值飙升至930万美元。这些代币化股票允许用户交易中国科技公司股票的链上版本，市值增长显示需求旺盛。可能带动BNB链生态活跃度，对BNB价格产生正面影响，同时利好发行平台和合规代币化概念。但需注意监管风险。\",\n      \"reason\": \"BNB链重大生态事件，市值骤增反映资金涌入，影响BNB及相关代币。属于优先级二的项目更新。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BNB\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1t7xw42/bnb_chains_chinarelated_tokenized_stocks_surge_to/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"达利欧预言美国无序时代\",\n      \"summary\": \"桥水基金创始人瑞·达利欧发表悲观预言，称全球将进入更无序时代，美国五年内可能“面目全非”。该言论虽非直接针对加密，但强化了市场对于地缘政治和经济不确定性的担忧，可能促使部分资金从风险资产转向黄金或比特币避险。整体情绪偏谨慎，但比特币作为“数字黄金”可能受益。\",\n      \"reason\": \"知名宏观投资者悲观预期影响市场情绪，属于优先级三的市场情绪信号。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511956.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Kalshi成MSG官方预测伙伴\",\n      \"summary\": \"预测市场Kalshi与麦迪逊广场花园（MSG）达成合作，成为其官方预测市场合作伙伴。Kalshi是美国合规预测平台，合作标志其拓展体育及娱乐领域。对Kalshi代币及预测市场概念有提振作用，但加密市场影响有限。\",\n      \"reason\": \"交易所/预测市场合作，属于中等影响力事件，但非直接加密交易信号。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"KALSHI\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511950.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

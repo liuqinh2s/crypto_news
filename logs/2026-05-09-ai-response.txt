@@ -2036,3 +2036,106 @@ content length: 2229
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1251, prompt_tokens=8534, total_tokens=9785, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1022, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7510)
+content length: 552
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸增持14.3万枚HYPE",
+      "summary": "某巨鲸地址增持143,674枚HYPE，价值约626万美元。该行为通常被视为看多信号，可能带动HYPE短期价格上涨。当前HYPE流动性一般，巨鲸买入可能产生较大影响。建议关注HYPE后续价格走势及链上持仓变化。",
+      "reason": "巨鲸增持属于链上异动，直接影响对应币种供需，符合优先级一筛选标准。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511958.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他消息均为重复或无关内容，仅此一条新信息具有交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2064, prompt_tokens=8534, total_tokens=10598, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1202, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8448), prompt_cache_hit_tokens=8448, prompt_cache_miss_tokens=86)
+content length: 2167
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸增持14.3万HYPE",
+      "summary": "链上数据显示某巨鲸地址增持143,674枚HYPE，价值约626万美元。该地址可能为机构或个人大户，大额增持通常被视为看多信号，表明对HYPE后市看好。HYPE是Hyperliquid生态代币，近期表现活跃。此次增持可能带动市场情绪，短期对HYPE价格形成支撑，但需注意后续是否锁仓或转出。",
+      "reason": "链上异动，巨鲸大额增持直接影响对应币种供需，属于优先级一的事件。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511958.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BNB链代币化股票市值激增",
+      "summary": "BNB Chain上与中国相关的代币化股票市值飙升至930万美元。这些代币化股票允许用户交易中国科技公司股票的链上版本，市值增长显示需求旺盛。可能带动BNB链生态活跃度，对BNB价格产生正面影响，同时利好发行平台和合规代币化概念。但需注意监管风险。",
+      "reason": "BNB链重大生态事件，市值骤增反映资金涌入，影响BNB及相关代币。属于优先级二的项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t7xw42/bnb_chains_chinarelated_tokenized_stocks_surge_to/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "达利欧预言美国无序时代",
+      "summary": "桥水基金创始人瑞·达利欧发表悲观预言，称全球将进入更无序时代，美国五年内可能“面目全非”。该言论虽非直接针对加密，但强化了市场对于地缘政治和经济不确定性的担忧，可能促使部分资金从风险资产转向黄金或比特币避险。整体情绪偏谨慎，但比特币作为“数字黄金”可能受益。",
+      "reason": "知名宏观投资者悲观预期影响市场情绪，属于优先级三的市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511956.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Kalshi成MSG官方预测伙伴",
+      "summary": "预测市场Kalshi与麦迪逊广场花园（MSG）达成合作，成为其官方预测市场合作伙伴。Kalshi是美国合规预测平台，合作标志其拓展体育及娱乐领域。对Kalshi代币及预测市场概念有提振作用，但加密市场影响有限。",
+      "reason": "交易所/预测市场合作，属于中等影响力事件，但非直接加密交易信号。",
+      "category": "交易所",
+      "impact_coins": ["KALSHI"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511950.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
