@@ -149,3 +149,212 @@ content length: 1882
   ],
   "note": "当前时段有价值的新消息较少，多数消息为历史重复或无关内容，仅筛选出3条中等影响的消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1470, prompt_tokens=11045, total_tokens=12515, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1198, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9893)
+content length: 678
+============================================================
+{
+  "news": [
+    {
+      "title": "澳洲警方扣押暗网BTC",
+      "summary": "澳大利亚警方从涉嫌暗网市场运营商处扣押了数百万美元的比特币。目前具体金额未披露，但该事件表明执法力度加强，可能对BTC的非法用途产生威慑，但对合规市场影响有限。该消息可能轻微减少BTC流通供应，但规模较小，短期内不会显著影响价格。",
+      "reason": "属于警方执法行动，直接影响BTC的潜在抛售或囤积？扣押后比特币可能被拍卖，但目前未知。事件本身为链下消息，优先级较低但符合链上异动类别。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367363/australian-police-seize-millions-bitcoin-darknet-marketplace-operator"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，大部分重大新闻已在历史消息中出现并覆盖，无新交易催化事件。仅筛选出一条轻微影响的执法消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2779, prompt_tokens=11045, total_tokens=13824, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2530, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11008), prompt_cache_hit_tokens=11008, prompt_cache_miss_tokens=37)
+content length: 607
+============================================================
+{
+  "news": [
+    {
+      "title": "澳警方扣押数百万BTC",
+      "summary": "澳大利亚警方从涉嫌暗网市场运营商处扣押了数百万美元的比特币。这起执法行动显示全球监管机构对加密犯罪的打击力度加大，短期可能引发BTC持有者的避险情绪，导致抛压。但事件规模较小，对整体市场影响有限。信号偏看空，但影响等级较低。",
+      "reason": "优先级别高：执法行动（监管打击）直接影响市场情绪，属于监管政策类消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/367363/australian-police-seize-millions-bitcoin-darknet-marketplace-operator"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段多数新闻与历史重复，仅此一条新消息。其他重要事件如ETF流入、监管立法进程等已在之前6小时历史中出现，为避免重复未纳入。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=770, prompt_tokens=11045, total_tokens=11815, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=691, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11008), prompt_cache_hit_tokens=11008, prompt_cache_miss_tokens=37)
+content length: 140
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中未发现优于历史消息的、对交易决策有明确影响的新消息。多数Binance公告已重复出现多次，恐惧贪婪指数未变，其他消息（如澳洲扣押BTC）影响微弱或非关键事件。建议关注后续CPI、PPI数据及监管听证会进展。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1947, prompt_tokens=12186, total_tokens=14133, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1578, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11034)
+content length: 790
+============================================================
+{
+  "news": [
+    {
+      "title": "美参议院加密立法5月14日标记",
+      "summary": "美国参议院银行委员会已安排于5月14日对加密市场结构法案进行标记（markup），这是立法流程的关键一步。该法案旨在明确加密资产监管框架，若推进顺利，将利好整个加密行业，尤其是比特币和以太坊。此举标志着监管向合规化迈出实质一步，市场可能提前反应。短期看多，中长期影响取决于法案内容。",
+      "reason": "参议院立法标记是重大监管进展，直接影响市场预期，属于优先级一的监管政策事件。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1zeFFybUdoYzlRWkNPZlllMWVBQ3NfTkpFS0prdExXMkdFWlE5b0x0LTdBeVNqOUVCZlkwSnVaZV9IX0hvS1F6SVdRWHNtdmFwSVhxejJMRVd2TzBuU0NzVENmUi16NllTNE8yQzJQYzQ3NDdaR0ZwUXI5cnNqUQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前6小时内大多数消息与历史重复，仅此一条具备新信息价值。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1332, prompt_tokens=12186, total_tokens=13518, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=986, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12160), prompt_cache_hit_tokens=12160, prompt_cache_miss_tokens=26)
+content length: 827
+============================================================
+{
+  "news": [
+    {
+      "title": "Trump Media Q1亏损扩至4.06亿美元",
+      "summary": "Trump Media Group公布Q1财报，净亏损扩大至4.06亿美元，主要因比特币和CRO资产减记。公司持有大量比特币和CRO，市场波动导致资产减值。虽然直接抛售可能有限，但消息可能引发对相关币种（BTC、CRO）的负面情绪，尤其是Trump Media作为知名公司持有加密资产亏损，或加剧市场对加密熊市的担忧。短期看空BTC和CRO。",
+      "reason": "Trump Media亏损消息可能影响市场情绪，且涉及比特币和CRO资产减记，属于优先级一中的项目方重大事件（亏损/资产减值），对BTC和CRO有直接负面信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "CRO"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/09/trump-media-s-q1-loss-widens-to-usd406-million-on-bitcoin-cro-markdowns"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时其他消息多为重复或低影响，如Binance旧公告、恐惧贪婪指数未变、监管利好好已被报道。唯一新增有效消息为Trump Media亏损更新，建议持续关注CPI和PPI数据发布。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3796, prompt_tokens=5184, total_tokens=8980, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2592, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=4032)
+content length: 3040
+============================================================
+{
+  "news": [
+    {
+      "title": "美参议院将于5月14日讨论加密立法",
+      "summary": "美国参议院银行委员会已安排于5月14日对加密货币立法进行标记（markup）会议。这标志着国会将正式审议加密监管框架，可能包括稳定币、市场结构等关键条款。若法案推进，将改善监管确定性，利好整个加密市场，尤其是BTC、ETH等主流资产。短期影响中性偏多，但实际影响取决于法案内容。",
+      "reason": "监管政策是影响市场的核心因素之一，参议院立法进程直接关系合规预期，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1zeFFybUdoYzlRWkNPZlllMWVBQ3NfTkpFS0prdExXMkdFWlE5b0x0LTdBeVNqOUVCZlkwSnVaZV9IX0hvS1F6SVdRWHNtdmFwSVhxejJMRVd2TzBuU0NzVENmUi16NllTNE8yQzJQYzQ3NDdaR0ZwUXI5cnNqUQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "LayerZero为Kelp漏洞响应道歉",
+      "summary": "LayerZero 针对其单验证器配置导致 Kelp DAO 被攻击的回应方式公开道歉，承认存在过错。这暴露了跨链基础设施的安全漏洞，可能影响用户对 LayerZero 和 Kelp 协议的信任。短期对 ZRO（LayerZero）和 KELP（Kelp DAO）构成利空，需警惕抛压。",
+      "reason": "项目重大安全事件，属于优先级一，直接影响相关代币风险情绪。",
+      "category": "项目更新",
+      "impact_coins": ["ZRO", "KELP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400629/layerzero-issues-public-apology-for-kelp-dao-exploit-response-admits-fault-in-single-verifier-setup"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普媒体Q1亏损涉BTC/CRO减记",
+      "summary": "特朗普媒体（Trump Media）一季度亏损扩大至4.06亿美元，主要因比特币和CRO（Crypto.com 代币）持仓减记。尽管公司持有22亿美元资产，但减记反映加密资产价格波动对财报的负面影响。此消息可能加剧CRO短期抛压，但对BTC影响有限。",
+      "reason": "涉及巨鲸持仓变动（公司层面），且直接关乎CRO价格，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["CRO"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/09/trump-media-s-q1-loss-widens-to-usd406-million-on-bitcoin-cro-markdowns"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至38（Fear）",
+      "summary": "当前加密货币恐惧与贪婪指数为38，处于“恐惧”区间，但距离极度恐惧（<20）仍有距离。市场情绪偏弱但不极端，历史数据表明该水平往往对应短期震荡而非趋势反转。对整体行情影响中性。",
+      "reason": "市场情绪指标，属于优先级三，但未达极端阈值，仅作参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线MegaETH（MEGA）现货及合约",
+      "summary": "Binance 宣布将上架 MegaETH（MEGA），并开放现货、保证金及永续合约交易。上线头部交易所将显著提升MEGA的流动性和市场认可度，短期对MEGA价格构成强力利好，但需注意上线后可能出现高波动。",
+      "reason": "交易所上币属于直接影响行情的事件，对MEGA形成明确看多信号。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance Announcement",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
