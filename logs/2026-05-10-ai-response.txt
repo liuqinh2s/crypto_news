@@ -358,3 +358,94 @@ content length: 3040
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2553, prompt_tokens=11461, total_tokens=14014, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1500, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10309)
+content length: 2722
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC突破81000美元",
+      "summary": "据金色财经报道，比特币价格突破81000美元，创近期新高。这一突破可能吸引短线追多资金，但需警惕假突破后的回调风险。受此影响，BTC及相关主流币种短期偏多，但需关注后续能否站稳。若放量确认，可能开启新一轮上涨；若回落，则形成高点压力。",
+      "reason": "价格突破关键整数关口，直接影响行情，属于优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511995.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "土耳其总统不希望美伊冲突蔓延",
+      "summary": "土耳其总统埃尔多安表示不希望美伊冲突进一步蔓延至其他国家，这一表态可能缓和地缘政治紧张局势。若冲突降级，将减少全球避险情绪，利好风险资产如加密货币。短期看多BTC、ETH等主流币，但需关注后续伊朗回应。",
+      "reason": "地缘政治缓和信号，可能影响风险偏好，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511994.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普预计很快收到伊朗回应",
+      "summary": "特朗普表示预计很快收到伊朗对美方最新和平方案的回应，这暗示外交谈判可能取得进展，降低冲突概率。若和平信号确认，风险资产或迎来反弹。短期看多，但需警惕预期落空风险。",
+      "reason": "地缘政治事件进展，可能影响市场情绪，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511993.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国就业数据强劲，BTC测试8万支撑",
+      "summary": "美国公布强于预期的就业数据，推动美元走强，比特币回测80000美元支撑位。强劲就业可能使美联储维持鹰派立场，对风险资产形成压力。短期偏空，但80000区域为关键支撑，若守住则可能反弹。",
+      "reason": "宏观经济数据直接影响风险资产，属于优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fZ0x6ajFuYVRuRlpKRmlJY0d2dFVub0hYaGE0LTh3cUZQM3p2MXNJQ2tITjFhNHNvRkdGWmRiaEU3VlJheWNaZS1HeGxQOFJDNkltOWRycGg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗最大交易所逃脱OFAC黑名单",
+      "summary": "CoinTelegraph报道伊朗最大加密货币交易所Nobitex如何避免被OFAC列入黑名单，涉及合规策略。尽管未直接受制裁，但地缘政治风险仍存。该消息可能对伊朗相关币种及市场情绪产生中性影响，但长期合规改善或利好伊朗市场。",
+      "reason": "监管与地缘政治交叉，涉及交易所合规，属于优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/features/the-nobitex-dilemma-how-irans-biggest-crypto-exchange-stays-off-the-ofac-blacklist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
