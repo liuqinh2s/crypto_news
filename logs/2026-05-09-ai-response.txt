@@ -2318,3 +2318,79 @@ content length: 3116
   ],
   "note": "本轮抓取素材中大量Binance公告已重复出现在历史消息中，其余新闻大多低价值或重复，仅筛选出4条有一定交易参考价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2699, prompt_tokens=9421, total_tokens=12120, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1747, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8397)
+content length: 2366
+============================================================
+{
+  "news": [
+    {
+      "title": "Kelp联合Aave执行rsETH操作",
+      "summary": "Kelp DAO宣布未来24小时将联合Aave执行rsETH合约操作，用户无需采取行动。这可能涉及rsETH的流动性调整或质押操作，影响ETH和DeFi生态。合约操作可能带来短期波动，但性质中性，需关注执行后市场反应。看多信号：如果操作增加流动性和采用。看空信号：如果引发清算风险。综合评级中性。",
+      "reason": "优先级一：项目方重大事件，涉及知名DeFi协议Aave，可能影响ETH及相关代币；影响级别中等。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "rsETH", "AAVE"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511971.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储官员警告利率或因伊朗冲突维持高位",
+      "summary": "波士顿联储主席Collins警告称，伊朗冲突导致的能源冲击可能使利率维持在高位更长时间，这将对加密市场构成压力。高利率环境不利于风险资产，包括加密货币。历史数据显示美联储鹰派表态往往引发BTC和ETH回调。该消息属于宏观紧缩信号，利空加密货币。",
+      "reason": "优先级二：宏观经济数据/官员讲话，直接关联利率预期，影响风险资产走势；影响级别重大。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56OEVTX1E0TVZDeUFrN0NjNmFpbHJIb1RHd0ktR3RIR0NBc0ZLRHY5Zmk4cnc4WDBLaGs3RnRfX3VUcHhvLTBncWpuSUQ2MUZDV1VvQnNEdU4?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Michael Saylor看多BTC，称年回报30%",
+      "summary": "MicroStrategy创始人Michael Saylor表示，比特币在未来20年内将平均每年回报30%。作为知名Bitcoin多头，其言论可能提振市场情绪，但缺乏实质行动支撑。当前恐惧贪婪指数38（恐惧），该观点可能吸引抄底资金，但短期影响有限。属于情绪信号，中性偏多。",
+      "reason": "优先级三：KOL集体看多/看空（重要人物）；影响级别轻度。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511968.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bernstein上调IREN目标价至100美元",
+      "summary": "投研机构Bernstein将比特币矿商IREN的目标股价设定为100美元，显示机构对挖矿行业及比特币算力生态的看好。IREN作为北美上市矿企，其股价与比特币价格高度相关。此举可能间接提升市场对比特币挖矿板块的信心，利好BTC。但直接影响有限。",
+      "reason": "优先级二：机构动向（投行评级），影响挖矿板块及BTC情绪；影响级别轻度。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511967.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮有效新消息较少，多数为重复历史或低相关性内容。已根据优先级筛选出4条有交易价值的信息。"
+}
