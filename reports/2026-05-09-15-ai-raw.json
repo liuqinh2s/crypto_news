@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-09",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9486,
+    "completion_tokens": 1468,
+    "total_tokens": 10954
+  },
+  "content_length": 1582,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"高盛预计降息推迟至12月及2027年\",\n      \"summary\": \"高盛最新预测美联储将在2026年12月首次降息，并在2027年3月再次降息，较此前预期大幅推迟。这意味着高利率环境将持续更长时间，对风险资产包括加密货币构成压力。高利率抑制流动性，资金更倾向避险资产，BTC和ETH等可能承压。看空信号。\",\n      \"reason\": \"宏观经济直接影响风险资产定价，高盛预测具有市场影响力，属于优先级二。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511946.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美国银行修正：美联储2027年前不降息\",\n      \"summary\": \"美国银行大幅修正利率预期，认为美联储在2027年之前不会降息，较市场主流预期更为鹰派。若该预期证实，流动性收紧将持续更久，利空风险资产。加密货币市场可能面临资金外流压力，尤其是BTC和ETH。看空信号。\",\n      \"reason\": \"美国银行为大型投行，其极端鹰派预期可能引发市场重定价，属于优先级二。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511941.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"情报显示伊朗最高领袖仍主导战争\",\n      \"summary\": \"美国情报部门表示伊朗最高领袖穆杰塔巴仍在主导战争战略，地缘冲突风险持续。中东局势紧张推高油价和通胀预期，可能导致美联储维持紧缩，同时避险情绪升温，资金从风险资产撤出。BTC、ETH等加密货币短期受压。看空信号。\",\n      \"reason\": \"地缘政治事件影响风险偏好，属于优先级二。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/511945.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前时段有效的新消息较少，Binance公告和恐惧贪婪指数均重复出现，仅筛选出3条宏观利空消息。\"\n}"
+}
