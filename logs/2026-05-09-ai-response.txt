@@ -822,3 +822,108 @@ content length: 2203
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2314, prompt_tokens=10633, total_tokens=12947, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1719, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9609)
+content length: 1509
+============================================================
+{
+  "news": [
+    {
+      "title": "参议院5月14日加密听证",
+      "summary": "美国参议院银行委员会确定将于5月14日举行关键市场结构听证会，旨在修订并投票表决全面的加密货币立法。该法案可能为数字资产提供监管框架，影响交易所、稳定币及代币分类。若法案通过，将利好整体市场，尤其对合规交易所和主流币种如BTC、ETH、SOL构成支撑。但审议过程中可能存在争议，短期不确定性增加。信号偏向bullish，中期影响重大。",
+      "reason": "直接影响行情的重大监管动态，优先级一。参议院听证会日期明确，市场将密切关注立法进展，对加密市场结构产生深远影响。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/08/senate-banking-committee-plans-to-hold-key-market-structure-hearing-on-thursday"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/400492/take-two-senate-banking-committee-sets-a-date-to-amend-and-vote-on-sweeping-crypto-legislation"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "以太坊DeFi份额下降10%",
+      "summary": "数据显示，以太坊在DeFi市场的份额在过去一段时间内下降了约10%，而Solana、Avalanche等竞争对手正在抢夺市场份额。这反映了以太坊在高交易费用和可扩展性挑战下的竞争力减弱。可能进一步拖累ETH价格表现，并推动资金流向其他L1链。短期内ETH面临抛压，SOL等竞争链可能受益。信号bearish对ETH。",
+      "reason": "链上指标异常，优先级二。DeFi TVL份额变化预示资金迁移，影响ETH及竞争对手代币价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "SOL", "AVAX"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/CryptoCurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t7om3m/ethereum_loses_10_of_its_defi_market_share_as/"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数新闻与历史消息重复，仅选出2条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2238, prompt_tokens=10633, total_tokens=12871, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1180, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=9)
+content length: 2661
+============================================================
+{
+  "news": [
+    {
+      "title": "参议院银行委员会听证会",
+      "summary": "美国参议院银行委员会计划于5月14日举行关键市场结构听证会，并可能对全面的加密货币立法进行修订和投票。这是继此前多次推迟后的再次推进，显示监管框架有望取得实质性进展。该法案若通过将首次为加密市场提供明确的联邦监管规则，包括代币分类、交易所注册等。直接影响BTC、ETH及主要山寨币的整体风险偏好。信号为看多，因监管清晰化长期利好行业。",
+      "reason": "核心监管动态，直接影响市场预期，属于优先级一。影响广泛，新闻来源权威。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/08/senate-banking-committee-plans-to-hold-key-market-structure-hearing-on-thursday"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/400492/take-two-senate-banking-committee-sets-a-date-to-amend-and-vote-on-sweeping-crypto-legislation"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "交易所游说修改风险代币条款",
+      "summary": "据CoinTelegraph报道，多家加密货币交易所正向美国立法者施压，要求剔除一项针对高风险代币的条款，该条款原旨在限制小型币种的上市操纵风险。交易所认为这过于严格，可能抑制创新。此举可能导致最终法案对小币种更为友好，短期利好山寨币情绪，但需注意监管风险仍存。信号偏多，尤其利好流动性较好的中低市值代币。",
+      "reason": "直接影响立法内容，对山寨币监管态度有重要影响，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["SOL", "ADA", "LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/crypto-companies-law-risky-tokens-manipulation"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊DeFi市场份额丢失10%",
+      "summary": "以太坊在DeFi领域的市场份额在过去一段时间内下降了10%，竞争对手如Solana、Avalanche等逐步抢占份额。链上数据显示用户和流动性正向高吞吐量公链迁移。这对ETH价格构成中期利空，因其总锁仓价值（TVL）相对优势减弱。同时利好Solana、SUI等竞争链。建议关注后续TVL变化。",
+      "reason": "链上指标异常，属于优先级二的中期影响，对ETH及竞争币有明确交易信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "SOL", "AVAX"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t7om3m/ethereum_loses_10_of_its_defi_market_share_as/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "TeraWulf AI收入首超挖矿",
+      "summary": "比特币矿企TeraWulf公布Q1财报，高性能计算（AI）业务收入首次超过比特币挖矿收入，尽管公司净亏损4.27亿美元。这标志着矿业向AI算力转型的趋势加速，可能降低矿工抛售比特币的意愿（因收入多元化）。但短期内该股影响有限，对BTC价格影响中性偏多，因矿工抛压预期减少。",
+      "reason": "矿业重大结构变化，间接影响比特币抛压，属于优先级二的项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/511891.html"},
+        {"name": "Decrypt", "url": "https://decrypt.co/304390/terawulf-q1-2026-ai-revenue-mining-loss"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大量消息与历史重复（如Binance公告、恐惧贪婪指数、SEC链上新规等），仅筛选出上述4条具有交易价值的独家新消息。"
+}
