@@ -2139,3 +2139,106 @@ content length: 2167
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1201, prompt_tokens=8720, total_tokens=9921, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=964, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7696)
+content length: 633
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF连续六周净流入",
+      "summary": "现货比特币ETF在过去一周录得净流入，连续第六周保持净流入状态，这是9个月以来首次出现。资金持续流入表明机构投资者和散户对BTC的长期信心增强，可能推动BTC价格进一步上涨。该信号利好比特币，可能带动ETH及其他主流币种跟随上涨。",
+      "reason": "ETF资金持续净流入是直接利好BTC的强信号，符合优先级一中ETF资金流入流出类别。连续六周净流入创9个月纪录，影响级别较高。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/spot-bitcoin-etfs-log-6th-straight-week-of-net-inflows-for-first-time-in-9-months"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1936, prompt_tokens=8720, total_tokens=10656, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=890, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8704), prompt_cache_hit_tokens=8704, prompt_cache_miss_tokens=16)
+content length: 2475
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF连续6周净流入",
+      "summary": "现货比特币ETF连续第六周实现净流入，这是9个月来首次出现如此长时间的持续资金流入。表明机构投资者对比特币的配置需求持续增强，市场情绪回暖，可能推动BTC价格进一步上行。",
+      "reason": "ETF资金持续流入是典型的看多信号，直接利好BTC价格，属于优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/spot-bitcoin-etfs-log-6th-straight-week-of-net-inflows-for-first-time-in-9-months"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "市场预期至2027年底不降息",
+      "summary": "当前市场预期美联储到2027年12月之前都不会降息，相比此前高盛预期的12月和2027年3月更为鹰派。紧缩货币政策持续时间延长，可能压制所有风险资产估值，包括加密货币。",
+      "reason": "加息/不降息预期对风险资产构成中长期压力，属于宏观经济优先级二，偏空信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511964.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Base链稳定币支付破1亿美元",
+      "summary": "Base链第一季度x402支付额突破1亿美元，其中链上Agentic稳定币交易量占比超90%。显示Base生态在支付领域的采用加速，利好ETH和Base链相关代币。",
+      "reason": "链上数据增长反映生态繁荣，对ETH及其L2有积极影响，属优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/511963.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "就业数据强劲推加息预期",
+      "summary": "强劲的美国就业数据提高了市场对加息的押注，但分析指出加密货币仍可能受益于通胀对冲和数字资产叙事。不过短期加息预期压制风险偏好，对加密市场偏空。",
+      "reason": "宏观经济数据影响风险资产走势，属于优先级二，偏空信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeG5kUmxSdFpVbHExM2hqRHBtbVlNNnBCZjhSRzRfSktJd0FsMlU1SExvdmlmVF9qVEliUHJMT0lJamE4cUluNGg3WTlLTDZxVnRjMmN5bjRPYUxhUkJnSHNGcHVNTWlqOVlSUjdCRkptQ0tMLUJaNFZrdVQtWlYxdTJ6SGlBUTMyX3RuOVhpY3RxOVo5N0JN0gGcAUFVX3lxTE55dGhhVVEtWllTYzhWc1NOWS0tM2d0Wjh2MGQzYzNHdHFGb0pfMGxCX3dkSHFRQ1JEOS1ROHhrNlZ0cmxCbXlMT0ZnMWUtXzZWTG5lQ0JCVXVTZEltYUdKeFgyWWFrOEx6WDVaRkQ3SWM0ZDNsRmdnYVZuYnpadjZkVTlnTnVZMDFwTnlBajdSeEVYeU16bEtaWGJhaA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当日市场消息以宏观偏空、ETF资金偏多为主，Binance公告和历史重复较多，仅筛选出4条有效新消息。"
+}
