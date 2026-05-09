@@ -1084,3 +1084,191 @@ content length: 2612
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1363, prompt_tokens=9864, total_tokens=11227, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=823, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8840)
+content length: 1135
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案5月14日投票",
+      "summary": "美国参议院银行委员会已正式确定于5月14日对《Clarity法案》进行标记投票，该法案旨在为加密货币市场提供明确的监管框架。此前历史消息已报道过该消息，但本次为官方日期确认，被视为重大进展。此举将直接利好加密货币市场，特别是BTC、ETH等主要币种，有望吸引机构资金入场。评级：看多信号。",
+      "reason": "优先级一：重大监管动态。法案推进将消除监管不确定性，利好整体市场，属于直接影响行情的中期事件。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/us-clarity-act-markup-date-set-tim-scott-crypto-industry"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVnc3V1lOeFg0SDgxQWdqNjUxX3dBUjYzcHJ2T1RSZ0ZQVXdMNlF4ZnY4TGVRc2U3Vkp6WklxcG1kdm5jeFlsM2tqZlNEXzV6TExCUERKeXFBeTJXS0JTblpJRjBYMWRTWjQ3dmhhUzVsNzlpZnkzN0hQdXBjbnZ6bWZNMFBvaGhrVmhTQnl6TjVwVlVsTVJLbnBndjR0WnlfVXhUNTlSSWZGUkxWcGVWTFU3RFdfWDNhdUQ2bXg5Z3A0X0dNY1Bhcy1VSk1xZkxVSHkxeVBqODFOOEk"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，仅此一条消息符合筛选标准且未在历史消息中完全重复。其余消息（如Binance旧公告、恐惧贪婪指数不变、Reddit社区讨论等）均因重复或影响力不足而被排除。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1112, prompt_tokens=9864, total_tokens=10976, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=847, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=8)
+content length: 671
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案投票日确认",
+      "summary": "美国参议院银行委员会确定将于5月14日对《CLARITY法案》进行标记和投票。该法案旨在为稳定币和数字资产提供监管框架，若通过将显著利好整个加密市场，尤其是稳定币相关项目及BTC、ETH等主流资产。这是长期监管不确定性的重要突破。",
+      "reason": "重大监管动态，法案投票日期确认是监管利好的关键进展，直接影响市场预期，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/us-clarity-act-markup-date-set-tim-scott-crypto-industry"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中除上述CLARITY法案更新外，其余均为重复或低价值内容，因此仅输出1条关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=887, prompt_tokens=9864, total_tokens=10751, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=825, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=8)
+content length: 119
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中所有事件均已在历史消息中出现过，无新增有价值交易信息。例如CLARITY Act投票安排、Tether销毁USDT、Binance上币等均已重复，恐惧贪婪指数未变。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=753, prompt_tokens=10600, total_tokens=11353, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=696, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=9576)
+content length: 105
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中所有消息均与历史消息重复，无新交易信号。例如Binance上币公告、CLARITY法案投票、恐惧贪婪指数等均为重复信息。建议关注后续新事件。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=841, prompt_tokens=10600, total_tokens=11441, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=800, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=104)
+content length: 73
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中绝大多数为历史重复公告或低价值社区讨论，经去重后无符合筛选标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4148, prompt_tokens=3452, total_tokens=7600, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2873, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=2428)
+content length: 3165
+============================================================
+{
+  "news": [
+    {
+      "title": "美CLARITY法案即将审议",
+      "summary": "美国参议院委员会定于5月14日对CLARITY Act进行标记审议，这是里程碑式的一步。该法案旨在为数字资产提供明确的监管框架，若通过将利好整个加密行业，提升合规性和机构参与度。可能影响BTC、ETH及主要山寨币，长期看多信号。",
+      "reason": "重大监管进展，直接影响市场预期，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/us-clarity-act-markup-date-set-tim-scott-crypto-industry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVnc3V1lOeFg0SDgxQWdqNjUxX3dBUjYzcHJ2T1RSZ0ZQVXdMNlF4ZnY4TGVRc2U3Vkp6WklxcG1kdm5jeFlsM2tqZlNEXzV6TExCUERKeXFBeTJXS0JTblpJRjBYMWRTWjQ3dmhhUzVsNzlpZnkzN0hQdXBjbnZ6bWZNMFBvaGhrVmhTQnl6TjVwVlVsTVJLbnBndjR0WnlfVXhUNTlSSWZGUkxWcGVWTFU3RFdfWDNhdUQ2bXg5Z3A0X0dNY1Bhcy1VSk1xZkxVSHkxeVBqODFOOEk?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上架MegaETH",
+      "summary": "Binance公告将于近期上架MegaETH（MEGA），并开放现货及合约交易。MEGA是新一代高性能公链代币，上线头部交易所将极大提升流动性和曝光度，短期可能引发炒作行情。建议关注MEGA/USDT交易对，合约上线后波动加剧。看多信号。",
+      "reason": "交易所上币直接影响币价，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架Chip代币",
+      "summary": "Binance将上架Chip（CHIP），并支持Earn、Margin及Futures。CHIP是USD.AI生态代币，通过HODLer空投分发。上币将为CHIP带来大量流动性，短期价格存在上涨动力。注意种子标签风险。偏多信号。",
+      "reason": "交易所上币，直接影响CHIP价格。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线BILL合约",
+      "summary": "Binance Futures将于2026-05-07上线BILLUSDT永续合约，提供最高75倍杠杆。BILL是某个迷因币或项目代币，合约上线通常会增加交易量和波动，但方向不确定。短期看多合约交易量，对现货价格有正向影响。偏多信号。",
+      "reason": "新合约上线增加交易机会，可能带动价格波动。",
+      "category": "交易所",
+      "impact_coins": ["BILL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至38",
+      "summary": "当前加密货币恐惧贪婪指数为38，处于恐惧区间，但未到极度恐惧（<20）。历史数据表明恐惧区间往往是中长期买入机会，但目前市场情绪偏谨慎，短期可能继续震荡。该数据偏向中性，可作为左侧建仓参考。",
+      "reason": "市场情绪指标，非极值但有一定参考意义。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
