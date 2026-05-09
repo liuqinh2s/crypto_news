@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-10",
+  "hour": "05",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11057,
+    "completion_tokens": 2342,
+    "total_tokens": 13399
+  },
+  "content_length": 2376,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"普京称乌克兰冲突即将结束\",\n      \"summary\": \"俄罗斯总统普京表示认为乌克兰冲突即将结束。地缘政治风险缓解通常利好风险资产，加密货币可能受益，但影响间接。短期情绪偏多，但需关注后续进展。影响币种：BTC、ETH。信号：看多。\",\n      \"reason\": \"地缘政治缓和可能提升风险偏好，但历史显示类似言论兑现需时间，影响级别中等。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CNBC Crypto\",\n          \"url\": \"https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkI4bDZTNHhmTUcxNWRqeEo0WVBrZm9nOTFhU1p6NW1yc0JmcktmejlOdjYzVzh6bWZsWV9zSkZSTnZmMFczOEVVY19tNkdoZ0tfeDNtRWRONTRmVy1LTUUwcDhaQVFRY0tqM0V5WUJLLTVOSlNtTmtna3dqWG81UElQVDhaOVVpUGowalFKcTBRS0dzVGx1X0hpQjhwdTDSAaQBQVVfeXFMTjlEUUVET2pQMkxleTZ2cDVsd0dDM0Z1TWdzMWlDOG5oYzVaRHdCZmtzNmRISTZwOWlDMFc0dlFRNWlKcV9zOUxMa1hFbGs2R1VDSnFReklEbmdXdHR5emdBb1Z3VjJHNlVPNEFMNmsybDRabWdpOTFIOE5fNVlwbG9WOXYxZ1A5SDU4YzE1S0hXeWVyc0pSZkRFZkdTaHZlNlQ5OUs?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"特朗普旗下美国比特币公司亏损8200万美元\",\n      \"summary\": \"美国比特币公司（American Bitcoin）公布季度亏损8200万美元，尽管比特币挖矿产出创纪录。亏损主要由于市场波动和运营成本。消息对BTC基本面影响有限，但暗示矿业压力，短期情绪偏空。影响币种：BTC。信号：看空。\",\n      \"reason\": \"矿业公司亏损可能引发对BTC网络健康的担忧，但属微观事件，影响级别较低。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CryptoPotato\",\n          \"url\": \"https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ243OHV4d2pVelh2U0ZGVFVIem8tUEhjUUlqYXlCYS1EeEFHVmZ3NnNyaGEzR004QjBYaTMtS3I2ajB5TFZLZTdlTXNrSVBnVmRvWGFwbGR0cGlZM2c0Y1JxSkpLQ2JvU25aZW1uMm0zRnI0Wl9fZDFuM0dWZGY1R1BndVhjN0xabGlOMzRMTzlpNzB0LXc4NUZHOWkyVGtwRmItWU5B?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美银预计美联储全年不降息\",\n      \"summary\": \"美国银行发布报告，不再预期美联储今年将降息，理由是通胀粘性和就业数据强劲。这一鹰派预期对加密货币构成利空，因为高利率环境压制风险资产估值。消息直接影响BTC、ETH等市场情绪，可能引发下行压力。信号：看空。\",\n      \"reason\": \"宏观紧缩预期是影响风险资产的核心因素，美银作为大型机构观点具有影响力。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Cryptonews.net\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OODhteWpQTV9RdG8ydzZISGJpa2RsOVVRaldkZ1l2bWN2NTF4UTdLOTVjVHQ4V3dKaktvSlhSOFNWaWp1VWZvSE5kc3dhNUw1bGVSZWNWSE0?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮有效新消息较少，仅筛选出3条符合标准的关键消息。\"\n}"
+}

@@ -525,3 +525,145 @@ content length: 2908
   ],
   "note": "当前市场整体消息面清淡，有效新消息较少，仅筛选出4条具有交易价值的消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1897, prompt_tokens=10179, total_tokens=12076, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1438, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9027)
+content length: 932
+============================================================
+{
+  "news": [
+    {
+      "title": "American Bitcoin亏损8200万",
+      "summary": "特朗普支持的比特币挖矿公司American Bitcoin公布财报，尽管挖矿产出创历史新高，但Q1净亏损达8200万美元，主要因比特币价格波动和运营成本上升。该消息可能引发市场对挖矿行业盈利能力的担忧，对比特币价格构成短期利空。然而，创纪录的挖矿产出表明网络算力强劲，长期来看基本面稳固。综合判断，该消息为轻度利空信号，可能影响BTC短期情绪，但不改变中长期趋势。",
+      "reason": "特朗普支持的挖矿公司亏损属于项目重大事件（优先级一），且为近期新消息，未出现在历史新闻中。亏损可能引发市场对挖矿板块的负面情绪，但产出新高对冲部分利空。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CryptoPotato",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ243OHV4d2pVelh2U0ZGVFVIem8tUEhjUUlqYXlCYS1EeEFHVmZ3NnNyaGEzR004QjBYaTMtS3I2ajB5TFZLZTdlTXNrSVBnVmRvWGFwbGR0cGlZM2c0Y1JxSkpLQ2JvU25aZW1uMm0zRnI0Wl9fZDFuM0dWZGY1R1BndVhjN0xabGlOMzRMTzlpNzB0LXc4NUZHOWkyVGtwRmItWU5B?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，仅此一条新消息符合筛选标准，其余均为历史重复或无交易价值的内容。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1922, prompt_tokens=10179, total_tokens=12101, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1119, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10112), prompt_cache_hit_tokens=10112, prompt_cache_miss_tokens=67)
+content length: 1659
+============================================================
+{
+  "news": [
+    {
+      "title": "普京称乌克兰冲突将结束",
+      "summary": "俄罗斯总统普京表示，他认为乌克兰冲突正在走向结束。这一表态可能缓解地缘政治紧张局势，降低风险溢价，对比特币等风险资产构成短期利好。若冲突真正结束，将有助于全球市场情绪回暖，资金可能流入加密货币。但需关注后续进展。影响币种：BTC、ETH。信号：看多。",
+      "reason": "地缘政治重大缓和信号，直接影响风险资产情绪，属于优先级二的中期影响事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkI4bDZTNHhmTUcxNWRqeEo0WVBrZm9nOTFhU1p6NW1yc0JmcktmejlOdjYzVzh6bWZsWV9zSkZSTnZmMFczOEVVY19tNkdoZ0tfeDNtRWRONTRmVy1LTUUwcDhaQVFRY0tqM0V5WUJLLTVOSlNtTmtna3dqWG81UElQVDhaOVVpUGowalFKcTBRS0dzVGx1X0hpQjhwdTDSAaQBQVVfeXFMTjlEUUVET2pQMkxleTZ2cDVsd0dDM0Z1TWdzMWlDOG5oYzVaRHdCZmtzNmRISTZwOWlDMFc0dlFRNWlKcV9zOUxMa1hFbGs2R1VDSnFReklEbmdXdHR5emdBb1Z3VjJHNlVPNEFMNmsybDRabWdpOTFIOE5fNVlwbG9WOXYxZ1A5SDU4YzE1S0hXeWVyc0pSZkRFZkdTaHZlNlQ5OUs?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美银预计今年美联储不降息",
+      "summary": "美国银行(Bank of America)不再预计美联储今年会降息，此前强劲的美国就业数据进一步削弱了降息预期。这意味着流动性紧缩环境将持续，对风险资产包括加密货币形成压力。历史数据表明，利率维持高位会抑制投机性需求，对比特币中期走势偏空。影响币种：BTC、ETH。信号：看空。",
+      "reason": "宏观政策预期重大变化，直接影响风险资产定价，属于优先级二的宏观经济事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OODhteWpQTV9RdG8ydzZISGJpa2RsOVVRaldkZ1l2bWN2NTF4UTdLOTVjVHQ4V3dKaktvSlhSOFNWaWp1VWZvSE5kc3dhNUw1bGVSZWNWSE0?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=895, prompt_tokens=10179, total_tokens=11074, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=866, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10112), prompt_cache_hit_tokens=10112, prompt_cache_miss_tokens=67)
+content length: 53
+============================================================
+{
+  "news": [],
+  "note": "当前6小时内的新闻多与历史重复，无可选新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2342, prompt_tokens=11057, total_tokens=13399, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1196, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9905)
+content length: 2376
+============================================================
+{
+  "news": [
+    {
+      "title": "普京称乌克兰冲突即将结束",
+      "summary": "俄罗斯总统普京表示认为乌克兰冲突即将结束。地缘政治风险缓解通常利好风险资产，加密货币可能受益，但影响间接。短期情绪偏多，但需关注后续进展。影响币种：BTC、ETH。信号：看多。",
+      "reason": "地缘政治缓和可能提升风险偏好，但历史显示类似言论兑现需时间，影响级别中等。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkI4bDZTNHhmTUcxNWRqeEo0WVBrZm9nOTFhU1p6NW1yc0JmcktmejlOdjYzVzh6bWZsWV9zSkZSTnZmMFczOEVVY19tNkdoZ0tfeDNtRWRONTRmVy1LTUUwcDhaQVFRY0tqM0V5WUJLLTVOSlNtTmtna3dqWG81UElQVDhaOVVpUGowalFKcTBRS0dzVGx1X0hpQjhwdTDSAaQBQVVfeXFMTjlEUUVET2pQMkxleTZ2cDVsd0dDM0Z1TWdzMWlDOG5oYzVaRHdCZmtzNmRISTZwOWlDMFc0dlFRNWlKcV9zOUxMa1hFbGs2R1VDSnFReklEbmdXdHR5emdBb1Z3VjJHNlVPNEFMNmsybDRabWdpOTFIOE5fNVlwbG9WOXYxZ1A5SDU4YzE1S0hXeWVyc0pSZkRFZkdTaHZlNlQ5OUs?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普旗下美国比特币公司亏损8200万美元",
+      "summary": "美国比特币公司（American Bitcoin）公布季度亏损8200万美元，尽管比特币挖矿产出创纪录。亏损主要由于市场波动和运营成本。消息对BTC基本面影响有限，但暗示矿业压力，短期情绪偏空。影响币种：BTC。信号：看空。",
+      "reason": "矿业公司亏损可能引发对BTC网络健康的担忧，但属微观事件，影响级别较低。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CryptoPotato",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ243OHV4d2pVelh2U0ZGVFVIem8tUEhjUUlqYXlCYS1EeEFHVmZ3NnNyaGEzR004QjBYaTMtS3I2ajB5TFZLZTdlTXNrSVBnVmRvWGFwbGR0cGlZM2c0Y1JxSkpLQ2JvU25aZW1uMm0zRnI0Wl9fZDFuM0dWZGY1R1BndVhjN0xabGlOMzRMTzlpNzB0LXc4NUZHOWkyVGtwRmItWU5B?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美银预计美联储全年不降息",
+      "summary": "美国银行发布报告，不再预期美联储今年将降息，理由是通胀粘性和就业数据强劲。这一鹰派预期对加密货币构成利空，因为高利率环境压制风险资产估值。消息直接影响BTC、ETH等市场情绪，可能引发下行压力。信号：看空。",
+      "reason": "宏观紧缩预期是影响风险资产的核心因素，美银作为大型机构观点具有影响力。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OODhteWpQTV9RdG8ydzZISGJpa2RsOVVRaldkZ1l2bWN2NTF4UTdLOTVjVHQ4V3dKaktvSlhSOFNWaWp1VWZvSE5kc3dhNUw1bGVSZWNWSE0?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮有效新消息较少，仅筛选出3条符合标准的关键消息。"
+}
