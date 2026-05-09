@@ -1970,3 +1970,69 @@ content length: 1582
   ],
   "note": "当前时段有效的新消息较少，Binance公告和恐惧贪婪指数均重复出现，仅筛选出3条宏观利空消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4444, prompt_tokens=9584, total_tokens=14028, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3585, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8560)
+content length: 2229
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊DeFi份额创一年新低",
+      "summary": "以太坊DeFi市场份额下滑至54%，创近一年新低。这可能表明竞争链（如Solana、BNB Chain）在吸取流动性，导致以太坊DeFi生态承压。看空以太坊DeFi相关代币，但对ETH本身影响中性偏空。",
+      "reason": "链上数据反映DeFi格局变化，影响中期走势。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511949.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "交易所要求删除CLARITY法案条款",
+      "summary": "Coinbase等交易所要求从《CLARITY法案》中删除反市场操纵条款。该法案被视为美国加密监管的重要进展，删除条款可能降低合规成本，但削弱投资者保护。短期利好市场情绪，但长期监管不确定性增加。",
+      "reason": "监管政策动态直接影响市场预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/511951.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "BNB链代币化股票飙升至930万美元",
+      "summary": "BNB Chain上与中国相关的代币化股票总价值飙升至930万美元，显示代币化资产在BNB链上的采用增长。利好BNB链生态，可能吸引更多资金流入。看多BNB。",
+      "reason": "链上数据反映实际应用增长，对BNB是利好。",
+      "category": "项目更新",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t7xw42/bnb_chains_chinarelated_tokenized_stocks_surge_to/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数持续38",
+      "summary": "恐惧贪婪指数为38，处于恐惧区间，但数值未变。持续恐惧可能意味着市场情绪低迷，但历史底部往往在极恐时出现。当前未到极端，建议观望。",
+      "reason": "市场情绪指标，辅助判断。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Tom Lee预测BTC需站稳76000",
+      "summary": "分析师Tom Lee表示，BTC若5月收盘价高于76,000美元将确认牛市。该预测提振多头信心，但具体走势需看价格表现。短期中性偏多。",
+      "reason": "知名分析师观点影响市场情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [{"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t7xzqk/bitcoin_price_news_btc_closing_may_over_76000/"}],
+      "urgency": "days"
+    }
+  ]
+}
