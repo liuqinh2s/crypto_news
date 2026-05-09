@@ -1632,3 +1632,281 @@ content length: 2281
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1225, prompt_tokens=8535, total_tokens=9760, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=928, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7511)
+content length: 686
+============================================================
+{
+  "news": [
+    {
+      "title": "华尔街警告极端动量交易风险",
+      "summary": "华尔街分析师警告称，美国就业数据公布后，市场出现极端动量交易风险，可能导致加密货币等风险资产大幅波动。该消息可能影响BTC、ETH等主流币种，短期内增加下行压力，属于利空信号。",
+      "reason": "宏观经济数据影响风险资产走势，属于优先级二的中期影响因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YNHFSa0doMW1GWEp5RWczWV9CcUhIYWhCdlExS2JEQnh0Z2J4LW5xbHE5Ym1iaTZGSlYtV2Y4MWhPSlhXZUdJSHlsampXVF9rdEF6Vkx1YVBLLWs?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前素材中大部分消息为历史重复或低价值内容，仅筛选到1条符合标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1498, prompt_tokens=8535, total_tokens=10033, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=983, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8448), prompt_cache_hit_tokens=8448, prompt_cache_miss_tokens=87)
+content length: 1268
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave获准转移涉朝黑客ETH",
+      "summary": "一名美国法官批准Aave协议移动与朝鲜黑客攻击相关的7100万美元ETH。这些资金因黑客攻击被冻结，清理后可能进入市场或用于赔偿。直接影响AAVE和ETH，短期可能增加ETH抛压或引发对DeFi安全的担忧。信号偏空，但影响有限。",
+      "reason": "优先级一：项目方重大事件——黑客资金解冻可能带来抛售压力。",
+      "category": "链上异动",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "华尔街警告动量交易风险",
+      "summary": "华尔街分析师警告，在美国就业数据强劲背景下，极端动量交易风险上升，可能引发加密货币等风险资产回调。该消息暗示市场过热，短期看空BTC和ETH，但属于宏观情绪信号。",
+      "reason": "优先级三：宏观经济数据与市场情绪——就业数据引发的风险警示。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YNHFSa0doMW1GWEp5RWczWV9CcUhIYWhCdlExS2JEQnh0Z2J4LW5xbHE5Ym1iaTZGSlYtV2Y4MWhPSlhXZUdJSHlsampXVF9rdEF6Vkx1YVBLLWs?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "大多数新闻标题已在前6小时历史消息中出现，仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=964, prompt_tokens=8535, total_tokens=9499, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=457, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8448), prompt_cache_hit_tokens=8448, prompt_cache_miss_tokens=87)
+content length: 1260
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave可转移朝鲜黑客ETH",
+      "summary": "法官批准Aave协议移动与朝鲜黑客攻击相关的7100万美元ETH。这笔资金此前被冻结，转移后将可能被出售或用于清算，增加ETH抛压。直接影响ETH及Aave相关资产。短期看空ETH，因潜在抛售压力。",
+      "reason": "涉及重大资金动向，可能引发ETH抛售，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AAVE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "华尔街警告动量交易风险",
+      "summary": "华尔街分析师警告称，美国就业数据强劲可能导致极端动量交易风险，市场可能过度拥挤。若利率预期上升，可能引发加密货币等风险资产回调。影响BTC、ETH等整体市场。短期中性偏空。",
+      "reason": "宏观经济因素影响风险资产，属于优先级二的市场情绪信号，可能引发短期调整。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YNHFSa0doMW1GWEp5RWczWV9CcUhIYWhCdlExS2JEQnh0Z2J4LW5xbHE5Ym1iaTZGSlYtV2Y4MWhPSlhXZUdJSHlsampXVF9rdEF6Vkx1YVBLLWs?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮有效新消息仅2条，其余均为重复或低价值内容。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1248, prompt_tokens=9203, total_tokens=10451, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=922, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8179)
+content length: 778
+============================================================
+{
+  "news": [
+    {
+      "title": "法官允许Aave转移黑客关联ETH",
+      "summary": "美国法官裁定，允许Aave协议转移与朝鲜黑客攻击相关的7100万美元ETH。这笔资金此前因法律纠纷被冻结，法官的裁决为Aave解冻资金铺平道路，可将其转移至安全地址。该事件直接涉及Aave协议和ETH资产，解除了资金被冻结的不确定性，对Aave和ETH均构成短期利好信号。但需注意，黑客关联资金可能引发后续监管关注。",
+      "reason": "涉及DeFi头部协议Aave的重大法律进展，直接关联ETH和AAVE，属于优先级一的项目方重大事件，对市场情绪有直接冲击。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中除上述消息外，其余均为重复或无关内容（如历史已出现的Binance公告、未变化的恐惧指数、普通用户提问等），故仅输出1条有效消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=820, prompt_tokens=9203, total_tokens=10023, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=328, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=115)
+content length: 1220
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave可转移朝鲜黑客ETH",
+      "summary": "美国法官批准Aave协议将7100万美元ETH从与朝鲜黑客相关的地址转移。该资金此前因制裁被冻结，转移后Aave可重新分配或清算，减少不确定性。直接影响AAVE及以太坊DeFi生态。短期看多AAVE，因其风险解除，但ETH本身影响中性。",
+      "reason": "优先级一：项目方重大事件，涉及黑客资金解冻，直接利好AAVE。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "华尔街警告动量交易风险",
+      "summary": "华尔街分析师指出，美国就业数据后极端动量交易风险上升，可能引发市场剧烈波动。若风险资产回调，加密货币（BTC、ETH）可能承压。中期利空，需谨慎追高。",
+      "reason": "优先级二：宏观经济预警，影响风险偏好，间接利空加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YNHFSa0doMW1GWEp5RWczWV9CcUhIYWhCdlExS2JEQnh0Z2J4LW5xbHE5Ym1iaTZGSlYtV2Y4MWhPSlhXZUdJSHlsampXVF9rdEF6Vkx1YVBLLWs?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2752, prompt_tokens=3183, total_tokens=5935, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1668, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=2159)
+content length: 2828
+============================================================
+{
+  "news": [
+    {
+      "title": "法官批准Aave转移朝鲜黑客ETH",
+      "summary": "美国法官批准Aave协议转移与朝鲜黑客组织相关的7100万美元ETH。这些资金此前因制裁被冻结，法院裁决允许Aave清算或归还资产，消除不确定性。对AAVE是利好，表明项目方能有效处理不良资产；对ETH可能产生短期抛压预期，但实际抛售规模有限。综合看多AAVE，对ETH中性。",
+      "reason": "直接影响行情的重大事件：涉及DeFi协议、黑客资金和司法裁决，可能引发AAVE价格波动和ETH短期抛压预期。",
+      "category": "监管政策",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线MegaETH (MEGA)",
+      "summary": "Binance宣布上线MegaETH (MEGA)，并开放现货、合约、理财等产品，同时标注Seed Tag。新币上线通常伴随短期炒作和流动性增加，但注意高风险。短期看多MEGA。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线Chip (CHIP)",
+      "summary": "Binance宣布上线Chip (CHIP)，并开放现货、合约等产品，标注Seed Tag。新币上线短期看多CHIP，但需注意种子标签风险。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "华尔街警告极端动量交易风险",
+      "summary": "在美国强劲就业数据公布后，华尔街分析师警告市场存在极端动量交易风险，可能导致回调。这对BTC/ETH等风险资产构成潜在利空，可能引发短期避险情绪。",
+      "reason": "宏观经济数据影响风险资产走势，属于优先级二。市场对就业数据反应可能蔓延至加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YNHFSa0doMW1GWEp5RWczWV9CcUhIYWhCdlExS2JEQnh0Z2J4LW5xbHE5Ym1iaTZGSlYtV2Y4MWhPSlhXZUdJSHlsampXVF9rdEF6Vkx1YVBLLWs?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线BILLUSDT永续合约",
+      "summary": "Binance Futures推出BILLUSDT永续合约，提供最高75倍杠杆。新合约上线可增加BILL代币流动性和交易活跃度，短期看多BILL。",
+      "reason": "交易所上线合约直接影响对应币种交易量和价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BILL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}

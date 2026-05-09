@@ -1401,3 +1401,168 @@
 2026-05-09 05:02:13 [DEBUG]   去重: 「Binance上线Chip (CHIP)」 → 标题相似: Binance上线BILL合约
 2026-05-09 05:02:13 [INFO] 📦 JSON 已保存: reports/2026-05-09-13.json
 2026-05-09 05:02:13 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-05-09 06:00:32 [INFO] 🚀 开始抓取 2026-05-09 14:00 币圈新闻
+2026-05-09 06:00:32 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-09 06:00:32 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-09 06:00:32 [INFO]   ⏭ Decrypt: 过滤掉 38 条非近期新闻
+2026-05-09 06:00:32 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-09 06:00:32 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:33 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-09 06:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ CoinDesk: 过滤掉 24 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:33 [INFO]   ⏭ Blockworks: 过滤掉 17 条非近期新闻
+2026-05-09 06:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:34 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:34 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:34 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:34 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:34 [INFO]   ⏭ Crypto Twitter: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:35 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 24 条非近期新闻
+2026-05-09 06:00:35 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 1 条非近期新闻
+2026-05-09 06:00:37 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 25 条非近期新闻
+2026-05-09 06:00:39 [INFO]   ⏭ CoinTelegraph: 过滤掉 22 条非近期新闻
+2026-05-09 06:00:39 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-09 06:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-09 06:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-09 06:00:49 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:49 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-09 06:00:49 [INFO]   ✓ CoinDesk: 1 条
+2026-05-09 06:00:49 [INFO]   ✓ The Block: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Decrypt: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Blockworks: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ DL News: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ 金色财经: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ PANews: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Reddit r/bitcoin: 1 条
+2026-05-09 06:00:49 [INFO]   ✓ Crypto Twitter: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ 宏观经济: 1 条
+2026-05-09 06:00:49 [INFO]   ✓ Binance公告: 20 条
+2026-05-09 06:00:49 [INFO]   ✓ OKX公告: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Bitget公告: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Whale Alert: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-09 06:00:49 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-09 06:00:49 [INFO]   ✓ 雪球加密: 0 条
+2026-05-09 06:00:49 [INFO] 📊 共抓取 24 条新闻
+2026-05-09 06:00:49 [INFO] 📋 原始新闻已保存: reports/2026-05-09-14-raw.json (24 条)
+2026-05-09 06:00:49 [INFO] 📋 标题摘要已保存: reports/2026-05-09-14-raw-titles.md
+2026-05-09 06:00:49 [INFO] ✅ 抓取完成，共 24 条，已保存到 reports/2026-05-09-14-raw.json
+2026-05-09 06:00:49 [INFO] 🤖 开始 AI 筛选 2026-05-09 14:00 币圈消息
+2026-05-09 06:00:49 [INFO] 📋 已加载原始新闻: reports/2026-05-09-14-raw.json (24 条)
+2026-05-09 06:00:49 [INFO] 📚 已加载历史新闻标题（15524 字符）
+2026-05-09 06:00:49 [INFO] 📚 已加载历史筛选标题 14 条、URL 16 个，用于去重
+2026-05-09 06:00:49 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-09 06:00:49 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-09 06:00:49 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（24 条，4405 字符，temp=0.3）
+2026-05-09 06:01:10 [INFO] AI 原始返回已保存: logs/2026-05-09-ai-response.txt (finish_reason=stop, 686 字符)
+2026-05-09 06:01:10 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-09-14-ai-raw.json
+2026-05-09 06:01:10 [DEBUG] parse_json_response 输入长度: 686 字符
+2026-05-09 06:01:10 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "华尔街警告极端动量交易风险",
+      "summary": "华尔街分析师警告称，美国就业数据公布后，市场出现极端动量交易风险，可能导致加密货币等风险资产大幅波动。该消息可能影响BTC、ETH等主流币种，短期内增加下行压力，属于利空信号。",
+      "reason": "宏观经济数据影响风险资产走势，属于优先级二的中期影响因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+2026-05-09 06:01:10 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-09 06:01:10 [INFO] ✅ AI 返回 1 条新闻
+2026-05-09 06:01:10 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-09 06:01:10 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（24 条，4405 字符，temp=0.3）
+2026-05-09 06:01:35 [INFO] AI 原始返回已保存: logs/2026-05-09-ai-response.txt (finish_reason=stop, 1268 字符)
+2026-05-09 06:01:35 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-09-14-ai-raw.json
+2026-05-09 06:01:35 [DEBUG] parse_json_response 输入长度: 1268 字符
+2026-05-09 06:01:35 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Aave获准转移涉朝黑客ETH",
+      "summary": "一名美国法官批准Aave协议移动与朝鲜黑客攻击相关的7100万美元ETH。这些资金因黑客攻击被冻结，清理后可能进入市场或用于赔偿。直接影响AAVE和ETH，短期可能增加ETH抛压或引发对DeFi安全的担忧。信号偏空，但影响有限。",
+      "reason": "优先级一：项目方重大事件——黑客资金解冻可能带来抛售压力。",
+      "category": "链上异动",
+      "impact_coins": ["AAVE", "ETH"
+2026-05-09 06:01:35 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-09 06:01:35 [INFO] ✅ AI 返回 2 条新闻
+2026-05-09 06:01:35 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-09 06:01:35 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（24 条，4405 字符，temp=0.3）
+2026-05-09 06:01:50 [INFO] AI 原始返回已保存: logs/2026-05-09-ai-response.txt (finish_reason=stop, 1260 字符)
+2026-05-09 06:01:50 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-09-14-ai-raw.json
+2026-05-09 06:01:50 [DEBUG] parse_json_response 输入长度: 1260 字符
+2026-05-09 06:01:50 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Aave可转移朝鲜黑客ETH",
+      "summary": "法官批准Aave协议移动与朝鲜黑客攻击相关的7100万美元ETH。这笔资金此前被冻结，转移后将可能被出售或用于清算，增加ETH抛压。直接影响ETH及Aave相关资产。短期看空ETH，因潜在抛售压力。",
+      "reason": "涉及重大资金动向，可能引发ETH抛售，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AAVE"],
+      "s
+2026-05-09 06:01:50 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-09 06:01:50 [INFO] ✅ AI 返回 2 条新闻
+2026-05-09 06:01:50 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-05-09 06:01:50 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（24 条，6489 字符，temp=0.3）
+2026-05-09 06:02:12 [INFO] AI 原始返回已保存: logs/2026-05-09-ai-response.txt (finish_reason=stop, 778 字符)
+2026-05-09 06:02:12 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-09-14-ai-raw.json
+2026-05-09 06:02:12 [DEBUG] parse_json_response 输入长度: 778 字符
+2026-05-09 06:02:12 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "法官允许Aave转移黑客关联ETH",
+      "summary": "美国法官裁定，允许Aave协议转移与朝鲜黑客攻击相关的7100万美元ETH。这笔资金此前因法律纠纷被冻结，法官的裁决为Aave解冻资金铺平道路，可将其转移至安全地址。该事件直接涉及Aave协议和ETH资产，解除了资金被冻结的不确定性，对Aave和ETH均构成短期利好信号。但需注意，黑客关联资金可能引发后续监管关注。",
+      "reason": "涉及DeFi头部协议Aave的重大法律进展，直接关联ETH和AAVE，属于优先级一的项目方重大事
+2026-05-09 06:02:12 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-09 06:02:12 [INFO] ✅ AI 返回 1 条新闻
+2026-05-09 06:02:12 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-09 06:02:12 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（24 条，6489 字符，temp=0.3）
+2026-05-09 06:02:24 [INFO] AI 原始返回已保存: logs/2026-05-09-ai-response.txt (finish_reason=stop, 1220 字符)
+2026-05-09 06:02:24 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-09-14-ai-raw.json
+2026-05-09 06:02:24 [DEBUG] parse_json_response 输入长度: 1220 字符
+2026-05-09 06:02:24 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Aave可转移朝鲜黑客ETH",
+      "summary": "美国法官批准Aave协议将7100万美元ETH从与朝鲜黑客相关的地址转移。该资金此前因制裁被冻结，转移后Aave可重新分配或清算，减少不确定性。直接影响AAVE及以太坊DeFi生态。短期看多AAVE，因其风险解除，但ETH本身影响中性。",
+      "reason": "优先级一：项目方重大事件，涉及黑客资金解冻，直接利好AAVE。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", 
+2026-05-09 06:02:24 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-09 06:02:24 [INFO] ✅ AI 返回 2 条新闻
+2026-05-09 06:02:24 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-09 06:02:24 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（24 条，4405 字符，temp=0.3）
+2026-05-09 06:03:05 [INFO] AI 原始返回已保存: logs/2026-05-09-ai-response.txt (finish_reason=stop, 2828 字符)
+2026-05-09 06:03:05 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-09-14-ai-raw.json
+2026-05-09 06:03:05 [DEBUG] parse_json_response 输入长度: 2828 字符
+2026-05-09 06:03:05 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "法官批准Aave转移朝鲜黑客ETH",
+      "summary": "美国法官批准Aave协议转移与朝鲜黑客组织相关的7100万美元ETH。这些资金此前因制裁被冻结，法院裁决允许Aave清算或归还资产，消除不确定性。对AAVE是利好，表明项目方能有效处理不良资产；对ETH可能产生短期抛压预期，但实际抛售规模有限。综合看多AAVE，对ETH中性。",
+      "reason": "直接影响行情的重大事件：涉及DeFi协议、黑客资金和司法裁决，可能引发AAVE价格波动和ETH短期抛压预期。",
+      "cate
+2026-05-09 06:03:05 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-05-09 06:03:05 [INFO] ✅ AI 返回 5 条新闻
+2026-05-09 06:03:05 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-05-09 06:03:05 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-05-09 06:03:05 [INFO] 🔄 去重：移除 3 条与历史报告重复的新闻
+2026-05-09 06:03:05 [DEBUG]   去重: 「法官批准Aave转移朝鲜黑客ETH」 → URL重复: https://www.coindesk.com/policy/2026/05/09/judge-clears-path
+2026-05-09 06:03:05 [DEBUG]   去重: 「Binance上线Chip (CHIP)」 → 标题相似: Binance上线BILL合约
+2026-05-09 06:03:05 [DEBUG]   去重: 「Binance上线BILLUSDT永续合约」 → URL重复: https://www.binance.com/zh-CN/support/announcement/7220be810
+2026-05-09 06:03:05 [INFO] 📦 JSON 已保存: reports/2026-05-09-14.json
+2026-05-09 06:03:05 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息
