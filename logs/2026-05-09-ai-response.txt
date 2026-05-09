@@ -1418,3 +1418,217 @@ content length: 3357
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=794, prompt_tokens=9006, total_tokens=9800, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=482, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=7982)
+content length: 755
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave获准转移与朝鲜黑客相关的ETH",
+      "summary": "美国法院批准Aave协议移动约7100万美元的ETH，这些ETH此前被标记为与朝鲜黑客攻击相关。Aave将能够将这些资金转移到安全地址或用于偿还坏账，减少协议风险。此事件直接影响ETH和AAVE代币，因市场担忧Aave因黑客事件出现坏账，法院批准移动资金降低了不确定性，对协议和ETH构成短期利好。",
+      "reason": "这是本轮抓取中唯一一条新消息，且涉及链上资产移动和DeFi协议风险事件，符合优先级一项目方重大事件标准。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，除上述一条外，其余均为历史重复内容（Binance公告、恐惧贪婪指数、Reddit普通帖等），无新增交易价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=582, prompt_tokens=9006, total_tokens=9588, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=284, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8960), prompt_cache_hit_tokens=8960, prompt_cache_miss_tokens=46)
+content length: 728
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave获准移动朝鲜黑客ETH",
+      "summary": "美国法官批准Aave协议移动约7100万美元的ETH，这些资金与朝鲜黑客组织有关。该裁决允许Aave将资金从受制裁地址转移，可能用于受害者赔偿或冻结处理。此举对Aave和ETH市场情绪产生一定影响，短期可能增加抛售压力，但长期有助于清理链上风险资产。信号偏bearish，因涉及黑客资金流动可能引发市场担忧。",
+      "reason": "直接影响项目方和链上资金流动，涉及朝鲜黑客敏感事件，属于链上异动和项目更新，优先级高。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前素材中大部分为重复历史消息（如Binance公告、指数等），仅此一条未重复且有交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=794, prompt_tokens=9006, total_tokens=9800, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=474, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8960), prompt_cache_hit_tokens=8960, prompt_cache_miss_tokens=46)
+content length: 763
+============================================================
+{
+  "news": [
+    {
+      "title": "法院允许Aave转移与朝鲜黑客相关ETH",
+      "summary": "美国法官裁定，Aave可以转移约7100万美元的ETH，这些资金与朝鲜黑客组织Lazarus有关。此前，这些资金被冻结在Aave协议中。现在，Aave可以将其移出并可能处置，这可能导致ETH抛压。影响币种：AAVE（协议代币）和ETH（被转移资产）。看空信号，因为可能引发ETH抛售，但整体影响有限，因为金额相对较小。",
+      "reason": "该项目涉及黑客攻击后续处理，可能引发抛售，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其余素材多为重复消息或低价值内容，如Binance公告（已在历史中）、恐惧贪婪指数未变化、Reddit社区讨论等，不符合筛选标准。因此仅输出1条高价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=529, prompt_tokens=9740, total_tokens=10269, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=254, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=8716)
+content length: 687
+============================================================
+{
+  "news": [
+    {
+      "title": "法官批准Aave转移被黑ETH",
+      "summary": "美国法官批准Aave协议转移约7100万美元的ETH，这些ETH与朝鲜黑客组织有关。Aave将把资金从受影响的合约中移出，以降低风险。该事件直接涉及ETH，可能对ETH价格产生短期压力（抛售预期），但长期看是风险事件解决。信号中性偏空，影响级别3。",
+      "reason": "属于项目方重大事件（黑客相关），直接影响ETH市场情绪和资金流向，为优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时内重复消息较多（Binance公告、恐惧贪婪指数等），仅筛选出一条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=669, prompt_tokens=9740, total_tokens=10409, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=402, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=12)
+content length: 675
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave可转移黑客ETH 7100万",
+      "summary": "法官批准Aave转移与朝鲜黑客攻击相关的7100万美元ETH。这些资金此前因黑客攻击被冻结，Aave将能转移这些ETH以进行后续处理。此事件影响ETH和Aave协议，虽然资金转移本身是中性的，但可能缓解市场对Aave安全性的担忧，同时显示监管与DeFi的互动。短期看多Aave代币和ETH，因不确定性消除。",
+      "reason": "涉及DeFi主流项目Aave与黑客资金，属于项目重大事件，可能影响市场对Aave和ETH的信心。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1888, prompt_tokens=3239, total_tokens=5127, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1021, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1024), prompt_cache_hit_tokens=1024, prompt_cache_miss_tokens=2215)
+content length: 2281
+============================================================
+{
+  "news": [
+    {
+      "title": "法官允许Aave转移朝鲜黑客ETH",
+      "summary": "美国法官裁定允许Aave协议转移与朝鲜黑客相关的约7100万美元ETH。此前该笔资金因涉嫌洗钱被冻结。法院放行意味着Aave可以合法转移资金，缓解了协议面临的法律风险，同时可能引发交易所和DeFi对监管合规的进一步关注。对AAVE是直接利好，对ETH影响中性偏正面。",
+      "reason": "涉及DeFi协议与监管的裁决，直接影响Aave及以太坊生态，优先级一中的项目方重大事件。",
+      "category": "监管政策",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，并标注Seed Tag。MegaETH是基于Ethereum的L2扩展方案，主网上线后市场关注度高。上币将显著提升MEGA的流动性和交易量，短期资金涌入预期强烈，属于重大利好。但Seed Tag提示高风险，需警惕上市初期剧烈波动。",
+      "reason": "交易所上币直接影响对应币种价格，属优先级一的核心消息。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线Chip (CHIP)",
+      "summary": "Binance宣布将上线Chip (CHIP)并标注Seed Tag，同时开启HODLer空投。CHIP是USD.AI生态代币，主打AI与DeFi结合。上币将带来直接买盘和空投效应，短期看涨。但Seed Tag提示风险，需注意抛压。",
+      "reason": "交易所上币，影响对应币种，属优先级一。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至38",
+      "summary": "市场恐惧贪婪指数当前为38，处于恐惧区间。历史数据显示，恐惧区间往往是中长期买入时机，但短期可能继续下探。目前市场情绪偏弱，投资者需警惕进一步下跌风险，但也可视为左侧布局信号。",
+      "reason": "市场情绪指标，虽未到极端但处于恐惧，可作为情绪参考，属优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-09",
+  "hour": "13",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3239,
+    "completion_tokens": 1888,
+    "total_tokens": 5127
+  },
+  "content_length": 2281,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"法官允许Aave转移朝鲜黑客ETH\",\n      \"summary\": \"美国法官裁定允许Aave协议转移与朝鲜黑客相关的约7100万美元ETH。此前该笔资金因涉嫌洗钱被冻结。法院放行意味着Aave可以合法转移资金，缓解了协议面临的法律风险，同时可能引发交易所和DeFi对监管合规的进一步关注。对AAVE是直接利好，对ETH影响中性偏正面。\",\n      \"reason\": \"涉及DeFi协议与监管的裁决，直接影响Aave及以太坊生态，优先级一中的项目方重大事件。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"AAVE\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Binance上线MegaETH (MEGA)\",\n      \"summary\": \"Binance宣布将上线MegaETH (MEGA)，并标注Seed Tag。MegaETH是基于Ethereum的L2扩展方案，主网上线后市场关注度高。上币将显著提升MEGA的流动性和交易量，短期资金涌入预期强烈，属于重大利好。但Seed Tag提示高风险，需警惕上市初期剧烈波动。\",\n      \"reason\": \"交易所上币直接影响对应币种价格，属优先级一的核心消息。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"MEGA\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Binance上线Chip (CHIP)\",\n      \"summary\": \"Binance宣布将上线Chip (CHIP)并标注Seed Tag，同时开启HODLer空投。CHIP是USD.AI生态代币，主打AI与DeFi结合。上币将带来直接买盘和空投效应，短期看涨。但Seed Tag提示风险，需注意抛压。\",\n      \"reason\": \"交易所上币，影响对应币种，属优先级一。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"CHIP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数降至38\",\n      \"summary\": \"市场恐惧贪婪指数当前为38，处于恐惧区间。历史数据显示，恐惧区间往往是中长期买入时机，但短期可能继续下探。目前市场情绪偏弱，投资者需警惕进一步下跌风险，但也可视为左侧布局信号。\",\n      \"reason\": \"市场情绪指标，虽未到极端但处于恐惧，可作为情绪参考，属优先级三。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
