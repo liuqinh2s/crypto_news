@@ -426,3 +426,166 @@ content length: 2910
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1500, prompt_tokens=10237, total_tokens=11737, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1140, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9085)
+content length: 766
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币面临伊朗地缘风险与CPI考验",
+      "summary": "比特币在$83,400一线承压，特朗普对伊朗发出军事警告，同时本周美国CPI数据即将公布。地缘紧张可能推高油价和通胀，若CPI超预期则强化美联储鹰派立场，对风险资产不利。地缘风险加剧市场不确定性，但CPI若低于预期或缓解加息担忧。整体看空信号，因战争风险可能导致美联储加息，短期BTC承压。",
+      "reason": "结合地缘政治与宏观经济数据，直接影响BTC短期走势，属于优先级一和二的交叉消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tc1V6WG56MUdIQnJQYlVSQUw0bEdvS0dHeGFhakFMN1hxT1pwSmk3cTF6RjJOT0QycnlMVDdqem1EY0lzU2tGOEdRUVFFOTdyLWNnMW9TMXdZbUNlaHRyQVJabVU5cW81?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中除本条外，其他消息与近6小时历史消息重复或缺乏交易价值，故仅选1条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1159, prompt_tokens=10237, total_tokens=11396, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=761, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10112), prompt_cache_hit_tokens=10112, prompt_cache_miss_tokens=125)
+content length: 843
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC冲击83,400美元 伊朗警告与CPI周引发谨慎",
+      "summary": "BeInCrypto报道，比特币价格试图冲击83,400美元，但特朗普对伊朗的军事警告和即将公布的CPI数据引发交易员谨慎情绪。美军近期在霍尔木兹海峡部署大量军舰，地缘政治风险上升，可能导致避险情绪升温，短期内对BTC构成压力。同时，CPI数据若超预期可能强化美联储鹰派立场，利空风险资产。综合来看，短期偏空，但需关注关键阻力位突破情况。",
+      "reason": "地缘政治紧张局势叠加宏观数据公布，直接影响市场风险偏好，属于优先级一（重大监管/宏观）和优先级二（宏观经济数据）的交叉事件，影响广泛。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tc1V6WG56MUdIQnJQYlVSQUw0bEdvS0dHeGFhakFMN1hxT1pwSmk3cTF6RjJOT0QycnlMVDdqem1EY0lzU2tGOEdRUVFFOTdyLWNnMW9TMXdZbUNlaHRyQVJabVU5cW81?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经过6小时历史消息去重后，仅发现一条非重复且有交易价值的新消息。其余素材均为重复公告或无关内容。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2263, prompt_tokens=10237, total_tokens=12500, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=665, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10112), prompt_cache_hit_tokens=10112, prompt_cache_miss_tokens=125)
+content length: 3885
+============================================================
+{
+  "news": [
+    {
+      "title": "Warren施压Meta披露稳定币计划",
+      "summary": "美国参议员Elizabeth Warren要求Meta全面披露其稳定币计划，此举发生在CLARITY法案投票前夕。Warren一直是加密货币的批评者，此次施压可能为更严格的监管铺路，影响USDT、USDC等稳定币及整个加密市场。短期看空，因为监管不确定性增加。",
+      "reason": "涉及稳定币监管动态，属于优先级一（监管动态），直接关联USDT等稳定币。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t9g9bj/elizabeth_warren_wants_meta_to_spill_all_on/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "参议院将召开比特币会议",
+      "summary": "美国参议院即将举行关于比特币的会议，市场关注其可能影响。会议可能讨论监管框架或立法，若结果利好（如推动CLARITY法案）则看多，若偏严则看空。当前不确定性高，可能引发波动。比特币价格已企稳80K上方。",
+      "reason": "顶级监管事件，直接影响BTC走势，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t9fnoe/us_senate_meeting_incoming_is_bitcoin_ready_to/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Saylor暗示策略公司即将买入BTC",
+      "summary": "Michael Saylor在Q1财报后发布“Back to Work”信号，暗示策略公司（Strategy）可能在暂停一周后再次买入比特币。此前Q1财报显示公司持有大量BTC，且曾暗示可能出售。Saylor的买入信号通常推动BTC价格上涨，属看多信号。",
+      "reason": "机构动向（MicroStrategy/Strategy买入BTC），属优先级二，直接利好BTC。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t9hm23/strategys_michael_saylor_signals_impending_btc_buy/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy是否卖出比特币？Q1财报分析",
+      "summary": "Seeking Alpha分析Strategy Q1财报，探讨其是否会出售比特币。此前Q1电话会议暗示可能卖出，引发市场担忧。若卖出将产生抛压，看空；若继续持有则利好。目前Saylor已发出买入信号，卖出可能性降低。中性偏多。",
+      "reason": "巨鲸异动（机构持仓变化），属优先级一，影响BTC供需。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUERVX2J6UWNUSElMTTdacWJveXB2QmpqUHJaY05hS0tLa0lmNU9zV1J2amdPenh6NWozeUs3Z0hvcUVNWnJpRGpfdWFVdU1Bb25qUHdzczV3eDhXeUxLMG83MEdNMDZPUjVaSTM5OVBPZWhYbG1nYndWR1UyWjg0cE56UjJqSzFVSGw5TlNpdzNFY0FKaVgzYjNMaWs1Z1ZQM0U3VEFNZ1hFRUtqQjdj?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国政府加密持仓增超40亿美元",
+      "summary": "自4月1日以来，美国政府加密货币持仓增加超过40亿美元，主要来自执法没收。大规模政府持仓可能在未来出售造成抛压，但当前消息面视为利空。政府出售往往被市场吸收，但短期看空。",
+      "reason": "巨鲸异动（政府持仓变化），属优先级一，影响BTC等加密市场供给。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pZ0l2SmtzU19sTWx5TnNDYkt2QlV1MDJnZHBQOGx3bFU0bkhFQm9YUG5qOG1hRzdJWENWdDdPSVpvSnhicndQU2wwX2FoazBlV2hsRzNXOUs0RVZqZVZGSzlhdk5RWUE1WEdZRVQtcnJJY1U?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC目标83.4K，CPI与伊朗局势致谨慎",
+      "summary": "比特币价格在80K上方企稳，分析师指出特朗普警告伊朗和即将公布的CPI数据是市场关注焦点。Pimco警告伊朗战争可能导致美联储加息。若CPI超预期或局势升级，可能打压风险资产；反之则看涨。短期中性偏谨慎。",
+      "reason": "宏观经济（CPI、地缘政治）影响风险资产，属优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tc1V6WG56MUdIQnJQYlVSQUw0bEdvS0dHeGFhakFMN1hxT1pwSmk3cTF6RjJOT0QycnlMVDdqem1EY0lzU2tGOEdRUVFFOTdyLWNnMW9TMXdZbUNlaHRyQVJabVU5cW81?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
