@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-10",
+  "hour": "23",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4327,
+    "completion_tokens": 1036,
+    "total_tokens": 5363
+  },
+  "content_length": 1473,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Pimco警告伊朗战争或致美联储加息\",\n      \"summary\": \"太平洋投资管理公司(Pimco)警告称，若伊朗冲突升级，美联储可能被迫加息以应对通胀。加息将收紧流动性，利空风险资产，包括BTC和ETH。目前市场尚未充分定价该风险，若冲突加剧，避险情绪将主导市场。信号：看空，短期冲击可能较大。\",\n      \"reason\": \"宏观经济风险事件，直接影响风险资产定价，属于优先级二中的宏观经济数据影响。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Briefing\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N4X1UwbEhOZ0V4bDhwdFlmRFpua2RxeFBQalVfbGpsZHRyRWp5SWNOaGY3R2FTZlM4dmZtNWRxUTIyaDBybU5sNkFJTURLTzdSLWJRSVk1TVhoX0d0S1laSGM?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Saylor暗示Strategy将再次买入BTC\",\n      \"summary\": \"MicroStrategy创始人Michael Saylor发推‘Back to Work’，暗示公司可能恢复比特币购买。此前Strategy在暂停一周后重新入场，若兑现将带来机构买盘。这是典型的机构增持信号，对BTC直接利好。需关注后续公告确认。\",\n      \"reason\": \"机构动向属于优先级二，Saylor的公开表态通常伴有实际买入，对BTC价格有中期支撑。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Bitcoin News\",\n          \"url\": \"https://news.google.com/rss/articles/CBMirgFBVV95cUxQNTJfano3TGljZXRhblZhWWpMY0d2dXV0S3h0YUwzSWM3cWd2QjhHVDVnTXREVHUxQld1OUlQVVRaVEZSaEJwbnplQkw5MUpLMEU0NkN0NVpqUmtiT3ZwREd4cDZHdXFRYUN2cUI4WnNLeUtiXzBDMExFczRoX1RhTm5RX2ZFY3lELWVlV2xYdDZmblpBMmJkS1lsYjRMVWhqZTc5dHJNZVZvZGYwVGc?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

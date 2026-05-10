@@ -2672,3 +2672,244 @@ content length: 3020
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1631, prompt_tokens=9802, total_tokens=11433, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=971, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8650)
+content length: 1425
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor暗示继续买入BTC",
+      "summary": "MicroStrategy创始人Michael Saylor发布'Back to Work'信号，暗示在暂停一周后可能继续增持比特币。此前Strategy已持有大量BTC，此举表明机构买入意愿不减，对BTC价格形成支撑。看多信号，影响比特币。",
+      "reason": "机构动向，MicroStrategy作为最大比特币持有者，其买入行为直接影响市场供需和信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Bitcoin News", "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNTJfano3TGljZXRhblZhWWpMY0d2dXV0S3h0YUwzSWM3cWd2QjhHVDVnTXREVHUxQld1OUlQVVRaVEZSaEJwbnplQkw5MUpLMEU0NkN0NVpqUmtiT3ZwREd4cDZHdXFRYUN2cUI4WnNLeUtiXzBDMExFczRoX1RhTm5RX2ZFY3lELWVlV2xYdDZmblpBMmJkS1lsYjRMVWhqZTc5dHJNZVZvZGYwVGc?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Pimco警告伊朗战争或致美联储加息",
+      "summary": "太平洋投资管理公司（Pimco）警告，若伊朗局势升级为战争，可能导致美联储被迫加息以应对通胀压力。这将利空比特币等风险资产，可能引发市场抛售。看空信号，影响BTC和ETH。",
+      "reason": "宏观经济风险，地缘政治冲突可能改变美联储货币政策路径，对整体加密货币市场构成压制。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N4X1UwbEhOZ0V4bDhwdFlmRFpua2RxeFBQalVfbGpsZHRyRWp5SWNOaGY3R2FTZlM4dmZtNWRxUTIyaDBybU5sNkFJTURLTzdSLWJRSVk1TVhoX0d0S1laSGM?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近期新闻重复度较高，仅筛选出2条具有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1479, prompt_tokens=9802, total_tokens=11281, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=793, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=74)
+content length: 1506
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor发信号暗示增持BTC",
+      "summary": "MicroStrategy（现名Strategy）创始人Michael Saylor发布'Back to Work'信号，暗示在暂停一周后可能再次购入比特币。此前Strategy持有大量BTC，增持信号通常被视为看涨催化剂。影响BTC价格，可能短期内推动多头情绪。信号为看多。",
+      "reason": "机构动向，MicroStrategy增持BTC历史上有助涨效应，属于优先级二的中期影响消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNTJfano3TGljZXRhblZhWWpMY0d2dXV0S3h0YUwzSWM3cWd2QjhHVDVnTXREVHUxQld1OUlQVVRaVEZSaEJwbnplQkw5MUpLMEU0NkN0NVpqUmtiT3ZwREd4cDZHdXFRYUN2cUI4WnNLeUtiXzBDMExFczRoX1RhTm5RX2ZFY3lELWVlV2xYdDZmblpBMmJkS1lsYjRMVWhqZTc5dHJNZVZvZGYwVGc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Pimco警告伊朗战争或致美联储加息",
+      "summary": "太平洋投资管理公司（Pimco）警告，若伊朗局势升级为战争，可能迫使美联储加息以应对通胀压力。加息预期利空风险资产，包括加密货币。BTC和ETH等可能承压下跌。此消息属于宏观风险，偏空。",
+      "reason": "宏观经济消息，直接影响风险资产定价，属于优先级二的中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N4X1UwbEhOZ0V4bDhwdFlmRFpua2RxeFBQalVfbGpsZHRyRWp5SWNOaGY3R2FTZlM4dmZtNWRxUTIyaDBybU5sNkFJTURLTzdSLWJRSVk1TVhoX0d0S1laSGM?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效新消息较少，大部分为重复或无关内容，仅筛选出2条影响较大的消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2119, prompt_tokens=9802, total_tokens=11921, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1448, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=74)
+content length: 1477
+============================================================
+{
+  "news": [
+    {
+      "title": "Pimco警告伊朗战争或致美联储加息",
+      "summary": "太平洋投资管理公司(Pimco)警告称，伊朗战争可能推高通胀，迫使美联储加息。这将对加密货币等风险资产构成压力。当前BTC在80K附近震荡，加息预期可能加剧下行风险，需警惕BTC、ETH等数字货币回调。信号看空。",
+      "reason": "直接影响风险资产估值的宏观紧缩预期，属于高优先级宏观经济消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N4X1UwbEhOZ0V4bDhwdFlmRFpua2RxeFBQalVfbGpsZHRyRWp5SWNOaGY3R2FTZlM4dmZtNWRxUTIyaDBybU5sNkFJTURLTzdSLWJRSVk1TVhoX0d0S1laSGM?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Saylor暗示MicroStrategy将再买BTC",
+      "summary": "MicroStrategy创始人Michael Saylor发布“Back to Work”信号，暗示公司可能在暂停一周后继续增持比特币。此前该公司已持有大量BTC，持续买入支撑价格。消息利好BTC，显示机构长期看涨信心。",
+      "reason": "机构增持是中期利好信号，属于优先级二，且Saylor是市场风向标。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNTJfano3TGljZXRhblZhWWpMY0d2dXV0S3h0YUwzSWM3cWd2QjhHVDVnTXREVHUxQld1OUlQVVRaVEZSaEJwbnplQkw5MUpLMEU0NkN0NVpqUmtiT3ZwREd4cDZHdXFRYUN2cUI4WnNLeUtiXzBDMExFczRoX1RhTm5RX2ZFY3lELWVlV2xYdDZmblpBMmJkS1lsYjRMVWhqZTc5dHJNZVZvZGYwVGc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他消息多为重复或低价值，筛选后仅2条符合条件。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3094, prompt_tokens=10663, total_tokens=13757, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2728, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9511)
+content length: 793
+============================================================
+{
+  "news": [
+    {
+      "title": "Pimco警告伊朗战争或致美联储加息",
+      "summary": "太平洋投资管理公司（Pimco）警告称，伊朗战争可能迫使美联储加息以应对通胀，这将利空风险资产。加密市场可能受宏观紧缩预期打压，比特币和以太坊面临下行压力。该消息为强烈看空信号，可能引发短期抛售。涉及币种：BTC、ETH。",
+      "reason": "宏观紧缩预期直接影响风险资产走势，Pimco作为顶级机构警告美联储加息，属于优先级二宏观经济事件，且地缘政治风险加剧不确定性。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N4X1UwbEhOZ0V4bDhwdFlmRFpua2RxeFBQalVfbGpsZHRyRWp5SWNOaGY3R2FTZlM4dmZtNWRxUTIyaDBybU5sNkFJTURLTzdSLWJRSVk1TVhoX0d0S1laSGM?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分消息与历史重复，仅筛选出一条具有交易价值的新消息。其他消息如Saylor发布Tracker信号已包含在历史消息中。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2464, prompt_tokens=10663, total_tokens=13127, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1690, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=39)
+content length: 1666
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor发复工信号，策略或再买BTC",
+      "summary": "MicroStrategy联合创始人Michael Saylor发布'Back to Work'信号，暗示在暂停一周后可能恢复比特币购买。此前公司持有约50万BTC，Saylor近期频繁通过Tracker信息暗示增持。该信号通常预示未来几天内将有新的比特币买入公告，对BTC形成买盘支撑。属机构增持类利好，看多BTC。",
+      "reason": "符合优先级二：机构动向，Saylor的'Back to Work'信号历史关联度极高，预示MicroStrategy即将买入BTC，可能推动价格短期上涨。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNTJfano3TGljZXRhblZhWWpMY0d2dXV0S3h0YUwzSWM3cWd2QjhHVDVnTXREVHUxQld1OUlQVVRaVEZSaEJwbnplQkw5MUpLMEU0NkN0NVpqUmtiT3ZwREd4cDZHdXFRYUN2cUI4WnNLeUtiXzBDMExFczRoX1RhTm5RX2ZFY3lELWVlV2xYdDZmblpBMmJkS1lsYjRMVWhqZTc5dHJNZVZvZGYwVGc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Pimco警告伊朗战争或致美联储加息",
+      "summary": "太平洋投资管理公司（Pimco）警告称，若伊朗局势升级为战争，可能导致美联储被迫加息以应对通胀。加息将收紧流动性，利空所有风险资产，包括加密货币。当前BTC在$80K附近震荡，宏观压力可能打压市场情绪。此消息与近期美联储通胀预测升温一致，加剧了市场对紧缩政策的担忧。看空BTC和ETH。",
+      "reason": "符合优先级一：宏观经济数据，地缘政治风险叠加加息预期，直接影响风险资产定价，影响程度大。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N4X1UwbEhOZ0V4bDhwdFlmRFpua2RxeFBQalVfbGpsZHRyRWp5SWNOaGY3R2FTZlM4dmZtNWRxUTIyaDBybU5sNkFJTURLTzdSLWJRSVk1TVhoX0d0S1laSGM?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前6小时窗口内多数消息为重复性内容（如Binance旧公告、恐惧贪婪指数持续47、已报道的宏观预测等），仅筛选出上述2条具有明确交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1036, prompt_tokens=4327, total_tokens=5363, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=368, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3175)
+content length: 1473
+============================================================
+{
+  "news": [
+    {
+      "title": "Pimco警告伊朗战争或致美联储加息",
+      "summary": "太平洋投资管理公司(Pimco)警告称，若伊朗冲突升级，美联储可能被迫加息以应对通胀。加息将收紧流动性，利空风险资产，包括BTC和ETH。目前市场尚未充分定价该风险，若冲突加剧，避险情绪将主导市场。信号：看空，短期冲击可能较大。",
+      "reason": "宏观经济风险事件，直接影响风险资产定价，属于优先级二中的宏观经济数据影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N4X1UwbEhOZ0V4bDhwdFlmRFpua2RxeFBQalVfbGpsZHRyRWp5SWNOaGY3R2FTZlM4dmZtNWRxUTIyaDBybU5sNkFJTURLTzdSLWJRSVk1TVhoX0d0S1laSGM?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Saylor暗示Strategy将再次买入BTC",
+      "summary": "MicroStrategy创始人Michael Saylor发推‘Back to Work’，暗示公司可能恢复比特币购买。此前Strategy在暂停一周后重新入场，若兑现将带来机构买盘。这是典型的机构增持信号，对BTC直接利好。需关注后续公告确认。",
+      "reason": "机构动向属于优先级二，Saylor的公开表态通常伴有实际买入，对BTC价格有中期支撑。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNTJfano3TGljZXRhblZhWWpMY0d2dXV0S3h0YUwzSWM3cWd2QjhHVDVnTXREVHUxQld1OUlQVVRaVEZSaEJwbnplQkw5MUpLMEU0NkN0NVpqUmtiT3ZwREd4cDZHdXFRYUN2cUI4WnNLeUtiXzBDMExFczRoX1RhTm5RX2ZFY3lELWVlV2xYdDZmblpBMmJkS1lsYjRMVWhqZTc5dHJNZVZvZGYwVGc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
