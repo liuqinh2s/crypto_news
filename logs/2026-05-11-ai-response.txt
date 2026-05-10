@@ -216,3 +216,63 @@ content length: 4055
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2475, prompt_tokens=11340, total_tokens=13815, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1420, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10188)
+content length: 2301
+============================================================
+{
+  "news": [
+    {
+      "title": "ETH/BTC跌35%创一年新低",
+      "summary": "CoinTelegraph报道，以太坊相对比特币的汇率在过去一年下跌了35%，目前ETH/BTC已跌破0.02。技术面显示ETH持续疲软，流动性外流至BTC及其他L1公链。若ETH继续下破关键支撑0.018，可能加速下跌。当前ETH/BTC处于下行通道中，未见反转信号。影响币种：ETH, BTC。信号：看空。",
+      "reason": "ETH/BTC持续走弱反映市场对ETH信心不足，可能引发资金流出，对ETH多头不利。属于中期趋势性信号，对交易决策有参考价值。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/ethereum-down-35-versus-bitcoin-in-year-will-eth-downtrend-continue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Coinbase分析师：BTC与美股脱钩",
+      "summary": "Coinbase分析师指出，比特币正在形成独立于美股的市场叙事，不再紧随纳指或标普500波动。Q2展望中性，但因宏观不确定性（通胀、地缘风险），短期内仍可能震荡。影响币种：BTC。信号：中性。",
+      "reason": "机构分析师观点影响市场情绪，脱钩信号意味着BTC可能更具独立性，但未提供明确方向，属于中期观察点。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbnpidHZKUm9uaWJoWXQ2TklsQmh4UExiUVJlUlBCYmdSWnJpQzNiVFFhcFBtQWRCWnBTM2RTYVBGTFE4TmVWQ0hucjJsS3dQZEhHaFd1SEpHRG91Vi1aSXVLUG52bXlOeTVFbHd6OG9yTUVhZ2FhLWJ5aWtGOTRqRVo3cWhDdC15bGgxX1EzWDR1T1l4N2lCcndYanRLem50YmFoQWZSTDFwT1Z4U3NlZFYzZzc?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "4年周期预测：BTC年底达15万美元",
+      "summary": "24/7 Wall St.报道，基于比特币4年减半周期规律，分析师预测BTC应在2026年底达到15万美元。当前价格约8万美元，距离目标有87%涨幅。但该预测基于历史模式，需警惕宏观风险。影响币种：BTC。信号：看多。",
+      "reason": "周期预测在社交媒体引起讨论，可能提振多头情绪，但历史规律不保证未来，属于中长期乐观预期。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZUQ1Vm5zYTRFQUxGQW55dTk5QnpETGdBVWRwcWNkRmlPTzFfWWc2eG1EVUQ0c1E4bGQ1aFNpQUt6SC1ZWXA1MXEzT0pfVFhZTWp0MlFrOW0zYVpIMkZXSGZDQmFOd3BsakVQd0RhamhFa0ZYeWNZSGs3RXpjUWxEblRjVVExYW5FQU5qNTF4R2hCZ3gtZGRWUENDTW1VdUtQUUpjb2VGWlV4cGJNUkE?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮新闻多数与历史重复，仅筛选出3条新且有交易价值的信息。"
+}
