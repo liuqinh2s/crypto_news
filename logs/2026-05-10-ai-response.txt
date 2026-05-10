@@ -1630,3 +1630,79 @@ content length: 3685
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2478, prompt_tokens=10046, total_tokens=12524, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1555, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8894)
+content length: 2208
+============================================================
+{
+  "news": [
+    {
+      "title": "Wasabi Protocol安全事件进展",
+      "summary": "Wasabi Protocol更新安全事件处理进展，目前尚未达成用户赔付最终方案。该事件可能影响项目代币，若赔付不明确，可能引发抛售压力。建议规避相关代币。",
+      "reason": "项目安全事件直接影响代币价格，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["WASABI"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512028.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "sato单日涨超77%巨鲸浮盈",
+      "summary": "sato代币单日涨幅超77%，榜一地址runecrypto.eth浮盈约52.7万美元。短期投机性上涨，追高风险较大，需警惕回调。",
+      "reason": "代币价格异动，可能引发短期交易机会，但属于中小市值项目。",
+      "category": "链上异动",
+      "impact_coins": ["SATO"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512026.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "卢旺达通过虚拟资产监管法案",
+      "summary": "卢旺达议会通过虚拟资产监管法案，未授权运营最高罚款1亿卢郎。非洲国家监管趋严，但对全球市场影响有限。",
+      "reason": "监管动态，属于优先级一中的监管政策，但影响范围小。",
+      "category": "监管政策",
+      "impact_coins": [],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512025.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国炼油厂爆炸油价飙升",
+      "summary": "美国炼油厂突发爆炸，可能推高油价，加剧通胀预期。加密货币市场近8万人爆仓，显示风险资产承压。油价上涨可能促使美联储维持紧缩，利空BTC和ETH。",
+      "reason": "宏观经济事件，影响风险资产情绪，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "新浪财经 via 雪球",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPU29JbnBNdklSTzRqVENPb25PbldGQXpNd0ZmUndOS0EzRW14MXd5V19WWmpud3ptUnFUeDA2ZFg0XzFPUk90TndWNmZ4Wmx0YUpJNFhReE1RZGZXMnJQdUJwcTliY0pOUWMxWVNsRTZneUpteUttN002RHBPQm51dGVNZjgyaVRiRjZ6alA2MHBrcjZGSmM4cVlHbEZzOWROQ2gzQ0RPVGJXWWJpeVZqNzRjbV85MjZyQkhYR1pqam9HTVkxM0NlQ1BHUzJpYlF3UC1YdDVDUmZpckZRLVRxbEJKSTZfemR2SFM3ZnNfek1Fc2xGNHJSZDA4blU?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前市场情绪中性，缺乏重大驱动事件，已筛出4条较有价值消息。"
+}
