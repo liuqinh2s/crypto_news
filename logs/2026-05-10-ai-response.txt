@@ -1129,3 +1129,48 @@ content length: 1481
   ],
   "note": "近6小时有效新消息较少，多数为重复或非交易相关，仅筛选出3条关键消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3353, prompt_tokens=9829, total_tokens=13182, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2718, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8677)
+content length: 1493
+============================================================
+{
+  "news": [
+    {
+      "title": "芝商所推比特币波动率期货",
+      "summary": "芝商所（CME）宣布将推出比特币波动率期货，该产品基于比特币期权隐含波动率指数，为投资者提供新的对冲工具。此举可能增加机构参与度，提升BTC市场深度和成熟度，但短期内对价格直接影响有限。影响币种：BTC。信号：中性偏利好，因衍生品工具完善吸引机构，但非直接买入压力。",
+      "reason": "优先级二：市场结构创新，虽非直接行情驱动，但属重大衍生品事件，影响未来BTC交易生态。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512018.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "巨鲸1700万刀买入ETH质押",
+      "summary": "某巨鲸地址斥资1700万美元买入7284枚ETH，并全部转入Lido进行质押。该行为表明大户看好ETH长期价值，通过质押减少市场流通量，对ETH构成直接看涨信号，短期内可能提振ETH价格。影响币种：ETH。信号：bullish。",
+      "reason": "优先级一：巨鲸异动，大额买入并质押属于囤币行为，是看涨信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512016.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket预测俄乌和平概率38%",
+      "summary": "预测市场Polymarket数据显示，2027年前乌克兰与俄罗斯达成和平协议的概率为38%。若和平实现，将显著降低地缘政治风险，利好风险资产包括加密货币。但目前概率不高，短期不构成直接交易信号，仅作为宏观情绪参考。影响币种：BTC、ETH。信号：中性。",
+      "reason": "优先级三：市场情绪信号，地缘政治风险缓解预期可能影响整体风险偏好，但概率较低，影响微弱。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512020.html"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中可交易价值的新消息较少，大部分与历史重复或为营销内容，仅筛选出3条。"
+}
