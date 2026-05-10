@@ -110,3 +110,109 @@ content length: 4131
   ],
   "note": "部分Binance公告已过时去重；恐惧贪婪指数未变未选；其他消息重复或影响微弱已跳过。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=994, prompt_tokens=11432, total_tokens=12426, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=945, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10280)
+content length: 89
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的所有消息均与历史消息重复，无新增有价值信号。恐惧贪婪指数保持47不变，宏观与监管无新动态，市场处于观望状态。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2499, prompt_tokens=11432, total_tokens=13931, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=604, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=40)
+content length: 4055
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币主导率下降或预示山寨季",
+      "summary": "AMBCrypto报道称比特币主导率再次走弱，历史数据显示2017年和2021年主导率下降后迎来了山寨币季节。目前BTC主导率从60%+回落，若延续趋势，资金可能轮动至ETH、SOL等主流山寨币及部分小市值币种。该信号为中性偏多山寨币，但需警惕BTC进一步下跌拖累整体市场。短期影响中等，若主导率继续下降，可考虑做多ETH/BTC或布局优质山寨。",
+      "reason": "市场结构变化直接影响交易策略，属于优先级二的中期影响信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdnBsLTRqRVpIaVdoRmZUTlAzamlxeEJQSS1RbXBvYzY4QU1vRHlVWDRvQ2VLQjhPSmo0MzljWFg0UEZhNTFYaWRST3JEcGVuQTcxME9FOUpvemFKc21kWFlUNEJRUEMycXlMSmpmcXhrSXhlLW1aUkRlYUNHUlVqQnFuV1Y1OGo3bzgwcl9JcWMtQdIBlwFBVV95cUxQeEhZSkFRanFlWEhoR2dpNXM2bG15ODZVdTZUdmtKWjdiMDR2bXQwODV0NThqQW5VVFBVTEo0ckJqUGltMWtFMjA3dUpqODdBbDhOWVdfcTZNbWZNNDZ0dDVJOVJLVFQzUnBYLVpSZ3Y0MERCTk5SbzVuSjcxaWZCbXFVcHVJWFR3Y1oyc3RIcUtvSlR5akFJ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "新泽西养老金持有MSTR布局BTC",
+      "summary": "新泽西州养老基金持有1620万美元的MicroStrategy（MSTR）股票，以此间接获取比特币敞口。该事件显示传统机构通过合规渠道配置BTC的趋势持续，为看多信号。虽然直接金额不大，但代表了养老金此类长期资金的入场意愿，对BTC构成中长期利好。可能带动其他养老金效仿。",
+      "reason": "机构动向属于优先级二，增持BTC为看多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcnRrOTkxamtUdVBVTElTLWJIOWptZGFRS0NIbm1CT2dwZE42STZaSmFtbFVvd1ZHVVBrMU56ZGM4VERNSkJlVGNUQjE0MXZhV3dPRkJFdGIxNk9rWW9tdm9GLTM5U054cXRKal84akh5SjFDdkQ0RGkyVWl2Nk1HUkt2aw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普儿子支持10亿美元AI加密基金",
+      "summary": "据报道，特朗普的儿子们支持一个10亿美元的投资网络，瞄准AI、加密和无人机公司，这些领域受到白宫青睐。该消息显示政治家族背书加密行业，可能提振市场信心并吸引更多合规资本。短期看多加密整体，尤其AI和DePIN相关代币。但注意具体投资尚未落地，影响有限。",
+      "reason": "政治人物支持加密属于优先级的监管/政策利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "AI相关币种"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFRnaWNwTkUzQVJqQmVreGZhX1M2U2pMTkVybWgzVWg1VWtzWVRRZ0xmVzQtdE5ib1V0UkVEQl9tZTFxbXFTUlFzdDZVTkViQkhOR080YkV0T01NbVRJRWdXSW0zS1pCQ19RNnprWnBMRzRCaWRCdWdNQUIzSzl5dFNCcHc5aWtOWGEzc09tSXh3bVEx?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "量子抗性钱包竞赛：加密企业备战",
+      "summary": "多家加密公司正竞相开发量子抗性钱包，以防范未来量子计算机对BTC、ETH等网络的威胁。虽然量子计算短期内无法破解现有加密，但此举表明行业提前布局，利好BTC/ETH的长期安全性。消息对短期价格无直接影响，但属于技术升级里程碑，偏中性。",
+      "reason": "技术升级属于优先级二，但影响长期，短期交易价值低。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367321/crypto-firms-race-quantum-proof-wallets-bitcoin-ethereum"
+        },
+        {
+          "name": "Yahoo Tech",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU2VZMUVpWlRNcDhqY0FVS2hSc0M4OFdoTHlNUXlXRml3Y3VRSTdpMVpnX1lTMnh6NUE3YzZQcnNTMUhGWXF3RDZpekRHWVE0SlJZdlk4T1lDMEpRMXRQQlNZZWVTTDJxRldKZHVWSXlraHdPejRpQ0J2eHZoV183eWVlR21HS3lZS1oxU1Njb3pKWEppRzhr?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "FNMA进军加密抵押贷款：机构采用案例",
+      "summary": "联邦国民抵押贷款协会（FNMA）可能转向加密支持的抵押贷款，这是传统大型金融机构采用加密资产的又一案例。表明加密资产正逐步融入主流金融体系，长期利好BTC等。但具体执行细节未公布，短期影响微弱。",
+      "reason": "机构采用属于优先级二，但FNMA并非直接加密公司，影响有限。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPREtNMWpBeVBRMG8yalhEb1N6dkRsa1hFMTdTeGk3ZjZ3X3YySlU4VDRXME9mTTFaaTh2ZUt6bW5mWWFKRkFkNzBtaEJlQUxUb2hSdDNhSWdUaHdzQ293NlZxQVZwU0toQlQ2SHk0U3lPYXVCREtrQnZJeHhfMlFCWFZyQjBmNXo3OW9pWnhxcFB2eWZYdVlsdnlTc18tQ0pCbmc?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
