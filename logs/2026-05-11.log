@@ -1,0 +1,90 @@
+2026-05-10 16:00:35 [INFO] 🚀 开始抓取 2026-05-11 00:00 币圈新闻
+2026-05-10 16:00:35 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-10 16:00:35 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-10 16:00:35 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-10 16:00:35 [INFO]   ⏭ Decrypt: 过滤掉 38 条非近期新闻
+2026-05-10 16:00:35 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-10 16:00:35 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-10 16:00:35 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-10 16:00:35 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-10 16:00:35 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-10 16:00:35 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:35 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:35 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-10 16:00:35 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ Blockworks: 过滤掉 15 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-10 16:00:36 [INFO]   ⏭ Crypto Twitter: 过滤掉 37 条非近期新闻
+2026-05-10 16:00:39 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 21 条非近期新闻
+2026-05-10 16:00:46 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 1 条非近期新闻
+2026-05-10 16:00:50 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-10 16:00:50 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-10 16:00:50 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-10 16:00:50 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:50 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-10 16:00:50 [INFO]   ✓ CoinDesk: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ The Block: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ Decrypt: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-10 16:00:50 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ Blockworks: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ DL News: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ 金色财经: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ PANews: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-10 16:00:50 [INFO]   ✓ Reddit r/bitcoin: 4 条
+2026-05-10 16:00:50 [INFO]   ✓ Crypto Twitter: 13 条
+2026-05-10 16:00:50 [INFO]   ✓ 宏观经济: 1 条
+2026-05-10 16:00:50 [INFO]   ✓ Binance公告: 20 条
+2026-05-10 16:00:50 [INFO]   ✓ OKX公告: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ Bitget公告: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ Whale Alert: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-10 16:00:50 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-10 16:00:50 [INFO]   ✓ 雪球加密: 0 条
+2026-05-10 16:00:50 [INFO] 📊 共抓取 41 条新闻
+2026-05-10 16:00:50 [INFO] 📋 原始新闻已保存: reports/2026-05-11-00-raw.json (41 条)
+2026-05-10 16:00:50 [INFO] 📋 标题摘要已保存: reports/2026-05-11-00-raw-titles.md
+2026-05-10 16:00:50 [INFO] ✅ 抓取完成，共 41 条，已保存到 reports/2026-05-11-00-raw.json
+2026-05-10 16:00:51 [INFO] 🤖 开始 AI 筛选 2026-05-11 00:00 币圈消息
+2026-05-10 16:00:51 [INFO] 📋 已加载原始新闻: reports/2026-05-11-00-raw.json (41 条)
+2026-05-10 16:00:51 [INFO] 📚 已加载历史新闻标题（17232 字符）
+2026-05-10 16:00:51 [INFO] 📚 已加载历史筛选标题 14 条、URL 14 个，用于去重
+2026-05-10 16:00:51 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-10 16:00:51 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-10 16:00:51 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（41 条，10026 字符，temp=0.3）
+2026-05-10 16:01:39 [INFO] AI 原始返回已保存: logs/2026-05-11-ai-response.txt (finish_reason=stop, 4131 字符)
+2026-05-10 16:01:39 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-11-00-ai-raw.json
+2026-05-10 16:01:39 [DEBUG] parse_json_response 输入长度: 4131 字符
+2026-05-10 16:01:39 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Pimco警告伊朗战争或致加息",
+      "summary": "太平洋投资管理公司(Pimco)警告称，如果伊朗局势升级为全面战争，美联储可能被迫加息以应对油价飙升和通胀。这将对风险资产包括加密货币形成重大利空，因为紧缩货币政策会抽离流动性。影响所有币种，尤其是BTC和ETH。信号：看空。",
+      "reason": "宏观紧缩预期直接影响风险资产估值，属于优先级二的重大宏观经济事件，且战争不确定性可能催化避险情绪。",
+      "category": "宏观经济",
+      "impact_coi
+2026-05-10 16:01:39 [DEBUG] 从 JSON 对象的 news 字段提取到 6 条记录
+2026-05-10 16:01:39 [INFO] ✅ AI 返回 6 条新闻
+2026-05-10 16:01:39 [INFO] ✅ AI 筛选出 6 条交易相关消息，符合预期
+2026-05-10 16:01:39 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
+2026-05-10 16:01:39 [INFO] 🔄 去重：移除 3 条与历史报告重复的新闻
+2026-05-10 16:01:39 [DEBUG]   去重: 「Pimco警告伊朗战争或致加息」 → URL重复: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N
+2026-05-10 16:01:39 [DEBUG]   去重: 「3.62M ETH转入币安抛压显著」 → URL重复: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oXzQ4Q1N
+2026-05-10 16:01:39 [DEBUG]   去重: 「Saylor暗示下周继续增持BTC」 → URL重复: https://news.google.com/rss/articles/CBMirgFBVV95cUxQNTJfano
+2026-05-10 16:01:39 [INFO] 📦 JSON 已保存: reports/2026-05-11-00.json
+2026-05-10 16:01:39 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
