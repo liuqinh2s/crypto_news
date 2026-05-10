@@ -1174,3 +1174,264 @@ content length: 1493
   ],
   "note": "本轮素材中可交易价值的新消息较少，大部分与历史重复或为营销内容，仅筛选出3条。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1044, prompt_tokens=10548, total_tokens=11592, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=792, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9396)
+content length: 611
+============================================================
+{
+  "news": [
+    {
+      "title": "欧洲央行警告AI风险需重估金融基建",
+      "summary": "欧洲央行官员埃斯克里瓦表示，人工智能催生各类风险，需重启金融基础设施全面评估。这可能导致更严格的加密监管，影响市场情绪。可能影响BTC、ETH等主要币种。从交易角度看，监管收紧信号偏空，但实际政策落地尚需时间，短期影响有限。",
+      "reason": "欧洲央行作为主要央行对AI风险的警告可能引发监管讨论，属于宏观政策潜在风险，影响市场情绪。但当前未直接针对加密市场，影响等级较低。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512024.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分为历史重复消息或低交易价值内容，仅选出一条相对有意义的宏观信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1632, prompt_tokens=10548, total_tokens=12180, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1191, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=52)
+content length: 1141
+============================================================
+{
+  "news": [
+    {
+      "title": "欧洲央行官员警告AI风险",
+      "summary": "欧洲央行埃斯克里瓦表示，人工智能催生各类风险，需要重启对金融基础设施的全面评估。这可能影响全球金融监管框架，包括加密货币市场。短期影响有限，但长期可能带来更严格的监管环境。对BTC、ETH等主流币种影响中性偏空，因为政策不确定性可能压制风险偏好。",
+      "reason": "属于宏观经济与监管动态，可能间接影响加密市场情绪，符合优先级二的宏观因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512024.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "7大比特币矿池加入Stratum V2",
+      "summary": "七大比特币矿池（占全网算力约40%）宣布加入Stratum V2协议，该协议可提升挖矿效率、降低带宽需求并增强去中心化。这是比特币网络技术升级的重要里程碑，长期利好比特币安全性，但短期对价格影响有限。市场可能反应中性偏多。",
+      "reason": "比特币基础设施重大升级，属于技术里程碑，符合优先级二中的技术升级类别，长期利好但非直接价格驱动。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/7-major-bitcoin-mining-pools-join-stratum-v2"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "今日多数消息重复或价值较低，仅筛选出两条有一定关注度的新闻。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2178, prompt_tokens=10548, total_tokens=12726, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1918, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=52)
+content length: 629
+============================================================
+{
+  "news": [
+    {
+      "title": "欧洲央行：AI风险或需重估金融基础设施",
+      "summary": "欧洲央行官员埃斯克里瓦表示，人工智能催生各类风险，需要重启金融基础设施全面评估。此言论暗示未来可能出台更严格的AI监管政策，间接影响加密市场中的AI相关代币和整体风险偏好。目前对加密市场直接影响有限，但中长期可能增加监管不确定性。信号中性，建议关注后续政策动向。",
+      "reason": "优先级二宏观经济，涉及AI监管对金融基础设施的影响，可能波及加密货币市场，但暂无直接利空或利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512024.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材与历史消息高度重复，仅有1条新消息且影响力较低，其余均为已报道事件或低价值信息，因此仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3136, prompt_tokens=12384, total_tokens=15520, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2643, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11232)
+content length: 1184
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸三天内存入7.54亿ETH",
+      "summary": "链上监测显示，BTC OG内幕巨鲸在过去三天内累计向中心化交易所存入322,268.33枚ETH（约7.54亿美元），11小时前又转入78,168.5枚ETH（1.8亿美元）。该巨鲸目前仍持有225,449.31枚ETH和19,000多枚BTC。大额ETH转入交易所通常意味着潜在的抛售压力，对ETH价格构成短期利空信号。投资者需警惕ETH价格回调风险。",
+      "reason": "巨鲸大额转入交易所是优先级一的链上异动信号，直接增加抛压，需立即关注。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512021.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "欧央行官员警告AI与稳定币风险",
+      "summary": "欧洲央行管理委员会委员埃斯克里瓦表示，人工智能快速发展催生各类风险，各国央行需重新评估金融基础设施的抗风险韧性，同时强调央行需要坚守最终兜底角色以抵御稳定币带来的潜在风险。该言论可能影响市场对稳定币监管收紧的预期，对USDT/USDC等稳定币相关生态构成潜在利空。但短期内影响有限，属于中期政策信号。",
+      "reason": "监管层言论对稳定币未来监管方向有引导作用，属于中期影响。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512024.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分消息与历史消息重复或交易价值较低，仅有上述两条符合筛选标准且未重复。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1772, prompt_tokens=12384, total_tokens=14156, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1474, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=96)
+content length: 692
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸1700万刀购入ETH并质押",
+      "summary": "5月10日，据Onchain Lens监测，某巨鲸花费1700万枚USDC以2334美元价格买入7284枚ETH，随后通过Lido Finance进行质押。该巨鲸仍持有1015万枚USDC，或将继续买入更多ETH。此行为显示巨鲸对ETH的长期看好，通过质押锁定流动性，减少市场抛压，对ETH构成看多信号。影响币种主要为ETH。",
+      "reason": "巨鲸大额买入并质押ETH，属于优先级一中的项目方重大事件（巨鲸异动），直接影响行情，可视为看多信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512016.html"},
+        {"name": "Onchain Lens", "url": "https://x.com/OnchainLens/status/20532803"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段多数消息为历史重复或低影响力事件，仅筛选出1条符合标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2373, prompt_tokens=5318, total_tokens=7691, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1290, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=4166)
+content length: 2663
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸向CEX存入7.54亿美元ETH",
+      "summary": "BTC OG内幕巨鲸近三天向中心化交易所存入7.54亿美元ETH，当前仍持有20.5亿美元BTC和ETH。大额ETH流入交易所通常暗示抛售意图，形成供应压力。影响ETH价格偏空，短期需警惕回调风险。",
+      "reason": "巨鲸大额存入交易所属于优先级一链上异动，直接增加抛压信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512021.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy CEO：仅特定情况卖BTC",
+      "summary": "Strategy（原MicroStrategy）CEO表示公司仅在支付股息或税务优化等特定情况下出售比特币，整体偏向长期持有。该表态缓解市场对机构大规模抛售的担忧，增强比特币持有者信心，短期利好BTC。",
+      "reason": "机构动态（优先级二），明确持币态度减少抛压预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512019.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "芝商所将推出比特币波动率期货",
+      "summary": "芝商所宣布将推出比特币波动率期货合约，为投资者提供对冲BTC波动风险的工具。新衍生品可能增加市场流动性和机构参与度，短期影响中性，长期有利于比特币价格发现。",
+      "reason": "新金融产品推出（优先级二），影响市场结构。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512018.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "巨鲸买入7284枚ETH并质押",
+      "summary": "某巨鲸斥资1700万美元买入7284枚ETH并转入Lido质押。质押行为减少市场流通量，显示长期持有信心，对ETH价格构成支撑，短期看涨。",
+      "reason": "巨鲸买入并质押减少供给（优先级一链上异动），偏多信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512016.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "稳定币奖励立法争议升温",
+      "summary": "美国参议院法案中关于稳定币奖励条款引发银行业与加密货币支持者冲突。若法案通过可能限制稳定币利息支付，影响USDT/USDC需求。当前处于博弈阶段，短期中性，中期需关注进展。",
+      "reason": "监管政策（优先级一），稳定币供应变化潜在影响。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORFFZRVpxampiQ1RVYkNoZHNxaFRnbS10bjhXSEdXN2EzWTRxc3AwZS1raEoxbXhFUDRrdFJ0N0FXcDlMNjRCaWo1c0JfMHU5SmQ3WjJyMmFSdkp0SGc3TnI5WU8xQ2VFZVQ1WnN1SlhMYlhPS0Zzc0pNNUlUdWVUeTlxbGZTZEUwaEhyTUc1c3phMXhFLW5wZ1pZWTB2RTZjWW51N19hRWwtWE9IOFBIQ2F0T3N4V0t3QWhNSGRWbm1pTjFnTlZqRFZZNU5JZElzMDBvVkVB?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
