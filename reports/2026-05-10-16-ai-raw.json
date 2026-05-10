@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-10",
+  "hour": "16",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10781,
+    "completion_tokens": 2265,
+    "total_tokens": 13046
+  },
+  "content_length": 2186,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Visa扩展加密与AI支付\",\n      \"summary\": \"Visa宣布进一步扩展其加密货币和人工智能支付服务，测试新的应用场景。这一举措表明传统金融巨头对加密技术的持续采用，可能提升市场信心，利好BTC、ETH等主流币。从合约做多视角来看，这是bullish信号，但影响程度中等，因为Visa的动向通常对市场情绪有正面作用，但短期内不会直接推高价格。\",\n      \"reason\": \"机构采用是优先级二的信号，Visa作为全球支付巨头，其动态具有中期影响，且本轮素材中唯一的新机构消息。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMinAFBVV95cUxPY2EtbkNmbWlxcXlyOHZsQkNQRTRQZXVqM21PMlVmX0VGVURXazBxX1dKZ3g4OUZHU0tVMmFEY0x5WHFvb3luaHY5d2dvcURZLWJ4bC0wZDFFZzd4OUVybENtMllJSnZHa0Y1djcxZXhzeXhrdXNmWTBUY2JTYTktR0hYRXVNMGlMZGQ2a3VYS1NYaWQ2b1ZTNEFUX3U?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"比特币站稳8万美元关口\",\n      \"summary\": \"比特币价格在8万美元以上交易，伴随立法进展和银行业转变。当前价格稳定在80K上方，显示市场韧性。虽然无重大突破，但持续站稳关键心理位对多头有利，可能吸引更多资金入场。从做多视角看，这是中性偏bullish信号，但需警惕持续横盘后的方向选择。\",\n      \"reason\": \"市场情绪信号，价格在关键位置，直接影响交易决策，但缺乏新催化剂，因此评级中性。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Investing.com\",\n          \"url\": \"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNENKaFBJMXBLLW9lTnR4XzlrZHU4UXZWUkh5YjJ3VUVTVnBkc0U0SllGekNyVkNMWnlIUFR3NEJnSFpTWDVVYVl2R0FCSEhkWTFrS3NkUjZIekVkbjFTRzBZVTZBak5jX1VlZG9HM0k1RkJrYnZQNjdVVzM3SmJ0alVROUE4YTlaMnlzY1VqUGJZUmUwRWRPOENkWjhtaUozRlFvdEhKcTRmYm9QSmJBRmpNV3FoTW5ZNU9naWJsVXRlcVVaNDlyWVJROUlzUmFUem9V?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"韩国试点扣押虚拟资产委托托管\",\n      \"summary\": \"韩国国税厅首次试点将扣押的虚拟资产委托给民间托管机构管理，这是监管正规化的一步。虽然短期无直接行情影响，但有助于提升市场合规信心，对韩国投资者偏好的加密资产形成长期利好。从合约做多视角看，中性偏bullish，影响较小。\",\n      \"reason\": \"监管政策信号，属于优先级一的下级，但影响范围限于韩国市场，且为试点阶段。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/512036.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮素材中多数消息与历史重复或为低价值内容，仅筛选出3条相对重要的新消息。建议关注次日亚洲盘面是否出现新催化剂。\"\n}"
+}
