@@ -1435,3 +1435,198 @@ content length: 2663
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=609, prompt_tokens=8688, total_tokens=9297, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=561, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7536)
+content length: 94
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的25条素材均为重复或低价值内容（Reddit讨论、历史Binance公告、无变化的恐惧贪婪指数），无新增交易相关消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1314, prompt_tokens=8688, total_tokens=10002, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1027, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8576), prompt_cache_hit_tokens=8576, prompt_cache_miss_tokens=112)
+content length: 700
+============================================================
+{
+  "news": [
+    {
+      "title": "CZ：比特币是全球货币但可能被取代",
+      "summary": "币安前CEO赵长鹏(CZ)在Reddit上表示，比特币目前是'全球货币'，但未来可能出现更先进的替代品。这一言论反映了CZ对比特币长期地位的看法，但并未带来实质性政策或市场变化。市场短期反应可能有限，但若引发FUD可能轻微压制BTC情绪。信号中性，影响币种BTC。",
+      "reason": "CZ作为行业重要人物，其观点可能影响市场情绪，但言论本身无实际行动，属于市场情绪信号。筛选标准优先级三：KOL观点。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t8vq9q/cz_says_bitcoin_is_global_money_but_could_be/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分为重复历史公告或普通讨论，仅此一条具有交易相关性的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=644, prompt_tokens=8688, total_tokens=9332, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=596, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8576), prompt_cache_hit_tokens=8576, prompt_cache_miss_tokens=112)
+content length: 90
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中所有Binance公告均已在历史消息中重复出现，其余内容为无交易价值的个人讨论或重复信息，无新增关键事件。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=480, prompt_tokens=9371, total_tokens=9851, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=425, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8219)
+content length: 101
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中，所有Binance公告和历史标题重复，恐惧贪婪指数未变化（仍为47），Reddit讨论无交易价值。无新重大消息，故输出空数组。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=554, prompt_tokens=9371, total_tokens=9925, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=522, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9344), prompt_cache_hit_tokens=9344, prompt_cache_miss_tokens=27)
+content length: 62
+============================================================
+{
+  "news": [],
+  "note": "本轮素材无新增有价值交易信息，所有消息与历史重复或缺乏交易影响。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1867, prompt_tokens=3172, total_tokens=5039, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=496, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2020)
+content length: 3685
+============================================================
+{
+  "news": [
+    {
+      "title": "Binance上架MegaETH",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，并开放Earn、Buy Crypto、Convert、VIP Loan、Margin及Futures。MEGA为以太坊生态新项目，上线初期可能引起价格波动，短期看多，但需注意新币波动风险。",
+      "reason": "直接影响MEGA价格，属交易所上币公告，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架Chip",
+      "summary": "Binance宣布将上线Chip (CHIP)，并开放Earn等产品。CHIP为AI主题代币，通过HODLer空投分发。新币上线通常带来交易机会，短期看多，但需注意抛压。",
+      "reason": "直接影响CHIP价格，属交易所上币公告，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线BILLUSDT合约",
+      "summary": "Binance Futures将推出BILLUSDT永续合约，杠杆最高75倍。BILL为某DeFi项目代币，合约上线增加交易深度和投机性，短期可能带动价格上涨，但高杠杆增加波动风险。",
+      "reason": "合约上线直接增加交易工具，影响币种流动性，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BILL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线AMD等美股合约",
+      "summary": "Binance Futures推出AMDUSDT、QCOMUSDT、USARUSDT永续合约，为美股对应代币。虽非原生加密资产，但提供做多/做空工具，可能吸引传统投资者，对相关代币有一定提振。",
+      "reason": "合约上线扩大交易品种，但影响较间接，列为中等影响。",
+      "category": "交易所",
+      "impact_coins": ["AMD", "QCOM", "USAR"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线AIGENSYN合约",
+      "summary": "Binance Futures推出AIGENSYNUSDT永续合约。AIGENSYN为AI+区块链项目，合约上线增加流动性，短期看多。",
+      "reason": "合约上线影响项目交易量，优先级一但影响有限。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/524345e64dd14a23989bfe1e547760b5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线USDS Earn服务",
+      "summary": "Binance宣布将USDS (Sky协议稳定币) 加入Earn、Buy Crypto等产品。USDS为去中心化稳定币，上线可增加采用，但影响缓慢。",
+      "reason": "稳定币相关，可能影响DeFi生态，但非直接价格驱动。",
+      "category": "项目更新",
+      "impact_coins": ["USDS"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/0a9581bcaef24410a1dace51722112c8"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线MSFT等美股合约",
+      "summary": "Binance Futures推出MSFTUSDT、AVGOUSDT、BABAUSDT永续合约，进一步扩展股票代币衍生品。对相关代币有一定交易量提升，但影响有限。",
+      "reason": "合约上线影响较小，作为市场结构变化。",
+      "category": "交易所",
+      "impact_coins": ["MSFT", "AVGO", "BABA"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/16fe15060947481ab240fb398230a3ee"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}

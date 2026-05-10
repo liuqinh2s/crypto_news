@@ -1270,3 +1270,133 @@
 2026-05-10 03:04:20 [DEBUG]   去重: 「巨鲸买入7284枚ETH并质押」 → URL重复: https://jinse.com.cn/lives/512016.html
 2026-05-10 03:04:20 [INFO] 📦 JSON 已保存: reports/2026-05-10-11.json
 2026-05-10 03:04:20 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-05-10 04:00:35 [INFO] 🚀 开始抓取 2026-05-10 12:00 币圈新闻
+2026-05-10 04:00:35 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-10 04:00:35 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-10 04:00:36 [INFO]   ⏭ Decrypt: 过滤掉 38 条非近期新闻
+2026-05-10 04:00:36 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-10 04:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-10 04:00:36 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-10 04:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-10 04:00:36 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-10 04:00:36 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-10 04:00:36 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-05-10 04:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-10 04:00:36 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-05-10 04:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-10 04:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-10 04:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-10 04:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-05-10 04:01:00 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-10 04:01:00 [INFO]   ✓ CoinDesk: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ The Block: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Decrypt: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Blockworks: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ DL News: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ 金色财经: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ PANews: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-05-10 04:01:00 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-05-10 04:01:00 [INFO]   ✓ Crypto Twitter: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ 宏观经济: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Binance公告: 20 条
+2026-05-10 04:01:00 [INFO]   ✓ OKX公告: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Bitget公告: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Whale Alert: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-10 04:01:00 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-10 04:01:00 [INFO]   ✓ 雪球加密: 0 条
+2026-05-10 04:01:00 [INFO] 📊 共抓取 25 条新闻
+2026-05-10 04:01:00 [INFO] 📋 原始新闻已保存: reports/2026-05-10-12-raw.json (25 条)
+2026-05-10 04:01:00 [INFO] 📋 标题摘要已保存: reports/2026-05-10-12-raw-titles.md
+2026-05-10 04:01:00 [INFO] ✅ 抓取完成，共 25 条，已保存到 reports/2026-05-10-12-raw.json
+2026-05-10 04:01:01 [INFO] 🤖 开始 AI 筛选 2026-05-10 12:00 币圈消息
+2026-05-10 04:01:01 [INFO] 📋 已加载原始新闻: reports/2026-05-10-12-raw.json (25 条)
+2026-05-10 04:01:01 [INFO] 📚 已加载历史新闻标题（16055 字符）
+2026-05-10 04:01:01 [INFO] 📚 已加载历史筛选标题 15 条、URL 16 个，用于去重
+2026-05-10 04:01:01 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-10 04:01:01 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-10 04:01:01 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（25 条，4433 字符，temp=0.3）
+2026-05-10 04:01:12 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 94 字符)
+2026-05-10 04:01:12 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-12-ai-raw.json
+2026-05-10 04:01:12 [DEBUG] parse_json_response 输入长度: 94 字符
+2026-05-10 04:01:12 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取的25条素材均为重复或低价值内容（Reddit讨论、历史Binance公告、无变化的恐惧贪婪指数），无新增交易相关消息。"
+}
+2026-05-10 04:01:12 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-10 04:01:12 [INFO] ✅ AI 返回 0 条新闻
+2026-05-10 04:01:12 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-05-10 04:01:12 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（25 条，4433 字符，temp=0.3）
+2026-05-10 04:01:33 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 700 字符)
+2026-05-10 04:01:33 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-12-ai-raw.json
+2026-05-10 04:01:33 [DEBUG] parse_json_response 输入长度: 700 字符
+2026-05-10 04:01:33 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "CZ：比特币是全球货币但可能被取代",
+      "summary": "币安前CEO赵长鹏(CZ)在Reddit上表示，比特币目前是'全球货币'，但未来可能出现更先进的替代品。这一言论反映了CZ对比特币长期地位的看法，但并未带来实质性政策或市场变化。市场短期反应可能有限，但若引发FUD可能轻微压制BTC情绪。信号中性，影响币种BTC。",
+      "reason": "CZ作为行业重要人物，其观点可能影响市场情绪，但言论本身无实际行动，属于市场情绪信号。筛选标准优先级三：KOL观点。",
+      "catego
+2026-05-10 04:01:33 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-10 04:01:33 [INFO] ✅ AI 返回 1 条新闻
+2026-05-10 04:01:33 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-05-10 04:01:33 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（25 条，4433 字符，temp=0.3）
+2026-05-10 04:01:45 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 90 字符)
+2026-05-10 04:01:45 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-12-ai-raw.json
+2026-05-10 04:01:45 [DEBUG] parse_json_response 输入长度: 90 字符
+2026-05-10 04:01:45 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取素材中所有Binance公告均已在历史消息中重复出现，其余内容为无交易价值的个人讨论或重复信息，无新增关键事件。"
+}
+2026-05-10 04:01:45 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-10 04:01:45 [INFO] ✅ AI 返回 0 条新闻
+2026-05-10 04:01:45 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 返回空数组，将重试
+2026-05-10 04:01:45 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（25 条，6545 字符，temp=0.3）
+2026-05-10 04:01:55 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 101 字符)
+2026-05-10 04:01:55 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-12-ai-raw.json
+2026-05-10 04:01:55 [DEBUG] parse_json_response 输入长度: 101 字符
+2026-05-10 04:01:55 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取素材中，所有Binance公告和历史标题重复，恐惧贪婪指数未变化（仍为47），Reddit讨论无交易价值。无新重大消息，故输出空数组。"
+}
+2026-05-10 04:01:55 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-10 04:01:55 [INFO] ✅ AI 返回 0 条新闻
+2026-05-10 04:01:55 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 返回空数组，将重试
+2026-05-10 04:01:55 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（25 条，6545 字符，temp=0.3）
+2026-05-10 04:02:05 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 62 字符)
+2026-05-10 04:02:05 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-12-ai-raw.json
+2026-05-10 04:02:05 [DEBUG] parse_json_response 输入长度: 62 字符
+2026-05-10 04:02:05 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮素材无新增有价值交易信息，所有消息与历史重复或缺乏交易影响。"
+}
+2026-05-10 04:02:05 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-10 04:02:05 [INFO] ✅ AI 返回 0 条新闻
+2026-05-10 04:02:05 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 返回空数组，将重试
+2026-05-10 04:02:05 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（25 条，4433 字符，temp=0.3）
+2026-05-10 04:02:37 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 3685 字符)
+2026-05-10 04:02:37 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-12-ai-raw.json
+2026-05-10 04:02:37 [DEBUG] parse_json_response 输入长度: 3685 字符
+2026-05-10 04:02:37 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Binance上架MegaETH",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，并开放Earn、Buy Crypto、Convert、VIP Loan、Margin及Futures。MEGA为以太坊生态新项目，上线初期可能引起价格波动，短期看多，但需注意新币波动风险。",
+      "reason": "直接影响MEGA价格，属交易所上币公告，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+ 
+2026-05-10 04:02:37 [DEBUG] 从 JSON 对象的 news 字段提取到 7 条记录
+2026-05-10 04:02:37 [INFO] ✅ AI 返回 7 条新闻
+2026-05-10 04:02:37 [INFO] ✅ AI 筛选出 7 条交易相关消息，符合预期
+2026-05-10 04:02:37 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
+2026-05-10 04:02:37 [INFO] 📦 JSON 已保存: reports/2026-05-10-12.json
+2026-05-10 04:02:37 [INFO] ✅ AI 筛选完成，共 7 条交易相关消息
