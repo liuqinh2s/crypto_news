@@ -1706,3 +1706,58 @@ content length: 2208
   ],
   "note": "当前市场情绪中性，缺乏重大驱动事件，已筛出4条较有价值消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2865, prompt_tokens=10133, total_tokens=12998, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1511, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8981)
+content length: 2727
+============================================================
+{
+  "news": [
+    {
+      "title": "油价上涨不利BTC",
+      "summary": "Motley Fool报道称，虽然油价上涨通常不利于比特币（因为能源成本上升可能抑制风险资产），但文章建议投资者不必恐慌。当前原油价格受地缘政治影响走高，可能对BTC短期造成压力。影响币种：BTC。信号偏空，但程度有限。",
+      "reason": "宏观经济因素（油价）直接影响风险资产偏好，属优先级二，且该新闻未被历史消息收录。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "Motley Fool", "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM3d3cnFnVEV6MnRGR0hySERxTHFidDVwbU01SzVTSmRkVWNqOC1iQVZEVUNBVzZXY3NLUHlEd0FBMlE3b2NLaXFLMlZ5QjFoNF9aSjhxdjRMSlVPTmM0MmVOaHgxUkRpZUJZV0JZT09RMGNxS3N5emNUd2ZKaC1WR0R4akpWSFdTbXZyRl9fUjBYTDBpVHZCSQ?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "房利美探索比特币应用",
+      "summary": "The Daily Upside报道，美国房利美（Fannie Mae）正在研究利用比特币解决住房市场问题，可能涉及将比特币用于抵押或支付。这是传统大型金融机构采用比特币的又一信号，可能推动BTC需求。影响币种：BTC。信号看多。",
+      "reason": "传统机构采用比特币属优先级二（机构动向），该新闻为新消息，未在历史中出现。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Daily Upside", "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQWNuSDhXMFozLWUwYmRDWnhhMVBvQWI1b010MDVUbjBqYm14UzRfR3Q3dHplcVNUWGdfQ20xZWo1ZXZzSDI5Rkt3eTdFNmNIT2M5UHNyUktYNlFkcWN4VnE5dWpIQmgzbzBSNHdFNDZRcmgyNHo1dmw2TGktd1JudmFObWhDWXIwMzdIS0ZEUWFlM2h4bUJXNmc3MVBBdlRzaUZtRHJ6VS1LbXZ4M0dWdFMtR21zLVQ5dU1maTlOZw?oc=5"}],
+      "urgency": "days"
+    },
+    {
+      "title": "秘鲁加密市场90%由稳定币驱动",
+      "summary": "Bitcoin News报道，秘鲁280亿美元的加密市场中90%由稳定币驱动。这表明稳定币在新兴市场采用广泛，资金持续流入加密生态系统。整体利好，但短期影响有限。影响币种：BTC、ETH（间接）。信号中性偏多。",
+      "reason": "稳定币采用数据反映资金入场趋势，属优先级一（稳定币供应变化间接相关），为新消息。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Bitcoin News", "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzZtVmxMM1BOY3lIdm1Ua2R4UVRkbTc2X3BNSXhFcWdPS05QSXhsY3FZVE9vRWx2SXlDS3Z6VFVjUkhYV2RVaGhfb0l2MU9kbVJGM3d5R1h2dE5aOGVFT2w5bU9YdUNfWW9IdUNPcUJuUUdoQmh6WTQ0cGxpT2psUmdEa0gyU1FJdUJ6V2pjUmU5b2U4WXc?oc=5"}],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普媒体因加密暴跌巨亏",
+      "summary": "据朝鲜日报报道，特朗普媒体公司（Trump Media）因加密货币价格暴跌录得4.059亿美元亏损。这可能加剧市场对加密波动性的担忧，短期情绪利空BTC。影响币种：BTC。信号看空。",
+      "reason": "知名公司因加密亏损引发市场情绪波动，属优先级三（市场情绪信号），且为新消息。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "朝鲜日报", "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVEtWS2JiT1F1WlcyMmQwcS1jTXVkWFE4MS1PdEZucG0zNlMwai1rTTMtRlk5b2R3VUZxaTVianJyVXNKd3JTbGZROWFaZUpYenQ4WHBWWXVzNkRhbUkzUlJCdHhzSkFDRVE4TGtKUXZ3dFNROEVPMW13WGF4X0hBMnJyUEs1cFlN?oc=5"}],
+      "urgency": "hours"
+    }
+  ]
+}
