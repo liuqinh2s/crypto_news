@@ -589,3 +589,79 @@ content length: 3885
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1714, prompt_tokens=10467, total_tokens=12181, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=792, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9315)
+content length: 2205
+============================================================
+{
+  "news": [
+    {
+      "title": "7日CEX净流出7093枚BTC",
+      "summary": "数据显示，过去7天中心化交易所（CEX）净流出7093.9枚BTC，价值约5.7亿美元。大量BTC从交易所转出通常被视为囤币信号，减少抛压，利好比特币。该信号表明投资者倾向于持有而非卖出，短期看多。",
+      "reason": "巨鲸异动——交易所流出是优先级一的直接行情信号，对BTC影响大。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512093.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CPI若超预期BTC或回调至7万",
+      "summary": "分析师警告，若美国4月CPI数据高于预期，可能引发美联储加息预期升温，比特币或回调至7万美元附近。当前BTC在80K附近盘整，CPI数据（下周三公布）是近期最大宏观风险事件。对BTC和整体加密市场构成潜在利空。",
+      "reason": "宏观经济数据直接影响风险资产，属于优先级二的中期影响消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512092.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "ARB等代币下周解锁1300万美元",
+      "summary": "ARB、BASED等代币下周将迎来代币解锁，其中ARB解锁价值约1300万美元。代币解锁增加流通供应，通常对币价构成抛压，短期利空。ARB近期走势偏弱，解锁可能加剧下跌。",
+      "reason": "项目方重大事件——解锁大量代币属于优先级一，直接影响对应币种。",
+      "category": "项目更新",
+      "impact_coins": ["ARB"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512091.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗回应美国停火提议，油市加密关注",
+      "summary": "伊朗已向美国提交对停火提议的回应，地缘局势紧张。若冲突升级，可能推高油价并影响风险资产（包括加密货币）；若缓和，则利好风险偏好。目前市场观望，不确定性中性偏空。",
+      "reason": "地缘政治事件属于宏观经济范畴，影响市场情绪和风险资产，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptopolitan",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZGg5ZThqZGV2bnJOTVJtMkRwSXVWa1BBUjJib0xudzJ5YXRkenlBR1E3a2RGb0lQdF8xYXVKOF9qZWpGZTRGUzJYS1hZRnN1aFh4cXNYSi1HRlVPb2xYN2tKallrZEQ1TEhZM1RuRFI4b3diWjBXVGloTTJfckRuWQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "因大量历史消息重复（Binance公告、恐惧贪婪指数、Saylor信号等），仅筛选出4条新且有交易价值的消息。"
+}
