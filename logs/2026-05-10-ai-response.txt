@@ -1944,3 +1944,79 @@ content length: 2186
   ],
   "note": "本轮素材中多数消息与历史重复或为低价值内容，仅筛选出3条相对重要的新消息。建议关注次日亚洲盘面是否出现新催化剂。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2425, prompt_tokens=9642, total_tokens=12067, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1333, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8490)
+content length: 2604
+============================================================
+{
+  "news": [
+    {
+      "title": "矿企MARA推进资产收购",
+      "summary": "比特币矿企MARA就Long Ridge的6亿美元票据发起同意征求程序，旨在推进资产收购。此举显示MARA积极扩张，若成功将增强其挖矿能力和资产负债表，对MARA自身股票及整体矿企信心构成利好。但短期内对BTC现货价格直接影响有限，更多是行业内部信号。影响币种：BTC（间接）, MARA相关代币（如MARA股票关联的加密货币）。看多信号：长期看，矿企整合有利行业健康发展。",
+      "reason": "矿企重大资本运作，属优先级二的项目更新，可能影响矿工行为和行业格局。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512041.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美籍货船在卡塔尔附近遭袭",
+      "summary": "一艘挂美国旗帜的货船在卡塔尔附近遭到袭击，中东地缘局势再度紧张。历史经验显示，此类事件可能推高油价并引发避险情绪，短期利空风险资产包括加密货币。BTC作为风险资产可能承压，但若冲突扩大，部分资金可能涌入BTC作为避险，走势复杂。总体偏向短期负面，影响币种：BTC、ETH。偏空信号：地缘风险通常压制风险偏好。",
+      "reason": "地缘政治事件属优先级二的宏观经济类别，可能影响全球市场情绪和资产配置。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512040.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC投资者获利了结增加",
+      "summary": "据CryptoPotato引用CQ数据，随着BTC升至3个月高位，投资者获利了结行为增加。链上数据显示交易所流入量上升，可能形成短期抛压。当前BTC在8万美元附近震荡，获利了结信号暗示上行阻力加大。影响币种：BTC。偏空信号：短期抛压增加，需关注支撑位。",
+      "reason": "链上异动属优先级一，直接反映市场供需变化，具有交易参考价值。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CryptoPotato",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYXcyVWRRTHNfOW5SWENNZmNtQlRTR2lCazJDdl9DaTJwU0hwYWpNQXFqaURlanJROXJLWUphdnZKcHhvTE55LV96MU5hS05kLV9jZE82elpaZTdpN3daQ3oyUHJZTUVUdURqcEpYNjhiZnZ2R3Z1SjQ0QU1WVjZOM1g0NlhfMHFUc0VmeGxCWjA5dWdiMHpwVEt3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Reddit热帖看空比特币",
+      "summary": "Reddit r/cryptocurrency出现一篇题为《Bitcoin Investing: A Financial Harakiri Without Precedent》的热帖，引发社区讨论。该帖将比特币投资比作前所未有的财务自杀，情绪极度悲观。虽然仅为个人观点，但可能反映部分散户情绪，短期加剧市场FUD。影响币种：BTC。中性信号：情绪指标，需结合其他数据判断。",
+      "reason": "市场情绪信号，属于优先级三的KOL集体看空/看多类别，极端情绪可能预示短期反转。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t90wij/bitcoin_investing_a_financial_harakiri_without/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本次筛选出的有价值新消息较少，因为多数新闻已在历史数据中重复出现（如Binance公告、特朗普媒体亏损等）。仅选出4条符合标准的新消息，供交易团队参考。"
+}
