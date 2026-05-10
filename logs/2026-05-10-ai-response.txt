@@ -2301,3 +2301,62 @@ content length: 2379
   ],
   "note": "本轮抓取素材中高质量消息较少，仅筛选出3条。Binance公告均为已发布或重复内容，恐惧贪婪指数与历史重复，其余为娱乐或无交易价值消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1819, prompt_tokens=10688, total_tokens=12507, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=932, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9536)
+content length: 2076
+============================================================
+{
+  "news": [
+    {
+      "title": "高盛预测美联储降息时间",
+      "summary": "高盛发布报告预测美联储将在2026年下半年开始降息，具体时间取决于通胀数据。若降息落地，将利好风险资产，包括加密货币。当前市场预期偏鹰，高盛观点若被市场接受，可能提振BTC、ETH等主流币。整体中性偏多，但降息时间尚远，短期影响有限。",
+      "reason": "宏观经济预期直接影响风险资产定价，高盛作为顶级投行观点具市场影响力，属于优先级二宏观经济类。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5bGJPSnA0WURKZkFCWkQyOEhHelowOVNjVmpSdTRqclhZejhZVmlwcUJkTGxhY2RkX3o4UnJ4LWwyTm1mcWtnbWRtdHo5VHlUUFRPUnU1ZGg3SUpvOWZ5THRDbWJrVXZDMDFKY1Z3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tom Lee看好ETH 2026年预测",
+      "summary": "Bitmine分析师Tom Lee发布2026年ETH预测，认为ETH将受益于生态发展和机构采用，中长期看涨。该预测为个人观点，但Tom Lee作为知名分析师，其乐观态度可能短期提振市场情绪，对ETH构成轻度利好。需注意预测不确定性。",
+      "reason": "KOL集体看多/看空属于市场情绪信号，且Tom Lee有一定知名度，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnNQeU1wMnJvZzNkc3pvWV9IcXMwWWZwdkZNdjFaM3ZnUHNfZjNLeXlDWGNnZjlJQW9yaUZXRGlOZzBGRWFKbmFPQURqRTlxUTVRLVd1MUFOTWhJWExMZ1hRaElFS1JmTDE5bXJSNnUwQTlPVTM0Vm1pZFFnQkVBMXdyeVZVTTNrQVFFSlctZjhuRTg?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "韩国加密持有量一年减半",
+      "summary": "CoinTelegraph报道，韩国加密货币持有量在过去一年减半，投资者转向股票市场。韩国作为重要加密市场，资金流出或减少对BTC、ETH等的买盘压力，属利空信号。但影响偏中长期，且韩国监管环境变化需持续关注。",
+      "reason": "资金流向变化影响市场供需，韩国市场规模较大，属于优先级二链上/资金异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/south-korea-crypto-holdings-halve-in-a-year-as-investors-turn-to-stock-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
