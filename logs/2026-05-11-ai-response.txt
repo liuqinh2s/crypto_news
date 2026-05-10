@@ -276,3 +276,62 @@ content length: 2301
   ],
   "note": "本轮新闻多数与历史重复，仅筛选出3条新且有交易价值的信息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1650, prompt_tokens=10750, total_tokens=12400, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=902, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9598)
+content length: 1757
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸开$42M ETH空单",
+      "summary": "Reddit用户报告称，某巨鲸在链上开设了价值4200万美元的ETH空头头寸。此行为可能为内幕交易或大型机构做空信号。若为内幕，可能预示近期ETH价格下跌。影响币种为ETH，看空信号。",
+      "reason": "优先级一：巨鲸大额开空直接影响ETH价格，属于链上异动，需密切关注。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t9enel/holy_a_whale_just_opened_a_42m_eth_short_could/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "韩船霍尔木兹海峡遭袭",
+      "summary": "据报道，一艘韩国船只在霍尔木兹海峡起火，疑似遭到袭击。该地区紧张局势加剧，可能影响全球油价和风险资产。加密货币市场可能因避险情绪短暂承压，但影响程度取决于后续发展。影响所有主流币，短期看空。",
+      "reason": "优先级二：地缘政治事件影响风险资产情绪，可能引发市场波动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512084.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY Act民调支持率达52%",
+      "summary": "一项民调显示，52%的受访者支持美国通过CLARITY加密法案，70%认为美国应通过加密立法。虽非实际政策，但反映公众情绪积极，可能为未来监管利好铺垫。影响币种全面，中性偏多。",
+      "reason": "优先级三：市场情绪信号，民调结果可能改善市场预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUFdzX01KclhZSEQxM3pSemV2S2p3dUhBLUhDMHRiU2V0RTdTVXF5VGNCX1ZTWExsdTMySWEySWZ0M0gxSVdZanFGZDktY0h1VHczSkRIbllOWjlHZ2ZLZ0I1c215d3NjY09fZzFWbkdaQVRMeEloMWhGb3BodVhCQjR0Y2lOUGpiOTVnckVyTUN4QXFCYUVWS0xsQ0NNdFhfRWxZ"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
