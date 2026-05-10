@@ -1069,3 +1069,63 @@ content length: 2935
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1818, prompt_tokens=9516, total_tokens=11334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1237, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8364)
+content length: 1481
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸充值8.2亿ETH至币安",
+      "summary": "曾亏损2.3亿美元的巨鲸在3天内向币安充值超过8.2亿美元的ETH，这是近期最大规模的交易所流入之一，可能预示大规模抛售。ETH价格面临显著下行压力，合约持仓需警惕清算风险。信号明确看空。",
+      "reason": "大额ETH流入交易所，历史亏损巨鲸操作，抛压信号强烈，直接影响ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512013.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "WorldCoin转入3000万WLD至托管",
+      "summary": "WorldCoin团队向BitGo托管钱包转入3000万枚WLD，价值817万美元。托管转入通常为长期持有或合规需求，短期抛压减弱，但团队资金动向需持续观察。信号中性偏多。",
+      "reason": "巨量WLD转入托管，减少市场流通预期，属于链上异动，影响WLD价格。",
+      "category": "链上异动",
+      "impact_coins": ["WLD"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512015.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国比特币溢价达2%创新高",
+      "summary": "韩国比特币溢价首次达到2%，创下伊朗战事以来新高，表明韩国市场买盘强劲，短期看多。但溢价过高可能引发套利，需关注后续波动。",
+      "reason": "韩国溢价反映地区性需求，是市场情绪和资金流入的先行指标，短期利多BTC。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512011.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时有效新消息较少，多数为重复或非交易相关，仅筛选出3条关键消息。"
+}

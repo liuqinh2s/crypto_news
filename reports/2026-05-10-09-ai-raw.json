@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-10",
+  "hour": "09",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9516,
+    "completion_tokens": 1818,
+    "total_tokens": 11334
+  },
+  "content_length": 1481,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"巨鲸充值8.2亿ETH至币安\",\n      \"summary\": \"曾亏损2.3亿美元的巨鲸在3天内向币安充值超过8.2亿美元的ETH，这是近期最大规模的交易所流入之一，可能预示大规模抛售。ETH价格面临显著下行压力，合约持仓需警惕清算风险。信号明确看空。\",\n      \"reason\": \"大额ETH流入交易所，历史亏损巨鲸操作，抛压信号强烈，直接影响ETH价格。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/512013.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"WorldCoin转入3000万WLD至托管\",\n      \"summary\": \"WorldCoin团队向BitGo托管钱包转入3000万枚WLD，价值817万美元。托管转入通常为长期持有或合规需求，短期抛压减弱，但团队资金动向需持续观察。信号中性偏多。\",\n      \"reason\": \"巨量WLD转入托管，减少市场流通预期，属于链上异动，影响WLD价格。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"WLD\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/512015.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"韩国比特币溢价达2%创新高\",\n      \"summary\": \"韩国比特币溢价首次达到2%，创下伊朗战事以来新高，表明韩国市场买盘强劲，短期看多。但溢价过高可能引发套利，需关注后续波动。\",\n      \"reason\": \"韩国溢价反映地区性需求，是市场情绪和资金流入的先行指标，短期利多BTC。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/512011.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"近6小时有效新消息较少，多数为重复或非交易相关，仅筛选出3条关键消息。\"\n}"
+}
