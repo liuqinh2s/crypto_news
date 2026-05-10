@@ -2243,3 +2243,154 @@
 2026-05-10 13:01:29 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
 2026-05-10 13:01:29 [INFO] 📦 JSON 已保存: reports/2026-05-10-21.json
 2026-05-10 13:01:29 [INFO] ✅ AI 筛选完成，共 6 条交易相关消息
+2026-05-10 14:00:31 [INFO] 🚀 开始抓取 2026-05-10 22:00 币圈新闻
+2026-05-10 14:00:31 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-10 14:00:31 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-10 14:00:31 [INFO]   ⏭ Decrypt: 过滤掉 37 条非近期新闻
+2026-05-10 14:00:31 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-10 14:00:31 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-10 14:00:31 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-10 14:00:31 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-10 14:00:31 [INFO]   ⏭ CoinDesk: 过滤掉 23 条非近期新闻
+2026-05-10 14:00:31 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:31 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:31 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ Blockworks: 过滤掉 15 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:32 [INFO]   ⏭ Crypto Twitter: 过滤掉 43 条非近期新闻
+2026-05-10 14:00:34 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 25 条非近期新闻
+2026-05-10 14:00:46 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-10 14:00:46 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-10 14:00:47 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-10 14:00:47 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-10 14:00:47 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:47 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-10 14:00:47 [INFO]   ✓ CoinDesk: 2 条
+2026-05-10 14:00:47 [INFO]   ✓ The Block: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Decrypt: 1 条
+2026-05-10 14:00:47 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-10 14:00:47 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Blockworks: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ DL News: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ 金色财经: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ PANews: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-10 14:00:47 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-05-10 14:00:47 [INFO]   ✓ Crypto Twitter: 7 条
+2026-05-10 14:00:47 [INFO]   ✓ 宏观经济: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Binance公告: 20 条
+2026-05-10 14:00:47 [INFO]   ✓ OKX公告: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Bitget公告: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Whale Alert: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-10 14:00:47 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-10 14:00:47 [INFO]   ✓ 雪球加密: 0 条
+2026-05-10 14:00:47 [INFO] 📊 共抓取 35 条新闻
+2026-05-10 14:00:47 [INFO] 📋 原始新闻已保存: reports/2026-05-10-22-raw.json (35 条)
+2026-05-10 14:00:47 [INFO] 📋 标题摘要已保存: reports/2026-05-10-22-raw-titles.md
+2026-05-10 14:00:47 [INFO] ✅ 抓取完成，共 35 条，已保存到 reports/2026-05-10-22-raw.json
+2026-05-10 14:00:48 [INFO] 🤖 开始 AI 筛选 2026-05-10 22:00 币圈消息
+2026-05-10 14:00:48 [INFO] 📋 已加载原始新闻: reports/2026-05-10-22-raw.json (35 条)
+2026-05-10 14:00:48 [INFO] 📚 已加载历史新闻标题（16727 字符）
+2026-05-10 14:00:48 [INFO] 📚 已加载历史筛选标题 17 条、URL 17 个，用于去重
+2026-05-10 14:00:48 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-10 14:00:48 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-10 14:00:48 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（35 条，8337 字符，temp=0.3）
+2026-05-10 14:01:28 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 856 字符)
+2026-05-10 14:01:28 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-22-ai-raw.json
+2026-05-10 14:01:28 [DEBUG] parse_json_response 输入长度: 856 字符
+2026-05-10 14:01:28 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "代理电商将采用加密轨道",
+      "summary": "PayPal和Google代表在Consensus Miami表示，代理商务（Agentic commerce）将建立在加密货币轨道上。这意味着AI代理将在加密网络上进行交易和支付，可能推动对相关加密资产的需求。该趋势可能长期利好支付和智能合约平台币，如ETH、SOL及支付类代币。但目前仅为讨论，短期影响有限，中性信号。",
+      "reason": "来自CoinDesk的行业趋势报道，涉及PayPal和Google的参与，可能影响市场对加密支付和AI
+2026-05-10 14:01:28 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-10 14:01:28 [INFO] ✅ AI 返回 1 条新闻
+2026-05-10 14:01:28 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-10 14:01:28 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（35 条，8337 字符，temp=0.3）
+2026-05-10 14:02:21 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 1450 字符)
+2026-05-10 14:02:21 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-22-ai-raw.json
+2026-05-10 14:02:21 [DEBUG] parse_json_response 输入长度: 1450 字符
+2026-05-10 14:02:21 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "PayPal/Google力挺加密支付",
+      "summary": "在2026年Consensus Miami大会上，PayPal和Google代表表示，代理型商务（Agentic commerce）将运行在加密轨道上。这标志着主流支付巨头对加密货币基础设施的认可，可能推动加密支付采用，利好BTC、ETH等主流币种及支付相关代币。虽然短期直接交易信号弱，但长期来看是机构积极信号，视为温和看多。",
+      "reason": "PayPal和Google作为传统金融和科技巨头，公开支持加密支付，属于机构积极
+2026-05-10 14:02:21 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-10 14:02:21 [INFO] ✅ AI 返回 2 条新闻
+2026-05-10 14:02:21 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-10 14:02:21 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（35 条，8337 字符，temp=0.3）
+2026-05-10 14:02:42 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 748 字符)
+2026-05-10 14:02:42 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-22-ai-raw.json
+2026-05-10 14:02:42 [DEBUG] parse_json_response 输入长度: 748 字符
+2026-05-10 14:02:42 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "PayPal/谷歌力挺加密支付",
+      "summary": "Consensus Miami会议上，PayPal和谷歌代表表示，未来代理电子商务（AI代理自动交易）将运行在加密货币轨道上，强调加密支付在自动化商务中的核心作用。该消息利好整体加密行业，尤其是与AI代理、支付相关的项目，如FET、AGIX、BTC、ETH。但短期无明显价格驱动，属于长期叙事支撑，信号中性偏多。",
+      "reason": "行业巨头（PayPal、Google）公开看好加密支付在AI代理商务中的应用，属于中期利好信号，但无即时
+2026-05-10 14:02:42 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-10 14:02:42 [INFO] ✅ AI 返回 1 条新闻
+2026-05-10 14:02:42 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 1 条（期望 3），将重试
+2026-05-10 14:02:42 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（35 条，11236 字符，temp=0.3）
+2026-05-10 14:03:09 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 759 字符)
+2026-05-10 14:03:09 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-22-ai-raw.json
+2026-05-10 14:03:09 [DEBUG] parse_json_response 输入长度: 759 字符
+2026-05-10 14:03:09 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "PayPal谷歌力推加密支付",
+      "summary": "在Consensus Miami大会上，PayPal和Google代表表示，代理商务（Agentic commerce）将运行在加密轨道上。这一声明表明主流科技和金融巨头正在推动加密货币在自动化交易、支付和商业领域的应用。预计将利好主流公链代币（如ETH、SOL）以及与支付相关的项目（如MATIC）。信号：看多，长期利好。",
+      "reason": "优先级二：机构动向。PayPal和Google的立场代表传统金融与科技巨头对加密货币的认可，可
+2026-05-10 14:03:09 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-10 14:03:09 [INFO] ✅ AI 返回 1 条新闻
+2026-05-10 14:03:09 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-10 14:03:09 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（35 条，11236 字符，temp=0.3）
+2026-05-10 14:03:41 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 60 字符)
+2026-05-10 14:03:41 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-22-ai-raw.json
+2026-05-10 14:03:41 [DEBUG] parse_json_response 输入长度: 60 字符
+2026-05-10 14:03:41 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "当前时段所有重要新闻均已在历史消息中收录，无新增可交易信号。"
+}
+2026-05-10 14:03:41 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-10 14:03:41 [INFO] ✅ AI 返回 0 条新闻
+2026-05-10 14:03:41 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 返回空数组，将重试
+2026-05-10 14:03:41 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（35 条，8337 字符，temp=0.3）
+2026-05-10 14:04:29 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 3020 字符)
+2026-05-10 14:04:29 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-22-ai-raw.json
+2026-05-10 14:04:29 [DEBUG] parse_json_response 输入长度: 3020 字符
+2026-05-10 14:04:29 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "SEC延迟预测市场ETF",
+      "summary": "美国SEC再次推迟对预测市场ETF的审批决定，类似此前比特币ETF的漫长斗争。这抑制了市场对创新金融产品的乐观预期，短期可能拖累BTC、ETH及相关概念币的情绪。信号偏空，但影响程度中等。",
+      "reason": "优先级一：重大监管动态，SEC决策直接影响ETF相关行情。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bear
+2026-05-10 14:04:29 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-05-10 14:04:29 [INFO] ✅ AI 返回 5 条新闻
+2026-05-10 14:04:29 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-05-10 14:04:29 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-05-10 14:04:29 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-10 14:04:29 [DEBUG]   去重: 「Bored Ape NFT复苏」 → URL重复: https://www.coindesk.com/business/2026/05/10/bored-ape-nfts-
+2026-05-10 14:04:29 [INFO] 📦 JSON 已保存: reports/2026-05-10-22.json
+2026-05-10 14:04:29 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息

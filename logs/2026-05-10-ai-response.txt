@@ -2467,3 +2467,208 @@ content length: 3768
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2202, prompt_tokens=10689, total_tokens=12891, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1849, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9537)
+content length: 856
+============================================================
+{
+  "news": [
+    {
+      "title": "代理电商将采用加密轨道",
+      "summary": "PayPal和Google代表在Consensus Miami表示，代理商务（Agentic commerce）将建立在加密货币轨道上。这意味着AI代理将在加密网络上进行交易和支付，可能推动对相关加密资产的需求。该趋势可能长期利好支付和智能合约平台币，如ETH、SOL及支付类代币。但目前仅为讨论，短期影响有限，中性信号。",
+      "reason": "来自CoinDesk的行业趋势报道，涉及PayPal和Google的参与，可能影响市场对加密支付和AI代理的预期，属于优先级二的中期影响消息。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "SOL", "XRP"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮35条抓取素材中，除本条外其他消息均与历史消息重复或缺乏交易价值。20条Binance公告为重复（涉及4-5月已发布信息），其余加密新闻如SEC延迟预测市场ETF、Coinbase裁员、巨鲸异动、宏观数据等均已出现在过去6小时历史标题中，因此仅筛选出1条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2928, prompt_tokens=10689, total_tokens=13617, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2304, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=65)
+content length: 1450
+============================================================
+{
+  "news": [
+    {
+      "title": "PayPal/Google力挺加密支付",
+      "summary": "在2026年Consensus Miami大会上，PayPal和Google代表表示，代理型商务（Agentic commerce）将运行在加密轨道上。这标志着主流支付巨头对加密货币基础设施的认可，可能推动加密支付采用，利好BTC、ETH等主流币种及支付相关代币。虽然短期直接交易信号弱，但长期来看是机构积极信号，视为温和看多。",
+      "reason": "PayPal和Google作为传统金融和科技巨头，公开支持加密支付，属于机构积极动向，可能提升市场信心。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC站稳8万，动能增强",
+      "summary": "比特币价格维持在80,000美元上方，市场动能开始升温。技术面显示BTC突破关键阻力，未平仓合约增加，可能吸引更多买盘进一步推高价格。但需警惕过热风险。主要影响BTC，短期偏多信号。",
+      "reason": "比特币价格突破后站稳80K，技术面看涨，属于市场结构信号，可能吸引更多资金流入。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbHBMRXdsUDZRX1k2bUtpU3ktRzZfUWFHclMzSnZZMlNTd3l1NUVLOEZFeHo0NU1vYmFfeDBGQ0JKWmR3NDZfUjJ6Q3Z2eWczWlp5QTVFbkZPaW5YbmxHT2dsVFNrN3Bjc0YxeUl5OHZEdlNBdkx1TWU4WjNnRWRtRGVGRmJXcnVfSUVWcmNMMUZpUEhaVFctVGFlaw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分与历史消息重复，仅筛选出两条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1258, prompt_tokens=10689, total_tokens=11947, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=962, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=65)
+content length: 748
+============================================================
+{
+  "news": [
+    {
+      "title": "PayPal/谷歌力挺加密支付",
+      "summary": "Consensus Miami会议上，PayPal和谷歌代表表示，未来代理电子商务（AI代理自动交易）将运行在加密货币轨道上，强调加密支付在自动化商务中的核心作用。该消息利好整体加密行业，尤其是与AI代理、支付相关的项目，如FET、AGIX、BTC、ETH。但短期无明显价格驱动，属于长期叙事支撑，信号中性偏多。",
+      "reason": "行业巨头（PayPal、Google）公开看好加密支付在AI代理商务中的应用，属于中期利好信号，但无即时交易价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH", "FET", "AGIX"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时消息面平淡，多数新闻与历史重复，仅筛选出1条有价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1449, prompt_tokens=11566, total_tokens=13015, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1152, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10414)
+content length: 759
+============================================================
+{
+  "news": [
+    {
+      "title": "PayPal谷歌力推加密支付",
+      "summary": "在Consensus Miami大会上，PayPal和Google代表表示，代理商务（Agentic commerce）将运行在加密轨道上。这一声明表明主流科技和金融巨头正在推动加密货币在自动化交易、支付和商业领域的应用。预计将利好主流公链代币（如ETH、SOL）以及与支付相关的项目（如MATIC）。信号：看多，长期利好。",
+      "reason": "优先级二：机构动向。PayPal和Google的立场代表传统金融与科技巨头对加密货币的认可，可能推动更多企业和用户采用加密支付。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "SOL", "MATIC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分消息与历史重复或交易价值低，仅筛选出1条高质量新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1964, prompt_tokens=11566, total_tokens=13530, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1932, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11520), prompt_cache_hit_tokens=11520, prompt_cache_miss_tokens=46)
+content length: 60
+============================================================
+{
+  "news": [],
+  "note": "当前时段所有重要新闻均已在历史消息中收录，无新增可交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2845, prompt_tokens=5194, total_tokens=8039, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1471, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=4042)
+content length: 3020
+============================================================
+{
+  "news": [
+    {
+      "title": "SEC延迟预测市场ETF",
+      "summary": "美国SEC再次推迟对预测市场ETF的审批决定，类似此前比特币ETF的漫长斗争。这抑制了市场对创新金融产品的乐观预期，短期可能拖累BTC、ETH及相关概念币的情绪。信号偏空，但影响程度中等。",
+      "reason": "优先级一：重大监管动态，SEC决策直接影响ETF相关行情。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CNBC", "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblZuZGtUUWVZOXB2a1piTktkN1JzamJla0lKaGZVVzhBcjFpQjNweG92OVRhYS1ZRkVMWVlQRS1FNWJTM05MMDhOd2xEQkhKakM5aG96ZHoxV1k2Q1ZWWUIxeVlOaWhlRDJfRmh5R0lFZ2ZaWnJBY3Yzc25JY3RJU2hqSEdOa0MwWUNCNm1B0gGTAUFVX3lxTE1pb2ZUM1d1MjNoWlByNDNLcDZZSndLTVJ2U0xUbmY1UFVWUC11UW1yTWtKUmRwS1hNaHVYT1Qwa0s0X0tsa2hZVW1FbEx2QjFrZmdTWnh0S1Ytc3dVRlJWdzQxc291c09ISGJXQ1o2Y3JlTzBfMzhXREVNTnVObGxDZzhNQ0JOb0ZSNnFKNVV0M0U0WQ?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase裁员14%",
+      "summary": "Coinbase宣布裁员14%，理由是加密货币持续低迷以及AI转型。这反映行业头部交易所面临盈利压力，可能加剧市场对加密行业前景的担忧，短线利空BTC、ETH及平台币。",
+      "reason": "优先级一：项目方重大事件，大型交易所裁员影响市场信心。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH", "COIN"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CU Today", "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMV94R0pfQ1hSU2RJTmJBbm5EUkh4X0tJbHBza2FkdWFNcTJXU3gyTTNMcHJoVTRFWWdHWmEwTHpoeDlYeU5HY0hOYW5pRk5MbkdkLVozM3JxTllrSTlRalRnZzBlQ3NtcGEtUlZFYmt4M19rbVU5VFJXb0VkaEtmWlh5VmhCU0VXZTFpRVd5VFc3aXlTXzNVNkZrWXY4MUc5NXEyQkt3d21wZmxNUW9n?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bored Ape NFT复苏",
+      "summary": "Bored Ape Yacht Club NFT地板价近期回升，交易量增加，显示加密投资者风险偏好回升。短期可能刺激APE及ETH的NFT生态情绪，但持续性待观察。信号偏多，影响有限。",
+      "reason": "优先级三：市场情绪信号，NFT龙头回暖反映风险偏好提升。",
+      "category": "市场情绪",
+      "impact_coins": ["APE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/10/bored-ape-nfts-are-finally-making-a-comeback-as-crypto-traders-rediscover-their-appetite-for-risk"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线MegaETH",
+      "summary": "Binance宣布将上线MegaETH（MEGA），并开放现货及衍生品交易。作为主流交易所的新币上线，短期将大幅提升MEGA的流动性和价格预期，利好MEGA持有者。",
+      "reason": "优先级一：交易所上币公告，直接影响对应币种价格。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线股票合约",
+      "summary": "Binance Futures上线QQQUSDT、SPYUSDT等美股指数/个股永续合约。此举扩大了加密与美股市场的交互工具，可能吸引传统投资者，利好BTC、ETH等主流资产。",
+      "reason": "优先级二：交易所重大产品创新，拓宽机构入金渠道。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/4cde981dc32d4268b7645e9d16e8d63a"}],
+      "urgency": "days"
+    }
+  ]
+}
