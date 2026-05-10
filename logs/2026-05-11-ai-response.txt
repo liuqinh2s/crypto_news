@@ -335,3 +335,94 @@ content length: 1757
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2116, prompt_tokens=10716, total_tokens=12832, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=977, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9564)
+content length: 2910
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor暗示再次买入BTC",
+      "summary": "MicroStrategy创始人Michael Saylor发布推文暗示将再次买入比特币，此前在Q1财报电话会议中曾暗示可能卖出。这一信号表明机构持续增持BTC，对价格形成支撑。影响币种：BTC。看多信号。",
+      "reason": "优先级一：项目方重大事件，Saylor作为机构代表，其买入信号直接影响BTC供需预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/saylor-bitcoin-buy-sale-announcement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美军封锁伊朗，地缘风险升温",
+      "summary": "美国军方宣布超20艘军舰参与对伊朗实施封锁，霍尔木兹海峡紧张局势加剧。地缘冲突可能推高能源价格，加剧通胀预期，对风险资产包括加密货币构成利空。影响币种：BTC、ETH。看空信号。",
+      "reason": "优先级一：重大地缘政治事件，直接影响宏观风险偏好和通胀预期，进而影响加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512087.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国政府加密持仓增加40亿美元",
+      "summary": "美国政府加密货币持仓自4月1日以来增长超过40亿美元，主要来自没收资产。历史上政府拍卖BTC曾引发短期抛压，但此次持仓增加可能加剧市场对后续抛售的担忧。影响币种：BTC。看空信号。",
+      "reason": "优先级一：巨鲸异动，政府持仓增加构成潜在抛压，属于链上异动信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pZ0l2SmtzU19sTWx5TnNDYkt2QlV1MDJnZHBQOGx3bFU0bkhFQm9YUG5qOG1hRzdJWENWdDdPSVpvSnhicndQU2wwX2FoazBlV2hsRzNXOUs0RVZqZVZGSzlhdk5RWUE1WEdZRVQtcnJJY1U?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Warren要求Meta披露稳定币计划",
+      "summary": "参议员Elizabeth Warren致信Meta要求其全面披露稳定币计划细节，此举发生在CLARITY Act投票前夕，显示监管层对私人稳定币的警惕。若法案通过，可能对稳定币发行方施加更严格合规要求，短期利空USDT、USDC等。影响币种：稳定币相关（BTC、ETH）。看空信号。",
+      "reason": "优先级一：重大监管动态，直接影响稳定币生态和监管预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t9g9bj/elizabeth_warren_wants_meta_to_spill_all_on/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币网络遭20万幽灵节点攻击",
+      "summary": "比特币核心开发者Jameson Lopp警告网络被约20万个幽灵节点（Sybil攻击）淹没，可能影响网络共识和可靠性。虽然不构成直接链上威胁，但增加网络噪音和潜在风险。影响币种：BTC。看空信号。",
+      "reason": "优先级二：链上指标异常，网络安全事件虽非直接抛压，但影响市场信心。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1t9gdi3/bitcoin_network_flooded_with_200000_ghosts_core/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
