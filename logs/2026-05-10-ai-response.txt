@@ -2075,3 +2075,229 @@ content length: 2255
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1830, prompt_tokens=9483, total_tokens=11313, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1185, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8331)
+content length: 1427
+============================================================
+{
+  "news": [
+    {
+      "title": "Tom Lee看多ETH预测",
+      "summary": "知名分析师Tom Lee（Bitmine）发布2026年ETH价格预测，表示看涨。这可能提振短期市场情绪，但仅为个人观点，无实际资金流入。影响ETH及相关代币，信号中性，需结合后续市场反应。",
+      "reason": "知名分析师预测，属于市场情绪信号，可能短期影响ETH走势。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnNQeU1wMnJvZzNkc3pvWV9IcXMwWWZwdkZNdjFaM3ZnUHNfZjNLeXlDWGNnZjlJQW9yaUZXRGlOZzBGRWFKbmFPQURqRTlxUTVRLVd1MUFOTWhJWExMZ1hRaElFS1JmTDE5bXJSNnUwQTlPVTM0Vm1pZFFnQkVBMXdyeVZVTTNrQVFFSlctZjhuRTg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "社交讨论热度创3月新高",
+      "summary": "BeInCrypto报道，加密货币社交讨论热度飙升至3个月高点，通常预示市场过热风险。这可能意味着短期回调压力增加，但中长期仍取决于基本面。信号中性偏空，需关注后续资金流向。",
+      "reason": "社交热度异常是市场情绪信号，可能预示短期回调，有交易参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaDV1dzRubWFJU3FGUE1kUk1iMFRZdVZOZmhpa3hHYkhmRVRfTW1CVHpvQnAzbndpMzZodmJRV0RLOTlNbHFRaWRUS01KTWtxNzJRZy1lYmNZNjZ0anFLYjB3WnV5a2o5LVpIMzdhRzdfUzN3XzZWdjdDUG52X01fblNjTQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分为重复历史消息，仅筛选出2条新且有交易参考价值的消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2726, prompt_tokens=9483, total_tokens=12209, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2003, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9472), prompt_cache_hit_tokens=9472, prompt_cache_miss_tokens=11)
+content length: 1483
+============================================================
+{
+  "news": [
+    {
+      "title": "Tom Lee看好ETH至4900美元",
+      "summary": "Bitmine的Tom Lee预测以太坊2026年目标价4900美元，并大额买入518万ETH。这显示机构对ETH的极度看好，可能带动ETH及整个山寨币市场上涨。但需注意，预测可能过于乐观，且近期ETH链上有大额转入交易所（362万ETH至Binance），存在抛压。综合来看，短期中性偏多，中长期看多。影响ETH及相关代币。",
+      "reason": "机构大佬Tom Lee的明确看多预测，且伴随大额买入，属于优先级二（机构动向），可能引发市场情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnNQeU1wMnJvZzNkc3pvWV9IcXMwWWZwdkZNdjFaM3ZnUHNfZjNLeXlDWGNnZjlJQW9yaUZXRGlOZzBGRWFKbmFPQURqRTlxUTVRLVd1MUFOTWhJWExMZ1hRaElFS1JmTDE5bXJSNnUwQTlPVTM0Vm1pZFFnQkVBMXdyeVZVTTNrQVFFSlctZjhuRTg?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "山寨币社交热度创3月新高",
+      "summary": "BeInCrypto报道，加密货币社交讨论中山寨币相关话题热度创3个月新高，可能预示山寨币季节来临。历史数据显示，社交热度飙升后往往伴随资金流入小市值币种。但需结合基本面，注意风险。短期看多山寨币，尤其是有叙事支撑的项目。",
+      "reason": "社交热度是市场情绪指标，属于优先级三（市场情绪信号），可能引发散户FOMO。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH", "SOL", "DOGE", "AAVE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "BeInCrypto", "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaDV1dzRubWFJU3FGUE1kUk1iMFRZdVZOZmhpa3hHYkhmRVRfTW1CVHpvQnAzbndpMzZodmJRV0RLOTlNbHFRaWRUS01KTWtxNzJRZy1lYmNZNjZ0anFLYjB3WnV5a2o5LVpIMzdhRzdfUzN3XzZWdjdDUG52X01fblNjTQ?oc=5"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材大部分与历史消息重复，仅筛选出两条新消息，均为市场情绪类，影响等级较低。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1982, prompt_tokens=9483, total_tokens=11465, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1246, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9472), prompt_cache_hit_tokens=9472, prompt_cache_miss_tokens=11)
+content length: 1585
+============================================================
+{
+  "news": [
+    {
+      "title": "Tom Lee预测以太坊目标价",
+      "summary": "Bitmine首席执行官Tom Lee发布2026年以太坊价格预测，认为ETH有望达到4,900美元，基于Bitmine大量持有ETH（518万枚）和以太坊网络升级预期。该预测提振市场信心，但需注意Tom Lee此前预测准确性存疑。可能影响ETH及L2代币。短期情绪偏多，但需警惕过度乐观。",
+      "reason": "Tom Lee作为知名分析师和Bitmine CEO，其预测可能引发市场关注和短期买盘。属于市场情绪信号，需结合技术面判断。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnNQeU1wMnJvZzNkc3pvWV9IcXMwWWZwdkZNdjFaM3ZnUHNfZjNLeXlDWGNnZjlJQW9yaUZXRGlOZzBGRWFKbmFPQURqRTlxUTVRLVd1MUFOTWhJWExMZ1hRaElFS1JmTDE5bXJSNnUwQTlPVTM0Vm1pZFFnQkVBMXdyeVZVTTNrQVFFSlctZjhuRTg?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "山寨币季节社交热度3月新高",
+      "summary": "BeInCrypto报道，加密社交平台关于山寨币季节的讨论量达到3个月最高点，市场情绪升温。历史数据显示，高社交热度往往伴随短期价格上涨，但随后可能回调。目前BTC站稳80,000美元，资金可能流向主流山寨币。需关注ETH、SOL等。短期看多，但注意风险。",
+      "reason": "社交爆发性讨论属于优先级三市场情绪信号，可能预示短期资金流入山寨币，对交易有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaDV1dzRubWFJU3FGUE1kUk1iMFRZdVZOZmhpa3hHYkhmRVRfTW1CVHpvQnAzbndpMzZodmJRV0RLOTlNbHFRaWRUS01KTWtxNzJRZy1lYmNZNjZ0anFLYjB3WnV5a2o5LVpIMzdhRzdfUzN3XzZWdjdDUG52X01fblNjTQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材大量重复历史消息（Binance旧公告、恐惧贪婪指数、已报道事件），仅筛选出两条较有价值的新信息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2767, prompt_tokens=10249, total_tokens=13016, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2021, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9097)
+content length: 1591
+============================================================
+{
+  "news": [
+    {
+      "title": "山寨季社会热度达3月新高",
+      "summary": "据BeInCrypto报道，加密货币山寨币的社会讨论热度触及三个月高点，可能预示资金从BTC轮动至山寨币。该指标基于社交媒体提及量和互动量，若持续升温，可能推动山寨币行情。但需注意当前BTC处于$80k附近高位，市场整体情绪中性（恐惧贪婪47），山寨季启动需更多确认信号。整体信号偏多，但短期需谨慎。",
+      "reason": "市场情绪指标达到三个月高点，属于优先级三的市场情绪信号，可能预示资金轮动，对山寨币产生中期影响。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH", "SOL", "DOGE", "PEPE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaDV1dzRubWFJU3FGUE1kUk1iMFRZdVZOZmhpa3hHYkhmRVRfTW1CVHpvQnAzbndpMzZodmJRV0RLOTlNbHFRaWRUS01KTWtxNzJRZy1lYmNZNjZ0anFLYjB3WnV5a2o5LVpIMzdhRzdfUzN3XzZWdjdDUG52X01fblNjTQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Tom Lee看好ETH至$4900",
+      "summary": "Bitmine的Tom Lee发布2026年ETH价格预测，目标$4,900。Tom Lee是知名加密分析师，其看涨言论可能提振ETH市场情绪。但需注意当前ETH价格约$2,300，预测涨幅超100%，短期内难以实现。消息本身属于机构观点，可能吸引散户跟进，但实际影响有限。信号偏多。",
+      "reason": "知名KOL看涨言论属于市场情绪信号，可能引发短期FOMO，但需结合技术面判断。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnNQeU1wMnJvZzNkc3pvWV9IcXMwWWZwdkZNdjFaM3ZnUHNfZjNLeXlDWGNnZjlJQW9yaUZXRGlOZzBGRWFKbmFPQURqRTlxUTVRLVd1MUFOTWhJWExMZ1hRaElFS1JmTDE5bXJSNnUwQTlPVTM0Vm1pZFFnQkVBMXdyeVZVTTNrQVFFSlctZjhuRTg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分为历史重复公告或无关内容，仅筛选出两条有一定交易参考价值的消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2237, prompt_tokens=10249, total_tokens=12486, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1107, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10240), prompt_cache_hit_tokens=10240, prompt_cache_miss_tokens=9)
+content length: 2379
+============================================================
+{
+  "news": [
+    {
+      "title": "362万ETH流入币安",
+      "summary": "据报道，362万枚ETH（约合8.3亿美元）转入币安交易所。这通常被视为抛售信号，因为大额转入交易所可能准备出售。ETH价格短期承压，Q2反弹前景减弱。对ETH看空。",
+      "reason": "大额ETH转入交易所属于链上异动，直接影响ETH价格，属优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "AMBCrypto via Google News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUhrVVRwQmVabHRKcllYcXV2aW5SZEV6MHJDYWpDZmVDNGdzdGIyYnpWQXZUYldHWDlCaEpLbktpd29yd3pmdVBwUi1CVURPOVBsMVZxWG1nRk03d1JNNUFrTWlwc1dmU1NueG9ZZG81Sm05YzNWN2Q2NDlQOHc4cnpJTHFqQnJ5cmczb2RR0gGTAUFVX3lxTE9icTMtQy05UXFnZFVfWXJrT2k4cWo2SlhSbnhYZUlmaEdtX2pFcEQ3ZXVGOUZWUFdONWdiQVNWeXpib1FUOVZzb1dEbWpfZDNFVkk4TWU4UmJxLU4yZWRNRFpkUTVpS2NOWDJWLUg3b2NmS1kyM2c2Q2RYN3l6TE9NQ2QtZkpiVWY3dHRaMUVsdHRWQQ?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "山寨币社交热度创3月新高",
+      "summary": "加密市场社交讨论中，山寨币相关话题热度达到3个月高点，可能预示山寨币季节的到来。但需结合其他指标确认趋势。短期市场情绪偏乐观，但对整体行情影响不确定。",
+      "reason": "市场情绪信号，社交爆发性讨论属于优先级三，可能影响资金流向。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH", "ALT"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "BeInCrypto via Google News",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaDV1dzRubWFJU3FGUE1kUk1iMFRZdVZOZmhpa3hHYkhmRVRfTW1CVHpvQnAzbndpMzZodmJRV0RLOTlNbHFRaWRUS01KTWtxNzJRZy1lYmNZNjZ0anFLYjB3WnV5a2o5LVpIMzdhRzdfUzN3XzZWdjdDUG52X01fblNjTQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tom Lee看多以太坊至4900美元",
+      "summary": "Bitmine分析师Tom Lee发布2026年以太坊价格预测，目标价4900美元，认为ETH有较大上涨空间。尽管为个人预测，但作为知名分析师，可能影响市场信心。对ETH看多。",
+      "reason": "机构/分析师观点属于市场情绪信号，影响力中等，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance via Google News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnNQeU1wMnJvZzNkc3pvWV9IcXMwWWZwdkZNdjFaM3ZnUHNfZjNLeXlDWGNnZjlJQW9yaUZXRGlOZzBGRWFKbmFPQURqRTlxUTVRLVd1MUFOTWhJWExMZ1hRaElFS1JmTDE5bXJSNnUwQTlPVTM0Vm1pZFFnQkVBMXdyeVZVTTNrQVFFSlctZjhuRTg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中高质量消息较少，仅筛选出3条。Binance公告均为已发布或重复内容，恐惧贪婪指数与历史重复，其余为娱乐或无交易价值消息。"
+}

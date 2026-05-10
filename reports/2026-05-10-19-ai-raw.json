@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-10",
+  "hour": "19",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 5/6 策略=完整内容 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10249,
+    "completion_tokens": 2237,
+    "total_tokens": 12486
+  },
+  "content_length": 2379,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"362万ETH流入币安\",\n      \"summary\": \"据报道，362万枚ETH（约合8.3亿美元）转入币安交易所。这通常被视为抛售信号，因为大额转入交易所可能准备出售。ETH价格短期承压，Q2反弹前景减弱。对ETH看空。\",\n      \"reason\": \"大额ETH转入交易所属于链上异动，直接影响ETH价格，属优先级一。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"AMBCrypto via Google News\",\n          \"url\": \"https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUhrVVRwQmVabHRKcllYcXV2aW5SZEV6MHJDYWpDZmVDNGdzdGIyYnpWQXZUYldHWDlCaEpLbktpd29yd3pmdVBwUi1CVURPOVBsMVZxWG1nRk03d1JNNUFrTWlwc1dmU1NueG9ZZG81Sm05YzNWN2Q2NDlQOHc4cnpJTHFqQnJ5cmczb2RR0gGTAUFVX3lxTE9icTMtQy05UXFnZFVfWXJrT2k4cWo2SlhSbnhYZUlmaEdtX2pFcEQ3ZXVGOUZWUFdONWdiQVNWeXpib1FUOVZzb1dEbWpfZDNFVkk4TWU4UmJxLU4yZWRNRFpkUTVpS2NOWDJWLUg3b2NmS1kyM2c2Q2RYN3l6TE9NQ2QtZkpiVWY3dHRaMUVsdHRWQQ?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"山寨币社交热度创3月新高\",\n      \"summary\": \"加密市场社交讨论中，山寨币相关话题热度达到3个月高点，可能预示山寨币季节的到来。但需结合其他指标确认趋势。短期市场情绪偏乐观，但对整体行情影响不确定。\",\n      \"reason\": \"市场情绪信号，社交爆发性讨论属于优先级三，可能影响资金流向。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"ALT\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"BeInCrypto via Google News\",\n          \"url\": \"https://news.google.com/rss/articles/CBMigwFBVV95cUxQaDV1dzRubWFJU3FGUE1kUk1iMFRZdVZOZmhpa3hHYkhmRVRfTW1CVHpvQnAzbndpMzZodmJRV0RLOTlNbHFRaWRUS01KTWtxNzJRZy1lYmNZNjZ0anFLYjB3WnV5a2o5LVpIMzdhRzdfUzN3XzZWdjdDUG52X01fblNjTQ?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Tom Lee看多以太坊至4900美元\",\n      \"summary\": \"Bitmine分析师Tom Lee发布2026年以太坊价格预测，目标价4900美元，认为ETH有较大上涨空间。尽管为个人预测，但作为知名分析师，可能影响市场信心。对ETH看多。\",\n      \"reason\": \"机构/分析师观点属于市场情绪信号，影响力中等，属于优先级三。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance via Google News\",\n          \"url\": \"https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnNQeU1wMnJvZzNkc3pvWV9IcXMwWWZwdkZNdjFaM3ZnUHNfZjNLeXlDWGNnZjlJQW9yaUZXRGlOZzBGRWFKbmFPQURqRTlxUTVRLVd1MUFOTWhJWExMZ1hRaElFS1JmTDE5bXJSNnUwQTlPVTM0Vm1pZFFnQkVBMXdyeVZVTTNrQVFFSlctZjhuRTg?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮抓取素材中高质量消息较少，仅筛选出3条。Binance公告均为已发布或重复内容，恐惧贪婪指数与历史重复，其余为娱乐或无交易价值消息。\"\n}"
+}

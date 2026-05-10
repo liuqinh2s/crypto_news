@@ -1922,3 +1922,152 @@
 2026-05-10 10:01:22 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
 2026-05-10 10:01:22 [INFO] 📦 JSON 已保存: reports/2026-05-10-18.json
 2026-05-10 10:01:22 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-05-10 11:00:40 [INFO] 🚀 开始抓取 2026-05-10 19:00 币圈新闻
+2026-05-10 11:00:40 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-10 11:00:40 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-10 11:00:40 [INFO]   ⏭ Decrypt: 过滤掉 38 条非近期新闻
+2026-05-10 11:00:40 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-10 11:00:40 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-10 11:00:40 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-10 11:00:40 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:40 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-10 11:00:41 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ Blockworks: 过滤掉 13 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:41 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:42 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:42 [INFO]   ⏭ Crypto Twitter: 过滤掉 45 条非近期新闻
+2026-05-10 11:00:42 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 25 条非近期新闻
+2026-05-10 11:00:55 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-10 11:00:55 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-10 11:00:55 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-10 11:00:56 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-05-10 11:00:56 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:56 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:56 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-10 11:00:56 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-10 11:00:56 [INFO]   ✓ CoinDesk: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ The Block: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Decrypt: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Blockworks: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ DL News: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ 金色财经: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ PANews: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-10 11:00:56 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Crypto Twitter: 5 条
+2026-05-10 11:00:56 [INFO]   ✓ 宏观经济: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Binance公告: 20 条
+2026-05-10 11:00:56 [INFO]   ✓ OKX公告: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Bitget公告: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Whale Alert: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-10 11:00:56 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-10 11:00:56 [INFO]   ✓ 雪球加密: 0 条
+2026-05-10 11:00:56 [INFO] 📊 共抓取 27 条新闻
+2026-05-10 11:00:56 [INFO] 📋 原始新闻已保存: reports/2026-05-10-19-raw.json (27 条)
+2026-05-10 11:00:56 [INFO] 📋 标题摘要已保存: reports/2026-05-10-19-raw-titles.md
+2026-05-10 11:00:56 [INFO] ✅ 抓取完成，共 27 条，已保存到 reports/2026-05-10-19-raw.json
+2026-05-10 11:00:57 [INFO] 🤖 开始 AI 筛选 2026-05-10 19:00 币圈消息
+2026-05-10 11:00:57 [INFO] 📋 已加载原始新闻: reports/2026-05-10-19-raw.json (27 条)
+2026-05-10 11:00:57 [INFO] 📚 已加载历史新闻标题（15975 字符）
+2026-05-10 11:00:57 [INFO] 📚 已加载历史筛选标题 24 条、URL 24 个，用于去重
+2026-05-10 11:00:57 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-10 11:00:57 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-10 11:00:57 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（27 条，5898 字符，temp=0.3）
+2026-05-10 11:01:30 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 1427 字符)
+2026-05-10 11:01:30 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-19-ai-raw.json
+2026-05-10 11:01:30 [DEBUG] parse_json_response 输入长度: 1427 字符
+2026-05-10 11:01:30 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Tom Lee看多ETH预测",
+      "summary": "知名分析师Tom Lee（Bitmine）发布2026年ETH价格预测，表示看涨。这可能提振短期市场情绪，但仅为个人观点，无实际资金流入。影响ETH及相关代币，信号中性，需结合后续市场反应。",
+      "reason": "知名分析师预测，属于市场情绪信号，可能短期影响ETH走势。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "neutral"
+2026-05-10 11:01:30 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-10 11:01:30 [INFO] ✅ AI 返回 2 条新闻
+2026-05-10 11:01:30 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-05-10 11:01:30 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（27 条，5898 字符，temp=0.3）
+2026-05-10 11:02:16 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 1483 字符)
+2026-05-10 11:02:16 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-19-ai-raw.json
+2026-05-10 11:02:16 [DEBUG] parse_json_response 输入长度: 1483 字符
+2026-05-10 11:02:16 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Tom Lee看好ETH至4900美元",
+      "summary": "Bitmine的Tom Lee预测以太坊2026年目标价4900美元，并大额买入518万ETH。这显示机构对ETH的极度看好，可能带动ETH及整个山寨币市场上涨。但需注意，预测可能过于乐观，且近期ETH链上有大额转入交易所（362万ETH至Binance），存在抛压。综合来看，短期中性偏多，中长期看多。影响ETH及相关代币。",
+      "reason": "机构大佬Tom Lee的明确看多预测，且伴随大额买入，属于优先级二（机构动向），可
+2026-05-10 11:02:16 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-10 11:02:16 [INFO] ✅ AI 返回 2 条新闻
+2026-05-10 11:02:16 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-10 11:02:16 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（27 条，5898 字符，temp=0.3）
+2026-05-10 11:02:48 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 1585 字符)
+2026-05-10 11:02:48 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-19-ai-raw.json
+2026-05-10 11:02:48 [DEBUG] parse_json_response 输入长度: 1585 字符
+2026-05-10 11:02:48 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Tom Lee预测以太坊目标价",
+      "summary": "Bitmine首席执行官Tom Lee发布2026年以太坊价格预测，认为ETH有望达到4,900美元，基于Bitmine大量持有ETH（518万枚）和以太坊网络升级预期。该预测提振市场信心，但需注意Tom Lee此前预测准确性存疑。可能影响ETH及L2代币。短期情绪偏多，但需警惕过度乐观。",
+      "reason": "Tom Lee作为知名分析师和Bitmine CEO，其预测可能引发市场关注和短期买盘。属于市场情绪信号，需结合技术面判断。"
+2026-05-10 11:02:48 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-10 11:02:48 [INFO] ✅ AI 返回 2 条新闻
+2026-05-10 11:02:48 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-05-10 11:02:48 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（27 条，8289 字符，temp=0.3）
+2026-05-10 11:03:33 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 1591 字符)
+2026-05-10 11:03:33 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-19-ai-raw.json
+2026-05-10 11:03:33 [DEBUG] parse_json_response 输入长度: 1591 字符
+2026-05-10 11:03:33 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "山寨季社会热度达3月新高",
+      "summary": "据BeInCrypto报道，加密货币山寨币的社会讨论热度触及三个月高点，可能预示资金从BTC轮动至山寨币。该指标基于社交媒体提及量和互动量，若持续升温，可能推动山寨币行情。但需注意当前BTC处于$80k附近高位，市场整体情绪中性（恐惧贪婪47），山寨季启动需更多确认信号。整体信号偏多，但短期需谨慎。",
+      "reason": "市场情绪指标达到三个月高点，属于优先级三的市场情绪信号，可能预示资金轮动，对山寨币产生中期影响。",
+      "cat
+2026-05-10 11:03:33 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-10 11:03:33 [INFO] ✅ AI 返回 2 条新闻
+2026-05-10 11:03:33 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-05-10 11:03:33 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（27 条，8289 字符，temp=0.3）
+2026-05-10 11:04:08 [INFO] AI 原始返回已保存: logs/2026-05-10-ai-response.txt (finish_reason=stop, 2379 字符)
+2026-05-10 11:04:08 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-10-19-ai-raw.json
+2026-05-10 11:04:08 [DEBUG] parse_json_response 输入长度: 2379 字符
+2026-05-10 11:04:08 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "362万ETH流入币安",
+      "summary": "据报道，362万枚ETH（约合8.3亿美元）转入币安交易所。这通常被视为抛售信号，因为大额转入交易所可能准备出售。ETH价格短期承压，Q2反弹前景减弱。对ETH看空。",
+      "reason": "大额ETH转入交易所属于链上异动，直接影响ETH价格，属优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "im
+2026-05-10 11:04:08 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-05-10 11:04:08 [INFO] ✅ AI 返回 3 条新闻
+2026-05-10 11:04:08 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-05-10 11:04:08 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-05-10 11:04:08 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-10 11:04:08 [DEBUG]   去重: 「362万ETH流入币安」 → URL重复: https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUhrVVR
+2026-05-10 11:04:08 [INFO] 📦 JSON 已保存: reports/2026-05-10-19.json
+2026-05-10 11:04:08 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息
