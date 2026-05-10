@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-10",
+  "hour": "18",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9559,
+    "completion_tokens": 1975,
+    "total_tokens": 11534
+  },
+  "content_length": 2255,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"巨鲸增持BTC于66k\",\n      \"summary\": \"据金色财经报道，散户并未踏空本轮比特币行情，巨鲸在66,000美元附近大规模增持BTC。这可能表明大资金看好后市，认为当前价格具有吸引力，从而推动买盘增加。短期看多BTC，但需警惕追高风险。\",\n      \"reason\": \"巨鲸增持是链上异动信号，属于优先级一，直接影响行情。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512045.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Circle将发布Q1财报\",\n      \"summary\": \"Circle将于明日美股盘前发布2026年第一季度财报。作为USDC发行商，其财务状况影响稳定币市场信心。若财报显示盈利或增长，可能提振市场对USDC的信任，间接利好加密市场；反之则可能引发担忧。目前影响中性偏多，等待实际数据。\",\n      \"reason\": \"Circle是USDC核心机构，财报影响稳定币供应和机构信心，属于优先级二的机构动向。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"USDC\", \"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512044.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"卡塔尔LNG船首通霍尔木兹\",\n      \"summary\": \"卡塔尔液化天然气运输船时隔约70天首次通过霍尔木兹海峡，此前该海峡因地缘紧张受阻。此举可能缓解能源供应担忧，降低油价，从而减轻通胀压力，这对风险资产如比特币有利。同时，地缘风险缓和可能提升市场风险偏好。\",\n      \"reason\": \"能源运输恢复可能影响油价和通胀预期，间接影响风险资产，属于宏观经济层面。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512042.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"362万ETH转入Binance\",\n      \"summary\": \"据AMBCrypto报道，约362万枚ETH转入Binance，价值近80亿美元。如此大规模转入交易所通常被视为抛售前兆，可能表明大户准备离场，对ETH形成强烈利空。近期ETH走势本就偏弱，此消息可能加剧下跌风险。\",\n      \"reason\": \"大额ETH转入交易所是链上异动，属于优先级一，直接利空ETH，需警惕抛压。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 5,\n      \"sources\": [{\"name\": \"AMBCrypto via Crypto Twitter\", \"url\": \"https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUhrVVRwQmVabHRKcllYcXV2aW5SZEV6MHJDYWpDZmVDNGdzdGIyYnpWQXZUYldHWDlCaEpLbktpd29yd3pmdVBwUi1CVURPOVBsMVZxWG1nRk03d1JNNUFrTWlwc1dmU1NueG9ZZG81Sm05YzNWN2Q2NDlQOHc4cnpJTHFqQnJ5cmczb2RR0gGTAUFVX3lxTE9icTMtQy05UXFnZFVfWXJrT2k4cWo2SlhSbnhYZUlmaEdtX2pFcEQ3ZXVGOUZWUFdONWdiQVNWeXpib1FUOVZzb1dEbWpfZDNFVkk4TWU4UmJxLU4yZWRNRFpkUTVpS2NOWDJWLUg3b2NmS1kyM2c2Q2RYN3l6TE9NQ2QtZkpiVWY3dHRaMUVsdHRWQQ?oc=5\"}],\n      \"urgency\": \"immediate\"\n    }\n  ]\n}"
+}

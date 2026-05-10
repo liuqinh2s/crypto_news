@@ -2020,3 +2020,58 @@ content length: 2604
   ],
   "note": "本次筛选出的有价值新消息较少，因为多数新闻已在历史数据中重复出现（如Binance公告、特朗普媒体亏损等）。仅选出4条符合标准的新消息，供交易团队参考。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1975, prompt_tokens=9559, total_tokens=11534, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=950, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8407)
+content length: 2255
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸增持BTC于66k",
+      "summary": "据金色财经报道，散户并未踏空本轮比特币行情，巨鲸在66,000美元附近大规模增持BTC。这可能表明大资金看好后市，认为当前价格具有吸引力，从而推动买盘增加。短期看多BTC，但需警惕追高风险。",
+      "reason": "巨鲸增持是链上异动信号，属于优先级一，直接影响行情。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512045.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Circle将发布Q1财报",
+      "summary": "Circle将于明日美股盘前发布2026年第一季度财报。作为USDC发行商，其财务状况影响稳定币市场信心。若财报显示盈利或增长，可能提振市场对USDC的信任，间接利好加密市场；反之则可能引发担忧。目前影响中性偏多，等待实际数据。",
+      "reason": "Circle是USDC核心机构，财报影响稳定币供应和机构信心，属于优先级二的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["USDC", "BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512044.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "卡塔尔LNG船首通霍尔木兹",
+      "summary": "卡塔尔液化天然气运输船时隔约70天首次通过霍尔木兹海峡，此前该海峡因地缘紧张受阻。此举可能缓解能源供应担忧，降低油价，从而减轻通胀压力，这对风险资产如比特币有利。同时，地缘风险缓和可能提升市场风险偏好。",
+      "reason": "能源运输恢复可能影响油价和通胀预期，间接影响风险资产，属于宏观经济层面。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512042.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "362万ETH转入Binance",
+      "summary": "据AMBCrypto报道，约362万枚ETH转入Binance，价值近80亿美元。如此大规模转入交易所通常被视为抛售前兆，可能表明大户准备离场，对ETH形成强烈利空。近期ETH走势本就偏弱，此消息可能加剧下跌风险。",
+      "reason": "大额ETH转入交易所是链上异动，属于优先级一，直接利空ETH，需警惕抛压。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "AMBCrypto via Crypto Twitter", "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUhrVVRwQmVabHRKcllYcXV2aW5SZEV6MHJDYWpDZmVDNGdzdGIyYnpWQXZUYldHWDlCaEpLbktpd29yd3pmdVBwUi1CVURPOVBsMVZxWG1nRk03d1JNNUFrTWlwc1dmU1NueG9ZZG81Sm05YzNWN2Q2NDlQOHc4cnpJTHFqQnJ5cmczb2RR0gGTAUFVX3lxTE9icTMtQy05UXFnZFVfWXJrT2k4cWo2SlhSbnhYZUlmaEdtX2pFcEQ3ZXVGOUZWUFdONWdiQVNWeXpib1FUOVZzb1dEbWpfZDNFVkk4TWU4UmJxLU4yZWRNRFpkUTVpS2NOWDJWLUg3b2NmS1kyM2c2Q2RYN3l6TE9NQ2QtZkpiVWY3dHRaMUVsdHRWQQ?oc=5"}],
+      "urgency": "immediate"
+    }
+  ]
+}
