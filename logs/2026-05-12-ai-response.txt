@@ -151,3 +151,74 @@ content length: 3611
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1901, prompt_tokens=16941, total_tokens=18842, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1854, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15789)
+content length: 84
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材与近6小时历史消息高度重复，未发现新关键消息。所有事件均已在前序时间窗口中出现，无新增交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2594, prompt_tokens=16941, total_tokens=19535, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1894, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=16896), prompt_cache_hit_tokens=16896, prompt_cache_miss_tokens=45)
+content length: 1854
+============================================================
+{
+  "news": [
+    {
+      "title": "Anchorage退出稳定币团体",
+      "summary": "加密货币托管机构Anchorage宣布退出由Robinhood和Kraken支持的稳定币行业团体，该团体致力于推动稳定币监管。此举反映传统金融机构对稳定币监管压力的担忧，可能削弱行业游说力量。短期利空稳定币相关项目（如USDC、USDT），但影响有限。中长期看，监管不确定性增加可能压制市场情绪。",
+      "reason": "直接影响稳定币生态，反映行业动态",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "USDT"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/11/anchorage-is-stepping-back-from-robinhood-and-kraken-backed-stablecoin-group"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Galaxy支持推稳定币",
+      "summary": "Galaxy Digital支持的Boundary宣布将推出机构级稳定币USBD，强调可验证性和透明度。新稳定币可能加剧市场竞争，但有利于提升整体稳定币的透明度和信任。短期对现有稳定币龙头（USDC/USDT）影响有限，但长期可能分流市场份额。对ETH有轻微利好（增加链上需求），整体中性偏多。",
+      "reason": "新稳定币发行影响市场结构",
+      "category": "项目更新",
+      "impact_coins": ["USDC", "USDT", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400791/galaxy-backed-boundary-to-launch-verifiable-institutional-stablecoin-usbd"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普对伊动武威胁",
+      "summary": "美国特朗普总统召集高层研判对伊朗重新动武，并称伊朗对美方案回应“愚蠢”。地缘政治紧张升级，推动避险情绪，现货黄金、白银大涨。加密货币市场短期可能承压，资金流向避险资产。但BTC此前在地区冲突中曾表现避险属性，需观察。整体利空风险资产，看空BTC/ETH。",
+      "reason": "地缘政治风险影响宏观经济",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512226.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮素材中大部分重要消息已在历史列表中重复出现，如CLARITY法案、Strategy/Bitmine增持、Circle融资、Ronin迁移等。经去重后仅筛选出3条具有交易价值的新消息，其余多为观点、营销或无关内容。"
+}
