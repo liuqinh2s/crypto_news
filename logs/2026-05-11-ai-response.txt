@@ -1620,3 +1620,79 @@ content length: 2869
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3438, prompt_tokens=11409, total_tokens=14847, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2150, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10257)
+content length: 2838
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP突破1.45美元",
+      "summary": "XRP价格短线拉升2.5%，突破1.45美元关键阻力位，表现优于BTC和ETH。技术面显示放量突破，可能开启新一轮上涨。若站稳1.45，下一目标1.60。受CLARITY法案推进预期及Ripple支付网络需求增长支撑。影响币种：XRP。信号：看多。",
+      "reason": "币种价格突破关键阻力，直接产生交易机会，属于优先级一。XRP近期受监管利好预期推动，突破信号明确。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/11/xrp-spikes-2-5-beating-bitcoin-and-ether-in-breakout-above-usd1-45"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "委内瑞拉加密挖矿禁令",
+      "summary": "委内瑞拉宣布全面禁止加密货币挖矿，以应对能源短缺。该禁令可能减少全球比特币算力约1%-2%，短期内对BTC价格产生轻微负面影响。但长期看，矿工转移至其他国家影响有限。影响币种：BTC。信号：看空。",
+      "reason": "国家级挖矿禁令直接影响比特币算力和市场情绪，属于监管政策类优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYkY1b21aQS1BSFFXT0JRaTdwcDQwdGkybFNvaHdBeEMtMDRJdTRHTklBLWZBUHVEWjNOWWpmZHdBNzRncTVBRDdlVnhZUHFZb2w1c2JzR2E3VmkwcUhCT3pWZG9sUmJGS1MtaFBLdktTQlliWDc5dkp2UUhOSGhSbEtTbDNfaFVESXZJV1RueG10TVd6"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tether遭3亿美元诉讼",
+      "summary": "Tether面临一项3亿美元的集体诉讼，指控其未能完全披露储备资产并操纵市场。诉讼可能导致USDT短期抛售压力，引发稳定币信任危机。若USDT脱锚，将冲击整个加密市场。影响币种：USDT, BTC, ETH。信号：看空。",
+      "reason": "Tether作为最大稳定币，其法律风险直接威胁市场流动性，属于优先级一重大监管事件。",
+      "category": "监管政策",
+      "impact_coins": ["USDT"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYkY1b21aQS1BSFFXT0JRaTdwcDQwdGkybFNvaHdBeEMtMDRJdTRHTklBLWZBUHVEWjNOWWpmZHdBNzRncTVBRDdlVnhZUHFZb2w1c2JzR2E3VmkwcUhCT3pWZG9sUmJGS1MtaFBLdktTQlliWDc5dkp2UUhOSGhSbEtTbDNfaFVESXZJV1RueG10TVd6"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "高盛预计12月降息",
+      "summary": "高盛发布报告，预计美联储首次降息将在2026年12月，较此前预期推迟。降息预期推迟可能短期压制风险资产价格，但长期宽松方向不变。市场已部分消化，影响有限。影响币种：BTC, ETH。信号：中性。",
+      "reason": "宏观利率预期直接影响加密货币风险偏好，属于优先级二宏观经济数据。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Goldman Sachs via 디지털투데이",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVNNMGZibFEwZDZuQXFLLVRUWWhtUEEzUnlmcUhmVU1nV3ZPZjBEOUhhTThFaUtSS0FEUnpsbDg5LUI4b2lrOG5jN1VWVVFpalRKUEo0WWFRU28zWG1Qc1hzOXdsMWpXOURBX3MxSnotN1RLMDVZNXBoRDZwYTItUjhOalNoRmxxYnRFOWFKUXYxYzdLZkJFVG5KbnRoSEhXeWh0c0Z4ZHU3clNXTWlRQmV5dWZ2bjU4WnNmMUNGOA"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前6小时内重复消息较多，仅筛选出4条有独立交易价值的新消息。"
+}
