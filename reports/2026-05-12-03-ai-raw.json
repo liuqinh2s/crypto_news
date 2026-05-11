@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-12",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 15587,
+    "completion_tokens": 2479,
+    "total_tokens": 18066
+  },
+  "content_length": 2417,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"巨鲸30天增持27万BTC\",\n      \"summary\": \"过去30天内，比特币巨鲸地址累计增持了27万枚BTC，价值约220亿美元。这种大规模囤币行为通常被视为底部信号，表明大户对后市看好。当前BTC价格在8.1万美元附近震荡，巨鲸吸筹或为后续上涨积蓄力量。影响币种：BTC。看多信号。\",\n      \"reason\": \"巨鲸大额增持是优先级一的链上异动信号，直接反映大户动向，历史上类似情况后BTC往往上涨。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"24/7 Wall St.\",\n          \"url\": \"https://247wallst.com/investing/2026/05/11/bitcoin-whales-have-stacked-270k-btc-in-30-days-could-it-be-a-bottom-signal/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"BTC金叉出现，技术面看涨\",\n      \"summary\": \"比特币50日均线上穿200日均线，形成自2023年以来的首个'黄金交叉'。该技术形态通常预示中期上涨趋势。当前BTC价格在81,500美元附近，金叉可能吸引技术派交易者入场。影响币种：BTC。看多信号。\",\n      \"reason\": \"金叉是经典技术指标，历史上BTC金叉后多出现可观涨幅，属于市场结构信号。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/bitcoin-golden-cross-appears-first-time-since-2023-will-btc-price-rally\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Kraken母公司估值200亿拟IPO\",\n      \"summary\": \"Kraken母公司Payward正在寻求以200亿美元估值进行新一轮融资，为未来IPO做准备。这显示传统资本对头部交易所的认可，可能提升市场对加密货币行业的信心。影响币种：整体市场情绪利好，尤其利好交易所平台币如KCS、BNB等。看多信号。\",\n      \"reason\": \"交易所上市是重大行业事件，反映传统金融对加密的接纳，属于优先级二的机构动向。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"BNB\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/business/2026/05/08/kraken-parent-payward-seeks-fresh-funding-at-usd20-billion-valuation-ahead-of-potential-ipo\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"闪电网络服务数暴增超百倍\",\n      \"summary\": \"L402闪电网络服务索引数量在一夜之间从10个飙升至1,169个，显示比特币二层网络生态爆发式增长。这提升了比特币的可扩展性和支付应用前景。影响币种：BTC。长期看多信号。\",\n      \"reason\": \"闪电网络采用量骤增属于比特币生态里程碑，虽短期价格影响有限，但长期利好，属于优先级二的技术升级相关。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/bitcoin\",\n          \"url\": \"https://www.reddit.com/r/Bitcoin/comments/1taahb8/we_went_from_10_to_1169_l402_lightning_services/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮抓取素材中多数关键事件已在历史消息中出现，仅筛选出4条新消息。\"\n}"
+}
