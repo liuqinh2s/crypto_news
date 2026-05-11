@@ -840,3 +840,127 @@ content length: 2961
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2100, prompt_tokens=10781, total_tokens=12881, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=704, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9629)
+content length: 3561
+============================================================
+{
+  "news": [
+    {
+      "title": "沉寂12年地址转出500 BTC",
+      "summary": "一个沉寂超过12年的比特币地址被激活，将全部500枚BTC（约合4150万美元）转出。这种长期休眠地址的突然移动通常被视为潜在抛压信号，可能由早期矿工或持有者套现引起。若这些BTC流入交易所，将对BTC价格形成短期利空压力。",
+      "reason": "巨鲸异动，休眠地址激活通常预示抛售，符合优先级一",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512103.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸225k ETH转入币安",
+      "summary": "地址Garrett Jin将其剩余的225,627枚ETH（约5.28亿美元）全部转入币安交易所。大额转入交易所通常意味着准备卖出或抵押，对ETH形成直接抛压，短期利空。该地址此前已分批转移，本次为剩余全部，信号强烈。",
+      "reason": "巨鲸大额转入交易所，属于优先级一，明确抛压信号",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512100.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸买2153 ETH建仓",
+      "summary": "某巨鲸花费500万枚USDC，以均价2322美元买入2153枚ETH（约500万美元）。大额买入并持有为看多信号，显示大户对ETH后市看好，可能带动市场情绪。",
+      "reason": "巨鲸买入为看多信号，符合优先级一",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512101.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗拒绝美国方案",
+      "summary": "据伊朗媒体，伊朗已拒绝美国提出的方案。此前美军在霍尔木兹海峡集结，地缘紧张升级。原油和加密货币等风险资产可能承压，避险情绪上升。",
+      "reason": "地缘政治风险影响风险资产，属于优先级二",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512098.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美参议院加密法案入议程",
+      "summary": "美国参议院将长期停滞的加密法案（CLARITY Act）列入本周议程。民调显示52%支持，70%认为美国应通过立法。若法案推进将提供监管确定性，利好整个加密市场。",
+      "reason": "重大监管动态，直接影响市场预期，符合优先级一",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "PYMNTS",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNazljbW1vbWpWWkE1R2x2WVIwenhROFlUc09JU2lpUnZ1cW54RE9wZDVHSkVXRTFzZ0NRNFg5WDIycHYxaFlEbmpoNUVYT2oxQTlpeFRwV3dwV0N3ay0ydzRBLVJJWWRXV3dyWVlWYlZKM3lKejhOOXJhUlh3TTRaMWh6ZkdWT0prc19ISEkteGJhSGVtZTFaNkg5NXYtdkZUME5V?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Digital Asset融资3亿美元",
+      "summary": "数字资产托管公司Digital Asset正以20亿美元估值融资3亿美元，a16z crypto领投。机构资本持续流入加密基础设施，显示长期信心，利多市场。",
+      "reason": "机构动向，大额融资表明行业前景看好，符合优先级二",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512102.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "鲍威尔任期结束+中美磋商",
+      "summary": "本周重要事件：美联储主席鲍威尔任期结束，市场关注新主席人选及政策方向；中美经贸磋商也将举行。这些宏观事件可能影响风险资产波动性，短期不确定性增加。",
+      "reason": "宏观经济事件影响流动性预期，属于优先级二",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512099.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "历史消息中已包含的重复事件（如摩根士丹利ETF、Saylor信号、CEX净流出、ARB解锁、恐惧贪婪指数等）已排除。"
+}
