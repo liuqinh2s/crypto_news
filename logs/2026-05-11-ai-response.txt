@@ -2298,3 +2298,110 @@ content length: 6086
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2675, prompt_tokens=17573, total_tokens=20248, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1539, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16421)
+content length: 3040
+============================================================
+{
+  "news": [
+    {
+      "title": "Tether在Tron链增发10亿USDT",
+      "summary": "Tether在Tron链上增发10亿枚USDT，这是新一轮资金入场信号。稳定币增发通常意味着有资金正进入加密市场，可能推动BTC、ETH等资产价格上涨。从历史数据看，大规模USDT增发往往与比特币价格正相关。虽然增发不直接购买资产，但为市场提供了流动性，对多头有利。",
+      "reason": "稳定币增发属于优先级一直接影响行情，资金入场信号 bullish",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "USDT"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512200.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗在霍尔木兹海峡部署潜艇",
+      "summary": "伊朗宣布已在霍尔木兹海峡部署深潜潜艇，加剧中东地缘政治紧张局势。此前伊朗与美国的谈判破裂，特朗普拒绝和平提议，伊朗此举可能进一步推高油价和避险情绪。加密货币作为风险资产，短期可能承压，尤其若冲突升级导致全球市场波动。BTC、ETH等可能面临抛售压力。",
+      "reason": "地缘政治紧张影响风险资产，属于优先级二宏观经济中的风险事件，bearish",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512204.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "纽约梅隆银行推出数字资产托管",
+      "summary": "纽约梅隆银行（BNY Mellon）将在阿布扎比全球市场推出数字资产托管服务，这是全球最大托管银行之一对加密货币的认可。该举措将进一步打通机构资金进入加密市场的通道，增强市场信心。对BTC、ETH等主流资产构成中长期利好。",
+      "reason": "机构采用属于优先级二，意义重大，bullish",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512203.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Ripple获2亿美元融资额度",
+      "summary": "Ripple获得Neuberger Berman 2亿美元融资额度，表明传统金融机构对Ripple支付网络的信心。此消息直接利好XRP，可能推动其价格进一步上涨。同时反映机构对加密货币支付赛道的兴趣，对整体市场情绪有提振作用。",
+      "reason": "机构注资Ripple，直接利好XRP，属于优先级二",
+      "category": "ETF机构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512190.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitfinex报告：机构买盘推升BTC",
+      "summary": "Bitfinex报告指出机构买盘推动BTC重返8万美元上方，长期持有者正大量吸筹。该报告证实机构资金持续流入，且长期持有者行为表明市场底部支撑强劲。当前BTC处于81k附近，机构买盘和持有者吸筹是强劲看多信号。",
+      "reason": "机构买盘和链上指标异常属于优先级一/二，bullish",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512194.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "央行继续适度宽松货币政策",
+      "summary": "中国央行发布一季度货币政策执行报告，表示继续实施适度宽松的货币政策。全球最大经济体之一的宽松政策利好全球风险资产，加密货币作为风险资产的一部分，也将受益于流动性宽松环境。长期利好BTC、ETH等。",
+      "reason": "宏观宽松属于优先级二，对风险资产整体利好",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512192.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
