@@ -572,3 +572,163 @@ content length: 4686
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1446, prompt_tokens=11074, total_tokens=12520, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1026, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9922)
+content length: 1145
+============================================================
+{
+  "news": [
+    {
+      "title": "Solana ETF资金流入回升",
+      "summary": "据CoinTelegraph报道，Solana ETF近期出现资金净流入，显示投资者需求回暖。交易员关注SOL能否反弹至120美元。可能影响SOL及相关生态代币。资金流入通常是看多信号，表明机构兴趣增加。",
+      "reason": "ETF资金流入直接反映机构需求，对SOL价格有即时正面影响。历史消息中未出现此具体数据，属于新信息。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/solana-etf-inflows-demand-returns-as-traders-eye-120"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "OpenAI进军网络安全领域",
+      "summary": "OpenAI发布Daybreak，正式扩展至网络安全业务。这可能推动AI相关加密货币（如FET、AGIX等）的叙事，但直接关联有限。对市场情绪有轻微提振，属中长期利好信号。",
+      "reason": "AI领域重大事件可能影响AI概念币，但影响程度较低。属于新消息，历史中未出现。",
+      "category": "项目更新",
+      "impact_coins": ["FET", "AGIX"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367506/openai-launches-daybreak-ai-cybersecurity"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中多数消息与历史标题重复，仅筛选出两条有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1993, prompt_tokens=11074, total_tokens=13067, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=447, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11008), prompt_cache_hit_tokens=11008, prompt_cache_miss_tokens=66)
+content length: 4076
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY Act周四投票",
+      "summary": "美国参议院将于周四对CLARITY Act进行投票，该法案旨在建立全面的加密货币市场结构。银行家团体进行最后一刻游说反对，但市场预期通过概率较高。若通过，将为稳定币和数字资产提供监管清晰度，利好整个加密市场；若失败，可能引发抛售。当前ETF资金持续流入显示市场信心。影响币种包括BTC、ETH、SOL、HYPE等。整体看多（通过概率大）。",
+      "reason": "重大监管事件，直接决定市场中期走向。优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL", "HYPE"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/"},
+        {"name": "PYMNTS.com", "url": "https://www.pymnts.com/"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "21Shares提交HYPE ETF申请",
+      "summary": "21Shares向SEC提交了基于Hyperliquid（HYPE）的现货ETF申请，HYPE是一种去中心化交易所代币，年度费用收入达8.8亿美元。若获批，将为HYPE带来巨大机构资金流入，类似BlackRock对BTC的影响。短期情绪利好，但需关注SEC审批进展。HYPE估值或有较大上行空间。看多信号。",
+      "reason": "ETF申请是重大事件，直接影响对应币种。优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tahwu0/21shares_just_filed_a_hype_etf_a_dex_with_11/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Crypto ETF周流入8.58亿美元",
+      "summary": "上周加密ETF总净流入8.58亿美元，其中比特币ETF占主导，显示机构资金加速入场。这一流入规模创近期新高，与CLARITY Act乐观情绪相关。资金持续流入通常预示价格上涨。看多BTC及整个市场。",
+      "reason": "ETF资金流入是直接价格驱动因素。优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/crypto-etfs-draw-inflows-858m-121500123.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币鲸鱼30天囤积27万BTC",
+      "summary": "链上数据显示，比特币鲸鱼在过去30天内净增持27万枚BTC，约合220亿美元。这种大规模囤币行为通常被视为底部信号，表明大户认为当前价格具有吸引力。供应从交易所流出，减少抛压，对BTC价格形成支撑。看多。",
+      "reason": "巨鲸异动是优先一级信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "24/7 Wall St.", "url": "https://247wallst.com/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Solana ETF流入需求回升",
+      "summary": "Solana ETF近期出现持续净流入，交易员预期SOL价格可能反弹至120美元。SOL当前价格约105美元，技术面出现看涨形态。ETF资金回流表明机构兴趣恢复，或由Meme币热潮和生态活跃驱动。看多SOL。",
+      "reason": "ETF机构动向，中期影响。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/solana-etf-inflows-demand-returns-as-traders-eye-120"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Circle为AI代理赋能USDC",
+      "summary": "Circle宣布AI代理可直接使用USDC进行支付，同时通过Arc代币销售完成2.22亿美元融资。此举扩大稳定币应用场景，可能推动USDC供应增长。对稳定币生态及AI+加密概念构成利好，但短期价格影响有限。看多USDC生态相关代币（如CRCL、AI概念）。",
+      "reason": "稳定币重大更新，可能影响资金流入。优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/367490/circle-ai-agents-usdc-stablecoin-powers-222m-arc-token-sale"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy继续买入比特币",
+      "summary": "尽管Michael Saylor称卖币传闻是‘大乌龙’，Strategy仍在持续增持比特币，其风险调整后收益优于对冲基金。Strategy作为最大上市公司持有者之一，持续买入强化市场信心。看多BTC。",
+      "reason": "机构动向，直接买入信号。优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数48（中性）",
+      "summary": "当前恐惧贪婪指数为48，处于中性区间，未出现极端情绪。历史表明中性区域往往为趋势延续阶段。市场情绪平稳，既未过度贪婪也未极度恐惧，适合当前趋势交易。对整体市场影响中性，但可作为风险参考。",
+      "reason": "市场情绪指标，辅助判断。优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
