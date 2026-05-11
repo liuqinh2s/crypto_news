@@ -1469,3 +1469,63 @@ content length: 3143
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2508, prompt_tokens=11238, total_tokens=13746, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1818, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10086)
+content length: 1715
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC突破82000美元，SUI涨25%",
+      "summary": "比特币价格短暂突破82,000美元，主要受宏观条件改善推动，包括市场对美联储政策预期转鸽以及中东局势缓和。同时，Sui网络代币大涨25%，表现突出。这显示资金可能从主流币轮动至优质Layer1项目，短期内BTC和SUI有望继续走强。但需注意，突破可能伴随回调压力，建议关注后续能否站稳82,000。",
+      "reason": "直接影响行情，BTC突破关键心理位，SUI大幅上涨，属于市场结构信号，优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "SUI"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400663/bitcoin-briefly-tops-82000-sui-jumps-25?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Sui财库质押1.087亿SUI",
+      "summary": "Sui财库公司SUI Group披露其持有1.087亿枚SUI代币，大部分已用于质押。这减少了市场流通量，表明团队对项目长期发展的信心，对SUI价格构成支撑。质押行为通常被视为看多信号，可能吸引更多投资者关注Sui生态。",
+      "reason": "项目方重大事件，减少流通供应，直接影响SUI供需关系，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["SUI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512136.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Syndicate完成安全事件补偿",
+      "summary": "Syndicate宣布已完成对受桥接安全事件影响用户的补偿，并额外发放15%的补偿金。此举有助于恢复社区信任，稳定代币价格。虽然事件本身已过去，但补偿落实消除了潜在抛压，短期对SYN代币偏利好。",
+      "reason": "项目方处理安全事件后续，影响市场对项目安全性的信心，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["SYN"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512125.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于大量消息与历史重复（如巨鲸转ETH、TRUMP代币转移、伊朗提议、CLARITY法案等），经去重后仅筛选出3条有交易价值的新消息。"
+}
