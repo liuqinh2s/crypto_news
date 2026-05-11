@@ -2131,3 +2131,170 @@ content length: 2255
   ],
   "note": "当前市场新闻重复性较高，仅筛选出3条具有交易价值的新消息，其余多为历史消息重述或低影响内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3026, prompt_tokens=15627, total_tokens=18653, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=625, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14475)
+content length: 6086
+============================================================
+{
+  "news": [
+    {
+      "title": "Clarity Act将投票",
+      "summary": "美国参议院银行委员会将于本周对Clarity Act加密监管法案进行投票。该法案若通过，将为加密资产提供明确的监管框架，被视为重大利好。可能推动比特币和整个加密市场上涨。信号：看多。影响币种：BTC、ETH及主流币。",
+      "reason": "直接影响行情的重大监管动态，优先级一。法案进展将决定美国加密监管走向，市场情绪积极。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ta0z76/senate_banking_committee_to_vote_on_clarity_act/"
+        },
+        {
+          "name": "QZ",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qbnJIZmNPNTAzeGxIRHV5VEhHdjMzYkt2azY2WGFxckJCeTNnMzRPeldjQWxMYWN5WmNmdjV4WDBsdEdKdkFNRThsQlNMUUo0QnJTZS04dFktREZqNHlaS0U3ekZoeWdRak9XYUJwdTViellGNEJLaEx3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密基金周流入8.58亿美元",
+      "summary": "CoinShares报告显示，上周数字资产投资产品净流入8.579亿美元，连续第六周净流入，受Clarity Act进展提振。资金持续入场是看多信号，尤其是比特币相关产品。可能推动BTC突破阻力。信号：看多。影响币种：BTC、ETH。",
+      "reason": "ETF/机构资金持续流入，优先级一。连续六周流入显示机构看涨情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400710/sp-500-payments-firm-corpay-taps-bvnk-to-add-stablecoin-wallets-for-global-customers"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367382/crypto-funds-add-858m-as-clarity-act-drives-market-optimism"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "高盛推迟降息至12月",
+      "summary": "高盛因通胀压力将美联储首次降息预期推迟至2026年12月，此前预期为9月。紧缩货币政策延长利空风险资产，包括加密货币。可能抑制比特币上行动能。信号：看空。影响币种：BTC、ETH。",
+      "reason": "宏观经济数据影响风险资产走势，优先级二。推迟降息意味着流动性收紧周期更长。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/goldman-sachs-delays-fed-rate-cut-outlook/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "13年沉睡鲸鱼移动4000万BTC",
+      "summary": "一个自2013年沉睡的比特币地址突然移动了约4000万美元的BTC。历史上此类异动常被视为抛售前兆，可能引发短期抛压。需关注是否转入交易所。信号：短期看空。影响币种：BTC。",
+      "reason": "巨鲸异动，优先级一。大额沉睡地址移动可能指示抛售或换手。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/11/a-bitcoin-whale-that-went-silent-in-2013-moves-usd40-million-in-btc"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWI5OVczbkpNc0JvOC1hZVdvbHVwZEpkQ1hiNjFEVjd6eDlkX2VyV2RrVWdOZ3dOcHlNUWhyN3hHbDY0dFpLaFFjXzdaamhtUFdMdVBRS2l0dVhhdUxXNWh5X1poWk1EMEk4NWZBbXh4a1l0ZUlDckdvMXlWSHQ2TU8tZXhGSElSUzlZV2J0NUlva2NVa2IyNg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy可能抛售BTC付股息",
+      "summary": "消息称Strategy（原MicroStrategy）可能出售部分比特币以履行15亿美元股息义务。尽管其CEO表示每卖1个BTC会买10-20个，但实际出售仍构成潜在抛压。信号：看空。影响币种：BTC。",
+      "reason": "项目方重大事件（大额解锁/抛售风险），优先级一。若出售将增加市场供应。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/strategy-signals-potential-bitcoin-sales/"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/11/michael-saylor-s-latest-tax-strategy-echoes-strategy-s-2022-bitcoin-sale"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Circle在Solana铸造25亿USDC",
+      "summary": "Circle上周在Solana链上再次铸造约25亿枚USDC。稳定币增发通常意味着资金入场，是看多信号，且Solana链上流动性增强。信号：看多。影响币种：SOL、BTC、ETH。",
+      "reason": "稳定币供应量变化，优先级一。大量增发表明新增资金准备入场。",
+      "category": "市场结构",
+      "impact_coins": ["SOL", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/11/circle-raises-usd222-million-for-arc-blockchain-token-sale-at-usd3-billion-valuation"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国消费者信心创历史新低",
+      "summary": "美国消费者信心指数跌至历史最低，但比特币和纳斯达克却创下新高。这种背离可能预示风险资产短期过热，消费者悲观情绪最终可能传导至市场。信号：中性偏空。影响币种：BTC、ETH。",
+      "reason": "宏观经济数据与市场情绪背离，市场情绪信号。极端数据可能预示转折。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-nasdaq-investors-are-celebrating-while-us-consumers-turn-gloomy"
+        },
+        {
+          "name": "Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMEU5WU5sTWVPVFFrdDBHRnVnb3Y3Tk9IUTkzX3BlZWhYMTJUTUkzM1JRRWFaajdxWWRxQ3dlSG1LX3RrbkN5YWttd0tXUzZkTTZ3ZXM5RDE3QnI3X1ZmRVd2Q3MzVFhTQ2hfWUx6TTBBZHpEWkttNXd4b2dXOS1SWTZ2bVRFN1RrTTNuOW85M2pqQ0xQNXVEQ3o5Qnp4WFZSN2lOZ3Bsck10WFNjM2JsWW1PZER3cWs?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗局势紧张加剧波动",
+      "summary": "美国总统特朗普拒绝伊朗和平提议，伊朗称将适时决定浓缩铀问题，中东紧张局势升温。这推高了避险情绪，比特币在CME开盘时出现剧烈波动。地缘政治风险通常利空风险资产，但比特币偶尔受益于避险需求。信号：中性偏空。影响币种：BTC、ETH。",
+      "reason": "宏观地缘政治风险，影响市场情绪和波动。优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-whipsaws-on-cme-open-as-iran-tensions-pressure-crypto-markets"
+        },
+        {
+          "name": "crypto.news",
+          "url": "https://crypto.news/bitcoin-whipsaws-near-82k-as-trump-rejects-iran-peace-offer/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
