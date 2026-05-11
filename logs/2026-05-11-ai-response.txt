@@ -2071,3 +2071,63 @@ content length: 1562
   ],
   "note": "当前时段可交易价值的新消息较少。多数重要新闻（如CoinShares流入、CLARITY法案进展、上币公告等）已被历史覆盖且重复。仅筛选出以上三条新信息，其中Strategy潜在抛售最为关键。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4242, prompt_tokens=14864, total_tokens=19106, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3253, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13712)
+content length: 2255
+============================================================
+{
+  "news": [
+    {
+      "title": "Circle融资2.22亿美元",
+      "summary": "Circle为Arc区块链代币销售筹集2.22亿美元，估值30亿美元，投资方包括BlackRock、Apollo等。Circle是USDC发行商，此次融资显示传统金融机构对加密基础设施的强烈兴趣，可能增强稳定币生态并吸引更多资金入场。利好BTC、ETH及整个加密市场，看多信号。",
+      "reason": "Circle作为USDC发行商，其大规模融资表明机构对加密行业信心增强，可能推动稳定币供应增长，间接利好加密资产价格。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/11/circle-raises-usd222-million-for-arc-blockchain-token-sale-at-usd3-billion-valuation"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MARA预计Q1亏损",
+      "summary": "比特币矿商MARA预计第一季度亏损，但投资者关注其AI增长策略。亏损可能短期压低MARA股价，但对BTC影响有限。若AI转型成功，长期利好矿商板块。短期看空MARA，中性影响BTC。",
+      "reason": "MARA作为大型矿商，其财报可能影响矿工群体情绪，但亏损预期已在部分定价中，影响程度有限。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/11/mara-expected-to-post-q1-losses-as-investors-look-ahead-to-ai-growth-strategy"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "本周美国关键经济事件",
+      "summary": "本周美国将发布多项关键经济数据，包括CPI、PPI等，可能引发加密市场波动。若通胀超预期，可能强化美联储鹰派立场，利空风险资产；反之则利好。市场已部分预期波动，建议关注数据发布时点。中性信号，需等待实际数据。",
+      "reason": "宏观经济数据直接影响风险资产定价，加密市场与美股联动性高，本周数据可能决定短期方向。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Coinpedia",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVnZnV0N0eXVfZ0hkRmxPVTNLcFpvRGJ2bTRYTm5ZZ29vT0RnRWtTM3BPZ0dwVjhHaHczdW5vT05ZdlVWSVF4OFZUMGVYYWN5c25BYmI4V0IxN2w2QTczaEFVMmdfdUVRNU5QZ1dBUWlBaGYxaE5TYzhTck4za0psSW4za203RHowU0Rab011X0h6ZFByRHA1MHgwSGUwZ9IBowFBVV95cUxNUlozNjk3Qm1WdzFrVUZybTh4TmdjZDJXM1pFVldCel9vQWpuSnROeUc3dWVqeUtidGNIM0xNaERqamZrak9JYzZUTkt2T3FJRDg4T01LLXdVMDNpNGFjTmVaVFBBbDVDSUR5ZnFnNXMxY28yMG9QUXlmRHFJbDJwWk1FWkFWaUxxc0llM0xzRU9VSmJRcXBoNERibkFmVFFRdDVn?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场新闻重复性较高，仅筛选出3条具有交易价值的新消息，其余多为历史消息重述或低影响内容。"
+}
