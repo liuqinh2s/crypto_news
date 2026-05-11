@@ -1529,3 +1529,94 @@ content length: 1715
   ],
   "note": "由于大量消息与历史重复（如巨鲸转ETH、TRUMP代币转移、伊朗提议、CLARITY法案等），经去重后仅筛选出3条有交易价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2595, prompt_tokens=11610, total_tokens=14205, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1471, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10458)
+content length: 2869
+============================================================
+{
+  "news": [
+    {
+      "title": "Trump拒伊朗和平提议，BTC涨2.3%",
+      "summary": "特朗普称伊朗提出的和平提议“完全不可接受”，比特币在消息后短时上涨2.3%至82,000美元上方，或因空头回补及地缘不确定性推动避险情绪。该事件可能加剧中东紧张局势，对加密货币构成短期波动影响。历史上地缘冲突常导致比特币先跌后涨，但当前市场反应偏积极。影响币种：BTC、ETH。信号：中性偏多（BTC短期反弹但不确定性仍存）。",
+      "reason": "直接影响行情的重大地缘政治事件，特朗普表态超出市场预期，引发BTC短线异动，属于优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-rallies-2-percent-after-trump-calls-iran-peace-proposal-totally-unacceptable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美银预计2027年7月和9月各降息25bp",
+      "summary": "美银全球研究发布预测，认为美联储将在2027年7月和9月分别降息25个基点。尽管时间较远，但该预期强化了市场对长期宽松周期的押注，有利于风险资产估值。加密货币作为流动性敏感资产，降息预期构成中长期利好。影响币种：BTC、ETH。信号：bullish。",
+      "reason": "宏观宽松预期影响风险资产走势，属于优先级二（宏观经济），虽时间较远但方向明确。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512146.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "鲸鱼将2万枚ETH质押至Everstake",
+      "summary": "链上数据显示，某鲸鱼地址将20,000枚ETH（约4662万美元）质押至Everstake验证节点。此举意味着该部分ETH被锁定，减少市场流通供应，同时表明大户对以太坊长期前景看好。ETH质押率持续上升，可降低抛压。影响币种：ETH。信号：bullish。",
+      "reason": "巨鲸异动（质押锁定）减少卖压，属于优先级一链上异动，对ETH有直接利好。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512145.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket预测CLARITY法案通过概率75%",
+      "summary": "预测市场Polymarket显示，美国《CLARITY法案》在2026年签署成为法律的概率升至75%。该法案旨在为数字资产提供明确监管框架，若通过将极大提振行业信心，被视为重大监管利好。此前灰度等机构已积极推动。影响币种：BTC、ETH及美国合规相关币种。信号：bullish。",
+      "reason": "重大监管政策利好，属于优先级一监管动态，且概率显著上升。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512143.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "欧洲央行Guindos呼吁对利率保持谨慎",
+      "summary": "欧洲央行副行长Guindos表示需对利率保持“谨慎”，并警告战争会冲击经济。声明偏向鸽派，暗示欧洲可能放慢紧缩步伐，短期内对风险资产形成温和支撑。但影响力度有限，因欧洲央行并非加密货币定价主导因素。影响币种：BTC、ETH。信号：中性偏bullish。",
+      "reason": "宏观信息，欧洲央行展望影响全球流动性预期，属于优先级二宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512142.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
