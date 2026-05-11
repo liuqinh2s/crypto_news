@@ -2405,3 +2405,110 @@ content length: 3040
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4726, prompt_tokens=18613, total_tokens=23339, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3435, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=17461)
+content length: 3339
+============================================================
+{
+  "news": [
+    {
+      "title": "SUI周末暴涨25%",
+      "summary": "CoinDesk 20指数更新显示，SUI在周末期间飙升25%，成为表现最佳资产。这可能源于项目生态进展或市场轮动至Layer1公链。SUI本身直接受益，看多信号。",
+      "reason": "SUI价格大幅异动，属于直接影响行情的事件，可能引发短线交易机会。",
+      "category": "项目更新",
+      "impact_coins": ["SUI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/coindesk-indices/2026/05/11/coindesk-20-performance-update-sui-surges-25-over-weekend"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP技术指标看涨至2美元",
+      "summary": "CoinTelegraph报道，XRP多项指标发出看涨信号，可能启动全面反弹至2美元。技术面显示多头排列，但需注意大盘拖累。短期看多，但需观察突破确认。",
+      "reason": "技术面分析可能引发交易者关注，属于市场结构信号，但需结合基本面。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/xrp-metrics-line-up-bull-signals-full-scale-rally-2-dollars"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MoonPay收购Dawn Labs并推AI交易助手",
+      "summary": "MoonPay收购预测市场AI平台Dawn Labs，推出AI交易Copilot。此举可能提升加密支付和预测市场采用，长期利好行业，但短期影响有限。中性信号。",
+      "reason": "行业重要整合及AI+加密应用，属于中期项目更新，对整体市场情绪有提振。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367333/moonpay-acquires-dawn-labs-ai-trading-copilot-prediction-markets"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "哈塞特：鲍威尔或监察长报告后离任",
+      "summary": "白宫顾问哈塞特表示，鲍威尔可能在监察长报告出炉后选择离任。鲍威尔任期即将结束，若提前离任将引发美联储主席交接不确定性，市场可能预期更鹰派或更鸽派政策。短期增加宏观不确定性，利空风险资产。",
+      "reason": "美联储主席变动直接影响利率预期和风险偏好，属于重大宏观事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512210.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "62%美国人不信任政府对加密态度",
+      "summary": "Reddit民调显示，62%美国人不信任当前政府对加密货币的立场。这反映市场情绪偏负面，可能削弱散户参与热情，短期内利空。",
+      "reason": "市场情绪信号，信任度低可能压制风险偏好。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ta43k5/62_of_americans_dont_trust_the_administration/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "LM Funding：4月产出及BTC持仓2,530万美元",
+      "summary": "矿企LM Funding公布4月比特币产出及BTC treasury价值2530万美元。矿企持续积累，但规模较小，对市场影响微弱。中性信号。",
+      "reason": "矿工动态属链上异动，但规模有限，仅作参考。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWnVTdDhjNW8yMldYZ0QxeWlIVDlJQWZJX2dXWGYteXFPbnpVYVdFLVhfcEUwd1VTM0lIOWNGdWgzVE9SQ24tWDd1SFlrenNxTjk0TElBN0pyTTNvTG9YUW9KQmpSY3dXR2lTc01NampieFhLYldpVmhSRGVGODR1dUkxRTB4NEUwaWo0SEtNX0pGbV90M2drUDJ2YThGNVdsZ0Z0TjJLZ0lLRmwwNVVXRw"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
