@@ -1103,3 +1103,278 @@ content length: 4308
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1707, prompt_tokens=11230, total_tokens=12937, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1106, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10078)
+content length: 1311
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币突破8.8万目标分析",
+      "summary": "bloomingbit发布分析称，近期比特币上涨由现货需求驱动，而非杠杆，并设定了8.8万美元目标价。这可能意味着市场健康上涨，短期看多，但需关注CPI数据。影响币种：BTC。信号：看涨。",
+      "reason": "分析指出现货驱动上涨，非杠杆泡沫，对多头有利，属于关键市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZMmdFSG5NNEtiV3pkZ0ZjalJQU0JHRnVwaXk1Vl91OVBBeF80QXhYQ2x0bW4yTTBCOEd0c1ZWQVZXQnFMcVdtWUxQaGFDWW51ek5pbg"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩船遭袭影响矿机运输",
+      "summary": "韩国确认外部袭击导致HMM Namu号起火，该船可能运输矿机，影响全球矿机供应和哈希率。短期可能推高矿业成本，间接利好比特币（成本支撑），但影响有限。影响币种：BTC。信号：中性。",
+      "reason": "地缘事件干扰矿机物流，可能引发短期供应链问题，属于链上异动相关因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6bUFObGkySTliLWh5Tm9ncHd2NDVlaENad0p3amZvT2JRUnI3c29zMzhnZ3hJbkY1Mkk4eUhUVDZsS0R1RDRQT1UwUjluZWFLZG5GRHRlOS1vQS1tZjZzR3N2MHVzMnF2ek5BcGEzT1EycEhhSG5sRQ"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中多数重复历史消息，仅提取2条有价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3314, prompt_tokens=11230, total_tokens=14544, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2655, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11136), prompt_cache_hit_tokens=11136, prompt_cache_miss_tokens=94)
+content length: 1431
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国确认船只遭袭升级中东局势",
+      "summary": "韩国官方确认，HMM Namu号货船在霍尔木兹海峡遭外部袭击起火，伊朗与美军对峙升级。该海峡是中东石油和天然气运输要道，地缘紧张加剧可能导致原油价格飙升，进而推高全球通胀预期，对风险资产（包括加密货币）形成压力。同时，比特币挖矿依赖电力，油价上涨可能增加矿工成本，导致部分矿工抛售。此事件对BTC、ETH整体市场产生负面影响。",
+      "reason": "地缘政治突发事件，可能引发避险情绪和成本上升，属于宏观经济类影响行情消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6bUFObGkySTliLWh5Tm9ncHd2NDVlaENad0p3amZvT2JRUnI3c29zMzhnZ3hJbkY1Mkk4eUhUVDZsS0R1RDRQT1UwUjluZWFLZG5GRHRlOS1vQS1tZjZzR3N2MHVzMnF2ek5BcGEzT1EycEhhSG5sRQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币上涨由现货驱动目标88000",
+      "summary": "最新分析显示，比特币近期上涨主要由现货需求驱动，而非杠杆资金，未平仓合约未出现异常增长。这表明市场结构健康，多头资金来自真实买盘，风险较低。分析师认为若现货需求持续，比特币有望挑战88000美元。此信号对BTC构成利多。",
+      "reason": "市场结构分析显示现货需求强劲且无过热杠杆，属于市场情绪类利多信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZMmdFSG5NNEtiV3pkZ0ZjalJQU0JHRnVwaXk1Vl91OVBBeF80QXhYQ2x0bW4yTTBCOEd0c1ZWQVZXQnFMcVdtWUxQaGFDWW51ek5pbg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "仅有2条高价值新消息，其余素材均与历史重复或不符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1880, prompt_tokens=11230, total_tokens=13110, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1458, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11136), prompt_cache_hit_tokens=11136, prompt_cache_miss_tokens=94)
+content length: 855
+============================================================
+{
+  "news": [
+    {
+      "title": "全球BTC持有量升64% 韩国限交易",
+      "summary": "据最新数据，全球比特币持有量较上月跃升64%，创历史新高。与此同时，韩国继续维持交易限制，禁止本地交易所向境外开放。这可能意味着韩国资金外流受阻，但全球持有量增长显示机构与散户仍在增持。影响币种：BTC。看多信号，因持有量增加表明需求旺盛，但韩国限制交易可能抑制部分流动性，整体偏多。",
+      "reason": "全球比特币持有量大幅增长是重要的链上指标，反映长期持有趋势；韩国监管限制则构成短期利空，但持有量突破历史新高表明市场信心强劲。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWRacC0xZGl3VXVncGpabnoyUGhIMDVMekxoRUpBdl9Uai1VN3o2a010SmZxNy1meldyb0ItLWlwd1E2VWlsZUFYVENUU2JjODRwWGM1djBZVUhTQjY5dzhFTTZKLXJuZk5MU2diN3ZEckZsQ2QtNkUtQVhpRlJXOWphaGt0M1B6aHFrNGx3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，大部分消息与历史记录重复或为旧闻，仅此一条有数据更新且具备交易参考价值。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2124, prompt_tokens=12281, total_tokens=14405, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1820, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11129)
+content length: 672
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC现货需求驱动，目标88000美元",
+      "summary": "分析指出近期比特币上涨由现货需求驱动而非杠杆，多头健康，目标价88,000美元。这对比特币是看多信号，表明当前上涨可持续性较强，短期回调风险较低。",
+      "reason": "该分析观点提供了对当前市场结构的判断，属于市场结构异动，虽非官方数据，但能辅助交易决策。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZMmdFSG5NNEtiV3pkZ0ZjalJQU0JHRnVwaXk1Vl91OVBBeF80QXhYQ2x0bW4yTTBCOEd0c1ZWQVZXQnFMcVdtWUxQaGFDWW51ek5pbg"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本周期内无足够重大新消息，仅筛选到1条。根据筛选标准，多数事件已在历史消息中出现。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1620, prompt_tokens=12281, total_tokens=13901, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1323, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12160), prompt_cache_hit_tokens=12160, prompt_cache_miss_tokens=121)
+content length: 660
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC涨势由现货驱动目标8.8万",
+      "summary": "分析指出，近期比特币上涨主要由现货需求推动，而非杠杆资金，表明市场健康，目标看向88,000美元。该信号利好BTC，影响所有主要加密资产，短期看多。",
+      "reason": "属于市场结构分析，指出BTC现货需求旺盛，无过度杠杆，是看多信号，符合筛选标准优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZMmdFSG5NNEtiV3pkZ0ZjalJQU0JHRnVwaXk1Vl91OVBBeF80QXhYQ2x0bW4yTTBCOEd0c1ZWQVZXQnFMcVdtWUxQaGFDWW51ek5pbg"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中多数消息与历史重复或无关交易，仅筛选出1条有效消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2730, prompt_tokens=5077, total_tokens=7807, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=867, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3925)
+content length: 4275
+============================================================
+{
+  "news": [
+    {
+      "title": "沉睡12年BTC鲸鱼转移500BTC",
+      "summary": "链上数据显示，一个自2013年起沉睡的比特币地址突然转移了500BTC（约合4100万美元），这是典型的休眠巨鲸异动。该地址可能为早期矿工或持有者，资金转入交易所的可能性较大，市场担心潜在抛压，对BTC构成短期利空。不过，若资金转入冷钱包或进行OTC交易，则影响有限。需密切关注后续动向。",
+      "reason": "优先级一：巨鲸异动——大额BTC转出休眠地址，通常被视为潜在抛售信号，直接影响BTC价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/400659/bitcoin-whale-moves-41-million?utm_source=rss&utm_medium=rss"},
+        {"name": "Bitcoin News", "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVktYemFvbzQ3U2JCMU5Wb2FfUnFVMWh1UnFfb0ZtODhmR0toNW9BcF9SRF9JM3AyT19qQVFoRlpaN0x5eXBxajNQckN2WlIwV1FJOXVmenVhZXpObTFibUsycW85bHJyZ3RQeWNwejZPWXd6QzhnNjFkY1pZVU02djMwOVRLTjZyR1VkN3FkeGNBWjhsREZyaHB3aVI?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "韩国推进加密货币税收计划",
+      "summary": "韩国政府正式推进加密货币税收法案，计划对加密交易收益征收资本利得税。尽管此前多次推迟，此次进展显示监管收紧趋势，可能影响韩国交易者的积极性，对市场情绪造成短期利空。但具体税率和执行细节尚未完全明确，需关注后续立法进程。",
+      "reason": "优先级一：重大监管动态——国家级别税收政策直接影响交易行为，利空整体市场。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "thelec.net", "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01RWZ0UnZzLXRzYkZidm1CekRtRFpuUWVNNVN4RWFfUTg4Yzh5WTlNeEFPZHNYNEN0Q1Z5a2d3UFVUaTBIbkY4LUNqc3NLVmdWTlBtZXRMZDlubFo2cGE1ampIN1FRdjQ?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "DRW旗下数字资产公司估值20亿融资",
+      "summary": "交易巨头DRW支持的初创公司正在以20亿美元估值融资，表明传统金融机构持续布局加密领域。DRW本身是知名做市商，此举将进一步推动机构资金入场，长期利好数字资产市场。",
+      "reason": "优先级二：机构动向——知名机构旗下公司高估值融资，反映资本看好，中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-10/drw-backed-digital-asset-raising-money-at-2-billion-valuation"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币本轮上涨由现货需求驱动",
+      "summary": "分析指出，当前比特币上涨主要源于现货买盘而非杠杆资金，未平仓合约增幅有限，表明上涨结构健康。目标价看向88,000美元，回调风险较低。这强化了多头信心，但需关注持续性。",
+      "reason": "优先级三：市场结构信号——现货驱动上涨比杠杆更可持续，为看多提供依据。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "bloomingbit", "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZMmdFSG5NNEtiV3pkZ0ZjalJQU0JHRnVwaXk1Vl91OVBBeF80QXhYQ2x0bW4yTTBCOEd0c1ZWQVZXQnFMcVdtWUxQaGFDWW51ek5pbg?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上架MegaETH (MEGA)并开放合约",
+      "summary": "Binance宣布上线MegaETH (MEGA)现货和永续合约，并标注种子标签。新币上线通常带来短期波动，MEGA作为AI+ETH概念代币可能吸引炒作，但高波动风险需注意。",
+      "reason": "优先级一：交易所上币公告——直接影响对应币种价格和流动性。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance推出BILLUSDT永续合约",
+      "summary": "Binance Futures于5月7日上线BILLUSDT永续合约，提供最高75倍杠杆。BILL为Solana生态项目代币，合约上线有助于提升流动性，可能吸引更多交易者参与。",
+      "reason": "优先级一：交易所上线合约——影响对应币种的交易活跃度和价格发现。",
+      "category": "交易所",
+      "impact_coins": ["BILL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国HMM火灾影响矿机运输",
+      "summary": "韩国证实HMM Namu号货轮火灾由外部打击引发，该船运有大量加密货币矿机。预计将延迟矿机交付，短期内可能推高二手矿机价格，但对全网算力影响有限，若火灾导致矿机损毁则可能轻微减少算力，对BTC略微利好。",
+      "reason": "优先级二：项目更新（矿机事件）——影响挖矿经济，间接影响BTC供需。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6bUFObGkySTliLWh5Tm9ncHd2NDVlaENad0p3amZvT2JRUnI3c29zMzhnZ3hJbkY1Mkk4eUhUVDZsS0R1RDRQT1UwUjluZWFLZG5GRHRlOS1vQS1tZjZzR3N2MHVzMnF2ek5BcGEzT1EycEhhSG5sRQ?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
