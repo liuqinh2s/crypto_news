@@ -2026,3 +2026,48 @@ content length: 4254
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2644, prompt_tokens=14208, total_tokens=16852, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2033, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13056)
+content length: 1562
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy或卖BTC付15亿股息",
+      "summary": "Strategy（原MicroStrategy）可能出售部分比特币持仓以筹集15亿美元用于支付股息。公司已发出信号，可能在未来出售最多价值15亿美元的比特币。若执行，将增加市场抛压，利空比特币。影响币种：BTC、MSTR。",
+      "reason": "机构减持比特币，直接增加卖压，属于优先级一机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Crypto Briefing", "url": "https://cryptobriefing.com/strategy-bitcoin-sales-dividend/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊基金会赎回2.1万ETH",
+      "summary": "以太坊基金会从Lido质押协议中赎回21,271枚ETH，价值约4966万美元。基金会可能计划出售或重新分配资金，历史上基金会抛售ETH常引发价格承压。短期内ETH面临潜在卖压。",
+      "reason": "项目方大额解锁/赎回可能抛售，属于优先级一项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512180.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Crypto.com获迪拜政府支付牌照",
+      "summary": "Crypto.com获得阿联酋迪拜政府颁发的加密货币支付牌照，允许其处理政府相关加密支付。这是合规进展利好，有助于提升CRO生态采用，但短期对市场整体影响有限。",
+      "reason": "监管合规利好，但影响范围局限于CRO及平台币，属于优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["CRO"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/400687/crypto-com-receives-uae-license-tied-to-dubai-government-crypto-payments?utm_source=rss&utm_medium=rss"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前时段可交易价值的新消息较少。多数重要新闻（如CoinShares流入、CLARITY法案进展、上币公告等）已被历史覆盖且重复。仅筛选出以上三条新信息，其中Strategy潜在抛售最为关键。"
+}
