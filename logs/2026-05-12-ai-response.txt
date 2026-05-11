@@ -62,3 +62,92 @@ content length: 2579
   ],
   "note": "近6小时无重大突发消息，以上为相对新事件，交易价值有限。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4178, prompt_tokens=17152, total_tokens=21330, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2596, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16000)
+content length: 3611
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普称伊朗回应愚蠢",
+      "summary": "美国总统特朗普发表声明称伊朗对美方方案的回应“愚蠢”，加剧美伊紧张关系。地缘政治风险上升可能引发避险情绪，加密货币等风险资产面临抛售压力。直接影响BTC、ETH等主流币种，短期看空。",
+      "reason": "地缘政治突发事件，可能引发市场恐慌和避险，属于影响行情的宏观因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512224.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普召集高层研判对伊动武",
+      "summary": "美国官员透露特朗普召集高层研判对伊朗重新动武的可能性，中东局势进一步紧张。若冲突升级，可能导致全球市场动荡，加密货币作为高风险资产将承压。需密切关注后续行动，短期看空BTC/ETH。",
+      "reason": "直接关联军事冲突风险，对市场情绪冲击大，属于优先级一的宏观事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512226.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普邀CEO访华或缓和关系",
+      "summary": "特朗普邀请马斯克、库克、芬克等CEO一同访华参加峰会，此举可能缓和美中贸易紧张局势，提振风险偏好。若行程成行，对加密货币等资产将产生正面影响，短期看多BTC/ETH。",
+      "reason": "地缘政治缓和信号，利好风险资产，属于宏观经济事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CNBC Crypto", "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU0cwQk9lal9TNDJobnQ0TGFwUkx6c296UDNCSm5FVGlLMjNjS0FnczM5Q1FINkxieWVzSG5uS29FVEZlQ3hLYzZVVEdQOWxyNkVfUUxvYUNfa2ZNYlowaWYxM0RveGtGVHRDQmZVTVY2dFlFVEdOd3JKUTNDbC1VYUZ0Q3NselhSRG5vcU95V0dlc0F3X1dEMNIBngFBVV95cUxNT0szaWR0NzFvZ0pzMDI1NGo2U3RZUlM3cVNHMkNJUDROakNWUlBVbjNIdUtELUpqQm5HeTJ2X0lfWE9UMmJQOEdFWXdrdTNMQ0VNRHdDZi1SR3BQZURrMWt5bDRXckM1TzB4QV9VeHVRQjhhQU5TSTNUZGlacTFyVUVlRk5vbldQUWRZanBYSXhLZFJPV21iRjd4MXdyUQ?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Anchorage退出稳定币集团",
+      "summary": "加密托管机构Anchorage宣布退出由Robinhood和Kraken支持的稳定币行业组织，此举可能削弱该组织影响力，增加稳定币监管不确定性。短期对USDC等稳定币相关代币偏空，但影响有限。",
+      "reason": "涉及稳定币监管动态，属于优先级一中的监管动态，但事件较小。",
+      "category": "监管政策",
+      "impact_coins": ["USDC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/11/anchorage-is-stepping-back-from-robinhood-and-kraken-backed-stablecoin-group"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Galaxy系推出机构稳定币USBD",
+      "summary": "Galaxy Digital支持的初创公司Boundary宣布推出可验证的机构级稳定币USBD，旨在提高透明度和信任。新稳定币的推出可能增加市场竞争，对以太坊生态利好，但短期影响不大。看多ETH和稳定币生态。",
+      "reason": "新稳定币发行，属于项目更新，可能带来链上活动增加。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/400791/galaxy-backed-boundary-to-launch-verifiable-institutional-stablecoin-usbd?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "华尔街费用战或压垮加密交易所",
+      "summary": "报道称华尔街巨头引发大规模费用战，可能严重挤压加密货币交易所的利润率。若成现实，将冲击Coinbase、Binance等中心化交易所收入，利空平台币如BNB、COIN等。短期影响有限，但需关注。",
+      "reason": "涉及交易所竞争格局，可能影响平台币价值。",
+      "category": "市场结构",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbENDd2NpWmowQmRmSlk4Ql9BQWlNQjlwNjFsWHJUaktYN3FJRHN0X1AwOFM1azZ4U1JVSHZ3NzlIeUt3S1p4VnJQQlR2RHVUTy1Wc0JCZHpzTnh2eXpJdFJwSGdJZlg4a09ZZUZNM0ZvczhJUm5CZUFlU2pMR2E1Ym1VeHppN1FZSkJYcFNUZXhFem1kSVBjVTdNaHFSQXBUQWxBZzItalA5WUtLaVAtU1RhYjNxMllSX1llWWRSVQ?oc=5"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
