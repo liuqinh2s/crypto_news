@@ -1803,3 +1803,110 @@ content length: 3157
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3602, prompt_tokens=12677, total_tokens=16279, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2029, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11525)
+content length: 3745
+============================================================
+{
+  "news": [
+    {
+      "title": "Capital B融资1800万",
+      "summary": "法国比特币国库公司Capital B完成1800万美元融资，投资方包括Adam Back等知名人物。该公司专注于将比特币作为企业储备资产。此次融资表明机构对比特币作为国库资产的兴趣持续增加，可能吸引更多企业效仿。对BTC形成长期看多信号，但短期内影响有限。",
+      "reason": "机构动向，直接关联比特币采用，属于优先级二的中期影响消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400677/btc-treasury-capital-b-raise-adam-back"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "白帽归还Renegade 19万",
+      "summary": "Renegade协议遭黑客攻击数小时后，一名白帽黑客归还了约19万美元的被盗资金。该事件虽未造成重大损失，但也暴露出DeFi协议的安全风险。对Renegade代币短期情绪有提振，但整体市场影响微弱。",
+      "reason": "项目安全事件，但影响范围小，属于优先级一但影响级别低。",
+      "category": "项目更新",
+      "impact_coins": ["RENEGADE"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/whitehat-returns-190k-renegade-hours-after-hacking-the-protocol"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普公司加密亏损4亿",
+      "summary": "特朗普旗下企业因加密货币投资亏损4.059亿美元，CEO辞职。该消息可能对与特朗普相关的Meme代币TRUMP造成抛压，并引发市场对政治人物参与加密风险的讨论。短期偏空，但影响有限。",
+      "reason": "涉及特朗普相关资产，可能引发短期情绪波动，属优先级一的事件驱动。",
+      "category": "项目更新",
+      "impact_coins": ["TRUMP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1t9wd62/trumps_business_loses_us4059_million_due_to/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美法院批准转移朝鲜黑客被盗资金",
+      "summary": "美国法院批准一项投票，允许动用约7100万美元的被朝鲜黑客窃取的加密货币。此案涉及执法与合规流程，但不会直接影响市场供需。整体影响中性，但可能引发对加密资产合法性的讨论。",
+      "reason": "监管执法动态，属优先级一的监管政策，但具体影响有限。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "NK News",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBUaGU0ZTRrdnFPZHNWNGx4OEtfYkNZSlJ1WGg0TFEyczIwVmV6RWxqR0w1Z0tHWlo3NjdHeFdpWDJfWjUzOEFN?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "摩根士丹利BTC ETF流入1.94亿",
+      "summary": "摩根士丹利的比特币ETF在近期吸引了1.94亿美元资金净流入，且无任何资金流出。这表明传统金融机构对比特币ETF的需求强劲，华尔街正在加速入场。该消息对比特币价格构成显著利好，有望推动价格进一步上行。",
+      "reason": "ETF资金大幅流入，属优先级一的直接影响消息，且为行业巨头。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CCN.com",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNHdBbjhFWk1QQzFWazdXeXVZOE9mMU9UcEp3cnJ4Qm5HZTBsejE0bVRUTTNaLVRtSnJSLUNDbW16ZVhzVU1PTUpaU0Z5dGxHTzllTkVVUHRsNzZtU3R0d2dGTFQ0Y3NGejNlbXhmMHBQYzl4VVVMVTlQSkVUMGp6OG9vQ2c1anJ6WHc?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储主席换帅在即：Warsh将接替",
+      "summary": "美联储主席鲍威尔任期即将结束，继任者Warsh被视为更加密货币友好。市场预期新主席可能放松对数字资产的监管，同时改变美联储的防御性监管立场。此宏观事件对加密市场整体偏多，特别是若Warsh正式上任后推动政策改革。",
+      "reason": "宏观经济与监管重大变动，属优先级一的宏观与监管事件，影响广泛。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYzA4empJU2dxbDZNMnlXQThPUnItbFd1TVFPYWRBNDhTYkprMVFjWkJVY2tBZ0dUcTdxUE9VdGx1bmJKak1NMm5yMk92VlFhbmRUY2VNbFFZTXZFNDZTaDdpQk9jT2xBM1RoeHJqOFVmV09QY1BwYXBPLVRUbWdnWFRyalo3WEdoMzVxWnhfZXowMDNxaXRLRWlua2d5STBlSzF0c3JWOVRHa21NTXVPLWJoSWVZUlBJbkUyYUtXQXh1ak00WDNNN1VraExib0h2dUMtX1lGUlJUeXky?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
