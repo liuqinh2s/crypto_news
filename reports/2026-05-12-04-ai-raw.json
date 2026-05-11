@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-12",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13816,
+    "completion_tokens": 3031,
+    "total_tokens": 16847
+  },
+  "content_length": 1583,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Burry警告纳指大跌\",\n      \"summary\": \"知名投资人Michael Burry警告称纳斯达克100指数可能大幅下跌，原因是科技股估值过高。这一警告可能引发市场对风险资产的重新评估，包括加密货币。比特币和以太坊等主流币可能受到情绪拖累，短期承压。整体看空信号，但需结合市场反应。\",\n      \"reason\": \"优先级二：宏观经济。知名投资人发出明确看空警告，可能引发避险情绪，影响加密市场。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/512233.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"伊美浓缩铀分歧加剧\",\n      \"summary\": \"伊朗官员表示，伊美就浓缩铀处置方式存在严重分歧，地缘政治紧张局势进一步升级。此前美国已召集高层研判动武，伊朗部署潜艇。地缘风险升温通常导致资金流向黄金等避险资产，加密货币作为风险资产可能短期承压。但也可能因美元信用担忧吸引部分避险买盘。整体偏空信号。\",\n      \"reason\": \"优先级二：宏观经济。地缘政治紧张升级，影响风险偏好，可能引发市场波动。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/512230.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"AI零日漏洞突破2FA\",\n      \"summary\": \"Google发现黑客利用AI构建零日漏洞，可绕过双因素认证（2FA）。此事件暴露了加密资产安全的潜在风险，可能打击用户对交易所和钱包安全性的信心，短期内对市场情绪产生负面影响。但具体影响取决于是否出现实际盗币事件。整体偏空信号。\",\n      \"reason\": \"优先级三：市场情绪。安全漏洞新闻可能引发恐慌，虽未直接攻击交易所，但负面影响情绪。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/367477/hackers-ai-zero-day-exploit-google\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
