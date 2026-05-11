@@ -2512,3 +2512,110 @@ content length: 3339
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2538, prompt_tokens=18872, total_tokens=21410, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1306, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=17720)
+content length: 3427
+============================================================
+{
+  "news": [
+    {
+      "title": "Solana共识机制重大升级测试",
+      "summary": "Solana历史上最大的共识机制改革现已上线测试，该升级旨在提升网络稳定性和去中心化程度，通过引入新的共识算法来减少验证者压力。如果成功，将显著增强Solana网络可靠性，吸引更多开发者与应用。主要影响SOL代币，市场预期积极，短期看多SOL。",
+      "reason": "项目重大技术升级，属于优先级二，直接影响SOL网络性能和信心。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/05/11/the-biggest-consensus-overhaul-in-solana-history-is-officially-live-for-testing"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "参议院CLARITY法案标记日程确定",
+      "summary": "美国参议院已安排CLARITY法案的标记工作，该法案若通过将提供明确的加密监管框架。银行游说团体和民主党表示抵制，但市场预期法案推进是利好，可能为比特币等主流币带来合规资金流入。主要影响BTC和整体市场情绪，看多。",
+      "reason": "重大监管动态，优先级一，直接影响市场预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/senate-schedules-clarity-act-markup"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "银行协会施压限制稳定币收益",
+      "summary": "美国银行家协会CEO在参议院投票前最后时刻推动收紧稳定币奖励限制，可能影响USDT、USDC等稳定币的收益分配机制。若限制通过，或降低稳定币吸引力，但长期有利于合规发展。短期可能对稳定币发行商构成压力，中性偏空。",
+      "reason": "监管政策博弈，优先级一，直接影响稳定币生态。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400757/american-bankers-association-ceo-makes-final-hour-push-for-tightened-limits-on-stablecoin-rewards-ahead-of-senate-committee-vote"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "预测市场ETF发布再次延迟",
+      "summary": "由于SEC仍在审查，预测市场ETF的推出再次延期。分析师指出这属于“突破性”产品，延迟可能暂时抑制相关概念币及市场情绪。影响主要涉及预测市场代币如POLY等，但当前影响有限，中性偏空。",
+      "reason": "ETF相关审批延迟，属于优先级二，影响市场结构。",
+      "category": "ETF机构",
+      "impact_coins": ["POLY"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400745/groundbreaking-prediction-market-etfs-launch-delayed-again-as-sec-reviews-more-analyst"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "英国央行警告稳定币监管冲突",
+      "summary": "英国央行行长表示，英国与美国在稳定币监管方面将面临“角力”，暗示可能出台更严格的监管措施。这增加了跨辖区的监管不确定性，可能影响稳定币发行商的全球布局。中性偏空，影响USDT/USDC等。",
+      "reason": "国际监管动态，优先级一，可能引发连锁反应。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367399/bank-of-england-chief-flags-coming-wrestle-with-us-on-stablecoin-oversight"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Augustus获OCC有条件批准",
+      "summary": "AI驱动稳定币清算银行Augustus获得美国货币监理署（OCC）有条件批准，成为首家此类银行。这标志着AI与加密货币融合的监管突破，利好稳定币基础设施和AI概念代币，看多相关板块。",
+      "reason": "重大监管利好，优先级一，涉及AI与稳定币创新。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "USDT"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/augustus-wins-conditional-occ-approval-for-ai-powered-stablecoin-clearing-bank"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
