@@ -1378,3 +1378,94 @@ content length: 4275
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2719, prompt_tokens=10869, total_tokens=13588, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1443, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9717)
+content length: 3143
+============================================================
+{
+  "news": [
+    {
+      "title": "Digital Asset以20亿估值融资",
+      "summary": "DRW支持的区块链公司Digital Asset正以20亿美元估值融资3亿美元，a16z crypto领投。这显示机构对区块链基础设施的兴趣，可能提振市场对代币化证券和机构采用的情绪，利好BTC、ETH及平台代币。短期看多信号，但融资不直接推高币价。",
+      "reason": "优先级二：机构动向，大额融资表明资本持续入场，属于中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bloomberg Crypto",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-10/drw-backed-digital-asset-raising-money-at-2-billion-valuation"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗提议结束战争解除制裁",
+      "summary": "伊朗提议结束战争并解除制裁，作为对美国的回应。地缘政治风险缓和将降低原油价格的不确定性，有利于风险资产如加密货币。BTC、ETH等可能受益。但谈判仍有变数，中性偏多。",
+      "reason": "宏观经济事件，地缘缓和提升风险偏好，属中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reuters Crypto via Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoU2tEbVU5NlJ6S3NLYnFjQW52VmJQaDlFcFA2SnJ5SC1paFVvQWdRZXlqNGlEWERXalVpTjhSWm1uM1JZT0xaNU9UbERhNG44T2RNRGxSTy1iOXc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "全球比特币持仓增长64%",
+      "summary": "据朝鲜日报报道，Global Bitcoin Holdings Jump 64%，同时South Korea Keeps Trading Ban。全球比特币持有量大幅增加，说明大量资金持续流入，多头积累。韩国维持交易禁令但持仓仍增，显示需求强劲。看多信号，利好BTC。",
+      "reason": "链上数据异动，显示囤币趋势，属优先级一中期影响。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "조선일보 via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWRacC0xZGl3VXVncGpabnoyUGhIMDVMekxoRUpBdl9Uai1VN3o2a010SmZxNy1meldyb0ItLWlwd1E2VWlsZUFYVENUU2JjODRwWGM1djBZVUhTQjY5dzhFTTZKLXJuZk5MU2diN3ZEckZsQ2QtNkUtQVhpRlJXOWphaGt0M1B6aHFrNGx3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币上涨由现货驱动目标88000",
+      "summary": "Bloomingbit报道，Bitcoin Rally Driven by Spot Demand, Not Leverage，目标$88,000。当前上涨由真实买入推动而非杠杆，表明可持续性，做多拥挤度低。看多信号，利好BTC。",
+      "reason": "市场结构分析，显示健康上涨，属优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "bloomingbit via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZMmdFSG5NNEtiV3pkZ0ZjalJQU0JHRnVwaXk1Vl91OVBBeF80QXhYQ2x0bW4yTTBCOEd0c1ZWQVZXQnFMcVdtWUxQaGFDWW51ek5pbg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线BILLUSDT永续合约",
+      "summary": "Binance将于2026-05-07上线BILLUSDT永续合约。新品种上线吸引交易量，但BILL是较小众代币，影响有限。短期对BILL利多，但整体市场中性。",
+      "reason": "交易所上币/合约上线，直接影响对应币种，但BILL市值低，影响范围小。",
+      "category": "交易所",
+      "impact_coins": ["BILL"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
