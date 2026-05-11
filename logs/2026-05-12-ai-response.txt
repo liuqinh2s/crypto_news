@@ -1,23 +1,22 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4842, prompt_tokens=16909, total_tokens=21751, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3700, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15757)
+content length: 2579
+============================================================
 {
-  "date": "2026-05-12",
-  "hour": "00",
   "news": [
     {
       "title": "OpenAI推出咨询部门",
       "summary": "OpenAI宣布成立咨询部门帮助公司部署AI，表明AI商业应用加速。此举可能利好AI相关加密货币（如RENDER、FET等），因AI需求增加可能推动代币使用。但影响间接，短期信号偏多。",
       "reason": "AI领域新进展，可能带动AI板块情绪，但非直接加密事件。",
       "category": "项目更新",
-      "impact_coins": [
-        "RENDER",
-        "FET"
-      ],
+      "impact_coins": ["RENDER", "FET"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
-        {
-          "name": "Decrypt",
-          "url": "https://decrypt.co/367403/openai-launched-consulting-arm-help-companies-deploy-ai"
-        }
+        {"name": "Decrypt", "url": "https://decrypt.co/367403/openai-launched-consulting-arm-help-companies-deploy-ai"}
       ],
       "urgency": "days"
     },
@@ -26,17 +25,11 @@
       "summary": "CoinTelegraph分析指出，2026年美国中期选举中，加密货币和AI可能成为候选人攻击对手的负面标签。这可能导致监管收紧风险，对加密市场整体情绪产生压制，短期偏空。",
       "reason": "政治风险增加，可能引发监管不确定性，利空市场。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 2,
       "sources": [
-        {
-          "name": "CoinTelegraph",
-          "url": "https://cointelegraph.com/features/crypto-and-ai-could-be-dirty-words-on-2026-midterm-campaign-trail"
-        }
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/features/crypto-and-ai-could-be-dirty-words-on-2026-midterm-campaign-trail"}
       ],
       "urgency": "days"
     },
@@ -45,18 +38,11 @@
       "summary": "ETF Trends报道比特币主导地位上升，但表示对山寨币并非全是坏事。主导地位上升通常意味着资金流向BTC，altcoin相对承压。短期看BTC相对强势，altcoin可能表现较弱。",
       "reason": "市场结构变化信号，影响资产配置决策。",
       "category": "市场结构",
-      "impact_coins": [
-        "BTC",
-        "ETH",
-        "SOL"
-      ],
+      "impact_coins": ["BTC", "ETH", "SOL"],
       "signal": "neutral",
       "impact_level": 1,
       "sources": [
-        {
-          "name": "ETF Trends",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRXZidkdMc25WcUFkd1hiZ3dMR2lCS2hrTHl5RmdEMXZXYnZRaUhleTJmbFYtd18yX2lsZlRTbVp4RlVjY3k5VmlHUzAwUWZoeEkyWWNGZnJtcWRIWmx2S2FmcXVFRTBfLUYzWlh6RWRRNHBON3RiWGhNUy1uMzRKZmFxVURCbzl1cVFwMi05ONIBlAFBVV95cUxNYXJnR29PeXpHd2U5YlhZWnNtUVNrQW5XTFZ4Mmt0Rm9CNERIOWVlQ0R5MEVpMXU0U0NRMGIzdWpjaGZLbWU4eW5yWVc0Y0Zmd0IxUjFra3BwUWZGenNkeDlhZDNVMHhVV3lwZXVfaUo4TWxhTktGUjJGUTFUUDl1ZkFqamI5SjNEQVNEX3Jlc29aZ1c1?oc=5"
-        }
+        {"name": "ETF Trends", "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRXZidkdMc25WcUFkd1hiZ3dMR2lCS2hrTHl5RmdEMXZXYnZRaUhleTJmbFYtd18yX2lsZlRTbVp4RlVjY3k5VmlHUzAwUWZoeEkyWWNGZnJtcWRIWmx2S2FmcXVFRTBfLUYzWlh6RWRRNHBON3RiWGhNUy1uMzRKZmFxVURCbzl1cVFwMi05ONIBlAFBVV95cUxNYXJnR29PeXpHd2U5YlhZWnNtUVNrQW5XTFZ4Mmt0Rm9CNERIOWVlQ0R5MEVpMXU0U0NRMGIzdWpjaGZLbWU4eW5yWVc0Y0Zmd0IxUjFra3BwUWZGenNkeDlhZDNVMHhVV3lwZXVfaUo4TWxhTktGUjJGUTFUUDl1ZkFqamI5SjNEQVNEX3Jlc29aZ1c1?oc=5"}
       ],
       "urgency": "hours"
     },
@@ -65,20 +51,14 @@
       "summary": "Seeking Alpha分析称American Bitcoin Corp.（ABTC）的比特币每股故事已破灭，给予负面评价。该公司股价可能承压，但对比特币本身影响有限，属个股事件。",
       "reason": "个股负面分析，但可能影响市场情绪，尤其对矿股板块。",
       "category": "市场情绪",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bearish",
       "impact_level": 1,
       "sources": [
-        {
-          "name": "Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmpuMVlfMkdzVDJMWEhqNWh2T25fd3lCTlR1cGc2UFBUcDMyQ3cxeEhqaWRGS19VVS0yVmxfMlh5Q1dIRHVhVGZiYldvWmR2azlSdTBBWndoeDd2ZUt2dTBNX1ZMWkEtRElLd1EtYmhreENWSTBLc2tHa0Rhbk1QWW1DYUpveE5TeUJfbEVrbk1FVW04TG5FSG1Gdw?oc=5"
-        }
+        {"name": "Seeking Alpha", "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmpuMVlfMkdzVDJMWEhqNWh2T25fd3lCTlR1cGc2UFBUcDMyQ3cxeEhqaWRGS19VVS0yVmxfMlh5Q1dIRHVhVGZiYldvWmR2azlSdTBBWndoeDd2ZUt2dTBNX1ZMWkEtRElLd1EtYmhreENWSTBLc2tHa0Rhbk1QWW1DYUpveE5TeUJfbEVrbk1FVW04TG5FSG1Gdw?oc=5"}
       ],
       "urgency": "hours"
     }
   ],
-  "total_fetched": 52,
-  "generated_at": "2026-05-12T00:02:27.933099+08:00"
+  "note": "近6小时无重大突发消息，以上为相对新事件，交易价值有限。"
 }
