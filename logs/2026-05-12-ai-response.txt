@@ -433,3 +433,142 @@ content length: 3042
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2860, prompt_tokens=12253, total_tokens=15113, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1095, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11101)
+content length: 4686
+============================================================
+{
+  "news": [
+    {
+      "title": "21Shares提交HYPE ETF",
+      "summary": "资管公司21Shares已向SEC提交Hyperliquid（HYPE）ETF申请。Hyperliquid是一个DEX，年费收入达8.8亿美元，但仅有11名员工。若获批，将为HYPE带来大量机构资金流入。目前SEC仍在审核中，该消息刺激HYPE短期看涨情绪。",
+      "reason": "ETF申请是重大利好，直接提升币种流动性和机构认可度，属于优先级一。HYPE币种将直接受益。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tahwu0/21shares_just_filed_a_hype_etf_a_dex_with_11/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "摩根士丹利BTC ETF零流出",
+      "summary": "摩根士丹利发行的比特币ETF（MSBT）上市首月录得零流出，显示机构投资者持有信心强劲，没有出现预期中的赎回潮。该ETF由投行巨头发行，零流出信号表明大型机构对比特币长期看好，对BTC价格形成支撑。",
+      "reason": "机构ETF动态直接影响BTC，零流出是看涨信号，属于优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObEJ1N2t6Z0xzXzFCTFFUdTdLajhRUTQyRE1hQlg5TUtoQ2xPT2d5Ul9rMUxFamxRQ1V3MVNaVjdLVm1NNkVfNXp3MlhYb2tUUlRkY3JDSVhyNlZjbHQtRjlVOUprN1BYVjdwS0UwY05MOWFMZlBNaG9SNlJRZEN2azVCTTY?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "NFT盗取GROK代币17万美金",
+      "summary": "攻击者利用一个免费NFT诱导用户签名，从Grok（GROK）相关地址盗取了价值17.4万美元的代币。该事件暴露了Grok生态的安全漏洞，短期内可能引发抛售恐慌，对GROK价格构成下行压力。",
+      "reason": "安全事件直接影响对应币种价格，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["GROK"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1taf29h/someone_just_used_a_free_nft_to_steal_174000_from/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Circle推AI代理USDC支付",
+      "summary": "Circle宣布为AI代理提供USDC稳定币支付能力，同时完成2.22亿美元Arc代币销售。此举将扩大USDC在AI经济中的应用场景，增加稳定币需求，可能推动USDC市值增长，利好整体加密市场流动性。",
+      "reason": "稳定币供应量变化影响市场流动性，属于优先级一。增发/新用例看涨。",
+      "category": "项目更新",
+      "impact_coins": ["USDC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367490/circle-ai-agents-usdc-stablecoin-powers-222m-arc-token-sale"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普团40%有加密背景",
+      "summary": "报道称特朗普即将访华的代表团中，40%的CEO拥有加密货币相关投资或业务。此举显示传统政商界对加密接受度提升，可能为中美加密合作埋下伏笔，短期提振市场信心。",
+      "reason": "政治与监管动态影响市场情绪，属于优先级二。利好整体情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1taeyuz/40_of_trumps_china_ceo_delegation_have_crypto_ties/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊基金会任命新领导",
+      "summary": "以太坊基金会宣布任命三位新的Protocol Cluster联合负责人，负责核心协议开发。这是基金会的组织调整，可能加速以太坊升级进程（如Glamsterdam），但短期对ETH价格影响有限。",
+      "reason": "项目更新，可能影响长期开发进度，属于优先级二。对ETH中性。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400835/ethereum-foundation-names-three-new-co-leads-major-protocol-cluster?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "MARA Q1收入降18%",
+      "summary": "比特币矿企MARA Holdings公布Q1财报，收入同比下降18%，但重申比特币挖矿仍是核心业务。矿工收入下降可能迫使其出售部分BTC储备以维持运营，形成潜在抛压。",
+      "reason": "矿工财报影响比特币供给预期，属于优先级二。收入下降偏空。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400824/mara-q1-revenue-drops-18-bitcoin-mining-operational-foundation?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CleanSpark Q2亏损扩大",
+      "summary": "比特币矿企CleanSpark公布Q2财报，因持有BTC市值损失2.24亿美元导致亏损扩大。矿企持币减值可能引发市场对矿工抛售的担忧，短期影响BTC情绪。",
+      "reason": "矿工财报，与MARA类似，增加抛售预期。属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400823/bitcoin-miner-cleansparks-q2-losses-swell-after-losing-224-million-on-btc-holdings?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}

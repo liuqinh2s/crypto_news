@@ -507,3 +507,85 @@
 2026-05-11 21:01:29 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
 2026-05-11 21:01:29 [INFO] 📦 JSON 已保存: reports/2026-05-12-05.json
 2026-05-11 21:01:29 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-05-11 22:00:37 [INFO] 🚀 开始抓取 2026-05-12 06:00 币圈新闻
+2026-05-11 22:00:37 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-11 22:00:37 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-11 22:00:37 [INFO]   ⏭ The Block: 过滤掉 15 条非近期新闻
+2026-05-11 22:00:37 [INFO]   ⏭ Decrypt: 过滤掉 47 条非近期新闻
+2026-05-11 22:00:37 [INFO]   ⏭ CoinTelegraph: 过滤掉 28 条非近期新闻
+2026-05-11 22:00:37 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 9 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ CoinDesk: 过滤掉 24 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-11 22:00:38 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 25 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 18 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ Blockworks: 过滤掉 9 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ 吴说区块链: 过滤掉 40 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:38 [INFO]   ⏭ Crypto Twitter: 过滤掉 45 条非近期新闻
+2026-05-11 22:00:48 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:48 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-11 22:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-11 22:00:53 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-11 22:00:53 [INFO]   ✓ CoinDesk: 1 条
+2026-05-11 22:00:53 [INFO]   ✓ The Block: 3 条
+2026-05-11 22:00:53 [INFO]   ✓ Decrypt: 3 条
+2026-05-11 22:00:53 [INFO]   ✓ CoinTelegraph: 2 条
+2026-05-11 22:00:53 [INFO]   ✓ Bitcoin Magazine: 1 条
+2026-05-11 22:00:53 [INFO]   ✓ Blockworks: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ DL News: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ 金色财经: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ PANews: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ Reddit r/cryptocurrency: 7 条
+2026-05-11 22:00:53 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ Crypto Twitter: 5 条
+2026-05-11 22:00:53 [INFO]   ✓ 宏观经济: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ Binance公告: 20 条
+2026-05-11 22:00:53 [INFO]   ✓ OKX公告: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ Bitget公告: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ Whale Alert: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-11 22:00:53 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-11 22:00:53 [INFO]   ✓ 雪球加密: 0 条
+2026-05-11 22:00:53 [INFO] 📊 共抓取 43 条新闻
+2026-05-11 22:00:53 [INFO] 📋 原始新闻已保存: reports/2026-05-12-06-raw.json (43 条)
+2026-05-11 22:00:53 [INFO] 📋 标题摘要已保存: reports/2026-05-12-06-raw-titles.md
+2026-05-11 22:00:53 [INFO] ✅ 抓取完成，共 43 条，已保存到 reports/2026-05-12-06-raw.json
+2026-05-11 22:00:53 [INFO] 🤖 开始 AI 筛选 2026-05-12 06:00 币圈消息
+2026-05-11 22:00:53 [INFO] 📋 已加载原始新闻: reports/2026-05-12-06-raw.json (43 条)
+2026-05-11 22:00:53 [INFO] 📚 已加载历史新闻标题（24874 字符）
+2026-05-11 22:00:53 [INFO] 📚 已加载历史筛选标题 22 条、URL 22 个，用于去重
+2026-05-11 22:00:53 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-11 22:00:53 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-11 22:00:53 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（43 条，9055 字符，temp=0.3）
+2026-05-11 22:01:24 [INFO] AI 原始返回已保存: logs/2026-05-12-ai-response.txt (finish_reason=stop, 4686 字符)
+2026-05-11 22:01:24 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-12-06-ai-raw.json
+2026-05-11 22:01:24 [DEBUG] parse_json_response 输入长度: 4686 字符
+2026-05-11 22:01:24 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "21Shares提交HYPE ETF",
+      "summary": "资管公司21Shares已向SEC提交Hyperliquid（HYPE）ETF申请。Hyperliquid是一个DEX，年费收入达8.8亿美元，但仅有11名员工。若获批，将为HYPE带来大量机构资金流入。目前SEC仍在审核中，该消息刺激HYPE短期看涨情绪。",
+      "reason": "ETF申请是重大利好，直接提升币种流动性和机构认可度，属于优先级一。HYPE币种将直接受益。",
+      "category": "ETF机构",
+
+2026-05-11 22:01:24 [DEBUG] 从 JSON 对象的 news 字段提取到 8 条记录
+2026-05-11 22:01:24 [INFO] ✅ AI 返回 8 条新闻
+2026-05-11 22:01:24 [INFO] ✅ AI 筛选出 8 条交易相关消息，符合预期
+2026-05-11 22:01:24 [INFO] 🔗 来源链接覆盖: 8/8 条新闻有有效链接
+2026-05-11 22:01:24 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-11 22:01:24 [DEBUG]   去重: 「特朗普团40%有加密背景」 → URL重复: https://www.reddit.com/r/CryptoCurrency/comments/1taeyuz/40_
+2026-05-11 22:01:24 [INFO] 📦 JSON 已保存: reports/2026-05-12-06.json
+2026-05-11 22:01:24 [INFO] ✅ AI 筛选完成，共 7 条交易相关消息
