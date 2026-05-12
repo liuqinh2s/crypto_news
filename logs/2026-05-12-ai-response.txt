@@ -1403,3 +1403,103 @@ content length: 2773
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2777, prompt_tokens=11791, total_tokens=14568, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2221, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10639)
+content length: 1283
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitmine放缓ETH购买",
+      "summary": "Bitmine宣布放缓以太坊购买速度，目标是在2026年12月前持有5%的以太坊供应量。此前该公司积极购买ETH，此次放缓可能短期减少买盘压力。对ETH构成轻微利空信号，但长期持仓目标仍显示信心。",
+      "reason": "机构行为更新，直接影响ETH供需预期。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitmine-slows-ether-buying-pace-5-percent-eth-goal"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "NBA球星加密公司暂停买BTC",
+      "summary": "由法国NBA球星支持的加密公司（疑似Ledger关联实体）暂停了购买比特币的计划。此举可能反映市场情绪谨慎或资金问题，对比特币买盘形成短期利空。",
+      "reason": "机构买入计划暂停，直接削弱比特币需求。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWhBV3VFQnZSOFpGODRVSk1sT25HMW1LZFFlRHVjZ0xqX0NRTERDc1YxdWRhVGo0azI2eUMzRUN3Z0d3QkdmbkVfQktHZzFCQ01hdTMtZk40WXNTRDl2N3ZWQS1CeFBIeURzQ2hOeXVQS3hJVEFfZWtZa1V6QzhwMUF0cU1lbERHaHJSLWFBWVh3NnRJaW4tMTZ6UFhhWnlXeUN2WUE5b0Z0bVE4bElpbzF1bXA"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当天多数消息为重复或排除项，仅有两条新事件值得关注，数量不足5条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=6461, prompt_tokens=11791, total_tokens=18252, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=5205, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11776), prompt_cache_hit_tokens=11776, prompt_cache_miss_tokens=15)
+content length: 2584
+============================================================
+{
+  "news": [
+    {
+      "title": "Ord.io与Zap关闭",
+      "summary": "比特币Ordinals浏览器Ord.io宣布关闭，同时交易应用Zap也将停止服务。这可能导致Ordinals生态活动和交易量下降，对ORDI等资产构成利空。短期来看，市场情绪可能受影响，但影响范围有限。",
+      "reason": "链上异动，作为Ordinals生态核心工具关闭，影响ORDI及铭文相关代币。",
+      "category": "项目更新",
+      "impact_coins": ["ORDI", "BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/400855/ord-io-shuts-down"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "加密公司停止购买比特币",
+      "summary": "由法国NBA球星支持的加密公司宣布暂停比特币购买计划，未透露具体原因，市场猜测可能是资金紧张或监管担忧。这一消息可能削弱比特币买盘预期，对BTC构成短期情绪利空。",
+      "reason": "机构动向，知名人士支持的加密公司停止买入，影响BTC市场信心。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "Bloomberg Crypto", "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWhBV3VFQnZSOFpGODRVSk1sT25HMW1LZFFlRHVjZ0xqX0NRTERDc1YxdWRhVGo0azI2eUMzRUN3Z0d3QkdmbkVfQktHZzFCQ01hdTMtZk40WXNTRDl2N3ZWQS1CeFBIeURzQ2hOeXVQS3hJVEFfZWtZa1V6QzhwMUF0cU1lbERHaHJSLWFBWVh3NnRJaW4tMTZ6UFhhWnlXeUN2WUE5b0Z0bVE4bElpbzF1bXA?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z投资ARC项目",
+      "summary": "知名风投a16z披露投资ARC，这是一家专注于零知识证明技术的项目。a16z的投资表明对ARC技术前景的看好，可能推动ARC代币价格上涨。作为基础设施类投资，对ZKP赛道也有提振。",
+      "reason": "机构动向，顶级风投背书，利好ARC及ZKP板块。",
+      "category": "项目更新",
+      "impact_coins": ["ARC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "吴说区块链", "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83RmdmNUtCdTdkSldKVGdNM1ZtVHpzc3FmY1lkcmhtMEtlMUdobnAwZFJFYks2MVRGVG5jWjRyR3laNVl5bnAta1BBV0k3Q21BVVhVZ2NONDBvSmFqZE4zWGF5TmxoTEZjRkhQUVREaGhSR1k?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "GIGA meme币单日涨66%",
+      "summary": "新兴meme币GIGA在过去24小时暴涨66%，交易量激增。市场追捧meme币情绪再次升温，可能带动其他meme币如DOGE、SHIB等短暂上涨。但meme币风险极高，需警惕回调。",
+      "reason": "市场情绪信号，meme币异动，反映资金追逐高风险资产。",
+      "category": "市场情绪",
+      "impact_coins": ["GIGA", "DOGE", "SHIB"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "雪球加密", "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQaWZ2U2YyamxPM01NOXpYdk0tZ2NhYjYwSjFaN0lyZ21Jc3RCWU0wSUNZY1hCc1BZZ3lkckVKRWVPak13Z0hucElfX3I1U1pSY21McWVsY2RPVEhfTjFEYzJVZFFhaHZGTkNDSEdBQmNURk1COFJSRTVpdDlqN2lCT25TZjBSNV9Gc3k1R2N6MW1ucjFVMHptNXNGX1dzeFM2TGhDOTRfY3FZeC14dmZjVWJFOWF5cG8xZW5FZWVYeTZiTmlXbTdLUGVXREtld3JsdTZFNGFXRmRYRHZMa0xfR1dybXo0c1I1ZTRHT0o3MHNCS3M?oc=5"}],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "筛选后仅有4条新消息满足交易价值标准，其余皆为历史重复或无关内容。"
+}
