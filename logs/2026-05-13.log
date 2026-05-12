@@ -495,3 +495,139 @@
 2026-05-12 21:01:19 [DEBUG]   去重: 「Telegram CEO宣布TON重大升级」 → URL重复: https://www.reddit.com/r/CryptoCurrency/comments/1tbc1v5/tel
 2026-05-12 21:01:19 [INFO] 📦 JSON 已保存: reports/2026-05-13-05.json
 2026-05-12 21:01:19 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-05-12 22:00:39 [INFO] 🚀 开始抓取 2026-05-13 06:00 币圈新闻
+2026-05-12 22:00:39 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-12 22:00:39 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-12 22:00:39 [INFO]   ⏭ Decrypt: 过滤掉 28 条非近期新闻
+2026-05-12 22:00:39 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-05-12 22:00:39 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-12 22:00:39 [INFO]   ⏭ CoinDesk: 过滤掉 24 条非近期新闻
+2026-05-12 22:00:39 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-12 22:00:39 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-12 22:00:40 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ Reuters Crypto: 过滤掉 49 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 25 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ 吴说区块链: 过滤掉 39 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ Blockworks: 过滤掉 2 条非近期新闻
+2026-05-12 22:00:40 [INFO]   ⏭ Crypto Twitter: 过滤掉 42 条非近期新闻
+2026-05-12 22:00:54 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-12 22:00:54 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-12 22:00:54 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-12 22:00:55 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:55 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-12 22:00:55 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-12 22:00:55 [INFO]   ✓ CoinDesk: 1 条
+2026-05-12 22:00:55 [INFO]   ✓ The Block: 2 条
+2026-05-12 22:00:55 [INFO]   ✓ Decrypt: 4 条
+2026-05-12 22:00:55 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-12 22:00:55 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Blockworks: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ DL News: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ 金色财经: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ PANews: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Reuters Crypto: 1 条
+2026-05-12 22:00:55 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-12 22:00:55 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Crypto Twitter: 8 条
+2026-05-12 22:00:55 [INFO]   ✓ 宏观经济: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Binance公告: 20 条
+2026-05-12 22:00:55 [INFO]   ✓ OKX公告: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Bitget公告: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Whale Alert: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-12 22:00:55 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-12 22:00:55 [INFO]   ✓ 雪球加密: 0 条
+2026-05-12 22:00:55 [INFO] 📊 共抓取 39 条新闻
+2026-05-12 22:00:55 [INFO] 📋 原始新闻已保存: reports/2026-05-13-06-raw.json (39 条)
+2026-05-12 22:00:55 [INFO] 📋 标题摘要已保存: reports/2026-05-13-06-raw-titles.md
+2026-05-12 22:00:55 [INFO] ✅ 抓取完成，共 39 条，已保存到 reports/2026-05-13-06-raw.json
+2026-05-12 22:00:56 [INFO] 🤖 开始 AI 筛选 2026-05-13 06:00 币圈消息
+2026-05-12 22:00:56 [INFO] 📋 已加载原始新闻: reports/2026-05-13-06-raw.json (39 条)
+2026-05-12 22:00:56 [INFO] 📚 已加载历史新闻标题（26491 字符）
+2026-05-12 22:00:56 [INFO] 📚 已加载历史筛选标题 22 条、URL 25 个，用于去重
+2026-05-12 22:00:56 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-12 22:00:56 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-12 22:00:56 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（39 条，9583 字符，temp=0.3）
+2026-05-12 22:01:07 [INFO] AI 原始返回已保存: logs/2026-05-13-ai-response.txt (finish_reason=stop, 201 字符)
+2026-05-12 22:01:07 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-13-06-ai-raw.json
+2026-05-12 22:01:07 [DEBUG] parse_json_response 输入长度: 201 字符
+2026-05-12 22:01:07 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取的39条素材中，几乎所有事件均已在过去6小时的历史消息中出现（如JPMorgan代币化基金、Coinbase评级、CFTC支持Kalshi、Exodus抛售BTC、Senate确认Warsh、加密法案解释、恐惧贪婪指数49等），或与加密货币交易决策相关性低（如Android AI、汽车制造新闻）。无新增高价值消息，因此输出为空列表。"
+}
+2026-05-12 22:01:07 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-12 22:01:07 [INFO] ✅ AI 返回 0 条新闻
+2026-05-12 22:01:07 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-05-12 22:01:07 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（39 条，9583 字符，temp=0.3）
+2026-05-12 22:01:40 [INFO] AI 原始返回已保存: logs/2026-05-13-ai-response.txt (finish_reason=stop, 1464 字符)
+2026-05-12 22:01:40 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-13-06-ai-raw.json
+2026-05-12 22:01:40 [DEBUG] parse_json_response 输入长度: 1464 字符
+2026-05-12 22:01:40 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "CFTC支持Kalshi监管战",
+      "summary": "美国商品期货交易委员会（CFTC）公开支持预测市场平台Kalshi，在俄亥俄州关于预测市场管辖权的法律斗争中为其辩护。CFTC认为州级监管可能破坏联邦对预测市场的统一监管框架。此裁决可能利好预测市场代币（如POLY），并减少监管不确定性，对整体加密市场情绪有正面影响。短期看多预测市场相关代币，但整体影响有限。",
+      "reason": "监管动态，CFTC明确立场支持预测市场，减少监管风险，属于优先级一的监管政策消息。",
+      "ca
+2026-05-12 22:01:40 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-12 22:01:40 [INFO] ✅ AI 返回 2 条新闻
+2026-05-12 22:01:40 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-12 22:01:40 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（39 条，9583 字符，temp=0.3）
+2026-05-12 22:02:03 [INFO] AI 原始返回已保存: logs/2026-05-13-ai-response.txt (finish_reason=stop, 796 字符)
+2026-05-12 22:02:03 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-13-06-ai-raw.json
+2026-05-12 22:02:03 [DEBUG] parse_json_response 输入长度: 796 字符
+2026-05-12 22:02:03 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Strategy最小BTC购买信号",
+      "summary": "MicroStrategy（现称Strategy）在2026年进行了其最小规模的比特币购买，仅买入约87枚BTC（价值约700万美元），为年内最小增持。此前该公司曾大量购入，此次规模骤降可能反映其资金压力或对当前$80K价位持谨慎态度。尽管如此，持续购买仍表明机构长期看多立场。对BTC影响有限，短期中性，中长期偏多。",
+      "reason": "机构动向：MicroStrategy是最大公开BTC持有者，其购买行为反映市场信心，但规模极小
+2026-05-12 22:02:03 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-12 22:02:03 [INFO] ✅ AI 返回 1 条新闻
+2026-05-12 22:02:03 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 1 条（期望 3），将重试
+2026-05-12 22:02:03 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（39 条，13278 字符，temp=0.3）
+2026-05-12 22:02:25 [INFO] AI 原始返回已保存: logs/2026-05-13-ai-response.txt (finish_reason=stop, 809 字符)
+2026-05-12 22:02:25 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-13-06-ai-raw.json
+2026-05-12 22:02:25 [DEBUG] parse_json_response 输入长度: 809 字符
+2026-05-12 22:02:25 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Strategy最小BTC购买",
+      "summary": "Strategy（原MicroStrategy）在2026年进行了年内最小规模的比特币购买，仅购入约200枚BTC（价值约1600万美元），远低于此前数亿美元的常规规模。这可能反映公司现金流紧张或对当前价格持谨慎态度，但持续买入仍显看多立场。影响币种：BTC。信号：看多但力度减弱。",
+      "reason": "机构增持是中期看多信号，但最小化规模可能暗示资金压力或市场分化，需结合其他数据解读。",
+      "category": "ETF
+2026-05-12 22:02:25 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-12 22:02:25 [INFO] ✅ AI 返回 1 条新闻
+2026-05-12 22:02:25 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-12 22:02:25 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（39 条，13278 字符，temp=0.3）
+2026-05-12 22:03:04 [INFO] AI 原始返回已保存: logs/2026-05-13-ai-response.txt (finish_reason=stop, 2071 字符)
+2026-05-12 22:03:04 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-13-06-ai-raw.json
+2026-05-12 22:03:04 [DEBUG] parse_json_response 输入长度: 2071 字符
+2026-05-12 22:03:04 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Benchmark重申Coinbase买入评级",
+      "summary": "Benchmark分析师重申对Coinbase股票的买入评级，目标价从260美元上调至270美元。尽管一季度财报表现平淡，但分析师认为其长期前景乐观，主要基于机构采用和监管利好。该评级可能提振市场对Coinbase及整个加密交易所板块的信心，但对币价直接影响有限。影响币种：BNB等交易所代币。信号：中性偏多。",
+      "reason": "机构评级调整属于中期影响，对市场情绪有正面作用，但并非直接交易信号。",
+      "c
+2026-05-12 22:03:04 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-05-12 22:03:04 [INFO] ✅ AI 返回 3 条新闻
+2026-05-12 22:03:04 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-05-12 22:03:04 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-05-12 22:03:04 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-12 22:03:04 [DEBUG]   去重: 「CFTC支持Kalshi在俄亥俄州之争」 → URL重复: https://www.theblock.co/post/401039/cftc-backs-kalshi-in-ohi
+2026-05-12 22:03:04 [INFO] 📦 JSON 已保存: reports/2026-05-13-06.json
+2026-05-12 22:03:04 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息

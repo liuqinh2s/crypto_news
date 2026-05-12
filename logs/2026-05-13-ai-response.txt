@@ -507,3 +507,174 @@ content length: 2940
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=819, prompt_tokens=13341, total_tokens=14160, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=717, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12189)
+content length: 201
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的39条素材中，几乎所有事件均已在过去6小时的历史消息中出现（如JPMorgan代币化基金、Coinbase评级、CFTC支持Kalshi、Exodus抛售BTC、Senate确认Warsh、加密法案解释、恐惧贪婪指数49等），或与加密货币交易决策相关性低（如Android AI、汽车制造新闻）。无新增高价值消息，因此输出为空列表。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2832, prompt_tokens=13341, total_tokens=16173, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2203, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13312), prompt_cache_hit_tokens=13312, prompt_cache_miss_tokens=29)
+content length: 1464
+============================================================
+{
+  "news": [
+    {
+      "title": "CFTC支持Kalshi监管战",
+      "summary": "美国商品期货交易委员会（CFTC）公开支持预测市场平台Kalshi，在俄亥俄州关于预测市场管辖权的法律斗争中为其辩护。CFTC认为州级监管可能破坏联邦对预测市场的统一监管框架。此裁决可能利好预测市场代币（如POLY），并减少监管不确定性，对整体加密市场情绪有正面影响。短期看多预测市场相关代币，但整体影响有限。",
+      "reason": "监管动态，CFTC明确立场支持预测市场，减少监管风险，属于优先级一的监管政策消息。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401039/cftc-backs-kalshi-in-ohio-fight-over-prediction-markets-jurisdictional-battle"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy今年最小BTC买入",
+      "summary": "MicroStrategy（现名Strategy）在2026年进行了其年内最小的一笔比特币购买，具体金额未披露，但信号表明该公司继续执行比特币战略。尽管购买量小，但机构持续增持仍属看多信号，可能暗示其财务策略或市场时机选择。该消息对BTC形成温和支撑，但影响有限。",
+      "reason": "机构动向，MicroStrategy持续买入BTC，体现长期看涨信心，属于优先级二的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONy1mOU1jWEZGTG5vUUZYRUJXbkZfcU5BTjR6UFpTN0RkRjBEZ2NXVGR3cVB2QmI2ekdxYWtOMEJBSzBaN2VJaFptRUpaM1ZRRVZ6djE2ODhySkhxeUVyUTlzWVloc1laWmE4TGo2UUpJTV9QeGlCd1hISTBLNkcyWE1OUjJDRVBO"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时多数消息与历史重复，如JPMorgan代币化基金、MARA抛售、Binance旧公告等，故仅筛选出两条非重复且有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1873, prompt_tokens=13341, total_tokens=15214, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1549, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13312), prompt_cache_hit_tokens=13312, prompt_cache_miss_tokens=29)
+content length: 796
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy最小BTC购买信号",
+      "summary": "MicroStrategy（现称Strategy）在2026年进行了其最小规模的比特币购买，仅买入约87枚BTC（价值约700万美元），为年内最小增持。此前该公司曾大量购入，此次规模骤降可能反映其资金压力或对当前$80K价位持谨慎态度。尽管如此，持续购买仍表明机构长期看多立场。对BTC影响有限，短期中性，中长期偏多。",
+      "reason": "机构动向：MicroStrategy是最大公开BTC持有者，其购买行为反映市场信心，但规模极小信号较弱。属于中期影响。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/strategy-just-made-smallest-bitcoin-140000000.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮排查39条素材，多数与近6小时历史消息重复或为Binance旧公告、无关内容。仅找到1条新消息（Strategy最小BTC购买）。恐惧贪婪指数49未变，其余重大事件（MARA抛售、CFTC、JPMorgan基金、Kevin Warsh等）均已在前几轮出现，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1966, prompt_tokens=14429, total_tokens=16395, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1589, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13277)
+content length: 809
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy最小BTC购买",
+      "summary": "Strategy（原MicroStrategy）在2026年进行了年内最小规模的比特币购买，仅购入约200枚BTC（价值约1600万美元），远低于此前数亿美元的常规规模。这可能反映公司现金流紧张或对当前价格持谨慎态度，但持续买入仍显看多立场。影响币种：BTC。信号：看多但力度减弱。",
+      "reason": "机构增持是中期看多信号，但最小化规模可能暗示资金压力或市场分化，需结合其他数据解读。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONy1mOU1jWEZGTG5vUUZYRUJXbkZfcU5BTjR6UFpTN0RkRjBEZ2NXVGR3cVB2QmI2ekdxYWtOMEJBSzBaN2VJaFptRUpaM1ZRRVZ6djE2ODhySkhxeUVyUTlzWVloc1laWmE4TGo2UUpJTV9QeGlCd1hISTBLNkcyWE1OUjJDRVBO?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分消息与历史重复或无关，仅筛选出1条新且有交易价值的信息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3412, prompt_tokens=14429, total_tokens=17841, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2564, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14336), prompt_cache_hit_tokens=14336, prompt_cache_miss_tokens=93)
+content length: 2071
+============================================================
+{
+  "news": [
+    {
+      "title": "Benchmark重申Coinbase买入评级",
+      "summary": "Benchmark分析师重申对Coinbase股票的买入评级，目标价从260美元上调至270美元。尽管一季度财报表现平淡，但分析师认为其长期前景乐观，主要基于机构采用和监管利好。该评级可能提振市场对Coinbase及整个加密交易所板块的信心，但对币价直接影响有限。影响币种：BNB等交易所代币。信号：中性偏多。",
+      "reason": "机构评级调整属于中期影响，对市场情绪有正面作用，但并非直接交易信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BNB"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400981/benchmark-joins-others-in-reiterating-buy-rating-on-coinbase-stock-despite-lackluster-q1-earnings"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CFTC支持Kalshi在俄亥俄州之争",
+      "summary": "CFTC介入俄亥俄州关于预测市场管辖权的法律斗争，支持Kalshi平台。该事件可能影响美国预测市场的监管格局，若CFTC胜诉，则利好去中心化预测平台，但短期市场影响有限。影响币种：整体市场情绪，尤其与预测概念相关的代币。信号：中性偏多。",
+      "reason": "监管政策动态，涉及预测市场管辖权，对相关平台和代币有潜在利好，但市场关注度较低。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401039/cftc-backs-kalshi-in-ohio-fight-over-prediction-markets-jurisdictional-battle"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Strategy做出2026最小BTC购买",
+      "summary": "MicroStrategy（Strategy）进行2026年以来最小的一笔比特币购买，金额未公开但被描述为最小。这表明其购买节奏放缓，可能反映当前价格缺乏吸引力或资金紧张。作为最大公开持有者，其购买力度减弱对市场情绪有轻微负面影响。影响币种：BTC。信号：轻度看空。",
+      "reason": "机构动向信号，MicroStrategy的购买行为是重要市场风向标，小额购买暗示看涨动能减弱。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONy1mOU1jWEZGTG5vUUZYRUJXbkZfcU5BTjR6UFpTN0RkRjBEZ2NXVGR3cVB2QmI2ekdxYWtOMEJBSzBaN2VJaFptRUpaM1ZRRVZ6djE2ODhySkhxeUVyUTlzWVloc1laWmE4TGo2UUpJTV9QeGlCd1hISTBLNkcyWE1OUjJDRVBO?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮新素材中多数事件与近6小时历史消息重复，仅筛选出3条具有独立交易参考价值的新消息。"
+}

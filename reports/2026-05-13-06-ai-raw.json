@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-13",
+  "hour": "06",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 5/6 策略=完整内容 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 14429,
+    "completion_tokens": 3412,
+    "total_tokens": 17841
+  },
+  "content_length": 2071,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Benchmark重申Coinbase买入评级\",\n      \"summary\": \"Benchmark分析师重申对Coinbase股票的买入评级，目标价从260美元上调至270美元。尽管一季度财报表现平淡，但分析师认为其长期前景乐观，主要基于机构采用和监管利好。该评级可能提振市场对Coinbase及整个加密交易所板块的信心，但对币价直接影响有限。影响币种：BNB等交易所代币。信号：中性偏多。\",\n      \"reason\": \"机构评级调整属于中期影响，对市场情绪有正面作用，但并非直接交易信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BNB\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400981/benchmark-joins-others-in-reiterating-buy-rating-on-coinbase-stock-despite-lackluster-q1-earnings\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"CFTC支持Kalshi在俄亥俄州之争\",\n      \"summary\": \"CFTC介入俄亥俄州关于预测市场管辖权的法律斗争，支持Kalshi平台。该事件可能影响美国预测市场的监管格局，若CFTC胜诉，则利好去中心化预测平台，但短期市场影响有限。影响币种：整体市场情绪，尤其与预测概念相关的代币。信号：中性偏多。\",\n      \"reason\": \"监管政策动态，涉及预测市场管辖权，对相关平台和代币有潜在利好，但市场关注度较低。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/401039/cftc-backs-kalshi-in-ohio-fight-over-prediction-markets-jurisdictional-battle\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Strategy做出2026最小BTC购买\",\n      \"summary\": \"MicroStrategy（Strategy）进行2026年以来最小的一笔比特币购买，金额未公开但被描述为最小。这表明其购买节奏放缓，可能反映当前价格缺乏吸引力或资金紧张。作为最大公开持有者，其购买力度减弱对市场情绪有轻微负面影响。影响币种：BTC。信号：轻度看空。\",\n      \"reason\": \"机构动向信号，MicroStrategy的购买行为是重要市场风向标，小额购买暗示看涨动能减弱。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiiAFBVV95cUxONy1mOU1jWEZGTG5vUUZYRUJXbkZfcU5BTjR6UFpTN0RkRjBEZ2NXVGR3cVB2QmI2ekdxYWtOMEJBSzBaN2VJaFptRUpaM1ZRRVZ6djE2ODhySkhxeUVyUTlzWVloc1laWmE4TGo2UUpJTV9QeGlCd1hISTBLNkcyWE1OUjJDRVBO?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮新素材中多数事件与近6小时历史消息重复，仅筛选出3条具有独立交易参考价值的新消息。\"\n}"
+}
