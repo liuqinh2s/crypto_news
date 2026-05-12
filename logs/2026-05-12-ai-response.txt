@@ -1674,3 +1674,142 @@ content length: 4850
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4900, prompt_tokens=12114, total_tokens=17014, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2880, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10962)
+content length: 4816
+============================================================
+{
+  "news": [
+    {
+      "title": "沉睡13年鲸鱼移动4000万BTC",
+      "summary": "链上监测显示，一个沉寂13年的比特币地址转移了约4000万美元的BTC（约490枚），资金转入新地址，暂未流向交易所。这种古老持币的移动通常引发市场对潜在抛售的担忧，但如未进入交易所则抛压有限。该消息可能对比特币短期情绪造成压力，但实际影响需后续跟踪。看空信号，因老鲸鱼移动常被理解为基本面恶化。",
+      "reason": "巨鲸异动是优先级一事件，沉睡13年的大额BTC转移极为罕见，可能预示抛售或套现，直接关联BTC价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGx5eVJQMXZzbWZVRkVmQkFaUFNOMGhORWNCV1NIVVdaVXQzdGVWVFlMYndfY2R4aXpzZG1NZHZfSld0a25BRlk4YjhYOGRQSEFNS1FIU2JZSVNfSW90bERsRnF6THV2RWJHOWpETm5BcEtFWEsxNkxpWFVSS0VPTG9Ud04xYTFLLVdmeU1DcmhFWXU4eldaQWxkNjhsTEJITFJYWWtoRFg3RzdBOXREWmhhSi3SAboBQVVfeXFMTmxrYy1NbUJhYm9jNFpHMDZra3ZsMlhSTDRxNkhHWjRkcmozM0pCUFFlQVBubkdlUHk0cEs5MW11SVFjTEtWMTFMc19KWU85cEtmVGlQZTE4QmVOQmRmc1JVZ1U2cmpyY0RGamg1TldReTJpcUhBV0M1VlR6YmFXelZzaXJ6dG5TSWdXNE04SWt6S3piZUtzWTlrYzdVdW1yU0NQaFFpVC1laW9KMFBZbFVKOFpPaTN2OUFn?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "不丹政府再次转移100枚BTC",
+      "summary": "据链上数据，不丹政府地址再次转移100枚BTC（约810万美元），自年初以来已累计出售约2.3亿美元的BTC。不丹政府持续抛售比特币，形成明确卖压。该行为可能对BTC价格产生持续负面影响，尤其当前BTC在81k附近震荡，抛售加剧下行风险。强烈看空信号。",
+      "reason": "政府级巨鲸持续抛售属于优先级一，影响直接且可持续，显著增加BTC供应压力。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512352.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase CEO会晤共和党参议员",
+      "summary": "在CLARITY法案关键投票前，Coinbase CEO Brian Armstrong计划会见美国共和党参议员，游说支持该法案。CLARITY法案旨在明确稳定币监管和DeFi规则，若通过将利好整个加密行业。此次会面可能增加法案通过概率，对市场情绪构成正面推动。看多信号。",
+      "reason": "监管政策优先级一，法案进展直接影响行业合规预期，CEO亲自游说显示行业高层参与，增多头信心。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512344.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ondo TVL突破10亿美元",
+      "summary": "现实世界资产代币化协议Ondo Finance总锁仓价值（TVL）突破10亿美元，创下里程碑。这显示机构对股票代币化需求的增长，可能推动相关代币ONDO及RWA赛道估值提升。但TVL增长未必直接推动价格，需结合后续协议收入。看多信号。",
+      "reason": "DeFi重大事件（TVL剧变）属于优先级二，对RWA赛道有示范效应，中期利多ONDO及同类项目。",
+      "category": "项目更新",
+      "impact_coins": ["ONDO"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1taup9n/ondo_hits_1bn_tvl_setting_stocks_tokenization/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Circle融资2.22亿美元",
+      "summary": "Circle为其区块链项目Arc融资2.22亿美元，估值30亿美元。Circle是USDC发行商，此轮融资显示资本市场对稳定币基础设施的看好，可能增强USDC生态竞争力，间接利好加密市场流动性。看多信号。",
+      "reason": "机构动向（重大融资）属于优先级二，稳定币发行商融资预示行业信心，有助于稳定币供应增长（利好）。",
+      "category": "ETF机构",
+      "impact_coins": ["USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tat7sl/circle_raises_222m_for_arc_blockchain_at_3b/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美伊脆弱停火油价上涨2%",
+      "summary": "中东紧张局势虽出现脆弱停火，但市场担忧仍存，油价上涨2%。地缘风险对BTC影响复杂：短期避险资金可能流入BTC，但油价上涨加剧通胀预期，可能迫使央行维持紧缩。综合判断中性，需关注后续CPI数据。",
+      "reason": "宏观经济与地缘政治属于优先级二，影响风险资产整体情绪，但方向不明确。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512343.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "30年期美债收益率再破5%",
+      "summary": "30年期美国国债收益率再次突破5%关口，反映市场对长期通胀和利率上升的担忧。高收益率提升无风险资产吸引力，对BTC等风险资产构成估值压力。历史数据显示美债收益率突破5%常伴随BTC回调。看空信号。",
+      "reason": "宏观经济数据（利率）属于优先级二，债券收益率飙升直接影响风险资产定价，对BTC不利。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512342.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "贝森特：市场定价通胀推高收益率",
+      "summary": "美国财长贝森特表示，随着市场对通胀进行定价，全球债券收益率正在走高。他暗示通胀顽固可能推迟降息，这对流动性敏感的加密市场构成宏观利空。市场预期美联储保持鹰派，压制BTC估值。看空信号。",
+      "reason": "美联储/财长讲话属于宏观经济，确认通胀担忧，削弱宽松预期，利空风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512346.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
