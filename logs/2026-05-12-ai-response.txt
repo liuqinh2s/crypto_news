@@ -2485,3 +2485,63 @@ content length: 4994
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4316, prompt_tokens=17888, total_tokens=22204, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3548, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16736)
+content length: 1836
+============================================================
+{
+  "news": [
+    {
+      "title": "波兰PiS提禁止加密法案",
+      "summary": "波兰立法者正在辩论多项加密法案，同时PiS党提交了一份单独的禁止加密货币提案。如果通过，可能限制波兰的加密活动，但对全球市场影响有限。该消息可能引发短期不确定性，整体偏空。影响币种：BTC、ETH。",
+      "reason": "波兰作为欧盟成员国，禁止法案可能引发欧盟其他国家的监管讨论，属于中期影响。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400947/poland-lawmakers-debate-crypto-bills-as-pis-party-submits-separate-ban-proposal?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "FTX/Alameda解质押19.92万SOL",
+      "summary": "FTX/Alameda将19.92万枚SOL（约1300万美元）解质押并转移至21个地址，可能准备出售。此举增加市场抛压，短期内看空SOL。影响币种：SOL。",
+      "reason": "链上异动，大额解锁后转移至多个地址，通常预示出售意图，属优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512402.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "4月比特币挖矿条件改善",
+      "summary": "报告显示4月比特币挖矿条件改善，但不确定性仍存。改善可能减少矿工抛售压力，对比特币价格形成支撑。短期内偏向中性至轻度看多。影响币种：BTC。",
+      "reason": "矿工行为是市场重要变量，条件改善可能缓解抛压，属优先二级别。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Blockspace Media",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORnJsMERkX3p5Qkw2cmhMNXIzekl4Z0VWZ19wWHJuN01vemhwaVFWVU1ZTXBlbTFSbEp2cnp6RWJMOVA2RGJOUTdLRkEwLWt0Sk5pZmpwUmszQlktRWJxNXZnUU5pVy1ydDk2enJWODN4TGgwUHVSSlpEQVdEczdRUXEycmkwbDhMbW9DMTE2R0VxSTYtMWlIS1NDVHlwTXc3aTdHUDFkcmw0Zw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于多数新闻与历史重复，仅选出3条新消息。"
+}

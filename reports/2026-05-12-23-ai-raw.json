@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-12",
+  "hour": "23",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17888,
+    "completion_tokens": 4316,
+    "total_tokens": 22204
+  },
+  "content_length": 1836,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"波兰PiS提禁止加密法案\",\n      \"summary\": \"波兰立法者正在辩论多项加密法案，同时PiS党提交了一份单独的禁止加密货币提案。如果通过，可能限制波兰的加密活动，但对全球市场影响有限。该消息可能引发短期不确定性，整体偏空。影响币种：BTC、ETH。\",\n      \"reason\": \"波兰作为欧盟成员国，禁止法案可能引发欧盟其他国家的监管讨论，属于中期影响。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400947/poland-lawmakers-debate-crypto-bills-as-pis-party-submits-separate-ban-proposal?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"FTX/Alameda解质押19.92万SOL\",\n      \"summary\": \"FTX/Alameda将19.92万枚SOL（约1300万美元）解质押并转移至21个地址，可能准备出售。此举增加市场抛压，短期内看空SOL。影响币种：SOL。\",\n      \"reason\": \"链上异动，大额解锁后转移至多个地址，通常预示出售意图，属优先级一。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"SOL\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/512402.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"4月比特币挖矿条件改善\",\n      \"summary\": \"报告显示4月比特币挖矿条件改善，但不确定性仍存。改善可能减少矿工抛售压力，对比特币价格形成支撑。短期内偏向中性至轻度看多。影响币种：BTC。\",\n      \"reason\": \"矿工行为是市场重要变量，条件改善可能缓解抛压，属优先二级别。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Blockspace Media\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiqgFBVV95cUxORnJsMERkX3p5Qkw2cmhMNXIzekl4Z0VWZ19wWHJuN01vemhwaVFWVU1ZTXBlbTFSbEp2cnp6RWJMOVA2RGJOUTdLRkEwLWt0Sk5pZmpwUmszQlktRWJxNXZnUU5pVy1ydDk2enJWODN4TGgwUHVSSlpEQVdEczdRUXEycmkwbDhMbW9DMTE2R0VxSTYtMWlIS1NDVHlwTXc3aTdHUDFkcmw0Zw?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"由于多数新闻与历史重复，仅选出3条新消息。\"\n}"
+}
