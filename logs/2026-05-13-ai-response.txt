@@ -198,3 +198,122 @@ content length: 2095
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2544, prompt_tokens=16633, total_tokens=19177, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=509, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15481)
+content length: 5023
+============================================================
+{
+  "news": [
+    {
+      "title": "参议院确认亲加密Warsh入美联储",
+      "summary": "美国参议院确认Kevin Warsh加入美联储，并可能接替即将于周五辞职的Powell担任主席。Warsh被视为亲比特币派，其上任可能推动更宽松的货币政策，利好比特币等风险资产。比特币短线反应积极，但需关注后续主席任命确认。影响币种：BTC。看多信号。",
+      "reason": "优先一级别监管政策，直接影响宏观流动性预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/12/senate-confirms-kevin-warsh-to-fed-board-ahead-of-expected-chair-vote"},
+        {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/senate-confirms-bitcoin-kevin-warsh"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国4月CPI超预期，降息无望",
+      "summary": "美国4月未季调CPI年率3.8%，高于预期3.7%，核心通胀依然顽固。数据公布后美元走强，风险资产承压，BTC短时跌破80000美元。市场预期美联储可能推迟降息甚至重新加息，整体利空加密货币。影响币种：BTC、ETH。看空信号。",
+      "reason": "优先一级别宏观经济数据，直接影响风险资产定价。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512419.html"},
+        {"name": "CNBC", "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQV1JGamlGN1RCTUhnUldYUU03THd4Q3RwWjlDRTFWaXZqcmFqclQweFFINlE4OVdJWTlmdmFUTXJDVTQ2NVRtbW80WXR0UWdsaWFET1pUWGFkMTNmYWw1Qi16bUgzR1Z1LURyRV93aHJRUWdoX0xoWUt3OWpaQ1VVYlJQU2VtNEt2MW9SS0pvTzhneXctOV840gGcAUFVX3lxTE9VYVpQWS04SklBa1NxRWRNaG1tWWdGTV9mdWlTY3g4VFJRWC1UVzl6LXJuV2E2dDRMU1lvQTJzbHFyaXhhajZaTjExN2ZvN2E1NGVPSWtDTnJxUXJOdFByVzlOc2VINDVGXzRuY0FWRWJNbldFaVJabEhVOUQtVnNvYVBHQlp4WlZ2b2NkNE1fZjlzYldETzhNZWpNMA?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC跌破8万美元，美股大跌",
+      "summary": "受CPI数据超预期及地缘紧张影响，BTC短时跌破80000美元，美股纳指跌幅扩大至2%。市场恐慌情绪上升，短期抛压加大。但比特币牛熊指标首次自2023年3月变绿，暗示中长期底部可能临近。影响币种：BTC、ETH。短期看空，中长期中性。",
+      "reason": "优先一级别市场行情变动，直接反映市场情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512422.html"},
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/12/live-markets-whats-next-as-bitcoin-holds-80000-while-stocks-sink-yields-rise-on-ugly-inflation-print/"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "MARA抛售15亿美元BTC转投AI",
+      "summary": "矿企MARA Holdings出售15亿美元比特币，将资金转向AI数据中心业务。此举显示矿工抛压增加，但AI概念可能支撑其股价。短期对BTC构成抛压，但金额相对于BTC市值有限。影响币种：BTC。看空信号。",
+      "reason": "优先一级别巨鲸异动，矿工大额抛售。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/mara-dumps-1-5b-in-bitcoin-as-miner-trades-treasury-hoard-for-ai-power-bet"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Exodus抛售1000枚BTC筹资",
+      "summary": "加密钱包公司Exodus出售超过1000枚比特币（约8000万美元），用于收购支付业务。此举进一步增加市场抛压，反映公司现金流需求。影响币种：BTC。看空信号。",
+      "reason": "优先一级别巨鲸异动，公司抛售比特币。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/exodus-sells-over-1000-bitcoin-q1-loss-widens-32m"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币牛熊指标首次变绿",
+      "summary": "比特币的牛熊市场周期指标自2023年3月以来首次转为绿色，表明市场可能已进入新一轮牛市阶段。尽管短期因CPI承压，但技术指标看涨，历史上该信号预示着中长期上涨。影响币种：BTC。看多信号。",
+      "reason": "优先二级别链上指标异常，技术面重要信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/12/bitcoins-bull-bear-cycle-indicator-turns-green-for-first-time-since-march-2023/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "XRP ETF流入创1月来新高",
+      "summary": "XRP现货ETF周流入达13.5亿美元，创1月以来最大单周流入。机构对XRP兴趣增加，可能推动价格进一步上涨。同时美国参议院CLARITY法案草案包含XRP相关条款，提供监管明确性。影响币种：XRP。看多信号。",
+      "reason": "优先一级别ETF机构资金流入，直接影响XRP。",
+      "category": "ETF机构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/xrp-traders-bullishness-growing-etfs-log-largest-inflow-since-january"},
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/12/spot-xrp-etfs-attract-biggest-inflows-since-january/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "DTCC与Chainlink合作抵押品管理",
+      "summary": "华尔街清算机构DTCC将Chainlink数据与编排标准集成至其抵押品AppChain，实现区块链化抵押品管理。这是传统金融采用区块链的重要里程碑，利好Chainlink以及整体加密市场信心。影响币种：LINK。看多信号。",
+      "reason": "优先二级别机构动向，传统金融深度采用。",
+      "category": "项目更新",
+      "impact_coins": ["LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/367600/wall-streets-clearinghouse-dtcc-chainlink-collateral-management"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
