@@ -1063,3 +1063,150 @@ content length: 2176
   ],
   "note": "本轮抓取素材与历史消息大量重复，仅选出3条新消息，其余为低价值或重复内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1617, prompt_tokens=9744, total_tokens=11361, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1000, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8592)
+content length: 1413
+============================================================
+{
+  "news": [
+    {
+      "title": "银行拒参CLARITY会议",
+      "summary": "白宫透露，美国银行拒绝出席关于解决稳定币奖励问题的会议，这给CLARITY法案推进带来不确定性。该法案旨在为稳定币提供监管框架，银行不合作可能影响法案通过进度。影响币种包括USDT、USDC等稳定币及整体市场。短期看空，因为阻力增加可能导致法案延迟或修改，削弱市场信心。",
+      "reason": "涉及CLARITY法案关键进展，银行拒绝参会表明监管分歧，直接影响稳定币监管预期，属于优先级一（重大监管动态）。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "DAI"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tamjrr/white_house_reveals_us_banks_refused_to_attend/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美矿企增持BTC储备",
+      "summary": "American Bitcoin通过抵押比特大陆矿机交易，进一步扩大比特币储备。此举表明矿业公司对长期持币的看好，减少市场流通供应。影响币种主要为BTC，属于机构增持信号。看多，因为矿企减少抛售、增加囤币，供应减少利好价格。",
+      "reason": "机构增持比特币，减少市场抛压，属于优先级二（机构动向），对BTC有正面影响。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3ZpTEFVajJPb01LcG9yc01Xb3hDQjVVWVBBSjd6bTFsSGF5cWV1a3FmOU04Smd6TFQyZGJwVUV6a2x5dVBfOUxjSk9ZeDZId1RYUlhZbEVFeW1NZDFDYk5WNkRQWVlzOGw3Y1hnSDVRYWJiVzh0cWd2d25hN2k1M3l5M2dRUWtNT3JqZndaRjdlTlpjZlZjNXhVNFNlclAtTF83UGgzX2owQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2171, prompt_tokens=9744, total_tokens=11915, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1414, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=16)
+content length: 1560
+============================================================
+{
+  "news": [
+    {
+      "title": "American Bitcoin抵押增持BTC",
+      "summary": "矿企American Bitcoin与Bitmain达成抵押交易，通过抵押矿机获得资金并增持比特币储备。这表明矿企对BTC后市看好，可能减少市场抛压，对BTC价格构成支撑。但若增持规模不大，影响有限。整体看多信号。",
+      "reason": "矿企通过抵押增持BTC属于机构增持行为，符合优先级二，对BTC有中期利好影响。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3ZpTEFVajJPb01LcG9yc01Xb3hDQjVVWVBBSjd6bTFsSGF5cWV1a3FmOU04Smd6TFQyZGJwVUV6a2x5dVBfOUxjSk9ZeDZId1RYUlhZbEVFeW1NZDFDYk5WNkRQWVlzOGw3Y1hnSDVRYWJiVzh0cWd2d25hN2k1M3l5M2dRUWtNT3JqZndaRjdlTlpjZlZjNXhVNFNlclAtTF83UGgzX2owQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP突破1.45美元关口",
+      "summary": "XRP价格突破1.45美元，表现强于BTC和ETH，显示短期多头动能增强。可能与近期Ripple获$200M信贷线、机构采用增加有关。但需警惕获利回吐，突破后能否企稳有待观察。短期看多。",
+      "reason": "XRP价格突破关键阻力位，属于市场结构变化，可能带动短期交易机会，符合优先级三中的市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "디지털투데이",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcjhKYUVsLWMzYl8zaTRWZ2dlV1hTOG5GWTdIMzcwTTZzeWNRR3lxQmVKZmVLRDdBRlg3cmhIV1pHZ0ZBc2pKYjNhZERQUzNCMFhJNHZlVGJtb1drTkU5MDNtUjlqbjIzWVJjYk0zZHVBMXZJU1pFUjFyWmxENFhVU1YzVU92aXo4bTNqX0xpNmVFdnJTellweER3S2FxcWFIZ0NlMWVISTRrNTNDMGc?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮素材大部分与历史消息重复，仅有以上两条新消息符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2021, prompt_tokens=9744, total_tokens=11765, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1058, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=16)
+content length: 2114
+============================================================
+{
+  "news": [
+    {
+      "title": "American Bitcoin增持BTC",
+      "summary": "American Bitcoin通过抵押Bitmain矿机交易深化比特币储备，此举表明机构看好BTC长期价值，通过抵押矿机获取更多BTC，减少市场流通供应。影响BTC价格看多，同时可能带动矿机相关代币。",
+      "reason": "巨鲸/机构增持BTC属优先级一直接利好看多信号，且抵押矿机交易模式新颖，增加信心。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3ZpTEFVajJPb01LcG9yc01Xb3hDQjVVWVBBSjd6bTFsSGF5cWV1a3FmOU04Smd6TFQyZGJwVUV6a2x5dVBfOUxjSk9ZeDZId1RYUlhZbEVFeW1NZDFDYk5WNkRQWVlzOGw3Y1hnSDVRYWJiVzh0cWd2d25hN2k1M3l5M2dRUWtNT3JqZndaRjdlTlpjZlZjNXhVNFNlclAtTF83UGgzX2owQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "链上市场现宝可梦卡牌热潮",
+      "summary": "DeFi链上市场因宝可梦交易卡牌热潮带来1100万美元交易量，显示链上NFT/游戏资产需求回暖，可能带动相关代币（如IMX、FLOW）和DeFi协议TVL增长。短期看多但影响有限。",
+      "reason": "DeFi/NFT重大事件但体量较小，属优先级二，对市场情绪有提振但非核心。",
+      "category": "项目更新",
+      "impact_coins": ["IMX", "FLOW"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tamlrd/defi_rides_pok%C3%A9mon_trading_card_boom_as_onchain/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "XRP突破1.45美元创近期新高",
+      "summary": "XRP价格突破1.45美元关口，走势强于BTC和ETH。可能受Ripple获得2亿美元信贷额度扩展机构业务等利好驱动，短期看多，但需警惕获利回吐。",
+      "reason": "价格突破关键技术位，伴随机构利好，属优先级一直接行情影响，看多信号。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "디지털투데이 via Google News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcjhKYUVsLWMzYl8zaTRWZ2dlV1hTOG5GWTdIMzcwTTZzeWNRR3lxQmVKZmVLRDdBRlg3cmhIV1pHZ0ZBc2pKYjNhZERQUzNCMFhJNHZlVGJtb1drTkU5MDNtUjlqbjIzWVJjYk0zZHVBMXZJU1pFUjFyWmxENFhVU1YzVU92aXo4bTNqX0xpNmVFdnJTellweER3S2FxcWFIZ0NlMWVISTRrNTNDMGc?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮素材中大部分与历史重复，仅筛选出3条新且有交易价值消息。"
+}

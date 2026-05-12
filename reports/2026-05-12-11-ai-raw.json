@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-12",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9744,
+    "completion_tokens": 2021,
+    "total_tokens": 11765
+  },
+  "content_length": 2114,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"American Bitcoin增持BTC\",\n      \"summary\": \"American Bitcoin通过抵押Bitmain矿机交易深化比特币储备，此举表明机构看好BTC长期价值，通过抵押矿机获取更多BTC，减少市场流通供应。影响BTC价格看多，同时可能带动矿机相关代币。\",\n      \"reason\": \"巨鲸/机构增持BTC属优先级一直接利好看多信号，且抵押矿机交易模式新颖，增加信心。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3ZpTEFVajJPb01LcG9yc01Xb3hDQjVVWVBBSjd6bTFsSGF5cWV1a3FmOU04Smd6TFQyZGJwVUV6a2x5dVBfOUxjSk9ZeDZId1RYUlhZbEVFeW1NZDFDYk5WNkRQWVlzOGw3Y1hnSDVRYWJiVzh0cWd2d25hN2k1M3l5M2dRUWtNT3JqZndaRjdlTlpjZlZjNXhVNFNlclAtTF83UGgzX2owQQ?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"链上市场现宝可梦卡牌热潮\",\n      \"summary\": \"DeFi链上市场因宝可梦交易卡牌热潮带来1100万美元交易量，显示链上NFT/游戏资产需求回暖，可能带动相关代币（如IMX、FLOW）和DeFi协议TVL增长。短期看多但影响有限。\",\n      \"reason\": \"DeFi/NFT重大事件但体量较小，属优先级二，对市场情绪有提振但非核心。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"IMX\", \"FLOW\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1tamlrd/defi_rides_pok%C3%A9mon_trading_card_boom_as_onchain/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"XRP突破1.45美元创近期新高\",\n      \"summary\": \"XRP价格突破1.45美元关口，走势强于BTC和ETH。可能受Ripple获得2亿美元信贷额度扩展机构业务等利好驱动，短期看多，但需警惕获利回吐。\",\n      \"reason\": \"价格突破关键技术位，伴随机构利好，属优先级一直接行情影响，看多信号。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"디지털투데이 via Google News\",\n          \"url\": \"https://news.google.com/rss/articles/CBMirgFBVV95cUxOcjhKYUVsLWMzYl8zaTRWZ2dlV1hTOG5GWTdIMzcwTTZzeWNRR3lxQmVKZmVLRDdBRlg3cmhIV1pHZ0ZBc2pKYjNhZERQUzNCMFhJNHZlVGJtb1drTkU5MDNtUjlqbjIzWVJjYk0zZHVBMXZJU1pFUjFyWmxENFhVU1YzVU92aXo4bTNqX0xpNmVFdnJTellweER3S2FxcWFIZ0NlMWVISTRrNTNDMGc?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ],\n  \"note\": \"本轮素材中大部分与历史重复，仅筛选出3条新且有交易价值消息。\"\n}"
+}
