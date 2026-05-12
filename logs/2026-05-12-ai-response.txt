@@ -1312,3 +1312,94 @@ content length: 3426
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2906, prompt_tokens=10673, total_tokens=13579, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1844, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9521)
+content length: 2773
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitmine计划持有5%ETH供应量",
+      "summary": "Bitmine宣布计划在2026年底前收购并持有5%的以太坊总供应量，相当于约600万枚ETH。此举将显著减少市场流通供应，长期看涨ETH。若计划实施，ETH可能迎来强劲买盘，但需关注执行风险。对ETH形成直接利好，看多信号。",
+      "reason": "重大囤币计划，直接影响ETH供需，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512318.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance移除ATOM等现货交易对",
+      "summary": "Binance将于近期移除ATOM/FDUSD、AXS/BTC、CELO/BTC、GAS/BTC等现货交易对，理由是流动性较差。此举可能导致相关币种短期抛压，尤其ATOM、AXS等可能面临价格下跌。但对整体市场影响有限，属于交易所日常维护。",
+      "reason": "交易所下架交易对直接影响对应币种流动性，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["ATOM", "AXS", "CELO", "GAS"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512321.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "XRP融资2亿美元，价格持稳",
+      "summary": "Ripple关联项目成功融资2亿美元，XRP价格维持在1.46美元附近，但突破尝试失败。大额融资显示资本对XRP生态信心，短期可能提振价格，但1.50美元阻力较强。XRP走势强于BTC/ETH，看多但需突破确认。",
+      "reason": "大额融资属于项目重大利好，直接刺激XRP，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/12/ripple-linked-xrp-holds-near-usd1-46-as-breakout-attempt-fades-despite-usd200-million-raise"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Burry警告股市崩盘，BTC冲高回落",
+      "summary": "Michael Burry警告美股可能崩盘，引发风险资产波动。比特币短暂触及82,000美元后回落至81,000美元附近。Burry言论增加市场避险情绪，但BTC因机构资金流入获得支撑。短期看震荡，若股市下跌可能拖累BTC。",
+      "reason": "知名投资者警告属市场情绪类，结合价格异动，影响中期走势，属优先级二。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/12/bitcoin-briefly-hits-usd82-000-sol-doge-higher-as-michael-burry-warns-of-stock-crash"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ord.io和Zap应用宣布关闭",
+      "summary": "比特币Ordinals生态浏览器Ord.io和交易应用Zap宣布关闭，短期利空ORDI等铭文代币。但Ordinals总交易量已下降，该消息象征意义大于实际影响。对BTC影响极小，但对ORDI等有抛压。",
+      "reason": "头部应用关闭影响生态信心，属项目更新，但影响范围有限。",
+      "category": "项目更新",
+      "impact_coins": ["ORDI"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400855/ord-io-shuts-down?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
