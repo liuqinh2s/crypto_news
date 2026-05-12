@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-13",
+  "hour": "02",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 16401,
+    "completion_tokens": 2398,
+    "total_tokens": 18799
+  },
+  "content_length": 2095,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"参议院确认Warsh入美联储\",\n      \"summary\": \"美国参议院以52-47投票确认Kevin Warsh加入美联储理事会，为接替即将卸任的鲍威尔担任主席铺平道路。Warsh被视为支持加密货币和自由市场的官员，此前曾批评美联储过度干预。消息公布后，比特币从$80,000小幅反弹至$81,200。这降低了未来美联储激进收紧的可能性，并可能推动加密友好政策。影响币种：BTC、ETH及整体加密市场。看多信号，因潜在友好监管。\",\n      \"reason\": \"美联储主席变更直接影响全球流动性预期和风险资产定价，Warsh的加密货币友好立场是明确利好。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"CoinDesk\", \"url\": \"https://www.coindesk.com/policy/2026/05/12/senate-confirms-kevin-warsh-to-fed-board-ahead-of-expected-chair-vote\"},\n        {\"name\": \"Bitcoin Magazine\", \"url\": \"https://bitcoinmagazine.com/news/senate-confirms-bitcoin-kevin-warsh\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"民主党候选人紧密关联加密\",\n      \"summary\": \"Jacobin杂志报道，已获党内提名的民主党总统候选人Jane Doe与加密和科技行业有深度绑定，其竞选团队接收了大量加密政治行动委员会的捐款，并承诺推动监管沙盒。若其胜选，可能带来更宽松的联邦加密监管框架。市场对此反应中性偏积极，但不确定性仍存。影响币种：BTC、ETH及合规概念币。短期看多情绪，但需关注大选进程。\",\n      \"reason\": \"主要候选人政策倾向直接影响加密行业监管前景，属政治先兆信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"Jacobin\", \"url\": \"https://news.google.com/rss/articles/CBMic0FVX3lxTFBKQmlwTnJmU091RlA3dGRBLU1NRE1ycUR1MTA4c2YzbE9mcmpoUXdtNy1qS1JPNDdodDRfQlR5VWpsQnIyUUpNZzhOSnhKUlY0dEZMM3ZfRWlDVVRfRlNkMS1xOTBrN0sxZjBpVEd1bEFac1k?oc=5\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Bitcoin Fog上诉挑战DOJ管辖权\",\n      \"summary\": \"Bitcoin Fog运营商Roman Sterlingov就洗钱服务定罪提起上诉，核心论点是DOJ不能将全球加密服务纳入华盛顿特区法律管辖。该案若胜诉将限制美国监管域外执法权，利空监管扩张；若败诉则强化监管。目前法院尚未裁决。短期影响有限，但长期涉及加密隐私和跨境服务合法性。影响币种：BTC、隐私币。中性偏空，因监管不确定性增加。\",\n      \"reason\": \"上诉结果可能重塑美国对加密混币器及隐私服务的执法边界，属于监管政策重要信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"XMR\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/400983/bitcoin-fog-appeal-tests-doj-theory-global-crypto-services-d-c-law?utm_source=rss&utm_medium=rss\"}\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

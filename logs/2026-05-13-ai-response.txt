@@ -147,3 +147,54 @@ content length: 2157
   ],
   "note": "由于消息重复度高，有效新消息较少，仅筛选出3条高质量信息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2398, prompt_tokens=16401, total_tokens=18799, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1523, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15249)
+content length: 2095
+============================================================
+{
+  "news": [
+    {
+      "title": "参议院确认Warsh入美联储",
+      "summary": "美国参议院以52-47投票确认Kevin Warsh加入美联储理事会，为接替即将卸任的鲍威尔担任主席铺平道路。Warsh被视为支持加密货币和自由市场的官员，此前曾批评美联储过度干预。消息公布后，比特币从$80,000小幅反弹至$81,200。这降低了未来美联储激进收紧的可能性，并可能推动加密友好政策。影响币种：BTC、ETH及整体加密市场。看多信号，因潜在友好监管。",
+      "reason": "美联储主席变更直接影响全球流动性预期和风险资产定价，Warsh的加密货币友好立场是明确利好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/12/senate-confirms-kevin-warsh-to-fed-board-ahead-of-expected-chair-vote"},
+        {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/senate-confirms-bitcoin-kevin-warsh"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "民主党候选人紧密关联加密",
+      "summary": "Jacobin杂志报道，已获党内提名的民主党总统候选人Jane Doe与加密和科技行业有深度绑定，其竞选团队接收了大量加密政治行动委员会的捐款，并承诺推动监管沙盒。若其胜选，可能带来更宽松的联邦加密监管框架。市场对此反应中性偏积极，但不确定性仍存。影响币种：BTC、ETH及合规概念币。短期看多情绪，但需关注大选进程。",
+      "reason": "主要候选人政策倾向直接影响加密行业监管前景，属政治先兆信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Jacobin", "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKQmlwTnJmU091RlA3dGRBLU1NRE1ycUR1MTA4c2YzbE9mcmpoUXdtNy1qS1JPNDdodDRfQlR5VWpsQnIyUUpNZzhOSnhKUlY0dEZMM3ZfRWlDVVRfRlNkMS1xOTBrN0sxZjBpVEd1bEFac1k?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitcoin Fog上诉挑战DOJ管辖权",
+      "summary": "Bitcoin Fog运营商Roman Sterlingov就洗钱服务定罪提起上诉，核心论点是DOJ不能将全球加密服务纳入华盛顿特区法律管辖。该案若胜诉将限制美国监管域外执法权，利空监管扩张；若败诉则强化监管。目前法院尚未裁决。短期影响有限，但长期涉及加密隐私和跨境服务合法性。影响币种：BTC、隐私币。中性偏空，因监管不确定性增加。",
+      "reason": "上诉结果可能重塑美国对加密混币器及隐私服务的执法边界，属于监管政策重要信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "XMR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/400983/bitcoin-fog-appeal-tests-doj-theory-global-crypto-services-d-c-law?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
