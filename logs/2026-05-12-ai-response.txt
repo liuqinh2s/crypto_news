@@ -2012,3 +2012,126 @@ content length: 4179
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4199, prompt_tokens=15617, total_tokens=19816, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2201, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14465)
+content length: 4620
+============================================================
+{
+  "news": [
+    {
+      "title": "CME将推出比特币VIX指数",
+      "summary": "芝加哥商品交易所(CME)宣布将推出比特币波动率指数(类似VIX)，为华尔街提供比特币波动率对冲工具。该产品将改变机构参与比特币交易的方式，可能吸引更多对冲基金和做市商。短期可能增加市场波动性，长期利好BTC流动性。看多信号，因机构工具完善。受影响币种：BTC。",
+      "reason": "直接影响行情：CME推出新衍生品，可能改变机构交易行为。优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVTBoOGREeV9BT1Z5c096dS00b2txdHZlSTVWZzhoTVFyTmFmSWFpTUxCcGxmb1JxYzBrenpLQVRONXhLMWQ4ZU9nSUlsUlBVVkl1QkVmSkgzUGRFWlBRRzJPWlRCZE1MNzRaMjJ3Vng3N1VxTlQ1NkhwMlhlTzN4dENITl8wamc5S0F4WkRYSjd1TDYwdmF1ckg3LUNBb2IyYjBWSEs2Sjl0R0JGbnVvMzRKbnJNQkFGVEYzSU1heU4?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊基金会再解质押5000万美元ETH",
+      "summary": "据Reddit社区消息，以太坊基金会再次解质押约5000万美元的ETH。此前基金会已多次减持，此次进一步增加潜在抛压。虽然Arkham分析认为不会造成短期抛压，但连续解质押行为引发市场对基金会资金需求的担忧。可能影响ETH价格。看空信号，短期利空ETH。",
+      "reason": "项目方重大事件：基金会持续减持ETH，增加抛压预期。优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tay0mz/ethereum_foundation_unstakes_another_50m_eth/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "富国银行一季度增持ETH ETF",
+      "summary": "据金色财经报道，富国银行在一季度增持了以太坊ETF，同时大幅加仓Strategy(MicroStrategy)股票。此举显示传统大型银行对以太坊的配置兴趣增加。类似此前机构增持BTC ETF的路径。看多信号，利好ETH和MicroStrategy。",
+      "reason": "机构动向：大型银行增持ETH ETF，中期利多。优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512369.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普因代币销售获利6.6亿美元",
+      "summary": "据彭博社报道，通过秘密代币销售，特朗普的加密财富增加了6.6亿美元。此前特朗普家族曾发行多个NFT和代币项目。这一消息凸显加密领域与政治的缠绕，可能引发监管关注。短期对市场情绪影响中性偏空，因可能招致更严格监管。影响币种广泛。",
+      "reason": "监管动态：政治人物加密财富增加，可能成为监管焦点。优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "TRUMP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTUhEWGRyQWJGZGZEU25iQWxJVDR6NndFaHlyU1pDVkRRV0FZQmNEVXRjamtRLTZrSGZRRnQzN1VvRUhKaVFGTHVOaWNoaTVXd1dWU05TZC1PU3pRejZacGkwT3hGQ3Q4RUVJZlpRZW1iSzI2Y184TENNX25SRzZOa1NqY1dKTkVBLVZKSjYxTVNPSFV2NTQ3MC1Ya0pfWTFRaWQzZEdSandsdzJGVUZiZA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密货币立法遭遇工会障碍",
+      "summary": "CNBC报道称美国加密货币立法面临新障碍——劳工工会的反对。工会担心加密行业可能削弱工人权益，正游说反对部分法案。这可能导致CLARITY法案等立法进程放缓。看空信号，监管不确定性增加。影响所有币种。",
+      "reason": "监管政策：立法进程遭遇阻力，影响合规预期。优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN3RSWlgySlJmbi0wUE51QklZQmpSMnctX3FnZzFlRDNuazQyOXZwOWpmYlEyak1FMURpQnZ2ZzNMNzlQZUVfYU1vRXNKZWdDbFhKc2ZZdnVlOTJRb0dOZ2VsUmF4TElZUDRmeDMtYzVsUUpJdTV4MmFSenM4OEhVWHZIRFQxS0Q3OWxyVXlGeFJTQ0Z2ZkNfeHgyZXB3VzZGRVY1Ti1WTHNEeUtmTEtzUkc1RFhScmhDczZrVWdBNm5ORkRqU2FCWGdR?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH/BTC比率跌至10个月低点",
+      "summary": "ETH/BTC交易对比率跌至10个月新低，显示以太坊持续跑输比特币。CoinDesk报道部分原因是比特币ETF资金流入强劲而以太坊ETF相对疲软，且以太坊基金会持续抛售。该趋势若延续，可能进一步打压ETH多头信心。看空ETH/BTC，看多BTC相对表现。",
+      "reason": "市场结构：重要比率创低点，技术面利空ETH。优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/12/eth-btc-ratio-falls-to-10-month-low-as-ether-continues-to-underperform-bitcoin"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CleanSpark季度亏损3.78亿美元",
+      "summary": "比特币矿商CleanSpark公布财报，第二季度净亏损3.78亿美元，主要受比特币价格下跌影响。同时MARA此前也出售BTC转向AI。矿企财务压力增加，可能迫使更多矿工出售比特币或转向其他业务。看空BTC，因矿工抛售压力。",
+      "reason": "项目更新：矿企亏损，增加BTC抛售风险。优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/cleanspark-posts-378m-in-quarterly-losses-largely-driven-by-bitcoin-price-drop"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
