@@ -678,3 +678,235 @@ content length: 2071
   ],
   "note": "本轮新素材中多数事件与近6小时历史消息重复，仅筛选出3条具有独立交易参考价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1455, prompt_tokens=11318, total_tokens=12773, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1202, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10166)
+content length: 677
+============================================================
+{
+  "news": [
+    {
+      "title": "Hyperliquid ETF首发上线",
+      "summary": "首只追踪Hyperliquid (HYPE) 的ETF已上线并交易首日表现强劲。Hyperliquid是高性能去中心化衍生品交易平台，该ETF为传统投资者提供合规敞口。可能直接影响HYPE代币价格，并提振市场对DeFi赛道信心。看多信号，预计吸引资金流入。",
+      "reason": "ETF首发直接增加代币流动性和合规性，属于优先级一交易所/机构事件。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401047/first-ever-hyperliquid-etf-launches-posts-very-solid-first-day-of-trading-analyst"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取素材大部分与历史消息重复，经严格去重后仅筛选出一条有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1228, prompt_tokens=11318, total_tokens=12546, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=719, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11264), prompt_cache_hit_tokens=11264, prompt_cache_miss_tokens=54)
+content length: 1344
+============================================================
+{
+  "news": [
+    {
+      "title": "首个Hyperliquid ETF上市",
+      "summary": "首个Hyperliquid ETF（交易代码HYPE）已推出，首日交易表现强劲，分析师称'非常坚实'。该ETF直接追踪Hyperliquid原生代币HYPE价格，为传统投资者提供合规敞口。可能吸引资金流入HYPE，短期看多。但需注意ETF首日流动性可能有限，后续资金持续性待观察。",
+      "reason": "首个Hyperliquid ETF属于ETF机构类别，直接影响HYPE代币需求，是加密货币市场结构创新的标志性事件，按筛选标准属于优先级一中的ETF重大动态。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401047/first-ever-hyperliquid-etf-launches-posts-very-solid-first-day-of-trading-analyst"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Exodus卖出8700万美元BTC",
+      "summary": "比特币钱包公司Exodus通过出售其持有的部分比特币筹集约8700万美元，以扩大支付业务。此举增加了市场上可交易的BTC供应，形成抛压信号。Exodus作为行业知名公司减持BTC，可能被市场解读为短期看空情绪。比特币价格当前在80,000美元附近震荡，抛售消息可能加剧下行压力。",
+      "reason": "巨鲸（公司级别）卖出BTC，直接增加抛压，属于优先级一中的巨鲸异动，对BTC行情有直接影响。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367663/bitcoin-wallet-firm-exodus-expands-payments-push-sells-87-million-btc"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前6小时内其他新闻多已在前序时段出现或为重复信息，仅筛选出2条具有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1601, prompt_tokens=11318, total_tokens=12919, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1329, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11264), prompt_cache_hit_tokens=11264, prompt_cache_miss_tokens=54)
+content length: 710
+============================================================
+{
+  "news": [
+    {
+      "title": "首个Hyperliquid ETF推出",
+      "summary": "首个追踪Hyperliquid（HYPE）的ETF已经推出，分析师称首日交易表现'非常强劲'。Hyperliquid是一个专注于去中心化永续合约的Layer1区块链，该ETF的推出为传统投资者提供了合规的HYPE敞口，可能吸引资金流入。对HYPE代币看多，并可能带动整个DeFi和L1板块情绪。",
+      "reason": "符合优先级一：ETF相关消息，直接影响HYPE价格及市场情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401047/first-ever-hyperliquid-etf-launches-posts-very-solid-first-day-of-trading-analyst"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中仅发现一条未在历史消息中重复的高质量消息。其他消息或因与历史内容重复，或对交易决策影响微弱，故未选取。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1509, prompt_tokens=12278, total_tokens=13787, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1249, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11126)
+content length: 701
+============================================================
+{
+  "news": [
+    {
+      "title": "首只Hyperliquid ETF上市",
+      "summary": "The Block报道，首只Hyperliquid ETF已于周一推出，首日交易表现'非常稳健'。该ETF为投资者提供对HYPE代币的间接敞口，无需直接持有加密货币。这可能吸引传统资金进入HYPE生态，利好HYPE及相关DeFi协议。信号看多，但ETF规模尚小，影响有限。",
+      "reason": "首次出现Hyperliquid ETF上市，属于ETF领域创新，可能带来增量资金，符合优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401047/first-ever-hyperliquid-etf-launches-posts-very-solid-first-day-of-trading-analyst"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮只有一条符合筛选标准的高影响力新消息，其余素材均与历史标题重复或为低价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1052, prompt_tokens=12278, total_tokens=13330, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=774, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12160), prompt_cache_hit_tokens=12160, prompt_cache_miss_tokens=118)
+content length: 740
+============================================================
+{
+  "news": [
+    {
+      "title": "首个Hyperliquid ETF上线",
+      "summary": "The Block报道，首个追踪Hyperliquid（HYPE）代币的ETF已正式上线交易，分析师称首日表现“非常扎实”。该ETF允许投资者在不直接持有HYPE代币的情况下获得其价格敞口，有望吸引传统资金流入HYPE市场。这对HYPE代币是直接利好信号，可能推动价格上涨并增加市场深度。",
+      "reason": "首个Hyperliquid ETF上线，属于重大产品创新，直接影响HYPE需求，符合优先级一“ETF/机构”类别。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401047/first-ever-hyperliquid-etf-launches-posts-very-solid-first-day-of-trading-analyst"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取素材中，除Hyperliquid ETF外，其余消息均与历史标题重复或属于排除项，因此仅筛选出1条高价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2552, prompt_tokens=4446, total_tokens=6998, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1401, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3294)
+content length: 2871
+============================================================
+{
+  "news": [
+    {
+      "title": "JPMorgan申请代币化货币基金",
+      "summary": "JPMorgan向SEC提交文件，计划在以太坊上推出代币化货币市场基金，标志着传统金融巨头加速布局RWA赛道。这验证了以太坊作为资产代币化平台的优越性，可能吸引更多机构资金流入ETH和RWA相关代币。看多信号，尤其利好ETH及RWA板块（如ONDO）。",
+      "reason": "传统金融巨头进军代币化，属于机构动向，中期利好ETH/RWA。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "ONDO"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "首个Hyperliquid ETF首日强劲",
+      "summary": "全球首个跟踪Hyperliquid的ETF正式上市，分析师称首日交易量表现“非常稳健”。Hyperliquid是领先的去中心化衍生品协议，ETF推出使传统投资者能便捷配置HYPE，增加资金流入预期。短期看多HYPE，同时利好整个衍生品赛道。",
+      "reason": "ETF上市是重大催化剂，直接增加代币需求。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401047/first-ever-hyperliquid-etf-launches-posts-very-solid-first-day-of-trading-analyst"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy完成2026年最小BTC购买",
+      "summary": "MicroStrategy（现Strategy）完成2026年以来最小的一笔比特币购买，数量仅约98枚BTC。尽管购买量显著缩小，但公司持续买入仍体现长期看好态度。然而，购买量减小可能反映机构边际买入意愿减弱，短期中性偏空。",
+      "reason": "机构购买量变化影响市场情绪，需关注是否趋势转变。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONy1mOU1jWEZGTG5vUUZYRUJXbkZfcU5BTjR6UFpTN0RkRjBEZ2NXVGR3cVB2QmI2ekdxYWtOMEJBSzBaN2VJaFptRUpaM1ZRRVZ6djE2ODhySkhxeUVyUTlzWVloc1laWmE4TGo2UUpJTV9QeGlCd1hISTBLNkcyWE1OUjJDRVBO?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Exodus抛售8700万美元BTC",
+      "summary": "比特币钱包公司Exodus在支付业务扩张中卖出约8700万美元的BTC，约合1230枚。公司卖币用于运营支出，构成直接抛压。虽然金额相对于BTC日交易量不大，但大额转出交易所（来源为公司钱包）可能被解读为看跌信号。",
+      "reason": "公司卖币是直接抛售行为，短期利空。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/367663/bitcoin-wallet-firm-exodus-expands-payments-push-sells-87-million-btc"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线MegaETH（MEGA）",
+      "summary": "Binance宣布上架MegaETH（MEGA）现货，并同步开放理财、合约等产品。MegaETH是备受关注的以太坊Layer2扩容方案，Binance上架将带来大量流动性和曝光，短期MEGA价格有望大幅上涨。但需注意种子标签风险。",
+      "reason": "头部交易所上币直接影响币价，属于高优先级。",
+      "category": "交易所",
+      "impact_coins": ["MEGA", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
