@@ -1,0 +1,568 @@
+{
+  "date": "2026-05-12",
+  "hour": "21",
+  "total": 80,
+  "fetched_at": "2026-05-12T21:00:44.122142+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Hot inflation data pours cold water on Federal Reserve rate cut hopes",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/12/hot-inflation-data-pours-cold-water-on-federal-reserve-rate-cut-hopes",
+      "published": "Tue, 12 May 2026 12:47:06 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "CleanSpark stock slides 9% as quarterly earnings miss estimates on bitcoin holdings loss",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/12/cleanspark-s-stocks-slides-9-as-firm-reports-usd378-3-million-quarterly-loss",
+      "published": "Tue, 12 May 2026 12:35:20 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "DTCC builds out blockchain-based collateral system with Chainlink integration",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/12/dtcc-taps-chainlink-for-its-tokenized-collateral-platform-ahead-of-q4-launch",
+      "published": "Tue, 12 May 2026 12:15:00 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Exodus dumps 1,000 bitcoin: Why the crypto wallet is cashing out to fund a payments empire",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/12/exodus-dumps-1-000-bitcoin-why-the-crypto-wallet-is-cashing-out-to-fund-a-payments-empire",
+      "published": "Tue, 12 May 2026 11:39:15 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin will 'explode' past $90,000 and hit $126,000, Arthur Hayes says",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/12/bitcoin-will-explode-past-usd90-000-on-way-back-to-usd126-000-arthur-hayes-says",
+      "published": "Tue, 12 May 2026 11:27:33 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto markets stalls before inflation data as XRP, SOL rebuffed from key price levels",
+      "summary": "",
+      "link": "https://www.coindesk.com/daybook-us/2026/05/12/crypto-markets-stalls-before-inflation-data-as-xrp-sol-rebuffed-from-key-price-levels",
+      "published": "Tue, 12 May 2026 11:15:56 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Bernstein reiterates $67 Figure target after Q1 loan volumes double, sees 72% upside from tokenization thesis",
+      "summary": "<p>Bernstein reiterates $67 Figure target with 72% upside after Q1 loan volumes jump 113% year-over-year to $2.9 billion.</p>",
+      "link": "https://www.theblock.co/post/400906/bernstein-reiterates-67-figure-target-after-q1-loan-volumes-double-sees-72-upside-from-tokenization-thesis?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 12 May 2026 08:46:05 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Former bitcoin miner Bitfarms reports $145 million Q1 net loss amid Keel rebrand, AI transition",
+      "summary": "<p>Keel Infrastructure posted a $145 million Q1 net loss as the Bitfarms successor pivots from bitcoin mining to AI infrastructure.</p>",
+      "link": "https://www.theblock.co/post/400900/former-bitcoin-miner-bitfarms-reports-145-million-q1-net-loss-amid-keel-rebrand-ai-transition?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 12 May 2026 08:05:29 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Starknet launches strkBTC to bring ZK-powered shielded bitcoin to its Layer 2 network",
+      "summary": "<p>The asset functions as a shielded bitcoin wrapper operating on Starknet rather than on the Bitcoin base layer itself.</p>",
+      "link": "https://www.theblock.co/post/400903/starknet-launches-strkbtc-to-bring-zk-powered-shielded-bitcoin-to-its-layer-2-network?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 12 May 2026 08:00:00 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: Circle Stock Soars After Q1 Beat, $222M Arc Raise",
+      "summary": "Circle just beat earnings and raised fresh capital for its new Arc blockchain, while Michael Saylor explained how and why he'd sell Bitcoin.",
+      "link": "https://decrypt.co/367530/morning-minute-circle-stock-soars-after-q1-beat-222m-arc-raise",
+      "published": "Tue, 12 May 2026 11:55:03 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Senate Banking Panel Releases CLARITY Act Draft Ahead of Thursday Markup",
+      "summary": "The draft text contained provisions that could permanently exempt Bitcoin and Ethereum from securities law.",
+      "link": "https://decrypt.co/367533/senate-banking-panel-releases-clarity-act-draft-ahead-of-thursday-markup",
+      "published": "Tue, 12 May 2026 11:48:47 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Is This Bitcoin Bear Market Different? Analysts Weigh In",
+      "summary": "Bitcoin is down 35% from its all-time high, making this drawdown shallower than past cycles, but analysts warn the bear market could resume.",
+      "link": "https://decrypt.co/367529/is-this-bitcoin-bear-market-different-analysts-weigh-in",
+      "published": "Tue, 12 May 2026 11:25:04 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Wells Fargo lifts Ether ETF holdings in Q1 as Bitcoin positions shift",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Wells Fargo lifts Ether ETF holdings in Q1 as Bitcoin positions shift\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9tYW4td2l0aC1ob2xvLWdyYXBoaWNzLmpwZw==.jpg\" /></p><p>Wells Fargo lifted Ether ETF exposure while rotating Bitcoin holdings and sharply increasing its Strategy stake, per its Q1 2026 13F filings.</p>",
+      "link": "https://cointelegraph.com/news/wells-fargo-ether-etf-boost-q1-2026-btc-rotation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 11:48:37 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Bakkt pivots into stablecoin infrastructure as revenue tumbles 77% in Q1",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bakkt pivots into stablecoin infrastructure as revenue tumbles 77% in Q1\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1jb3JydXB0LWdvdmVybmFuY2Utd2hhdC1kby13ZS1rbm93LWFib3V0LXJlY2VudC1zY2FuZGFsLW5ldy5qcGc=.jpg\" /></p><p>Bakkt posted a net loss of $0.41 per share in Q1 as revenue fell 77% to $243.6 million on lower crypto tradi",
+      "link": "https://cointelegraph.com/news/bakkt-pivots-into-stablecoin-infrastructure-as-revenue-tumbles-77-in-q1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 11:10:00 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "阿布扎比国家石油公司CEO：霍尔木兹海峡封锁致全球原油短缺10亿桶",
+      "summary": "【阿布扎比国家石油公司CEO：霍尔木兹海峡封锁致全球原油短缺10亿桶】金色财经报道，5月12日电，阿布扎比国家石油公司首席执行官Sultan Al Jaber在社交平台发文称：“由于霍尔木兹海峡被封锁，全球原油供应已短缺10亿桶。”",
+      "link": "https://jinse.com.cn/lives/512388.html",
+      "published": "Tue, 12 May 2026 12:55:38 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国国防部长：如果有必要，我们已有对伊朗升级局势的计划",
+      "summary": "【美国国防部长：如果有必要，我们已有对伊朗升级局势的计划】金色财经报道，5月12日，美国国防部长赫格塞思表示，如果有必要，我们已有对伊朗升级局势的计划。(金十)",
+      "link": "https://jinse.com.cn/lives/512387.html",
+      "published": "Tue, 12 May 2026 12:48:06 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美10年期国债收益率涨3.5个基点，报4.447%",
+      "summary": "【美10年期国债收益率涨3.5个基点，报4.447%】金色财经报道，5月12日，美国10年期国债收益率在CPI数据公布后维持早前的上涨，现涨3.5个基点，报4.447%。(金十)",
+      "link": "https://jinse.com.cn/lives/512386.html",
+      "published": "Tue, 12 May 2026 12:34:58 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国4月未季调CPI年率3.8%，预期3.7%",
+      "summary": "【美国4月未季调CPI年率3.8%，预期3.7%】金色财经报道，5月12日，美国4月未季调CPI年率3.8%，预期3.7%。(金十)",
+      "link": "https://jinse.com.cn/lives/512385.html",
+      "published": "Tue, 12 May 2026 12:30:48 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Coincheck与日本通信巨头KDDI达成合作并获6500万美元战略投资",
+      "summary": "【Coincheck与日本通信巨头KDDI达成合作并获6500万美元战略投资】金色财经报道，纳斯达克上市公司Coincheck Group宣布与日本电信巨头KDDI Corporation达成战略投资与业务合作协议，KDDI将以每股2.28美元价格认购Coincheck Group新发行普通股28,536,516股，交易总额约6500万美元，摩根大通担任财务顾问，De Brauw Blackstone Westbroek及Simpson Thacher &amp; Bartlett LLP担任法律顾问，据悉双方将围绕数字资产市场扩展展开合作，包括收入分成及推荐奖励机制等。<p>原文链接: <a href=\"https://www.businesswire.com/news/home/20260512231455/en/Coincheck-Group-Announces-Partnership-With-KDDI-Corporation-to-Expand-Access-to-Digital-Assets\">https://www.businesswire.com/news/home/2",
+      "link": "https://jinse.com.cn/lives/512384.html",
+      "published": "Tue, 12 May 2026 12:26:05 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "TON Strategy一季度持有超2.21亿枚TON，占总供应量4.29%",
+      "summary": "【TON Strategy一季度持有超2.21亿枚TON，占总供应量4.29%】金色财经报道，5月12日，纳斯达克上市TON财库公司TON Strategy公布2026年第一季度财报，披露截至3月31日共持有约2.219亿枚TON，约占TON 总供应量的4.29%，其中约2.212亿枚处于质押状态，通过其基础设施质押的TON占网络总质押量约26.18%。TON Strategy表示，受TON市场价格波动影响，公司录得约8790万美元加密资产未实现亏损，税前净亏损达9100万美元，此外还持有价值约3500万美元现金及受限现金，资产负债表无债务。<p>原文链接: <a href=\"https://www.globenewswire.com/news-release/2026/05/12/3292755/0/en/ton-strategy-company-reports-first-quarter-2026-financial-results.html\">https://www.globenewswire.com/news-release/2026/05/12/3292755/0/en/to",
+      "link": "https://jinse.com.cn/lives/512383.html",
+      "published": "Tue, 12 May 2026 12:25:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美DTCC正扩展其抵押品系统，并引入Chainlink集成方案",
+      "summary": "【美DTCC正扩展其抵押品系统，并引入Chainlink集成方案】金色财经报道，5 月 12 日，美国存管信托和清算公司（DTCC）将在其基于区块链的抵押品管理平台中使用 Chainlink 基础设施，这也意味着双方此前的合作将进一步扩展至华尔街核心风险管理职能之一。 \nDTCC 表示，其抵押品 AppChain 将采用 Chainlink 的 Runtime Environment（CRE）及数据标准，以支持定价、估值、保证金管理、抵押品优化和结算等功能。 \n该 AppChain 是一个基于 Besu 的区块链平台，旨在促进资产代币化，并实现全天候（7×24 小时）的实时抵押品管理。<p>原文链接: <a href=\"https://www.coindesk.com/business/2026/05/12/dtcc-taps-chainlink-for-its-tokenized-collateral-platform-ahead-of-q4-launch\">https://www.coindesk.com/business/2026/05/12/dtcc-taps-chainlin",
+      "link": "https://jinse.com.cn/lives/512382.html",
+      "published": "Tue, 12 May 2026 12:20:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "ZachXBT曝光美国黑客Dritan Kapllani Jr涉嫌参与1900万美元加密社工盗窃案",
+      "summary": "【ZachXBT曝光美国黑客Dritan Kapllani Jr涉嫌参与1900万美元加密社工盗窃案】金色财经报道，“链上侦探”ZachXBT 发文曝光美国黑客Dritan Kapllani Jr，称其涉嫌参与总额约1900万美元的针对加密用户的社交工程盗窃活动。ZachXBT 表示，Dritan长期在社交媒体炫耀豪车、名表、私人飞机及夜店生活。2026年4月23日他在 Discord 的一场“Band 4 Band（B4B）”语音中，为证明自己比另一名黑客更富有，公开展示了一只存有368万美元资产的 Exodus 钱包。ZachXBT 追踪发现，该地址与2026年3月14日一起185枚 BTC（约1300万美元）的社工盗窃案存在关联。次日，Dritan 的 Exodus 钱包收到其中约530万美元资金。截至6周后的 B4B 通话时，其中约160万美元已被花费或洗白。 \nZachXBT 表示，Dritan 长期活跃于“The Com”黑客圈，因其未成年身份此前疑似一直未遭正式起诉，目前其已年满18岁。<p>原文链接: <a href=\"https://x.com/zachxbt/sta",
+      "link": "https://jinse.com.cn/lives/512381.html",
+      "published": "Tue, 12 May 2026 12:06:10 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Michael Saylor：《CLARITY Act》法案将推动数字资本与 Bitcoin 机构化采用",
+      "summary": "【Michael Saylor：《CLARITY Act》法案将推动数字资本与 Bitcoin 机构化采用】金色财经报道，5月12日，Michael Saylor 发推表示，美国国会推进的《CLARITY Act》法案将释放下一阶段“数字资本、数字信贷与数字股权”市场潜力，并为 BTC 带来更强机构级合法性与采用框架。<p>原文链接: <a href=\"https://x.com/saylor/status/2054168276016447833\">https://x.com/saylor/status/2054168276016447833</a></p>",
+      "link": "https://jinse.com.cn/lives/512380.html",
+      "published": "Tue, 12 May 2026 12:03:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "富国银行：将英伟达目标价从265美元上调至315美元",
+      "summary": "【富国银行：将英伟达目标价从265美元上调至315美元】金色财经报道，5月12日，富国银行：将英伟达(NVDA.O)目标价从265美元上调至315美元。",
+      "link": "https://jinse.com.cn/lives/512379.html",
+      "published": "Tue, 12 May 2026 12:01:30 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某新建钱包从币安提取331枚BTC，价值2,670万美元",
+      "summary": "【某新建钱包从币安提取331枚BTC，价值2,670万美元】金色财经报道，5月12日，据OnchainLens监测，某新建钱包从币安提取331枚BTC，价值2,670万美元。<p>原文链接: <a href=\"https://x.com/OnchainLens/status/2054168215098728836\">https://x.com/OnchainLens/status/2054168215098728836</a></p>",
+      "link": "https://jinse.com.cn/lives/512378.html",
+      "published": "Tue, 12 May 2026 11:58:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Bakkt Q1 加密收入同比下降 77%，转型进军稳定币基础设施领域",
+      "summary": "【Bakkt Q1 加密收入同比下降 77%，转型进军稳定币基础设施领域】金色财经报道，5月12日，Bakkt 发布 2026 年第一季度财报，季度归属于公司的净亏损为 1,170 万美元，合每股亏损 0.41 美元；去年同期净利润为 770 万美元。受加密交易量下降影响，Bakkt 加密服务收入从去年同期的 10.7 亿美元降至 2.436 亿美元，同比下降 77%，但其中大部分被加密成本及经纪费用抵消。公司一季度末持有现金 8,260 万美元，且无长期债务。 \nBakkt 表示，正从加密交易基础设施转向稳定币支付和 AI 金融基础设施，并已于 4 月 30 日完成对 Distributed Technologies Research 的收购，获得 AI 原生支付引擎和稳定币合规技术栈。<p>原文链接: <a href=\"https://cointelegraph.com/news/bakkt-pivots-into-stablecoin-infrastructure-as-revenue-tumbles-77-in-q1\">https://cointelegraph.com/new",
+      "link": "https://jinse.com.cn/lives/512377.html",
+      "published": "Tue, 12 May 2026 11:44:34 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "慢雾：Aurellion因初始化漏洞遭攻击，约45.5万美元USDC被盗",
+      "summary": "【慢雾：Aurellion因初始化漏洞遭攻击，约45.5万美元USDC被盗】金色财经报道，慢雾发布安全预警称，Aurellion遭遇攻击，损失约455,003枚 USDC（约45.5万美元），分析指出漏洞根源可能在于 SafeOwnable Facet 中的 initialize(address) 函数缺乏有效保护。由于 Diamond 合约在设置 owner 时未通过 initialize 路径，导致 _initialized 版本槽未正确更新，攻击者得以重新初始化合约并覆盖 owner 权限。慢雾表示，攻击者已夺取 Diamond 合约所有权，并从多个已授权地址中转走 USDC。<p>原文链接: <a href=\"https://x.com/SlowMist_Team/status/2054163700035289446\">https://x.com/SlowMist_Team/status/2054163700035289446</a></p>",
+      "link": "https://jinse.com.cn/lives/512376.html",
+      "published": "Tue, 12 May 2026 11:43:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "不丹格勒普正念城为符合条件的加密货币公司免税",
+      "summary": "【不丹格勒普正念城为符合条件的加密货币公司免税】金色财经报道，5月12日，不丹的格勒普正念城（Gelephu Mindfulness City）为全球受监管的加密货币公司推出加速许可途径，为符合条件的公司提供综合监管和银行服务、0% 企业所得税和零资本利得税。<p>原文链接: <a href=\"https://x.com/CoinDesk/status/2054155915708809705\">https://x.com/CoinDesk/status/2054155915708809705</a></p>",
+      "link": "https://jinse.com.cn/lives/512375.html",
+      "published": "Tue, 12 May 2026 11:29:48 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Galaxy研究主管：新版CLARITY法案草案增加内幕交易条款并进行多项调整",
+      "summary": "【Galaxy研究主管：新版CLARITY法案草案增加内幕交易条款并进行多项调整】金色财经报道，Galaxy Research研究主管Alex Thorn在X平台发文表示，美国参议院银行委员会公布更新版《CLARITY Act》完整草案，其中在多个关键章节进行了重大调整，包括： \n1、对第一章有关定义、美国证券交易委员会（SEC）权限等内容进行大幅重写； \n2、新增第109条内幕交易条款； \n3、第二章将“共同控制（common control）”更新为“协调控制（coordinated control）”； \n4、重写第301条以进一步明确 DeFi 与 CeFi 的监管边界； \n5、更新第404条并纳入 Tillis 与 Alsobrooks 的妥协方案； \n6、调整第505条，缩小 SEC 在代币化领域权限限制的范围； \n7、重构第701及702条的破产与资不抵债框架； \n8、第904条为新增内容，即“Build Now Act”； \n9、第604条中《Blockchain Regulatory Certainty Act》针对开发者的保护条款基本保持完整，仅进行了小幅修改，未削",
+      "link": "https://jinse.com.cn/lives/512374.html",
+      "published": "Tue, 12 May 2026 11:24:45 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BNB Chain RWA TVL突破40亿美元，再创历史新高",
+      "summary": "【BNB Chain RWA TVL突破40亿美元，再创历史新高】金色财经报道，5月12日，据BNB Chain官方披露，BNB Chain链上现实世界资产（Real World Assets，RWA）总锁仓价值（TVL）正式突破40亿美元，创历史新高。这一里程碑标志着BNB Chain RWA板块的持续高速增长——2025年Q4该板块TVL约为20亿美元，半年内实现翻倍。<p>原文链接: <a href=\"https://x.com/BNBCHAIN/status/2054139928796151898?s=20\">https://x.com/BNBCHAIN/status/2054139928796151898?s=20</a></p>",
+      "link": "https://jinse.com.cn/lives/512373.html",
+      "published": "Tue, 12 May 2026 11:17:12 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "OKX Boost更新交易量规则，DEX主流币等交易可计入活动积分",
+      "summary": "【OKX Boost更新交易量规则，DEX主流币等交易可计入活动积分】5月12日消息，据官方消息，OKX已更新Boost交易量计算规则。用户在OKX DEX交易主流币时，交易量现可计入Boost交易量并参与相关Boost活动。同时，X Layer链上代币交易还将限时享受额外20%的Boost交易量加成。 \n据悉，本次规则更新旨在进一步扩展Boost交易量的覆盖范围，并提升用户在DEX与XLayer生态中的参与体验。",
+      "link": "https://jinse.com.cn/lives/512372.html",
+      "published": "Tue, 12 May 2026 11:15:51 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Exodus一季度收入下滑37%，净亏损扩大至3210万美元",
+      "summary": "【Exodus一季度收入下滑37%，净亏损扩大至3210万美元】金色财经报道，5月12日，据TheBlock报道，非托管加密钱包Exodus（NYSE：EXOD）公布2026年第一季度业绩，收入为2270万美元，同比下降37%，主要受交易所聚合收入下滑40.8%拖累；当季净亏损扩大至3210万美元，去年同期为1290万美元；处理交易量为11.8亿美元，环比下降26%。 \n此外，Exodus于5月1日完成对Monavate和Baanx的收购。周一盘后交易中，Exodus股价下跌4.9%，该股过去一个月上涨20.5%，但今年迄今仍下跌47.9%。<p>原文链接: <a href=\"https://www.theblock.co/post/400877/exodus-reports-wider-q1-loss?utm_source=feedly&amp;utm_medium=rss\">https://www.theblock.co/post/400877/exodus-reports-wider-q1-loss?utm_source=feedly&amp;utm_medium=rss</a>",
+      "link": "https://jinse.com.cn/lives/512371.html",
+      "published": "Tue, 12 May 2026 11:07:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "德意志银行：将英特尔目标价从63美元上调至100美元",
+      "summary": "【德意志银行：将英特尔目标价从63美元上调至100美元】金色财经报道，5月12日，德意志银行表示，将英特尔(INTC.O)目标价从63美元上调至100美元。(金十)",
+      "link": "https://jinse.com.cn/lives/512370.html",
+      "published": "Tue, 12 May 2026 11:02:41 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "ZachXBT Names Bitget's Real Boss, Warns Escalation Against Chinese CEX Cartel Is Coming",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tazlzx/zachxbt_names_bitgets_real_boss_warns_escalation/\"> <img alt=\"ZachXBT Names Bitget's Real Boss, Warns Escalation Against Chinese CEX Cartel Is Coming\" src=\"https://external-preview.redd.it/zf5MVjhPEOlR7afkCZjIQmvSnoKvcuZkWCQzheQ_6o8.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=938733c50cc242e9477dfb288cfa1b551e6dc89e\" title=\"ZachXBT Names Bitget's Real Boss, Warns Escalation Against Chinese CEX Cartel Is Comi",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tazlzx/zachxbt_names_bitgets_real_boss_warns_escalation/",
+      "published": "2026-05-12T12:06:18+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Tennessee Men Indicted in $6.5 Million Crypto Robbery Spree Targeting California Investors",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1taycrt/tennessee_men_indicted_in_65_million_crypto/\"> <img alt=\"Tennessee Men Indicted in $6.5 Million Crypto Robbery Spree Targeting California Investors\" src=\"https://external-preview.redd.it/B9zTxkMlWF5v7By7CPe4N8vCKzewvrU0Tn3UJ81qT6g.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ffcbcbaca8679577da09359cb4d92b48ebfb0ae8\" title=\"Tennessee Men Indicted in $6.5 Million Crypto Robbery Spree Targeting California Investo",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1taycrt/tennessee_men_indicted_in_65_million_crypto/",
+      "published": "2026-05-12T11:10:14+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Exodus (EXOD) dumps 1,000 bitcoin (BTC): Why the crypto wallet is cashing out to fund a payments empire",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tazghe/exodus_exod_dumps_1000_bitcoin_btc_why_the_crypto/\"> <img alt=\"Exodus (EXOD) dumps 1,000 bitcoin (BTC): Why the crypto wallet is cashing out to fund a payments empire\" src=\"https://external-preview.redd.it/dRnyVnC6LhNmA9fI-J_IuB8SEFkrlwamM-1g6smxLek.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=eda1814959ee5f41bee78c9013961a44b097aa5f\" title=\"Exodus (EXOD) dumps 1,000 bitcoin (BTC): Why the crypto wallet is ca",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tazghe/exodus_exod_dumps_1000_bitcoin_btc_why_the_crypto/",
+      "published": "2026-05-12T12:00:07+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "We built an indicator that shows whale trades directly on the chart in real time and made it completely free for everyone. Your support means everything.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tay9o9/we_built_an_indicator_that_shows_whale_trades/\"> <img alt=\"We built an indicator that shows whale trades directly on the chart in real time and made it completely free for everyone. Your support means everything.\" src=\"https://preview.redd.it/q16v5me9vo0h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=94bf8955ae373880059f9ec2b06124acd7d8bb85\" title=\"We built an indicator that shows whale trades directly on the",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tay9o9/we_built_an_indicator_that_shows_whale_trades/",
+      "published": "2026-05-12T11:06:11+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "US and UAE crypto updates on tax regulation and adoption",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>came across a few updates recently</p> <p>in the US there are talks in congress about crypto tax rules n the senate banking committee has a draft crypto clarity act out</p> <p>in the UAE residents can now use crypto for some gov payments</p> <p>looks like we’re slowly seeing more structure on the regulation side n more real world use cases at the same time</p> <p>what do u think this actually changes for crypto long term does it speed up adoption or is it mostly",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1taz1nc/us_and_uae_crypto_updates_on_tax_regulation_and/",
+      "published": "2026-05-12T11:41:38+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Frustrated Mt Gox",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>My son deposited 42 BTC at MtGox in 2012 and subsequently became disabled. We are now caring for him and started to communicate with Gox last year.</p> <p>They told us we missed the filing deadline, but not to worry… “there’s only dust left in the account”. No accounting, no detailed explanation as a bank would do.</p> <p>Now we finally get his old email back and come to find some Gox confirmations with block chain address references, but not all the deposits ha",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1tb0lyv/frustrated_mt_gox/",
+      "published": "2026-05-12T12:47:44+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin and ethereum prices today, Tuesday, May 12, 2026: Bitcoin and ethereum prices backing off - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxONnpCcnhoaFBGLTM4aVljOTlITFhtWmJXZHJmOC1MMnpXRTdaRldBa1kwSnFrNkExLVg2ZVlkN3NMMTJ5aFhwLV94NC1uNXhpbVVFU0NXaGlwM3QxSEFvT285RzRpUzBfVHpYeTFLME5LS2VPRWFKNE5sMUZCdmFrSlA4a1IzM3RWcVlCQS1VUHRhczI0Tm82WF90bVBFSTkzUHdZZVFvWXh4U2lmMkhEdUJJaTJhTmtsamREdm5oaXpsenNwZThoWHEwcTFiTGFvOE9pYnBodXEtOXg4eFUycUdwYS1rRktaSXZNX3pjWnRKdExrcG51WFFwTExnUQ?oc=5\" target=\"_blank\">Bitcoin and ethereum prices today, Tuesday, May 12, 2026: Bitcoin and ethereum prices",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxONnpCcnhoaFBGLTM4aVljOTlITFhtWmJXZHJmOC1MMnpXRTdaRldBa1kwSnFrNkExLVg2ZVlkN3NMMTJ5aFhwLV94NC1uNXhpbVVFU0NXaGlwM3QxSEFvT285RzRpUzBfVHpYeTFLME5LS2VPRWFKNE5sMUZCdmFrSlA4a1IzM3RWcVlCQS1VUHRhczI0Tm82WF90bVBFSTkzUHdZZVFvWXh4U2lmMkhEdUJJaTJhTmtsamREdm5oaXpsenNwZThoWHEwcTFiTGFvOE9pYnBodXEtOXg4eFUycUdwYS1rRktaSXZNX3pjWnRKdExrcG51WFFwTExnUQ?oc=5",
+      "published": "Tue, 12 May 2026 11:33:24 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "The ‘godfather of crypto’ predicts $1 million bitcoin, but it’s going to fall first - MarketWatch",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm9pUzdSOGQ0ZUEyVXZicG5MY1NLVEdPQjE0Ymh2Q2FTdG9FeWVjd1U4WDNRTHJFQkZ1RUtXMHgzVXJMZlZoUy1NRTdaMmoxVkZmYi0xQlN2QVhRYXNKSC0xMm5aOFU3WlA3REpELTlZYnZibXdMcm44alUxZ3VIaGtlV2ozbU1fTE9wUXNCamxrLVZOaEdVTE9NRmhNSWJ4VEx6SmxQT3YxNkVoZWhwdnFlN3BKd1p4cklUaEVB?oc=5\" target=\"_blank\">The ‘godfather of crypto’ predicts $1 million bitcoin, but it’s going to fall first</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketWatch</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm9pUzdSOGQ0ZUEyVXZicG5MY1NLVEdPQjE0Ymh2Q2FTdG9FeWVjd1U4WDNRTHJFQkZ1RUtXMHgzVXJMZlZoUy1NRTdaMmoxVkZmYi0xQlN2QVhRYXNKSC0xMm5aOFU3WlA3REpELTlZYnZibXdMcm44alUxZ3VIaGtlV2ozbU1fTE9wUXNCamxrLVZOaEdVTE9NRmhNSWJ4VEx6SmxQT3YxNkVoZWhwdnFlN3BKd1p4cklUaEVB?oc=5",
+      "published": "Tue, 12 May 2026 12:11:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "After Meta and YouTube, Who's the Next Addiction Defendant? Crypto Brokers and Prediction Markets are Lawyering Up - FinTech Weekly",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxOemhWY2lodXhwWWZjdWlIWmVCSGQxSGZNODJZSHhqT2xxUHAtQy0wTXZoYnhENEtRWEkxNkZOSnBkc0JWc3owWExXa3RBWl8tR180aFBRMjZ2Q3VUZzdrci0wcmFwQ0ZPOVk2VTVKa0tBM3lHaG5qYk1lWU45STBRbjNtNDRSbG1rYWRaSVM1bVJFNjA2S0ZEc2hIUk5BRjc1LVlmYTlobm1KckVHcUI2LVA1VUhGVXpxUE9LdUswbUNpYXBlY1VQdW1CbXI5M1pIN1BjaC1DblZBelRjNWZYbXVjQjRuTGplN2hKUEh3MXZNQQ?oc=5\" target=\"_blank\">After Meta and YouTube, Who's the Next Addiction Defendant? Crypto Brokers and Prediction Markets are",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOemhWY2lodXhwWWZjdWlIWmVCSGQxSGZNODJZSHhqT2xxUHAtQy0wTXZoYnhENEtRWEkxNkZOSnBkc0JWc3owWExXa3RBWl8tR180aFBRMjZ2Q3VUZzdrci0wcmFwQ0ZPOVk2VTVKa0tBM3lHaG5qYk1lWU45STBRbjNtNDRSbG1rYWRaSVM1bVJFNjA2S0ZEc2hIUk5BRjc1LVlmYTlobm1KckVHcUI2LVA1VUhGVXpxUE9LdUswbUNpYXBlY1VQdW1CbXI5M1pIN1BjaC1DblZBelRjNWZYbXVjQjRuTGplN2hKUEh3MXZNQQ?oc=5",
+      "published": "Tue, 12 May 2026 11:28:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Exodus Movement Sells More Than 1,000 Bitcoin - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOVkcyMFFSRkJibjVLY2tQeHU1QXJFZC15d19uVDRWUlBWWk1VRUZRSkZKVHd0SUJ1eWo3dUdFYlNSSG5tTlNNc3NWUzhJOW1NdERqTmlKclpEa1REbVVsZnJEOHBkd01GQlBNNEVuVVNLOHZmcFdXX1doTU1MS1RUVVRldkhaOURBUnlOOUZrc19uMklwall3SA?oc=5\" target=\"_blank\">Exodus Movement Sells More Than 1,000 Bitcoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVkcyMFFSRkJibjVLY2tQeHU1QXJFZC15d19uVDRWUlBWWk1VRUZRSkZKVHd0SUJ1eWo3dUdFYlNSSG5tTlNNc3NWUzhJOW1NdERqTmlKclpEa1REbVVsZnJEOHBkd01GQlBNNEVuVVNLOHZmcFdXX1doTU1MS1RUVVRldkhaOURBUnlOOUZrc19uMklwall3SA?oc=5",
+      "published": "Tue, 12 May 2026 12:26:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Exodus dumps 1,000 bitcoin: Why the crypto wallet is cashing out to fund a payments empire - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQNzZMbGk4N25BWl9sc3B4VnQxZ2RueUNkRWxadXJTZWw3dHVndjBFV0JFS2FlVi1BNW8wNm1fbC16bU0teE0yY0s1SS1nZ0lCOWdZb0w5alJ4LXZkWEN0cFN2RWF0cHhKWTllU3hBU1I0VUZQY3c4NFlIZU50XzhqTDBPeFRfRkIySmdzYzVFbFNLUzBJY0RQdl8wNm16MEoxQXl4RFZZQnduY2JHX0JTRlgzSE9MOS1EeU9PcVBCX0lhNWtpMTZvbFJISUFCM1k?oc=5\" target=\"_blank\">Exodus dumps 1,000 bitcoin: Why the crypto wallet is cashing out to fund a payments empire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNzZMbGk4N25BWl9sc3B4VnQxZ2RueUNkRWxadXJTZWw3dHVndjBFV0JFS2FlVi1BNW8wNm1fbC16bU0teE0yY0s1SS1nZ0lCOWdZb0w5alJ4LXZkWEN0cFN2RWF0cHhKWTllU3hBU1I0VUZQY3c4NFlIZU50XzhqTDBPeFRfRkIySmdzYzVFbFNLUzBJY0RQdl8wNm16MEoxQXl4RFZZQnduY2JHX0JTRlgzSE9MOS1EeU9PcVBCX0lhNWtpMTZvbFJISUFCM1k?oc=5",
+      "published": "Tue, 12 May 2026 11:42:57 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Is This Bitcoin Bear Market Different? Analysts Weigh In - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQaERERWpxOFE0T1MzVGI1dmVmbzlka0NacUUtWTVwVW5IblZDS2l4TzVMVmRYeEpyWmE3QW03NU95VC14d3o3ckItSFZLWmtaUkhmakkyX2lfOTJOeXI2RjRZTlRuaC1XYVdfODVEaXpMTllhMVRHSVFLY2Z4TzJzODNkYU1PeVdyby1qQzlwQ0N0SFZPQWhrS1lMNGJWdTZ0VEl4N2ZR?oc=5\" target=\"_blank\">Is This Bitcoin Bear Market Different? Analysts Weigh In</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaERERWpxOFE0T1MzVGI1dmVmbzlka0NacUUtWTVwVW5IblZDS2l4TzVMVmRYeEpyWmE3QW03NU95VC14d3o3ckItSFZLWmtaUkhmakkyX2lfOTJOeXI2RjRZTlRuaC1XYVdfODVEaXpMTllhMVRHSVFLY2Z4TzJzODNkYU1PeVdyby1qQzlwQ0N0SFZPQWhrS1lMNGJWdTZ0VEl4N2ZR?oc=5",
+      "published": "Tue, 12 May 2026 11:25:04 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BTC price will 'explode' past $90,000 to reclaim $126,000, prominent fund manager says - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxObURsdFRQaWo1a3FLdzA3VGlVUklSREc1RkhPeWJsTmt3eDJBSU93X1VwSFFQRzl1bDI4OFo0cnJVT2llRTNrUEhUc2xJeWtyb1d5NS1fSndzQ3o3a01Pcm53eEMwU25PbDNGNXU2Tm05dTJaUk9Oejh4N0Q3MDlQcWdISEhPai1wcmFrcVpHWmpENGpyOE5HeE9wYmFUOEtZcVlSdDRFRFQtdlpmRDljcHJZV0lHRDA2WWx3ZGVHYkY?oc=5\" target=\"_blank\">BTC price will 'explode' past $90,000 to reclaim $126,000, prominent fund manager says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObURsdFRQaWo1a3FLdzA3VGlVUklSREc1RkhPeWJsTmt3eDJBSU93X1VwSFFQRzl1bDI4OFo0cnJVT2llRTNrUEhUc2xJeWtyb1d5NS1fSndzQ3o3a01Pcm53eEMwU25PbDNGNXU2Tm05dTJaUk9Oejh4N0Q3MDlQcWdISEhPai1wcmFrcVpHWmpENGpyOE5HeE9wYmFUOEtZcVlSdDRFRFQtdlpmRDljcHJZV0lHRDA2WWx3ZGVHYkY?oc=5",
+      "published": "Tue, 12 May 2026 12:04:03 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ethereum Foundation Unstakes 21,270 ETH - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOSnZHc3V1d2UzVEFMTjJmVW4wQm5qSGdndzhZT2NldmRnT1NCWnAtSE5YX2duN0JtRkM0ODVtYmpCd2VhLWFMdUJnQ2FqUnRKengxejEtVm4yRjMwVHNZS0VINU4ySy1RNld2ck9SdU5lRnhXQl90bGswTzd4ZHhZUGp0TnljTlVibS1FWURFTE40d0JNR3hkWlZJM3dvNjlVUEE?oc=5\" target=\"_blank\">Ethereum Foundation Unstakes 21,270 ETH</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSnZHc3V1d2UzVEFMTjJmVW4wQm5qSGdndzhZT2NldmRnT1NCWnAtSE5YX2duN0JtRkM0ODVtYmpCd2VhLWFMdUJnQ2FqUnRKengxejEtVm4yRjMwVHNZS0VINU4ySy1RNld2ck9SdU5lRnhXQl90bGswTzd4ZHhZUGp0TnljTlVibS1FWURFTE40d0JNR3hkWlZJM3dvNjlVUEE?oc=5",
+      "published": "Tue, 12 May 2026 12:37:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "CleanSpark stock slides 9% as quarterly earnings miss estimates on bitcoin holdings loss - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPOVJQdUVhRFV1TFp2ZVRzSHVSYVFsQ3diU0c2cE5NWF9RZkZmdXlMQ3pRZTN6VWJCZnVBM1djWXlfYjV3bXNuMDRoNWNDbzJOcDhnZy0wTjZMaV91R25yQ3JvOU5ybnAxVk9nblFwaGVwVXVtRU1FSmZGNlN3VS1FaXJNUl9hczRWdEtJWWlYWjNJcFE5WndfWlYyV1lNOENLWTZ0S0hVZHU5LWhKSXRVckJVSGJ4LTZQc1hQX3J3?oc=5\" target=\"_blank\">CleanSpark stock slides 9% as quarterly earnings miss estimates on bitcoin holdings loss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOVJQdUVhRFV1TFp2ZVRzSHVSYVFsQ3diU0c2cE5NWF9RZkZmdXlMQ3pRZTN6VWJCZnVBM1djWXlfYjV3bXNuMDRoNWNDbzJOcDhnZy0wTjZMaV91R25yQ3JvOU5ybnAxVk9nblFwaGVwVXVtRU1FSmZGNlN3VS1FaXJNUl9hczRWdEtJWWlYWjNJcFE5WndfWlYyV1lNOENLWTZ0S0hVZHU5LWhKSXRVckJVSGJ4LTZQc1hQX3J3?oc=5",
+      "published": "Tue, 12 May 2026 12:36:05 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Hits the Pause Button at $80,0000 - Investing.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQMFlpS2I1U1d1TlJMNXZQSFplRExrTkVEWVJNQTBqUDhSb1VIa203OE05SnQ3REtNeGxubE9MQklEVmVGQ0gtbjNnVG5wR2o1OXBUY0ZDVldVakh5bXp1TVhjSTl1WVVIS0JsdHk3ZnNYODhGTU0yd1Yxb19uZjdsMllwNUhZMEZBWk82Tw?oc=5\" target=\"_blank\">Bitcoin Hits the Pause Button at $80,0000</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMFlpS2I1U1d1TlJMNXZQSFplRExrTkVEWVJNQTBqUDhSb1VIa203OE05SnQ3REtNeGxubE9MQklEVmVGQ0gtbjNnVG5wR2o1OXBUY0ZDVldVakh5bXp1TVhjSTl1WVVIS0JsdHk3ZnNYODhGTU0yd1Yxb19uZjdsMllwNUhZMEZBWk82Tw?oc=5",
+      "published": "Tue, 12 May 2026 11:33:11 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "EToro Reports Sharp Drop in Crypto Trading. The Stock Is Rising Anyway. - Barron's",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQZmhQNnBzcE9Fd2lTeThXMGcwUXc5VGJyZHlDR3JpbDhjYU4wTU1YRFFrZFVLVUtEQU1OSU1GS0x6R1h3ZEtBN0Y3WlBWaTFzczdzQzdXeVU2SjREMG5zNUZPamRIQjBJcGRnTFRCRHdTWVJzVlFxMVJOY2FHZ0pYZw?oc=5\" target=\"_blank\">EToro Reports Sharp Drop in Crypto Trading. The Stock Is Rising Anyway.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZmhQNnBzcE9Fd2lTeThXMGcwUXc5VGJyZHlDR3JpbDhjYU4wTU1YRFFrZFVLVUtEQU1OSU1GS0x6R1h3ZEtBN0Y3WlBWaTFzczdzQzdXeVU2SjREMG5zNUZPamRIQjBJcGRnTFRCRHdTWVJzVlFxMVJOY2FHZ0pYZw?oc=5",
+      "published": "Tue, 12 May 2026 11:41:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "​​​​Ether Outlook: Ethereum Recovery Stalls Despite Pectra Upgrade and ETF Demand​​​ - ig.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQZk02Zmp4dkhndV9oR0szdTdQcHItblZjMDdVemVYTmt4RlVocUJDNDVjdTZocDlfT25OOWJxVkI5Zmo4eEluSlh6MXZLLU5JaERfYWc2cW9uUkZoTi01TjJsRVJtdFdXaHZvakRuUlgxNml1ZDYtRFlvZi1nWWo2M3RHV3lIODJDbTUybjVEeGdUcGVsLUlSUS04SVd1VGh3bDYtSjBMSlRNLU1aNEVSNV91SHM?oc=5\" target=\"_blank\">​​​​Ether Outlook: Ethereum Recovery Stalls Despite Pectra Upgrade and ETF Demand​​​</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ig.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZk02Zmp4dkhndV9oR0szdTdQcHItblZjMDdVemVYTmt4RlVocUJDNDVjdTZocDlfT25OOWJxVkI5Zmo4eEluSlh6MXZLLU5JaERfYWc2cW9uUkZoTi01TjJsRVJtdFdXaHZvakRuUlgxNml1ZDYtRFlvZi1nWWo2M3RHV3lIODJDbTUybjVEeGdUcGVsLUlSUS04SVd1VGh3bDYtSjBMSlRNLU1aNEVSNV91SHM?oc=5",
+      "published": "Tue, 12 May 2026 11:27:51 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "‘Full Panic Mode’—‘Urgent’ $6.6 Trillion Crypto Warning Issued As Bitcoin Braces For Price Shock - Forbes",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY21hblBZX0g1RS03ekZGV093Vmo3Sm94eE81cDVWQkItRlcyZG1qU295YmVuM3FjZHlaNWJsMEV4akk3VW9jSDBxTXZ4SjQ0ZG9hellVaDFRLWhTeWo3Mm4tN0RISzgyTkVOZVlHcDRqbzhlY0VFRzk4THJfOHR5TUpyX3RJZWhjeXRsWmxHNS10WklVOGtRSU5QRUc4RFdXY1NPZW90ZTdXemdCbFNiRUJMM0I2dlNNSFJJclNTYWxWX0lRRkFlYURMOWFBd1Zub05ob05MbWwtZEJ4cno0?oc=5\" target=\"_blank\">‘Full Panic Mode’—‘Urgent’ $6.6 Trillion Crypto Warning Issued As Bitcoin Braces For Price Shock</a>&nbsp;&nbsp;<font color=\"#6",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY21hblBZX0g1RS03ekZGV093Vmo3Sm94eE81cDVWQkItRlcyZG1qU295YmVuM3FjZHlaNWJsMEV4akk3VW9jSDBxTXZ4SjQ0ZG9hellVaDFRLWhTeWo3Mm4tN0RISzgyTkVOZVlHcDRqbzhlY0VFRzk4THJfOHR5TUpyX3RJZWhjeXRsWmxHNS10WklVOGtRSU5QRUc4RFdXY1NPZW90ZTdXemdCbFNiRUJMM0I2dlNNSFJJclNTYWxWX0lRRkFlYURMOWFBd1Zub05ob05MbWwtZEJ4cno0?oc=5",
+      "published": "Tue, 12 May 2026 12:48:22 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "3 Altcoins Showing Strong Technical Setups Despite Cautious Crypto Market - Investing.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOcHV2NENEb3R3c3ctdS1TWWQ4eS1HVlN0QmRBT3BEM2hSSFVBN3VJMmhiM3U3aXIxNnBEbXpZd1RqLTlDcnFqODRWWGhaeVFjUmJxdXA4WXZzUmlHamsySG5QVDAyck1odWlGUHJzZlU5TUJBbE83VU1BOERwYnY2VDNGWE41X2JxMnhWMTl3UEp1VzVDYjgxLW9JdThua0dqSlhXaG9QT1VoN3dqV1k5RGRZd1lDS0ZRNVE?oc=5\" target=\"_blank\">3 Altcoins Showing Strong Technical Setups Despite Cautious Crypto Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcHV2NENEb3R3c3ctdS1TWWQ4eS1HVlN0QmRBT3BEM2hSSFVBN3VJMmhiM3U3aXIxNnBEbXpZd1RqLTlDcnFqODRWWGhaeVFjUmJxdXA4WXZzUmlHamsySG5QVDAyck1odWlGUHJzZlU5TUJBbE83VU1BOERwYnY2VDNGWE41X2JxMnhWMTl3UEp1VzVDYjgxLW9JdThua0dqSlhXaG9QT1VoN3dqV1k5RGRZd1lDS0ZRNVE?oc=5",
+      "published": "Tue, 12 May 2026 11:56:10 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ethereum Drops Harder Than Bitcoin Ahead Of CPI Report While XRP, Solana Retail Sentiment Climbs - Stocktwits",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNQk15eDBiSFZwRHRHQW5HOHFTby0tVTRkSXlRdUpzazJvcEs0WkVDOEtKT0tCeC1yUWc4LVlOQlBLdDM1QXFZUW02bUJhY3ZlemNsdmtyUURXbVEwZGF1X2g0bURRLTFGLU1RMUJpcnJQV2hMQmxVcmpUVjladUhkbF9NN2VuRlh4a0dOTUw4R3NWcjNoTV9iX0ZzX2cyUEs3bDJqVkduMGNPNmhQZFNQa1RqN0J3dnJRMHJvUi1RVGVLNl9M?oc=5\" target=\"_blank\">Ethereum Drops Harder Than Bitcoin Ahead Of CPI Report While XRP, Solana Retail Sentiment Climbs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQk15eDBiSFZwRHRHQW5HOHFTby0tVTRkSXlRdUpzazJvcEs0WkVDOEtKT0tCeC1yUWc4LVlOQlBLdDM1QXFZUW02bUJhY3ZlemNsdmtyUURXbVEwZGF1X2g0bURRLTFGLU1RMUJpcnJQV2hMQmxVcmpUVjladUhkbF9NN2VuRlh4a0dOTUw4R3NWcjNoTV9iX0ZzX2cyUEs3bDJqVkduMGNPNmhQZFNQa1RqN0J3dnJRMHJvUi1RVGVLNl9M?oc=5",
+      "published": "Tue, 12 May 2026 12:18:51 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto News Today:AI GPU RENTAL Enables AI-Driven Infrastructure Access Bitcoin Price Expected to Reach $310,000 - The Killeen Daily Herald",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAJBVV95cUxQaWR4YkNWTWowZTNqejdURnRFZjVDOEVBN0RZSTV6ejJJX0s0TmpfTWhsVXN0RFJVZzFnVjAzUGxLMDEtMWZKenBGWUdISTBEWXdoVjlMVHllUnk5UU45eHpoeTJPdzhJZ1NBRFNoUVVXNktnLTBERDBaSUxoVE9tNXlUTzlNa0plN1B4SVdyVHZGakFUNkhkQXd3eThrNUNWbnI0MDlqMTNtV0VrUGNpbW1mUlMza29lVHdTQi01cDFITnc2WE15YUpwdE1xdU5nRlIyNGZLNm8tU3pOb2ZUa1ppTXpXX1JybGpLQVpZRU9RaWpGb2taRTFlcUVubUstR1I0Ri14MW1lVTdnbWRHTGVTblE1MURLNHc5Y2oyTUZpdDZN?oc=5\" target=\"_blank\">Crypto News Today:AI GPU RENTAL Ena",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQaWR4YkNWTWowZTNqejdURnRFZjVDOEVBN0RZSTV6ejJJX0s0TmpfTWhsVXN0RFJVZzFnVjAzUGxLMDEtMWZKenBGWUdISTBEWXdoVjlMVHllUnk5UU45eHpoeTJPdzhJZ1NBRFNoUVVXNktnLTBERDBaSUxoVE9tNXlUTzlNa0plN1B4SVdyVHZGakFUNkhkQXd3eThrNUNWbnI0MDlqMTNtV0VrUGNpbW1mUlMza29lVHdTQi01cDFITnc2WE15YUpwdE1xdU5nRlIyNGZLNm8tU3pOb2ZUa1ppTXpXX1JybGpLQVpZRU9RaWpGb2taRTFlcUVubUstR1I0Ri14MW1lVTdnbWRHTGVTblE1MURLNHc5Y2oyTUZpdDZN?oc=5",
+      "published": "Tue, 12 May 2026 11:45:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin surges to $80.7k ahead of CPI release amid market optimism - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNV3ljQV9jSlBfdm1KQ2RFaWpkZG9QSkc2WVRWbkVROTNyVHB6Z2xvRzM0WG5vNWdoU2VzVVhzTEFtbHljRUtIVUNERkpjY3ZLWmotYVZVTHljOFdReXQ5dkZuSzJra093NDY2ZVVGRFFJNDVSVThFeHc3QjVmX0JXc0pDNjBaVWxGa1Z1ejBIYWxSblBRaUFR?oc=5\" target=\"_blank\">Bitcoin surges to $80.7k ahead of CPI release amid market optimism</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV3ljQV9jSlBfdm1KQ2RFaWpkZG9QSkc2WVRWbkVROTNyVHB6Z2xvRzM0WG5vNWdoU2VzVVhzTEFtbHljRUtIVUNERkpjY3ZLWmotYVZVTHljOFdReXQ5dkZuSzJra093NDY2ZVVGRFFJNDVSVThFeHc3QjVmX0JXc0pDNjBaVWxGa1Z1ejBIYWxSblBRaUFR?oc=5",
+      "published": "Tue, 12 May 2026 11:42:21 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "US CPI rise, geopolitical tensions lower 2026 Fed rate cut odds - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPRXBVcWFfT1c5TlBRZUtNQzAzcFI4N2VWZE1YOHc1OC14N0NraVlMS0loaHB5M1hNcF93MlZwVzN3QkxBTm9BYXpvQkZHeEVOei1ZVTBkRlVaVWd1NWVzaS05MDFaV3ZKTGdLRzl4N25mSkluQVE5SnlKTFNlNU5YY3BSZjZfenBTdUotaUdkWEdTd2oy?oc=5\" target=\"_blank\">US CPI rise, geopolitical tensions lower 2026 Fed rate cut odds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRXBVcWFfT1c5TlBRZUtNQzAzcFI4N2VWZE1YOHc1OC14N0NraVlMS0loaHB5M1hNcF93MlZwVzN3QkxBTm9BYXpvQkZHeEVOei1ZVTBkRlVaVWd1NWVzaS05MDFaV3ZKTGdLRzl4N25mSkluQVE5SnlKTFNlNU5YY3BSZjZfenBTdUotaUdkWEdTd2oy?oc=5",
+      "published": "Tue, 12 May 2026 12:36:59 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "US CPI Comes in Hot, Inflation is High: Will the Fed Cut Rates? - BeInCrypto",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xa1BzRURaMnlzQkVXWUxJRlZzWVo1Um5ETlItMUFOZ2Y1U3c5Qzh2U0JhSGZieVRDZm4yZjRGVEQtaFR2MUpGc1JCVW9RQU0wTjZjV1NCbnJoRy1NYnBpampwakQ?oc=5\" target=\"_blank\">US CPI Comes in Hot, Inflation is High: Will the Fed Cut Rates?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xa1BzRURaMnlzQkVXWUxJRlZzWVo1Um5ETlItMUFOZ2Y1U3c5Qzh2U0JhSGZieVRDZm4yZjRGVEQtaFR2MUpGc1JCVW9RQU0wTjZjV1NCbnJoRy1NYnBpampwakQ?oc=5",
+      "published": "Tue, 12 May 2026 12:34:00 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "summary": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b4eb8e22deba433583fe18e327e382e0",
+      "published": "2026-05-12T11:30:03.776000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9d96b17988bd41e9bd8898c586f68744",
+      "published": "2026-05-11T14:00:05.246000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c",
+      "published": "2026-05-07T14:59:29.304000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "summary": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01",
+      "published": "2026-05-04T14:29:57.125000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f",
+      "published": "2026-04-30T18:47:58.718000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "summary": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861",
+      "published": "2026-04-30T17:07:29.704000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/KZT Spot Trading Pair",
+      "summary": "Binance Adds USDT/KZT Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/51c9c56c7d3141fdac18cb9a152defc8",
+      "published": "2026-04-30T13:00:06.261000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/524345e64dd14a23989bfe1e547760b5",
+      "published": "2026-04-29T21:27:04.104000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c8d2380a71ee4b56980cf7798d2e3d8f",
+      "published": "2026-04-28T16:00:03.344000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "summary": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/52ca7793dcdd43ad822f43cfacc42231",
+      "published": "2026-04-28T12:00:02.694000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/75a90e75150c4917b54c5251cba87225",
+      "published": "2026-04-27T16:00:37.542000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e4b4751f7ee845dd9df5c1bfd94ade51",
+      "published": "2026-04-22T22:51:55.953000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cc3774b86f974052a01ab88d8a08be55",
+      "published": "2026-04-21T21:00:07.020000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "summary": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d",
+      "published": "2026-04-21T20:00:32.132000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-04-21",
+      "summary": "Binance Margin Will Add New Pairs - 2026-04-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dc394582165d4c6da83c54b78791687f",
+      "published": "2026-04-21T11:00:08.299000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-21",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/592c10e64f90408d8c553848a35d18fe",
+      "published": "2026-04-20T15:00:05.964000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",
+      "summary": "Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/16fe15060947481ab240fb398230a3ee",
+      "published": "2026-04-16T17:44:56.813000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CHIPUSDT Perpetual Contract Pre-Market Trading (2026-04-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CHIPUSDT Perpetual Contract Pre-Market Trading (2026-04-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9db6d823933341f1abcc04ed9ceab35d",
+      "published": "2026-04-16T14:14:15.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GENIUSUSDT Perpetual Contract (2026-04-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GENIUSUSDT Perpetual Contract (2026-04-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/741ea1c99c1e4897a5bd77aa5db4abc4",
+      "published": "2026-04-16T10:03:08.861000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add USDS (USDS) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add USDS (USDS) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a9581bcaef24410a1dace51722112c8",
+      "published": "2026-04-09T15:30:12.073000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 49 (Neutral)",
+      "summary": "当前加密市场恐惧贪婪指数为 49，分类为「Neutral」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-05-12T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "在美国通胀报告公布前，比特币涨势受阻，XRP 和 SOL 价格触及阻力位：加密日报 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWHJrMm95Y2xKNTJNZ0xuOG4zbDIxR21ZSkxxLXJFU0lTVnB2OVJ1NGxsTUs1ZDc0WndRQTJvNFJWN1BOLWhJQS1rbmlzVWhBaVJ6TDg5ZDJWWTdaVmtlYVVUdGJER0dpcWNyZ0pIT0JoeEE0RGlJdXpFM2tVR2p5bjFRekY1dzNJTll1ZE1ESWU0S0JEUm9mMks5NFh4OGhUZ0FnN1lLbTV1Q0lacnE1ejQ2NktVd3RlaUg3UXNrV3d6UzZvdjl2eTlkM1pLRW41?oc=5\" target=\"_blank\">在美国通胀报告公布前，比特币涨势受阻，XRP 和 SOL 价格触及阻力位：加密日报</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWHJrMm95Y2xKNTJNZ0xuOG4zbDIxR21ZSkxxLXJFU0lTVnB2OVJ1NGxsTUs1ZDc0WndRQTJvNFJWN1BOLWhJQS1rbmlzVWhBaVJ6TDg5ZDJWWTdaVmtlYVVUdGJER0dpcWNyZ0pIT0JoeEE0RGlJdXpFM2tVR2p5bjFRekY1dzNJTll1ZE1ESWU0S0JEUm9mMks5NFh4OGhUZ0FnN1lLbTV1Q0lacnE1ejQ2NktVd3RlaUg3UXNrV3d6UzZvdjl2eTlkM1pLRW41?oc=5",
+      "published": "Tue, 12 May 2026 11:21:30 GMT"
+    }
+  ]
+}
