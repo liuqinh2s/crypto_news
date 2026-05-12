@@ -87,3 +87,63 @@ content length: 3370
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3683, prompt_tokens=17528, total_tokens=21211, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2665, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16376)
+content length: 2157
+============================================================
+{
+  "news": [
+    {
+      "title": "EIA下调美布两油预期",
+      "summary": "美国能源信息署(EIA)下调了2026年美布两油价格预期，指出全球需求疲软和供应增加将压低油价。该消息缓解了市场对能源成本推动通胀的担忧，可能降低美联储加息压力，从而利好风险资产如比特币和以太坊。油价下降通常带动运输和制造成本降低，有助于改善宏观经济环境，对加密货币市场构成间接看多信号。",
+      "reason": "宏观经济数据变化影响通胀预期和美联储政策方向，属于中期影响因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512417.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "参议员与白宫商讨加密伦理",
+      "summary": "据Punchbowl News报道，美国参议员与白宫官员举行会议，讨论加密行业伦理问题，可能为即将到来的CLARITY法案听证会做准备。该会议未透露具体细节，但表明监管层正在积极协调，法案通过概率有所提升。若CLARITY法案落地，将为加密市场提供明确监管框架，利好比特币等主流币种的合规化和机构采用。目前信号中性偏多，需关注后续进展。",
+      "reason": "监管政策进展可能对市场结构产生重大影响，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc3pOY2Z2RlNoci0xeWxqSHpxVml3aXVuR0FmLU9DY1A5STZOZGpkLWhNQS0wQ2NSaXpUcDc3QmxHY1FJcGdGTmpoM1JJakxTaGM0NE9VaFotMDYybXVhaG1Db25aMmZ2YTRxNUF6Wkh2MHUzRUtBVENvV0JkSDF6X3pNVnE3cG4ySFBjb0JHakRraEJPVWhF?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SAGA日内飙涨76%",
+      "summary": "SAGA代币在24小时内价格飙升76%，成交量达到市值的21倍，显示市场出现明显的投机热潮。短期内可能存在获利回吐风险，但高成交量表明资金关注度极高，若大盘稳定，可能延续涨势。该币种波动大，交易需谨慎。建议短线看多，但严格设置止损。",
+      "reason": "小币种异动带动短期交易机会，属于市场结构变化。",
+      "category": "市场结构",
+      "impact_coins": ["SAGA"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbGlkY2p0Y3h6TkVfakY5ai1PenNoQVJwZWh1WkxaWGlOZjlVTnRuVGJDVUJoOGhiUXVGNFZlN1d3Nm9aZ3BBSXE2UXdDMnM1Q1NfQmdnZmhSOWYwUDRiM2RNU3UtNDdxOWJZZ19wN3UtcFVkTHVBQVRhX1hwUWZPd0o5Y2xqSXIwMEFiWXo2YTc3OW9ncW5vRVptYWJ0VmstclNxdE5SQUpOUXpEVkpSSWZxZWNwT0xVNXdGOHd2cEk1Skx5X091bkxuTkZ6REJMZnNuYw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "由于消息重复度高，有效新消息较少，仅筛选出3条高质量信息。"
+}
