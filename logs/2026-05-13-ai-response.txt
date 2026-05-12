@@ -317,3 +317,101 @@ content length: 5023
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1990, prompt_tokens=14398, total_tokens=16388, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1556, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13246)
+content length: 1131
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC主导率回升至58%",
+      "summary": "比特币主导率反弹至58%以上，创近期新高，表明资金正在从山寨币回流至比特币。该指标通常被视为市场整合期信号，可能意味着BTC相对强势，而山寨币面临流动性压力。影响币种主要为BTC，中性偏多信号。",
+      "reason": "市场结构重要指标，反映资金流向变化，影响BTC及整体市场趋势。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/400801/bitcoin-dominance-rebounds-above-58-crypto-market-consolidation-phase"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Telegram CEO宣布TON重大升级",
+      "summary": "Telegram CEO宣布对TON网络进行重大升级，具体内容未详述，但暗示将大幅提升可扩展性与用户体验。此消息可能吸引更多用户和开发者，提振TON生态预期。影响币种为TON，看多信号。",
+      "reason": "项目方重大更新，直接利好TON生态，可能刺激短期价格。",
+      "category": "项目更新",
+      "impact_coins": ["TON"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/CryptoCurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbc1v5/telegram_ceo_announces_massive_upgrade_for_ton/"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经过严格去重，近6小时内仅有2条新消息符合筛选标准，其余均与历史标题重复或属于排除项。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3722, prompt_tokens=14398, total_tokens=18120, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3003, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14336), prompt_cache_hit_tokens=14336, prompt_cache_miss_tokens=62)
+content length: 1828
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC主导率回升至58%",
+      "summary": "根据The Block数据，比特币市场主导率（BTC.D）已反弹至58%以上，创近期新高。这表明资金正从山寨币回流比特币，市场进入整合阶段，而非全面牛市。历史经验显示，BTC.D上升通常伴随比特币相对强势，而山寨币表现疲软。对交易者而言，短期应关注比特币，减少山寨币敞口，直到BTC.D出现见顶信号。该指标与近期CPI高企、地缘风险导致的避险情绪一致，属于市场结构信号。",
+      "reason": "市场结构信号，直接影响资产配置策略，属于优先级三的链上指标异常。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400801/bitcoin-dominance-rebounds-above-58-crypto-market-consolidation-phase"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "TON即将大规模升级",
+      "summary": "Telegram CEO宣布对TON网络进行重大升级，具体细节尚未完全披露，但市场预期将提升可扩展性、交易速度和DeFi能力。此前TON已获得广泛关注，此次升级可能进一步推动生态发展。消息在Reddit引发热议，但需注意非官方公告确认。若升级落地，TON代币价格有望迎来短期上涨。交易者可关注官方后续披露。",
+      "reason": "项目重大更新，可能带动TON生态增长，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["TON"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbc1v5/telegram_ceo_announces_massive_upgrade_for_ton/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊美谈判条件披露",
+      "summary": "伊朗媒体披露了与美国下一轮谈判的5个先决条件，包括解除制裁、停止军事行动等。这释放了冲突可能缓和的信号，有助于降低中东战争溢价。此前伊朗战争成本攀升至290亿美元，市场担忧加剧。若谈判取得进展，风险资产（包括BTC、ETH）可能反弹。不过谈判反复无常，需警惕预期落空。",
+      "reason": "地缘政治影响宏观风险情绪，属于宏观经济类别，影响广度大但深度有限。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512426.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮新消息较少，大部分重复历史标题或属于排除项，仅筛选出3条有交易价值的消息。"
+}

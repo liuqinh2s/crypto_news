@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-13",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 14398,
+    "completion_tokens": 3722,
+    "total_tokens": 18120
+  },
+  "content_length": 1828,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC主导率回升至58%\",\n      \"summary\": \"根据The Block数据，比特币市场主导率（BTC.D）已反弹至58%以上，创近期新高。这表明资金正从山寨币回流比特币，市场进入整合阶段，而非全面牛市。历史经验显示，BTC.D上升通常伴随比特币相对强势，而山寨币表现疲软。对交易者而言，短期应关注比特币，减少山寨币敞口，直到BTC.D出现见顶信号。该指标与近期CPI高企、地缘风险导致的避险情绪一致，属于市场结构信号。\",\n      \"reason\": \"市场结构信号，直接影响资产配置策略，属于优先级三的链上指标异常。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/400801/bitcoin-dominance-rebounds-above-58-crypto-market-consolidation-phase\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"TON即将大规模升级\",\n      \"summary\": \"Telegram CEO宣布对TON网络进行重大升级，具体细节尚未完全披露，但市场预期将提升可扩展性、交易速度和DeFi能力。此前TON已获得广泛关注，此次升级可能进一步推动生态发展。消息在Reddit引发热议，但需注意非官方公告确认。若升级落地，TON代币价格有望迎来短期上涨。交易者可关注官方后续披露。\",\n      \"reason\": \"项目重大更新，可能带动TON生态增长，属于优先级二。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"TON\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1tbc1v5/telegram_ceo_announces_massive_upgrade_for_ton/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"伊美谈判条件披露\",\n      \"summary\": \"伊朗媒体披露了与美国下一轮谈判的5个先决条件，包括解除制裁、停止军事行动等。这释放了冲突可能缓和的信号，有助于降低中东战争溢价。此前伊朗战争成本攀升至290亿美元，市场担忧加剧。若谈判取得进展，风险资产（包括BTC、ETH）可能反弹。不过谈判反复无常，需警惕预期落空。\",\n      \"reason\": \"地缘政治影响宏观风险情绪，属于宏观经济类别，影响广度大但深度有限。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/512426.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮新消息较少，大部分重复历史标题或属于排除项，仅筛选出3条有交易价值的消息。\"\n}"
+}
