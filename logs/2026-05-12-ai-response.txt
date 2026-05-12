@@ -2342,3 +2342,146 @@ content length: 4885
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5441, prompt_tokens=17283, total_tokens=22724, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3437, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16131)
+content length: 4994
+============================================================
+{
+  "news": [
+    {
+      "title": "MARA Q1营收降18%",
+      "summary": "比特币矿商MARA Holdings公布Q1财报，营收同比下降18%，因比特币减值计提导致净亏损12.6亿美元。公司此前已出售15亿美元比特币以转向AI基础设施。该消息显示矿商面临比特币持仓减值压力，可能继续抛售BTC，对BTC形成抛压。影响币种：BTC，看空信号。",
+      "reason": "矿商MARA巨额亏损并已出售大量BTC，增加市场抛压，属于项目方重大事件，优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWm84NW82dGRRVlBvWTJxMjdnNDZPNHA3b3FZZDJPWF92ZnkwOXpNaEZDMklPVnJJX3ZaQVdTSU9QZWQ3cnIyenZPNk9ZMlFmZUtqT1hnRU0zVjlzMTFyVkNqRmVDaVlYbUlFOGpDZXdCdXNqbDNoZ3hrOVJrMW9hNXR3Sk9vcktrTFJpanlCNE11dXc"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "VanEck高管称BTC便宜",
+      "summary": "VanEck高管Matthew Sigel表示比特币当前价格看起来便宜，预测可能涨至16万美元。虽为个人观点，但作为知名资管机构高管，言论可能提振市场信心，短期看多情绪。影响币种：BTC，中性偏多信号。",
+      "reason": "机构高管看多言论，属于市场情绪信号，优先级三，但结合机构背景有一定影响力。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb3d2UmlzcTAzME5CSkpPRXBuOHpQTHhqcmpwWE5FS2dHN2owU3JNRzEtclhHZDVoZDdXNEhVc0FvNnpWZ0UzcDlfOG0wN1Y1NEN4ZUNGQWxncG1ZSlhhcXhhNHRIQmdBYkhacVZMUlFNbFBFcTgyYUNIcFpMLTByaGxXcXFFM0ZyM3VCS3M3RHZ0WGRGVUhVd1gwVQ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Elliptic获1.2亿美元融资",
+      "summary": "区块链分析公司Elliptic完成1.2亿美元融资，由纳斯达克和德意志银行领投，估值6.7亿美元。资金将用于AI驱动的加密安全合规业务。此举表明传统金融机构加大加密安全投入，间接利好LINK（因DTCC使用Chainlink，Elliptic或与Chainlink有数据合作），整体利好加密市场基础设施。影响币种：LINK，中性偏多信号。",
+      "reason": "传统金融机构对加密基础设施的投资，反映行业认可度提升，属于机构动向，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/12/elliptic-raises-usd120-million-backed-by-nasdaq-deutsche-bank-as-ai-reshapes-crypto-security"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-12/deutsche-bank-nasdaq-back-crypto-firm-elliptic-in-120-million-round"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CME将推出AI算力期货",
+      "summary": "芝加哥商品交易所（CME）计划推出支持人工智能的算力期货市场，使投资者可以对冲算力成本。此举可能增加AI相关加密货币（如RNDR、FET）的需求，因为这些代币与GPU算力直接相关。利多人工智能概念币。影响币种：RNDR、FET，看多信号。",
+      "reason": "CME推出新期货品种，直接关联AI赛道，属于重大产品创新，可能带动相关代币交易量，优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["RNDR", "FET"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512391.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "tZERO接入Aptos发RWA",
+      "summary": "合规代币化平台tZERO宣布将其平台接入Aptos区块链，以加速机构RWA（真实世界资产）发行。此举扩大Aptos生态的应用场景，提升其作为合规公链的价值，对APT代币形成利好。影响币种：APT，看多信号。",
+      "reason": "知名合规平台与公链合作，提升该链的机构采用前景，属于项目更新（RWA），优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["APT"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512400.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitfinex获萨尔瓦多牌照",
+      "summary": "加密货币交易所Bitfinex获得萨尔瓦多数字资产服务牌照，使其能在该国合规运营。萨尔瓦多是比特币法币化国家，此举象征全球采用进一步扩大，对比特币海外采用利好，间接增强BTC持有者信心。影响币种：BTC，看多信号。",
+      "reason": "交易所获得合规牌照，属于监管进展，优先级一，但影响有限。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512393.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kraken母公司与富兰克林合作",
+      "summary": "Kraken母公司（Payward）与富兰克林邓普顿（Franklin Templeton）合作开发链上投资产品。富兰克林是资管巨头，此举标志传统金融进一步拥抱链上金融，对以太坊等智能合约平台构成长期利好。影响币种：ETH，看多信号。",
+      "reason": "传统金融机构与交易所合作开发链上产品，属于机构动向，优先级二，显示主流采用加速。",
+      "category": "机构动向",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/12/kraken-parent-franklin-templeton-to-develop-onchain-investment-products"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数年度回顾",
+      "summary": "Reddit上分析指出，比特币恐惧与贪婪指数在过去一年中处于恐惧状态的时间多于贪婪状态。该数据表明市场情绪长期偏向悲观，根据历史规律，持续恐惧往往是底部区域的特征，中长期可能酝酿上涨。影响币种：BTC，中性偏多信号。",
+      "reason": "市场情绪指标长期极端值，属于情绪信号，但无即时交易价值，仅作为参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tb18tl/bitcoins_fear_greed_index_has_spent_more_time_in/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
