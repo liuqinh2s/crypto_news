@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-12",
+  "hour": "08",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10170,
+    "completion_tokens": 2129,
+    "total_tokens": 12299
+  },
+  "content_length": 2371,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Circle股价涨15% 华尔街看好\",\n      \"summary\": \"Circle股价上涨15%，华尔街分析师上调目标价，认为稳定币USDC采用率将持续增长。受此影响，CRCL代币及USDC生态项目可能受益，市场整体情绪偏多。但Circle作为USDC发行商，其股价上涨反映资金对稳定币赛道的信心，间接利好加密市场。\",\n      \"reason\": \"Circle是USDC发行商，股价大涨反映机构对稳定币前景看好，可能带动USDC供应增加，属于市场做多信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"USDC\", \"CRCL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/circle-stock-rallies-wall-street-further-upside-stablecoin-adoption\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"加密市场结构法案伦理争议\",\n      \"summary\": \"美国众议院金融委员会对CLARITY法案进行审议，民主党议员对伦理条款存在分歧，可能影响法案通过进度。该法案旨在为加密货币提供监管框架，若受阻将延缓合规进程，对市场造成不确定性。短期可能压制BTC、ETH等主流币，需关注后续动向。\",\n      \"reason\": \"CLARITY法案是关键监管政策，伦理争议可能拖延立法，增加市场不确定性，属于bearish信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/ethics-democrats-market-structure-clarity-bill-markup\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Corpay将集成稳定币钱包\",\n      \"summary\": \"支付巨头Corpay与BVNK合作，为80万企业客户提供稳定币钱包功能。此举将大幅提升稳定币在B2B支付中的使用，利好USDC、USDT等稳定币需求，同时推动主流机构采用，中长期利好加密市场。\",\n      \"reason\": \"机构级采用稳定币，显示传统金融落地加速，增加流动性，属于bullish信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"USDC\", \"USDT\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1tajlrx/corpay_partners_with_bvnk_to_integrate_stablecoin/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数升至49\",\n      \"summary\": \"恐惧贪婪指数从48小幅升至49，仍处于中性区间。数值变化不大，市场情绪平稳，短期内无极端信号。但未出现极度恐惧或贪婪，说明当前价格可能延续震荡，无明显抄底或逃顶机会。\",\n      \"reason\": \"恐惧贪婪指数是市场情绪指标，虽数值微增但仍在中性区域，对交易决策参考价值有限，但可作为中性观察。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮筛选仅发现4条有交易价值的新消息，其余素材多为重复公告、无关内容或无影响力的日常讨论，因此输出少于5条。\"\n}"
+}

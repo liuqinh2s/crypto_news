@@ -690,3 +690,86 @@
 2026-05-11 23:01:36 [DEBUG]   去重: 「21Shares提交HYPE ETF申请」 → URL重复: https://www.reddit.com/r/CryptoCurrency/comments/1tahwu0/21s
 2026-05-11 23:01:36 [INFO] 📦 JSON 已保存: reports/2026-05-12-07.json
 2026-05-11 23:01:36 [INFO] ✅ AI 筛选完成，共 7 条交易相关消息
+2026-05-12 00:00:33 [INFO] 🚀 开始抓取 2026-05-12 08:00 币圈新闻
+2026-05-12 00:00:33 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-12 00:00:33 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-12 00:00:33 [INFO]   ⏭ Decrypt: 过滤掉 36 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ CoinTelegraph: 过滤掉 28 条非近期新闻
+2026-05-12 00:00:34 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-12 00:00:34 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:34 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 22 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ Blockworks: 过滤掉 16 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ 吴说区块链: 过滤掉 42 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ Crypto Twitter: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:35 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:36 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 21 条非近期新闻
+2026-05-12 00:00:48 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:49 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-12 00:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-12 00:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-12 00:00:49 [INFO]   ✓ CoinDesk: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ The Block: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Decrypt: 1 条
+2026-05-12 00:00:49 [INFO]   ✓ CoinTelegraph: 2 条
+2026-05-12 00:00:49 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Blockworks: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ DL News: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ 金色财经: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ PANews: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Reddit r/cryptocurrency: 3 条
+2026-05-12 00:00:49 [INFO]   ✓ Reddit r/bitcoin: 4 条
+2026-05-12 00:00:49 [INFO]   ✓ Crypto Twitter: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ 宏观经济: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Binance公告: 20 条
+2026-05-12 00:00:49 [INFO]   ✓ OKX公告: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Bitget公告: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Whale Alert: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-12 00:00:49 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-12 00:00:49 [INFO]   ✓ 雪球加密: 0 条
+2026-05-12 00:00:49 [INFO] 📊 共抓取 31 条新闻
+2026-05-12 00:00:49 [INFO] 📋 原始新闻已保存: reports/2026-05-12-08-raw.json (31 条)
+2026-05-12 00:00:49 [INFO] 📋 标题摘要已保存: reports/2026-05-12-08-raw-titles.md
+2026-05-12 00:00:49 [INFO] ✅ 抓取完成，共 31 条，已保存到 reports/2026-05-12-08-raw.json
+2026-05-12 00:00:50 [INFO] 🤖 开始 AI 筛选 2026-05-12 08:00 币圈消息
+2026-05-12 00:00:50 [INFO] 📋 已加载原始新闻: reports/2026-05-12-08-raw.json (31 条)
+2026-05-12 00:00:50 [INFO] 📚 已加载历史新闻标题（22359 字符）
+2026-05-12 00:00:50 [INFO] 📚 已加载历史筛选标题 20 条、URL 20 个，用于去重
+2026-05-12 00:00:50 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-12 00:00:50 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-12 00:00:50 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（31 条，5575 字符，temp=0.3）
+2026-05-12 00:01:21 [INFO] AI 原始返回已保存: logs/2026-05-12-ai-response.txt (finish_reason=stop, 2371 字符)
+2026-05-12 00:01:21 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-12-08-ai-raw.json
+2026-05-12 00:01:21 [DEBUG] parse_json_response 输入长度: 2371 字符
+2026-05-12 00:01:21 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Circle股价涨15% 华尔街看好",
+      "summary": "Circle股价上涨15%，华尔街分析师上调目标价，认为稳定币USDC采用率将持续增长。受此影响，CRCL代币及USDC生态项目可能受益，市场整体情绪偏多。但Circle作为USDC发行商，其股价上涨反映资金对稳定币赛道的信心，间接利好加密市场。",
+      "reason": "Circle是USDC发行商，股价大涨反映机构对稳定币前景看好，可能带动USDC供应增加，属于市场做多信号。",
+      "category": "ETF机构"
+2026-05-12 00:01:21 [DEBUG] 从 JSON 对象的 news 字段提取到 4 条记录
+2026-05-12 00:01:21 [INFO] ✅ AI 返回 4 条新闻
+2026-05-12 00:01:21 [INFO] ✅ AI 筛选出 4 条交易相关消息，符合预期
+2026-05-12 00:01:21 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
+2026-05-12 00:01:21 [INFO] 📦 JSON 已保存: reports/2026-05-12-08.json
+2026-05-12 00:01:21 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
