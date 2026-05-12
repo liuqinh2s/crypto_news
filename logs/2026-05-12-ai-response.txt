@@ -2135,3 +2135,80 @@ content length: 4620
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3351, prompt_tokens=16625, total_tokens=19976, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2345, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15473)
+content length: 2678
+============================================================
+{
+  "news": [
+    {
+      "title": "Exodus抛售1000枚BTC",
+      "summary": "加密货币钱包Exodus出售了1000枚BTC以筹集资金建立支付帝国。此举增加了市场抛压，短期看空BTC。影响币种：BTC。",
+      "reason": "巨鲸抛售，直接增加BTC供应压力，属于优先级一的链上异动信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/12/exodus-dumps-1-000-bitcoin-why-the-crypto-wallet-is-cashing-out-to-fund-a-payments-empire"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "新建钱包从币安提取331BTC",
+      "summary": "某新建钱包从币安提取了331枚BTC（价值约2670万美元），暗示大户正在囤积BTC，减少交易所可用供应，短期看多。影响币种：BTC。",
+      "reason": "大额BTC从交易所流出，通常被视为看涨信号，属于优先级一的巨鲸异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512378.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY法案草案发布",
+      "summary": "美国参议院银行委员会发布了CLARITY法案草案，为加密资产提供明确监管框架，并计划于本周四进行听证。若通过，将显著利好整个加密市场，特别是稳定币和DeFi项目。影响币种：BTC、ETH、XRP。",
+      "reason": "重大监管利好，直接关系ETF审批和合规框架，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/367533/senate-banking-panel-releases-clarity-act-draft-ahead-of-thursday-markup"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Bakkt转型稳定币基础设施",
+      "summary": "Bakkt宣布转向稳定币基础设施，随后Q1营收下降77%。转型可能带来长期新业务，但短期基本面恶化，市场反应中性偏消极。影响币种：BTC（间接）。",
+      "reason": "公司战略变动，属于项目更新，但影响有限。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/bakkt-pivots-into-stablecoin-infrastructure-as-revenue-tumbles-77-in-q1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "不丹推快速牌照吸引加密企业",
+      "summary": "不丹的Gelephu地区推出快速牌照和银行账户服务以吸引加密货币公司，可能带动区域性投资流入，长期利好BTC等资产。影响币种：BTC。",
+      "reason": "国家层面的支持政策，属于监管利好，但影响较小且为长期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/bhutans-gelephu-offers-quick-licences-bank-accounts-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于大量重复消息（如ETH/BTC比率、ETH基金会解质押、Bitcoin halt等），根据去重规则已排除，仅选出5条新消息。"
+}
