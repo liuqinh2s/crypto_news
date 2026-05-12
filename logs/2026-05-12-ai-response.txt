@@ -1889,3 +1889,126 @@ content length: 3100
   ],
   "note": "由于去重后仅有4条高价值消息，未能达到5条。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3786, prompt_tokens=12753, total_tokens=16539, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2010, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11601)
+content length: 4179
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸向币安转入489枚BTC",
+      "summary": "据金色财经报道，某巨鲸地址向币安转入489枚BTC（约3950万美元），预计亏损约445万美元。大额BTC转入交易所通常意味着潜在的抛售意图，对BTC构成短期下行压力。该行为可能引发市场恐慌，加剧BTC抛压。建议短线投资者关注风险，看空BTC。",
+      "reason": "巨鲸大额转入交易所，属链上异动，直接增加抛压，高优先级信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512362.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸存入5820枚ETH至交易所",
+      "summary": "据金色财经监测，某巨鲸地址时隔一个月后向OKX和Bybit存入5820枚ETH（约1330万美元）。大额ETH流入交易所与BTC类似，暗示潜在的卖出意图，对ETH价格形成压制。当前ETH已跌破2300美元，此消息可能加速下行。看空ETH。",
+      "reason": "巨鲸大额存入交易所，增加抛压，属链上异动，影响中等。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512360.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP ETF单日净流入2600万美元",
+      "summary": "据The Block报道，美国现货XRP ETF昨日录得单日净流入2600万美元，为1月以来最大单日流入。资金持续流入显示市场对XRP的机构需求增强，叠加Ripple关联利好，XRP价格或受支撑。看多XRP。",
+      "reason": "ETF机构资金流入直接利好XRP价格，属优先级一信号。",
+      "category": "ETF机构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400880/spot-xrp-etfs-26-million?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Kevin Warsh将确认美联储主席",
+      "summary": "据Crypto Briefing报道，Kevin Warsh即将在参议院举行确认投票，以领导美联储。Warsh被视为比鲍威尔更鹰派的候选人，若其上任可能加速加息或推迟降息，对风险资产（包括加密货币）构成宏观压力。短期市场可能因不确定性波动。中性偏空。",
+      "reason": "美联储领导层变动直接影响货币政策预期，属宏观经济类高影响事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhTmJHRkdEUHdDWEYtTzBVS2RJdTNWdTdvUFUwenl6WXl1V2JHbEhQSHc2RDVLX1B6a1FUSzdFRWZTeHRNamU1MnRsTlByRWM5eExmWlZ2ZTZ4ZFI5MVVYeDhEY0pqWENvUHNTSW1ZNA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "高盛美银推迟降息预期",
+      "summary": "在强劲就业数据后，高盛和美国银行纷纷将美联储首次降息时间预期推迟至更晚。市场对宽松政策的预期降温，可能推高美元和美债收益率，压制比特币等风险资产价格。看空BTC和ETH。",
+      "reason": "降息推迟意味着货币政策收紧预期增强，宏观利空风险资产，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kRUZQWHR1U0lTVXpPMWs4RGVNMjdFOHhfRWRlSmxna3Z1OVFBcVZsWl9rSThUVzhPTHNMNXdZNEZaUTRIVFdkQ1h0LUo0dkMtc0JScXpXa1hTYUNLQVE2ZVRwZ3ZHTUZSejA0TkVsTGFLRjZMcTdNMw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CME将推出比特币VIX",
+      "summary": "据24/7 Wall St.报道，芝加哥商品交易所（CME）计划推出比特币波动率指数（类似VIX），为机构提供对冲比特币波动的新工具。该产品可能增加市场透明度和流动性，但短期内可能引发更多波动率交易。中性偏多。",
+      "reason": "新衍生品推出改变市场结构，可能影响比特币交易行为，属优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVTBoOGREeV9BT1Z5c096dS00b2txdHZlSTVWZzhoTVFyTmFmSWFpTUxCcGxmb1JxYzBrenpLQVRONXhLMWQ4ZU9nSUlsUlBVVkl1QkVmSkgzUGRFWlBRRzJPWlRCZE1MNzRaMjJ3Vng3N1VxTlQ1NkhwMlhlTzN4dENITl8wamc5S0F4WkRYSjd1TDYwdmF1ckg3LUNBb2IyYjBWSEs2Sjl0R0JGbnVvMzRKbnJNQkFGVEYzSU1heU4?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Arthur Hayes看多比特币至12.6万",
+      "summary": "BitMEX联合创始人Arthur Hayes发文表示，美中AI军备竞赛和战争通胀将推动比特币重返12.6万美元。其观点虽为个人预测，但作为知名KOL可能提振市场情绪，短期或引发FOMO。影响偏中性，注意过热风险。",
+      "reason": "KOL公开看多属于市场情绪信号，虽不直接，但可影响散户情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512359.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
