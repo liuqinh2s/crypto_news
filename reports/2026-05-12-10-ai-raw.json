@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-12",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9924,
+    "completion_tokens": 2447,
+    "total_tokens": 12371
+  },
+  "content_length": 2176,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"美国银行拒绝参加CLARITY Act会议\",\n      \"summary\": \"白宫透露，美国银行拒绝参加解决CLARITY Act中稳定币奖励问题的会议，表明银行对加密法规合作意愿低。这可能使法案推进受阻，对稳定币及整体加密市场情绪造成负面影响。影响币种：USDC、USDT及大盘。看空信号。\",\n      \"reason\": \"CLARITY Act是本周关键立法事件，银行不配合增加法案不确定性，属监管利空。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDC\", \"USDT\", \"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1tamjrr/white_house_reveals_us_banks_refused_to_attend/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"以太坊交易所持仓攀升引发卖压担忧\",\n      \"summary\": \"以太坊交易所持仓量持续攀升，可能引发卖压，加上ETH连续多个季度表现不佳，市场担忧其能否避免首次连续三季收跌。若抛压持续，ETH短期看空。影响币种：ETH及相关DeFi代币。\",\n      \"reason\": \"链上数据异常（交易所持仓增加）是优先级一信号，直接关联ETH抛售风险。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"雪球加密\",\n          \"url\": \"https://news.google.com/rss/articles/CBMizwFBVV95cUxOVzNsdFB2b2VRWlRUajBTN1NCRWxtU2lPYU41azBGNkhNcWx0TG4wdmdmV2pxQVNPUllPR3ZTRU5rcW9JNTJlNTJ6Y3JZWkF4cE9RdjczZDNlOGxwRnZ1Vi1LWm5ZOUFyX04xRWpwZXNvMmE2UkdQNDRYR2lILU9rdEg2aTFIeTZsOExPZksxaF9XeXh2U0NkeGRSMnA0OC11RWtjT3hielItVTFvU3MxOVNoSEhxUnhjZWd0cnJpSDFjYjkwTTJqNEQxelFaTVE?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"中东地缘风险主导加密市场走势\",\n      \"summary\": \"报道称中东地缘风险成为加密市场主导因素，比特币在8.1万美元上方震荡。地缘紧张通常会提振避险资产（如黄金），但加密货币风险偏好可能受压制，初期一般为利空。影响币种：BTC、ETH。中性偏空。\",\n      \"reason\": \"宏观经济风险事件影响整体市场情绪，属优先级二。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"雪球加密\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQkZhRzl5WTB3XzZlQ0kxeU1OdHVNYnRRa2paQS0wdFExWnVWY0FZMDVDTnRJNWtyaV9NNUpVNjFXNzRBWFR5N1c2dUpCdHg2RDRFZUY4Z1liRnpTSlZjb0RUcVlGb2VqVlplR1pGUl9nVlBTcTJpS0xaWWMtOWZSZlMxeFFuMGk2NWNhWERuNTE1MVIyeEZ0TGFGVF8wSVY4aFk2dDRBZkhjdXk4OHROX1hfcw?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮抓取素材与历史消息大量重复，仅选出3条新消息，其余为低价值或重复内容。\"\n}"
+}
