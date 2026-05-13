@@ -169,3 +169,69 @@ content length: 6161
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4049, prompt_tokens=16929, total_tokens=20978, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2795, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15777)
+content length: 3017
+============================================================
+{
+  "news": [
+    {
+      "title": "Solana Alpenglow升级测试",
+      "summary": "Solana的Alpenglow升级已上线测试网，旨在提升网络性能和可扩展性。该升级是Solana长期技术路线图的重要里程碑，可能提高交易处理能力和效率。受影响的币种主要是SOL。从交易角度看，技术升级通常被视为利好，因为能增强网络竞争力和吸引更多应用。但升级测试阶段到主网上线尚需时间，短期影响有限。信号看多。",
+      "reason": "本轮新素材中首次出现，属于优先级二的技术升级，影响SOL中期走势。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/05/13/the-protocol-solana-s-alpenglow-upgrade-is-live-for-testing"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Metaplanet延迟优先股上市",
+      "summary": "日本上市公司Metaplanet因日本市场环境挑战，推迟了优先股上市计划。Metaplanet是知名的比特币持仓公司，其融资活动与比特币价格密切相关。延迟上市可能意味着短期资金压力或市场信心不足，对比特币情绪有轻微负面影响。受影响的币种主要是BTC（因Metaplanet持有大量BTC）。信号看空。",
+      "reason": "本轮新素材中首次出现，属于优先级二的项目融资动态，反映比特币相关企业面临的困难。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/13/metaplanet-delays-preferred-share-listing-amid-challenging-japanese-market-structure"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitcoin Suisse获百慕大许可",
+      "summary": "瑞士加密货币金融公司Bitcoin Suisse获得百慕大金融管理局的监管批准，可进行国际数字资产业务扩张。这是监管合规的重要进展，为该公司服务全球机构客户铺平道路。整体上利好加密货币行业，特别是比特币和以太坊等主流资产，因为增加了合规入口。信号看多。",
+      "reason": "本轮新素材中首次出现，属于优先级二的监管合规利好，影响机构资金入场预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/bitcoin-suisse-secures-bermuda-regulatory"}],
+      "urgency": "days"
+    },
+    {
+      "title": "共和党参议员移除法案障碍",
+      "summary": "一位关键的共和党参议员移除了对《CLARITY法案》的阻挠，使该法案更接近参议院银行委员会投票。CLARITY法案旨在为加密资产市场提供明确的监管框架，其通过将显著利好整个行业。此进展增加了法案通过的可能性，对BTC、ETH等主流币种构成强劲利好。信号强烈看多。",
+      "reason": "本轮新素材中首次出现该具体进展，属于优先级一的重大监管动态，直接影响市场预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Semafor", "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNGdFa21FM0UzZUFsaGN3dEY5MWQwTFJ4SlFuUkNGaHdPR1Q0WkttaGhmT1lnNzBtS1hjNF9pT3p2Z2paT1FDNVhvem16d21xSE1ESUhrVVp2S2VuRno3Z0VkWGhzVlhIQkpJbTk2R083MGdSNUNBZGlXQzlNbS1YRkJxcUtCTGtuRG1hd19IQTM2Rks2YUZXblRXM2hnSVU?oc=5"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "长期持有者持仓占比创新高",
+      "summary": "CoinDesk报道称，比特币长期持有者持仓量突破400万BTC，达到历史新高，且70%的长期持有者处于盈利状态。这表明供应持续收紧，长期投资者信心坚定，对比特币价格构成坚实支撑。虽然短期可能受宏观因素压制，但中长期看多信号明显。受影响的币种主要是BTC。信号看多。",
+      "reason": "本轮新素材中的链上数据更新，虽历史有类似标题但提出了具体新数据（400万BTC），属于优先级三的链上指标异常，支撑中长期看多。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/13/bitcoin-s-available-supply-is-shrinking-as-long-term-hoarding-hits-record-4-million-btc"}],
+      "urgency": "days"
+    }
+  ]
+}
