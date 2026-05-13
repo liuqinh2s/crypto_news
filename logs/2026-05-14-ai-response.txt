@@ -854,3 +854,176 @@ content length: 225
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1343, prompt_tokens=11421, total_tokens=12764, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1278, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10269)
+content length: 120
+============================================================
+{
+  "news": [],
+  "note": "本轮所有素材均与历史消息重复，无新增有价值消息。主要重复内容包括：凯文·沃什确认美联储主席、CLARITY法案进展、比特币涨势受挫报告、Binance系列公告、恐惧贪婪指数42等。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1268, prompt_tokens=11421, total_tokens=12689, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=996, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=29)
+content length: 703
+============================================================
+{
+  "news": [
+    {
+      "title": "富达国际代币基金获AAA评级",
+      "summary": "Fidelity International的首只代币化基金获得穆迪最高AAA-mf评级，标志着传统金融对区块链资产的进一步认可。该基金投资于优质货币市场工具，通过Chainlink平台发行。此举可能提升机构对代币化资产的信心，间接利好BTC和ETH。从合约做多视角看，机构采用增加是长期看多信号，但短期影响有限。",
+      "reason": "机构采用代币化资产，穆迪高评级增强信任，属于中期利好信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中，大多数新闻与历史消息重复，仅此一条为全新有价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1337, prompt_tokens=11421, total_tokens=12758, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1311, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=29)
+content length: 49
+============================================================
+{"news": [], "note": "所有抓取素材均与历史消息重复，无值得关注的新消息。"}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=942, prompt_tokens=12371, total_tokens=13313, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=873, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11219)
+content length: 144
+============================================================
+{
+  "news": [],
+  "note": "当前6小时内所有消息均为历史重复，无新增有效交易信息。主要事件为参议院确认Kevin Warsh为美联储主席和Clarity Act即将投票，已在多个时间点报道。恐惧贪婪指数42维持。建议关注后续Clarity Act投票结果。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1070, prompt_tokens=12371, total_tokens=13441, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1032, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=83)
+content length: 66
+============================================================
+{"news":[],"note":"本轮抓取的35条素材均为近6小时历史消息的重复或低价值内容，无新增可影响行情的交易级消息。"}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2741, prompt_tokens=4423, total_tokens=7164, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1420, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3271)
+content length: 3516
+============================================================
+{
+  "news": [
+    {
+      "title": "参议院确认Warsh任美联储主席",
+      "summary": "美国参议院确认Kevin Warsh为新任美联储主席，接替鲍威尔。Warsh曾在2006-2011年担任美联储理事，其政策立场偏向鹰派，市场预期可能加速缩表或维持高利率。这对比特币等风险资产构成中期压力，但短期不确定性较大。影响BTC、ETH及整体加密市场。信号中性偏空，需关注后续政策表态。",
+      "reason": "美联储主席更替是宏观经济重大事件，直接影响全球流动性和风险偏好，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/kevin-warsh-fed-governor-confirmation-us-senate"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY法案进入关键立法阶段",
+      "summary": "美国参议院将对CLARITY法案进行审议，Coinbase CEO公开支持。该法案旨在为加密资产提供明确的监管框架，若通过将大幅降低合规成本并吸引机构入场。短期提振市场信心，利好BTC、ETH及合规概念币（如XRP、ADA）。信号看多。",
+      "reason": "美国加密监管立法直接决定行业长期发展，属于优先级一监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP", "ADA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/coinbase-ceo-brian-armstrong-clarity-act-thursday-markup"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CryptoQuant：比特币涨势中断，获利回吐加剧",
+      "summary": "CryptoQuant报告显示，近期比特币上涨后获利回吐增加，美国现货需求下降，交易所流入量上升。链上数据暗示短期抛压增大，可能出现回调。主要影响BTC，可能带动ETH等回落。信号看空。",
+      "reason": "直接反映市场供需变化，对短期行情有指导意义，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367787/bitcoin-rally-cut-short-profit-taking-rises-us-demand-falls-cryptoquant"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "富达国际代币化基金获穆迪AAA评级",
+      "summary": "富达国际首只代币化基金（Fidelity International Tokenized Fund）获得穆迪AAA-mf最高评级，标志着机构级RWA（现实资产代币化）产品获得认可。有利于推动RWA赛道发展，利好相关代币如ONDO、MKR、CFG等，同时增强整体加密市场信心。信号看多。",
+      "reason": "RWA赛道重大事件，显示主流金融机构认可，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ONDO", "MKR", "CFG"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance将上线MegaETH (MEGA)并开放多种服务",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，并同步开放Earn、C2C、转换、VIP贷款、杠杆及期货服务，且MEGA将标注Seed Tag。新币上线初期波动大，交易机会与风险并存。短期看多MEGA，但需注意种子标签提示高风险。",
+      "reason": "头部交易所上币直接影响MEGA交易量和价格，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线传统股票代币化永续合约",
+      "summary": "Binance Futures宣布将于2026-05-15上线MSFTUSDT、AVGOUSDT、BABAUSDT等多个传统股票代币化永续合约，提供高达75倍杠杆。此举虽扩大交易品种，但对原生加密货币资金分流影响有限，信号中性。关注可能增加的交易量波动。",
+      "reason": "交易所新合约上线，拓宽市场但非加密原生事件，优先级三。",
+      "category": "交易所",
+      "impact_coins": ["MSFT", "AVGO", "BABA"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/16fe15060947481ab240fb398230a3ee"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}

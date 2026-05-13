@@ -638,3 +638,141 @@
 2026-05-13 22:02:07 [INFO] 🔗 来源链接覆盖: 2/2 条新闻有有效链接
 2026-05-13 22:02:07 [INFO] 📦 JSON 已保存: reports/2026-05-14-06.json
 2026-05-13 22:02:07 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息
+2026-05-13 23:00:36 [INFO] 🚀 开始抓取 2026-05-14 07:00 币圈新闻
+2026-05-13 23:00:36 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-13 23:00:36 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-13 23:00:36 [INFO]   ⏭ Decrypt: 过滤掉 29 条非近期新闻
+2026-05-13 23:00:36 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-13 23:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 28 条非近期新闻
+2026-05-13 23:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-13 23:00:36 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-13 23:00:37 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ 吴说区块链: 过滤掉 46 条非近期新闻
+2026-05-13 23:00:37 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:38 [INFO]   ⏭ Crypto Twitter: 过滤掉 47 条非近期新闻
+2026-05-13 23:00:38 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:40 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:40 [INFO]   ⏭ Blockworks: 过滤掉 3 条非近期新闻
+2026-05-13 23:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-13 23:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-13 23:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-13 23:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-13 23:00:52 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:52 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-13 23:00:52 [INFO]   ✓ CoinDesk: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ The Block: 1 条
+2026-05-13 23:00:52 [INFO]   ✓ Decrypt: 2 条
+2026-05-13 23:00:52 [INFO]   ✓ CoinTelegraph: 2 条
+2026-05-13 23:00:52 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ Blockworks: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ DL News: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ 金色财经: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ PANews: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-13 23:00:52 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-13 23:00:52 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-05-13 23:00:52 [INFO]   ✓ Crypto Twitter: 3 条
+2026-05-13 23:00:52 [INFO]   ✓ 宏观经济: 1 条
+2026-05-13 23:00:52 [INFO]   ✓ Binance公告: 20 条
+2026-05-13 23:00:52 [INFO]   ✓ OKX公告: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ Bitget公告: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ Whale Alert: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-13 23:00:52 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-13 23:00:52 [INFO]   ✓ 雪球加密: 0 条
+2026-05-13 23:00:52 [INFO] 📊 共抓取 35 条新闻
+2026-05-13 23:00:52 [INFO] 📋 原始新闻已保存: reports/2026-05-14-07-raw.json (35 条)
+2026-05-13 23:00:52 [INFO] 📋 标题摘要已保存: reports/2026-05-14-07-raw-titles.md
+2026-05-13 23:00:52 [INFO] ✅ 抓取完成，共 35 条，已保存到 reports/2026-05-14-07-raw.json
+2026-05-13 23:00:53 [INFO] 🤖 开始 AI 筛选 2026-05-14 07:00 币圈消息
+2026-05-13 23:00:53 [INFO] 📋 已加载原始新闻: reports/2026-05-14-07-raw.json (35 条)
+2026-05-13 23:00:53 [INFO] 📚 已加载历史新闻标题（23921 字符）
+2026-05-13 23:00:53 [INFO] 📚 已加载历史筛选标题 23 条、URL 24 个，用于去重
+2026-05-13 23:00:53 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-13 23:00:53 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-13 23:00:53 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（35 条，7257 字符，temp=0.3）
+2026-05-13 23:01:07 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 120 字符)
+2026-05-13 23:01:07 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-07-ai-raw.json
+2026-05-13 23:01:07 [DEBUG] parse_json_response 输入长度: 120 字符
+2026-05-13 23:01:07 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮所有素材均与历史消息重复，无新增有价值消息。主要重复内容包括：凯文·沃什确认美联储主席、CLARITY法案进展、比特币涨势受挫报告、Binance系列公告、恐惧贪婪指数42等。"
+}
+2026-05-13 23:01:07 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-13 23:01:07 [INFO] ✅ AI 返回 0 条新闻
+2026-05-13 23:01:07 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-05-13 23:01:07 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（35 条，7257 字符，temp=0.3）
+2026-05-13 23:01:20 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 703 字符)
+2026-05-13 23:01:20 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-07-ai-raw.json
+2026-05-13 23:01:20 [DEBUG] parse_json_response 输入长度: 703 字符
+2026-05-13 23:01:20 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "富达国际代币基金获AAA评级",
+      "summary": "Fidelity International的首只代币化基金获得穆迪最高AAA-mf评级，标志着传统金融对区块链资产的进一步认可。该基金投资于优质货币市场工具，通过Chainlink平台发行。此举可能提升机构对代币化资产的信心，间接利好BTC和ETH。从合约做多视角看，机构采用增加是长期看多信号，但短期影响有限。",
+      "reason": "机构采用代币化资产，穆迪高评级增强信任，属于中期利好信号。",
+      "category": "E
+2026-05-13 23:01:20 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-13 23:01:20 [INFO] ✅ AI 返回 1 条新闻
+2026-05-13 23:01:20 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-05-13 23:01:20 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（35 条，7257 字符，temp=0.3）
+2026-05-13 23:01:31 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 49 字符)
+2026-05-13 23:01:31 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-07-ai-raw.json
+2026-05-13 23:01:31 [DEBUG] parse_json_response 输入长度: 49 字符
+2026-05-13 23:01:31 [DEBUG] 输入内容前 300 字符: {"news": [], "note": "所有抓取素材均与历史消息重复，无值得关注的新消息。"}
+2026-05-13 23:01:31 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-13 23:01:31 [INFO] ✅ AI 返回 0 条新闻
+2026-05-13 23:01:31 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 返回空数组，将重试
+2026-05-13 23:01:31 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（35 条，10541 字符，temp=0.3）
+2026-05-13 23:01:41 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 144 字符)
+2026-05-13 23:01:41 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-07-ai-raw.json
+2026-05-13 23:01:41 [DEBUG] parse_json_response 输入长度: 144 字符
+2026-05-13 23:01:41 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "当前6小时内所有消息均为历史重复，无新增有效交易信息。主要事件为参议院确认Kevin Warsh为美联储主席和Clarity Act即将投票，已在多个时间点报道。恐惧贪婪指数42维持。建议关注后续Clarity Act投票结果。"
+}
+2026-05-13 23:01:41 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-13 23:01:41 [INFO] ✅ AI 返回 0 条新闻
+2026-05-13 23:01:41 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 返回空数组，将重试
+2026-05-13 23:01:41 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（35 条，10541 字符，temp=0.3）
+2026-05-13 23:01:50 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 66 字符)
+2026-05-13 23:01:50 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-07-ai-raw.json
+2026-05-13 23:01:50 [DEBUG] parse_json_response 输入长度: 66 字符
+2026-05-13 23:01:50 [DEBUG] 输入内容前 300 字符: {"news":[],"note":"本轮抓取的35条素材均为近6小时历史消息的重复或低价值内容，无新增可影响行情的交易级消息。"}
+2026-05-13 23:01:50 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-05-13 23:01:50 [INFO] ✅ AI 返回 0 条新闻
+2026-05-13 23:01:50 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 返回空数组，将重试
+2026-05-13 23:01:50 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（35 条，7257 字符，temp=0.3）
+2026-05-13 23:02:14 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 3516 字符)
+2026-05-13 23:02:14 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-07-ai-raw.json
+2026-05-13 23:02:14 [DEBUG] parse_json_response 输入长度: 3516 字符
+2026-05-13 23:02:14 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "参议院确认Warsh任美联储主席",
+      "summary": "美国参议院确认Kevin Warsh为新任美联储主席，接替鲍威尔。Warsh曾在2006-2011年担任美联储理事，其政策立场偏向鹰派，市场预期可能加速缩表或维持高利率。这对比特币等风险资产构成中期压力，但短期不确定性较大。影响BTC、ETH及整体加密市场。信号中性偏空，需关注后续政策表态。",
+      "reason": "美联储主席更替是宏观经济重大事件，直接影响全球流动性和风险偏好，优先级二。",
+      "category": "宏观
+2026-05-13 23:02:14 [DEBUG] 从 JSON 对象的 news 字段提取到 6 条记录
+2026-05-13 23:02:14 [INFO] ✅ AI 返回 6 条新闻
+2026-05-13 23:02:14 [INFO] ✅ AI 筛选出 6 条交易相关消息，符合预期
+2026-05-13 23:02:14 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
+2026-05-13 23:02:14 [INFO] 🔄 去重：移除 2 条与历史报告重复的新闻
+2026-05-13 23:02:14 [DEBUG]   去重: 「CryptoQuant：比特币涨势中断，获利回吐加剧」 → URL重复: https://decrypt.co/367787/bitcoin-rally-cut-short-profit-tak
+2026-05-13 23:02:14 [DEBUG]   去重: 「富达国际代币化基金获穆迪AAA评级」 → URL重复: https://www.theblock.co/post/401196/fidelity-internationals-
+2026-05-13 23:02:14 [INFO] 📦 JSON 已保存: reports/2026-05-14-07.json
+2026-05-13 23:02:14 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
