@@ -1092,3 +1092,142 @@ content length: 3037
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3762, prompt_tokens=10759, total_tokens=14521, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2279, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9607)
+content length: 3848
+============================================================
+{
+  "news": [
+    {
+      "title": "稳定币法案修正案禁止加密作法币",
+      "summary": "美国参议员提交稳定币法案修正案，拟明确禁止加密货币被用作法定货币。该修正案若通过，将限制稳定币作为支付手段的功能，可能对USDT、USDC等稳定币造成打击。短期影响中性偏空，长期取决于法案最终版本。",
+      "reason": "直接影响稳定币监管政策，优先级一，但法案仍在讨论中，不确定性较高。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512471.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "白宫证实黄仁勋将随特朗普访华",
+      "summary": "白宫确认英伟达CEO黄仁勋将随同特朗普访华，此前有报道称其未随行。该消息利好英伟达及AI概念币，因访华可能带来芯片订单突破，间接提振市场对AI相关加密项目的信心。",
+      "reason": "与之前相反消息形成反转，属于重大更新，中期利好AI相关币种。",
+      "category": "宏观经济",
+      "impact_coins": ["RENDER", "TAO", "FET"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512470.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸关联地址再买入494枚ETH",
+      "summary": "与Erik Voorhees关联的巨鲸地址再次买入494枚ETH，总持仓增至12.77万枚。持续增持显示大户看好以太坊，短期内对ETH构成利好支撑。",
+      "reason": "巨鲸买入属于链上异动，直接信号看多ETH。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512468.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊清晰签名功能正式上线",
+      "summary": "以太坊基金会宣布清晰签名功能正式上线，旨在解决盲签名风险。该升级提升以太坊安全性，减少因签名漏洞导致的资产损失，长期利好以太坊生态。",
+      "reason": "技术升级属于项目更新，影响ETH的可用性和安全性，中等影响。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512467.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC突破81000美元",
+      "summary": "比特币价格突破81000美元关口，延续此前从80000美元反弹的走势。突破关键心理阻力位，可能吸引更多买盘，但需警惕回调风险。短期看多，但需关注成交量确认。",
+      "reason": "价格突破重要整数关口，属于市场结构变化，直接影响交易情绪。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512466.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "花旗：韩国央行或加快加息",
+      "summary": "花旗银行预计韩国央行加息步伐可能快于预期，这将收紧流动性，对风险资产包括加密货币形成压力。韩国市场情绪向来对加密影响较大，该消息短期偏空。",
+      "reason": "宏观经济数据影响亚洲流动性，间接影响加密市场，属于中等影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512462.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普家族套现WLFI获利15.5亿",
+      "summary": "特朗普家族成员通过出售WLFI代币获利约15.5亿美元，总财富增加6.6亿美元。该消息显示项目方高位套现，可能引发WLFI代币抛售，并影响市场对特朗普相关项目的信任。",
+      "reason": "项目方大额套现属于利空信号，直接影响WLFI价格。",
+      "category": "项目更新",
+      "impact_coins": ["WLFI"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512459.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "加密货币全线跳水近10万人爆仓",
+      "summary": "加密货币市场突然暴跌，近10万人爆仓，总金额巨大。这显示市场短期抛压沉重，空头力量强，可能引发连锁清算。短期看空，但急跌后或有反弹机会。",
+      "reason": "大规模爆仓事件直接影响市场结构，属于高优先级信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YeGR5cVNYU3hsakRVY1IxeV9URnVGT1ZXaFZQLW1OZk8za0JkVjJrX1NqNzVDZ0lRMk4tNDVlY0dRNWljREx5SFl6Yw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
