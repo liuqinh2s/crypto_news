@@ -2034,3 +2034,105 @@ content length: 2580
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2549, prompt_tokens=11964, total_tokens=14513, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=875, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10812)
+content length: 3897
+============================================================
+{
+  "news": [
+    {
+      "title": "Binance大会今晚举行",
+      "summary": "Binance Online大会将于今日19:00举行，CZ和何一等人出席发言。该事件可能引发市场对BNB及相关生态项目的关注，历史上此类活动常带来短期利好情绪，但不排除预期兑现后的回调。对BNB产生正面影响，对BTC/ETH影响有限。短期看多BNB。",
+      "reason": "优先级一：交易所重大活动，CZ出席通常吸引市场关注，可能短期推升BNB。",
+      "category": "交易所",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512541.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Wintermute警告BTC上涨是陷阱",
+      "summary": "做市商Wintermute表示，比特币突破8万美元的涨势更像是一个陷阱而非牛市，暗示可能面临回调压力。该言论可能加剧短期恐慌，但需警惕其目的性（做空或打压后吸筹）。对BTC产生负面影响，市场情绪转为谨慎。短期看空BTC。",
+      "reason": "优先级三：市场情绪信号，顶级做市商观点可能引发抛压。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWgwbUJBQVhOMWt3TFNCUlJiWkNBMzJraDJ0YmtKVG9fYlBFTTJMbUVTT3RUR2psWHJ6MXBEOTJ0VjV5SGp5ZmVMbktxYUxGdTJWakVIeExvZDZVRkJFazdVT3B3Z1Bwd09lbUNaWWNZUFk3RXBTcHJpUi0tdGpvS3BWLWh4LUE?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "机构化时代加速到来",
+      "summary": "Investing.com报道称加密机构时代比预期更快到来，嘉信理财推出零售加密货币交易、摩根大通代币化基金等事件标志着主流金融加速涌入。长期利好加密市场，短期情绪提振。对BTC/ETH及代币化相关币种均偏多。",
+      "reason": "优先级二：机构动向，对市场信心有重要提升。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Investing.com", "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcnROY0xNNVROTExzWURBUkc4eVNuaHpPQ0Z2N1ZvTlRFVmxfb0FnaHdZVWNfYU1GeFhoZjB2dW9qLTRwR096RGZtd0MzVkpiMlFEWlBFVkxqZ3RVMkltUE1ROE1fUGdCVW9HVjlmQ0otZ1YzNVNhSGtXZEZOWXRjVmg4dkJiV0VoRWJOdTdpU3FKVU02M1dLZFNBUzVNSTVGbWdaT1RvNDd5aTBPYmc?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "本周多项重磅事件",
+      "summary": "Kraken博客指出本周有通胀数据、参议院加密法案投票和NVIDIA财报。通胀若超预期可能打压降息预期，对加密利空；CLARITY法案投票若通过则利好监管明确；NVIDIA财报影响AI代币。整体波动加剧，需密切关注。对BTC/ETH中性，AI代币偏多。",
+      "reason": "优先级二：宏观经济与监管事件，直接影响行情波动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Kraken Blog", "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KZG8xMDVKSzNlNE93VGlUY0IzaVdwUlZXdFU2QWlHanptRW1RNU4zcTBZTGhEbGlncHdfam9rNU1aSEFZTklEeV91OXIyc2RmeWtocG1PRmsyeWlxQU84?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z成中期选举最大捐助方",
+      "summary": "a16z累计披露联邦捐款超1.15亿美元，成为美国中期选举最大捐助方。这显示加密行业政治影响力增强，可能推动有利监管法案通过，长期利好整个加密行业。对BTC/ETH及合规币种均看多。",
+      "reason": "优先级二：监管政策信号，政治捐赠有助于影响政策。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512540.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Upbit上线Superform(UP2)",
+      "summary": "韩国头部交易所Upbit将上线Superform(UP2)，支持KRW、BTC、USDT交易对。韩国交易所上线通常带来短期炒作资金，利好UP2代币价格。但对整体市场影响较小。看多UP2。",
+      "reason": "优先级一：交易所上币，直接影响对应币种交易量和价格。",
+      "category": "交易所",
+      "impact_coins": ["UP2"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512544.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "KRWQ稳定币扩展至Solana",
+      "summary": "韩元稳定币KRWQ已拓展至Solana网络，此前已在EDX Markets上市。此举增加Solana上韩元稳定币流动性，可能吸引更多韩国资金进入Solana生态，利好SOL和KRWQ交易对。对SOL看多。",
+      "reason": "优先级二：项目更新，稳定币扩展增加生态使用场景。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "KRWQ"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401093/krwq-expands-solana?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
