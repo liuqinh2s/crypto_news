@@ -1828,3 +1828,79 @@ content length: 1959
   ],
   "note": "新消息数量仅3条，符合要求但少于5条。其余抓取素材均与历史消息重复或为低价值公告，已排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2298, prompt_tokens=10443, total_tokens=12741, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1258, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9291)
+content length: 2603
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP韩国交易量超越BTC/ETH",
+      "summary": "据CoinDesk报道，XRP在韩国主要交易所的交易量已超过比特币和以太坊，成为交易最活跃的加密货币。这通常意味着韩国散户资金大量涌入XRP，可能推动短期价格波动。历史数据显示，韩国交易量领先往往预示短期上涨，但需警惕回调风险。影响币种：XRP。信号：bullish（短期看多），但需关注后续持续性。",
+      "reason": "韩国市场交易量领先是短期资金流入信号，直接影响XRP价格，属于市场结构类别。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/13/xrp-tops-bitcoin-ether-volumes-on-major-south-korean-exchanges"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Hyperliquid ETF首日净流入120万",
+      "summary": "美国首只Hyperliquid ETF上市首日净流入120万美元，表现稳健。Hyperliquid是以太坊上的衍生品协议，该ETF为投资者提供合规敞口。净流入表明机构资金开始关注Hyperliquid生态，可能推动HYPE代币及相关DeFi代币上涨。影响币种：HYPE、ETH。信号：bullish。",
+      "reason": "ETF资金流入是机构入场信号，直接影响HYPE和ETH，属于ETF机构类别。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/us-first-hyperliquid-etf-clocks-1m-net-inflow-in-very-solid-debut"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "JPMorgan推第二个以太坊代币化基金",
+      "summary": "摩根大通深化代币化战略，推出第二个基于以太坊的货币市场基金，旨在为稳定币发行商提供收益。这显示传统金融巨头持续采用以太坊区块链，巩固ETH作为机构首选公链的地位。影响币种：ETH。信号：bullish（中长期利好）。",
+      "reason": "摩根大通是顶级机构，其代币化动作对ETH有积极影响，属于机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbsrzt/jpmorgan_deepens_tokenization_push_with_second/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC空头平仓1400万美元助涨",
+      "summary": "据FX168报道，比特币在8.1万美元附近出现1400万美元空头清算，推动价格快速回升。空头挤压表明市场情绪短期内偏多，但未平仓合约减少也可能预示后续动能减弱。影响币种：BTC。信号：短期neutral（已部分消化），中长期需关注持续性。",
+      "reason": "大规模空头清算直接影响BTC价格，属于市场结构中的爆仓数据。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "FX168",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aRWViR2F5c05EMkc0SzBMdUVLb3NSRGZBRkZkeVk3OUhtS0JGdkNod0VfR0N4VXA4TGhQQUtvRUdPUlJZa3U5YTJabkVNem91Uk9zUEVjTUlKOTY4OUFDRlhXZG04XzBVLURlbmlQaUhoZktRanNNVA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场整体受CPI及加息预期压制，但局部事件仍提供交易机会。由于大量Binance旧公告和重复新闻被排除，实际有效新消息较少。"
+}
