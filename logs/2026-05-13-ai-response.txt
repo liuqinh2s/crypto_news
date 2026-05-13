@@ -1664,3 +1664,167 @@ content length: 1958
   ],
   "note": "当前时段符合条件的消息较少，仅筛选出3条关键信息。其余新闻多为重复历史公告或低影响力内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1461, prompt_tokens=9809, total_tokens=11270, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1216, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8657)
+content length: 615
+============================================================
+{
+  "news": [
+    {
+      "title": "CFTC支持Kalshi上诉案",
+      "summary": "美国商品期货交易委员会(CFTC)在俄亥俄州诉讼中支持预测市场Kalshi，认为其运营合规。该裁决可能为加密预测市场提供监管先例，但直接影响有限。对加密市场整体中性，但可能利好预测市场相关代币如REP。",
+      "reason": "CFTC支持Kalshi是重要监管动态，可能影响预测市场领域，但非主流币种，影响有限。",
+      "category": "监管政策",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/cftc-backs-kalshi-appeals-court-ohio-prediction-markets-fight"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分为重复消息，仅发现一条新消息且影响有限。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1135, prompt_tokens=9809, total_tokens=10944, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=422, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=81)
+content length: 1550
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP在韩交易量超BTC",
+      "summary": "据CoinDesk报道，XRP在韩国主要交易所的交易量已超过比特币和以太坊，成为交易量最大的加密货币。这一现象可能由韩国散户对Ripple相关代币的追捧驱动，且XRP价格正瞄准1.5美元阻力位。XRP交易量激增通常伴随价格波动，短期内可能推高XRP价格，但需警惕韩国市场情绪反转。影响币种：XRP。看多信号。",
+      "reason": "XRP在韩国交易所交易量超越BTC和ETH，属于交易量异动，直接影响XRP价格，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/13/xrp-tops-bitcoin-ether-volumes-on-major-south-korean-exchanges"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "波兰总统涉加密丑闻",
+      "summary": "Balkan Insight报道称，\"Dead Man's Key\"加密货币丑闻涉及波兰总统，引发政治风波。该丑闻可能影响波兰对加密货币的监管态度，短期内增加市场不确定性。若监管收紧，可能利空波兰相关加密项目及整体市场情绪。但影响范围有限，主要影响波兰本地项目。影响币种：无明显直接币种，但可能波及整体市场情绪。中性偏空信号。",
+      "reason": "政治丑闻可能引发监管担忧，属于监管政策类重要消息，但优先级较低，且对主流币种影响有限。",
+      "category": "监管政策",
+      "impact_coins": ["POL"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Balkan Insight",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMXRjblA5UUpaSkM3aFo0bE9rRksyT2NSamFiQUNVbUZNMXZ5SFBtbFkwLWRwQl91UTlRZXc0MGhDaS15SVJLTGhVN3psdkMwNDNlYXp6UWlwTklrYVZGWXo5UTRUQ2E3OXBVcTVWTlhkX0JxbVVGTEMxazg4czlSeHRZcTQ3S0ZaZWZyRjktQk9YLWhfSEVUdlZlb0pwR2piTG1xdmNpUEtOODAzbWFwQw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取消息中，大部分与历史消息重复（如Binance公告、恐惧贪婪指数、CFTC支持Kalshi等），仅选出两条新消息。其中XRP交易量异动为重要信号，波兰丑闻影响有限。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1172, prompt_tokens=9809, total_tokens=10981, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=652, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=81)
+content length: 1104
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP在韩国交易量超BTC和ETH",
+      "summary": "据CoinDesk报道，XRP在韩国主要交易所的交易量已超过比特币和以太坊，成为最活跃的加密货币。市场关注XRP是否能够突破1.5美元阻力位。Ripple相关代币的活跃度显著提升，可能吸引更多韩国散户资金流入。尽管CPI数据高于预期，但XRP表现强势，短期看多信号明确。影响币种主要为XRP，可能带动Ripple生态代币。",
+      "reason": "XRP在韩国交易所交易量超越BTC和ETH，显示区域市场需求旺盛，可能引发短期价格拉升。符合优先级一：直接影响行情。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/13/xrp-tops-bitcoin-ether-volumes-on-major-south-korean-exchanges"
+        },
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZFo0VzNGV0Ryck00eGFVM3dfdk1DQkdKdFM4di0xY0kyWHBFTEttX2pEZnBXMC1BWEZScGlYVnpZYmdtVWlvQnNtRlhoRjZqa05PTUlFWkdUdEw1eWxEOGpmc0I1TzY2Y3lvWUh6bExnRlc0Y2huSW0wVzRvR2p2MDJXaXRsSDNhWFA2MWxFTjcyUTgxVHpBdW9wcUJwV3lYaFhJd2VPMXh0UQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他抓取素材中，Binance公告均为历史重复，恐惧贪婪指数不变，CFTC支持Kalshi影响有限，波兰丑闻影响范围小，因此仅输出一条有效消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1630, prompt_tokens=10458, total_tokens=12088, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=787, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9306)
+content length: 1959
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP在韩交易量超BTC/ETH",
+      "summary": "XRP在韩国主要交易所的交易量超过比特币和以太坊，交易者关注1.5美元目标。韩国市场散户活跃通常带动短期上涨，但需警惕情绪过热后的回调。XRP为主要受益币种，可能短期走强。信号看多。",
+      "reason": "韩国交易所成交量异动常预示短期资金流向，XRP领涨可能带动跟风买盘，属于链上异动/市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/13/xrp-tops-bitcoin-ether-volumes-on-major-south-korean-exchanges"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CFTC支持Kalshi预测市场上诉",
+      "summary": "CFTC敦促第六巡回法院认定该机构对预测市场拥有管辖权，支持Kalshi与俄亥俄州的诉讼。此举可能为美国预测市场确立监管框架，利好合规预测项目如Kalshi代币（若有），但加密货币方向影响中性偏多，因监管清晰化长期利好。",
+      "reason": "监管政策动向影响市场情绪，CFTC表态有助于预测市场合法化，属于监管政策类消息。",
+      "category": "监管政策",
+      "impact_coins": ["Kalshi相关代币"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/cftc-backs-kalshi-appeals-court-ohio-prediction-markets-fight"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "波兰总统卷入加密丑闻",
+      "summary": "据Balkan Insight报道，波兰总统卷入加密货币相关丑闻，涉及'死者密钥'事件。该消息可能引发当地监管收紧，对波兰相关加密项目不利，但全球影响有限。信号偏空，但影响范围小。",
+      "reason": "政治人物丑闻可能引起局部监管压力，属于监管政策类消息，但级别较低。",
+      "category": "监管政策",
+      "impact_coins": ["POLAND相关代币"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Balkan Insight",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMXRjblA5UUpaSkM3aFo0bE9rRksyT2NSamFiQUNVbUZNMXZ5SFBtbFkwLWRwQl91UTlRZXc0MGhDaS15SVJLTGhVN3psdkMwNDNlYXp6UWlwTklrYVZGWXo5UTRUQ2E3OXBVcTVWTlhkX0JxbVVGTEMxazg4czlSeHRZcTQ3S0ZaZWZyRjktQk9YLWhfSEVUdlZlb0pwR2piTG1xdmNpUEtOODAzbWFwQw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "新消息数量仅3条，符合要求但少于5条。其余抓取素材均与历史消息重复或为低价值公告，已排除。"
+}

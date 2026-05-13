@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-13",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10458,
+    "completion_tokens": 1630,
+    "total_tokens": 12088
+  },
+  "content_length": 1959,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"XRP在韩交易量超BTC/ETH\",\n      \"summary\": \"XRP在韩国主要交易所的交易量超过比特币和以太坊，交易者关注1.5美元目标。韩国市场散户活跃通常带动短期上涨，但需警惕情绪过热后的回调。XRP为主要受益币种，可能短期走强。信号看多。\",\n      \"reason\": \"韩国交易所成交量异动常预示短期资金流向，XRP领涨可能带动跟风买盘，属于链上异动/市场结构信号。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/05/13/xrp-tops-bitcoin-ether-volumes-on-major-south-korean-exchanges\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"CFTC支持Kalshi预测市场上诉\",\n      \"summary\": \"CFTC敦促第六巡回法院认定该机构对预测市场拥有管辖权，支持Kalshi与俄亥俄州的诉讼。此举可能为美国预测市场确立监管框架，利好合规预测项目如Kalshi代币（若有），但加密货币方向影响中性偏多，因监管清晰化长期利好。\",\n      \"reason\": \"监管政策动向影响市场情绪，CFTC表态有助于预测市场合法化，属于监管政策类消息。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"Kalshi相关代币\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/cftc-backs-kalshi-appeals-court-ohio-prediction-markets-fight\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"波兰总统卷入加密丑闻\",\n      \"summary\": \"据Balkan Insight报道，波兰总统卷入加密货币相关丑闻，涉及'死者密钥'事件。该消息可能引发当地监管收紧，对波兰相关加密项目不利，但全球影响有限。信号偏空，但影响范围小。\",\n      \"reason\": \"政治人物丑闻可能引起局部监管压力，属于监管政策类消息，但级别较低。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"POLAND相关代币\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Balkan Insight\",\n          \"url\": \"https://news.google.com/rss/articles/CBMisAFBVV95cUxOMXRjblA5UUpaSkM3aFo0bE9rRksyT2NSamFiQUNVbUZNMXZ5SFBtbFkwLWRwQl91UTlRZXc0MGhDaS15SVJLTGhVN3psdkMwNDNlYXp6UWlwTklrYVZGWXo5UTRUQ2E3OXBVcTVWTlhkX0JxbVVGTEMxazg4czlSeHRZcTQ3S0ZaZWZyRjktQk9YLWhfSEVUdlZlb0pwR2piTG1xdmNpUEtOODAzbWFwQw?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"新消息数量仅3条，符合要求但少于5条。其余抓取素材均与历史消息重复或为低价值公告，已排除。\"\n}"
+}
