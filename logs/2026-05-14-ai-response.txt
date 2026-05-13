@@ -570,3 +570,94 @@ content length: 4198
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2293, prompt_tokens=12993, total_tokens=15286, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=890, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11841)
+content length: 3174
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸做空70亿美元加密与科技股",
+      "summary": "一巨鲸在Deribit等平台开设了约70亿美元的空头头寸，主要做空BTC、ETH及科技股ETF。此举可能引发市场恐慌，但历史类似大额空单常被轧空。当前BTC在80K附近挣扎，大空头增加下行压力。影响BTC、ETH及整体市场情绪，短期看空。",
+      "reason": "巨鲸大额做空为链上异动，直接影响行情，优先级高。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/whale-shorts-70m-in-crypto-tech-should-bitcoin-traders-worry"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币ETF连续7周净流入",
+      "summary": "数据显示，美国现货比特币ETF已连续7周录得净资金流入，表明机构买盘持续。尽管PPI超预期导致BTC短暂跌破79K，但ETF资金流入形成下方支撑。若宏观压力缓解，ETF持续流入将成为BTC突破前高的催化剂。看多BTC。",
+      "reason": "ETF资金流为优先级一信号，持续净流入为强烈看多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Qd21RakwyVGdKNFhKcVZkczFUUU56MzBpSHVydWx6T0FQdU9YekNtejltSHRhdlpoSW1OOGlXSFcwckZQcWpvY0VUczMtRXVxSTZHb01uaHZRSG9uZjdDUEFnTVVMTF9XcXpXY3V2NEt6SGtXdEZn"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "纳指与标普500再创新高",
+      "summary": "美股纳指和标普500指数突破历史新高，英伟达、谷歌、苹果等科技股领涨。风险资产情绪回暖有助于加密市场企稳，但需警惕股市回调传导。整体对BTC/ETH为中性偏多，若股市持续强势，加密有望跟随。",
+      "reason": "宏观经济利好风险偏好，间接影响加密，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512601.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊企稳2244美元，搜索热度回升",
+      "summary": "ETH价格在2244美元附近盘整，市场搜索热度开始回升，显示散户关注度增加。若ETH能守住2200支撑，可能吸引追涨盘。但需注意上方2300-2400阻力。短期看多ETH突破，但需量能配合。",
+      "reason": "市场情绪指标，搜索热度回升往往伴随价格反弹，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yellow.com",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNVnRBb2FKYjN1VWVVNVpsSFhMcTNzMDBOZGg2SkZEbWw2eXREUEM0R0RvTjVMcks2bUo4RERMaEx3LWFsOXZpMmNBcFBmcWp1N3NQTkRMYVRWT1ZLRl80aTd6cFFoMU5UWThTbDFMVWFuS0FXcjdHV2ItQkQyckpuTmdHSnluMHpwN0tNZVpjSWU5c3A2UXFsRUNWUi1MSzJTaUp3YTczaXFWdkt1ekx2ZXdReHY3Nk5nVkNMUmZ1MDFmTGNsbjhMcksxcGtXZmJhZVJ5c1VmVzk4NDRUSGFSUWdkSG5wVVFNR28xaFppNEphcVVIV3NILVhfZzVxdnN4OE1FQk1KT0FMZTBwdjJHaVNVZFdQSFcwSS0tSlZORXZZMzhpOGhWUlhZWjY"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线TradFi永续合约",
+      "summary": "Binance宣布将于2026年5月15日上线多个以传统金融资产为标的的USDⓈ-Margined永续合约，具体标的未公布但可能包括股指或ETF。这将为加密市场引入传统金融交易对，增加用户参与度。短期对平台币BNB有利，但对市场影响有限。",
+      "reason": "交易所上线新合约属于直接影响，但影响范围有限，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
