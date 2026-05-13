@@ -1904,3 +1904,133 @@ content length: 2603
   ],
   "note": "当前市场整体受CPI及加息预期压制，但局部事件仍提供交易机会。由于大量Binance旧公告和重复新闻被排除，实际有效新消息较少。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2404, prompt_tokens=10598, total_tokens=13002, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2174, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9446)
+content length: 579
+============================================================
+{
+  "news": [
+    {
+      "title": "Metaplanet持仓破4万BTC",
+      "summary": "日本上市公司Metaplanet公布Q1财报，营收同比增长251%，比特币持仓达到40,177枚。这是机构持续增持比特币的明确信号，表明大型企业仍看好比特币长期价值。对BTC构成直接利好，可能吸引更多机构跟进。信号：看多。影响币种：BTC。",
+      "reason": "机构增持比特币，属于优先级二中的机构动向，signal bullish，impact_level 3。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512538.html"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场消息较少，仅筛选出1条符合标准的新消息。其余消息多为重复或低价值内容，建议关注后续发展。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2003, prompt_tokens=10598, total_tokens=12601, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1753, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=102)
+content length: 621
+============================================================
+{
+  "news": [
+    {
+      "title": "Metaplanet Q1增持BTC至4万枚",
+      "summary": "日本上市公司Metaplanet发布Q1财报，营收同比增长251%，比特币持仓达到40,177枚，价值约32.5亿美元。此举显示机构持续增持比特币，市场对BTC的长期信心增强。该消息直接利好比特币，可能带动短期买盘，属看多信号。",
+      "reason": "机构大规模增持比特币，符合优先级二机构动向，影响中等，且为历史消息中未出现的新事件。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512538.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经过严格去重和筛选，本轮素材中仅有Metaplanet增持BTC一条符合标准的新消息。其余消息均已出现在历史标题中或与加密货币交易无直接关联。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2157, prompt_tokens=10598, total_tokens=12755, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2111, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=102)
+content length: 92
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中无符合筛选标准的新消息，大部分重复历史消息，唯一可能的Metaplanet持仓消息缺乏可靠来源链接，故未选取。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3981, prompt_tokens=11935, total_tokens=15916, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2896, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10783)
+content length: 2580
+============================================================
+{
+  "news": [
+    {
+      "title": "KRWQ稳定币扩展至Solana",
+      "summary": "韩元稳定币KRWQ在3月上线EDX Markets后，现扩展至Solana链，旨在支持韩元流动性。此举可能增加Solana上的稳定币供应和DeFi活动，利好SOL生态。信号中性偏多，但影响有限。",
+      "reason": "稳定币供应变化，属于资金入场信号，但规模未知，影响等级2。",
+      "category": "市场结构",
+      "impact_coins": ["SOL", "KRWQ"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/401093/krwq-expands-solana"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Upexi增持SOL至250万枚",
+      "summary": "Upexi公司增持Solana至250万枚（约2.38亿美元），成为仅次于Forward Industries的第二大上市企业Solana财库。公司Q3净亏损扩大但继续增持SOL，显示机构对SOL的长期信心。利好SOL。",
+      "reason": "机构增持，直接利好SOL价格。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/upexi-q3-net-loss-solana-holdings-2-5m-sol"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Metaplanet持仓BTC达40177枚",
+      "summary": "日本上市公司Metaplanet公布Q1财报，营收增长251%，比特币持仓达40,177枚。尽管比特币价格下跌造成会计减值，公司仍持续增持BTC。仿效MicroStrategy策略，利好比特币。",
+      "reason": "机构持续增持BTC，利好信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512538.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Moomoo建议卖出比特币",
+      "summary": "投资平台Moomoo发布文章“Get out of Bitcoin BTC soon”，建议投资者抛售比特币。这可能反映市场短期看空情绪，但恐惧贪婪指数已显示Fear，该观点可能加剧悲观情绪。短期偏空信号。",
+      "reason": "KOL/平台看空情绪，可能影响市场情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "Moomoo", "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZXppNWJyVy00eXdoNzF6RkhiRXN5SzNBcVpTd2ZyQ0d0Q2psbUNDS2s3ekdXLW5HU3hFMTI3bVFVaUV3VmdiTDE2dlRHRmdYR1o4VzJUSXBsYVJqMlh2YTZSbXpnV1c1MUtzMDRDSXU2Z1BSUFduWjI0QV9nTk5YS29wVE5JRHhk?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "本周通胀数据与加密法案投票",
+      "summary": "Kraken博客总结本周关键事件：通胀数据、参议院加密法案投票、NVIDIA财报。这些事件将直接影响风险资产走势。通胀高企削弱降息预期，法案进展可能带来监管明朗化。整体不确定性高，建议关注。",
+      "reason": "事件预告，有助于交易者提前布局。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "Kraken Blog", "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KZG8xMDVKSzNlNE93VGlUY0IzaVdwUlZXdFU2QWlHanptRW1RNU4zcTBZTGhEbGlncHdfam9rNU1aSEFZTklEeV91OXIyc2RmeWtocG1PRmsyeWlxQU84?oc=5"}],
+      "urgency": "hours"
+    }
+  ]
+}
