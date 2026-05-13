@@ -787,3 +787,88 @@
 2026-05-12 23:02:47 [DEBUG]   去重: 「Strategy完成2026年最小BTC购买」 → URL重复: https://news.google.com/rss/articles/CBMiiAFBVV95cUxONy1mOU1
 2026-05-12 23:02:47 [INFO] 📦 JSON 已保存: reports/2026-05-13-07.json
 2026-05-12 23:02:47 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-05-13 00:00:42 [INFO] 🚀 开始抓取 2026-05-13 08:00 币圈新闻
+2026-05-13 00:00:42 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-13 00:00:42 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-13 00:00:42 [INFO]   ⏭ Decrypt: 过滤掉 31 条非近期新闻
+2026-05-13 00:00:42 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-13 00:00:42 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-13 00:00:42 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-13 00:00:42 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-13 00:00:42 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-13 00:00:42 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:42 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ 宏观经济: 过滤掉 48 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ Blockworks: 过滤掉 10 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ 吴说区块链: 过滤掉 39 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ Crypto Twitter: 过滤掉 48 条非近期新闻
+2026-05-13 00:00:43 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:44 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-13 00:00:57 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-13 00:00:57 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-13 00:00:57 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-13 00:00:58 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-13 00:00:58 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:58 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-13 00:00:58 [INFO]   ✓ CoinDesk: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ The Block: 1 条
+2026-05-13 00:00:58 [INFO]   ✓ Decrypt: 1 条
+2026-05-13 00:00:58 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-13 00:00:58 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ Blockworks: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ DL News: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ 金色财经: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ PANews: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-13 00:00:58 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-05-13 00:00:58 [INFO]   ✓ Crypto Twitter: 2 条
+2026-05-13 00:00:58 [INFO]   ✓ 宏观经济: 2 条
+2026-05-13 00:00:58 [INFO]   ✓ Binance公告: 20 条
+2026-05-13 00:00:58 [INFO]   ✓ OKX公告: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ Bitget公告: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ Whale Alert: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-13 00:00:58 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-13 00:00:58 [INFO]   ✓ 雪球加密: 0 条
+2026-05-13 00:00:58 [INFO] 📊 共抓取 31 条新闻
+2026-05-13 00:00:58 [INFO] 📋 原始新闻已保存: reports/2026-05-13-08-raw.json (31 条)
+2026-05-13 00:00:58 [INFO] 📋 标题摘要已保存: reports/2026-05-13-08-raw-titles.md
+2026-05-13 00:00:58 [INFO] ✅ 抓取完成，共 31 条，已保存到 reports/2026-05-13-08-raw.json
+2026-05-13 00:00:59 [INFO] 🤖 开始 AI 筛选 2026-05-13 08:00 币圈消息
+2026-05-13 00:00:59 [INFO] 📋 已加载原始新闻: reports/2026-05-13-08-raw.json (31 条)
+2026-05-13 00:00:59 [INFO] 📚 已加载历史新闻标题（21924 字符）
+2026-05-13 00:00:59 [INFO] 📚 已加载历史筛选标题 17 条、URL 20 个，用于去重
+2026-05-13 00:00:59 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-13 00:00:59 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-13 00:00:59 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（31 条，5896 字符，temp=0.3）
+2026-05-13 00:01:21 [INFO] AI 原始返回已保存: logs/2026-05-13-ai-response.txt (finish_reason=stop, 2492 字符)
+2026-05-13 00:01:21 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-13-08-ai-raw.json
+2026-05-13 00:01:21 [DEBUG] parse_json_response 输入长度: 2492 字符
+2026-05-13 00:01:21 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "首个Hyperliquid ETF上市",
+      "summary": "全球首个Hyperliquid ETF正式推出，分析师称首日交易表现'非常坚实'。该ETF追踪HYPE代币价格，为机构投资者提供合规敞口。这标志着Hyperliquid生态获得传统金融认可，可能吸引大量资金流入。对HYPE代币是直接利好，同时可能带动整个DeFi衍生品赛道情绪。看多信号。",
+      "reason": "直接影响行情的消息：首个Hyperliquid ETF推出，属项目重大事件，可能带来增量资金。",
+      "cat
+2026-05-13 00:01:21 [DEBUG] 从 JSON 对象的 news 字段提取到 4 条记录
+2026-05-13 00:01:21 [INFO] ✅ AI 返回 4 条新闻
+2026-05-13 00:01:21 [INFO] ✅ AI 筛选出 4 条交易相关消息，符合预期
+2026-05-13 00:01:21 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
+2026-05-13 00:01:21 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-13 00:01:21 [DEBUG]   去重: 「首个Hyperliquid ETF上市」 → URL重复: https://www.theblock.co/post/401047/first-ever-hyperliquid-e
+2026-05-13 00:01:21 [INFO] 📦 JSON 已保存: reports/2026-05-13-08.json
+2026-05-13 00:01:21 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
