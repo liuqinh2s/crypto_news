@@ -235,3 +235,126 @@ content length: 3017
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4764, prompt_tokens=16824, total_tokens=21588, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2839, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15672)
+content length: 4636
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案障碍移除",
+      "summary": "据报道，参议院银行委员会关键共和党参议员已移除对CLARITY法案的障碍，该法案将于周四进行审议。CLARITY法案旨在为数字资产提供监管框架，涵盖稳定币、市场结构等内容。若通过，将显著提升美国加密货币监管的确定性，利好整体市场。受影响的币种包括BTC、ETH。信号：看多，评级4。",
+      "reason": "参议院关键共和党人移除障碍，CLARITY法案投票在即，属于优先级一监管动态，直接利好市场。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Semafor",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNGdFa21FM0UzZUFsaGN3dEY5MWQwTFJ4SlFuUkNGaHdPR1Q0WkttaGhmT1lnNzBtS1hjNF9pT3p2Z2paT1FDNVhvem16d21xSE1ESUhrVVp2S2VuRno3Z0VkWGhzVlhIQkpJbTk2R083MGdSNUNBZGlXQzlNbS1YRkJxcUtCTGtuRG1hd19IQTM2Rks2YUZXblRXM2hnSVU?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Transit Finance再遭攻击",
+      "summary": "跨链DeFi协议Transit Finance再次被黑客攻击，损失约188万美元。此前该协议曾因类似漏洞被攻击。本次事件可能引发市场对跨链桥安全性的担忧，短期利空DeFi相关代币及整体市场情绪。受影响的币种主要以ETH为首的DeFi生态。信号：看空，评级2。",
+      "reason": "区块链安全事件，属于优先级一项目方重大事件（黑客攻击），虽金额不大但重复攻击影响信心。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc64hw/transit_finance_hacked_again_crosschain_defi/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Fidelity推代币化基金",
+      "summary": "Fidelity International宣布推出穆迪评级的代币化基金，该基金将在Chainlink的平台上运行，通过Sygnum银行进行托管。这是传统金融机构进一步涉足RWA代币化的标志，利好Chainlink生态及以太坊。受影响的币种包括ETH、LINK。信号：看多，评级3。",
+      "reason": "机构动向，传统金融巨头推出代币化产品，属于优先级二机构入场，中期利好。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/fidelity-filq-tokenized-fund-chainlink-sygnum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Square达百万BTC商家",
+      "summary": "Block旗下Square宣布已拥有100万个接受比特币支付的商家，推动比特币支付采用。这是比特币支付基础设施的重要里程碑，增加实际用例，长期看多。受影响的币种为BTC。信号：看多，评级2。",
+      "reason": "采用数据里程碑，属于优先级二链上指标或采用数据，轻度利好。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVFfdWZxallzdTB2aHF4UU9HeG9lMkxNRUhDbFY2d2xXZGpNVEhNSmZsaXBjRGIwRUZoSmJzNmh5aEFibVpHQXNNeDZDUXZTbGdqX2llNUtYZ1VwUFZZSXpFSndnY2duS0RJMkEwdUgyUzZLcjc2RF8ycU55S2VMVVVzbEc?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "英财政部看好数字资产",
+      "summary": "英国财政部官员表示数字资产有潜力彻底改变金融市场，暗示未来可能出台更友好的监管政策。该言论虽无具体行动，但表达了官方积极态度，可能提振市场信心。受影响的币种为BTC、ETH。信号：中性偏多，评级1。",
+      "reason": "监管态度偏积极，属于优先级一监管动态中的利好言论，但无实质进展。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367773/uk-treasury-digital-assets-have-potential-for-complete-transformation-of-markets"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance将推TradFi合约",
+      "summary": "Binance期货将于2026年5月15日上线多个美元保证金传统金融股票永续合约，包括AMD、QCOM、MSFT、AVGO等。此举将传统资产引入加密货币交易平台，可能增加Binance交易量，但对加密货币现货价格直接影响有限。受影响的币种主要为传统股票代币，但对比特币等影响中性。信号：中性，评级2。",
+      "reason": "交易所合约上线，属于优先级一交易所动态，但标的非加密货币，影响有限。",
+      "category": "交易所",
+      "impact_coins": ["ALL"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance Announcement",
+          "url": "https://www.binance.com/zh-CN/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币相对黄金低估26%",
+      "summary": "CoinDesk分析师指出，比特币相对于黄金存在26%的相对低估，并可能成为看涨信号。该观点基于相对估值模型，但属于市场分析而非事件，对交易决策的直接影响有限。受影响的币种为BTC。信号：中性，评级1。",
+      "reason": "市场分析观点，属于优先级三市场情绪信号，但无实质数据支撑，影响弱。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRG9ZZGpPdU5Ca21uNVRnOGUtemJueHZjUWlNRzhYSmtUaE9aWUttTS1NVlpYLTBFMENJYXlWSzFkWTRpajN0QTRtSVBNSE1aUjNaRk1tbVNYelNPQmlJMlQxN0I3ME5uZXZjVUVRei1EU1JsU2VCN09IMTJveWlTMmZFY0hIdmw5bGc1YWZlZWJMNHBmODA1MWJ6UlFrYjBaWkdjVkU2eGV4UkYxWHFOSXRnZXJrTkZ2?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
