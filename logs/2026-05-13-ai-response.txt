@@ -2450,3 +2450,114 @@ content length: 4040
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3130, prompt_tokens=14783, total_tokens=17913, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1541, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13631)
+content length: 3911
+============================================================
+{
+  "news": [
+    {
+      "title": "美国PPI飙升至6% 比特币跌破8万",
+      "summary": "美国4月生产者价格指数(PPI)同比飙升6%，远超预期，加剧通胀担忧。受此影响，比特币从此前81,000美元上方快速跌破80,000美元关口，市场恐慌情绪升温。PPI数据强化了美联储维持高利率甚至加息的预期，对风险资产形成压力，短期看空BTC和ETH。",
+      "reason": "宏观经济数据PPI超预期，直接影响美联储利率预期和风险资产定价，优先级一中的宏观经济事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/13/live-markets-bitcoin-dips-below-usd80-000-as-producer-price-inflation-surges-to-6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "MARA减持15亿美元比特币",
+      "summary": "比特币矿企MARA Holdings宣布出售15亿美元比特币，并计划将资金投入AI数据中心业务。这是近期最大规模的矿企抛售事件之一，向市场释放明显抛压信号。此举可能引发其他矿企效仿，短期内对比特币价格构成利空。",
+      "reason": "巨鲸/矿企大额抛售属于优先级一中的巨鲸异动，直接增加市场供应。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "InsuranceNewsNet",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMExRSzdhdG9yVlVWOUdxY2FCalJlenpxcjdqRmIxZ0JOUU9hQjZyTDg2c3d3a0p6SkZkVW9wYm14SHdudF95b0Rud213ODV1RjA5YlVSTG1JQjYxdE1tVnpZZ0thaTJmWDA2Y0VZN0Z6bVNCcVI4NzBqb2U4V1lKaEFQSGtqWkFrcVF5NE9VdHgydnlYU1ZrM1I4R0JTMk5aQUg4UnhwcjR3cWFLZG1XNUNB"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kalshi投注者看空比特币至7.5万",
+      "summary": "预测市场Kalshi上的赔率显示，交易者认为比特币在短期内跌至75,000美元的概率大于涨至100,000美元。这反映市场情绪偏空，可能引发进一步抛售。结合PPI数据，做多仍需谨慎。",
+      "reason": "市场情绪信号，KOL/预测市场集体看空，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWThmSWtUeTgySDdxdUczRS1iZUpWamctdG16dHg1N05TU2pmb2UxNXRFM1F1OTd3THViREJmSmZUODBybHlUUExhTzJSMGNtZHd0U0gycUZRX3RtVUFzc1djOTBZcnpKZkwyLXRkZW12MlpBNk0yUWJ0cEZibDYyVDEwd2VvZlNvRC1nZlhCLUJ2UQ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy STRC或推动比特币反弹",
+      "summary": "K33 Research指出，Strategy的STRC产品可能成为每月中旬比特币价格上涨的驱动力。STRC允许机构通过结构化产品买入BTC，未来两天内有可能买入多达3,000枚BTC，带来约2.4亿美元买盘，利好BTC短期走势。",
+      "reason": "机构重大动向，潜在的大额买入信号，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401149/strategys-strc-may-be-fueling-recurring-mid-month-bitcoin-rallies-k33"
+        },
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-100k-in-q2-strategy-strc-unlocks-buy-3k-btc-two-days"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH DEX成交量追赶Solana",
+      "summary": "数据显示以太坊链上DEX月成交量已接近450亿美元，与Solana的差距大幅缩小。这表明以太坊生态活跃度回升，DeFi需求增长，可能对ETH价格形成支撑，看多以太坊。",
+      "reason": "链上指标异常（DEX成交量剧变），属于优先级二，影响ETH基本面。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/400806/ethereum-closes-gap-solana-dex-volumes-converge-45-billion"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美参议院加密法案面临100+修正案",
+      "summary": "美国参议院银行委员会将于周四对《CLARITY法案》进行审议，目前已有超过100项修正案提出。法案内容涉及稳定币监管和加密货币合规框架，大量修正案可能拖延立法进程，增加监管不确定性，短期内对市场情绪造成扰动。",
+      "reason": "重要监管动态，属于优先级一，影响整个市场。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/senate-crypto-bill-faces-100-amendments"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
