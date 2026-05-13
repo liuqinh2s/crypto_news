@@ -1,15 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5081, prompt_tokens=16154, total_tokens=21235, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2497, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15002)
+content length: 6161
+============================================================
 {
-  "date": "2026-05-14",
-  "hour": "00",
   "news": [
     {
       "title": "长期持有者囤BTC创纪录",
       "summary": "据CoinDesk报道，比特币可用供应量持续下降，长期持有者囤积数量已达400万BTC的历史新高，70%的长期持有者处于盈利状态。这意味着市场流通供应进一步收紧，对BTC价格形成中长期支撑，是典型的看多信号。但需注意，若价格短期急涨可能导致部分获利了结。",
       "reason": "优先级一：链上异动，供应量变化直接影响比特币供需平衡，长期持有者囤币是牛市基础。",
       "category": "链上异动",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bullish",
       "impact_level": 4,
       "sources": [
@@ -25,12 +28,7 @@
       "summary": "Decrypt报道，英国央行执行董事表示央行正在将稳定币视为“新形式的货币”，并计划建立监管框架。这表明传统金融体系对加密资产的接纳度提升，稳定币合法化将吸引更多机构资金入场，对整体加密市场是利好。但具体政策细节仍需关注。",
       "reason": "优先级一：监管政策，国家级认可稳定币对市场有长期利多影响。",
       "category": "监管政策",
-      "impact_coins": [
-        "USDT",
-        "USDC",
-        "ETH",
-        "BTC"
-      ],
+      "impact_coins": ["USDT", "USDC", "ETH", "BTC"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
@@ -46,10 +44,7 @@
       "summary": "SEC主席在公开场合表示，现有法律框架下SEC可以填补加密货币监管的空白，但未具体说明行动。这加剧了市场对监管不确定性的担忧，短期内可能压制情绪，但长期来看明确的监管框架是行业健康发展的前提。信号中性偏空。",
       "reason": "优先级一：监管政策，SEC表态直接影响市场预期。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
@@ -65,10 +60,7 @@
       "summary": "摩根大通在最新报告中指出，投资者恐慌情绪正迅速升温，许多客户已对股市转为全面看空。这种极端恐慌情绪通常预示着短期反弹机会，但当前加密市场同样承压。若恐慌蔓延至加密市场，可能导致进一步下跌，但逆向交易者可关注抄底机会。短期偏空，中长期偏多。",
       "reason": "优先级三：市场情绪信号，恐慌指数极值附近是重要信号。",
       "category": "市场情绪",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
@@ -84,9 +76,7 @@
       "summary": "Coinbase公布Q1以太坊验证器报告，目前通过其平台质押的ETH达450万枚，占全网验证者份额的12.17%。这显示机构对以太坊质押的持续参与和信心增强，有助于以太坊网络安全和价格稳定。信号中性偏多。",
       "reason": "优先级二：机构动向，Coinbase作为头部交易所的质押数据反映机构参与度。",
       "category": "项目更新",
-      "impact_coins": [
-        "ETH"
-      ],
+      "impact_coins": ["ETH"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
@@ -102,9 +92,7 @@
       "summary": "据Yahoo Finance报道，XRP在韩国主要交易所的交易量已超越比特币和以太坊，成为最活跃的交易对。这通常由短期FOMO情绪驱动，可能推动XRP价格短期上涨，但持续性存疑。对XRP看多，但对大盘影响有限。",
       "reason": "优先级三：市场情绪信号，区域性交易异常反映短期投机热度。",
       "category": "市场情绪",
-      "impact_coins": [
-        "XRP"
-      ],
+      "impact_coins": ["XRP"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
@@ -120,9 +108,7 @@
       "summary": "Arthur Hayes和另一位知名分析师公开表示比特币当前价格是买入机会，认为回调有限。这属于KOL集体看多信号，但需警惕其可能为市场噪音。历史经验显示，顶级交易员喊单有时能提振短期情绪。信号中性，短期或引发小反弹。",
       "reason": "优先级三：市场情绪，KOL观点影响散户行为。",
       "category": "市场情绪",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "neutral",
       "impact_level": 2,
       "sources": [
@@ -134,14 +120,27 @@
       "urgency": "hours"
     },
     {
+      "title": "富国银行增持以太坊ETF",
+      "summary": "富国银行第一季度将其在黑石以太坊ETF的持股增加至110万股，显示传统大型银行对以太坊的配置兴趣。此举跟随此前Charles Schwab等机构的布局，对ETH是明确看多信号。",
+      "reason": "优先级二：ETF机构资金流入，机构增持直接利好ETH。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZTUwSXRjdnRibkhhQVdoNkJvb2hQcDJ4djV0bVdXR3lSTkhvZjZ2Y2RkWXpFU0kxeHN2MXI1QVYxUEEzSUFsaXZKOWNkblRqbk1KeE02SGtJLXRwaDRBdGlka1d5ZF9aam55RVQ0Wm44T1lTNkxzRDljcEZERGFHbjVSUkJTaGRfQ0cxR0R1OVAtVWRkbmFod1B1VnlnUVJYZ1R4TGpjMEdfeXdOc3VyMXNSYw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
       "title": "美联储柯林斯：利率或更高更久",
       "summary": "美联储柯林斯表示对通胀上涨的耐心正在下降，利率可能需维持高位更长时间。这加剧了市场对紧缩政策的担忧，利空风险资产包括加密。当前PPI数据已强化加息预期，此言论进一步加强偏空氛围。",
       "reason": "优先级二：宏观经济，美联储官员言论直接影响利率预期。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
@@ -157,10 +156,7 @@
       "summary": "日本电信巨头KDDI宣布以6500万美元收购Coincheck Group 14.9%的股份。这标志着传统企业进一步拥抱加密交易，对Coincheck及相关币种（如COINCHECK未发币）利好，但对整个行业是机构采用的正向信号。",
       "reason": "优先级二：机构动向，传统巨头入股交易所提升行业信心。",
       "category": "交易所",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
@@ -171,7 +167,5 @@
       ],
       "urgency": "days"
     }
-  ],
-  "total_fetched": 70,
-  "generated_at": "2026-05-14T00:01:34.184695+08:00"
+  ]
 }
