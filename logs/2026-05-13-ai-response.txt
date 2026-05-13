@@ -985,3 +985,110 @@ content length: 2492
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2174, prompt_tokens=10670, total_tokens=12844, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=990, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9518)
+content length: 3037
+============================================================
+{
+  "news": [
+    {
+      "title": "美国4月CPI年率3.8%低于预期",
+      "summary": "美国4月未季调CPI年率录得3.8%，低于市场预期的3.9%和前值的3.5%。通胀回落速度略超预期，缓解了美联储进一步加息的担忧，利好风险资产。比特币、以太坊等加密货币可能受益于宏观宽松预期，短期看多。",
+      "reason": "宏观经济数据直接影响风险资产走势，CPI低于预期是明显的bullish信号，属于优先级二中的宏观经济事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "深潮TechFlow",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4VWhWdVFHbnR0bXAxX0xxcDlLMU9WRGMybnFtU0xQQmk2Z2stc1NzdEdQenBaRGpQekJ2QVd2TUlEUVB1WDNhUkNKZm5zSXRsc0NHdkxDY0llZw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸沉寂一年后买入2570枚ETH",
+      "summary": "一个沉寂超过一年的钱包地址花费581万枚USDC买入2570枚ETH，均价约2260美元。这种大额买入行为表明长期持有者或机构在逢低吸筹，对ETH构成直接利好，短期内有望支撑价格上行。",
+      "reason": "巨鲸大额买入ETH，属于优先级一中的链上异动，是明显的bullish信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512458.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "另一巨鲸买入1500枚ETH",
+      "summary": "某巨鲸地址花费343万枚USDC买入1500枚ETH，均价约2287美元。这是近期第二起大额ETH买入，进一步强化了ETH的买盘支撑，短期看多。",
+      "reason": "连续巨鲸买入ETH，与上一条形成共振，增强bullish信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512449.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "2亿枚WLFI奖励转入Binance",
+      "summary": "2亿枚WLFI代币（约1345万美元）于8小时前从WLFI财库转入Binance，可能为抛售做准备。这构成潜在的卖压，对WLFI价格短期看空，但WLFI市值较小，对整体市场影响有限。",
+      "reason": "大额代币转入交易所是潜在抛售信号，属于优先级一，bearish。",
+      "category": "链上异动",
+      "impact_coins": ["WLFI"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512457.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "百慕大将金融服务迁移至Stellar",
+      "summary": "百慕大政府宣布将把部分关键金融服务迁移至Stellar区块链网络，这是主权国家采用区块链的实质性进展。对XLM构成重大利好，有望带动价格上涨。",
+      "reason": "国家级别的区块链采用，属于优先级二中的项目更新，bullish。",
+      "category": "项目更新",
+      "impact_coins": ["XLM"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512452.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "韩国KOSPI指数大跌3%",
+      "summary": "韩国KOSPI指数大跌3%，日韩股市整体低开。亚洲股市风险偏好下降可能传导至加密货币市场，短期增加波动性，预示避险情绪升温，对BTC和ETH偏空。",
+      "reason": "宏观市场风险情绪恶化，可能引发crypto联动下跌，属于优先级二中的宏观经济事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512451.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
