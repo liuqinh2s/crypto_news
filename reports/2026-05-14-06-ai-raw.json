@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-14",
+  "hour": "06",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4824,
+    "completion_tokens": 847,
+    "total_tokens": 5671
+  },
+  "content_length": 225,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Kevin Warsh确认任美联储主席\",\n      \"summary\": \"美国参议院确认比特币友好派Kevin Warsh担任美联储主席，为加密货币市场带来积极监管预期。同时，加密货币Clarity Act即将进入参议院投票阶段，若通过将明确数字资产监管框架。该消息强烈利好比特币及整个加密市场，因Warsh被视为支持创新与加密友好的政策制定者。\"\n    }\n  ]\n}"
+}

@@ -661,3 +661,196 @@ content length: 3174
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2185, prompt_tokens=12578, total_tokens=14763, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1404, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11426)
+content length: 1829
+============================================================
+{
+  "news": [
+    {
+      "title": "富达代币化基金获穆迪AAA评级",
+      "summary": "Fidelity International 的首个代币化基金获得穆迪最高评级 AAA-mf，这是代币化资产领域的重要里程碑。该基金基于 Chainlink 构建，评级认证将吸引更多机构投资者进入代币化市场。可能提升市场对 RWA 代币化项目的信心，利好 ETH (作为主要代币化平台) 以及 LINK (Chainlink)。看多信号，机构采用进度加速。",
+      "reason": "穆迪AAA评级是代币化基金的最高信用评级，属于机构采用的重要进展，直接影响市场对RWA赛道的信心。与历史消息中Fidelity推代币化基金相比，本次评级结果是新信息，属于更新。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币涨势因获利回吐和需求下降中断",
+      "summary": "CryptoQuant 数据显示，比特币近期反弹被获利回吐打断，美国市场需求下降，链上指标显示短期持有者抛压增加。这与 PPI 超预期、降息预期受挫的背景一致。比特币从 8 万美元上方回落，短期可能继续承压，关注 7.9 万美元支撑。看空信号，但属于短期调整，中期仍需关注 Clarity Act 等宏观事件。",
+      "reason": "直接针对比特币价格走势的分析，涉及链上数据异动（获利回吐、US需求下降），属于影响行情的中期信号。与历史消息中因PPI下跌不同，这是链上分析。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367787/bitcoin-rally-cut-short-profit-taking-rises-us-demand-falls-cryptoquant"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOGd1QkdqY2Ytd29DTElUSzdqZ3RwQWFGb1laVmVYZVliRFRtVWl3TW9LM0lFY2lnbE5ibFBfV3dxQnpNdXBNd3pxdTgwcWloaWVUVms3cUJKT2k1X0pINFcyQ05uYXJxbHpsY1BkekpNZGxNWGdqbm40cW1KRVlaYjNR?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选仅有2条新消息，其他素材（如 Kevin Warsh 确认、Clarity Act 进展、Charles Schwab 上线交易、Ledger 暂停 IPO 等）均与历史消息重复，Binance 公告也已在过去6小时多次出现，因此未选入。恐惧贪婪指数42保持不变。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1179, prompt_tokens=12578, total_tokens=13757, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=912, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12544), prompt_cache_hit_tokens=12544, prompt_cache_miss_tokens=34)
+content length: 656
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币涨势受阻 获利回吐增加",
+      "summary": "CryptoQuant最新报告显示,比特币近期反弹因获利回吐增加和美国需求下降而受阻。链上数据显示,短期持有者正在大量抛售,同时美国市场买盘减弱,可能预示短期回调压力。BTC跌破79K后反弹乏力,若需求继续萎缩,可能测试更低支撑。该信号偏空,建议谨慎追多。",
+      "reason": "链上异动中的获利回吐和需求下降是直接影响行情的中期信号,符合优先级一中的链上指标异常。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367787/bitcoin-rally-cut-short-profit-taking-rises-us-demand-falls-cryptoquant"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分消息已在历史标题中重复出现,仅此一条新分析具有交易参考价值。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1542, prompt_tokens=12578, total_tokens=14120, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=902, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12544), prompt_cache_hit_tokens=12544, prompt_cache_miss_tokens=34)
+content length: 1564
+============================================================
+{
+  "news": [
+    {
+      "title": "Fidelity获穆迪AAA评级",
+      "summary": "Fidelity International的首个代币化基金获得穆迪AAA-mf最高评级，标志着传统金融巨头在代币化资产领域的重大突破。该基金基于Chainlink预言机，将提升市场对真实世界资产（RWA）代币化的信心，利好以太坊生态及代币化相关项目。此消息有助于吸引更多机构资金入场，对ETH及RWA赛道构成中长期看多信号。",
+      "reason": "机构采用代币化资产的重要里程碑，评级背书将增强投资者信心，属于优先级二的机构动向和项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC涨势中断：获利回吐与需求下降",
+      "summary": "CryptoQuant数据显示，比特币近期反弹因获利回吐增加和美国需求下降而受阻。链上指标表明短期持有者开始抛售，且Coinbase溢价转为负值，反映美国买家动能减弱。目前BTC在79K附近震荡，若抛压持续可能测试前低。对BTC短期看空，但长期持有者仍在积累，需关注后续支撑。",
+      "reason": "链上异动直接反映市场供需变化，属于优先级一，对BTC价格有即时影响。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367787/bitcoin-rally-cut-short-profit-taking-rises-us-demand-falls-cryptoquant"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOGd1QkdqY2Ytd29DTElUSzdqZ3RwQWFGb1laVmVYZVliRFRtVWl3TW9LM0lFY2lnbE5ibFBfV3dxQnpNdXBNd3pxdTgwcWloaWVUVms3cUJKT2k1X0pINFcyQ05uYXJxbHpsY1BkekpNZGxNWGdqbm40cW1KRVlaYjNR"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1141, prompt_tokens=13581, total_tokens=14722, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1110, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12429)
+content length: 59
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的所有素材均与历史消息重复，没有新的关键交易消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1099, prompt_tokens=13581, total_tokens=14680, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=626, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13568), prompt_cache_hit_tokens=13568, prompt_cache_miss_tokens=13)
+content length: 1279
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币反弹因获利回吐中断",
+      "summary": "CryptoQuant报告指出，比特币近期反弹在关键阻力位停滞，获利回吐增加且美国需求下降，类似模式曾导致重大回调。当前链上数据显示短期持有者抛压上升，可能影响BTC价格。信号：短期看空，建议警惕回调风险。",
+      "reason": "链上异动类消息，直接影响比特币短期走势，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367787/bitcoin-rally-cut-short-profit-taking-rises-us-demand-falls-cryptoquant"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "富达国际代币化基金获穆迪AAA评级",
+      "summary": "Fidelity International推出首个代币化基金FILQ，获得穆迪最高信用评级AAA-mf，提供24/7赎回和结算。这是传统金融机构采用区块链技术的重要里程碑，可能推动更多机构入场，利好ETH等底层公链。信号：中长期看多。",
+      "reason": "机构动向类消息，显示传统金融巨头对加密资产的认可，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "其他重大事件如Kevin Warsh确认、Charles Schwab推出交易、Clarity Act投票等在历史消息中已多次出现，属于重复内容，未纳入。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=847, prompt_tokens=4824, total_tokens=5671, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=747, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3672)
+content length: 225
+============================================================
+{
+  "news": [
+    {
+      "title": "Kevin Warsh确认任美联储主席",
+      "summary": "美国参议院确认比特币友好派Kevin Warsh担任美联储主席，为加密货币市场带来积极监管预期。同时，加密货币Clarity Act即将进入参议院投票阶段，若通过将明确数字资产监管框架。该消息强烈利好比特币及整个加密市场，因Warsh被视为支持创新与加密友好的政策制定者。"
+    }
+  ]
+}
