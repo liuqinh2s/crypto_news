@@ -2212,3 +2212,134 @@ content length: 2646
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3944, prompt_tokens=15777, total_tokens=19721, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2384, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14625)
+content length: 4185
+============================================================
+{
+  "news": [
+    {
+      "title": "贝莱德向Coinbase存入大额BTC/ETH",
+      "summary": "5月13日，贝莱德向Coinbase转入861枚比特币和44,691枚以太坊，价值约7000万美元。大额转入交易所通常被视为潜在的抛售信号，可能对BTC和ETH价格构成短期压力。此举可能与ETF做市或客户赎回相关，但交易者应警惕潜在卖盘。",
+      "reason": "优先级一：巨鲸异动，大额转入交易所=潜在抛压，直接影响BTC/ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512556.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Jane Street大幅减持BTC ETF",
+      "summary": "Jane Street在2026年Q1将其IBIT持仓削减71%，同时增加了以太坊ETF头寸。此举表明顶级做市商对BTC短期谨慎，但对ETH更为看好。BTC ETF持仓下降可能反映机构对BTC近期走势的疑虑，而增加ETH基金则可能推动ETH相对强势。",
+      "reason": "优先级二：机构动向，Jane Street作为重要做市商，其仓位变化对市场有指示意义。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/jane-street-slashes-bitcoin-etfs-adds-ether-funds-q1-2026"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512549.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "越南计划Q3推出监管加密市场",
+      "summary": "越南政府正计划在2026年第三季度推出受监管的加密资产市场，此举可能为该地区带来合规资金流。越南作为新兴市场，监管框架的建立有望吸引机构参与，长期利好整体加密货币市场，尤其利好BTC和主流币。",
+      "reason": "优先级一：重大监管动态，国家级开放加密市场属重大利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/vietnam-plans-crypto-market-launch-q3"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普与习近平会谈在即",
+      "summary": "美国总统特朗普抵达北京，即将与中国国家主席习近平举行会谈。地缘政治紧张局势缓和可能提振风险资产，包括加密货币。然而，若会谈结果不及预期，市场波动可能加剧。目前市场反应平稳，但需关注后续声明。",
+      "reason": "优先级二：宏观经济/地缘政治，重大事件影响全球风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512558.html"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/13/bitcoin-holds-below-usd81-000-with-trump-xi-talks-on-the-horizon"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密大佬Terpin公开做空比特币",
+      "summary": "加密行业知名人士Michael Terpin在接受Yahoo Finance采访时表示，他正在做空比特币，理由包括宏观不确定性和市场结构脆弱。尽管个人观点不代表市场趋势，但知名交易员的公开表态可能影响散户情绪，增加短期看空力量。",
+      "reason": "优先级三：KOL集体看空，情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM2wwemFHQVRxa0RPMFJqejNwQVlGRGc0amt3NWNwZk9zV2dZNFFxam4yUmdxTXJDRk8yR05RRm5aUnAyYlhvVkhqWGhWTlh6WDA1MGtXd0J4dkFpc1hEMktuT2lzV1FmMC02UHI4SnBfOU8xYkpDeTVzM19yZUd3RWZ1bWMtc2lK"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid ETF首日流入120万美元",
+      "summary": "Hyperliquid ETF在美国上市首日获得120万美元净流入，虽然规模较小，但标志着Hyperliquid生态拓展至传统ETF渠道。短期对HYPE价格有正向刺激，但需观察后续资金持续性。",
+      "reason": "优先级二：ETF机构，新产品上线初期流量。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/hyperliquid-etf-attracts-1-2m-inflows-in-very-solid-us-debut"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "DeFi协议Legend宣布关停",
+      "summary": "又一个DeFi协议Legend因经营困难宣布关停，反映出DeFi领域持续萎缩。此类事件打击市场对DeFi板块的信心，可能引发相关代币抛售，并拖累ETH等公链生态情绪。",
+      "reason": "优先级二：DeFi重大事件，项目关停影响板块情绪。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "UNI", "AAVE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/legend-becomes-latest-defi-app-to-throw-in-towel"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
