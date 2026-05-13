@@ -1604,3 +1604,63 @@ content length: 1579
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2861, prompt_tokens=10373, total_tokens=13234, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2058, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9221)
+content length: 1958
+============================================================
+{
+  "news": [
+    {
+      "title": "CFTC支持Kalshi预测市场上诉",
+      "summary": "美国商品期货交易委员会(CFTC)在俄亥俄州上诉法院中公开支持预测市场平台Kalshi，反对俄亥俄州试图禁止该平台运营。这是联邦监管机构对合法预测市场的重要背书，可能为加密货币衍生品和预测市场提供更清晰的监管框架。直接影响币种有限，但整体利好加密监管环境，情绪上偏多。",
+      "reason": "涉及监管态度，CFTC支持预测市场是监管政策利好信号，可能推动合规化进程。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/cftc-backs-kalshi-appeals-court-ohio-prediction-markets-fight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Strategy面临监管审查，BTC承压",
+      "summary": "持有大量比特币的上市公司Strategy（原MicroStrategy）正面临监管审查（STRC Scrutiny），比特币政策对其估值产生压力。若审查导致公司被迫调整持仓，可能增加BTC抛售风险。该消息对BTC构成利空，需关注后续进展。",
+      "reason": "涉及比特币持仓大户的监管动态，可能引发大规模减持，属直接利空信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONHlMOHNYSlRuVmMyaTI5bWY5cjVIWUpZcmxEREtCRnRuVkY4UTM5dnRBQTlwZl9EWWo2cU1nM3g5SkJObHQwaWJPdkhQdVFlTWl5Z0p6eGNGbUJ1T0luYmlCamZBZ2ZvTnlSWHNpemgxZ2lfSVllMHRNdTRtZ1VLX3ZVS2dqempqWkFibWhn?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "法国失业率突破8%创五年新高",
+      "summary": "法国失业率五年来首次升至8%以上，反映欧洲经济疲软。这虽非加密直接因素，但可能加剧市场对欧洲经济衰退的担忧，间接影响风险资产偏好。对BTC/ETH影响微弱，中性信号，但需关注后续欧洲央行政策变化。",
+      "reason": "宏观经济数据，失业率上升可能引发宽松预期，但当前影响有限。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512515.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前时段符合条件的消息较少，仅筛选出3条关键信息。其余新闻多为重复历史公告或低影响力内容。"
+}
