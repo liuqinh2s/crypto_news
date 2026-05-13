@@ -236,3 +236,82 @@
 2026-05-13 18:01:42 [DEBUG]   去重: 「CLARITY法案障碍移除」 → URL重复: https://news.google.com/rss/articles/CBMinwFBVV95cUxNNGdFa21
 2026-05-13 18:01:42 [INFO] 📦 JSON 已保存: reports/2026-05-14-02.json
 2026-05-13 18:01:42 [INFO] ✅ AI 筛选完成，共 6 条交易相关消息
+2026-05-13 19:00:35 [INFO] 🚀 开始抓取 2026-05-14 03:00 币圈新闻
+2026-05-13 19:00:35 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-13 19:00:35 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-13 19:00:35 [INFO]   ⏭ The Block: 过滤掉 17 条非近期新闻
+2026-05-13 19:00:35 [INFO]   ⏭ Decrypt: 过滤掉 26 条非近期新闻
+2026-05-13 19:00:35 [INFO]   ⏭ CoinTelegraph: 过滤掉 27 条非近期新闻
+2026-05-13 19:00:36 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-13 19:00:36 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 9 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ Blockworks: 过滤掉 3 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ 宏观经济: 过滤掉 27 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ 吴说区块链: 过滤掉 42 条非近期新闻
+2026-05-13 19:00:36 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:37 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:37 [INFO]   ⏭ Crypto Twitter: 过滤掉 43 条非近期新闻
+2026-05-13 19:00:37 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-13 19:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-13 19:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-13 19:00:51 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:52 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-13 19:00:52 [INFO]   ✓ CoinDesk: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ The Block: 3 条
+2026-05-13 19:00:52 [INFO]   ✓ Decrypt: 4 条
+2026-05-13 19:00:52 [INFO]   ✓ CoinTelegraph: 3 条
+2026-05-13 19:00:52 [INFO]   ✓ Bitcoin Magazine: 1 条
+2026-05-13 19:00:52 [INFO]   ✓ Blockworks: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ DL News: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ 金色财经: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ PANews: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-13 19:00:52 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ Crypto Twitter: 7 条
+2026-05-13 19:00:52 [INFO]   ✓ 宏观经济: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ Binance公告: 20 条
+2026-05-13 19:00:52 [INFO]   ✓ OKX公告: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ Bitget公告: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ Whale Alert: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-13 19:00:52 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-13 19:00:52 [INFO]   ✓ 雪球加密: 0 条
+2026-05-13 19:00:52 [INFO] 📊 共抓取 40 条新闻
+2026-05-13 19:00:52 [INFO] 📋 原始新闻已保存: reports/2026-05-14-03-raw.json (40 条)
+2026-05-13 19:00:52 [INFO] 📋 标题摘要已保存: reports/2026-05-14-03-raw-titles.md
+2026-05-13 19:00:52 [INFO] ✅ 抓取完成，共 40 条，已保存到 reports/2026-05-14-03-raw.json
+2026-05-13 19:00:52 [INFO] 🤖 开始 AI 筛选 2026-05-14 03:00 币圈消息
+2026-05-13 19:00:52 [INFO] 📋 已加载原始新闻: reports/2026-05-14-03-raw.json (40 条)
+2026-05-13 19:00:52 [INFO] 📚 已加载历史新闻标题（29703 字符）
+2026-05-13 19:00:52 [INFO] 📚 已加载历史筛选标题 33 条、URL 34 个，用于去重
+2026-05-13 19:00:52 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-13 19:00:52 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-13 19:00:52 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（40 条，8933 字符，temp=0.3）
+2026-05-13 19:01:07 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 2901 字符)
+2026-05-13 19:01:07 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-03-ai-raw.json
+2026-05-13 19:01:07 [DEBUG] parse_json_response 输入长度: 2901 字符
+2026-05-13 19:01:07 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "参议院确认Warsh为美联储主席",
+      "summary": "美国参议院投票确认特朗普提名的Kevin Warsh接替鲍威尔担任美联储主席。Warsh被视为鹰派人物，可能倾向于更紧缩的货币政策，这利空风险资产包括加密货币。但短期内市场可能已经消化，需关注后续政策表态。影响币种BTC、ETH。",
+      "reason": "美联储主席变更直接影响利率政策和市场流动性，属于宏观经济重大事件，优先级二。Warsh鹰派倾向构成潜在利空。",
+      "category": "宏观经济",
+      "im
+2026-05-13 19:01:07 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-05-13 19:01:07 [INFO] ✅ AI 返回 5 条新闻
+2026-05-13 19:01:07 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-05-13 19:01:07 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-05-13 19:01:07 [INFO] 📦 JSON 已保存: reports/2026-05-14-03.json
+2026-05-13 19:01:07 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
