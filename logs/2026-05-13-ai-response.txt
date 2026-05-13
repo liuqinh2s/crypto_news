@@ -1545,3 +1545,62 @@ content length: 2608
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1751, prompt_tokens=11162, total_tokens=12913, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1125, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10010)
+content length: 1579
+============================================================
+{
+  "news": [
+    {
+      "title": "加密基金连续6周净流入",
+      "summary": "根据最新数据，加密基金已连续6周净流入，其中做空比特币基金创2026年最大单周流出。这意味着市场情绪转向看多，空头头寸被大规模平仓或赎回，资金正在涌入现货和做多产品。这可能推动比特币及主流币种进一步上行。信号：看多。受影响币种：BTC、ETH。",
+      "reason": "优先级一：ETF/机构资金流向，连续净流入是强烈看多信号，做空基金流出表明空头投降。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512507.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Alameda从KuCoin提取2000万美元",
+      "summary": "链上数据显示，Alameda Research近2小时从KuCoin提取超过2000万美元的多种加密资产。Alameda在破产清算后仍有大量资产需要处理，大额提取可能用于偿还债权人或在其他平台抛售。这是潜在的抛压信号，需警惕短期价格波动。信号：看空。受影响币种：BTC、ETH、相关山寨币。",
+      "reason": "优先级一：链上异动，大额提取交易所可能引发抛售，尤其涉及破产实体。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512504.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "OKX上线PROS/USDT",
+      "summary": "OKX宣布将于近期上线PROS（Pharos）USDT交易对。PROS是一个去中心化VPN和带宽共享项目，上线主流交易所将提升其流动性和曝光度。短期可能刺激PROS价格上涨，但需注意初始波动。信号：看多（对PROS币种）。",
+      "reason": "优先级一：交易所上币公告，直接影响对应币种价格。",
+      "category": "交易所",
+      "impact_coins": ["PROS"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512500.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
