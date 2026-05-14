@@ -274,3 +274,297 @@ content length: 2412
   ],
   "note": "由于严格去重，仅筛选出4条未在历史消息中出现的重要新消息。CLARITY法案通过委员会等已被重复报道，不再选入。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2058, prompt_tokens=16613, total_tokens=18671, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1716, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15461)
+content length: 876
+============================================================
+{
+  "news": [
+    {
+      "title": "Chainlink CCIP TVL增25亿",
+      "summary": "The Block报道，Chainlink的跨链互操作协议CCIP已从LayerZero迁移的协议中获得超过25亿美元的总锁定价值（TVL）。最新加入的是Kraken，将把其比特币桥技术从LayerZero迁移至Chainlink。这意味着Chainlink CCIP的采用快速增长，可能推动LINK代币需求。看多Chainlink（LINK），对其他跨链协议（如LayerZero、ZRO）偏空。",
+      "reason": "新的链上TVL数据，显示Chainlink CCIP获得重大采用，Kraken迁移是标志性事件，直接影响LINK价值预期。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "ZRO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，绝大部分事件已在历史消息中出现（CLARITY法案通过、BTC突破82000、CME期货、Binance上币、Bullish财报等），仅新增一条关于Chainlink CCIP TVL增长的消息。因此只输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1978, prompt_tokens=16613, total_tokens=18591, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1471, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=16512), prompt_cache_hit_tokens=16512, prompt_cache_miss_tokens=101)
+content length: 1387
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken迁移至Chainlink",
+      "summary": "Kraken宣布将使用Chainlink的CCIP替代LayerZero来实现跨链资产转移，这是继多个协议迁移后Chainlink CCIP TVL突破25亿美元的最新进展。此举将增加LINK的实际使用场景，利好LINK；同时LayerZero市场份额进一步流失，利空ZRO。短期可能推动LINK价格上行。",
+      "reason": "直接影响LINK和ZRO的供需与市场情绪，属于项目更新与链上异动交叉类别。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "ZRO"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367880/kraken-migrate-wrapped-bitcoin-chainlink-layerzero-exodus"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储理事米兰辞职",
+      "summary": "美联储理事斯蒂芬·米兰向总统递交辞呈，可能影响美联储内部政策立场。米兰被视为鹰派，其离职可能略微减轻紧缩压力，但具体影响需观察后续任命。对加密市场影响间接，短期中性偏多。",
+      "reason": "宏观经济人事变动可能影响未来货币政策节奏，属于宏观经济类消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512768.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前6小时内大部分消息（CLARITY法案通过、BTC突破82000、Binance上币等）已被历史覆盖，仅有两条新消息。恐惧贪婪指数34未变，不重复。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2452, prompt_tokens=16613, total_tokens=19065, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1916, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=16512), prompt_cache_hit_tokens=16512, prompt_cache_miss_tokens=101)
+content length: 1357
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储理事米兰辞职",
+      "summary": "美联储理事斯蒂芬·米兰向总统递交辞呈，可能影响未来货币政策走向。米兰在任内多次表达对通胀的担忧，其离职可能为更鸽派或更鹰派的人选让位，增加政策不确定性。该消息对BTC、ETH等风险资产构成中性偏空信号，因政策不确定性可能抑制风险偏好，但若继任者更温和则可能转为利好。",
+      "reason": "宏观经济事件，美联储理事辞职可能影响利率决策和风险资产情绪，属于优先级二的中期影响消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512768.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Chainlink CCIP TVL暴增25亿",
+      "summary": "Chainlink跨链互操作协议CCIP的TVL从不足5亿美元飙升至超过25亿美元，主要受益于Kraken Bitcoin等多个协议从LayerZero迁移。该增长表明市场对Chainlink的信任度提升，且Kraken采用CCIP作为跨链桥，进一步巩固Chainlink在DeFi基础设施中的地位。看多LINK，同时利好ETH（因为Kraken迁移的是wrapped Bitcoin相关功能）。",
+      "reason": "链上TVL异动且涉及主流交易所采用，属于优先级一的项目重大更新，可能引发LINK价格波动。",
+      "category": "链上异动",
+      "impact_coins": ["LINK", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时间窗口内核心事件（Clarity Act、CME期货、Binance上币等）已在历史消息中多次出现，且无非交易价值的更新。仅筛选出两条影响较大的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2756, prompt_tokens=18430, total_tokens=21186, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2478, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=17278)
+content length: 640
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储理事米兰辞职",
+      "summary": "美联储理事斯蒂芬·米兰向总统递交辞呈，将在凯文·沃什宣誓就任主席之日或之前生效。米兰的辞职正值美联储政策转向关键期，新任主席沃什面临通胀压力，这增加了货币政策的不确定性。历史数据显示，美联储内部变动常引发市场对利率路径的重新评估，可能对风险资产（包括加密货币）产生短期负面影响。目前市场对6月降息预期已降温，此事件可能进一步削弱宽松预期，利空BTC和ETH。",
+      "reason": "优先级二：宏观经济事件。美联储理事辞职属于重大人事变动，可能影响货币政策预期，进而影响风险资产走势。当前市场对通胀和利率高度敏感，此消息可能加剧波动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512768.html"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮其他消息均与历史重复或无交易价值，仅筛选出一条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2906, prompt_tokens=18430, total_tokens=21336, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2397, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=18304), prompt_cache_hit_tokens=18304, prompt_cache_miss_tokens=126)
+content length: 1292
+============================================================
+{
+  "news": [
+    {
+      "title": "Chainlink CCIP TVL增25亿",
+      "summary": "Chainlink跨链互操作协议CCIP的总锁仓价值（TVL）已突破25亿美元，得益于多个协议从LayerZero迁移，包括Kraken Bitcoin。Kraken成为继Kelp DAO攻击后第四个弃用LayerZero的产品。TVL增长表明Chainlink在跨链安全方面获得市场认可，可能推动LINK代币需求。对LINK看多，同时可能对其他跨链协议（如LayerZero）构成压力。",
+      "reason": "链上TVL大幅增长，显示技术和生态进展，属于项目更新，对LINK有正面影响。",
+      "category": "项目更新",
+      "impact_coins": ["LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储理事米兰辞职",
+      "summary": "美联储理事斯蒂芬·米兰向总统递交辞呈，将在凯文·沃什宣誓就任主席之日或之前生效。米兰的辞职为沃什让路，沃什近期曾警告通胀风险，市场预期其就任后可能更偏鹰派。这增加了未来货币政策收紧的风险，对风险资产包括加密货币不利。但对BTC、ETH等可能产生短期压力，看空信号。",
+      "reason": "美联储理事变动直接影响货币政策预期，属于宏观经济事件，对市场情绪有潜在影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512768.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮63条新闻中，绝大多数事件已在过去6小时历史消息中出现，仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2249, prompt_tokens=7700, total_tokens=9949, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=639, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6548)
+content length: 4268
+============================================================
+{
+  "news": [
+    {
+      "title": "Clarity Act通过参议院委员会",
+      "summary": "美国参议院银行委员会以15-9投票通过了Clarity Act加密市场结构法案，获得两党支持，预计将提交国会最终表决。这是里程碑式监管利好，直接推动比特币突破82,000美元，Coinbase等加密股大涨。该法案若通过将为加密行业提供明确监管框架，长期利好所有主流加密资产。信号：强烈看多。影响币种：BTC、ETH、所有合规币种。",
+      "reason": "优先级一：重大监管动态，直接推动BTC上涨，属于直接影响行情的消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "所有合规币种"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/14/clarity-act-clears-u-s-senate-committee-on-its-way-to-a-final-test-in-congress"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/401341/senate-banking-committee-advances-landmark-crypto-market-structure-bill-garners-some-democratic-support"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币突破82,000美元",
+      "summary": "在Clarity Act进展推动下，比特币突破82,000美元，创近期新高，Coinbase等加密股同步上涨。直接利好BTC及相关ETF。短期看多，但需注意获利回吐风险。信号：看多。影响币种：BTC。",
+      "reason": "优先级一：行情异动，直接影响交易决策。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "JPMorgan看空以太坊与山寨币",
+      "summary": "JPMorgan报告称，若无更强链上活动支撑，以太坊和山寨币可能持续跑输比特币。该机构认为比特币受益于监管清晰度和机构采用，而ETH缺乏类似催化剂。信号：看空ETH及山寨币。影响币种：ETH、主流山寨币。",
+      "reason": "优先级二：机构动向，影响中期市场情绪和资金流向。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "SOL", "AVAX"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401349/jpmorgan-bitcoin-ether-altcoins-crypto"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kraken将wBTC迁移至Chainlink",
+      "summary": "Kraken宣布将封装比特币(wBTC)技术迁移至Chainlink CCIP，同时超过25亿美元TVL从LayerZero迁移至Chainlink。这显著增强Chainlink跨链生态，利好LINK，但可能对LayerZero构成竞争压力。信号：看多LINK。影响币种：LINK。",
+      "reason": "优先级二：技术升级与项目动态，影响LINK和WBTC相关生态。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "wBTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest"},
+        {"name": "Decrypt", "url": "https://decrypt.co/367880/kraken-migrate-wrapped-bitcoin-chainlink-layerzero-exodus"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tether冻结4.5亿美元非法资金",
+      "summary": "Tether与Tron、TRM Labs合作冻结了4.5亿美元与非法活动相关的加密资金，涉及洗钱和诈骗。此举显示行业自律加强，短期利好市场信心和合规性，但不会直接影响价格。信号：中性偏利好。影响币种：USDT、USDC。",
+      "reason": "优先级二：链上异动，但金额大，反映监管合作。",
+      "category": "链上异动",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/367874/tether-tron-trm-financial-crime-unit-frozen-450-million-crypto-funds"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线Gensyn与MegaETH",
+      "summary": "Binance宣布上线Gensyn (AIGENSYN) 和 MegaETH (MEGA)，并开放对应合约交易。新币上线通常带来短期交易机会和波动，但对整体市场影响有限。信号：中性（利好新币）。影响币种：AIGENSYN、MEGA。",
+      "reason": "优先级一：交易所上币，直接影响对应币种流动性及价格。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN", "MEGA"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"},
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至34",
+      "summary": "Alternative.me数据显示当前恐惧贪婪指数为34（恐惧），处于低位，通常意味着市场情绪悲观，但历史上该区间往往是中长期买入机会。短期可能继续震荡，但中期偏多。信号：中性偏多。影响币种：BTC、ETH。",
+      "reason": "优先级三：市场情绪信号，辅助判断。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}

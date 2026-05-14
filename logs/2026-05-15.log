@@ -246,3 +246,152 @@
 2026-05-14 18:01:28 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
 2026-05-14 18:01:28 [INFO] 📦 JSON 已保存: reports/2026-05-15-02.json
 2026-05-14 18:01:28 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-05-14 19:00:43 [INFO] 🚀 开始抓取 2026-05-15 03:00 币圈新闻
+2026-05-14 19:00:43 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-14 19:00:43 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-14 19:00:44 [INFO]   ⏭ The Block: 过滤掉 15 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ Decrypt: 过滤掉 45 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 9 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ Reuters Crypto: 过滤掉 49 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ CoinDesk: 过滤掉 22 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 21 条非近期新闻
+2026-05-14 19:00:44 [INFO]   ⏭ CNBC Crypto: 过滤掉 48 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 20 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ CoinTelegraph: 过滤掉 21 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ Blockworks: 过滤掉 6 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ 吴说区块链: 过滤掉 43 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-14 19:00:45 [INFO]   ⏭ Crypto Twitter: 过滤掉 38 条非近期新闻
+2026-05-14 19:00:48 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-14 19:00:48 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-14 19:00:48 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-14 19:01:00 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-14 19:01:00 [INFO]   ✓ CoinDesk: 3 条
+2026-05-14 19:01:00 [INFO]   ✓ The Block: 5 条
+2026-05-14 19:01:00 [INFO]   ✓ Decrypt: 5 条
+2026-05-14 19:01:00 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ Bitcoin Magazine: 1 条
+2026-05-14 19:01:00 [INFO]   ✓ Blockworks: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ DL News: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ 金色财经: 3 条
+2026-05-14 19:01:00 [INFO]   ✓ PANews: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ Reuters Crypto: 1 条
+2026-05-14 19:01:00 [INFO]   ✓ CNBC Crypto: 2 条
+2026-05-14 19:01:00 [INFO]   ✓ Reddit r/cryptocurrency: 5 条
+2026-05-14 19:01:00 [INFO]   ✓ Reddit r/bitcoin: 4 条
+2026-05-14 19:01:00 [INFO]   ✓ Crypto Twitter: 12 条
+2026-05-14 19:01:00 [INFO]   ✓ 宏观经济: 1 条
+2026-05-14 19:01:00 [INFO]   ✓ Binance公告: 20 条
+2026-05-14 19:01:00 [INFO]   ✓ OKX公告: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ Bitget公告: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ Whale Alert: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-14 19:01:00 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-14 19:01:00 [INFO]   ✓ 雪球加密: 0 条
+2026-05-14 19:01:00 [INFO] 📊 共抓取 63 条新闻
+2026-05-14 19:01:00 [INFO] 📋 原始新闻已保存: reports/2026-05-15-03-raw.json (63 条)
+2026-05-14 19:01:00 [INFO] 📋 标题摘要已保存: reports/2026-05-15-03-raw-titles.md
+2026-05-14 19:01:00 [INFO] ✅ 抓取完成，共 63 条，已保存到 reports/2026-05-15-03-raw.json
+2026-05-14 19:01:00 [INFO] 🤖 开始 AI 筛选 2026-05-15 03:00 币圈消息
+2026-05-14 19:01:00 [INFO] 📋 已加载原始新闻: reports/2026-05-15-03-raw.json (63 条)
+2026-05-14 19:01:00 [INFO] 📚 已加载历史新闻标题（30130 字符）
+2026-05-14 19:01:00 [INFO] 📚 已加载历史筛选标题 16 条、URL 16 个，用于去重
+2026-05-14 19:01:00 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-14 19:01:00 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-14 19:01:00 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（63 条，14620 字符，temp=0.3）
+2026-05-14 19:01:19 [INFO] AI 原始返回已保存: logs/2026-05-15-ai-response.txt (finish_reason=stop, 876 字符)
+2026-05-14 19:01:19 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-15-03-ai-raw.json
+2026-05-14 19:01:19 [DEBUG] parse_json_response 输入长度: 876 字符
+2026-05-14 19:01:19 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Chainlink CCIP TVL增25亿",
+      "summary": "The Block报道，Chainlink的跨链互操作协议CCIP已从LayerZero迁移的协议中获得超过25亿美元的总锁定价值（TVL）。最新加入的是Kraken，将把其比特币桥技术从LayerZero迁移至Chainlink。这意味着Chainlink CCIP的采用快速增长，可能推动LINK代币需求。看多Chainlink（LINK），对其他跨链协议（如LayerZero、ZRO）偏空。",
+      "reason": "新的
+2026-05-14 19:01:19 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-14 19:01:19 [INFO] ✅ AI 返回 1 条新闻
+2026-05-14 19:01:19 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-14 19:01:19 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（63 条，14620 字符，temp=0.3）
+2026-05-14 19:01:39 [INFO] AI 原始返回已保存: logs/2026-05-15-ai-response.txt (finish_reason=stop, 1387 字符)
+2026-05-14 19:01:39 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-15-03-ai-raw.json
+2026-05-14 19:01:39 [DEBUG] parse_json_response 输入长度: 1387 字符
+2026-05-14 19:01:39 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Kraken迁移至Chainlink",
+      "summary": "Kraken宣布将使用Chainlink的CCIP替代LayerZero来实现跨链资产转移，这是继多个协议迁移后Chainlink CCIP TVL突破25亿美元的最新进展。此举将增加LINK的实际使用场景，利好LINK；同时LayerZero市场份额进一步流失，利空ZRO。短期可能推动LINK价格上行。",
+      "reason": "直接影响LINK和ZRO的供需与市场情绪，属于项目更新与链上异动交叉类别。",
+      "categ
+2026-05-14 19:01:39 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-14 19:01:39 [INFO] ✅ AI 返回 2 条新闻
+2026-05-14 19:01:39 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-14 19:01:39 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（63 条，14620 字符，temp=0.3）
+2026-05-14 19:02:05 [INFO] AI 原始返回已保存: logs/2026-05-15-ai-response.txt (finish_reason=stop, 1357 字符)
+2026-05-14 19:02:05 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-15-03-ai-raw.json
+2026-05-14 19:02:05 [DEBUG] parse_json_response 输入长度: 1357 字符
+2026-05-14 19:02:05 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "美联储理事米兰辞职",
+      "summary": "美联储理事斯蒂芬·米兰向总统递交辞呈，可能影响未来货币政策走向。米兰在任内多次表达对通胀的担忧，其离职可能为更鸽派或更鹰派的人选让位，增加政策不确定性。该消息对BTC、ETH等风险资产构成中性偏空信号，因政策不确定性可能抑制风险偏好，但若继任者更温和则可能转为利好。",
+      "reason": "宏观经济事件，美联储理事辞职可能影响利率决策和风险资产情绪，属于优先级二的中期影响消息。",
+      "category": "宏观经济",
+      "i
+2026-05-14 19:02:05 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-14 19:02:05 [INFO] ✅ AI 返回 2 条新闻
+2026-05-14 19:02:05 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-05-14 19:02:05 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（63 条，20884 字符，temp=0.3）
+2026-05-14 19:02:31 [INFO] AI 原始返回已保存: logs/2026-05-15-ai-response.txt (finish_reason=stop, 640 字符)
+2026-05-14 19:02:31 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-15-03-ai-raw.json
+2026-05-14 19:02:31 [DEBUG] parse_json_response 输入长度: 640 字符
+2026-05-14 19:02:31 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "美联储理事米兰辞职",
+      "summary": "美联储理事斯蒂芬·米兰向总统递交辞呈，将在凯文·沃什宣誓就任主席之日或之前生效。米兰的辞职正值美联储政策转向关键期，新任主席沃什面临通胀压力，这增加了货币政策的不确定性。历史数据显示，美联储内部变动常引发市场对利率路径的重新评估，可能对风险资产（包括加密货币）产生短期负面影响。目前市场对6月降息预期已降温，此事件可能进一步削弱宽松预期，利空BTC和ETH。",
+      "reason": "优先级二：宏观经济事件。美联储理事辞职属于重大人事变动，可能影响货币政
+2026-05-14 19:02:31 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-14 19:02:31 [INFO] ✅ AI 返回 1 条新闻
+2026-05-14 19:02:31 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-14 19:02:31 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（63 条，20884 字符，temp=0.3）
+2026-05-14 19:02:59 [INFO] AI 原始返回已保存: logs/2026-05-15-ai-response.txt (finish_reason=stop, 1292 字符)
+2026-05-14 19:02:59 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-15-03-ai-raw.json
+2026-05-14 19:02:59 [DEBUG] parse_json_response 输入长度: 1292 字符
+2026-05-14 19:02:59 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Chainlink CCIP TVL增25亿",
+      "summary": "Chainlink跨链互操作协议CCIP的总锁仓价值（TVL）已突破25亿美元，得益于多个协议从LayerZero迁移，包括Kraken Bitcoin。Kraken成为继Kelp DAO攻击后第四个弃用LayerZero的产品。TVL增长表明Chainlink在跨链安全方面获得市场认可，可能推动LINK代币需求。对LINK看多，同时可能对其他跨链协议（如LayerZero）构成压力。",
+      "reason": "链上TVL大幅
+2026-05-14 19:02:59 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-14 19:02:59 [INFO] ✅ AI 返回 2 条新闻
+2026-05-14 19:02:59 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-14 19:02:59 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（63 条，14620 字符，temp=0.3）
+2026-05-14 19:03:17 [INFO] AI 原始返回已保存: logs/2026-05-15-ai-response.txt (finish_reason=stop, 4268 字符)
+2026-05-14 19:03:17 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-15-03-ai-raw.json
+2026-05-14 19:03:17 [DEBUG] parse_json_response 输入长度: 4268 字符
+2026-05-14 19:03:17 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Clarity Act通过参议院委员会",
+      "summary": "美国参议院银行委员会以15-9投票通过了Clarity Act加密市场结构法案，获得两党支持，预计将提交国会最终表决。这是里程碑式监管利好，直接推动比特币突破82,000美元，Coinbase等加密股大涨。该法案若通过将为加密行业提供明确监管框架，长期利好所有主流加密资产。信号：强烈看多。影响币种：BTC、ETH、所有合规币种。",
+      "reason": "优先级一：重大监管动态，直接推动BTC上涨，属于直接影响行情的消息。",
+  
+2026-05-14 19:03:17 [DEBUG] 从 JSON 对象的 news 字段提取到 7 条记录
+2026-05-14 19:03:17 [INFO] ✅ AI 返回 7 条新闻
+2026-05-14 19:03:17 [INFO] ✅ AI 筛选出 7 条交易相关消息，符合预期
+2026-05-14 19:03:17 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
+2026-05-14 19:03:17 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-14 19:03:17 [DEBUG]   去重: 「JPMorgan看空以太坊与山寨币」 → URL重复: https://www.theblock.co/post/401349/jpmorgan-bitcoin-ether-a
+2026-05-14 19:03:17 [INFO] 📦 JSON 已保存: reports/2026-05-15-03.json
+2026-05-14 19:03:17 [INFO] ✅ AI 筛选完成，共 6 条交易相关消息

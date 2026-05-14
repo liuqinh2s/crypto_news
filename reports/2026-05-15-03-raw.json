@@ -1,0 +1,449 @@
+{
+  "date": "2026-05-15",
+  "hour": "03",
+  "total": 63,
+  "fetched_at": "2026-05-15T03:00:43.890436+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances",
+      "published": "Thu, 14 May 2026 17:51:00 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cerebras shares skyrocket 100% after $5.5B IPO amid AI stock frenzy",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy",
+      "published": "Thu, 14 May 2026 17:12:17 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Clarity Act clears U.S. Senate committee, on its way to a final test in Congress",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/05/14/clarity-act-clears-u-s-senate-committee-on-its-way-to-a-final-test-in-congress",
+      "published": "Thu, 14 May 2026 17:08:07 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Chainlink CCIP gains over $2.5 billion in TVL from protocols migrating from LayerZero, with Kraken Bitcoin the latest to join",
+      "summary": "<p>Kraken Bitcoin is at least the fourth product to deprecate its LayerZero cross-chain tech following the Kelp DAO attack.</p>",
+      "link": "https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 14 May 2026 14:33:27 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Strive shares jump on ‘daily dividend company’ strategy as firm goes debt free",
+      "summary": "<p>Strive said SATA will become the first U.S.-listed security to pay cash dividends every business day as its BTC holdings climb.</p>",
+      "link": "https://www.theblock.co/post/401332/strive-shares-7-daily-dividend-company-strategy-firm-debt-free?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 14 May 2026 13:54:48 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "JPMorgan says ether and altcoins could keep underperforming bitcoin without stronger activity",
+      "summary": "<p>That is \"unlikely to change unless we see meaningful improvements in network activity, DeFi and real world applications,\" the analysts said.</p>",
+      "link": "https://www.theblock.co/post/401349/jpmorgan-bitcoin-ether-altcoins-crypto?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 14 May 2026 13:42:55 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Crypto exchange Bullish reports $604.9 million net loss in Q1, with growth on adjusted basis",
+      "summary": "<p>“We're pleased with our Q1 results and we're even more excited about what comes next,” CEO Tom Farley said.</p>",
+      "link": "https://www.theblock.co/post/401336/crypto-exchange-bullish-reports-604-9-million-net-loss-in-q1-with-growth-on-adjusted-basis?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 14 May 2026 13:13:46 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Senate Banking Committee advances landmark crypto market structure bill, garners some Democratic support",
+      "summary": "<p>Landmark legislation to regulate the digital asset industry at large squeezed past a committee following months of strained deliberations.</p>",
+      "link": "https://www.theblock.co/post/401341/senate-banking-committee-advances-landmark-crypto-market-structure-bill-garners-some-democratic-support?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 14 May 2026 13:02:22 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "ChatGPT Is Losing Ground to Rivals—Here Are Some Numbers",
+      "summary": "ChatGPT's web traffic share is falling while its rivals are rising—just as businesses start to look beyond OpenAI.",
+      "link": "https://decrypt.co/367884/chatgpt-losing-ground-anthrophic-google-numbers",
+      "published": "Thu, 14 May 2026 18:44:58 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI Confirms Security Breach Linked to AI Malware Campaign",
+      "summary": "OpenAI says malware tied to the Shai-Hulud supply chain attack accessed internal repositories after infecting two employee devices.",
+      "link": "https://decrypt.co/367883/openai-confirms-security-breach-ai-malware-campaign",
+      "published": "Thu, 14 May 2026 18:30:33 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Kraken to Migrate Wrapped Bitcoin Tech to Chainlink as LayerZero Exodus Expands",
+      "summary": "Crypto exchange Kraken is the latest firm to shift away from LayerZero tech following last month's $292 million Kelp DAO exploit.",
+      "link": "https://decrypt.co/367880/kraken-migrate-wrapped-bitcoin-chainlink-layerzero-exodus",
+      "published": "Thu, 14 May 2026 18:09:49 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Agents May Complete Dangerous Tasks Without Understanding the Consequences: Study",
+      "summary": "Researchers found that AI agents designed to automate tasks often pursue them without recognizing when their actions are dangerous.",
+      "link": "https://decrypt.co/367869/ai-agents-dangerous-tasks-without-understanding-consequences",
+      "published": "Thu, 14 May 2026 17:32:31 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tether, Tron and TRM Financial Crime Unit Has Frozen $450 Million in Illicit Crypto Funds",
+      "summary": "A public-private partnership among Tether, Tron, and TRM Labs is expanding its global reach, working with law enforcement in 23 countries.",
+      "link": "https://decrypt.co/367874/tether-tron-trm-financial-crime-unit-frozen-450-million-crypto-funds",
+      "published": "Thu, 14 May 2026 17:16:12 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Senate Banking Committee Advances Clarity Act, Two Democrats Break Ranks in 15-9 Vote",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/05/Senate-Banking-Committee-Advances-Clarity-Act-Two-Democrats-Break-Ranks-in-15-9-Vote.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/senate-committee-advances-clarity-act\" rel=\"nofollow\">Senate Banking Committee Advances Clarity Act, Two Democrats Break Ranks in 15-9 Vote</a></p>\n<p>The Senate Banking",
+      "link": "https://bitcoinmagazine.com/news/senate-committee-advances-clarity-act",
+      "published": "Thu, 14 May 2026 17:30:48 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "xAI正式推出Grok Build早期测试版",
+      "summary": "【xAI正式推出Grok Build早期测试版】金色财经报道，5月15日，xAI正式推出Grok Build早期测试版，旨在为超级Grok重度用户提供编码代理服务。<p>原文链接: <a href=\"https://www.cls.cn/detail/2371797\">https://www.cls.cn/detail/2371797</a></p>",
+      "link": "https://jinse.com.cn/lives/512769.html",
+      "published": "Thu, 14 May 2026 18:48:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美联储理事斯蒂芬·米兰向总统递交辞呈",
+      "summary": "【美联储理事斯蒂芬·米兰向总统递交辞呈】金色财经报道，5月15日，美联储理事斯蒂芬·米兰向总统递交辞呈，将在凯文·沃什宣誓就任主席之日或之前不久生效。<p>原文链接: <a href=\"https://www.cls.cn/detail/2371793\">https://www.cls.cn/detail/2371793</a></p>",
+      "link": "https://jinse.com.cn/lives/512768.html",
+      "published": "Thu, 14 May 2026 18:48:03 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Cerebras Systems (CBRS) 在纳斯达克首日开盘价为350美元",
+      "summary": "【Cerebras Systems (CBRS) 在纳斯达克首日开盘价为350美元】金色财经报道，5月15日，Cerebras Systems (股票代码：CBRS) 股票在纳斯达克首日开盘价为 350 美元，高于 185 美元的 IPO 发行价。",
+      "link": "https://jinse.com.cn/lives/512767.html",
+      "published": "Thu, 14 May 2026 18:37:59 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "US Senate committee advances crypto bill in milestone for digital assets - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOck5sSTR3MEhWMC1ydmZQSG1vMEdBdmpxT2lLUkY1Q0hoeDZTLVA5ajQyVUkzUDRJb0lUZ3JOYWhRV2oxWHNtb1dUaVlMYllTX2N6OTZSLVUwOGxfTlFsWUppS0hxMVRwNUxpR2x5MTg0dllRS0dQT2VMb1NvVGRzM1ZIZ3h2QlVjQUs2VGtyQW1wM3A0RjVEUjZ2RTY3NVZlSm56RFBIbmlzVUVIX1ZSNWN0SU83Y013Qnc?oc=5\" target=\"_blank\">US Senate committee advances crypto bill in milestone for digital assets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOck5sSTR3MEhWMC1ydmZQSG1vMEdBdmpxT2lLUkY1Q0hoeDZTLVA5ajQyVUkzUDRJb0lUZ3JOYWhRV2oxWHNtb1dUaVlMYllTX2N6OTZSLVUwOGxfTlFsWUppS0hxMVRwNUxpR2x5MTg0dllRS0dQT2VMb1NvVGRzM1ZIZ3h2QlVjQUs2VGtyQW1wM3A0RjVEUjZ2RTY3NVZlSm56RFBIbmlzVUVIX1ZSNWN0SU83Y013Qnc?oc=5",
+      "published": "Thu, 14 May 2026 17:13:37 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Retail investors have a new 'toy' for speculation, Barclays says - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQZnoyVk1EUjZkbkpzc1NWMDVidmRLNlR4U2FnSmhScGJPX2JieXVDU3Z5Nk83SkFIWmp2cVE1anZOV3JvSmlub1JROHEza1lqeTJCUFdYbmU0aEtrczJ4eW1YX2Y3MEdXZmxKNjFEdmZ0bWk2RTJSZ3Q3LVZ3SXBvWTNmRHM4Z3RkTGVXWW9MZ085SEIyRkh2bXNlMUNYWjB0QWM0dlRR0gGrAUFVX3lxTE95QUhDdjhuM2VNdG5vd3d0eXhjb1I0LWVxS25sUTVtQUZMSElDLTc3T01IMFZNa21wTk51OWkyNElpVkV6VGJqdzA2ZE9ySnNnNVNzcldBRzQzS05BX3FrNHVqRmEyS3NJWklxa0dSeUw4c3Z4WXNnenZSb1JPVXQ2RExlSmo5R1EyWUlJZDl6ZFcxZlNBbVdpUFMzaEFSTkZ0MDJlT2",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZnoyVk1EUjZkbkpzc1NWMDVidmRLNlR4U2FnSmhScGJPX2JieXVDU3Z5Nk83SkFIWmp2cVE1anZOV3JvSmlub1JROHEza1lqeTJCUFdYbmU0aEtrczJ4eW1YX2Y3MEdXZmxKNjFEdmZ0bWk2RTJSZ3Q3LVZ3SXBvWTNmRHM4Z3RkTGVXWW9MZ085SEIyRkh2bXNlMUNYWjB0QWM0dlRR0gGrAUFVX3lxTE95QUhDdjhuM2VNdG5vd3d0eXhjb1I0LWVxS25sUTVtQUZMSElDLTc3T01IMFZNa21wTk51OWkyNElpVkV6VGJqdzA2ZE9ySnNnNVNzcldBRzQzS05BX3FrNHVqRmEyS3NJWklxa0dSeUw4c3Z4WXNnenZSb1JPVXQ2RExlSmo5R1EyWUlJZDl6ZFcxZlNBbVdpUFMzaEFSTkZ0MDJlT2VrV2ROYw?oc=5",
+      "published": "Thu, 14 May 2026 17:30:13 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "These three artworks could sell for $100 million each next week as May auctions begin - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBBRTMwSnJSUG04c1dBS25SMklRbkVGTzJCLWhEZTNOX1NXNWdFSmdRNTRqZ204SlRlNkpMc0tzTXN2TVBMZFpBcmxtblhsbkgyLXdCbEFoRU91aE1OSzRVZWU3YWFWWnNwZllaQXR5dUk4akJTT3BOTNIBfkFVX3lxTFBaZDVHellVbC16Qm5wVG1uYnROcGZRQWktRGZOYno0Q0k3THI0UFpjdndKTVVDU1d3eWdKeS1ZVTJSdDJjSURWaC1QY3diNjVzLTlsNmQtcERpV2ZHa1cxOWtUVTNUSVR5eWxtOFJ2N3A3V0F4LWJzR1k2STVKUQ?oc=5\" target=\"_blank\">These three artworks could sell for $100 million each next week as May auctions begin</a>&nbs",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBRTMwSnJSUG04c1dBS25SMklRbkVGTzJCLWhEZTNOX1NXNWdFSmdRNTRqZ204SlRlNkpMc0tzTXN2TVBMZFpBcmxtblhsbkgyLXdCbEFoRU91aE1OSzRVZWU3YWFWWnNwZllaQXR5dUk4akJTT3BOTNIBfkFVX3lxTFBaZDVHellVbC16Qm5wVG1uYnROcGZRQWktRGZOYno0Q0k3THI0UFpjdndKTVVDU1d3eWdKeS1ZVTJSdDJjSURWaC1QY3diNjVzLTlsNmQtcERpV2ZHa1cxOWtUVTNUSVR5eWxtOFJ2N3A3V0F4LWJzR1k2STVKUQ?oc=5",
+      "published": "Thu, 14 May 2026 17:20:45 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "We Banned Memes 8 Years Ago",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1td5fzd/we_banned_memes_8_years_ago/\"> <img alt=\"We Banned Memes 8 Years Ago\" src=\"https://preview.redd.it/ec2wx7s1351h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b61a4f322b0cafd5f794ecfe145fe4342243fc3e\" title=\"We Banned Memes 8 Years Ago\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rickribera93\"> /u/rickribera93 </a> <br /> <span><a href=\"https://i.redd.it/ec2wx7s1351h1.png\">[l",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1td5fzd/we_banned_memes_8_years_ago/",
+      "published": "2026-05-14T17:40:43+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Senate Banking Committee advances landmark crypto market structure bill, garners some Democratic support",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kirtash93\"> /u/kirtash93 </a> <br /> <span><a href=\"https://www.theblock.co/post/401341/senate-banking-committee-advances-landmark-crypto-market-structure-bill-garners-some-democratic-support\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1td4z0u/senate_banking_committee_advances_landmark_crypto/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1td4z0u/senate_banking_committee_advances_landmark_crypto/",
+      "published": "2026-05-14T17:24:21+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Ripple Wallet?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>My brother in law passed away a couple years ago and my mother in law finally got probate court docs. We have a scrap of paper that simply says &quot;Ripple Wallet&quot; with a username and password.</p> <p>I'm not sure where this login would even be located as I don't see any form of a wallet online. I dabbled in BTC a long time ago and then Coinbase. Apparently, he had assets in Coinbase which the probabe docs are going to take care of (assuming",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1td530m/ripple_wallet/",
+      "published": "2026-05-14T17:28:14+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Quickend 9.0 for mac now supports crypto natively",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rory_culpepper\"> /u/rory_culpepper </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1td7gex\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1td7hrn/quickend_90_for_mac_now_supports_crypto_natively/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1td7hrn/quickend_90_for_mac_now_supports_crypto_natively/",
+      "published": "2026-05-14T18:50:27+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Looking for some input on my security setup",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>In 2022 I bought a ledger wallet after throwing some money into BTC in the fall of that year. I've mostly just been having it sit there along with a couple alts but now that it's growing exponentially over time I'm starting to take security much more seriously.</p> <p>When I set this up I copied the seed phrase down, no pictures or exposure online. However, I didn't bother setting up a passphrase because I didn't think it was necessary. I also deposited like $10",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1td5wu4/looking_for_some_input_on_my_security_setup/",
+      "published": "2026-05-14T17:56:41+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Bitcoin investment",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys I just started up a coinbase account to dabble with some online trading as I’ve been trying to get financial security for me and my daughter in the near future. Is bitcoin worth investing in for the long haul 5/10 years? If so what do u see the market value rising too? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Afraid-Basil4682\"> /u/Afraid-Basil4682 </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/c",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1td6hqn/bitcoin_investment/",
+      "published": "2026-05-14T18:15:45+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Umbrella bitcoin node",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've previously run my bitcoin core node on a headless Ubuntu server. I decided to no longer use Ubuntu for various reasons. Last night I set up umbrella, and installed the bitcoin node. It appears to be a modified version of core. I have found the github for umbrel. I didn't find bitcoin node. Can anyone point me to the github? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OwnConflict5118\"> /u/OwnConflict5118 </a> <br /",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1td5d90/umbrella_bitcoin_node/",
+      "published": "2026-05-14T17:38:13+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "0.10% APY Kraken Opt-in rewards for Bitcoin",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I noticed Kraken’s &quot;Opt-in Rewards&quot; program for BTC at 0.10%APY (instant unbound, 0.15% for 30 days lock) .</p> <p>Given the history of &quot;earn&quot; programs on other exchanges, do you trust Kraken enough to leave BTC sitting there for this low API? I have about 80% of my BTC in cold, and they will never leave except for other life investement but I am wondering if it is worth the risk to gain this little bonus.</p> <p><a href=\"https://support.krak",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1td5e4l/010_apy_kraken_optin_rewards_for_bitcoin/",
+      "published": "2026-05-14T17:39:01+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Breaking: Crypto industry scores win as Clarity Act regulation bill clears Senate hurdle",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1td7nm9/breaking_crypto_industry_scores_win_as_clarity/\"> <img alt=\"Breaking: Crypto industry scores win as Clarity Act regulation bill clears Senate hurdle\" src=\"https://external-preview.redd.it/iQ2HGwqeRTKpUuuUea1w38fhklZrK_Rc_IoMfk0hSyU.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4c0c22c6f6ee8b44327a9d2618e4e0e3aeebbfb0\" title=\"Breaking: Crypto industry scores win as Clarity Act regulation bill clears Senate hurdle\" />",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1td7nm9/breaking_crypto_industry_scores_win_as_clarity/",
+      "published": "2026-05-14T18:56:10+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "US Senate committee advances crypto bill in milestone for digital assets - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOck5sSTR3MEhWMC1ydmZQSG1vMEdBdmpxT2lLUkY1Q0hoeDZTLVA5ajQyVUkzUDRJb0lUZ3JOYWhRV2oxWHNtb1dUaVlMYllTX2N6OTZSLVUwOGxfTlFsWUppS0hxMVRwNUxpR2x5MTg0dllRS0dQT2VMb1NvVGRzM1ZIZ3h2QlVjQUs2VGtyQW1wM3A0RjVEUjZ2RTY3NVZlSm56RFBIbmlzVUVIX1ZSNWN0SU83Y013Qnc?oc=5\" target=\"_blank\">US Senate committee advances crypto bill in milestone for digital assets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOck5sSTR3MEhWMC1ydmZQSG1vMEdBdmpxT2lLUkY1Q0hoeDZTLVA5ajQyVUkzUDRJb0lUZ3JOYWhRV2oxWHNtb1dUaVlMYllTX2N6OTZSLVUwOGxfTlFsWUppS0hxMVRwNUxpR2x5MTg0dllRS0dQT2VMb1NvVGRzM1ZIZ3h2QlVjQUs2VGtyQW1wM3A0RjVEUjZ2RTY3NVZlSm56RFBIbmlzVUVIX1ZSNWN0SU83Y013Qnc?oc=5",
+      "published": "Thu, 14 May 2026 17:13:37 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Clarity Act Gets Major Boost as Crypto Bill Gets Bipartisan Support - Barron's",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNSm8xNVhPc3FXQzhUbkpKVXh2WEo3dzlMeVBDWUtpYS1aSGRZd1JqZ2h6blN6QVB2ZzItMm9jYkxDR2xOZ2lhWWY4ZkhvTUZYQzVYRmlYd2ZjY2NEeHlxREZvaGM4M29rVWp5TTdxcGhUczZWTDVpemhaYW5wNDV4M3J3RkNMWDlSUklyUVlNSEZyb0I1ZlJuTA?oc=5\" target=\"_blank\">Clarity Act Gets Major Boost as Crypto Bill Gets Bipartisan Support</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSm8xNVhPc3FXQzhUbkpKVXh2WEo3dzlMeVBDWUtpYS1aSGRZd1JqZ2h6blN6QVB2ZzItMm9jYkxDR2xOZ2lhWWY4ZkhvTUZYQzVYRmlYd2ZjY2NEeHlxREZvaGM4M29rVWp5TTdxcGhUczZWTDVpemhaYW5wNDV4M3J3RkNMWDlSUklyUVlNSEZyb0I1ZlJuTA?oc=5",
+      "published": "Thu, 14 May 2026 17:35:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Vault: Clarity Act advances, Crypto tax on slow track - Punchbowl News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9RUUpESzI3RFRZb2FhR0FmS0xOUktiOEhXNjJMWXdjSmRDdnUzZmI3ZnNOUndVbnJ3SkU0N0c1ck9OREU4UG5pR1kxZ2JjdHo0TGZBREpYbExORXNua2RncXMzSVlNcDFKcjRFTkln?oc=5\" target=\"_blank\">Vault: Clarity Act advances, Crypto tax on slow track</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Punchbowl News</font>",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RUUpESzI3RFRZb2FhR0FmS0xOUktiOEhXNjJMWXdjSmRDdnUzZmI3ZnNOUndVbnJ3SkU0N0c1ck9OREU4UG5pR1kxZ2JjdHo0TGZBREpYbExORXNua2RncXMzSVlNcDFKcjRFTkln?oc=5",
+      "published": "Thu, 14 May 2026 17:05:01 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaEYyeDNLTy1VN3p6dGZSS0lGSU9SbHZId09kM1ZGWWRWY2NFRzR4aWNjYnRtSzYzSFQ0eUZrQW94UHg5TnRJOWJJbWxpcU1ES1lrdkpySG4xVHR0azFBVnRHMTA5ZlZiLW8zV0Y4RVZiZ1g2THJ1cTR3cEdSdk1HV1Zac1o2RlktMGRpVWE0UWJiMWZQSTlad0c3N3ZGT2ZHc3Z2S1BuMHNMOU50V0U4NFc1OGJ3bW4tNVdsUUpRT0JBQQ?oc=5\" target=\"_blank\">Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity act advances</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaEYyeDNLTy1VN3p6dGZSS0lGSU9SbHZId09kM1ZGWWRWY2NFRzR4aWNjYnRtSzYzSFQ0eUZrQW94UHg5TnRJOWJJbWxpcU1ES1lrdkpySG4xVHR0azFBVnRHMTA5ZlZiLW8zV0Y4RVZiZ1g2THJ1cTR3cEdSdk1HV1Zac1o2RlktMGRpVWE0UWJiMWZQSTlad0c3N3ZGT2ZHc3Z2S1BuMHNMOU50V0U4NFc1OGJ3bW4tNVdsUUpRT0JBQQ?oc=5",
+      "published": "Thu, 14 May 2026 17:51:51 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "The Clarity Act to Advance in the Senate, Pitting Banks Against Crypto and VC - inc.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmQ1VlFSbHNKQ0NiNVZaUGdNbklRVFNtRkl1aTZ0R3RheGJyOW1jdTloOVVUaDN5NXN5MTRaR2MzX2cta2Fka2VpRWdZREF3ZVlDZmctSlVaYVREdC0tQ0NDY3JjbGxORVZxT2pEaC1VR1FHaTE1WEMycjRrdlhkOGVvUkdTUmZKQWV2cVFldVBtaWNlM1lWd1BoUjFVMmxRSUQtM2R1cndrRXlNZ3VvWUN0VnZXSDhXLXplcQ?oc=5\" target=\"_blank\">The Clarity Act to Advance in the Senate, Pitting Banks Against Crypto and VC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">inc.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmQ1VlFSbHNKQ0NiNVZaUGdNbklRVFNtRkl1aTZ0R3RheGJyOW1jdTloOVVUaDN5NXN5MTRaR2MzX2cta2Fka2VpRWdZREF3ZVlDZmctSlVaYVREdC0tQ0NDY3JjbGxORVZxT2pEaC1VR1FHaTE1WEMycjRrdlhkOGVvUkdTUmZKQWV2cVFldVBtaWNlM1lWd1BoUjFVMmxRSUQtM2R1cndrRXlNZ3VvWUN0VnZXSDhXLXplcQ?oc=5",
+      "published": "Thu, 14 May 2026 17:59:48 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Senate Banking Committee advances Clarity Act crypto bill - qz.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9fa01iTkhWZEtFbmZMbHNjVDRsVGVvTlRFclFYa0YzRVJYb0FsaGRUdWxKWGxuWDE2Tl9wT2F4NThRX0Vaek1CRWFQOFo2eDdNeFdXQTNBbnRnQnE5M0NFSzJaSXotNmJfUjF1d3lTaHNuTzRUdV9maWtR?oc=5\" target=\"_blank\">Senate Banking Committee advances Clarity Act crypto bill</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fa01iTkhWZEtFbmZMbHNjVDRsVGVvTlRFclFYa0YzRVJYb0FsaGRUdWxKWGxuWDE2Tl9wT2F4NThRX0Vaek1CRWFQOFo2eDdNeFdXQTNBbnRnQnE5M0NFSzJaSXotNmJfUjF1d3lTaHNuTzRUdV9maWtR?oc=5",
+      "published": "Thu, 14 May 2026 17:33:25 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Webcast: Bitcoin, Bitcoin Mining, and Digital Power - ETF Trends",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPdlFBY1h4c0VraXo1WEJENW9fYXZTN2JMWWhjRmpoNkctOEJteXZrZGlWUTRNNHRDT3hGRG1rQjdLV285MkxzZXVkbmlfeTBHZFoyZnFwODhPT1Eydi1HYmd2T2hCUEh6WGdHYWZuMFRtMlBfUVVxX1Q0TXFiekFlMC1oOUloZTJDdDNXMGRSblRMNGRJdmFCRk1ad21mQQ?oc=5\" target=\"_blank\">Webcast: Bitcoin, Bitcoin Mining, and Digital Power</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ETF Trends</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdlFBY1h4c0VraXo1WEJENW9fYXZTN2JMWWhjRmpoNkctOEJteXZrZGlWUTRNNHRDT3hGRG1rQjdLV285MkxzZXVkbmlfeTBHZFoyZnFwODhPT1Eydi1HYmd2T2hCUEh6WGdHYWZuMFRtMlBfUVVxX1Q0TXFiekFlMC1oOUloZTJDdDNXMGRSblRMNGRJdmFCRk1ad21mQQ?oc=5",
+      "published": "Thu, 14 May 2026 17:11:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Stocks Surge As Senate Committee Advances Long-Stalled CLARITY Act - Forbes",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT0RHX2FpN3lZRVduMzlvMjZxWXVvNVVNRjU3RncwdDhVZ3AxWkdncndURkVhZmxfdWw0Z2lUMzlaVDVPUWFvajZzTi1qMDJlbDlWMVJrV0VBTno2ZzVEZHpjMWYwalRhVkhfRVlzdXFDSnJDS1FmXzBYTi1nVkNzUm5zUmJ1aEtBakZpWjNXSVkzV1VVWEZKcHItRERjNTFYQTNxWEg5RHNSc0hEX2IwY1BXLUVEVUxNVVF4QUVJTUI0YjQ?oc=5\" target=\"_blank\">Crypto Stocks Surge As Senate Committee Advances Long-Stalled CLARITY Act</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT0RHX2FpN3lZRVduMzlvMjZxWXVvNVVNRjU3RncwdDhVZ3AxWkdncndURkVhZmxfdWw0Z2lUMzlaVDVPUWFvajZzTi1qMDJlbDlWMVJrV0VBTno2ZzVEZHpjMWYwalRhVkhfRVlzdXFDSnJDS1FmXzBYTi1nVkNzUm5zUmJ1aEtBakZpWjNXSVkzV1VVWEZKcHItRERjNTFYQTNxWEg5RHNSc0hEX2IwY1BXLUVEVUxNVVF4QUVJTUI0YjQ?oc=5",
+      "published": "Thu, 14 May 2026 17:36:32 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto regulatory affairs: CLARITY Act advances from Senate Banking Committee - Elliptic",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPV0xNYnVyN3Azam53dlJTTUZLZFhmY29FbGhtWXpsREx5Q1A2OEVmcVd5WFBvMno3N2lJNC1KaFJQQTVkQUt2SnEtOU82eXZFVzM5QzZYOHA1VTVZSDhKazJCSmVLbHBubW9FRGZvdmFGZmtwNnU0bXlPaGRxZDJCMGVaUlNRXzZ6WTdDWWlSbVBxeG9uU29ULVNfVUlZSWc?oc=5\" target=\"_blank\">Crypto regulatory affairs: CLARITY Act advances from Senate Banking Committee</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Elliptic</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV0xNYnVyN3Azam53dlJTTUZLZFhmY29FbGhtWXpsREx5Q1A2OEVmcVd5WFBvMno3N2lJNC1KaFJQQTVkQUt2SnEtOU82eXZFVzM5QzZYOHA1VTVZSDhKazJCSmVLbHBubW9FRGZvdmFGZmtwNnU0bXlPaGRxZDJCMGVaUlNRXzZ6WTdDWWlSbVBxeG9uU29ULVNfVUlZSWc?oc=5",
+      "published": "Thu, 14 May 2026 17:49:33 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "JPMorgan says ether and altcoins could keep underperforming bitcoin without stronger activity - The Block",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9jd2cwdGdaNVk0NEZuZWdMeFY2c1NabkVnTHlJRzA5M3ZHWWxDX1c4S2VOaGVaZlJJVW54bHZoRjMtQmIyTmxTajdNWlI3WHlTRHFiYl9jdS03WjBqdzdReEcyVENkRk9NTjNscGdDNllSeVgwRkFzZW9RdWdEQU0?oc=5\" target=\"_blank\">JPMorgan says ether and altcoins could keep underperforming bitcoin without stronger activity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Block</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jd2cwdGdaNVk0NEZuZWdMeFY2c1NabkVnTHlJRzA5M3ZHWWxDX1c4S2VOaGVaZlJJVW54bHZoRjMtQmIyTmxTajdNWlI3WHlTRHFiYl9jdS03WjBqdzdReEcyVENkRk9NTjNscGdDNllSeVgwRkFzZW9RdWdEQU0?oc=5",
+      "published": "Thu, 14 May 2026 17:42:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "LIVE: Clarity Act enters final stage after Senate Committee vote - thestreet.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNSkZyVldNUWo5NzRzRlJoUF9SRlpjNzlLMzEyQURRMTNXZlI0OFpvVGVWc3hWbEJGQjQtbEpYVzBybUhhMTdLRktCdmxqYUJGWnltRURKT2dfa29OZ0JDOEU4V2xfNXVRZVhITkVvNWhUWUNnNXR6SWtncW9ZNUxpOW9vR3hrNFFHVkF0bmZBNDJpSDZLWS1NNWFTa0hNb3N3OU44MFZnbw?oc=5\" target=\"_blank\">LIVE: Clarity Act enters final stage after Senate Committee vote</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestreet.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSkZyVldNUWo5NzRzRlJoUF9SRlpjNzlLMzEyQURRMTNXZlI0OFpvVGVWc3hWbEJGQjQtbEpYVzBybUhhMTdLRktCdmxqYUJGWnltRURKT2dfa29OZ0JDOEU4V2xfNXVRZVhITkVvNWhUWUNnNXR6SWtncW9ZNUxpOW9vR3hrNFFHVkF0bmZBNDJpSDZLWS1NNWFTa0hNb3N3OU44MFZnbw?oc=5",
+      "published": "Thu, 14 May 2026 17:15:51 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Industry Notches Win in Washington After Brawl With Banks - WSJ",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGFzdmFBVkswT3Q0TVZ6WktqUEQwdnkxUjIwMVVUazdzamJRYXFrTVJIYXF0UEhqbl90NXQ1UjdKTm9fM0k2YjFUMEJjRVVXWGJGR1ZITFNPSjRMM0haZGdtNEZYS29nVVFFYVY5SGRIUVZFUXlBdF93Wi05RDlwdG5FRHdNc0VyR2xIQ3p5XzJxUEQ0OWVMNU5fSTJqOEJLVHZDcG5ncE42Z19IQ0E?oc=5\" target=\"_blank\">Crypto Industry Notches Win in Washington After Brawl With Banks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGFzdmFBVkswT3Q0TVZ6WktqUEQwdnkxUjIwMVVUazdzamJRYXFrTVJIYXF0UEhqbl90NXQ1UjdKTm9fM0k2YjFUMEJjRVVXWGJGR1ZITFNPSjRMM0haZGdtNEZYS29nVVFFYVY5SGRIUVZFUXlBdF93Wi05RDlwdG5FRHdNc0VyR2xIQ3p5XzJxUEQ0OWVMNU5fSTJqOEJLVHZDcG5ncE42Z19IQ0E?oc=5",
+      "published": "Thu, 14 May 2026 18:23:00 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitfinex: Bitcoin On-Chain Metrics Improve, but New All-Time High Unlikely - Cryptonews.net",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xUXVlMDFKbXZRV190NHZsa1I0RFdYbkFiMTEta1Zmdjl6b2R2NFBOd1MxNXlpQzNyUU5yN2lZR0NkWXpRS0QySVZVbE1uVnVGMHhMblpERzg?oc=5\" target=\"_blank\">Bitfinex: Bitcoin On-Chain Metrics Improve, but New All-Time High Unlikely</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews.net</font>",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xUXVlMDFKbXZRV190NHZsa1I0RFdYbkFiMTEta1Zmdjl6b2R2NFBOd1MxNXlpQzNyUU5yN2lZR0NkWXpRS0QySVZVbE1uVnVGMHhMblpERzg?oc=5",
+      "published": "Thu, 14 May 2026 17:22:43 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1",
+      "published": "2026-05-15T01:04:30.843000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
+      "published": "2026-05-14T23:29:47.443000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "summary": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35",
+      "published": "2026-05-14T18:00:03.676000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a2bce2686fc64a61b44c4335facafe7f",
+      "published": "2026-05-14T17:46:35.557000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
+      "published": "2026-05-14T12:14:04.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785",
+      "published": "2026-05-13T19:45:01.574000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "summary": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b4eb8e22deba433583fe18e327e382e0",
+      "published": "2026-05-12T11:30:03.776000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9d96b17988bd41e9bd8898c586f68744",
+      "published": "2026-05-11T14:00:05.246000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c",
+      "published": "2026-05-07T14:59:29.304000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "summary": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01",
+      "published": "2026-05-04T14:29:57.125000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f",
+      "published": "2026-04-30T18:47:58.718000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "summary": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861",
+      "published": "2026-04-30T17:07:29.704000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/KZT Spot Trading Pair",
+      "summary": "Binance Adds USDT/KZT Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/51c9c56c7d3141fdac18cb9a152defc8",
+      "published": "2026-04-30T13:00:06.261000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/524345e64dd14a23989bfe1e547760b5",
+      "published": "2026-04-29T21:27:04.104000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c8d2380a71ee4b56980cf7798d2e3d8f",
+      "published": "2026-04-28T16:00:03.344000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "summary": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/52ca7793dcdd43ad822f43cfacc42231",
+      "published": "2026-04-28T12:00:02.694000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/75a90e75150c4917b54c5251cba87225",
+      "published": "2026-04-27T16:00:37.542000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e4b4751f7ee845dd9df5c1bfd94ade51",
+      "published": "2026-04-22T22:51:55.953000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cc3774b86f974052a01ab88d8a08be55",
+      "published": "2026-04-21T21:00:07.020000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "summary": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d",
+      "published": "2026-04-21T20:00:32.132000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 34 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 34，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-05-14T08:00:00+08:00"
+    }
+  ]
+}
