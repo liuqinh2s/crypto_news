@@ -2517,3 +2517,94 @@ content length: 2920
   ],
   "note": "受限于大量重复新闻，仅筛选出5条有交易价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2953, prompt_tokens=16164, total_tokens=19117, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1914, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15012)
+content length: 2805
+============================================================
+{
+  "news": [
+    {
+      "title": "摩根大通Q1增持比特币ETF",
+      "summary": "摩根大通在2026年第一季度增加了比特币ETF持仓，主要投向贝莱德的IBIT。这一机构动向表明传统金融巨头对比特币的认可度提升，可能吸引更多机构资金入场。影响币种：BTC。信号：bullish。",
+      "reason": "机构增持比特币ETF属于优先级二：机构动向，直接利好BTC。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/jpmorgan-bitcoin-etf-buy-blackrock-ibit-q1-2026"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国初请失业金人数高于预期",
+      "summary": "美国初请失业金人数高于预期，表明劳动力市场有所降温。这可能削弱美联储加息预期，提升降息概率，利好风险资产包括加密货币。影响币种：BTC, ETH。信号：bullish。",
+      "reason": "宏观经济数据影响利率预期，属于优先级二。高于预期的初请人数是宽松信号，bullish。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512731.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币8万突破非美国买家驱动",
+      "summary": "链上数据显示，比特币近期突破80,000美元的反弹并非受美国现货买家推动，Coinbase溢价消失，暗示需求来自其他地区或衍生品市场。这可能意味着涨势基础不稳固，需警惕回调风险。影响币种：BTC。信号：bearish。",
+      "reason": "链上异动信号，属于优先级二。显示需求结构脆弱，看空。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-s-rally-past-usd80-000-came-without-us-spot-demand-on-chain-data-shows"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "律所Fenwick & West被诉5.25亿美元",
+      "summary": "FTX受害者起诉硅谷律所Fenwick & West，索赔5.25亿美元，指控其协助FTX欺诈。这延续了FTX事件的诉讼潮，可能打击市场对律所和合规机构的信任，加剧短期负面情绪。影响币种：BTC, ETH。信号：bearish。",
+      "reason": "FTX相关法律进展影响市场情绪，属于优先级一。负面事件。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/law-firm-fenwick-west-sued-for-525m-over-alleged-role-in-ftx-collapse"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BlackRock/JH代币化基金即时赎回",
+      "summary": "贝莱德与Janus Henderson的代币化货币市场基金获得10亿美元流动性设施，实现即时赎回。这提升了代币化现实世界资产的实用性，可能加速机构采用，利好ETH（代币化平台）及整体加密货币生态。影响币种：ETH。信号：bullish。",
+      "reason": "代币化资产重大进展，属于优先级二机构动向。利好生态。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/14/blackrock-janus-henderson-tokenized-funds-get-instant-redemptions-with-new-usd1-billion-facility"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
