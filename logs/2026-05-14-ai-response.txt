@@ -1027,3 +1027,209 @@ content length: 3516
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1420, prompt_tokens=9915, total_tokens=11335, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1128, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8763)
+content length: 709
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至34",
+      "summary": "恐惧贪婪指数从42下降至34，进入恐惧区间，显示市场情绪进一步恶化。此前比特币因PPI超预期跌破79K导致大量多头爆仓，目前情绪低迷。从历史经验看，指数低于40往往是中长期买入机会，但短期内可能继续下探。此信号偏中性，建议关注后续是否出现极端恐慌（<20）形成抄底区。",
+      "reason": "恐惧贪婪指数是市场情绪的关键量化指标，大幅变化能预示转折。当前34已接近历史抄底区，对BTC等主流币种有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "6小时内其他新闻（CLARITY法案投票、Kevin Warsh确认、Charles Schwab上币、Metaplanet亏损、巨鲸做空、PPI数据等）已在历史消息中覆盖且无重大更新，本轮仅恐惧指数变化值得关注。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=971, prompt_tokens=9915, total_tokens=10886, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=710, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=59)
+content length: 644
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至34",
+      "summary": "恐惧贪婪指数从42降至34，市场情绪从恐惧加剧为更深的恐惧。数值仍处于历史恐慌区间，但距离极度恐惧（<20）尚远。这通常意味着市场情绪悲观但未到极端抄底区。该指标影响整体加密货币市场，尤其是BTC和ETH。短期来看，情绪低迷可能继续压制价格，但中长期可能形成底部。信号中性，因为指数下降但未触发极端。",
+      "reason": "恐惧贪婪指数数值变化，且是当前时段唯一新数据，反映市场情绪转变，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段新消息极少，多数消息与历史重复或交易价值低。仅选出1条有价值的市场情绪更新。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1587, prompt_tokens=9915, total_tokens=11502, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1332, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=59)
+content length: 640
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至34",
+      "summary": "加密货币恐惧贪婪指数从之前的42降至34，仍处于“恐惧”区间。指数下降表明市场情绪进一步悲观，可能反映近期价格下跌和监管不确定性。历史数据中极度恐惧区域（<20）往往是中长期买入机会，当前数值未到极值，但情绪恶化可能带来短期下行压力。影响币种：BTC、ETH等主流币。信号中性：市场情绪悲观但未极端，需观察后续走势。",
+      "reason": "恐惧贪婪指数变化属于优先级三“市场情绪信号”，数值下降但未触及极值，作为情绪指标提供参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮可选的新闻较少，仅有一条市场情绪数据更新值得关注。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1020, prompt_tokens=10616, total_tokens=11636, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=785, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9464)
+content length: 603
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至34",
+      "summary": "恐惧贪婪指数从42降至34，仍处于恐惧区间。表明市场情绪进一步悲观，但尚未触及极度恐惧。历史数据显示，低于30往往是中长期买入区域，但短期可能继续下探。对BTC、ETH整体影响中性偏空，但中长期可能为抄底信号。",
+      "reason": "恐惧贪婪指数是市场情绪关键指标，从42降至34，变化显著，属于优先级三的市场情绪信号，可提供交易参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分新闻与历史消息重复，仅恐惧贪婪指数有更新，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1739, prompt_tokens=10616, total_tokens=12355, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1478, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=120)
+content length: 646
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至34",
+      "summary": "加密市场恐惧贪婪指数从42降至34，仍处于Fear区间。该指数反映市场情绪持续悲观，但未达到极端恐慌水平（<20）。历史数据显示，指数在30-40区间时市场往往处于震荡筑底阶段，但短期可能继续承压。对BTC和ETH的影响偏中性，需关注后续是否进一步下跌至极度恐惧区域。",
+      "reason": "恐惧贪婪指数是市场情绪的关键指标，数值变化（从42降至34）表明恐慌情绪加剧，可能影响短期交易决策。虽然未到极端值，但下降趋势值得注意。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时内其他新闻均与历史消息重复或不符合筛选标准，仅此一条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5110, prompt_tokens=3612, total_tokens=8722, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3871, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2460)
+content length: 2844
+============================================================
+{
+  "news": [
+    {
+      "title": "嘉信理财推出BTC/ETH现货交易",
+      "summary": "Charles Schwab宣布推出比特币和以太坊的现货交易服务，传统券商巨头直接支持加密货币买卖，标志着主流金融进一步接纳数字资产。此举可能吸引大量传统资金入场，提振市场信心，短期利好BTC和ETH价格。这是机构级重大利好，历史上类似事件（如PayPal支持加密）曾引发牛市。",
+      "reason": "传统金融机构直接提供加密现货交易服务，属于重大机构动向，极大影响市场情绪和资金流入。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [{"name": "雪球加密", "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU2xNM2VITEF6eFdsMkhzLXdHRlBtNTNNa1ZER21HdTJVbXJYZkxZd2lWMDVBM0hXUFVTdC1vSDVBTW5NaVNmUVlVTmg4M3FYTmVITGtTelM4RTI1bjhXMUVCRFk5cGRpVm5HQzdpLTlKNkZJai1yZDBFSXZCeUJZbXhrS2o4SC1jSXRnclE2ZThvRFJnQTVxLXY2V1RvTXFkcnFNVU51U3lZMEwzTlE4RVBpT210ZUYxVnkyUQ?oc=5"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线TradFi永续合约",
+      "summary": "Binance Futures宣布将于2026年5月15日上线多个USDⓈ-Margined TradFi永续合约，具体合约名称未公布，但可能涵盖主流美股代币（如AMZN、AAPL等）。此举将扩大Binance的衍生品生态，吸引传统金融交易者，短期可能提升相关代币的交易量和波动性。但需注意合约上线初期的不确定性。",
+      "reason": "交易所上线新合约直接刺激交易活跃度，属于交易所重大更新。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上架MegaETH",
+      "summary": "Binance宣布将上线MegaETH (MEGA) 并开放现货交易，同时支持Earn、Convert、VIP Loan、Margin及Futures产品。MEGA是一个基于以太坊的L2项目，上架头部交易所将极大提升其流动性和曝光度，短期看涨MEGA价格，但需注意种子标签提示高风险，可能经历剧烈波动。",
+      "reason": "交易所上币直接利好新币种，属于优先级一消息。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上架Chip代币",
+      "summary": "Binance宣布将上线Chip (CHIP) 并开放现货交易，同时支持Earn、Convert、Margin、Futures等产品。CHIP是USD.AI项目代币，通过HODLer空投分发。上架币安对CHIP价格是显著利好，但同样存在种子标签风险，初始流通量可能较低，容易出现剧烈波动。",
+      "reason": "交易所上币直接利好新币种。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/cc3774b86f974052a01ab88d8a08be55"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数34",
+      "summary": "当前加密货币恐惧与贪婪指数为34，处于恐惧区间但未达极端水平（<20抄底区）。历史数据表明，恐惧区域往往代表市场情绪悲观，可能继续下跌，但也是中长期积累机会。短期操作需谨慎，建议结合技术面判断。该指标对整体市场偏向中性，适合等待明确信号。",
+      "reason": "市场情绪指标，虽非极值但提供参考，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    }
+  ]
+}
