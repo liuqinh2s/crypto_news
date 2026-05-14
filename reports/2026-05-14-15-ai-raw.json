@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-14",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 5/6 策略=完整内容 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11410,
+    "completion_tokens": 1286,
+    "total_tokens": 12696
+  },
+  "content_length": 2127,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC ETF单日流出6.35亿\",\n      \"summary\": \"5月14日，美国现货比特币ETF单日净流出6.35亿美元，创近期新高。主要受PPI超预期、中美关系紧张及美股下跌影响。资金大幅流出表明机构投资者短期避险情绪升温，抛压加剧。直接影响BTC价格，看空信号。\",\n      \"reason\": \"优先级一：ETF资金流直接影响BTC价格，单日巨额流出为熊市信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"CoinDesk\", \"url\": \"https://www.coindesk.com/markets/2026/05/14/bitcoin-investors-yanked-usd635-million-from-spot-etfs-in-a-day-here-s-what-it-means-for-price\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"BTC长期持有者积累4M BTC\",\n      \"summary\": \"链上数据显示，比特币'信仰买家'群体自2020年以来最大规模增持，累计增持400万枚BTC。这代表长期持有者逢低买入行为，与近期价格下跌形成对比。中长期看多信号，但短期可能仍有波动。\",\n      \"reason\": \"优先级三：链上指标异常，大额积累表明长期看涨信心。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"Reddit r/bitcoin\", \"url\": \"https://www.reddit.com/r/Bitcoin/comments/1tco7o0/bitcoin_conviction_buyers_accumulate_4m_btc_in/\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Tokenized Treasuries创新高\",\n      \"summary\": \"代币化美国国债市场规模突破153.5亿美元，创历史新高。表明机构资金持续涌入RWA赛道，利好DeFi及链上金融场景。对ETH等主流公链有间接积极影响，但短期影响有限。\",\n      \"reason\": \"优先级二：市场结构变化，机构入场信号。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"Cryptonews.net\", \"url\": \"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uOXhwSzZjS25xWEtWSE5tX01HVVhJVk5LRGJtcVhSeEJiMWZnbE1ZUUg1UnRVS1BuNlkzeXB2dXRyc0s1QU56MWhUY1hIdzdKbnQ5dGdaRDc?oc=5\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数34 Fear\",\n      \"summary\": \"当前恐惧贪婪指数为34，处于恐惧区间。市场情绪偏向悲观，但未到极端抄底区域（<20）。短期可能继续下探，中长期可关注超跌反弹机会。情绪指标中性，需结合其他信号。\",\n      \"reason\": \"优先级三：市场情绪指标，极端值有参考意义，当前未极值。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"Alternative.me\", \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"}\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

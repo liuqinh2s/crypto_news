@@ -1506,3 +1506,149 @@
 2026-05-14 06:01:10 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
 2026-05-14 06:01:10 [INFO] 📦 JSON 已保存: reports/2026-05-14-14.json
 2026-05-14 06:01:10 [INFO] ✅ AI 筛选完成，共 7 条交易相关消息
+2026-05-14 07:00:41 [INFO] 🚀 开始抓取 2026-05-14 15:00 币圈新闻
+2026-05-14 07:00:41 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-14 07:00:41 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-14 07:00:41 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-14 07:00:41 [INFO]   ⏭ Decrypt: 过滤掉 31 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:42 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-14 07:00:42 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ 宏观经济: 过滤掉 47 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ CoinDesk: 过滤掉 23 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:42 [INFO]   ⏭ Blockworks: 过滤掉 9 条非近期新闻
+2026-05-14 07:00:43 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 19 条非近期新闻
+2026-05-14 07:00:43 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:43 [INFO]   ⏭ 吴说区块链: 过滤掉 44 条非近期新闻
+2026-05-14 07:00:43 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:43 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:43 [INFO]   ⏭ Crypto Twitter: 过滤掉 49 条非近期新闻
+2026-05-14 07:00:45 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-14 07:00:57 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-14 07:00:57 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-14 07:00:57 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-14 07:00:57 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-14 07:00:57 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-05-14 07:00:58 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:58 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:58 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-14 07:00:58 [INFO]   ✓ CoinDesk: 2 条
+2026-05-14 07:00:58 [INFO]   ✓ The Block: 1 条
+2026-05-14 07:00:58 [INFO]   ✓ Decrypt: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ Blockworks: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ DL News: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ 金色财经: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ PANews: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-14 07:00:58 [INFO]   ✓ Reddit r/bitcoin: 6 条
+2026-05-14 07:00:58 [INFO]   ✓ Crypto Twitter: 1 条
+2026-05-14 07:00:58 [INFO]   ✓ 宏观经济: 3 条
+2026-05-14 07:00:58 [INFO]   ✓ Binance公告: 20 条
+2026-05-14 07:00:58 [INFO]   ✓ OKX公告: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ Bitget公告: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ Whale Alert: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-14 07:00:58 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-14 07:00:58 [INFO]   ✓ 雪球加密: 0 条
+2026-05-14 07:00:58 [INFO] 📊 共抓取 35 条新闻
+2026-05-14 07:00:58 [INFO] 📋 原始新闻已保存: reports/2026-05-14-15-raw.json (35 条)
+2026-05-14 07:00:58 [INFO] 📋 标题摘要已保存: reports/2026-05-14-15-raw-titles.md
+2026-05-14 07:00:58 [INFO] ✅ 抓取完成，共 35 条，已保存到 reports/2026-05-14-15-raw.json
+2026-05-14 07:00:59 [INFO] 🤖 开始 AI 筛选 2026-05-14 15:00 币圈消息
+2026-05-14 07:00:59 [INFO] 📋 已加载原始新闻: reports/2026-05-14-15-raw.json (35 条)
+2026-05-14 07:00:59 [INFO] 📚 已加载历史新闻标题（16588 字符）
+2026-05-14 07:00:59 [INFO] 📚 已加载历史筛选标题 21 条、URL 21 个，用于去重
+2026-05-14 07:00:59 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-14 07:00:59 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-14 07:00:59 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（35 条，7407 字符，temp=0.3）
+2026-05-14 07:01:22 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 755 字符)
+2026-05-14 07:01:22 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-15-ai-raw.json
+2026-05-14 07:01:22 [DEBUG] parse_json_response 输入长度: 755 字符
+2026-05-14 07:01:22 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "代币化国债规模创新高",
+      "summary": "Tokenized Treasuries总规模达到153.5亿美元，创历史新高。这表明机构资金通过链上国债产品涌入DeFi领域，对RWA相关代币（如Ondo、Mountain Protocol等）构成中长期利好。但短期内对BTC/ETH价格影响有限，更多反映市场对收益类资产的偏好。信号中性偏多。",
+      "reason": "代币化国债规模创纪录是机构采用的重要指标，符合优先级二中机构动向，影响中期行情。",
+      "category": "市场结
+2026-05-14 07:01:22 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-14 07:01:22 [INFO] ✅ AI 返回 1 条新闻
+2026-05-14 07:01:22 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-14 07:01:22 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（35 条，7407 字符，temp=0.3）
+2026-05-14 07:01:50 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 1913 字符)
+2026-05-14 07:01:50 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-15-ai-raw.json
+2026-05-14 07:01:50 [DEBUG] parse_json_response 输入长度: 1913 字符
+2026-05-14 07:01:50 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "代币化国债规模创新高",
+      "summary": "代币化美国国债市场规模达到153.5亿美元的历史新高，反映出机构资金对链上合规收益产品的需求增长。该趋势可能分流部分加密市场流动性，但同时也表明传统金融对区块链基础设施的接纳程度提升，对BTC/ETH等主流币种影响中性偏正面，因整体生态吸引力增强。",
+      "reason": "代币化国债规模持续增长是DeFi与TradFi融合的重要指标，属于链上数据异动（优先级二），但影响程度中等。",
+      "category": "市场结构",
+      
+2026-05-14 07:01:50 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-14 07:01:50 [INFO] ✅ AI 返回 2 条新闻
+2026-05-14 07:01:50 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-14 07:01:50 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（35 条，7407 字符，temp=0.3）
+2026-05-14 07:02:12 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 1232 字符)
+2026-05-14 07:02:12 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-15-ai-raw.json
+2026-05-14 07:02:12 [DEBUG] parse_json_response 输入长度: 1232 字符
+2026-05-14 07:02:12 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "BitGo营收翻倍但净亏损扩大",
+      "summary": "加密托管机构BitGo公布Q1财报：营收同比增长108%至38亿美元，但净亏损扩大。这可能反映机构托管业务增长与竞争加剧并存。对BTC/ETH等主流币种影响中性，但可能影响市场对加密公司盈利能力的信心。信号中性。",
+      "reason": "BitGo是重要加密基础设施，营收翻倍显示机构采用增长，但亏损扩大需警惕成本压力。属于优先级二机构动向。",
+      "category": "项目更新",
+      "impact_coins":
+2026-05-14 07:02:12 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-14 07:02:12 [INFO] ✅ AI 返回 2 条新闻
+2026-05-14 07:02:12 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-05-14 07:02:12 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（35 条，10897 字符，temp=0.3）
+2026-05-14 07:02:29 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 802 字符)
+2026-05-14 07:02:29 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-15-ai-raw.json
+2026-05-14 07:02:29 [DEBUG] parse_json_response 输入长度: 802 字符
+2026-05-14 07:02:29 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "代币化国债规模创纪录",
+      "summary": "代币化国债总市值达到153.5亿美元，创历史新高。这表明机构资金正在加速通过区块链投资传统金融产品，可能吸引更多合规资金入场。对DeFi和RWA赛道构成利好，尤其是相关代币如ONDO、MKR等，可能带动整个板块估值提升。从宏观角度看，代币化国债的增长反映了传统金融与加密融合趋势，有利于市场长期健康发展，短期对BTC/ETH价格影响有限，但中期偏多。",
+      "reason": "代币化国债规模创纪录是机构采用的重要信号，符合优先级二中机构动向和DeFi重
+2026-05-14 07:02:29 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-14 07:02:29 [INFO] ✅ AI 返回 1 条新闻
+2026-05-14 07:02:29 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-14 07:02:29 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（35 条，10897 字符，temp=0.3）
+2026-05-14 07:02:43 [INFO] AI 原始返回已保存: logs/2026-05-14-ai-response.txt (finish_reason=stop, 2127 字符)
+2026-05-14 07:02:43 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-14-15-ai-raw.json
+2026-05-14 07:02:43 [DEBUG] parse_json_response 输入长度: 2127 字符
+2026-05-14 07:02:43 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "BTC ETF单日流出6.35亿",
+      "summary": "5月14日，美国现货比特币ETF单日净流出6.35亿美元，创近期新高。主要受PPI超预期、中美关系紧张及美股下跌影响。资金大幅流出表明机构投资者短期避险情绪升温，抛压加剧。直接影响BTC价格，看空信号。",
+      "reason": "优先级一：ETF资金流直接影响BTC价格，单日巨额流出为熊市信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signa
+2026-05-14 07:02:43 [DEBUG] 从 JSON 对象的 news 字段提取到 4 条记录
+2026-05-14 07:02:43 [INFO] ✅ AI 返回 4 条新闻
+2026-05-14 07:02:43 [INFO] ✅ AI 筛选出 4 条交易相关消息，符合预期
+2026-05-14 07:02:43 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
+2026-05-14 07:02:43 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-14 07:02:43 [DEBUG]   去重: 「BTC长期持有者积累4M BTC」 → URL重复: https://www.reddit.com/r/Bitcoin/comments/1tco7o0/bitcoin_co
+2026-05-14 07:02:43 [INFO] 📦 JSON 已保存: reports/2026-05-14-15.json
+2026-05-14 07:02:43 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息

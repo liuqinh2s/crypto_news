@@ -1816,3 +1816,210 @@ content length: 3560
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2195, prompt_tokens=10327, total_tokens=12522, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1857, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9175)
+content length: 755
+============================================================
+{
+  "news": [
+    {
+      "title": "代币化国债规模创新高",
+      "summary": "Tokenized Treasuries总规模达到153.5亿美元，创历史新高。这表明机构资金通过链上国债产品涌入DeFi领域，对RWA相关代币（如Ondo、Mountain Protocol等）构成中长期利好。但短期内对BTC/ETH价格影响有限，更多反映市场对收益类资产的偏好。信号中性偏多。",
+      "reason": "代币化国债规模创纪录是机构采用的重要指标，符合优先级二中机构动向，影响中期行情。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uOXhwSzZjS25xWEtWSE5tX01HVVhJVk5LRGJtcVhSeEJiMWZnbE1ZUUg1UnRVS1BuNlkzeXB2dXRyc0s1QU56MWhUY1hIdzdKbnQ5dGdaRDc?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮新消息极少，仅筛选出1条有交易价值的新消息。其他素材均与历史消息重复或属于排除项。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2517, prompt_tokens=10327, total_tokens=12844, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1532, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10240), prompt_cache_hit_tokens=10240, prompt_cache_miss_tokens=87)
+content length: 1913
+============================================================
+{
+  "news": [
+    {
+      "title": "代币化国债规模创新高",
+      "summary": "代币化美国国债市场规模达到153.5亿美元的历史新高，反映出机构资金对链上合规收益产品的需求增长。该趋势可能分流部分加密市场流动性，但同时也表明传统金融对区块链基础设施的接纳程度提升，对BTC/ETH等主流币种影响中性偏正面，因整体生态吸引力增强。",
+      "reason": "代币化国债规模持续增长是DeFi与TradFi融合的重要指标，属于链上数据异动（优先级二），但影响程度中等。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uOXhwSzZjS25xWEtWSE5tX01HVVhJVk5LRGJtcVhSeEJiMWZnbE1ZUUg1UnRVS1BuNlkzeXB2dXRyc0s1QU56MWhUY1hIdzdKbnQ5dGdaRDc?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CLARITY法案投票临近",
+      "summary": "美国CLARITY法案（旨在明确加密监管框架）即将于周四进行委员会投票，此前两党夜谈未达成协议，民主党在道德及BRCA条款上仍有分歧。若法案通过，将利好整个加密市场合规化进程；若受阻，短期可能引发政策不确定性。当前比特币价格承压，法案进展成为关键变量。",
+      "reason": "重大监管动态（优先级一），直接影响市场预期，但结果未定，信号中性偏多。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Analytics Insight",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZ0pGS2RMRkhkR2dTSllFSW5pZ2piVXVPb1ZpYUhlMXJqUk52TEZpVTl2NVQ3RjhXZ1RHcDB3RFJkcjRIN05vbmRROGRZWWRBdzFSdmRHU0FPMkdMUU1oUjhwbE9JNXV6R1Y3eW5ybnhkLWxULThsa3VEVlFyeWViZTZheGJ3bkpkSXNpczlQZ3NDZUQ4dUNET1M0ejNPbEJScUlJZ2V5T1kxMVZTRURNWGZTQTdvOFRhWG5aZXpIUDFLeUpNRjFZUko2VWZNY2J5dEVZ0gHgAUFVX3lxTE5uZVdLX011X09Zd3VtMTZFM3I2aFh0NzdLVkJ3WS04R3A4MUxSLWNTcjREZnppaUctVnZBNmRnWkJJbWx2bEYyNGtpYmJfb0VYcEVZd2VqTm9jTkpqcUxiQjV0MjY3ckJicWdjZC1qRlA0NEh6NDFKRk56VWgxRk8wOEo0Nk9sVGYwNWxMZ0I3NnJORGpmRHRYYjZPNkFucEZ5eFZFT1pwRWcxWXJUVjFVcXJkTHNPVzkxaDVlVzlqSzFTbHBzZ1JwRWJwTVR3bnhseW9VeC0yTkljSzU2Um95?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前6小时内大部分消息（ETF流出、PPI通胀、特朗普访华、Binance上币等）已在历史消息中重复出现，严格去重后仅筛选出2条具有新信息价值的事件。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2049, prompt_tokens=10327, total_tokens=12376, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1523, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10240), prompt_cache_hit_tokens=10240, prompt_cache_miss_tokens=87)
+content length: 1232
+============================================================
+{
+  "news": [
+    {
+      "title": "BitGo营收翻倍但净亏损扩大",
+      "summary": "加密托管机构BitGo公布Q1财报：营收同比增长108%至38亿美元，但净亏损扩大。这可能反映机构托管业务增长与竞争加剧并存。对BTC/ETH等主流币种影响中性，但可能影响市场对加密公司盈利能力的信心。信号中性。",
+      "reason": "BitGo是重要加密基础设施，营收翻倍显示机构采用增长，但亏损扩大需警惕成本压力。属于优先级二机构动向。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401205/bitgo-doubles-q1-revenue"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "代币化国债规模创纪录",
+      "summary": "链上代币化国债总市值突破153.5亿美元，创历史新高。表明传统金融资产代币化需求持续增长。对BTC/ETH等风险资产影响有限，但利好RWA赛道代币如ONDO、MKR等。信号看多RWA相关代币。",
+      "reason": "链上资产规模持续增长，反映机构资金入场趋势。属于优先级二市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["ONDO", "MKR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uOXhwSzZjS25xWEtWSE5tX01HVVhJVk5LRGJtcVhSeEJiMWZnbE1ZUUg1UnRVS1BuNlkzeXB2dXRyc0s1QU56MWhUY1hIdzdKbnQ5dGdaRDc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数与历史消息重复，仅筛选出2条有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1608, prompt_tokens=11410, total_tokens=13018, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1234, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10258)
+content length: 802
+============================================================
+{
+  "news": [
+    {
+      "title": "代币化国债规模创纪录",
+      "summary": "代币化国债总市值达到153.5亿美元，创历史新高。这表明机构资金正在加速通过区块链投资传统金融产品，可能吸引更多合规资金入场。对DeFi和RWA赛道构成利好，尤其是相关代币如ONDO、MKR等，可能带动整个板块估值提升。从宏观角度看，代币化国债的增长反映了传统金融与加密融合趋势，有利于市场长期健康发展，短期对BTC/ETH价格影响有限，但中期偏多。",
+      "reason": "代币化国债规模创纪录是机构采用的重要信号，符合优先级二中机构动向和DeFi重大事件标准。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH", "ONDO", "MKR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uOXhwSzZjS25xWEtWSE5tX01HVVhJVk5LRGJtcVhSeEJiMWZnbE1ZUUg1UnRVS1BuNlkzeXB2dXRyc0s1QU56MWhUY1hIdzdKbnQ5dGdaRDc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于本轮素材中大部分消息已出现在历史标题中，严格去重后仅筛选出1条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1286, prompt_tokens=11410, total_tokens=12696, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=427, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=18)
+content length: 2127
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF单日流出6.35亿",
+      "summary": "5月14日，美国现货比特币ETF单日净流出6.35亿美元，创近期新高。主要受PPI超预期、中美关系紧张及美股下跌影响。资金大幅流出表明机构投资者短期避险情绪升温，抛压加剧。直接影响BTC价格，看空信号。",
+      "reason": "优先级一：ETF资金流直接影响BTC价格，单日巨额流出为熊市信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-investors-yanked-usd635-million-from-spot-etfs-in-a-day-here-s-what-it-means-for-price"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC长期持有者积累4M BTC",
+      "summary": "链上数据显示，比特币'信仰买家'群体自2020年以来最大规模增持，累计增持400万枚BTC。这代表长期持有者逢低买入行为，与近期价格下跌形成对比。中长期看多信号，但短期可能仍有波动。",
+      "reason": "优先级三：链上指标异常，大额积累表明长期看涨信心。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/bitcoin", "url": "https://www.reddit.com/r/Bitcoin/comments/1tco7o0/bitcoin_conviction_buyers_accumulate_4m_btc_in/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tokenized Treasuries创新高",
+      "summary": "代币化美国国债市场规模突破153.5亿美元，创历史新高。表明机构资金持续涌入RWA赛道，利好DeFi及链上金融场景。对ETH等主流公链有间接积极影响，但短期影响有限。",
+      "reason": "优先级二：市场结构变化，机构入场信号。",
+      "category": "市场结构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Cryptonews.net", "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uOXhwSzZjS25xWEtWSE5tX01HVVhJVk5LRGJtcVhSeEJiMWZnbE1ZUUg1UnRVS1BuNlkzeXB2dXRyc0s1QU56MWhUY1hIdzdKbnQ5dGdaRDc?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数34 Fear",
+      "summary": "当前恐惧贪婪指数为34，处于恐惧区间。市场情绪偏向悲观，但未到极端抄底区域（<20）。短期可能继续下探，中长期可关注超跌反弹机会。情绪指标中性，需结合其他信号。",
+      "reason": "优先级三：市场情绪指标，极端值有参考意义，当前未极值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
