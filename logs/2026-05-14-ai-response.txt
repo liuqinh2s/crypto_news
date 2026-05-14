@@ -1662,3 +1662,69 @@ content length: 3893
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2132, prompt_tokens=9545, total_tokens=11677, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1053, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8393)
+content length: 2624
+============================================================
+{
+  "news": [
+    {
+      "title": "SOL/BTC因台海冲突下跌",
+      "summary": "习近平警告特朗普台湾问题可能引发冲突，市场避险情绪升温。比特币跌破8万美元，Solana下跌5%。地缘政治风险加剧，短期看空风险资产。影响币种BTC、SOL。",
+      "reason": "直接影响行情：重大地缘政治事件引发市场恐慌，BTC和SOL大幅下跌，属于优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "SOL"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/14/solana-drops-5-bitcoin-below-usd80-000-as-xi-warns-trump-on-taiwan-conflict"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "TRUMP币因手机消息下跌",
+      "summary": "特朗普品牌手机开始发货，TRUMP代币下跌5%。消息本身偏中性，但市场可能视为炒作落地，短期利空。影响币种TRUMP。",
+      "reason": "直接影响行情：代币价格因项目方动态下跌，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["TRUMP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/14/trump-token-down-5-as-namesake-handset-begins-shipping-next-week"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "仅4%美国人看重加密投票",
+      "summary": "一项民意调查显示，只有4%的美国选民认为加密货币政策是投票的重要考量因素。这表明加密议题在主流政治中影响力有限，短期对市场情绪无显著影响。",
+      "reason": "市场情绪信号：反映加密行业政治影响力小，属于优先级三，但影响微弱。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/4-percent-americans-weigh-crypto-policy-when-voting-poll"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Tom Lee喊话加密货币春天",
+      "summary": "知名分析师Tom Lee再次声称加密冬天结束，BitMine主席称以太坊是'战时价值储存'。观点偏乐观，但缺乏新数据支撑，属于情绪性利好。影响币种BTC、ETH。",
+      "reason": "市场情绪信号：KOL集体看多，属于优先级三，但无实质基本面变化。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVlZpbU5ybXY4MDZWNEFUV241VVpTbUlETldaajdqV3kybVZPcGhGMzNYYzJaX2VWT1NyNFU4SUJERm9zclRPRVdlUm5rQ21iNzM3TXJLcGtySVdvbDZRZ0hoWGtDaGdvVVJSYlpLU0NiWFNpRmxxV0x6T1Z5bW54dE1MSFpMalAtVzdzMWVvbEI2OGM?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线PHAROS/STAR合约",
+      "summary": "Binance宣布将于5月14日上线PHAROSUSDT和STARUSDT永续合约。新合约上线通常带来短期交易量增加，但波动性较大。影响币种PHAROS、STAR。",
+      "reason": "直接影响行情：交易所上线合约，属于优先级一，但币种小众，影响有限。",
+      "category": "交易所",
+      "impact_coins": ["PHAROS", "STAR"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Binance Support", "url": "https://www.binance.com/zh-CN/support/announcement/12bcf9092e9c46358de3e49f8ef17f88"}],
+      "urgency": "immediate"
+    }
+  ]
+}
