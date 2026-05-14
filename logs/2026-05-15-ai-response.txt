@@ -89,3 +89,112 @@ content length: 3672
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2102, prompt_tokens=15902, total_tokens=18004, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1810, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14750)
+content length: 699
+============================================================
+{
+  "news": [
+    {
+      "title": "标普新高BTC守支撑",
+      "summary": "标普500指数创下历史新高，提振风险资产情绪。比特币在$80K附近获得支撑，分析师指出BTC正守住关键支撑位，为突破$85K蓄力。宏观风险偏好上升有利于加密市场，若BTC站稳$80K，可能吸引更多买盘。影响币种：BTC。信号：看多。",
+      "reason": "标普500创新高是宏观风险偏好提升的明确信号，历史上标普新高后加密市场往往跟随上涨。BTC在关键支撑位企稳，技术面看涨。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-holds-support-for-85k-breakout-sp-500-new-all-time-high"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮其余54条素材中，绝大多数与历史消息重复（如CLARITY法案投票、CME指数期货、Binance公告、恐惧贪婪指数等），故仅筛选出1条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2917, prompt_tokens=15902, total_tokens=18819, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1345, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=15872), prompt_cache_hit_tokens=15872, prompt_cache_miss_tokens=30)
+content length: 3950
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案通过委员会投票",
+      "summary": "美国参议院银行委员会以党派投票通过了《CLARITY法案》，该法案为加密货币提供监管确定性，明确SEC与CFTC的管辖权，并禁止内幕交易。法案现已提交参议院全体表决。这是美国加密监管的重大突破，若通过将极大提振市场信心。影响所有加密资产，尤其BTC、ETH。看多信号，但需关注后续立法进程。",
+      "reason": "重大监管动态，直接影响市场预期，属优先级一。历史消息虽有预告，但委员会通过是实质性进展。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/367871/democrats-split-clarity-act-crypto-bill-passes-senate-committee-vote"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512765.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CME将推出加密指数期货",
+      "summary": "芝加哥商品交易所（CME）宣布将于6月8日推出Nasdaq CME Crypto Index期货，覆盖BTC、ETH、XRP、SOL等7种资产，采用加权合约形式。这标志着传统金融进一步接纳加密资产，为机构提供更多对冲和投资工具。中长期利好BTC、ETH、XRP、SOL等，有望带来增量资金。",
+      "reason": "机构级产品推出，影响市场结构和资金流向，属优先级二。历史消息已有预告，但日期和具体细节明确，属更新。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH", "XRP", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/14/cme-dives-further-into-usd85-trillion-digital-assets-market-with-nasdaq-cme-crypto-index-futures"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/401315/coinlist-passage-tokenized-asset-distribution-token-sales-slow?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Kraken用Chainlink替代LayerZero",
+      "summary": "加密货币交易所Kraken宣布将采用Chainlink（LINK）作为其跨链桥基础设施，取代现有的LayerZero（ZRO）。这增强了Chainlink在跨链领域的实际应用，对LINK构成利好；同时削弱了LayerZero的采用预期，对ZRO利空。短期内LINK可能上涨，ZRO承压。",
+      "reason": "项目更新涉及交易所技术选择，直接影响LINK和ZRO价格，属优先级一。历史消息未出现此具体内容。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "ZRO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512760.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC ETF单日流出6.3亿美元",
+      "summary": "美国现货比特币ETF在5月14日净流出约6.3亿美元，创下自1月以来最大单日流出。这暗示机构投资者短期避险情绪升温，可能与通胀数据高企及CLARITY法案不确定性有关。BTC价格已跌破80,000美元。短期看空信号，但可能是获利了结而非趋势转变。",
+      "reason": "ETF资金流直接反映机构动向，对BTC价格影响大，属优先级一。历史消息虽有类似标题但数据一致，但作为重要资金信号可选入。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSWtEaU94ZEloNHBmMHE3eGg2TktLdVh3aTI5X2M5SFB2b1FVQVVsaDhLQ0tTanVkekJmRWx2UTRPSEx5WmM5VGNFX0NKX1VDc0ZYUWt6Rk9EVFJCa2xuT1JueE9jcXpNUHE0TjZXd1JrLXVwWWNYQy02b1k5M0huQzlxQnRWdk5TTklXQmtMYmFoTUd4QVBwU3ZrX2U0b2VrQzR5QXd4VmVBSk1yUTNCMVE1M2xhRW8?oc=5"},
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-holds-support-for-85k-breakout-sp-500-new-all-time-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CFTC简化预测市场报告规则",
+      "summary": "美国商品期货交易委员会（CFTC）发布无行动函，简化事件合约（预测市场）的掉期数据报告要求。这降低了预测市场运营方的合规成本，可能促进Polymarket等平台发展，间接利好整个加密预测市场板块。CFTC态度温和，属监管利好。",
+      "reason": "监管放松信号，影响市场情绪和特定板块，属优先级二。历史消息仅标题提及，未详细报道，属于新信息。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "LINK"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/367858/cftc-no-action-letter-on-prediction-markets-streamlines-swap-data-reporting"},
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-holds-support-for-85k-breakout-sp-500-new-all-time-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
