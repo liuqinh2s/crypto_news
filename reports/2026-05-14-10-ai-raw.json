@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-14",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9285,
+    "completion_tokens": 2288,
+    "total_tokens": 11573
+  },
+  "content_length": 2147,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Jane Street Q1减仓比特币ETF\",\n      \"summary\": \"Jane Street在2026年第一季度大幅减少了比特币ETF敞口，表明机构对短期行情可能持谨慎态度。此举可能对比特币价格产生轻微负面影响，尤其是ETF资金流入预期降温。Jane Street是知名做市商，其仓位调整具有信号意义。受影响币种主要为BTC，信号偏空。\",\n      \"reason\": \"机构动向（一级）——Jane Street是重要机构，减少ETF敞口暗示抛压或避险情绪，可能引发市场跟随。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"链捕手ChainCatcher\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQbUw1MFRmbkFPS2V3QU5hQWZGbFVNUUg2TEotcHRjWmhIUGF6anZNdHNyMGlwVzB6eTBkTHJYTDRKZmRaYzFjOUhSWkhfUUo5Sm5TRE1Hbw?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Kraken推出Flexline借贷\",\n      \"summary\": \"Kraken推出新借贷产品Flexline，允许用户以加密货币为抵押借入法币或稳定币。该产品可能增加市场流动性，但也可能带来杠杆风险。对Kraken平台币和以太坊（若用于抵押）有正面影响，信号中性偏多，但影响有限。\",\n      \"reason\": \"项目更新（二级）——新产品增加用户粘性和资金效率，但非直接价格驱动。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\", \"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"链捕手ChainCatcher\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQbUw1MFRmbkFPS2V3QU5hQWZGbFVNUUg2TEotcHRjWmhIUGF6anZNdHNyMGlwVzB6eTBkTHJYTDRKZmRaYzFjOUhSWkhfUUo5Sm5TRE1Hbw?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"波兰总统卷入加密丑闻\",\n      \"summary\": \"据调查报道，波兰总统杜达卷入一起名为'Dead Man’s Key'的加密货币丑闻，可能涉及非法资金。该事件可能引发波兰及欧盟监管收紧，对加密市场情绪产生短期负面影响。影响币种广泛但间接，信号偏空。\",\n      \"reason\": \"监管政策（一级）——涉及国家元首的丑闻可能推动严格监管，利空整体市场。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Eurasia Review\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcWJFSlpWUFZmemtsVVhKRWRoaGVvT19fWVA1Q1A5ZzBmMkJKVmFkNHNCM0d6R0l1d2hMVmlPZU0wSmY5eDl2Qy1NZUo1eHA2YWt2blhoNGNjcUUyNmlxYVd0WVI0STRJREdCRXhPWmRjMkFpVXVnX3UxNERvM1ZoVDQ2MW1zWTdnODg1NVFvSlk5bU5pY1RqenEzRDg0VnBJLXpVZUR5alRkSFUxQV9IclM0VEVDTHhaVVIw?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮抓取素材中多数消息与历史记录重复，仅筛选出3条新消息。\"\n}"
+}
