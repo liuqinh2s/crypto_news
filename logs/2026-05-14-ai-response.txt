@@ -1539,3 +1539,126 @@ content length: 2189
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2832, prompt_tokens=9955, total_tokens=12787, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1272, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8803)
+content length: 3893
+============================================================
+{
+  "news": [
+    {
+      "title": "富达代币化基金获AAA评级",
+      "summary": "富达国际旗下首个代币化货币市场基金获得穆迪最高AAA-mf评级，标志着机构级代币化资产获得传统信用评级机构认可。该基金投资于优质短期货币市场工具，代币化后可在区块链上交易。这一评级提升代币化资产的信用度和机构采用信心，可能吸引更多传统资金进入链上基金市场，间接利好以太坊（代币化主要平台）和整个RWA赛道。看多信号，但影响需时间发酵。",
+      "reason": "机构代币化获得顶级信用评级，是RWA领域重要里程碑，符合优先级二机构动向。",
+      "category": "机构动向",
+      "impact_coins": ["ETH", "RWA概念币"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401200/fidelity-international-first-tokenized-fund-aaa-mf-rating"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z钱包买入5万枚HYPE",
+      "summary": "a16z关联钱包在8小时前买入5万枚HYPE（约160万美元），但此前累计浮亏超600万美元。此举显示机构仍在逢低加仓HYPE，虽有浮亏但持续买入可能表明长期看好。HYPE是Hyperliquid生态代币，近期价格承压。巨鲸买入短期可提供支撑，但资金量较小，影响有限。偏看多信号，适合短线博弈反弹。",
+      "reason": "巨鲸动向，a16z作为知名机构买入行为值得关注，符合优先级一链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512670.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸做空标普500浮亏222万",
+      "summary": "某巨鲸做空价值3770万美元的标普500指数，目前浮亏超222万美元。做空美股指数可能反映对风险资产的避险情绪，若美股回调，加密货币可能承压。但浮亏表明当前市场偏强，短期风险偏好较高。间接影响比特币等风险资产，属于市场结构信号。偏看空信号，但影响有限。",
+      "reason": "大额做空标普500的异动，可能预示市场情绪转变，符合优先级三市场结构。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512666.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普与习近平会晤",
+      "summary": "特朗普抵达北京与习近平举行峰会，这是近十年首次美国总统访华。双方表态让中美关系成为历史性年份，但Clarity法案谈判未达成协议。中美关系缓和可能提振风险资产，但若出现贸易摩擦则利空。目前口头友好，实际成果待观察，对加密货币影响中性偏多。",
+      "reason": "地缘政治重大事件，可能影响全球风险偏好，符合优先级二宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/14/trump-xi-summit.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave提议V4接入Babylon协议",
+      "summary": "Aave社区提议在V4版本中接入Babylon协议，推出原生BTC借贷独立模块。Babylon是比特币质押协议，此举将打通BTC与以太坊DeFi的借贷通道，增加BTC的DeFi用例。若通过，将吸引更多BTC进入Aave，提升AAVE需求和TVL。利好AAVE和BTC，看多信号。",
+      "reason": "Aave是头部DeFi项目，协议升级可能带来TVL增长，符合优先级二DeFi重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512659.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance将推出TradFi永续合约",
+      "summary": "Binance Futures将于5月15日推出多个传统金融（TradFi）永续合约，可能包括股票指数或商品。这将扩大Binance的衍生品产品线，吸引传统交易者，增加平台交易量。短期对主流币影响有限，但中长期提升BNB实用性（交易费折扣）。中性偏多，影响级别较低。",
+      "reason": "交易所推出新产品，可能增加流动性并提升BNB价值，符合优先级一交易所上架。",
+      "category": "交易所",
+      "impact_coins": ["BNB"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance支持Base网络升级",
+      "summary": "Binance宣布将支持Base网络升级及硬分叉，届时将暂停充提，但不会产生新代币。Base是以太坊L2，由Coinbase支持。网络升级通常提升性能和安全性，对Base生态有利，但短期影响有限。可能带动Base生态代币如MEGA（MegaETH）的情绪，但MEGA已上Binance。偏中性。",
+      "reason": "交易所支持网络升级，技术面正常操作，符合优先级二项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["MEGA", "Base生态币"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512664.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
