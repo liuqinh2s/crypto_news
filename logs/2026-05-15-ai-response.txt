@@ -1,16 +1,34 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3449, prompt_tokens=15548, total_tokens=18997, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1899, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14396)
+content length: 3672
+============================================================
 {
-  "date": "2026-05-15",
-  "hour": "00",
   "news": [
+    {
+      "title": "CLARITY法案委员会通过",
+      "summary": "美国参议院银行委员会投票通过了CLARITY法案，进入最终立法阶段。该法案旨在为加密货币提供明确监管框架，包括稳定币和数字资产分类。若最终通过，将显著降低监管不确定性，利好整个加密市场。尤其是比特币和以太坊等主流资产将受益于合规资金流入。市场情绪可能从恐惧转向乐观。",
+      "reason": "监管政策重大进展，直接影响市场预期，属于优先级一的重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Crypto Twitter - LIVE: Clarity Act enters final stage after Senate Committee vote",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSkZyVldNUWo5NzRzRlJoUF9SRlpjNzlLMzEyQURRMTNXZlI0OFpvVGVWc3hWbEJGQjQtbEpYVzBybUhhMTdLRktCdmxqYUJGWnltRURKT2dfa29OZ0JDOEU4V2xfNXVRZVhITkVvNWhUWUNnNXR6SWtncW9ZNUxpOW9vR3hrNFFHVkF0bmZBNDJpSDZLWS1NNWFTa0hNb3N3OU44MFZnbw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
     {
       "title": "美财长贝森特预言通缩",
       "summary": "美国财政部长贝森特表示，随着沃什接任美联储主席，未来将出现‘实质性通缩’。这一言论缓解了市场对通胀持续的担忧，可能降低美联储加息预期，利好风险资产包括加密货币。比特币近期因通胀数据超预期而承压，此表态可能推动资金回流。",
       "reason": "宏观经济关键人物讲话，直接影响利率预期，属于优先级二的宏观经济数据/政策。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 4,
       "sources": [
@@ -22,14 +40,27 @@
       "urgency": "hours"
     },
     {
+      "title": "Kraken用Chainlink替代LayerZero",
+      "summary": "加密货币交易所Kraken宣布将使用Chainlink作为其跨链桥接基础设施，取代现有的LayerZero。这可能导致Chainlink（LINK）需求增加，而LayerZero（ZRO）失去重要客户。Kraken作为大型交易所，此举将提升Chainlink的采用率，对LINK价格构成利好，对ZRO利空。",
+      "reason": "头部交易所技术选型变更，直接影响两个项目的基本面，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "ZRO"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
       "title": "CFTC简化预测市场报告",
       "summary": "美国商品期货交易委员会（CFTC）发布无行动函，精简预测市场的掉期数据报告要求。此举降低了预测市场的合规成本，可能推动Polymarket等平台发展，并利好相关代币。但影响范围有限，对主流币价格影响较小。",
       "reason": "监管轻微放松信号，属于优先级二的监管动态，但影响级别较低。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "neutral",
       "impact_level": 2,
       "sources": [
@@ -45,10 +76,7 @@
       "summary": "链上数据分析平台Dune Analytics宣布裁员25%，原因是AI提高了效率。这暗示加密行业仍在削减成本，市场情绪偏弱，但Dune本身并非交易资产，对市场直接影响有限，可能反映行业整体收缩趋势。",
       "reason": "行业头部公司裁员，反映市场情绪和行业状况，属于优先级三的市场情绪信号。",
       "category": "市场情绪",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 2,
       "sources": [
@@ -59,7 +87,5 @@
       ],
       "urgency": "days"
     }
-  ],
-  "total_fetched": 52,
-  "generated_at": "2026-05-15T00:02:13.650000+08:00"
+  ]
 }
