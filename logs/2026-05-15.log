@@ -571,3 +571,87 @@
 2026-05-14 21:01:15 [DEBUG]   去重: 「CertiK CEO：DeFi攻击者用AI导致不公平」 → URL重复: https://www.theblock.co/post/401280/unfair-game-certik-ceo-d
 2026-05-14 21:01:15 [INFO] 📦 JSON 已保存: reports/2026-05-15-05.json
 2026-05-14 21:01:15 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息
+2026-05-14 22:00:32 [INFO] 🚀 开始抓取 2026-05-15 06:00 币圈新闻
+2026-05-14 22:00:32 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-14 22:00:32 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-14 22:00:32 [INFO]   ⏭ The Block: 过滤掉 17 条非近期新闻
+2026-05-14 22:00:32 [INFO]   ⏭ Decrypt: 过滤掉 33 条非近期新闻
+2026-05-14 22:00:32 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ CoinDesk: 过滤掉 24 条非近期新闻
+2026-05-14 22:00:33 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-14 22:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 8 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ 宏观经济: 过滤掉 14 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ Blockworks: 过滤掉 4 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ 吴说区块链: 过滤掉 41 条非近期新闻
+2026-05-14 22:00:33 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 21 条非近期新闻
+2026-05-14 22:00:34 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:34 [INFO]   ⏭ Crypto Twitter: 过滤掉 44 条非近期新闻
+2026-05-14 22:00:34 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-05-14 22:00:34 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:34 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 21 条非近期新闻
+2026-05-14 22:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-14 22:00:37 [INFO]   ⏭ 金色财经: 过滤掉 14 条非近期新闻
+2026-05-14 22:00:37 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 2 条非近期新闻
+2026-05-14 22:00:38 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-05-14 22:00:38 [INFO]   ✓ CoinDesk: 1 条
+2026-05-14 22:00:38 [INFO]   ✓ The Block: 3 条
+2026-05-14 22:00:38 [INFO]   ✓ Decrypt: 3 条
+2026-05-14 22:00:38 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ Bitcoin Magazine: 2 条
+2026-05-14 22:00:38 [INFO]   ✓ Blockworks: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ DL News: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ 金色财经: 6 条
+2026-05-14 22:00:38 [INFO]   ✓ PANews: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ Bloomberg Crypto: 2 条
+2026-05-14 22:00:38 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-14 22:00:38 [INFO]   ✓ Reddit r/cryptocurrency: 4 条
+2026-05-14 22:00:38 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-05-14 22:00:38 [INFO]   ✓ Crypto Twitter: 6 条
+2026-05-14 22:00:38 [INFO]   ✓ 宏观经济: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ Binance公告: 20 条
+2026-05-14 22:00:38 [INFO]   ✓ OKX公告: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ Bitget公告: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ Whale Alert: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-14 22:00:38 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-14 22:00:38 [INFO]   ✓ 雪球加密: 1 条
+2026-05-14 22:00:38 [INFO] 📊 共抓取 53 条新闻
+2026-05-14 22:00:38 [INFO] 📋 原始新闻已保存: reports/2026-05-15-06-raw.json (53 条)
+2026-05-14 22:00:38 [INFO] 📋 标题摘要已保存: reports/2026-05-15-06-raw-titles.md
+2026-05-14 22:00:38 [INFO] ✅ 抓取完成，共 53 条，已保存到 reports/2026-05-15-06-raw.json
+2026-05-14 22:00:38 [INFO] 🤖 开始 AI 筛选 2026-05-15 06:00 币圈消息
+2026-05-14 22:00:38 [INFO] 📋 已加载原始新闻: reports/2026-05-15-06-raw.json (53 条)
+2026-05-14 22:00:38 [INFO] 📚 已加载历史新闻标题（26626 字符）
+2026-05-14 22:00:38 [INFO] 📚 已加载历史筛选标题 17 条、URL 19 个，用于去重
+2026-05-14 22:00:38 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-14 22:00:38 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-14 22:00:38 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（53 条，10372 字符，temp=0.3）
+2026-05-14 22:01:02 [INFO] AI 原始返回已保存: logs/2026-05-15-ai-response.txt (finish_reason=stop, 4254 字符)
+2026-05-14 22:01:02 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-15-06-ai-raw.json
+2026-05-14 22:01:02 [DEBUG] parse_json_response 输入长度: 4254 字符
+2026-05-14 22:01:02 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Hyperliquid ETF周五上市",
+      "summary": "Bitwise Hyperliquid ETF将于本周五在纽约证券交易所开始交易，这是首只追踪Hyperliquid（HYPE）的交易所交易基金。该ETF的上市将为传统投资者提供便捷的HYPE敞口，可能吸引大量资金流入。对HYPE代币形成直接利好，短期看多。",
+      "reason": "直接影响行情的消息：首只Hyperliquid ETF上市，将直接增加HYPE的需求和流动性。",
+      "category": "ETF机构"
+2026-05-14 22:01:02 [DEBUG] 从 JSON 对象的 news 字段提取到 7 条记录
+2026-05-14 22:01:02 [INFO] ✅ AI 返回 7 条新闻
+2026-05-14 22:01:02 [INFO] ✅ AI 筛选出 7 条交易相关消息，符合预期
+2026-05-14 22:01:02 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
+2026-05-14 22:01:02 [INFO] 🔄 去重：移除 2 条与历史报告重复的新闻
+2026-05-14 22:01:02 [DEBUG]   去重: 「Cerebras IPO首日暴涨100%」 → 标题相似: Cerebras IPO暴涨100%
+2026-05-14 22:01:02 [DEBUG]   去重: 「华尔街抢滩代币化股票市场」 → URL重复: https://www.coindesk.com/business/2026/05/14/here-is-why-wal
+2026-05-14 22:01:02 [INFO] 📦 JSON 已保存: reports/2026-05-15-06.json
+2026-05-14 22:01:02 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
