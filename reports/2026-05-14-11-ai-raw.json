@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-14",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9637,
+    "completion_tokens": 2613,
+    "total_tokens": 12250
+  },
+  "content_length": 2189,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC ETF净流出6.3亿美元\",\n      \"summary\": \"昨日美国现货比特币ETF净流出6.3038亿美元，创近期单日流出新高。机构资金大幅撤离，可能由宏观不确定性（通胀升温、美联储换帅）及获利了结驱动。直接影响BTC价格，短期抛压显著。信号：看空。\",\n      \"reason\": \"直接影响行情的ETF资金流动，优先级一。净流出规模大，历史中未出现具体数据。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512655.html\"}],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"ETH ETF净流出3625万美元\",\n      \"summary\": \"昨日美国现货以太坊ETF净流出3625万美元，延续近期流出趋势。ETH价格承压，市场对以太坊短期前景信心不足。信号：看空。\",\n      \"reason\": \"ETF机构动向，直接影响ETH价格。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512654.html\"}],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Clarity法案谈判未达协议\",\n      \"summary\": \"《Clarity法案》两党夜间谈判未达成协议，民主党内对道德条款及BRCA条款仍存分歧。法案旨在为加密货币提供监管清晰度，谈判破裂增加政策不确定性，可能推迟合规落地，短期利空市场情绪。影响所有加密币种。信号：看空。\",\n      \"reason\": \"重大监管动态，优先级一。历史有相关消息但未提及谈判结果，此为新进展。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"SOL\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512652.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"巨鲸卖出33.8万HYPE\",\n      \"summary\": \"某巨鲸卖出约33.8万枚HYPE，获得1340万枚USDC。大额抛售信号，可能为机构或大户减持，对HYPE价格形成短期压力。信号：看空。\",\n      \"reason\": \"链上异动，优先级一。巨鲸主动卖出，抛压明显。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512647.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Solana财库公司增长108%\",\n      \"summary\": \"Solana财库公司DeFi Development Corp报告每股SOL价值同比增长108%，显示Solana生态财务健康度提升。利好SOL，可能增强投资者信心。信号：看多。\",\n      \"reason\": \"项目方积极动态，优先级二。直接影响SOL基本面认知。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"SOL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/401200/defi-development-corp-growth-sol-per-share\"}],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

@@ -1473,3 +1473,69 @@ content length: 2147
   ],
   "note": "本轮抓取素材中多数消息与历史记录重复，仅筛选出3条新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2613, prompt_tokens=9637, total_tokens=12250, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1756, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8485)
+content length: 2189
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF净流出6.3亿美元",
+      "summary": "昨日美国现货比特币ETF净流出6.3038亿美元，创近期单日流出新高。机构资金大幅撤离，可能由宏观不确定性（通胀升温、美联储换帅）及获利了结驱动。直接影响BTC价格，短期抛压显著。信号：看空。",
+      "reason": "直接影响行情的ETF资金流动，优先级一。净流出规模大，历史中未出现具体数据。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512655.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "ETH ETF净流出3625万美元",
+      "summary": "昨日美国现货以太坊ETF净流出3625万美元，延续近期流出趋势。ETH价格承压，市场对以太坊短期前景信心不足。信号：看空。",
+      "reason": "ETF机构动向，直接影响ETH价格。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512654.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Clarity法案谈判未达协议",
+      "summary": "《Clarity法案》两党夜间谈判未达成协议，民主党内对道德条款及BRCA条款仍存分歧。法案旨在为加密货币提供监管清晰度，谈判破裂增加政策不确定性，可能推迟合规落地，短期利空市场情绪。影响所有加密币种。信号：看空。",
+      "reason": "重大监管动态，优先级一。历史有相关消息但未提及谈判结果，此为新进展。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512652.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸卖出33.8万HYPE",
+      "summary": "某巨鲸卖出约33.8万枚HYPE，获得1340万枚USDC。大额抛售信号，可能为机构或大户减持，对HYPE价格形成短期压力。信号：看空。",
+      "reason": "链上异动，优先级一。巨鲸主动卖出，抛压明显。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512647.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Solana财库公司增长108%",
+      "summary": "Solana财库公司DeFi Development Corp报告每股SOL价值同比增长108%，显示Solana生态财务健康度提升。利好SOL，可能增强投资者信心。信号：看多。",
+      "reason": "项目方积极动态，优先级二。直接影响SOL基本面认知。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/401200/defi-development-corp-growth-sol-per-share"}],
+      "urgency": "hours"
+    }
+  ]
+}
