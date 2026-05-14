@@ -2118,3 +2118,126 @@ content length: 4198
   ],
   "note": "由于近6小时历史消息覆盖了大量重复内容，本轮仅有5条新消息具有交易价值，其中2条偏多、2条偏空、1条中性。重点关注嘉信理财合作和CryptoQuant技术警告。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3418, prompt_tokens=12303, total_tokens=15721, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1506, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11151)
+content length: 4562
+============================================================
+{
+  "news": [
+    {
+      "title": "穆迪授予贝莱德富达代币化基金最高评级",
+      "summary": "穆迪授予贝莱德和富达的代币化货币市场基金最高评级，标志着传统金融机构对链上资产质量的认可。此举可能加速机构资金流入RWA代币化领域，间接提振ETH等公链生态。评级利好整体市场情绪，属于机构入场信号。",
+      "reason": "优先级一：机构入场信号，直接利好代币化资产类别，影响市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "RWA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/moody-s-awards-top-rating-to-fidelity-and-blackrock-s-tokenized-money-market-funds"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币公司Nakamoto Q1亏损2.39亿美元",
+      "summary": "Nakamoto公司报告2026年Q1净亏损2.39亿美元，尽管营收增长六倍，但比特币财库价值下滑导致亏损。这可能削弱投资者对比特币公司股票及BTC持仓的信心，短期利空BTC价格，但长期影响有限。",
+      "reason": "优先级一：项目方重大财务事件，直接影响BTC持仓方情绪。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401225/nakamoto-reports-q1-loss?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CFTC对预测市场发布无行动函",
+      "summary": "CFTC发布不采取行动函，免除预测市场合约的数据报告义务，为预测市场提供了合规缓冲。利好POLY、REP等预测市场代币，可能引发短期投机热潮。但中期监管框架仍不确定。",
+      "reason": "优先级一：重大监管动态，直接利好预测市场赛道。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401215/cftc-no-action-prediction-market?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "法官推迟Aave解冻7100万美元ETH听证会",
+      "summary": "纽约法官推迟了Aave紧急解冻7100万美元ETH的听证会，这些ETH来自黑客攻击。推迟延长了资金冻结时间，利空AAVE代币，显示去中心化借贷在司法纠纷中的脆弱性。",
+      "reason": "优先级一：项目方重大安全事件，直接影响AAVE价格及DeFi信心。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/judge-delays-aaves-emergency-bid-to-unfreeze-71m-hacked-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普考虑250项特赦，加密创始人寻宽恕",
+      "summary": "特朗普政府考虑发布250项特赦以庆祝美国250周年，多位加密项目创始人正在寻求宽恕。特赦可能涉及部分加密领域高管，短期提振市场情绪，但具体名单不明，影响有限。",
+      "reason": "优先级二：监管政策动向，可能涉及加密人物豁免，情绪影响。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/trump-weighs-250-pardons-as-crypto-founders-seek-clemency?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国批准英伟达H200对华销售，科技股反弹",
+      "summary": "特朗普-习近平峰会期间，美方批准英伟达H200芯片对华销售，刺激科技股反弹。这一缓和信号利好AI和科技板块，间接提振加密货币市场情绪，特别是AI相关代币。",
+      "reason": "优先级二：宏观地缘缓和，风险资产偏好提升。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcEY3amJBNVp6OWw2dTJvOW1GVTZEVTdmQkZVWExiQnVWTTJlRUxvV1hxUnc3VXVPaVg2MXFQbWZPQUw4YTVBRUxIZURCVUc3OXVGVWRyWGlScDEtMFB6ZFBhUUNnbXMyTnFUZDlSZEtEQ1BhdTA1SzhXSS1hbFBZT9IBhgFBVV95cUxQVFVFZ3ZLd3ZoQUU4S19zQkY3Wm1hMnhmTVdHdHZpY0ZIczNxSVNuZGdyTzFueXhWQ1hwamVQUjVWX2tlSWlpTjRNbk9fVTdVeFowRmd0Y0ZReFhLT2VSOVo5UG1XTHhYTEUzc1Njb0x1dDBKZzBDNk1vZFVsSTI5Tllic3NEUQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Blockchain.com推出加密支持贷款服务",
+      "summary": "Blockchain.com推出加密抵押贷款产品，允许用户以BTC、ETH等资产借款。这增加市场流动性，促进持有者杠杆操作，短期利好BTC/ETH价格，但需警惕抵押风险。",
+      "reason": "优先级二：交易所/平台重大产品更新，增加资金效率，情绪利好。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZm1uSG1oUGpucFNLZ3BZRkViMVZqMTgybDhYMmYzeGlrZHJqbWI4LXhSN2xIUWVWOGpsNHI1VWVkMW5od2NkUVJTY1EwOUo4TDE1S0dfMWNpR0d6Q2M5NHdRd3hyMHdNQks0R3hCSDNCVFpMQmE3Q202TzJPajdOQXZyY21VU1F1eGpyRVVhQjk0dlFoQ1FMNlNLY1BXYWNEaHJVRGVzalNUM0FtR29QelY0cWozV0VUYXJvclQ4eFZUMC1vUjdVOExya2UwQ0dtVW5wa0cxUGFieUZzYlhxMFByZGFJTTAyT0VMRE9oZFRqa2J4RlE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
