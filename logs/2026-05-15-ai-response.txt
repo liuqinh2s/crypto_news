@@ -871,3 +871,94 @@ content length: 4254
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2733, prompt_tokens=13104, total_tokens=15837, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1839, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11952)
+content length: 2513
+============================================================
+{
+  "news": [
+    {
+      "title": "达特茅斯买入Solana ETF",
+      "summary": "美国达特茅斯学院捐赠基金投资Solana ETF，持有1400万美元加密资产。这表明传统机构对Solana的接纳度提升，可能带动更多资金流入SOL。看多信号。",
+      "reason": "机构入场Solana ETF，直接影响SOL需求与市场信心，符合筛选标准‘机构动向’。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase上线BTC-INR交易对",
+      "summary": "Coinbase面向印度用户上线BTC-INR交易对，为印度投资者提供直接购买比特币的通道。印度市场庞大，此举有望增加比特币需求，短期利好BTC。",
+      "reason": "交易所新增法币交易对，扩大用户基础，对BTC形成直接买入压力。",
+      "category": "交易所",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512781.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave更新漏洞赏金计划",
+      "summary": "Aave宣布更新漏洞赏金计划，将Core Aave V3等模块单独组织赏金。此举提升协议安全性，降低黑客攻击风险，对AAVE持中性偏积极影响。",
+      "reason": "项目安全升级，虽不直接提振价格，但减少负面事件概率，属于项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512780.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "NFL All Day停止发行NFT",
+      "summary": "Dapper Labs旗下NFL All Day宣布停止发行新NFT，并释放未来与联盟合作的信号。这代表体育NFT热度消退，利空NFT整体情绪，但影响有限。",
+      "reason": "主要体育NFT项目停发，反映NFT市场低迷，可能引发同类项目悲观预期。",
+      "category": "项目更新",
+      "impact_coins": ["FLOW"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/367926/nfl-all-day-stops-issuing-nfts-dapper-labs-future-plans-league"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美联储6月维持利率概率96.8%",
+      "summary": "根据CME FedWatch工具，美联储6月维持利率不变的概率高达96.8%，市场几乎完全定价不降息。这对风险资产中性偏紧，但符合预期，影响有限。",
+      "reason": "宏观数据影响风险资产定价，但概率极高，市场已消化，短期无冲击。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512786.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
