@@ -2241,3 +2241,63 @@ content length: 4562
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3583, prompt_tokens=10851, total_tokens=14434, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2800, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9699)
+content length: 1878
+============================================================
+{
+  "news": [
+    {
+      "title": "穆迪最高评级贝莱德代币基金",
+      "summary": "穆迪授予贝莱德和富达的代币化货币市场基金最高评级，标志着机构对加密资产生态认可度提升。Tokenized Treasuries总规模已创纪录达153.5亿美元，此评级可能吸引更多传统资金流入RWA赛道。短期看多BTC/ETH及相关代币化资产，但影响偏中长期。",
+      "reason": "顶级评级机构认可代币化资产，提升机构入场信心，属于机构动态利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/moody-s-awards-top-rating-to-fidelity-and-blackrock-s-tokenized-money-market-funds"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "中国M2同比增8.6%",
+      "summary": "中国央行数据显示4月末M2余额353.04万亿元，同比增长8.6%，高于预期。表明中国货币政策维持宽松，可能通过资金溢出效应间接利好全球风险资产包括加密货币。但影响间接，短期信号中性偏多。",
+      "reason": "中国宏观数据反映流动性环境，宽松政策对风险资产偏多。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512712.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美Crypto行业力推有利法案",
+      "summary": "据New York Times报道，加密货币行业正推动一项倾斜监管的法案，可能使监管更有利。此前市场关注CLARITY Act投票，但新法案动向暗示行业游说取得进展。若通过将减轻监管压力，利好整体市场。短期情绪偏多。",
+      "reason": "监管政策方向性利好，可能影响立法进程。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYS1SSzJNN2stM2xVRjFWSGRGbjNVb3dzbUQ2eTJoWENfTDM3NWFTRnhlMkJRbG9lRjZBcDdhSUZZcHNKdjhLQkQwa3RMR3RoSUpKYWkwenRDc2RCZXlwcHl3aVlCYzRjNFhIUUswbC1GS0g5UkpOYTNsaEpHWXFxMmFxZzduQWNscE1mVA?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前时段有效新消息较少，仅筛选出3条。多数Binance公告和链上异动已在历史消息中重复，恐惧贪婪指数未变，无其他重大事件。"
+}
