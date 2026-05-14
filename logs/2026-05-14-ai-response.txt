@@ -2608,3 +2608,110 @@ content length: 2805
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4442, prompt_tokens=15991, total_tokens=20433, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3023, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14839)
+content length: 3669
+============================================================
+{
+  "news": [
+    {
+      "title": "Clarity Act听证会进行中",
+      "summary": "美国参议院银行委员会于2026年5月14日举行关键听证会，旨在推进Clarity Act，该法案将为加密货币提供明确的监管框架。尽管市场此前对该法案期待较高，但听证会期间比特币价格维持在8万美元附近，未出现大幅波动。若法案通过，将利好整个加密市场，尤其是BTC和ETH；若受阻，可能引发短期回调。目前不确定性较高，但长期来看立法进展是积极信号。",
+      "reason": "优先级一：重大监管动态，直接影响市场情绪和未来合规框架。虽历史有相关讨论，但实时听证为最新进展。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/14/live-senate-banking-committee-holds-key-hearing-to-advance-clarity-act"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CME将推加密指数期货",
+      "summary": "芝加哥商品交易所（CME）宣布将于2026年6月8日推出纳斯达克-backed加密指数期货，涵盖七种加密资产，为首个加权合约。该产品允许机构投资者通过传统金融基础设施获得加密市场敞口，可能吸引更多资金入场，提升市场深度和流动性。长期利好BTC、ETH等主要币种。",
+      "reason": "优先级一：ETF/机构动向 - 新机构产品有望带来增量资金，且未在历史消息中出现。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401274/cme-sets-june-8-for-nasdaq-backed-crypto-index-futures-covering-seven-assets-in-first-weighted-contract"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "21Shares推出主动管理加密ETF",
+      "summary": "21Shares宣布推出首只美国主动管理型加密货币ETF“TKNS”，该ETF将主动投资于数字资产，为投资者提供专业管理的加密敞口。新产品的推出可能吸引更多传统资金入场，尤其是寻求专业管理的投资者。利好整体市场，特别是BTC和ETH。",
+      "reason": "优先级一：ETF机构 - 新ETF产品发行，有助于扩展加密投资渠道，属于中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512746.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "STRC发行接近上限或减缓BTC积累",
+      "summary": "MicroStrategy（STRC）的STRC发行量已接近283亿美元上限，增发空间有限。Michael Saylor表示今日为STRC增发日，明日为股权登记日。若增发上限达到，Strategy可能放缓比特币购买步伐，减少市场买盘压力。这对BTC价格构成短期利空信号，但长期影响取决于其未来融资计划。",
+      "reason": "优先级一：项目方重大事件 - 直接影响BTC需求，且为当日最新动态。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512735.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储芝加哥主席警告通胀风险",
+      "summary": "芝加哥联储主席Austan Goolsbee警告美国经济仍面临通胀风险，暗示美联储可能维持紧缩立场。此前PPI和CPI数据均超预期，叠加职位空缺率高企，降息预期进一步延后。高利率环境对风险资产（包括加密货币）构成压力，BTC短期承压。",
+      "reason": "优先级二：宏观经济 - 美联储官员鹰派言论可能打压市场风险偏好，影响BTC等风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzXzExWXdfWTNyQ3lLWVdWc2dzNWFvdUlzTUNZSXVDSzAxLUdZT1hrbUc2R3dfQ2dUZHZhNTBBZUQwenpGVDdrWl82NXh2Skd3bTdnOHdvZWk0azJkZktJSWNjd2d5MEpPS25HbnhJdkFiOW5S?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "GSR律师称Clarity Act通过概率低于50%",
+      "summary": "GSR首席法律官表示，鉴于稳定币收益和道德争议，Clarity Act在参议院获得通过的几率不足50%。这一评估降低了市场对法案近期通过的预期，可能削弱此前因立法进展而积累的多头情绪。短期利空BTC及整个加密市场。",
+      "reason": "优先级二：市场情绪 - 专业机构降低法案通过预期，直接影响市场信心，且为独家观点。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401262/gsr-legal-chief-puts-clarity-act-passage-below-50-per-cent-odds"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
