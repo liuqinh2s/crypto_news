@@ -2424,3 +2424,96 @@ content length: 3550
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3329, prompt_tokens=14982, total_tokens=18311, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2219, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13830)
+content length: 2920
+============================================================
+{
+  "news": [
+    {
+      "title": "Strive's SATA首推每日现金分红",
+      "summary": "Strive资产管理公司推出的SATA成为美国首个每日支付现金分红的上市证券。该产品旨在吸引寻求稳定现金流的投资者，可能分流部分加密市场资金，但长期看或推动传统金融与加密融合。对BTC、ETH影响中性偏空，因资金可能流出风险资产。",
+      "reason": "新金融产品可能吸引资金离开加密市场，但影响有限，属于创新事件，关注后续资金流向。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/strive-s-sata-to-become-first-u-s-listed-security-to-pay-daily-cash-dividends"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bullish一季度收入不及预期",
+      "title": "Bullish一季度收入低于预期",
+      "summary": "加密交易所Bullish公布一季度财报，收入低于市场预期，主要因交易活动疲软。这反映市场流动性下降和交易量萎缩，可能加剧市场悲观情绪。对BTC、ETH偏空，因交易所收入下滑通常伴随交易量减少。",
+      "reason": "交易所收入不及预期直接反映市场活跃度下降，属于市场结构利空信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/13/bullish-misses-first-quarter-revenue-estimates-as-transaction-revenue-slips"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "币安推迟上市Gensyn",
+      "summary": "据金色财经消息，币安将推迟上市Gensyn (AIGENSYN)，但币安官方公告仍显示即将上市。若推迟属实，将对AIGENSYN价格造成短期利空，因市场预期落空。同时影响市场对币安上币节奏的信心。",
+      "reason": "上币推迟直接影响该币种价格，属于优先一事件，但信息源存在矛盾，需后续确认。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512728.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "贝莱德向Coinbase存入3.07亿美元",
+      "summary": "贝莱德向Coinbase存入价值3.07亿美元的比特币和以太坊，包括约1.7亿美元BTC和1.37亿美元ETH。大额资产转入交易所通常被视为潜在抛压信号，可能引发短期价格下跌。但考虑到贝莱德是ETF发行商，也可能属于做市或托管操作。整体偏空。",
+      "reason": "巨鲸异动，大额转入交易所是优先级一事件，需警惕抛售。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512727.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "分析师称山寨币季节或悄然启动",
+      "summary": "多位分析师指出三个看涨指标：1）BTC dominance从高点回落；2）部分山寨币成交量放大；3）资金从BTC轮动至山寨。若山寨币季节开启，将推高ALT价格，但BTC可能短期承压。建议关注ETH、SOL等龙头。",
+      "reason": "市场结构变化可能引发中期行情，属于优先级二消息。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH", "SOL", "ALT"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/altcoin-quietly-starting-analysts-spot-three-bullish-indicators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "受限于大量重复新闻，仅筛选出5条有交易价值的新消息。"
+}
