@@ -688,3 +688,63 @@ content length: 3032
   ],
   "note": "由于大量新闻与历史重复，仅筛选出4条具有新交易价值的关键消息。其余如Clarity Act通过、BTC突破82k、Binance上币等均已在此前时间点出现过，未重复收录。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3016, prompt_tokens=13220, total_tokens=16236, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2043, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12068)
+content length: 2232
+============================================================
+{
+  "news": [
+    {
+      "title": "华尔街加速代币化股票市场",
+      "summary": "CoinDesk报道华尔街正竞相将整个股票市场代币化，多家大型金融机构投入资源。这可能长期利好以太坊（ERC-20）和代币化平台如Polymesh等，但短期对加密货币价格影响有限。看多信号：代币化趋势将增加链上资产价值，提升对区块链基础设施的需求。但近期交易影响微弱。",
+      "reason": "机构大规模代币化是长期趋势，可能推动合规和采用，但非短期交易催化剂。根据标准，属于中期影响，但交易价值较低。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "POLYX"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/14/here-is-why-wall-street-is-racing-to-tokenize-the-entire-stock-market"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CertiK CEO：DeFi攻击者用AI导致不公平",
+      "summary": "CertiK首席执行官表示，DeFi攻击者正在利用AI技术以极低成本发起攻击，而防御者成本高昂，形成不公平竞争。这可能引发市场对DeFi安全的担忧，短期偏空。影响币种包括大量DeFi代币（如UNI、AAVE、CRV等），但无直接抛压。信号看空，但影响有限。",
+      "reason": "安全事件相关消息，可能短期压制DeFi板块情绪，属于市场中情绪信号。根据标准，属中等偏低影响。",
+      "category": "项目更新",
+      "impact_coins": ["UNI", "AAVE", "CRV"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401280/unfair-game-certik-ceo-defi-attackers-using-ai-outspend-defenders?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Jane Street一季度减持71% BTC持仓，增持ETH",
+      "summary": "据Bitcoin News，Jane Street在2026年第一季度将其比特币持仓削减71%，同时将以太坊持仓增至8200万美元。这显示顶级做市商对BTC偏向谨慎，对ETH相对看好。信号：BTC短期偏空，ETH偏多。但机构调仓为季度数据，非即时抛压。",
+      "reason": "机构动向属于中期影响因素，Jane Street作为知名交易机构，其持仓变化可能引发市场跟随。根据标准，影响等级中等。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin News（雪球）",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRkkwQWZ6ZUl6dTFsakthaDd2cFg3bTYzMjc4TEZfOGFnLVF2b1p2SFdjcTBvYnU4WEQxSGptYzVrRm9fblVWNnc4MDliVW15TkFpVkFKMHR3QWRtVC1YZ3diX0dKRGVRdDB6NDVHZEtDY3pyS2NFSmx5dE5CUW5reUpJUDZ3MDFubDBvYUJWVV9LaUVyR0twam9hN1lVakV3NHhXNDJ0UmpPVGZhSVpUQUhnUU50SG1qS012R0xJVHJ0UkdKTDlNTWI0OHdyb3NhZ3c?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中，大部分消息与历史重复或无关，仅有上述3条具备一定交易参考价值。原有5条要求未满足，故减少输出。"
+}
