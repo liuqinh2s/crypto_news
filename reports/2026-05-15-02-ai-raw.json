@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-15",
+  "hour": "02",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17321,
+    "completion_tokens": 3827,
+    "total_tokens": 21148
+  },
+  "content_length": 2412,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"JPMorgan看空ETH和山寨币\",\n      \"summary\": \"摩根大通发布报告称，如果没有更强的链上活动支撑，以太坊和山寨币可能继续跑输比特币。该行指出比特币在机构采纳和监管清晰度方面领先，而ETH和山寨币缺乏类似催化剂。这可能引发资金从ETH/ALT向BTC轮动，短期利空ETH和山寨币，相对利多BTC。\",\n      \"reason\": \"顶级投行观点直接影响市场情绪，可能引发资金迁移，属于中期重要信号。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"ETH\", \"BTC\", \"ALT\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/401349/jpmorgan-bitcoin-ether-altcoins-crypto\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"XRP鲸鱼地址数创新高\",\n      \"summary\": \"据CoinTelegraph报道，XRP鲸鱼钱包数量达到历史最高水平，显示大户正在积累。结合XRP价格在$1.50附近震荡，鲸鱼增持可能推动突破。但需注意历史高位积累后若未能突破，可能形成抛压。短期看多XRP。\",\n      \"reason\": \"链上鲸鱼异动是优先级一信号，巨额持仓变化预示潜在价格波动。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/xrp-whale-wallets-all-time-highs-will-it-push-price-above-1-50\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Cerebras IPO暴涨100%\",\n      \"summary\": \"AI芯片公司Cerebras以$5.5B估值上市，股价首日飙升100%，引发AI股票狂热。这可能导致资金从加密市场流向AI题材，短期压制币市资金流入。但作为替代性热点，可能分流部分风险偏好资金，对BTC、ETH等主流币影响偏负面。\",\n      \"reason\": \"重大IPO分流市场资金，影响风险资产整体情绪，属市场结构变化。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Bitfinex：链上指标改善但难创新高\",\n      \"summary\": \"Bitfinex分析指出比特币链上指标（如活跃地址、算力）有所改善，但认为短期内实现历史新高可能性不大。市场情绪仍受宏观不确定性和ETF流出影响。该观点偏中性，但暗示上涨空间有限，可能抑制追涨情绪。\",\n      \"reason\": \"专业机构对链上数据的解读影响中期价格预期，属于链上异动分析。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Cryptonews.net\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xUXVlMDFKbXZRV190NHZsa1I0RFdYbkFiMTEta1Zmdjl6b2R2NFBOd1MxNXlpQzNyUU5yN2lZR0NkWXpRS0QySVZVbE1uVnVGMHhMblpERzg\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"由于严格去重，仅筛选出4条未在历史消息中出现的重要新消息。CLARITY法案通过委员会等已被重复报道，不再选入。\"\n}"
+}
