@@ -2301,3 +2301,126 @@ content length: 1878
   ],
   "note": "当前时段有效新消息较少，仅筛选出3条。多数Binance公告和链上异动已在历史消息中重复，恐惧贪婪指数未变，无其他重大事件。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3511, prompt_tokens=12987, total_tokens=16498, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2223, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11835)
+content length: 3550
+============================================================
+{
+  "news": [
+    {
+      "title": "IPO抽血加密市场",
+      "summary": "CoinDesk分析指出，Cerebras、OpenAI、SpaceX等大型IPO可能从加密市场分流资金，导致流动性收紧。对BTC、ETH等主流币构成中期利空。投资者需关注IPO锁定期结束后可能出现的抛压。",
+      "reason": "大型IPO抽水效应可能减少加密市场资金流入，属于市场结构变化。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/cerebras-openai-spacex-the-ipo-pipeline-that-could-drain-crypto"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "杠杆多头平仓拖累BTC",
+      "summary": "比特币跌破8万美元，杠杆多头大规模平仓导致价格承压。CryptoQuant指出市场处于主要熊市阻力区域。短期抛压持续，BTC和ETH面临进一步下行风险。",
+      "reason": "杠杆平仓加速下跌，直接反映市场脆弱性，属于链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-stuck-below-usd80-000-as-leveraged-longs-unwind-altcoins-slide"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "英国央行拟放宽稳定币规则",
+      "summary": "据金融时报，英国央行准备放宽英镑稳定币规则以回应行业担忧。这为稳定币发行方提供更灵活监管环境，利好USDT、USDC及DeFi协议。中长期看多ETH及生态代币。",
+      "reason": "监管放松直接利好稳定币生态，属于重要政策信号。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401239/boe-reconsiders-stablecoin-rules"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "贝森特警告通胀数据火热",
+      "summary": "美国财长贝森特表示未来一两个月可能出现“火热”通胀数据，暗示美联储可能维持紧缩。这强化了利率长期高位预期，对BTC、ETH等风险资产构成压力。",
+      "reason": "通胀预期升温直接利空加密资产，属于宏观经济关键消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512723.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "贝森特：沃什对加密友好",
+      "summary": "贝森特评论新任美联储主席沃什将持开放态度。沃什被市场视为加密友好人选，其上任可能推动更有利的监管环境，中长期利好BTC和ETH。",
+      "reason": "美联储主席立场影响货币政策，沃什偏鹰但加密友好，存在不确定性。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512722.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "中国M2同比增8.6%",
+      "summary": "央行数据显示4月末M2余额353.04万亿元，同比增长8.6%，流动性持续宽松。这为全球风险资产提供支撑，间接利好BTC和ETH。",
+      "reason": "中国流动性宽松利好全球风险偏好，属于宏观流动性指标。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512712.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Coinbase联手房利美推加密抵押",
+      "summary": "Coinbase与房利美合作，允许用户使用加密资产作为抵押品申请抵押贷款。这标志着机构采用迈出重要一步，提升比特币、以太坊的实用价值，中长期看多。",
+      "reason": "主流金融接纳加密作为抵押品，极大提升实用性，属于机构重大进展。",
+      "category": "机构动向",
+      "impact_coins": ["BTC", "ETH", "COIN"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Twitter (via simplywall.st)",
+          "url": "https://simplywall.st/news/coinbase-uses-fannie-mae-partnership-to-turn-crypto-into-mortgage-collateral"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
