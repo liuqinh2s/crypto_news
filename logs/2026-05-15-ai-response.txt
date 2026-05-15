@@ -1998,3 +1998,80 @@ content length: 2864
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2012, prompt_tokens=10827, total_tokens=12839, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=677, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9675)
+content length: 3059
+============================================================
+{
+  "news": [
+    {
+      "title": "美股估值逼近泡沫高点",
+      "summary": "CoinDesk报道美国股市估值接近互联网泡沫时期高点，Shiller P/E升至25年来极端区间。历史数据显示，此类估值高位往往伴随风险资产回调，可能拖累比特币等加密货币。当前比特币仍低于200日均线，若美股大幅回调，比特币可能跟随下行。信号看空。",
+      "reason": "宏观经济风险信号，历史相关性显示加密货币易受美股大跌拖累。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/15/the-u-s-stock-market-is-getting-close-to-dot-com-bubble-peak-valuations"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "野村预计日本央行6月加息",
+      "summary": "野村证券报告称，为应对日元贬值可能带来的通胀风险，日本央行预计在6月加息。加息将收紧全球流动性，对风险资产构成压力，尤其影响日元套利交易。比特币等加密货币作为高风险资产，可能面临抛售压力。信号看空。",
+      "reason": "宏观紧缩预期，直接影响风险资产定价。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512900.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "OKX拟收购Coinone约20%股权",
+      "summary": "据报道OKX将收购韩国交易所Coinone约20%股权，交易金额未披露。此举有利于OKX拓展韩国市场，提升合规地位。对Coinone代币可能有短期提振，但对整体市场影响有限。中性偏多。",
+      "reason": "交易所整合事件，对相关平台币和韩国市场有影响。",
+      "category": "交易所",
+      "impact_coins": ["Coinone相关代币"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401431/okx-coinone-acquisition?utm_source=rss&utm_medium=rss"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512894.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "B2C2获MiCA牌照扩展欧盟OTC",
+      "summary": "加密做市商B2C2在卢森堡获得MiCA牌照，可在欧盟提供OTC交易服务。这是合规化进展，有利于机构资金入场，对加密货币市场是长期利好。信号看多。",
+      "reason": "监管合规利好，推动机构采用。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401427/b2c2-secures-mica-license?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "摩根大通申请代币化国债基金",
+      "summary": "摩根大通向监管提交申请，拟推出代币化国债基金，最低投资额100万美元，面向稳定币发行方。此举将增强稳定币底层资产透明度，利好USDT/USDC生态，并促进机构采用。长期看多。",
+      "reason": "传统金融机构代币化进展，利好稳定币及整个加密市场。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "雪球加密", "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxPNWxsYktQMnZMakdraEhQVzNPLXFkZGlEUlljQ3o5LWw0bEViU3prQW54WXg0X2hTNFBuR3V0SXRnUnBYakFSLWMteWlWSkRlc0Jpa2VJRkZnRzZTSGg3YjY0TTVrZmxfMERheHk1TWhiU0I0d1ZaYlhwLUQxQVFya1Zva2o3eXNuSWNQZnhZVWNJUWJNQUR2Wml4VGo1dWJlc05QSnloN0hVdEJWX2stbFpPdzJRdTFNVTB1VVhJeG9RQjVUZTl4ME50M0hGRnlaVUpwdFVuWEJrNXFZRXRRdFJoNWpiWDlRbnNIWTJpYnpqbU1qN1JQWDA4ZzdHWFJIdHF4SjZKU2tfMHl5R1R0VWdJUER2cGUtLWJDRTVwU2pmcllnMEFPWGtCNm10RVEzV01IdGRQaXVYTzFBbUdUeHR2ZTlYQU9VNUViODl4anVNSGZadTZRcXVJVXRTRnBDMldPWWJreWJfOXNXUk84OFVrVmpTdW9HUHo3ZzctbHpNN3JxTXZHSzlibw?oc=5"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
