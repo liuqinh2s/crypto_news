@@ -2186,3 +2186,110 @@ content length: 3376
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2479, prompt_tokens=11505, total_tokens=13984, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=461, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10353)
+content length: 4965
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY Act通过参议院银行委员会",
+      "summary": "美国参议院银行委员会以14:9投票通过了CLARITY Act（加密货币监管法案），该法案为数字资产提供明确的监管框架。消息发布后，BTC重回82000美元，XRP、DOGE涨超5%。这是2026年加密行业最重大的监管进展，直接利好所有合规币种。看多信号强烈。",
+      "reason": "优先级一：重大监管动态，直接影响行情，多个币种跳涨。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "XRP", "DOGE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/15/clarity-act-passes-senate-banking-committee/"},
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV29EdUlmQWFqaXNMQy1GVDdVd092aHpzcmdGUFh6cU1qZldKeVJJc3VqelRiMjhMY1JrSXhiRldJek1oT0F6YTVsVFVaU1B1OFBaenJ4UEZET3Jod25BTzVSWVNwcGJDVlczRXRaR3d6cnZtZl9QLWI1eGF0aUphcDBndHp4ZG5QZ2MyQnpXU0FUYUVpeF9zcG1rX0E?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "THORChain遭攻击损失1000万美元",
+      "summary": "THORChain因跨链漏洞遭黑客攻击，损失约1000万美元，团队已暂停交易并调查。RUNE价格暴跌12%。这是2026年针对跨链桥的又一次重大攻击，直接利空RUNE及其生态，同时可能引发市场对跨链安全性的担忧。看空RUNE。",
+      "reason": "优先级一：项目方重大事件（黑客攻击），直接影响对应币种价格。",
+      "category": "项目更新",
+      "impact_coins": ["RUNE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/05/15/thorchain-halts-trading-after-usd10-million-cross-chain-exploit-rune-token-drops-12"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/401462/thorchain-pauses-trading-as-security-researchers-flag-suspected-10m-multi-chain-exploit"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strategy发行优先股融资买入11707枚BTC",
+      "summary": "Strategy（原MicroStrategy）通过优先股STRC创纪录的15亿美元成交量，成功融资并买入11,707枚比特币，总持仓增至约23万枚。此举显示机构持续看好比特币长期价值，直接增加买盘压力。看多BTC。",
+      "reason": "优先级二：机构动向（大型公司持续买入），直接利好BTC。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/15/strategy-s-strc-stock-logs-record-usd1-5-billion-trading-volume-funds-11-707-bitcoin-purchase"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩亚银行6.7亿美元收购Upbit母公司Dunamu",
+      "summary": "韩国韩亚银行以6.7亿美元收购Upbit母公司Dunamu 6.55%股份，这是韩国传统金融机构对加密交易所的最大规模投资，显示主流资本加速入场。利好韩国加密市场情绪，间接影响BTC、ETH及Upbit上线币种。看多。",
+      "reason": "优先级二：机构动向（传统银行大规模投资交易所），增强市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/15/hana-bank-to-acquire-usd670-million-stake-in-upbit-operator-dunamu"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/401443/victims-of-iran-attacks-seek-court-order-for-turnover-of-344-million-in-usdt-frozen-by-tether"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国2年期国债收益率创12个月新高",
+      "summary": "美国2年期国债收益率升至4.065%，创2025年3月以来新高，10年期收益率同步走高。高利率环境对风险资产形成压力，比特币仍位于200日均线下方。短期看空BTC、ETH等风险资产。",
+      "reason": "优先级二：宏观经济数据（利率走高压制风险资产）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线Gensyn和MegaETH",
+      "summary": "Binance宣布上线Gensyn (AIGENSYN) 和 MegaETH (MEGA) 并开放交易，同时推出对应永续合约。新币上线通常带来短期炒作热度，利好这两个代币。但需注意Seed标签可能伴随高波动。看多AIGENSYN和MEGA。",
+      "reason": "优先级一：交易所上币公告，直接影响对应币种。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN", "MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"},
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "波兰议会通过加密监管法案",
+      "summary": "波兰议会正式通过加密资产监管法案，为加密货币交易所和托管服务提供法律框架。同时也正在调查Zondacrypto 数百万美元诈骗案。监管落地对波兰加密市场长期利好，但短期因诈骗调查可能带来不确定性。中性偏多。",
+      "reason": "优先级一：重大监管动态（国家级别监管框架明确）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reuters", "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOblJDQUZhS0txTmt0aEZRcS1TR2k1M1JqcjhBOVJIaE0yMDlOdEFad3FwTG5MQVJiZGRuaF9WRXBoX1Z5aFhHdDc1UTV5RmVLWkhLRXZlMF9jaHhFdEVDRzJ2dFJaQndadm4wQ0FtNC1uSi1OSThTSm1KUUJRWU5xbk5iRVBHaWU0MjNvOGJUQS1QRlgtbmUteXZiRTdpc3oxX29lcVozVXpYVWxkNnhxNlFGaWd3dWxJZXJoNVBCRVFfV24zMFlOUlBRMA?oc=5"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512911.html"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
