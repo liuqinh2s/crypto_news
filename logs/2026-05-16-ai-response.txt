@@ -1247,3 +1247,252 @@ content length: 4835
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1776, prompt_tokens=10647, total_tokens=12423, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1468, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9495)
+content length: 752
+============================================================
+{
+  "news": [
+    {
+      "title": "Amundi和Spiko在Solana推出UCITS基金",
+      "summary": "Amundi（管理资产2.4万亿欧元）和Spiko（管理资产17亿美元）宣布在Solana区块链上推出UCITS合规基金。这是传统大型资管机构首次在Solana上发行受监管的基金产品，标志着Solana在机构采用方面取得重大突破。该基金将吸引传统资金入场，对SOL是明确利好信号，同时提升整个加密市场信心。",
+      "reason": "机构采用重大进展，2.4万亿欧元资管巨头首次上Solana发行合规基金，属于优先级二的机构动向，影响中等但具有标志性意义。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1te9two/amundi_24t_aum_and_spiko_17b_aum_are_launching_a/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中仅发现1条符合筛选标准的新消息，其余均为历史重复或无关内容。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2088, prompt_tokens=10647, total_tokens=12735, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1618, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=23)
+content length: 1254
+============================================================
+{
+  "news": [
+    {
+      "title": "Solayer推Visa卡支持USDC",
+      "summary": "Solayer宣布推出Visa兼容卡，用户可直接使用USDC进行支付。这是Solana生态在支付领域的重要进展，可能增加USDC需求并提升Solana网络活跃度。短期利好SOL和USDC，但需关注市场整体风险偏好。",
+      "reason": "项目更新，Visa卡为Solana生态带来实际应用场景，符合优先级二的技术升级/里程碑。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "资管巨头Amundi在Solana发行基金",
+      "summary": "管理2.4万亿美元的资管公司Amundi与Spiko（17亿美元AUM）合作，在Solana上推出UCITS合规基金。这是传统金融巨头首次在公链上发行合规基金，标志机构采用Solana的重要一步。利好SOL，显示机构对Solana生态的信任。",
+      "reason": "机构动向，大量资金可能通过该基金流入Solana生态，符合优先级二的机构动态。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1te9two/amundi_24t_aum_and_spiko_17b_aum_are_launching_a/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮新闻中符合筛选标准的新消息较少，仅选出2条。其余多为重复内容或无关交易的消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2090, prompt_tokens=10647, total_tokens=12737, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1757, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=23)
+content length: 816
+============================================================
+{
+  "news": [
+    {
+      "title": "Amundi与Spiko在Solana发行UCITS基金",
+      "summary": "管理资产2.4万亿欧元的欧洲资管巨头Amundi与Spiko（管理资产17亿美元）联合在Solana链上推出UCITS合规基金。这是传统金融机构首次在Solana发行受监管的基金产品，标志着机构资金正式通过Solana进入加密市场。该基金为合规基金，可能吸引更多传统资金流入Solana生态，利好SOL及链上协议。长期看多SOL。",
+      "reason": "重大机构入场Solana，属于优先级二的机构动向，可能带动SOL价格上涨。消息来源为Reddit社区讨论，需进一步核实但具有潜在影响力。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1te9two/amundi_24t_aum_and_spiko_17b_aum_are_launching_a/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮其他消息（如Binance公告、特朗普披露、Hyperliquid监管、BTC下跌等）均为历史重复，无新增重大事件。仅此条Reddit社区消息提供新信息，但来源可靠度较低，建议跟踪官方确认。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1819, prompt_tokens=11545, total_tokens=13364, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1572, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10393)
+content length: 645
+============================================================
+{
+  "news": [
+    {
+      "title": "Solayer推Visa兼容USDC卡",
+      "summary": "Solayer发布Visa兼容卡，允许用户通过在线、店内和Contactless交易使用USDC余额，并支持ATM提现。这是Solana生态的支付扩展，可能推动USDC采用。对SOL和USDC有利，但影响有限，短期对价格影响微弱。看多信号，但级别较低。",
+      "reason": "新项目更新，Solana生态支付扩展，但无直接价格影响。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮筛选仅发现1条有交易价值的新消息，其余均为已报道重复内容或低价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2896, prompt_tokens=11545, total_tokens=14441, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2307, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11520), prompt_cache_hit_tokens=11520, prompt_cache_miss_tokens=25)
+content length: 1460
+============================================================
+{
+  "news": [
+    {
+      "title": "美众院促特朗普填补CFTC委员",
+      "summary": "美国众议院负责监管商品期货交易委员会(CFTC)的议员致信特朗普，敦促尽快填充CFTC委员空缺。当前CFTC只有3名委员（法定5名），导致重大政策决策延迟。此举可能加速加密货币监管框架落地，尤其是对稳定币和衍生品市场的监管。虽然短期影响有限，但长期看有利于行业合规化。整体信号中性，监管明确化可能利好BTC、ETH等主流币，但不确定性仍存。",
+      "reason": "监管机构领导层变动直接影响政策进程，属于优先级一中的重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Solayer推Visa卡支持USDC支付",
+      "summary": "Solayer宣布推出Visa兼容的支付卡，允许用户通过USDC余额进行线上、店内及非接触式支付，并可在支持区域提取ATM现金。该卡基于Solana网络，进一步扩展了稳定币USDC的实用场景。这有助于推动Solana生态的日常支付采用，同时增加USDC的需求。对SOL和USDC构成利好，但短期对币价影响有限，属于生态应用进展。",
+      "reason": "项目方与Visa合作推出支付产品，增加稳定币实际应用场景，属于项目更新，对相关币种有轻度利好。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段新消息较少，仅筛选出2条关键消息。其他消息（如Mubadala增持ETF、多头清算等）虽重要，但已在历史标题中重复出现，按去重规则排除。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3133, prompt_tokens=3737, total_tokens=6870, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1766, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2585)
+content length: 3377
+============================================================
+{
+  "news": [
+    {
+      "title": "加密与股市齐跌，收益率飙升",
+      "summary": "受美国国债收益率飙升影响，加密货币市场随股市下跌，BTC和ETH价格承压。收益率上升通常反映市场对美联储维持紧缩政策的预期，降低风险资产吸引力。此消息对BTC、ETH等主流币种构成短期利空，需关注后续宏观数据。信号看空。",
+      "reason": "宏观经济数据直接影响风险资产走势，符合优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa2tueVhnak9XREhjVUhxM1ZPYndfSkxHaE5HZ2JxTm1HZTFCWjktTDFJRE81ZjV5VkpmNFRlSnpGVC1XYU9iVGVDU3RodVV6cFZ1U25nSEYzc0dqNkNCeS0weExmTk56LXgzNFZ1bzU2bXVEZ1BLUUo2bDZ6U3YwbkJaUU96ZEd5OUhkWW95cEViZkt4R0Z4S1pFZmpNd0Rh?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "ICE/CME施压监管限制Hyperliquid",
+      "summary": "ICE和CME向美国监管机构施压，要求限制Hyperliquid的能源衍生品交易。Hyperliquid是去中心化衍生品交易所，此举若落实将直接打压其业务，利空HYPE代币及相关DeFi生态。同时可能利好CEX如Binance、Coinbase。短期看空Hyperliquid。",
+      "reason": "涉及监管打压和DeFi生态，符合优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["HYPE", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/ice-cme-press-us-regulators-rein-hyperliquid-dex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "资管巨头Amundi在Solana推出UCITS基金",
+      "summary": "管理2.4万亿美元的Amundi与Spiko合作，在Solana上推出一支UCITS合规基金，为欧洲投资者提供链上资产入口。这是传统金融大规模采用区块链的里程碑事件，将显著增加Solana的链上资金量和机构关注度。看多SOL及Solana生态代币。",
+      "reason": "机构动向，重大利好Solana生态，符合优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL", "RAY", "JUP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1te9two/amundi_24t_aum_and_spiko_17b_aum_are_launching_a/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Solayer推出Visa卡支持USDC支付",
+      "summary": "Solayer发行Visa兼容借记卡，允许用户直接使用USDC进行日常消费，进一步打通Solana与现实世界的支付场景。这有助于提升USDC和Solana的实用性和采用率，但短期市场影响有限。偏利好。",
+      "reason": "项目更新，促进生态发展，符合优先级三。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线Gensyn (AIGENSYN)",
+      "summary": "Binance宣布上架Gensyn (AIGENSYN)，并开放多个交易对及理财服务。上币通常带来短期流动性溢价和关注度，但AIGENSYN已存在永续合约，价格可能已部分反映。预计短期有上涨动能，但需警惕回调。短期看多。",
+      "reason": "交易所上币公告，直接影响币种价格，符合优先级一。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数43，市场情绪恐惧",
+      "summary": "恐惧贪婪指数降至43，处于恐惧区间但非极端。历史数据显示，恐惧区间往往是中长期买入机会，但短期可能继续下探。当前水平未触发抄底信号，建议观望。中性偏多头。",
+      "reason": "市场情绪指标，符合优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    }
+  ]
+}
