@@ -2450,3 +2450,135 @@ content length: 2228
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2808, prompt_tokens=14462, total_tokens=17270, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2486, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13310)
+content length: 766
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国7月代币化证券规则",
+      "summary": "韩国金融服务委员会宣布将于2026年7月正式实施代币化证券相关法规，为传统资产代币化提供法律框架。新规要求发行方披露营销费用、初始投资者权利等信息，并对代币化证券的发行、流通进行监管。此举可能吸引机构资金入场，利好合规项目及韩国本土交易所代币（如UPBIT相关代币），但短期影响有限。信号中性偏多。",
+      "reason": "属于重大监管动态（国家级法规落地），影响韩国本土加密市场及合规代币化赛道，历史消息中未见重复。",
+      "category": "监管政策",
+      "impact_coins": ["KOREA"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/south-korea-announce-tokenized-securities-laws-july"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮筛选仅发现1条满足优先级标准的新消息（韩国代币化证券规则），其余历史消息均已在过去6小时内出现，或属于无关内容。恐惧贪婪指数43无变化，Binance公告重复，宏观数据（加息概率）重复，THORChain攻击、CLARITY Act、Strategy回购等已覆盖。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2977, prompt_tokens=14462, total_tokens=17439, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1516, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14336), prompt_cache_hit_tokens=14336, prompt_cache_miss_tokens=126)
+content length: 3817
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy或售BTC回购债券",
+      "summary": "Strategy（原MicroStrategy）宣布计划回购约15亿美元2029年到期的可转换债券，可能通过出售比特币或使用现金完成。此前该公司刚通过优先股融资购买11,707枚BTC，现在又可能抛售比特币来偿还债务，形成净抛压。若执行，将导致大量BTC流入市场，短期利空BTC价格。同时STRC创纪录交易量。",
+      "reason": "巨鲸/项目方可能抛售比特币，直接影响BTC供求，优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401482/strategy-to-retire-1-5-billion-in-convertible-notes-at-a-discount-may-sell-bitcoin-to-fund-buyback"},
+        {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/strategy-mstr-files-to-repurchase-1-5b"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid ETF日流入500万",
+      "summary": "21Shares的Hyperliquid ETF（代码HYPE）录得日流入500万美元，创下最佳单日表现。同时Coinbase成为该ETF的金库部署者，增强机构信任。Hyperliquid近24小时涨幅达23%，ETF资金涌入进一步支撑HYPE价格，看多信号。",
+      "reason": "ETF资金流入直接利好对应币种，优先级一。历史有HYPE上涨，但具体ETF流入数据为新信息。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401479/21shares-hyperliquid-etf-best-day-inflows-5-million-coinbase-treasury-deployer"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC跌破79000美元",
+      "summary": "比特币跌破79,000美元关口，为近期新低。在CLARITY法案通过后，比特币未能维持涨势，反而遭遇机构卖出和国债收益率飙升的压力。技术面看跌，短期支撑位下移，可能进一步测试75,000美元。",
+      "reason": "价格关键点位突破，直接影响行情，优先级一。历史有BTC价格消息，但跌破79k为具体新数据。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512942.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储加息概率超50%",
+      "summary": "美国利率期货显示，市场预计到明年1月美联储加息概率超过50%。通胀数据升温、伊朗战争推高通胀预期，新美联储主席Warsh可能偏鹰。紧缩预期打压风险资产，利空比特币和整体加密市场。",
+      "reason": "宏观经济重大转变，直接影响风险资产定价，优先级二。历史有加息可能消息，但具体概率超50%为数据更新。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512932.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美股AI股与白银暴跌",
+      "summary": "美股AI硬件股集体下挫，英伟达跌超4%，美光、AMD等跌超5%；现货白银重挫8%。避险资产与科技股齐跌，反映流动性紧缩和市场恐慌情绪升温。风险传导至加密市场，短期看空。",
+      "reason": "宏观市场情绪面剧烈波动，影响风险资产偏好，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512941.html"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512934.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "XRP因法案涨5%后回吐",
+      "summary": "XRP在CLARITY法案通过后一度上涨5%，但随后全部回吐。市场对监管利好反应短暂，说明缺乏持续买盘。短期面临获利回吐压力，方向中性偏弱。",
+      "reason": "价格行为反映市场对监管消息的真实消化，属于短期交易信号。历史有CLARITY法案，但XRP具体反应为新信息。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/15/xrp-gives-back-gains-after-senate-crypto-bill-sparks-5-rally"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BNB成唯一下跌中上涨币",
+      "summary": "CoinDesk 20指数下跌2%，但BNB是唯一上涨的币种。BNB表现出独立强势，可能与Binance生态活动或避险资金流入有关。短期看多BNB。",
+      "reason": "市场结构异常，BNB逆势走强可能预示后续行情。优先级三。",
+      "category": "市场结构",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/coindesk-indices/2026/05/15/coindesk-20-performance-update-bnb-is-only-gainer-as-index-drops-2"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
