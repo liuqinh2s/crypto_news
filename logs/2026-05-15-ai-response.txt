@@ -962,3 +962,94 @@ content length: 2513
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1359, prompt_tokens=12707, total_tokens=14066, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=292, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11555)
+content length: 2761
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数上升至43",
+      "summary": "恐惧贪婪指数从34回升至43，仍处于恐惧区间但有所改善。通常极度恐惧（<20）是抄底信号，但目前数值改善可能意味着市场情绪从极度悲观中修复，短期可能延续反弹。影响BTC、ETH。",
+      "reason": "市场情绪关键指标更新，从34升至43，反映情绪改善，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC OG巨鲸买入71,066枚BNB",
+      "summary": "某早期比特币内幕巨鲸在链上买入71,066枚BNB（约4822万美元）。这笔大额买入表明有影响力的市场参与者看好BNB后市。买入行为直接推动BNB需求，短期看多。影响BNB。",
+      "reason": "巨鲸大额买入属于优先级一的链上异动，对BNB有直接推动。",
+      "category": "链上异动",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512794.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Multicoin Capital疑似卖出15万AAVE",
+      "summary": "Multicoin Capital疑似以99美元价格出售15万枚AAVE，预计亏损超4056万美元。机构大额抛售对AAVE形成明显卖压，利空信号。影响AAVE。",
+      "reason": "机构大额卖出属于优先级一的项目方重大事件，直接看空AAVE。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512793.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国军方运行比特币节点",
+      "summary": "据报道美国军方已运行一个比特币节点，象征性意义重大，显示比特币网络被国家级机构认可。虽无直接价格影响，但提升比特币合法性和安全性预期，中长期看多。影响BTC。",
+      "reason": "国家级机构采用比特币节点属于优先级二的机构动向，提升市场信心。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc2ZRQlZFWkJDTERDZVJ6TUt5OFhMSmN3b25NNnczMTdMT3BjTzJZeFJrWHZYSlpENUdDYWdlWlJQM241VXp4a2pBZDFXWWpVdUxEUEkza3U5YTNkcFFqanpaSHU3cC1XYXJ2aWNYWTBwR3hZQk1fYm1zS0NVend6RXBtUWN2Z0xaWWNKMFhuUGNxTF9nbnRwUE1pLWw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Dartmouth捐赠基金投资Solana ETF",
+      "summary": "美国达特茅斯学院捐赠基金投资Solana ETF，持有1400万美元加密敞口。知名机构在大学捐款中配置SOL ETF，表明长期资金入场，对SOL形成利好。影响SOL。",
+      "reason": "机构配置Solana ETF属于优先级二的机构动向，看多SOL。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
