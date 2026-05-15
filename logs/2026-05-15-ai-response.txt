@@ -1800,3 +1800,110 @@ content length: 4056
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2063, prompt_tokens=10604, total_tokens=12667, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=882, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9452)
+content length: 3139
+============================================================
+{
+  "news": [
+    {
+      "title": "Cardano鲸鱼持仓占比创2020年新高",
+      "summary": "据CoinDesk报道，Cardano(ADA)鲸鱼（持有大量ADA的地址）目前持有流通供应量的67%，为2020年以来的最高水平。鲸鱼集中持仓通常被视为中长期看涨信号，表明大资金对ADA信心增强，但短期也可能因集中度增加导致价格波动加剧。对ADA构成温和利好。",
+      "reason": "巨鲸持仓比例显著上升，属于链上异动，可能预示价格走强或大户吸筹。",
+      "category": "链上异动",
+      "impact_coins": ["ADA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/cardano-whales-now-hold-67-of-ada-supply-in-highest-share-since-2020"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Gemini营收增长42% 扩张金融服务",
+      "summary": "Gemini交易所公布2026年第一季度财报，营收同比增长42%，主要受益于向金融服务的扩张。该消息显示交易所业务健康增长，可能提振市场对加密行业信心的信心。对整体市场情绪偏利好，尤其有利于Gemini相关代币如GUSD，但影响较间接。",
+      "reason": "交易所营收增长反映行业基本面改善，属于机构动向，中期利好信号。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/gemini-reports-42-revenue-growth-expansion-financial-services"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance Alpha暂停止部分代币化证券交易",
+      "summary": "Binance Alpha平台部分代币化证券交易暂时停止，具体原因未明。该消息可能引发对合规风险的担忧，但暂无详细信息披露。短期可能对相关代币化资产产生小幅负面影响，但整体影响有限。",
+      "reason": "交易所产品暂停属于项目更新，可能反映监管或技术问题，需关注后续进展。",
+      "category": "交易所",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512864.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "日本10年期国债收益率飙升10bp",
+      "summary": "日本10年期国债收益率日内上升10个基点至2.730%，创阶段新高。全球债券收益率上升通常对风险资产（包括加密货币）形成压力，因资金回流避险资产。该消息在亚洲市场引发连锁反应，利空比特币等风险资产。",
+      "reason": "债券收益率上升是典型宏观紧缩信号，压制风险资产估值。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512857.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "韩国股市暴跌5% 恐慌情绪蔓延",
+      "summary": "韩国KOSPI指数日内暴跌5%，存储巨头领跌，外资抛售加剧。亚太股市普遍承压，日经、A股同步走弱。避险情绪升温可能拖累加密货币市场，尤其是亚洲交易时段。利空信号。",
+      "reason": "股市暴跌反映市场恐慌，风险资产通常同步下跌，属宏观经济负面信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512869.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "现货黄金白银暴跌 风险偏好承压",
+      "summary": "现货黄金跌破4600美元/盎司，日内跌超1%；现货白银跌超4%，报80.13美元。贵金属大跌通常与美元走强或利率上升相关，市场风险偏好下降，加密货币作为风险资产可能同步承压。利空。",
+      "reason": "贵金属大跌是宏观避险/紧缩信号，间接影响加密市场情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512866.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
