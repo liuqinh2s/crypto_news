@@ -2293,3 +2293,94 @@ content length: 4965
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3359, prompt_tokens=12810, total_tokens=16169, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1755, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11658)
+content length: 3558
+============================================================
+{
+  "news": [
+    {
+      "title": "OKX拟收购Coinone40%股权",
+      "summary": "据CoinDesk报道，OKX正与韩国投资证券谈判，计划共同收购韩国交易所Coinone约40%的股份，此前传闻为20%。此举将帮助OKX进入韩国市场，可能提升OKB的流动性和估值。中性偏多信号，但需关注韩国监管审查。",
+      "reason": "交易所整合事件，直接影响OKX生态及韩国市场竞争格局，属于优先级一中的交易所动态。",
+      "category": "交易所",
+      "impact_coins": ["OKB"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/15/okx-korea-investment-and-securities-said-to-be-in-talks-for-40-of-coinone"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "缅甸拟对加密货币欺诈判死刑",
+      "summary": "据The Block报道，缅甸一份法案草案提议，对诈骗胁迫行为可判处死刑，对加密货币欺诈判处终身监禁。该法案若通过，将极大打击缅甸的加密活动，可能引发东南亚其他国家的效仿，对全球加密市场情绪产生负面影响。看空信号，但影响范围有限。",
+      "reason": "重大监管动态，属于优先级一，可能引发区域性恐慌。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401468/myanmar-bill-proposes-death-penalty-for-scam-coercion-life-imprisonment-for-crypto-fraud-report"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "通胀恐慌加剧，白银暴跌7%",
+      "summary": "CNBC报道，因通胀数据超预期，全球债券、股票和贵金属市场大幅下挫，白银单日跌幅超7%。美国国债收益率升至12个月新高，美联储加息预期升温。风险资产承压，BTC和ETH面临回调压力，看空信号。",
+      "reason": "宏观经济数据引发市场恐慌，直接影响风险资产定价，属于优先级二中的宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdHk5NS1weGp1d1dYVE5vWC1OMFVNckgxRjItTFVFQTYwWWtwZTg3ZEtaR1JMYjE5X0J5VjFlZkZrVENKVG9GajRYaVFKRE1LX2c1WGtrYUFyZkF4R1lZV0ZjY2FMWW5VNmZtWjlYZFFFYjZfclZQVnItbDRQcW9oQ0pWNGV3ZFZLWUJqUHp4R0wzSC14M0Jn0gGcAUFVX3lxTE5xREJ1Uy1wRlF1TVU0YnpyUERhM2ljT01WekNBNFJxa0kxazlaWHU0WkI4TVp3cHN4VlkwWTh6UnhEb2tKeVhNU29JNXRMNW9YQW5ieFhLajRsTG1URDVZWFB6TnI4ajhqWXBnT3poYUtvVGlNWHMzUnZhQVphM2RLLVh6akx3VlV0TWx3WklSSGZ5SWtIMU9HSkhCVg?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "纽约Oneonta市暂停挖矿一年",
+      "summary": "据WKTV报道，美国纽约州Oneonta市通过了一项为期一年的暂停令，禁止新的数据中心和加密货币挖矿项目。此举反映美国地方层面监管收紧，可能对矿工形成压力，但影响较小。看空信号，限于局部。",
+      "reason": "监管政策的局部收紧，属于优先级一中的监管动态，但影响范围有限。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "WKTV",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdWtfMU1zUEFMcjAyLUJJS283ZEdPZm9hYmNPVXZ5VDZTMjdna2gtRGJwcnZMWDBrQVNISHlpb1NWaTBCREpGMFFwaDR5LXVKcHlmN1UxOGd0TFVlblBhQXRaRVNNYXVfZGtvQl9EaWVTU3ZmMUNSaUUyNzNwUVhucHljZTFfNUg5YlNGNF9QcGNGWWNuTnYzcUNmeHlVak1JMnNyYk4tb0hKQUZEanRGTVpaTUZSNnpRQ2RUd012OUdFc1kyOGp4V1VNbUUydlJNQjRXWmxUU1VoWkNh?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美联储鹰派预期升温",
+      "summary": "Crypto Briefing报道，伊朗战争导致通胀预期攀升，市场预计美联储将维持鹰派立场，甚至可能加息。强美元和高利率继续压制风险资产，BTC和ETH承压。看空信号。",
+      "reason": "宏观经济政策预期转变，直接关联风险资产定价，属于优先级二宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOeWJCSmRwRlhqNldEcEtOdjVGT0pNOGJZejBUb3dUZjFqRkhxTThENlhtS0NHWDJDYmdzOGhIc2VFanp6UkMxLTZXRm4xc1k5S0swUktiQlpnczdCQm9rdEp2amtTRHRoR29oa3FwMElWVjNwamc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
