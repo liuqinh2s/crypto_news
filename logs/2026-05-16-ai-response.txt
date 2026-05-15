@@ -1,0 +1,307 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1921, prompt_tokens=14384, total_tokens=16305, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1597, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13232)
+content length: 776
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普信托买入BTC股票",
+      "summary": "根据最新提交的13F文件，特朗普家族信托在第一季度买入了与比特币相关的股票，包括MicroStrategy（MSTR）和比特币ETF等。此举表明特朗普家族在政治层面之外对数字资产有直接兴趣，可能提升市场对加密友好政治环境的信心。但实际买入金额未披露，且属于股票投资而非直接加密持仓。该消息可能对BTC和MSTR产生短期正面情绪影响，但影响有限。特朗普家族的政治影响力可能转化为对加密行业的政策利好预期，不过具体效果需视后续发展。总体看多情绪，但信号强度中等。",
+      "reason": "特朗普家族信托的持仓披露属于机构动向，具有信号意义，可能影响市场情绪和监管预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/trump-trust-bought-bitcoin-linked-stocks"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮消息与其他历史时段高度重复，唯一新增有效消息为特朗普家族信托买入比特币股票。其余如BTC跌破79k、THORChain攻击、Strategy回购、币安上币等均已在前几轮历史消息中出现，不计入。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1894, prompt_tokens=14384, total_tokens=16278, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1421, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14336), prompt_cache_hit_tokens=14336, prompt_cache_miss_tokens=48)
+content length: 1268
+============================================================
+{
+  "note": "当前6小时内新消息较少，仅筛选出2条关键消息。",
+  "news": [
+    {
+      "title": "CME推动监管Hyperliquid",
+      "summary": "CME和ICE（纽交所母公司）正推动美国监管机构对Hyperliquid进行调查，理由是存在市场操纵风险。此举可能引发对Hyperliquid的严格监管，甚至影响其运营。HYPE代币此前24小时上涨23%，但监管压力可能逆转涨势。看空HYPE及相关衍生品。",
+      "reason": "直接影响行情的重大监管动态，涉及头部交易所与监管机构博弈，可能导致HYPE价格下跌。",
+      "category": "监管政策",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/cme-ice-push-u-s-regulators-to-scrutinize-hyperliquid-over-manipulation-risks-bloomberg"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普家族信托买入比特币股票",
+      "summary": "根据最新披露的13F文件，特朗普家族信托在第一季度买入了与比特币相关的股票，包括MicroStrategy（MSTR）等。此举被视为对加密市场的间接信心信号，可能带动散户情绪。尽管特朗普本人未直接买入BTC，但其家族配置加密资产具有象征意义。影响BTC和MSTR，偏多。",
+      "reason": "机构动向（家族信托）买入加密关联股票，显示政治人物对加密的认可，属中期利多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/trump-trust-bought-bitcoin-linked-stocks"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1968, prompt_tokens=14384, total_tokens=16352, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1322, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14336), prompt_cache_hit_tokens=14336, prompt_cache_miss_tokens=48)
+content length: 1550
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普信托买BTC股票",
+      "summary": "特朗普家族信托在一季度购买了与比特币相关的股票（如MSTR等），这是首次披露特朗普家族直接涉足加密货币概念。此举可能吸引更多政治和机构关注，对比特币和MicroStrategy（MSTR）等标的构成积极情绪信号。从合约做多视角看，属于bullish信号，但影响有限，因购买规模未披露。",
+      "reason": "优先级二：机构动向。特朗普家族买入BTC相关股票，具有政治象征意义和潜在资金流入预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/trump-trust-bought-bitcoin-linked-stocks"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "贵金属暴跌强化加息担忧",
+      "summary": "黄金本周跌超200美元，白银从高点大幅回落，主要因通胀数据超预期引发市场对美联储加息预期升温。风险资产（包括加密货币）承压，比特币已跌破$79,000。利率期货显示到明年1月加息概率超50%，宏观紧缩预期对加密货币构成持续利空。从合约做多视角看，这是bearish信号。",
+      "reason": "优先级二：宏观经济。贵金属暴跌强化了市场对美联储加息的担忧，是风险资产普跌的催化剂。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "BullionVault (via Crypto Twitter)",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeW5uRGMxVUdiV0lSdzJlcHdjWl9SRUFTdUlPVkNOckxCcEYzWkxPclk5WE1WRnN4aE1sUDdSMGtyaDZIdU1Qc3FuVzR1dU1tMFJHV1lNWFFVRjQzdUZTbTJLWE9SX2xUUFBwSS1IbnlHa3F6SjhRak1qMGEzcGlNT09mZE56bHRGbWplbDhJX0RIc0pOTDVMck9ZUng?oc=5"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/15/bonds-stocks-precious-metals-slump-as-inflation-fears-mount.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2506, prompt_tokens=15723, total_tokens=18229, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1897, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14571)
+content length: 1400
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普家族信托买入比特币股票",
+      "summary": "最新披露文件显示，特朗普家族信托在第一季度购买了比特币相关股票，包括微策略（MSTR）等。这是特朗普家族首次公开直接配置比特币相关资产，被视为对加密行业的政治信心投票。可能影响BTC、MSTR及相关比特币概念股。看多信号，但需注意宏观逆风。",
+      "reason": "特朗普家族首次公开买入比特币股票，具有政治象征意义，可能提振市场信心。属于机构动向，影响中期行情。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/trump-trust-bought-bitcoin-linked-stocks"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "黄金单周暴跌200美元，风险资产受压",
+      "summary": "本周黄金价格暴跌约200美元，白银亦重挫8%，主因美国通胀预期升温、加息预期抬升以及美元走强。黄金作为避险资产大跌，暗示市场流动性收紧风险，可能拖累比特币等风险资产。但短期比特币与黄金相关性减弱，需关注后续宏观数据。看空风险资产，比特币承压。",
+      "reason": "贵金属暴跌反映宏观紧缩预期，对加密货币形成间接压力，属于宏观经济信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "BullionVault via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeW5uRGMxVUdiV0lSdzJlcHdjWl9SRUFTdUlPVkNOckxCcEYzWkxPclk5WE1WRnN4aE1sUDdSMGtyaDZIdU1Qc3FuVzR1dU1tMFJHV1lNWFFVRjQzdUZTbTJLWE9SX2xUUFBwSS1IbnlHa3F6SjhRak1qMGEzcGlNT09mZE56bHRGbWplbDhJX0RIc0pOTDVMck9ZUng?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为历史消息重复或低价值内容，仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1759, prompt_tokens=15723, total_tokens=17482, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1156, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=15616), prompt_cache_hit_tokens=15616, prompt_cache_miss_tokens=107)
+content length: 1416
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普家族信托买入BTC股票",
+      "summary": "根据最新13F文件，特朗普家族信托在第一季度买入了比特币相关股票。虽然具体持仓金额未披露，但这一信号表明政治家族正在配置加密资产，可能吸引更多政治和机构资金入场。利好比特币及相关股票。",
+      "reason": "重大机构动向：特朗普家族信托公开买入比特币股票，属于优先级二（机构动向），可能提振市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/trump-trust-bought-bitcoin-linked-stocks"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "黄金本周暴跌200美元",
+      "summary": "因通胀数据超预期引发美联储加息担忧，黄金本周累计下跌约200美元，白银单日重挫8%。传统避险资产暴跌可能迫使资金重新配置，部分流入比特币，但短期内加息预期利空所有风险资产。需关注BTC是否跟随下跌或展现避险属性。",
+      "reason": "宏观经济事件：黄金暴跌反映宏观紧缩预期加剧，直接影响风险资产估值，属于优先级二（宏观经济数据）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "BullionVault",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeW5uRGMxVUdiV0lSdzJlcHdjWl9SRUFTdUlPVkNOckxCcEYzWkxPclk5WE1WRnN4aE1sUDdSMGtyaDZIdU1Qc3FuVzR1dU1tMFJHV1lNWFFVRjQzdUZTbTJLWE9SX2xUUFBwSS1IbnlHa3F6SjhRak1qMGEzcGlNT09mZE56bHRGbWplbDhJX0RIc0pOTDVMck9ZUng?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中多数重大事件已在历史消息中出现（BTC跌破79k、Strategy回购、THORChain攻击、Poland通过法案、Gemini注资、Hyperliquid监管等），因此仅筛选出2条未出现过的高价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1966, prompt_tokens=6208, total_tokens=8174, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=607, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=5056)
+content length: 3678
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌破79K，通胀恐慌",
+      "summary": "比特币跌破79,000美元，因美国债券收益率上升和通胀担忧加剧，风险资产遭抛售。该事件表明宏观紧缩预期升温，可能带动加密货币整体下行。影响BTC、ETH等主流币，短期内看空。",
+      "reason": "直接影响行情，通胀担忧导致风险资产抛售，BTC价格跌破关键支撑。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/15/bitcoin-tumbles-below-usd79-000-as-rising-bond-yields-inflation-worries-rattle-markets"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CME/ICE要求监管审查Hyperliquid",
+      "summary": "CME和ICE向美国监管机构施压，要求审查Hyperliquid的交易操纵风险。Hyperliquid是一个去中心化衍生品交易所，HYPE代币可能面临监管打压和资金流出。做空HYPE信号。",
+      "reason": "交易所监管风险，直接影响HYPE及DeFi衍生品板块。",
+      "category": "监管政策",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/15/cme-ice-push-u-s-regulators-to-scrutinize-hyperliquid-over-manipulation-risks-bloomberg"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密市场结构法案通过关键障碍",
+      "summary": "美国加密市场结构法案在委员会通过关键投票，即将进入众议院表决。该法案旨在为加密资产提供监管框架，若通过将利好整体市场，吸引机构资金。看好BTC、ETH及合规代币。",
+      "reason": "重大监管利好，可能推动行业合规化和主流接纳。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/coindesk-news/2026/05/15/crypto-market-structure-bill-clears-key-hurdle-as-ethics-debate-looms-over-floor-vote"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Strategy拟退出15亿美元债务，或卖BTC",
+      "summary": "MicroStrategy（现名Strategy）计划赎回15亿美元可转债，为筹集资金可能出售部分BTC持仓。若执行将带来抛压，利空BTC。但公司仍长期看多，需关注最终行动。",
+      "reason": "巨鲸潜在抛压，直接影响BTC供需。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/368007/strategy-moves-retire-1-5-billion-convertible-debt-could-sell-bitcoin"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普家族信托买入比特币股票",
+      "summary": "特朗普家族信托在一季度购买了与比特币相关的股票（如MSTR、Coinbase等），显示政治高层对加密的认可。虽金额未公开，但象征意义利好BTC及合规概念股。",
+      "reason": "机构/名人增持信号，提振市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/trump-trust-bought-bitcoin-linked-stocks"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线AIGENSYN和MEGA",
+      "summary": "Binance宣布上线Gensyn (AIGENSYN) 和 MegaETH (MEGA) 现货及合约，并标注种子标签。新币上市通常带动短期交易量和价格波动，利好多头。",
+      "reason": "交易所上币直接影响新币流动性及价格。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN", "MEGA"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance公告-AIGENSYN", "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"},
+        {"name": "Binance公告-MEGA", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数43，市场恐惧",
+      "summary": "恐惧与贪婪指数为43，处于恐惧区域，表明市场情绪偏向悲观。历史上恐惧区域往往是中长期买入机会，但短期可能继续下探。中性信号，适合观察。",
+      "reason": "市场情绪指标，辅助判断极端位置。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
