@@ -2384,3 +2384,69 @@ content length: 3558
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3272, prompt_tokens=13097, total_tokens=16369, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2433, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11945)
+content length: 2228
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy回购15亿可转债",
+      "summary": "Strategy宣布将回购15亿美元2029年到期可转债，资金来源为现金或比特币销售。若以卖币筹集现金，可能带来BTC抛压；若使用现金则影响有限。短期内对BTC偏空，但中长期视公司持仓策略。",
+      "reason": "直接影响BTC供需，可能引发卖压。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/15/strategy-to-repurchase-usd1-5-billion-of-2029-convertible-bonds-using-cash-or-bitcoin-sales"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Dune Analytics裁员25%",
+      "summary": "区块链数据平台Dune Analytics宣布裁员25%，转向AI与机构业务。反映加密行业成本压力，但Dune非交易资产，对币价直接影响有限，但可能加剧市场对行业健康度的担忧。",
+      "reason": "行业负面信号，影响市场情绪。",
+      "category": "市场结构",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/367949/dune-analytics-slashes-25-of-workforce-in-ai-institutional-pivot"}],
+      "urgency": "days"
+    },
+    {
+      "title": "美联储加息概率超50%",
+      "summary": "利率期货显示市场预计到2027年1月美联储加息概率超过50%，主因伊朗战争推高通胀预期。加息预期利空全球风险资产，包括加密货币，可能导致BTC/ETH承压。",
+      "reason": "宏观紧缩信号，直接影响风险资产定价。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512932.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "CME与纽交所推动监管Hyperliquid",
+      "summary": "CME和纽交所正推动美国监管机构对Hyperliquid进行监管，可能限制其运营或要求合规。消息利空HYPE代币，但监管规范化长期对市场有利。",
+      "reason": "直接影响Hyperliquid项目及HYPE代币，属重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512931.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "纳斯达克期货跌1.8%",
+      "summary": "纳斯达克100指数期货盘中跌幅扩大至1.8%，反映市场避险情绪升温，可能拖累比特币等风险资产。但幅度有限，需关注后续宏观数据。",
+      "reason": "风险情绪指标，短期利空BTC/ETH。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/512930.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
