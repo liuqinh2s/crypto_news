@@ -916,3 +916,334 @@ content length: 3089
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1435, prompt_tokens=11139, total_tokens=12574, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1119, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9987)
+content length: 752
+============================================================
+{
+  "news": [
+    {
+      "title": "美众议院促特朗普填补CFTC空缺",
+      "summary": "美国众议院负责监管商品期货交易委员会（CFTC）的议员敦促特朗普总统尽快任命委员，以填补该机构空缺。当前CFTC面临人事不足，影响加密市场监管效率。若任命对加密友好的委员，可能加速合规框架落地，利好整个加密市场。但短期内不确定性仍存。主要影响BTC、ETH及所有受监管的加密资产。信号中性偏多，因人事变动方向不明。",
+      "reason": "CFTC委员空缺直接影响加密市场监管走向，属于监管政策优先级一，对市场中期走势有潜在重大影响。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中，多数消息与历史标题重复或属于排除项（如普通项目营销、娱乐内容）。仅筛选出1条有价值的新消息，不足5条，故仅输出此条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1796, prompt_tokens=11139, total_tokens=12935, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1500, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11136), prompt_cache_hit_tokens=11136, prompt_cache_miss_tokens=3)
+content length: 716
+============================================================
+{
+  "news": [
+    {
+      "title": "美议员促特朗普填补CFTC委员空缺",
+      "summary": "美国众议院负责监督CFTC的议员致信特朗普，敦促其尽快填补CFTC委员会的空缺席位。CFTC是加密货币市场的主要监管机构之一，当前委员不足可能影响监管决策效率。此举若落实，或加速加密监管框架的完善，对行业长期发展有利。但短期影响有限，需关注后续任命人选。影响币种：BTC、ETH及整体市场。信号：中性偏多。",
+      "reason": "CFTC委员空缺直接关系加密市场监管进展，属于监管政策优先级。消息为新增，未在历史标题中重复。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "经筛选，仅一条新增高价值消息，其余抓取素材多为重复或低影响力事件。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1820, prompt_tokens=11139, total_tokens=12959, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1342, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11136), prompt_cache_hit_tokens=11136, prompt_cache_miss_tokens=3)
+content length: 1251
+============================================================
+{
+  "news": [
+    {
+      "title": "Solayer推出Visa支付卡",
+      "summary": "Solayer宣布推出Visa兼容卡，支持USDC支付。这是Solana生态与传统支付结合的重要进展，可能带动USDC使用量及Solana链上活跃度。短期看多SOL和USDC，但需关注实际采用情况。影响级别：2，轻度利好。",
+      "reason": "项目更新：Solana生态重大支付合作，可能提升SOL需求及USDC流动性。属于优先级二技术升级/里程碑。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美众议员促特朗普填补CFTC空缺",
+      "summary": "美国众议院负责监管CFTC的议员敦促特朗普任命新委员，以推动加密监管框架。当前CFTC委员空缺可能影响市场结构法案推进。若填补立场友好的委员，将利好合规进程。短期中性，中期看多，影响级别：2。",
+      "reason": "监管政策：CFTC人事变动可能加速或阻碍加密立法，属于中期影响监管动态。优先级一监管动态中的次级别。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分消息与历史消息重复，仅有两条新消息且影响较弱，因此输出少于5条。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1921, prompt_tokens=12241, total_tokens=14162, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1376, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11089)
+content length: 1356
+============================================================
+{
+  "news": [
+    {
+      "title": "美议员施压特朗普填补CFTC席位",
+      "summary": "美国众议院负责监管商品期货交易委员会（CFTC）的议员正在敦促特朗普总统尽快任命CFTC委员。目前CFTC只有两名委员，无法达到法定多数，导致监管决策停滞。此举被视为推动加密行业监管清晰化的关键一步，可能加速数字商品法案等立法进程。若CFTC完成人事任命，将对比特币、以太坊等数字货币的合规化产生积极影响，利好市场情绪。",
+      "reason": "CFTC人事任命直接影响加密监管框架，属监管政策重大进展，能推动市场结构法案落地，符合优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Solayer推出Visa兼容USDC卡",
+      "summary": "Solayer宣布推出Visa兼容卡，允许用户通过线上、线下及非接触式交易直接消费USDC余额，并支持指定地区的ATM取现。该卡基于Solana网络，旨在提升稳定币的实用性。这可能促进USDC的采用和流通，对USDC持有者及Solana生态构成利好，但短期内对整体市场影响有限。",
+      "reason": "稳定币支付场景扩展，虽属项目更新，但可能带动USDC需求，属中期利好信号。",
+      "category": "项目更新",
+      "impact_coins": ["USDC", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮其他消息均与历史标题重复，如市场结构法案进展、BTC跌破79k、美债收益率飙升、机构增持、币安上币公告等，故仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1794, prompt_tokens=12241, total_tokens=14035, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1281, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12160), prompt_cache_hit_tokens=12160, prompt_cache_miss_tokens=81)
+content length: 1343
+============================================================
+{
+  "news": [
+    {
+      "title": "Solayer推Visa支付卡",
+      "summary": "Solayer宣布推出兼容Visa的支付卡，用户可通过在线、店内和非接触式交易使用USDC余额，支持ATM取款。该卡将提升Solana生态中USDC的实用性，加速加密货币支付落地。对SOL和USDC构成利好，但短期交易影响有限。",
+      "reason": "Solana生态重要支付基础设施更新，可能增加SOL链上活动，属于项目更新，影响等级2。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美众议员促特朗普填补CFTC",
+      "summary": "美国众议院负责监管CFTC的议员敦促特朗普总统尽快填补CFTC委员空缺。CFTC是加密货币监管关键机构，委员不足可能拖累监管清晰度。若CFTC得到充实，有望加速加密货币合规框架落地，对BTC和ETH等主流币中长期利好。",
+      "reason": "监管机构人事变动可能影响未来政策方向，属于监管政策类，影响等级3。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，多数新闻与历史消息重复，仅筛选出2条新且有交易价值的消息。其余Binance公告、恐惧贪婪指数、美债收益率下跌等均为重复事件，未纳入。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2626, prompt_tokens=3930, total_tokens=6556, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=811, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2778)
+content length: 4835
+============================================================
+{
+  "news": [
+    {
+      "title": "美债收益率飙升利空加密",
+      "summary": "美国国债收益率飙升导致美股重挫，芯片板块领跌，三大指数收跌超1%。加密市场同步下跌，BTC和ETH承压。宏观面利率上升削弱风险资产吸引力，短期看空。",
+      "reason": "宏观经济数据直接影响风险资产走势，属于优先级二。收益率飙升通常导致资金从高风险资产流出，看空信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512965.html"
+        },
+        {
+          "name": "Yahoo Finance via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa2tueVhnak9XREhjVUhxM1ZPYndfSkxHaE5HZ2JxTm1HZTFCWjktTDFJRE81ZjV5VkpmNFRlSnpGVC1XYU9iVGVDU3RodVV6cFZ1U25nSEYzc0dqNkNCeS0weExmTk56LXgzNFZ1bzU2bXVEZ1BLUUo2bDZ6U3YwbkJaUU96ZEd5OUhkWW95cEViZkt4R0Z4S1pFZmpNd0Rh?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MegaETH上线Binance",
+      "summary": "Binance宣布上线MegaETH (MEGA)并标注Seed Tag，同时开放Earn、Margin、Futures等产品。MegaETH是以太坊Layer2扩容方案，上线可能带来短期交易量和波动，利好MEGA价格。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一。新币上线初期往往有炒作机会，看多。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Gensyn (AIGENSYN) 上线Binance",
+      "summary": "Binance即将上线Gensyn (AIGENSYN)并标注Seed Tag，同时支持Earn、Margin、Futures等。Gensyn是去中心化AI计算网络，可能吸引AI赛道热度，看多AIGENSYN短期价格。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一。AI赛道近期关注度高，新币有望获得溢价。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Lombard转用Chainlink",
+      "summary": "Lombard Finance放弃LayerZero，选择Chainlink作为跨链解决方案，以管理其10亿美元比特币流动性质押资产。此举利好Chainlink（LINK）在比特币DeFi领域的采用，利空LayerZero（ZRO）。",
+      "reason": "重大机构合作伙伴变更，直接影响Chainlink和LayerZero的采用预期，属于优先级二。LINK看多，ZRO看空。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "ZRO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368100/lombard-finance-dumps-layerzero-chainlink-1-billion-bitcoin-assets"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid回应市场诚信质疑",
+      "summary": "Hyperliquid的政策团队否认了关于其油期货合约引发市场诚信担忧的指控，称其风控机制有效。但市场可能仍存疑虑，短期对HYPE价格偏中性，若后续证据不足则偏多。",
+      "reason": "项目方对争议事件的回应可能影响市场信心，属于优先级一（项目方重大事件）。需关注后续发展，当前信号中性。",
+      "category": "项目更新",
+      "impact_coins": ["HYPE"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368101/hyperliquid-rejects-market-integrity-concerns-oil-futures-surge"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密市场结构法案再遇障碍",
+      "summary": "尽管加密市场结构法案已在参议院委员会通过，但分析师指出仍面临重大障碍，可能延迟或修改。该法案若通过将提供监管清晰度，利好整体加密市场；但当前不确定性延续，短期影响有限。",
+      "reason": "监管政策中期影响行情，属于优先级二。法案进展可能影响市场情绪，但短期无直接交易机会，评级中性。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401528/crypto-market-structure-bill-significant-hurdles-despite-senate-committee-win-analysts?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Solayer推出Visa支付卡",
+      "summary": "Solayer宣布与Visa合作推出兼容卡，支持USDC支付。此举扩大Solana生态的支付应用场景，对SOL和USDC生态有长期利好，短期影响有限。",
+      "reason": "项目应用进展，属于优先级二（技术升级/里程碑）。支付基础设施完善有利于生态发展，短期看多Solana生态币种。",
+      "category": "项目更新",
+      "impact_coins": ["SOL", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数43（Fear）",
+      "summary": "加密恐惧贪婪指数为43，处于恐惧区间，但非极端。市场情绪中性偏谨慎，无明确买入或卖出信号，短期可能延续震荡。",
+      "reason": "市场情绪指标，属于优先级三。指数在40-50区间无极端值，无交易价值，评级中性。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
