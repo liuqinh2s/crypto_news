@@ -382,3 +382,139 @@ content length: 2915
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2492, prompt_tokens=14556, total_tokens=17048, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2455, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13404)
+content length: 67
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中所有消息均已在近6小时历史消息中出现，无新增高价值交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2354, prompt_tokens=14556, total_tokens=16910, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1760, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14464), prompt_cache_hit_tokens=14464, prompt_cache_miss_tokens=92)
+content length: 1330
+============================================================
+{
+  "news": [
+    {
+      "title": "沙特代币化经济保护财富",
+      "summary": "沙特阿拉伯正将其数万亿美元的经济代币化，以保护财富免受全球冲击。这可能推动区块链基础设施需求，利好BTC等数字资产作为替代储备。信号看多，但实施周期较长。",
+      "reason": "主权国家大规模采用区块链，可能引发长期牛市，属重大宏观利好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/15/saudi-arabia-is-tokenizing-its-multi-trillion-dollar-economy-to-protect-its-wealth-from-global-shocks"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Polymarket显示Strategy卖BTC概率82%",
+      "summary": "Polymarket预测市场显示，Strategy（前MicroStrategy）今年出售比特币的概率高达82%。这反映市场对BTC抛压的担忧，可能抑制涨幅。但Saylor此前言论已引发负费率，若概率兑现则利空。",
+      "reason": "市场结构信号，预示机构抛售风险，属中期利空。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "24/7 Wall St.", "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPa3F1OXNvUE12alk4T1ctei1BV1NOalNSaWM5UjFsdGdhRG5TNlJsNWhnQjI2REQyQlZMQUN3M2Y1S3R6SU5GM2hrWVlzU2NkaDlyVVVTR1dsUjF4Wm1BWno1XzFrdFV2YTRidnppQW9wYmZZTFhRQmpzdFpwX2NuMEcyVWo5NlpVVjZJTFZPcjlqcUdTU1lKS1NxTVluajNzeHVxMWlEMksxZFQzXzVPUGc3UXY3THF1TXc"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材与历史高度重复，仅有2条高质量新消息。其他如Binance公告、恐惧贪婪指数、链上异动等已在前几轮覆盖。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2599, prompt_tokens=14556, total_tokens=17155, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1124, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14464), prompt_cache_hit_tokens=14464, prompt_cache_miss_tokens=92)
+content length: 3456
+============================================================
+{
+  "news": [
+    {
+      "title": "沙特万亿经济代币化",
+      "summary": "沙特阿拉伯宣布将其数万亿美元经济的一部分进行代币化，旨在通过区块链技术保护财富免受全球冲击。这一举措可能推动大规模机构采用加密货币，尤其是比特币和以太坊作为价值存储和基础设施。短期内影响有限，但长期看多，可能吸引主权基金进入加密市场。",
+      "reason": "主权国家大规模代币化经济是重大监管和政策利好，可能引发长期牛市叙事。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/15/saudi-arabia-is-tokenizing-its-multi-trillion-dollar-economy-to-protect-its-wealth-from-global-shocks"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "灰度报告：降息推迟至2027",
+      "summary": "灰度发布报告指出，美国通胀压力持续，预计美联储将推迟降息至2027年9月。这意味着紧缩货币政策将延长，对风险资产包括加密货币构成压力。BTC和ETH可能面临下行风险，短期看空。",
+      "reason": "宏观紧缩预期直接影响流动性，加密市场通常对此敏感，属于高优先级影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzFuSkUya1dlcXpFRU1Kb21TOEdCVTBmYnh3Wnc2Q0lHNzFrbVlVdm83VURaT0szOERkVVpmS1o4X05HZWl5ZUpwV3pndlFBbzZDS09ubzNBdHlSZXAzR3RUVkx6MXVZZDZPSm5fZ2dHYzUydWhEOWhwQXhZY0s2UVZyRXo0Q2U3QWZDNWlVVm1LeWxCNnRscTFJa1pqb2gyX0NRZmd3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "NFL要求禁止预测合约",
+      "summary": "NFL向监管机构提出请求，要求禁止涉及比赛首开、伤病等特定事件的预测市场合约，称其可能损害体育诚信。此举若获批准将影响Polymarket等平台的相关资产，但整体加密市场影响有限。",
+      "reason": "预测市场可能面临监管限制，影响相关代币，但非系统性风险。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQenpIM01rdGl6WHBLVlJDSGFjUnNibkRnQ0dvZkRhVExHZ3JYWG1jYkhZMHF1d3pEQnY3RXlqUFlza3F5dktZVVJTT25VVUdWbjd3cW5RQ0plcXRBSXZmSlZTRGNPd1RKeVF3RnRXZWZMVng2bFQtd0g1aThubmpTLVNacW9hc0N1WnJxTC1SNXRtYkh2cnlicTZJU1ZrTEFxUVNtdllpbW3SAa4BQVVfeXFMTUZlaDNIVC1xSmVMMnZIbmktUlc1Z09KdE81Y09UaXV4UEpUUUlpWjFNQmJCMDMwdkRFM1JhLUxYSVlfNU44THhhdXlMbm5YQjgyUUxCdWViRldQLTFXdTJMM3RFWC05M2RKSUxSemVuQUVTLTFZMkYxVjhxTGhqQU95UmFIckh1TDM4VGJtOXRoOGtLcDZwTlRqVkFqV1NBZFhIQ1BBaXd3YkNrMGpB?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Hyperliquid回应CME监管施压",
+      "summary": "Hyperliquid政策中心发文辩护其链上永续合约的效率和透明性，回应CME和ICE向CFTC要求监管的举动。这显示监管风险正在加剧，但Hyperliquid的主动回应可能缓解短期恐慌，HYPE价格有支撑。",
+      "reason": "核心交易所与监管机构的博弈直接影响HYPE及其生态，属于高敏感事件。",
+      "category": "监管政策",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401512/hyperliquid-onchain-perps-offer-efficiency-transparency-ice-cme-cftc-oversight?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Gemini获1亿美元BTC注资",
+      "summary": "Winklevoss资本向Gemini注入1亿美元比特币，推动股价盘前上涨25%。尽管Gemini仍亏损，但资金注入显示信心，可能带动市场对交易所代币的短期看多情绪。",
+      "reason": "大额资金注入交易所，改善资产负债表，利好Gemini及其关联资产，但非BTC直接利好。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "GUSD"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/gemini-stock-jumps-after-winklevoss-twins"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
