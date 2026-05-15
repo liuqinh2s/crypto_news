@@ -694,3 +694,134 @@ content length: 1796
   ],
   "note": "因大量消息（CLARITY法案、BTC跌破79k、THORChain被黑、Binance上币等）已出现在历史记录中且无重大更新，仅筛选出3条有效新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2595, prompt_tokens=13782, total_tokens=16377, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1096, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12630)
+content length: 3951
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普政府限制州级监管",
+      "summary": "特朗普政府正在限制各州对加密行业的监管权力，这被视为联邦层面的利好监管信号。可能削弱州级监管壁垒，降低合规成本，利好整个加密市场。看多信号，特别是受州级监管影响较大的交易所和DeFi项目。",
+      "reason": "监管政策重大利好，联邦统一监管框架有利于行业长期发展。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "ICIJ",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON0JCTG1lSGgweW9sa1JOVXJCdllXWW1GcjU4TXNBalpGQ2gwbUJSdTd1bkR1cjNPckQ5TFhlSk54dWh0UnpScGFYVHRNTGlxeWdKakZNSUtYWXlWeFF3V0FtN2ZhNzBxaGN4X1BBLTJlME15dmd0Vk9EajFYdzNjNmZib2twSGZsaFB1dDZRWDZQQ2VYNFdmZWhMOUtSbnJtR1A0QTF2OHVWd3lhSWx5Qw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "白银暴跌8%，通胀信号打压",
+      "summary": "现货白银日内重挫8%，跌破80美元/盎司，反映市场对通胀和美联储加息的担忧加剧。通胀预期升温可能导致风险资产承压，加密市场跟随下跌。看空信号，短期利空BTC、ETH等风险资产。",
+      "reason": "宏观经济数据（通胀预期）直接影响风险资产走势，白银暴跌是先行指标。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512959.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "灰度：高利率长期化施压BTC",
+      "summary": "灰度研究主管表示美联储‘高利率长期化’将给比特币带来短期压力。这与当前市场对加息概率上升的预期一致。机构观点强化了宏观逆风，看空信号。",
+      "reason": "灰度是重要机构，其观点影响市场情绪，且与宏观数据吻合。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512957.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SpaceX选定纳斯达克上市",
+      "summary": "SpaceX计划于6月11日定价、在纳斯达克上市。作为全球最具价值的独角兽之一，其上市可能吸引大量资金，短期分流加密市场流动性。但长期看，加密与传统市场联动性增强，中性偏空。",
+      "reason": "重大IPO可能影响整体风险资产资金流向，属于市场结构事件。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/spacex-targets-june-11-ipo-pricing-picks-nasdaq-for-historic-market-debut"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512962.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普披露加密股票交易",
+      "summary": "特朗普披露其持有Coinbase、Robinhood和比特币矿股，显示他对加密行业的直接参与。这可能提振市场对相关股票的信心，间接利好加密市场情绪。看多信号。",
+      "reason": "总统持仓行为具有情绪引导作用，可能吸引资金流入。",
+      "category": "市场情绪",
+      "impact_coins": ["COIN", "HOOD", "BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368084/president-trump-discloses-coinbase-robinhood-bitcoin-mining-stock-trades"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国律所申请重新分配3.44亿USDT",
+      "summary": "美国律师事务所提交动议，要求重新分配与伊朗有关的3.44亿美元USDT。这可能引发监管对USDT和伊朗制裁合规的担忧，短期看空USDT及相关交易对。",
+      "reason": "涉及稳定币监管和地缘政治，影响市场对USDT风险的评估。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/us-law-firm-motion-redistribution-344m-usdt-iran"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "中东局势升温，伊朗战争风险",
+      "summary": "以色列准备重启对伊朗军事行动，法国航母抵达阿拉伯海，中东紧张局势加剧。地缘政治风险通常促使资金涌入避险资产，可能短期利空风险加密资产。看空信号。",
+      "reason": "地缘冲突直接影响风险偏好，原油等市场已反应。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512961.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512958.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
