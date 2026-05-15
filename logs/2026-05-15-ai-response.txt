@@ -1506,3 +1506,297 @@ content length: 2834
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2451, prompt_tokens=10495, total_tokens=12946, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1689, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9343)
+content length: 1772
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY Act通过参议院银行委员会",
+      "summary": "美国加密监管法案CLARITY Act在参议院银行委员会以14比9投票通过，下一步将提交参议院全体投票。该法案旨在为数字资产提供明确的监管框架，包括代币分类、交易所注册规则等，被视为行业重大利好。消息公布后，XRP、DOGE等代币上涨约5%，比特币重回81,000美元上方。若最终通过，将大幅降低美国加密市场政策不确定性，吸引机构资金入场。短期看多XRP、DOGE、BTC、ETH等，但需注意后续投票结果可能引发波动。",
+      "reason": "直接利好加密监管预期，引发市场即时上涨，属于优先级一（重大监管动态）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "XRP", "DOGE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/xrp-doge-surge-5-bitcoin-above-usd81-000-as-clarity-act-clears-senate-banking-panel"
+        },
+        {
+          "name": "FX168",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaENFc2ppQldSamtVaDQyZFRNakZVU0JEa1FfcURCVG9yd2JRYnJCMGpDRERubmVGTndpMElVNm5PY2l2bS1lZGhWbnhMN3RqT1g3NkU2ZlFFZnR4cW1LZ1IzYXVMSnFaeFVzMHc2S0RkSFNUOEZlNnRwMlRQbDIxUGNvUmg?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美债收益率创12个月新高",
+      "summary": "美国2年期和10年期国债收益率双双升至12个月高点，反映市场对通胀反弹和美联储维持高利率的预期升温。比特币仍受困于200日均线下方，当前在81,000美元附近震荡。高收益率环境通常对风险资产构成压力，加密货币作为高风险资产可能面临资金流出和估值下修。宏观紧缩预期增强，利空BTC、ETH等主流币。建议短期谨慎，注意回调风险，可考虑对冲或降低仓位。",
+      "reason": "宏观经济数据直接影响风险资产走势，属于优先级二（宏观经济）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其余素材均与历史消息重复（如Binance公告、ETF流入、巨鲸异动等），故仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1683, prompt_tokens=10495, total_tokens=12178, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1400, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=127)
+content length: 688
+============================================================
+{
+  "news": [
+    {
+      "title": "美债收益率创12月新高",
+      "summary": "2年期和10年期美债收益率均触及12个月高点，表明市场对通胀和收紧货币政策的担忧加剧。比特币仍受限于200日均线下方，当前在80000美元附近徘徊。这对BTC、ETH等风险资产构成利空，因收益率上升增加资金成本，降低加密资产吸引力。信号看空，影响级别4。",
+      "reason": "美债收益率是宏观风险资产定价的核心指标，新高预示着加密货币可能面临流动性压力和估值下修，符合优先级二宏观经济数据。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效新消息较少，多数已在前6小时历史中覆盖。仅筛选出一条符合标准且未重复的关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1748, prompt_tokens=10495, total_tokens=12243, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1427, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=127)
+content length: 793
+============================================================
+{
+  "news": [
+    {
+      "title": "美债收益率创12个月新高",
+      "summary": "美国2年期和10年期国债收益率均升至12个月新高，反映出市场对通胀粘性和美联储维持高利率的预期。比特币仍受限于200日均线下方，当前约$80,000附近。国债收益率上升通常会提升美元和无风险资产吸引力，压制比特币等风险资产估值。该信号对BTC、ETH及整体加密货币市场构成利空，短期流动性可能收紧。",
+      "reason": "宏观经济数据直接影响风险资产定价，美债收益率创新高是比特币承压的重要宏观因素，符合优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其余本轮抓取素材与近6小时历史消息高度重复（如CLARITY Act、韩亚银行收购、Binance公告、恐惧贪婪指数等），或属于排除项（个人讨论、无关内容），仅此一条新消息符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3745, prompt_tokens=11555, total_tokens=15300, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2997, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10403)
+content length: 1636
+============================================================
+{
+  "news": [
+    {
+      "title": "美债收益率创12个月新高，BTC承压",
+      "summary": "美国2年期和10年期国债收益率升至12个月新高，反映市场对通胀和利率持续高企的预期。比特币仍低于200日均线（约82,000美元），宏观紧缩环境压制风险资产。该消息对BTC、ETH构成利空，短期可能测试80,000美元支撑。",
+      "reason": "直接影响行情：美债收益率上升是宏观紧缩信号，与风险资产负相关，比特币技术面偏弱，属于优先级二宏观经济数据。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "威斯康星州立法打击加密Kiosk诈骗",
+      "summary": "威斯康星州通过新法律保护消费者免受加密货币亭（Kiosk）诈骗，要求运营商披露费用并设立冷静期。该法规属于地方性消费者保护，短期内对加密市场整体影响有限，但可能成为其他州效仿的范例，对合规性有轻微利好。",
+      "reason": "监管动态：属于地方性消费者保护法，对市场情绪影响较小，属于优先级三市场情绪信号，但能够体现监管框架的逐步完善。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "FOX6 News Milwaukee",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hUHdMUDN2d25rMEx4ZjNwVGlDUmdSNUpZWUpOcXVLNjdCWjZFRnpvTmpPOWRQOWZGeUFxb0pLUzJvdDdDUFhoR3NCYnJpbzVXUFA0NVdOZWxoYmktNWIwZWpiOUtQQksxZUJUZU1GUThueHBr0gF6QVVfeXFMTklKcnpRcXFraTV6WWdhcnZ5QnZSR1ZsdXhDQkVVLW4ycTBxM0FseGlNc1hrTmx0eDNYR1hrb2VxTkxfTW9yN05QVjltbDNOaFR6b2stVkV6cmdSTG50Z1RyR2pENkdzS1Z1ZnR6N2NhRFdhbWcyclV1Ymc"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前6小时内有效新闻较少，多数重复历史公告或营销内容。仅筛选出两条新消息：美债收益率新高（宏观利空）和威斯康星州Kiosk保护法（地方监管，影响微弱）。建议重点关注后续美国CPI和美联储动态。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1413, prompt_tokens=11555, total_tokens=12968, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1124, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11520), prompt_cache_hit_tokens=11520, prompt_cache_miss_tokens=35)
+content length: 722
+============================================================
+{
+  "news": [
+    {
+      "title": "美债收益率创12月新高",
+      "summary": "美国2年期和10年期国债收益率触及12个月高点，反映市场对通胀持续和降息预期推迟的担忧。比特币仍低于200日均线，表明宏观流动性收紧压制风险资产。该消息偏空，可能进一步打压BTC、ETH及整体加密货币市场，但短期已有所定价。",
+      "reason": "直接影响行情：美债收益率上升是宏观紧缩信号，通常利空风险资产，属于宏观经济类重要消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经去重筛选后，仅捕获一条有价值的新消息。其余素材与历史消息高度重复，或属低影响力讨论/排他列表内容。请结合其他信息源进行判断。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2503, prompt_tokens=4620, total_tokens=7123, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=951, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3468)
+content length: 4056
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY Act 通过参议院银行委员会",
+      "summary": "美国 CLARITY Act 加密货币监管法案在参议院银行委员会获得通过，标志着监管框架取得重大进展。该法案旨在为数字资产提供更清晰的分类和监管规则。消息发布后，XRP 和 DOGE 分别上涨约5%，比特币突破 81,000 美元。此事件直接利好市场情绪和合规币种，尤其是 XRP 和 DOGE，同时带动整体市场上涨。看多信号，建议关注后续众议院投票进程。",
+      "reason": "监管政策重大利好，直接影响市场走势，优先级别高。",
+      "category": "监管政策",
+      "impact_coins": ["XRP", "DOGE", "BTC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/xrp-doge-surge-5-bitcoin-above-usd81-000-as-clarity-act-clears-senate-banking-panel"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美债收益率创12个月新高",
+      "summary": "美国2年期和10年期国债收益率触及12个月高点，反映出市场对美联储维持紧缩政策的预期。比特币仍受困于200日移动均线下方，宏观压力增大。高收益率提升无风险利率，打压风险资产估值，加密货币作为高风险资产承压。看空信号，可能引发短期回调，建议谨慎追多。",
+      "reason": "宏观经济数据直接影响风险资产，属于中期利空，但可结合其他信号使用。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hana Bank 收购 Upbit 母公司股份",
+      "summary": "韩国韩亚银行以6.7亿美元收购加密交易所 Upbit 母公司 Dunamu 的股权，标志着主流金融机构进一步进入加密领域。此举显示韩国机构对加密市场的信心，可能带来更多合规资金流入，利好整体市场情绪，尤其对韩国交易量较大的币种如 XRP、BTC 有正面影响。看多信号。",
+      "reason": "机构入场信号，属于中期利多，影响市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401413/hana-bank-upbit-dunamu?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance 上线 MegaETH (MEGA)",
+      "summary": "Binance 宣布将上线 MegaETH (MEGA) 并适用种子标签，支持现货、杠杆、期货等多种产品。MEGA 是以太坊二层扩容项目，上币将带来大量流动性和交易量。短期内可能因炒作而波动，但种子标签提示高风险。建议短线投机者可参与，但需注意回调风险。中性偏看多，但波动大。",
+      "reason": "交易所上币直接影响价格，但属于项目更新，次级优先级。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance 上线 Gensyn (AIGENSYN)",
+      "summary": "Binance 宣布将上线 Gensyn (AIGENSYN)，同样适用种子标签。Gensyn 是去中心化人工智能计算网络，上币后关注度较高。类似 MegaETH，短期存在交易机会，但风险较高。中性信号，建议小额参与或观察。",
+      "reason": "新币上币，短期热度，但需注意种子标签风险。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance 将推出 BTCUSD1 永续合约",
+      "summary": "Binance 期货将于2026年5月18日上线 USDⓈ-M BTCUSD1 永续合约，提供新的比特币交易工具。该合约可能增加市场流动性，但对价格直接影响有限。中性偏多，注意合约上线初期可能出现的波动。",
+      "reason": "市场结构变化，新增交易产品，影响程度中等偏低。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数43（恐惧）",
+      "summary": "当前加密货币恐惧贪婪指数为43，处于恐惧区间但并非极端。市场情绪谨慎，但未达恐慌抛售或极度贪婪的阶段。该位置通常为中性，可结合其他信号判断。目前无明确方向，建议观望。",
+      "reason": "市场情绪指标，非极端值，参考价值中等。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
