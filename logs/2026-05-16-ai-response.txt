@@ -518,3 +518,179 @@ content length: 3456
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1469, prompt_tokens=15814, total_tokens=17283, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=988, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14662)
+content length: 1303
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitwise推出Hyperliquid基金",
+      "summary": "Bitwise资产管理公司在美国推出一只Hyperliquid基金，包含质押奖励。该基金为投资者提供对Hyperliquid（HYPE）的敞口，并通过质押获得额外收益。这是首只美国上市的Hyperliquid基金，可能吸引机构资金流入，对HYPE价格构成利好。短期看多HYPE，但基金规模未知，影响有限。",
+      "reason": "新基金发行直接增加HYPE的机构投资渠道，属于ETF/机构类利好，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitwise-asset-management-us-listed-hyperliquid-fund-staking-reward?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "阿联酋主权基金增持BTC ETF",
+      "summary": "阿布扎比主权财富基金Mubadala在2026年第一季度将其比特币ETF持仓增加16%至5.66亿美元。主权基金持续增持BTC ETF表明长期看涨立场，为市场提供流动性支持，缓解抛压。该消息利好BTC，信号明确看多，对市场情绪有提振作用。",
+      "reason": "主权基金增持属于机构动向，优先级一，直接影响BTC需求预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/abu-dhabis-mubadala-raises-bitcoin-stake"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前6小时窗口内多数消息与历史重复，仅筛选出2条高质量新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2660, prompt_tokens=15814, total_tokens=18474, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2422, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=15744), prompt_cache_hit_tokens=15744, prompt_cache_miss_tokens=70)
+content length: 655
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitwise发行Hyperliquid基金",
+      "summary": "Bitwise资产管理公司推出美国上市的Hyperliquid基金，包含质押奖励，为投资者提供对HYPE的敞口及质押收益。该基金有望吸引传统资金进入Hyperliquid生态，增加HYPE需求。中期看多信号，但需注意市场情绪偏弱。影响币种：HYPE。",
+      "reason": "新基金产品发行，属于ETF机构类别，为HYPE带来增量资金预期，中等影响。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitwise-asset-management-us-listed-hyperliquid-fund-staking-reward"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他新闻与历史标题重复或缺乏交易价值，仅筛选出一条有效消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3134, prompt_tokens=15814, total_tokens=18948, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2668, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=15744), prompt_cache_hit_tokens=15744, prompt_cache_miss_tokens=70)
+content length: 1310
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitwise推出美国上市Hyperliquid基金",
+      "summary": "Bitwise资产管理公司宣布推出美国上市的Hyperliquid基金，该基金将直接持有HYPE代币并提供质押奖励。这是首个美国上市的Hyperliquid基金，为机构投资者提供合规敞口。此前21Shares的Hyperliquid ETF已获得最佳日流入500万美元，此次Bitwise产品将进一步吸引资金流入，对HYPE形成直接利好。HYPE代币近期已上涨23%，该消息可能推动价格继续上行。",
+      "reason": "机构新产品推出，直接利好HYPE，符合优先级一中的ETF机构动态。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitwise-asset-management-us-listed-hyperliquid-fund-staking-reward"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ATM巨头Bitcoin Depot发出破产警告",
+      "summary": "比特币ATM运营商Bitcoin Depot发布破产预警，原因是ATM收入下降及监管审查加强。该公司股价已承压，该警告反映了加密零售市场的疲软态势。尽管对BTC价格直接影响有限，但作为行业基础设施提供商，其困境可能削弱市场信心，增加短期负面情绪。",
+      "reason": "主要公司财务预警，影响市场情绪，符合优先级三市场情绪信号。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368035/bitcoin-depot-bankruptcy-warning-atm-revenue-falls-regulatory-scrutiny"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前6小时内仅筛选出2条有价值的新消息，其余均为重复或低影响内容。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1801, prompt_tokens=17540, total_tokens=19341, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1153, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16388)
+content length: 1796
+============================================================
+{
+  "news": [
+    {
+      "title": "阿布扎比主权基金增持BTC ETF",
+      "summary": "阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%至5.66亿美元，表明大型机构长期看好比特币。此举可能提振市场信心，推动BTC价格反弹。看多信号，影响BTC。",
+      "reason": "主权基金增持是重大机构利好信号，代表长期资金入场，符合优先级二机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/abu-dhabis-mubadala-raises-bitcoin-stake"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitwise推出Hyperliquid基金含质押",
+      "summary": "Bitwise资产管理公司推出美国上市Hyperliquid基金（BHYP），提供对HYPE的现货敞口并通过Bitwise自有质押部门进行质押。这是继21Shares后又一机构产品，可能吸引更多资金流入HYPE，短期利好HYPE价格。",
+      "reason": "机构推出新产品增加HYPE曝光度和资金流入，符合优先级一交易所/项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitwise-asset-management-us-listed-hyperliquid-fund-staking-reward"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币ATM公司Bitcoin Depot破产警告",
+      "summary": "比特币ATM运营商Bitcoin Depot发布“持续经营”警告，因ATM收入下降和监管审查加剧，公司未来12个月生存能力存在重大不确定性。此消息反映行业部分领域困境，可能对BTC市场情绪产生轻微负面影响，但整体影响有限。",
+      "reason": "行业负面新闻，符合优先级一项目方重大事件但影响力较小。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368035/bitcoin-depot-bankruptcy-warning-atm-revenue-falls-regulatory-scrutiny"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "因大量消息（CLARITY法案、BTC跌破79k、THORChain被黑、Binance上币等）已出现在历史记录中且无重大更新，仅筛选出3条有效新消息。"
+}

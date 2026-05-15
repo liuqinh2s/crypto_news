@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-16",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17540,
+    "completion_tokens": 1801,
+    "total_tokens": 19341
+  },
+  "content_length": 1796,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"阿布扎比主权基金增持BTC ETF\",\n      \"summary\": \"阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%至5.66亿美元，表明大型机构长期看好比特币。此举可能提振市场信心，推动BTC价格反弹。看多信号，影响BTC。\",\n      \"reason\": \"主权基金增持是重大机构利好信号，代表长期资金入场，符合优先级二机构动向。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Bitcoin Magazine\",\n          \"url\": \"https://bitcoinmagazine.com/news/abu-dhabis-mubadala-raises-bitcoin-stake\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Bitwise推出Hyperliquid基金含质押\",\n      \"summary\": \"Bitwise资产管理公司推出美国上市Hyperliquid基金（BHYP），提供对HYPE的现货敞口并通过Bitwise自有质押部门进行质押。这是继21Shares后又一机构产品，可能吸引更多资金流入HYPE，短期利好HYPE价格。\",\n      \"reason\": \"机构推出新产品增加HYPE曝光度和资金流入，符合优先级一交易所/项目更新。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/bitwise-asset-management-us-listed-hyperliquid-fund-staking-reward\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"比特币ATM公司Bitcoin Depot破产警告\",\n      \"summary\": \"比特币ATM运营商Bitcoin Depot发布“持续经营”警告，因ATM收入下降和监管审查加剧，公司未来12个月生存能力存在重大不确定性。此消息反映行业部分领域困境，可能对BTC市场情绪产生轻微负面影响，但整体影响有限。\",\n      \"reason\": \"行业负面新闻，符合优先级一项目方重大事件但影响力较小。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/368035/bitcoin-depot-bankruptcy-warning-atm-revenue-falls-regulatory-scrutiny\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"因大量消息（CLARITY法案、BTC跌破79k、THORChain被黑、Binance上币等）已出现在历史记录中且无重大更新，仅筛选出3条有效新消息。\"\n}"
+}

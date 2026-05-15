@@ -338,3 +338,130 @@
 2026-05-15 18:02:22 [DEBUG]   去重: 「Hyperliquid回应CME监管施压」 → 标题相似: CME/ICE要求监管审查Hyperliquid
 2026-05-15 18:02:22 [INFO] 📦 JSON 已保存: reports/2026-05-16-02.json
 2026-05-15 18:02:22 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-05-15 19:00:36 [INFO] 🚀 开始抓取 2026-05-16 03:00 币圈新闻
+2026-05-15 19:00:36 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-15 19:00:36 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-15 19:00:36 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-15 19:00:36 [INFO]   ⏭ Decrypt: 过滤掉 32 条非近期新闻
+2026-05-15 19:00:36 [INFO]   ⏭ CoinTelegraph: 过滤掉 27 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 8 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-05-15 19:00:37 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-15 19:00:37 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ Blockworks: 过滤掉 2 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ 宏观经济: 过滤掉 19 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ 吴说区块链: 过滤掉 44 条非近期新闻
+2026-05-15 19:00:37 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:38 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:38 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-05-15 19:00:38 [INFO]   ⏭ CoinDesk: 过滤掉 49 条非近期新闻
+2026-05-15 19:00:38 [INFO]   ⏭ Crypto Twitter: 过滤掉 37 条非近期新闻
+2026-05-15 19:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-15 19:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-15 19:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-15 19:00:52 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-15 19:00:52 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:52 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-15 19:00:52 [INFO]   ✓ CoinDesk: 1 条
+2026-05-15 19:00:52 [INFO]   ✓ The Block: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ Decrypt: 5 条
+2026-05-15 19:00:52 [INFO]   ✓ CoinTelegraph: 3 条
+2026-05-15 19:00:52 [INFO]   ✓ Bitcoin Magazine: 2 条
+2026-05-15 19:00:52 [INFO]   ✓ Blockworks: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ DL News: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ 金色财经: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ PANews: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-15 19:00:52 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-05-15 19:00:52 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-05-15 19:00:52 [INFO]   ✓ Crypto Twitter: 13 条
+2026-05-15 19:00:52 [INFO]   ✓ 宏观经济: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ Binance公告: 20 条
+2026-05-15 19:00:52 [INFO]   ✓ OKX公告: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ Bitget公告: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ Whale Alert: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-15 19:00:52 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-15 19:00:52 [INFO]   ✓ 雪球加密: 1 条
+2026-05-15 19:00:52 [INFO] 📊 共抓取 52 条新闻
+2026-05-15 19:00:52 [INFO] 📋 原始新闻已保存: reports/2026-05-16-03-raw.json (52 条)
+2026-05-15 19:00:52 [INFO] 📋 标题摘要已保存: reports/2026-05-16-03-raw-titles.md
+2026-05-15 19:00:52 [INFO] ✅ 抓取完成，共 52 条，已保存到 reports/2026-05-16-03-raw.json
+2026-05-15 19:00:53 [INFO] 🤖 开始 AI 筛选 2026-05-16 03:00 币圈消息
+2026-05-15 19:00:53 [INFO] 📋 已加载原始新闻: reports/2026-05-16-03-raw.json (52 条)
+2026-05-15 19:00:53 [INFO] 📚 已加载历史新闻标题（28099 字符）
+2026-05-15 19:00:53 [INFO] 📚 已加载历史筛选标题 21 条、URL 23 个，用于去重
+2026-05-15 19:00:53 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-15 19:00:53 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-15 19:00:53 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（52 条，13247 字符，temp=0.3）
+2026-05-15 19:01:09 [INFO] AI 原始返回已保存: logs/2026-05-16-ai-response.txt (finish_reason=stop, 1303 字符)
+2026-05-15 19:01:09 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-16-03-ai-raw.json
+2026-05-15 19:01:09 [DEBUG] parse_json_response 输入长度: 1303 字符
+2026-05-15 19:01:09 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Bitwise推出Hyperliquid基金",
+      "summary": "Bitwise资产管理公司在美国推出一只Hyperliquid基金，包含质押奖励。该基金为投资者提供对Hyperliquid（HYPE）的敞口，并通过质押获得额外收益。这是首只美国上市的Hyperliquid基金，可能吸引机构资金流入，对HYPE价格构成利好。短期看多HYPE，但基金规模未知，影响有限。",
+      "reason": "新基金发行直接增加HYPE的机构投资渠道，属于ETF/机构类利好，优先级一。",
+      "c
+2026-05-15 19:01:09 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-15 19:01:09 [INFO] ✅ AI 返回 2 条新闻
+2026-05-15 19:01:09 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-05-15 19:01:09 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（52 条，13247 字符，temp=0.3）
+2026-05-15 19:01:31 [INFO] AI 原始返回已保存: logs/2026-05-16-ai-response.txt (finish_reason=stop, 655 字符)
+2026-05-15 19:01:31 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-16-03-ai-raw.json
+2026-05-15 19:01:31 [DEBUG] parse_json_response 输入长度: 655 字符
+2026-05-15 19:01:31 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Bitwise发行Hyperliquid基金",
+      "summary": "Bitwise资产管理公司推出美国上市的Hyperliquid基金，包含质押奖励，为投资者提供对HYPE的敞口及质押收益。该基金有望吸引传统资金进入Hyperliquid生态，增加HYPE需求。中期看多信号，但需注意市场情绪偏弱。影响币种：HYPE。",
+      "reason": "新基金产品发行，属于ETF机构类别，为HYPE带来增量资金预期，中等影响。",
+      "category": "ETF机构",
+      "im
+2026-05-15 19:01:31 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-15 19:01:31 [INFO] ✅ AI 返回 1 条新闻
+2026-05-15 19:01:31 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-05-15 19:01:31 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（52 条，13247 字符，temp=0.3）
+2026-05-15 19:01:59 [INFO] AI 原始返回已保存: logs/2026-05-16-ai-response.txt (finish_reason=stop, 1310 字符)
+2026-05-15 19:01:59 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-16-03-ai-raw.json
+2026-05-15 19:01:59 [DEBUG] parse_json_response 输入长度: 1310 字符
+2026-05-15 19:01:59 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Bitwise推出美国上市Hyperliquid基金",
+      "summary": "Bitwise资产管理公司宣布推出美国上市的Hyperliquid基金，该基金将直接持有HYPE代币并提供质押奖励。这是首个美国上市的Hyperliquid基金，为机构投资者提供合规敞口。此前21Shares的Hyperliquid ETF已获得最佳日流入500万美元，此次Bitwise产品将进一步吸引资金流入，对HYPE形成直接利好。HYPE代币近期已上涨23%，该消息可能推动价格继续上行。",
+      "reason": 
+2026-05-15 19:01:59 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-15 19:01:59 [INFO] ✅ AI 返回 2 条新闻
+2026-05-15 19:01:59 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-05-15 19:01:59 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（52 条，19101 字符，temp=0.3）
+2026-05-15 19:02:16 [INFO] AI 原始返回已保存: logs/2026-05-16-ai-response.txt (finish_reason=stop, 1796 字符)
+2026-05-15 19:02:16 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-16-03-ai-raw.json
+2026-05-15 19:02:16 [DEBUG] parse_json_response 输入长度: 1796 字符
+2026-05-15 19:02:16 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "阿布扎比主权基金增持BTC ETF",
+      "summary": "阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%至5.66亿美元，表明大型机构长期看好比特币。此举可能提振市场信心，推动BTC价格反弹。看多信号，影响BTC。",
+      "reason": "主权基金增持是重大机构利好信号，代表长期资金入场，符合优先级二机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal":
+2026-05-15 19:02:16 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-05-15 19:02:16 [INFO] ✅ AI 返回 3 条新闻
+2026-05-15 19:02:16 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-05-15 19:02:16 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-05-15 19:02:16 [INFO] 📦 JSON 已保存: reports/2026-05-16-03.json
+2026-05-15 19:02:16 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
