@@ -1053,3 +1053,242 @@ content length: 2761
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1060, prompt_tokens=10607, total_tokens=11667, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1030, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9455)
+content length: 55
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中所有消息均与历史消息重复，无新关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2773, prompt_tokens=10607, total_tokens=13380, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2365, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=111)
+content length: 848
+============================================================
+{
+  "news": [
+    {
+      "title": "WSJ报道隐私币热潮",
+      "summary": "华尔街日报发文介绍一种被称为'更秘密版本比特币'的加密货币（推测为门罗币XMR或其他隐私币），指出其近期价格大幅上涨，吸引了投资者关注。文章提到隐私币因监管压力增加反而需求上升，可能吸引更多资金流入。对XMR等隐私币构成利好，但需注意监管风险。短期看多隐私币，但长期面临不确定性。",
+      "reason": "WSJ主流媒体关注隐私币，可能引发散户和机构进一步买入，属于市场情绪驱动，且历史标题中未出现，是新消息。",
+      "category": "市场情绪",
+      "impact_coins": ["XMR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "WSJ via Google News",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WeWNDRlRVVm9wZTdXblUzdFI5al9UekF4bFNiNVlWMV9zRXYyTUwtYVBJT01rR20tQV85cjNUeUFqOTJfeUZmbDVGcGZ2WThwQ2p5QTFHU1RsempyRlhTa3dYZHNYZEpSRm1CZVkycTJNdnA2R1RwWjBFUQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场消息以重复和低影响内容为主，CLARITY Act进展、Binance上币等已在历史标题中多次出现且无更新，恐惧贪婪指数波动小，因此仅筛选出1条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1115, prompt_tokens=10607, total_tokens=11722, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1049, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=111)
+content length: 125
+============================================================
+{
+  "news": [],
+  "note": "当前时段抓取素材与历史消息高度重复，未发现新的具有交易价值的关键消息。主要重复内容包括CLARITY Act进展、Binance系列公告、恐惧贪婪指数未变等。建议关注后续宏观数据及链上异动。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1178, prompt_tokens=11353, total_tokens=12531, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=777, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10201)
+content length: 837
+============================================================
+{
+  "news": [
+    {
+      "title": "WSJ报道匿名版BTC大涨",
+      "summary": "华尔街日报报道一种更秘密的比特币版本（可能指Monero或类似隐私币）近期价格大涨。该报道引发市场对隐私币的关注，但未提供具体数据。对XMR等隐私币可能构成短期情绪提振，但影响有限。信号中性偏多，需进一步确认。",
+      "reason": "该消息来自主流媒体WSJ，可能引发市场对隐私币的投机兴趣，但缺乏具体事件和量价数据，属于轻度情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["XMR"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "WSJ via Google News",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WeWNDRlRVVm9wZTdXblUzdFI5al9UekF4bFNiNVlWMV9zRXYyTUwtYVBJT01rR20tQV85cjNUeUFqOTJfeUZmbDVGcGZ2WThwQ2p5QTFHU1RsempyRlhTa3dYZHNYZEpSRm1CZVkycTJNdnA2R1RwWjBFUQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中绝大多数消息（如Binance公告、Clarity Act进展、Gemini投资、恐惧贪婪指数等）已在前几轮历史消息中出现，属于重复信息。仅筛选出1条轻度情绪消息，建议关注后续更具体的链上数据或监管动态。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1822, prompt_tokens=11353, total_tokens=13175, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1227, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11264), prompt_cache_hit_tokens=11264, prompt_cache_miss_tokens=89)
+content length: 1310
+============================================================
+{
+  "news": [
+    {
+      "title": "美军运行比特币节点",
+      "summary": "据Bitcoin Magazine报道，美国军方已运行一个比特币节点，并称其为“力量投射”。这一举动可能表明美国军方对加密货币的接受度提升，或用于战略目的。长期看可能利好比特币，但短期市场影响有限。影响币种：BTC。信号：bullish（长期），但短期中性。",
+      "reason": "符合‘项目更新’类别，可能影响市场对比特币安全性和合法性的认知，属于新事件。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Bitcoin Magazine", "url": "https://news.google.com/rss/articles/CBM...inaFJ6R0ozazlIWEl3MVotOFU0cldQRkp3dFp4SFRaRE5FV01uYU44bGRoMFN6Z1h6REFERy01ajdSZUZxdEtBaU93?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "WSJ报道更隐私版比特币",
+      "summary": "华尔街日报报道称，一种更秘密的比特币版本（可能指隐私币）正在大涨。这通常指Monero或类似币种，可能刺激隐私币交易量。影响币种：XMR。信号：bullish。",
+      "reason": "符合‘市场情绪’类别，主流媒体关注可能推动短期投机。",
+      "category": "市场情绪",
+      "impact_coins": ["XMR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Wall Street Journal", "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WeWNDRlRVVm9wZTdXblUzdFI5al9UekF4bFNiNVlWMV9zRXYyTUwtYVBJT01rR20tQV85cjNUeUFqOTJfeUZmbDVGcGZ2WThwQ2p5QTFHU1RsempyRlhTa3dYZHNYZEpSRm1CZVkycTJNdnA2R1RwWjBFUQ?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中绝大部分为重复历史消息（如Binance公告、CLARITY法案进展、恐惧贪婪指数等），仅选入两条有轻微影响的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2938, prompt_tokens=3662, total_tokens=6600, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1287, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2510)
+content length: 4033
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案推进监管讨论",
+      "summary": "CLARITY Act在美国国会取得进展，该法案旨在明确加密货币监管框架，可能为市场带来合规清晰度。当前辩论聚焦于SEC与CFTC的权责划分。若通过，将利好合规项目如BTC、ETH及主流代币，但也可能增加短期不确定性。中性偏多信号，关注后续立法动态。",
+      "reason": "重大监管动态，直接影响市场预期，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "PYMNTS",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHBqM1ZESFBFaFlTZEhpSGdzTXNnbzA3ZDJPN2MzeU45RkRqZHVzRzlnZ3Z5V2JCcTFubFZfSDU4ZXRNYmJqWTNBTWRHUVpuamZjcmx5YnRjN2lBNVdNX2xxdEFaMGtlM05tWWtRX2hDaFJ6R0ozazlIWEl3MVotOFU0cldQRkp3dFp4SFRaRE5FV01uYU44bGRoMFN6Z1h6REFERy01ajdSZUZxdEtBaU93?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美军运行比特币节点",
+      "summary": "美国军方启动比特币节点，被解读为对区块链技术的战略认可，可能增强比特币作为储备资产的国家级信心。此举象征意义大于实际影响，短期利多BTC，但需警惕过度炒作。",
+      "reason": "涉及国家级采用信号，对BTC有情绪提振，属于优先级一中的重大动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc2ZRQlZFWkJDTERDZVJ6TUt5OFhMSmN3b25NNnczMTdMT3BjTzJZeFJrWHZYSlpENUdDYWdlWlJQM241VXp4a2pBZDFXWWpVdUxEUEkza3U5YTNkcFFqanpaSHU3cC1XYXJ2aWNYWTBwR3hZQk1fYm1zS0NVend6RXBtUWN2Z0xaWWNKMFhuUGNxTF9nbnRwUE1pLWw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线AIGENSYN",
+      "summary": "Binance宣布即将上线Gensyn (AIGENSYN)，并开放多个交易对及理财服务。新币上线通常带来短期交易热度与价格上涨，但种子标签提示高风险。建议关注开盘后走势，可参与短线交易。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线MegaETH",
+      "summary": "Binance宣布即将上线MegaETH (MEGA)，并开放现货及衍生品交易。MegaETH是以太坊扩容方案新项目，预计上线后引起市场关注。短期看多MEGA，但需注意种子标签风险。",
+      "reason": "交易所上币直接影响币价，且MegaETH为热门项目，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线CHIP",
+      "summary": "Binance宣布即将上线Chip (CHIP)，并支持HODLer空投活动。CHIP为AI相关代币，上线初期波动较大。短期看多CHIP，但需警惕抛压。",
+      "reason": "交易所上币直接影响币价，AI赛道热门，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["CHIP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/fd57a395639b466ab8bfc792670c679d"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线BTCUSD1永续合约",
+      "summary": "Binance计划于2026-05-18上线BTCUSD1永续合约，提供新的比特币交易工具。此举将增加BTC交易深度与流动性，利好BTC，但短期影响有限。",
+      "reason": "交易所新合约上线，增加交易品种，对BTC有一定正面影响，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧与贪婪指数降至43",
+      "summary": "当前恐惧与贪婪指数为43，处于恐惧区间但未触及极端。反映市场情绪偏谨慎，可视为中性信号。无极端情绪，对交易无明确指向，但可留意后续变化。",
+      "reason": "市场情绪指标未达极端值，提供参考但非行动信号，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
