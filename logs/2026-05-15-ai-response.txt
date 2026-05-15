@@ -1292,3 +1292,63 @@ content length: 4033
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2770, prompt_tokens=9868, total_tokens=12638, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1768, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8716)
+content length: 2195
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY Act通过后BTC反弹",
+      "summary": "美国CLARITY Act在参议院委员会通过关键投票后，比特币价格跳涨3%突破82,000美元，分析师认为BTC有望反弹至86,000美元。该法案旨在建立明确的加密监管框架，被视为行业重大利好。此次投票通过后，Coinbase等加密股也普遍上涨。影响币种包括BTC、ETH、XRP、DOGE等。信号看多。",
+      "reason": "优先级一：重大监管动态（法案推进），直接影响市场情绪和价格。历史虽有投票报道，但本轮提供具体市场反应和反弹目标，是后续更新。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVGNRajZNdF9YVS0tRmRYVzM3S0FMMk5zT0w5ZldKaEJKMFdIQW13TDJmU3dwMy1FU0dLQktCcFpBOFRyUmcyY2NybWtNNVdORE1TMmVOVXVKaFdzd2Y4YXJUTFVnXzcwTURkY3VxZ3VHSl9aejVZTDZScnNOc3RadWwzM21GMVpHT1ZIRjhmRDdhSU54a0stNjQ1X3dfeDMy?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "JPMorgan推以太坊货币基金",
+      "summary": "摩根大通推出基于以太坊的货币市场基金，将传统金融与DeFi结合，允许投资者通过链上基金获取收益。此举标志着华尔街进一步接纳以太坊生态，可能提升ETH的机构需求和链上活动。短期ETH价格受提振，中期利好以太坊DeFi生态。",
+      "reason": "优先级二：机构动向，传统金融巨头进入以太坊DeFi，信号积极，影响中期行情。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTndXc0Z0d1UxM0pxcUllRW1qdFczUV9JRnhiYkFnV3lvN09Uekx1bk5oMWlqcVYtbjVldmhTN0gyV2NobnZRRXNlb0ZDeEFSd295WndISjlkbmo4OGkwOHc2TUNjQm9ZZDNvVF9GVjR3Y25fTG9WUEdPZUZzSTcxOVh6NU5mZEJQcmlhYWNqdkJ4NC1EUE9zWmlkOHR6Qk5hX2c?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数回升至43",
+      "summary": "恐惧贪婪指数从34（恐惧）回升至43（恐惧），虽仍处恐惧区间，但情绪有所改善。历史显示指数低于20为中长期抄底区，当前水平暗示市场悲观情绪缓解但尚未过热。可能预示短期反弹持续，但需谨慎。",
+      "reason": "优先级三：市场情绪信号，指数变化反映投资者情绪改善，对整体市场有参考价值。与历史数据（34）相比是更新。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于本轮抓取素材中大量Binance公告与历史重复，已按去重规则排除，仅选出3条具有交易价值的新消息。主要关注CLARITY Act进展和传统机构入场的信号。"
+}
