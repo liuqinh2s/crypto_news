@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-15",
+  "hour": "23",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13691,
+    "completion_tokens": 3164,
+    "total_tokens": 16855
+  },
+  "content_length": 2032,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Circle在Solana新增铸造2.5亿USDC\",\n      \"summary\": \"Circle在Solana链上新增铸造2.5亿枚USDC，总供应量增加。稳定币增发通常意味着资金入场，为市场提供流动性，是看多信号。可能影响BTC、ETH及整个加密市场，短期有助提振风险偏好。\",\n      \"reason\": \"稳定币供应量变化（USDT/USDC增发）属于优先级一的关键消息，直接反映资金流入，看多。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512947.html\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Kraken母公司裁员150人\",\n      \"summary\": \"Kraken母公司Payward宣布裁员150人，为计划中的IPO前业务精简。裁员可能反映行业成本压力，但市场可能解读为积极信号（提升效率）。对加密整体情绪中性偏空，尤其对交易所代币和IPO前景有潜在影响。\",\n      \"reason\": \"交易所重大动态（裁员属运营大调整），可能影响市场信心，属优先级二。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"KRAKEN未上市，影响情绪\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"CoinDesk\", \"url\": \"https://www.coindesk.com/business/2026/05/14/kraken-parent-payward-cuts-150-staff-streamlining-business-ahead-of-planned-ipo\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"THORChain攻击损失升至1070万美元\",\n      \"summary\": \"THORChain确认Asgard金库遭入侵，协议资金损失约1070万美元，高于此前预估。攻击导致RUNE代币大跌，跨链桥安全性受质疑。对RUNE强烈看空，可能波及BTC、ETH等跨链资产情绪。\",\n      \"reason\": \"项目方重大安全事件（黑客攻击），直接利空对应币种，优先级一。金额更新比历史消息更严重。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"RUNE\", \"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512948.html\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"英国30年期国债收益率飙升20基点\",\n      \"summary\": \"英国30年期国债收益率日内涨20个基点至5.86%，全球债券收益率上升反映通胀预期升温。对风险资产（含加密货币）构成宏观压力，可能导致资金流出。看空BTC、ETH等。\",\n      \"reason\": \"宏观经济数据（国债收益率飙升）直接压制风险资产，优先级二。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/512944.html\"}\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮素材大量重复历史消息，仅筛选出4条新消息。\"\n}"
+}
