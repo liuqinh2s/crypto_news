@@ -1352,3 +1352,80 @@ content length: 2195
   ],
   "note": "由于本轮抓取素材中大量Binance公告与历史重复，已按去重规则排除，仅选出3条具有交易价值的新消息。主要关注CLARITY Act进展和传统机构入场的信号。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1916, prompt_tokens=10064, total_tokens=11980, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1012, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8912)
+content length: 2403
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF净流入1.31亿美元",
+      "summary": "美国现货比特币ETF昨日净流入1.3132亿美元，结束近期资金流出趋势。资金回流显示机构需求回暖，可能推动BTC短期反弹。影响币种：BTC。信号：看多。",
+      "reason": "ETF资金净流入是直接利好信号，对应优先级一，影响行情。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512837.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普Q1买入Coinbase等股票",
+      "summary": "特朗普最新披露显示其在Q1买入Coinbase、Strategy（微策略）、MARA股票。作为政治人物持仓，提振市场信心，利好相关加密概念标的。影响币种：BTC（微策略持仓）、COIN关联较小。信号：中性偏多。",
+      "reason": "机构/名人动向，优先级二，影响市场情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401406/trump-coinbase-strategy-mara?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "20亿美元BTC期权今日到期",
+      "summary": "今日将有20亿美元比特币期权到期，可能引发短期波动和清算。巨量交割通常伴随价格震荡，需警惕方向选择。影响币种：BTC。信号：中性。",
+      "reason": "市场结构事件，影响短期波动，对应优先级三。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/bitcoin", "url": "https://www.reddit.com/r/Bitcoin/comments/1tdjirl/2_billion_in_bitcoin_options_expire_today_what/"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "莫斯科交易所拟推加密货币交易",
+      "summary": "莫斯科交易所或将推出加密货币全天候24/7交易，若实施将增加俄罗斯市场合规入口，利好全球流动性和采用。但监管细节未明，需关注后续。影响币种：BTC、ETH。信号：看多。",
+      "reason": "监管动态，优先级一，国家级开放信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512822.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "韩国日经股市暴跌",
+      "summary": "受外资抛售加剧，韩国KOSPI指数下跌4%，日经225跌破62000点。亚洲股市大跌可能引发避险情绪，短期利空加密等风险资产，但若资金流入BTC避险则相反。影响币种：BTC、ETH。信号：看空。",
+      "reason": "宏观经济事件，亚洲风险资产下跌可能拖累加密，对应优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512831.html"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512824.html"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
