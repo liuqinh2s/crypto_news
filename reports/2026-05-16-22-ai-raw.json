@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-16",
+  "hour": "22",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11026,
+    "completion_tokens": 2437,
+    "total_tokens": 13463
+  },
+  "content_length": 1680,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"特朗普推动《拯救美国法案》\",\n      \"summary\": \"特朗普公开呼吁立即通过《拯救美国法案》，该法案可能涉及财政刺激或加密货币监管，但具体内容尚未披露。若法案包含加密友好条款，将提振市场信心；若为紧缩措施，则可能带来压力。目前影响不明朗。可能影响BTC、ETH及整体风险资产。短期中性，需关注后续细节。\",\n      \"reason\": \"特朗普作为重要政治人物，其法案呼吁可能带来监管或宏观政策变化，属于优先级一中的重大监管动态。但细节未知，评级为中性。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513026.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"中美经贸磋商初步成果\",\n      \"summary\": \"中国商务部发言人宣布中美经贸磋商取得初步成果，可能缓解贸易紧张局势。这将改善全球宏观经济预期，利好风险资产包括加密货币。比特币和以太坊等可能受益于流动性改善和风险偏好回升。短期看多信号，但需确认细节。\",\n      \"reason\": \"中美贸易缓和属于宏观经济重大利好，直接提升风险资产吸引力，符合优先级二中的宏观经济数据类。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513023.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"黄立成ETH多单再遭清算\",\n      \"summary\": \"知名大户黄立成（Machi）的ETH多头头寸再次被清算，账户余额降至8.5万美元。此前他多次加杠杆做多ETH，此次清算显示市场下跌压力下杠杆多头持续爆仓。可能引发进一步恐慌性抛售，短期利空ETH。虽为个人事件，但可作为市场脆弱性的警示。\",\n      \"reason\": \"大户清算代表市场情绪和杠杆状态，属于链上异动中的异常信号，符合优先级一中的巨鲸异动（虽非巨鲸但知名）。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513025.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ],\n  \"note\": \"当前市场焦点已集中在BTC跌破78k、ETF流出10亿、多单爆仓5.5亿等历史消息中。本轮新素材中符合筛选标准的消息较少，仅选出上述三条，其余多为重复或低影响内容。\"\n}"
+}
