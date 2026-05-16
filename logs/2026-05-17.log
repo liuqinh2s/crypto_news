@@ -554,3 +554,91 @@
 2026-05-16 21:01:05 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
 2026-05-16 21:01:05 [INFO] 📦 JSON 已保存: reports/2026-05-17-05.json
 2026-05-16 21:01:05 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-05-16 22:00:39 [INFO] 🚀 开始抓取 2026-05-17 06:00 币圈新闻
+2026-05-16 22:00:39 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-16 22:00:39 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-16 22:00:40 [INFO]   ⏭ Decrypt: 过滤掉 37 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:40 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-16 22:00:40 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:40 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ 宏观经济: 过滤掉 19 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ 吴说区块链: 过滤掉 44 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ Blockworks: 过滤掉 1 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ Crypto Twitter: 过滤掉 47 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:41 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:42 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-16 22:00:43 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-05-16 22:00:54 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:55 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-16 22:00:55 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-16 22:00:55 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-05-16 22:00:56 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-16 22:00:56 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:56 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-16 22:00:56 [INFO]   ✓ CoinDesk: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ The Block: 2 条
+2026-05-16 22:00:56 [INFO]   ✓ Decrypt: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Blockworks: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ DL News: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ 金色财经: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ PANews: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-16 22:00:56 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-05-16 22:00:56 [INFO]   ✓ Crypto Twitter: 3 条
+2026-05-16 22:00:56 [INFO]   ✓ 宏观经济: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Binance公告: 20 条
+2026-05-16 22:00:56 [INFO]   ✓ OKX公告: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Bitget公告: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Whale Alert: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-16 22:00:56 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-16 22:00:56 [INFO]   ✓ 雪球加密: 1 条
+2026-05-16 22:00:56 [INFO] 📊 共抓取 31 条新闻
+2026-05-16 22:00:56 [INFO] 📋 原始新闻已保存: reports/2026-05-17-06-raw.json (31 条)
+2026-05-16 22:00:56 [INFO] 📋 标题摘要已保存: reports/2026-05-17-06-raw-titles.md
+2026-05-16 22:00:56 [INFO] ✅ 抓取完成，共 31 条，已保存到 reports/2026-05-17-06-raw.json
+2026-05-16 22:00:56 [INFO] 🤖 开始 AI 筛选 2026-05-17 06:00 币圈消息
+2026-05-16 22:00:56 [INFO] 📋 已加载原始新闻: reports/2026-05-17-06-raw.json (31 条)
+2026-05-16 22:00:56 [INFO] 📚 已加载历史新闻标题（17111 字符）
+2026-05-16 22:00:56 [INFO] 📚 已加载历史筛选标题 17 条、URL 18 个，用于去重
+2026-05-16 22:00:56 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-16 22:00:56 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-16 22:00:56 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（31 条，6552 字符，temp=0.3）
+2026-05-16 22:01:17 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 3101 字符)
+2026-05-16 22:01:17 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-06-ai-raw.json
+2026-05-16 22:01:17 [DEBUG] parse_json_response 输入长度: 3101 字符
+2026-05-16 22:01:17 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "CFTC人事推进与CLARITY法案",
+      "summary": "美国众议院农业委员会领导人敦促特朗普任命CFTC委员，同时CLARITY法案在参议院推进。CLARITY法案旨在为数字资产提供明确的监管框架，若通过将利好整个加密货币市场。该消息对长期监管环境有正面影响，但短期影响有限。影响币种包括BTC、ETH等主要加密资产。信号为看多，但属于中期政策进展。",
+      "reason": "监管政策是优先级一，该消息涉及美国监管部门人事任命和立法进展，可能为未来合规框架铺路，对行业长期利好。",
+    
+2026-05-16 22:01:17 [DEBUG] 从 JSON 对象的 news 字段提取到 4 条记录
+2026-05-16 22:01:17 [INFO] ✅ AI 返回 4 条新闻
+2026-05-16 22:01:17 [INFO] ✅ AI 筛选出 4 条交易相关消息，符合预期
+2026-05-16 22:01:17 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
+2026-05-16 22:01:17 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-16 22:01:17 [DEBUG]   去重: 「CFTC人事推进与CLARITY法案」 → URL重复: https://www.theblock.co/post/401558/house-agriculture-leader
+2026-05-16 22:01:17 [INFO] 📦 JSON 已保存: reports/2026-05-17-06.json
+2026-05-16 22:01:17 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
