@@ -1562,3 +1562,94 @@ content length: 2644
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2819, prompt_tokens=9515, total_tokens=12334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1889, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8363)
+content length: 2411
+============================================================
+{
+  "news": [
+    {
+      "title": "贝莱德从Coinbase提取1700 BTC",
+      "summary": "贝莱德（BlackRock）从Coinbase提取了超过1,700枚BTC，价值约1.4亿美元。这是机构投资者将交易所资产转入自托管的典型行为，通常被解读为囤币信号，减少交易所抛压。直接影响BTC，看多信号。",
+      "reason": "优先级一：机构巨鲸从交易所提取大额BTC，视为囤币利多；BTC直接受益。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512982.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸抛售7557枚ETH换USDC",
+      "summary": "某巨鲸地址抛售7,557枚ETH，获得1,681.5万枚USDC，价值约1.68亿美元。大额ETH转入交易所或通过DEX抛售，增加ETH供应压力，短期看空ETH。",
+      "reason": "优先级一：巨鲸大额抛售ETH，直接利空ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512981.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "4钱包提取89k ETH至自托管",
+      "summary": "4个钱包从FalconX和Kraken合计提取89,026枚ETH，价值约1.9785亿美元。大额ETH从交易所流出，表明巨鲸或机构在囤积ETH，减少交易所供应，短期利多ETH。",
+      "reason": "优先级一：多笔大额ETH从交易所流出，视为囤币信号，利多ETH。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512980.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储6月维持利率概率99.2%",
+      "summary": "据CME FedWatch数据，美联储6月维持利率不变的概率高达99.2%，市场几乎完全定价不降息。短期内无紧缩或宽松预期，对风险资产影响中性，但高利率环境持续对加密市场构成长期压力。",
+      "reason": "优先级二：宏观经济数据直接影响风险资产偏好，当前利率预期稳定，中性信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512976.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "黎以停火谈判进展及冲突持续",
+      "summary": "黎方称会谈取得有利进展，但以军空袭黎南部致12死。地缘政治紧张局势可能影响全球风险偏好，短期内可能引发避险情绪，但停火进展又缓和市场担忧，方向不明，中性。",
+      "reason": "优先级二：地缘冲突影响风险资产，但多空交织，暂作中性处理。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/512978.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
