@@ -2485,3 +2485,94 @@ content length: 2161
   ],
   "note": "仅筛选出3条高质量消息，其余素材与历史重复或缺乏交易价值。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4503, prompt_tokens=9919, total_tokens=14422, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2804, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8767)
+content length: 3803
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF一周流出10亿",
+      "summary": "美国现货比特币ETF过去一周净流出约10亿美元，打破连续六周的资金流入记录，显示机构投资者近期抛售情绪加剧。可能由于美联储降息预期延迟及宏观经济不确定性上升，资金持续流出对BTC构成直接抛压，短期内压制价格。同时，ETH等其他主流币也可能受连带影响。虽然今日BTC跌至78000美元后有所反弹，但ETF流出信号偏空，需警惕进一步下行风险。",
+      "reason": "优先级一：ETF资金流入流出直接影响行情。历史消息有昨日流出2.9亿，但一周10亿是更大规模的汇总数据，显示趋势恶化，因此选入。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/spot-bitcoin-etfs-bleed-1b-in-a-week-snapping-six-week-inflow-run?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "鲍威尔辞去美联储主席",
+      "summary": "据报道，美联储主席杰罗姆·鲍威尔已辞职，这给比特币前景增添不确定性。鲍威尔在任期间政策偏鹰，其离任可能引发市场对美联储政策转向的猜测，短期增加波动。历史上美联储主席更替往往伴随市场动荡，加密货币等风险资产可能面临重新定价。不过，若新主席采取更鸽派立场，中期或利好比特币。目前消息尚待确认，但已引发恐慌性讨论，需密切关注后续发展。",
+      "reason": "优先级二：宏观经济消息（美联储主席更替）对风险资产影响大。同时属于重大监管/政策变动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTWZFQ01wN3hjaVZwNTFYSDJrV1gtOEMzVUlRRTk0TEFpWFpra0NQb1RvU2hEbUx3dksySmdzWmFuQXRQSDdFTm9hYkVBQjVsY3ZkZmVrY1lDRXg0WmFRTnU5UUxQaEVDQzdWUW1LeWlhVVVrMEJLLTlYSmNiWmpzSlNMX1FqZmtJNFY4MU1ET0UybFlqM3gwNlJ6X3U1WHFYWWdhS0dxVDBwMENmTGpVcVFvaUnSAboBQVVfeXFMTmJ1WU9uMmdWc1U3cDZ1X0FIZXpZdld5UFVpcWtCU05rckZnOWJSWERBUnRKQzlBX0hYYWg2Q2FnVHpCcXRCVTlGSzlwQkV0a2hyLVFtYkFMYkhyM2ZQUnZuWUdhaWJVZ2haSW55X3JiMEFBM1AxVGg0TjQwYmtaenNPbUhQM0ZFNGdzRV9uOV9POEUxLUNOVTJzMzcxSk9waWQyMUpWbGwyX3VCSEcxM2dJbmtFd3NLTC1n?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Sharplink CEO看好以太坊",
+      "summary": "Sharplink CEO指出以太坊可能飙升的三个催化剂：1) 以太坊生态DeFi和Layer2活跃度增长；2) 机构通过ETF持续增持；3) 即将到来的网络升级。尽管ETH近期跌至2200美元附近，但CEO认为这些因素将推动价格上涨。短期内需关注宏观压力，但中长期看多信号。对ETH持有者有利，但需结合市场整体情绪。",
+      "reason": "优先级三：KOL观点，但CEO具有一定影响力，且提供了具体催化剂。属于市场情绪/项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/sharplink-ceo-points-out-these-3-catalysts-for-ethereum-to-reach-new-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitmine转向以太坊质押",
+      "summary": "Bitmine公司为满足上市要求，将业务重心转向以太坊质押收益。这意味着机构对以太坊质押的兴趣增加，可能推动更多ETH被锁定，减少流通供应，长期利好ETH价格。同时，该公司从比特币挖矿转向以太坊质押，反映以太坊生态的吸引力提升。不过，单个公司的战略调整对市场影响有限，但作为机构动向仍值得关注。",
+      "reason": "优先级二：机构动向，显示资本配置变化。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQkhlQTRTNjV1U1Q5QzFuUEYwaWp1dXB5MXNOdEhlVnEtWEduVlZaVmk3VE1wQU9pa1FteURhN0pad1BuN3FLSTNqaUFuMmk3aGVBNzFSSWdrbEFfNU1GTXotXzVLZHhYb3dkSGJtQXMtZlNfMWs5RGxDRnp6Rm1nY2tWSS01TXpmRUVNV2JyVzE1RFBKSG84b0FRRTJzQkw0b3ZUXw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "USDC一周减少17亿枚",
+      "summary": "过去7天USDC流通量减少约17亿枚，表明资金可能从加密市场流出，或用户将USDC兑换为其他资产。稳定币供应减少通常被视为看空信号，因为可用于购买加密资产的资金减少。结合近期BTC ETF流出和价格下跌，这一数据进一步印证市场抛压。但对BTC/ETH等主要币种影响偏负面。",
+      "reason": "优先级一：稳定币供应量变化直接影响市场流动性，属于关键指标。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513013.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
