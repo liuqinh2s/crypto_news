@@ -2675,3 +2675,94 @@ content length: 2340
   ],
   "note": "历史消息中已包含大量重复内容（如BTC爆仓、ETF流出、恐惧贪婪指数、Binance上币），本轮仅选出4条新增有价值信息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2406, prompt_tokens=10700, total_tokens=13106, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1074, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9548)
+content length: 3103
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY法案推进 XRP领涨",
+      "summary": "美国CLARITY Act（加密法律明确性法案）取得进展，XRP表现优于比特币。该法案旨在为数字资产提供监管框架，若通过将利好整个加密市场。XRP因与SEC诉讼关联紧密，短期受益明显。当前市场情绪谨慎，法案仍需国会批准，但进展本身是积极信号。影响XRP、BTC、ETH，短期看多XRP，中期利好整体市场。",
+      "reason": "直接关联监管政策进展，优先级一，影响XRP及整体市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["XRP", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/15/xrp-beat-bitcoin-gains-as-clarity-act-advanced-but-a-real-bullrun-still-needs-congress"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗宣布霍尔木兹海峡新机制",
+      "summary": "伊朗官员称霍尔木兹海峡航线交通管理机制将于近期公布，此前危机导致航运中断风险。地缘政治紧张局势可能缓和，油价回落预期利好风险资产。但若实际执行引发新冲突，则利空。目前看短期情绪修复，比特币、以太坊等主要币种或反弹，但需关注后续执行细节。",
+      "reason": "地缘政治影响风险资产，优先级二，可能缓解近期恐慌性抛售。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513021.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "交易所BTC供应维持8年低位",
+      "summary": "数据显示比特币持有者拒绝抛售，交易所BTC供应量仍维持在8年低位。这表明长期持有者信心强劲，抛压较小。结合近期价格下跌但供应枯竭，可能预示底部支撑。若需求回升，易推动价格上涨。该指标为链上异动信号，看多BTC。",
+      "reason": "链上异动指标，优先级一，直接反映供给端看多信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yellow.com via 雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQVWhrckZDZDZ5bW93bDh2R3FXclBIOGR5M2N6ZjNVWnJJOXpmLUtPWVkyb0I1Sl9vamljaTlSWE5rc0wzUlpfMEtncDRiX0RpZmJETG54OVFVWFlWd2hiZkJmcS1Ld3RDSGRwU04xRlhzdm1UU1RUWEdzMF9VTVQ0R09kQ1dqdGNPSHJQOXREUmQtOV9Cc21mZnJhTE1tNnNrV01WTVIxSTE2bXlVcFBuYXB5QUd3YnFkZXhpd0ktVzEzMWNVQ2xGVVdiSTdIWXpsNWlyVF9ZdEt6X0NiYWpTeE5YMXBuWWl2eDVPYTB3ZFp3SVVNMXNiRHBjeVE5SHZrbzVFcVRCLXBwd2ViRTJ4ZTExM2tENnk3aTladGduNTRXdkRKSjBKQ2UzcU4tWGp0M3IzT0JjWGtQS0EtNS10WkUyQ0F4a1ZLNHdnLQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "传统银行Intesa增持加密敞口",
+      "summary": "意大利银行Intesa Sanpaolo披露一季度加密敞口增至约2.35亿美元，显示传统金融机构持续配置加密资产。该行为是机构增持信号，利好BTC和ETH。虽然金额不大，但代表趋势，中期看多。",
+      "reason": "机构动向，优先级二，反映主流金融接纳度提升。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513019.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐慌指数31 市场情绪恐惧",
+      "summary": "恐惧贪婪指数为31（恐惧），处于低水平，历史看是中长期买入区间。当前价格已下跌至$78,000附近，情绪悲观但未到极端。该指数持续在恐惧区域，可能酝酿反弹，但短期仍需等待催化。中性偏多。",
+      "reason": "市场情绪指标，优先级三，但数值31不算极值，作为辅助信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
