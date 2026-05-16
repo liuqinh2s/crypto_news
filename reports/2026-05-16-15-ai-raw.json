@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-16",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3286,
+    "completion_tokens": 2580,
+    "total_tokens": 5866
+  },
+  "content_length": 2365,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Grayscale警告延迟降息\",\n      \"summary\": \"Grayscale发布报告称，如果美联储延迟降息，比特币价格可能持续疲软。目前市场对降息预期推迟至下半年，高利率环境压制风险资产估值。该消息对BTC和ETH构成中期利空，因为降息预期落空会减少资金流入加密货币。交易员应关注后续CPI数据和美联储表态，若降息进一步推迟，BTC可能跌破近期支撑。\",\n      \"reason\": \"宏观经济因素直接影响风险资产，属于优先级二。Grayscale作为机构发声，对市场情绪有引导作用。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Cryptonews.net\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiWEFVX3lxTE53M1U0Z2ZGR2tTSklBVGRNbW9QeDV4Tnlxa2Z6SVJqdzM3NmlXdFFnSnlHLXRKOEt4R0JKWWFtS3JHZzAtYUJtMVk4WkVhX0ZFSk9qUmY5RFE?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"币安上线Gensyn (AIGENSYN)\",\n      \"summary\": \"Binance宣布将上线Gensyn (AIGENSYN)，并开放现货、理财、合约等交易对。AIGENSYN是去中心化AI计算网络代币，上线初期波动较大。上线交易所通常带来资金流入和流动性提升，短期看多。交易者可关注开盘后价格发现过程，注意Seed标签风险。\",\n      \"reason\": \"新币上线直接影响对应代币价格，属于优先级一。Binance作为头部交易所，上线效应显著。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"AIGENSYN\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"币安上线MegaETH (MEGA)\",\n      \"summary\": \"Binance宣布将上线MegaETH (MEGA)，支持现货及衍生品交易。MEGA是以太坊Layer2扩展方案代币，项目关注度高。上线币安主所将大幅提升流动性，短期看多。但需注意代币解锁和初期抛压，建议分批建仓。\",\n      \"reason\": \"新币上线，属于优先级一。MEGA为近期热门项目，上线预期已吸引大量关注。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"MEGA\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数31 (Fear)\",\n      \"summary\": \"当前恐惧贪婪指数为31，处于恐惧区间。历史数据显示，该区间往往对应市场阶段性底部，但短期仍有下行惯性。该数值尚未触及极度恐惧（<20），因此不应视为强烈抄底信号，但可作为市场情绪偏空的参考。\",\n      \"reason\": \"市场情绪指标，属于优先级三。虽非极值，但持续恐惧可能酝酿反弹。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

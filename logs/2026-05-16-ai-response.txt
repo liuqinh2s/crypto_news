@@ -2134,3 +2134,218 @@ content length: 2384
   ],
   "note": "本轮素材中大部分Binance公告、恐惧贪婪指数、Bhutan否认抛售等均与历史消息重复，已排除。选取5条有交易价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1193, prompt_tokens=8321, total_tokens=9514, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=833, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7169)
+content length: 784
+============================================================
+{
+  "news": [
+    {
+      "title": "灰度警告延迟降息利空BTC",
+      "summary": "灰度（Grayscale）发布警告称，若美联储继续推迟降息，比特币弱势可能延长。当前市场预期6月维持利率不变概率99.2%，高利率环境压制风险资产。比特币已跌破8万美元，一度触及79000美元。该消息利空比特币及整体加密市场，可能引发进一步下行。投资者需关注下周美联储会议纪要及官员讲话，若鹰派信号强化，下跌或持续。",
+      "reason": "宏观经济消息直接关联风险资产定价，延迟降息利空比特币，属中期影响交易信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53M1U0Z2ZGR2tTSklBVGRNbW9QeDV4Tnlxa2Z6SVJqdzM3NmlXdFFnSnlHLXRKOEt4R0JKWWFtS3JHZzAtYUJtMVk4WkVhX0ZFSk9qUmY5RFE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中绝大多数Binance公告与历史重复，恐惧贪婪指数未变，其他Reddit内容无交易价值，仅灰度警告为有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1100, prompt_tokens=8321, total_tokens=9421, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=758, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8320), prompt_cache_hit_tokens=8320, prompt_cache_miss_tokens=1)
+content length: 749
+============================================================
+{
+  "news": [
+    {
+      "title": "灰度警告降息延迟利空BTC",
+      "summary": "灰度投资发布报告指出，美联储延迟降息可能延长比特币弱势周期。当前市场对6月维持利率不变的预期概率高达99.2%，高利率环境持续压制风险资产。比特币已跌破8万美元，灰度警告若降息进一步推迟，比特币可能继续承压下行。该观点强化了短期看空情绪，但需注意灰度本身作为机构存在利益立场。",
+      "reason": "灰度作为头部机构对宏观政策的解读直接影响市场预期，延迟降息是当前压制比特币的核心因素之一，属于宏观经济类中期利空信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53M1U0Z2ZGR2tTSklBVGRNbW9QeDV4Tnlxa2Z6SVJqdzM3NmlXdFFnSnlHLXRKOEt4R0JKWWFtS3JHZzAtYUJtMVk4WkVhX0ZFSk9qUmY5RFE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分为重复内容或低价值信息，仅筛选出一条有效消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1338, prompt_tokens=8321, total_tokens=9659, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=992, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8320), prompt_cache_hit_tokens=8320, prompt_cache_miss_tokens=1)
+content length: 760
+============================================================
+{
+  "news": [
+    {
+      "title": "灰度警告降息延迟利空BTC",
+      "summary": "Grayscale发布报告警告，若美联储延迟降息，比特币可能持续承压。当前市场押注6月维持利率不变概率99.2%，但降息时点延后削弱风险资产吸引力。比特币已跌破8万美元，受此消息影响可能进一步下行。该消息利空BTC及整体加密市场。",
+      "reason": "宏观经济影响，Grayscale作为头部资管机构观点对市场情绪有引导作用，且直接关联利率预期，符合优先级二中的宏观经济数据类别。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53M1U0Z2ZGR2tTSklBVGRNbW9QeDV4Tnlxa2Z6SVJqdzM3NmlXdFFnSnlHLXRKOEt4R0JKWWFtS3JHZzAtYUJtMVk4WkVhX0ZFSk9qUmY5RFE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为重复的Binance公告和已存在的市场情绪数据，其中仅有一条宏观经济预警具有交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1152, prompt_tokens=9057, total_tokens=10209, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=807, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7905)
+content length: 752
+============================================================
+{
+  "news": [
+    {
+      "title": "灰度警告延迟降息",
+      "summary": "Grayscale投资部门发布报告警告，若美联储持续延迟降息，可能延长比特币的弱势表现。当前市场预期6月维持利率概率高达99.2%，高利率环境对风险资产构成压力。该消息直接关联宏观经济政策，影响BTC、ETH等主流币种。从交易角度，延迟降息意味着流动性收紧，利空加密市场，短期内看空。",
+      "reason": "宏观紧缩预期直接影响风险资产，灰度作为头部机构观点有市场影响力，属于优先级二宏观经济数据类消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53M1U0Z2ZGR2tTSklBVGRNbW9QeDV4Tnlxa2Z6SVJqdzM3NmlXdFFnSnlHLXRKOEt4R0JKWWFtS3JHZzAtYUJtMVk4WkVhX0ZFSk9qUmY5RFE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，除灰度警告外其余消息均与历史重复或缺乏交易价值，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=988, prompt_tokens=9057, total_tokens=10045, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=656, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8960), prompt_cache_hit_tokens=8960, prompt_cache_miss_tokens=97)
+content length: 725
+============================================================
+{
+  "news": [
+    {
+      "title": "灰度警告延迟降息或利空比特币",
+      "summary": "灰度投资发布警告称，美联储延迟降息可能延长比特币的弱势表现。当前市场对降息预期推迟，导致风险资产承压，比特币已跌破8万美元。灰度认为，如果利率维持高位，比特币等加密资产将面临持续资金流出压力。该消息直接影响BTC及整体加密市场情绪，释放看空信号。",
+      "reason": "灰度作为知名机构，其观点对市场情绪有引导作用，且直接关联宏观经济政策，影响行情中期走势。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53M1U0Z2ZGR2tTSklBVGRNbW9QeDV4Tnlxa2Z6SVJqdzM3NmlXdFFnSnlHLXRKOEt4R0JKWWFtS3JHZzAtYUJtMVk4WkVhX0ZFSk9qUmY5RFE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经分析，本轮抓取素材中与历史消息重复较多，仅找到一条有新交易价值的信息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2580, prompt_tokens=3286, total_tokens=5866, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1624, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2134)
+content length: 2365
+============================================================
+{
+  "news": [
+    {
+      "title": "Grayscale警告延迟降息",
+      "summary": "Grayscale发布报告称，如果美联储延迟降息，比特币价格可能持续疲软。目前市场对降息预期推迟至下半年，高利率环境压制风险资产估值。该消息对BTC和ETH构成中期利空，因为降息预期落空会减少资金流入加密货币。交易员应关注后续CPI数据和美联储表态，若降息进一步推迟，BTC可能跌破近期支撑。",
+      "reason": "宏观经济因素直接影响风险资产，属于优先级二。Grayscale作为机构发声，对市场情绪有引导作用。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53M1U0Z2ZGR2tTSklBVGRNbW9QeDV4Tnlxa2Z6SVJqdzM3NmlXdFFnSnlHLXRKOEt4R0JKWWFtS3JHZzAtYUJtMVk4WkVhX0ZFSk9qUmY5RFE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "币安上线Gensyn (AIGENSYN)",
+      "summary": "Binance宣布将上线Gensyn (AIGENSYN)，并开放现货、理财、合约等交易对。AIGENSYN是去中心化AI计算网络代币，上线初期波动较大。上线交易所通常带来资金流入和流动性提升，短期看多。交易者可关注开盘后价格发现过程，注意Seed标签风险。",
+      "reason": "新币上线直接影响对应代币价格，属于优先级一。Binance作为头部交易所，上线效应显著。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "币安上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，支持现货及衍生品交易。MEGA是以太坊Layer2扩展方案代币，项目关注度高。上线币安主所将大幅提升流动性，短期看多。但需注意代币解锁和初期抛压，建议分批建仓。",
+      "reason": "新币上线，属于优先级一。MEGA为近期热门项目，上线预期已吸引大量关注。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数31 (Fear)",
+      "summary": "当前恐惧贪婪指数为31，处于恐惧区间。历史数据显示，该区间往往对应市场阶段性底部，但短期仍有下行惯性。该数值尚未触及极度恐惧（<20），因此不应视为强烈抄底信号，但可作为市场情绪偏空的参考。",
+      "reason": "市场情绪指标，属于优先级三。虽非极值，但持续恐惧可能酝酿反弹。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
