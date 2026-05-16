@@ -2928,3 +2928,79 @@ content length: 1680
   ],
   "note": "当前市场焦点已集中在BTC跌破78k、ETF流出10亿、多单爆仓5.5亿等历史消息中。本轮新素材中符合筛选标准的消息较少，仅选出上述三条，其余多为重复或低影响内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3139, prompt_tokens=11394, total_tokens=14533, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1944, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10242)
+content length: 2872
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸逆势加仓ETH多单",
+      "summary": "据金色财经报道，疑似BIT关联巨鲸在ETH价格下跌期间逆势加仓ETH多单，当前持仓规模近2.49亿美元。此举表明大型投资者对ETH后市持乐观态度，可能在当前位置抄底。影响币种：ETH。信号：看多。",
+      "reason": "巨鲸大额加仓多单属于链上异动，预示机构看好ETH后续走势，可能带动市场情绪回暖。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513029.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "投资基金5480枚ETH转入币安",
+      "summary": "疑似投资基金Gamma Fund地址将5,480枚ETH（价值约1.21亿美元）转入币安交易所，可能为抛售做准备。大额转向交易所通常被视为抛压信号，短期利空ETH。影响币种：ETH。信号：看空。",
+      "reason": "大额ETH转入交易所，可能引发抛售，属于链上异动，对ETH短期价格形成压力。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513027.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币因伊朗局势跌至77,614美元",
+      "summary": "据Bitcoin News报道，比特币价格下跌至77,614美元，原因系美国与以色列考虑对伊朗发动新一轮军事打击。地缘政治紧张加剧引发避险情绪，风险资产承压。影响币种：BTC、ETH、SOL等。信号：看空。",
+      "reason": "地缘政治冲突直接影响风险资产情绪，比特币作为高风险资产首当其冲，属宏观经济/地缘事件，影响级别高。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Bitcoin News", "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmphM0N3X0U4Q1hKUzlwcHVyUVdiak1tNGVQejZpWjkxcmRaQXhieDAtRDBDc1hxM3BocXdRLWdqWnNtLTE2YlB4a05mUnBkYnJuaUR0M3l4aTVvRjFKM3BfWnlnallIODlRSTF5VU9fNHdlcHdPYnhmOGZiZ2RaazR4ajFsOWM1bU9uNl9uUGoxcERkZE1J?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Jump Crypto缓慢推进Solana部署",
+      "summary": "Jump Crypto的长期Solana基础设施项目Firedancer正采取慢而稳的方法推进。虽然进度较慢，但表明Jump持续投入Solana生态，对Solana的长期基础设施和性能提升有利。影响币种：SOL。信号：中性偏多。",
+      "reason": "技术升级虽缓慢但属于正向进展，中期可能提升Solana网络性能及市场信心，属项目更新类。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/05/16/jump-crypto-s-firedancer-is-taking-a-slow-and-steady-approach-to-its-long-awaited-solana-infrastructure-rollout"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "用户追逐高收益致数十亿资金风险",
+      "summary": "CoinDesk报道，加密用户为追求高收益而忽视安全保护，导致数十亿美元资金面临黑客攻击风险。近期KelpDAO遭2.93亿美元黑客攻击进一步凸显问题。这一警示可能引发短期避险情绪，投资者或减少DeFi资金投入。影响币种：ETH、DeFi相关代币。信号：看空。",
+      "reason": "黑客风险上升可能促使资金从DeFi流出，属于市场情绪和安全性事件，对DeFi板块形成压力。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH", "UNI", "AAVE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/16/crypto-users-are-choosing-juicy-yields-over-protection-putting-billions-at-risk-of-hacks"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
