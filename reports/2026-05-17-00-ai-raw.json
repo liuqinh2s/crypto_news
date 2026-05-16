@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-17",
+  "hour": "00",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10959,
+    "completion_tokens": 2243,
+    "total_tokens": 13202
+  },
+  "content_length": 1987,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"ETH/BTC汇率创年度新低\",\n      \"summary\": \"以太坊兑比特币汇率跌至年度最低点，投资者大量将ETH存入交易所，形成抛压。链上数据显示交易所ETH余额增加，可能引发进一步下跌。直接影响ETH价格，偏空。\",\n      \"reason\": \"ETH/BTC汇率新低且交易所流入增加，属于链上异动的关键抛压信号，优先级别高。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\", \"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1texa3a/eth_hits_yearly_low_against_btc_as_investors/\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"VanEck/Grayscale提交BNB ETF修正案\",\n      \"summary\": \"资管巨头VanEck和Grayscale向SEC提交新的BNB ETF修正案，推动BNB合规化进程。若获批将打开机构资金入场通道，显著利好BNB价格。当前竞赛升温，市场预期积极。\",\n      \"reason\": \"BNB ETF进展属于重大监管/机构动态，直接影响币种价格，优先级高。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BNB\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Yellow.com\",\n          \"url\": \"https://news.google.com/rss/articles/CBMikgJBVV95cUxPOUVDbmV5Rnk1aXlNR3hleGZkVUNmbWxVZHZ4UTUwZkNSNUdIcE43Zzk3UUgyUUhwcUlCZ1VPcy1lMmNSaGN3YkVHQ0dyd3dVRGhRWFM4Q28wVkJnU3AxT3Q1a3Y2NXVBbEVha0xpNmlDVC1UcFhEUmlqWkZYYlE4Ql9SSlJSUmFuRWhuOXJubGtEVS0tWWVLUVJxYUl4OWVmclZDQ0U5M1JXSmRPMDZsdXpmWnd4OUtzQ2RhSjJQNUx2dXBHaEhQelBBbFpNNExtQldhVXlNMGl6b0ZINkZ6dmdWNWdKYXFCNGRGVktWM2Qxb1NFQ1hJUVU3WWFLRDdaanQwbUg0cW1zNEwtc1ZVTFFB?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"BCH Laya升级成功启动\",\n      \"summary\": \"比特币现金(BCH)顺利完成Laya网络升级，提升交易处理能力和安全性。技术升级通常支撑币价，但短期市场反应有限，对BCH偏中性。\",\n      \"reason\": \"BCH技术升级属于项目更新，影响中等，但需关注后续生态变化。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BCH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1tewdgc/bch_laya_upgrade_successfully_launched_bliss/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

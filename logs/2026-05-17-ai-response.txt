@@ -1,16 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2243, prompt_tokens=10959, total_tokens=13202, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1395, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9807)
+content length: 1987
+============================================================
 {
-  "date": "2026-05-17",
-  "hour": "00",
   "news": [
     {
       "title": "ETH/BTC汇率创年度新低",
       "summary": "以太坊兑比特币汇率跌至年度最低点，投资者大量将ETH存入交易所，形成抛压。链上数据显示交易所ETH余额增加，可能引发进一步下跌。直接影响ETH价格，偏空。",
       "reason": "ETH/BTC汇率新低且交易所流入增加，属于链上异动的关键抛压信号，优先级别高。",
       "category": "链上异动",
-      "impact_coins": [
-        "ETH",
-        "BTC"
-      ],
+      "impact_coins": ["ETH", "BTC"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -26,9 +28,7 @@
       "summary": "资管巨头VanEck和Grayscale向SEC提交新的BNB ETF修正案，推动BNB合规化进程。若获批将打开机构资金入场通道，显著利好BNB价格。当前竞赛升温，市场预期积极。",
       "reason": "BNB ETF进展属于重大监管/机构动态，直接影响币种价格，优先级高。",
       "category": "ETF机构",
-      "impact_coins": [
-        "BNB"
-      ],
+      "impact_coins": ["BNB"],
       "signal": "bullish",
       "impact_level": 4,
       "sources": [
@@ -44,9 +44,7 @@
       "summary": "比特币现金(BCH)顺利完成Laya网络升级，提升交易处理能力和安全性。技术升级通常支撑币价，但短期市场反应有限，对BCH偏中性。",
       "reason": "BCH技术升级属于项目更新，影响中等，但需关注后续生态变化。",
       "category": "项目更新",
-      "impact_coins": [
-        "BCH"
-      ],
+      "impact_coins": ["BCH"],
       "signal": "neutral",
       "impact_level": 2,
       "sources": [
@@ -57,7 +55,5 @@
       ],
       "urgency": "hours"
     }
-  ],
-  "total_fetched": 36,
-  "generated_at": "2026-05-17T00:01:38.248970+08:00"
+  ]
 }
