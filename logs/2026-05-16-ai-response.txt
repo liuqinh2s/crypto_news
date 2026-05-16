@@ -2349,3 +2349,79 @@ content length: 2365
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3307, prompt_tokens=8987, total_tokens=12294, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2241, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7835)
+content length: 2562
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币跌至7.8万爆仓5亿",
+      "summary": "比特币跌破78000美元，加密多头合约爆仓5亿美元，SOL和XRP下跌5%。这表明市场抛压加剧，短期内看空信号强烈。影响币种包括BTC、ETH、SOL、XRP等。",
+      "reason": "大规模爆仓事件直接导致多单清算，可能引发进一步下跌，属于市场结构异动，对整体行情影响较大。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "SOL", "XRP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/16/crypto-longs-lose-usd500-million-as-bitcoin-slides-to-usd78-000-sol-and-xrp-down-5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国BTC ETF流出6.35亿美元",
+      "summary": "美国现货比特币ETF遭遇6.35亿美元净流出，加剧比特币下跌压力。这是近期较大规模的资金外逃，显示机构投资者情绪转弱，可能持续压制比特币价格。",
+      "reason": "ETF资金流动直接影响比特币供需，大规模流出是明确的看空信号，属于优先级一的事件。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Traders Union", "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeWJYM3lzOHYxcHZ6dHpFSHhmOXBHb2EtUFlzT3ZQQ2dlV0lZb3FNRUdwc0NwbEE5NkZUdExXM0ItSHNrSUY1YktPaEhIVUxuUnNmcDBYMmR4Q2p1MUdvbXVIUXNQQTRWTmpuaWdvTDNoTUNVQndEZ0R3U0pRalhKTmZlRzB3X1hGa2k3VFlRcHcwNFZxZ0RfeGlUZWRsZV9XMWJuc3huQjU?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美以或下周恢复对伊军事行动",
+      "summary": "消息人士称美以可能最早下周恢复对伊朗军事行动，地缘政治风险上升可能引发避险情绪，资金从风险资产流出，对加密货币构成压力。",
+      "reason": "地缘政治紧张局势升级通常导致风险资产下跌，属于宏观风险事件，影响整体市场情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513009.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "HYPE空单盈利4143万美元",
+      "summary": "地址Loracle.hl的5倍HYPE空单重回盈利，总盈利升至4143万美元，显示大户持续看空HYPE。这可能引发跟风抛售，HYPE价格承压。",
+      "reason": "巨额头寸盈利信号表明市场对该币种存在较强看空倾向，属于链上异动，对HYPE短期走势有直接影响。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513008.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH跌破2200美元",
+      "summary": "以太坊价格跌破2200美元关口，跟随比特币下跌，市场情绪恶化。若持续跌破支撑，可能引发更多止损单和清算，加剧下行风险。",
+      "reason": "关键价格水平破位通常吸引技术性抛售，影响以太坊短期走势，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513010.html"}
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
