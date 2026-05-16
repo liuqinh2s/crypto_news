@@ -2067,3 +2067,70 @@ content length: 2556
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2091, prompt_tokens=8550, total_tokens=10641, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1083, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7398)
+content length: 2384
+============================================================
+{
+  "news": [
+    {
+      "title": "上市公司累计增持36.9万BTC",
+      "summary": "过去12个月内，上市公司累计增持约36.9万枚比特币，显示机构持续买入。该数据来源于链上统计，覆盖MicroStrategy、特斯拉等。增持行为减少市场流通供应，支撑价格。影响币种：BTC。判断：看多信号，中长期利好。",
+      "reason": "机构动向：上市公司持续增持BTC，属于优先级二的中期影响利好，减少抛压。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513004.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "彩虹图测算BTC公允价17.7万",
+      "summary": "分析师采用波动调整彩虹图，测算比特币当前公允价格为17.7万美元，现价约8万美元，折价幅度约55%。该模型基于历史周期和波动率，暗示当前被低估，长期回归潜力大。影响币种：BTC。判断：中长期看多信号，但短期可能仍需时间。",
+      "reason": "链上指标/分析模型显示BTC远低于公允价，属于中长期看多依据，影响市场情绪。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513005.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "桥水13F：加仓芯片减持软件",
+      "summary": "桥水基金公布最新13F文件，显示一季度加仓芯片股（如英伟达、AMD），减持软件股。此举反映对AI硬件需求的看好，间接利好加密货币中与AI相关的项目（如RNDR等），但传统金融行为对加密直接影响有限。影响币种：AI相关代币。判断：中性偏多，但传导性弱。",
+      "reason": "宏观机构动向，虽非直接加密但影响市场对科技股情绪，间接利好AI板块。",
+      "category": "宏观经济",
+      "impact_coins": ["RNDR", "FET", "AGIX"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513001.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "2025年加密非法资金查获率11%",
+      "summary": "数据显示，2025年加密领域非法资金查获占比约11%，追回率是法定货币的55倍。表明区块链透明性提升了执法效率，对行业监管环境构成利好，降低系统性风险。影响币种：BTC、ETH等主流。判断：看多信号，监管有效性增强信心。",
+      "reason": "监管政策/数据正面，显示加密行业合规进步，属于中期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513000.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普面临是否恢复对伊打击",
+      "summary": "特朗普面临是否恢复对伊朗军事打击的抉择，称接受暂停核计划20年的方案。地缘政治紧张可能引发避险情绪，短期内资金可能流入BTC作为避险资产。影响币种：BTC。判断：短期看多（避险需求），但若冲突缓和则反转。",
+      "reason": "宏观经济/地缘事件，影响风险资产和避险情绪，属于优先级二的中等影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513002.html"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分Binance公告、恐惧贪婪指数、Bhutan否认抛售等均与历史消息重复，已排除。选取5条有交易价值的新消息。"
+}
