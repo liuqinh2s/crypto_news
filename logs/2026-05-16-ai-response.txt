@@ -2576,3 +2576,102 @@ content length: 3803
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2063, prompt_tokens=9908, total_tokens=11971, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1405, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8756)
+content length: 1497
+============================================================
+{
+  "news": [
+    {
+      "title": "THORChain确认$10M漏洞",
+      "summary": "THORChain官方确认遭遇约1000万美元黑客攻击，已推出恢复门户供受影响用户追回资金。此前团队曾表示RUNE转账预计12小时后恢复，攻击或因GG20 TSS漏洞导致。此事件直接利空RUNE，短期内抛压与信任危机可能加剧，建议回避RUNE相关头寸。",
+      "reason": "项目方确认重大安全事件，直接影响代币价格和协议信任，属于优先级一项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["RUNE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/thorchain-confirms-10m-exploit-rolls-out-recovery-portal-for-afflected-users"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strategy确认计划卖BTC",
+      "summary": "据Forbes报道，Strategy（原MicroStrategy）悄悄确认了出售比特币的计划，引发市场恐慌性抛售，BTC价格迅速下跌至$78,000。作为最大企业持币方，其卖出信号可能引发市场跟风抛售，对BTC构成重大利空。建议短期内谨慎做多BTC，警惕进一步下探。",
+      "reason": "MicroStrategy是比特币最大企业持有者，其卖出计划直接动摇市场信心，属于优先级一项目方重大事件，且为巨鲸异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Crypto Twitter (Forbes)",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOanVMbndjbkZNRFlncUxhVWZTNFVmMFNKdnlaSlh3SGNENXZJb24wRXNXemZjVm1TdWJfNTE4RlJDYVpybXAzUHJ6RzR2blFwNWRMNWhCODZDZ2lwV2xkT05wUW12YTQwcEp4MTNfbG8yX0N6NHRoX2R4TzNuaFNCNXdfWVc5YV9VV0FOT3pWeWpaam9GaWNEenVJNUYtVUgtMlpMR0Rlai1QcUMxaEtyR18yd3NOSmg0dlNWWU5LQ2NZdzJXZnFHeWJxTGRuLVpGTWs1ek9lT2RTdw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2868, prompt_tokens=9908, total_tokens=12776, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1896, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=52)
+content length: 2340
+============================================================
+{
+  "news": [
+    {
+      "title": "微策略计划卖BTC？",
+      "summary": "据福布斯报道，Strategy（原MicroStrategy）悄然确认计划出售比特币，引发市场恐慌。若属实，将带来巨大抛压。BTC已跌至78000美元，消息极度利空，可能引发进一步下跌。",
+      "reason": "巨鲸异动，机构持仓变化直接利空BTC。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "Forbes", "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOanVMbndjbkZNRFlncUxhVWZTNFVmMFNKdnlaSlh3SGNENXZJb24wRXNXemZjVm1TdWJfNTE4RlJDYVpybXAzUHJ6RzR2blFwNWRMNWhCODZDZ2lwV2xkT05wUW12YTQwcEp4MTNfbG8yX0N6NHRoX2R4TzNuaFNCNXdfWVc5YV9VV0FOT3pWeWpaam9GaWNEenVJNUYtVUgtMlpMR0Rlai1QcUMxaEtyR18yd3NOSmg0dlNWWU5LQ2NZdzJXZnFHeWJxTGRuLVpGTWs1ek9lT2RTdw?oc=5"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Jane Street BTC ETF持仓或为对冲",
+      "summary": "Reddit用户分析13F文件，指出Jane Street的BTC ETF仓位下降71%可能实际上是Delta中性对冲策略，而非看跌。这意味着机构并未真正减持，而是调整风险敞口。此消息有助于缓解抛售担忧，对BTC中性偏多。",
+      "reason": "解读机构行为，影响市场情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tepsgs/understanding_13f_filings_why_jane_streets_71/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "THORChain确认1000万美元漏洞",
+      "summary": "THORChain官方确认遭受1000万美元漏洞攻击，已推出恢复门户供受影响用户操作。此前RUNE转账暂停12小时后恢复。此事件对RUNE价格利空，但恢复门户可能减轻恐慌。",
+      "reason": "项目安全事件，直接影响RUNE及跨链生态。",
+      "category": "项目更新",
+      "impact_coins": ["RUNE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/thorchain-confirms-10m-exploit-rolls-out-recovery-portal-for-affected-users"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SharpLink CEO看多ETH催化剂",
+      "summary": "SharpLink CEO指出以太坊价格飙升的三个催化剂：现货ETF资金流入、技术升级、机构采用。尽管属于观点，但可能提振短期情绪。ETH当前跌至2200美元以下，此消息可能带来反弹预期。",
+      "reason": "KOL观点影响市场情绪，ETH超跌后有一定参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/sharplink-ceo-points-out-these-3-catalysts-for-ethereum-to-reach-new-highs"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "历史消息中已包含大量重复内容（如BTC爆仓、ETF流出、恐惧贪婪指数、Binance上币），本轮仅选出4条新增有价值信息。"
+}
