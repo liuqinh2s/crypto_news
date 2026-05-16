@@ -1496,3 +1496,69 @@ content length: 3377
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1906, prompt_tokens=10046, total_tokens=11952, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=833, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8894)
+content length: 2644
+============================================================
+{
+  "news": [
+    {
+      "title": "CFTC任命压力加大",
+      "summary": "美国众议院委员会领袖敦促特朗普任命CFTC委员，以落实CLARITY法案。该法案上周已在参议院委员会通过，旨在明确加密监管框架。若CFTC被充实，可能加速合规进程，利好整个加密市场，尤其利好BTC和ETH。但短期内政策不确定性仍存，信号偏中性。",
+      "reason": "监管政策重大进展，直接影响市场预期",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/house-committee-nominate-cftc-commissioners-clarity-act"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "科技IPO抽血加密市场",
+      "summary": "Anchorage Digital高管警告，SpaceX、OpenAI、Anthropic等顶级科技公司IPO可能从加密市场吸走大量资金。这些IPO预计将吸引机构和个人投资者注意力，导致加密市场流动性减少。对BTC、ETH等主流币形成短期利空，资金分流效应明显。",
+      "reason": "机构资金流向变化，直接利空加密市场",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUUxWmdKN2M1eWRKU3Q5TzNsTG56NXRvb2FWQVljRGNhXzRoVDZQSFhJOTdRZUVQN2NIbk90TVhnOVpLa3lQY1FPb1JpZ2pNRWpZVC1JelNNS093R2tPMUdxb0xPcEZfOThqcFNyTUI4UmIteGxmTU9LMVVnT1FKYnNpNFFxbDFpTm5sVkpHb0tqRjM4RkxKREFlNEhBZUlSWDR5NEhR"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kraken裁员150人IPO延迟",
+      "summary": "Kraken交易所裁员150人（约占员工5%），并部署AI替代部分岗位。同时其IPO可能推迟至2027年。这反映交易所盈利压力加大，市场环境趋紧，可能加剧投资者对行业基本面的担忧，短期利空BTC和ETH。",
+      "reason": "交易所经营恶化信号，影响市场信心",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Bloomberg Crypto", "url": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数跌至31",
+      "summary": "加密货币恐惧贪婪指数降至31（恐惧），较前值43明显下降。市场情绪转向悲观，通常在指数低于20时为中长期抄底区间，但当前31仍属恐惧区域，可能继续下探。对BTC而言，短期偏空但中长期可视为机会。",
+      "reason": "市场情绪极端值，反转信号关注",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "通胀延迟降息至2027年",
+      "summary": "Grayscale报告指出，美国通胀压力持续，美联储可能将首次降息推迟至2027年9月。高利率环境对加密等风险资产构成压制，美元走强也利空BTC。该消息属于宏观利空，影响所有风险资产。",
+      "reason": "宏观经济核心变量，直接影响风险偏好",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Crypto Briefing", "url": "https://cryptobriefing.com/grayscale-inflation-delay-fed-rate-cuts/"}],
+      "urgency": "days"
+    }
+  ]
+}
