@@ -57,3 +57,79 @@ content length: 1987
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2313, prompt_tokens=10351, total_tokens=12664, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1435, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9199)
+content length: 2153
+============================================================
+{
+  "news": [
+    {
+      "title": "贝莱德疑似出售比特币",
+      "summary": "Arkham监测数据显示，资管巨头贝莱德疑似正在出售其持有的比特币。若属实，将产生重大抛压，利空BTC。尽管尚未确认，但机构抛售信号已引发市场恐慌。影响币种：BTC。看空信号。",
+      "reason": "巨鲸/机构异动，直接影响BTC行情，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513031.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "黄立成加仓25倍ETH多单",
+      "summary": "巨鲸黄立成向Hyperliquid存入25万USDC，以25倍杠杆加仓以太坊多单。此前其ETH多单曾遭清算，此次逆势加仓显示极度看涨信心，但高杠杆面临强平风险。若ETH反弹，将加剧波动。影响币种：ETH。看多信号，但高风险。",
+      "reason": "链上异动（巨鲸大额杠杆操作），优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513032.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "摩根士丹利增持Solana ETF",
+      "summary": "据Crypto Briefing报道，摩根士丹利将其Solana敞口增加至2990万美元，通过Bitwise Solana ETF持有。机构持续增持SOL，显示对Solana长期看好，利好SOL价格。影响币种：SOL。看多信号。",
+      "reason": "机构动向，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing (via Crypto Twitter)",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hN0RuM0xpZUF2OUVHYnVQOHBYdWRSTkg3cGJSRzJpMzdOcDc5MVBPR3pZRGNVZFpfcEZpMW5TZlByZGpYVDRYeEJWNHF5N1ZlRVQtRjFtRVgxYWR1YzlPeUN5U1QwelQ4dmxEUXJB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "欧洲与伊朗接触霍尔木兹海峡",
+      "summary": "伊朗媒体称欧洲已就霍尔木兹海峡通行问题与革命卫队接触。地缘政治紧张可能推高油价，引发避险情绪，短期利空风险资产包括加密货币。但若局势缓和则相反。影响币种：BTC、ETH。中性偏空信号。",
+      "reason": "地缘政治风险影响宏观情绪，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513035.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "因大量Binance公告和历史新闻重复，仅选出4条有效新消息。"
+}
