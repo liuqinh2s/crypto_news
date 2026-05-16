@@ -2425,3 +2425,63 @@ content length: 2562
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1918, prompt_tokens=9344, total_tokens=11262, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=952, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8192)
+content length: 2161
+============================================================
+{
+  "news": [
+    {
+      "title": "多头爆仓5亿美元 BTC跌至78000",
+      "summary": "CoinDesk报道，加密货币多头合约损失5亿美元，比特币跌至78,000美元，SOL和XRP下跌5%。大量多头头寸被清算，市场情绪极度悲观。影响BTC、SOL、XRP，短期看空信号，可能触发更多清算。",
+      "reason": "直接影响行情，巨额爆仓导致价格急跌，属于优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "SOL", "XRP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/16/crypto-longs-lose-usd500-million-as-bitcoin-slides-to-usd78-000-sol-and-xrp-down-5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Solana被SEC认定为未注册证券",
+      "summary": "据Traders Union报道，Solana因被美国SEC认定为潜在的未注册证券而下跌。这可能引发监管打击，导致SOL价格承压，并影响其他类似代币。若SEC采取行动，SOL可能面临退市或罚款风险。",
+      "reason": "重大监管动态，直接影响Solana及整个山寨币市场，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1F2aEZWU2lhbjY1Y3FHemJveHF3Uk1uMm1hcm1zUVk4UExlSHp0ZHVKbEx1OVJZV0JPVTVPa1JHOWdpcDRHX2IxRFlLZXhfWm53QkNvUVpQVVlfN1AweVRPT2VFYTI0MEVicGIzY3BzaFM0NnIzOHFFTWJSeXpINGFaV0M2eVg5aGI4MVVXbnhWYjdGc3RaTm1zWjNNUUdSeUE?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Bit Digital亏损1.46亿美元 ETH国库增加",
+      "summary": "比特币矿企Bit Digital第一季度亏损1.46亿美元，但其以太坊国库余额突破15.5万枚ETH。亏损反映挖矿收益下降，但ETH持仓增加可能对ETH有一定支撑。整体偏空，影响矿业信心。",
+      "reason": "项目更新，矿企亏损影响市场对矿业和ETH的预期，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMjg5RlJzdlZKWnNRS19meWNvMUtJNFhpWHpHRHBVbXVVa2k4NjhtZDQzWVQ3aElmRmUyd2NPdzZQUU1KWG9QN3VkdTBUU3U4T1pFMU1wSTItU1BKUkUwMWhmVkdoZUVVQ0lYbWNEeEZyNTZvUEhuTHNUTGZWRktScEo4M3RkUzdNZzBDTm1EbE9PRm00WlpYTFhMZDZBaGFwVTlZYmVoZkVMUDlfM1pkd01lYllPd2RUZzViVTRNbmtmUQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "仅筛选出3条高质量消息，其余素材与历史重复或缺乏交易价值。"
+}
