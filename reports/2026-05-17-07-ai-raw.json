@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-17",
+  "hour": "07",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9089,
+    "completion_tokens": 1464,
+    "total_tokens": 10553
+  },
+  "content_length": 1460,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Bitcoin Depot运营存重大疑问\",\n      \"summary\": \"Bitcoin Depot公告称，由于持续的诉讼和监管挑战，公司继续运营存在重大疑问。这可能导致比特币ATM网络收缩，影响比特币流动性。消息偏空，但直接影响有限。\",\n      \"reason\": \"涉及监管诉讼和运营风险，属于影响行情的中等消息。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513051.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"鲍威尔临时留任引发内部质疑\",\n      \"summary\": \"美联储权力交接出现波折，鲍威尔临时留任主席遭内部质疑，可能影响美联储独立性及未来货币政策节奏。市场不确定性增加，利空风险资产。影响BTC、ETH等。\",\n      \"reason\": \"重大货币政策不确定性，直接影响风险资产估值。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513050.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"哈佛捐赠基金持有1.17亿美元IBIT\",\n      \"summary\": \"哈佛大学捐赠基金披露持有3,044,612股贝莱德比特币ETF（IBIT），价值约1.17亿美元。尽管此前哈佛抛售以太坊ETF，但仍持有大量比特币敞口，显示机构长期配置意愿。中性偏多。\",\n      \"reason\": \"机构持仓动态，反映传统资金对比特币的接受度。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513049.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮筛选仅3条新消息，其余均为重复内容或低价值讨论，符合交易消息过滤要求。\"\n}"
+}
