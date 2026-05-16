@@ -442,3 +442,98 @@ content length: 2043
   ],
   "note": "本轮素材中多数为历史重复消息（如Binance旧公告、恐惧贪婪指数未变、Strategy回购重复等），有效新消息较少。实际交易建议结合更多链上数据和宏观动态。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3355, prompt_tokens=9352, total_tokens=12707, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2077, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8200)
+content length: 3076
+============================================================
+{
+  "news": [
+    {
+      "title": "CFTC任命推进，CLARITY法案进展",
+      "summary": "美国众议院农业委员会施压特朗普任命CFTC专员，同时CLARITY法案在参议院推进。该法案旨在为数字资产提供明确监管框架，若通过将极大提升市场合规信心，利好BTC和ETH等主流币种。此举标志着美国监管走向清晰化，中长期看多信号。",
+      "reason": "监管政策动向对市场情绪有中期影响，属于优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401558/house-agriculture-leaders-press-trump-to-appoint-cftc-commissioners-as-clarity-act-advances-in-senate?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "资金费率看跌加深",
+      "summary": "据金色财经报道，当前主流中心化（CEX）和去中心化（DEX）交易所的资金费率数据显示市场看跌情绪加深。资金费率持续为负或处于低位，表明空头占据主导，做空拥挤。虽然短期可能引发轧空反弹，但整体反映市场悲观预期，对BTC和ETH构成压力。",
+      "reason": "资金费率异常属于市场结构信号，优先级三。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513045.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF周净流出近10亿美元",
+      "summary": "本周现货比特币ETF累计净流出9.955亿美元，显示机构资金大幅撤离，对比特币价格构成直接利空。这可能加剧比特币的下跌压力，需关注后续流出是否持续。若延续，则进一步看空。",
+      "reason": "ETF资金流向直接影响行情，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513043.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊ETF周净流出2.55亿美元",
+      "summary": "本周现货以太坊ETF净流出2.552亿美元，与比特币ETF类似，表明机构对ETH的抛售压力加大。ETH/BTC汇率已跌至10个月新低，短期内ETH走势疲弱，看空信号明显。",
+      "reason": "ETF资金流出，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513042.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "2年期美债4.09%压制比特币",
+      "summary": "2年期美国国债收益率维持在4.09%高位，吸引资金回流美元资产，对风险资产包括加密货币构成压力。高利率环境抑制比特币突破，若利率持续高企，BTC可能继续承压。宏观利空信号。",
+      "reason": "宏观经济数据影响风险资产，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFZmcWtMa0o0NnA0WEJPRFJXMmhQUkV3MjR4bWs4R0w4Y1hxamZ0V2NUX2FKbkd0Y241aG84WVJPT0VyaEF3Y2JycnhnbVFOdVJOQ3J3V05QR1hHM3JodV93Z1g2VEFncjNyYy1WTW9RbEs0VFR3ZWtOUzkwZzFSMXFkdk1XYlZpTlQ0bw?oc=5"
+        },
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXpZR1J2cG1pQlk1WUJEN2psQ2FpQmQyY3JmbDNFZmk0YkVSdDNwUTNuVkVLT1hOQWtPRGFPVTE4dlNFc19ZSkJFTXkwVVJqUjN2UXI2OW5SODdvbnZCNzIxUHFQdWRETFZFeUhRenZ5c2VOTllqSUhIaEl5Q1h0VnFPclRLMmkxcU1SV2N3VkNjZXBlUVNOY0pyM0xNVVVlUldwNFQ1c3g?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
