@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-17",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10838,
+    "completion_tokens": 1964,
+    "total_tokens": 12802
+  },
+  "content_length": 2043,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Binance非法资金扣押55倍于法币\",\n      \"summary\": \"Binance发布数据称，2025年加密非法资金被扣押的比例是法币的55倍，显示加密领域监管与执法力度加强。该消息可能引发市场对合规成本的担忧，对交易所相关代币（如BNB）情绪偏空，但实际影响有限。\",\n      \"reason\": \"交易所数据披露，反映监管环境趋严，属于中期影响类别。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"BNB\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1tf2vdk/binance_illicit_crypto_funds_were_seized_55x_more/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"BTC或处于重大周期底部\",\n      \"summary\": \"Reddit用户发布7张幻灯片分析，认为BTC正处于或接近重大周期低点，基于历史周期和链上指标。当前恐惧贪婪指数31（恐惧），市场情绪悲观，但该观点暗示中长期看多。短期影响中性，但对长期投资者有参考价值。\",\n      \"reason\": \"市场情绪信号，恐惧贪婪指数低位叠加技术分析，属中级情绪指标。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/bitcoin\",\n          \"url\": \"https://www.reddit.com/r/Bitcoin/comments/1tf3is4/why_i_think_btc_is_either_in_or_extremely_close/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Sui守住1.07美元关口空头占优\",\n      \"summary\": \"Sui价格在1.07美元获得支撑，但空头话语权占上风，短期内可能继续承压。技术面偏弱，若跌破1.07美元可能加速下跌。对Sui代币看空。\",\n      \"reason\": \"项目价格技术分析，对短线交易有参考价值，属轻度影响。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"SUI\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Yellow.com\",\n          \"url\": \"https://news.google.com/rss/articles/CBMigAJBVV95cUxNdWk5bWhka3BISUgxSzFBaTU5WXZ6MnpGNWpFMGpmQmkzNUJwd2gwR25tbkd5T0RPTkRTc3JhMlBxQWl2ak02WnZkLXVNd2tvMnZnYXpWN0VhVjd4eTNrU1E2dWZkcjc2cEM4Sm5IVjB5YkZxT0NWQ2M4MjdBOENMT2RwZVZoZm1JNjBOUFVHdl82T0tMd1RZXy1TSlZiSjRxZldJenRvV2ZULU5oVE1Vc3ZRSlczUEdvSTZzQ2FkMG9YUFBXd3RTcGlNZWpTbXUydHdGc3pNLUxVaEFnSjBhZDJETlpxaVQ2c1hZNF9hTXYyb2RmMU9fR3Fwb2FlUHNW?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮素材中多数为历史重复消息（如Binance旧公告、恐惧贪婪指数未变、Strategy回购重复等），有效新消息较少。实际交易建议结合更多链上数据和宏观动态。\"\n}"
+}
