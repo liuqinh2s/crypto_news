@@ -1844,3 +1844,80 @@ content length: 3066
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1868, prompt_tokens=9019, total_tokens=10887, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=843, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7867)
+content length: 2542
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币ETF净流出2.9亿美元",
+      "summary": "美国现货比特币ETF昨日净流出2.9045亿美元，以太坊ETF净流出6564万美元。资金持续流出表明机构投资者短期看空，对比特币和以太坊形成抛压。看空信号。",
+      "reason": "ETF资金流向直接影响BTC/ETH价格，净流出为显著看空信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512997.html"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512996.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC跌破80,000美元",
+      "summary": "比特币价格跌至80,000美元以下，受美国国债收益率飙升影响，风险资产普遍承压。短期内市场情绪偏空，但下方支撑关注79,000美元。看空信号。",
+      "reason": "价格突破关键心理关口，对市场情绪和交易策略有直接影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "MSN", "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQTgyMTJ6YXhBdzVvckxDeTUya1RMN05SanJmYzhvVWlFWm10a3FHUDB1bkNXWF8wSXNZUlZReDlWb25ld042b2FTb0VZcFNoenUzQm9mZjdPSEJhX0tVRWk5V29pM1pCUWp1Y1dBV3IxU3RTTmQ2TWJ5YnFTeTJfbUY3NEF5d1ZGSmtYVzhEUDVJdFJZbUVyM3lQa1ExbEJQaWNrNlZFUQ?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CLARITY法案提振比特币情绪",
+      "summary": "Santiment数据显示，美国CLARITY法案为比特币带来‘major spike of euphoria’，该法案可能为加密货币提供监管框架。市场情绪短期利好，但法案仍存不确定性。看多信号。",
+      "reason": "监管利好预期推升市场情绪，对BTC有积极影响。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/us-clarity-act-brings-major-spike-of-euphoria-to-bitcoin-santiment"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Gemini联创转向Zcash",
+      "summary": "WSJ报道，Gemini联合创始人等早期比特币支持者转向Zcash，隐私叙事升温。隐私币ZEC或受益于名人效应和技术关注，但整体市场影响有限。看多ZEC。",
+      "reason": "KOL转向特定币种可能引发短期关注和资金流入。",
+      "category": "项目更新",
+      "impact_coins": ["ZEC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512998.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SpaceX拆股或吸走加密资金",
+      "summary": "SpaceX股东批准1拆5拆股方案，分析认为其IPO可能从加密货币市场吸引资金。短期对加密市场偏空，但影响间接。看空信号。",
+      "reason": "传统优质资产IPO可能分流加密市场流动性。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/512995.html"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
