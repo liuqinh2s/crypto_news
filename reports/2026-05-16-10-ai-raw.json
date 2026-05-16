@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-16",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9130,
+    "completion_tokens": 1482,
+    "total_tokens": 10612
+  },
+  "content_length": 1995,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"THORChain被盗980万美元细节披露\",\n      \"summary\": \"Chainalysis披露了THORChain 980万美元被盗案的细节，黑客利用跨链交易漏洞窃取资金。此事件暴露了跨链桥的安全风险，可能引发市场对跨链协议和THORChain的信任担忧，短期利空THORChain相关代币（RUNE），并可能拖累整体DeFi板块情绪。\",\n      \"reason\": \"黑客攻击是优先级一的重磅消息，直接导致项目代币抛压，并可能引发连锁反应。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"RUNE\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"吴说区块链\",\n          \"url\": \"https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSUJ4Wms3TnUwTGo5cmUtcXU5aWREN0NEZXRjSFNwWVRXa3U2Uml3bzdzVjc0RHVvSEduUXRkT0g0VmFNRE80TFlpX3JjX3RNZzJabEhUWktrSUg3dTNYSi1nVmFoYUxMTTg0dDFMYUpFQWdGU3pqWlZNRmwzdw?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"比特币跌破79,000美元，美债收益率飙升\",\n      \"summary\": \"比特币下跌至79,000美元以下，主要受美债收益率飙升和风险资产抛售影响。美债收益率上行增加了无风险利率吸引力，打压包括加密货币在内的风险资产。同时，市场恐慌情绪蔓延，24小时内多头清算超3.88亿美元。短期看空比特币及主流币，但需关注后续是否有回调买入机会。\",\n      \"reason\": \"直接影响行情的价格变动，结合宏观经济因素（利率），属于优先级一和二的结合。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"SOL\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Cryptonews.net\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCajZ5ZlJxX2c1aFJMRUtzTElGWi1kaGJzSUJLcWVDUVZvM2RKU2JJYlJCdUd5LWJ1ZFVZQUdBdXByMzNPbkI3SjJXNmtDNDA5SnAxOEtvUkFBcWM?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"特朗普家族加密项目悄然抛售\",\n      \"summary\": \"据报道，特朗普家族支持的加密项目在投资者被套牢的情况下悄然卖出代币，引发社区质疑。该项目本意为支持去中心化金融，但团队抛售行为可能被视为对项目的看空信号，短期利空相关代币（如DJT等），并可能损害特朗普相关的加密概念项目声誉。\",\n      \"reason\": \"项目方负面行为属于优先级一中的“项目方重大事件”，直接利空。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"DJT\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1teffbc/trump_family_crypto_project_quietly_sold_as/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

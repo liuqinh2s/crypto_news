@@ -1653,3 +1653,106 @@ content length: 2411
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1534, prompt_tokens=9130, total_tokens=10664, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=952, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7978)
+content length: 1370
+============================================================
+{
+  "news": [
+    {
+      "title": "THORChain被盗案细节披露",
+      "summary": "Chainalysis披露了THORChain 980万美元被盗案的细节，攻击者利用跨链交易漏洞实施盗窃。该事件可能影响THORChain（RUNE）及跨链协议的安全性预期，短期内对RUNE构成利空压力。投资者需关注项目方是否采取补偿措施及后续安全升级。",
+      "reason": "直接涉及项目安全事件，影响对应代币价格，属于优先级一（项目方重大事件）。",
+      "category": "项目更新",
+      "impact_coins": ["RUNE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "吴说区块链",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSUJ4Wms3TnUwTGo5cmUtcXU5aWREN0NEZXRjSFNwWVRXa3U2Uml3bzdzVjc0RHVvSEduUXRkT0g0VmFNRE80TFlpX3JjX3RNZzJabEhUWktrSUg3dTNYSi1nVmFoYUxMTTg0dDFMYUpFQWdGU3pqWlZNRmwzdw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Trump家族加密项目悄然抛售",
+      "summary": "Reddit用户爆料Trump家族加密项目已悄悄出售，导致持有者被困。该消息可能对与Trump相关的meme币或项目代币（如TRUMP等）产生情绪性抛压，但具体影响取决于项目规模。需警惕短期市场情绪波动。",
+      "reason": "涉及知名人物相关项目，可能引发市场情绪变化，属于优先级一（项目方重大事件）。",
+      "category": "项目更新",
+      "impact_coins": ["TRUMP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1teffbc/trump_family_crypto_project_quietly_sold_as/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效消息较少，多数为重复公告或低价值内容。已筛选出两条具有交易价值的新消息，其余信息因重复或影响微弱未纳入。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1482, prompt_tokens=9130, total_tokens=10612, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=627, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=42)
+content length: 1995
+============================================================
+{
+  "news": [
+    {
+      "title": "THORChain被盗980万美元细节披露",
+      "summary": "Chainalysis披露了THORChain 980万美元被盗案的细节，黑客利用跨链交易漏洞窃取资金。此事件暴露了跨链桥的安全风险，可能引发市场对跨链协议和THORChain的信任担忧，短期利空THORChain相关代币（RUNE），并可能拖累整体DeFi板块情绪。",
+      "reason": "黑客攻击是优先级一的重磅消息，直接导致项目代币抛压，并可能引发连锁反应。",
+      "category": "项目更新",
+      "impact_coins": ["RUNE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "吴说区块链",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSUJ4Wms3TnUwTGo5cmUtcXU5aWREN0NEZXRjSFNwWVRXa3U2Uml3bzdzVjc0RHVvSEduUXRkT0g0VmFNRE80TFlpX3JjX3RNZzJabEhUWktrSUg3dTNYSi1nVmFoYUxMTTg0dDFMYUpFQWdGU3pqWlZNRmwzdw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币跌破79,000美元，美债收益率飙升",
+      "summary": "比特币下跌至79,000美元以下，主要受美债收益率飙升和风险资产抛售影响。美债收益率上行增加了无风险利率吸引力，打压包括加密货币在内的风险资产。同时，市场恐慌情绪蔓延，24小时内多头清算超3.88亿美元。短期看空比特币及主流币，但需关注后续是否有回调买入机会。",
+      "reason": "直接影响行情的价格变动，结合宏观经济因素（利率），属于优先级一和二的结合。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCajZ5ZlJxX2c1aFJMRUtzTElGWi1kaGJzSUJLcWVDUVZvM2RKU2JJYlJCdUd5LWJ1ZFVZQUdBdXByMzNPbkI3SjJXNmtDNDA5SnAxOEtvUkFBcWM?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普家族加密项目悄然抛售",
+      "summary": "据报道，特朗普家族支持的加密项目在投资者被套牢的情况下悄然卖出代币，引发社区质疑。该项目本意为支持去中心化金融，但团队抛售行为可能被视为对项目的看空信号，短期利空相关代币（如DJT等），并可能损害特朗普相关的加密概念项目声誉。",
+      "reason": "项目方负面行为属于优先级一中的“项目方重大事件”，直接利空。",
+      "category": "项目更新",
+      "impact_coins": ["DJT"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1teffbc/trump_family_crypto_project_quietly_sold_as/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
