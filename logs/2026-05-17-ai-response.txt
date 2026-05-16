@@ -192,3 +192,94 @@ content length: 2055
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2312, prompt_tokens=10681, total_tokens=12993, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=809, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9529)
+content length: 3498
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF流出10亿美元",
+      "summary": "据Benzinga报道，比特币ETF资金流出达到10亿美元，创下近期新高，显示机构投资者正在撤离。这可能加剧BTC价格下行压力，尤其是当前BTC已跌破78,000美元。看空信号，建议谨慎做多或考虑做空。",
+      "reason": "ETF资金净流出是直接影响行情的关键指标，优先级一。10亿美元规模巨大，强烈看空。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNclZUYnJ1Y0NNX3h4amY5dVltRVAxNmxLdGczTVVSN2tNV2xvd2pSNFYzYjNUOTFjZHZNSW5PVTNVRC0wY3E4QnhuejZQMUR6aFpuRnVDRk1XTEVMbmJ5alItMWZUNTJ6SzhIVW42anlaQklnVkRHOWNFcm5kRzJaZkhxY2l0WjctajlyNVlvYjVUNzVRaU45TkVnYUZKdWkta1gwQ0ZqYUZ6QlpVb0ZfLVItN3I5TjRaV1ZR?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗威胁霍尔木兹海峡",
+      "summary": "伊朗对霍尔木兹海峡发出最新威胁，可能导致中东局势紧张，油价飙升，并引发全球避险情绪。比特币跌破78,000美元，地缘政治风险加剧市场不确定性。短期内看空BTC及整体加密市场。",
+      "reason": "地缘政治风险直接影响风险资产，优先级一。消息称BTC下跌与此相关。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR21RMXJUdnlVZmpoYnJBZTQ3ZUpWdWR4WHdQbEhYTDg0eWFGeVJUenowVjBJXzNyNkNMMWxTQk0teFVLcXRCcjBTQXNSOVFmZGNiVEV0NExRbHcxZlhEcU1aMzc2cDBpb1hXWXd5WnhfN1dIaWpyRjNwdFFlSEFrcXhLOWtvM0JTaDRLV1RzbmViU09LYWc?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "哈佛抛售以太坊ETF",
+      "summary": "The Block报道，哈佛大学抛售了其持有的以太坊ETF头寸，而阿布扎比主权基金则持续增持比特币。这显示机构对ETH和BTC的分化态度：ETH遭抛售，BTC受青睐。ETH兑BTC比率可能继续走低，短期看空ETH，看多BTC。",
+      "reason": "机构大动作直接反映市场情绪，优先级一。哈佛抛售ETH ETF是负面信号，阿布扎比增持BTC是正面信号。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401518/sovereign-funds-universities-banks-reshuffle-bitcoin-altcoin-etf-positions?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strategyy债务回购影响风险",
+      "summary": "Yahoo Finance报道，Strategy（原MicroStrategy）进行债务回购，重新定义其比特币敞口和监管风险状况。此举可能增强公司财务稳健性，对比特币持仓形成支撑，但短期影响有限。中性偏多，需观察后续。",
+      "reason": "机构动态中期影响行情，优先级二。Strategy是最大的比特币上市公司持仓者，其资本操作影响市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR2hXdVpoZ2Yxajliak9ZMDNEMGMxVlJEalhtMU5zQXdxM3BacHo0aEdFX3VtRjB1OWh3LUNqTUZsZEVpcG5IblNHa3dULTdFRVBBLXVRWllBNzZMSWt6eENSWWVzdDlTUEM5eElnMnNPMTZSQVdNd2U1LUNmNHZTLW5XTDc4UzRMcTh0S0R3SHgtcEtOSkwtTzZFdEM5LVpVYkpFdA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币分析称或为熊市陷阱",
+      "summary": "CoinTelegraph分析指出，BTC价格跌破两周低点至78,000美元以下，但部分分析师认为可能是'熊市陷阱'，即假跌破后反弹。然而结合ETF流出和地缘风险，需要观察确认。短期波动加剧，建议观望。",
+      "reason": "市场技术分析，优先级二，可辅助判断。但需结合基本面，不确定性高。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
