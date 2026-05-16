@@ -1921,3 +1921,149 @@ content length: 2542
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=514, prompt_tokens=8173, total_tokens=8687, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=484, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7021)
+content length: 56
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中所有消息均为重复或无关内容，无可选新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=574, prompt_tokens=8173, total_tokens=8747, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=509, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8064), prompt_cache_hit_tokens=8064, prompt_cache_miss_tokens=109)
+content length: 114
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中所有消息均与历史消息重复或影响微弱，无新增关键交易决策消息。Binance公告、不丹否认抛售、恐惧贪婪指数等已在先前时段出现；伯克希尔加仓与加密货币关联度低。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=425, prompt_tokens=8173, total_tokens=8598, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=326, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8064), prompt_cache_hit_tokens=8064, prompt_cache_miss_tokens=109)
+content length: 184
+============================================================
+{
+  "news": [],
+  "note": "当前素材中所有消息均与历史消息重复或缺乏交易价值。Binance公告系列已在历史中反复出现（Gensyn、MegaETH、Chip等上线）；不丹否认抛售比特币事件已出现多次；恐惧贪婪指数31无变化。伯克希尔持仓为传统股票操作，与加密货币关联微弱；deBridge隐藏费用影响极小。因此无符合筛选标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=605, prompt_tokens=8947, total_tokens=9552, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=564, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7795)
+content length: 73
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中所有消息均已在历史标题中出现或为常规性/无交易价值内容，无新增关键动态。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=775, prompt_tokens=8947, total_tokens=9722, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=679, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8832), prompt_cache_hit_tokens=8832, prompt_cache_miss_tokens=115)
+content length: 174
+============================================================
+{
+  "news": [],
+  "note": "近6小时历史消息已覆盖所有关键事件（不丹否认抛售、美国ETF净流出、比特币跌破8万、CLARITY法案情绪、THORChain攻击、伯克希尔持仓、Binance多项公告等），本轮抓取素材均为重复或无关内容（如伯克希尔股票持仓、deBridge小额费用警告），无新增有效交易信号，故不输出。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1744, prompt_tokens=3084, total_tokens=4828, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=775, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=1932)
+content length: 2556
+============================================================
+{
+  "news": [
+    {
+      "title": "不丹否认出售BTC",
+      "summary": "不丹政府否认出售其持有的比特币，此前追踪数据显示该国转移约10亿美元BTC引发市场抛售担忧。不丹澄清未出售任何比特币，可能暂缓市场恐慌。此消息直接利好BTC，缓解抛压预期，看多信号。",
+      "reason": "巨鲸异动澄清，直接影响BTC价格预期，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1teiqh2/bhutan_doesnt_recall_selling_any_bitcoin/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伯克希尔Q1加仓科技股",
+      "summary": "伯克希尔哈撒韦Q1大幅加仓Alphabet、新建仓达美航空，清仓亚马逊。此举显示巴菲特对科技和航空板块信心，可能提振整体风险偏好，间接利好加密市场。但清仓亚马逊偏空，整体中性偏多。",
+      "reason": "知名机构调仓影响风险资产情绪，中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513003.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "MegaETH (MEGA) 上线币安",
+      "summary": "币安宣布上线MegaETH（MEGA）并开放现货交易，同时支持理财、保证金、合约等。MegaETH是以太坊Layer2热门项目，上线币安将带来大量流动性和交易量，短期看涨MEGA价格。但种子标签提醒风险。",
+      "reason": "交易所上币直接影响对应币种，短期炒作机会。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Gensyn (AIGENSYN) 上线币安",
+      "summary": "币安上线去中心化AI计算项目Gensyn（AIGENSYN），并开放永续合约。AI赛道热度高，新币上线可能吸引资金博弈，短期看多AIGENSYN。但种子标签需注意波动风险。",
+      "reason": "交易所上币，AI概念热点，短期影响。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至31",
+      "summary": "Crypto恐惧贪婪指数当前为31（恐惧），处于历史较低位但未到极度恐惧。恐惧情绪持续，市场抛压减弱，中长期可能酝酿反弹。但需观察是否持续下跌，中性偏多。",
+      "reason": "情绪极值未到，但恐惧区间提供参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
