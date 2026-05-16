@@ -2766,3 +2766,66 @@ content length: 3103
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2032, prompt_tokens=10473, total_tokens=12505, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=854, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9321)
+content length: 2518
+============================================================
+{
+  "news": [
+    {
+      "title": "KelpDAO遭2930万美元黑客攻击",
+      "summary": "KelpDAO 遭受黑客攻击，损失约 2.93 亿美元，攻击原因可能与 GG20 TSS 漏洞有关。这是近期最大的 DeFi 安全事件之一，直接影响 KelpDAO 相关代币及整个 DeFi 板块信心。ETH 等主流币可能因流动性恐慌而承压。信号：强烈看空 DeFi 板块，短期避险情绪上升。",
+      "reason": "重大黑客攻击事件（优先级一），直接影响 DeFi 生态代币价格，可能引发连锁反应。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "KELP", "LDO", "CRV"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/05/16/the-usd293-million-kelpdao-hack-shows-why-defi-is-finally-being-forced-to-grow-up"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "不丹否认出售比特币，澄清持仓争议",
+      "summary": "不丹政府官方回应称「不记得出售过任何比特币」，反驳了此前市场上广泛传播的约 10 亿美元 BTC 转移传闻。该澄清消除了潜在的政府抛售压力，对比特币形成短期利多。此前 BTC 跌破 78000 美元部分源于此传闻，澄清后有望修复。",
+      "reason": "巨鲸级政府持仓传闻澄清，直接影响 BTC 市场情绪（优先级一）。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcVBPYlAwV2V3X1pDak1TY2ZuQTRzbXhLanJnLUh3UnBXVXNuMllpMFEzLUxyU2VUV1FLY1JGcXhCUUhtcDZicDVVZFROSWVSZ21nTlRzY2RkZUhpN1d2QTdXZENTREZieUNUN29JYTU5LWlFdkxqTGZVeEEwaVJoME1fR2x1eUFRQ0Y2UWotSnhsVGxuMmFQLW9FcmhWRG44dHRqOWJoWU9LS3BQQ3FwVWR1VkljNHV4OU1aLW9SSmYtcWdycHVqTTQzdDl5ZlE2bUE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "债券收益率飙升，加密市场承压",
+      "summary": "全球债券收益率持续上升，市场对通胀和加息的担忧加剧，加密市场一日内蒸发约 900 亿美元。比特币跌破 78000 美元，以太坊跌破 2200 美元。消息表明宏观紧缩预期仍是压制风险资产的主要因素，短期看空。",
+      "reason": "宏观经济数据直接影响风险资产（优先级二），提供当前下跌的宏观背景。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "SOL", "XRP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "KuCoin",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdlRNR1k1M01VLXlOV1d0NVF2REgzNXRiOFNXNEJhaHJ4YUdQWEp0Tmx5U0hERUNiOXlabDRTdjRMNjhMd2RINzZLN1lTdTdqVnJTWEdJcU51OXdCYmkzQ3FpV0QwNHBkcGFMNXBCcXA1UHhEZ0dGcXRQeXpxRnAyeEo4ZUpJSlJNY0JzNHJ4SExMWjFoWGtDcF9KU09NNGZQZ29OLUJVQ3ZNZzkxU0pMOVdUY1Rqdw?oc=5"
+        },
+        {
+          "name": "Intellectia AI",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fdjRxYktoZDF0SVhJRXRCMUp4MjdmSFpkX19PYzRLNnZPVnBFYlpVZ2NvZVRtNk4wWUE5UXltUHVLeGtFbldZeVIzbnQ0aXRfSUMzMTFvVVV2Z1o0UDAwWUpoNThvUi1mRGFCQUlkVE01SVU?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
