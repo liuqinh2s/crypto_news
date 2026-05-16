@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-17",
+  "hour": "02",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11402,
+    "completion_tokens": 1508,
+    "total_tokens": 12910
+  },
+  "content_length": 2055,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"哈佛抛售ETH ETF，阿布扎比加仓BTC\",\n      \"summary\": \"哈佛大学捐赠基金抛售了其持有的以太坊ETF，而阿布扎比主权基金（ADIA）继续增持比特币现货ETF。这表明机构对ETH的看空情绪加剧，同时对比特币的长期价值认可。可能影响ETH和BTC的价格走势，ETH面临抛压，BTC获得支撑。\",\n      \"reason\": \"优先级一：机构动向，直接影响ETH和BTC。哈佛抛售ETH ETF为看空信号，阿布扎比增持BTC为看多信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"ETH\", \"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/401518/sovereign-funds-universities-banks-reshuffle-bitcoin-altcoin-etf-positions?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"比特币跌破$78K，分析称熊市陷阱\",\n      \"summary\": \"比特币价格跌破7.8万美元，创两周新低。技术分析认为这可能是一个'熊市陷阱'，即短期下跌后可能快速反弹。当前价格处于关键支撑位，若无法企稳，可能进一步下探。建议关注下方支撑力度。\",\n      \"reason\": \"优先级二：市场结构信号，价格突破关键支撑，可能触发止损或抄底。影响BTC及整体市场。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"MicroStrategy债务回购，影响BTC敞口\",\n      \"summary\": \"MicroStrategy（现称Strategy）进行债务回购，此举可能降低其比特币持仓的杠杆风险，但短期或减少市场对其BTC购买预期。公司同时调整监管风险结构，整体对BTC影响中性偏多，因债务减少降低清算风险。\",\n      \"reason\": \"优先级二：机构动向，MicroStrategy是最大BTC持有方之一，其资本结构调整影响市场情绪。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMipAFBVV95cUxPR2hXdVpoZ2Yxajliak9ZMDNEMGMxVlJEalhtMU5zQXdxM3BacHo0aEdFX3VtRjB1OWh3LUNqTUZsZEVpcG5IblNHa3dULTdFRVBBLXVRWllBNzZMSWt6eENSWWVzdDlTUEM5eElnMnNPMTZSQVdNd2U1LUNmNHZTLW5XTDc4UzRMcTh0S0R3SHgtcEtOSkwtTzZFdEM5LVpVYkpFdA?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
