@@ -836,3 +836,63 @@ content length: 2735
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2012, prompt_tokens=9534, total_tokens=11546, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=996, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8382)
+content length: 2250
+============================================================
+{
+  "news": [
+    {
+      "title": "Bernstein看好Figure区块链市场",
+      "summary": "Bernstein报告指出Figure Technologies的Q1业绩展示了区块链市场的独特性，认为其去中心化借贷和资产证券化模式具有颠覆性。Figure本身不是加密项目，但该报告可能提振市场对类似区块链金融平台的信心。影响有限，主要涉及Figure相关代币（如HUMAN Protocol等），但交易量小。短期内无明显多空信号。",
+      "reason": "机构报告，对Figure及类似区块链金融概念有轻微利好，但非主流币种，直接交易价值低。",
+      "category": "项目更新",
+      "impact_coins": ["HUMAN"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bernstein-say-figures-q1-shows-uniqueness-of-blockchain-marketplaces"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ronin迁移至以太坊L2",
+      "summary": "Ronin（原Axie Infinity侧链）宣布迁移至以太坊L2，旨在提升安全性和互操作性。此迁移将增加以太坊主网活动，并可能带动RON代币需求。长期利好ETH及RON，短期影响有限，需关注迁移进度。",
+      "reason": "重大项目更新，可能推动ETH生态发展，RON代币有新叙事。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "RON"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT0xuTkFnZXp6aDYxQVNtTlQ0TERpRklCZkFTMThXY2N2NWZiQzltSFY4d1JEbl9MemtGNXQ1QUpLUm90dnBQZlEtY0wxdzRiY2xtZ1dvRUhNRmZOaFdWMkNKLThYeXNGZmlXa3Z4aUU4SThiRW1fZVN2QmZmaldrUkliNFdJYzJTd3FpT3N5X2VfN1RUZjYtQWFRQzY?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密市场周涨跌：KITE、INJ领涨",
+      "summary": "AMBCrypto报道过去一周加密市场涨跌情况，KITE、INJ、TON、PENGU等表现突出。这些项目可能有短期动量，但需关注是否超买。整体市场情绪中性偏弱，恐惧贪婪指数27仍处恐惧区间。",
+      "reason": "市场结构信息，可辅助短线交易者关注强势币种，但属于滞后指标。",
+      "category": "市场结构",
+      "impact_coins": ["KITE", "INJ", "TON", "PENGU"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBraTVNMDd0WFh1STBQbjV4blJ2ZERRVEZJZXpyalo5bG9yRGhuX2RBTnJqUlB1V2RvamdGdHB2dG00MEF4d0JVc0hWYmtxUWgzR194aHNnckRTQS1QVHJOTl9aMjhCY1Fv0gFuQVVfeXFMTU83RDZPZ09INXQyVUNib1pVc2taREtoc2JPZndWUUxaSHZvMXpoS3JCM0JCV1ZQUjVQZElHYXhjTllyLWVTcmtxYjJEb2ROYWVZTUx4Y2taVXpiX2xHU29JZ3hCbVU0TlMwRHZSOXc?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中多数消息与历史重复或价值较低，仅选出上述3条。恐惧贪婪指数27已在历史中出现，未重复选取。"
+}

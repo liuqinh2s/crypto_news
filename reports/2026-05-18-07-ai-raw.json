@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-18",
+  "hour": "07",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9534,
+    "completion_tokens": 2012,
+    "total_tokens": 11546
+  },
+  "content_length": 2250,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Bernstein看好Figure区块链市场\",\n      \"summary\": \"Bernstein报告指出Figure Technologies的Q1业绩展示了区块链市场的独特性，认为其去中心化借贷和资产证券化模式具有颠覆性。Figure本身不是加密项目，但该报告可能提振市场对类似区块链金融平台的信心。影响有限，主要涉及Figure相关代币（如HUMAN Protocol等），但交易量小。短期内无明显多空信号。\",\n      \"reason\": \"机构报告，对Figure及类似区块链金融概念有轻微利好，但非主流币种，直接交易价值低。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"HUMAN\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/bernstein-say-figures-q1-shows-uniqueness-of-blockchain-marketplaces\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Ronin迁移至以太坊L2\",\n      \"summary\": \"Ronin（原Axie Infinity侧链）宣布迁移至以太坊L2，旨在提升安全性和互操作性。此迁移将增加以太坊主网活动，并可能带动RON代币需求。长期利好ETH及RON，短期影响有限，需关注迁移进度。\",\n      \"reason\": \"重大项目更新，可能推动ETH生态发展，RON代币有新叙事。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\", \"RON\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMinAFBVV95cUxNT0xuTkFnZXp6aDYxQVNtTlQ0TERpRklCZkFTMThXY2N2NWZiQzltSFY4d1JEbl9MemtGNXQ1QUpLUm90dnBQZlEtY0wxdzRiY2xtZ1dvRUhNRmZOaFdWMkNKLThYeXNGZmlXa3Z4aUU4SThiRW1fZVN2QmZmaldrUkliNFdJYzJTd3FpT3N5X2VfN1RUZjYtQWFRQzY?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"加密市场周涨跌：KITE、INJ领涨\",\n      \"summary\": \"AMBCrypto报道过去一周加密市场涨跌情况，KITE、INJ、TON、PENGU等表现突出。这些项目可能有短期动量，但需关注是否超买。整体市场情绪中性偏弱，恐惧贪婪指数27仍处恐惧区间。\",\n      \"reason\": \"市场结构信息，可辅助短线交易者关注强势币种，但属于滞后指标。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"KITE\", \"INJ\", \"TON\", \"PENGU\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"AMBCrypto\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBraTVNMDd0WFh1STBQbjV4blJ2ZERRVEZJZXpyalo5bG9yRGhuX2RBTnJqUlB1V2RvamdGdHB2dG00MEF4d0JVc0hWYmtxUWgzR194aHNnckRTQS1QVHJOTl9aMjhCY1Fv0gFuQVVfeXFMTU83RDZPZ09INXQyVUNib1pVc2taREtoc2JPZndWUUxaSHZvMXpoS3JCM0JCV1ZQUjVQZElHYXhjTllyLWVTcmtxYjJEb2ROYWVZTUx4Y2taVXpiX2xHU29JZ3hCbVU0TlMwRHZSOXc?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮素材中多数消息与历史重复或价值较低，仅选出上述3条。恐惧贪婪指数27已在历史中出现，未重复选取。\"\n}"
+}
