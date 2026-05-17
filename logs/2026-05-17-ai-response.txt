@@ -1897,3 +1897,149 @@ content length: 3399
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3189, prompt_tokens=7996, total_tokens=11185, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3122, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6844)
+content length: 117
+============================================================
+{
+  "news": [],
+  "note": "过去6小时内未发现新的、未重复的重大交易相关消息。市场情绪仍处于恐惧状态（F&G 27），但无新触发事件。Binance持续上币和合约上线但无新增影响。建议关注价格企稳信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=785, prompt_tokens=7996, total_tokens=8781, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=740, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7936), prompt_cache_hit_tokens=7936, prompt_cache_miss_tokens=60)
+content length: 86
+============================================================
+{
+  "news": [],
+  "note": "近6小时内无符合筛选标准的重大新消息，市场缺乏催化剂。主要消息为Binance重复公告和一般性分析，无交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2540, prompt_tokens=7996, total_tokens=10536, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1273, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7936), prompt_cache_hit_tokens=7936, prompt_cache_miss_tokens=60)
+content length: 3372
+============================================================
+{
+  "news": [
+    {
+      "title": "VanEck灰度提交BNB ETF修订案",
+      "summary": "资产管理巨头VanEck与灰度资本同日向SEC提交了BNB ETF的修订案，旨在推进合规进程。这表明BNB作为主流加密资产正获得更多监管认可，若获批将吸引大量机构资金流入。对BNB为强烈看多信号，但需关注SEC后续审批节奏。",
+      "reason": "重大监管动态，直接利好BNB，属于优先级一影响行情消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "主权基金ETF持仓变动：阿布扎比增持IBIT，哈佛清仓ETH",
+      "summary": "最新监管文件显示，阿布扎比主权基金逆势增持贝莱德比特币现货ETF（IBIT），而哈佛大学捐赠基金则清仓了以太坊ETF。这表明机构对BTC长期看好，但对ETH态度分化。整体偏多方信号，但ETH短期承压。",
+      "reason": "机构动向，反映顶级资本对BTC和ETH的态度分歧，影响中期行情。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "麻吉以太坊多单距清算线仅3%",
+      "summary": "知名交易员麻吉（Machibig）再次加仓以太坊，当前持仓近1400万美元，其中以太坊多单杠杆率极高，清算价格距当前价格仅3%。若ETH继续下跌，可能触发大规模强制平仓，加剧抛压。短期对ETH极度看空。",
+      "reason": "巨鲸高杠杆仓位接近清算线，属于链上异动，可能引发连锁清算。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "WLFI关联钱包卖出4870枚ETH",
+      "summary": "与特朗普相关的DeFi项目WLFI关联钱包近日向交易所转入4870枚ETH（约合1000万美元），疑似抛售。巨鲸流入交易所通常为卖出信号，ETH短期面临抛压，看空。",
+      "reason": "大额ETH流入交易所，明确的抛售信号，属优先级一链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日本券商计划开发加密信托产品",
+      "summary": "日本SBI证券与乐天证券宣布计划自主开发加密投资信托产品，旨在为日本投资者提供合规的加密资产敞口。此举将扩大机构参与度，中长期利好整体加密市场，尤其BTC和ETH。",
+      "reason": "机构动向，显示传统金融巨头入场，属优先级二，但影响广泛。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Firedancer客户端上线Solana主网",
+      "summary": "由Jump Crypto开发的Solana验证器客户端Firedancer正式上线主网，将显著提升Solana的网络性能、安全性和去中心化程度。技术升级利好SOL，但影响需时间体现。",
+      "reason": "重要技术升级，属于项目更新，提升Solana基本面，中长期看多。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Michael Saylor暗示可能卖出比特币",
+      "summary": "MicroStrategy创始人Michael Saylor在节目中提及为避免比特币资产减值，公司可能考虑卖出部分BTC。作为比特币最大公开持有者，其言论动摇市场信心，短期看空BTC。",
+      "reason": "项目方重大事件（关键人物言论），影响市场情绪，属优先级一。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前市场缺乏高确定性重大消息，多数为中小影响事件，请结合技术面操作。"
+}
