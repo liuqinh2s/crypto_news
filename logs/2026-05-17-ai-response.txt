@@ -1347,3 +1347,103 @@ content length: 2942
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1673, prompt_tokens=8165, total_tokens=9838, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1408, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7013)
+content length: 615
+============================================================
+{
+  "news": [
+    {
+      "title": "主权基金逆势增持比特币ETF",
+      "summary": "据金色财经报道，高校和主权基金加密ETF持仓变动汇总显示，阿布扎比主权基金逆势增持IBIT（比特币ETF），而哈佛大学捐赠基金清仓了以太坊ETF。阿布扎比在比特币跌破8万美元时增持，表明长期看好；哈佛清仓ETH则可能反映对以太坊短期前景的担忧。此事件影响中期，比特币偏多，以太坊偏空。",
+      "reason": "历史消息仅有哈佛持有IBIT，新增阿布扎比增持和哈佛清仓ETH，属于机构动向重要更新。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513065.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮仅有1条符合筛选标准的新消息，其他素材均与历史消息重复或无关交易决策。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1263, prompt_tokens=8165, total_tokens=9428, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=989, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8064), prompt_cache_hit_tokens=8064, prompt_cache_miss_tokens=101)
+content length: 638
+============================================================
+{
+  "news": [
+    {
+      "title": "阿布扎比增持IBIT，哈佛清仓ETH",
+      "summary": "据金色财经报道，高校和主权基金加密ETF持仓变动汇总显示：阿布扎比逆势增持IBIT（比特币ETF），而哈佛大学清仓以太坊ETF。阿布扎比作为主权基金增持比特币ETF是强烈看多信号，表明长期资金入场；哈佛清仓以太坊ETF可能反映机构对ETH短期信心不足。该消息直接影响BTC和ETH，短期看多BTC，看空ETH。",
+      "reason": "属于优先级一中的机构动向，主权基金增持是重大看多信号，哈佛清仓是看空信号，直接影响BTC和ETH行情。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513065.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取的其他消息均为重复历史公告或无关内容，仅有此一条高质量新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1534, prompt_tokens=8165, total_tokens=9699, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=949, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8064), prompt_cache_hit_tokens=8064, prompt_cache_miss_tokens=101)
+content length: 1439
+============================================================
+{
+  "news": [
+    {
+      "title": "主权基金逆势增持IBIT",
+      "summary": "高校及主权基金加密ETF持仓最新变动显示，阿布扎比逆势增持IBIT（比特币ETF），而哈佛大学清仓以太坊ETF。这可能表明机构对比特币长期看好，但对以太坊短期悲观。影响BTC和ETH，BTC偏多，ETH偏空。",
+      "reason": "机构动向是中期影响行情的关键消息，阿布扎比增持IBIT是看多信号，哈佛清仓ETH是看空信号，对市场有指导意义。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513065.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储权力交接现波折",
+      "summary": "美联储权力交接出现波折，鲍威尔临时留任主席遭内部质疑，可能影响未来货币政策走向。若美联储内部分歧加大，市场对降息预期可能受扰动，短期利空风险资产，中长期需关注政策确定性。影响BTC、ETH。",
+      "reason": "宏观经济数据直接影响风险资产走势，美联储人事变动属于重大监管动态，可能改变市场对利率路径的预期。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513066.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普买入Coinbase和比特币股票",
+      "summary": "特朗普将Coinbase和比特币相关股票纳入投资组合，显示其个人对加密行业的看好。此举可能提振市场情绪，但实际影响有限，更多是情绪面利好。影响BTC、COIN（美股）但COIN不在加密市场。",
+      "reason": "知名人物（前总统）的持仓变动对市场情绪有催化作用，属于中期影响行情中的机构动向范畴。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CryptoPotato", "url": "https://cryptopotato.com/trump-adds-coinbase-and-bitcoin-stocks-to-portfolio/"}],
+      "urgency": "days"
+    }
+  ]
+}

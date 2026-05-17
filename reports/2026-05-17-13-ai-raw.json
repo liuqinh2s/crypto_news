@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-17",
+  "hour": "13",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8165,
+    "completion_tokens": 1534,
+    "total_tokens": 9699
+  },
+  "content_length": 1439,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"主权基金逆势增持IBIT\",\n      \"summary\": \"高校及主权基金加密ETF持仓最新变动显示，阿布扎比逆势增持IBIT（比特币ETF），而哈佛大学清仓以太坊ETF。这可能表明机构对比特币长期看好，但对以太坊短期悲观。影响BTC和ETH，BTC偏多，ETH偏空。\",\n      \"reason\": \"机构动向是中期影响行情的关键消息，阿布扎比增持IBIT是看多信号，哈佛清仓ETH是看空信号，对市场有指导意义。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/513065.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美联储权力交接现波折\",\n      \"summary\": \"美联储权力交接出现波折，鲍威尔临时留任主席遭内部质疑，可能影响未来货币政策走向。若美联储内部分歧加大，市场对降息预期可能受扰动，短期利空风险资产，中长期需关注政策确定性。影响BTC、ETH。\",\n      \"reason\": \"宏观经济数据直接影响风险资产走势，美联储人事变动属于重大监管动态，可能改变市场对利率路径的预期。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/513066.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"特朗普买入Coinbase和比特币股票\",\n      \"summary\": \"特朗普将Coinbase和比特币相关股票纳入投资组合，显示其个人对加密行业的看好。此举可能提振市场情绪，但实际影响有限，更多是情绪面利好。影响BTC、COIN（美股）但COIN不在加密市场。\",\n      \"reason\": \"知名人物（前总统）的持仓变动对市场情绪有催化作用，属于中期影响行情中的机构动向范畴。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"CryptoPotato\", \"url\": \"https://cryptopotato.com/trump-adds-coinbase-and-bitcoin-stocks-to-portfolio/\"}],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
