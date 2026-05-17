@@ -341,3 +341,107 @@ content length: 1953
   ],
   "note": "当前抓取素材中大部分消息（如Binance公告、恐惧贪婪指数、Mubadala增持等）已在历史消息中重复出现，仅筛选出3条有更新价值或新出现的重要消息。市场整体缺乏高优先级新事件，建议关注即将签署的CLARITY法案最终进展。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2815, prompt_tokens=10622, total_tokens=13437, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2190, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9470)
+content length: 1375
+============================================================
+{
+  "news": [
+    {
+      "title": "意大利最大银行增持BTC/ETH/XRP",
+      "summary": "意大利最大银行（Intesa Sanpaolo？未明确但称最大银行）在2026年Q1增持了比特币、以太坊和XRP。这是传统大型银行直接配置加密资产的又一例证，显示传统金融机构入场趋势。对BTC、ETH、XRP构成直接利好，增强市场信心。信号：看多。",
+      "reason": "机构动向，传统大型银行增持加密资产，符合ETF机构类别，属于中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNEZMX0JQRkxQOWxTLXp2UDdHeHpFczVManZaak9WbVYxM0pNdG9Pck5BdkR0dlFROE9WeG1ENlYzU0Q0V3FiQXZvQU01RjhRdFhwdG16NS1rSVdVNVV4MkxfdW1vQURIWlJYalBYX2hFb1V3MHBqenBNeUFqSWNyZWtyUEt2dks3cE5KTXNmTXh3ZXVwLTBaS0JIa1M?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗拟收取霍尔木兹海峡光缆费",
+      "summary": "据美媒报道，伊朗计划针对霍尔木兹海峡的海底光缆收取通行费，加剧地缘政治紧张局势。霍尔木兹海峡是重要能源运输通道，此举可能推高油价并引发避险情绪，对风险资产（包括加密货币）构成短期压力。信号：看空。",
+      "reason": "宏观经济风险事件，地缘紧张可能引发风险资产抛售，影响BTC/ETH。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513133.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "近6小时历史消息中大量重复，仅筛选出两条有交易价值的新消息。其余如CLARITY Act进展、Saylor暗示买币、Binance上币、恐惧贪婪指数等均已包含在历史记录中。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3414, prompt_tokens=10622, total_tokens=14036, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2337, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=126)
+content length: 2280
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗拟收海峡光缆费",
+      "summary": "据美媒报道，伊朗计划对通过霍尔木兹海峡的海底光缆收取通行费，进一步加剧地区紧张局势。霍尔木兹海峡是全球能源运输关键通道，此举可能导致油价飙升和地缘风险加剧，短期内可能引发市场避险情绪，对BTC等风险资产构成压力。影响币种：BTC、ETH。信号：看空（短期风险规避）。",
+      "reason": "地缘政治风险升级，直接影响全球市场风险偏好，符合优先级二（宏观经济）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513133.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普警告伊朗",
+      "summary": "特朗普向伊朗发出严厉警告，要求其‘行动起来’，否则将面临严重后果。美伊紧张局势再度升级，可能引发市场对中东冲突的担忧，导致风险资产短期承压。BTC 此前已跌破 78000 美元，此消息可能加剧下行压力。影响币种：BTC、ETH。信号：看空（风险偏好下降）。",
+      "reason": "地缘政治突发事件，直接冲击市场情绪，符合优先级二（宏观经济）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdlFYSjY4QmxHX3ZqRjZILWxGbXNGbUxkLVpObDVqY0c1ck9XQ0RpQkRIM0FBckdWanZJQ2Nxb0NxMUNNS095LXNaUmRJTTZwaHhzUzE1Qnh0SWwyZDRXZDVCel8wUW5QREJ4dTJfN0laWDVOV25oWVhsaTNXU2YxMdIBhgFBVV95cUxQUE9OYlZDbDR0Z2tUNE13dDZwejJGWEpmWEVjRkRCRHpBbXE1ODJTZzdPY1lhWk15cldISUYtQ1diWGFmaWVac0t1Vm8yZVJTUWxWTjRZVDNJQXhLTDVsUl9XWDVZZGMxUi1LdndnOTFYamZPcUFhWGlwTXlkTExfX2JkQV9KQQ?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "意大利最大银行增持BTC/ETH/XRP",
+      "summary": "意大利最大银行（据推测为Intesa Sanpaolo）在2026年第一季度增加了比特币、以太坊和XRP的敞口。这是传统大型金融机构持续接纳加密货币的又一信号，显示机构需求依然强劲。此举利好BTC、ETH、XRP，可能推动价格反弹。影响币种：BTC、ETH、XRP。信号：看多（机构增持）。",
+      "reason": "机构动向直接反映主流资金态度，符合优先级二（ETF机构），且为新增消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNEZMX0JQRkxQOWxTLXp2UDdHeHpFczVManZaak9WbVYxM0pNdG9Pck5BdkR0dlFROE9WeG1ENlYzU0Q0V3FiQXZvQU01RjhRdFhwdG16NS1rSVdVNVV4MkxfdW1vQURIWlJYalBYX2hFb1V3MHBqenBNeUFqSWNyZWtyUEt2dks3cE5KTXNmTXh3ZXVwLTBaS0JIa1M?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选仅发现3条符合标准的新消息，其余素材多与历史重复或交易价值低。已根据优先级和去重规则选出。"
+}

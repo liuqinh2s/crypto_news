@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-18",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10622,
+    "completion_tokens": 3414,
+    "total_tokens": 14036
+  },
+  "content_length": 2280,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"伊朗拟收海峡光缆费\",\n      \"summary\": \"据美媒报道，伊朗计划对通过霍尔木兹海峡的海底光缆收取通行费，进一步加剧地区紧张局势。霍尔木兹海峡是全球能源运输关键通道，此举可能导致油价飙升和地缘风险加剧，短期内可能引发市场避险情绪，对BTC等风险资产构成压力。影响币种：BTC、ETH。信号：看空（短期风险规避）。\",\n      \"reason\": \"地缘政治风险升级，直接影响全球市场风险偏好，符合优先级二（宏观经济）。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513133.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"特朗普警告伊朗\",\n      \"summary\": \"特朗普向伊朗发出严厉警告，要求其‘行动起来’，否则将面临严重后果。美伊紧张局势再度升级，可能引发市场对中东冲突的担忧，导致风险资产短期承压。BTC 此前已跌破 78000 美元，此消息可能加剧下行压力。影响币种：BTC、ETH。信号：看空（风险偏好下降）。\",\n      \"reason\": \"地缘政治突发事件，直接冲击市场情绪，符合优先级二（宏观经济）。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CNBC Crypto\",\n          \"url\": \"https://news.google.com/rss/articles/CBMigAFBVV95cUxOdlFYSjY4QmxHX3ZqRjZILWxGbXNGbUxkLVpObDVqY0c1ck9XQ0RpQkRIM0FBckdWanZJQ2Nxb0NxMUNNS095LXNaUmRJTTZwaHhzUzE1Qnh0SWwyZDRXZDVCel8wUW5QREJ4dTJfN0laWDVOV25oWVhsaTNXU2YxMdIBhgFBVV95cUxQUE9OYlZDbDR0Z2tUNE13dDZwejJGWEpmWEVjRkRCRHpBbXE1ODJTZzdPY1lhWk15cldISUYtQ1diWGFmaWVac0t1Vm8yZVJTUWxWTjRZVDNJQXhLTDVsUl9XWDVZZGMxUi1LdndnOTFYamZPcUFhWGlwTXlkTExfX2JkQV9KQQ?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"意大利最大银行增持BTC/ETH/XRP\",\n      \"summary\": \"意大利最大银行（据推测为Intesa Sanpaolo）在2026年第一季度增加了比特币、以太坊和XRP的敞口。这是传统大型金融机构持续接纳加密货币的又一信号，显示机构需求依然强劲。此举利好BTC、ETH、XRP，可能推动价格反弹。影响币种：BTC、ETH、XRP。信号：看多（机构增持）。\",\n      \"reason\": \"机构动向直接反映主流资金态度，符合优先级二（ETF机构），且为新增消息。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"XRP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMinAFBVV95cUxPNEZMX0JQRkxQOWxTLXp2UDdHeHpFczVManZaak9WbVYxM0pNdG9Pck5BdkR0dlFROE9WeG1ENlYzU0Q0V3FiQXZvQU01RjhRdFhwdG16NS1rSVdVNVV4MkxfdW1vQURIWlJYalBYX2hFb1V3MHBqenBNeUFqSWNyZWtyUEt2dks3cE5KTXNmTXh3ZXVwLTBaS0JIa1M?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮筛选仅发现3条符合标准的新消息，其余素材多与历史重复或交易价值低。已根据优先级和去重规则选出。\"\n}"
+}
