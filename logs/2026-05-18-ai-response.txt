@@ -588,3 +588,147 @@ content length: 2398
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1876, prompt_tokens=10472, total_tokens=12348, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1401, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9320)
+content length: 1246
+============================================================
+{
+  "news": [
+    {
+      "title": "Forsage联合创始人引渡受审",
+      "summary": "涉嫌参与Forsage庞氏骗局（涉案3.4亿美元）的联合创始人从泰国被引渡至美国，并对指控不认罪。此案表明监管机构对DeFi和传销类项目的打击力度加大，可能引发市场对同类项目的担忧情绪。直接影响币种有限，但整体偏空。",
+      "reason": "涉及大规模庞氏骗局的法律进展，监管打击信号，符合优先级一监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "BNB"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401563/alleged-forsage-co-founder-extradited-from-thailand-pleads-not-guilty-in-340-million-ponzi-case"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国司法部指控Dream Market管理员洗钱",
+      "summary": "美国司法部指控暗网市场Dream Market管理员将加密货币转换为价值170万美元的金条。该事件凸显执法部门对暗网洗钱的追查，可能对隐私币（如门罗币）造成负面情绪，但市场影响有限。",
+      "reason": "司法部打击暗网加密货币使用，监管层面偏空，但事件规模较小。",
+      "category": "监管政策",
+      "impact_coins": ["XMR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tg0d5b/us_doj_accuses_dream_market_admin_of_turning/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时市场消息平淡，多数事件已被历史覆盖或影响微弱，仅筛选出两条监管相关消息，影响级别较低。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=895, prompt_tokens=10472, total_tokens=11367, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=837, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=104)
+content length: 103
+============================================================
+{"news":[],"note":"本轮抓取素材几乎全部与历史消息重复或为低价值内容，无符合筛选标准的新消息。恐惧贪婪指数27已连续多时段出现，交易所被黑事件也已存在于历史消息中，因此未选取任何消息。"}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2739, prompt_tokens=10472, total_tokens=13211, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1413, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=104)
+content length: 3158
+============================================================
+{
+  "news": [
+    {
+      "title": "Unstoppable交易所被黑停盘",
+      "summary": "去中心化交易所Unstoppable因遭黑客攻击损失约1000万美元，已暂停交易。该事件直接导致用户资金损失风险，可能引发对Unstoppable代币及相关项目的恐慌抛售。短期内该交易所流动性枯竭，用户需关注后续处理方案。影响主要集中在该交易所原生代币及相关资产，对BTC/ETH等主流币影响有限。评级为看空，因黑客攻击和停盘带来负面情绪。",
+      "reason": "交易所安全事件直接影响用户信任和资产安全，属于优先级一中的项目方重大事件（黑客攻击）。虽非主流交易所，但1000万美元损失有一定市场影响。",
+      "category": "项目更新",
+      "impact_coins": ["UNSTOPPABLE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Gizmodo via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzVzb3hvRnlvOTF3RmNGeWVZd2NHX01zZENQU0NwRFFZekRZRkgyX1RUNFVNRFJHclRUcDR4VlliV0o0Uy1ZY2pqMkdVQUdCcmN2UU9oTHRCYU1jRlllci1seXllNEZtWnBGUEZDbnhHVmoyVUlmS0FzVkM4blZWTFFsbFA5TnVvTHJQSjE0b19KUlJOUnhWR3RIcw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Fluid转移头寸清偿Resolv坏账争议",
+      "summary": "DeFi协议Fluid转移头寸用于清偿Resolv的坏账，社区质疑此举是用用户流动性覆盖坏账，引发争议。这暴露了DeFi协议间的交叉风险，可能削弱对Fluid和Resolv的信任，导致TVL下降和代币价格下跌。若争议发酵，可能波及更广泛的DeFi生态。评级偏看空，尤其对相关协议代币。",
+      "reason": "DeFi重大事件（坏账争议），属于优先级二中的DeFi/NFT重大事件。影响特定项目，但反映DeFi系统性风险。",
+      "category": "项目更新",
+      "impact_coins": ["FLUID", "RESOLV"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513137.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Forsage联合创始人引渡受审",
+      "summary": "涉嫌3400万美元庞氏骗局Forsage的联合创始人从泰国引渡至美国，对指控拒不认罪。此案表明监管机构对加密庞氏骗局的跨境打击力度加大，可能震慑类似项目，但短期对主流市场影响甚微。对于涉嫌庞氏的代币（如Forsage相关）构成利空，但整体市场情绪可能略受抑制。中性偏看空。",
+      "reason": "监管打击庞氏骗局，属于优先级一中的重大监管动态，但影响范围有限。",
+      "category": "监管政策",
+      "impact_coins": ["FOR"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401563/alleged-forsage-co-founder-extradited-from-thailand-pleads-not-guilty-in-340-million-ponzi-case?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巴西警方查扣加密资产同比增6倍",
+      "summary": "巴西联邦警察2025年查扣约1400万美元涉犯罪加密资产，同比增长超6倍。显示拉美国家加密监管执法力度加强，但整体市场规模小，对全球行情无直接影响。可作为监管趋严的信号，但对BTC等主流币影响中性。",
+      "reason": "地区性监管执法加强，属于优先级二中的宏观监管动态，但影响力微弱。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513134.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "墨西哥政客或利用比特币规避审查",
+      "summary": "墨西哥前参议员披露，有政客私下企图利用比特币规避竞选资金审查。此消息增加加密资产被用于非法用途的舆论，可能引致更严格监管讨论。但仅为个人言论，尚无实际政策影响，对行情影响极微。中性偏空。",
+      "reason": "监管负面信号，但未形成实质性政策，属于优先级三的市场情绪边缘消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513136.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时无明显高优先级新消息，多数重要事件（CLARITY Act、Saylor购币、巨鲸异动等）已在上轮筛选覆盖。本批次仅选入影响力较低的边缘消息，请结合历史消息综合判断。"
+}
