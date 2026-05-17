@@ -2529,3 +2529,143 @@ content length: 2729
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2225, prompt_tokens=9359, total_tokens=11584, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1652, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8207)
+content length: 1300
+============================================================
+{
+  "news": [
+    {
+      "title": "日本券商推加密信托",
+      "summary": "日本大型券商SBI证券、乐天证券和野村证券计划推出加密货币投资信托产品，为散户和机构提供合规加密资产敞口。此举标志日本主流金融进一步接纳加密资产，可能吸引大量传统资金流入BTC和ETH，属中长期利好。",
+      "reason": "机构巨头入场，提升市场信心和资金流入预期，属于优先级二的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/sbi-rakuten-nomura-line-up-to-launch-crypto-investment-trusts-report"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "哈佛抛售加密ETF",
+      "summary": "哈佛大学捐赠基金抛售其持有的比特币和以太坊ETF份额，意味着顶级机构对加密资产短期前景转淡。此举可能引发其他机构效仿，对BTC和ETH形成抛压，属短期利空。",
+      "reason": "重要机构减持，直接反映机构情绪，影响市场信心和卖压，属于优先级二的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSGJyMWJuLV9mdVZOa0dSRmZnYmdDYkFVc2dqeEZodkdKMTA4NXotUV9vTXBua0F6ZndyTl81Zmt4RVpZTmc1ZXVxRzV2TDFSVnN3TFp0emsteHp1elVaWjVRX2xiUmZSMHZxZDZ1QUZIQ0lvNmdHY3ZhRm92aE0tNlc5SUtKMFpycTBDTGFZMlRxdkxJcDc1eXoyYVdmeXpt?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效高质量新闻较少，仅筛出两条机构动向类消息。其余Binance公告、美联储换人等均为重复内容，恐惧贪婪指数未变，故省略。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1674, prompt_tokens=9359, total_tokens=11033, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1644, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9344), prompt_cache_hit_tokens=9344, prompt_cache_miss_tokens=15)
+content length: 55
+============================================================
+{
+  "news": [],
+  "note": "近6小时历史消息已覆盖所有重要动态，未发现新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2686, prompt_tokens=9359, total_tokens=12045, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1463, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9344), prompt_cache_hit_tokens=9344, prompt_cache_miss_tokens=15)
+content length: 2991
+============================================================
+{
+  "news": [
+    {
+      "title": "日本券商推加密投资信托",
+      "summary": "日本主要券商SBI Securities、Rakuten Securities和Nomura计划推出加密投资信托，为零售和机构投资者提供合规数字资产投资渠道。此举标志日本监管框架下主流金融机构大规模进入加密市场，可能吸引大量新增资金。受此影响，日本市场情绪提振，BTC、ETH和XRP等主流币有望获得中期买盘支撑。看多信号。",
+      "reason": "优先级一：机构动向。多家主流券商集体布局加密投资信托，显示传统资本加速入场，对BTC、ETH直接利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "哈佛抛售BTC/ETH ETF",
+      "summary": "据Yahoo Finance报道，哈佛大学捐赠基金已清仓其持有的比特币和以太坊ETF头寸。作为顶级机构投资者，哈佛的抛售可能引发其他追随者效仿，短期内对BTC和ETH形成抛压。此外，哈佛抛售可能反映机构对美国加密ETF前景的谨慎态度。看空信号。",
+      "reason": "优先级一：巨鲸/机构动向。哈佛捐赠基金是标志性机构投资者，清仓ETF可能被市场解读为不看好后市，短期情绪利空。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance (via Crypto Twitter)",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSGJyMWJuLV9mdVZOa0dSRmZnYmdDYkFVc2dqeEZodkdKMTA4NXotUV9vTXBua0F6ZndyTl81Zmt4RVpZTmc1ZXVxRzV2TDFSVnN3TFp0emsteHp1elVaWjVRX2xiUmZSMHZxZDZ1QUZIQ0lvNmdHY3ZhRm92aE0tNlc5SUtKMFpycTBDTGFZMlRxdkxJcDc1eXoyYVdmeXpt?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗称美以谋战争借口",
+      "summary": "伊朗外交部指责美以以“维护能源稳定”为借口准备对伊战争。地缘政治紧张升级可能推高原油价格，进而加剧通胀预期，打压风险资产包括加密市场。短期内市场避险情绪可能升温，BTC和ETH面临下行压力。但若冲突未实质发生，影响有限。看空信号。",
+      "reason": "优先级二：宏观经济/地缘政治。伊朗局势影响能源价格和风险偏好，间接影响加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513103.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币短线持有者离场",
+      "summary": "CryptoQuant分析师指出，比特币短线持有者在价格回升时选择卖出离场，而非继续持有。该指标通常预示短期抛压增加，但若价格下跌后持有者重新入场则可能形成支撑。当前数据反映市场信心不足，短期看空。",
+      "reason": "优先级一：链上异动。短线持有者行为直接影响供给，历史数据显示此类信号常伴随价格回调。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513100.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH多单清算风险6亿刀",
+      "summary": "若ETH跌破2,085美元，主流CEX累计多单清算强度将达6.07亿美元。当前ETH价格约2,078美元，已接近清算密集区。一旦触发连锁清算，ETH可能加速下跌。该数据预示短期做多风险极高，但也是潜在超卖反弹机会。看空信号。",
+      "reason": "优先级一：市场结构。大规模清算压力直接构成价格下行风险，且已接近触发阈值，需立即关注。",
+      "category": "市场结构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513099.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
