@@ -74,3 +74,210 @@ content length: 3381
   ],
   "note": "由于去重筛选，仅发现4条高价值新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2385, prompt_tokens=11012, total_tokens=13397, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1684, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9860)
+content length: 1528
+============================================================
+{
+  "news": [
+    {
+      "title": "阿布扎比Mubadala增持BTC ETF",
+      "summary": "阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%，总价值达5.66亿美元。这是主权基金持续加仓比特币的信号，表明机构长期看涨。受此消息影响，比特币可能获得买盘支撑，短期价格企稳。影响币种：BTC。信号：看多。",
+      "reason": "主权基金增持比特币ETF属于优先级一（机构动向），直接体现机构信心，对比特币价格有正面推动作用。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRlFuX3NvSzVpbHMzeW1TUFZFNUhNb0JaZ2RadC1KVnRPVGM3S3JUT2NlSzJlUDZ6N0ZDZzByc2JDUkJCaFJxcXhfcWF5Zml2LXdvQXpHWklYQTh3R2w5TjEzdFhEdUZKeU1yRjVhcE91enBCMUJUbmRQTDRQQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ATM公司Bitcoin Depot破产预警",
+      "summary": "比特币ATM运营商Bitcoin Depot发布破产警告，称营收下降49%。该公司运营大量加密货币ATM，其困境可能反映加密行业零售需求疲软，但影响有限。短期可能引发市场对加密基础设施的担忧，但对比特币本身影响较小。影响币种：BTC。信号：看空。",
+      "reason": "虽然Bitcoin Depot并非主流交易所，但作为加密行业公司破产预警，属于市场情绪信号，可能加剧短期悲观情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitbo",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SLXVxa21xeTQ3c0xjZktKMUlIb04tVGRCOUx2cDd6azVHd1VXSnNjN1IySHhJSmJzV3habkJpbDRVcThxQXlCX1VncFlyWmZQZGthckI3TkZ3UDZER1Z4cVdSZzB1Q0V4RjZSNkNRbmU?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮其余新闻（如Binance公告、恐惧贪婪指数27、Michael Saylor推文等）均在历史消息中已出现，属于重复内容，故仅筛选出两条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2578, prompt_tokens=11012, total_tokens=13590, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1962, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11008), prompt_cache_hit_tokens=11008, prompt_cache_miss_tokens=4)
+content length: 1369
+============================================================
+{
+  "news": [
+    {
+      "title": "阿布扎比主权基金增持BTC ETF",
+      "summary": "阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%，总价值达5.66亿美元。这是全球主权基金持续配置比特币的又一信号，表明长期机构资金仍在流入。利好BTC，可能提振市场信心，但短期影响有限。看多信号。",
+      "reason": "主权基金增持BTC ETF属于机构动向，优先级二，影响中等。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRlFuX3NvSzVpbHMzeW1TUFZFNUhNb0JaZ2RadC1KVnRPVGM3S3JUT2NlSzJlUDZ6N0ZDZzByc2JDUkJCaFJxcXhfcWF5Zml2LXdvQXpHWklYQTh3R2w5TjEzdFhEdUZKeU1yRjVhcE91enBCMUJUbmRQTDRQQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ATM巨头Bitcoin Depot破产预警",
+      "summary": "比特币ATM运营商Bitcoin Depot发布破产警告，称收入下降49%且面临财务困境。这反映加密市场零售需求疲软，可能引发短期负面情绪，但该公司体量较小，对BTC核心价格影响有限。看空信号，但影响微弱。",
+      "reason": "行业公司破产预警属于项目相关负面消息，优先级三，影响较小。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitbo",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SLXVxa21xeTQ3c0xjZktKMUlIb04tVGRCOUx2cDd6azVHd1VXSnNjN1IySHhJSmJzV3habkJpbDRVcThxQXlCX1VncFlyWmZQZGthckI3TkZ3UDZER1Z4cVdSZzB1Q0V4RjZSNkNRbmU?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2256, prompt_tokens=11012, total_tokens=13268, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1618, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11008), prompt_cache_hit_tokens=11008, prompt_cache_miss_tokens=4)
+content length: 1408
+============================================================
+{
+  "news": [
+    {
+      "title": "Mubadala增持BTC ETF 16%",
+      "summary": "阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%，总价值达5.66亿美元。此举显示大型机构对BTC的长期信心增强，可能吸引更多主权基金跟进。信号：看多BTC及ETF相关币种。",
+      "reason": "主权基金大额增持属于优先级二‘机构动向’，直接影响BTC市场情绪和资金流向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRlFuX3NvSzVpbHMzeW1TUFZFNUhNb0JaZ2RadC1KVnRPVGM3S3JUT2NlSzJlUDZ6N0ZDZzByc2JDUkJCaFJxcXhfcWF5Zml2LXdvQXpHWklYQTh3R2w5TjEzdFhEdUZKeU1yRjVhcE91enBCMUJUbmRQTDRQQQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitcoin Depot破产预警",
+      "summary": "比特币ATM运营商Bitcoin Depot发布破产警告，Q1营收下降49%，面临持续经营风险。该公司经营困境反映加密零售需求疲软，可能打击市场信心，短期对BTC产生利空情绪。但影响有限，因公司规模较小。",
+      "reason": "行业公司财务危机属于优先级二‘市场结构’，可能引发对加密行业健康度的担忧。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Bitbo",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SLXVxa21xeTQ3c0xjZktKMUlIb04tVGRCOUx2cDd6azVHd1VXSnNjN1IySHhJSmJzV3habkJpbDRVcThxQXlCX1VncFlyWmZQZGthckI3TkZ3UDZER1Z4cVdSZzB1Q0V4RjZSNkNRbmU?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中仅两条新消息符合筛选标准，其他均为重复或低价值内容。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1591, prompt_tokens=12055, total_tokens=13646, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=254, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10903)
+content length: 2909
+============================================================
+{
+  "news": [
+    {
+      "title": "阿布扎比主权基金增持BTC ETF",
+      "summary": "阿布扎比主权财富基金Mubadala在2026年Q1将其比特币ETF持仓增加16%，总价值达5.66亿美元。这显示主权级机构持续看好比特币，被视为中长期看多信号。主要影响BTC，可能带动市场信心恢复。",
+      "reason": "优先级二：机构动向，主权基金增持属重大利好，直接影响BTC市场情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRlFuX3NvSzVpbHMzeW1TUFZFNUhNb0JaZ2RadC1KVnRPVGM3S3JUT2NlSzJlUDZ6N0ZDZzByc2JDUkJCaFJxcXhfcWF5Zml2LXdvQXpHWklYQTh3R2w5TjEzdFhEdUZKeU1yRjVhcE91enBCMUJUbmRQTDRQQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "明尼苏达州禁止加密ATM机",
+      "summary": "明尼苏达州因老年人因诈骗损失超100万美元，正式禁止加密货币ATM机。这反映了监管对加密零售渠道的打压，可能限制BTC等主流币的购买便利性，短期看空市场情绪。影响BTC、ETH等所有涉及ATM的币种。",
+      "reason": "优先级一：重大监管动态，州级禁令直接限制加密基础设施，属利空。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "KIMT",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZE44SUc4cGpjU19DQnpPblczei1OZ2xUalUxY2t6ZWc1VUFUOV9ETi1PMEUzUHdjamhKb25pWnRxak5NTEdiMFZGa1V4RHpueXRONThocy02YTVKSUpZVDVCSGNuZmNQYWhfRVhsLVdrS2tsNmlVTU5RZ3haQ2dVa2E2azdPYm1mSXhfRm1wbXR1a1pTNTJ6b2ZyOE0wQWR0YTVJdWZ2YVl5ZzZHT3BmNk5jZl9ubXdkMzV4UVM4Z0xSbjJtSlhLNENOOGRmRy1q?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Saylor暗示MicroStrategy再购BTC",
+      "summary": "Michael Saylor在X平台发布比特币Tracker信息，暗示下周MicroStrategy将披露新一轮比特币增持。此前Saylor常以类似方式预告买入，若落实将增加机构需求。利好BTC，短期看多。",
+      "reason": "优先级二：机构动向，MicroStrategy持续买入是BTC重要支撑信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQXAwR1NEVFZqTnB1OHNIbkN4RVBQXzllaDlwVXBmWnVUMVVkRjM5cmh6THcwaFNYQ2sybnBnOUJyQXRLVTRBTmtpb3dMamdGUzBlWHkzWm0xazR2UzRDLUtNQVRqeGRnVW9acWUtNHRuamZrcDFrRVcwUVgtX0VMb0ZKNVFpRGhRcUNxVVVQYWxwLVd4am1wUUtQdVNDZVNfc3kw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Bitcoin Depot申请破产警告",
+      "summary": "比特币ATM运营商Bitcoin Depot发出破产警告，收入同比暴跌49%。该公司是美国最大BTC ATM网络之一，其困境反映加密零售需求疲软，可能进一步打击市场信心。利空BTC。",
+      "reason": "优先级一：项目方重大事件，龙头企业破产预示行业困境，影响市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitbo",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SLXVxa21xeTQ3c0xjZktKMUlIb04tVGRCOUx2cDd6azVHd1VXSnNjN1IySHhJSmJzV3habkJpbDRVcThxQXlCX1VncFlyWmZQZGthckI3TkZ3UDZER1Z4cVdSZzB1Q0V4RjZSNkNRbmU?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "部分高风险或重复内容被过滤，以上4条为筛选后的关键消息。"
+}

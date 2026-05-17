@@ -88,3 +88,141 @@
 2026-05-17 16:01:27 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
 2026-05-17 16:01:27 [INFO] 📦 JSON 已保存: reports/2026-05-18-00.json
 2026-05-17 16:01:27 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-05-17 17:00:31 [INFO] 🚀 开始抓取 2026-05-18 01:00 币圈新闻
+2026-05-17 17:00:31 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-17 17:00:31 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-17 17:00:32 [INFO]   ⏭ Decrypt: 过滤掉 37 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-17 17:00:32 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-17 17:00:32 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:32 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ Blockworks: 过滤掉 1 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ 吴说区块链: 过滤掉 43 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 22 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 49 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ Crypto Twitter: 过滤掉 42 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:33 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-05-17 17:00:47 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-17 17:00:47 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-17 17:00:47 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-17 17:00:47 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-05-17 17:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-17 17:00:48 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:48 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:48 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-17 17:00:48 [INFO]   ✓ CoinDesk: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ The Block: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ Decrypt: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ Bitcoin Magazine: 1 条
+2026-05-17 17:00:48 [INFO]   ✓ Blockworks: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ DL News: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ 金色财经: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ PANews: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ Reddit r/cryptocurrency: 3 条
+2026-05-17 17:00:48 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-05-17 17:00:48 [INFO]   ✓ Crypto Twitter: 8 条
+2026-05-17 17:00:48 [INFO]   ✓ 宏观经济: 1 条
+2026-05-17 17:00:48 [INFO]   ✓ Binance公告: 20 条
+2026-05-17 17:00:48 [INFO]   ✓ OKX公告: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ Bitget公告: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ Whale Alert: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-17 17:00:48 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-17 17:00:48 [INFO]   ✓ 雪球加密: 0 条
+2026-05-17 17:00:48 [INFO] 📊 共抓取 37 条新闻
+2026-05-17 17:00:48 [INFO] 📋 原始新闻已保存: reports/2026-05-18-01-raw.json (37 条)
+2026-05-17 17:00:48 [INFO] 📋 标题摘要已保存: reports/2026-05-18-01-raw-titles.md
+2026-05-17 17:00:48 [INFO] ✅ 抓取完成，共 37 条，已保存到 reports/2026-05-18-01-raw.json
+2026-05-17 17:00:48 [INFO] 🤖 开始 AI 筛选 2026-05-18 01:00 币圈消息
+2026-05-17 17:00:48 [INFO] 📋 已加载原始新闻: reports/2026-05-18-01-raw.json (37 条)
+2026-05-17 17:00:48 [INFO] 📚 已加载历史新闻标题（18130 字符）
+2026-05-17 17:00:48 [INFO] 📚 已加载历史筛选标题 19 条、URL 19 个，用于去重
+2026-05-17 17:00:48 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-17 17:00:48 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-17 17:00:48 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（37 条，8444 字符，temp=0.3）
+2026-05-17 17:01:18 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 1528 字符)
+2026-05-17 17:01:18 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-01-ai-raw.json
+2026-05-17 17:01:18 [DEBUG] parse_json_response 输入长度: 1528 字符
+2026-05-17 17:01:18 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "阿布扎比Mubadala增持BTC ETF",
+      "summary": "阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%，总价值达5.66亿美元。这是主权基金持续加仓比特币的信号，表明机构长期看涨。受此消息影响，比特币可能获得买盘支撑，短期价格企稳。影响币种：BTC。信号：看多。",
+      "reason": "主权基金增持比特币ETF属于优先级一（机构动向），直接体现机构信心，对比特币价格有正面推动作用。",
+      "category": "ETF机构",
+     
+2026-05-17 17:01:18 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 17:01:18 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 17:01:18 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 17:01:18 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（37 条，8444 字符，temp=0.3）
+2026-05-17 17:01:45 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 1369 字符)
+2026-05-17 17:01:45 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-01-ai-raw.json
+2026-05-17 17:01:45 [DEBUG] parse_json_response 输入长度: 1369 字符
+2026-05-17 17:01:45 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "阿布扎比主权基金增持BTC ETF",
+      "summary": "阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%，总价值达5.66亿美元。这是全球主权基金持续配置比特币的又一信号，表明长期机构资金仍在流入。利好BTC，可能提振市场信心，但短期影响有限。看多信号。",
+      "reason": "主权基金增持BTC ETF属于机构动向，优先级二，影响中等。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+ 
+2026-05-17 17:01:45 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 17:01:45 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 17:01:45 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 17:01:45 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（37 条，8444 字符，temp=0.3）
+2026-05-17 17:02:11 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 1408 字符)
+2026-05-17 17:02:11 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-01-ai-raw.json
+2026-05-17 17:02:11 [DEBUG] parse_json_response 输入长度: 1408 字符
+2026-05-17 17:02:11 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Mubadala增持BTC ETF 16%",
+      "summary": "阿布扎比主权基金Mubadala在2026年Q1将其比特币ETF持仓增加16%，总价值达5.66亿美元。此举显示大型机构对BTC的长期信心增强，可能吸引更多主权基金跟进。信号：看多BTC及ETF相关币种。",
+      "reason": "主权基金大额增持属于优先级二‘机构动向’，直接影响BTC市场情绪和资金流向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+ 
+2026-05-17 17:02:11 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 17:02:11 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 17:02:11 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 17:02:11 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（37 条，11767 字符，temp=0.3）
+2026-05-17 17:02:29 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 2909 字符)
+2026-05-17 17:02:29 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-01-ai-raw.json
+2026-05-17 17:02:29 [DEBUG] parse_json_response 输入长度: 2909 字符
+2026-05-17 17:02:29 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "阿布扎比主权基金增持BTC ETF",
+      "summary": "阿布扎比主权财富基金Mubadala在2026年Q1将其比特币ETF持仓增加16%，总价值达5.66亿美元。这显示主权级机构持续看好比特币，被视为中长期看多信号。主要影响BTC，可能带动市场信心恢复。",
+      "reason": "优先级二：机构动向，主权基金增持属重大利好，直接影响BTC市场情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "sign
+2026-05-17 17:02:29 [DEBUG] 从 JSON 对象的 news 字段提取到 4 条记录
+2026-05-17 17:02:29 [INFO] ✅ AI 返回 4 条新闻
+2026-05-17 17:02:29 [INFO] ✅ AI 筛选出 4 条交易相关消息，符合预期
+2026-05-17 17:02:29 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
+2026-05-17 17:02:29 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-17 17:02:29 [DEBUG]   去重: 「明尼苏达州禁止加密ATM机」 → URL重复: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZE44SUc
+2026-05-17 17:02:29 [INFO] 📦 JSON 已保存: reports/2026-05-18-01.json
+2026-05-17 17:02:29 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
