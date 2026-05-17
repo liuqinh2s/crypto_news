@@ -405,3 +405,133 @@
 2026-05-17 19:01:42 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
 2026-05-17 19:01:42 [INFO] 📦 JSON 已保存: reports/2026-05-18-03.json
 2026-05-17 19:01:42 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-05-17 20:00:30 [INFO] 🚀 开始抓取 2026-05-18 04:00 币圈新闻
+2026-05-17 20:00:30 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-17 20:00:30 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-17 20:00:30 [INFO]   ⏭ Decrypt: 过滤掉 37 条非近期新闻
+2026-05-17 20:00:30 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-17 20:00:30 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-17 20:00:31 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-17 20:00:31 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ 宏观经济: 过滤掉 15 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ CoinDesk: 过滤掉 24 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:31 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ Blockworks: 过滤掉 1 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ 吴说区块链: 过滤掉 40 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:32 [INFO]   ⏭ Crypto Twitter: 过滤掉 42 条非近期新闻
+2026-05-17 20:00:46 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-17 20:00:46 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-17 20:00:46 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-17 20:00:47 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:48 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-17 20:00:48 [INFO]   ✓ CoinDesk: 1 条
+2026-05-17 20:00:48 [INFO]   ✓ The Block: 1 条
+2026-05-17 20:00:48 [INFO]   ✓ Decrypt: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-17 20:00:48 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ Blockworks: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ DL News: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ 金色财经: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ PANews: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-05-17 20:00:48 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-05-17 20:00:48 [INFO]   ✓ Crypto Twitter: 8 条
+2026-05-17 20:00:48 [INFO]   ✓ 宏观经济: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ Binance公告: 20 条
+2026-05-17 20:00:48 [INFO]   ✓ OKX公告: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ Bitget公告: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ Whale Alert: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-17 20:00:48 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-17 20:00:48 [INFO]   ✓ 雪球加密: 0 条
+2026-05-17 20:00:48 [INFO] 📊 共抓取 37 条新闻
+2026-05-17 20:00:48 [INFO] 📋 原始新闻已保存: reports/2026-05-18-04-raw.json (37 条)
+2026-05-17 20:00:48 [INFO] 📋 标题摘要已保存: reports/2026-05-18-04-raw-titles.md
+2026-05-17 20:00:48 [INFO] ✅ 抓取完成，共 37 条，已保存到 reports/2026-05-18-04-raw.json
+2026-05-17 20:00:48 [INFO] 🤖 开始 AI 筛选 2026-05-18 04:00 币圈消息
+2026-05-17 20:00:48 [INFO] 📋 已加载原始新闻: reports/2026-05-18-04-raw.json (37 条)
+2026-05-17 20:00:48 [INFO] 📚 已加载历史新闻标题（17814 字符）
+2026-05-17 20:00:48 [INFO] 📚 已加载历史筛选标题 15 条、URL 15 个，用于去重
+2026-05-17 20:00:48 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-17 20:00:48 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-17 20:00:48 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（37 条，8452 字符，temp=0.3）
+2026-05-17 20:01:14 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 754 字符)
+2026-05-17 20:01:14 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-04-ai-raw.json
+2026-05-17 20:01:14 [DEBUG] parse_json_response 输入长度: 754 字符
+2026-05-17 20:01:14 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "交易所被盗暂停交易",
+      "summary": "名为Unstoppable的加密货币交易所遭遇黑客攻击，被盗约1000万美元，已暂停交易。安全事件打击市场信心，可能引发短期抛售，对BTC、ETH等主流币形成利空。",
+      "reason": "交易所被盗是重大安全事件，直接影响市场情绪，可能导致用户恐慌抛售，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+2026-05-17 20:01:14 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-17 20:01:14 [INFO] ✅ AI 返回 1 条新闻
+2026-05-17 20:01:14 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-17 20:01:14 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（37 条，8452 字符，temp=0.3）
+2026-05-17 20:01:30 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 784 字符)
+2026-05-17 20:01:30 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-04-ai-raw.json
+2026-05-17 20:01:30 [DEBUG] parse_json_response 输入长度: 784 字符
+2026-05-17 20:01:30 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "交易所被盗1000万美元暂停交易",
+      "summary": "Unstoppable交易所遭遇黑客攻击，被盗约1000万美元，已暂停交易。该交易所相对小众，但可能引发市场对安全性恐慌，短期利空相关币种，尤其是该交易所支持的代币。",
+      "reason": "黑客攻击属于优先级一重大事件，直接威胁加密资产安全，可能引发短期抛售。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "beari
+2026-05-17 20:01:30 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-17 20:01:30 [INFO] ✅ AI 返回 1 条新闻
+2026-05-17 20:01:30 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-05-17 20:01:30 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（37 条，8452 字符，temp=0.3）
+2026-05-17 20:01:52 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 806 字符)
+2026-05-17 20:01:52 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-04-ai-raw.json
+2026-05-17 20:01:52 [DEBUG] parse_json_response 输入长度: 806 字符
+2026-05-17 20:01:52 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Unstoppable交易所遭窃1000万美元",
+      "summary": "去中心化交易所Unstoppable因安全漏洞被盗约1000万美元，已暂停交易。该事件可能引发市场对DEX安全性的担忧，短期利空相关代币和整体情绪。但规模较小，影响有限。建议关注后续资金追回或项目方应对措施。",
+      "reason": "交易所安全事件属于优先级一，直接影响市场情绪，可能引发短期抛售。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"
+2026-05-17 20:01:52 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-17 20:01:52 [INFO] ✅ AI 返回 1 条新闻
+2026-05-17 20:01:52 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 1 条（期望 3），将重试
+2026-05-17 20:01:52 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（37 条，11958 字符，temp=0.3）
+2026-05-17 20:02:10 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 2398 字符)
+2026-05-17 20:02:10 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-04-ai-raw.json
+2026-05-17 20:02:10 [DEBUG] parse_json_response 输入长度: 2398 字符
+2026-05-17 20:02:10 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "意大利最大银行增持BTC/ETH/XRP",
+      "summary": "意大利最大银行（Intesa Sanpaolo）在2026年Q1增加了对比特币、以太坊和XRP的风险敞口。该行通过合规渠道配置数字资产，显示传统金融机构对加密资产的长期信心。此举可能带动欧洲其他银行跟进，为BTC/ETH/XRP带来机构买盘。影响币种：BTC、ETH、XRP。看多信号。",
+      "reason": "优先级二：机构动向。欧洲大型银行增持加密货币，是积极的机构采用信号。",
+      "category": "ETF机
+2026-05-17 20:02:10 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-05-17 20:02:10 [INFO] ✅ AI 返回 3 条新闻
+2026-05-17 20:02:10 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-05-17 20:02:10 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-05-17 20:02:10 [INFO] 📦 JSON 已保存: reports/2026-05-18-04.json
+2026-05-17 20:02:10 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息

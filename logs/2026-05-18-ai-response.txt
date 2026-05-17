@@ -445,3 +445,146 @@ content length: 2280
   ],
   "note": "本轮筛选仅发现3条符合标准的新消息，其余素材多与历史重复或交易价值低。已根据优先级和去重规则选出。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2804, prompt_tokens=10720, total_tokens=13524, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2451, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9568)
+content length: 754
+============================================================
+{
+  "news": [
+    {
+      "title": "交易所被盗暂停交易",
+      "summary": "名为Unstoppable的加密货币交易所遭遇黑客攻击，被盗约1000万美元，已暂停交易。安全事件打击市场信心，可能引发短期抛售，对BTC、ETH等主流币形成利空。",
+      "reason": "交易所被盗是重大安全事件，直接影响市场情绪，可能导致用户恐慌抛售，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Gizmodo",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzVzb3hvRnlvOTF3RmNGeWVZd2NHX01zZENQU0NwRFFZekRZRkgyX1RUNFVNRFJHclRUcDR4VlliV0o0Uy1ZY2pqMkdVQUdCcmN2UU9oTHRCYU1jRlllci1seXllNEZtWnBGUEZDbnhHVmoyVUlmS0FzVkM4blZWTFFsbFA5TnVvTHJQSjE0b19KUlJOUnhWR3RIcw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前时段仅有1条新消息，其余均与历史重复。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1652, prompt_tokens=10720, total_tokens=12372, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1279, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=96)
+content length: 784
+============================================================
+{
+  "news": [
+    {
+      "title": "交易所被盗1000万美元暂停交易",
+      "summary": "Unstoppable交易所遭遇黑客攻击，被盗约1000万美元，已暂停交易。该交易所相对小众，但可能引发市场对安全性恐慌，短期利空相关币种，尤其是该交易所支持的代币。",
+      "reason": "黑客攻击属于优先级一重大事件，直接威胁加密资产安全，可能引发短期抛售。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Gizmodo",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzVzb3hvRnlvOTF3RmNGeWVZd2NHX01zZENQU0NwRFFZekRZRkgyX1RUNFVNRFJHclRUcDR4VlliV0o0Uy1ZY2pqMkdVQUdCcmN2UU9oTHRCYU1jRlllci1seXllNEZtWnBGUEZDbnhHVmoyVUlmS0FzVkM4blZWTFFsbFA5TnVvTHJQSjE0b19KUlJOUnhWR3RIcw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮新闻中，其它报道均为历史重复信息，无新增交易价值。仅有一条新事件，但交易所较小，影响有限。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2076, prompt_tokens=10720, total_tokens=12796, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1691, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=96)
+content length: 806
+============================================================
+{
+  "news": [
+    {
+      "title": "Unstoppable交易所遭窃1000万美元",
+      "summary": "去中心化交易所Unstoppable因安全漏洞被盗约1000万美元，已暂停交易。该事件可能引发市场对DEX安全性的担忧，短期利空相关代币和整体情绪。但规模较小，影响有限。建议关注后续资金追回或项目方应对措施。",
+      "reason": "交易所安全事件属于优先级一，直接影响市场情绪，可能引发短期抛售。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Gizmodo",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzVzb3hvRnlvOTF3RmNGeWVZd2NHX01zZENQU0NwRFFZekRZRkgyX1RUNFVNRFJHclRUcDR4VlliV0o0Uy1ZY2pqMkdVQUdCcmN2UU9oTHRCYU1jRlllci1seXllNEZtWnBGUEZDbnhHVmoyVUlmS0FzVkM4blZWTFFsbFA5TnVvTHJQSjE0b19KUlJOUnhWR3RIcw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前时段仅发现一条有效新消息，其余素材均为历史重复内容或低优先级信息，因此输出少于5条。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2005, prompt_tokens=11780, total_tokens=13785, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=861, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10628)
+content length: 2398
+============================================================
+{
+  "news": [
+    {
+      "title": "意大利最大银行增持BTC/ETH/XRP",
+      "summary": "意大利最大银行（Intesa Sanpaolo）在2026年Q1增加了对比特币、以太坊和XRP的风险敞口。该行通过合规渠道配置数字资产，显示传统金融机构对加密资产的长期信心。此举可能带动欧洲其他银行跟进，为BTC/ETH/XRP带来机构买盘。影响币种：BTC、ETH、XRP。看多信号。",
+      "reason": "优先级二：机构动向。欧洲大型银行增持加密货币，是积极的机构采用信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNEZMX0JQRkxQOWxTLXp2UDdHeHpFczVManZaak9WbVYxM0pNdG9Pck5BdkR0dlFROE9WeG1ENlYzU0Q0V3FiQXZvQU01RjhRdFhwdG16NS1rSVdVNVV4MkxfdW1vQURIWlJYalBYX2hFb1V3MHBqenBNeUFqSWNyZWtyUEt2dks3cE5KTXNmTXh3ZXVwLTBaS0JIa1M?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日本券商开启BTC/ETH新通道",
+      "summary": "日本最大的券商（如SBI Securities、Rakuten）正在开发内部加密投资信托产品，为散户和机构提供合规的比特币和以太坊投资渠道。此前日本内阁已批准将加密货币重新分类为金融工具法案，为产品发行铺平道路。此举将吸引大量日本资金流入BTC和ETH，对市场形成中期利好。影响币种：BTC、ETH。看多信号。",
+      "reason": "优先级二：机构动向。日本主要券商推出合规加密投资工具，大规模资金入场预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjFKbWhGblpxWDhYX0IwTkN2U0dLeWJleHZFMld5UEtMT2pZOTBna3VGVnZMSjA2b1BSRFpZMTVTRU84ZFFpNExBMVE0QWM1cVhUSmdhT01QRDZmdnVqRHVxbk5QZFNPZUM1OFIya2UyajV3MnpvZkhTQ2NPaTBrSVVhS2piZTJhZnY5bjNjdXVaeTVjaE1WLU45NGs4UWRY?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "某交易所被盗1000万美元暂停交易",
+      "summary": "自称‘不可阻挡’的加密货币交易所（Unstoppable Exchange）在遭遇1000万美元黑客攻击后暂停交易。该交易所此前主打抗审查，但安全漏洞导致用户资金被盗。事件可能引发市场对小型交易所安全性的担忧，短期利空相关平台币及整体市场情绪。但影响范围有限，主流币种反应或有限。影响币种：该交易所代币（可能未知），以及市场情绪敏感币种如BTC/ETH。看空信号（短期）。",
+      "reason": "优先级一：项目方重大事件（黑客攻击）。交易所被盗导致暂停交易，直接冲击用户信心。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Gizmodo",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzVzb3hvRnlvOTF3RmNGeWVZd2NHX01zZENQU0NwRFFZekRZRkgyX1RUNFVNRFJHclRUcDR4VlliV0o0Uy1ZY2pqMkdVQUdCcmN2UU9oTHRCYU1jRlllci1seXllNEZtWnBGUEZDbnhHVmoyVUlmS0FzVkM4blZWTFFsbFA5TnVvTHJQSjE0b19KUlJOUnhWR3RIcw?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}

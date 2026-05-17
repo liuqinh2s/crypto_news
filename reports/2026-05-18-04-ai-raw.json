@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-18",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11780,
+    "completion_tokens": 2005,
+    "total_tokens": 13785
+  },
+  "content_length": 2398,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"意大利最大银行增持BTC/ETH/XRP\",\n      \"summary\": \"意大利最大银行（Intesa Sanpaolo）在2026年Q1增加了对比特币、以太坊和XRP的风险敞口。该行通过合规渠道配置数字资产，显示传统金融机构对加密资产的长期信心。此举可能带动欧洲其他银行跟进，为BTC/ETH/XRP带来机构买盘。影响币种：BTC、ETH、XRP。看多信号。\",\n      \"reason\": \"优先级二：机构动向。欧洲大型银行增持加密货币，是积极的机构采用信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"XRP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMinAFBVV95cUxPNEZMX0JQRkxQOWxTLXp2UDdHeHpFczVManZaak9WbVYxM0pNdG9Pck5BdkR0dlFROE9WeG1ENlYzU0Q0V3FiQXZvQU01RjhRdFhwdG16NS1rSVdVNVV4MkxfdW1vQURIWlJYalBYX2hFb1V3MHBqenBNeUFqSWNyZWtyUEt2dks3cE5KTXNmTXh3ZXVwLTBaS0JIa1M?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"日本券商开启BTC/ETH新通道\",\n      \"summary\": \"日本最大的券商（如SBI Securities、Rakuten）正在开发内部加密投资信托产品，为散户和机构提供合规的比特币和以太坊投资渠道。此前日本内阁已批准将加密货币重新分类为金融工具法案，为产品发行铺平道路。此举将吸引大量日本资金流入BTC和ETH，对市场形成中期利好。影响币种：BTC、ETH。看多信号。\",\n      \"reason\": \"优先级二：机构动向。日本主要券商推出合规加密投资工具，大规模资金入场预期。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjFKbWhGblpxWDhYX0IwTkN2U0dLeWJleHZFMld5UEtMT2pZOTBna3VGVnZMSjA2b1BSRFpZMTVTRU84ZFFpNExBMVE0QWM1cVhUSmdhT01QRDZmdnVqRHVxbk5QZFNPZUM1OFIya2UyajV3MnpvZkhTQ2NPaTBrSVVhS2piZTJhZnY5bjNjdXVaeTVjaE1WLU45NGs4UWRY?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"某交易所被盗1000万美元暂停交易\",\n      \"summary\": \"自称‘不可阻挡’的加密货币交易所（Unstoppable Exchange）在遭遇1000万美元黑客攻击后暂停交易。该交易所此前主打抗审查，但安全漏洞导致用户资金被盗。事件可能引发市场对小型交易所安全性的担忧，短期利空相关平台币及整体市场情绪。但影响范围有限，主流币种反应或有限。影响币种：该交易所代币（可能未知），以及市场情绪敏感币种如BTC/ETH。看空信号（短期）。\",\n      \"reason\": \"优先级一：项目方重大事件（黑客攻击）。交易所被盗导致暂停交易，直接冲击用户信心。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Gizmodo\",\n          \"url\": \"https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzVzb3hvRnlvOTF3RmNGeWVZd2NHX01zZENQU0NwRFFZekRZRkgyX1RUNFVNRFJHclRUcDR4VlliV0o0Uy1ZY2pqMkdVQUdCcmN2UU9oTHRCYU1jRlllci1seXllNEZtWnBGUEZDbnhHVmoyVUlmS0FzVkM4blZWTFFsbFA5TnVvTHJQSjE0b19KUlJOUnhWR3RIcw?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ]\n}"
+}
