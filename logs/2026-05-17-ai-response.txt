@@ -2043,3 +2043,283 @@ content length: 3372
   ],
   "note": "当前市场缺乏高确定性重大消息，多数为中小影响事件，请结合技术面操作。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1238, prompt_tokens=7519, total_tokens=8757, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=699, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6367)
+content length: 1313
+============================================================
+{
+  "news": [
+    {
+      "title": "俄罗斯制裁稳定币引关注",
+      "summary": "CoinDesk报道，一种旨在规避制裁的俄罗斯稳定币声称即使制裁解除也能生存。该稳定币可能用于跨境支付和规避金融限制，但此举可能引发西方监管机构的进一步打压，增加加密市场的地缘政治风险。影响比特币和以太坊等主流币，短期偏空。",
+      "reason": "涉及监管规避，可能引发新一轮制裁与监管收紧，影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "本周关注：FOMC会议纪要及失业金",
+      "summary": "Bloomingbit发布本周前瞻，重点包括美国初请失业金人数和FOMC会议纪要。FOMC纪要可能透露美联储对通胀和利率的态度，若偏鹰将利空加密货币，反之则利好。失业金数据反映劳动力市场状况，影响美元走势。市场等待消息指引，短期波动可能加大。",
+      "reason": "宏观经济数据直接影响风险资产定价，FOMC纪要属于重大事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HeVZ6SmFTSjNUdDZFdHVnZ2lYWTM1V0daUTMzVXdFeDkyejFOQXdwWXJQYm42aW1kX2g2eXJBZnNvcWJzRVpkcmN4bUlkTjZISFR6cg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "仅筛选出2条有交易价值的新消息，其余均为重复的Binance公告或已存在的市场情绪数据。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1010, prompt_tokens=7519, total_tokens=8529, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=435, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7424), prompt_cache_hit_tokens=7424, prompt_cache_miss_tokens=95)
+content length: 1360
+============================================================
+{
+  "news": [
+    {
+      "title": "俄罗斯制裁规避稳定币",
+      "summary": "CoinDesk报道，一种旨在规避制裁的俄罗斯稳定币声称即使制裁解除也能生存。该稳定币可能用于跨境支付绕开美元体系，增加地缘政治风险。短期可能引发监管担忧，对BTC、ETH等主流币影响中性偏空，因市场可能担心更严厉的制裁措施。但若俄罗斯采用，可能增加加密采用率。整体看空信号。",
+      "reason": "重大监管动态：涉及制裁规避，可能引发国际监管收紧，影响整个加密市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "本周经济与加密前瞻",
+      "summary": "Bloomingbit报道，本周将公布美国初请失业金人数及FOMC会议纪要。初请失业金数据反映就业市场强弱，FOMC纪要透露官员政策倾向。若数据偏弱或纪要偏鸽，可能利好风险资产；反之则利空。当前市场预期美联储维持利率不变，任何降息信号将提振BTC、ETH。目前信号中性，等待实际数据。",
+      "reason": "宏观经济数据直接影响风险资产，中期影响行情。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HeVZ6SmFTSjNUdDZFdHVnZ2lYWTM1V0daUTMzVXdFeDkyejFOQXdwWXJQYm42aW1kX2g2eXJBZnNvcWJzRVpkcmN4bUlkTjZISFR6cg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材经去重后，仅有以上2条新增高价值消息。其余均为重复性Binance公告、恐惧贪婪指数等，已排除。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1043, prompt_tokens=7519, total_tokens=8562, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=521, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7424), prompt_cache_hit_tokens=7424, prompt_cache_miss_tokens=95)
+content length: 1276
+============================================================
+{
+  "news": [
+    {
+      "title": "俄制裁逃避稳定币",
+      "summary": "CoinDesk报道称，一种旨在规避制裁的俄罗斯稳定币声称即使制裁解除也能生存。这可能影响市场对加密合规风险的担忧，但短期直接影响有限。主要影响BTC、ETH等主流币，信号中性。",
+      "reason": "涉及监管与地缘政治，属于中期影响，但非直接行情驱动。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "下周关注美失业金与FOMC纪要",
+      "summary": "本周经济预告显示，美国将公布初请失业金人数和FOMC会议纪要。FOMC纪要可能透露未来利率路径，若暗示鹰派则利空风险资产，若鸽派则利多。当前市场处于恐惧状态（贪婪指数27），宏观数据可能引发波动。预期影响BTC、ETH。",
+      "reason": "宏观经济数据是影响风险资产的重要因素，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HeVZ6SmFTSjNUdDZFdHVnZ2lYWTM1V0daUTMzVXdFeDkyejFOQXdwWXJQYm42aW1kX2g2eXJBZnNvcWJzRVpkcmN4bUlkTjZISFR6cg?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中多数新闻与历史重复（如Binance公告、恐惧贪婪指数），仅选出2条有价值的新消息，符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=901, prompt_tokens=8126, total_tokens=9027, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=300, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6974)
+content length: 1384
+============================================================
+{
+  "news": [
+    {
+      "title": "FOMC会议纪要+初请失业金本周公布",
+      "summary": "本周经济与加密市场前瞻：美国将公布初请失业金数据及FOMC会议纪要。FOMC纪要可能透露美联储未来利率路径，若偏鸽派将利好风险资产，偏鹰派则利空。初请失业金数据反映就业市场强弱，若超预期上升可能强化降息预期，有利加密市场。整体来看，这两项数据是短期市场情绪催化剂，需重点关注。影响币种：BTC、ETH。偏多信号：若数据支持宽松。",
+      "reason": "宏观经济数据直接影响风险资产走势，FOMC纪要及就业数据是中期行情关键驱动因素，符合筛选标准优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HeVZ6SmFTSjNUdDZFdHVnZ2lYWTM1V0daUTMzVXdFeDkyejFOQXdwWXJQYm42aW1kX2g2eXJBZnNvcWJzRVpkcmN4bUlkTjZISFR6cg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "俄罗斯反制裁稳定币问世",
+      "summary": "俄罗斯推出一种专为规避制裁设计的稳定币，声称即使制裁解除也能生存。该稳定币可能用于国际贸易结算，或增加USDT/USDC以外的替代选项。短期对主流币影响有限，但若被广泛采用可能改变稳定币格局，长期看多俄罗斯相关加密生态，对全球稳定币市场构成潜在竞争。影响币种：USDT、USDC。偏空信号：对现有稳定币形成威胁。",
+      "reason": "涉及稳定币竞争和地缘政治，属监管政策类，但当前影响力中等，符合优先级一中的监管动态（国家级）。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=949, prompt_tokens=8126, total_tokens=9075, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=651, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8064), prompt_cache_hit_tokens=8064, prompt_cache_miss_tokens=62)
+content length: 721
+============================================================
+{
+  "news": [
+    {
+      "title": "俄罗斯稳定币规避制裁",
+      "summary": "CoinDesk报道，一种为规避制裁而建的俄罗斯稳定币声称即使制裁解除也能生存。这引发市场对监管合规的担忧，可能影响USDT、USDC等主流稳定币的信任度，并增加整体加密市场的地缘政治风险。信号偏空，但短期影响有限。",
+      "reason": "涉及监管政策和地缘政治，可能影响稳定币市场格局，属于优先级一中的重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其余新闻或为重复历史消息（如Binance旧公告、恐惧贪婪指数未变），或为常规宏观经济预告（美国初请失业金、FOMC会议纪要）且无重大预期差，均不符合筛选标准，故仅产出1条。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2068, prompt_tokens=3121, total_tokens=5189, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=670, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=1969)
+content length: 3218
+============================================================
+{
+  "news": [
+    {
+      "title": "Binance上架MegaETH",
+      "summary": "Binance宣布将于2026-05-15左右上线MegaETH (MEGA)，并开放现货交易、杠杆及合约。该币种为基于以太坊的高性能L2项目，近期热度较高。上币后短期可能带来价格波动和流动性增加。信号偏中性至看多（上币初期常有拉升），但需注意Seed标签风险。影响币种：MEGA。建议关注开盘后走势，避免追高。",
+      "reason": "交易所上币直接影响币价，属优先级一。MegaETH为热点L2项目，交易价值高。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上架Gensyn (AIGENSYN)",
+      "summary": "Binance将上线Gensyn (AIGENSYN)，并开放现货、杠杆及合约。Gensyn为去中心化AI计算网络，近期融资强劲。上币后短期可能引发投机，但需警惕抛压。信号偏中性至看多，但Seed标签限制部分用户交易。影响币种：AIGENSYN。建议观察开盘流动性。",
+      "reason": "新币上架，直接交易机会，属优先级一。AI赛道热门。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance推出TradFi永续合约",
+      "summary": "Binance Futures将推出多个传统金融指数（TradFi）的USDⓈ-Margined永续合约，涉及美股、大宗商品等。此举将加密与传统金融连接，可能吸引机构资金，增加市场深度。信号偏看多，但短期影响有限。影响币种：BTC、ETH（宏观关联）。",
+      "reason": "产品创新属中期利好，但未直接影响币价。优先级二，机构动向类别。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/6253a74ac0734740bdf36864584d1bd1"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "经济数据预告：FOMC纪要与失业金",
+      "summary": "下周将公布美国初请失业金人数及FOMC会议纪要。FOMC纪要可能透露未来利率路径，若偏鸽派则利好风险资产；若偏鹰则利空。失业金数据反映就业市场。两者均影响宏观预期，间接影响BTC/ETH。建议投资者提前布局注意波动。信号中性，视最终结果。",
+      "reason": "宏观经济数据中期影响，属优先级二，不可控但重要。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "Bloomingbit", "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HeVZ6SmFTSjNUdDZFdHVnZ2lYWTM1V0daUTMzVXdFeDkyejFOQXdwWXJQYm42aW1kX2g2eXJBZnNvcWJzRVpkcmN4bUlkTjZISFR6cg?oc=5"}],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数降至27（恐惧）",
+      "summary": "当前恐惧贪婪指数为27，处于恐惧区间但未达极度恐惧。历史回测显示该区间易出现短期反弹，但中长期仍需基本面驱动。市场情绪悲观，可能形成底部区域。信号中性偏看多，适合关注左侧机会。影响所有币种。",
+      "reason": "市场情绪信号，属优先级三，但数据未超极端，影响有限。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance HODLer空投Chip (CHIP)",
+      "summary": "Binance推出HODLer空投，向BNB持仓者分发Chip (CHIP)代币。CHIP为USD.AI生态代币，空投可能导致短期抛售，但对BNB是额外收益。影响币种：CHIP, BNB。信号中性偏看空（CHIP抛压），但BNB持币者受益。建议关注空投后CHIP流动性。",
+      "reason": "空投活动属项目营销，但Binance背书有交易价值，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["CHIP", "BNB"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/c8d2380a71ee4b56980cf7798d2e3d8f"}],
+      "urgency": "hours"
+    }
+  ]
+}
