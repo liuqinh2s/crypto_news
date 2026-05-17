@@ -1447,3 +1447,190 @@ content length: 1439
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1282, prompt_tokens=8014, total_tokens=9296, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=700, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6862)
+content length: 1304
+============================================================
+{
+  "news": [
+    {
+      "title": "麻吉加仓ETH多单逼近清算",
+      "summary": "知名巨鲸麻吉再度加仓以太坊多单，整体持仓接近1400万美元，当前以太坊多单距清算线仅3%。这意味着若以太坊价格下跌约3%，该仓位将被强制平仓，可能引发进一步抛压。影响币种：ETH。信号：看空。理由：巨鲸高杠杆多单临近清算，市场脆弱，一旦触发可能加速下跌。",
+      "reason": "巨鲸异动，高杠杆多单距清算线极近，属优先级一，直接威胁ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513070.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普官员持有1.93亿美元加密资产",
+      "summary": "据华盛顿邮报报道，超过五分之一的特朗普政府官员及提名者报告持有至少1.93亿美元的加密货币资产，而拜登内阁成员中无人持有。这一现象表明特朗普政府对加密行业持友好态度，可能推动更宽松的监管政策。影响币种：BTC, ETH。信号：看多。理由：高层官员个人持仓暗示政策倾向，利好整体市场。",
+      "reason": "监管政策风向，特朗普政府潜在利好，属优先级一重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aS3hQVm1qM1llOXdEQlNyMWp2TjExd2VPejFWdVNqOWJIa1ZFakM4UHlYbTJfaWpmbmdyMXl1RVRqQmhseVV0elJkOGNKcmVIbkZEVW5pT3NycTlxbXAtYkNPRWx1TzhpUXlnMEl4QQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选仅2条有价值新消息。大量Binance公告与历史重复，恐惧贪婪指数未变，其余多为重复或低价值内容。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1322, prompt_tokens=8014, total_tokens=9336, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1073, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7936), prompt_cache_hit_tokens=7936, prompt_cache_miss_tokens=78)
+content length: 541
+============================================================
+{
+  "news": [
+    {
+      "title": "麻吉加仓ETH多单距清算线3%",
+      "summary": "知名交易者麻吉（Machi）再度加仓ETH，当前持仓价值近1400万美元，其以太坊多单距离清算线仅3%。如果ETH价格再跌约3%，该头寸将被强制平仓，可能引发连锁清算。该事件对ETH形成看空信号，需警惕短期抛压。受影响币种：ETH。",
+      "reason": "优先级一：巨鲸异动，高杠杆多单临近清算，直接影响行情。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513070.html"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分Binance公告与历史重复，恐惧贪婪指数无变化，其他新闻交易价值低。仅筛选出一条关键链上异动消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1913, prompt_tokens=8014, total_tokens=9927, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1330, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7936), prompt_cache_hit_tokens=7936, prompt_cache_miss_tokens=78)
+content length: 1325
+============================================================
+{
+  "news": [
+    {
+      "title": "麻吉加仓ETH，距清算仅3%",
+      "summary": "知名KOL麻吉（Machi）进一步加仓以太坊，目前整体持仓价值接近1400万美元。但其以太坊多单距离清算线仅剩3%，若ETH价格下跌超3%，将面临大规模清算风险，可能引发连锁抛压。此事件对ETH短期走势形成潜在利空，需警惕回调风险。",
+      "reason": "巨鲸链上异动，持仓接近清算线，属于优先级一的高风险信号，直接影响ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513070.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普官员持1.93亿加密资产",
+      "summary": "据Washington Post报道，超过五分之一的特朗普政府官员及提名人报告持有至少1.93亿美元的加密资产，而拜登内阁成员无一人持有。这一现象显示特朗普政府对加密行业的友好态度，可能加速推动利好政策如CLARITY Act等，对整体加密市场构成长期利好。",
+      "reason": "重大监管政治信号，特朗普高层持股表明政策倾向，属于优先级一的监管动态，影响市场预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jYkM3ZzdGU1NfUVEtQWxhTDNBbW02RF9xT0k0MmZ6dE8xTldXa2psOFRRdzBKUG9hQUZJQ3dOdFJ6VmpTdjhqbVdhVG05d0VjaHNJcFFrVFNJMlJNWjFBY0dvTXRRcDZucXNKei1hdjNmdw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，多数Binance公告已多次出现于历史消息，恐惧贪婪指数无变化，其余新闻影响较小或重复。仅筛选出2条有效高价值消息，不足5条，故如实输出。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2529, prompt_tokens=9184, total_tokens=11713, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1601, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8032)
+content length: 2212
+============================================================
+{
+  "news": [
+    {
+      "title": "麻吉加仓ETH/BTC多单",
+      "summary": "巨鲸麻吉昨日晚间充值25万美元后加仓，当前持仓近1400万美元，其中以太坊25倍多单5250枚，清算价2125美元（距现价仅3%），比特币40倍多单25枚，清算价65087美元。由于价格接近清算线，一旦ETH或BTC继续下跌，将触发大规模清算，加剧抛压。主要影响ETH和BTC，信号偏空。",
+      "reason": "巨鲸高杠杆多单接近清算线，属链上异动，直接影响行情。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513070.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普官员持有$193M加密",
+      "summary": "据报道，超过五分之一的特朗普政府官员及提名人合计持有至少1.93亿美元的加密资产，而拜登内阁成员无人持有。这显示新一届政府对加密行业的友好态度，可能推动更积极的监管政策。中长期看多，利好BTC及整个加密市场。",
+      "reason": "巨量政府官员持有加密资产，影响监管预期，属监管政策类重大消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jYkM3ZzdGU1NfUVEtQWxhTDNBbW02RF9xT0k0MmZ6dE8xTldXa2psOFRRdzBKUG9hQUZJQ3dOdFJ6VmpTdjhqbVdhVG05d0VjaHNJcFFrVFNJMlJNWjFBY0dvTXRRcDZucXNKei1hdjNmdw"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普政敌参议员初选落败",
+      "summary": "美国总统特朗普与卫生部长肯尼迪成功推动击败路易斯安那州共和党初选中的参议员比尔·卡西迪，显示特朗普对共和党控制力稳固。此举可能利好加密行业，因特朗普政策倾向放松监管。不过直接影响有限，属于政治背景消息。轻度看多。",
+      "reason": "政治事件可能影响未来加密监管走向，但短期影响不大。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513069.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "泰国查处非法比特币挖矿",
+      "summary": "泰国当局突查一处非法比特币挖矿点，因高耗电导致电缆过热，电力损失超8万美元，查获多台矿机。该事件可能引发对挖矿监管的担忧，但属局部事件，对币价影响微弱，信号中性。",
+      "reason": "监管执法事件，但规模小，不构成重大影响。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513071.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "有效新消息较少，仅筛选出4条。多数Binance公告、恐惧贪婪指数及其他重复消息已去重排除。"
+}
