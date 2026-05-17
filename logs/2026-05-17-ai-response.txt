@@ -801,3 +801,90 @@ content length: 1778
   ],
   "note": "由于大量历史消息重复，仅筛选出3条新且有交易价值的信息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1100, prompt_tokens=8946, total_tokens=10046, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1056, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7794)
+content length: 84
+============================================================
+{
+  "news": [],
+  "note": "当前时段无新增关键消息，大部分新闻与历史重复，恐惧贪婪指数27无变化，建议关注后续ETF资金流向及宏观数据。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1819, prompt_tokens=8946, total_tokens=10765, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=210, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8832), prompt_cache_hit_tokens=8832, prompt_cache_miss_tokens=114)
+content length: 3387
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至27",
+      "summary": "恐惧贪婪指数从31降至27，处于恐惧区间。历史数据显示极度恐惧（<20）是中长期抄底信号，当前27虽未极端但仍偏恐惧，可能预示市场情绪接近底部，适合左侧布局。影响BTC/ETH及主流币种，信号偏中性但中长期看多。",
+      "reason": "市场情绪极值信号，优先级三，指数变化从31到27，新数据非重复。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密市场蒸发700亿美元",
+      "summary": "Crypto market shed $70B as Bitcoin dips to $77,800。比特币跌破78K，市场总市值缩水700亿美元。短期抛压明显，ETF流出、伊朗地缘紧张等利空叠加。BTC/ETH及相关币种承压，信号偏空。但需关注支撑位是否企稳。",
+      "reason": "直接影响行情，比特币价格暴跌，优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "MSN", "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWU9oZXhMY2tJN1RuX3JCbXpKUjJDODF3VTV6a3FfRGhZNEdYNzBwMHVDR1ZlS2E0dkNqMUJxSE5LMjNneWpGQkQ5RWl2OWt0a2N6eFQxU3dROXZ6VFdGNHloUFpqY0FwZWtUSkhQQ054QnYwVXRSd0ZyeE1QMlhyV05najJUVENfOEwwNDlVYm53OTJGR3A3aXlEZUdjSnhoaUM5UjBTVmtySnhNNVlpR29sNURmMU11VlpqWEpDYnNtUTBNelE?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC HODLers仍看涨",
+      "summary": "尽管比特币跌破80K，长期持有者（HODLers）依然保持看涨态度。链上数据显示持有者未恐慌抛售，可能意味着当前下跌是洗盘而非趋势反转。对BTC形成中长期支撑，信号偏多。",
+      "reason": "市场情绪和链上行为，优先级三，非重复消息。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "AMBCrypto", "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb1FtNnRpQlVVUUpQNjB4cmpGMkZJdThNaEd0a3YxamcyZXVvYUtpRzU1eWVEa29qT211ZXd3c291ZWJTaVQ4Y1VscjlMWWtrcnZsLXpaTHduTllnOE5xcmxoc1pqek9vbHF1RG5KLUp3b05FX0lRQ3N0aGVzV2Q4SFkzeEtodjhmQVpWcXVxYVJSZ9IBlwFBVV95cUxQLTMzUWZ1R3ltOU5EcFdHVHdwakdJX0FTWXlCdlQ0SFlsVVQ1cEVvMDYxR0IwcHp4UGVMb0JDdWI1UlpEaUx0UXJLN2xnMGZURDN4WTVBVTIxNUdMNFpaZFJ2WHNnaWhCb01ySzROUDBtTkFjZ1EyMGxCempNeGNwYmNKc2xVcnVtSURPOGhaTlJVcjR0eEQ4?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY Act威胁山寨币",
+      "summary": "Reddit讨论CLARITY Act将终结许多山寨币。该法案若通过，可能对未注册证券属性的代币实施严格监管，导致大量altcoin退市或归零。影响范围广，对大多数非BTC/ETH的山寨币构成重大利空，但对BTC可能相对利好（合规避险）。",
+      "reason": "重大监管动态，优先级一，新消息非重复。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "SOL", "XRP", "ADA"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tf98i1/the_clarity_act_will_end_a_lot_of_altcoins/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普增持Coinbase及BTC股票",
+      "summary": "特朗普将Coinbase和比特币相关股票加入投资组合，显示政治人物对加密行业的认可。此举可能提振市场信心，尤其利好Coinbase（COIN）及BTC相关资产。信号偏多，但需注意特朗普言论的时效性。",
+      "reason": "机构动向，优先级二，非重复。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "COIN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CryptoPotato", "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWU9oZXhMY2tJN1RuX3JCbXpKUjJDODF3VTV6a3FfRGhZNEdYNzBwMHVDR1ZlS2E0dkNqMUJxSE5LMjNneWpGQkQ5RWl2OWt0a2N6eFQxU3dROXZ6VFdGNHloUFpqY0FwZWtUSkhQQ054QnYwVXRSd0ZyeE1QMlhyV05najJUVENfOEwwNDlVYm53OTJGR3A3aXlEZUdjSnhoaUM5UjBTVmtySnhNNVlpR29sNURmMU11VlpqWEpDYnNtUTBNelE?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
