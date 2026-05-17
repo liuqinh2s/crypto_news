@@ -963,3 +963,241 @@ content length: 2147
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1093, prompt_tokens=7799, total_tokens=8892, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=844, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6647)
+content length: 577
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸出售21.3万HYPE获利",
+      "summary": "金色财经报道，某巨鲸以5.63美元均价出售21.3万枚HYPE，获利约280万美元，目前仍持有110万枚HYPE。该地址近期累计从交易所接收HYPE，此次抛售可能预示短期卖压，影响HYPE价格。属于链上异动，看空HYPE。",
+      "reason": "巨鲸大额抛售属于优先级一的链上异动，直接影响HYPE供需，为明确看空信号。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513062.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分为重复的Binance公告和情绪性内容，仅此一条新消息具有交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=790, prompt_tokens=7799, total_tokens=8589, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=512, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7680), prompt_cache_hit_tokens=7680, prompt_cache_miss_tokens=119)
+content length: 628
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸出售21.3万枚HYPE获利280万美元",
+      "summary": "某巨鲸地址在链上出售21.3万枚HYPE代币，实现约280万美元利润。该行为可能引发市场对HYPE抛压的担忧，对HYPE价格构成短期利空。HYPE为Hypeloot项目代币，当前流动性一般，抛售可能加剧波动。影响币种：HYPE。信号：bearish。",
+      "reason": "巨鲸异动（大额卖出）符合优先级一，直接影响对应币种价格，需关注后续抛售持续性。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513062.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前抓取素材与历史消息高度重复，仅新增一条巨鲸交易消息。其余Binance公告、恐惧贪婪指数、ETF数据等均已在历史中出现，故仅筛选出1条。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1138, prompt_tokens=7799, total_tokens=8937, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=878, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7680), prompt_cache_hit_tokens=7680, prompt_cache_miss_tokens=119)
+content length: 590
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸出售21.3万HYPE获利280万",
+      "summary": "链上数据显示，某巨鲸地址出售21.3万枚HYPE代币，获利约280万美元。HYPE是Hyperliquid的原生代币，近期因链上活动活跃而受到关注。大额获利了结可能引发短期抛压，对HYPE价格构成利空，但影响有限，因数量相对较小。对其它主流币种影响中性。",
+      "reason": "优先级一：链上异动，巨鲸出售代币可能预示短期抛压，影响HYPE价格。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513062.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为重复公告或情绪类内容，仅筛选出1条具有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2438, prompt_tokens=8651, total_tokens=11089, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1966, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7499)
+content length: 1165
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸抛售21.3万枚HYPE",
+      "summary": "据Onchain Lens监测，5月17日，某巨鲸以41.84美元均价出售213,419枚HYPE，获得893万美元，获利280万美元。该巨鲸两个月内以35.59美元均价购入467,188枚HYPE，目前仍持有253,769枚HYPE。大额抛售可能对HYPE价格形成短期压力，叠加整体市场下跌背景，HYPE面临进一步下行风险。",
+      "reason": "巨鲸大额出售属于链上异动，直接影响对应币种价格，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513062.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至27",
+      "summary": "当前加密市场恐惧贪婪指数为27，分类为「Fear」，较此前31有所下降。市场情绪进一步恶化，比特币跌破78000美元，ETF持续净流出。恐惧指数持续处于低位反映市场恐慌，但尚未达到极度恐惧（<20）的抄底区间。短期可能延续弱势，但中长期可能酝酿反弹机会。",
+      "reason": "恐惧贪婪指数极值（<20或>80）对市场情绪有指示作用，虽未达极端但数值更新，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于大量重复公告和低价值内容，仅筛选出2条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1406, prompt_tokens=8651, total_tokens=10057, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=904, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8576), prompt_cache_hit_tokens=8576, prompt_cache_miss_tokens=75)
+content length: 1230
+============================================================
+{
+  "news": [
+    {
+      "title": "A16z: CLARITY Act利好国内创新",
+      "summary": "A16z crypto表示，美国CLARITY法案在创新与消费者保护间取得平衡，将促进国内加密货币创新。该法案若通过，有望为美国加密企业提供更清晰的监管框架，减少不确定性，长期利好整个加密市场。短期看多BTC、ETH及合规平台币如BNB。",
+      "reason": "监管政策预期对市场情绪和长期走势有影响，属于优先级一。A16z作为头部风投，其观点有市场引导作用。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "BNB"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/us-clarity-act-will-be-a-boon-for-domestic-innovation-a16z"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "巨鲸抛售21.3万枚HYPE",
+      "summary": "据Onchain Lens监测，某巨鲸以41.84美元均价卖出213,419枚HYPE，获利280万美元。该巨鲸仍持有25.3万枚HYPE，价值约1060万美元。此次抛售属于大额获利了结，可能对HYPE价格构成短期抛压，短期看空HYPE。",
+      "reason": "巨鲸大额卖出属于链上异动，直接对HYPE产生抛压信号，符合优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513062.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前时间段内多数重要新闻已在历史消息中重复出现（如BTC跌破78000美元、ETF周报、BNB ETF修订案、Binance上币等），仅筛选出2条具有独立价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2158, prompt_tokens=3188, total_tokens=5346, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1217, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2036)
+content length: 2359
+============================================================
+{
+  "news": [
+    {
+      "title": "US CLARITY Act 利好",
+      "summary": "美国CLARITY法案被a16z誉为将推动国内创新。该法案旨在为加密资产提供更清晰的监管框架，减少不确定性，吸引机构资金。若通过，将利好BTC、ETH等主流币，以及所有合规项目。a16z的积极评价增强市场信心，短期偏多。",
+      "reason": "重大监管动态，直接影响行情，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/us-clarity-act-will-be-a-boon-for-domestic-innovation-a16z"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸抛售21.3万HYPE",
+      "summary": "某巨鲸地址出售21.3万枚HYPE，获利280万美元。这一大额链上交易可能引发抛压，导致HYPE价格短期承压。巨鲸出货通常是看空信号，但获利了结也可能标志阶段性顶部。建议关注后续链上动向。",
+      "reason": "巨鲸异动，直接影响对应币种价格，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513062.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线Gensyn",
+      "summary": "Binance宣布将上线Gensyn (AIGENSYN)并开通现货及合约交易，同时加入理财、C2C、VIP借贷及杠杆。新币上线通常带来短期交易量和价格波动，初始供应量及市场情绪将决定走势，短期偏多。",
+      "reason": "交易所上币公告，直接影响对应币种价格，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线MegaETH",
+      "summary": "Binance将上线MegaETH (MEGA)并支持理财、C2C、VIP借贷、杠杆及合约。MegaETH是以太坊扩容方案，具有技术价值。上币利好，短期投机资金涌入，看多。",
+      "reason": "交易所上币公告，直接影响对应币种价格，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至27",
+      "summary": "当前加密货币恐惧贪婪指数为27（恐惧），处于历史较低区域。该指标反映市场情绪极度悲观，通常被视为逆向买入信号。中长期来看，低恐惧区域往往对应底部区间，但短期可能继续下跌。建议分批建仓。",
+      "reason": "市场情绪信号，恐惧极值，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Fear & Greed Index", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "hours"
+    }
+  ]
+}
