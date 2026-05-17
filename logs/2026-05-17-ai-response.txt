@@ -2438,3 +2438,94 @@ content length: 1682
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1985, prompt_tokens=8362, total_tokens=10347, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=908, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7210)
+content length: 2729
+============================================================
+{
+  "news": [
+    {
+      "title": "Kevin Warsh正式接替鲍威尔任美联储主席",
+      "summary": "Kevin Warsh正式接替Jerome Powell成为新任美联储主席。Warsh历史上偏鹰派，但近期表态支持降息。市场预期美联储政策可能转向宽松，利好风险资产。这对BTC、ETH等加密货币构成中长期看多信号，但短期需关注具体政策表态。",
+      "reason": "美联储主席换帅是重大宏观事件，直接影响全球流动性预期和风险资产定价，影响级别极高。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CCN.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUkVHNDE5ZzhkV1haV3Y0SlR2QndFRHVEZ2JDaUNsdWVacS1USU1vQkVaUVo4aEcwbmN2SVJVb1RIYnRDSE12S1ZkcTZwczF2cjZjV2F6czVYWWkxb2RSUWQ4a2pPWjEzeVpNb2xEaE54SERiTjVPaVBSNENEeFI0cG9R?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CryptoQuant：BTC短线持有者逢高离场",
+      "summary": "CryptoQuant分析师指出，比特币短线持有者（STH）在近期反弹中纷纷离场，而非继续持仓。这意味着抛压增加，可能抑制进一步上涨。该信号对BTC短期偏空，但若价格下跌可能吸引长期持有者买入。",
+      "reason": "链上行为直接反映市场情绪和供应压力，属于优先级一的链上异动信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513100.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH跌破2085美元或引发6亿清算",
+      "summary": "若以太坊价格跌破2085美元，主流CEX累计多单清算强度将达6.07亿美元。该位置为关键支撑，一旦跌破将引发连锁爆仓，加剧下跌。ETH短期面临较大下行风险。",
+      "reason": "清算级联风险直接影响价格走势，属于高影响链上事件。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513099.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance Alpha将上线Zest Protocol空投",
+      "summary": "Binance Alpha将于5月19日上线Zest Protocol（ZEST），符合条件用户可领取空投。这是新项目上币，短期可能带动ZEST价格上涨，但需注意上线后抛压。对ZEST为看多信号，对整体市场影响有限。",
+      "reason": "交易所上币直接带动新币流动性，属于优先级一的上币事件。",
+      "category": "交易所",
+      "impact_coins": ["ZEST"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513101.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "意大利最大银行Q1加密持仓翻倍至2.35亿",
+      "summary": "意大利最大银行Intesa Sanpaolo在一季度将加密货币持仓翻倍至2.35亿美元，显示传统金融机构持续增持。该机构行为对BTC、ETH等主流币种构成中长期看多信号。",
+      "reason": "大型机构增持反映主流资本持续入场，属于优先级二的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/italy-largest-bank-doubles-crypto-holdings-to-235m"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
