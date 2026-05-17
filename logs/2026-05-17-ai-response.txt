@@ -1201,3 +1201,149 @@ content length: 2359
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=886, prompt_tokens=8422, total_tokens=9308, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=835, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7270)
+content length: 94
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的27条素材中，所有内容均与历史消息重复（如Binance公告、恐惧贪婪指数27、价格下跌等），无符合筛选标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=912, prompt_tokens=8422, total_tokens=9334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=831, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8320), prompt_cache_hit_tokens=8320, prompt_cache_miss_tokens=102)
+content length: 155
+============================================================
+{
+  "news": [],
+  "note": "当前时间窗口内无新出现的具有交易价值的关键消息。所有消息均与历史记录重复或属于低价值情绪内容（如Reddit讨论、meme币预售等），未达到优先级一或二的筛选标准。建议持续关注CLARITY Act进展、BNB ETF修订案及BTC ETF资金流向。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1084, prompt_tokens=8422, total_tokens=9506, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1037, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8320), prompt_cache_hit_tokens=8320, prompt_cache_miss_tokens=102)
+content length: 85
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中所有消息均与历史消息重复或属于低价值内容（如市场情绪、营销、重复公告），未发现符合筛选标准的新事件。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1433, prompt_tokens=9192, total_tokens=10625, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1380, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8040)
+content length: 106
+============================================================
+{
+  "news": [],
+  "note": "当前6小时内无符合筛选标准的重大交易消息。市场处于下跌后的恐惧状态，但未有新催化剂出现。建议继续观察比特币能否守住78000美元支撑以及ETF资金流向。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=585, prompt_tokens=9192, total_tokens=9777, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=537, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=104)
+content length: 91
+============================================================
+{
+  "news": [],
+  "note": "本轮所有素材均与历史消息重复或无交易价值。Binance公告均为已有内容，恐惧贪婪指数未变，其他消息为市场综述或无效讨论。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2920, prompt_tokens=3937, total_tokens=6857, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1755, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2785)
+content length: 2942
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至27",
+      "summary": "恐惧贪婪指数当前为27 (Fear)，处于恐惧区间但未触及极度恐惧阈值（低于20）。历史上恐惧区域往往是中长期买入机会，但短期市场情绪偏弱，可能引发进一步下跌。指数未极端，信号中性，需结合其他数据判断。",
+      "reason": "情绪指标接近极度恐惧，但未突破，作为市场情绪参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance将上线MegaETH现货",
+      "summary": "Binance宣布将上线MegaETH (MEGA) 并开放多个产品（Earn、Buy Crypto、Convert、VIP Loan、Margin及Futures）。上币直接增加流动性，短期利好MEGA价格，但Seed Tag标签意味着波动性较高。交易者可在开盘后关注上涨机会，但需注意高波动风险。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线Gensyn现货",
+      "summary": "Binance宣布将上线Gensyn (AIGENSYN) 并开放多个产品（Earn、Buy Crypto、Convert、VIP Loan及Margin）。Gensyn是AI概念代币，上币后可能吸引资金入场，短期看多。Seed Tag提示风险，但上币事件本身提供交易机会。",
+      "reason": "交易所上币直接影响价格，AI概念热度较高。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币从12.6万跌至7.9万，VanEck看多长期",
+      "summary": "比特币从历史最高点126,000美元暴跌37%至约79,000美元。VanEck预测2031年比特币将达到100万美元，但短期价格疲软，反弹缺乏动力。当前价格处于调整阶段，需关注支撑位。长期看多但短期面临下行风险，信号中性。",
+      "reason": "价格大幅波动是市场结构事件，结合机构预测提供多空参考。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNGFha1dhMjh5SmZ5OFBKZjNEMlFMckM1R0xoYnlpZ185Ny1NeHlfSzFHajFSbWRwM0RtaHgtMEs5cVBnZnpVSXloOUJsUWpDM21hTjlScTllNDdBSVZxVF92YloxdVA1X2tLWUloTy1EUmhRZmppYmFTVmlzcm83TzczT2pseFpKbVJyb3AtajUzRVhvczlHRGx3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线BTCUSD1永续合约",
+      "summary": "Binance Futures将于2026年5月18日推出BTCUSD1 USDⓈ-Margined永续合约。新合约提供更多BTC交易对，可能增加流动性并吸引套利资金。短期对BTC价格影响中性，但长期有利于市场深度，信号偏多。",
+      "reason": "交易所推出BTC相关合约直接影响BTC交易生态。",
+      "category": "交易所",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
