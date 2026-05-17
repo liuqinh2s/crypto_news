@@ -2403,3 +2403,165 @@
 2026-05-17 13:01:09 [DEBUG]   去重: 「日本SBI证券等计划推出加密投资信托」 → URL重复: https://www.coindesk.com/business/2026/05/17/japan-s-sbi-sec
 2026-05-17 13:01:09 [INFO] 📦 JSON 已保存: reports/2026-05-17-21.json
 2026-05-17 13:01:09 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-05-17 14:00:33 [INFO] 🚀 开始抓取 2026-05-17 22:00 币圈新闻
+2026-05-17 14:00:33 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-17 14:00:33 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-17 14:00:33 [INFO]   ⏭ Decrypt: 过滤掉 37 条非近期新闻
+2026-05-17 14:00:33 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-17 14:00:33 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-17 14:00:33 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-17 14:00:33 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-17 14:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 14:00:33 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-05-17 14:00:33 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:33 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ 雪球加密: 过滤掉 48 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ CoinTelegraph: 过滤掉 21 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ Blockworks: 过滤掉 2 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ 吴说区块链: 过滤掉 41 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:34 [INFO]   ⏭ CoinDesk: 过滤掉 49 条非近期新闻
+2026-05-17 14:00:35 [INFO]   ⏭ Crypto Twitter: 过滤掉 44 条非近期新闻
+2026-05-17 14:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-17 14:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-17 14:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-17 14:00:49 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:49 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-17 14:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-17 14:00:49 [INFO]   ✓ CoinDesk: 1 条
+2026-05-17 14:00:49 [INFO]   ✓ The Block: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Decrypt: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Blockworks: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ DL News: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ 金色财经: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ PANews: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-05-17 14:00:49 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-05-17 14:00:49 [INFO]   ✓ Crypto Twitter: 6 条
+2026-05-17 14:00:49 [INFO]   ✓ 宏观经济: 1 条
+2026-05-17 14:00:49 [INFO]   ✓ Binance公告: 20 条
+2026-05-17 14:00:49 [INFO]   ✓ OKX公告: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Bitget公告: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Whale Alert: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-17 14:00:49 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-17 14:00:49 [INFO]   ✓ 雪球加密: 2 条
+2026-05-17 14:00:49 [INFO] 📊 共抓取 35 条新闻
+2026-05-17 14:00:49 [INFO] 📋 原始新闻已保存: reports/2026-05-17-22-raw.json (35 条)
+2026-05-17 14:00:49 [INFO] 📋 标题摘要已保存: reports/2026-05-17-22-raw-titles.md
+2026-05-17 14:00:49 [INFO] ✅ 抓取完成，共 35 条，已保存到 reports/2026-05-17-22-raw.json
+2026-05-17 14:00:49 [INFO] 🤖 开始 AI 筛选 2026-05-17 22:00 币圈消息
+2026-05-17 14:00:49 [INFO] 📋 已加载原始新闻: reports/2026-05-17-22-raw.json (35 条)
+2026-05-17 14:00:49 [INFO] 📚 已加载历史新闻标题（15451 字符）
+2026-05-17 14:00:49 [INFO] 📚 已加载历史筛选标题 15 条、URL 15 个，用于去重
+2026-05-17 14:00:49 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-17 14:00:49 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-17 14:00:49 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（35 条，8312 字符，temp=0.3）
+2026-05-17 14:01:15 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 1528 字符)
+2026-05-17 14:01:15 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-22-ai-raw.json
+2026-05-17 14:01:15 [DEBUG] parse_json_response 输入长度: 1528 字符
+2026-05-17 14:01:15 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Uniswap DAO收回4200万治理代币",
+      "summary": "Uniswap DAO投票决定收回此前借给代表的4200万美元治理代币。这一举措旨在加强治理安全，减少代币被滥用风险。可能影响Uni币价，短期看多因减少潜在抛压，但实际影响有限。",
+      "reason": "项目重大治理事件，直接涉及代币供应和治理安全，对Uni有影响。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"],
+      "signal": "bull
+2026-05-17 14:01:15 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 14:01:15 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 14:01:15 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 14:01:15 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（35 条，8312 字符，temp=0.3）
+2026-05-17 14:01:45 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 1661 字符)
+2026-05-17 14:01:45 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-22-ai-raw.json
+2026-05-17 14:01:45 [DEBUG] parse_json_response 输入长度: 1661 字符
+2026-05-17 14:01:45 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Uniswap DAO收回4200万治理代币",
+      "summary": "Uniswap DAO投票通过收回此前借给治理代表的4200万美元等值UNI代币。这些代币原用于委托治理，但被批评效率低下且存在风险。收回后可能减少流通或重新分配，短期对UNI价格影响有限，但显示社区治理收紧，属于项目更新。影响币种：UNI。信号中性偏多，因收回可能降低卖压。",
+      "reason": "项目方重大治理事件，涉及4200万美元代币，影响Uniswap生态，属于优先级一的项目更新。",
+      "categor
+2026-05-17 14:01:45 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 14:01:45 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 14:01:45 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 14:01:45 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（35 条，8312 字符，temp=0.3）
+2026-05-17 14:02:17 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 1556 字符)
+2026-05-17 14:02:17 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-22-ai-raw.json
+2026-05-17 14:02:17 [DEBUG] parse_json_response 输入长度: 1556 字符
+2026-05-17 14:02:17 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "15亿稳定币流入Binance",
+      "summary": "据AMBCrypto报道，约15亿美元稳定币（USDT/USDC）大额流入Binance交易所。这通常意味着资金准备入场，可能推动BTC及主流币价格上涨。历史数据表明，大额稳定币流入后往往伴随市场反弹，信号看多。",
+      "reason": "大额稳定币流入交易所是典型看多信号，属于优先级一链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH", "BNB"],
+2026-05-17 14:02:17 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 14:02:17 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 14:02:17 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 14:02:17 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（35 条，11364 字符，temp=0.3）
+2026-05-17 14:02:41 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 1705 字符)
+2026-05-17 14:02:41 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-22-ai-raw.json
+2026-05-17 14:02:41 [DEBUG] parse_json_response 输入长度: 1705 字符
+2026-05-17 14:02:41 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Uniswap DAO收回4200万治理代币",
+      "summary": "Uniswap DAO投票决定从代表手中收回价值4200万美元的治理代币，这些代币此前被借出用于治理参与。此举旨在加强DAO的治理权力和财政储备。该事件对UNI代币的供应量和治理结构有直接影响，减少市场流通量可能对价格产生支撑。信号中性偏多，但影响有限。",
+      "reason": "项目治理重大事件，直接影响UNI代币供应和治理权力，属于优先级一的项目更新。",
+      "category": "项目更新",
+      "
+2026-05-17 14:02:41 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 14:02:41 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 14:02:41 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 14:02:41 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（35 条，11364 字符，temp=0.3）
+2026-05-17 14:03:03 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 1603 字符)
+2026-05-17 14:03:03 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-22-ai-raw.json
+2026-05-17 14:03:03 [DEBUG] parse_json_response 输入长度: 1603 字符
+2026-05-17 14:03:03 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Uniswap DAO收回4200万治理代币",
+      "summary": "Uniswap DAO投票决定从代表手中收回4200万美元的治理代币（UNI），这些代币原已借给代表用于治理。收回将减少市场流通中的UNI代币供应，可能对价格构成短期利好。影响币种：UNI。信号：看多（减少流通）。",
+      "reason": "项目治理重大动作，直接影响UNI代币供应，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"]
+2026-05-17 14:03:03 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 14:03:03 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 14:03:03 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 14:03:03 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（35 条，8312 字符，temp=0.3）
+2026-05-17 14:03:37 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 3884 字符)
+2026-05-17 14:03:37 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-22-ai-raw.json
+2026-05-17 14:03:37 [DEBUG] parse_json_response 输入长度: 3884 字符
+2026-05-17 14:03:37 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "哈佛抛售BTC/ETH ETF，达特茅斯买入SOL",
+      "summary": "哈佛大学大幅减持其比特币ETF持仓，并完全清仓以太坊ETF，同时达特茅斯学院开始买入Solana。机构资金流向分化，显示对ETH的谨慎态度和对SOL的看好。可能引发ETH短期抛压，利好SOL。信号看空ETH、看多SOL，影响中等。",
+      "reason": "机构动向直接影响市场情绪和资金流向，属于优先级二。哈佛的减持行为可能被市场解读为机构对ETH的悲观信号，而达特茅斯买入SOL则提供支撑。",
+      "categ
+2026-05-17 14:03:37 [DEBUG] 从 JSON 对象的 news 字段提取到 6 条记录
+2026-05-17 14:03:37 [INFO] ✅ AI 返回 6 条新闻
+2026-05-17 14:03:37 [INFO] ✅ AI 筛选出 6 条交易相关消息，符合预期
+2026-05-17 14:03:37 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
+2026-05-17 14:03:37 [INFO] 📦 JSON 已保存: reports/2026-05-17-22.json
+2026-05-17 14:03:37 [INFO] ✅ AI 筛选完成，共 6 条交易相关消息

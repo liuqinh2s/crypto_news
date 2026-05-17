@@ -2776,3 +2776,312 @@ content length: 3374
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2247, prompt_tokens=10241, total_tokens=12488, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1533, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9089)
+content length: 1528
+============================================================
+{
+  "news": [
+    {
+      "title": "Uniswap DAO收回4200万治理代币",
+      "summary": "Uniswap DAO投票决定收回此前借给代表的4200万美元治理代币。这一举措旨在加强治理安全，减少代币被滥用风险。可能影响Uni币价，短期看多因减少潜在抛压，但实际影响有限。",
+      "reason": "项目重大治理事件，直接涉及代币供应和治理安全，对Uni有影响。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfpavy/uniswap_dao_votes_to_take_back_42m_of_governance/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "15亿美元稳定币流入Binance",
+      "summary": "据报道，15亿美元稳定币（USDT/USDC）流入Binance交易所。这通常被视为资金入场信号，可能推动BTC和ETH等主要加密货币上涨。历史数据显示大额稳定币流入往往伴随价格上涨，短期看多。",
+      "reason": "大额稳定币流入交易所是资金入场信号，对BTC和ETH看多。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbVhURFhzajI1aF8zcFJQQVdqOEJkYUs2TFpkZEpLS3ROV0F3cDdTemhqcndyMTRpWkVaUVVXNGVYX2RPNzgwdTlZY1NzajUyaWRuRWFxdkxTMHRENEpaQ2VLNVFSZXRqRU9rRFVmVHQ5YmVaa08tSlB5Unh6dE9yaElRLWVHbXZLd2toZUk3cmpQNGJVMFNz0gGcAUFVX3lxTFBqU0RrNW1SbDZqZm4zelR1TkF0U1VjQUU1Mld6SmJqWXVSQ0FlcXpyZUo0ZnNWNXJ3VFNaOVlZTG9KS0pqOXhOWHJyeUtLSW1ydG1NOWd4Z2VwMklSMGZ3ay1SRzhCUjNQckdKYlVySTZCVDBUTlBfMldhMWU1RzhYYVJpSWtfa1ZTYno3VURfMjJHc1RkLUFnSk4yMg?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "大部分新闻与历史重复，仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2260, prompt_tokens=10241, total_tokens=12501, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1479, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10240), prompt_cache_hit_tokens=10240, prompt_cache_miss_tokens=1)
+content length: 1661
+============================================================
+{
+  "news": [
+    {
+      "title": "Uniswap DAO收回4200万治理代币",
+      "summary": "Uniswap DAO投票通过收回此前借给治理代表的4200万美元等值UNI代币。这些代币原用于委托治理，但被批评效率低下且存在风险。收回后可能减少流通或重新分配，短期对UNI价格影响有限，但显示社区治理收紧，属于项目更新。影响币种：UNI。信号中性偏多，因收回可能降低卖压。",
+      "reason": "项目方重大治理事件，涉及4200万美元代币，影响Uniswap生态，属于优先级一的项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfpavy/uniswap_dao_votes_to_take_back_42m_of_governance/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "15亿美元稳定币流入币安",
+      "summary": "据AMBCrypto报道，价值15亿美元的稳定币（USDT/USDC）流入Binance交易所。大规模稳定币入金通常被视为资金准备入场信号，可能推动BTC及主流币上涨。但需观察后续是否转换为加密货币。历史数据表明此类流入后短期上涨概率较高。影响币种：BTC、ETH。看多。",
+      "reason": "大额稳定币流入交易所，是优先级一的巨鲸/资金异动，直接利好市场。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "AMBCrypto via Google News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbVhURFhzajI1aF8zcFJQQVdqOEJkYUs2TFpkZEpLS3ROV0F3cDdTemhqcndyMTRpWkVaUVVXNGVYX2RPNzgwdTlZY1NzajUyaWRuRWFxdkxTMHRENEpaQ2VLNVFSZXRqRU9rRFVmVHQ5YmVaa08tSlB5Unh6dE9yaElRLWVHbXZLd2toZUk3cmpQNGJVMFNz0gGcAUFVX3lxTFBqU0RrNW1SbDZqZm4zelR1TkF0U1VjQUU1Mld6SmJqWXVSQ0FlcXpyZUo0ZnNWNXJ3VFNaOVlZTG9KS0pqOXhOWHJyeUtLSW1ydG1NOWd4Z2VwMklSMGZ3ay1SRzhCUjNQckdKYlVySTZCVDBUTlBfMldhMWU1RzhYYVJpSWtfa1ZTYno3VURfMjJHc1RkLUFnSk4yMg"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮素材中多数消息与历史重复，仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3076, prompt_tokens=10241, total_tokens=13317, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2349, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10240), prompt_cache_hit_tokens=10240, prompt_cache_miss_tokens=1)
+content length: 1556
+============================================================
+{
+  "news": [
+    {
+      "title": "15亿稳定币流入Binance",
+      "summary": "据AMBCrypto报道，约15亿美元稳定币（USDT/USDC）大额流入Binance交易所。这通常意味着资金准备入场，可能推动BTC及主流币价格上涨。历史数据表明，大额稳定币流入后往往伴随市场反弹，信号看多。",
+      "reason": "大额稳定币流入交易所是典型看多信号，属于优先级一链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH", "BNB"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbVhURFhzajI1aF8zcFJQQVdqOEJkYUs2TFpkZEpLS3ROV0F3cDdTemhqcndyMTRpWkVaUVVXNGVYX2RPNzgwdTlZY1NzajUyaWRuRWFxdkxTMHRENEpaQ2VLNVFSZXRqRU9rRFVmVHQ5YmVaa08tSlB5Unh6dE9yaElRLWVHbXZLd2toZUk3cmpQNGJVMFNz0gGcAUFVX3lxTFBqU0RrNW1SbDZqZm4zelR1TkF0U1VjQUU1Mld6SmJqWXVSQ0FlcXpyZUo0ZnNWNXJ3VFNaOVlZTG9KS0pqOXhOWHJyeUtLSW1ydG1NOWd4Z2VwMklSMGZ3ay1SRzhCUjNQckdKYlVySTZCVDBUTlBfMldhMWU1RzhYYVJpSWtfa1ZTYno3VURfMjJHc1RkLUFnSk4yMg"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Uniswap DAO回收4200万UNI",
+      "summary": "Uniswap DAO投票通过，将收回此前借给代表的约4200万美元等值UNI治理代币。此举可能降低流通供应，短期内对UNI价格构成支撑，但因规模相对市值较小，影响有限。信号中性偏多。",
+      "reason": "项目方治理事件，涉及代币回收，属于优先级二项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfpavy/uniswap_dao_votes_to_take_back_42m_of_governance/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮有效新消息较少，仅筛选出2条符合标准的关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1870, prompt_tokens=11170, total_tokens=13040, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1061, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10018)
+content length: 1705
+============================================================
+{
+  "news": [
+    {
+      "title": "Uniswap DAO收回4200万治理代币",
+      "summary": "Uniswap DAO投票决定从代表手中收回价值4200万美元的治理代币，这些代币此前被借出用于治理参与。此举旨在加强DAO的治理权力和财政储备。该事件对UNI代币的供应量和治理结构有直接影响，减少市场流通量可能对价格产生支撑。信号中性偏多，但影响有限。",
+      "reason": "项目治理重大事件，直接影响UNI代币供应和治理权力，属于优先级一的项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfpavy/uniswap_dao_votes_to_take_back_42m_of_governance/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "15亿美元稳定币流入币安",
+      "summary": "监测数据显示价值15亿美元的稳定币（主要为USDT和USDC）大额流入币安交易所。稳定币流入通常被视为资金准备入场买入加密货币的信号，对BTC和ETH等主要币种形成潜在买盘支撑。虽然短期价格可能不会立即反应，但增加了市场流动性，属于积极信号。",
+      "reason": "大额稳定币流入交易所是典型的资金入场信号，属于优先级一的链上异动，对整体市场情绪有提振作用。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "AMBCrypto via Google News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbVhURFhzajI1aF8zcFJQQVdqOEJkYUs2TFpkZEpLS3ROV0F3cDdTemhqcndyMTRpWkVaUVVXNGVYX2RPNzgwdTlZY1NzajUyaWRuRWFxdkxTMHRENEpaQ2VLNVFSZXRqRU9rRFVmVHQ5YmVaa08tSlB5Unh6dE9yaElRLWVHbXZLd2toZUk3cmpQNGJVMFNz0gGcAUFVX3lxTFBqU0RrNW1SbDZqZm4zelR1TkF0U1VjQUU1Mld6SmJqWXVSQ0FlcXpyZUo0ZnNWNXJ3VFNaOVlZTG9KS0pqOXhOWHJyeUtLSW1ydG1NOWd4Z2VwMklSMGZ3ay1SRzhCUjNQckdKYlVySTZCVDBUTlBfMldhMWU1RzhYYVJpSWtfa1ZTYno3VURfMjJHc1RkLUFnSk4yMg?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前时段符合条件的新消息较少，仅筛选出2条。恐惧贪婪指数27（Fear）虽持续但数值未变，已按去重规则排除。部分Binance公告已在前几轮重复出现，未再选入。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2001, prompt_tokens=11170, total_tokens=13171, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1248, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11136), prompt_cache_hit_tokens=11136, prompt_cache_miss_tokens=34)
+content length: 1603
+============================================================
+{
+  "news": [
+    {
+      "title": "Uniswap DAO收回4200万治理代币",
+      "summary": "Uniswap DAO投票决定从代表手中收回4200万美元的治理代币（UNI），这些代币原已借给代表用于治理。收回将减少市场流通中的UNI代币供应，可能对价格构成短期利好。影响币种：UNI。信号：看多（减少流通）。",
+      "reason": "项目治理重大动作，直接影响UNI代币供应，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfpavy/uniswap_dao_votes_to_take_back_42m_of_governance/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "15亿美元稳定币流入币安",
+      "summary": "据AMBCrypto报道，约15亿美元稳定币（USDT/USDC）流入Binance交易所。大额稳定币流入通常意味着资金准备入场购买加密货币，是典型看多信号。影响币种：BTC、ETH及主流币。信号：看多（资金准备入场）。",
+      "reason": "大额稳定币异动属于优先级一的巨鲸/资金信号，直接预示买盘潜力。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "AMBCrypto via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbVhURFhzajI1aF8zcFJQQVdqOEJkYUs2TFpkZEpLS3ROV0F3cDdTemhqcndyMTRpWkVaUVVXNGVYX2RPNzgwdTlZY1NzajUyaWRuRWFxdkxTMHRENEpaQ2VLNVFSZXRqRU9rRFVmVHQ5YmVaa08tSlB5Unh6dE9yaElRLWVHbXZLd2toZUk3cmpQNGJVMFNz0gGcAUFVX3lxTFBqU0RrNW1SbDZqZm4zelR1TkF0U1VjQUU1Mld6SmJqWXVSQ0FlcXpyZUo0ZnNWNXJ3VFNaOVlZTG9KS0pqOXhOWHJyeUtLSW1ydG1NOWd4Z2VwMklSMGZ3ay1SRzhCUjNQckdKYlVySTZCVDBUTlBfMldhMWU1RzhYYVJpSWtfa1ZTYno3VURfMjJHc1RkLUFnSk4yMg?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮筛选仅有2条新消息，因大量内容与历史重复或被排除。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3145, prompt_tokens=5221, total_tokens=8366, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1417, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=4069)
+content length: 3884
+============================================================
+{
+  "news": [
+    {
+      "title": "哈佛抛售BTC/ETH ETF，达特茅斯买入SOL",
+      "summary": "哈佛大学大幅减持其比特币ETF持仓，并完全清仓以太坊ETF，同时达特茅斯学院开始买入Solana。机构资金流向分化，显示对ETH的谨慎态度和对SOL的看好。可能引发ETH短期抛压，利好SOL。信号看空ETH、看多SOL，影响中等。",
+      "reason": "机构动向直接影响市场情绪和资金流向，属于优先级二。哈佛的减持行为可能被市场解读为机构对ETH的悲观信号，而达特茅斯买入SOL则提供支撑。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "SOL", "BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfpafp/harvard_dumps_its_ethereum_and_bitcoin_etf/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "15亿美元稳定币流入Binance",
+      "summary": "据AMBCrypto报道，价值15亿美元的稳定币（USDT/USDC）大额流入Binance交易所。稳定币流入通常意味着资金准备入场，对BTC及整体市场构成看涨信号。历史上类似规模的流入常伴随后续上涨。",
+      "reason": "稳定币流入是优先级一的重要指标，直接反映潜在买盘，影响广泛。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "AMBCrypto", "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbVhURFhzajI1aF8zcFJQQVdqOEJkYUs2TFpkZEpLS3ROV0F3cDdTemhqcndyMTRpWkVaUVVXNGVYX2RPNzgwdTlZY1NzajUyaWRuRWFxdkxTMHRENEpaQ2VLNVFSZXRqRU9rRFVmVHQ5YmVaa08tSlB5Unh6dE9yaElRLWVHbXZLd2toZUk3cmpQNGJVMFNz0gGcAUFVX3lxTFBqU0RrNW1SbDZqZm4zelR1TkF0U1VjQUU1Mld6SmJqWXVSQ0FlcXpyZUo0ZnNWNXJ3VFNaOVlZTG9KS0pqOXhOWHJyeUtLSW1ydG1NOWd4Z2VwMklSMGZ3ay1SRzhCUjNQckdKYlVySTZCVDBUTlBfMldhMWU1RzhYYVJpSWtfa1ZTYno3VURfMjJHc1RkLUFnSk4yMg?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上架Gensyn (AIGENSYN)",
+      "summary": "Binance宣布将上架Gensyn (AIGENSYN) 并开通现货交易，同时支持挖矿、借贷等。新币上线通常带来短期投机热度，可能在开盘后出现波动。需注意Binance对种子标签项目的风险提示。短线看多AIGENSYN，但需关注卖压。",
+      "reason": "交易所上币属于优先级一，直接影响对应币种价格。Gensyn是AI相关项目，具有一定炒作题材。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架MegaETH (MEGA)",
+      "summary": "Binance将上架MegaETH (MEGA) 并开通现货交易，同时支持多种产品。MegaETH是以太坊L2的MegaETH链原生代币，市场关注度较高。上架消息可能推动短期价格上涨，但需注意种子标签风险。短线看多MEGA。",
+      "reason": "同上，交易所上币直接影响。MegaETH与以太坊生态相关，影响力略高于一般小币。",
+      "category": "交易所",
+      "impact_coins": ["MEGA", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Uniswap DAO投票收回4200万代币",
+      "summary": "Uniswap DAO投票通过，将从代表手中收回4200万美元的治理代币UNI贷款。此举减少流通供应，可能对UNI价格产生积极影响，并改善治理效率。短期看多UNI。",
+      "reason": "项目重大事件（减少供应）属于优先级一，直接影响UNI。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfpavy/uniswap_dao_votes_to_take_back_42m_of_governance/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "VerifiedX推出可编程比特币vBTC",
+      "summary": "VerifiedX通过Prism隐私层推出可编程比特币vBTC，旨在将智能合约功能引入比特币网络。技术升级可能提升比特币的可扩展性和隐私性，中长期利好BTC生态。但短期影响有限，市场反应平淡。",
+      "reason": "技术升级属于优先级二，但影响力中等。该消息来源较多，但重复，选择一条代表性报道。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXJBVTZ0RGpzMm9jbzJPMkM2NDBwbUp5dDNHRU1VQ2duZTdFN0xpUVlWdzZvOVNmbDdXTG9DWGVaUnJfd19ERHZBSnBzd0dXajlydGhwMm5ycHEyZHdmSERYenhPZEpObC1mdlB6eXVKUFZrSFdYR1E5YS1vRzdLWm52LTNOWFN3Q3dIajJWNThFNlQzOVRmallPY3kzdDlUUk5XNllZZ092SnlyVFlJV1otWlhLV1U0R0lv?oc=5"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
