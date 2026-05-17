@@ -643,3 +643,106 @@
 2026-05-17 21:01:47 [DEBUG]   去重: 「Unstoppable交易所被黑停盘」 → URL重复: https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzVzb3h
 2026-05-17 21:01:47 [INFO] 📦 JSON 已保存: reports/2026-05-18-05.json
 2026-05-17 21:01:47 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-05-17 22:00:32 [INFO] 🚀 开始抓取 2026-05-18 06:00 币圈新闻
+2026-05-17 22:00:32 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-17 22:00:32 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-17 22:00:32 [INFO]   ⏭ Decrypt: 过滤掉 36 条非近期新闻
+2026-05-17 22:00:32 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-17 22:00:32 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 22:00:33 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-17 22:00:33 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ 宏观经济: 过滤掉 17 条非近期新闻
+2026-05-17 22:00:33 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:34 [INFO]   ⏭ Blockworks: 过滤掉 4 条非近期新闻
+2026-05-17 22:00:34 [INFO]   ⏭ 吴说区块链: 过滤掉 40 条非近期新闻
+2026-05-17 22:00:34 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-05-17 22:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:34 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:34 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:34 [INFO]   ⏭ Crypto Twitter: 过滤掉 47 条非近期新闻
+2026-05-17 22:00:35 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 24 条非近期新闻
+2026-05-17 22:00:36 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-17 22:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-17 22:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-17 22:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-17 22:00:48 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-05-17 22:00:48 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:49 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:49 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-05-17 22:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-17 22:00:49 [INFO]   ✓ CoinDesk: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ The Block: 1 条
+2026-05-17 22:00:49 [INFO]   ✓ Decrypt: 1 条
+2026-05-17 22:00:49 [INFO]   ✓ CoinTelegraph: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Blockworks: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ DL News: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ 金色财经: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ PANews: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-17 22:00:49 [INFO]   ✓ Reddit r/bitcoin: 1 条
+2026-05-17 22:00:49 [INFO]   ✓ Crypto Twitter: 3 条
+2026-05-17 22:00:49 [INFO]   ✓ 宏观经济: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Binance公告: 20 条
+2026-05-17 22:00:49 [INFO]   ✓ OKX公告: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Bitget公告: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Whale Alert: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-17 22:00:49 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-17 22:00:49 [INFO]   ✓ 雪球加密: 1 条
+2026-05-17 22:00:49 [INFO] 📊 共抓取 29 条新闻
+2026-05-17 22:00:49 [INFO] 📋 原始新闻已保存: reports/2026-05-18-06-raw.json (29 条)
+2026-05-17 22:00:49 [INFO] 📋 标题摘要已保存: reports/2026-05-18-06-raw-titles.md
+2026-05-17 22:00:49 [INFO] ✅ 抓取完成，共 29 条，已保存到 reports/2026-05-18-06-raw.json
+2026-05-17 22:00:49 [INFO] 🤖 开始 AI 筛选 2026-05-18 06:00 币圈消息
+2026-05-17 22:00:49 [INFO] 📋 已加载原始新闻: reports/2026-05-18-06-raw.json (29 条)
+2026-05-17 22:00:49 [INFO] 📚 已加载历史新闻标题（18102 字符）
+2026-05-17 22:00:49 [INFO] 📚 已加载历史筛选标题 15 条、URL 15 个，用于去重
+2026-05-17 22:00:49 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-17 22:00:49 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-17 22:00:49 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（29 条，6388 字符，temp=0.3）
+2026-05-17 22:01:11 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 838 字符)
+2026-05-17 22:01:11 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-06-ai-raw.json
+2026-05-17 22:01:11 [DEBUG] parse_json_response 输入长度: 838 字符
+2026-05-17 22:01:11 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Scaramucci称比特币将S曲线增长",
+      "summary": "前白宫通讯主任Anthony Scaramucci表示，比特币将像亚马逊和微软一样遵循S曲线采用路径，无法被贬值。他对比特币长期前景持强烈看多观点。虽然这只是个人观点，但在当前BTC震荡区间内可能提振市场信心。短期影响有限，但可作为中长期看多信号。",
+      "reason": "KOL集体看多信号，属于市场情绪类消息，虽优先级较低，但当前市场缺乏重大事件，该言论可能引发短期关注。",
+      "category": "市场情绪",
+2026-05-17 22:01:11 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-17 22:01:11 [INFO] ✅ AI 返回 1 条新闻
+2026-05-17 22:01:11 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-17 22:01:11 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（29 条，6388 字符，temp=0.3）
+2026-05-17 22:01:20 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 2735 字符)
+2026-05-17 22:01:20 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-06-ai-raw.json
+2026-05-17 22:01:20 [DEBUG] parse_json_response 输入长度: 2735 字符
+2026-05-17 22:01:20 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "CLARITY Act通过参议院银行委员会",
+      "summary": "美国《加密货币法律明确性法案》在参议院银行委员会通过，为加密资产分类和监管提供法律框架。该法案若最终成为法律，将利好整个加密市场，尤其是BTC和ETH等主流币。但消息公布后BTC并未大涨，显示市场仍在消化，且后续还需众议院投票。长期看多信号。",
+      "reason": "重大监管动态，直接影响行情，优先级一。法案通过可减少监管不确定性，提振市场信心。",
+      "category": "监管政策",
+      "impac
+2026-05-17 22:01:20 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-05-17 22:01:20 [INFO] ✅ AI 返回 5 条新闻
+2026-05-17 22:01:20 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-05-17 22:01:20 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-05-17 22:01:20 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-17 22:01:20 [DEBUG]   去重: 「巨鲸5000万刀做空ETH，2500万做多BTC」 → 标题相似: 巨鲸5000万美元做空ETH
+2026-05-17 22:01:20 [INFO] 📦 JSON 已保存: reports/2026-05-18-06.json
+2026-05-17 22:01:20 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
