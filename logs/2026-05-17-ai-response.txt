@@ -672,3 +672,132 @@ content length: 1460
   ],
   "note": "本轮筛选仅3条新消息，其余均为重复内容或低价值讨论，符合交易消息过滤要求。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1747, prompt_tokens=8631, total_tokens=10378, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1323, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7479)
+content length: 1088
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数跌至27",
+      "summary": "恐惧贪婪指数从31降至27，处于恐惧区间但未达极值。市场情绪偏空，但历史数据表明恐惧区间可能是中线建仓机会。影响所有币种情绪，短期可能继续承压，但中长期看多。",
+      "reason": "市场情绪指标更新，数值变化反映恐慌加剧，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "STRC优先股风险被低估",
+      "summary": "CoinTelegraph分析师指出，Strategy优先股投资者可能严重低估了赎回权与转换权之间的错位风险，存在资金外流隐患。若优先股持有者大规模转换或赎回，可能迫使Strategy卖出比特币以筹集现金，形成抛压。影响比特币及MSTR相关资产，偏空信号。",
+      "reason": "机构债务风险可能传导至比特币，属于机构动向与链上异动潜在触发因素。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前其他消息多为重复历史公告或低价值讨论，仅筛选出2条有效交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1431, prompt_tokens=8631, total_tokens=10062, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=975, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8576), prompt_cache_hit_tokens=8576, prompt_cache_miss_tokens=55)
+content length: 1167
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至27",
+      "summary": "恐惧贪婪指数从31进一步下降至27，仍处于恐惧区间。历史数据显示极度恐惧（<20）通常是中长期抄底信号，但当前指数未达极值。市场情绪持续恶化，可能预示短期继续回调，但中期看空动能减弱。影响所有币种，偏中性信号。",
+      "reason": "恐惧贪婪指数极值区域（<20极度恐惧）是重要市场情绪信号，当前数值下降但未达极值，属于中期关注信号，适合选入。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "STRC优先股错误定价风险",
+      "summary": "分析师指出Strategy（STRC）优先股投资者严重低估了“脱节”风险，可能引发价格重估。Strategy持有大量BTC，其优先股波动可能传导至BTC。若优先股抛售，或迫使Strategy减持BTC，构成看空信号。影响BTC及相关标的。",
+      "reason": "优先级一：项目方重大事件（若STRC被迫减持BTC将直接打压价格）。分析师警告风险，需警惕。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场消息重复性高，仅有两条新信号符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1600, prompt_tokens=8631, total_tokens=10231, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=848, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8576), prompt_cache_hit_tokens=8576, prompt_cache_miss_tokens=55)
+content length: 1778
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌至77700市值蒸发700亿",
+      "summary": "加密货币市场总市值蒸发约700亿美元，比特币价格跌至77,800美元，创两周新低。这是继之前跌破78K后的进一步下探，显示抛压加剧。影响BTC及整个市场。短期内看空信号。",
+      "reason": "BTC价格跌破新低且市值大幅蒸发，属于直接影响行情的重大价格异动，优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "MSN",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWU9oZXhMY2tJN1RuX3JCbXpKUjJDODF3VTV6a3FfRGhZNEdYNzBwMHVDR1ZlS2E0dkNqMUJxSE5LMjNneWpGQkQ5RWl2OWt0a2N6eFQxU3dROXZ6VFdGNHloUFpqY0FwZWtUSkhQQ054QnYwVXRSd0ZyeE1QMlhyV05najJUVENfOEwwNDlVYm53OTJGR3A3aXlEZUdjSnhoaUM5UjBTVmtySnhNNVlpR29sNURmMU11VlpqWEpDYnNtUTBNelE?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "恐惧贪婪指数降至27",
+      "summary": "恐惧贪婪指数从31降至27，仍处于恐惧区间，且数值进一步下降，反映市场情绪极度悲观。历史经验表明，极度恐惧往往是中长期买入机会，但短期仍有下探风险。影响BTC、ETH等主流币。",
+      "reason": "市场情绪指标变化，接近极度恐惧阈值，属于优先级三，但数值更新有价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ]
+    },
+    {
+      "title": "STRC优先股定价忽视脱位风险",
+      "summary": "分析师指出，STRC（Strategy）的优先股投资者错误定价了重大‘脱位’风险。STRC是MicroStrategy的优先股，该警告可能影响比特币相关资产。若风险暴露，可能引发机构减持BTC。",
+      "reason": "涉及MicroStrategy的优先股风险，可能间接影响比特币机构需求，属优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation"
+        }
+      ]
+    }
+  ],
+  "note": "由于大量历史消息重复，仅筛选出3条新且有交易价值的信息。"
+}

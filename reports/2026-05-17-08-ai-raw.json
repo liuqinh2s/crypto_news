@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-17",
+  "hour": "08",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8631,
+    "completion_tokens": 1600,
+    "total_tokens": 10231
+  },
+  "content_length": 1778,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC跌至77700市值蒸发700亿\",\n      \"summary\": \"加密货币市场总市值蒸发约700亿美元，比特币价格跌至77,800美元，创两周新低。这是继之前跌破78K后的进一步下探，显示抛压加剧。影响BTC及整个市场。短期内看空信号。\",\n      \"reason\": \"BTC价格跌破新低且市值大幅蒸发，属于直接影响行情的重大价格异动，优先级一。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"MSN\",\n          \"url\": \"https://news.google.com/rss/articles/CBMixgFBVV95cUxNWU9oZXhMY2tJN1RuX3JCbXpKUjJDODF3VTV6a3FfRGhZNEdYNzBwMHVDR1ZlS2E0dkNqMUJxSE5LMjNneWpGQkQ5RWl2OWt0a2N6eFQxU3dROXZ6VFdGNHloUFpqY0FwZWtUSkhQQ054QnYwVXRSd0ZyeE1QMlhyV05najJUVENfOEwwNDlVYm53OTJGR3A3aXlEZUdjSnhoaUM5UjBTVmtySnhNNVlpR29sNURmMU11VlpqWEpDYnNtUTBNelE?oc=5\"\n        }\n      ]\n    },\n    {\n      \"title\": \"恐惧贪婪指数降至27\",\n      \"summary\": \"恐惧贪婪指数从31降至27，仍处于恐惧区间，且数值进一步下降，反映市场情绪极度悲观。历史经验表明，极度恐惧往往是中长期买入机会，但短期仍有下探风险。影响BTC、ETH等主流币。\",\n      \"reason\": \"市场情绪指标变化，接近极度恐惧阈值，属于优先级三，但数值更新有价值。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ]\n    },\n    {\n      \"title\": \"STRC优先股定价忽视脱位风险\",\n      \"summary\": \"分析师指出，STRC（Strategy）的优先股投资者错误定价了重大‘脱位’风险。STRC是MicroStrategy的优先股，该警告可能影响比特币相关资产。若风险暴露，可能引发机构减持BTC。\",\n      \"reason\": \"涉及MicroStrategy的优先股风险，可能间接影响比特币机构需求，属优先级二。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation\"\n        }\n      ]\n    }\n  ],\n  \"note\": \"由于大量历史消息重复，仅筛选出3条新且有交易价值的信息。\"\n}"
+}
