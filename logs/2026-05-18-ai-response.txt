@@ -1,16 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4425, prompt_tokens=10796, total_tokens=15221, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2729, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9644)
+content length: 3381
+============================================================
 {
-  "date": "2026-05-18",
-  "hour": "00",
   "news": [
     {
       "title": "巨鲸5000万美元做空ETH",
       "summary": "某神秘巨鲸开立5000万美元ETH空头头寸，同时建立2500万美元BTC多头仓位，表明对ETH极度看空、BTC相对看好。ETH面临抛压，BTC获支撑。影响币种：ETH、BTC。看空ETH，看多BTC。",
       "reason": "大额做空ETH属于链上异动，直接影响行情，优先级一。",
       "category": "链上异动",
-      "impact_coins": [
-        "ETH",
-        "BTC"
-      ],
+      "impact_coins": ["ETH", "BTC"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -22,14 +24,27 @@
       "urgency": "hours"
     },
     {
+      "title": "CLARITY Act通过利好加密",
+      "summary": "美国CLARITY Act成功通过，为加密货币提供更清晰监管框架，可能涵盖稳定币和数字资产分类。该法案被视为监管利好，有望吸引机构入场，对BTC、ETH及整体市场构成长期支撑。",
+      "reason": "重大监管利好，属优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Yahoo Finance via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPak53d181NHYycFNaMVdINWtRU0xJVVFGZ2h1NktzeGlRZkVlRHR4V1JaQ05SNWtKY0lDZGFSOGw4TWFjODZQSGdmelJsSHFZMWdvLUVSOVZvR0xqUmZLd0FYcFRfYi1iVFNkZFdKWHVnY3FtVDVpcGlldlJDSTZ0N213VVBsUzFOUzlqQVZKbkFGWVJRVkpfSGdTQ1QxYlYx?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
       "title": "明州禁止加密亭防诈骗",
       "summary": "美国明尼苏达州禁止加密货币ATM机（加密亭），因老年人遭诈骗损失超100万美元。禁令削弱零售采用，但影响有限，短期利空小型币种和市场情绪。影响币种：整体市场情绪。",
       "reason": "监管动态，州级禁令，属利空。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 2,
       "sources": [
@@ -45,9 +60,7 @@
       "summary": "上周比特币ETF净流出15.4亿美元，创近期新高，显示机构需求放缓。BTC已跌破78000美元，流出持续将加大下行压力。",
       "reason": "ETF资金流出现象，优先级一。",
       "category": "ETF机构",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -59,6 +72,5 @@
       "urgency": "hours"
     }
   ],
-  "total_fetched": 37,
-  "generated_at": "2026-05-18T00:01:27.793802+08:00"
+  "note": "由于去重筛选，仅发现4条高价值新消息。"
 }
