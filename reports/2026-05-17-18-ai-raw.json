@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-17",
+  "hour": "18",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8122,
+    "completion_tokens": 1627,
+    "total_tokens": 9749
+  },
+  "content_length": 1682,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"比特币跌破79K\",\n      \"summary\": \"比特币价格跌破79,000美元，本周下跌超5%，主要受宏观担忧影响。市场关注固定收益资金流出能否提供支撑。若宏观情绪持续恶化，BTC可能继续下探。影响币种：BTC。信号：看空。\",\n      \"reason\": \"直接影响行情，价格跌破关键心理位，属于优先级一的事件。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/bitcoin-slides-below-79k-macro-fears-can-fixed-income-outflows-save-it\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"意大利最大银行增持加密\",\n      \"summary\": \"意大利最大银行Intesa Sanpaolo在Q1将加密资产持仓翻倍至2.35亿美元，显示传统金融机构继续加码加密配置。可能提振市场信心，对BTC、ETH有正面影响。信号：看多。\",\n      \"reason\": \"机构增持是中期看多信号，属于优先级二。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/italys-largest-bank-more-than-doubles-crypto-holdings-to-235m-in-q1-report\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"下周关注FOMC纪要\",\n      \"summary\": \"下周美国经济数据包括初请失业金人数和FOMC会议纪要，可能影响加密市场风险偏好。若纪要偏鸽派，利好BTC/ETH；偏鹰派则利空。目前市场预期中性。信号：中性。\",\n      \"reason\": \"宏观经济事件中期影响，属于优先级二。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"bloomingbit\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HeVZ6SmFTSjNUdDZFdHVnZ2lYWTM1V0daUTMzVXdFeDkyejFOQXdwWXJQYm42aW1kX2g2eXJBZnNvcWJzRVpkcmN4bUlkTjZISFR6cg?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

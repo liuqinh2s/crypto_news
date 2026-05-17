@@ -2323,3 +2323,118 @@ content length: 3218
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1250, prompt_tokens=8122, total_tokens=9372, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=945, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6970)
+content length: 760
+============================================================
+{
+  "news": [
+    {
+      "title": "意大利最大银行增持加密至2.35亿美元",
+      "summary": "意大利最大银行Intesa Sanpaolo在2026年第一季度将其加密货币持有量增加一倍以上至2.35亿美元。该行此前已涉足比特币和以太坊，此次增持显示传统金融机构对加密资产的兴趣持续上升。这种机构级资金流入对BTC和ETH构成中长期利好，可能带动更多欧洲银行跟进。信号 bullish，影响币种 BTC、ETH。",
+      "reason": "机构增持是中期利好信号，属于优先级二（机构动向）。该消息无重复，直接反映了传统金融对加密的积极态度，可能提振市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/italys-largest-bank-more-than-doubles-crypto-holdings-to-235m-in-q1-report"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时内多数新闻为重复内容（如Binance系列公告、恐惧贪婪指数不变、BTC价格震荡、固定新闻源推送），仅意大利银行增持为有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1515, prompt_tokens=8122, total_tokens=9637, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1243, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8064), prompt_cache_hit_tokens=8064, prompt_cache_miss_tokens=58)
+content length: 694
+============================================================
+{
+  "news": [
+    {
+      "title": "意大利银行加密持仓翻倍",
+      "summary": "意大利最大银行Intesa Sanpaolo在Q1将其加密持仓翻倍至2.35亿美元，报告显示该行通过现货ETF和直接持有增加了比特币、以太坊等配置。这是传统金融机构持续增持加密资产的信号，可能吸引其他银行跟进，对整体市场构成中长期利好。主要影响BTC、ETH，看多信号。",
+      "reason": "机构增持是二级优先级的重大事件，显示传统金融对加密的认可，可能推动价格。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/italys-largest-bank-more-than-doubles-crypto-holdings-to-235m-in-q1-report"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分为重复历史消息（Binance公告、恐惧贪婪指数、比特币价格新闻等），仅发现一条有价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1627, prompt_tokens=8122, total_tokens=9749, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=981, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8064), prompt_cache_hit_tokens=8064, prompt_cache_miss_tokens=58)
+content length: 1682
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币跌破79K",
+      "summary": "比特币价格跌破79,000美元，本周下跌超5%，主要受宏观担忧影响。市场关注固定收益资金流出能否提供支撑。若宏观情绪持续恶化，BTC可能继续下探。影响币种：BTC。信号：看空。",
+      "reason": "直接影响行情，价格跌破关键心理位，属于优先级一的事件。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-slides-below-79k-macro-fears-can-fixed-income-outflows-save-it"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "意大利最大银行增持加密",
+      "summary": "意大利最大银行Intesa Sanpaolo在Q1将加密资产持仓翻倍至2.35亿美元，显示传统金融机构继续加码加密配置。可能提振市场信心，对BTC、ETH有正面影响。信号：看多。",
+      "reason": "机构增持是中期看多信号，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/italys-largest-bank-more-than-doubles-crypto-holdings-to-235m-in-q1-report"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "下周关注FOMC纪要",
+      "summary": "下周美国经济数据包括初请失业金人数和FOMC会议纪要，可能影响加密市场风险偏好。若纪要偏鸽派，利好BTC/ETH；偏鹰派则利空。目前市场预期中性。信号：中性。",
+      "reason": "宏观经济事件中期影响，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HeVZ6SmFTSjNUdDZFdHVnZ2lYWTM1V0daUTMzVXdFeDkyejFOQXdwWXJQYm42aW1kX2g2eXJBZnNvcWJzRVpkcmN4bUlkTjZISFR6cg?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
