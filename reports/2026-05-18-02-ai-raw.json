@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-18",
+  "hour": "02",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10497,
+    "completion_tokens": 2391,
+    "total_tokens": 12888
+  },
+  "content_length": 1953,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"卢米斯推动澄清法案送签\",\n      \"summary\": \"美国参议员卢米斯表示，加密货币澄清法案（CLARITY Act）已通过国会，正在送往总统办公桌签署。该法案旨在为数字资产提供明确的监管框架，利好整个加密货币市场。若签署成为法律，将减少监管不确定性，吸引机构资金入场。影响所有主要币种，尤其是BTC和ETH。看多信号。\",\n      \"reason\": \"重大监管利好，法案即将签署，直接影响市场预期。虽然历史消息有CLARITY Act成功，但最新动态是送签，属于更新。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"SOL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 5,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513131.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"比特币90K阻力位分析\",\n      \"summary\": \"24/7 Wall St. 发文指出比特币在90K附近存在强阻力，原因包括：200日均线压制、期货资金费率中性、宏观不确定性、矿工抛售。短期内BTC难以突破该水平，可能继续震荡或下行。影响BTC。中性偏空信号。\",\n      \"reason\": \"技术面重要阻力分析，帮助交易者制定策略。属于中期影响行情，无重大突发事件。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"24/7 Wall St.\",\n          \"url\": \"https://news.google.com/rss/articles/CBMivAFBVV95cUxOZDV6bC1wblBvUDQtTVJ4d3pnUy1JcUFVaDlWeks4anE5a3ZTOTZkODlpaVI0YVVpZ0lFZkotNmJiT29OVDB1RkFKNWZCZ0JRbWJkTnlKdnNDNlhwcmlfN3FjZ2g5cEVSeXJnVkFfUk8tdjFqZ3NQeEVZMmx6eHJqRFNvcDBndlRHeWhhQjJEVm1abVU2d1lSYVJKakNsZGJYS0tFX2RNSmlicWlUemROMDVLcnFtMHVRVTQ1Ug?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"美国和平提议无让步，地缘紧张\",\n      \"summary\": \"伊朗媒体称美国在最新和平提议中未做出任何让步，暗示中东局势可能进一步升级。地缘政治风险上升可能引发避险情绪，短期利空风险资产如加密货币。影响BTC、ETH等。看空信号。\",\n      \"reason\": \"地缘政治紧张可能影响市场情绪，属于间接影响风险资产的消息。历史消息有类似但内容不同，属新进展。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513130.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前抓取素材中大部分消息（如Binance公告、恐惧贪婪指数、Mubadala增持等）已在历史消息中重复出现，仅筛选出3条有更新价值或新出现的重要消息。市场整体缺乏高优先级新事件，建议关注即将签署的CLARITY法案最终进展。\"\n}"
+}
