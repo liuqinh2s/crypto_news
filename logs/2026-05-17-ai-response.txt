@@ -1634,3 +1634,266 @@ content length: 2212
   ],
   "note": "有效新消息较少，仅筛选出4条。多数Binance公告、恐惧贪婪指数及其他重复消息已去重排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=665, prompt_tokens=7960, total_tokens=8625, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=385, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6808)
+content length: 723
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor暗示出售比特币",
+      "summary": "MicroStrategy联合创始人Michael Saylor在一次会议中暗示可能出售部分比特币持仓以避免资产受损。MicroStrategy持有大量BTC，若出售将产生重大抛压。该言论引发市场担忧，BTC价格可能承压。当前BTC已跌破78000美元。影响币种：BTC、ETH及整体市场。信号：看空。",
+      "reason": "优先级一：项目方重大事件（出售大量代币）直接影响行情。巨量BTC潜在抛售对市场利空。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取素材中仅有一条符合筛选标准的新消息，其他Binance公告均为历史重复内容，其余消息或为普通讨论或已过时。恐惧贪婪指数27与前几小时一致，不再重复。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2666, prompt_tokens=7960, total_tokens=10626, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2128, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7936), prompt_cache_hit_tokens=7936, prompt_cache_miss_tokens=24)
+content length: 1312
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor提议出售BTC",
+      "summary": "MicroStrategy创始人Michael Saylor在公开讨论中暗示可能出售部分比特币以保护资产价值，避免减值。作为全球最大比特币企业持有者（超40万枚BTC），其任何减持动作都将引发市场恐慌。当前BTC已跌破78000美元，该消息可能加剧抛售压力，短期利空。",
+      "reason": "机构大额持仓动向直接影响市场供需，MicroStrategy的卖出意向是重大利空信号。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普官员持股1.93亿",
+      "summary": "报告显示超过五分之一的特朗普政府官员持有加密资产，总额至少1.93亿美元，而拜登内阁无人持有。这反映了特朗普政府与加密行业的紧密联系，可能推动更友好的监管环境，长期利好市场。但短期影响有限。",
+      "reason": "政府官员的持仓情况暗示政策倾向，中期看多。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jYkM3ZzdGU1NfUVEtQWxhTDNBbW02RF9xT0k0MmZ6dE8xTldXa2psOFRRdzBKUG9hQUZJQ3dOdFJ6VmpTdjhqbVdhVG05d0VjaHNJcFFrVFNJMlJNWjFBY0dvTXRRcDZucXNKei1hdjNmdw"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮筛选出的有价值新消息较少，仅两条。其余多为重复性公告或低价值讨论。恐惧贪婪指数27已持续多日，未更新。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1392, prompt_tokens=7960, total_tokens=9352, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1094, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7936), prompt_cache_hit_tokens=7936, prompt_cache_miss_tokens=24)
+content length: 765
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor暗示或出售比特币",
+      "summary": "MicroStrategy（现Strategy）创始人Michael Saylor在最新采访中透露，曾考虑出售部分比特币以避免对资产造成损害。尽管未确认具体计划，但作为最大BTC持仓机构的创始人，其言论引发市场对减持风险的担忧。若执行抛售，将增加BTC供应压力，短期内可能打压价格。从合约做多视角看，这是bearish信号，影响币种BTC。",
+      "reason": "MicroStrategy是最大BTC持仓机构，创始人言论直接影响市场情绪，属于机构动向（优先级二），且为本轮抓取中唯一非重复的重要消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取27条消息中，除本消息外，其余均为历史重复内容（如Binance旧公告、恐惧贪婪指数未变、同一Crypto Twitter推文等），无其他新增高价值交易消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1319, prompt_tokens=8754, total_tokens=10073, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1010, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7602)
+content length: 801
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor抛出BTC卖出想法",
+      "summary": "Michael Saylor在讨论中提出，Strategy可能出售部分比特币持仓，以避免对资产负债表造成'损害'。Saylor作为最大比特币企业持有者之一，此前一直鼓吹长期持有，此番言论标志着策略可能转向。如果执行，将导致数万BTC抛向市场，严重打压BTC价格。影响币种：BTC。信号：强烈看空。",
+      "reason": "Saylor的BTC销售想法是市场重要转折信号，直接涉及巨鲸行为，触发优先级一。BTC跌破80000后市场脆弱，此消息可能引发恐慌。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取素材中多数消息与历史重复（如Binance公告、恐惧贪婪指数27、特朗普官员持仓等），唯一新增高价值消息为Saylor的BTC出售言论。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=908, prompt_tokens=8754, total_tokens=9662, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=622, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8704), prompt_cache_hit_tokens=8704, prompt_cache_miss_tokens=50)
+content length: 750
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor暗示出售BTC",
+      "summary": "Strategy执行主席Michael Saylor在采访中表示曾考虑出售比特币以避免'损害'资产，但未具体说明是否已卖出。此举可能动摇市场对其长期囤币策略的信心，影响BTC。若实际抛售，将构成强看空信号。目前言论偏中性，但需警惕后续行动。影响币种：BTC。",
+      "reason": "MicroStrategy持仓超20万BTC，其创始人言论直接关联BTC供需预期，属于优先级一项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，除CoinTelegraph独家报道外，其余多与历史消息重复或为低价值讨论，仅筛选出1条关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3214, prompt_tokens=3488, total_tokens=6702, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1924, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2336)
+content length: 3399
+============================================================
+{
+  "news": [
+    {
+      "title": "Michael Saylor暗示抛售BTC",
+      "summary": "MicroStrategy创始人Michael Saylor提出可能出售比特币以避免资产减值，引发市场对机构减持的担忧。MicroStrategy持有大量BTC，若执行将增加市场抛压。影响BTC价格，短期看空信号。",
+      "reason": "机构动向直接影响比特币供需，符合优先级一项目方重大事件。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普官员持有1.93亿美金加密资产",
+      "summary": "报道称超过1/5特朗普政府官员持有总计1.93亿美元的加密货币，而拜登内阁无一人持有。这表明政治层面对加密货币的接受度上升，可能推动监管利好预期，对整体加密市场构成情绪提振。",
+      "reason": "监管政策风向变化，影响市场预期，符合优先级一监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jYkM3ZzdGU1NfUVEtQWxhTDNBbW02RF9xT0k0MmZ6dE8xTldXa2psOFRRdzBKUG9hQUZJQ3dOdFJ6VmpTdjhqbVdhVG05d0VjaHNJcFFrVFNJMlJNWjFBY0dvTXRRcDZucXNKei1hdjNmdw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数27，市场恐惧",
+      "summary": "最新恐惧贪婪指数降至27（恐惧），接近极度恐惧区间但未跌破20。历史数据显示极度恐惧后常出现反弹，但当前数值尚未达到历史抄底区。市场情绪低迷，短期可能继续震荡。",
+      "reason": "情绪指标极值信号，符合优先级三市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线Gensyn (AIGENSYN)",
+      "summary": "Binance宣布将上线Gensyn (AIGENSYN)并标注种子标签，同时支持Earn、转换、VIP借贷和保证金交易。新币上线初期波动较大，可能吸引投机资金，短期看多AIGENSYN。但对整体市场影响有限。",
+      "reason": "交易所上币直接影响对应币种价格，符合优先级一。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线MegaETH (MEGA)",
+      "summary": "Binance宣布将上线MegaETH (MEGA)并标注种子标签，同步支持Earn、转换、VIP借贷、保证金和期货。MegaETH是以太坊扩展方案代币，上币推动关注度和流动性，短期看多MEGA。",
+      "reason": "交易所上币直接影响对应资产流动性，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将推TradFi永续合约",
+      "summary": "Binance Futures计划于2026年5月18日上线多个以美元保证金结算的TradFi（传统金融）永续合约，可能包括股票指数等资产。此举将吸引传统交易者进入加密衍生品市场，增加整体流动性，但短期影响有限。",
+      "reason": "产品创新增加加密市场与传统金融联动，属于中期影响。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/6253a74ac0734740bdf36864584d1bd1"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}

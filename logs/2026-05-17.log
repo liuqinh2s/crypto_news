@@ -1576,3 +1576,162 @@
 2026-05-17 06:02:06 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
 2026-05-17 06:02:06 [INFO] 📦 JSON 已保存: reports/2026-05-17-14.json
 2026-05-17 06:02:06 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-05-17 07:00:33 [INFO] 🚀 开始抓取 2026-05-17 15:00 币圈新闻
+2026-05-17 07:00:33 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-17 07:00:33 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-17 07:00:34 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ Decrypt: 过滤掉 37 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:34 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-17 07:00:34 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-17 07:00:34 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ 宏观经济: 过滤掉 19 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ Blockworks: 过滤掉 3 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ 吴说区块链: 过滤掉 45 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:35 [INFO]   ⏭ Crypto Twitter: 过滤掉 48 条非近期新闻
+2026-05-17 07:00:37 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 24 条非近期新闻
+2026-05-17 07:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-17 07:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-17 07:00:49 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-17 07:00:50 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-17 07:00:50 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:50 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-17 07:00:50 [INFO]   ✓ CoinDesk: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ The Block: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Decrypt: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ CoinTelegraph: 1 条
+2026-05-17 07:00:50 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Blockworks: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ DL News: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ 金色财经: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ PANews: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-05-17 07:00:50 [INFO]   ✓ Reddit r/bitcoin: 1 条
+2026-05-17 07:00:50 [INFO]   ✓ Crypto Twitter: 2 条
+2026-05-17 07:00:50 [INFO]   ✓ 宏观经济: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Binance公告: 20 条
+2026-05-17 07:00:50 [INFO]   ✓ OKX公告: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Bitget公告: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Whale Alert: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-17 07:00:50 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-17 07:00:50 [INFO]   ✓ 雪球加密: 0 条
+2026-05-17 07:00:50 [INFO] 📊 共抓取 27 条新闻
+2026-05-17 07:00:50 [INFO] 📋 原始新闻已保存: reports/2026-05-17-15-raw.json (27 条)
+2026-05-17 07:00:50 [INFO] 📋 标题摘要已保存: reports/2026-05-17-15-raw-titles.md
+2026-05-17 07:00:50 [INFO] ✅ 抓取完成，共 27 条，已保存到 reports/2026-05-17-15-raw.json
+2026-05-17 07:00:50 [INFO] 🤖 开始 AI 筛选 2026-05-17 15:00 币圈消息
+2026-05-17 07:00:50 [INFO] 📋 已加载原始新闻: reports/2026-05-17-15-raw.json (27 条)
+2026-05-17 07:00:50 [INFO] 📚 已加载历史新闻标题（13358 字符）
+2026-05-17 07:00:50 [INFO] 📚 已加载历史筛选标题 11 条、URL 11 个，用于去重
+2026-05-17 07:00:50 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-17 07:00:50 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-17 07:00:50 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（27 条，5170 字符，temp=0.3）
+2026-05-17 07:01:01 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 723 字符)
+2026-05-17 07:01:01 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-15-ai-raw.json
+2026-05-17 07:01:01 [DEBUG] parse_json_response 输入长度: 723 字符
+2026-05-17 07:01:01 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Saylor暗示出售比特币",
+      "summary": "MicroStrategy联合创始人Michael Saylor在一次会议中暗示可能出售部分比特币持仓以避免资产受损。MicroStrategy持有大量BTC，若出售将产生重大抛压。该言论引发市场担忧，BTC价格可能承压。当前BTC已跌破78000美元。影响币种：BTC、ETH及整体市场。信号：看空。",
+      "reason": "优先级一：项目方重大事件（出售大量代币）直接影响行情。巨量BTC潜在抛售对市场利空。",
+      "categor
+2026-05-17 07:01:01 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-17 07:01:01 [INFO] ✅ AI 返回 1 条新闻
+2026-05-17 07:01:01 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-17 07:01:01 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（27 条，5170 字符，temp=0.3）
+2026-05-17 07:01:28 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 1312 字符)
+2026-05-17 07:01:28 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-15-ai-raw.json
+2026-05-17 07:01:28 [DEBUG] parse_json_response 输入长度: 1312 字符
+2026-05-17 07:01:28 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Saylor提议出售BTC",
+      "summary": "MicroStrategy创始人Michael Saylor在公开讨论中暗示可能出售部分比特币以保护资产价值，避免减值。作为全球最大比特币企业持有者（超40万枚BTC），其任何减持动作都将引发市场恐慌。当前BTC已跌破78000美元，该消息可能加剧抛售压力，短期利空。",
+      "reason": "机构大额持仓动向直接影响市场供需，MicroStrategy的卖出意向是重大利空信号。",
+      "category": "项目更新",
+    
+2026-05-17 07:01:28 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-05-17 07:01:28 [INFO] ✅ AI 返回 2 条新闻
+2026-05-17 07:01:28 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-05-17 07:01:28 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（27 条，5170 字符，temp=0.3）
+2026-05-17 07:01:46 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 765 字符)
+2026-05-17 07:01:46 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-15-ai-raw.json
+2026-05-17 07:01:46 [DEBUG] parse_json_response 输入长度: 765 字符
+2026-05-17 07:01:46 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Saylor暗示或出售比特币",
+      "summary": "MicroStrategy（现Strategy）创始人Michael Saylor在最新采访中透露，曾考虑出售部分比特币以避免对资产造成损害。尽管未确认具体计划，但作为最大BTC持仓机构的创始人，其言论引发市场对减持风险的担忧。若执行抛售，将增加BTC供应压力，短期内可能打压价格。从合约做多视角看，这是bearish信号，影响币种BTC。",
+      "reason": "MicroStrategy是最大BTC持仓机构，创始人言论直接影响市场情绪，属
+2026-05-17 07:01:46 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-17 07:01:46 [INFO] ✅ AI 返回 1 条新闻
+2026-05-17 07:01:46 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 1 条（期望 3），将重试
+2026-05-17 07:01:46 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（27 条，7784 字符，temp=0.3）
+2026-05-17 07:02:03 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 801 字符)
+2026-05-17 07:02:03 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-15-ai-raw.json
+2026-05-17 07:02:03 [DEBUG] parse_json_response 输入长度: 801 字符
+2026-05-17 07:02:03 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Saylor抛出BTC卖出想法",
+      "summary": "Michael Saylor在讨论中提出，Strategy可能出售部分比特币持仓，以避免对资产负债表造成'损害'。Saylor作为最大比特币企业持有者之一，此前一直鼓吹长期持有，此番言论标志着策略可能转向。如果执行，将导致数万BTC抛向市场，严重打压BTC价格。影响币种：BTC。信号：强烈看空。",
+      "reason": "Saylor的BTC销售想法是市场重要转折信号，直接涉及巨鲸行为，触发优先级一。BTC跌破80000后市场脆弱，此消息可
+2026-05-17 07:02:03 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-17 07:02:03 [INFO] ✅ AI 返回 1 条新闻
+2026-05-17 07:02:03 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-05-17 07:02:03 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（27 条，7784 字符，temp=0.3）
+2026-05-17 07:02:14 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 750 字符)
+2026-05-17 07:02:14 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-15-ai-raw.json
+2026-05-17 07:02:14 [DEBUG] parse_json_response 输入长度: 750 字符
+2026-05-17 07:02:14 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Saylor暗示出售BTC",
+      "summary": "Strategy执行主席Michael Saylor在采访中表示曾考虑出售比特币以避免'损害'资产，但未具体说明是否已卖出。此举可能动摇市场对其长期囤币策略的信心，影响BTC。若实际抛售，将构成强看空信号。目前言论偏中性，但需警惕后续行动。影响币种：BTC。",
+      "reason": "MicroStrategy持仓超20万BTC，其创始人言论直接关联BTC供需预期，属于优先级一项目方重大事件。",
+      "category": "项目更新
+2026-05-17 07:02:14 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-05-17 07:02:14 [INFO] ✅ AI 返回 1 条新闻
+2026-05-17 07:02:14 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-05-17 07:02:14 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（27 条，5170 字符，temp=0.3）
+2026-05-17 07:02:53 [INFO] AI 原始返回已保存: logs/2026-05-17-ai-response.txt (finish_reason=stop, 3399 字符)
+2026-05-17 07:02:53 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-17-15-ai-raw.json
+2026-05-17 07:02:53 [DEBUG] parse_json_response 输入长度: 3399 字符
+2026-05-17 07:02:53 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Michael Saylor暗示抛售BTC",
+      "summary": "MicroStrategy创始人Michael Saylor提出可能出售比特币以避免资产减值，引发市场对机构减持的担忧。MicroStrategy持有大量BTC，若执行将增加市场抛压。影响BTC价格，短期看空信号。",
+      "reason": "机构动向直接影响比特币供需，符合优先级一项目方重大事件。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      
+2026-05-17 07:02:53 [DEBUG] 从 JSON 对象的 news 字段提取到 6 条记录
+2026-05-17 07:02:53 [INFO] ✅ AI 返回 6 条新闻
+2026-05-17 07:02:53 [INFO] ✅ AI 筛选出 6 条交易相关消息，符合预期
+2026-05-17 07:02:53 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
+2026-05-17 07:02:53 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-05-17 07:02:53 [DEBUG]   去重: 「特朗普官员持有1.93亿美金加密资产」 → 标题相似: 特朗普官员持有$193M加密
+2026-05-17 07:02:53 [INFO] 📦 JSON 已保存: reports/2026-05-17-15.json
+2026-05-17 07:02:53 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
