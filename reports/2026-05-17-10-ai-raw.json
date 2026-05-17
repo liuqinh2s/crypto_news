@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-17",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8324,
+    "completion_tokens": 1990,
+    "total_tokens": 10314
+  },
+  "content_length": 2147,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"A16z：CLARITY Act将促进美国创新\",\n      \"summary\": \"A16z政策负责人表示，美国CLARITY Act将为数字资产提供明确监管框架，结束SEC通过执法监管的模糊状态，降低合规成本，吸引资本回流。该法案在参议院推进，若通过将利好整个加密行业，尤其是美国本土项目。长期看多信号，但短期仍需关注立法进程。\",\n      \"reason\": \"CLARITY Act属重大监管动态，直接影响行业合规预期，A16z作为顶尖风投的背书增强市场信心。虽然历史有类似消息，但此文为最新评论，有更新价值。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/us-clarity-act-will-be-a-boon-for-domestic-innovation-a16z\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"日本券商拟自主开发加密信托基金\",\n      \"summary\": \"日本SBI证券与乐天证券宣布计划自主开发加密投资信托产品，瞄准日本散户及机构投资者。这表明合规资金入场渠道正在扩张，尤其利好BTC和ETH。日企的传统金融背景为加密市场带来增量资金，中长期看多信号。\",\n      \"reason\": \"机构动向直接影响BTC/ETH需求，日本合法化渠道增加属于中期利好。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513058.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Jump Crypto Firedancer上线Solana主网\",\n      \"summary\": \"Jump Crypto开发的Firedancer客户端已上线Solana主网，该客户端旨在提升Solana网络性能与稳定性，降低共识故障风险。技术升级利好SOL生态，减少宕机可能，提升应用信心。短期看多SOL，中长期利好整个Solana生态。\",\n      \"reason\": \"技术升级提升网络可靠性，属于项目重大更新，直接影响SOL价格。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"SOL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513056.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"WLFI关联钱包抛售4870枚ETH\",\n      \"summary\": \"与特朗普团队相关的WLFI钱包卖出4870枚ETH（价值约1400万美元），引发ETH短期抛压。巨鲸出货通常被视为看空信号，但需注意该地址可能为套现或流动性管理。ETH短期承压，建议观望。\",\n      \"reason\": \"大额链上异动（巨鲸卖出）直接增加供应压力，符合优先级一标准。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513054.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ]\n}"
+}
