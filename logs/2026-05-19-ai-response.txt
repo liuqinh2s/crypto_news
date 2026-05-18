@@ -710,3 +710,182 @@ content length: 3122
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1383, prompt_tokens=11375, total_tokens=12758, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1353, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10223)
+content length: 56
+============================================================
+{"news": [], "note": "本轮素材中所有消息均与近6小时历史消息重复，无新增值得关注事件。"}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4859, prompt_tokens=11375, total_tokens=16234, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2795, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11264), prompt_cache_hit_tokens=11264, prompt_cache_miss_tokens=111)
+content length: 5589
+============================================================
+{
+  "news": [
+    {
+      "title": "白宫比特币储备即将宣布",
+      "summary": "白宫官员透露，战略比特币储备（SBR）框架即将公布，被视为重大政策突破。此举可能直接推动比特币需求，类似于国家级买入信号。当前比特币价格承压于77K附近，若储备正式落地，将显著提振市场信心。影响币种：BTC。信号：看多。",
+      "reason": "国家级比特币储备政策直接带来买盘，影响行情优先级极高。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/white-house-says-strategic-bitcoin-reserve-announcement-is-imminent-a-breakthrough"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "加密基金周流出10亿美元",
+      "summary": "截至5月18日当周，加密基金净流出10.7亿美元，结束连续6周净流入。伊朗地缘政治紧张引发的避险情绪导致资金撤离，其中比特币ETF流出显著。这显示短期风险偏好降温，可能压制BTC和ETH价格。影响币种：BTC、ETH。信号：看空。",
+      "reason": "ETF资金流向直接影响价格，10亿级别流出是重大利空。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/crypto-funds-see-1b-in-outflows-as-iran-tensions-revive-risk-off-sentiment"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "哈佛清仓全部以太坊持仓",
+      "summary": "哈佛大学捐赠基金在买入仅一个季度后，清仓了价值8700万美元的以太坊头寸。此举被视为机构对ETH短期缺乏信心，可能引发其他机构跟风抛售。ETH近期价格跌破2000美元，抛压进一步加剧。影响币种：ETH。信号：看空。",
+      "reason": "顶级机构清仓是重大利空信号，且涉及金额大，直接打压ETH。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/05/19/harvard-sold-entire-87-million-ethereum-stake/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊基金会研究团队再离职",
+      "summary": "两名以太坊基金会研究员宣布辞职，加入此前一系列高绩效员工出走潮。内部动荡加剧市场对以太坊长期治理和开发效率的担忧，ETH价格承压。虽然质押量上升，但基本面信心受损。影响币种：ETH。信号：看空。",
+      "reason": "核心团队动荡影响项目信任度，中期利空ETH。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401701/two-more-ethereum-foundation-researchers-resign"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitmine持续抄底以太坊",
+      "summary": "Tom Lee领导的Bitmine在一周内购入71,672枚ETH（约1.5亿美元），并计划积累至总供应量5%。该机构趁ETH跌至2000美元以下大幅买入，显示长期看好。但ETH基本面仍弱，短期内需警惕市场情绪逆风。影响币种：ETH。信号：看多（机构买入为利多）。",
+      "reason": "机构大额买入是积极信号，可能为ETH提供底部支撑。",
+      "category": "机构动态",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/19/bitmine-buys-the-dip-as-tom-lee-ties-ethers-pullback-to-rising-oil-prices/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy两周增持20亿比特币",
+      "summary": "MicroStrategy（现Strategy）在过去一周内增加比特币购买至20亿美元，总持仓已达约50万BTC。该公司持续买入为BTC提供强劲买盘，尽管市场走弱。当前BTC价格在77K附近，机构成本价较高，若跌破可能引发连锁反应。影响币种：BTC。信号：看多（机构增持）。",
+      "reason": "最大机构持有者持续买入，缓解抛压，表明长期信心。",
+      "category": "机构动态",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/strategy-increased-bitcoin-purchases-to-2-billion-in-past-week/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Galaxy获纽约BitLicense",
+      "summary": "Mike Novogratz的Galaxy Digital获得纽约州金融服务局颁发的BitLicense，可在纽约州提供数字资产服务。这是机构合规的重要里程碑，利好整体加密市场信号，尤其利好机构采用。影响币种：BTC、ETH。信号：看多。",
+      "reason": "监管合规推进，提升行业合法性，中期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/19/mike-novogratzs-galaxy-receives-new-york-bitlicense-for-institutional-crypto-push/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "明尼苏达州合法化加密托管",
+      "summary": "明尼苏达州银行和信用合作社获准自8月1日起提供加密货币托管服务。此举为美国州级加密合规的积极信号，利好机构进入加密领域，但短期影响有限。影响币种：BTC、ETH。信号：看多。",
+      "reason": "监管开放利好，提升传统金融参与度。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/18/minnesotan-banks-and-credit-unions-set-to-provide-crypto-custody-august-1"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国4月CPI超预期引发加息担忧",
+      "summary": "美国4月CPI数据高于预期，市场对美联储2026年加息的担忧重燃，风险资产承压。比特币和以太坊等加密货币与宏观流动性高度相关，加息预期利空。影响币种：BTC、ETH。信号：看空。",
+      "reason": "宏观紧缩预期直接打击所有风险资产，影响广泛。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CryptoRank",
+          "url": "https://cryptorank.io/news/us-april-cpi-report-sparks-fresh-fears-of-fed-rate-hikes-in-2026"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至28",
+      "summary": "Alternative.me数据显示，当前加密货币恐惧贪婪指数为28（恐惧），处于历史低位但尚未达到极度恐惧（<20）。市场情绪悲观，但通常恐惧区域可能孕育中长期买点，短期仍需谨慎。影响币种：全市场。信号：中性（短期谨慎，长期偏多）。",
+      "reason": "情绪指标辅助判断，低于30通常为抄底区，但未极值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
