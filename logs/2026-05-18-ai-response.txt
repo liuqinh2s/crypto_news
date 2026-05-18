@@ -1510,3 +1510,114 @@ content length: 2852
   ],
   "note": "由于大量历史消息重复（如BTC跌破77K、清算5.63亿、桥攻击等），本轮仅筛选出4条有交易价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2746, prompt_tokens=13737, total_tokens=16483, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1527, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12585)
+content length: 3293
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitcoin Depot破产清算",
+      "summary": "北美最大比特币ATM运营商Bitcoin Depot正式申请第11章破产，计划逐步关闭业务。这标志着加密货币实体零售渠道的重大失败，可能引发市场对加密货币采用受阻的担忧，但影响主要限于ATM行业，对比特币本身基本面影响有限。看空信号，但程度中等。",
+      "reason": "直接影响行情的消息：大型加密货币运营商破产，反映行业困境，可能短期打压市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401590/bitcoin-depot-chapter-11?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket预测通胀率超4%概率97%",
+      "summary": "预测市场Polymarket数据显示，美国2026年通胀率超过4%的概率已升至97%。这强化了市场对通胀顽固的预期，可能迫使美联储维持紧缩政策，利空风险资产包括加密货币。看空BTC、ETH等。",
+      "reason": "宏观经济数据直接关联美联储政策，影响风险资产定价。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513222.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "法国上市公司Capital B增持192枚BTC",
+      "summary": "法国上市公司Capital B增持192枚比特币，总持仓达3135枚。机构持续增持比特币是长期看多信号，显示传统企业对比特币的接受度提升，可能带动其他公司效仿。看多BTC。",
+      "reason": "机构动向：上市公司增持比特币是直接买入压力，利好价格。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513218.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "RWA市值逼近400亿美元创新高",
+      "summary": "现实世界资产代币化（RWA）市值达382亿美元，逼近历史新高。由以太坊、BNB Chain和Solana主导。RWA增长代表传统资产上链加速，利好公链生态和代币化平台，关注ETH、BNB、SOL及相关RWA项目。中性偏多。",
+      "reason": "链上指标异常：RWA市值创新高反映实体资产代币化趋势，对平台币有支撑。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "BNB", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tgel3q/rwa_market_cap_surges_toward_40b_ath_now_at_382b/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "巨鲸买入5001枚ETH约1060万美元",
+      "summary": "某地址过去2小时通过Cowswap买入5001枚ETH，价值约1060万美元。大额买入表明巨鲸看好ETH短期反弹，可能对ETH价格形成支撑。看多ETH。",
+      "reason": "链上异动：大额买入是直接买盘，短期偏多信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513221.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "高盛警告伊朗冲突削弱美债避险功能",
+      "summary": "高盛报告指出，伊朗持续冲突和供应冲击正在削弱美国国债作为分散风险工具的能力。这可能促使资金转向替代资产如黄金和比特币，但短期内因流动性紧张，加密货币可能先承压。中性偏多。",
+      "reason": "宏观经济：高盛观点影响机构配置，长期利好比特币作为替代储值资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513219.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
