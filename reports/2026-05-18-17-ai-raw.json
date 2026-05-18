@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-18",
+  "hour": "17",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13814,
+    "completion_tokens": 2920,
+    "total_tokens": 16734
+  },
+  "content_length": 1670,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Kraken裁员150人或延迟IPO\",\n      \"summary\": \"加密货币交易所Kraken母公司Payward裁员150人，以提高AI效率，但此举可能延迟其IPO计划。裁员反映行业成本压力，短期可能打击市场信心，但长期或提升盈利能力。影响整体市场情绪，信号偏空。\",\n      \"reason\": \"交易所重大人事变动，可能影响IPO进度和投资者信心，属于直接影响行情的事件。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/kraken-parent-payward-cuts-150-staff-potentially-delaying-ipo-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"a16z再次买入37.2万枚HYPE\",\n      \"summary\": \"a16z关联地址再次买入37.2万枚HYPE（约1691万美元），表明顶级风投持续看好HYPE项目。该行为被视为积极信号，可能推动HYPE价格短期上涨。影响币种：HYPE。信号看多。\",\n      \"reason\": \"顶级机构大额买入，直接影响HYPE供需，属于优先级一的机构动向。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513223.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"特朗普称战争结束前无法看清利率数据\",\n      \"summary\": \"特朗普最新言论暗示，在伊朗冲突结束前，美联储难以明确利率路径，进一步打击市场对降息的预期。叠加通胀担忧和债券抛售，风险资产承压，比特币短期面临下行压力。影响币种：BTC、ETH。\",\n      \"reason\": \"地缘政治叠加宏观不确定性，直接冲击风险偏好，属于优先级二的宏观经济消息。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513234.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"近6小时内多数消息为已有事件的重复报道，仅筛选出3条独立且有交易价值的新消息。\"\n}"
+}

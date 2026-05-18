@@ -1712,3 +1712,63 @@ content length: 3308
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2920, prompt_tokens=13814, total_tokens=16734, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2299, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12662)
+content length: 1670
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken裁员150人或延迟IPO",
+      "summary": "加密货币交易所Kraken母公司Payward裁员150人，以提高AI效率，但此举可能延迟其IPO计划。裁员反映行业成本压力，短期可能打击市场信心，但长期或提升盈利能力。影响整体市场情绪，信号偏空。",
+      "reason": "交易所重大人事变动，可能影响IPO进度和投资者信心，属于直接影响行情的事件。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/kraken-parent-payward-cuts-150-staff-potentially-delaying-ipo-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z再次买入37.2万枚HYPE",
+      "summary": "a16z关联地址再次买入37.2万枚HYPE（约1691万美元），表明顶级风投持续看好HYPE项目。该行为被视为积极信号，可能推动HYPE价格短期上涨。影响币种：HYPE。信号看多。",
+      "reason": "顶级机构大额买入，直接影响HYPE供需，属于优先级一的机构动向。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513223.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普称战争结束前无法看清利率数据",
+      "summary": "特朗普最新言论暗示，在伊朗冲突结束前，美联储难以明确利率路径，进一步打击市场对降息的预期。叠加通胀担忧和债券抛售，风险资产承压，比特币短期面临下行压力。影响币种：BTC、ETH。",
+      "reason": "地缘政治叠加宏观不确定性，直接冲击风险偏好，属于优先级二的宏观经济消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513234.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时内多数消息为已有事件的重复报道，仅筛选出3条独立且有交易价值的新消息。"
+}
