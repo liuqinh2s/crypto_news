@@ -1049,3 +1049,63 @@ content length: 2460
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3510, prompt_tokens=11096, total_tokens=14606, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2697, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9944)
+content length: 1861
+============================================================
+{
+  "news": [
+    {
+      "title": "BIT地址加仓12万ETH多单",
+      "summary": "据金色财经报道，一个与BIT（Bybit）关联的地址在比特币下跌期间抄底加仓ETH多单，目前多单规模达12万枚ETH，价值约2.64亿美元。该地址在ETH跌破2100美元时买入，显示机构或大户对ETH后市看好。此举可能为ETH提供支撑，但需注意若价格继续下跌，该仓位可能面临清算风险。",
+      "reason": "巨鲸大额开多ETH是优先级一信号，直接反映大户对ETH的看多态度，可能带动市场情绪，短期内对ETH有支撑作用。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513157.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "某地址抛售WBTC套现3573万美元",
+      "summary": "据金色财经监测，某地址在近三日内持续抛售WBTC，累计卖出价值3573万美元的WBTC，其中今日再次抛售1546万美元。该地址频繁大额转出WBTC至交易所，可能为变现行为，增加BTC抛压。BTC跌破77000美元后，巨鲸持续出货加剧下跌风险。",
+      "reason": "巨鲸持续大额抛售WBTC属于优先级一信号，直接对BTC构成抛压，利空BTC。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513170.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密市场1小时爆仓6亿美元",
+      "summary": "据Crypto Briefing报道，加密货币市场在1小时内遭遇超过6亿美元的多头清算，比特币短暂跌破77,000美元，ETH跌至2100美元下方。此次清算由杠杆多头仓位集中止损引发，市场恐慌情绪蔓延。高杠杆率（BTC杠杆率达14.9%）是主因，短期反弹需消化抛压，但快速下跌后可能出现超跌反弹机会。",
+      "reason": "大规模多头清算属于优先级一市场结构信号，直接反映市场恐慌和杠杆出清，短期利空但中长期可能形成阶段性底部。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aeER3RGdnODU4UkRvQWxjYmxTUnlZdTlqNlFVTjBIWmIxUnhDTUo0blpSc1FrVnY2cVd0YjlCWk1QN09xR0E2RDl2OHJmdlVYTmViYmw5bk5DZy1uc1pyd21HVUZMM3M?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "近6小时内多数重要消息与历史标题重复，经严格去重后仅筛选出3条有价值的新消息。"
+}
