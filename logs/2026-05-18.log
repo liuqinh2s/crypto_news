@@ -1496,3 +1496,92 @@
 2026-05-18 07:01:20 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
 2026-05-18 07:01:20 [INFO] 📦 JSON 已保存: reports/2026-05-18-15.json
 2026-05-18 07:01:20 [INFO] ✅ AI 筛选完成，共 6 条交易相关消息
+2026-05-18 08:00:35 [INFO] 🚀 开始抓取 2026-05-18 16:00 币圈新闻
+2026-05-18 08:00:35 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-18 08:00:35 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-18 08:00:35 [INFO]   ⏭ Decrypt: 过滤掉 37 条非近期新闻
+2026-05-18 08:00:35 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-05-18 08:00:35 [INFO]   ⏭ CoinTelegraph: 过滤掉 28 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ CoinDesk: 过滤掉 21 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 49 条非近期新闻
+2026-05-18 08:00:36 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-18 08:00:36 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ 宏观经济: 过滤掉 17 条非近期新闻
+2026-05-18 08:00:36 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-18 08:00:37 [INFO]   ⏭ Blockworks: 过滤掉 3 条非近期新闻
+2026-05-18 08:00:37 [INFO]   ⏭ 吴说区块链: 过滤掉 40 条非近期新闻
+2026-05-18 08:00:37 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:37 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:37 [INFO]   ⏭ 雪球加密: 过滤掉 44 条非近期新闻
+2026-05-18 08:00:37 [INFO]   ⏭ Crypto Twitter: 过滤掉 39 条非近期新闻
+2026-05-18 08:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-18 08:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-18 08:00:51 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-18 08:00:51 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:51 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-18 08:00:51 [INFO]   ✓ CoinDesk: 4 条
+2026-05-18 08:00:51 [INFO]   ✓ The Block: 1 条
+2026-05-18 08:00:51 [INFO]   ✓ Decrypt: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ CoinTelegraph: 2 条
+2026-05-18 08:00:51 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ Blockworks: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ DL News: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ 金色财经: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ PANews: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ Bloomberg Crypto: 1 条
+2026-05-18 08:00:51 [INFO]   ✓ Reuters Crypto: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ CNBC Crypto: 1 条
+2026-05-18 08:00:51 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-18 08:00:51 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-05-18 08:00:51 [INFO]   ✓ Crypto Twitter: 11 条
+2026-05-18 08:00:51 [INFO]   ✓ 宏观经济: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ Binance公告: 20 条
+2026-05-18 08:00:51 [INFO]   ✓ OKX公告: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ Bitget公告: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ Whale Alert: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-18 08:00:51 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-18 08:00:51 [INFO]   ✓ 雪球加密: 6 条
+2026-05-18 08:00:51 [INFO] 📊 共抓取 50 条新闻
+2026-05-18 08:00:51 [INFO] 📋 原始新闻已保存: reports/2026-05-18-16-raw.json (50 条)
+2026-05-18 08:00:51 [INFO] 📋 标题摘要已保存: reports/2026-05-18-16-raw-titles.md
+2026-05-18 08:00:51 [INFO] ✅ 抓取完成，共 50 条，已保存到 reports/2026-05-18-16-raw.json
+2026-05-18 08:00:52 [INFO] 🤖 开始 AI 筛选 2026-05-18 16:00 币圈消息
+2026-05-18 08:00:52 [INFO] 📋 已加载原始新闻: reports/2026-05-18-16-raw.json (50 条)
+2026-05-18 08:00:52 [INFO] 📚 已加载历史新闻标题（21363 字符）
+2026-05-18 08:00:52 [INFO] 📚 已加载历史筛选标题 25 条、URL 25 个，用于去重
+2026-05-18 08:00:52 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-18 08:00:52 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-18 08:00:52 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（50 条，13405 字符，temp=0.3）
+2026-05-18 08:01:29 [INFO] AI 原始返回已保存: logs/2026-05-18-ai-response.txt (finish_reason=stop, 3308 字符)
+2026-05-18 08:01:29 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-18-16-ai-raw.json
+2026-05-18 08:01:29 [DEBUG] parse_json_response 输入长度: 3308 字符
+2026-05-18 08:01:29 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "哈佛减持BTC清仓ETH ETF",
+      "summary": "哈佛大学在2026年第一季度将其比特币敞口削减近一半，并完全退出以太坊ETF。此举表明顶级机构对加密市场持谨慎态度，可能引发其他机构效仿。影响BTC和ETH，看空信号。",
+      "reason": "重大机构动向，直接影响市场情绪和供需预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "
+2026-05-18 08:01:29 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-05-18 08:01:29 [INFO] ✅ AI 返回 5 条新闻
+2026-05-18 08:01:29 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-05-18 08:01:29 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-05-18 08:01:29 [INFO] 🔄 去重：移除 2 条与历史报告重复的新闻
+2026-05-18 08:01:29 [DEBUG]   去重: 「Aave恢复WETH借贷限额」 → 标题相似: Aave恢复WETH借贷市场，rsETH恢复进展
+2026-05-18 08:01:29 [DEBUG]   去重: 「RWA总市值逼近400亿美元」 → URL重复: https://www.reddit.com/r/CryptoCurrency/comments/1tgel3q/rwa
+2026-05-18 08:01:29 [INFO] 📦 JSON 已保存: reports/2026-05-18-16.json
+2026-05-18 08:01:29 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
