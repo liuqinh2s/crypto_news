@@ -1,16 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2473, prompt_tokens=19697, total_tokens=22170, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=725, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=18545)
+content length: 3872
+============================================================
 {
-  "date": "2026-05-19",
-  "hour": "00",
   "news": [
     {
       "title": "美国CPI引发加息担忧",
       "summary": "美国4月CPI数据超预期，重新引发市场对美联储2026年加息的担忧。这给风险资产带来压力，比特币跌至76,660美元。可能影响BTC、ETH等所有加密货币，这是看空信号，因为宏观紧缩环境不利风险资产。",
       "reason": "宏观经济数据直接影响风险资产走势，CPI超预期导致加息预期升温，利空加密货币。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -26,10 +28,7 @@
       "summary": "由于美联储降息希望消退，加密货币市场进一步走弱，比特币跌至76,660美元。这延续了宏观逆风，可能继续压制BTC、ETH等资产价格。看空信号，短期内难以反转。",
       "reason": "降息预期是前期市场上涨的重要推动力，预期消退直接利空。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -45,10 +44,7 @@
       "summary": "欧盟因伊朗战争导致滞胀冲击，下调经济增长预期并上调通胀预测。这加剧了全球宏观不确定性，避险情绪升温，利空BTC、ETH等风险资产。",
       "reason": "滞胀环境不利于风险资产，加密货币承压。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
@@ -64,9 +60,7 @@
       "summary": "链上数据显示，某神秘巨鲸地址持续买入ETH，目前持仓价值达2.81亿美元。这是明显的囤币信号，表明大户看好ETH后市，对ETH形成支撑。看多信号。",
       "reason": "巨鲸持续买入是积极信号，直接利多ETH现货和市场信心。",
       "category": "链上异动",
-      "impact_coins": [
-        "ETH"
-      ],
+      "impact_coins": ["ETH"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
@@ -78,13 +72,27 @@
       "urgency": "hours"
     },
     {
+      "title": "Ondo代币化股票TVL破15亿美元",
+      "summary": "Ondo Finance的代币化股票总锁仓价值（TVL）突破15亿美元，头部资产集中度约25%。这显示机构对代币化资产兴趣增加，长期利好DeFi和以太坊生态。中性偏多信号。",
+      "reason": "代币化资产增长反映机构采用，但短期对价格影响有限。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513277.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
       "title": "BitMine一周买入7.1万ETH",
       "summary": "BitMine Immersion Technologies在最近一周购入71,672枚ETH，总持仓超527万枚ETH，价值超12亿美元。持续增持表明长期看好，对ETH是利多信号。",
       "reason": "机构大额持续买入ETH，直接增加需求，利多ETH价格。",
       "category": "机构动向",
-      "impact_coins": [
-        "ETH"
-      ],
+      "impact_coins": ["ETH"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
@@ -95,7 +103,5 @@
       ],
       "urgency": "hours"
     }
-  ],
-  "total_fetched": 65,
-  "generated_at": "2026-05-19T00:01:22.902746+08:00"
+  ]
 }
