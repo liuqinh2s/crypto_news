@@ -2169,3 +2169,91 @@ content length: 4069
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3758, prompt_tokens=18824, total_tokens=22582, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1955, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=17672)
+content length: 4029
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitmine增持ETH至528万枚",
+      "summary": "Bitmine Immersion Technologies将其以太坊持仓更新至528万枚ETH，价值超120亿美元，上周增持超7.1万枚ETH。分析师Tom Lee指出，油价飙升是近期ETH抛售的主因，但Bitmine逢跌买入。该信号表明机构对ETH长期看好，但短期油价压力可能持续。看多信号：巨鲸增持为 bullish，但油价关联利空，综合偏中性。",
+      "reason": "巨鲸增持ETH属优先级一链上异动，且Tom Lee关联油价解释，有交易参考价值。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/18/bitmine-buys-the-dip-as-tom-lee-ties-ether-s-pullback-to-rising-oil-prices"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Pump.fun存入8.3万SOL至CEX",
+      "summary": "链上数据显示，Pump.fun向某中心化交易所存入82,703枚SOL（约700万美元）。大额转入交易所通常预示潜在抛售，对SOL形成短期卖压。可能影响SOL及相关联的meme币。看空信号（bearish）。",
+      "reason": "大额转入交易所属优先级一链上异动，直接增加抛压。",
+      "category": "链上异动",
+      "impact_coins": ["SOL"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513268.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "ZachXBT悬赏调查HSBG操纵",
+      "summary": "知名链上侦探ZachXBT发布1万美元悬赏，征集香港做市商HSBG的市场操纵证据。若证实，可能导致监管介入或代币下架，影响相关项目代币。目前属调查初期，但可能引发市场对做市商信任危机，偏空信号。",
+      "reason": "涉及市场操纵，属优先级一监管动态的延伸，可能引起广泛关注。",
+      "category": "市场结构",
+      "impact_coins": ["未知"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513266.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Citi警告比特币量子威胁",
+      "summary": "花旗报告称，量子计算突破加速，比特币面临的量子威胁大于以太坊，因为比特币的加密算法更易受攻击。虽为长期风险，但可能影响市场对BTC的信心，短期内加剧避险情绪。偏空信号（bearish），但影响程度有限。",
+      "reason": "优先级一重大技术风险，花旗作为大行发声影响市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/05/18/bitcoin-faces-outsized-quantum-threat-as-computing-breakthroughs-accelerate-citi-says"}],
+      "urgency": "days"
+    },
+    {
+      "title": "韩国KB金融完成稳定币试点",
+      "summary": "韩国KB国民银行完成稳定币离线支付试点，表明传统银行加速布局数字资产支付。有利于稳定币和支付类代币（如USDT、USDC）的采用，对整体市场情绪偏多。但影响逐步释放，非即时。",
+      "reason": "优先级二监管/机构动向，韩国作为重要市场有示范效应。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/south-korean-kb-financial-stablecoin-pilot-offline-payments"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Kevin Warsh或出任Fed主席",
+      "summary": "消息称Kevin Warsh可能成为下一任美联储主席，其被视为加密货币友好型官员。若上任，可能推动更宽松的监管和利率政策，利好BTC等风险资产。但目前仅为传闻，需等待确认。偏多信号（bullish）。",
+      "reason": "优先级二宏观经济，美联储主席更替直接影响货币政策预期。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "DailyCoin", "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53YlpYbWk4RVIydmZTYjhBeTd1RHBtSnFkeDZVVXFqZWZzVzAweU1aUE85ZXpCcElOWVFWOGFzRi1rM21YTmE3NXo4emhJZ3doTzZ1NmFxVjdoek1TdFpENGJTaFlncXJZU25vZWhpMFRNMGlkdXJuNG5sUUM?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "欧洲石油短缺警告加剧",
+      "summary": "策略师警告欧洲石油库存耗尽，数周内可能短缺。油价飙升将推高通胀，强化加息预期，压制风险资产。加密货币作为风险资产，可能面临进一步下行压力。偏空信号（bearish）。",
+      "reason": "优先级二宏观经济，油价影响通胀和央行政策，间接影响加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CNBC", "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVY1RzQ5cXZkXzdabDVlLWE0M0xKdjcyQ3RPZm12UVZZeW0waGh2S1ZBQ1RfSkZsVFlIM2tWb0lyMkd2cEdnTGx2ZUYtM3VFVXFFRnZhVTF1dkZzRHZiT3hTZDNPSUFLTzJrV0ZVWkNHWC1OZUJVc1NUVnFfSnBqTXNZTkxTN1VLVWtZcDVBU19aU2dhWlJvRGJfOGNZMjVQS2g40gGoAUFVX3lxTE55aHRENGo1VU9fS0VoWG1ZeVlnM0c4SGV4YVZ3cFZqOFRzSkRsR0ZqakpTcFVGNWpVX1pqRy13RnhVa1RleUlGcEN6TW5maUVKQ2pmREVJd3V6VGh4S1Mzd2p3RTRWRVJ0MTFMcENrVnI5VnZ6RlNMTzFXSkFoZk5RT2UyUTJxYWtSU1pkMzROSzR2YXhvRzlIVVQyOVFJb0FjUE5CclJqaA?oc=5"}],
+      "urgency": "days"
+    }
+  ]
+}
