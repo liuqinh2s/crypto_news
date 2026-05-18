@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-18",
+  "hour": "23",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 19333,
+    "completion_tokens": 1601,
+    "total_tokens": 20934
+  },
+  "content_length": 1677,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"明尼苏达州允许加密托管\",\n      \"summary\": \"美国明尼苏达州通过法案，允许银行和信用社提供加密货币托管服务。这是美国州级监管的重要进展，标志着传统金融机构合规托管加密资产的门槛降低。可能吸引更多机构资金入场，利好比特币、以太坊等主流币，因为托管服务是机构投资的前提。信号偏多，但影响需时间显现。\",\n      \"reason\": \"监管政策利好，属于优先级一的重大监管动态，直接改善合规环境。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513274.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"超780万BTC处于浮亏状态\",\n      \"summary\": \"链上数据显示，目前超过780万枚比特币的持有成本高于当前价格，处于浮亏状态，占总流通量约39%。这通常意味着市场已接近底部区域，因为大量持币者亏损，抛压减弱，但短期也可能引发恐慌性卖出。综合来看，这是中长期看多信号，但短期可能继续承压。对BTC有直接影响。\",\n      \"reason\": \"链上指标异动，属于优先级二，提供市场底部参考。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513273.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"HIVE公布320MW AI项目股价涨35%\",\n      \"summary\": \"比特币矿企HIVE宣布在加拿大建设320MW的AI算力工厂，股价大涨35%。此举显示矿企向AI转型的趋势，可能提升矿企盈利能力，从而间接支撑比特币网络算力。短期利好HIVE股票，对BTC影响中性，但可作为矿业转型的积极信号。\",\n      \"reason\": \"矿企重大转型，属于项目更新，对矿业板块有参考价值。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/401656/hive-stock-rallies-40-unveiling-320mw-ai-gigafactory-project-toronto\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前市场消息重复性较高，多数事件（如BTC下跌、ETF流出、伊朗保险等）已在上一时段覆盖。仅筛选出3条新且具有交易价值的消息。\"\n}"
+}

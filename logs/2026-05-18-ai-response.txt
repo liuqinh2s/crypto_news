@@ -2257,3 +2257,63 @@ content length: 4029
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1601, prompt_tokens=19333, total_tokens=20934, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=935, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=18181)
+content length: 1677
+============================================================
+{
+  "news": [
+    {
+      "title": "明尼苏达州允许加密托管",
+      "summary": "美国明尼苏达州通过法案，允许银行和信用社提供加密货币托管服务。这是美国州级监管的重要进展，标志着传统金融机构合规托管加密资产的门槛降低。可能吸引更多机构资金入场，利好比特币、以太坊等主流币，因为托管服务是机构投资的前提。信号偏多，但影响需时间显现。",
+      "reason": "监管政策利好，属于优先级一的重大监管动态，直接改善合规环境。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513274.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "超780万BTC处于浮亏状态",
+      "summary": "链上数据显示，目前超过780万枚比特币的持有成本高于当前价格，处于浮亏状态，占总流通量约39%。这通常意味着市场已接近底部区域，因为大量持币者亏损，抛压减弱，但短期也可能引发恐慌性卖出。综合来看，这是中长期看多信号，但短期可能继续承压。对BTC有直接影响。",
+      "reason": "链上指标异动，属于优先级二，提供市场底部参考。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513273.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "HIVE公布320MW AI项目股价涨35%",
+      "summary": "比特币矿企HIVE宣布在加拿大建设320MW的AI算力工厂，股价大涨35%。此举显示矿企向AI转型的趋势，可能提升矿企盈利能力，从而间接支撑比特币网络算力。短期利好HIVE股票，对BTC影响中性，但可作为矿业转型的积极信号。",
+      "reason": "矿企重大转型，属于项目更新，对矿业板块有参考价值。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401656/hive-stock-rallies-40-unveiling-320mw-ai-gigafactory-project-toronto"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场消息重复性较高，多数事件（如BTC下跌、ETF流出、伊朗保险等）已在上一时段覆盖。仅筛选出3条新且具有交易价值的消息。"
+}
