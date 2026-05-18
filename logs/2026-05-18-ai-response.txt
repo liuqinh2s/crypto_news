@@ -2058,3 +2058,114 @@ content length: 1954
   ],
   "note": "由于大量消息与历史标题重复，仅筛选出3条新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4988, prompt_tokens=20278, total_tokens=25266, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3205, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=19126)
+content length: 4069
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor暗示可能减持BTC",
+      "summary": "Michael Saylor在连续三个季度亏损后，暗示可能改变'永不卖出'立场。若Strategy开始减持，将引发BTC抛售压力。直接利空BTC，并可能带动MSTR股价下跌。",
+      "reason": "KOL集体看空信号；Strategy持仓占BTC总供应4%以上，减持将产生巨大抛压。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVBxZlFpSlRQX3diendDU3hLRFZsUzh3NHpVZS11V2ZKaE1BUkozNUh6VGJNVmpJRHI2YVl3UHdKMktabkd1TzFaUGt4VExnbFBweEl3QzMtN1Y2TDlRcDNhZDN6TWx1azJsZmlHdXNHM0VhU3RIY2pwUFlSWmhJOHdVVTZleEdGaGVYZE1mRXNrWnVPUEFUN1o5T3VkM3ZBQ3l5ag"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Forbes刊文警告BTC崩盘",
+      "summary": "Forbes发文称比特币可能遭遇类似2008年金融危机的崩盘，理由包括高通胀、地缘冲突和ETF资金流出。该文在社交媒体广泛传播，加剧市场恐慌情绪，短期利空BTC和ETH。",
+      "reason": "知名财经媒体发出极端看空警告，可能引发散户抛售和止损连锁反应。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Forbes via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb0dvdmZsa3VRMVBqX013cVkySGt6c2VnVlhEVDVCVVg0Y2RfUlB0djB5eXZlS2RCSmpsWjZxY3dqd2N1TFBGSUlZc18zMnBSenBIeDQ0TFo3LWZ1OVNoemVXRlBIWlNxMHNDWU05NUJoVmFRaGhNb1hBbWdRbG83SzZhUUpoX1NNVkpsc2luXzhSZjFxWjlGWXlEVHJmVUNCYVVFMmlvT1JzdS1peUVZcWJUSndwS1VmaTRrbDVLMS1Mc1NPeks1NW1wNzZFU2RFWndIYm1RT2tNQQ"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BitMine增持7.1万枚ETH",
+      "summary": "比特币矿企BitMine上周增持超过7.1万枚ETH，总持仓超527万枚ETH（约合11亿美元）。此举显示矿工对ETH长期价值的信心，减少市场流通量，短期看多ETH。",
+      "reason": "巨鲸大量增持ETH，是明显的囤币信号，减轻抛压并提振信心。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513260.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "分析师预测XRP将涨至15美元",
+      "summary": "CoinTelegraph报道，有分析师称XRP正在'安静积累'，若突破关键阻力位，可能飙升至15美元。但需注意XRP近期表现不佳，此预测仅为少数观点。短期中性，中长期看多。",
+      "reason": "KOL明确看多观点，可能引发XRP短线炒作，但实际影响有限。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/xrp-price-may-explode-15-dollars-quiet-accumulation-analyst-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CNBC警告债市抛售冲击美股",
+      "summary": "CNBC报道，债市出现异常交易信号，预示利率可能大幅上升，这将严重冲击美股及加密货币等风险资产。同时欧洲可能面临石油短缺。宏观环境恶化，利空BTC和ETH。",
+      "reason": "宏观经济数据恶化直接打压风险偏好，债券收益率上升会降低加密货币吸引力。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZVEzbWNXenIzcUpQWUxCUDF3anZCb016YnVRd25CdHJVOFp2RDdxM0dlWTB0bzZoSnQ5dFhKanU1NHQyOGVqa3FCeWoxSlhvOGRnSXNiTzBYLWlKX3ZENjVPNTl2VzZJTFNFWFk2Tmt2ZWE1OE00eEMycnl2X2pVb2dVVlNQZlB5UHNB"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVY1RzQ5cXZkXzdabDVlLWE0M0xKdjcyQ3RPZm12UVZZeW0waGh2S1ZBQ1RfSkZsVFlIM2tWb0lyMkd2cEdnTGx2ZUYtM3VFVXFFRnZhVTF1dkZzRHZiT3hTZDNPSUFLTzJrV0ZVWkNHWC1OZUJVc1NUVnFfSnBqTXNZTkxTN1VLVWtZcDVBU19aU2dhWlJvRGJfOGNZMjVQS2g4"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tether投资跨境平台LemFi",
+      "summary": "Tether宣布投资跨境金融平台LemFi，旨在扩大新兴市场支付网络。此投资对USDT生态有利，但短期影响微弱。长期看可能增加USDT应用场景，中性偏多。",
+      "reason": "稳定币发行商业务拓展，可能间接增加USDT需求，但非直接交易信号。",
+      "category": "项目更新",
+      "impact_coins": ["USDT"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513258.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
