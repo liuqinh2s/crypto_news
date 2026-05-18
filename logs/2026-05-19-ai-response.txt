@@ -531,3 +531,91 @@ content length: 2048
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3495, prompt_tokens=13965, total_tokens=17460, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1893, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12813)
+content length: 3854
+============================================================
+{
+  "news": [
+    {
+      "title": "Hyperliquid USDC合作或助推HYPE",
+      "summary": "分析师表示，Hyperliquid与USDC的整合可能极大推动HYPE代币需求，同时挤压Circle和Coinbase的利润率。这对HYPE是看多信号，因为增加了流动性和实用性。影响币种：HYPE。信号：bullish。原因：项目重大合作，可能提升代币价值。",
+      "reason": "直接影响HYPE价格的重大合作消息，属于优先级一项目事件。",
+      "category": "项目更新",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/18/hyperliquid-s-usdc-deal-could-supercharge-hype-pressure-circle-coinbase-margins-analysts-say"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Zerohash获MiCA稳定币牌照",
+      "summary": "Zerohash成为首个在欧洲获得MiCA下EMI许可证的公司，可提供稳定币和经纪服务。这是监管合规的重大进展，利好稳定币生态和欧洲加密市场。影响币种：USDT、USDC等稳定币，以及整体市场情绪。信号：bullish。原因：监管利好，促进合规资金入场。",
+      "reason": "优先级一监管动态，标志性合规里程碑。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/401741/zerohash-first-emi-license-mica-stablecoin-brokerage-services-europe"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "哈佛抛售全部ETH持仓8700万",
+      "summary": "哈佛大学捐赠基金在买入仅一个季度后，清仓了价值8700万美元的以太坊。这显示机构对ETH的短期看空态度，可能引发跟随抛售。影响币种：ETH。信号：bearish。原因：巨鲸异动，机构抛售是看空信号。",
+      "reason": "优先级一巨鲸异动，知名机构清仓ETH。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Fortune", "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43bXBmQWhZQ0JIeG5mWVpGZTRpZkY3ekNJV0hfU3dENE5Cb0gwdkRKbHZCdmNnTkhsYU1Uak4wMktsbjlVQzZNMzR5QUNaRE1hOEtOeUVyTnZ5ZllSNjVxcm8xU3ROcHozUVdF?oc=5"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strategy杠杆风险加剧引担忧",
+      "summary": "MicroStrategy（现称Strategy）通过优先股融资加大比特币购买，但分析师警告其杠杆策略风险上升，可能引发股价和比特币抛售。影响币种：BTC。信号：bearish。原因：机构动态，杠杆风险增加可能带来清算压力。",
+      "reason": "优先级二机构动向，但涉及高杠杆和潜在抛售。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Investor's Business Daily", "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHBLMlBObFRwMGphdTg2aXRFQmZMQUhYR1FlN3A5OUw2ZUFWZU9QRnJyVVZfNzlYbldsTUhpNU91aWFkZXFUWU1vYlVhS0YwUS1wY2NSYXRfQUJYSFdzdkhzTXQ1b200UXRrV3JIaU9mTUx4Y2tRNlYzMTBETjh2MHhsUTkxQ0FiN2EtYU1UQQ?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Swan Bitcoin遭10亿美元诉讼",
+      "summary": "Swan Bitcoin因Prime Trust崩盘被起诉索赔近10亿美元，可能面临财务危机或运营中断。影响币种：无直接，但可能影响市场对托管服务的信任。信号：bearish。原因：项目方重大法律风险，优先级一。",
+      "reason": "优先级一项目方重大事件，巨额诉讼影响市场情绪。",
+      "category": "项目更新",
+      "impact_coins": [],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/368244/swan-bitcoin-nearly-1-billion-lawsuit-prime-trust-collapse"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "花旗警告量子计算威胁比特币",
+      "summary": "花旗报告指出，量子计算突破对比特币的威胁大于以太坊，因比特币UTXO模型更易受攻击。虽然长期风险，但短期可能引发避险情绪。影响币种：BTC，ETH相对安全。信号：neutral。原因：长期技术风险，短期影响有限。",
+      "reason": "优先级二技术分析报告，但花旗背书增加关注度。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/368264/bitcoin-faces-greater-quantum-computing-risk-ethereum-citi-warns"}],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币74K支撑位决定趋势",
+      "summary": "分析师指出，比特币74,000美元是关键支撑位，若跌破可能引发更大跌幅。当前价格已接近该水平，多空博弈激烈。影响币种：BTC。信号：neutral。原因：技术面关键位置，需关注是否跌破。",
+      "reason": "优先级二市场结构分析，重要支撑位影响交易决策。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-analyst-flags-74k-as-btcs-biggest-support-battle"}],
+      "urgency": "immediate"
+    }
+  ]
+}
