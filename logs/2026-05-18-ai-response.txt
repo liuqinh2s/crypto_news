@@ -1835,3 +1835,174 @@ content length: 2634
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3540, prompt_tokens=15371, total_tokens=18911, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1282, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14219)
+content length: 5819
+============================================================
+{
+  "news": [
+    {
+      "title": "本周FOMC纪要及Meta稳定币截止日",
+      "summary": "CoinDesk前瞻本周关键事件：美联储5月会议纪要将于周三公布，可能暗示未来利率路径；Meta旗下稳定币项目需在参议院截止日前提交监管合规报告。这两件事将直接影响市场对流动性及监管趋势的预期，进而影响BTC、ETH及整体加密市场。若纪要偏鸽或稳定币获批，则偏多；反之则偏空。短期市场观望情绪浓厚。",
+      "reason": "宏观经济与监管双重事件，属于直接影响行情的中期消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/18/fed-minutes-meta-stablecoin-senate-deadline-crypto-week-ahead"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CLARITY法案巩固Circle优势",
+      "summary": "Bernstein报告指出，CLARITY Act中关于稳定币收益分成的妥协条款将增强Circle（USDC发行商）的竞争力。当前稳定币总供应量创纪录，USDC或进一步受益。法案推进利好合规稳定币，可能吸引更多资金通过USDC流入加密市场，对BTC等风险资产形成支撑。",
+      "reason": "稳定币监管进展直接影响市场流动性，属于中期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401615/bernstein-says-clarity-act-yield-compromise-cements-circles-edge-amid-record-stablecoin-supply"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "贝莱德增持314万股Strategy",
+      "summary": "贝莱德在2026年Q1增持314万股Strategy（原MicroStrategy）股票，总持有量增至1775万股。Strategy是最大的比特币企业持有者，贝莱德增持表明机构对BTC敞口的长期看好。此举可能提振市场信心，推动BTC价格企稳。",
+      "reason": "机构动向（贝莱德增持BTC关联股票）属于中期利多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513247.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "高盛清仓XRP/SOL ETF并减持BTC/ETH ETF",
+      "summary": "高盛Q1报告显示，该公司已清仓XRP和Solana ETF头寸，并减持了比特币和以太坊ETF。此举显示顶级投行对山寨币态度转为谨慎，可能引发市场跟风抛售XRP、SOL；但BTC/ETH减持幅度较小，影响有限。整体偏向利空山寨币。",
+      "reason": "机构持仓变动直接影响ETF相关币种情绪，属于优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["XRP", "SOL", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513242.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "渣打银行接管Zodia Custody托管业务",
+      "summary": "渣打银行宣布将接管旗下Zodia Custody子公司的加密托管业务，整合后提供更全面的机构级托管服务。此举标志着传统银行加速布局加密资产托管，长期有利于提升机构入场信心，对BTC、ETH等主流资产形成支撑。",
+      "reason": "机构动向（传统银行整合加密托管）属于中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513239.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "巨鲸从CEX提出39.7万枚HYPE",
+      "summary": "Anchorage关联地址从交易所提出39.7万枚HYPE（约1800万美元），转入自托管地址。大额提出减少交易所供应，通常是囤币信号，对HYPE价格偏多。HYPE为Hyperliquid生态代币，近期因SpaceX预IPO合约活跃。",
+      "reason": "巨鲸异动（大额转出交易所）属于优先级一的链上信号。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513248.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Kraken宣布下架MOON代币",
+      "summary": "Reddit用户发现Kraken交易所计划下架MOON代币（Reddit社区代币）。下架通常导致流动性骤降，价格承压。MOON近期已因Reddit奖励机制调整而走弱，此消息加剧抛售压力。短期看空MOON，但对大盘影响有限。",
+      "reason": "交易所下架直接影响对应币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["MOON"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tgigff/moons_getting_delisted_from_kraken/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "预测市场大砍BTC 15万美元押注",
+      "summary": "据Yahoo Finance报道，预测市场上押注比特币年内达到15万美元的头寸大幅减少，显示投机情绪降温。在BTC跌破7.7万美元的背景下，市场对短期反弹的信念减弱，可能加剧下行压力。",
+      "reason": "市场情绪信号（预测市场押注变化）属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://www.yahoo.com/finance/news/prediction-markets-bets-on-bitcoin-hitting-150k-slashed-123456789.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SpaceX预IPO合约登陆加密平台",
+      "summary": "加密交易平台开始提供SpaceX pre-IPO合约，允许交易者在其正式上市前投机估值。此举可能吸引部分加密资金流向传统股权，短期对BTC等流动性造成虹吸；但长期视为加密市场与传统金融融合的里程碑。HYPE因Hyperliquid上线相关合约而受益。",
+      "reason": "市场结构变化，可能影响资金流向，属于中等影响。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "HYPE"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://www.yahoo.com/finance/news/crypto-traders-can-now-bet-on-spacex-before-ipo-should-that-worry-regulators-123456789.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "5月跨链桥攻击损失达3.286亿美元",
+      "summary": "PeckShield报告显示，5月以来跨链桥攻击已导致8起重大事件，累计损失3.286亿美元。最严重的是Verus-以太坊桥被盗1150万美元。频繁攻击削弱DeFi信任，尤其对ETH、AVAX等桥接资产构成潜在风险，相关代币可能承压。",
+      "reason": "项目重大安全事件（黑客攻击）属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AVAX"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSGFCM0tFbEZsdkFMX3B6bXdHN18yTjh5VEFyZDNRdGhieDFWTHRJVmpGaGdydFZrT0RxejRadEtxTDZqNUJvd0RvYTRhSUo4OW95QWpaU1hZa1ByelR2MkQtRzVObHh4b0hTUzUtNXlRMDVkYXBlOXhFZTNsUE5oY3JHTEJkTXVsTmJXWlkyMWcya185QTR0OGFYM0gwU1JLTlpsYVZYd0VsZWtIQS01ZEhuZU95Ykprc1MtamdxdjlRR0ZEX0RZMGlxamM3QlY5eDZ1cQ"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
