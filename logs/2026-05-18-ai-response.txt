@@ -972,3 +972,80 @@ content length: 2081
   ],
   "note": "筛选出4条较有交易价值的新消息。历史消息中大量重复的Binance公告和已报道事件已排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4024, prompt_tokens=10154, total_tokens=14178, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3047, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9002)
+content length: 2460
+============================================================
+{
+  "news": [
+    {
+      "title": "地缘风险BTC暴跌5亿美元清算",
+      "summary": "特朗普警告伊朗重启军事打击，美以联合空袭风险骤增，触发避险情绪。BTC跌破77000美元，一小时内多头清算超5亿美元，ETH同步下跌。地缘政治紧张加剧，短期看空BTC、ETH。",
+      "reason": "地缘政治事件直接引发大跌和大量清算，优先级一，影响极强。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "CNBC Crypto", "url": "https://www.cnbc.com/.../oil-rises-iran-us-peace-talks.html"},
+        {"name": "Crypto Twitter - bloomingbit", "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42NnlqOWJLdVFxeWZCOGd6dzYtcjdSaHZiekVqM0xoUW9Oc2xPUUFpcDc0QlRyT1JZMmRZaDExMlo2cHFLQ3BEdElEMTZwZ2ZlU0VfNw?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币杠杆率14.9%做多拥挤",
+      "summary": "比特币杠杆率升至14.9%，利润回吐增加，分析师警告高杠杆环境下利空易引发连环清算。当前做多拥挤，短期看空BTC。",
+      "reason": "市场结构异动，资金费率可能极高，属于优先级三市场情绪信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "AMBCrypto via Crypto Twitter", "url": "https://ambcrypto.com/bitcoin-leverage-hits-14-9..."}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国信用合作社拟议稳定币规则",
+      "summary": "美国国家信用合作社管理局（NCUA）发布许可支付稳定币发行机构标准拟议规则，为信用合作社发行稳定币提供监管框架。利好合规稳定币，中性偏多USDC、USDT。",
+      "reason": "监管政策进步，中长期利好稳定币生态，优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513158.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "巨鲸10倍做多ZEC和HYPE 2400万",
+      "summary": "某巨鲸开10倍杠杆做多Zcash (ZEC) 和 Hyperliquid (HYPE)，总持仓价值2400万美元。大额杠杆做多可能短期推升币价，但风险极高，看多ZEC和HYPE。",
+      "reason": "巨鲸异动，直接影响对应币种，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ZEC", "HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513160.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BinanceResearch：BTC供应趋紧",
+      "summary": "Binance Research报告显示四个链上信号表明比特币供应趋紧、抛压耗尽，包括交易所余额下降、矿工卖出减少等。中长期利好BTC。",
+      "reason": "链上指标异常，供应端利多，优先级二。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513163.html"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
