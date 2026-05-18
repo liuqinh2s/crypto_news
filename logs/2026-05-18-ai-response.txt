@@ -1772,3 +1772,66 @@ content length: 1670
   ],
   "note": "近6小时内多数消息为已有事件的重复报道，仅筛选出3条独立且有交易价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2659, prompt_tokens=14444, total_tokens=17103, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1468, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13292)
+content length: 2634
+============================================================
+{
+  "news": [
+    {
+      "title": "Clarity Act利好USDC",
+      "summary": "Bernstein分析指出，Clarity Act的收益率妥协方案加强了Circle的竞争优势，同时稳定币总供应量创历史新高。这意味着更多合规资金可能流入USDC，推动稳定币市场进一步扩张。对USDC和整体加密市场为看多信号，因为稳定币增发通常预示资金入场。",
+      "reason": "稳定币供应量变化是优先级一的直接行情影响指标，增发属看多信号。",
+      "category": "市场结构",
+      "impact_coins": ["USDC", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401615/bernstein-says-clarity-act-yield-compromise-cements-circles-edge-amid-record-stablecoin-supply"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CFTC前官员质疑监管能力",
+      "summary": "多位CFTC前官员表示，该机构可能无法同时有效监管加密货币和预测市场，暗示监管框架存在不确定性。这可能导致市场对监管风险的担忧加剧，短期利空情绪。但长期来看，若监管明确化，反而可能成为利好。当前信号偏空。",
+      "reason": "重大监管动态影响市场预期，属优先级一，但仅为言论而非实际行动，评级下调。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Bloomberg Law News", "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa0dteFBHVDQ3NWVSUW15OWpzNEhIR2twaFhiSFJRY09ySG95VjFUcVI1d1lYSGhEalo4NE4zWUlwZ1NPalRxYmk0c3FjS0dsbVR1aGVaZHBmQ1NyNWo5NDh6NnFnZGxaM3ZSdHJzZC1fa0thbm05OUdTNGQ1VmVFTkJobUxSZkdMaG00Um8wMXhOMHN5TjY4RWRCeU14aEszVFBHMkY1U0tsWXM"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "渣打整合Zodia托管业务",
+      "summary": "渣打银行将吸收其子公司Zodia的加密托管业务，进一步扩大机构级托管服务。这表明传统大型银行持续布局加密资产，增强市场信心，对BTC和ETH为看多信号。",
+      "reason": "机构动向属优先级二，渣打作为全球性银行，其动作具有示范效应。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Bloomberg.com", "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMEI0RWQxOVk5Tm5JY3FGYWNUWjdndklpNEEySV90NUg0TFdoOEQ2ZXU5ZGIwZDVtNmVIeVNZa0tDOHQyS0k5SzJNTU1ORkttT2lNLUFxbGtNTjRlOHJBZ1BzQnpXTnZ6V3ZRZmY1SE55NEVCQUZFNVFfWGpDd25Dc2FZcXd4c0o2TU5mbklQci1NczlWV3p2LWZHeEdVMzdEa3N3XzhVME96TWxoY1RiQVR5UQ"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "意大利银行削减Solana配置",
+      "summary": "意大利联合圣保罗银行正在调整加密资产配置，增加BTC和ETH等主流资产曝光，同时削减Solana投资。这反映机构对SOL的长期信心减弱，可能引发其他机构效仿，对SOL为看空信号，对BTC/ETH中性偏多。",
+      "reason": "机构动向影响中期行情，且涉及具体币种，属优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["SOL", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance News", "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95b2FlMHRoS09NMXN2ejVwWEd1bTZJc3lnYlJZVW5obEc0bkt1WHpGdjQtMV9obV9DZk5GSWRFTF96Y3R2U3pXN3luNHFWcXZ0WjhCTy05ZGdHejBoN2J1clFHY21lMWVJ"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
