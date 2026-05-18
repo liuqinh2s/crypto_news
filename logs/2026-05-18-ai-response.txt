@@ -1446,3 +1446,67 @@ content length: 2692
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3537, prompt_tokens=12413, total_tokens=15950, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2291, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11261)
+content length: 2852
+============================================================
+{
+  "news": [
+    {
+      "title": "HYPE涨7% SpaceX预上市登陆Hyperliquid",
+      "summary": "HYPE代币价格上涨7%，跑赢比特币，原因是SpaceX的pre-IPO市场在Hyperliquid上线，估值1.78万亿美元。市场预期SpaceX预上市将带来资金流入和交易量，HYPE作为Hyperliquid平台代币直接受益。该消息对HYPE为看多信号，对BTC/ETH影响中性。",
+      "reason": "SpaceX预上市是重大金融事件，直接在Hyperliquid发行对HYPE是流动性催化剂，属于优先级一的交易所上币/项目动态。",
+      "category": "项目更新",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/18/hype-pops-7-beating-bitcoin-declines-as-spacex-pre-ipo-lands-on-hyperliquid"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SpaceX预上市估值1.78万亿，比特币储备受关注",
+      "summary": "SpaceX在Hyperliquid的pre-IPO市场推出，估值1.78万亿美元，其比特币持有量成为焦点。此前有传闻SpaceX持有大量BTC，但官方未确认。此事件可能放大市场对机构比特币储备的关注，短期看多情绪或提振比特币。但实际影响需观察。对BTC为中性偏多，对ETH中性。",
+      "reason": "SpaceX预上市是市场热点，其比特币储备的讨论可能影响市场情绪，属于优先级二的机构动向。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk (Twitter)", "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM3VZMXJyZWg3aTdkbEVmTlh1cjg3VW05emdLVkJzTmhXTnFuNmprbFA3TmZWNEpLeEVQeDhZRWZRcEpYS0tRajA5MURVVnR2cTZKTWp6RGdOMjRPR0dXa2RGTUxmVUFLSHN1eE1DWWtURk56QVI1Z3JjQTRxRzMzZEc4UW54VDZLXzRhTnQwVlN0ZFd4YlBBRHkxQkJoOTkzanJvbWtMbG1WR0hNNHo2NW9LTkIybmtCVVlJ?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普入股MARA Holdings",
+      "summary": "据报道，特朗普购买了比特币矿商MARA Holdings的股份。此举可能被视为对比特币挖矿行业的政治背书，短期内提升MARA股票及比特币矿工板块情绪。但MARA股价波动对BTC现货影响有限。对BTC为中性偏多，对MARA股票直接利多。",
+      "reason": "特朗普作为政治人物购入矿商股份属于机构动向，可能影响市场信心，优先级二中。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Yahoo Finance (via Crypto Twitter)", "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNamR0aDAyYzZ2NnItR2tmRnVqTDBnWE1mYW1iblZCOWJpUUp5V1BpR1NaWG1QbUhkdmI4ZXdvODl5SGlZSGFhd1c2SDFfOVZreTVPeXNNV0dnSmQzUmRlYjcwTlpMbno0aWZZNmlCODZNRTFHZXRqUEdscGpNWmRYU0RvRjY2Z20xZnAweXlnclBDclNYcWVoR0VuMUc?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave恢复WETH借贷市场，rsETH恢复进展",
+      "summary": "Aave协议宣布WETH市场恢复正常运营，此前因Kelp DAO的rsETH漏洞导致暂停。rsETH恢复进展顺利，市场信心修复。该消息对ETH和DeFi生态是积极信号，但影响有限。对ETH为看多，对AAVE相关代币偏多。",
+      "reason": "DeFi协议恢复属于项目更新，影响中等，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "AAVE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/aave-restores-weth-borrowing-after-kelp-dao-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于大量历史消息重复（如BTC跌破77K、清算5.63亿、桥攻击等），本轮仅筛选出4条有交易价值的新消息。"
+}
