@@ -472,3 +472,62 @@ content length: 1910
   ],
   "note": "本次筛选仅发现3条高价值新消息，其余均为重复或影响力微弱内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2833, prompt_tokens=14430, total_tokens=17263, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1997, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13278)
+content length: 2048
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor暗示可能卖BTC",
+      "summary": "MicroStrategy创始人Michael Saylor在采访中表示，Strategy未来可能开始出售部分比特币持仓，尽管目前仍在持续买入。此前Strategy刚完成20亿美元比特币增持，总持仓达843,738 BTC。若Strategy减持，将带来巨大抛压，直接利空BTC。当前BTC处于下跌趋势，该言论加剧市场恐慌。",
+      "reason": "最大持币机构的减持言论直接构成重大利空，影响比特币价格。属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Investopedia",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ1VFODZRb0VSc3pzWWQtTjFweldKTDV6b1BwZ0MxZW95MjdKalk0N1BQTGpWdWNEaGlGLWFZb1NyRGszMERQMHVaWXM3LUJ2eUl0YnlIUS0zVmZHTHRRN3dvYnlkTXBmT2FlVFZVVFJ5V0ZIZEY5MUcyWmczc3RkZ3ZoaE0zUWw2SWU4eVBwbm9JUFZrdDkwdkVVb3hwNWYxRkhXMXRIWkk3ZWxyb2Z1Wkw5dUs1TWhPd2hn?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Swan Bitcoin遭10亿美元诉讼",
+      "summary": "加密金融服务商Swan Bitcoin被起诉近10亿美元，源于其托管合作伙伴Prime Trust的破产。诉讼指控Swan未尽到尽职调查责任，导致客户资金损失。这一事件可能进一步打击市场对中心化借贷和托管服务的信心，短期利空BTC和ETH等主要币种，但影响程度有限，因为Swan非上市大平台。",
+      "reason": "巨额诉讼涉及知名加密公司，可能引发监管连锁反应和市场恐慌，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368244/swan-bitcoin-nearly-1-billion-lawsuit-prime-trust-collapse"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "欧稳定币经纪获MiCA许可",
+      "summary": "Zerohash成为首个在欧盟获取MiCA电子货币机构（EMI）许可证的稳定币经纪商，可在欧洲合规提供稳定币发行和经纪服务。这标志着欧洲稳定币监管框架正式落地，有利于USDT/USDC等合规稳定币的采用，为市场带来增量资金，中长期利好BTC和ETH。",
+      "reason": "重大监管合规进展，有助于消除欧洲市场的不确定性，吸引机构资金入场。属于优先级一的监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401741/zerohash-first-emi-license-mica-stablecoin-brokerage-services-europe"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}

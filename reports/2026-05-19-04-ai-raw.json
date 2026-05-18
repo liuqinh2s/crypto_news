@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-19",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 14430,
+    "completion_tokens": 2833,
+    "total_tokens": 17263
+  },
+  "content_length": 2048,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Saylor暗示可能卖BTC\",\n      \"summary\": \"MicroStrategy创始人Michael Saylor在采访中表示，Strategy未来可能开始出售部分比特币持仓，尽管目前仍在持续买入。此前Strategy刚完成20亿美元比特币增持，总持仓达843,738 BTC。若Strategy减持，将带来巨大抛压，直接利空BTC。当前BTC处于下跌趋势，该言论加剧市场恐慌。\",\n      \"reason\": \"最大持币机构的减持言论直接构成重大利空，影响比特币价格。属于优先级一的项目方重大事件。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 5,\n      \"sources\": [\n        {\n          \"name\": \"Investopedia\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ1VFODZRb0VSc3pzWWQtTjFweldKTDV6b1BwZ0MxZW95MjdKalk0N1BQTGpWdWNEaGlGLWFZb1NyRGszMERQMHVaWXM3LUJ2eUl0YnlIUS0zVmZHTHRRN3dvYnlkTXBmT2FlVFZVVFJ5V0ZIZEY5MUcyWmczc3RkZ3ZoaE0zUWw2SWU4eVBwbm9JUFZrdDkwdkVVb3hwNWYxRkhXMXRIWkk3ZWxyb2Z1Wkw5dUs1TWhPd2hn?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Swan Bitcoin遭10亿美元诉讼\",\n      \"summary\": \"加密金融服务商Swan Bitcoin被起诉近10亿美元，源于其托管合作伙伴Prime Trust的破产。诉讼指控Swan未尽到尽职调查责任，导致客户资金损失。这一事件可能进一步打击市场对中心化借贷和托管服务的信心，短期利空BTC和ETH等主要币种，但影响程度有限，因为Swan非上市大平台。\",\n      \"reason\": \"巨额诉讼涉及知名加密公司，可能引发监管连锁反应和市场恐慌，属于优先级一的项目方重大事件。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/368244/swan-bitcoin-nearly-1-billion-lawsuit-prime-trust-collapse\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"欧稳定币经纪获MiCA许可\",\n      \"summary\": \"Zerohash成为首个在欧盟获取MiCA电子货币机构（EMI）许可证的稳定币经纪商，可在欧洲合规提供稳定币发行和经纪服务。这标志着欧洲稳定币监管框架正式落地，有利于USDT/USDC等合规稳定币的采用，为市场带来增量资金，中长期利好BTC和ETH。\",\n      \"reason\": \"重大监管合规进展，有助于消除欧洲市场的不确定性，吸引机构资金入场。属于优先级一的监管政策。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/401741/zerohash-first-emi-license-mica-stablecoin-brokerage-services-europe\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
