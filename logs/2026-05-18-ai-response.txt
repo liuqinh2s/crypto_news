@@ -1200,3 +1200,158 @@ content length: 4106
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4069, prompt_tokens=12714, total_tokens=16783, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2338, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11562)
+content length: 4497
+============================================================
+{
+  "news": [
+    {
+      "title": "Grayscale/VanEck提交BNB ETF",
+      "summary": "Grayscale和VanEck已修改其美国现货BNB ETF的申请文件，距SEC潜在批准更进一步。若获批，将直接推动BNB需求，类似BTC ETF效应。目前BNB价格较低，市场预期利好。",
+      "reason": "优先级一：ETF机构动态，直接影响BNB价格，潜在大规模资金流入。",
+      "category": "ETF机构",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/grayscale-vaneck-advance-bnb-etf-filings-for-potential-sec-approval"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC突破77000美元",
+      "summary": "比特币价格反弹突破77000美元，此前曾跌至76000美元以下。短期技术面转强，但整体宏观环境仍承压。需关注是否站稳，若持续上涨可能引发空头回补。",
+      "reason": "价格突破关键心理位，可能引发追涨，属直接影响行情。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513194.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗无人机被击落，局势升级",
+      "summary": "伊朗媒体报道一架美军无人机在也门被击落，此前特朗普已威胁对伊朗核打击。地缘紧张加剧，油价上涨，风险资产承压。加密货币作为风险资产可能继续下跌。",
+      "reason": "地缘政治风险升级，直接压制风险偏好，属优先级一（重大事件）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513195.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "通胀担忧引爆全球债市抛售",
+      "summary": "长期美债收益率创近三年新高，全球债市遭抛售，反映市场对通胀持续性的担忧。无风险利率上升将削弱加密货币吸引力，资金可能流出。",
+      "reason": "宏观经济数据（利率）直接影响风险资产估值，属优先级二或一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513184.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Yardeni敦促美联储放弃宽松",
+      "summary": "华尔街老将Yardeni警告美联储应放弃宽松倾向，否则可能失去利率控制。市场对加息的预期升温，利空风险资产。",
+      "reason": "宏观政策预期变化，影响整体市场情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513183.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tom Lee：油价是ETH最大逆风",
+      "summary": "Fundstrat分析师Tom Lee认为油价上涨是ETH最大利空，但预计ETH下半年表现更强。观点偏多，但短期油价压力仍在。",
+      "reason": "知名分析师观点，影响市场情绪，属优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513188.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国虚拟资产税延期至2027年",
+      "summary": "韩国官员明确虚拟资产税将在2027年1月起按期实施，不再推迟。税收不确定性消除，但征税本身对市场有一定负面影响，时间较远影响有限。",
+      "reason": "监管政策明朗化，中期影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513189.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "RWA代币化市值达337.8亿美元",
+      "summary": "代币化真实世界资产(RWA)市值达到337.8亿美元里程碑，显示机构采用加速。利好相关DeFi协议和代币，如ONDO、MKR等。",
+      "reason": "市场结构变化，反映行业趋势，中期影响。",
+      "category": "市场结构",
+      "impact_coins": ["ONDO", "MKR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "AMBCrypto",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5Kc3B5QnhqMV9YVHE5S0x3NjVmUllxZG5kSkQybmRiLUcwZEk0SW96bzVWck5kTEtNV1RBLXRsb1luOHdpRlHSAaABQVVfeXFMTUY2bWFKZXlUTWhZb0Vfd3B1S0NGb3IzdldsRXdONUZfeTZsYTZzZklaeW9sbVI5dHF1UFNwbEdMc18zNXR1emVNa0pyTFNoRVJhZUNXNDZGME55cjJNNm51S0pXVEJkeE9qVnI2aGZxVlBhT0NGSTlxN0RrTXVOVkZJN0tzME93ODlHdUN3NmxPLXhWdGRWOUR2YzBqVlBycg"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bithumb上线AIGENSYN韩元交易对",
+      "summary": "韩国交易所Bithumb将上线Gensyn(AIGENSYN)韩元交易对，此前Binance已上线。韩国市场情绪热烈，可能推动短期价格上涨。但币种较小，波动大。",
+      "reason": "交易所上币直接利好该币种，属优先级一。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513177.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
