@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-18",
+  "hour": "20",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17895,
+    "completion_tokens": 2742,
+    "total_tokens": 20637
+  },
+  "content_length": 1954,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"英国支付网络代币化准备就绪\",\n      \"summary\": \"英国金融支付网络（FPS）监管机构表示，支付系统已准备好支持代币化资产结算，并计划就扩大批发代币化市场规模征求意见。这可能加速英国代币化资产市场发展，利好ETH、RWA相关代币如ONDO、MKR等。长期看多信号。\",\n      \"reason\": \"监管积极表态，为代币化资产提供基础设施支持，属于监管政策利好。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"ETH\", \"ONDO\", \"MKR\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"CoinDesk\", \"url\": \"https://www.coindesk.com/policy/2026/05/18/uk-s-financial-payments-network-is-ready-for-tokenization-regulators-say\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"灰度与VanEck修改BNB ETF申请\",\n      \"summary\": \"灰度（Grayscale）和范达（VanEck）已向SEC提交修改后的现货BNB ETF申请文件，这是BNB ETF审批过程中的重要步骤。若获批，BNB将直接受益。目前看多信号增强。\",\n      \"reason\": \"ETF申请进展是直接影响价格的关键消息，属于优先级一的ETF机构动态。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BNB\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"Yahoo Finance\", \"url\": \"https://news.google.com/rss/articles/CBMinAFBVV95cUxPYk13aGFSa0NsdzA2dUFOajVxbFZYbENvaUlmLWV2OVlBMFl6R3RpTHhxdENNbkZFUFl3N2JlbG1QcUxoaF9HZXJmN2poTU44dGcyR0pnaHVNeDU5T0c0bVFueERMbzh4NUVJdXNxNkZTcUVfY0hzM1JwVUVpX1ZfaGotdWJNa01xMDJhVXJWV01SZzh1dUNFeU1tWFY\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"渣打预测2028年代币化资产达4万亿美元\",\n      \"summary\": \"渣打银行预测，到2028年底代币化资产规模将达到4万亿美元，DeFi协议将是主要受益者。该预测强化了加密资产长期叙事，但短期影响有限。中性偏多信号。\",\n      \"summary\": \"标准 Chartered 预测代币化资产规模至2028年达4万亿美元，DeFi协议为主要受益者。该预测强化了加密资产长期叙事，但短期影响有限。中性偏多信号。\",\n      \"reason\": \"机构预测反映主流金融对加密的认可，属于机构动向，但时间跨度长，影响级别较低。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\", \"AAVE\", \"UNI\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/401635/standard-chartered-projects-4t-in-tokenized-assets-by-end-2028-with-defi-protocols-primary-beneficiaries\"}\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"由于大量消息与历史标题重复，仅筛选出3条新消息。\"\n}"
+}
