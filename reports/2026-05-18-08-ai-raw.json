@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-18",
+  "hour": "08",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9495,
+    "completion_tokens": 2472,
+    "total_tokens": 11967
+  },
+  "content_length": 2081,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"冈拉克：CPI或破4，美联储不降息\",\n      \"summary\": \"“新债王”冈拉克表示下个月CPI读数更可能超过4%，美联储降息“根本不可能”。这一观点强化了市场对通胀顽固和货币政策紧缩的预期，利空包括加密货币在内的风险资产。若CPI实际超预期，可能引发BTC、ETH等进一步下行。信号看空。\",\n      \"reason\": \"宏观经济数据直接影响风险资产走势，冈拉克作为知名分析师，其观点可能引发市场情绪变化。属于优先级二：宏观经济。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513150.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"两鲸鱼买入20.5万枚HYPE\",\n      \"summary\": \"据金色财经，HYPE重启升势，两鲸鱼合计买入超过20.5万枚HYPE（价值约数百万美元）。大额买入通常视为看多信号，可能推动HYPE短期价格上行。但需注意HYPE流动性相对较低，追高风险较大。\",\n      \"reason\": \"巨鲸异动属于优先级一，直接表明大户增持，对HYPE价格有积极影响。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513149.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐慌贪婪指数28，市场恐惧\",\n      \"summary\": \"当前加密恐慌贪婪指数为28，处于恐惧状态，较之前27略有回升但仍在低位。恐惧区间通常被视为潜在买入机会（中长期），但短期可能继续承压。需结合其他指标判断。\",\n      \"reason\": \"市场情绪信号，优先级三。恐惧贪婪指数极值（<20或>80）才有强信号，28仍未达到极端，但可作为市场偏冷参考。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"欧洲银行扩大加密产品供应\",\n      \"summary\": \"有报道称欧洲银行正在扩大加密货币产品供应，反映传统金融机构对数字资产的接纳度提升。这属于机构采用层面的积极信号，但未提及具体规模或币种，短期影响有限，中长期利好。\",\n      \"reason\": \"机构动向（优先级二），欧洲银行入场可能带来增量资金，但消息较模糊，评级中性。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513140.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"筛选出4条较有交易价值的新消息。历史消息中大量重复的Binance公告和已报道事件已排除。\"\n}"
+}
