@@ -317,3 +317,158 @@ content length: 3106
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1478, prompt_tokens=15744, total_tokens=17222, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1416, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14592)
+content length: 106
+============================================================
+{
+  "news": [],
+  "note": "当前抓取素材中所有消息均与近6小时历史标题重复，且无重大更新。恐惧贪婪指数维持28(恐惧)，但无新数据。宏观事件如美联储会议纪要尚未发布，无新交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3083, prompt_tokens=15744, total_tokens=18827, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2721, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=15616), prompt_cache_hit_tokens=15616, prompt_cache_miss_tokens=128)
+content length: 774
+============================================================
+{
+  "news": [
+    {
+      "title": "不丹否认出售10亿美元BTC",
+      "summary": "不丹政府否认了此前关于其出售价值10亿美元比特币的传闻，澄清该国并未进行大规模抛售。这一否认消除了市场对潜在抛压的担忧，可能短期缓解比特币下行压力。若传闻为假，则原本预期的卖盘不会出现，对BTC形成一定利好。但需注意市场整体情绪仍偏弱。",
+      "reason": "巨鲸抛售传闻直接影响BTC价格，官方否认消除了不确定性，属于直接影响行情的事件。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40M0tVTFNtVGV6NDUtcmpBMDFRXzFVNHFQcGZUb2RKTnE2amVmZDdsSGhxNFNrVGVTSl8zZGxWRUstNDBRQVUzT2NFM0RLS0NnYWwyWF8zU2FJQ3NvSVQweEFlQUJXc1llWF94aHJ4QTlYbFB6bkFnSU1JdUhXWFU?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中绝大多数消息已在历史标题中出现，仅有不丹否认抛售BTC这一条有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3413, prompt_tokens=15744, total_tokens=19157, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3141, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=15616), prompt_cache_hit_tokens=15616, prompt_cache_miss_tokens=128)
+content length: 676
+============================================================
+{
+  "news": [
+    {
+      "title": "Polymarket内幕交易疑云",
+      "summary": "去中心化预测市场Polymarket上，有用户疑似利用内幕信息在伊朗相关预测中获利240万美元。事件引发对内幕交易和监管风险的担忧，可能影响Polymarket平台代币（如Polygon）的市场信心。短期看空POL及相关预测市场代币，但事件对大盘影响有限。",
+      "reason": "涉及内幕交易和监管风险，可能打击市场对预测平台的信任度，影响相关代币。",
+      "category": "监管政策",
+      "impact_coins": ["POL", "MATIC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368255/polymarket-users-insider-trading-2-4-million-iran-predictions"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时消息中，多数与历史高度重复（如比特币ETF流出、Strategy增持、白宫比特币储备等），仅筛选出1条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2626, prompt_tokens=17184, total_tokens=19810, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2331, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16032)
+content length: 730
+============================================================
+{
+  "news": [
+    {
+      "title": "Polymarket内幕交易指控",
+      "summary": "Polymarket上多个关联账户在美国对伊朗军事行动预测中获利240万美元，胜率98%，引发内幕交易怀疑。分析师认为可能涉及提前获取机密信息。此事件可能促使监管机构加强对Polymarket的审查，对POL代币构成负面影响，同时加剧市场对预测平台合规风险的担忧。短期看空POL，但整体市场影响有限。",
+      "reason": "涉及预测市场内幕交易，可能引发监管关注，属于潜在监管风险事件，对POL代币有利空影响。",
+      "category": "市场情绪",
+      "impact_coins": ["POL"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368255/polymarket-users-insider-trading-2-4-million-iran-predictions"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中绝大多数新闻与近6小时历史标题重复，仅Polymarket内幕交易为新增内容。其他如White House战略比特币储备、ETF资金流出、机构买入等虽重要但已收录历史，故未重复选取。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3795, prompt_tokens=17184, total_tokens=20979, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2991, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=17152), prompt_cache_hit_tokens=17152, prompt_cache_miss_tokens=32)
+content length: 1910
+============================================================
+{
+  "news": [
+    {
+      "title": "Polymarket用户涉伊朗赌场内幕交易",
+      "summary": "据Decrypt报道，多个关联Polymarket账户在美国对伊朗军事行动预测中获利240万美元，胜率高达98%，引发内幕交易嫌疑。这暗示可能有知情人士利用未公开信息进行交易，可能加剧市场对伊朗局势的不可预测性，增加风险溢价。短期看空风险资产，但直接影响有限。影响币种：BTC、ETH。",
+      "reason": "涉及内幕交易嫌疑，可能引发监管关注和信任危机，属于市场结构异常信号，优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368255/polymarket-users-insider-trading-2-4-million-iran-predictions"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "不丹否认出售10亿美元BTC",
+      "summary": "不丹政府公开否认此前关于其出售10亿美元比特币的传闻，澄清并未进行大规模抛售。不丹是已知的比特币持有国（其主权基金持有约7.8万枚BTC），这一澄清缓解了市场对主权机构抛售的担忧，短期利好BTC价格。但市场情绪仍受伊朗局势压制。",
+      "reason": "巨鲸/主权基金动向直接影响市场情绪，虚假抛压被证伪，属于链上异动/机构动向，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40M0tVTFNtVGV6NDUtcmpBMDFRXzFVNHFQcGZUb2RKTnE2amVmZDdsSGhxNFNrVGVTSl8zZGxWRUstNDBRQVUzT2NFM0RLS0NnYWwyWF8zU2FJQ3NvSVQweEFlQUJXc1llWF94aHJ4QTlYbFB6bkFnSU1JdUhXWFU?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密货币庞氏案嫌犯从泰国引渡",
+      "summary": "一名被指控运营加密货币庞氏骗局的女性从泰国被引渡至美国，面临共谋欺诈指控。这显示美国对加密犯罪执法力度加强，短期可能压制市场情绪，但长期有利于行业合规化。对BTC、ETH影响中性偏负面。",
+      "reason": "监管执法行动属于监管政策范畴，虽个案但体现监管趋严，优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tgttt0/alleged_cryptocurrency_ponzi_scheme_goddess/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本次筛选仅发现3条高价值新消息，其余均为重复或影响力微弱内容。"
+}

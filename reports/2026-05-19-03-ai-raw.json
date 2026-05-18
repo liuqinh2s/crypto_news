@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-19",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 5/6 策略=完整内容 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17184,
+    "completion_tokens": 3795,
+    "total_tokens": 20979
+  },
+  "content_length": 1910,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Polymarket用户涉伊朗赌场内幕交易\",\n      \"summary\": \"据Decrypt报道，多个关联Polymarket账户在美国对伊朗军事行动预测中获利240万美元，胜率高达98%，引发内幕交易嫌疑。这暗示可能有知情人士利用未公开信息进行交易，可能加剧市场对伊朗局势的不可预测性，增加风险溢价。短期看空风险资产，但直接影响有限。影响币种：BTC、ETH。\",\n      \"reason\": \"涉及内幕交易嫌疑，可能引发监管关注和信任危机，属于市场结构异常信号，优先级二。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/368255/polymarket-users-insider-trading-2-4-million-iran-predictions\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"不丹否认出售10亿美元BTC\",\n      \"summary\": \"不丹政府公开否认此前关于其出售10亿美元比特币的传闻，澄清并未进行大规模抛售。不丹是已知的比特币持有国（其主权基金持有约7.8万枚BTC），这一澄清缓解了市场对主权机构抛售的担忧，短期利好BTC价格。但市场情绪仍受伊朗局势压制。\",\n      \"reason\": \"巨鲸/主权基金动向直接影响市场情绪，虚假抛压被证伪，属于链上异动/机构动向，优先级一。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMif0FVX3lxTE40M0tVTFNtVGV6NDUtcmpBMDFRXzFVNHFQcGZUb2RKTnE2amVmZDdsSGhxNFNrVGVTSl8zZGxWRUstNDBRQVUzT2NFM0RLS0NnYWwyWF8zU2FJQ3NvSVQweEFlQUJXc1llWF94aHJ4QTlYbFB6bkFnSU1JdUhXWFU?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"加密货币庞氏案嫌犯从泰国引渡\",\n      \"summary\": \"一名被指控运营加密货币庞氏骗局的女性从泰国被引渡至美国，面临共谋欺诈指控。这显示美国对加密犯罪执法力度加强，短期可能压制市场情绪，但长期有利于行业合规化。对BTC、ETH影响中性偏负面。\",\n      \"reason\": \"监管执法行动属于监管政策范畴，虽个案但体现监管趋严，优先级二。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Reddit\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1tgttt0/alleged_cryptocurrency_ponzi_scheme_goddess/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本次筛选仅发现3条高价值新消息，其余均为重复或影响力微弱内容。\"\n}"
+}
