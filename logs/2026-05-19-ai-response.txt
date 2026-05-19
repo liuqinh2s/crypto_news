@@ -889,3 +889,147 @@ content length: 5589
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2554, prompt_tokens=11294, total_tokens=13848, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2223, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10142)
+content length: 785
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至25",
+      "summary": "加密货币恐惧贪婪指数下降至25（极度恐惧），较前值28进一步走低。极度恐惧通常表明市场情绪极度悲观，历史数据显示该区域往往是中长期底部区间，但短期价格可能继续承压。该指数综合了波动率、交易量、社交媒体情绪、调查、市值占比和谷歌趋势等数据。当前指数偏低，暗示市场可能存在过度恐慌，中长期看多信号增强，但短期仍需警惕进一步下跌风险。影响币种为整体市场，情绪极度悲观时容易引发抛售，但也为长期投资者提供布局机会。",
+      "reason": "恐惧贪婪指数降至极度恐惧区间（<20为极度恐惧，25接近但未到20），属于市场情绪极值信号，符合筛选标准优先级三。数值较之前28更新，表明恐慌加深，具有交易参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH", "ALL"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me Fear and Greed Index",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数消息已在历史中出现重复，或属于排除项（普通讨论、营销、介绍性文章），仅有恐惧贪婪指数更新符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=601, prompt_tokens=11294, total_tokens=11895, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=365, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11264), prompt_cache_hit_tokens=11264, prompt_cache_miss_tokens=30)
+content length: 605
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至25",
+      "summary": "加密货币恐惧贪婪指数当前值为25，属于极度恐惧（Extreme Fear），较前值28进一步下降。该指数反映市场情绪极度悲观，通常被视为中长期抄底信号。从历史数据看，极度恐惧区域往往对应价格底部区间，但短期可能继续下探。影响币种包括BTC和ETH，信号为中性偏多头，但属于市场情绪指标，需结合其他因素。",
+      "reason": "恐惧贪婪指数降至极度恐惧区域（低于20为极度恐惧，25接近），符合筛选标准优先级三，且数值较前次下跌，有更新价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1253, prompt_tokens=11294, total_tokens=12547, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=981, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11264), prompt_cache_hit_tokens=11264, prompt_cache_miss_tokens=30)
+content length: 646
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至25",
+      "summary": "恐惧贪婪指数从28降至25，处于极端恐惧区间。历史数据显示，极度恐惧往往对应中期底部区域，可能预示着后续反弹机会。但短期仍需警惕进一步下跌风险。影响所有币种，中长期看多信号。",
+      "reason": "恐惧贪婪指数<20为极度恐惧，25接近极端，属于重要市场情绪指标，符合筛选标准中优先级三的情绪信号。数值变化（28→25）表明恐慌加剧，可能触发抄底行为。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH", "ALT"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分消息与历史标题重复，符合去重规则需排除。仅恐惧贪婪指数数值更新（28→25）为有效新消息。其余Binance公告、SEC框架、Galaxy牌照等均为重复事件，未予选入。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1913, prompt_tokens=12259, total_tokens=14172, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1660, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11107)
+content length: 621
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至25极度恐惧",
+      "summary": "加密市场恐惧贪婪指数从28降至25，进入「极度恐惧」区间。通常极度恐惧是中长期买入机会，但短期可能继续下探。需结合价格走势，比特币已跌至77k附近。历史数据显示极度恐惧后往往有反弹，但需等待企稳信号。影响BTC、ETH等主要币种，中长期看多，短期中性偏空。",
+      "reason": "恐惧贪婪指数更新并进入极值区域，符合优先级三市场情绪信号，对交易决策有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数消息与历史标题重复，仅恐惧贪婪指数有数值更新，故输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2498, prompt_tokens=12259, total_tokens=14757, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2260, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12160), prompt_cache_hit_tokens=12160, prompt_cache_miss_tokens=99)
+content length: 597
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至25 恐惧",
+      "summary": "加密市场恐惧贪婪指数从28降至25，仍处于'恐惧'区间。该指数持续走低，反映市场悲观情绪加剧，可能接近短期底部。历史上恐惧区间常伴随价格超卖，中长期看可能为买入机会，但短期波动风险仍存。对BTC、ETH等主流币种影响中性偏多。",
+      "reason": "市场情绪信号，恐惧贪婪指数持续下降，可作为中长期抄底参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中多数消息与历史重复，仅恐惧贪婪指数更新具有交易参考价值，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2554, prompt_tokens=4636, total_tokens=7190, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2554, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3484)
+content length: 0
+============================================================
+
