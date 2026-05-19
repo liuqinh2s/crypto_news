@@ -214,3 +214,78 @@ content length: 5107
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2510, prompt_tokens=14872, total_tokens=17382, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1220, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13720)
+content length: 2943
+============================================================
+{
+  "news": [
+    {
+      "title": "BitMine购入7.1万ETH",
+      "summary": "BitMine于近日购入71,672枚ETH，价值约1.5亿美元。汤姆·李表示ETH跌破2200美元是买入良机。巨鲸大额买入ETH并存入，显示机构对ETH的看涨情绪，可能带动ETH价格企稳或反弹。信号：看多ETH。",
+      "reason": "巨鲸异动买入ETH，属于优先级一直接行情影响，且伴随知名分析师看多言论，增强信号强度。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOQU96aXJ5cUpfcXZhRmJGejRmVjRKLVZXWEdZdjlkWlowSDVFWnh1QWJJZHVWeGpMWUpweHlJWnRoMzNJazRmcWxfRWhjMDFaVWF4VGtNWFVvcGJTQmI0MTFGblhUbHBfMG93a2ZFTTMxUVpYZ3NCSUp6TmJkMkRZdHRBSWZsZ0wySVZtNUFzbVVJVEFCV1BtNjMzUy0zeTBfSUxWSEtPRHFGTUV1YUs2X0t0Q1ktTmVGSzFjSGowSmVLMDB0b2JIUTBXN0pjeTNfSi1hNldVcGFIUHNFQmpXd2t2YWY3THo1UTVZdXFXWDhFN3NRbGJOOVVsNlU0bERkc0ItcUlJS0hJYXY5eTJjcDZnYXRJTjNNdE13N3JSUXNvVTVVWE5XWjF3?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "稳定币供应突破3000亿增速放缓",
+      "summary": "The Block报道，稳定币总供应量超过3000亿美元，但增长势头停滞，Tether市场份额进一步上升。稳定币供应增速放缓通常意味着新增资金入场减少，可能削弱加密市场的买盘动能，对BTC和ETH构成偏空信号。",
+      "reason": "稳定币供应量变化属于优先级一，直接反映市场资金流。增长停滞暗示资金流入放缓，为短期看空信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401707/stablecoin-supply-300-billion-growth-stalls-tether-gains-rivals-expense?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP ETF连流入但价格或暴跌50%",
+      "summary": "CoinTelegraph分析指出，尽管XRP现货ETF连续9天净流入，但技术面显示XRP价格可能从当前水平下跌50%。这可能源于市场情绪过热后的回调需求，或流动性陷阱。若跌幅实现，将严重影响XRP持有者，但ETF净流入与价格背离需警惕。信号：偏空XRP。",
+      "reason": "涉及ETF资金流向与价格预测，属于优先级一（ETF）和优先级二（技术分析）。ETF流入但价格看跌，是潜在的背离信号，需关注。",
+      "category": "项目更新",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/xrp-price-risks-50-drop-despite-9-day-etf-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币期权转向防御性近77K",
+      "summary": "Seeking Alpha报道，比特币期权市场近期显示防御性偏向，隐含波动率下降，卖权成本上升。市场参与者似乎在77K附近对冲下行风险，这可能预示短期BTC价格难以突破，甚至存在回调压力。信号：偏空BTC。",
+      "reason": "期权市场结构属于优先级二的市场结构信号，反映专业交易者对后市的看法。防御性持仓暗示看跌情绪。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSDhjcDN4d3VYZTVCNGRWWVFSM2hjZXZoR3ZYejhwdUtVTWt3OG55U2laN2Y3ckJ6YW5KTHpfVkFfelpEdmRHakNYakY5NHhRaTRqSGhwcU1XOHdIUW5lTy11eVRadVdCSjQ1SFhoVFdpWXdwMHdQQjVIUm9OZ1hIQU50TG1EWEJNZm40YUJFemo?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
