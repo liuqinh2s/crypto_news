@@ -1,0 +1,95 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3376, prompt_tokens=16779, total_tokens=20155, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2089, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15627)
+content length: 3308
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊基金会人才流失",
+      "summary": "以太坊社区对基金会近期多位高管离职表示担忧，包括核心研究员和开发者。这可能影响以太坊长期发展和生态信心。ETH价格短期内面临压力。影响币种：ETH。信号：看空。",
+      "reason": "优先级一：项目方重大事件——核心团队人才流失，影响以太坊基本面信心和开发进度。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/05/19/what-s-happening-at-the-ef-ethereum-community-looking-for-answers-after-high-profile-departures"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Warren批评OCC发放加密信托牌照",
+      "summary": "美国参议员Elizabeth Warren指责OCC向Ripple、Coinbase等加密公司发放信托牌照可能违反国家银行法，要求暂停审批。监管打压信号明确，利空整体市场，尤其美国合规币种。影响币种：XRP、BTC、ETH。信号：看空。",
+      "reason": "优先级一：重大监管动态——参议员质疑监管机构，可能引发更严监管，影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["XRP", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/19/senator-elizabeth-warren-accuses-u-s-regulator-of-approving-unqualified-crypto-banks"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401883/senator-warren-criticizes-occ-over-ripple-coinbase-and-other-crypto-trust-charters"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "近期BTC持有者亏损卖出7.7亿",
+      "summary": "链上数据显示，近期买入的比特币持有者在当前价格下亏损卖出约7.7亿美元BTC，抛压显著。这加剧了短期价格下行压力，可能测试更低支撑位。影响币种：BTC。信号：看空。",
+      "reason": "优先级一：巨鲸/链上异动——大额亏损抛售，直接增加卖压，利空价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/recent-bitcoin-holders-sell-770m-btc-at-a-loss-amid-65k-btc-price-calls"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Clarity法案以15-9通过委员会",
+      "summary": "美国《Clarity Act》在委员会以15-9投票通过，其中两名民主党议员支持。该法案旨在为数字资产提供明确监管框架，利好整个加密行业合规化和机构入场。预计7月4日前通过。影响币种：BTC、ETH、XRP等。信号：看多。",
+      "reason": "优先级一：重大监管动态——法案推进是立法层面的重大利好，提振市场信心。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1thocvh/the_clarity_act_just_passed_committee_159_and/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "北美最大比特币ATM运营商破产",
+      "summary": "Bitcoin Depot（北美最大比特币ATM运营商）申请破产，将关闭所有加密ATM网络。此举削弱了比特币零售可访问性，短期情绪利空，但影响有限。对比特币基本面和价格影响较小。影响币种：BTC。信号：中性偏空。",
+      "reason": "优先级二：交易所/项目更新——主要ATM运营商倒闭，反映行业困境，但非核心事件。",
+      "category": "交易所",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "WCVB via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQekUxZnd4ZnFOSGNyODBWZV9hQ0I4MnhkOUdaamJBcUpxVFViVXVDblZZdzg3Sk9DTFhvZXo4SnlsQ2RFX0ZQRjJqWUxBT3RtX3pzcUI0a25hM0NmdmVJT1l6dGhXVzF1bVU1dWV6YUJMdkpxWnAxZUNlUUFiT2ttY3gwZjNMZlZzVnhUYjhvUWFqRkVLQmdfYmR2aG9JR0lTbjQyVkJ6YWNwdw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
