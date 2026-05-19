@@ -1109,3 +1109,94 @@ content length: 2357
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3375, prompt_tokens=11171, total_tokens=14546, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1980, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10019)
+content length: 3119
+============================================================
+{
+  "news": [
+    {
+      "title": "USDT供应达1880亿美元新高",
+      "summary": "Tether发行的USDT总供应量刷新历史高峰至1880亿美元，表明稳定币持续增发，大量资金正流入加密市场。这是强烈的看多信号，通常预示后续买入压力增加，利好BTC、ETH等主流币。投资者可关注市场资金面变化。影响币种：BTC、ETH。信号：看多。",
+      "reason": "优先级一：稳定币增发是资金入场的直接信号，影响全市场。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVVdzNTliVGdrbzdlb1VoQm9pNktwbmV4SnA1VkZFeUhfV3pwZnVaNTE1M2JKVDFHd1JrMnBQeXN1R2NfcTBEWXdPbk8zeFYtWlRGdWVmTXBUR2Vsb2hWWEh3dHN6Q3pMbXNNMnktUUUyWGNGTXN2MmYtdmU2akxXSzFtdlcyNnd4RzhqdXl4ZnZlbWxCa0tSQnhhMGZEVm90bE5zOE5lRVpOckxuaVQwU2JhbGowa1RwdFJTRFhOVDdYcF9zbU9ndXJYd1M?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国KOSPI指数暴跌4%",
+      "summary": "韩国KOSPI指数日内大跌4%，跌破7300点，亚洲市场恐慌情绪升温。韩国股市与加密货币联动性较强，股市大跌可能引发散户抛售BTC等风险资产以补充流动性，短期利空BTC。需关注后续是否扩散至全球市场。影响币种：BTC。信号：看空。",
+      "reason": "优先级二：宏观经济数据影响风险资产走势，亚洲股市暴跌可能拖累加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513339.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "俄罗斯局部禁止加密货币挖矿",
+      "summary": "俄罗斯批准库尔斯克州边境地区禁止加密货币挖矿，这是俄罗斯首次在地区层面限制挖矿。虽然影响范围有限，但可能引发市场对俄罗斯进一步监管的担忧，短期利空BTC算力及矿工相关代币。不过全球算力分布广泛，实际冲击较小。影响币种：BTC。信号：看空。",
+      "reason": "优先级一：监管动态直接限制挖矿，影响比特币算力预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513329.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "英国恢复免税加密ETN访问",
+      "summary": "英国金融科技公司Stratiphy通过IF ISAs恢复免税加密ETN访问，允许英国投资者在免税账户中交易加密ETN。此举将吸引更多英国散户和机构资金入场，利好BTC和ETH。这是英国监管逐步开放的信号，中期看多。影响币种：BTC、ETH。信号：看多。",
+      "reason": "优先级一：监管政策利好，开放免税渠道将带来增量资金。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdk1aWGt6ZDVOemRhVUdNZlZjTElwYTR1ZTRoVVIzb1hjb0dNZzlyZkNQLUdzUE9WZWJfU0RvSTNoemstb01GX0NVaTI3cnhZVkhwbkJZU1hZZm5CazBnNU9jcklTQ09mZGVlZVo0MG5tQnpRcEdaWjUtVEVfM3JNcnl2X2c4SFhLdHVGckxFVTBYQnQ3VUJsbU5zRjRpT2VnTFhMajA4YTBvenp1U3NndVcyYVVvQXFqUEtvTTJsVFNfR0pEZzBscw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Pendle RWA TVL占比升至97%",
+      "summary": "STRC与USDG收益市场带动链上增长，Pendle的RWA（真实世界资产）TVL占比升至97%，表明Pendle在RWA领域占据主导地位，协议收入和应用场景扩张。利好PENDLE代币价格，可能吸引更多资金流入。影响币种：PENDLE。信号：看多。",
+      "reason": "优先级二：项目重大进展，TVL占比提升反映基本面改善。",
+      "category": "项目更新",
+      "impact_coins": ["PENDLE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513323.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
