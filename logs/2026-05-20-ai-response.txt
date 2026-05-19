@@ -289,3 +289,62 @@ content length: 2943
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3554, prompt_tokens=14193, total_tokens=17747, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2809, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13041)
+content length: 1945
+============================================================
+{
+  "news": [
+    {
+      "title": "CFTC起诉明州禁止预测市场",
+      "summary": "美国商品期货交易委员会（CFTC）起诉明尼苏达州，因其率先明确禁止预测市场。这是CFTC首次对州级预测市场禁令采取法律行动，可能影响Polymarket等去中心化预测平台。短期利空预测市场相关代币（如POLY、REP等），但对比特币、以太坊等主流币间接影响有限。监管机构对预测市场的打压可能表明更严格的加密监管环境，整体偏空。",
+      "reason": "优先级一监管动态，CFTC直接起诉州级禁令，可能树立先例影响全美预测市场，属于重大监管动作。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401917/cftc-sues-minnesota-first-explicit-state-ban-prediction-markets"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitwise称HYPE被严重低估",
+      "summary": "Bitwise资产管理公司发布报告，认为Hyperliquid的原生代币HYPE是加密货币中最被低估的资产之一。Hyperliquid是基于Layer1的去中心化永续合约交易所，HYPE用于质押和费用减免。Bitwise作为知名机构，其观点可能吸引资金关注。对HYPE形成看多信号，短期可能推动价格上涨。",
+      "reason": "优先级二机构动向，知名资管公司公开看好特定币种，可能引发跟风买入。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/19/hyperliquid-s-hype-one-of-crypto-s-most-undervalued-assets-says-bitwise"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Zerohash寻求15亿估值融资",
+      "summary": "加密矿企Zerohash在Mastercard放弃投资计划后，正以超过15亿美元估值寻求新融资。该公司运营比特币挖矿业务，融资消息显示资本仍在流入矿企，但Mastercard退出可能带来负面信号。整体中性偏空，因为Mastercard的退出可能反映机构对加密采矿兴趣降温。影响币种：BTC（间接）。",
+      "reason": "优先级二机构动向，矿企融资动态反映资本对挖矿行业的信心，Mastercard退出是利空信号。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/19/zerohash-pursues-new-funding-at-more-than-usd1-5-billion-valuation-after-mastercard-drops-investment-plans"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
