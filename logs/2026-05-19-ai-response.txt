@@ -1733,3 +1733,63 @@ content length: 1802
   ],
   "note": "当前时段新消息较少，多数历史消息重复或影响微弱，仅筛选出3条高质量新闻。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2888, prompt_tokens=10995, total_tokens=13883, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2170, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9843)
+content length: 1854
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币ETF净流出6.49亿美元",
+      "summary": "据The Block报道，现货比特币ETF在5月19日录得6.49亿美元净流出，创1月以来最大单日流出。这显示机构投资者正在撤资，可能加剧比特币抛压。比特币价格已跌至77000美元附近，ETF资金持续流出是看空信号。影响币种：BTC。信号：bearish。",
+      "reason": "ETF资金流动直接影响BTC价格，净流出为近期最大，属于优先级一的关键消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401780/spot-bitcoin-etf-649-million-outflows"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国10%民众2025年使用加密货币",
+      "summary": "根据美联储调查，2025年约10%的美国人使用了加密货币，为2022年以来最高水平。这表明采用率回升，对加密货币市场是长期利好，但短期影响有限。可能提振市场情绪，但无法逆转当前下跌趋势。影响币种：BTC、ETH。信号：bullish。",
+      "reason": "采用率数据反映长期需求增长，属于中期积极信号，优先级二。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/10-percent-of-americans-invested-or-used-crypto-in-2025-federal-reserve"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "数据暗示比特币跌势可能加剧",
+      "summary": "CoinDesk分析指出，比特币近期5天内下跌超5000美元，ETF持续流出和衍生品市场数据（未平仓合约、资金费率）显示抛压未减，跌势可能进一步恶化。目前BTC在77000美元附近，若跌破75000美元支撑，可能加速下行。对BTC看空。影响币种：BTC。信号：bearish。",
+      "reason": "综合ETF和衍生品数据，提供市场结构恶化证据，属于优先级二的中期信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/19/bitcoin-has-shed-usd5-000-within-days-the-data-says-this-selloff-could-worsen"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为重复历史消息（如Binance公告、恐惧贪婪指数、宏观新闻等），新消息较少，仅选出3条高质量交易相关消息。"
+}
