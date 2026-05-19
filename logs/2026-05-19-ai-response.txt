@@ -1295,3 +1295,281 @@ content length: 2723
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1447, prompt_tokens=10028, total_tokens=11475, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1068, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8876)
+content length: 801
+============================================================
+{
+  "news": [
+    {
+      "title": "NH推比特币市政债券",
+      "summary": "新罕布什尔州计划推出比特币支持的市政债券，用于资助公共项目。该计划允许投资者使用比特币进行投资，州政府将以比特币计价偿还。这是美国地方政府首次尝试将比特币纳入公共融资，可能吸引更多加密资本进入市政债务市场，对比特币构成温和利好。影响币种主要为BTC，信号看多。但计划细节尚需立法批准，短期实际影响有限。",
+      "reason": "地方政府创新性加密融资方案，属于积极监管信号，影响中等。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Business NH Magazine",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR0lkWEdrQl91NTZCOWFNaGxqd3ZUaG9idmNqNWtjdXJIQzJNT3MyY192ZzhrSTE2RXFfeGVqWVotNlphc1JtZ0hkVklZbGN1eHNPZzIxYUZoYmg3U2lHRUZpMVFRMUJ5VGMxWTRVNkg4TzRzcGdUOWItNDhlZV9Hd1E4d0pubGVmblpZb1NkV3dmVmhFbEZVWktmZzc2TllaLUlYVmNLcUlxTnBT?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1986, prompt_tokens=10028, total_tokens=12014, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1578, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9984), prompt_cache_hit_tokens=9984, prompt_cache_miss_tokens=44)
+content length: 848
+============================================================
+{
+  "news": [
+    {
+      "title": "NH推比特币支持市政债券",
+      "summary": "新罕布什尔州（NH）提出比特币支持市政债券计划，允许地方政府发行以比特币为抵押的债券。这是美国州级政府首次探索将比特币纳入公共融资工具，可能为其他州提供先例，增加比特币的合法性和机构采用。对BTC形成长期利好，但短期影响有限，因为具体规模和时间未明。",
+      "reason": "州政府级别创新采用比特币作为抵押品，属于监管政策利好，优先级一，可能推动其他州效仿，增强比特币作为储备资产的叙事。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Business NH Magazine",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR0lkWEdrQl91NTZCOWFNaGxqd3ZUaG9idmNqNWtjdXJIQzJNT3MyY192ZzhrSTE2RXFfeGVqWVotNlphc1JtZ0hkVklZbGN1eHNPZzIxYUZoYmg3U2lHRUZpMVFRMUJ5VGMxWTRVNkg4TzRzcGdUOWItNDhlZV9Hd1E4d0pubGVmblpZb1NkV3dmVmhFbEZVWktmZzc2TllaLUlYVmNLcUlxTnBT?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分消息与历史重复，仅筛选出一条有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1625, prompt_tokens=10028, total_tokens=11653, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1025, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9984), prompt_cache_hit_tokens=9984, prompt_cache_miss_tokens=44)
+content length: 1386
+============================================================
+{
+  "news": [
+    {
+      "title": "明尼苏达州签署加密托管法",
+      "summary": "明尼苏达州州长签署法律，允许该州银行和信用合作社自2026年8月1日起提供加密货币托管服务。这是继部分州之后又一监管利好，可能吸引机构资金入场并提升合规信心。直接影响BTC、ETH等主流币种的中长期需求。信号：看多。",
+      "reason": "监管政策利好，扩大传统金融机构参与加密市场渠道，可能带来增量资金。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401775/minnesota-bank-crypto-custody?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "新罕布什尔州推比特币市政债",
+      "summary": "新罕布什尔州计划发行比特币支持的市政债券，旨在利用BTC储备为公共项目融资。此举显示地方政府对加密资产的进一步接受，可能增强市场信心并推动BTC需求。短期影响有限，但中长期看多信号。",
+      "reason": "政府层面采用比特币作为金融工具，利好市场情绪和BTC基本面。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Business NH Magazine via Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR0lkWEdrQl91NTZCOWFNaGxqd3ZUaG9idmNqNWtjdXJIQzJNT3MyY192ZzhrSTE2RXFfeGVqWVotNlphc1JtZ0hkVklZbGN1eHNPZzIxYUZoYmg3U2lHRUZpMVFRMUJ5VGMxWTRVNkg4TzRzcGdUOWItNDhlZV9Hd1E4d0pubGVmblpZb1NkV3dmVmhFbEZVWktmZzc2TllaLUlYVmNLcUlxTnBT?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮有效新消息较少，多数为已重复的Binance公告或已覆盖事件，仅筛选出两条有交易价值的监管利好。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1671, prompt_tokens=10858, total_tokens=12529, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1030, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9706)
+content length: 1457
+============================================================
+{
+  "news": [
+    {
+      "title": "明州允许银行加密托管",
+      "summary": "明尼苏达州州长签署HF 3709法案，正式允许银行和信用合作社提供加密货币托管服务。这是继多个州之后又一州级监管利好，标志着美国银行业加密合规化进程加速。该法案直接利好比特币等主流加密资产，可能吸引更多传统资金通过合规渠道入场。短期市场情绪偏多，中长期有利于降低托管风险。",
+      "reason": "直接监管利好，州级法律明确允许银行提供加密托管，属于优先级一中的重大监管动态，对市场情绪有正面催化。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401775/minnesota-bank-crypto-custody?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "新罕布什尔拟发行BTC市政债券",
+      "summary": "新罕布什尔州（NH）推出以比特币为支持的市政债券计划，旨在通过发行债券募集资金投资比特币，进一步推动比特币作为政府储备资产的应用。这是美国地方政府首次尝试发行比特币支持的市政债券，若成功将增强比特币的机构需求。该消息属于小范围的创新，短期影响有限，但方向利好BTC。",
+      "reason": "地方政府级别机构动向，显示比特币作为储备资产的认可度提升，属于优先级二中的机构动向。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Business NH Magazine",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR0lkWEdrQl91NTZCOWFNaGxqd3ZUaG9idmNqNWtjdXJIQzJNT3MyY192ZzhrSTE2RXFfeGVqWVotNlphc1JtZ0hkVklZbGN1eHNPZzIxYUZoYmg3U2lHRUZpMVFRMUJ5VGMxWTRVNkg4TzRzcGdUOWItNDhlZV9Hd1E4d0pubGVmblpZb1NkV3dmVmhFbEZVWktmZzc2TllaLUlYVmNLcUlxTnBT?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前时间窗口内符合筛选标准的新消息较少，仅选出2条，其余素材均与历史消息重复或交易价值低。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1632, prompt_tokens=10858, total_tokens=12490, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1220, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10752), prompt_cache_hit_tokens=10752, prompt_cache_miss_tokens=106)
+content length: 872
+============================================================
+{
+  "news": [
+    {
+      "title": "NH推比特币市政债券",
+      "summary": "新罕布什尔州宣布一项比特币支持市政债券计划，允许地方政府发行以比特币为储备的债券。此举标志美国州级政府对加密货币的进一步接纳，可能吸引更多机构关注比特币作为资产储备。消息整体利好比特币，但影响程度中等，需要观察实际发行规模。",
+      "reason": "新罕布什尔州采用比特币支持市政债券，属于创新监管与机构采用信号，对BTC有正面情绪推动。历史消息中未出现此具体计划。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Business NH Magazine via Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR0lkWEdrQl91NTZCOWFNaGxqd3ZUaG9idmNqNWtjdXJIQzJNT3MyY192ZzhrSTE2RXFfeGVqWVotNlphc1JtZ0hkVklZbGN1eHNPZzIxYUZoYmg3U2lHRUZpMVFRMUJ5VGMxWTRVNkg4TzRzcGdUOWItNDhlZV9Hd1E4d0pubGVmblpZb1NkV3dmVmhFbEZVWktmZzc2TllaLUlYVmNLcUlxTnBT?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前素材中大部分新闻与历史消息重复，仅新增一条有价值消息。根据筛选标准，符合输出要求的消息不足5条。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4124, prompt_tokens=3676, total_tokens=7800, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2850, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2524)
+content length: 3310
+============================================================
+{
+  "news": [
+    {
+      "title": "明尼苏达州加密托管合法化",
+      "summary": "明尼苏达州签署法律，允许银行和信用合作社提供加密货币托管服务。这标志着美国州级对加密资产的进一步合规化，有助于传统金融机构进入加密领域，增加机构托管需求，提升市场信任。主要影响BTC、ETH等主流资产，属监管利好，中长期看多。",
+      "reason": "监管政策利好，直接影响市场情绪和机构入场预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401775/minnesota-bank-crypto-custody"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Echo协议被攻击，eBTC市场受影响",
+      "summary": "BTCFi协议Echo在Monad链上遭遇攻击，针对其eBTC市场。攻击导致用户资金面临风险，可能引发短期抛售和价格下跌。直接影响eBTC及Monad生态相关代币，属于链上安全事件，看空相关资产。",
+      "reason": "重大安全事件直接影响对应项目代币价格，属链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["eBTC", "MONAD"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401771/echo-protocol-monad-exploit"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Kevin Warsh将宣誓就任美联储主席",
+      "summary": "Kevin Warsh将于周五就任美联储主席，市场关注其政策立场。Warsh此前被视为偏鹰派，若其延续紧缩政策可能利空风险资产；反之则利好。短期市场不确定性增加，但长期影响取决于实际政策，目前中性看待。",
+      "reason": "美联储主席更替是重大宏观经济事件，影响全球流动性预期。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UeS13N1lfbUQ5UWlNRHJPUDR5Y0swNnB2REIzcnRTd3hDa0c5alZUaFlRamxvSVY5MGJENlFNY1I2MWJOTnlFTXRNU3k5S19UbWp5eEF1cms1SEl3UmcySmFEYXV2Tk1GOWc"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数跌至25（极度恐惧）",
+      "summary": "加密货币恐惧与贪婪指数降至25，处于极度恐惧区间。历史数据显示，该区域往往是中长期底部区域，适合分批建仓。但短期可能继续惯性下跌，需结合其他指标。整体为偏多信号，但需等待市场拐点。",
+      "reason": "情绪指标极值提供逆向交易机会，虽不能直接指导入场但值得关注。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线MegaETH（MEGA）现货",
+      "summary": "Binance宣布上线MegaETH（MEGA），并开放现货交易。MegaETH是以太坊Layer 2扩展方案的热门项目，上市后流动性及交易量有望大幅提升，短期看多MEGA价格。同时可能带动Layer 2板块情绪。",
+      "reason": "头部交易所上新币直接增加流动性和曝光，利好对应代币。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线CBRSUSDT永续合约",
+      "summary": "Binance Futures推出CBRSUSDT永续合约，标的为TradFi指数。该产品为交易者提供新的对冲和投机工具，短期可能吸引部分资金关注相关指数，但对加密货币市场直接影响有限，中性。",
+      "reason": "交易所上线新合约增加交易选择，但标的非加密原生，影响较小。",
+      "category": "交易所",
+      "impact_coins": ["CBRS"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/3544b8dab5e64f839316a360495a6387"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
