@@ -93,3 +93,124 @@ content length: 3308
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2363, prompt_tokens=16531, total_tokens=18894, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=293, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15379)
+content length: 5107
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储加息概率超80%",
+      "summary": "利率互换市场显示美联储到2026年底加息概率超过80%。这意味着美联储可能在2026年多次加息，而非降息。高利率环境利空风险资产，包括加密货币。BTC和ETH等主流币种将面临持续抛压。信号：看空。",
+      "reason": "宏观紧缩信号直接利空整体风险资产，符合优先级二（宏观经济），影响等级高。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513444.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF单日流出6.49亿美元",
+      "summary": "5月19日比特币ETF净流出6.49亿美元，其中贝莱德IBIT流出4.48亿美元，为2026年以来第三大单日流出。机构资金大规模撤离，暗示机构对短期行情悲观，并可能引发连锁抛售。信号：看空。",
+      "reason": "ETF资金流出是直接利空信号，符合优先级一（ETF机构），影响大。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "雪球加密", "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONHhWSTR2VjdzdW8xU3BHU1lvZXRoX0h5anpKXzZiSWl1cHBYeTFlM1hIM1JESXhKUUFveFM5SEF1alRSSTROSVRvTWtieWhneW1Jd25kSmM5b0xRYkhzaGg0SXZHTEd5REg4OUY5d3NpSUZnM0xjQXlsczE2SjZQS0dxeXgwek5yekw3cGNfckVRWW1rR3AxOFBXUHVtLTVTX2tvRXlURHNyTDdMQnAxOEh4MGhqS2FUMmM0eWh6QQ?oc=5"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币跌破77,000美元",
+      "summary": "比特币价格跌至77,000美元以下，美债收益率飙升（30年期收益率创2007年新高）和加息预期是主要压力来源。技术面破位，短期可能测试75,000美元支撑。合约多头面临清算风险。信号：看空。",
+      "reason": "价格破位直接影响交易决策，符合优先级一（市场结构）。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/news-analysis/2026/05/19/live-markets-bitcoin-gives-up-77000-as-interest-rates-continue-surge-stocks-continue-slump/"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数25（极度恐惧）",
+      "summary": "恐惧与贪婪指数降至25，处于极度恐惧区间。历史上该区间通常是中长期底部区域，但短期可能继续下跌。目前市场情绪极度悲观，需关注否极泰来的反转机会，但短期仍应谨慎。信号：中性（短期看空，中期看多）。",
+      "reason": "情绪指标极值，符合优先级三（市场情绪），提供买入参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "贝莱德向Coinbase存入5847 BTC",
+      "summary": "贝莱德向Coinbase存入5,847枚BTC（约4.5亿美元），通常被视为潜在抛售信号。大型机构转移代币至交易所可能准备卖出，增加短期抛压。信号：看空。",
+      "reason": "巨鲸异动，符合优先级一（链上异动），直接影响BTC价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513441.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "日本执政党推进链上金融计划",
+      "summary": "日本执政党提出利用区块链技术构建全国性金融系统，以保护日元。该计划可能推动日本对加密资产的进一步接纳，利好BTC及整体市场。信号：看多。",
+      "reason": "监管政策利好，符合优先级一（监管政策），中长期支撑。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/368347/bitcoin-giant-strategy-price-target-boost-td-cowen-2-billion-btc-buy"}],
+      "urgency": "days"
+    },
+    {
+      "title": "SEC拟放开代币化股票",
+      "summary": "据报道SEC准备开放代币化股票注册大门，这可能为传统资产上链铺平道路，利好RWA赛道及代币化平台。长期利好加密生态，但短期影响有限。信号：看多（对RWA相关代币）。",
+      "reason": "监管重大进展，符合优先级一（监管政策），可能引发板块轮动。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "ONDO", "LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/sec-prepares-to-open-the-door-to-tokenized-stocks-report"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线CBRSUSDT永续合约",
+      "summary": "Binance Futures 于2026-05-19上线CBRSUSDT TradFi永续合约，为交易者提供新的交易品种。可能带来短期流动性及波动，但对整体市场影响中性。信号：中性。",
+      "reason": "交易所上币，符合优先级一（交易所），但TradFi合约非核心加密资产，影响有限。",
+      "category": "交易所",
+      "impact_coins": ["CBRS"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/3544b8dab5e64f839316a360495a6387"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket与纳斯达克合作",
+      "summary": "Polymarket与纳斯达克合作推出私营公司预测市场，允许用户预测OpenAI、SpaceX等未上市公司的估值。可能增加Polymarket的使用量和POLY代币需求，但短期影响有限。信号：中性偏多。",
+      "reason": "项目重大合作，符合优先级二（DeFi/NFT重大事件），但非主流通证。",
+      "category": "项目更新",
+      "impact_coins": ["POLY"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Bloomberg Crypto", "url": "https://www.bloomberg.com/news/articles/2026-05-19/polymarket-deepens-private-companies-push-with-data-partnership"}],
+      "urgency": "days"
+    },
+    {
+      "title": "嘉楠科技Q1亏损8870万美元",
+      "summary": "比特币矿商嘉楠科技公布Q1净亏损8870万美元，总收入6270万美元。尽管BTC储备创新高，但持续亏损显示矿业困境。对矿业股和比特币算力信心有负面影响，但BTC价格本身已有反应。信号：看空（对矿企代币）。",
+      "reason": "项目财报不及预期，符合优先级二（项目更新），对相关合约有影响。",
+      "category": "项目更新",
+      "impact_coins": ["CAN"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/401912/deloitte-absorbs-blocknative-team-as-crypto-infra-firm-winds-down-apis-and-gas-network"}],
+      "urgency": "hours"
+    }
+  ]
+}
