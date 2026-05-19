@@ -2068,3 +2068,110 @@ content length: 4900
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3625, prompt_tokens=11216, total_tokens=14841, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2121, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10064)
+content length: 3741
+============================================================
+{
+  "news": [
+    {
+      "title": "Echo Protocol遭7600万美元黑客攻击",
+      "summary": "基于Monad的DeFi协议Echo Protocol因eBTC铸币攻击损失7600万美元。攻击者利用管理员密钥漏洞，导致eBTC大量铸造并提取。该事件直接利空Echo Protocol代币及Monad生态，同时加剧DeFi安全担忧，可能拖累整体市场情绪。受影响币种：Echo Protocol（未上市代币）、eBTC、Monad生态代币。看空信号。",
+      "reason": "优先级一项目方重大事件：黑客攻击导致巨额损失，直接利空相关资产，影响DeFi信心。",
+      "category": "项目更新",
+      "impact_coins": ["Echo", "eBTC", "MONAD"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/19/echo-protocol-suffers-76-million-exploit-in-ebtc-minting-attack-on-monad"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "以太坊基金会两名高管离职",
+      "summary": "以太坊基金会再有2名高管离职，延续近期高层人事动荡。这可能影响以太坊生态治理和长期发展，短期内打击市场对ETH的信心。ETH价格已承压，该消息可能加剧抛售。受影响币种：ETH。看空信号。",
+      "reason": "优先级二技术升级/里程碑：以太坊基金会核心成员离职，对以太坊声誉和治理有负面影响，属于中期利空。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-foundation-sees-2-more-high-profile-departures"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日本金融厅认定特定外国稳定币为电子支付手段",
+      "summary": "日本金融厅正式将特定外国发行稳定币认定为电子支付手段，为USDT、USDC等合规稳定币在日本的使用提供法律框架。这利好合规稳定币的采用，可能增加日本市场的稳定币流动性，间接利好整个加密市场。受影响币种：USDT、USDC等合规稳定币。看多信号。",
+      "reason": "优先级一重大监管动态：国家级监管利好，直接利好稳定币合规化，促进资金流入。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513404.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bernstein看好比特币矿企AI数据中心业务",
+      "summary": "Bernstein发布报告指出，AI数据中心需求将推动比特币矿企重估，矿企已签署900亿美元AI数据中心交易。该消息利好比特币矿企股票（如MARA、RIOT），但对BTC价格本身中性偏多，因为矿企新业务可降低抛售压力。受影响币种：BTC（间接），矿企股。看多信号（针对矿企）。",
+      "reason": "优先级二机构动向：知名投行看好矿企，反映机构对加密相关产业的积极态度，但直接交易影响有限。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401809/follow-the-gigawatts-bernstein-sees-upside-in-several-bitcoin-miners-amid-90-billion-in-ai-data-center-deals"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BSC量子防御生效但速度下降40%",
+      "summary": "BNB Chain（BSC）成功实施量子防御，但交易吞吐量下降40%。虽然提升了安全性，但性能大幅降低可能损害用户体验，导致用户流失至其他链。对BNB链生态和BNB价格偏利空。受影响币种：BNB、BSC生态代币。看空信号。",
+      "reason": "优先级二技术升级/里程碑：重大技术变更影响网络性能，可能引发负面市场反应。",
+      "category": "项目更新",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/19/bsc-s-quantum-defense-works-the-trade-off-is-40-slower-transaction-throughput"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "嘉楠科技BTC/ETH储备创新高但亏损扩大",
+      "summary": "嘉楠科技一季度财报显示BTC和ETH储备创历史新高，但净亏损同比扩大。储备增加反映矿企囤币意愿，但亏损持续对股价和行业信心不利。对BTC和ETH市场影响中性偏空。受影响币种：BTC、ETH。看空信号（情绪）。",
+      "reason": "优先级三市场情绪信号：矿企财报反映行业盈利能力下降，可能暗示算力压力或资金紧张。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "雪球加密（吴说）",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU5uZjJUcW1ici1RampvejZPelRablQybEpEVU8xdE1tWG9UYlQ1MzVGVFkyUWhFM21MQ2NmSXl2Y1h1Yy1qbndwSF9vdG05S3lfLWlxWGFIVlRSSFlTYUw2b29xM2RRTGZPdm5iZ1hlUFI5Qk1LYk12eDU4TEt1MEczb2VSUVdDZ1FKYjN0WGV4Wnc"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
