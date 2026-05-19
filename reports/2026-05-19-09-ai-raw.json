@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-19",
+  "hour": "09",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12066,
+    "completion_tokens": 2307,
+    "total_tokens": 14373
+  },
+  "content_length": 2357,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Echo Protocol疑遭攻击\",\n      \"summary\": \"Echo Protocol疑似被攻击，黑客铸造了1000枚eBTC并将部分资金转移至Tornado Cash。该事件可能导致eBTC/ECHO价格下跌，且可能引发市场对跨链桥安全性的担忧。看空信号，影响币种：eBTC、ECHO，间接影响BTC。\",\n      \"reason\": \"链上攻击属于优先级一事件，直接影响项目安全性和代币价值，需要立即关注。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ECHO\", \"eBTC\", \"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/513321.html\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Ondo项目方向交易所转移3.28亿代币\",\n      \"summary\": \"Ondo项目方多签钱包在过去2个月持续向Coinbase等交易所转移超3.28亿枚ONDO，存在潜在抛压。该行为通常被解读为巨鲸减持，对ONDO价格构成利空。看空信号，影响币种：ONDO。\",\n      \"reason\": \"巨鲸向交易所转移大量代币是优先级一信号，预示可能抛售，影响价格。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ONDO\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/513325.html\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"中金：美联储年内或难以降息\",\n      \"summary\": \"中金公司发布报告称，美联储年内大概率不会降息，将继续维持紧缩政策。这利空风险资产，包括比特币和加密货币市场，因流动性预期收紧。看空信号，影响币种：BTC、ETH及整体市场。\",\n      \"reason\": \"宏观经济属于优先级二，利率决议直接影响市场流动性和风险偏好，具有中期影响。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/513318.html\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"前OpenAI研究员押注矿企做空芯片股\",\n      \"summary\": \"前OpenAI研究员Leopold Aschenbrenner押注比特币矿企股票，同时做空英伟达与AMD。这反映部分机构看空AI芯片、看多比特币矿业，可能对矿企股价和BTC算力情绪产生正面影响。中性偏多信号，影响币种：BTC（通过矿企间接），同时利好矿企板块。\",\n      \"reason\": \"机构动向属于优先级二，知名人士的仓位变化可影响市场情绪，但直接交易价值有限。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/513312.html\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Coinbase预定5月23日系统升级\",\n      \"summary\": \"Coinbase将于5月23日进行预定系统升级，期间可能出现短暂交易中断或延迟。对交易者影响有限，但可能增加短期波动。中性信号，影响币种：无特定，整体市场。\",\n      \"reason\": \"交易所升级属于轻度影响，但作为市场结构事件，可提示交易者注意风险。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/513309.html\"}\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
