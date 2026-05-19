@@ -1673,3 +1673,63 @@ content length: 3068
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1811, prompt_tokens=10249, total_tokens=12060, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1135, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9097)
+content length: 1802
+============================================================
+{
+  "news": [
+    {
+      "title": "Echo协议遭攻击损失7700万美元",
+      "summary": "Monad链上的BTCFi协议Echo被黑客利用管理员密钥漏洞，铸造1000枚eBTC并转移至Tornado Cash，总损失约7700万美元。该事件直接冲击eBTC代币价格，并可能引发对Monad生态安全的担忧，短期内看空eBTC及Monad相关代币。",
+      "reason": "黑客攻击是优先级一的项目重大事件，直接影响eBTC和Monad生态，需立即关注。",
+      "category": "项目更新",
+      "impact_coins": ["eBTC", "MONAD"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/echo-protocols-ebtc-exploited-for-76m-in-admin-key-compromise"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Bitmine创始人购入7.1万ETH",
+      "summary": "Bitmine联合创始人Tom Lee表示，以太坊回调是“有吸引力的机会”，已买入71,672枚ETH（约2.2亿美元）。此举显示机构在ETH下跌时积极抄底，属于看多信号，但需注意Tom Lee过去言论有时偏乐观。",
+      "reason": "机构大额买入ETH是优先级二的机构动向，直接反映市场信心，可能带动ETH短期反弹。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/tom-lee-bitmine-buys-71672-eth-during-price-pullback"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "花旗警告比特币量子计算风险更高",
+      "summary": "花旗报告指出，比特币相比以太坊面临更大的量子计算风险，因其UTXO模型和签名方案更易受量子攻击。虽然短期影响有限，但可能压制长期持有信心，尤其对机构配置决策产生心理影响。",
+      "reason": "顶级投行报告属于市场情绪信号，可能引发对BTC安全性的讨论，但非即刻交易信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1thcsfo/bitcoin_faces_greater_quantum_computing_risk_than/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前时段新消息较少，多数历史消息重复或影响微弱，仅筛选出3条高质量新闻。"
+}
