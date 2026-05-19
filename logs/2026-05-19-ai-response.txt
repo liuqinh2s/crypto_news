@@ -1869,3 +1869,63 @@ content length: 2393
   ],
   "note": "由于大量历史消息重复（如ETF流出、美联储主席就职、Echo黑客等），仅筛选出4条未重复的关键新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4562, prompt_tokens=9512, total_tokens=14074, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3812, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8360)
+content length: 1923
+============================================================
+{
+  "news": [
+    {
+      "title": "Echo协议遭7600万美元攻击",
+      "summary": "BTCFi协议Echo在Monad链上遭攻击，损失约7600万美元的eBTC。攻击者利用管理员密钥漏洞铸造大量eBTC。这可能导致DeFi市场恐慌，影响eBTC和Monad生态币种。看空信号，可能引发用户赎回和价格下跌。",
+      "reason": "重大安全事件，直接影响Echo协议和eBTC价格，也可能波及Monad链上其他项目。属于项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["eBTC", "MONAD"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/19/echo-protocol-suffers-usd76-million-exploit-in-ebtc-minting-attack-on-monad"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币基金流出近10亿，XRP/SOL吸金",
+      "summary": "上周比特币基金净流出近10亿美元，为1月以来最大。而XRP和Solana基金则吸引新资金流入，显示投资者轮动至替代币种。这可能加剧比特币抛压，但利好XRP和SOL。看空BTC，看多XRP/SOL。",
+      "reason": "机构资金流向是市场重要指标，净流出预示短期下行风险，但资金轮动至山寨币可能带来结构性机会。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "XRP", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/19/xrp-and-solana-attract-fresh-inflows-as-bitcoin-fund-outflows-hit-nearly-usd1-billion"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "DeFi交易所首推纳斯达克股票永续",
+      "summary": "某DeFi交易所成为首个提供基于纳斯达克真实数据的股票永续合约的平台，实现传统股票与DeFi互通。这可能吸引更多传统资金进入DeFi，利好相关DeFi代币和以太坊生态。看好该交易所代币和整体DeFi板块。",
+      "reason": "创新产品可能打开新的市场，提升DeFi交易量，属于行业里程碑事件。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "UNI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/19/a-defi-exchange-becomes-the-first-to-offer-equity-perpetuals-powered-by-nasdaq-data"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分消息与历史重复，筛选出3条有交易价值的非重复消息。其中Echo攻击和比特币基金流出为更新数据，DeFi股票永续为全新事件。"
+}
