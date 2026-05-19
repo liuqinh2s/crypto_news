@@ -1573,3 +1573,103 @@ content length: 3310
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=850, prompt_tokens=9176, total_tokens=10026, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=824, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8024)
+content length: 51
+============================================================
+{
+  "news": [],
+  "note": "所有素材与历史消息重复，无新增有价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=788, prompt_tokens=9176, total_tokens=9964, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=727, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=88)
+content length: 103
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的23条素材全部与历史消息重复，包括明尼苏达州加密托管法案、美联储新主席就职、恐惧贪婪指数（仍为25）以及所有币安公告。无新增有价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2140, prompt_tokens=9176, total_tokens=11316, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=905, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=88)
+content length: 3068
+============================================================
+{
+  "news": [
+    {
+      "title": "SEC拟推代币化股票框架",
+      "summary": "据彭博社报道，美国证券交易委员会（SEC）最早可能于本周提出代币化股票的创新豁免框架，允许华尔街机构交易代币化股票。此举将显著降低代币化资产的监管不确定性，可能推动RWA（真实世界资产）赛道的合规发展。受影响的币种包括POLYX、ONDO等代币化资产相关代币，以及整体市场情绪。看多信号，因为合规框架将吸引更多机构资金入场。",
+      "reason": "优先级一：重大监管动态，直接影响代币化资产赛道，市场情绪利好。",
+      "category": "监管政策",
+      "impact_coins": ["POLYX", "ONDO", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/19/sec-to-propose-tokenized-stock-framework-as-wall-street-efforts-deepen-bloomberg/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-19/sec-readying-plan-for-trading-crypto-versions-of-stocks"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Warsh周五宣誓就任美联储主席",
+      "summary": "Kevin M. Warsh将于本周五宣誓就任美联储新主席，接替鲍威尔。市场关注其货币政策立场，Warsh被视为偏鹰派，但具体政策方向仍不确定。短期内可能增加市场波动，历史数据显示美联储主席更迭期间风险资产通常承压。对加密货币的影响中性偏空，因不确定性上升。",
+      "reason": "优先级二：宏观经济事件，美联储主席更迭影响利率预期和风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UeS13N1lfbUQ5UWlNRHJPUDR5Y0swNnB2REIzcnRTd3hDa0c5alZUaFlRamxvSVY5MGJENlFNY1I2MWJOTnlFTXRNU3k5S19UbWp5eEF1cms1SEl3UmcySmFEYXV2Tk1GOWc?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Echo协议遭攻击，黑客铸造1000 eBTC",
+      "summary": "Monad链上的BTCFi协议Echo被攻击，黑客通过漏洞铸造了1000枚eBTC并部分转入Tornado Cash。平台已暂停所有跨链交易。该事件直接冲击eBTC及Monad生态，短期抛压风险上升。同时可能引发对BTCFi协议的信任危机。看空eBTC和Monad链上资产。",
+      "reason": "优先级一：项目方重大安全事件，黑客攻击导致直接损失和恐慌。",
+      "category": "项目更新",
+      "impact_coins": ["eBTC", "MONAD"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401775/echo-exploit-ebtc-monad"},
+        {"name": "金色财经", "url": "https://www.jinse.com/news/blockchain/...（原文链接）"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "明尼苏达州允许银行提供加密托管",
+      "summary": "明尼苏达州签署法律，允许银行和信用合作社自8月1日起提供加密货币托管服务。这是美国州级监管的又一利好，有利于机构合规参与加密资产。虽然影响限于州内，但为其他州树立榜样。长期看多BTC、ETH等主流资产。",
+      "reason": "优先级一：监管政策，银行合规托管为机构入场铺路。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401775/minnesota-bank-crypto-custody?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数降至25（极度恐惧）",
+      "summary": "市场恐慌指数跌至25，处于极度恐惧区域。历史数据显示该区间往往是中长期底部区域，适合分批建仓。但短期可能仍有下行风险。该信号本身不直接驱动价格，但反映市场情绪极端，可为交易决策提供参考。中性，但中长期偏多。",
+      "reason": "优先级三：市场情绪极值，常出现反转机会。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
