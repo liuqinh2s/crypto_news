@@ -2282,3 +2282,95 @@ content length: 3829
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4974, prompt_tokens=14527, total_tokens=19501, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3962, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13375)
+content length: 2726
+============================================================
+{
+  "news": [
+    {
+      "title": "摩根大通预测Clarity法案7月通过",
+      "summary": "摩根大通发布报告，预计美国《Clarity法案》将在7月4日前通过。该法案旨在为加密货币提供明确监管框架，若通过将大幅降低政策不确定性，利好整个加密市场。比特币、以太坊等主流资产及合规项目有望受益。长期看多信号。影响范围广，但具体时间仍有变数。",
+      "reason": "重大监管动态，直接影响市场预期，符合优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513408.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美参议员Warren质疑OCC加密信托牌照",
+      "summary": "美国参议员Elizabeth Warren致函OCC，质疑其向加密公司发放信托牌照可能违反《国家银行法》。此举可能引发监管审查收紧，对加密信托和托管业务构成短期压力，增加不确定性。对市场情绪偏空，但影响范围有限。",
+      "reason": "监管政策动态，涉及监管打压，符合优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513412.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strive斥资3030万美元增持382 BTC",
+      "summary": "投资公司Strive以3030万美元增持382枚比特币，现持有约3140枚BTC。机构持续买入显示对BTC长期价值认可，减少市场抛压。虽金额不大，但代表机构资金仍在流入，短线偏多信号。",
+      "reason": "机构动向，符合优先级二，增持为买入信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513417.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid文档更新或部署USDC",
+      "summary": "Hyperliquid官方文档新增AQAv2 API信息，市场猜测其即将部署原生USDC。若实现，将提升Hyperliquid生态的流动性和实用性，利好HYPE代币及整体DeFi生态。短期影响有限，但中期看多。",
+      "reason": "项目更新，可能带来生态扩展，符合优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["HYPE", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513409.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitget Wallet集成Kraken xStocks",
+      "summary": "Bitget Wallet整合Kraken支持的xStocks代币化股票产品，支持90+用户交易。此举扩大DeFi与传统金融连接，利好Bitget平台代币BGB及xStocks相关资产，但短期内对主流币影响不大。",
+      "reason": "项目合作与产品更新，属于交易所/DeFi发展，符合优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BGB", "xStocks"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitget-wallet-adds-xstocks-tokenized-equities-products-for-90-million-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "高质量新消息较少，仅选出5条。多数大型事件（如ETF流出、Echo攻击、美联储预期等）已在历史消息中覆盖，故不重复。"
+}
