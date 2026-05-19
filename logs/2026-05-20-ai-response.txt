@@ -737,3 +737,110 @@ content length: 4648
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3339, prompt_tokens=12402, total_tokens=15741, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1695, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11250)
+content length: 3918
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普审查加密支付轨道",
+      "summary": "特朗普下令政府和美联储审查加密货币公司接入支付系统的权限。此举可能为加密支付打开通道，提升采用率，但具体政策方向仍待明确。若审查结果利好，将推动比特币等支付相关币种上涨。目前市场情绪低迷，该消息提供潜在政策支撑，看多。",
+      "reason": "直接影响行情：重大监管动态，总统级命令，可能改变加密支付格局。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/19/trump-orders-government-fed-to-review-crypto-firms-access-to-payment-rails"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊领跑650亿RWA赛道",
+      "summary": "以太坊在650亿美元的现实世界资产代币化竞赛中领先，受到机构青睐。机构资金持续流入代币化资产，增强以太坊作为底层基础设施的价值。这是中长期看多以太坊的信号。",
+      "reason": "中期影响行情：技术升级/里程碑，机构动向，以太坊主导地位巩固。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/401711/ethereum-leads-65-billion-rwa-race-blockchains-compete-institutional-tokenization-flows?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Gensler合规标杆首笔交易",
+      "summary": "经过近十年等待，Gary Gensler曾推崇的合规加密平台Prometheum（或类似项目）执行了首笔交易。这标志着美国合规加密交易所的里程碑，可能为其他机构提供合规路径，提振市场对监管明确性的信心。看多。",
+      "reason": "直接影响行情：项目方重大事件，合规里程碑，可能引发对相关币种的关注。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368409/gary-gensler-poster-child-crypto-compliance-executes-first-trade"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币连跌5天参议院后",
+      "summary": "比特币连续5日下跌，参议院比特币储备法案取得突破后市场反而回调，显示利好出尽或获利了结。短期抛压持续，价格跌破77K，ETF流出超10亿，做多需谨慎。看空。",
+      "reason": "直接影响行情：市场结构异常，ETF流出，价格连续下跌，利空信号明确。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Investing.com via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN2ZBaWFQWi1TYUJFTGM2TndCOThOd1VMMWhSVk9qQ25hUUdLZC1zWGdOMWtPUDBEVmZsS1hnd0RCNFBzdmNUdWZLbDJKN2NsWGU4bTllOE9rZzFtZHZ5QmRqN1QtVHp2eUxoWXNPcXhQbkdwR0xNXzk5bEFBVk44Si1KWktHcXpwVDk1d2pBUGwyTkFLOGRRbEc1Zzd2WHpXTURYMjJKQVk5ZDZlSVZCV1BqbjFoVUE5d3d3bVBiOTI?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "债券收益率飙升打压加密",
+      "summary": "美国债券收益率升至近20年高位，股票和比特币期货承压下跌。宏观紧缩预期压制风险资产，加密市场资金外流。短期看空，需关注后续经济数据。",
+      "reason": "宏观经济数据：债券收益率上升通常利空风险资产，影响市场情绪和资金流向。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CME Group via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNkliVVNYa0NZZS1LU1ZIT0tvM084UWZkaTVqYkFmcmZhY0dzbkdTNFhCcUxlX3Foa3p3OWxiRngxMEpUT3ZIUGljX1gzd1VMWlJZbGtYdWNlcUhyVTBXX3o2NExhZmFCeE4tWjNPVE9PZHFMRUJKVGVHVjBDOXpRamlyUGduTk1lVWYyTTRITF9QT2ZFendGYTczU1E2bnRGUFpoTnZpOWE4TWJJM1Y3RE9B?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币纳斯达克连接推进",
+      "summary": "比特币与纳斯达克的连接以及CLARITY法案的进展，暗示合规化的比特币衍生品或ETF产品将获更多渠道。这为比特币带来流动性利好，中长期看多。",
+      "reason": "机构动向：交易所与监管合作，可能扩大比特币投资渠道，吸引机构资金。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CME Group via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUXlHbGhrRDBXdDdMUjBWTTBjU2hzNDFYTHkxMGdRY0JHRWt3WHBKZFUtLThra2RmYmxKdEdjLUdYbzZxbGJWTnd0bmUwMTllT2FoNlVhdVJLMkxxOXE4Q0FFNXhWWk9JMlAzV2JucmE5d2EwWXZnN3J4a19seXE3MUZWM2toOHZYUFZSNnFSb3RIUVBKekxlX2MzRQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
