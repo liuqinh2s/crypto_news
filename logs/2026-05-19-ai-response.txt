@@ -2374,3 +2374,110 @@ content length: 2726
   ],
   "note": "高质量新消息较少，仅选出5条。多数大型事件（如ETF流出、Echo攻击、美联储预期等）已在历史消息中覆盖，故不重复。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2486, prompt_tokens=14186, total_tokens=16672, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1323, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13034)
+content length: 3050
+============================================================
+{
+  "news": [
+    {
+      "title": "美债收益率创2007年新高",
+      "summary": "美国5年期至30年期国债收益率升至2007年以来最高水平，30年期收益率突破5.2%。这意味着市场预期长期利率将维持高位，对风险资产（包括加密货币）构成估值压力。高利率环境削弱比特币等非收益资产的吸引力，可能导致资金继续流出加密市场。该消息利空BTC、ETH及整个加密市场。",
+      "reason": "宏观利率飙升直接提升加密资产的持有成本，属于优先级二的宏观经济数据，且影响广泛。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513425.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "现货黄金暴跌超100美元",
+      "summary": "现货黄金失守4500美元关口，日内跌超100美元，白银跌超5%。黄金暴跌可能反映流动性紧缩或美元走强，也可能触发部分黄金投资者转向加密资产。但更大概率是市场整体避险情绪降温或美联储紧缩预期升温，对加密资产构成间接利空。短期关注资金流向，中性偏空。",
+      "reason": "黄金与比特币有一定替代关系，但当前下跌可能利空风险资产整体，属于宏观经济事件，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513429.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "ICE将推算力期货市场",
+      "summary": "纽交所母公司洲际交易所（ICE）计划推出比特币算力期货市场，为矿工提供对冲工具。此举将提升比特币挖矿的金融化程度，吸引更多机构参与，长期利好比特币生态。但短期对价格影响有限，属于基础设施完善。看多算力相关代币及比特币。",
+      "reason": "交易所推出新期货产品属于优先级一的交易所事件，虽非直接上币但影响矿工和链上生态。",
+      "category": "交易所",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513431.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Polymarket合作纳斯达克",
+      "summary": "Polymarket与纳斯达克合作推出私营公司预测市场，用户可对未上市公司估值进行预测交易。这扩展了预测市场的资产类别，可能吸引更多传统资金进入加密领域。对Polymarket相关代币（若有）利好，但对主流币种影响中性。",
+      "reason": "项目合作属于优先级二的技术/生态事件，但影响范围有限。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513432.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "段永平首次建仓Circle",
+      "summary": "知名投资人段永平2026年Q1首次建仓Circle（USDC发行商），持仓市值1908万美元。这显示传统资本对稳定币基础设施的看好，间接利好USDC及整个稳定币生态，可能促进资金流入加密市场。但短期影响微弱，属于机构动向信号。",
+      "reason": "机构增持稳定币发行商属于优先级二的机构动向，中长期利好稳定币流动性。",
+      "category": "ETF机构",
+      "impact_coins": ["USDC"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513428.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "英国央行考虑限稳定币",
+      "summary": "英国央行考虑用稳定币发行量限制替代持有量限制，旨在控制系统性风险。若实施，可能抑制稳定币供应增长，对加密市场流动性产生负面影响。但目前仍处于考虑阶段，属于监管讨论，影响中性偏空。",
+      "reason": "监管政策的变化直接影响稳定币生态，属于优先级一的监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513416.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
