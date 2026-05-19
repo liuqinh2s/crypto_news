@@ -1793,3 +1793,79 @@ content length: 1854
   ],
   "note": "本轮抓取素材中多数为重复历史消息（如Binance公告、恐惧贪婪指数、宏观新闻等），新消息较少，仅选出3条高质量交易相关消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3202, prompt_tokens=10612, total_tokens=13814, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2247, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9460)
+content length: 2393
+============================================================
+{
+  "news": [
+    {
+      "title": "美以对伊朗核设施打击",
+      "summary": "据报道，美国和以色列对伊朗核设施发动了军事打击，地缘政治风险急剧升温。比特币作为风险资产承压，已跌至7.7万美元附近。若冲突升级，避险情绪可能进一步打压加密货币市场，短期看空。影响币种：BTC、ETH。",
+      "reason": "地缘冲突直接影响风险资产情绪，优先级一，重大事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbzVUbE1pYUpXblpZVTlYQWcwR2g4ZVA4YXlsTEZjNTNXX2F0bGtoLUdLQ2ExUFdIdko0cHRmc05BR2xfQVlxdXNSUmx2U1dNLU9CQVlidHBWSVFlMVlXUjhORU16bmNrYWIwNlZMS3JuU2JtSzRwNk1uOXBCOE9pMWFsSUtsdWVDQlN1R1d1S19sRDQ4Rm56VFdwNUxGeThoX2xn"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "共和党议员呼吁永久禁止CBDC",
+      "summary": "美国共和党议员呼吁众议院投票永久禁止中央银行数字货币（CBDC）。此举消除了政府数字货币的竞争威胁，可能推动更多资金流入加密货币，对BTC、ETH等构成利好。但法案尚未通过，需关注后续投票进展。",
+      "reason": "监管政策利好，优先级一，直接影响行业前景。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/us-lawmakers-permanent-cbdc-ban-housing-bill-debate"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊基金会两名高层离职",
+      "summary": "以太坊基金会再有两位高管离职，加深了市场对基金会领导层稳定性的担忧。短期内可能削弱ETH持有者信心，利空ETH。但若新人事带来积极变化，长期影响中性。",
+      "reason": "影响以太坊项目信心，优先级二，中期利空。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-foundation-sees-2-more-high-profile-departures-amid-wave-of-resignations"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "70% BTC供应155天未移动",
+      "summary": "数据显示70%的比特币供应在155天内未移动，表明长期持有者积累意愿强。同时CLARITY法案推进中，但市场近期下跌，可能反映短期抛压。链上数据中性偏多，暗示下方有支撑。",
+      "reason": "链上异动，反映持有者行为，优先级二，中性偏多。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/bitcoin",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1thfshd/70_of_bitcoin_supply_hasnt_moved_in_155_days/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于大量历史消息重复（如ETF流出、美联储主席就职、Echo黑客等），仅筛选出4条未重复的关键新消息。"
+}
