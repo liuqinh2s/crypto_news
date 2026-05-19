@@ -1,0 +1,316 @@
+{
+  "date": "2026-05-19",
+  "hour": "11",
+  "total": 44,
+  "fetched_at": "2026-05-19T11:00:35.474114+08:00",
+  "news": [
+    {
+      "source": "The Block",
+      "title": "BTCFi protocol Echo exploited, targeting eBTC market on Monad: onchain analysts",
+      "summary": "<p>BTCFi protocol Echo was exploited, with the attacker minting 1,000 eBTC on Monad and using it as collateral to borrow WBTC.</p>",
+      "link": "https://www.theblock.co/post/401771/echo-protocol-monad-exploit?utm_source=rss&utm_medium=rss",
+      "published": "Mon, 18 May 2026 22:49:27 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "SEC’s innovation exemption for tokenized stocks to come as early as this week: Bloomberg",
+      "summary": "<p>The SEC has approved several entities to move forward with tokenized stock initiatives, including the NYSE and Nasdaq.</p>",
+      "link": "https://www.theblock.co/post/401766/sec-innovation-exemption-tokenized-securities-this-week?utm_source=rss&utm_medium=rss",
+      "published": "Mon, 18 May 2026 21:49:57 -0400"
+    },
+    {
+      "source": "金色财经",
+      "title": "American Bitcoin持仓突破7500枚BTC，升至第15大上市比特币财库公司",
+      "summary": "【American Bitcoin持仓突破7500枚BTC，升至第15大上市比特币财库公司】金色财经报道，特朗普次子Eric Trump在X平台发文宣布，American Bitcoin当前比特币持有量已突破7500枚，已升至全球第15大上市比特币财库公司，此外该公司当前有约9万台矿机在线运行，较纳斯达克上市初期已增长一倍以上。Eric Trump补充称，American Bitcoin仅用8个月即完成上述增长，并表示下一目标是在比特币持仓量上超越Block。<p>原文链接: <a href=\"https://x.com/EricTrump/status/2056375486683508832\">https://x.com/EricTrump/status/2056375486683508832</a></p>",
+      "link": "https://jinse.com.cn/lives/513352.html",
+      "published": "Tue, 19 May 2026 02:53:35 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "正调查影响Monad链上Echo跨链桥的安全事件，期间暂停所有跨链交易",
+      "summary": "【正调查影响Monad链上Echo跨链桥的安全事件，期间暂停所有跨链交易】5月19日，Echo Protocol官方发文，其部署于Monad上的Echo桥正遭受安全事件影响，目前团队已暂停所有跨链交易并展开调查，后续进展将通过官方渠道持续披露。<p>原文链接: <a href=\"https://x.com/EchoProtocol_/status/2056561412554870810\">https://x.com/EchoProtocol_/status/2056561412554870810</a></p>",
+      "link": "https://jinse.com.cn/lives/513351.html",
+      "published": "Tue, 19 May 2026 02:43:25 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Echo Protocol确认遭攻击，暂停所有跨链交易",
+      "summary": "【Echo Protocol确认遭攻击，暂停所有跨链交易】5月19日消息，Echo Protocol发文表示正在调查一起影响Monad上Echo跨链桥的安全事件。在调查进行期间，所有跨链交易仍处于暂停状态。此前报道，据派盾监测，Echo Protocol在Monad上遭黑客攻击。攻击者铸造了1000枚eBTC（约7670万美元），并利用已测试过的流程，将其中45枚eBTC（约345万美元）存入Curvance。随后，其以此为抵押借出约11.29枚WBTC（约86.77万美元），并WBTC桥接至以太坊后兑换为ETH，最终将384枚ETH（约82.17万美元）转入Tornado Cash。慢雾创始人余弦表示，Echo Protocol或因Admin单点私钥沦陷导致被盗。<p>原文链接: <a href=\"https://x.com/EchoProtocol_/status/2056561412554870810\">https://x.com/EchoProtocol_/status/2056561412554870810</a></p>",
+      "link": "https://jinse.com.cn/lives/513350.html",
+      "published": "Tue, 19 May 2026 02:39:49 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "三井住友、富士通、软银达成联盟协议",
+      "summary": "【三井住友、富士通、软银达成联盟协议】金色财经报道，5月19日，三井住友、富士通、软银集团达成联盟协议，共同打造日本自主研发的可持续医疗保健平台。",
+      "link": "https://jinse.com.cn/lives/513349.html",
+      "published": "Tue, 19 May 2026 02:33:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Coinbase比特币负溢价趋势扩大，美国市场购买力持续低迷",
+      "summary": "【Coinbase比特币负溢价趋势扩大，美国市场购买力持续低迷】5月19日消息，据Coinglass数据显示，自5月15日以来，Coinbase比特币负溢价趋势扩大。同期，比特币自8.06万美元回落至目前的7.68万美元，本轮回调或由美国投资者主导。",
+      "link": "https://jinse.com.cn/lives/513348.html",
+      "published": "Tue, 19 May 2026 02:33:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "X宣布推出Creator Connect，利用AI匹配品牌与创作者合作",
+      "summary": "【X宣布推出Creator Connect，利用AI匹配品牌与创作者合作】5月19日消息，X宣布推出AI驱动的品牌与创作者匹配工具Creator Connect，可根据品牌营销目标、受众兴趣及实时趋势，智能匹配平台创作者。该功能基于xAI工具实现，X将负责创作者筛选、联系、内容制作与分发全流程，品牌则可在各阶段进行审核。X全球内容合作负责人Mitchell Smith表示，平台正进入「创作者时代」，并致力于建立健康、可持续的创作者经济。xAI全球广告负责人MoniquePintarelli称，Creator Connect结合AI技术与X的实时传播能力，可帮助品牌更高效触达消费者。此次发布属于X「Year of the Creator」计划的一部分。此前平台已推出Creator Subscriptions2.0、Exclusive Threads等功能，并将创作者收入分成翻倍。<p>原文链接: <a href=\"https://x.com/XBusiness/status/2056439329208099234\">https://x.com/XBusiness/status/20564",
+      "link": "https://jinse.com.cn/lives/513347.html",
+      "published": "Tue, 19 May 2026 02:27:16 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国FIU约谈五大交易所，探讨1000万韩元以上加密货币交易监管新规",
+      "summary": "【韩国FIU约谈五大交易所，探讨1000万韩元以上加密货币交易监管新规】金色财经报道，5月19日消息，韩国FIU计划收紧加密货币监管，拟将1000万韩元（约7200美元）以上海外加密交易的申报义务，并强化KYC信息验证与Travel Rule适用范围。FIU预计于今日（5月19日）与Upbit、Bithumb、Coinone、Korbit、GOPAX等韩国主要五家加密交易所CEO及DAXA举行首次座谈。有韩国业内专家警告称，对大额交易实施“全量申报”涉嫌过度监管，或引发用户和资金向海外平台流失，建议监管层更应关注异常交易模式而非单一金额门槛。<p>原文链接: <a href=\"https://www.edaily.co.kr/News/Read?mediaCodeNo=257&amp;newsId=01735126645450560\">https://www.edaily.co.kr/News/Read?mediaCodeNo=257&amp;newsId=01735126645450560</a></p>",
+      "link": "https://jinse.com.cn/lives/513346.html",
+      "published": "Tue, 19 May 2026 02:25:32 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "科技投资大佬Gavin Baker：亚马逊Trainium是最被低估的芯片",
+      "summary": "【科技投资大佬Gavin Baker：亚马逊Trainium是最被低估的芯片】金色财经报道，5月19日，半导体领域资深投资者、Atreides Management创始人兼投资总监Gavin Baker表示，亚马逊的Trainium是目前最被低估的芯片，当前主流的前沿AI模型均采用混合专家模型(Mixture of Experts，MoE)架构，而推理此类模型，需要交换式扩展网络(Switched Scaleup Network)的基础设施，而全球目前只有两家公司有运行中的交换式扩展网络，一个是驱动英伟达GPU的，另一个是亚马逊Trainium的。他认为，这是个很容易被市场所忽视的技术门槛，而谷歌的TPU在这方面并不具备同等能力，因此估计今年下半年Trainium 3大规模量产后，Trainium在2026年的地位将相当于TPU在2025年的地位。他强调，永远不会做空谷歌，也不会做空博通。",
+      "link": "https://jinse.com.cn/lives/513345.html",
+      "published": "Tue, 19 May 2026 02:24:33 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "CNBC Daily Open: Bonds sell-off, markets dip, oil worries loom — and Trump postpones Iran attack - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQQzRSaGR4dUQzTXFSUmNleXpfZGxOTFZ0dlM1LWhZYmtVQXFDU01fWV9OSWpnN1BybURFNzQzZE9sSHZ5MUJQUEkxZnpFX2NTUmdRVmItcjBzR0ZmTXpyU1V6MFBJN081aWx0dFR3WDRhNU5pMXFLdDZNZTZCYUZaSGxQbE5qNUZKN09pWVd1bFPSAZYBQVVfeXFMUGZTbkZtQk9PSnpxbmdDb0s3ZE5QdTZiWmVEUHhxWU52TEpPXzRDQmp3QmUzLXpQbTFIMHFXWGdwQlcxakpjLXM1Ri1BX25WOUtGY09jLVhVdGYxZW1iOFNNVlNwTE9aNGFEbzBfLXAxZnRqaGhvT3o3MEh5WUNsRHIxWF9GaGZybkxkOTZBT2ljQldqZ2pn?oc=5\" target=\"_blank\">CNBC Daily Open: Bonds sell",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQzRSaGR4dUQzTXFSUmNleXpfZGxOTFZ0dlM1LWhZYmtVQXFDU01fWV9OSWpnN1BybURFNzQzZE9sSHZ5MUJQUEkxZnpFX2NTUmdRVmItcjBzR0ZmTXpyU1V6MFBJN081aWx0dFR3WDRhNU5pMXFLdDZNZTZCYUZaSGxQbE5qNUZKN09pWVd1bFPSAZYBQVVfeXFMUGZTbkZtQk9PSnpxbmdDb0s3ZE5QdTZiWmVEUHhxWU52TEpPXzRDQmp3QmUzLXpQbTFIMHFXWGdwQlcxakpjLXM1Ri1BX25WOUtGY09jLVhVdGYxZW1iOFNNVlNwTE9aNGFEbzBfLXAxZnRqaGhvT3o3MEh5WUNsRHIxWF9GaGZybkxkOTZBT2ljQldqZ2pn?oc=5",
+      "published": "Tue, 19 May 2026 01:55:00 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Altcoins are relatives on binance",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Looool why most of the time </p> <p>70% of the altcoins have the same chart despite the price</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Calm-Budget-362\"> /u/Calm-Budget-362 </a> <br /> <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tha3ie/altcoins_are_relatives_on_binance/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tha3ie/altcoins_are_relatives_on_binanc",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tha3ie/altcoins_are_relatives_on_binance/",
+      "published": "2026-05-19T02:57:18+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Satoshi's Coins: Freezing or Seizing? How do we respond to Quantum Supremacy in the coming years.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>As per the title of this reddit thread, there are only two routes to take when entering a post quantum world: Freezing or Seizing. It's also important for us to have these conversations without vitriol, contempt, or memes for someone with an opposing perspective. </p> <p>Personally, I've been too busy with my 3 jobs and trying to pay the bills to really pay attention to what is going on in this area of the bitcoin sphere. This also, technically isn't really my p",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1th8swu/satoshis_coins_freezing_or_seizing_how_do_we/",
+      "published": "2026-05-19T02:00:50+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "$20k in btc stolen",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Opened up my crypto onchain wallet today to see $20k in btc was withdrawn back in February. I don't check it often and can't believe it. No idea how it happened as the transaction doesn't show in the app but does on blockchain.com. </p> <p>Really fucking sucks, no idea how it happened. Never shared my phrase. Fuck</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/snufflefrump\"> /u/snufflefrump </a> <br /> <span><a href=\"https",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1th8er6/20k_in_btc_stolen/",
+      "published": "2026-05-19T01:44:18+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Physical Backups Matter Most",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1th7roa/physical_backups_matter_most/\"> <img alt=\"Physical Backups Matter Most\" src=\"https://external-preview.redd.it/ovl1tpGyJFLO9fP9cHkor_yIm39lKL2t6izN2qv29QM.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=f124c06a941cae9e54c801d9c0e93dbfbff00cda\" title=\"Physical Backups Matter Most\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cryptoconomy\"> /u/Cryptoconomy </a> <br /> <span><a href=\"htt",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1th7roa/physical_backups_matter_most/",
+      "published": "2026-05-19T01:16:32+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Swan Bitcoin Faces $1 Billion Crypto Lawsuit Over Prime Trust Bankruptcy",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1tha3l6/swan_bitcoin_faces_1_billion_crypto_lawsuit_over/\"> <img alt=\"Swan Bitcoin Faces $1 Billion Crypto Lawsuit Over Prime Trust Bankruptcy\" src=\"https://external-preview.redd.it/dTrk73ockz4c82Cuhu0wLv2p7GrKGz6lBFjr_0kox6w.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=55048ddad9da3170ecb2c75b904d2067b8157a48\" title=\"Swan Bitcoin Faces $1 Billion Crypto Lawsuit Over Prime Trust Bankruptcy\" /> </a> </td><td> &#32; submitted",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1tha3l6/swan_bitcoin_faces_1_billion_crypto_lawsuit_over/",
+      "published": "2026-05-19T02:57:24+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "At least you have bitcoins",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1th80lo/at_least_you_have_bitcoins/\"> <img alt=\"At least you have bitcoins\" src=\"https://preview.redd.it/7gydr5teyz1h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=00df584b2695268881cc8a94eb3b8aa51fc94916\" title=\"At least you have bitcoins\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/unthocks\"> /u/unthocks </a> <br /> <span><a href=\"https://i.redd.it/7gydr5teyz1h1.jpeg\">[link]</a></span>",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1th80lo/at_least_you_have_bitcoins/",
+      "published": "2026-05-19T01:27:23+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin, Ethereum, XRP Flat, While Dogecoin Slides As Trump Steps Up War Rhetoric : Analyst Flags Significance Of $70,500 For BTC - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOa0xPa2tMYld2ZjNLUUxQTjNzckJ3OUkxZlpQZ21NRVB6YkFwT1dRYXU5YWhvanFDaUVoYTZPUWROU2RpekZpWm52WjUzYUN2V05nektkUDlScklPTEp4eXZSbVM4M2p0bDdVVnh2V0MzcEk1TklHOGtLb2xlUnVXT2oxa0FlMUxkaU1YMWYxV1BOb0QxX3dSRUtQT0U?oc=5\" target=\"_blank\">Bitcoin, Ethereum, XRP Flat, While Dogecoin Slides As Trump Steps Up War Rhetoric : Analyst Flags Significance Of $70,500 For BTC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa0xPa2tMYld2ZjNLUUxQTjNzckJ3OUkxZlpQZ21NRVB6YkFwT1dRYXU5YWhvanFDaUVoYTZPUWROU2RpekZpWm52WjUzYUN2V05nektkUDlScklPTEp4eXZSbVM4M2p0bDdVVnh2V0MzcEk1TklHOGtLb2xlUnVXT2oxa0FlMUxkaU1YMWYxV1BOb0QxX3dSRUtQT0U?oc=5",
+      "published": "Tue, 19 May 2026 02:26:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Best Crypto ETFs to Buy in 2026 - The Motley Fool",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9aTkhvNmotNmJLMU05XzBBcE9xZlhXX21VOGpTYTRYakNGRU9MX3U4dk5DS3lpUDN2OFNmeEVBS0NxQ25iNnpKZWhXNUozbVFmeURfM05qTkMzazk1VklMN2R6czVuUkdOWl9YdW4wRThpTHppdFpUUzJQS25idDg?oc=5\" target=\"_blank\">Best Crypto ETFs to Buy in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aTkhvNmotNmJLMU05XzBBcE9xZlhXX21VOGpTYTRYakNGRU9MX3U4dk5DS3lpUDN2OFNmeEVBS0NxQ25iNnpKZWhXNUozbVFmeURfM05qTkMzazk1VklMN2R6czVuUkdOWl9YdW4wRThpTHppdFpUUzJQS25idDg?oc=5",
+      "published": "Tue, 19 May 2026 01:30:49 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "summary": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3544b8dab5e64f839316a360495a6387",
+      "published": "2026-05-18T19:15:56.728000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+      "published": "2026-05-16T13:44:21.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1",
+      "published": "2026-05-15T01:04:30.843000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
+      "published": "2026-05-14T23:29:47.443000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "summary": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35",
+      "published": "2026-05-14T18:00:03.676000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a2bce2686fc64a61b44c4335facafe7f",
+      "published": "2026-05-14T17:46:35.557000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
+      "published": "2026-05-14T12:14:04.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785",
+      "published": "2026-05-13T19:45:01.574000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "summary": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b4eb8e22deba433583fe18e327e382e0",
+      "published": "2026-05-12T11:30:03.776000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9d96b17988bd41e9bd8898c586f68744",
+      "published": "2026-05-11T14:00:05.246000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c",
+      "published": "2026-05-07T14:59:29.304000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "summary": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01",
+      "published": "2026-05-04T14:29:57.125000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f",
+      "published": "2026-04-30T18:47:58.718000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "summary": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861",
+      "published": "2026-04-30T17:07:29.704000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/KZT Spot Trading Pair",
+      "summary": "Binance Adds USDT/KZT Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/51c9c56c7d3141fdac18cb9a152defc8",
+      "published": "2026-04-30T13:00:06.261000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/524345e64dd14a23989bfe1e547760b5",
+      "published": "2026-04-29T21:27:04.104000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c8d2380a71ee4b56980cf7798d2e3d8f",
+      "published": "2026-04-28T16:00:03.344000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "summary": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/52ca7793dcdd43ad822f43cfacc42231",
+      "published": "2026-04-28T12:00:02.694000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/75a90e75150c4917b54c5251cba87225",
+      "published": "2026-04-27T16:00:37.542000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e4b4751f7ee845dd9df5c1bfd94ade51",
+      "published": "2026-04-22T22:51:55.953000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 25 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 25，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-05-19T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "对话加密教父：比特币6万美元绝不是底，真正的“投降时刻”在10月 - PANews",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE05d010Q1kxUFhDTUlic1pxRzRRdGNRa2ZOVnpWWVhHX2pkcnJSdjlTQkExM1FUQTJiUndVY1BRVW92c2gxQm0xSUZydGRRWm0zX3hvT0JzUjZMcFRxZEMwbXg4RFRiVTZNM3RrcTN5RDBMZTF5OENTN1g4d2Y4QkU?oc=5\" target=\"_blank\">对话加密教父：比特币6万美元绝不是底，真正的“投降时刻”在10月</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PANews</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05d010Q1kxUFhDTUlic1pxRzRRdGNRa2ZOVnpWWVhHX2pkcnJSdjlTQkExM1FUQTJiUndVY1BRVW92c2gxQm0xSUZydGRRWm0zX3hvT0JzUjZMcFRxZEMwbXg4RFRiVTZNM3RrcTN5RDBMZTF5OENTN1g4d2Y4QkU?oc=5",
+      "published": "Tue, 19 May 2026 01:18:00 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "昨夜今晨重要资讯（5月18日-5月19日） - PANews",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE16Y1hoNnhtN3NEWjcwNUJMM2hqdWxOVzdZZnJrczFKTWl6eDVHU3l6UkVGQzdNbWVSeFdCRjZPT2M1Vk1QR2UwUFZSRlNZbTFWNi1CTjlEQnpHdERIdEgyUVppX3FOTlV4d0xoYW1PaFlBalQ1OGEzRW1hWHVQOXc?oc=5\" target=\"_blank\">昨夜今晨重要资讯（5月18日-5月19日）</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PANews</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16Y1hoNnhtN3NEWjcwNUJMM2hqdWxOVzdZZnJrczFKTWl6eDVHU3l6UkVGQzdNbWVSeFdCRjZPT2M1Vk1QR2UwUFZSRlNZbTFWNi1CTjlEQnpHdERIdEgyUVppX3FOTlV4d0xoYW1PaFlBalQ1OGEzRW1hWHVQOXc?oc=5",
+      "published": "Tue, 19 May 2026 03:00:02 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "英国金融科技公司Stratiphy通过IF ISAs恢复免税加密ETN访问 - WEEX",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdk1aWGt6ZDVOemRhVUdNZlZjTElwYTR1ZTRoVVIzb1hjb0dNZzlyZkNQLUdzUE9WZWJfU0RvSTNoemstb01GX0NVaTI3cnhZVkhwbkJZU1hZZm5CazBnNU9jcklTQ09mZGVlZVo0MG5tQnpRcEdaWjUtVEVfM3JNcnl2X2c4SFhLdHVGckxFVTBYQnQ3VUJsbU5zRjRpT2VnTFhMajA4YTBvenp1U3NndVcyYVVvQXFqUEtvTTJsVFNfR0pEZzBscw?oc=5\" target=\"_blank\">英国金融科技公司Stratiphy通过IF ISAs恢复免税加密ETN访问</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WEEX</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdk1aWGt6ZDVOemRhVUdNZlZjTElwYTR1ZTRoVVIzb1hjb0dNZzlyZkNQLUdzUE9WZWJfU0RvSTNoemstb01GX0NVaTI3cnhZVkhwbkJZU1hZZm5CazBnNU9jcklTQ09mZGVlZVo0MG5tQnpRcEdaWjUtVEVfM3JNcnl2X2c4SFhLdHVGckxFVTBYQnQ3VUJsbU5zRjRpT2VnTFhMajA4YTBvenp1U3NndVcyYVVvQXFqUEtvTTJsVFNfR0pEZzBscw?oc=5",
+      "published": "Tue, 19 May 2026 01:48:11 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Tether紧握稳定币市场：USDT供应刷新高峰至1880亿美元 - WEEX",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQVVdzNTliVGdrbzdlb1VoQm9pNktwbmV4SnA1VkZFeUhfV3pwZnVaNTE1M2JKVDFHd1JrMnBQeXN1R2NfcTBEWXdPbk8zeFYtWlRGdWVmTXBUR2Vsb2hWWEh3dHN6Q3pMbXNNMnktUUUyWGNGTXN2MmYtdmU2akxXSzFtbFcyNnd4RzhqdXl4ZnZlbWxCa0tSQnhhMGZEVm90bE5zOE5lRVpOckxuaVQwU2JhbGowa1RwdFJTRFhOVDdYcF9zbU9ndXJYd1M?oc=5\" target=\"_blank\">Tether紧握稳定币市场：USDT供应刷新高峰至1880亿美元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WEEX</font>",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVVdzNTliVGdrbzdlb1VoQm9pNktwbmV4SnA1VkZFeUhfV3pwZnVaNTE1M2JKVDFHd1JrMnBQeXN1R2NfcTBEWXdPbk8zeFYtWlRGdWVmTXBUR2Vsb2hWWEh3dHN6Q3pMbXNNMnktUUUyWGNGTXN2MmYtdmU2akxXSzFtbFcyNnd4RzhqdXl4ZnZlbWxCa0tSQnhhMGZEVm90bE5zOE5lRVpOckxuaVQwU2JhbGowa1RwdFJTRFhOVDdYcF9zbU9ndXJYd1M?oc=5",
+      "published": "Tue, 19 May 2026 01:38:03 GMT"
+    }
+  ]
+}
