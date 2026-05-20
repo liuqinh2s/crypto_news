@@ -1755,3 +1755,105 @@ content length: 3526
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2866, prompt_tokens=11863, total_tokens=14729, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1045, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10711)
+content length: 4236
+============================================================
+{
+  "news": [
+    {
+      "title": "参议院限制特朗普伊朗战争权力",
+      "summary": "美国参议院通过决议限制特朗普对伊朗的战争权力，地缘政治风险缓解，风险资产反弹。BTC、ETH、XRP等加密货币随之上涨，BTC重回77,200美元附近。地缘紧张缓和利好风险资产，但持续性存疑。信号：短期看多，但需关注伊朗局势后续进展。",
+      "reason": "直接影响行情的地缘政治事件，加密货币作为风险资产受提振，BTC、ETH、XRP反弹。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/20/bitcoin-ether-xrp-rebound-as-senate-curbs-trump-s-iran-war-powers"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "英国4月CPI降至2.8%",
+      "summary": "英国4月CPI同比降至2.8%，低于预期，但市场预计放缓是短暂的。通胀回落可能减轻英国央行加息压力，对全球风险资产构成温和利好。若后续核心通胀持续下降，可能推动降息预期。",
+      "reason": "宏观经济数据影响风险资产偏好，CPI下行利好加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CNBC", "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xdHJoQVF2M0Jva1JDOWhaLUVQczN2RktCaVZfNzBQYzEtOXE1OFA1WndUTkp6ZkRwMWZKNU9KTlNxZG94dGJfUmR5VDV0LWJoaUxVSno4UjFSZlR6T1VyZGxLamZNV1FJaU9BZUhDWmREYVB6S1BGM29RTkVIUdIBgwFBVV95cUxObVM4bmJvNWZYeGJ3SnJULXhVWEpZeHY1S01qRktndG5Kdk51dlNnS0ZiblR0VlJ3R1NvV1lVQVZjbVlqQUtTM3hwMm9BSzlRdWE0bF9SRUo2YnkwVUtTZUhudkdKVDFLWmYta1BzRzBxaHNZdTdPRGxDMmFzM0tlNFFUTQ?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Vitalik发布以太坊隐私路线图",
+      "summary": "以太坊创始人Vitalik Buterin发布以太坊隐私短期路线图，旨在提升网络隐私保护能力。这有助于增强以太坊生态的竞争力，可能吸引更多DeFi和隐私应用。中长期利好ETH，但短期影响有限。",
+      "reason": "技术路线图发布，中期利好以太坊生态。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "吴说区块链", "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczVVWVVEUFpDLWxiYnFHZHpwX2NIVWZmWDYxclJuVmdGNEhOOTNHUXMyejJjMU1DR1ZBaXRURDlIYlNaTC1wTE0xejNGZk9vczhxeE1STW1NLWN1QUF5ZFo5cV9zV09CcVRZMllucUZaU1pWVW1UdnVzcHAzZFBhUkJuOA?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Algorand上线Robinhood",
+      "summary": "Algorand（ALGO）已在Robinhood平台开放交易，用户可直接买卖ALGO。Robinhood拥有大量散户用户，上线后能显著提升ALGO的流动性和曝光度，短期利好ALGO价格。",
+      "reason": "交易所上币消息，直接影响ALGO交易量和价格。",
+      "category": "交易所",
+      "impact_coins": ["ALGO"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tidypn/finally_algorand_is_live_on_robinhood/"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Ark Invest买入Bullish股票",
+      "summary": "Ark Invest买入价值440万美元的Bullish股票，Bullish是机构级加密货币交易所。Ark的买入行为被视为机构对加密行业投信任票，可能提振市场情绪，但金额较小，影响有限。",
+      "reason": "机构动向，显示机构对加密交易所的信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/401960/ark-invest-buys-4-million-bullish-shares?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC隐含波动率低但价格下跌",
+      "summary": "比特币价格下跌、债券收益率上升，但BTC隐含波动率仍维持低位。低波动通常预示市场预期未来变动不大，但价格下跌与低波动背离，可能意味着市场情绪谨慎，短期方向不明。中性偏空，需警惕波动率突然放大。",
+      "reason": "市场结构异常，低波动率与下跌并存，可能酝酿变盘。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/20/bitcoin-is-falling-bond-yields-are-rising-yet-btc-s-implied-volatility-an-uncertainty-gauge-remains-low"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "爆仓严重，BTC连跌后企稳7.7万",
+      "summary": "比特币连跌4日后在7.7万美元附近企稳，但市场爆仓情况严重，多头杠杆被大量清算。恐慌情绪蔓延，恐惧贪婪指数降至27。短期可能面临反弹，但中期仍需观察主力资金动向。",
+      "reason": "市场情绪极端，爆仓数据反映多头出清，可能迎来短期反弹机会。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "FX168", "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Wa3JGU1NzUHpvZDRFbzJLRlM1Sjl1eFI2SWdJMzdlMHRsTEI0WER3NFE4QU5Pa3cwU2pTZWRCaU5pRjIwZGplS0NHVURqMGp6dkJ6OTBsVm11WHFJUVNSQmtVdDZBYlprRWs2ZkthS0VTZk4tUnkzag?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
