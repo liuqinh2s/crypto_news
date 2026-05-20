@@ -481,3 +481,176 @@ content length: 1875
   ],
   "note": "当前时段有效新消息较少，仅筛选出3条关键信息。其余抓取素材多为历史重复内容或低价值信息，已按规则排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1822, prompt_tokens=12330, total_tokens=14152, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1475, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11178)
+content length: 761
+============================================================
+{
+  "news": [
+    {
+      "title": "美预算赤字预计2万亿",
+      "summary": "美国政府预算赤字预计今年达到2万亿美元，相比此前预测进一步扩大。赤字膨胀意味着财政部需增加借款，可能推高长期利率，对风险资产包括加密货币构成压力。历史上高赤字常伴随通胀担忧，削弱美元购买力，但短期可能导致资本从风险市场流出。该消息可能影响BTC和ETH等主流币种的宏观情绪。整体看空信号。",
+      "reason": "宏观财政赤字扩大，可能间接影响加密市场，属于中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FUmxCMzliMXdhSWFmVlMtd0MyUlRvVzBCa2dnZkh0cWdKYTFVVlA2NTNhbjFEc1dQbzBpdWZIam9SR1pGeTVLSkFqLUxxdWtqalJHYS1hTDlUY2xwb2lCZWF3UEIyWlZPUmVyMFp2b3M?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前周期内大部分消息与历史重复，仅筛选出1条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1563, prompt_tokens=12330, total_tokens=13893, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1028, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=42)
+content length: 1268
+============================================================
+{
+  "news": [
+    {
+      "title": "美国制裁西纳罗亚贩毒集团",
+      "summary": "美国财政部制裁西纳罗亚贩毒集团，因其利用加密货币进行芬太尼贩运。该行动冻结了集团相关加密地址，可能增加监管压力，但直接影响有限。对BTC、USDT等影响中性偏空，因监管加强可能引发短期抛售，但幅度较小。",
+      "reason": "监管动态，优先级一，但针对贩毒而非加密货币本身，影响等级较低。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "USDT"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368532/us-treasury-sanctions-sinaloa-cartel-crypto-fueled-fentanyl-trafficking"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国政府赤字预计达2万亿美元",
+      "summary": "美国今年预算赤字预计达2万亿美元，持续财政扩张可能推高通胀和利率，对风险资产包括加密货币构成压力。这一宏观背景强化了美联储紧缩预期，利空BTC、ETH等。中期看空信号。",
+      "reason": "宏观经济，优先级二，赤字影响美联储政策和风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FUmxCMzliMXdhSWFmVlMtd0MyUlRvVzBCa2dnZkh0cWdKYTFVVlA2NTNhbjFEc1dQbzBpdWZIam9SR1pGeTVLSkFqLUxxdWtqalJHYS1hTDlUY2xwb2lCZWF3UEIyWlZPUmVyMFp2b3M?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分为过时或重复公告，有效新消息较少，仅筛选出两条对交易有参考价值的消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2377, prompt_tokens=12330, total_tokens=14707, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2030, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=42)
+content length: 755
+============================================================
+{
+  "news": [
+    {
+      "title": "美国预算赤字预计2万亿",
+      "summary": "美国国会预算办公室预计2026财年联邦预算赤字将达2万亿美元，创疫情以来新高。巨额赤字可能加剧通胀担忧，削弱美元信用，推动避险资金流入比特币等硬资产。历史上财政赤字扩大与比特币正相关，此消息对BTC、ETH构成中期利好。但需关注美联储政策应对。总体看多。",
+      "reason": "符合优先级二宏观经济数据，赤字扩大对风险资产有支撑，属于中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FUmxCMzliMXdhSWFmVlMtd0MyUlRvVzBCa2dnZkh0cWdKYTFVVlA2NTNhbjFEc1dQbzBpdWZIam9SR1pGeTVLSkFqLUxxdWtqalJHYS1hTDlUY2xwb2lCZWF3UEIyWlZPUmVyMFp2b3M?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "其他抓取素材多为重复历史消息或无关内容，仅筛选出此条具有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1535, prompt_tokens=13556, total_tokens=15091, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1178, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12404)
+content length: 787
+============================================================
+{
+  "news": [
+    {
+      "title": "美政府赤字预计2万亿",
+      "summary": "美国预算赤字预计今年达到2万亿美元，这一数字引发市场对财政可持续性和通胀的担忧。赤字扩大可能导致国债收益率上升，进而对风险资产包括加密货币形成压力。历史数据显示，高赤字往往推高利率，抑制风险偏好。此消息对BTC、ETH整体偏空，但影响为中期。",
+      "reason": "美国预算赤字规模创纪录，直接影响宏观经济预期，属于优先级二的中期影响因素。赤字扩大可能导致美联储维持紧缩政策，利空风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FUmxCMzliMXdhSWFmVlMtd0MyUlRvVzBCa2dnZkh0cWdKYTFVVlA2NTNhbjFEc1dQbzBpdWZIam9SR1pGeTVLSkFqLUxxdWtqalJHYS1hTDlUY2xwb2lCZWF3UEIyWlZPUmVyMFp2b3M?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中绝大多数消息与历史重复，仅发现一条新消息。建议关注后续更多宏观数据和FOMC动态。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5443, prompt_tokens=13556, total_tokens=18999, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=4721, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13440), prompt_cache_hit_tokens=13440, prompt_cache_miss_tokens=116)
+content length: 1687
+============================================================
+{
+  "news": [
+    {
+      "title": "美预算赤字预计达2万亿美元",
+      "summary": "美国政府预算赤字预计本财年将达2万亿美元，可能导致债券收益率上升和流动性收紧。加密货币作为风险资产可能承压，尤其是BTC和ETH。该消息为中长期看空信号，增加市场压力。",
+      "reason": "宏观经济中的财政赤字影响风险偏好，可能促使避险情绪，对加密市场不利。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FUmxCMzliMXdhSWFmVlMtd0MyUlRvVzBCa2dnZkh0cWdKYTFVVlA2NTNhbjFEc1dQbzBpdWZIam9SR1pGeTVLSkFqLUxxdWtqalJHYS1hTDlUY2xwb2lCZWF3UEIyWlZPUmVyMFp2b3M?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "5/20价格预测：多币种目标位",
+      "summary": "CoinTelegraph发布5/20价格预测，分析BTC、ETH、HYPE、ZEC等币种技术面。BTC有望反弹至8万美元，HYPE和ZEC表现突出。技术面看多部分币种，但整体市场情绪偏弱。",
+      "reason": "价格预测涉及多个币种的技术分析，对短线交易有参考价值，属于市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "HYPE", "ZEC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/price-predictions-520-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "在岸人民币兑美元涨150点",
+      "summary": "在岸人民币兑美元收报6.7972元，较夜盘涨150点。人民币升值可能削弱USDT溢价，短期对加密市场影响有限，但可能反映资本流向。中性信号。",
+      "reason": "汇率变动影响稳定币需求和套利，但非直接加密驱动力，归类为宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513659.html"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时间段内大部分重要消息已在历史标题中重复出现，仅筛选出3条相对较新或更新信息。"
+}

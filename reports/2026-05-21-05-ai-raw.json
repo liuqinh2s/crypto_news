@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-21",
+  "hour": "05",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 5/6 策略=完整内容 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13556,
+    "completion_tokens": 5443,
+    "total_tokens": 18999
+  },
+  "content_length": 1687,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"美预算赤字预计达2万亿美元\",\n      \"summary\": \"美国政府预算赤字预计本财年将达2万亿美元，可能导致债券收益率上升和流动性收紧。加密货币作为风险资产可能承压，尤其是BTC和ETH。该消息为中长期看空信号，增加市场压力。\",\n      \"reason\": \"宏观经济中的财政赤字影响风险偏好，可能促使避险情绪，对加密市场不利。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"Crypto Briefing\", \"url\": \"https://news.google.com/rss/articles/CBMicEFVX3lxTE1FUmxCMzliMXdhSWFmVlMtd0MyUlRvVzBCa2dnZkh0cWdKYTFVVlA2NTNhbjFEc1dQbzBpdWZIam9SR1pGeTVLSkFqLUxxdWtqalJHYS1hTDlUY2xwb2lCZWF3UEIyWlZPUmVyMFp2b3M?oc=5\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"5/20价格预测：多币种目标位\",\n      \"summary\": \"CoinTelegraph发布5/20价格预测，分析BTC、ETH、HYPE、ZEC等币种技术面。BTC有望反弹至8万美元，HYPE和ZEC表现突出。技术面看多部分币种，但整体市场情绪偏弱。\",\n      \"reason\": \"价格预测涉及多个币种的技术分析，对短线交易有参考价值，属于市场结构信号。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"HYPE\", \"ZEC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/markets/price-predictions-520-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"在岸人民币兑美元涨150点\",\n      \"summary\": \"在岸人民币兑美元收报6.7972元，较夜盘涨150点。人民币升值可能削弱USDT溢价，短期对加密市场影响有限，但可能反映资本流向。中性信号。\",\n      \"reason\": \"汇率变动影响稳定币需求和套利，但非直接加密驱动力，归类为宏观经济。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/513659.html\"}],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前时间段内大部分重要消息已在历史标题中重复出现，仅筛选出3条相对较新或更新信息。\"\n}"
+}
