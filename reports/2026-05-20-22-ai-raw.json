@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-20",
+  "hour": "22",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 15443,
+    "completion_tokens": 2825,
+    "total_tokens": 18268
+  },
+  "content_length": 1927,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Variational完成5000万美元融资\",\n      \"summary\": \"加密衍生品协议Variational完成5000万美元融资，由Dragonfly Capital领投。该协议专注于去中心化期权和结构化产品，融资将用于扩展链上衍生品市场。此消息利好DeFi衍生品赛道，可能带动相关代币及ETH生态活跃，但短期直接影响有限。偏向看多ETH及DeFi币种。\",\n      \"reason\": \"大额融资体现机构对链上衍生品赛道的信心，可能提升市场对DeFi板块的关注度，属于中期影响\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\", \"UNI\", \"ARB\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513631.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"美股纳指高开0.5% 英伟达财报前乐观\",\n      \"summary\": \"美股三大指数开盘走高，纳指涨0.5%，美光科技、英特尔涨幅超5%。市场对英伟达财报预期乐观，科技股普涨。宏观风险偏好回升，可能短期提振加密货币市场情绪，但需关注财报后波动。短线偏多BTC、ETH。\",\n      \"reason\": \"美股尤其是科技股表现与加密市场联动性增强，财报前乐观情绪可能传递至加密市场\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513629.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美国居民家庭债务达18.8万亿美元\",\n      \"summary\": \"据The Street报道，美国家庭总债务达到18.8万亿美元，创历史新高。高债务水平可能抑制消费和经济增长，增加衰退风险，进而对风险资产包括加密货币构成压力。中长期偏空BTC、ETH。\",\n      \"reason\": \"宏观经济压力信号，高债务可能迫使美联储维持紧缩或引发风险偏好下降\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Street\",\n          \"url\": \"https://news.google.com/rss/articles/CBMipgFBVV95cUxPUGk5M1M0cEdZM1VJekZFRm00VDZyUWI1N3NIRWpYUm9tT2ZCWmh6M0UyV2hsZ0J1NW10a1YxcS10MjRLS3VKOFZ4eThOVjg4aFI1bEtxdzZlbVl0RjhIeXFkZHMteWJ6WWN0ZEt1ODhnT3p4bWJBOU1iYi1fMjZNeFFJYzZ4aWtDX3RNMjhxNXcyX0ZMUHJHNFc0UDVvQjRPS2F4cFlR?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"大部分抓取到的核心事件（如Tether收购SoftBank股份、MiCA审查、特朗普命令、南卡罗来纳州法案、新加坡撤销许可等）已在近6小时历史消息中出现并重复。当前时段新增有效交易消息较少，以上3条为相对有价值的新信息。\"\n}"
+}

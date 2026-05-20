@@ -2263,3 +2263,63 @@ content length: 3881
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2825, prompt_tokens=15443, total_tokens=18268, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1982, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14291)
+content length: 1927
+============================================================
+{
+  "news": [
+    {
+      "title": "Variational完成5000万美元融资",
+      "summary": "加密衍生品协议Variational完成5000万美元融资，由Dragonfly Capital领投。该协议专注于去中心化期权和结构化产品，融资将用于扩展链上衍生品市场。此消息利好DeFi衍生品赛道，可能带动相关代币及ETH生态活跃，但短期直接影响有限。偏向看多ETH及DeFi币种。",
+      "reason": "大额融资体现机构对链上衍生品赛道的信心，可能提升市场对DeFi板块的关注度，属于中期影响",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "UNI", "ARB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513631.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美股纳指高开0.5% 英伟达财报前乐观",
+      "summary": "美股三大指数开盘走高，纳指涨0.5%，美光科技、英特尔涨幅超5%。市场对英伟达财报预期乐观，科技股普涨。宏观风险偏好回升，可能短期提振加密货币市场情绪，但需关注财报后波动。短线偏多BTC、ETH。",
+      "reason": "美股尤其是科技股表现与加密市场联动性增强，财报前乐观情绪可能传递至加密市场",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513629.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国居民家庭债务达18.8万亿美元",
+      "summary": "据The Street报道，美国家庭总债务达到18.8万亿美元，创历史新高。高债务水平可能抑制消费和经济增长，增加衰退风险，进而对风险资产包括加密货币构成压力。中长期偏空BTC、ETH。",
+      "reason": "宏观经济压力信号，高债务可能迫使美联储维持紧缩或引发风险偏好下降",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Street",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUGk5M1M0cEdZM1VJekZFRm00VDZyUWI1N3NIRWpYUm9tT2ZCWmh6M0UyV2hsZ0J1NW10a1YxcS10MjRLS3VKOFZ4eThOVjg4aFI1bEtxdzZlbVl0RjhIeXFkZHMteWJ6WWN0ZEt1ODhnT3p4bWJBOU1iYi1fMjZNeFFJYzZ4aWtDX3RNMjhxNXcyX0ZMUHJHNFc0UDVvQjRPS2F4cFlR?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "大部分抓取到的核心事件（如Tether收购SoftBank股份、MiCA审查、特朗普命令、南卡罗来纳州法案、新加坡撤销许可等）已在近6小时历史消息中出现并重复。当前时段新增有效交易消息较少，以上3条为相对有价值的新信息。"
+}
