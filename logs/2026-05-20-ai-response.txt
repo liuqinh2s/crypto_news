@@ -1571,3 +1571,80 @@ content length: 3231
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2896, prompt_tokens=10478, total_tokens=13374, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1553, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9326)
+content length: 3171
+============================================================
+{
+  "news": [
+    {
+      "title": "美参议院推进限制特朗普对伊动武",
+      "summary": "美国参议院通过一项决议，旨在限制特朗普总统对伊朗的战争权力。地缘政治紧张局势可能加剧，引发市场避险情绪。短期可能压制风险资产包括加密货币，但长期若冲突避免或利好。影响BTC、ETH等主流币，偏bearish信号。",
+      "reason": "地缘政治风险升级，影响宏观风险偏好，属优先级二宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/us-senate-advances-resolution-to-end-trumps-iran-war"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "WLFI关联AI Financial面临持续经营风险",
+      "summary": "World Liberty Financial (WLFI) 关联的 AI Financial 在财报中标记“持续经营”风险，亏损持续扩大。可能引发对WLFI生态代币的抛售，尤其WLFI相关项目。短期看空WLFI及关联代币。",
+      "reason": "项目方重大负面事件，属优先级一项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["WLFI"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/world-liberty-linked-ai-financial-flags-going-concern-as-losses-mount"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "慢雾警告GitHub/Grafana安全攻击",
+      "summary": "慢雾团队指出，近期GitHub和Grafana安全事件可能与大规模“迷你沙虫”供应链攻击相关。该攻击可能影响使用相关工具的加密项目，增加代码和智能合约风险。短期可能引发市场对DeFi和DApp安全性的担忧，偏bearish。",
+      "reason": "安全事件影响面广，属优先级一链上异动（安全）。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513545.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Chainlink CCIP活跃地址创新高",
+      "summary": "在rsETH事件后，Chainlink跨链互操作协议CCIP活跃地址创历史新高。表明机构对跨链解决方案需求增长，可能推动LINK代币需求。中长期利好LINK，信号bullish。",
+      "reason": "链上指标异常增长，属优先级二链上数据，暗示采用率上升。",
+      "category": "链上异动",
+      "impact_coins": ["LINK"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "吴说区块链", "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNVl0S2hzVzVCbWZfR0Fpd1I2TlRVdURnVlE0RWE5S0syel81aGNTQWhYVUNGNUNoanczX1R5QzNFbzhtNVFZZ1IwOUFfeG9aWThWcFAwSTJvTXdPTk82UkRvQVoybnZBcFRTckt2ZVdFcmU4T1dEazNMa3oyekc4ZXhJZWhrZ0V2cU9NOTlmRQ"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Lighter实现无信任紧急退出",
+      "summary": "L2Beat确认L2项目Lighter已完成无信任紧急退出机制验证，用户可在排序器故障时直接向主网提款。增强L2安全性，利好Lighter生态代币。信号bullish。",
+      "reason": "技术升级里程碑，属优先级二项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["LITE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "吴说区块链", "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFlqcnFnOXdVeTVYQ3Q1eDVteEIzZkVGN1JNOWVpY1NIS0dEeGFoUHlGVnJvRWItSUZFbnNPazJMQnVZa2pJWDBQVndoUWlVUU9nS21qWUJJSGFQYmhpZS1xQVBzdlhZbjJ5RXBqNC1PSTJRcXRfdzJULUlBZFE3a1loS3lMUVQzbGRGWXo3Qm81QQ"}],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC突破77000美元",
+      "summary": "比特币价格突破77,000美元，从近期低点反弹。此前曾跌破77,000，此突破可能形成短期支撑。但市场情绪仍偏恐惧，需确认是否持续。短期bullish，但需警惕假突破。",
+      "reason": "价格关键位突破，属市场情绪信号，但结合恐惧指数27仍偏弱，评为轻度看多。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513546.html"}],
+      "urgency": "immediate"
+    }
+  ]
+}
