@@ -1126,3 +1126,131 @@ content length: 2915
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4422, prompt_tokens=10153, total_tokens=14575, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2504, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9001)
+content length: 4591
+============================================================
+{
+  "news": [
+    {
+      "title": "俄央行拟禁俄公民在受制裁交易平台交易",
+      "summary": "俄罗斯央行拟禁止公民在遵守国际制裁的外国加密交易所进行交易。此禁令将限制俄罗斯用户访问主流CEX，可能导致俄区资金外流受阻，但对全球市场直接影响有限。受影响币种主要是BTC、ETH等主流币，因俄交易量占比不大，整体偏利空但程度有限。",
+      "reason": "监管政策直接影响交易准入，虽然俄市场占比较小，但禁令可能引发其他国家对俄制裁的连锁反应，属于优先级一的监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513513.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日经225失守60000点，引发风险抛售",
+      "summary": "日经225指数跌破60000点，为5月1日以来首次。日本股市全面下跌可能引发全球风险资产连带抛售，加密市场作为高beta资产或将承压。历史相关性显示日股下跌时BTC常出现3-5%回撤。短期利空BTC、ETH等主流币。",
+      "reason": "宏观经济数据影响风险资产整体走势，属于优先级二的宏观信号，且日股下跌通常引发连锁反应。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513497.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Solana资金费率转负，短期看涨信号",
+      "summary": "Solana期货资金费率转为负值，表明做空情绪拥挤。历史数据显示负费率后SOL通常出现短期反弹，因空头平仓推升价格。当前SOL价格承压，但负费率可能吸引多头入场。短期内SOL看涨，但需警惕持续性。",
+      "reason": "资金费率极端值属于优先级三的市场情绪信号，是短期反转指标，有明确的交易指向。",
+      "category": "市场结构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/solana-futures-funding-rate-turns-negative-is-a-drop-to-78-next"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸抛售5万HYPE并10倍做空",
+      "summary": "某巨鲸抛售5万枚HYPE（约242万美元），同时以10倍杠杆做空22.34万枚HYPE，总空头头寸超千万美元。此操作显示该巨鲸强烈看跌HYPE，且利用杠杆放大收益。短期HYPE面临巨大抛压，若空头加码可能引发连锁清算。",
+      "reason": "巨鲸异动属于优先级一的链上异动，大额抛售+做空对币种价格有直接冲击，且信号明确。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513501.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "a16z关联巨鲸购入20.6万HYPE并质押",
+      "summary": "a16z关联地址新建钱包购入206,325枚HYPE（约1000万美元）并全部质押。此举表明知名风投对HYPE长期看好，质押减少流通供应，利多HYPE。与上一条巨鲸做空形成多空博弈，短期波动加剧。",
+      "reason": "机构关联地址大额买入+质押属于优先级二的机构动向，同时质押行为锁仓，影响供需。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513500.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Anchorage关联地址提取12.1万HYPE",
+      "summary": "Anchorage关联地址从Bybit提取12.1万枚HYPE（约587万美元），转入冷钱包/自托管，减少交易所流动性，通常视为囤币信号。该行为减少市场卖压，对HYPE构成利多。",
+      "reason": "大额提币是链上异动，减少交易所供应，属于优先级一的巨鲸异动，利好币价。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513496.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸100万美元买入AAVE并存入V3",
+      "summary": "某巨鲸花费100万美元买入11206枚AAVE，并全部存入Aave V3协议。该操作可能用于借出或赚取收益，但直接买入行为显示对AAVE的看好。虽金额不大，但作为蓝筹DeFi代币，巨鲸增持信号积极。",
+      "reason": "巨鲸买入属于链上异动，AAVE作为DeFi龙头，大额买入行为有参考意义。",
+      "category": "链上异动",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513505.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Clarity Act若通过将利好加密行业",
+      "summary": "The Motley Fool分析指出，若Clarity Act通过，将为加密资产提供明确监管框架，消除合规不确定性，利好BTC、ETH等主流币及整个行业。该法案已在参议院取得进展，若通过将吸引机构资金入场。",
+      "reason": "重大监管动态属于优先级一，法案进展直接影响市场预期，且分析文章提供具体影响路径。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Crypto Twitter via Motley Fool", "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOd0REbVZxOU15dm9FVDJhS283X3NhZmdCMmc0QkkxRTVLNnZuMTJNZlc3dUpHRFQ5SUhWd2pxbDFiemdyTkhkSzNCQXlmTDdIbXBsNldHYmdqNERpcENwcE1velYwSExoWFdrMEpCbUxaRzZUSkk1RlVrUjFFUUlMYjhwOS1HZw?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "观点：USDT/USDC储备类似高风险基金",
+      "summary": "有观点认为Tether和USDC储备并非真正稳定，更接近高风险对冲基金结构。若该观点被市场接受，可能引发对稳定币脱锚的担忧，导致资金从加密市场流出。虽仅为观点，但可能影响市场情绪，短期利空BTC、ETH。",
+      "reason": "稳定币风险属于优先级一的市场结构事件，虽然目前是观点，但恐慌情绪可能自我实现。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513498.html"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
