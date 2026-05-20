@@ -389,3 +389,95 @@ content length: 3947
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2545, prompt_tokens=13374, total_tokens=15919, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2254, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12222)
+content length: 715
+============================================================
+{
+  "news": [
+    {
+      "title": "CryptoQuant警告比特币熊市模式重现",
+      "summary": "CryptoQuant发布报告指出，当前比特币市场情绪已进入"极度看跌"状态，链上指标与2022年熊市模式高度相似。该机构警告，如果这种模式持续，比特币可能面临进一步下行压力。这可能影响BTC及相关资产，信号偏空。交易者应警惕价格继续下跌风险。",
+      "reason": "该消息属于链上异动和市场情绪信号，直接关联比特币价格走势，符合优先级三（市场情绪极值）和优先级二（链上指标异常）。CryptoQuant是链上权威机构，其看空观点对交易决策有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402091/cryptoquant-bitcoin-bear-market-pattern-sentiment-extremely-bearish"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，大部分消息与历史重复或交易价值低，仅筛选出1条有效关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3513, prompt_tokens=13374, total_tokens=16887, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2794, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13312), prompt_cache_hit_tokens=13312, prompt_cache_miss_tokens=62)
+content length: 1875
+============================================================
+{
+  "news": [
+    {
+      "title": "CryptoQuant警告比特币熊市模式",
+      "summary": "链上分析公司CryptoQuant发布报告称，当前比特币市场情绪已转向“极度看空”，多项指标与2022年熊市底部相似，包括价格结构、未实现亏损比例等。这可能预示比特币仍有进一步下跌空间，但历史底部区域也常出现在类似情绪中。对BTC产生直接看空压力，但中长期或为抄底机会。影响币种BTC。",
+      "reason": "链上异动/市场情绪，顶级分析机构观点，可能加剧短期抛售。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402091/cryptoquant-bitcoin-bear-market-pattern-sentiment-extremely-bearish"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "FOMC警告中东冲突影响",
+      "summary": "美联储公布最新会议纪要，与会者普遍认为中东地缘冲突可能对经济风险平衡和适当货币政策路径产生重大影响。同时许多决策者倾向于在政策声明中去除宽松偏向。这意味着若冲突持续推高通胀，美联储可能维持更久高利率甚至加息，对BTC等风险资产构成压力。影响BTC、ETH。",
+      "reason": "宏观经济，直接影响风险资产估值，可能延缓降息预期。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513655.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513654.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美财政部制裁贩毒集团加密网络",
+      "summary": "美国财政部外国资产控制办公室（OFAC）宣布对锡那罗亚贩毒集团实施制裁，因其利用加密货币进行芬太尼贩运和洗钱。此举显示监管机构加强打击非法加密使用，可能引发对加密匿名性的进一步审查，短期内增加合规压力，但对主流币交易影响有限。影响所有加密货币，中性偏空。",
+      "reason": "监管政策，表明美国持续打击加密犯罪，可能加强监管预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368532/us-treasury-sanctions-sinaloa-cartel-crypto-fueled-fentanyl-trafficking"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效新消息较少，仅筛选出3条关键信息。其余抓取素材多为历史重复内容或低价值信息，已按规则排除。"
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-21",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13374,
+    "completion_tokens": 3513,
+    "total_tokens": 16887
+  },
+  "content_length": 1875,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"CryptoQuant警告比特币熊市模式\",\n      \"summary\": \"链上分析公司CryptoQuant发布报告称，当前比特币市场情绪已转向“极度看空”，多项指标与2022年熊市底部相似，包括价格结构、未实现亏损比例等。这可能预示比特币仍有进一步下跌空间，但历史底部区域也常出现在类似情绪中。对BTC产生直接看空压力，但中长期或为抄底机会。影响币种BTC。\",\n      \"reason\": \"链上异动/市场情绪，顶级分析机构观点，可能加剧短期抛售。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/402091/cryptoquant-bitcoin-bear-market-pattern-sentiment-extremely-bearish\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"FOMC警告中东冲突影响\",\n      \"summary\": \"美联储公布最新会议纪要，与会者普遍认为中东地缘冲突可能对经济风险平衡和适当货币政策路径产生重大影响。同时许多决策者倾向于在政策声明中去除宽松偏向。这意味着若冲突持续推高通胀，美联储可能维持更久高利率甚至加息，对BTC等风险资产构成压力。影响BTC、ETH。\",\n      \"reason\": \"宏观经济，直接影响风险资产估值，可能延缓降息预期。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513655.html\"\n        },\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513654.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美财政部制裁贩毒集团加密网络\",\n      \"summary\": \"美国财政部外国资产控制办公室（OFAC）宣布对锡那罗亚贩毒集团实施制裁，因其利用加密货币进行芬太尼贩运和洗钱。此举显示监管机构加强打击非法加密使用，可能引发对加密匿名性的进一步审查，短期内增加合规压力，但对主流币交易影响有限。影响所有加密货币，中性偏空。\",\n      \"reason\": \"监管政策，表明美国持续打击加密犯罪，可能加强监管预期。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/368532/us-treasury-sanctions-sinaloa-cartel-crypto-fueled-fentanyl-trafficking\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前时段有效新消息较少，仅筛选出3条关键信息。其余抓取素材多为历史重复内容或低价值信息，已按规则排除。\"\n}"
+}
