@@ -1464,3 +1464,110 @@ content length: 3015
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2730, prompt_tokens=9952, total_tokens=12682, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1421, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8800)
+content length: 3231
+============================================================
+{
+  "news": [
+    {
+      "title": "南卡州签署比特币自托管法案",
+      "summary": "南卡罗来纳州州长签署S.163法案，保护比特币自托管权并禁止政府对自托管交易征收歧视性税收。该法案直接利好比特币持有者，增强了个人资产控制权，可能鼓励更多用户持有BTC，减少交易所依赖。对BTC本身是看多信号，但对依赖托管服务的CEX可能构成轻度利空。",
+      "reason": "监管政策利好，保护自托管权是加密行业核心诉求，有助于提升市场信心，属于中期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513541.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance Alpha上线Nexus(NEX)",
+      "summary": "Binance Alpha宣布将于今日上线Nexus(NEX)，这是Binance新推出的代币上线平台。新币上线通常带来短期交易机会，NEX可能会经历高波动和流动性提升。对NEX是看多信号，但需注意初期价格波动风险。",
+      "reason": "交易所上币直接影响对应币种价格，属于短期交易机会。",
+      "category": "交易所",
+      "impact_coins": ["NEX"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513540.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "GitHub安全事件更新：员工设备遭入侵",
+      "summary": "GitHub更新安全事件调查，确认一名员工设备曾遭入侵，导致被污染的VS Code扩展。虽未直接涉及加密货币，但GitHub被广泛用于加密项目代码托管，可能引发对开源代码安全的担忧，间接影响市场情绪。但影响有限，属于轻度利空。",
+      "reason": "安全事件可能引发对加密项目代码完整性的担忧，但影响范围有限，属于轻度市场情绪影响。",
+      "category": "项目更新",
+      "impact_coins": [],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513539.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC长期持有者亏损量接近熊市峰值",
+      "summary": "数据显示比特币长期持有者亏损量已接近历史熊市峰值水平，表明许多早期投资者处于未实现亏损状态。这通常被视为底部信号，因为长期持有者倾向于在亏损时惜售，减少抛压。对BTC是潜在看多信号，但需结合其他指标确认。",
+      "reason": "链上指标异常，长期持有者亏损是见底信号，符合中长期抄底逻辑。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513535.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "INJ期货在Bitnomial上线",
+      "summary": "Injective (INJ) 期货合约在美国合规交易所Bitnomial上线，为机构投资者提供更多敞口，可能增加INJ的交易量和流动性。对INJ是看多信号，但影响限于该币种。",
+      "reason": "合规交易所上线期货合约，增加机构参与渠道，属于项目更新利好。",
+      "category": "项目更新",
+      "impact_coins": ["INJ"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513533.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP成韩国交易所交易量第一",
+      "summary": "XRP在韩国两大交易所Upbit和Bithumb上成为交易量最大的加密货币，显示韩国散户对XRP的强烈兴趣。高交易量可能暂时支撑XRP价格，但需注意情绪可能快速逆转。对XRP短期看多，但需警惕散户FOMO后的回调。",
+      "reason": "市场结构变化，韩国市场主导的交易量异动通常引发短期价格波动。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd3RfVmYxdlFBRDFHemlWT0FrMXlwTXRyQm1jY1ZOa0ljMDFkcXo5LUdCclR2TWYzeVY1UE9UUUw5UHJOeGRiTXpuTlRJSlVWV2FMbE01MzA0N3lUaUo4OHBPdC1wd0c3MmpCaTlVTnFOc05ucmpKNnR1b1p3a05yVGZzT0I3WXkzVUY3eWVhUXBlcU1fbVN0aWpuZDFoMV9JN0E?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
