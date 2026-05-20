@@ -1,15 +1,34 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2870, prompt_tokens=15767, total_tokens=18637, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1708, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14615)
+content length: 2977
+============================================================
 {
-  "date": "2026-05-21",
-  "hour": "00",
   "news": [
+    {
+      "title": "Hyperliquid ETF首日流入2230万美元",
+      "summary": "Hyperliquid现货ETF在首日获得2230万美元净流入，分析师认为这是有机需求的积极信号。该ETF跟踪HYPE现货价格，为传统投资者提供合规敞口。资金流入通常利好对应资产，短期可能推动HYPE上涨。",
+      "reason": "ETF资金流入是直接影响行情的优先级一消息，尤其对于新上市的HYPE ETF，早期资金规模可观，反映机构兴趣。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402028/hyperliquid-etfs-22-3-million-early-inflows-analysts-point-organic-interest"
+        }
+      ],
+      "urgency": "immediate"
+    },
     {
       "title": "以太坊跌破2000美元将引发暴跌",
       "summary": "以太坊交易员警告若ETH价格跌破2000美元关键支撑，可能触发“恶性”下跌。当前ETH承压于宏观不确定性和资金外流，链上数据疲软。若破位，止损和清算将加速抛售。",
       "reason": "直接的价格风险警告，属于市场情绪和技术面结合，对ETH短线交易者有明确指引。",
       "category": "市场结构",
-      "impact_coins": [
-        "ETH"
-      ],
+      "impact_coins": ["ETH"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
@@ -25,10 +44,7 @@
       "summary": "特朗普表示美伊协议接近“最后阶段”，市场风险偏好回升，加密货币价格受此提振。比特币从77000美元低点反弹，整体市场情绪短期改善。但需关注FOMC会议纪要及英伟达财报。",
       "reason": "地缘政治缓和带来的市场情绪提振，属于短期利多，影响BTC、ETH等主流币。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 3,
       "sources": [
@@ -44,9 +60,7 @@
       "summary": "美联储官员确认加密货币并未成为真正货币，暗示现有支付系统仍主导。该言论削弱了比特币作为支付工具的叙事，但长期看对监管推进影响有限。短期可能压制比特币情绪。",
       "reason": "美联储的官方表态是重要的监管/政策信号，虽未直接打压，但削弱了货币属性叙事，属于中期利空。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bearish",
       "impact_level": 2,
       "sources": [
@@ -62,9 +76,7 @@
       "summary": "Hyperliquid代币HYPE年内涨幅超100%，市值突破新高。增长动力源于衍生品交易量持续攀升及新ETF产品。但短期涨幅过大，需警惕获利回吐。",
       "reason": "HYPE的强势表现配合ETF流入，属于直接趋势信号，但已包含ETF消息，作为补充。",
       "category": "项目更新",
-      "impact_coins": [
-        "HYPE"
-      ],
+      "impact_coins": ["HYPE"],
       "signal": "neutral",
       "impact_level": 2,
       "sources": [
@@ -75,7 +87,5 @@
       ],
       "urgency": "days"
     }
-  ],
-  "total_fetched": 58,
-  "generated_at": "2026-05-21T00:01:24.340375+08:00"
+  ]
 }
