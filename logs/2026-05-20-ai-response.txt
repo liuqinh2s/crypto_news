@@ -1648,3 +1648,110 @@ content length: 3171
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3271, prompt_tokens=11101, total_tokens=14372, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1797, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9949)
+content length: 3526
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC隐含波动率低位异象",
+      "summary": "CoinDesk报道，比特币价格下跌但债券收益率上升，然而BTC的隐含波动率却维持在低位。这种背离通常预示市场可能即将出现大幅波动（变盘）。当前低波动环境可能反映市场观望情绪，一旦方向选择，波动将放大。对BTC影响中性偏多，低波动率常为行情启动前兆。",
+      "reason": "市场情绪信号，低波动率异象可能预示变盘，具有交易参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/20/bitcoin-is-falling-bond-yields-are-rising-yet-btc-s-implied-volatility-an-uncertainty-gauge-remains-low"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "黑客声称获取GitHub 4000私有仓库",
+      "summary": "黑客组织TeamPCP声称已拿到GitHub约4000个私有仓库源代码并标价出售。此前慢雾提示GitHub安全事件，此次为进展。大量项目源码泄露可能导致漏洞暴露、代币安全风险增加，对加密生态整体看空。尤其是依赖GitHub的DeFi、基础设施项目可能面临攻击压力。",
+      "reason": "重大安全事件，可能引发连锁反应，影响广泛项目。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513560.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸20倍杠杆做多BTC/ETH 3600万",
+      "summary": "一位交易者以20倍杠杆做多BTC与ETH，仓位总价值达3600万美元。此举显示巨鲸短期看涨信心，高杠杆也带来爆仓风险。若行情突破，可能带动追涨情绪；若下跌，则可能引发连锁清算。对BTC和ETH短期看多，但需警惕反向波动。",
+      "reason": "巨鲸大额杠杆做多，是直接的市场信号，可能影响短期价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513557.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitwise NEAR ETP周净流入300万美元",
+      "summary": "Bitwise CEO表示，Bitwise NEAR质押型ETP本周迄今净流入约300万美元。机构资金持续流入NEAR相关产品，显示对NEAR生态的看好。虽金额不大，但机构配置趋势利好NEAR价格。",
+      "reason": "机构资金流入主流Layer1代币ETP，中级利好信号。",
+      "category": "ETF机构",
+      "impact_coins": ["NEAR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513553.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CRS 2.0将加密资产纳入全球税务监管",
+      "summary": "财新报道，境外征税全面趋严，CRS 2.0将加密资产纳入全球税务“天眼”。这意味着各国税务机构将自动交换加密资产持有和交易信息，导致部分隐匿资金抛售或转出交易所，对市场构成监管压力。短期看空所有主流币，尤其对持有大量未申报加密资产的投资者造成冲击。",
+      "reason": "重大监管政策，直接增加合规成本，影响资金流动。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513542.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "英国4月通胀降至2.8%利好风险资产",
+      "summary": "CNBC报道，英国4月通胀率放缓至2.8%，但预计短暂。通胀下降为央行降息提供空间，利好全球风险资产包括加密货币。虽然降息预期可能已被部分定价，但数据公布后对风险情绪有提振。对BTC/ETH中性偏多。",
+      "reason": "宏观经济数据直接影响货币政策预期，属于中期影响因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xdHJoQVF2M0Jva1JDOWhaLUVQczN2RktCaVZfNzBQYzEtOXE1OFA1WndUTkp6ZkRwMWZKNU9KTlNxZG94dGJfUmR5VDV0LWJoaUxVSno4UjFSZlR6T1VyZGxLamZNV1FJaU9BZUhDWmREYVB6S1BGM29RTkVIUdIBgwFBVV95cUxObVM4bmJvNWZYeGJ3SnJULXhVWEpZeHY1S01qRktndG5Kdk51dlNnS0ZiblR0VlJ3R1NvV1lVQVZjbVlqQUtTM3hwMm9BSzlRdWE0bF9SRUo2YnkwVUtTZUhudkdKVDFLWmYta1BzRzBxaHNZdTdPRGxDMmFzM0tlNFFUTQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
