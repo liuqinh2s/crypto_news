@@ -196,3 +196,118 @@ content length: 3355
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3387, prompt_tokens=15631, total_tokens=19018, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1774, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14479)
+content length: 3964
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗77亿美元加密战争基金引担忧",
+      "summary": "据报道，伊朗利用加密货币储备约77亿美元，用于规避国际制裁，引发美国监管机构关注。这可能促使美国加强对加密领域的制裁执行和监管审查。受影响的币种包括BTC、ETH及稳定币，信号偏空。此事件直接关联地缘政治风险，可能加剧市场不确定性。",
+      "reason": "优先级一：重大监管动态，涉及国家制裁规避，对加密市场有直接负面影响。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Fox Business",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lMUNZVU4yZzVGYlFsSkFWbm9QcXQzb2ppYnN3c1NFY0RZYm1IUmhDbjA2TnpQdTF6ZWNSajZtNnA0bE5JbnJoTXc4dGoyaVZHaU1XSkxSZkxZOUk?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "预测市场公司遭参议院听证会施压",
+      "summary": "美国参议院商业委员会就预测市场平台激增举行听证会，审查其合规性和消费者保护问题。这可能对Polymarket等预测市场代币构成监管压力，导致价格下跌。信号偏空，影响包括REP、POL等。",
+      "reason": "优先级一：监管政策直接影响预测市场板块，可能引发抛售。",
+      "category": "监管政策",
+      "impact_coins": ["REP", "POL"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/05/20/prediction-markets-firms-take-heat-in-senate-commerce-hearing-scrutinizing-surge"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币因Nvidia财报前抛售承压",
+      "summary": "比特币出现新的美国卖盘，市场等待Nvidia财报，被视为‘最大盈利事件’。交易员预期财报可能加剧波动，导致加密风险资产提前抛售。信号偏空，影响BTC及整体加密市场。",
+      "reason": "优先级一：宏观经济事件影响短期行情，Nvidia财报是市场焦点。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-sees-fresh-us-sell-off-as-markets-await-nvidia-biggest-earnings-event?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "铜业公司Copper寻求5亿美元出售",
+      "summary": "加密货币托管公司Copper正寻求以5亿美元出售公司。该消息反映行业整合趋势，可能对托管板块情绪产生负面影响，但对BTC价格影响有限。信号中性偏空。",
+      "reason": "优先级二：机构动向，反映行业整合，但影响程度中等。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/05/20/crypto-custody-firm-copper-is-looking-to-sale-the-company-for-usd500-million"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "密苏里州起诉加密ATM网络诈骗",
+      "summary": "密苏里州总检察长起诉一个加密ATM网络，指控其帮助诈骗。此举可能引发更多州级监管行动，对加密ATM行业和相关代币构成压力。信号偏空。",
+      "reason": "优先级二：监管动态，可能扩大至其他州，影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "KCTV",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdE9EaWRkZDdnUTZuclFNMk1na3ZmNnIwMkZsd3lWMnpPbVRyeHJjQWxkaVdVWUxpOC1FU25JQmJUdm5yZU5FYWZpd3lKeFJTOGh4LV9RRW1xNkRLMEVlRmFjSWJIaHhqQjg3eWs0RW1Zd19NUnpsU0NvX01tZmVtSUlIMTlBbXNsWDdjYdIBoAFBVV95cUxQOGx5Y0JtMlJ6YUtCa0ZwT25nUlBFa1NxU2lOTENEZnVDZVpLTTFQOEpkRmhmbFJMLXc2VlVIeEczSnZlUTA0dTloSG8zT3laTWJaVWZaVDNPSXJnTFpQNmVyQ2JDVVI5dThNdVBjNnBJclVoc3VHNkp2cjVHX3VTRmswSmdvWkxvV01xNjNYYWgxYW1Gc29GbFZLN3pzOTRj?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊美谈判进展影响市场避险情绪",
+      "summary": "沙特媒体称伊美将在朝觐季节后谈判，但伊朗表示不信任美国。同时机构警告若冲突持续油价可能升至200美元。地缘政治风险加剧，可能推动避险资产如黄金，对加密市场形成压力。信号中性偏空。",
+      "reason": "优先级三：宏观经济情绪影响，但加密市场反应不确定。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513653.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513652.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513651.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
