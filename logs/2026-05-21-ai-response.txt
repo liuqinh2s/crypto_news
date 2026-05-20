@@ -311,3 +311,81 @@ content length: 3964
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4851, prompt_tokens=15566, total_tokens=20417, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3000, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14414)
+content length: 3947
+============================================================
+{
+  "news": [
+    {
+      "title": "Fed纪要暗示加息风险",
+      "summary": "美联储5月会议纪要显示，官员们普遍认为如果通胀持续高企，可能需要进一步加息。利率更高更久的预期打压风险资产，比特币日内下跌3%至77000美元附近。影响BTC、ETH等全市场加密货币。看空信号。",
+      "reason": "美联储政策直接影响全球流动性，是影响加密货币走势的核心宏观因素。偏鹰纪要利空风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CNBC", "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTzJNdE5HTkZiejhGOG1KOFN6MWthLVE1Z1MxNmY4S3BZdGxvaDg4aVJ6Y003UHQzd2RqZ3pvOENfUkdSUDlpQUEtMEx1enQzbkdOQXJCTkhWdUdzd2sxRG5kWDA4OThVMUJNaTBDN19aTUhMYVJMUVE5LThvSS0xRUptNld5ZUNURGU3VzFYeEF5QWpqZmN1d1ZtMmQ5NFdkbHNOc0N2ZG83QVByTFFBTtIBtgFBVV95cUxPS3UtZVZPRFRsQW52SVNRS2pVMGV0b2wtbHZEbEo4MEFwZDlMS1VBdklTekZBamJJWkd1MF9SbnFyODc3UUlwZGlHRVpFblZkM2w3c3VDeHRWWHZTWmttdnlRZkRqaUFaQnJjRzRPQ1ZQcGFvZ2xpOXlfVWxTT1FPV0FsQkpld0EwUy1sMlRtZlN1RnVxeVBDTHpDcjUyLU9RVXU4aUhBRV9Zbll0eDlEdEFwVy10UQ?oc=5"},
+        {"name": "BeInCrypto", "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1dmdmdxQTc2QzBfMEhXa2UwT08zRVFOdTNFYmk5TGc5Wnp4ODU2blYzbWc4dkpTQUNOaXNWMC1WS2Mwb0J3S2hob3RfZGhqdWc4cmlBOTVjdGVEell1SlBUUzZzYk1IX2lxUjFBemRKZ09JTXZia3UyZF9Gb2NDbUFvYXFDbzN6bk1lTkZZOFU4T093cUZR?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Securitize营收创纪录拟上市",
+      "summary": "代币化平台Securitize公布Q1营收创历史新高，资产管理规模达34亿美元，同时计划通过SPAC上市。尽管仍处于亏损状态，但传统金融合规路径的打通将加速机构采用，利好RWA赛道。对ONDO、MPL等代币化概念币偏多。",
+      "reason": "项目重大进展（上市计划）带动RWA代币化叙事，中期利好相关币种。",
+      "category": "项目更新",
+      "impact_coins": ["ONDO", "MPL", "CFG"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/20/securitize-remains-in-the-red-even-as-record-quarter-fuels-public-listing-plans"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/402068/securitize-record-q1-revenue-3-4-billion-tokenized-assets-under-management?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "国会推动加密税务改革",
+      "summary": "美国国会最新提案要求IRS审查小额加密交易免税额度（de minimis exemption），意图简化加密税收规则。若通过，将减轻散户税务负担，促进小额采用。但具体细则仍待确定。对BTC、ETH整体中性偏多。",
+      "reason": "监管政策边际利好，可能降低交易摩擦，刺激散户参与。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/20/latest-congressional-swing-at-crypto-tax-reform-would-direct-irs-to-review-de-minimis-exemptions"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitcoin Depot申请破产",
+      "summary": "美国最大比特币ATM运营商Bitcoin Depot申请第11章破产保护，导致约3000台ATM离线。公司持有大量比特币库存可能被迫清算形成抛压，短期利空BTC。同时反映出实体加密业务困境。",
+      "reason": "比特币ATM巨头破产可能引发短期抛售潮，属于链下但影响市场情绪。",
+      "category": "交易所",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Banking Dive", "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeUY5UWVwMzZmNDFLcnFuSVZab1ZNczUxbUdWTlRxWng4WXE4bHhDUnVlWGlXSFF1Z1dzY3lpdnhkWjV5YkF6RUdaYmpHd0ZjYzBQNjJOcDFONmoxS0N5VHlsY0tDeVV6Y0l1MDYwQUkyc3dNbmxnTFNFYldiR1ZESkVlbzVCanRCbTdwRHk0OWFjTzRO?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "明尼苏达州禁止加密ATM及预测市场",
+      "summary": "明尼苏达州签署法案，禁止加密ATM和预测市场运营，但此前该州刚开放银行提供加密货币托管。政策矛盾显示监管不确定性。此举将限制当地加密使用，短期负面情绪，但影响范围有限。",
+      "reason": "美国州级监管收紧，虽影响有限但反映趋势，可能引发其他州效仿。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVFAzTjdPSGJfbEoyVzVsd1VlV256cjU0bkdVcVh6NW9DR0Rpd0JlMUgwM01PV1RiUVRaVXYteXljbWJmOTNSSFVxRVFUS3E4SHNlRFljWGN4XzRrZjBjczJ2TlVRM243Z3N5RDQ5cjNlMXlpNnZpLXJWU1dOdlFYZmpRanhiYWhzUm9iV2J1aFphUGJOM3pDWHppUjJGYjN1UmVpZg?oc=5"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
