@@ -2095,3 +2095,69 @@ content length: 3535
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2118, prompt_tokens=15186, total_tokens=17304, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1089, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14034)
+content length: 2635
+============================================================
+{
+  "news": [
+    {
+      "title": "K33: 2月低点可能为周期底部",
+      "summary": "K33 Research 发布报告认为，并非所有200日均线都是平等的，2月份比特币跌至60,000美元的低点可能仍是本轮周期的最大回撤，市场已见底。该观点基于链上指标和历史模式，暗示当前价格具有吸引力。可能影响BTC、ETH。看多信号。",
+      "reason": "分析师团队提出底部判断，可能引发抄底情绪，属于中期利多信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/401991/not-all-200-day-moving-averages-are-equal-k33-argues-februarys-60k-low-still-marks-cycles-maximum-drawdown"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "英国央行发布代币化与稳定币愿景",
+      "summary": "英国央行(BoE)发布了关于代币化和稳定币的全面愿景，旨在为英国金融体系引入数字资产基础设施。此举可能为合规稳定币和代币化资产铺平道路，中长期利好BTC、ETH及英国相关项目。偏多信号。",
+      "reason": "央行级别政策表态，影响监管预期，属中期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/401984/bank-of-england-tokenization-stablecoins"}],
+      "urgency": "days"
+    },
+    {
+      "title": "链上数据暗示BTC调整或已结束",
+      "summary": "CoinDesk报道，链上数据和资金费率显示比特币最糟糕的调整阶段可能已经过去。当前BTC在77,000美元附近震荡，衍生品指标暗示抛压减弱，可能出现反弹。中性偏多信号，但需确认。影响BTC。",
+      "reason": "直接分析当前市场状态，提供交易参考，符合优先级三市场结构。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/20/onchain-data-and-funding-rates-indicate-bitcoin-s-worst-correction-phase-could-be-over"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "英国监管内斗阻碍加密中心愿景",
+      "summary": "CoinDesk文章指出，英国监管机构FCA与政府部门之间的内斗正在削弱英国成为全球加密中心的雄心，政策落地面临政治阻碍。这可能延缓英国加密友好政策实施，产生负面情绪。偏空信号，影响BTC、ETH。",
+      "reason": "监管不确定性增加，可能影响市场对英国相关加密资产的信心。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/20/political-blockers-frustrate-fca-s-efforts-u-k-s-global-hub-ambitions-expert-says"}],
+      "urgency": "days"
+    },
+    {
+      "title": "RWA市值接近2025年10月水平",
+      "summary": "Reddit帖子提及，RWA代币化资产市值再次接近2025年10月的水平，显示实物资产代币化领域可能正在复苏。这或利好相关代币如Chainlink、Ondo等，但整体影响有限。中性信号。",
+      "reason": "反映市场趋势，但非直接价格驱动因素，可作为中期参考。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "ONDO", "MKR"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tiigu5/rwa_market_cap_nears_october_2025_levels_again/"}],
+      "urgency": "days"
+    }
+  ]
+}
