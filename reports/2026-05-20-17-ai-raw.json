@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-20",
+  "hour": "17",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11484,
+    "completion_tokens": 1589,
+    "total_tokens": 13073
+  },
+  "content_length": 1829,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"欧洲稳定币扩展至37家银行\",\n      \"summary\": \"泛欧稳定币项目已扩展到37家银行参与，旨在减少对美元的依赖。欧元区银行联合推动欧元稳定币，可能削弱USDT/USDC市场份额。短期影响有限，但中期有利于非美元稳定币生态发展，对BTC/ETH等主要加密货币影响中性，但可能利好欧元稳定币相关代币如EURC、EURO等。信号中性，因美元稳定币仍占主导。\",\n      \"reason\": \"优先级一：稳定币供应量变化（重大结构性变化影响稳定币格局）。欧元稳定币扩容可能打破美元稳定币垄断，长期利好加密市场去美元化。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"EURC\", \"EURO\", \"USDT\", \"USDC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/business/2026/05/20/pan-european-stablecoin-effort-expands-to-37-lenders-in-push-back-against-u-s-dollar-dominance\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Bitwise称HYPE最被低估\",\n      \"summary\": \"Bitwise发布研报称HYPE是当前加密市场最被低估的资产，尽管年内已涨77%。他们认为HYPE的链上活动和生态增长被市场低估，潜在上涨空间巨大。该观点来自知名资管机构，可能吸引买方关注。信号看多HYPE，短期内可能带动资金流入。\",\n      \"reason\": \"优先级二：机构动向（Bitwise是知名加密资管，其研报影响市场情绪）。直接给出明确看多信号，且HYPE为近期热门标的。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/bitwise-says-hyperliquid-most-mispriced-crypto-despite-77-rise-this-year\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"a16z从Gate提取4.45万HYPE\",\n      \"summary\": \"a16z地址从Gate.io交易所提取44,500枚HYPE，价值约216万美元。资金从交易所转出通常被视为囤币信号，表明机构对HYPE的长期看好。该行为减少交易所流通量，短期支撑价格。信号看多HYPE。\",\n      \"reason\": \"优先级一：巨鲸异动（机构地址从交易所转出代币，为囤币信号）。结合Bitwise看多，双重利好HYPE。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513578.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
