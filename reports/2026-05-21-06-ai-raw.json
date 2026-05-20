@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-21",
+  "hour": "06",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12175,
+    "completion_tokens": 2114,
+    "total_tokens": 14289
+  },
+  "content_length": 2009,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"SpaceX持有1.29亿BTC\",\n      \"summary\": \"Elon Musk的SpaceX在IPO文件中披露持有18,712枚比特币，公允价值约12.9亿美元。这是大型机构持有比特币的又一信号，表明主流公司仍看好BTC。利多BTC，可能推动市场信心恢复。\",\n      \"reason\": \"重大机构持仓曝光，属于优先级一（机构动向），直接利好BTC，且信息新颖未被历史包含。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"CoinDesk\", \"url\": \"https://www.coindesk.com/markets/2026/05/20/elon-musk-s-spacex-holds-18-712-bitcoin-at-fair-value-of-usd1-29-billion-ipo-filing-shows\"},\n        {\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/402110/elon-musks-spacex-holds-1-45-billion-worth-of-bitcoin-as-firm-looks-to-go-public\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"SEC加密妈妈离职\",\n      \"summary\": \"SEC委员Hester Peirce（被称为Crypto Mom）宣布离职加入法学院，结束在SEC的任期。她一直支持加密货币，其离开可能使SEC未来监管态度更偏鹰派，但短期市场反应中性。\",\n      \"reason\": \"关键监管人事变动，属于监管动态，虽非直接影响但对未来政策有暗示，消息未在历史中出现。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/news/secs-hester-peirce-regent-law-faculty\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"白宫暗示BTC重大利好\",\n      \"summary\": \"福布斯报道白宫确认即将发布影响比特币价格的重磅消息，市场猜测可能与ETF或战略储备有关。尽管细节未明，但消息刺激市场预期，短期偏多。\",\n      \"reason\": \"政策预期驱动，属于优先级一（监管动态），虽未确认但引发关注，适合短线交易者。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"Forbes\", \"url\": \"https://news.google.com/rss/articles/CBMi1AFBVV95cUxObTNQekdldEhKcXdZMXNBRjU3aFIzaGpWMmEtWGdzZk8tQmYtYWlsdFlFNkV0bnNVbFZTNDhuLWdmbGhla0N0OFRaVUhDbWpRLTB3UDkzVnlTV3pSM041M0dYYVluV1JKczBTRHVxZjdnTjJyNFpCVk0zc043SWp4X25QUVhzZVR3cjFEbnJxVnROU002XzBzSTNQSkFIbkFtZ2hYaEJndEVRd0NidFl1MVdLNE0wNGZxRnpubmtIdW5Qby1HSVVUUVFBUm8yYS1HWWVXQw\"}\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ],\n  \"note\": \"当前6小时内多数新闻与历史重复，仅撷取3条新且有交易价值的消息。\"\n}"
+}

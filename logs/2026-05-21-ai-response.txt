@@ -654,3 +654,55 @@ content length: 1687
   ],
   "note": "当前时间段内大部分重要消息已在历史标题中重复出现，仅筛选出3条相对较新或更新信息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2114, prompt_tokens=12175, total_tokens=14289, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1275, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11023)
+content length: 2009
+============================================================
+{
+  "news": [
+    {
+      "title": "SpaceX持有1.29亿BTC",
+      "summary": "Elon Musk的SpaceX在IPO文件中披露持有18,712枚比特币，公允价值约12.9亿美元。这是大型机构持有比特币的又一信号，表明主流公司仍看好BTC。利多BTC，可能推动市场信心恢复。",
+      "reason": "重大机构持仓曝光，属于优先级一（机构动向），直接利好BTC，且信息新颖未被历史包含。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/20/elon-musk-s-spacex-holds-18-712-bitcoin-at-fair-value-of-usd1-29-billion-ipo-filing-shows"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/402110/elon-musks-spacex-holds-1-45-billion-worth-of-bitcoin-as-firm-looks-to-go-public"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SEC加密妈妈离职",
+      "summary": "SEC委员Hester Peirce（被称为Crypto Mom）宣布离职加入法学院，结束在SEC的任期。她一直支持加密货币，其离开可能使SEC未来监管态度更偏鹰派，但短期市场反应中性。",
+      "reason": "关键监管人事变动，属于监管动态，虽非直接影响但对未来政策有暗示，消息未在历史中出现。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/secs-hester-peirce-regent-law-faculty"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "白宫暗示BTC重大利好",
+      "summary": "福布斯报道白宫确认即将发布影响比特币价格的重磅消息，市场猜测可能与ETF或战略储备有关。尽管细节未明，但消息刺激市场预期，短期偏多。",
+      "reason": "政策预期驱动，属于优先级一（监管动态），虽未确认但引发关注，适合短线交易者。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Forbes", "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObTNQekdldEhKcXdZMXNBRjU3aFIzaGpWMmEtWGdzZk8tQmYtYWlsdFlFNkV0bnNVbFZTNDhuLWdmbGhla0N0OFRaVUhDbWpRLTB3UDkzVnlTV3pSM041M0dYYVluV1JKczBTRHVxZjdnTjJyNFpCVk0zc043SWp4X25QUVhzZVR3cjFEbnJxVnROU002XzBzSTNQSkFIbkFtZ2hYaEJndEVRd0NidFl1MVdLNE0wNGZxRnpubmtIdW5Qby1HSVVUUVFBUm8yYS1HWWVXQw"}
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前6小时内多数新闻与历史重复，仅撷取3条新且有交易价值的消息。"
+}
