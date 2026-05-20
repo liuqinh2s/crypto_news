@@ -988,3 +988,141 @@ content length: 4811
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1163, prompt_tokens=9850, total_tokens=11013, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1110, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8698)
+content length: 103
+============================================================
+{
+  "news": [],
+  "note": "当前时间段内所有素材均与历史消息重复，无新增关键交易信息。恐惧贪婪指数仍为27，Clarity Act相关报道已覆盖，Binance公告均为旧闻。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1498, prompt_tokens=9850, total_tokens=11348, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1124, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=122)
+content length: 829
+============================================================
+{
+  "news": [
+    {
+      "title": "CLARITY Act影响分析",
+      "summary": "The Motley Fool发布文章分析CLARITY Act若通过可能对加密货币市场的影响。该法案旨在建立联邦监管框架，可能为加密企业提供更清晰的合规路径。若通过，将利好合规项目如BTC、ETH，并可能推动机构采用。短期看多为信号。",
+      "reason": "CLARITY Act是近期监管焦点，该文章提供深度影响分析，属于优先级一的重大监管动态，对市场情绪有直接作用。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOd0REbVZxOU15dm9FVDJhS283X3NhZmdCMmc0QkkxRTVLNnZuMTJNZlc3dUpHRFQ5SUhWd2pxbDFiemdyTkhkSzNCQXlmTDdIbXBsNldHYmdqNERpcENwcE1velYwSExoWFdrMEpCbUxaRzZUSkk1RlVrUjFFUUlMYjhwOS1HZw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本次抓取素材中23条消息有22条与历史消息重复（主要为Binance公告系列和恐惧贪婪指数），仅筛选到1条有新内容的消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=736, prompt_tokens=9850, total_tokens=10586, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=661, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=122)
+content length: 163
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的23条素材中，所有Binance公告与历史消息完全重复（同一时间段的同一公告），其余消息（Physical attacks、Clarity Act Twitter文章、恐惧贪婪指数27）也已在历史消息中出现过，无实质性新信息。因此没有符合筛选标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3190, prompt_tokens=10515, total_tokens=13705, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2056, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9363)
+content length: 2915
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普下令审查加密支付通道",
+      "summary": "特朗普总统命令政府和美联储审查加密公司接入支付系统的权利，此举可能为加密行业打开合规支付通道，被视为监管利好。影响BTC、ETH及整体市场。短期偏多，但需关注具体政策细节。",
+      "reason": "优先级一：重大监管动态，直接影响市场情绪和行业预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币跌破77K，ETF流出超10亿",
+      "summary": "比特币价格跌破77,000美元，比特币ETF单日资金流出超过10亿美元，创纪录抛压。短期看空，可能继续下探70,000美元支撑。影响BTC。",
+      "reason": "优先级一：ETF资金流出直接冲击BTC价格，巨量净流出为强烈看空信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "白宫：比特币储备公告即将发布",
+      "summary": "白宫表示比特币战略储备的官方公告即将发布，若落地将是国家级采用里程碑，大幅提振BTC信心。短期预期推动反弹，中期看多。影响BTC。",
+      "reason": "优先级一：重大国家级利好预期，直接影响BTC价格。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "稳定币供应量突破3000亿但增长停滞",
+      "summary": "稳定币总供应量突破3000亿美元，但增速放缓，Tether市占率提升。资金入场放缓信号，短期中性偏空，但存量资金仍大。影响BTC、ETH。",
+      "reason": "优先级二：链上指标异常，稳定币供应变化反映市场资金流向。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数25，极端恐惧",
+      "summary": "恐惧贪婪指数降至25（极端恐惧），处于历史抄底区间。中长期看多，但短期可能继续惯性下跌。影响整体市场。",
+      "reason": "优先级三：恐惧贪婪指数极值，历史经验显示后续反弹概率高。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "大户建仓2100万美元多头",
+      "summary": "一拥有2479万美元交易记录的大户在BTC、ETH、DOGE上建仓2100万美元多头头寸，显示大户看多。短期偏多，但需警惕散户跟风。影响BTC、ETH、DOGE。",
+      "reason": "优先级一：巨鲸异动，大额建仓多头为看多信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Bitcoin News", "url": "https://news.bitcoin.com/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "明尼苏达州禁止预测市场，CFTC起诉",
+      "summary": "明尼苏达州率先立法禁止预测市场，CFTC随即起诉该州，监管打压预测市场。对相关代币（如POLY、REP）利空，但可能推动合规化。",
+      "reason": "优先级一：重大监管动态，直接影响预测市场代币及行业。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/"}],
+      "urgency": "immediate"
+    }
+  ]
+}
