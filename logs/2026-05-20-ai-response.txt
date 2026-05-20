@@ -1345,3 +1345,122 @@ content length: 3508
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2477, prompt_tokens=10429, total_tokens=12906, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1877, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9277)
+content length: 1384
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国殡葬公司ETH杠杆亏损",
+      "summary": "韩国一家殡葬公司因投资杠杆以太坊ETF，面临3300万美元未实现亏损。该消息可能引发市场对ETH杠杆过度风险的担忧，导致短期抛压增加。影响币种：ETH。信号：看空（bearish）。",
+      "reason": "杠杆亏损事件直接反映市场风险，可能引发连锁清算或信心下降，属于优先级二的中期影响。",
+      "category": "市场结构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ti9jxr/south_korean_funeral_company_faces_33m_unrealized/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币减半周期或10月触底",
+      "summary": "CoinDesk分析指出，如果历史减半周期规律成立，比特币可能在2026年10月触底。这为中长期投资者提供参考，但短期交易价值有限。影响币种：BTC。信号：中性（neutral）。",
+      "reason": "历史模式分析虽非直接交易信号，但影响市场情绪，属于优先级二的中期观点，适合关注。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU1lkazRsMllrUUx5c2diOXZlLXdjMGhiUjctZEhiaGdYaU5jLTRKNEpITmloSFpwUUIyMGJMalNIVjIyMnpuZUQzdm5qdFd2T2RTQVRCVFdiNW15RTY3c3JIbzJ0RWVxbWRyb0tyRzVGTGJrZUlVUzFjWVp4UzV5ZUJFMm5aSmxsNU5EY3VvaGR6dE5yMmVhMVlIWlNyYmJsZURJYTFoMEtheXZjSEFlSkQ5VGRCajZ2?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中大部分消息与历史重复或缺乏交易价值，仅筛选出2条有实际意义的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2239, prompt_tokens=10429, total_tokens=12668, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=818, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=61)
+content length: 3015
+============================================================
+{
+  "news": [
+    {
+      "title": "韩葬礼公司ETH ETF亏损3300万",
+      "summary": "韩国一家殡葬公司因杠杆做多以太坊ETF，面临约3300万美元的未实现亏损。该事件可能引发连锁反应，导致该公司被迫平仓或抛售其他资产，对ETH形成额外抛压。影响币种: ETH。信号: 看空。",
+      "reason": "优先级一：项目方重大事件，巨额亏损可能导致强制平仓或抛售，直接影响ETH价格。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ti9jxr/south_korean_funeral_company_faces_33m_unrealized/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "历史减半周期暗示BTC十月见底",
+      "summary": "CoinDesk分析指出，若历史减半周期规律成立，比特币可能在2026年10月触底。当前市场情绪极度恐惧，但历史数据支持中期看多。影响币种: BTC。信号: 中性（长期看多，短期偏空）。",
+      "reason": "优先级二：比特币减半相关历史规律，提供中期底部参考信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU1lkazRsMllrUUx5c2diOXZlLXdjMGhiUjctZEhiaGdYaU5jLTRKNEpITmloSFpwUUIyMGJMalNIVjIyMnpuZUQzdm5qdFd2T2RTQVRCVFdiNW15RTY3c3JIbzJ0RWVxbWRyb0tyRzVGTGJrZUlVUzFjWVp4UzV5ZUJFMm5aSmxsNU5EY3VvaGR6dE5yMmVhMVlIWlNyYmJsZURJYTFoMEtheXZjSEFlSkQ5VGRCajZ2?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "ETH反弹受阻2150空头坚守",
+      "summary": "以太坊价格反弹至2150美元后遭遇空头强力阻击，未能有效突破。技术面上，该阻力位是短期关键，若无法站上，ETH可能继续下行。影响币种: ETH。信号: 看空。",
+      "reason": "优先级二：技术面关键价位分析，提供短线交易参考。",
+      "category": "市场结构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yellow.com via 雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOYktqNzRUa045TE80UldkbDQ3UEdpS0xIQ1NPbGU0Y19CREpQSWxONkU3UEF3Z2pQRDVtTlZXM3NhcWJUSElDSEZHZ2Y5UFY3NGNuZmt5TW1xekZhSGJkd1BoYzNCSG15aUNrb3JwVWdUMjFHR1BOVFBfYXA3TS1WeDRPUEZzWmVOdGVwYjBBcXc5Vk5ReTZUY05PS2tLOUlESG43dlh2RV9GT29ITno4cWdLX1hIUkVBalhjeldya1dxYk5ZMjBWQnlVbkJUUTA3WFlhS2hVZWJUc3BxNXlIczhabVNQRzlFOVVmREVzcjV0Mm90Yl84eFZpTVlpbkpyQnlWZERWc002RDJRXzlCMnJYSTBMazQyRHY2VE9DVzRWWWs4TXpGSFNYOXN6Zw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "10%美国人使用加密但增速放缓",
+      "summary": "数据显示10%的美国人已使用加密货币，但分析指出存在熊市信号：新用户增长放缓且老用户活跃度下降。该数据反映市场渗透率接近瓶颈，短期缺乏新增资金。影响币种: BTC, ETH。信号: 看空。",
+      "reason": "优先级三：市场情绪信号，显示增长放缓可能压制价格。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "AMBCrypto via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5VRlNsU25sZDRVVUtTVUpEWHZYX0JrMHNadm9uTFc2bkwwOW5yb2xOWU9QbG11OG5INlYxcmxaYnJuRUVMWkHSAY4BQVVfeXFMUHM1Zk1ndjNlRWlpREtHa19lUHV5bXRDV3FJdzBBU21ZUGc4eTFfTEotLVZ0RjhkTmx0bmNFVWpmc01OdTZsb010LS1vTzlnakxjbFk1Ry05eExNRkEyd0FnZ1hjUXVaejUxZnczN0xFdW5IQXZLTHg1ZGhBOWZ6Y2ZkVHNYUGJCWnpVa0o0dw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
