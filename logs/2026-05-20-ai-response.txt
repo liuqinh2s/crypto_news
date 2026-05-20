@@ -844,3 +844,147 @@ content length: 3918
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1397, prompt_tokens=11458, total_tokens=12855, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1176, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10306)
+content length: 550
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数升至27仍处恐惧",
+      "summary": "Alternative.me数据显示加密恐惧贪婪指数从25升至27，仍处于Fear（恐惧）区域。极度恐惧（<20）是历史抄底信号，但当前回升幅度小，市场情绪依然悲观。可能影响BTC、ETH等主流币，中长期看多但短期仍需观望。",
+      "reason": "市场情绪指标更新，接近极端恐惧可能预示底部区域，但变化微弱。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材绝大部分与历史消息重复或无关，仅有贪婪指数有微小变化，输出少于5条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2129, prompt_tokens=11458, total_tokens=13587, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=273, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=66)
+content length: 4811
+============================================================
+{
+  "news": [
+    {
+      "title": "白宫：比特币储备公告即将发布",
+      "summary": "Reddit用户引用消息称白宫宣布比特币储备公告即将发布，可能涉及美国战略比特币储备的正式方案。若属实，将对BTC产生重大利好，推动价格上行。此消息为突发政治信号，需密切关注官方确认。",
+      "reason": "优先级一：国家级比特币储备政策直接影响BTC价格，白宫声明预示潜在市场巨变。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/..."}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普下令审查加密支付通道",
+      "summary": "美国总统特朗普命令政府和美联储审查加密货币公司接入支付系统的通道。此举可能推动加密支付合规化，利好整体市场；但审查过程中的不确定性可能带来短期波动。影响币种包括BTC、ETH及支付相关代币。",
+      "reason": "优先级一：直接涉及加密行业支付基础设施，政策方向影响深远。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/05/19/trump-orders-government-fed-to-review-crypto-firms-access-to-payment-rails"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF单日流出超10亿",
+      "summary": "根据Bitcoin Magazine，比特币ETF在5月19日出现超过10亿美元的资金净流出，BTC价格跌破77,000美元。大量资金撤出表明机构短期看空，抛压显著，可能引发进一步回调。需关注后续流出是否持续。",
+      "reason": "优先级一：ETF资金流向是市场核心指标，单日10亿流出为极强熊市信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/..."}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "短期持有者抛售1.5万枚BTC",
+      "summary": "据AMBCrypto数据，短期持有者（持有<155天）在过去24小时内向交易所抛售了15,000枚BTC，导致关键支撑位74,900美元失守。抛压来自散户恐慌，可能加速下跌至70,000美元。",
+      "reason": "优先级一：链上大额异动，直接形成抛压，影响BTC现货价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "AMBCrypto", "url": "https://ambcrypto.com/..."}],
+      "urgency": "hours"
+    },
+    {
+      "title": "稳定币总供应突破3000亿但增长停滞",
+      "summary": "据The Block报道，稳定币总市值突破3000亿美元，但增长放缓，USDT抢占份额，USDC等落后。供应停滞表明新资金入场放缓，对市场而言是中性偏空信号，尤其不利于BTC/ETH的上涨动能。",
+      "reason": "优先级一：稳定币供应是资金入场指标，增长停滞意味着购买力不足。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/401711/ethereum-leads-65-billion-rwa-race-blockchains-compete-institutional-tokenization-flows"}],
+      "urgency": "days"
+    },
+    {
+      "title": "CFTC起诉明尼苏达州禁止预测市场",
+      "summary": "美国CFTC起诉明尼苏达州，因其率先通过州法禁止预测市场。同时特朗普政府也起诉该州。监管冲突加剧，但CFTC的诉讼显示联邦层面支持预测市场，利好Polymarket等平台，可能推动POLY等代币上涨。",
+      "reason": "优先级一：监管诉讼直接涉及加密预测市场，影响POLY及相关概念币。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/..."}],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊RWA代币化市场达650亿",
+      "summary": "The Block数据显示，以太坊在现实世界资产（RWA）代币化领域以650亿美元规模领先，机构代币化资金流入加速。这增强ETH作为机构公链的价值，利好ETH及RWA相关代币（如ONDO、CFG等）。",
+      "reason": "优先级二：中期基本面利好，显示以太坊在机构采用中的核心地位。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "ONDO", "CFG"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/401711/ethereum-leads-65-billion-rwa-race-blockchains-compete-institutional-tokenization-flows"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitwise称HYPE被低估",
+      "summary": "Bitwise发布报告称Hyperliquid的HYPE是‘Gen 2’代币，当前被低估。HYPE是Layer1公链代币，总锁仓量高，但市值较低，可能吸引机构资金。短期受消息刺激上涨，但需注意波动风险。",
+      "reason": "优先级二：知名资管机构研报影响市场预期，可引发短期交易机会。",
+      "category": "市场情绪",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/..."}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket与纳斯达克合作推出私企预测",
+      "summary": "Polymarket宣布与纳斯达克合作，推出私人公司估值和IPO预测市场。这将大幅增加Polymarket的合法性和用户量，利好POLY代币。但需注意监管风险。",
+      "reason": "优先级二：合作提升平台价值，直接利好POLY。",
+      "category": "项目更新",
+      "impact_coins": ["POLY"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/..."}, {"name": "CoinTelegraph", "url": "https://cointelegraph.com/..."}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至27（恐惧）",
+      "summary": "恐惧贪婪指数从25微升至27，仍处于‘恐惧’区域。历史数据显示极度恐惧往往是中长期买入机会，但当前ETF流出和价格下跌表明短期可能继续探底。建议观望或分批建仓。",
+      "reason": "优先级三：极端情绪指标，可辅助判断市场底部区域。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    }
+  ]
+}
