@@ -171,3 +171,138 @@ content length: 3626
   ],
   "note": "部分历史重复事件（如战略比特币储备法案、HYPE新高、Blockchain.com IPO、ETF卖出等）因已在过去6小时内多次出现，按去重规则排除。恐惧贪婪指数维持29无变化，未纳入。现有5条涵盖项目危机、监管立法、机构衍生品、链上囤币等关键维度，具备交易决策参考价值。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2540, prompt_tokens=14964, total_tokens=17504, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2053, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13812)
+content length: 1215
+============================================================
+{
+  "news": [
+    {
+      "title": "美政府20亿投量子计算",
+      "summary": "美国政府宣布投入20亿美元发展量子计算技术，并警告其可能对现有加密体系构成威胁，包括比特币。此消息虽非立即利空，但中长期可能削弱比特币的密码学安全叙事。预计影响比特币及依赖SHA-256的加密货币，产生轻微看空情绪。不过短期内不会直接冲击市场。",
+      "reason": "优先级一：重大监管/技术动态。政府明确投资量子计算并点出比特币威胁，可能引发市场对量子攻击风险的讨论，属影响行情的中长期信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368647/us-government-2-billion-bet-quantum-computing-bitcoin-threat-grows"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "英伟达财报后股价跌",
+      "summary": "英伟达发布超预期财报后股价反跌，但美银建议逢低买入。英伟达作为AI算力龙头，股价波动会影响AI主题赛道情绪，间接传导至AI相关加密货币。短期市场风险偏好可能下降，但与加密直接关联有限。中性信号，关注后续走势。",
+      "reason": "优先级二：宏观经济/市场情绪。英伟达是市场风向标，其股价异动可能影响整体风险资产，包括加密货币。但非直接加密事件，评级中性。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368650/bofa-nvidia-buy-top-pick-350-target"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段大部分新闻与历史消息重复，仅筛选出2条有价值的全新消息，其余均为旧闻或低价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2346, prompt_tokens=14964, total_tokens=17310, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1025, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14848), prompt_cache_hit_tokens=14848, prompt_cache_miss_tokens=116)
+content length: 3217
+============================================================
+{
+  "news": [
+    {
+      "title": "参议院银行委员会推进加密市场结构法案",
+      "summary": "美国参议院银行委员会宣布推进一项加密市场结构法案，旨在为数字资产提供明确的监管框架。该法案由委员会主席Scott推动，获得 bipartisan 支持。如果通过，将可能解锁机构资金，对BTC、ETH及整个加密市场构成长期利好。当前法案面临8月截止日期，进展值得密切关注。信号：看多；影响：BTC、ETH。",
+      "reason": "该法案是监管政策重大进展，直接影响行业合规预期和机构入场，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUmxuZkdiaEVxdEtyanFSZDRCVE01SS1BekV0MVlfd0VUVGhPb3I4cV9UZWpUT0xUbmdSTmpaSVd6dGphQldZMHkwSE1wUzVxMFdGVk92amJ4U21hN0I0Tko0NkFzYmVmNWh4NXY0QW9naTVqNmdKNDZTMXNVdy03dDI1TGxKbEc5ZFdVekl6MFhCT1ltY3JaTUQ2VUxQTTBXVFFDbzVMS1JXeVlP?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美联储加息概率升至52%，30年收益率破5%",
+      "summary": "市场数据显示美联储加息概率已升至52%，同时30年期美债收益率突破5%，为近年高位。这反映了市场对通胀顽固和联储紧缩的预期升温，对BTC等风险资产构成压力。历史经验表明，美债收益率上行通常导致资金从加密市场流出，短期看空BTC和ETH。但若后续CPI数据缓和，可能逆转。",
+      "reason": "宏观经济直接影响风险资产定价，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NNVNFUGhiTkgtam1yb2hRbnpkWGViaHFhcTlObkV4SWNtYUx3cmRWV1gyc3ByMVNFM3hRS0lyT3JiLVRlYUtyeEwtUXhZMUpKckdxcjZObFE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币积累趋势弱化，已实现亏损6亿美元",
+      "summary": "CoinTelegraph报道，比特币积累趋势显著减弱，链上已实现亏损跃升至6亿美元，表明持币者在当前价格水平抛售或出逃。该指标通常预示短期下行压力，尤其是结合ETF连续流出，可能引发进一步回调。信号：看空；受影响币种：BTC。",
+      "reason": "链上异动直接反映市场供需变化，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-accumulation-trends-weaken-as-realized-losses-jump-to-600m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国政府20亿美元押注量子计算，威胁比特币",
+      "summary": "Decrypt报道，美国政府正投入20亿美元加速量子计算研发，旨在应对未来密码学威胁。虽然量子计算成熟尚需多年，但这一大额投资引发市场对比特币抗量子能力的担忧，短期可能压制比特币信心。长期来看，比特币需升级抗量子签名。信号：看空；影响：BTC。",
+      "reason": "项目更新中涉及未来威胁，影响市场情绪，优先级三。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368647/us-government-2-billion-bet-quantum-computing-bitcoin-threat-grows"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Nvidia业绩超预期但股价跌，BofA看多",
+      "summary": "Nvidia财报营收超预期，但股价盘后下跌约2%。BofA建议逢低买入，维持350美元目标价。Nvidia作为AI龙头，其股价表现影响科技股情绪，间接传导至加密市场。当前Nvidia调整可能短期打压风险偏好，但机构看多长期趋势。中性偏多信号，影响较间接。",
+      "reason": "科技巨头业绩影响整体风险资产情绪，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368650/bofa-nvidia-buy-top-pick-350-target"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
