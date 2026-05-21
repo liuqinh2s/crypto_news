@@ -782,3 +782,91 @@ content length: 2695
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2460, prompt_tokens=12101, total_tokens=14561, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1011, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10949)
+content length: 3461
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数升至29",
+      "summary": "加密货币恐惧贪婪指数从27微升至29，仍处于恐惧区间（Fear）。该指数低于30通常被视为市场恐慌或悲观情绪浓厚，历史数据显示此时往往是中长期买入机会。虽然数值变化不大，但连续低于30表明市场情绪极度谨慎，可能形成底部区域。对BTC和ETH均为中性偏多信号，适合分批建仓。",
+      "reason": "恐惧贪婪指数极值（<30）是市场情绪信号，符合优先级三。数值自27升至29，虽仍低，但变化值得关注。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "HYPE巨鲸浮盈2140万美元",
+      "summary": "链上数据显示，HYPE价格升至50美元附近，某5倍杠杆做多HYPE的巨鲸地址浮盈超过2140万美元。该地址可能为早期大户或机构，高杠杆做多表明对HYPE信心强。但巨鲸大幅浮盈后存在获利了结风险，需警惕价格回调。HYPE近期表现强势，但杠杆过高可能导致波动加剧。短期看多但建议谨慎。",
+      "reason": "巨鲸异动（链上异动）优先级一，大额杠杆做多且浮盈显著，可能影响HYPE价格。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513685.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ondo代币化股票市值破15亿美元",
+      "summary": "Ondo Finance宣布其代币化股票（如OUSG、OUSD等）总市值突破15亿美元，创历史新高。代币化资产规模增长反映RWA赛道持续扩张，Ondo作为龙头项目受益。此举显示机构资金对链上合规资产的兴趣增加，利好ONDO及相关RWA代币。但需注意市场整体情绪偏弱，可能抑制短期涨幅。",
+      "reason": "项目重大里程碑（项目更新），RWA赛道关键数据，对ONDO价格有积极影响。",
+      "category": "项目更新",
+      "impact_coins": ["ONDO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513684.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Y Combinator推出Crypto Deals计划",
+      "summary": "知名孵化器Y Combinator宣布推出“YC Crypto Deals”计划，合作方包括Solana基金会等。该计划旨在为加密初创企业提供融资和支持，可能加速优质加密项目发展。对Solana生态系统是利好，SOL代币可能受益于生态活跃度提升。但短期影响有限，属于中期积极信号。",
+      "reason": "机构动向（优先级二），知名风投布局加密领域，提振市场信心。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513688.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Ripple Prime集成EDX Markets",
+      "summary": "Ripple旗下机构平台Ripple Prime已集成加密交易平台EDX Markets，可提供流动性及执行服务。此举扩大Ripple生态的机构接入能力，可能增加XRP的合规使用场景，利好XRP。EDX是一家受监管的机构交易所，集成后有助于XRP在北美合规市场流通。短期看多。",
+      "reason": "项目合作/集成（项目更新），直接关联XRP生态，可能提升采用。",
+      "category": "项目更新",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513686.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Anthropic向SpaceX支付近450亿美元算力费",
+      "summary": "人工智能公司Anthropic将向SpaceX支付近450亿美元以获取算力服务，用于AI训练。该交易规模巨大，显示AI算力需求爆发。对加密市场影响间接，但可能带动AI+加密概念代币（如AGIX、FET等）情绪。不过需谨慎，AI代币近期波动大，消息可能被过度炒作。短期看多AI板块但风险较高。",
+      "reason": "重大项目合作，涉及巨额资金，可能影响AI概念代币情绪。",
+      "category": "市场结构",
+      "impact_coins": ["FET", "AGIX"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513683.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "疑似Garrett关联钱包仍持有3000万美元加密资产",
+      "summary": "链上监测显示，疑似与之前出事项目相关的钱包地址仍持有约3000万美元加密资产，包括多种代币。这可能意味着抛压风险，或者该地址背后团队仍活跃。需关注相关代币（如LUNA、FTT等）的链上异动。对市场整体影响较小，但对特定小币种可能有抛售压力。",
+      "reason": "链上异动（优先级一），大额持仓可能引发清算或抛售。",
+      "category": "链上异动",
+      "impact_coins": ["LUNA", "FTT"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513680.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
