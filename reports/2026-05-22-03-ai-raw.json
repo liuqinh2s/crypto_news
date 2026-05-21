@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-22",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 14198,
+    "completion_tokens": 3714,
+    "total_tokens": 17912
+  },
+  "content_length": 2376,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"以太坊前开发者提议10亿融资\",\n      \"summary\": \"前以太坊基金会开发者Dankrad Feist提议筹集10亿美元成立新的以太坊倡导组织，旨在加强以太坊生态系统建设和治理。此消息可能激发社区对以太坊未来方向的讨论，短期内增加ETH关注度。若成功，将对以太坊生态构成长期利好，但筹款过程存在不确定性。影响币种：ETH及相关生态代币。信号：看多，因为表明有影响力人物愿意投入资金支持以太坊。\",\n      \"reason\": \"涉及以太坊核心开发者提议大规模融资，属项目重大动态，可能影响以太坊发展和市场情绪。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/402271/former-ef-developer-dankrad-feist-suggests-1-billion-raise-new-ethereum-advocacy-group\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"特朗普暂停AI行政令\",\n      \"summary\": \"特朗普暂停了人工智能行政令，担忧其可能损害美国相对于中国的竞争优势。此举增加AI监管不确定性，短期利空AI概念加密项目（如FET、AGIX等），但长期可能利好美国AI发展。对整体加密市场影响有限，但AI代币可能波动。\",\n      \"reason\": \"重大政策变动直接影响AI行业情绪，间接影响AI相关加密货币。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"FET\", \"AGIX\", \"RNDR\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/368673/trump-halts-ai-order-fears-could-hurt-us-edge-china\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美国政府20亿押注量子计算\",\n      \"summary\": \"美国政府投入20亿美元用于量子计算研发，强调量子计算对比特币等加密资产的威胁。量子计算若突破可能破解比特币的加密算法，长期构成重大威胁。此消息可能加剧市场对比特币安全性的担忧，导致BTC价格承压。\",\n      \"reason\": \"直接关联比特币长期安全性，可能引发市场恐慌或对冲需求。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/368647/us-government-2-billion-bet-quantum-computing-bitcoin-threat-grows\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"60亿美元BTC期权到期在即\",\n      \"summary\": \"市场中有大量比特币期权即将于5月29日到期，总名义价值约60亿美元，其中大量看涨期权执行价在82000美元。高额期权到期通常引起价格波动，大量看涨期权可能形成卖出压力。当前BTC价格在77000附近，接近行权价，多空博弈激烈。\",\n      \"reason\": \"直接涉及市场结构和潜在波动，属重大市场事件。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/05/21/the-6-billion-expiration-countdown-traders-pile-into-82000-bitcoin-calls-ahead-of-may-29-expiry\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮有效消息较少，仅筛选出4条值得关注的新消息。\"\n}"
+}

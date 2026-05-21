@@ -306,3 +306,151 @@ content length: 3217
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2872, prompt_tokens=14198, total_tokens=17070, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2583, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13046)
+content length: 714
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普暂停AI行政令",
+      "summary": "美国总统特朗普暂停了一项关于人工智能的行政令，担心该政策可能削弱美国相对于中国的竞争优势。这一决定可能影响AI相关加密货币如FET、AGIX等，但整体市场情绪偏中性，因为政策未直接针对加密货币。短期看，AI代币可能面临轻微波动，但无明确方向。",
+      "reason": "直接涉及AI监管政策变化，可能影响AI概念币种，属于监管政策类消息。",
+      "category": "监管政策",
+      "impact_coins": ["FET", "AGIX", "RNDR"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368673/trump-halts-ai-order-fears-could-hurt-us-edge-china"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经严格去重，本轮素材中大部分消息已在历史标题中出现。仅特朗普暂停AI行政令为新增消息，其余如Mark Cuban卖BTC、Blockchain.com IPO、ARMA法案、恐惧贪婪29、Binance上币、Fed加息概率等均重复，未选入。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2391, prompt_tokens=14198, total_tokens=16589, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1856, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14080), prompt_cache_hit_tokens=14080, prompt_cache_miss_tokens=118)
+content length: 1342
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊倡导组织筹款10亿",
+      "summary": "前以太坊基金会开发者Dankrad Feist提议筹集10亿美元，成立新的以太坊倡导组织，以应对社区人才流失和身份认同危机。该组织将游说政策制定者、推动生态发展。此举有望增强以太坊治理和社区凝聚力，对以太坊长期发展构成利好。但具体实施存在不确定性，短期内市场反应需观察。主要影响ETH及以太坊生态币种。",
+      "reason": "该项目更新涉及以太坊核心生态的重大举措，直接回应近期以太坊身份危机和人才外流问题，可能改善市场信心。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402271/former-ef-developer-dankrad-feist-suggests-1-billion-raise-new-ethereum-advocacy-group"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普暂停AI行政令",
+      "summary": "美国总统特朗普暂停了人工智能相关的行政命令，担忧过度监管可能削弱美国对中国的竞争优势。该决定可能利好AI领域发展，对AI相关加密货币（如FET、AGIX、RNDR等）构成短期情绪提振。但政策细节尚未明确，影响范围有限。整体市场反应偏中性，需观察后续动向。",
+      "reason": "该监管动态涉及美国AI政策，可能影响AI概念币种，属于市场情绪类消息，但直接冲击有限。",
+      "category": "监管政策",
+      "impact_coins": ["FET", "AGIX", "RNDR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368673/trump-halts-ai-order-fears-could-hurt-us-edge-china"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材与历史标题高度重复，仅筛选出两条高价值新消息。其余内容如Mark Cuban抛售BTC、Blockchain.com IPO、恐惧贪婪指数等均已在此前时段报道，故未重复纳入。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3714, prompt_tokens=14198, total_tokens=17912, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2817, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14080), prompt_cache_hit_tokens=14080, prompt_cache_miss_tokens=118)
+content length: 2376
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊前开发者提议10亿融资",
+      "summary": "前以太坊基金会开发者Dankrad Feist提议筹集10亿美元成立新的以太坊倡导组织，旨在加强以太坊生态系统建设和治理。此消息可能激发社区对以太坊未来方向的讨论，短期内增加ETH关注度。若成功，将对以太坊生态构成长期利好，但筹款过程存在不确定性。影响币种：ETH及相关生态代币。信号：看多，因为表明有影响力人物愿意投入资金支持以太坊。",
+      "reason": "涉及以太坊核心开发者提议大规模融资，属项目重大动态，可能影响以太坊发展和市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402271/former-ef-developer-dankrad-feist-suggests-1-billion-raise-new-ethereum-advocacy-group"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普暂停AI行政令",
+      "summary": "特朗普暂停了人工智能行政令，担忧其可能损害美国相对于中国的竞争优势。此举增加AI监管不确定性，短期利空AI概念加密项目（如FET、AGIX等），但长期可能利好美国AI发展。对整体加密市场影响有限，但AI代币可能波动。",
+      "reason": "重大政策变动直接影响AI行业情绪，间接影响AI相关加密货币。",
+      "category": "监管政策",
+      "impact_coins": ["FET", "AGIX", "RNDR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368673/trump-halts-ai-order-fears-could-hurt-us-edge-china"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国政府20亿押注量子计算",
+      "summary": "美国政府投入20亿美元用于量子计算研发，强调量子计算对比特币等加密资产的威胁。量子计算若突破可能破解比特币的加密算法，长期构成重大威胁。此消息可能加剧市场对比特币安全性的担忧，导致BTC价格承压。",
+      "reason": "直接关联比特币长期安全性，可能引发市场恐慌或对冲需求。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368647/us-government-2-billion-bet-quantum-computing-bitcoin-threat-grows"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "60亿美元BTC期权到期在即",
+      "summary": "市场中有大量比特币期权即将于5月29日到期，总名义价值约60亿美元，其中大量看涨期权执行价在82000美元。高额期权到期通常引起价格波动，大量看涨期权可能形成卖出压力。当前BTC价格在77000附近，接近行权价，多空博弈激烈。",
+      "reason": "直接涉及市场结构和潜在波动，属重大市场事件。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/21/the-6-billion-expiration-countdown-traders-pile-into-82000-bitcoin-calls-ahead-of-may-29-expiry"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮有效消息较少，仅筛选出4条值得关注的新消息。"
+}
