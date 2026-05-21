@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-21",
+  "hour": "18",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10104,
+    "completion_tokens": 1984,
+    "total_tokens": 12088
+  },
+  "content_length": 2096,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"巨鲸押注XRP横盘至6月底\",\n      \"summary\": \"某加密巨鲸使用224,000美元的头寸押注XRP价格在6月底前将稳定在1.40美元附近，通过期权策略押注低波动。该交易可能暗示市场缺乏方向性驱动，但巨鲸的大额押注本身可能吸引关注。若价格突破该区间，可能引发对冲平仓。影响币种：XRP。信号：中性。\",\n      \"reason\": \"优先级一链上异动，巨鲸大额期权头寸暴露市场对XRP低波动的预期，可能预示短期横盘或潜在波动突破。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/05/21/a-massive-xrp-trade-is-betting-prices-gravitate-to-usd1-40-until-the-end-of-june\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Tom Lee预测以太坊目标62000美元\",\n      \"summary\": \"知名分析师Tom Lee在以太坊价格较2025年高点下跌55%后，发布长期预测目标62000美元，基于历史周期和采用率。该预测属于看多情绪表达，可能提振市场信心，但无短期催化剂。影响币种：ETH。信号：看多。\",\n      \"reason\": \"优先级三市场情绪信号，KOL预测可能引发社交讨论和散户买入，但需注意其非官方且缺乏时效性。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"IndexBox via Crypto Twitter\",\n          \"url\": \"https://news.google.com/rss/articles/CBMipAFBVV95cUxQcl9udG1lT3YyUGRlUjI4Q2txY2p5bWJOUmd2TUJvb1lXWlhJWUFtTzQ4REZIcHlMMVR3RWJGM2VpSkQ4RW1rOHN6aXJ3NVBOcDNoSU9tU1dTRmkzdjUxNUJZZHVnd2VvdUdUVHB6alI3aVJyZUFYSFVsb1lmT2YtZ0VSY2hxQnZPMU05THU2bTJBcl9LaVIwV0hfMHdKWHdVTWxFNQ?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Glassnode：数字资产交易超越原生场所\",\n      \"summary\": \"Glassnode研究指出数字资产交易量正越来越多地发生在非加密原生场所（如传统交易所、OTC平台），反映机构参与度上升和市场的成熟。该趋势可能降低链上数据预测价格的有效性，但长期利好主流币。影响币种：BTC, ETH。信号：中性。\",\n      \"reason\": \"优先级二链上指标异常，交易场所结构变化影响市场分析框架，中期可能改变流动性分布。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Glassnode Research via Crypto Twitter\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtYlFRMmttUS1VcDZoUlZnRzlOSzNVUGR4UjhsbW9UM01JaFV6WjI0NDk0ZXJpMnJLajYyZVZHUDZDUUVJcjBBQXdjdWpvYUd3YXgxaHNvUHYwNHdFWXRxMGNQT2ZKV2Zn?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

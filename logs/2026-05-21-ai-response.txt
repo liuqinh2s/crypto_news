@@ -1835,3 +1835,117 @@ content length: 2125
   ],
   "note": "由于大量消息（如Binance公告、恐惧贪婪指数未变、重复新闻报道）已被历史消息覆盖，筛选后仅剩4条新消息，符合输出要求。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1844, prompt_tokens=10104, total_tokens=11948, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1111, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8952)
+content length: 1564
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP鲸鱼押注价格持平至6月底",
+      "summary": "某加密鲸鱼在Deribit上建立了一个价值22.4万美元的期权头寸，押注XRP价格在6月底前维持在1.40美元附近。该头寸由卖出跨式期权构成，隐含当前价格区间波动极低。如果XRP在到期前大幅波动，该鲸鱼将面临损失。这反映了市场对XRP短期波动性预期极低，可能暗示缺乏催化事件，但极端低波动后往往伴随突破，需警惕方向性行情。影响XRP，中性偏空（低波动意味着缺乏上涨动力）。",
+      "reason": "链上异动：大额期权头寸押注横盘，反映市场情绪及潜在波动突破风险。属于第一优先级链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["XRP"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/21/a-massive-xrp-trade-is-betting-prices-gravitate-to-usd1-40-until-the-end-of-june"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tom Lee看多ETH至6.2万美元",
+      "summary": "知名分析师Tom Lee预测以太坊价格目标为6.2万美元，尽管自2025年高点已下跌55%。他认为当前价格是长期买入机会，但短期内缺乏明确催化剂。该预测出现在市场情绪低迷时期（恐惧贪婪指数29），可能提供情绪支撑，但缺乏实质基本面变化。影响ETH，看多信号但需谨慎，属于分析师观点。",
+      "reason": "市场情绪：知名KOL给出极端看多预测，可能引发散户情绪波动，但属于观点而非事实，影响有限。属于第三优先级。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "IndexBox (via Crypto Twitter)",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcl9udG1lT3YyUGRlUjI4Q2txY2p5bWJOUmd2TUJvb1lXWlhJWUFtTzQ4REZIcHlMMVR3RWJGM2VpSkQ4RW1rOHN6aXJ3NVBOcDNoSU9tU1dTRmkzdjUxNUJZZHVnd2VvdUdUVHB6alI3aVJyZUFYSFVsb1lmT2YtZ0VSY2hxQnZPMU05THU2bTJBcl9LaVIwV0hfMHdKWHdVTWxFNQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经严格去重，本轮有价值新消息较少，多数关键事件已在历史消息中出现。仅筛选出2条对交易有参考意义的消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2356, prompt_tokens=10104, total_tokens=12460, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2299, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9984), prompt_cache_hit_tokens=9984, prompt_cache_miss_tokens=120)
+content length: 118
+============================================================
+{
+  "news": [],
+  "note": "当前时段几乎所有新闻都与历史消息重复，无新的高价值交易消息。主要重复内容包括Binance系列公告、美联储会议纪要、SpaceX比特币持仓、ETF数据等。建议关注后续市场走势。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1984, prompt_tokens=10104, total_tokens=12088, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1048, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9984), prompt_cache_hit_tokens=9984, prompt_cache_miss_tokens=120)
+content length: 2096
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸押注XRP横盘至6月底",
+      "summary": "某加密巨鲸使用224,000美元的头寸押注XRP价格在6月底前将稳定在1.40美元附近，通过期权策略押注低波动。该交易可能暗示市场缺乏方向性驱动，但巨鲸的大额押注本身可能吸引关注。若价格突破该区间，可能引发对冲平仓。影响币种：XRP。信号：中性。",
+      "reason": "优先级一链上异动，巨鲸大额期权头寸暴露市场对XRP低波动的预期，可能预示短期横盘或潜在波动突破。",
+      "category": "链上异动",
+      "impact_coins": ["XRP"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/21/a-massive-xrp-trade-is-betting-prices-gravitate-to-usd1-40-until-the-end-of-june"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tom Lee预测以太坊目标62000美元",
+      "summary": "知名分析师Tom Lee在以太坊价格较2025年高点下跌55%后，发布长期预测目标62000美元，基于历史周期和采用率。该预测属于看多情绪表达，可能提振市场信心，但无短期催化剂。影响币种：ETH。信号：看多。",
+      "reason": "优先级三市场情绪信号，KOL预测可能引发社交讨论和散户买入，但需注意其非官方且缺乏时效性。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "IndexBox via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcl9udG1lT3YyUGRlUjI4Q2txY2p5bWJOUmd2TUJvb1lXWlhJWUFtTzQ4REZIcHlMMVR3RWJGM2VpSkQ4RW1rOHN6aXJ3NVBOcDNoSU9tU1dTRmkzdjUxNUJZZHVnd2VvdUdUVHB6alI3aVJyZUFYSFVsb1lmT2YtZ0VSY2hxQnZPMU05THU2bTJBcl9LaVIwV0hfMHdKWHdVTWxFNQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Glassnode：数字资产交易超越原生场所",
+      "summary": "Glassnode研究指出数字资产交易量正越来越多地发生在非加密原生场所（如传统交易所、OTC平台），反映机构参与度上升和市场的成熟。该趋势可能降低链上数据预测价格的有效性，但长期利好主流币。影响币种：BTC, ETH。信号：中性。",
+      "reason": "优先级二链上指标异常，交易场所结构变化影响市场分析框架，中期可能改变流动性分布。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Glassnode Research via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtYlFRMmttUS1VcDZoUlZnRzlOSzNVUGR4UjhsbW9UM01JaFV6WjI0NDk0ZXJpMnJLajYyZVZHUDZDUUVJcjBBQXdjdWpvYUd3YXgxaHNvUHYwNHdFWXRxMGNQT2ZKV2Zn?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
