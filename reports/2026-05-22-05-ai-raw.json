@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-22",
+  "hour": "05",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4813,
+    "completion_tokens": 1988,
+    "total_tokens": 6801
+  },
+  "content_length": 1981,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Mark Cuban 抛售大部分比特币\",\n      \"summary\": \"Mark Cuban 在接受采访时表示已出售大部分比特币持仓，并称比特币是失败的对冲工具。此消息可能引发市场对名人效应的担忧，短期内利空 BTC，但鉴于其持仓量相对市场较小，影响有限。\",\n      \"reason\": \"知名投资者公开看空并抛售，属于市场情绪信号，可能引发散户跟随。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"Decrypt\", \"url\": \"https://decrypt.co/368678/mark-cuban-sold-most-his-bitcoin\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Binance 上架 Gensyn (AIGENSYN)\",\n      \"summary\": \"Binance 宣布将上线 Gensyn (AIGENSYN) 现货及永续合约，并开放 HODLer 空投。新币上架通常带来短期流动性涌入，对 AIGENSYN 形成利好，但需注意种子标签风险。\",\n      \"reason\": \"交易所上币直接影响对应币种价格，属于优先级一事件。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"AIGENSYN\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"Binance\", \"url\": \"https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Binance 推出 SPCXUSDT Pre-IPO 合约\",\n      \"summary\": \"Binance Futures 将上线 SPCXUSDT Pre-IPO 永续合约，允许用户提前交易尚未上市公司的股票代币。该产品增加市场投机工具，可能吸引资金流入相关代币，但链上影响有限。\",\n      \"reason\": \"交易所推出新型交易产品，属于市场结构变化，影响相关代币流动性。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"SPCX\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"Binance\", \"url\": \"https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数降至 29\",\n      \"summary\": \"加密货币恐惧贪婪指数降至 29（恐惧），表明市场情绪偏向悲观。历史数据显示极度恐惧（<20）通常是中长期买入区，当前水平接近但未达极值，短期可能继续下探或反弹，需观察。\",\n      \"reason\": \"市场情绪指标异常，属于优先级三指标，辅助判断市场位置。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"Alternative.me\", \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"}\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

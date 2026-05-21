@@ -684,3 +684,203 @@ content length: 3000
   ],
   "note": "近6小时内大量重复消息（如Mark Cuban抛售、ARMA法案、Blockchain.com IPO、HYPE新高、恐惧贪婪指数等）已排除，筛选出5条较新且有交易价值的信息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2469, prompt_tokens=12400, total_tokens=14869, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2215, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11248)
+content length: 672
+============================================================
+{
+  "news": [
+    {
+      "title": "美国加强针对伊朗加密货币网络的行动",
+      "summary": "美国加大'经济怒潮行动'力度，针对伊朗的77亿美元加密货币网络。该行动旨在打击伊朗利用加密货币规避制裁的行为，可能导致伊朗相关地址被制裁或交易所冻结，进而影响市场情绪。短期内可能增加地缘政治不确定性，对BTC、ETH产生轻微利空，但实际影响有限。",
+      "reason": "新的美国针对伊朗加密货币制裁行动，可能引发监管担忧和抛售，属于重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjwdxb/us_intensifies_operation_economic_fury_targeting/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他消息均与历史重复或与交易决策无关，仅筛选出一条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1318, prompt_tokens=12400, total_tokens=13718, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=997, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=112)
+content length: 794
+============================================================
+{
+  "news": [
+    {
+      "title": "美国打击伊朗加密网络",
+      "summary": "美国加强“经济愤怒行动”，针对伊朗7.7亿美元加密货币网络进行制裁。该行动旨在切断伊朗利用加密资产规避制裁的通道，可能引发伊朗相关加密交易风险加剧，短期利空整体市场情绪，但对比特币等主流币影响有限。受影响的币种包括BTC、ETH等可能被用于非法转移的资产，信号偏中性，但需警惕监管收紧对加密市场的负面情绪传导。",
+      "reason": "直接影响行情的重大监管动态，涉及国家级制裁与加密资产，可能引发市场波动。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjwdxb/us_intensifies_operation_economic_fury_targeting/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他素材（Mark Cuban抛售、量子攻击、ARMA法案、Blockchain.com IPO、CFTC与NHL合作、Binance公告等）均已出现在6小时历史消息中，属于重复内容；恐惧贪婪指数未变化；部分素材与加密交易无关。仅此一条新消息符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2734, prompt_tokens=12400, total_tokens=15134, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2435, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=112)
+content length: 775
+============================================================
+{
+  "news": [
+    {
+      "title": "美国制裁伊朗加密网络",
+      "summary": "美国加大对伊朗加密货币网络的打击力度，启动名为'Operation Economic Fury'的行动，目标锁定伊朗价值77亿美元的加密网络。此举旨在切断伊朗通过加密资产规避制裁的渠道。消息一出，市场情绪可能受到压制，比特币和以太坊等主流币种面临潜在抛压。这是地缘政治风险升温的信号，短期看空。",
+      "reason": "美国对伊朗加密货币网络的具体制裁行动，直接关联加密市场的地缘政治风险，属于监管政策类重大事件，可能引发市场避险情绪和抛售。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjwdxb/us_intensifies_operation_economic_fury_targeting/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本次筛选周期内大部分消息已在历史中出现重复，仅有此一条新消息符合筛选标准。其他消息如Mark Cuban抛售、Blockchain.com IPO、量子攻击等均为旧闻，按去重规则排除。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1551, prompt_tokens=13433, total_tokens=14984, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1267, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12281)
+content length: 692
+============================================================
+{
+  "news": [
+    {
+      "title": "美加强对伊加密网络打击",
+      "summary": "美国加强\"经济狂怒行动\"，针对伊朗77亿美元加密网络进行打击。该行动旨在切断伊朗通过加密货币规避制裁的渠道，涉及多家交易所和地址。可能影响BTC、ETH等主流币种，地缘政治紧张升级通常导致风险资产短期承压，利空。",
+      "reason": "美国对伊朗加密货币网络的大规模执法行动属于重大监管与地缘政治事件，直接影响市场情绪，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjwdxb/us_intensifies_operation_economic_fury_targeting/"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经严格去重筛选，本轮仅发现1条未在历史消息中出现的有价值交易消息。其他消息（如Mark Cuban卖BTC、Binance上币、恐惧贪婪指数等）均已在之前时段重复出现，故未重复选入。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1230, prompt_tokens=13433, total_tokens=14663, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=962, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13312), prompt_cache_hit_tokens=13312, prompt_cache_miss_tokens=121)
+content length: 709
+============================================================
+{
+  "news": [
+    {
+      "title": "美国加大伊朗加密网络打击",
+      "summary": "美国加强针对伊朗的Operation Economic Fury行动，打击伊朗价值77亿美元的加密货币网络。该行动旨在切断伊朗通过加密货币逃避制裁的渠道，可能涉及对相关钱包和服务商的制裁。此举增加地缘政治风险，对加密货币整体情绪构成压力，尤其是与伊朗关联的币种。短期内可能引发市场避险，比特币等主流币种或承压。",
+      "reason": "该事件属于重大监管动态（美国制裁行动），直接影响市场情绪和合规风险，评级优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjwdxb/us_intensifies_operation_economic_fury_targeting/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分消息与历史重复或无关交易决策，仅此一条具有筛选价值。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1988, prompt_tokens=4813, total_tokens=6801, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1223, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3661)
+content length: 1981
+============================================================
+{
+  "news": [
+    {
+      "title": "Mark Cuban 抛售大部分比特币",
+      "summary": "Mark Cuban 在接受采访时表示已出售大部分比特币持仓，并称比特币是失败的对冲工具。此消息可能引发市场对名人效应的担忧，短期内利空 BTC，但鉴于其持仓量相对市场较小，影响有限。",
+      "reason": "知名投资者公开看空并抛售，属于市场情绪信号，可能引发散户跟随。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/368678/mark-cuban-sold-most-his-bitcoin"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance 上架 Gensyn (AIGENSYN)",
+      "summary": "Binance 宣布将上线 Gensyn (AIGENSYN) 现货及永续合约，并开放 HODLer 空投。新币上架通常带来短期流动性涌入，对 AIGENSYN 形成利好，但需注意种子标签风险。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一事件。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance 推出 SPCXUSDT Pre-IPO 合约",
+      "summary": "Binance Futures 将上线 SPCXUSDT Pre-IPO 永续合约，允许用户提前交易尚未上市公司的股票代币。该产品增加市场投机工具，可能吸引资金流入相关代币，但链上影响有限。",
+      "reason": "交易所推出新型交易产品，属于市场结构变化，影响相关代币流动性。",
+      "category": "市场结构",
+      "impact_coins": ["SPCX"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至 29",
+      "summary": "加密货币恐惧贪婪指数降至 29（恐惧），表明市场情绪偏向悲观。历史数据显示极度恐惧（<20）通常是中长期买入区，当前水平接近但未达极值，短期可能继续下探或反弹，需观察。",
+      "reason": "市场情绪指标异常，属于优先级三指标，辅助判断市场位置。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
