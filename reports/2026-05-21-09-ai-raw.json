@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-21",
+  "hour": "09",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 5/6 策略=完整内容 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12593,
+    "completion_tokens": 1546,
+    "total_tokens": 14139
+  },
+  "content_length": 1780,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"恐惧贪婪指数微升至29\",\n      \"summary\": \"恐惧贪婪指数从27升至29，仍处于恐惧区间。历史数据显示极度恐惧区域（<20）为中长期抄底区，当前29虽未到极值，但持续恐惧可能接近底部。短期市场情绪脆弱，但进一步下跌空间可能有限。影响币种：BTC、ETH。信号：中性（短期偏空但中长期偏多）。\",\n      \"reason\": \"恐惧贪婪指数是市场情绪关键指标，数值变化直接影响短期交易决策。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"Alternative.me\", \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"比特币ETF单日净流出3.31亿美元\",\n      \"summary\": \"5月20日比特币现货ETF净流出3.31亿美元，延续近期流出趋势。叠加历史流出超20亿美元，显示机构资金持续离场。这对比特币价格形成直接抛压，短期看空。若流出放缓可能触底。影响币种：BTC。信号：bearish。\",\n      \"reason\": \"ETF资金流向是优先级一的高影响力信号，直接反映机构情绪。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [{\"name\": \"Reddit r/bitcoin\", \"url\": \"https://www.reddit.com/r/Bitcoin/comments/1tj3x1k/todays_bitcoin_etf_outflow_data_3311m_shed_but/\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"量子风险波及192万BTC\",\n      \"summary\": \"Glassnode警告比特币量子风险覆盖约192万BTC，若量子计算突破可能威胁老旧UTXO。虽然实际威胁遥远，但市场可能借机炒作利空。影响币种：BTC。信号：bearish（短期情绪利空）。\",\n      \"reason\": \"链上异动信号，涉及比特币安全性讨论，可能引发短期恐慌。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"Investing.com\", \"url\": \"https://news.google.com/rss/articles/CBMirwFBVV95cUxPRnBsWU5iVXJvejI1bElwTThmbmhmam93TEFXR1E2LVFwaTQ3anZzZW1YazBlZE9jYVNKSjZCNlE3bkIxZVc4WXR3MlhGUlkwa0hQTkdTZXZTNk1DSExCaUxocVJ4VEliMDdpeHF5NUkzX3BNVUI4c20teWw5b2t6MEJ5NW5RNExqeE9kWHJ0QmRxX0lCanFfbm4wMmZmamh0bmZHdDk0eE5meE9rRE1j\"}],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮素材与历史消息大量重复，仅筛选出3条新消息。主要因为Binance公告已完全覆盖、宏观经济无新增关键数据、监管动态未出现新进展。\"\n}"
+}
