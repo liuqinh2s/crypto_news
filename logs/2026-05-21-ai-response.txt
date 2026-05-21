@@ -1552,3 +1552,186 @@ content length: 3368
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=844, prompt_tokens=9836, total_tokens=10680, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=795, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8684)
+content length: 93
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中，所有消息均与历史消息重复（如Binance合约公告、SpaceX持仓、恐惧贪婪指数等），无新增有价值交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=534, prompt_tokens=9836, total_tokens=10370, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=469, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=108)
+content length: 125
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中大部分消息与历史重复，无新增重大交易信号。唯一新消息为CoinDesk关于Binance推出SpaceX pre-IPO合约的报道，但核心事件已出现在历史公告中，故不重复录入。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1614, prompt_tokens=9836, total_tokens=11450, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1229, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=108)
+content length: 930
+============================================================
+{
+  "news": [
+    {
+      "title": "币安上线SpaceX Pre-IPO合约",
+      "summary": "Binance推出SpaceX Pre-IPO永续合约(SPCXUSDT)，允许用户以杠杆交易SpaceX上市前股权价格，合约价值对应SpaceX市值约2万亿美元。该事件直接增加市场对SpaceX估值的博弈工具，可能吸引大量投机资金，短期利好相关概念代币及整体市场情绪。但Pre-IPO合约波动性高，需警惕剧烈价格变动。影响币种：SPCX（若对应代币），但更直接的是市场情绪和比特币等主流币。",
+      "reason": "交易所推出顶级独角兽Pre-IPO合约属于重大事件，直接影响市场情绪和交易量，符合优先级一中的交易所上币/合约公告。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH", "SPCX"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/21/binance-launches-spacex-pre-ipo-perps"
+        },
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前6小时内仅有此条高价值新消息，其余均为重复或低交易价值内容。恐惧贪婪指数29（Fear）已持续多时，未发生变化，故未单独列出。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2090, prompt_tokens=10655, total_tokens=12745, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1590, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9503)
+content length: 1017
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC反弹近7.8万，Nvidia与伊朗利好",
+      "summary": "比特币价格反弹至接近78,000美元，受到两个因素的推动：一是Nvidia强劲财报提振AI芯片市场情绪，二是特朗普表示伊朗谈判已进入最后阶段，地缘政治风险缓解。Nvidia作为科技股风向标，其财报超预期可能带动整个风险资产市场，包括加密货币。伊朗局势缓和有助于降低避险情绪。此消息对BTC构成短期利多信号，但涨幅有限，需关注7.8万附近阻力。历史消息显示比特币之前因伊朗言论反弹，但本次加入了Nvidia因素，属于新催化剂。",
+      "reason": "优先级二：宏观经济数据（Nvidia财报）影响风险资产走势，叠加地缘政治缓和，属于中等影响消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Investing.com via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0xTVTQ5U0lOTV9Pc0FEckt3VlE2UUF2YkFONENMT2F6bVFqeUh3cDY1UENvUWc5Y3F3bXdqX1JqR1NVZDBDYUo0ZmRuYXE1UjQyQ2hlQUZRQ2Vabi1WNlRIRUZ5X01jMVYwTFpuWjZIQnFyS2xpNU8tS3d6NDNTLWNraHJtM041RkhURndva3hrQnN2MklTLVNiRGZaMU5tcmxaTFJobVptZU5rbjZsOHExMDlRTlVlWGFrcHhkU3dmLWRnWkVlOUQwV0w?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮其他消息与历史高度重复（如Binance公告、恐惧贪婪指数、SpaceX持仓等），无新增有效交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1627, prompt_tokens=10655, total_tokens=12282, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1594, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=31)
+content length: 61
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材与历史消息高度重复，无符合筛选标准的新增关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2405, prompt_tokens=4036, total_tokens=6441, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=845, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2884)
+content length: 3616
+============================================================
+{
+  "news": [
+    {
+      "title": "Binance上线SpaceX前IPO永续合约",
+      "summary": "Binance宣布推出SpaceX前IPO永续合约(SPCXUSDT)，允许用户交易SpaceX估值预期，当前市场传闻SpaceX估值达2万亿美元。这是加密市场首个大型未上市公司前IPO衍生品，可能吸引大量投机资金，短期提升市场活跃度。但需注意该合约风险极高，无现货支撑。整体看多信号，因新资金入场预期。",
+      "reason": "直接影响行情的新衍生品上线，可能带动投机情绪和资金流入，影响BTC/ETH等主流币。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/21/binance-launches-spacex-pre-ipo-perps"},
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SpaceX持仓比特币超预期",
+      "summary": "SpaceX IPO文件披露其持有的比特币规模比市场预期更大，具体数量未公开但据分析可能达数十亿美元。这显示头部科技公司对加密资产的持续配置，为比特币带来基本面支撑。市场解读为机构增持信号，短期看多比特币。",
+      "reason": "机构大量持仓比特币的利好消息，直接利好BTC。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Investing.com", "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1BXaEdlM2xPaXI1UjY3bmY1Q0ZlTW9yYlUtQ3IxWWpsUTFEVTJjN1Y1Ml9IZlZDT1I0blJVek5LNHU0NjRpeVBxVjBnNm5NZFBiMVlVRXNtUDA4aEllZ1FLUC1QMlBVSnZ5Skw3TThwQ0MyaWEwN0JRZUJscVJvRGlHVFNKZlZvSFM4Y3lFekhYY2ZRRHFjWk5mZEpWdE1TMU1ab3BzWXhCQ3V6ckRzNUFHcDBweWFR?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC反弹至7.8万，伊朗谈判或突破",
+      "summary": "比特币价格回升至78,000美元附近，受特朗普宣称伊朗谈判进入最后阶段等消息提振。地缘政治缓和降低避险情绪，叠加Nvidia财报预期，风险资产普遍走强。短期市场情绪改善，但78k上方存在技术阻力。看多信号，但需警惕短期获利了结。",
+      "reason": "地缘政治缓和叠加宏观利好，直接推动比特币上涨。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "FX168", "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9UTkpaYjJLNW1iaS1PMnZYZ2ZNZXdJNXE1eGRpeVRQM2dlVlB1OUhMU1lOQzdra0E0MWZKMUVobFYzeVAwOW9lRFlvTjFMWWpaYmRsd09sR3NsZ3lvNlNWRkZMZldTdVhqWWhiMEZ4cFRkWm1HYi1yYw?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至29，市场恐惧",
+      "summary": "加密货币恐惧与贪婪指数降至29，处于“恐惧”区域。历史数据显示该区域通常为底部区域，但尚未到极度恐惧（<20）的抄底区间。短期情绪偏空，但中长期投资者可逢低布局。中性信号，建议观望等待更明确反转。",
+      "reason": "市场情绪指标进入偏空区域，可作为辅助判断。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上架MegaETH (MEGA)",
+      "summary": "Binance宣布将上线MegaETH (MEGA)，并开放MEGA/USDT等交易对，同时提供理财、保证金等产品。MEGA是以太坊Layer2扩容方案，此次上币将极大提升其流动性和市场关注度。短期看多MEGA，但上线初期波动较大，注意风险。",
+      "reason": "主流交易所上币直接利好对应币种，带来价格发现和流动性。",
+      "category": "交易所",
+      "impact_coins": ["MEGA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/506a7482e6b94bc58f3e275cb15c2861"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架AIGENSYN (Gensyn)",
+      "summary": "Binance宣布上架Gensyn (AIGENSYN)，一种去中心化AI计算网络代币，同样提供全面交易服务。AI赛道近期热度不减，AIGENSYN上线头部交易所有望吸引资金，短期看多。但需注意项目处于早期，波动性高。",
+      "reason": "AI概念代币上币，符合市场热点，可能带动短期行情。",
+      "category": "交易所",
+      "impact_coins": ["AIGENSYN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35"}
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
