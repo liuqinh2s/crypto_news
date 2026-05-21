@@ -1206,3 +1206,94 @@ content length: 1822
   ],
   "note": "当前有效消息较少，仅筛选出3条。大部分消息为重复或低影响公告，如Binance历史合约上线、SpaceX持仓已报道等。已按去重规则排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1875, prompt_tokens=10012, total_tokens=11887, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=645, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8860)
+content length: 3142
+============================================================
+{
+  "news": [
+    {
+      "title": "SEC审查预测市场ETF",
+      "summary": "SEC主席Atkins表示，SEC正在审查延迟的预测市场ETF申请，并征求公众意见。虽然短期内不会立即批准，但审查本身表明监管机构对加密衍生品持开放态度，可能为未来ETF合规铺路。影响有限，但监管透明度提升是中性偏多信号。主要影响BTC、ETH等大盘币。",
+      "reason": "监管政策重大动态，SEC对预测市场ETF的审查可能影响市场对加密ETF整体的预期，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402125/sec-reviewing-prediction-market-etfs?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid ETF创纪录资金流入",
+      "summary": "Hyperliquid ETF（HYPE）在机构资金推动下净流入2550万美元，创历史新高。这表明机构对Hyperliquid生态的看好，资金持续入场。HYPE价格有望获得支撑并进一步上涨，属于看多信号。",
+      "reason": "巨量机构资金流入对应币种（HYPE），属于ETF机构资金流向，对HYPE有直接利好，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402120/hyperliquid-etfs-25-million-inflows?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储拟扩大主账户准入",
+      "summary": "美联储就扩大主账户（Master Accounts）准入征求意见，此前特朗普行政令呼吁开立加密货币公司。若通过，加密企业将能直接接入美联储支付系统，减少对中间银行依赖，利好行业合规发展。短期影响有限，但长期属制度利好。",
+      "reason": "重大监管动态，美联储的举措可能改变加密公司运营环境，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402114/fed-input-master-account?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线SPCX Pre-IPO合约",
+      "summary": "Binance Futures推出SPCXUSDT Pre-IPO永续合约，对应SpaceX的IPO代码（计划上市）。Pre-IPO合约允许交易者在正式上市前押注SpaceX估值，增加市场投机情绪。短期可能引发SPCX相关代币（暂无直接币种）及比特币的波动，因SpaceX持仓加持。",
+      "reason": "交易所上架创新产品（Pre-IPO合约），直接影响交易情绪，关联SpaceX巨量比特币持仓，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普伊朗言论引加密反弹",
+      "summary": "特朗普关于美伊谈判进入‘最后阶段’的言论缓解地缘紧张，BTC、ETH、XRP、DOGE等主要币种出现反弹。分析师指出需关注BTC关键阻力位。该消息情绪面积极，但反弹持续性取决于谈判进展，短期看多但风险仍在。",
+      "reason": "地缘政治缓和导致风险资产反弹，直接影响BTC等主流币价格，属于优先级二的市场情绪类消息。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH", "XRP", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQlM5OWFpMkxEQUk2cDNQeDRHYXpGaExObEo4U2xXdU44dU4wVFdTaUtYVmdGOVN4U1FGaVN6TTR6dkx2bHZYVDZEVXd1LWR1UHBQQVVQbzBkc3N5SjhzM2pGaFdaWmprNE13X3BSSXJUOHdvQ05MeUM3S2FGX0NHUGtpUkExVlM0NXZsQzhQNjNHT1FmeGtUWVBxaUdndDFUMjBBWQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
