@@ -1297,3 +1297,91 @@ content length: 3142
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2534, prompt_tokens=10080, total_tokens=12614, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1447, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8928)
+content length: 2848
+============================================================
+{
+  "news": [
+    {
+      "title": "戴蒙警告利率或远高于当前",
+      "summary": "摩根大通CEO杰米·戴蒙表示未来利率可能远高于当前水平，暗示通胀可能持续，美联储或继续加息。若利率上升，将利空风险资产，包括加密货币。影响BTC、ETH等整体市场。信号：看空。",
+      "reason": "宏观紧缩预期，影响风险资产估值，属优先级二宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513729.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗战争风险推升亚洲避险",
+      "summary": "地缘政治分析指出伊朗战争可能催生亚洲货币与债券极端看跌情景，导致资金流出风险资产。加密货币作为风险资产可能承压，短期看空BTC、ETH。",
+      "reason": "地缘冲突升级直接影响风险偏好，属优先级二宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513726.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国现货BTC ETF净流出7050万",
+      "summary": "昨日美国现货比特币ETF净流出7050万美元，显示机构投资者短期抛售情绪。连续流出增加BTC下行压力，信号看空。",
+      "reason": "ETF资金流出直接反映机构情绪，属优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513724.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国现货ETH ETF净流出2810万",
+      "summary": "昨日美国现货以太坊ETF净流出2810万美元，显示机构对ETH短期看淡，增加ETH下行风险，信号看空。",
+      "reason": "ETF资金流出直接反映机构情绪，属优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513723.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Galaxy Digital买入15.8万HYPE",
+      "summary": "Galaxy Digital关联钱包近2小时买入15.81万枚HYPE（约880万美元），机构增持显示看好HYPE后市，信号看多。",
+      "reason": "机构巨量买入直接利好对应币种，属优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513721.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "现货HYPE ETF净流入2550万",
+      "summary": "现货HYPE ETF昨日净流入2550万美元，近7日累计净流入5400万美元，显示资金持续涌入，利好HYPE价格，信号看多。",
+      "reason": "ETF持续净流入表明机构配置需求，属优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513717.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国KOSPI涨8%反映风险偏好",
+      "summary": "韩国KOSPI指数日内大涨8%，主要受美伊谈判进展及AI热潮提振，显示亚洲风险偏好回升，可能短暂提振加密货币市场，但持续性存疑，信号中性。",
+      "reason": "股市大涨短期利好风险情绪，但属间接影响，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513728.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
