@@ -454,3 +454,233 @@ content length: 2376
   ],
   "note": "本轮有效消息较少，仅筛选出4条值得关注的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2174, prompt_tokens=13706, total_tokens=15880, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1663, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12554)
+content length: 1274
+============================================================
+{
+  "news": [
+    {
+      "title": "韩加密税请愿达5万门槛",
+      "summary": "韩国国民议会请愿废除加密货币所得税的签名数突破5万，触发议会审议程序。若法案通过，将取消对虚拟资产收益20%的征税，提振韩国内交易情绪。影响整体市场，尤其韩国高交易量币种（XRP、BTC、ETH等）。短期偏多，但政策落地需时间，影响有限。",
+      "reason": "韩国作为主要加密市场，税改直接影响交易活跃度，属监管政策事件，但非立即生效。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/petition-scrap-south-korea-crypto-tax-50k-threshold"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "专家称量子攻击可救中本聪BTC",
+      "summary": "安全专家表示，中本聪持有的约110万枚BTC可通过提前转移至抗量子地址避免被量子计算机窃取，但需要社区共识。事件提醒长期持有者关注量子威胁，短期内不构成价格影响，但可能引发技术讨论。对BTC偏中性，长期防患未然。",
+      "reason": "量子计算威胁是长期议题，专家提出解决方案降低恐慌，但非直接行情事件。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/05/21/satoshi-s-1-1m-bitcoin-stash-can-be-saved-from-quantum-attack-says-americanfortress"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前6小时内多数新闻与历史重复，仅筛选出两条具有新信息且符合筛选标准的消息。其余如Mark Cuban抛售、ARMA法案、Blockchain IPO等已在历史中重复出现。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1874, prompt_tokens=13706, total_tokens=15580, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1345, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13696), prompt_cache_hit_tokens=13696, prompt_cache_miss_tokens=10)
+content length: 1292
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国请愿废除加密税达5万门槛",
+      "summary": "韩国一项要求取消加密货币收益征税的国民请愿已收集超过5万个签名，触发政府必须正式回应的门槛。如果该请愿成功推进，可能推动韩国加密市场活跃度提升，利好BTC和主流币。目前信号偏看多，但需观察后续立法进展。",
+      "reason": "韩国加密税政策直接影响韩国投资者交易行为，达到5万门槛可能引发政策调整，属于中期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/petition-scrap-south-korea-crypto-tax-50k-threshold"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "专家称可拯救中本聪BTC免受量子攻击",
+      "summary": "AmericanFortress专家表示，中本聪持有的约110万枚BTC及其他大量BTC可以免受未来量子计算机攻击，通过特定技术方案迁移到抗量子地址。消息缓解了市场对量子计算威胁的长期恐慌，但短期内无直接影响。中性偏看多，因降低长期风险。",
+      "reason": "量子攻击威胁是长期利空，此消息虽非即时影响，但可能改善市场情绪，属于优先级二的技术进展。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/05/21/satoshi-s-1-1m-bitcoin-stash-can-be-saved-from-quantum-attack-says-americanfortress"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分关键消息（Mark Cuban卖BTC、ARMA法案、Blockchain.com IPO、CFTC与NHL合作、特朗普暂停AI令、SpaceX比特币持仓等）已在历史标题中出现多次，属于重复消息。恐惧贪婪指数29未变化，Binance公告均为旧闻重复。仅以上2条为有效新消息，符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1200, prompt_tokens=13706, total_tokens=14906, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=918, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13696), prompt_cache_hit_tokens=13696, prompt_cache_miss_tokens=10)
+content length: 704
+============================================================
+{
+  "news": [
+    {
+      "title": "韩加密税请愿达5万门限",
+      "summary": "韩国国民请愿废除加密货币所得税已收集超过5万个签名，达到国会审议门槛。若通过，将取消对加密货币交易20%的资本利得税，利好韩国加密市场情绪。直接影响韩国交易所上线币种，如BTC、ETH及当地热门代币。信号看多，因减税提升交易积极性。",
+      "reason": "属于监管政策利好，可能推动韩国市场交易量增长，影响亚太地区加密市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/petition-scrap-south-korea-crypto-tax-50k-threshold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本次筛选的38条素材中，大部分与历史消息重复或属排除项，仅1条新消息具有交易参考价值。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2367, prompt_tokens=14874, total_tokens=17241, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2092, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13722)
+content length: 659
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国加密税请愿达5万门槛",
+      "summary": "韩国国民请愿废除22%加密货币利得税（原定2027年生效）获得超过5万签名，达到国会审查门槛。若通过，可能取消或延迟征税，利好韩国及全球加密市场情绪。影响币种：主流币（BTC、ETH）及韩国热门币种。看多信号：若税废，则增加交易积极性。",
+      "reason": "属于监管政策类重要信号，可能影响韩国市场交易活跃度和全球情绪。历史消息中未出现该事件，新消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/petition-scrap-south-korea-crypto-tax-50k-threshold"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮仅有1条符合筛选标准的新消息，其余素材均已与历史消息重复或影响力不足。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2824, prompt_tokens=14874, total_tokens=17698, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1680, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=14848), prompt_cache_hit_tokens=14848, prompt_cache_miss_tokens=26)
+content length: 3000
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国加密税请愿达5万门槛",
+      "summary": "韩国国民请愿废除2027年生效的22%加密货币所得税，已收集超过5万个签名，达到国会审议门槛。若通过，可能推迟或取消该税种，利好韩国加密货币市场情绪。影响币种：BTC、ETH、XRP等韩国交易量大的币种。信号：bullish，因为税收减免将刺激投资需求。",
+      "reason": "优先级三：市场情绪信号，韩国加密税政策直接影响散户交易热情，请愿推进可能形成短期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/petition-scrap-south-korea-crypto-tax-50k-threshold"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "前以太坊开发者提议10亿筹款",
+      "summary": "前以太坊基金会开发者Dankrad Feist建议筹集10亿美元成立新的以太坊倡导组织，以应对以太坊社区人才流失和治理挑战。若成功，将增强以太坊生态发展资金和话语权，长期利好ETH。但短期执行不确定。影响币种：ETH。信号：bullish。",
+      "reason": "优先级二：项目更新，以太坊生态重大组织变动，可能影响网络未来发展方向和社区情绪。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402271/former-ef-developer-dankrad-feist-suggests-1-billion-raise-new-ethereum-advocacy-group"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普暂停AI行政令",
+      "summary": "特朗普总统暂停一项AI行政令，担心其削弱美国相对于中国的竞争力。此举可能减缓AI监管，利好AI相关加密货币（如RNDR、FET）。但影响间接，短期市场反应有限。影响币种：RNDR、FET等AI代币。信号：bullish。",
+      "reason": "优先级二：宏观经济/政策，AI监管变化影响AI板块风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["RNDR", "FET"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/368673/trump-halts-ai-order-fears-could-hurt-us-edge-china"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "专家称比特币可防量子攻击",
+      "summary": "专家表示，中本聪持有的110万枚比特币及其他大量BTC可以通过技术手段免受量子计算攻击，消除量子威胁预期。消息本身中性，但缓解长期担忧，对BTC情绪略有支撑。影响币种：BTC。信号：neutral。",
+      "reason": "优先级二：项目更新，量子攻击威胁长期悬而未决，此消息降低不确定性。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/05/21/satoshi-s-1-1m-bitcoin-stash-can-be-saved-from-quantum-attack-says-americanfortress"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC长期持有者供应创新高",
+      "summary": "比特币长期持有者供应量接近历史高点，突破多年下降趋势，表明长期投资者坚定持有，减少抛压。但近期已有多条类似报道，市场可能已消化。影响币种：BTC。信号：bullish（长期），但短期影响有限。",
+      "reason": "优先级二：链上异动，长期持有者供应增加是看涨信号，但消息已在前几小时传播，属于滞后更新。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/21/bitcoins-long-term-holder-supply-approaches-record-high-breaking-multi-year-downtrend/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近6小时内大量重复消息（如Mark Cuban抛售、ARMA法案、Blockchain.com IPO、HYPE新高、恐惧贪婪指数等）已排除，筛选出5条较新且有交易价值的信息。"
+}
