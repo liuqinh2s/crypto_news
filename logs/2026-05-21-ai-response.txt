@@ -1949,3 +1949,110 @@ content length: 2096
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3419, prompt_tokens=11524, total_tokens=14943, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1803, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10372)
+content length: 3872
+============================================================
+{
+  "news": [
+    {
+      "title": "HYPE引领加密反弹",
+      "summary": "HYPE代币在近期反弹中领涨，同时Hyperliquid ETF累计净流入达5400万美元。机构资金持续进场表明长期看好，但短期反弹可能面临获利回吐。影响HYPE及相关ETF。偏多信号，但需警惕波动。",
+      "reason": "HYPE作为近期热点，机构流入和价格反弹具有交易价值，属于优先级二的市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/21/hype-leads-crypto-rebound-as-traders-position-for-volatility-breakout"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Sandbox联合创始人妻子遭绑架未遂",
+      "summary": "The Sandbox联合创始人Sebastien Borget的妻子在法国家中遭遇绑架未遂。此类安全事件可能引发市场对项目团队安全的担忧，短期利空SAND代币。不过事件未成功，影响有限。",
+      "reason": "涉及项目方重大安全事件，属于优先级一的项目方重大事件，直接利空SAND。",
+      "category": "项目更新",
+      "impact_coins": ["SAND"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402146/wife-of-sandbox-co-founder-sebastien-borget-targeted-in-kidnapping-attempt-at-home-in-france-report"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "AI机器人串通或引发市场暴跌",
+      "summary": "Human API CEO警告称，AI机器人可能串通以机器速度驱动市场崩盘，而监管机构来不及反应。该言论增加了市场对AI操纵风险的担忧，可能短期打压市场情绪，尤其影响BTC、ETH等。偏空。",
+      "reason": "市场情绪信号，可能引发恐慌，属于优先级三的市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjglyo/human_api_ceo_warns_ai_bot_collusion_could/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "PARITY Act提出加密税收减免",
+      "summary": "美国PARITY法案提出新的加密税收减免框架，旨在简化税务合规并降低税负。若通过将利好美国加密行业发展，刺激投资。目前处于提案阶段，影响偏正面。影响BTC、ETH及整体市场。",
+      "reason": "监管利好，属于优先级一的重大监管动态，直接利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Digital Watch Observatory",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85UElOSHZRczJyaERwajVoQmdjWWpsWVZUbWdOWTF6NHFUajJfc0VoZTFhYmxBcjZE1NrdS1jOEp3MnZobTVJZEdoa2N5ek9La2I5WkY2SzA3SWo4WFM0VDF5aHh1MU15S0dlUFY1RHhGYkkyZWhr?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Vitalik公布以太坊隐私路线图",
+      "summary": "Vitalik Buterin概述以太坊近期隐私路线图，包括账户抽象（AA）、FOCIL、密钥nonces和Kohaku等改进。这些升级将增强以太坊隐私功能，可能提升ETH长期价值。偏多信号，但技术落地需时间。",
+      "reason": "技术升级里程碑，属于优先级二的技术升级，对ETH有潜在利好。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Unchained Crypto",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYVVyNDUxckhMUW5xNU5YMUtfZm1ualV3Yk5QUlZJZWZmc3FmazFhNEp1LXBnUndodWdqc3FpV2poOXpCSjlFLVpSMXdvU0NLeTlCc1l2YWRPSEo4LXRTRHZXQjBZQVd3MTY4bzNJc1BKaWhUOXQySWZlMEpkQW9ma1VRd1FjT0N3RU5ra3BSWHFQU0ZFYkFhWmpPVURWc2ItU2NaeWh1ekpjY1lnc1lFcnJ2eVctZnNDWWNqQU9pSQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密行业财报：告别炒作驱动",
+      "summary": "多家加密企业财报显示收入增长放缓，行业正从炒作驱动转向多元化营收模式。这反映出市场趋于成熟，但短期可能减少投机情绪。中性信号，长期偏正面。",
+      "reason": "行业动态，属于中期影响，但交易信号偏中性。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd2tWbF96X25VSWtoRkI5UDlnTmR5LUJZTkhRdGtxTTJDb1dJdHlmNkFFWUxtYzFMUEM1eko5YzNqc0xmcmQ1VVhkUS1vaElLM29mVjBWdmNQaFVFSHE2cGRhdjJfNHFIdVNmUUpuSXJBUTNobWlrLVpQTHBSWEc3MG9MSjZFd2xzWkVVY2lOMUhqNjJ3cXcwQlFrVGpmLWVNRURGRktvUU82Y3pMVDVQc0l3eHZBU1BSN2tfaF93?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
