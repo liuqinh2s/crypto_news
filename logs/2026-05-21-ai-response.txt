@@ -2301,3 +2301,106 @@ content length: 6193
   ],
   "note": "部分重复消息已跳过，例如SpaceX IPO、隐私币上涨等。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4251, prompt_tokens=17231, total_tokens=21482, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2939, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16079)
+content length: 3681
+============================================================
+{
+  "news": [
+    {
+      "title": "Blockchain.com秘密提交美股IPO",
+      "summary": "加密货币交易所Blockchain.com已向SEC秘密提交IPO申请，加入其他加密公司公开上市浪潮。这标志着传统金融市场对加密行业进一步接纳，可能为整个市场带来正面情绪和资金流入。影响比特币及主流币种。看多信号。",
+      "reason": "交易所IPO属于机构动向，提升行业合规性和认可度，吸引传统资金。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/21/blockchain-com-files-confidential-paperwork-with-sec-for-u-s-ipo"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/402182/blockchain-com-confidentially-files-for-us-ipo-as-crypto-firms-continue-public-market-push"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC长期持有者供应量创新高",
+      "summary": "CoinDesk报道，比特币长期持有者供应量接近历史高点，打破了多年的下降趋势。表明持有者囤币意愿强烈，减少市场抛压，对价格构成支撑。这是看多信号。",
+      "reason": "链上供应指标表明持有者行为转向长期持有，减少流通供应。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/21/bitcoin-s-long-term-holder-supply-approaches-record-high-breaking-multi-year-downtrend"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "24小时加密清算达5.73亿美元",
+      "summary": "Reddit消息显示，过去24小时加密货币市场发生5.73亿美元清算，同时美国国债收益率升至4.55%。大量多头清算可能导致短期下行压力，但清算后通常迎来反弹。需关注后续走势。",
+      "reason": "市场结构异常，大规模清算表明过度杠杆被清除。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjk4aq/573m_liquidated_in_24_hours_treasury_yields_at/"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Saylor称可能购买所有未来比特币",
+      "summary": "微策略创始人Michael Saylor表示，Strategy公司很可能购入2140年前挖出的全部比特币。这一激进看多言论强化了机构长期持有比特币的信心，可能吸引更多跟随者。对BTC构成利好。",
+      "reason": "机构巨头看多言论及潜在的持续买入行为。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513805.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "分析称BTC需求减弱或持续盘整",
+      "summary": "CoinTelegraph分析指出，比特币的‘需求攻势减弱’可能导致未来数月价格区间盘整，缺乏突破动力。这反映市场情绪谨慎，短期可能缺乏上涨催化剂。",
+      "reason": "技术分析表明市场动力不足，建议短期谨慎。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoins-less-aggressive-demand-may-lead-to-months-of-consolidation-analysis"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密PAC公布首批参众院竞选背书",
+      "summary": "加密货币支持的政治行动委员会（PAC）公布了2026年参议院和众议院关键竞选的首批背书名单。这表明加密行业积极影响政治，可能推动有利监管法案，中期利好整个市场。",
+      "reason": "监管政策动向，政治行动可能带来合规利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/513812.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "德国交易所合作推动区块链结算",
+      "summary": "德国斯图加特交易所与法国兴业银行及flatexDEGIRO合作，推动基于区块链的证券结算系统在欧盟落地。此举将提高传统金融市场效率，有利于区块链技术合法化，间接利好加密资产。",
+      "reason": "传统金融机构采用区块链技术，提升行业信心。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/boerse-stuttgart-societe-generale-flatexdegiro-team-up-for-blockchain-securities-settlement-in-eu"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
