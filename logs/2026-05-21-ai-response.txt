@@ -1385,3 +1385,79 @@ content length: 2848
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2236, prompt_tokens=11184, total_tokens=13420, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1046, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10032)
+content length: 2938
+============================================================
+{
+  "news": [
+    {
+      "title": "Map Protocol遭黑客攻击暴跌96%",
+      "summary": "Map Protocol 代币 MAPO 因遭遇攻击者铸造了千万亿枚代币而暴跌 96%。攻击者将 10 亿枚 MAPO 兑换为 52.21 ETH 并存入 Tornado Cash。此事件直接导致 MAPO 价格崩溃，影响所有持有者及 DeFi 生态。信号为强烈看空，投资者应避免抄底。",
+      "reason": "优先级一：项目方重大安全事件，黑客攻击导致代币贬值超 96%，直接打击市场信心。",
+      "category": "项目更新",
+      "impact_coins": ["MAPO"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/map-protocol-loses-96-of-its-value-after-quadrillion-token-mint-exploit"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "37家银行支持欧元稳定币Qivalis",
+      "summary": "37 家银行联合支持 Qivalis 欧元稳定币，计划在 2026 年推出。这显示传统金融机构对加密货币的进一步接纳，可能增加欧元稳定币的流动性和采用率，利好整体加密市场特别是稳定币生态，但短期影响有限。信号偏向看多。",
+      "reason": "优先级二：机构动向，多家银行支持稳定币发行，反映传统金融与加密融合加速，中期利好。",
+      "category": "市场结构",
+      "impact_coins": ["USDT", "USDC", "DAI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjatgm/37_banks_back_qivalis_euro_stablecoin_before_2026/"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美联储纪要显示多数支持加息",
+      "summary": "美联储最新会议纪要显示，多数官员表示若通胀持续，愿意进一步加息。这强化了鹰派预期，利空风险资产包括加密货币。当前市场对 6 月维持利率不变的概率仍高达 97.3%，但纪要措辞偏鹰，可能抑制短期反弹。信号看空。",
+      "reason": "优先级二：宏观经济数据，加息预期升温直接影响风险资产定价，属于中期利空。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Crypto Briefing", "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tcTBxOWJFWDlheWU4Ymo5bnBJNndhM2diWGNiRDdOSzIxYllWWkhXWmxtNkhKblpvS3N3RUdkZHQwSVNvWWdweE16SE5EQVpoSl9XTGRISnVZbklDVmNDLVNsTVp1ZGo3bEF2WWdYSVZPOWhJOWc?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid ETF交易量跃升50%",
+      "summary": "Hyperliquid 现货 ETF 在上市后交易量意外跃升 50%，且机构净流入创纪录达 2550 万美元。此前近 7 日累计净流入 5400 万美元。这表明机构对 Hyperliquid 生态兴趣浓厚，可能推动 HYPE 价格上涨。信号看多。",
+      "reason": "优先级一：ETF 资金流入，机构持续买入直接利好对应代币，属于强看多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/hyperliquid-etfs-see-50-volume-jump-with-perfectly-timed-launch"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Bitcoin 200日均线遇阻回落",
+      "summary": "比特币反弹至 200 日均线后遭遇卖压回落，CoinDesk 分析指出买家需求不足，ETF、Coinbase 及韩国市场溢价均消退。技术面看空，短期可能进一步下探。信号看空。",
+      "reason": "优先级一：技术面关键阻力位遭拒，反映市场买盘弱，直接关系 BTC 短期走势。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/05/21/bitcoin-s-rebound-has-a-buyer-problem-as-etf-coinbase-and-korea-demand-fade"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
