@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-21",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11315,
+    "completion_tokens": 1873,
+    "total_tokens": 13188
+  },
+  "content_length": 1822,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"伊朗审查美方意见，地缘缓和\",\n      \"summary\": \"伊朗外交部发言人表示已收到美方意见，目前正在进行审查。此前特朗普称愿意等待伊朗回应，美伊谈判进入最后阶段。地缘政治紧张局势缓解，市场风险偏好回升，利好比特币等风险资产。短期看多BTC、ETH。\",\n      \"reason\": \"地缘政治缓和直接提升风险资产吸引力，属于优先级二的中期影响消息。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/513714.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"比特币等反弹，关注特朗普言论\",\n      \"summary\": \"受特朗普对伊朗谈判积极表态影响，比特币、以太坊、XRP、狗狗币等出现反弹。分析师建议关注关键BTC价格水平。此次反弹显示市场对地缘风险缓解的正面反应，但需警惕后续波动。短期看多上述币种。\",\n      \"reason\": \"直接反映市场情绪和价格变动，属于优先级三的市场情绪信号。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"XRP\", \"DOGE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMipAFBVV95cUxOQlM5OWFpMkxEQUk2cDNQeDRHYXpGaExObEo4U2xXdU44dU4wVFdTaUtYVmdGOVN4U1FGaVN6TTR6dkx2bHZYVDZEVXd1LWR1UHBQQVVQbzBkc3N5SjhzM2pGaFdaWmprNE13X3BSSXJUOHdvQ05MeUM3S2FGX0NHUGtpUkExVlM0NXZsQzhQNjNHT1FmeGtUWVBxaUdndDFUMjBBWQ?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数29，持续恐惧\",\n      \"summary\": \"当前恐惧贪婪指数为29（恐惧），处于低位。历史数据显示该区域可能是中长期抄底时机，但短期价格可能继续承压。市场情绪极度悲观，往往预示着反转机会，但需等待明确信号。中性偏多，适合逐步建仓。\",\n      \"reason\": \"恐惧贪婪指数极值属于优先级三的市场情绪信号，具有参考价值。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前有效消息较少，仅筛选出3条。大部分消息为重复或低影响公告，如Binance历史合约上线、SpaceX持仓已报道等。已按去重规则排除。\"\n}"
+}
