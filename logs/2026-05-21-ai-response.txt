@@ -1039,3 +1039,110 @@ content length: 1780
   ],
   "note": "本轮素材与历史消息大量重复，仅筛选出3条新消息。主要因为Binance公告已完全覆盖、宏观经济无新增关键数据、监管动态未出现新进展。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2543, prompt_tokens=12224, total_tokens=14767, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1316, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11072)
+content length: 3072
+============================================================
+{
+  "news": [
+    {
+      "title": "PEPE巨鲸清仓亏损1712万",
+      "summary": "据金色财经报道，一位此前在PEPE交易中胜率100%的巨鲸疑似已全面清仓其PEPE头寸，累计亏损预计超过1712万美元。该巨鲸曾在波段操作中表现优异，此次清仓可能引发市场恐慌，短期内对PEPE价格构成抛压。影响币种：PEPE。信号：看空。",
+      "reason": "巨鲸清仓直接增加抛售压力，属于优先级一的链上异动，对PEPE现货和合约交易者有即时参考价值。",
+      "category": "链上异动",
+      "impact_coins": ["PEPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513708.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MAP攻击者抛售并混币",
+      "summary": "MAP Protocol遭受攻击，攻击者将10亿枚MAPO代币兑换为52.21枚ETH，随后将ETH存入隐私工具Tornado Cash。此举表明攻击者正在清洗赃款，对MAPO代币造成持续抛压，同时Tornado Cash的交互可能引发监管关注。影响币种：MAPO、ETH。信号：看空MAPO，中性ETH。",
+      "reason": "黑客攻击后抛售并混币属于链上异动，直接影响MAPO价格，并为ETH带来短期抛压但量极小，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["MAPO", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513707.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z从CEX提取259万HYPE",
+      "summary": "知名风投机构a16z在24小时内从中心化交易所提出259.7万枚HYPE，价值约1329万美元。此举通常被视为机构囤币行为，减少交易所流通量，有助于提振HYPE价格和持有者信心。影响币种：HYPE。信号：看多。",
+      "reason": "机构大额转出交易所是典型的囤币信号，属于优先级一的机构动向，直接利好后市。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513706.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "灰度关联地址买入51万HYPE",
+      "summary": "与灰度投资关联的地址买入逾51万枚HYPE并立即质押，总价值约2495万美元。灰度作为大型机构，其买入并质押的行为传递强烈看多信号，可能吸引跟风资金，同时减少流通供应。影响币种：HYPE。信号：看多。",
+      "reason": "灰度作为机构买入并质押，属于优先级一的机构动向，直接利多HYPE，且质押减少流动供应，中期影响显著。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513703.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日本央行官员暗示继续加息",
+      "summary": "日本央行审议委员小枝淳子表示，日本央行需要继续提高政策利率。若日本央行加息，可能收紧全球流动性，推高日元，对风险资产包括加密货币构成压力。影响币种：BTC、ETH。信号：看空。",
+      "reason": "日本央行加息属于宏观经济事件，影响全球资金流向和风险偏好，属于优先级二的中期影响因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513704.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊基金会多名高管离职",
+      "summary": "以太坊基金会多名核心高管近期离职，引发社区对项目治理和未来方向的担忧。高管离职可能影响开发进度和社区信心，短期内对ETH价格构成利空。影响币种：ETH。信号：看空。",
+      "reason": "项目核心高管离职属于项目更新，直接影响市场对以太坊的信心，属于优先级二的中期影响事件。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/513700.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
