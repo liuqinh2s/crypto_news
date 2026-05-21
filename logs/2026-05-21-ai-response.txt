@@ -2404,3 +2404,105 @@ content length: 3681
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3406, prompt_tokens=16450, total_tokens=19856, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1196, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15298)
+content length: 4863
+============================================================
+{
+  "news": [
+    {
+      "title": "Moonshot银行业务代币化",
+      "summary": "加密货币支付公司MoonPay宣布推出MoonPay Trade，这是一个面向银行和金融机构的代币化资产和DeFi平台。该平台允许银行客户通过合规渠道投资代币化资产，标志着传统金融与DeFi的进一步融合。利好代币化资产、DeFi板块，可能带动相关的RWA代币（如Ondo、Polygon等）和DeFi生态代币（如UNI、AAVE）上涨。",
+      "reason": "优先级二，机构机构入场信号，代表传统金融机构通过合规途径进入加密市场；代币化资产是长期趋势。",
+      "category": "ETF机构",
+      "impact_coins": ["UNI", "AAVE", "ONDO", "POL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/05/21/moonpay-expands-into-tokenized-assets-and-defi-markets-with-new-platform-for-banks"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "GOP议员提案比特币战略储备",
+      "summary": "一位共和党议员提出法案，拟将比特币作为美国战略储备资产。该法案若通过，将标志着美国政府正式承认比特币的国家级储备地位，可能引发其他国家效仿，对比特币产生深远利好。此消息打破了此前比特币ETF后的监管不确定预期，直接推动比特币上涨。",
+      "reason": "优先级一，重大监管动态，国家级战略性支持比特币，属于极强看多信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "Crypto Twitter - Fox Business", "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQUdzSi1UbTJyeTZZMW9KQk8xRHlDR1pzdUpOYzBaMkczVHpFNDJVNXZWWTU4WnZPSFYxOXgyT0V3QnM2RzVjSzU0MU5zckFPZzNiS2JtRzVJb04wT0ROeGFXT1pfbzFCX09HenBWUi1SN0p5UmUzRXlxaWMydFNlT3RMTF8zSjd1RzNPQnFSTkVULXh3NzdKSmRnZ9IBoAFBVV95cUxPYWppVzFLVHAwcXFsc0k4NV8tYzBjY2Z2NlFiOHp0Ylg1SXJuaTNDT3hOVkxKSXNtd21YckNyXzBNNzk5MTB2Vm03bjBTSzVuUVl0bFdHS081eXRDYXE4N1FaOGdEWkNSRlZXaHphM3lpSXpCZTZKUi1jVHlfVEtBRERuSE1EZjhKNl9DeE9ZNXJGVHBOWk8zd0d1a1dsLVk5?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储拟有限主账户利好加密",
+      "summary": "美联储提议为加密货币公司设立‘有限目的主账户’，允许持牌加密企业在美联储系统直接开户并获取清算服务。此举降低了加密企业的银行依赖风险，推动合规化发展，利好Coinbase、Kraken等合规交易所。但也意味着更严格的监管框架。",
+      "reason": "优先级一，监管动态，明确的正向监管信号，有助于增加加密行业与传统金融的融合。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "COIN"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Crypto Twitter - Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVkNmQXI1V2xGVTR4aFRIeHBVWFlaWFg0MUNSN1JKZzNXTFk0djRiNUEzSXREVElfWHd0V24tWVQxMGZHRkwyXzNvNWJPcHc4aWdfY3Q3bmZGTzVBeGZWOEZSYVJIbktGVTR1YzNwdEhpYTkxR1VGOHZYZW1UcGV0aXhxY19CeExYYldrZWtqRzBXWmtfMDE1MjFrUFJOdjE5Z1g5cEVJRXk?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Element代币化结算网络扩张",
+      "summary": "德国斯图加特交易所（Boerse Stuttgart）宣布法国兴业银行（SocGen）旗下SG-FORGE及flatexDEGIRO加入其泛欧代币化结算网络。这标志着欧洲传统金融机构加速采用区块链进行证券结算，利好代币化生态及欧元稳定币。长期看可能提升ETH和Layer2网络的需求。",
+      "reason": "优先级二，机构机构动向，传统资本入局推动行业基础设施完善。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "EURC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/402198/boerse-stuttgart-adds-societe-generale-sg-forge-and-flatexdegiro-to-pan-european-tokenized-settlement-network"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "HYPE鲸鱼死扛空头浮亏2200万",
+      "summary": "Hyperliquid上一地址做空HYPE，当前浮亏约2200万美元，但该地址仍未平仓。这一极端持仓可能引发短期轧空行情：若HYPE价格上涨，空头被迫平仓将进一步推高价格。当前HYPE多空博弈激烈，短线交易者可关注HYPE合约。",
+      "reason": "优先级一，链上异动，巨鲸异常持仓可能引发短期剧烈波动，属于直接交易信号。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/hyperliquid-whale-wont-close-hype-short-despite-22-unrealized-loss"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CLARITY法案或明确ETH监管",
+      "summary": "美国《CLARITY法案》正在讨论中，如果通过，可能将ETH归类为商品而非证券，由CFTC监管而非SEC。这将消除ETH面临的主要监管不确定性，刺激机构采用。但法案仍在推进中，需密切跟踪进展。",
+      "reason": "优先级一，监管政策，直接关系ETH法律地位，影响巨大。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Crypto Twitter - crypto.news", "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1S0ZMUUlNZml4UFllNzZjdHVPTkQ1SmV5b0I5MlhVSjZVb3k0SnVrM0ZGUlg5XzVxQ0xRc0t2NmlfNVNRN0wzTXZzR3g2RmNROWdFWjRCSnhFeExXcWVsNmlYVmdOT2Rvb19xX2ozTkM?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "英伟达财报利好矿工股",
+      "summary": "英伟达公布强劲财报后，比特币矿工股票（如MARA、RIOT）上涨。英伟达芯片是挖矿设备的关键组件，财报靓丽暗示挖矿算力需求可能继续增长，间接利好BTC（算力增长→网络安全性提高），但对币价直接影响有限。",
+      "reason": "优先级三，市场情绪，矿工股上涨传递积极信号，但非直接影响币价。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Crypto Twitter - Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQkxvRGcta3NRZEc5ZHZqYW5fT1ZmWUZBS3E2TmFYU2xGaXU0dTZQWlN2cjR2TkdrR2Y0TjNrYzEyM3o3dEplNlJHa3ZReERzdnZZN0lGZUk0NnBJVHZzTUh5QjhVZ2FmUUxld2RQZ0FtRjBibHpkSFIxcThydTJtOWVJRmxkTTFQYnVrZHAyci1DeXV1ZnIyMTR4YkFiUQ?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}

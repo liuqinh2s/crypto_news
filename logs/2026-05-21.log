@@ -2118,3 +2118,83 @@
 2026-05-21 14:01:48 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
 2026-05-21 14:01:48 [INFO] 📦 JSON 已保存: reports/2026-05-21-22.json
 2026-05-21 14:01:48 [INFO] ✅ AI 筛选完成，共 7 条交易相关消息
+2026-05-21 15:00:43 [INFO] 🚀 开始抓取 2026-05-21 23:00 币圈新闻
+2026-05-21 15:00:43 [INFO] 📡 抓取 RSS 新闻源...
+2026-05-21 15:00:43 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-05-21 15:00:44 [INFO]   ⏭ Decrypt: 过滤掉 46 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ The Block: 过滤掉 15 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ CoinTelegraph: 过滤掉 27 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-05-21 15:00:44 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-05-21 15:00:44 [INFO]   ⏭ Reuters Crypto: 过滤掉 47 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 5 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ CoinDesk: 过滤掉 18 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-05-21 15:00:44 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 21 条非近期新闻
+2026-05-21 15:00:45 [INFO]   ⏭ 宏观经济: 过滤掉 42 条非近期新闻
+2026-05-21 15:00:45 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-05-21 15:00:45 [INFO]   ⏭ Blockworks: 过滤掉 5 条非近期新闻
+2026-05-21 15:00:45 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 2 条非近期新闻
+2026-05-21 15:00:45 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-05-21 15:00:45 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-05-21 15:00:45 [INFO]   ⏭ Crypto Twitter: 过滤掉 34 条非近期新闻
+2026-05-21 15:00:45 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-05-21 15:00:59 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-05-21 15:00:59 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-05-21 15:00:59 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-05-21 15:01:00 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-05-21 15:01:00 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-05-21 15:01:00 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-05-21 15:01:00 [INFO]   ✓ CoinDesk: 7 条
+2026-05-21 15:01:00 [INFO]   ✓ The Block: 5 条
+2026-05-21 15:01:00 [INFO]   ✓ Decrypt: 4 条
+2026-05-21 15:01:00 [INFO]   ✓ CoinTelegraph: 3 条
+2026-05-21 15:01:00 [INFO]   ✓ Bitcoin Magazine: 5 条
+2026-05-21 15:01:00 [INFO]   ✓ Blockworks: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ DL News: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ 金色财经: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ PANews: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ 吴说区块链: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ Reuters Crypto: 3 条
+2026-05-21 15:01:00 [INFO]   ✓ CNBC Crypto: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-05-21 15:01:00 [INFO]   ✓ Reddit r/bitcoin: 4 条
+2026-05-21 15:01:00 [INFO]   ✓ Crypto Twitter: 16 条
+2026-05-21 15:01:00 [INFO]   ✓ 宏观经济: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ Binance公告: 20 条
+2026-05-21 15:01:00 [INFO]   ✓ OKX公告: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ Bitget公告: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ Whale Alert: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-05-21 15:01:00 [INFO]   ✓ DeFi Llama: 0 条
+2026-05-21 15:01:00 [INFO]   ✓ 雪球加密: 0 条
+2026-05-21 15:01:00 [INFO] 📊 共抓取 69 条新闻
+2026-05-21 15:01:00 [INFO] 📋 原始新闻已保存: reports/2026-05-21-23-raw.json (69 条)
+2026-05-21 15:01:00 [INFO] 📋 标题摘要已保存: reports/2026-05-21-23-raw-titles.md
+2026-05-21 15:01:00 [INFO] ✅ 抓取完成，共 69 条，已保存到 reports/2026-05-21-23-raw.json
+2026-05-21 15:01:00 [INFO] 🤖 开始 AI 筛选 2026-05-21 23:00 币圈消息
+2026-05-21 15:01:00 [INFO] 📋 已加载原始新闻: reports/2026-05-21-23-raw.json (69 条)
+2026-05-21 15:01:00 [INFO] 📚 已加载历史新闻标题（25271 字符）
+2026-05-21 15:01:00 [INFO] 📚 已加载历史筛选标题 32 条、URL 33 个，用于去重
+2026-05-21 15:01:00 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-05-21 15:01:00 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-05-21 15:01:00 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（69 条，17551 字符，temp=0.3）
+2026-05-21 15:01:39 [INFO] AI 原始返回已保存: logs/2026-05-21-ai-response.txt (finish_reason=stop, 4863 字符)
+2026-05-21 15:01:39 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-05-21-23-ai-raw.json
+2026-05-21 15:01:39 [DEBUG] parse_json_response 输入长度: 4863 字符
+2026-05-21 15:01:39 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Moonshot银行业务代币化",
+      "summary": "加密货币支付公司MoonPay宣布推出MoonPay Trade，这是一个面向银行和金融机构的代币化资产和DeFi平台。该平台允许银行客户通过合规渠道投资代币化资产，标志着传统金融与DeFi的进一步融合。利好代币化资产、DeFi板块，可能带动相关的RWA代币（如Ondo、Polygon等）和DeFi生态代币（如UNI、AAVE）上涨。",
+      "reason": "优先级二，机构机构入场信号，代表传统金融机构通过合规途径进入加密市场；代币化资产
+2026-05-21 15:01:39 [DEBUG] 从 JSON 对象的 news 字段提取到 7 条记录
+2026-05-21 15:01:39 [INFO] ✅ AI 返回 7 条新闻
+2026-05-21 15:01:39 [INFO] ✅ AI 筛选出 7 条交易相关消息，符合预期
+2026-05-21 15:01:39 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
+2026-05-21 15:01:39 [INFO] 📦 JSON 已保存: reports/2026-05-21-23.json
+2026-05-21 15:01:39 [INFO] ✅ AI 筛选完成，共 7 条交易相关消息
