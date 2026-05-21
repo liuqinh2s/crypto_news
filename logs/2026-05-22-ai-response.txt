@@ -1,23 +1,21 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2055, prompt_tokens=16003, total_tokens=18058, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=858, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14851)
+content length: 3171
+============================================================
 {
-  "date": "2026-05-22",
-  "hour": "00",
   "news": [
     {
       "title": "HYPE新高破60美元",
       "summary": "HYPE代币创下历史新高突破60美元，华尔街对Hyperliquid的需求激增。Hyperliquid ETF产品吸引了2550万美元资金流入。HYPE是本轮反弹的领涨币种，交易员正在为波动率突破布局。可能影响HYPE及相关DeFi币种。看多信号：创历史新高显示强劲买盘。",
       "reason": "HYPE创历史新高是直接价格事件，具有交易价值。对比历史消息中HYPE领涨但未明确新高，此为更新。",
       "category": "项目更新",
-      "impact_coins": [
-        "HYPE"
-      ],
+      "impact_coins": ["HYPE"],
       "signal": "bullish",
       "impact_level": 4,
-      "sources": [
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/402203/hype-token-new-record-high-wall-street-demand-hyperliquid?utm_source=rss&utm_medium=rss"
-        }
-      ],
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/402203/hype-token-new-record-high-wall-street-demand-hyperliquid?utm_source=rss&utm_medium=rss"}],
       "urgency": "hours"
     },
     {
@@ -25,17 +23,10 @@
       "summary": "Bloomberg报道，比特币ETF持有者在市场复苏时倾向于卖出。随着BTC从低点反弹，ETF资金出现净流出迹象。这可能限制短期上涨空间，形成抛压。看空信号：ETF资金流出意味着机构获利了结。",
       "reason": "直接涉及ETF资金流向，影响BTC价格。历史消息中未明确提及此观点。",
       "category": "ETF机构",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bearish",
       "impact_level": 3,
-      "sources": [
-        {
-          "name": "Bloomberg Crypto",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-21/for-bitcoin-etf-holders-a-market-recovery-is-a-reason-to-sell"
-        }
-      ],
+      "sources": [{"name": "Bloomberg Crypto", "url": "https://www.bloomberg.com/news/articles/2026-05-21/for-bitcoin-etf-holders-a-market-recovery-is-a-reason-to-sell"}],
       "urgency": "hours"
     },
     {
@@ -43,17 +34,10 @@
       "summary": "国会议员提出法案将战略比特币储备编入法律，获得两党支持。此举可能推动美国政府正式持有比特币作为储备资产，长期看多比特币。但法案仍处于早期阶段，需关注立法进展。看多信号。",
       "reason": "重大监管利好提案，影响BTC。历史有议员提出类似法案，但新素材提及两党支持及具体法案名称，属重要更新。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bullish",
       "impact_level": 4,
-      "sources": [
-        {
-          "name": "Bitcoin Magazine",
-          "url": "https://bitcoinmagazine.com/news/us-bill-codify-strategic-bitcoin-reserve"
-        }
-      ],
+      "sources": [{"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/us-bill-codify-strategic-bitcoin-reserve"}],
       "urgency": "days"
     },
     {
@@ -61,18 +45,10 @@
       "summary": "MoonPay宣布收购Decent并推出MoonPay Trade，为银行提供代币化资产和DeFi服务。这是传统金融机构进入加密领域的新进展，可能带来更多合规资金流入。中性偏多信号。",
       "reason": "机构扩张利好整个市场，但影响缓慢。历史消息中MoonPay扩展已有提及，但收购和新平台是具体更新。",
       "category": "ETF机构",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 2,
-      "sources": [
-        {
-          "name": "The Block",
-          "url": "https://www.theblock.co/post/402206/moonpay-announces-fourth-acquisition-of-the-year-with-decent-as-it-launches-moonpay-trade?utm_source=rss&utm_medium=rss"
-        }
-      ],
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/402206/moonpay-announces-fourth-acquisition-of-the-year-with-decent-as-it-launches-moonpay-trade?utm_source=rss&utm_medium=rss"}],
       "urgency": "days"
     },
     {
@@ -80,18 +56,10 @@
       "summary": "土耳其股市暴跌触发全市场熔断，反映新兴市场风险加剧。地缘政治紧张（伊朗事件）和全球流动性担忧可能压制风险资产，加密货币短期承压。看空信号。",
       "reason": "宏观经济风险事件，间接影响BTC和ETH等风险资产。历史消息未提及此具体事件。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 3,
-      "sources": [
-        {
-          "name": "金色财经",
-          "url": "https://jinse.com.cn/lives/513835.html"
-        }
-      ],
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513835.html"}],
       "urgency": "hours"
     },
     {
@@ -99,21 +67,11 @@
       "summary": "美联储提出限制加密公司获得主账户的规则草案，此举可能阻碍银行与加密企业的合作，增加合规成本。偏空信号，但需等待最终规则。",
       "reason": "监管政策压制，影响加密行业基础设施。历史消息已出现，但新素材提供了更多细节（如Trump order后），属更新。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 3,
-      "sources": [
-        {
-          "name": "CoinTelegraph",
-          "url": "https://cointelegraph.com/news/fed-seeks-input-on-limited-payment-accounts-after-trump-order?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        }
-      ],
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/fed-seeks-input-on-limited-payment-accounts-after-trump-order?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
       "urgency": "days"
     }
-  ],
-  "total_fetched": 67,
-  "generated_at": "2026-05-22T00:01:15.760356+08:00"
+  ]
 }
