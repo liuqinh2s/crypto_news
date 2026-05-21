@@ -1735,3 +1735,103 @@ content length: 3616
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1950, prompt_tokens=10319, total_tokens=12269, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1422, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9167)
+content length: 1385
+============================================================
+{
+  "news": [
+    {
+      "title": "Silvergate前CEO与SEC和解",
+      "summary": "Silvergate Bank前CEO Alan Lane与美国SEC就财务报表误导指控达成和解，支付罚款但未承认或否认指控。该和解标志着Silvergate倒闭相关的监管调查可能接近尾声，消除了部分不确定性。对加密银行板块情绪有修复作用，可能间接利好BTC和ETH等主流币。中性偏多信号。",
+      "reason": "优先级一-监管动态：重要加密银行案件和解，消除不确定性，可能提振市场对加密银行合规前景的信心。首次出现，未重复。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/silvergates-fraher-breaks-silence-on-settlement-with-genslers-sec"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国制裁锡那罗亚贩毒集团加密洗钱网络",
+      "summary": "美国财政部对与锡那罗亚贩毒集团相关的现金转加密货币洗钱网络实施制裁，涉及利用加密ATM和场外交易商将毒资转换为加密资产。此举显示监管机构加强对加密领域非法金融的打击，短期可能引发合规担忧，对隐私币和与非法活动关联的币种形成压力。轻微看空信号，但影响范围有限。",
+      "reason": "优先级一-监管动态：美国制裁直接指向加密洗钱，可能引发短期市场恐慌，但影响有限。首次出现。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "XMR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402135/us-sanctions-sinaloa-cartel-linked-cash-to-crypto-laundering-network-tied-to-fentanyl-trafficking"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近期历史消息重复度高，多数Binance公告、SpaceX IPO、伊朗和平谈判等已在历史中出现。仅筛选出两条具有新交易信号的消息，其余均为非交易相关或重复内容。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1748, prompt_tokens=10319, total_tokens=12067, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=939, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10240), prompt_cache_hit_tokens=10240, prompt_cache_miss_tokens=79)
+content length: 2125
+============================================================
+{
+  "news": [
+    {
+      "title": "美国制裁锡那罗亚贩毒集团加密洗钱网络",
+      "summary": "美国财政部对锡那罗亚贩毒集团相关的现金转加密货币洗钱网络实施制裁，该网络涉及芬太尼贩运。这可能加剧市场对加密货币非法用途的监管担忧，短期利空BTC及稳定币，但影响范围有限。",
+      "reason": "监管政策直接打击加密洗钱，符合优先级一监管动态，偏空信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/402135/us-sanctions-sinaloa-cartel-linked-cash-to-crypto-laundering-network-tied-to-fentanyl-trafficking"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "IG Europe与Bitpanda合作扩大欧盟加密服务",
+      "summary": "IG Europe将利用Bitpanda的基础设施向欧盟客户提供加密交易服务，源于客户需求增长。这显示传统金融机构持续采用加密货币，利多BTC、ETH等主流币，中期利好信号。",
+      "reason": "机构动向，传统金融巨头扩展加密业务，符合优先级二，看多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/402104/ig-europe-bitpanda-expand-crypto-offering-eu-citing-client-demand"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Silvergate前CEO就SEC和解打破沉默",
+      "summary": "Silvergate前CEO Fraher就此前与SEC的和解发表评论，涉及加密货币银行监管问题。该消息可能引发对加密银行合规的讨论，但无实质新监管行动，影响有限，中性偏空。",
+      "reason": "监管相关人物表态，但非新措施，影响较弱，中性信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/silvergates-fraher-breaks-silence-on-settlement-with-genslers-sec"}],
+      "urgency": "days"
+    },
+    {
+      "title": "密苏里州起诉CoinFlip加密ATM运营商",
+      "summary": "密苏里州对加密ATM运营商CoinFlip提起诉讼，指控其违反州法律。该事件仅影响特定公司，对整体市场情绪影响微乎其微，轻微利空。",
+      "reason": "地方监管个案，影响范围小，符合排除项但仍有微弱信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [{"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tjduff/missouri_sues_coinflip_crypto_atm_operator_calls/"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于大量消息（如Binance公告、恐惧贪婪指数未变、重复新闻报道）已被历史消息覆盖，筛选后仅剩4条新消息，符合输出要求。"
+}

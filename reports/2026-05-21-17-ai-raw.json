@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-21",
+  "hour": "17",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10319,
+    "completion_tokens": 1748,
+    "total_tokens": 12067
+  },
+  "content_length": 2125,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"美国制裁锡那罗亚贩毒集团加密洗钱网络\",\n      \"summary\": \"美国财政部对锡那罗亚贩毒集团相关的现金转加密货币洗钱网络实施制裁，该网络涉及芬太尼贩运。这可能加剧市场对加密货币非法用途的监管担忧，短期利空BTC及稳定币，但影响范围有限。\",\n      \"reason\": \"监管政策直接打击加密洗钱，符合优先级一监管动态，偏空信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"USDT\", \"USDC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/402135/us-sanctions-sinaloa-cartel-linked-cash-to-crypto-laundering-network-tied-to-fentanyl-trafficking\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"IG Europe与Bitpanda合作扩大欧盟加密服务\",\n      \"summary\": \"IG Europe将利用Bitpanda的基础设施向欧盟客户提供加密交易服务，源于客户需求增长。这显示传统金融机构持续采用加密货币，利多BTC、ETH等主流币，中期利好信号。\",\n      \"reason\": \"机构动向，传统金融巨头扩展加密业务，符合优先级二，看多信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/402104/ig-europe-bitpanda-expand-crypto-offering-eu-citing-client-demand\"}],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Silvergate前CEO就SEC和解打破沉默\",\n      \"summary\": \"Silvergate前CEO Fraher就此前与SEC的和解发表评论，涉及加密货币银行监管问题。该消息可能引发对加密银行合规的讨论，但无实质新监管行动，影响有限，中性偏空。\",\n      \"reason\": \"监管相关人物表态，但非新措施，影响较弱，中性信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/news/silvergates-fraher-breaks-silence-on-settlement-with-genslers-sec\"}],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"密苏里州起诉CoinFlip加密ATM运营商\",\n      \"summary\": \"密苏里州对加密ATM运营商CoinFlip提起诉讼，指控其违反州法律。该事件仅影响特定公司，对整体市场情绪影响微乎其微，轻微利空。\",\n      \"reason\": \"地方监管个案，影响范围小，符合排除项但仍有微弱信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 1,\n      \"sources\": [{\"name\": \"Reddit\", \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1tjduff/missouri_sues_coinflip_crypto_atm_operator_calls/\"}],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"由于大量消息（如Binance公告、恐惧贪婪指数未变、重复新闻报道）已被历史消息覆盖，筛选后仅剩4条新消息，符合输出要求。\"\n}"
+}
