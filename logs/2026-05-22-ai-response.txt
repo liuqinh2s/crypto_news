@@ -1584,3 +1584,93 @@ content length: 2127
   ],
   "note": "本轮消息多为重复或低影响事件，仅筛选出3条新消息。恐惧贪婪指数28与前值一致，Binance公告已全部在历史中出现。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1942, prompt_tokens=10539, total_tokens=12481, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1514, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9387)
+content length: 1035
+============================================================
+{
+  "news": [
+    {
+      "title": "野村预计美联储2026年维持利率不变",
+      "summary": "野村证券预测美联储2026年将维持利率不变，目前市场对美联储6月维持利率的概率已超过96%。若利率长期保持不变，将有利于风险资产，加密货币流动性环境维持宽松。该消息可能影响BTC、ETH等主流币种，但已被市场部分定价，信号中性偏多。",
+      "reason": "属于宏观经济消息，影响市场对利率路径的预期，对加密市场有间接影响，但预期已被消化，影响有限。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513907.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Polymarket拟进军日本市场",
+      "summary": "预测市场平台Polymarket正在寻求在日本获得运营许可，目标是在2030年前获批。日本监管此前对预测市场严格限制，此举可能为Polymarket打开亚洲市场，但时间跨度较长，短期影响有限。主要影响Polymarket原生代币POLY，长期中性偏多。",
+      "reason": "属于监管政策动态，涉及Polymarket的合规进展，但目标时间遥远，对当前交易影响微弱。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513908.html"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分与历史消息重复，仅筛选出两条低影响消息，建议关注更及时的行情数据。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2111, prompt_tokens=10539, total_tokens=12650, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1360, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=43)
+content length: 1841
+============================================================
+{
+  "news": [
+    {
+      "title": "FET 突破 0.2 美元",
+      "summary": "FET 价格突破 0.2 美元，24 小时涨幅明显。作为 AI 概念代币，该上涨可能受特朗普推迟 AI 行政令消息刺激。短期看多，但注意 AI 板块波动性大，需警惕获利回吐。影响币种：FET。",
+      "reason": "价格异动，属于市场结构变化，可能开启短期上行趋势。",
+      "category": "市场结构",
+      "impact_coins": ["FET"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513909.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "野村预计美联储2026年维持利率不变",
+      "summary": "野村证券预测美联储将在2026年全年维持利率不变，意味着降息预期落空。这对风险资产（包括加密货币）构成宏观压制，利空 BTC、ETH 等。但市场此前已有预期，短期影响有限。",
+      "reason": "宏观经济预期影响资金流向，利率不变抑制风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513907.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普推迟人工智能行政令",
+      "summary": "特朗普政府决定推迟出台人工智能行政令，暂缓对 AI 行业的监管。这利好 AI 相关代币（FET、AGIX、RNDR 等），因为监管不确定性降低，可能刺激短期炒作。但需注意政策最终方向仍不确定。",
+      "reason": "政策动向直接影响 AI 板块市场情绪，监管暂缓为利好。",
+      "category": "监管政策",
+      "impact_coins": ["FET", "AGIX", "RNDR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513906.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket 寻求日本运营许可",
+      "summary": "预测市场平台 Polymarket 正寻求在日本获得运营批准，目标 2030 年前获批。尽管日韩监管态度不同，但此举显示平台积极合规，长期利好。短期对代币 POLY 影响有限，但为潜在利好信号。",
+      "reason": "监管进展影响 Polymarket 代币价值，合规化是积极信号。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513908.html"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前时段新闻重复较多，仅筛选出4条有差异化价值的信息。恐惧贪婪指数28已多次出现，不再重复。Binance公告均为旧闻，无法提供新交易信号。"
+}
