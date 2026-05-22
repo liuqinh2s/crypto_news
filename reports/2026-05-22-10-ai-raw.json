@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-22",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10660,
+    "completion_tokens": 1601,
+    "total_tokens": 12261
+  },
+  "content_length": 1893,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC流动性不平衡暗示涨至8万\",\n      \"summary\": \"CoinTelegraph分析显示，比特币流动性指标出现不平衡，卖方流动性枯竭而买方流动性充足，历史上类似模式通常导致价格快速上涨。当前BTC在71k附近震荡，若突破可能奔向80k。该信号看多BTC，短期有望反弹。影响币种：BTC。\",\n      \"reason\": \"直接影响行情的链上指标信号，流动性不平衡是短线交易者关注的关键指标。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/markets/bitcoin-liquidity-imbalance-eyes-a-sharp-rally-to-80k-next-heres-why\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"CME XRP期货规模达628.7亿美元\",\n      \"summary\": \"据Bitcoin News报道，芝加哥商品交易所（CME）的XRP期货合约名义规模已达到628.7亿美元，创历史新高，显示机构投资者对XRP的持仓兴趣大幅上升。这一数据表明机构持续加仓XRP，可能推动XRP价格进一步上涨。看多XRP。\",\n      \"reason\": \"优先级二：机构动向，CME期货规模增长反映机构需求，对XRP构成利好。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"雪球加密\", \"url\": \"https://news.google.com/rss/articles/CBMixgFBVV95cUxOa3NRVS1jbmdsWXE2aWxKczhIR2RaSm5OUFE4aXhDZ2pGYzl0LUNSbi1ERkdEMXJGZDdQa3Z4Z3JSVVJCTXExTlFsbzRlZzhSTUdTZVk5azFKbzJPUkdBOU8xQjQwUlU5M2U4UTZjQ3FKa1NMekF3LWFQZlppbGM3dWZ1aGdzdHVjcUlwbGdHTm1UdzU3bmNZTGlHMW5XcDFwSkkxcmZjaFNESUxBZ3hjdndnVzFXRmRBdnVwUDlBZHU4VDk0N2c?oc=5\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"以太坊L2 Zero Network关停\",\n      \"summary\": \"以太坊Layer 2项目Zero Network宣布将逐步关停，成为又一批关停的协议之一。关停原因未明，但可能削弱以太坊L2生态的完整性。短期对ETH及同类L2代币（如OP、ARB）构成轻微利空，但影响有限。中性偏空。\",\n      \"reason\": \"优先级一：项目方重大事件，关停可能引发对L2可持续性的担忧，但体量较小。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\", \"OP\", \"ARB\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/402296/zero-network-wind-down\"}\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前有效消息较少，仅筛选出3条新且有交易价值的消息。其余素材多与历史重复或缺乏交易关联性。\"\n}"
+}

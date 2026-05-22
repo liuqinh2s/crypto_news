@@ -1473,3 +1473,54 @@ content length: 2941
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1601, prompt_tokens=10660, total_tokens=12261, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=760, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9508)
+content length: 1893
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC流动性不平衡暗示涨至8万",
+      "summary": "CoinTelegraph分析显示，比特币流动性指标出现不平衡，卖方流动性枯竭而买方流动性充足，历史上类似模式通常导致价格快速上涨。当前BTC在71k附近震荡，若突破可能奔向80k。该信号看多BTC，短期有望反弹。影响币种：BTC。",
+      "reason": "直接影响行情的链上指标信号，流动性不平衡是短线交易者关注的关键指标。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-liquidity-imbalance-eyes-a-sharp-rally-to-80k-next-heres-why"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CME XRP期货规模达628.7亿美元",
+      "summary": "据Bitcoin News报道，芝加哥商品交易所（CME）的XRP期货合约名义规模已达到628.7亿美元，创历史新高，显示机构投资者对XRP的持仓兴趣大幅上升。这一数据表明机构持续加仓XRP，可能推动XRP价格进一步上涨。看多XRP。",
+      "reason": "优先级二：机构动向，CME期货规模增长反映机构需求，对XRP构成利好。",
+      "category": "ETF机构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "雪球加密", "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa3NRVS1jbmdsWXE2aWxKczhIR2RaSm5OUFE4aXhDZ2pGYzl0LUNSbi1ERkdEMXJGZDdQa3Z4Z3JSVVJCTXExTlFsbzRlZzhSTUdTZVk5azFKbzJPUkdBOU8xQjQwUlU5M2U4UTZjQ3FKa1NMekF3LWFQZlppbGM3dWZ1aGdzdHVjcUlwbGdHTm1UdzU3bmNZTGlHMW5XcDFwSkkxcmZjaFNESUxBZ3hjdndnVzFXRmRBdnVwUDlBZHU4VDk0N2c?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊L2 Zero Network关停",
+      "summary": "以太坊Layer 2项目Zero Network宣布将逐步关停，成为又一批关停的协议之一。关停原因未明，但可能削弱以太坊L2生态的完整性。短期对ETH及同类L2代币（如OP、ARB）构成轻微利空，但影响有限。中性偏空。",
+      "reason": "优先级一：项目方重大事件，关停可能引发对L2可持续性的担忧，但体量较小。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "OP", "ARB"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/402296/zero-network-wind-down"}
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前有效消息较少，仅筛选出3条新且有交易价值的消息。其余素材多与历史重复或缺乏交易关联性。"
+}
