@@ -1524,3 +1524,63 @@ content length: 1893
   ],
   "note": "当前有效消息较少，仅筛选出3条新且有交易价值的消息。其余素材多与历史重复或缺乏交易关联性。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1666, prompt_tokens=10029, total_tokens=11695, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=721, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8877)
+content length: 2127
+============================================================
+{
+  "news": [
+    {
+      "title": "美投资20亿量子计算",
+      "summary": "美国宣布投入20亿美元支持量子计算公司，此举源于对比特币未来可能受量子攻击的担忧。Glassnode报告称近5000亿美元BTC面临量子威胁。短期对BTC影响中性偏空，因引发安全担忧，但长期可能促进量子抗性升级。影响币种：BTC。",
+      "reason": "量子计算威胁比特币安全，属于重大技术发展，可能影响市场情绪和长期BTC价值存储叙事。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm50azRnQTFScUI0THA1YUQyVnNTVzFPLVRlQXFKcVpjUGpQUmFtZExWUnAzWVRRQXlpWkZfNW5sMHdnTVFnb0lMOWVUel9Ub0ZpN2NtcktuNVRUSDNVNDBFSGZWd0p2c3lTZzZnQm5mYWhuTl9GRngyOG9aSUhNNG82ajVKdkN6WVpoUzZ6UE5UZw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Ark Invest再买Bullish股票",
+      "summary": "Ark Invest（Cathie Wood旗下）在Bullish股价下跌3%时再买入500万美元股份。Bullish是合规加密交易平台，此举显示机构对加密基础设施的信心。短期对加密市场情绪有微小提振，但无直接影响。影响币种：无直接，但利好整体加密市场。",
+      "reason": "Ark Invest是知名加密友好机构，其买入行为可视为机构动向，属于优先级二的中期影响。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/402302/ark-invest-buys-5-million-bullish?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Elon Musk持有三种加密货币",
+      "summary": "媒体梳理发现Elon Musk仅公开确认持有三种加密货币：BTC、DOGE和某代币。Musk作为KOL，其持仓透明度对市场情绪影响有限，但可能增强DOGE持有者信心。短期无直接交易信号。",
+      "reason": "虽涉及KOL，但消息仅为梳理，非新动态，影响微弱。",
+      "category": "市场情绪",
+      "impact_coins": ["DOGE", "BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "디지털투데이",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVU1fVFF2NmFobnV1V2xfcDgzOHpldHRoYmxWWnZvNFlRRldGZVczbXZkaFl0Z0ZiUjlhVmtPc292VHJlMTVJUGFzVUVid1FkWERic3VwUUpwQWotSllzeVVrUllkejcyaE8yNFFINjJ3Y0YzQnZ2OGhfRjBGS2lta0ZDTkFoRjBfMVVGbVNwUnBiZmc1U3dieGYyV1V0cDdJZUZN?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮消息多为重复或低影响事件，仅筛选出3条新消息。恐惧贪婪指数28与前值一致，Binance公告已全部在历史中出现。"
+}

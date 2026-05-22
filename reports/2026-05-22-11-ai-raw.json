@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-22",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10029,
+    "completion_tokens": 1666,
+    "total_tokens": 11695
+  },
+  "content_length": 2127,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"美投资20亿量子计算\",\n      \"summary\": \"美国宣布投入20亿美元支持量子计算公司，此举源于对比特币未来可能受量子攻击的担忧。Glassnode报告称近5000亿美元BTC面临量子威胁。短期对BTC影响中性偏空，因引发安全担忧，但长期可能促进量子抗性升级。影响币种：BTC。\",\n      \"reason\": \"量子计算威胁比特币安全，属于重大技术发展，可能影响市场情绪和长期BTC价值存储叙事。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm50azRnQTFScUI0THA1YUQyVnNTVzFPLVRlQXFKcVpjUGpQUmFtZExWUnAzWVRRQXlpWkZfNW5sMHdnTVFnb0lMOWVUel9Ub0ZpN2NtcktuNVRUSDNVNDBFSGZWd0p2c3lTZzZnQm5mYWhuTl9GRngyOG9aSUhNNG82ajVKdkN6WVpoUzZ6UE5UZw?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Ark Invest再买Bullish股票\",\n      \"summary\": \"Ark Invest（Cathie Wood旗下）在Bullish股价下跌3%时再买入500万美元股份。Bullish是合规加密交易平台，此举显示机构对加密基础设施的信心。短期对加密市场情绪有微小提振，但无直接影响。影响币种：无直接，但利好整体加密市场。\",\n      \"reason\": \"Ark Invest是知名加密友好机构，其买入行为可视为机构动向，属于优先级二的中期影响。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/402302/ark-invest-buys-5-million-bullish?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Elon Musk持有三种加密货币\",\n      \"summary\": \"媒体梳理发现Elon Musk仅公开确认持有三种加密货币：BTC、DOGE和某代币。Musk作为KOL，其持仓透明度对市场情绪影响有限，但可能增强DOGE持有者信心。短期无直接交易信号。\",\n      \"reason\": \"虽涉及KOL，但消息仅为梳理，非新动态，影响微弱。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"DOGE\", \"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"디지털투데이\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiowFBVV95cUxPVU1fVFF2NmFobnV1V2xfcDgzOHpldHRoYmxWWnZvNFlRRldGZVczbXZkaFl0Z0ZiUjlhVmtPc292VHJlMTVJUGFzVUVid1FkWERic3VwUUpwQWotSllzeVVrUllkejcyaE8yNFFINjJ3Y0YzQnZ2OGhfRjBGS2lta0ZDTkFoRjBfMVVGbVNwUnBiZmc1U3dieGYyV1V0cDdJZUZN?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮消息多为重复或低影响事件，仅筛选出3条新消息。恐惧贪婪指数28与前值一致，Binance公告已全部在历史中出现。\"\n}"
+}
