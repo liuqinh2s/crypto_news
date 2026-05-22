@@ -1396,3 +1396,80 @@ content length: 3372
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4414, prompt_tokens=11472, total_tokens=15886, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3126, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10320)
+content length: 2941
+============================================================
+{
+  "news": [
+    {
+      "title": "XRP期货规模达628亿美元",
+      "summary": "CME上XRP期货合约规模达到628.7亿美元，显示机构持仓显著增加。机构通过合规渠道增加XRP敞口，通常被视为看涨信号，可能推动XRP价格进一步上涨。但需注意大规模持仓也可能包含对冲头寸，整体偏多。",
+      "reason": "机构持仓增长是中期利多信号，属于优先级二机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "雪球加密", "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa3NRVS1jbmdsWXE2aWxKczhIR2RaSm5OUFE4aXhDZ2pGYzl0LUNSbi1ERkdEMXJGZDdQa3Z4Z3JSVVJCTXExTlFsbzRlZzhSTUdTZVk5azFKbzJPUkdBOU8xQjQwUlU5M2U4UTZjQ3FKa1NMekF3LWFQZlppbGM3dWZ1aGdzdHVjcUlwbGdHTm1UdzU3bmNZTGlHMW5XcDFwSkkxcmZjaFNESUxBZ3hjdndnVzFXRmRBdnVwUDlBZHU4VDk0N2c?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z巨鲸买入317万HYPE",
+      "summary": "与a16z关联的巨鲸地址累计买入317万枚HYPE，浮盈3300万美元。巨鲸大额买入是强烈看涨信号，表明机构或大户看好HYPE未来走势。此前已有空头平仓亏损，形成多头共振，HYPE价格有望继续上行。",
+      "reason": "巨鲸动向直接反映大资金态度，属于优先级一链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513882.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SEC委员:代币化股票豁免有限",
+      "summary": "美SEC委员Hester Peirce表示，代币化股票创新豁免政策预计仅适用于链上权益类产品。这为证券型代币提供了更清晰的监管框架，利好合规的RWA项目（如Ondo、Pendle等）和交易所合规业务。短期中性偏多。",
+      "reason": "监管政策明确，影响RWA赛道及合规平台，属于优先级一监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["ONDO", "MKR", "AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513878.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "HYPE空头平仓亏损699万美元",
+      "summary": "某实体在60美元上方平仓HYPE空头头寸，亏损超699万美元。空头止损意味着买盘压力增加，可能引发空头挤压，推动价格短期上涨。结合a16z买入，HYPE多头情绪浓厚。",
+      "reason": "空头大额亏损平仓是典型轧空信号，短期利多，属于优先级一链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513877.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Tom Lee:ETH是金融与AI结算层",
+      "summary": "Fundstrat联合创始人Tom Lee表示，以太坊将被确保成为金融和AI未来结算层，继续看好ETH。知名分析师公开看多，可能提振市场情绪，吸引散户买入。但需注意短期价格是否已反应。",
+      "reason": "KOL观点影响市场情绪，属于优先级三市场情绪，但因其知名度和具体理由，有一定参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513880.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国审查Polymarket预测平台",
+      "summary": "韩国通信标准委员会对预测市场平台Polymarket启动审查，可能限制其在韩国运营。这反映监管对新兴金融平台的收紧，可能对预测市场概念代币（如REP）构成利空，但对主流币影响有限。",
+      "reason": "监管机构对新兴金融平台采取行动，属于优先级一监管政策，但直接影响币种较小。",
+      "category": "监管政策",
+      "impact_coins": ["REP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/513883.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
