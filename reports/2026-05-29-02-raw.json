@@ -1,0 +1,337 @@
+{
+  "date": "2026-05-29",
+  "hour": "02",
+  "total": 47,
+  "fetched_at": "2026-05-29T02:00:43.820462+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Hyperliquid's pre-IPO SpaceX contracts suffers 45% flash crash, liquidating $1.5 million",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/28/hyperliquid-s-pre-ipo-spacex-contracts-suffers-45-flash-crash-liquidating-usd1-5-million",
+      "published": "Thu, 28 May 2026 17:28:57 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "UniCredit warns Europe may struggle to contain crypto-bank crisis under MiCA rules",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/28/unicredit-warns-europe-may-struggle-to-contain-crypto-bank-crisis-under-mica-rules",
+      "published": "Thu, 28 May 2026 16:50:24 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Toddlers learn by falling: Why DeFi's $20 billion TVL drop is just a market stress-test",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/28/toddlers-learn-by-falling-why-defi-s-usd20-billion-tvl-drop-is-just-a-market-stress-test",
+      "published": "Thu, 28 May 2026 16:33:56 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Sui blockchain suffers another network outage as transactions grind to a halt",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/05/28/sui-blockchain-suffers-another-network-outage-as-transactions-grind-to-a-halt",
+      "published": "Thu, 28 May 2026 16:11:04 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Kalshi’s turn: Prediction markets platform sues Minnesota over law going into effect in August",
+      "summary": "<p>Following the CFTC's suit, Kalshi has sued the state of Minnesota after Governor Tim Walz signed a law blocking prediction markets.</p>",
+      "link": "https://www.theblock.co/post/402937/kalshis-prediction-markets-sues-minnesota-law-ban?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 28 May 2026 13:55:31 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Tether’s USAT supply grows 540% month-over-month, latest attestation shows",
+      "summary": "<p>Tether’s USA₮ supply grew six-fold month-over-month to over 140 million tokens, according to Anchorage Digital's latest attestation.</p>",
+      "link": "https://www.theblock.co/post/402933/tethers-usat-supply-grows-540-month-over-month-latest-attestation-shows?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 28 May 2026 13:38:59 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Hyperliquid-based prop trading platform Hypernova raises $3 million in pre-seed funding",
+      "summary": "<p>Hyperliquid-based prop trading platform Hypernova says it offers \"instant payouts\" and plans to publicly launch within the next two months.</p>",
+      "link": "https://www.theblock.co/post/402923/hyperliquid-prop-trading-platform-hypernova-crypto-funding?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 28 May 2026 13:30:02 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Grayscale’s Hyperliquid ETF negotiating ‘seed’ investment of roughly $115 million in HYPE tokens",
+      "summary": "<p>Earlier this month, 21Shares and Bitwise Investments became the first firms to launch HYPE-based exchange-traded funds.</p>",
+      "link": "https://www.theblock.co/post/402903/grayscale-hyperliquid-etf-negotiating-seed-investment-115-million-hype-tokens?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 28 May 2026 12:22:03 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Whales Are Pulling Back as Activity 'Mirrors' 2022 Bear Market: Analysts",
+      "summary": "Current Bitcoin whale activity is similar in nature to the last bear market in 2022 when BTC fell precipitously, according to on-chain data.",
+      "link": "https://decrypt.co/369378/bitcoin-whales-pulling-back-activity-mirrors-2022-bear-market",
+      "published": "Thu, 28 May 2026 17:58:54 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "What the Clarity Act Means for the Rest of the World",
+      "summary": "The Senate’s crypto bill has supporters excited—and opponents concerned—about the bill’s potential reverberations beyond America’s borders.",
+      "link": "https://decrypt.co/369245/what-clarity-act-means-rest-of-world",
+      "published": "Thu, 28 May 2026 17:52:49 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Google Engineer Charged Over $2.75 Million in Alleged Polymarket Insider Trading Bets",
+      "summary": "The Google employee case is the second federal prosecution tied to alleged prediction market insider trading on Polymarket.",
+      "link": "https://decrypt.co/369359/google-employee-charged-alleged-polymarket-insider-trading",
+      "published": "Thu, 28 May 2026 16:27:22 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "P2P.org launches real-time data stream for Sui and Hyperliquid",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"P2P.org launches real-time data stream for Sui and Hyperliquid\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy8yNjAyMjAyNS00LmpwZw==.jpg\" /></p><p>P2P.org, a blockchain infrastructure provider operating validators across 40+ proof-of-stake networks since 2018, today launched Syncro Data Stream, a real-time blockchain data stream fo",
+      "link": "https://cointelegraph.com/press-releases/p2porg-launches-real-time-data-stream-for-sui-and-hyperliquid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 28 May 2026 16:57:03 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "Coinbase将O添加到上币路线图",
+      "summary": "【Coinbase将O添加到上币路线图】金色财经报道，5月29日，Coinbase 将 o1「.」exchange（O）添加到上币路线图。<p>原文链接: <a href=\"https://x.com/CoinbaseMarkets/status/2060033736381436400\">https://x.com/CoinbaseMarkets/status/2060033736381436400</a></p>",
+      "link": "https://jinse.com.cn/lives/514809.html",
+      "published": "Thu, 28 May 2026 16:26:55 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国两党重划选区争夺白热化",
+      "summary": "【美国两党重划选区争夺白热化】金色财经报道，5月29日，美国将于11月迎来国会中期选举，目前民主、共和两党正试图通过操纵选区边界获取选举上的优势，并为此大打官司。5月26日，在亚拉巴马州和南卡罗来纳州，美国两党“重划选区”之争日趋白热化。美国媒体分析，共和党人在当前的“选区版图战”中局面占优，有望额外新增约10个国会众议院议席，民主党人则有望利用特朗普支持率低迷、伊朗战事引发油价飙涨等因素争取选民。专家表示，现在这场选区重划的本质，是极限党争，是对民意的极大无视，也再次暴露了美式民主的虚伪性。 (CCTV国际时讯)<p>原文链接: <a href=\"https://www.cls.cn/detail/2384715\">https://www.cls.cn/detail/2384715</a></p>",
+      "link": "https://jinse.com.cn/lives/514808.html",
+      "published": "Thu, 28 May 2026 16:23:43 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "渣打将ETH比作2001年亚马逊，维持年底4000美元目标价",
+      "summary": "【渣打将ETH比作2001年亚马逊，维持年底4000美元目标价】金色财经报道，渣打银行全球数字资产研究主管 Geoffrey Kendrick 发布报告，将以太坊当前处境类比 2001 年互联网泡沫破裂时的亚马逊。他引用贝索斯「股票不是公司，公司也不是股票」的名言指出，尽管 ETH 价格较 2025 年 8 月高点已回落约 57% 至 2000 美元附近，但以太坊链上核心指标——交易笔数与以 ETH 计价的 TVL——均接近历史新高，基本面与价格的背离不可持续。Kendrick 认为 ETH 终将追赶内部指标的改善，并重申 2026 年底 4000 美元、2030 年底 4 万美元的目标价。 \n看涨逻辑的核心在于以太坊在稳定币与代币化 RWA 领域的主导地位：当前 54% 的稳定币部署于以太坊，贡献了今年约三分之一的链上交易与 60% 的 TVL，而稳定币总市值预计 2028 年底前将增长六倍至约 2 万亿美元；同时以太坊承载约 62% 的 RWA 与 68% 的链上贷款，该板块有望 50 倍增长。此外即将推出的以太坊经济区将降低跨链桥依赖并提升生态可组合性，叠加美国加密市场结构立法进",
+      "link": "https://jinse.com.cn/lives/514807.html",
+      "published": "Thu, 28 May 2026 16:22:58 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "CFTC bid to vacate order against Winklevoss' crypto exchange 'very unusual': ex-agency chief - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBFTGxaYTJidVpGZ19rV2d6bXVEQ3ZCbVM0S0Flem9DT0RoS1AwSTh3NHU5azQwaGFKWngzelJOUHBkckwxTVBzVmtjbS1Jb0ZCVVFDMWI1Q2dzNklBVUpqbEI3Ql9icTcxdU5Gcy1aSFdWbFh00gF6QVVfeXFMTmJtTlhIeTNSajVoWUM3b2QyRVliZXZ1QU5tdWpvZWlzejhCaV9SdWlMMF9hMERPb0Z1TGdVSmlOeXJGdWd6LUpSOEFLTUtNbTFjc3lxci1CTkdyUnVJRHU1RDNZZDV6UHU0X3F4XzFtbmZIb3ZpVmR3bXc?oc=5\" target=\"_blank\">CFTC bid to vacate order against Winklevoss' crypto exchange 'very unusual': ex-agency chief</a>&nbsp;&n",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFTGxaYTJidVpGZ19rV2d6bXVEQ3ZCbVM0S0Flem9DT0RoS1AwSTh3NHU5azQwaGFKWngzelJOUHBkckwxTVBzVmtjbS1Jb0ZCVVFDMWI1Q2dzNklBVUpqbEI3Ql9icTcxdU5Gcy1aSFdWbFh00gF6QVVfeXFMTmJtTlhIeTNSajVoWUM3b2QyRVliZXZ1QU5tdWpvZWlzejhCaV9SdWlMMF9hMERPb0Z1TGdVSmlOeXJGdWd6LUpSOEFLTUtNbTFjc3lxci1CTkdyUnVJRHU1RDNZZDV6UHU0X3F4XzFtbmZIb3ZpVmR3bXc?oc=5",
+      "published": "Thu, 28 May 2026 16:13:31 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "I guess you could say crypto got topped.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tqao76/i_guess_you_could_say_crypto_got_topped/\"> <img alt=\"I guess you could say crypto got topped.\" src=\"https://preview.redd.it/2dc0nn7c0x3h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=aed00bb956213ad9dd71ad548d5ac794a327ecc5\" title=\"I guess you could say crypto got topped.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/felya\"> /u/felya </a> <br /> <span><a href=\"https://i.redd",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tqao76/i_guess_you_could_say_crypto_got_topped/",
+      "published": "2026-05-28T17:41:05+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Kraken Launches Bitcoin Vault With up to 2.5% Annual Yield",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tq9n91/kraken_launches_bitcoin_vault_with_up_to_25/\"> <img alt=\"Kraken Launches Bitcoin Vault With up to 2.5% Annual Yield\" src=\"https://external-preview.redd.it/xvPoUvvrfuxhzxOEd_xfmBS1u9QuwCWOmljlMFV0_X0.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=6c884df057cb068576345b955b31e7123052b966\" title=\"Kraken Launches Bitcoin Vault With up to 2.5% Annual Yield\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https:/",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tq9n91/kraken_launches_bitcoin_vault_with_up_to_25/",
+      "published": "2026-05-28T17:05:58+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Is it \"smart\" to start now?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>As the title says, is it?</p> <p>Should someone who has 0 crypto assets in 2026 start investing in crpyto?</p> <p>I've been planning to invest in crypto for many years but postponed it each time due to different reasons yet i've been always impressed by the &quot;stability&quot; for the last few years and the belief that some have in this field.</p> <p>Yet, even though there are some strong opinions about investing in crpyto, there are many who believe that ente",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tq9h07/is_it_smart_to_start_now/",
+      "published": "2026-05-28T16:59:58+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Scary & unpopular fact: the total amount of none-purchased crypto that has been sold is likely approaching half a trillion dollars",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>There are 5 major types of none-purchased crypto</p> <p>Miners / Proof of Stakes: got none-purchased crypto from mining / staking</p> <p>Exchanges: got none-purchased crypto from trading fees, listing fees etc...</p> <p>Coin founders / coin unlocks / pre-mined: got none purchased crypto because they created it</p> <p>Hackers / scammers: got none purchased crypto due to hacking and scamming </p> <p>Government confiscation: got none pucrhased crypto due to confisc",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tqb6qi/scary_unpopular_fact_the_total_amount_of/",
+      "published": "2026-05-28T17:59:17+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "The Maths Behind Why We’ll Never Get Another True Alt Season... Hear Me Out!",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tqaizu/the_maths_behind_why_well_never_get_another_true/\"> <img alt=\"The Maths Behind Why We’ll Never Get Another True Alt Season... Hear Me Out!\" src=\"https://preview.redd.it/vcngeg3ryw3h1.png?width=140&amp;height=99&amp;auto=webp&amp;s=6688ce1f31afe130c0480d0be16dcb2781396de2\" title=\"The Maths Behind Why We’ll Never Get Another True Alt Season... Hear Me Out!\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tqaizu/the_maths_behind_why_well_never_get_another_true/",
+      "published": "2026-05-28T17:36:07+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Built p2psats — alerts for NIP-69 P2P trade orders across Nostr",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>The P2P bitcoin market today is fragmented across siloed platforms. Robosats users only see Robosats offers. lnp2pbot users only see lnp2pbot offers. Mostro the same. That fragmentation costs both sides real money: you need fiat in a hurry, post a sell order at a discount on your platform of choice, and hear crickets, even though there are probably users on another platform, or just lurkers, who would have taken it in a heartbeat if they'd known it existed. Mult",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1tqa99f/built_p2psats_alerts_for_nip69_p2p_trade_orders/",
+      "published": "2026-05-28T17:26:41+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Policymakers Are Giving Cake to Big Banks and Crypto and Leaving the Crumbs for Community Banks and Main Street - Better Markets",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNVhuY1JDalRpbUZnRjlmNGo1TXRicDFOZ0EzZUlVVTFZc1oxaUtKZkFDRW5STzJ5MjB6ZE5hanhEY05CUEhLbHJtNDZCdENaQ3QyQ1dWX0RlWm9KQUU2eHBpckduYl90ZC0tYnVtWXNQbTlvc0FlUmZ4UlBGYVVELXh1U2RFcTlvUkw1YjdBUXBQVWF3M3dVZXhJa1JVM3dFeDJPOURkUWxYekdjNXlNenBlLS1vakNubjBpakJmdmxPTU1NNmRNeG1vVzdEcnJiT2ZqQUpJb2lJMWNQS2hfQQ?oc=5\" target=\"_blank\">Policymakers Are Giving Cake to Big Banks and Crypto and Leaving the Crumbs for Community Banks and Main Street</a>&nbsp;&nbs",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNVhuY1JDalRpbUZnRjlmNGo1TXRicDFOZ0EzZUlVVTFZc1oxaUtKZkFDRW5STzJ5MjB6ZE5hanhEY05CUEhLbHJtNDZCdENaQ3QyQ1dWX0RlWm9KQUU2eHBpckduYl90ZC0tYnVtWXNQbTlvc0FlUmZ4UlBGYVVELXh1U2RFcTlvUkw1YjdBUXBQVWF3M3dVZXhJa1JVM3dFeDJPOURkUWxYekdjNXlNenBlLS1vakNubjBpakJmdmxPTU1NNmRNeG1vVzdEcnJiT2ZqQUpJb2lJMWNQS2hfQQ?oc=5",
+      "published": "Thu, 28 May 2026 17:03:45 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "CFTC bid to vacate order against Winklevoss' crypto exchange 'very unusual': ex-agency chief - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBFTGxaYTJidVpGZ19rV2d6bXVEQ3ZCbVM0S0Flem9DT0RoS1AwSTh3NHU5azQwaGFKWngzelJOUHBkckwxTVBzVmtjbS1Jb0ZCVVFDMWI1Q2dzNklBVUpqbEI3Ql9icTcxdU5Gcy1aSFdWbFh00gF6QVVfeXFMTmJtTlhIeTNSajVoWUM3b2QyRVliZXZ1QU5tdWpvZWlzejhCaV9SdWlMMF9hMERPb0Z1TGdVSmlOeXJGdWd6LUpSOEFLTUtNbTFjc3lxci1CTkdyUnVJRHU1RDNZZDV6UHU0X3F4XzFtbmZIb3ZpVmR3bXc?oc=5\" target=\"_blank\">CFTC bid to vacate order against Winklevoss' crypto exchange 'very unusual': ex-agency chief</a>&nbsp;&n",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFTGxaYTJidVpGZ19rV2d6bXVEQ3ZCbVM0S0Flem9DT0RoS1AwSTh3NHU5azQwaGFKWngzelJOUHBkckwxTVBzVmtjbS1Jb0ZCVVFDMWI1Q2dzNklBVUpqbEI3Ql9icTcxdU5Gcy1aSFdWbFh00gF6QVVfeXFMTmJtTlhIeTNSajVoWUM3b2QyRVliZXZ1QU5tdWpvZWlzejhCaV9SdWlMMF9hMERPb0Z1TGdVSmlOeXJGdWd6LUpSOEFLTUtNbTFjc3lxci1CTkdyUnVJRHU1RDNZZDV6UHU0X3F4XzFtbmZIb3ZpVmR3bXc?oc=5",
+      "published": "Thu, 28 May 2026 16:13:31 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "The Bitcoin Lost-and-Found - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdlpONnhaMktqQk85bEZ3TXNDOUZWT1NuWGlHaXotSnU2dDYtWnFjbFhwRk1HaVhoRUJGOW5HQzR4WmczdlVkR09MYXg4RWRFeWlSNkV5UTAtSmZ0ODN0MHp2Sk1mdU9FLWxYTlN2a2NrQ1FPUC02Mkh4b1NQdktNMDg5Ui1ac3hqNjVN?oc=5\" target=\"_blank\">The Bitcoin Lost-and-Found</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdlpONnhaMktqQk85bEZ3TXNDOUZWT1NuWGlHaXotSnU2dDYtWnFjbFhwRk1HaVhoRUJGOW5HQzR4WmczdlVkR09MYXg4RWRFeWlSNkV5UTAtSmZ0ODN0MHp2Sk1mdU9FLWxYTlN2a2NrQ1FPUC02Mkh4b1NQdktNMDg5Ui1ac3hqNjVN?oc=5",
+      "published": "Thu, 28 May 2026 17:25:32 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Atlanta Federal Reserve cuts first-quarter GDP estimate to 1.6% as consumer spending softens - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5xanVzQlFKbGZYdFdVbTVrYzB4TTlrNjBrRUtyV1owckx2aUYxdWZMRkcyUXplZ29DX1BkdWpGRE43eE9PcTBRenRuQ0t2eFc2MHprem85RE9oQ1hOT0Vxamc1eUNxUU1ic3RfcA?oc=5\" target=\"_blank\">Atlanta Federal Reserve cuts first-quarter GDP estimate to 1.6% as consumer spending softens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xanVzQlFKbGZYdFdVbTVrYzB4TTlrNjBrRUtyV1owckx2aUYxdWZMRkcyUXplZ29DX1BkdWpGRE43eE9PcTBRenRuQ0t2eFc2MHprem85RE9oQ1hOT0Vxamc1eUNxUU1ic3RfcA?oc=5",
+      "published": "Thu, 28 May 2026 16:21:35 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ee40eb721abc460cb7edca6df04d782b",
+      "published": "2026-05-28T16:16:29.339000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "summary": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/94f88766c6c84d68a07f006bc076ba6a",
+      "published": "2026-05-26T15:00:01.392000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f3a598a5ab4344af993f67a9c3f4544a",
+      "published": "2026-05-26T11:15:07.388000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
+      "published": "2026-05-22T19:45:06.558000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "summary": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4de6272354be421ba51ea042fd273a8d",
+      "published": "2026-05-22T15:18:35.961000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
+      "published": "2026-05-21T19:00:02.869000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29",
+      "published": "2026-05-21T11:30:20.816000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "summary": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3544b8dab5e64f839316a360495a6387",
+      "published": "2026-05-18T19:15:56.728000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+      "published": "2026-05-16T13:44:21.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1",
+      "published": "2026-05-15T01:04:30.843000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
+      "published": "2026-05-14T23:29:47.443000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "summary": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35",
+      "published": "2026-05-14T18:00:03.676000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a2bce2686fc64a61b44c4335facafe7f",
+      "published": "2026-05-14T17:46:35.557000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
+      "published": "2026-05-14T12:14:04.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785",
+      "published": "2026-05-13T19:45:01.574000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "summary": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b4eb8e22deba433583fe18e327e382e0",
+      "published": "2026-05-12T11:30:03.776000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9d96b17988bd41e9bd8898c586f68744",
+      "published": "2026-05-11T14:00:05.246000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c",
+      "published": "2026-05-07T14:59:29.304000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "summary": "Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9f61baed332542118387bb161030df01",
+      "published": "2026-05-04T14:29:57.125000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f",
+      "published": "2026-04-30T18:47:58.718000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 22 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 22，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-05-28T08:00:00+08:00"
+    }
+  ]
+}
