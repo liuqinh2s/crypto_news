@@ -1,0 +1,232 @@
+{
+  "date": "2026-05-31",
+  "hour": "11",
+  "total": 32,
+  "fetched_at": "2026-05-31T11:00:36.989429+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "XRP Ledger's new proposal blocks the flash loan attacks costing DeFi hundreds of millions",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/05/29/xrp-ledger-s-new-proposal-blocks-the-flash-loan-attacks-costing-defi-hundreds-of-millions",
+      "published": "Sun, 31 May 2026 02:30:00 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "特朗普：美伊若无法达成协议 “战争部”将介入",
+      "summary": "【特朗普：美伊若无法达成协议 “战争部”将介入】金色财经报道，5月31日，当地时间5月30日，美国总统特朗普在当晚福克斯新闻播出的一档采访节目中表示，当前美伊已接近达成一份“很好的协议”。特朗普同时在采访中表示，我们会得到一份“更好的协议”，这本当更快才对。但同时特朗普表示，如果无法达成协议，他会要求“战争部”（即美国国防部）介入。特朗普表示，如果他没有得到他想要的，“我们将用另一种方式结束它”。特朗普还表示，通过签署协议，我们能够确保霍尔木兹海峡的通航、确保伊朗没有核武器等。特朗普在谈及与伊朗的协议时强调，他并不着急。“如果你很着急，你就无法达成一个好的协议”。（央视新闻）",
+      "link": "https://jinse.com.cn/lives/515119.html",
+      "published": "Sun, 31 May 2026 02:46:36 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "XRP Ledger的新提案将阻止造成DeFi数亿美元损失的闪电贷攻击",
+      "summary": "【XRP Ledger的新提案将阻止造成DeFi数亿美元损失的闪电贷攻击】金色财经报道，5月31日，近期针对Thorchain、Drift和KelpDAO等协议的DeFi攻击均依赖于闪电贷，而这种机制在XRP Ledger上并不存在。 \n由于XRPL交易具有原子性，且无法包含可组合的交易内调用，因此闪电贷攻击在该网络上从结构上来说是不可能发生的。 \n随着XRPL推进AMM升级，且其代币化现实世界资产规模不断扩大，机构投资者可能会权衡这一内置的抗攻击能力，与以太坊更深的流动性及更成熟的DeFi生态系统之间的利弊。<p>原文链接: <a href=\"https://www.coindesk.com/tech/2026/05/29/xrp-ledger-s-new-proposal-blocks-the-flash-loan-attacks-costing-defi-hundreds-of-millions\">https://www.coindesk.com/tech/2026/05/29/xrp-ledger-s-new-proposal-blocks-the-flash-loan-att",
+      "link": "https://jinse.com.cn/lives/515118.html",
+      "published": "Sun, 31 May 2026 02:39:48 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Strategy永续优先股STRCx已在Kamino上线",
+      "summary": "【Strategy永续优先股STRCx已在Kamino上线】金色财经报道，5月31日，据Tokens on Solana披露，Strategy的永续优先股STRCx已在Kamino上线，成为Solana上首个支持代币化STRC的借贷市场。<p>原文链接: <a href=\"https://x.com/tokens/status/2060828615156343258\">https://x.com/tokens/status/2060828615156343258</a></p>",
+      "link": "https://jinse.com.cn/lives/515117.html",
+      "published": "Sun, 31 May 2026 02:27:55 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美政府被曝拟上诉关税退款裁定",
+      "summary": "【美政府被曝拟上诉关税退款裁定】金色财经报道，5月31日，据美国方面5月30日消息，在美国最高法院裁定特朗普政府无权对几乎所有贸易伙伴加征更高关税后，美国企业已开始收到关税退款，但这一流程可能因特朗普政府准备上诉而受阻。消息称，特朗普政府29日表示，计划对一名联邦法官的裁决提出上诉。该裁决允许所有支付了被裁定无效关税的进口商申请退款，而不仅限于已提起诉讼的企业。（央视新闻）",
+      "link": "https://jinse.com.cn/lives/515116.html",
+      "published": "Sun, 31 May 2026 02:13:50 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Aave发布4月18日rsETH事件复盘",
+      "summary": "【Aave发布4月18日rsETH事件复盘】金色财经报道，5月31日，Aave发布4月18日rsETH事件事后调查称，流动性质押协议Kelp的rsETH LayerZero V2跨链桥在Unichain至Ethereum跨链过程中接受伪造消息，导致Ethereum侧适配器释放116,500枚rsETH，而Unichain侧并未发生对应销毁。 \nAave表示，攻击发生于第三方跨链桥基础设施，但攻击者将被盗rsETH存入8个Aave V3仓位，并借出82,650枚WETH和821枚wstETH，导致Aave市场受影响。Aave称，目前攻击者在Arbitrum上的rsETH已被销毁，LayerZero OFT适配器已分5批补入116,131.72枚rsETH，rsETH资产支持已完全恢复，受影响WETH与rsETH市场已恢复正常。<p>原文链接: <a href=\"https://x.com/aave/status/2060901386611499378?s=20\">https://x.com/aave/status/2060901386611499378?s=20</a></p>",
+      "link": "https://jinse.com.cn/lives/515115.html",
+      "published": "Sun, 31 May 2026 02:04:45 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "MegaETH：已完成积分结算并开放奖励钱包登记，6 月 10 日后将锁定领取信息",
+      "summary": "【MegaETH：已完成积分结算并开放奖励钱包登记，6 月 10 日后将锁定领取信息】金色财经报道，5月31日，MegaETH于X平台发文称，Terminal Program已结束，已完成积分最终结算，并正在准备向社区发放奖励。钱包委托（Wallet Delegation）功能现已上线，在 6 月 10 日之前，您必须完成以下操作： \n选择一个用于接收奖励的钱包地址； \n订阅您的邮箱，以获取最新动态和奖励发放通知。 \n6 月 10 日之后，所有个人资料修改和奖励钱包选择都将被锁定，无法再进行更改。<p>原文链接: <a href=\"https://x.com/megaeth/status/2060895136511615297\">https://x.com/megaeth/status/2060895136511615297</a></p>",
+      "link": "https://jinse.com.cn/lives/515114.html",
+      "published": "Sun, 31 May 2026 01:36:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美媒：特朗普对美伊协议的修改建议涉及核材料获取与霍尔木兹海峡",
+      "summary": "【美媒：特朗普对美伊协议的修改建议涉及核材料获取与霍尔木兹海峡】金色财经报道，5月31日，据AXIOS网站，据一名高级行政当局官员和另一位知情人士透露，特朗普在周五于局势研究室举行的一场会议中，要求对其特使与伊朗代表达成的拟议协议进行多项修改。两名美国官员表示，特朗普希望达成该协议，并预计将很快敲定，但他要求强化其中对他而言至关重要的几个要点，特别是围绕伊朗核材料的相关条款。特朗普的这一要求引发了双方新一轮的来回沟通，这一过程可能持续数天。 \n据两位消息人士透露，特朗普要求其团队修改草案中有关伊朗核计划的条款。当前该谅解备忘录包含伊朗承诺不寻求发展核武器，但除此之外没有具体的让步内容。备忘录规定，将有一个为期60天的窗口期，用于就伊朗的核承诺和美国的制裁减免进行谈判，议程上的首要问题是如何处置伊朗现有的浓缩铀库存以及限制进一步的浓缩活动。特朗普希望尝试修改这一部分。“这更多是关于美国如何获取（核）材料以及具体时间安排的具体细节，”一位高级行政当局官员在谈及浓缩铀时表示。第二位消息人士称，特朗普还希望修改有关重新开放霍尔木兹海峡的部分措辞。这位美国官员表示，特朗普已获知，伊朗方面大约需要",
+      "link": "https://jinse.com.cn/lives/515113.html",
+      "published": "Sun, 31 May 2026 01:25:19 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Loracle已平掉其BTC、LIT、TON和VVV的空单，HYPE空单仍剩约1.518亿美元仓位",
+      "summary": "【Loracle已平掉其BTC、LIT、TON和VVV的空单，HYPE空单仍剩约1.518亿美元仓位】金色财经报道，5月31日，据Onchain Lens监测，Loracle已平掉其BTC、LIT、TON和VVV的空头仓位。目前HYPE空单仍在逐步平仓中，剩余151.8万枚HYPE（约1.05亿美元）未平仓，累计亏损已超过3600万美元。 \n与此同时，Loracle已新开以下多头仓位，并仍在持续加仓：ZEC（10倍杠杆）、ASTER、TON（5倍杠杆）。<p>原文链接: <a href=\"https://x.com/OnchainLens/status/2060891598284894362\">https://x.com/OnchainLens/status/2060891598284894362</a></p>",
+      "link": "https://jinse.com.cn/lives/515112.html",
+      "published": "Sun, 31 May 2026 01:22:37 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "The US debt machine is getting harder to stabilize - So where does Bitcoin fit in?",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tshrjb/the_us_debt_machine_is_getting_harder_to/\"> <img alt=\"The US debt machine is getting harder to stabilize - So where does Bitcoin fit in?\" src=\"https://external-preview.redd.it/KsjcJIY3pIg7bWKY0hOweYKZzoM_D4vA00wsVP-bNvA.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4eb7c31e2c9afc635a93b3ae69a8608120e3a8ff\" title=\"The US debt machine is getting harder to stabilize - So where does Bitcoin fit in?\" /> </a> </td><",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tshrjb/the_us_debt_machine_is_getting_harder_to/",
+      "published": "2026-05-31T01:44:10+00:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/455eedc320bd43e28e2326f58d4aac2a",
+      "published": "2026-05-29T16:00:03.554000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "summary": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3bdaff694bde45ccb443709336c8686d",
+      "published": "2026-05-29T15:00:06.968000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ee40eb721abc460cb7edca6df04d782b",
+      "published": "2026-05-28T16:16:29.339000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "summary": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/94f88766c6c84d68a07f006bc076ba6a",
+      "published": "2026-05-26T15:00:01.392000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f3a598a5ab4344af993f67a9c3f4544a",
+      "published": "2026-05-26T11:15:07.388000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
+      "published": "2026-05-22T19:45:06.558000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "summary": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4de6272354be421ba51ea042fd273a8d",
+      "published": "2026-05-22T15:18:35.961000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
+      "published": "2026-05-21T19:00:02.869000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29",
+      "published": "2026-05-21T11:30:20.816000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "summary": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3544b8dab5e64f839316a360495a6387",
+      "published": "2026-05-18T19:15:56.728000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+      "published": "2026-05-16T13:44:21.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1",
+      "published": "2026-05-15T01:04:30.843000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
+      "published": "2026-05-14T23:29:47.443000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "summary": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/71f44e5e014c445697bb6a6f70315e35",
+      "published": "2026-05-14T18:00:03.676000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a2bce2686fc64a61b44c4335facafe7f",
+      "published": "2026-05-14T17:46:35.557000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/12bcf9092e9c46358de3e49f8ef17f88",
+      "published": "2026-05-14T12:14:04.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785",
+      "published": "2026-05-13T19:45:01.574000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "summary": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b4eb8e22deba433583fe18e327e382e0",
+      "published": "2026-05-12T11:30:03.776000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9d96b17988bd41e9bd8898c586f68744",
+      "published": "2026-05-11T14:00:05.246000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7220be8100ee41149169e9179c380c8c",
+      "published": "2026-05-07T14:59:29.304000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 28 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 28，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-05-31T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "加密市场回顾：比特币盘整，以太坊引领山寨币轮动 - Moomoo",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMWFsLUVsdHhjcnczV0RDdUtSUE54cG5pQWpFelpxMVlTNGw4LWtGWnQ2clk3VUE5clIxZnZ4SVhtRjZaX3pIMXNWdi0wSE1WZTV2djUxbGpGMldEbFBQck9TMVFBVDdfY29tOVJfMHQ5LWQ5VTZSVnJVSnZkVWNvTXMzNV95aUVLQXZ0cWV1bmFUYWN5ZGhBeVRnS0xfdGwtakNMQUY4UXJXZW1jb1pkVHpFV3NpTThxQlNN?oc=5\" target=\"_blank\">加密市场回顾：比特币盘整，以太坊引领山寨币轮动</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMWFsLUVsdHhjcnczV0RDdUtSUE54cG5pQWpFelpxMVlTNGw4LWtGWnQ2clk3VUE5clIxZnZ4SVhtRjZaX3pIMXNWdi0wSE1WZTV2djUxbGpGMldEbFBQck9TMVFBVDdfY29tOVJfMHQ5LWQ5VTZSVnJVSnZkVWNvTXMzNV95aUVLQXZ0cWV1bmFUYWN5ZGhBeVRnS0xfdGwtakNMQUY4UXJXZW1jb1pkVHpFV3NpTThxQlNN?oc=5",
+      "published": "Sun, 31 May 2026 01:39:04 GMT"
+    }
+  ]
+}
