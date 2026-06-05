@@ -1,0 +1,316 @@
+{
+  "date": "2026-06-05",
+  "hour": "09",
+  "total": 44,
+  "fetched_at": "2026-06-05T09:00:35.188818+08:00",
+  "news": [
+    {
+      "source": "律动BlockBeats",
+      "title": "Anthropic报告回应自我进化：已跑通局部闭环，但离完全自主训练仍有距离",
+      "summary": "<p>据<a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> 监测，AI 自主迭代的能力，正在超出所有人的预期。Anthropic 研究院（The Anthropic Institute）于 6 月 5 日发布报告《当 AI 建造自身》，详细披露了其在「递归自我提升」方面的研发进展。数据表明，截至 2026 年 5 月，Anthropic 主代码库合并的代码中，超过 80% 是 Claude 自己写的。而在 2025 年 2 月 Claude Code 发布前，Claude 写的代码只占个位数。智谱 AI 创始人唐杰在 5 月 13 日曾预测，大模型的终局就是自我进化，且 Claude 可能已经跑通了「写代码、洗数据、自己训练自己」的自我训练基线。但 Anthropic 在报告中明确澄清，完全自主设计和开发后继者的递归自我提升尚未实现。<br /><br />AI 在开发链条中扮演的角色，正处于从局部提效向自主决策过渡的阶段。2026 年第二季度，Anthropic 工程师人均每天合并的代码量达到了 20",
+      "link": "https://www.theblockbeats.info/flash/349552",
+      "published": "Fri, 05 Jun 2026 00:54:25 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "新建地址再度从Binance提取500万枚「币安人生」",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，据 Onchain Lens 监测，新建地址再度从 Binance 提取 500 万枚「币安人生」，目前共持有 1100 万枚，价值约合 785 万美元。</p><p><br /></p><p>昨日晚间，其提取 600 万枚「币安人生」。</p>",
+      "link": "https://www.theblockbeats.info/flash/349551",
+      "published": "Fri, 05 Jun 2026 00:52:56 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Quantinuum上市首日短暂破发，收盘微涨0.6%",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，量子计算公司 Quantinuum 上市首日盘中短暂跌破盘前价，收盘报 60.36 美元，较 IPO 发行价微涨 0.6%。</p><p><br /></p><p>Quantinuum 由 Honeywell 量子计算业务与 Cambridge Quantum 合并而成，是当前全球估值最高的量子计算企业之一，计划以股票代码「QNT」在纳斯达克上市。</p>",
+      "link": "https://www.theblockbeats.info/flash/349550",
+      "published": "Fri, 05 Jun 2026 00:46:33 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Multicoin Capital将价值528万美元ENA存入Galaxy Digital和BitGo",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，据 Onchain Lens 监测，Multicoin Capital 将价值 528 万美元 ENA（5611.6 万枚）存入 Galaxy Digital 和 BitGo。</p>",
+      "link": "https://www.theblockbeats.info/flash/349549",
+      "published": "Fri, 05 Jun 2026 00:38:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Zcash创始人Zooko披露Orchard严重伪造漏洞细节",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，Zcash 创始人 Zooko 发文称，安全研究员 Taylor Hornby 于 5 月 29 日发现 Zcash Orchard pool 存在严重伪造漏洞，并向 Zcash Open Development Lab（ZODL）披露，ZODL 随后协调生态进行紧急响应，修复工作已于 6 月 2 日完成。</p><p><br /></p><p>Shielded Labs 表示，该漏洞真实且可被利用，Taylor 在本地测试环境中编写的利用程序可生成无限且无法检测的伪造 ZEC；由于 Orchard 的隐私属性，无法仅通过密码学方式证明漏洞修复前是否被利用，但其认为此前被利用的可能性较低。Shielded Labs 正在探索一项网络升级提案，以部署新的 shielded pool，并对来自 Orchard pool 的所有代币执行 turnstile accounting，从而允许任何人验证 Zcash 供应完整性并证明 Orchard pool 中不存在伪造 ZEC。</p>",
+      "link": "https://www.theblockbeats.info/flash/349548",
+      "published": "Fri, 05 Jun 2026 00:34:11 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "新季度赎回窗口开启，美国私募信贷市场赎回风暴再度袭来",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，随着新一季度赎回窗口开启，美国私募信贷市场的赎回风暴再度袭来。多家头部机构相继披露创纪录的撤资请求，市场对这一规模达 1.8 万亿美元行业的信心考验远未结束。</p><p><br /></p><p>其中，黑石 BCRED 赎回申请达 10% 创历史新高再触 5% 上限，Cliffwater 旗舰基金赎回比例升至 17%，Partners Group 被迫封堵退出通道。惠誉数据显示私募信贷违约率升至 6% 的历史峰值，PIMCO 警告持续性信用违约周期已开启。私募信贷行业过度集中于软件资产，而人工智能的颠覆性冲击正令这一赛道面临重估压力。太平洋投资管理公司（PIMCO）首席投资官 Daniel Ivascyn 警告称，「多年来首次持续性信用违约周期已经开始」。</p>",
+      "link": "https://www.theblockbeats.info/flash/349547",
+      "published": "Fri, 05 Jun 2026 00:27:12 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "慢雾：假Codex、Claude Code等搜索引擎投毒事件近期高发",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，慢雾余弦在 X 平台发文表示，假 Codex、Claude Code 等的搜索引擎投毒事件最近高发。其称，此前已多次提醒 Google 搜索结果及 Google Sites 等自家服务被黑灰产投毒利用，但 Google 对这类明显的投毒手法没有治理。</p>",
+      "link": "https://www.theblockbeats.info/flash/349546",
+      "published": "Fri, 05 Jun 2026 00:21:37 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某新建钱包从Coinbase提取17万枚HYPE，价值1090万美元",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，据 Onchain Lens 监测，某新建钱包 7 小时前从 Coinbase 提取 17 万枚 HYPE，价值 1090 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/349545",
+      "published": "Fri, 05 Jun 2026 00:18:04 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国大型银行拟联合推出代币化存款网络",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，美国大型银行拟联合推出代币化存款网络。华尔街日报报道称，摩根大通、美国银行、花旗集团、富国银行等支持的 The Clearing House 计划于明年推出代币化存款网络，连接传统支付轨道与区块链基础设施。该项目被视为美国银行业应对稳定币及加密支付竞争的重要举措。（WSJ）</p>",
+      "link": "https://www.theblockbeats.info/flash/349544",
+      "published": "Fri, 05 Jun 2026 00:16:19 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "韩国交易所KOSPI启动熔断机制",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，韩国交易所因 KOSPI 200 期货下跌 5% 而启动 KOSPI 的熔断机制，程序化交易暂停 5 分钟。</p><p><br /></p><p>此外，日经 225 指数日内跌幅扩大至 1.5%。</p>",
+      "link": "https://www.theblockbeats.info/flash/349543",
+      "published": "Fri, 05 Jun 2026 00:11:02 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Anthropic呼吁全球暂缓前沿AI研发，Serenity解读为A社竞争策略",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，Anthropic 公司呼吁各大顶尖人工智能实验室考虑放缓研发步伐，并指出 AI 系统的演进速度极快，可能很快就能在无需人类干预的情况下实现自我改进，而这种能力恐将引发重大的社会风险。</p><p><br /></p><p>Anthropic 在一篇博客文章中披露了内部数据，详实记录了其最先进的模型正以何等惊人的速度实现性能提升。文章指出，AI 模型的进步似乎正朝着「递归式自我改进」的方向迈进，即 AI 系统能够在无需人类干预的情况下实现自主优化。文章提议达成一项全球协议，明确如何可能放缓人工智能的研发速度，并建立一种机制来验证竞争对手是否遵守该协议。</p><p><br /></p><p>对此，Serenity 将其解读为竞争策略，旨在「让对手停步而自身领先」，并表示这类呼吁反而会激发各国加速 AI 投资，推动医学、数学等领域的深刻变革，尽管存在安全担忧。</p><p><br /></p><p>---------------------------------<br />点击下方原文链接，加入动察 Beating · 飞书 AI 新闻",
+      "link": "https://www.theblockbeats.info/flash/349542",
+      "published": "Fri, 05 Jun 2026 00:06:40 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "韩、日股市开盘大跌",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，据 Bitget 行情，韩国 KOSPI 指数 6 月 5 日（周五）开盘下跌 372.6 点，跌幅 4.31%，报 8266.81 点。三星跌 5%，海力士跌 7%。</p><p><br /></p><p>日经 225 指数 6 月 5 日（周五）开盘下跌 486.82 点，跌幅 0.72%，报 66983.87 点。</p>",
+      "link": "https://www.theblockbeats.info/flash/349541",
+      "published": "Fri, 05 Jun 2026 00:03:01 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国法官警告：司法部上诉将扰乱特朗普关税退款进程",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，联邦贸易法官就特朗普政府上诉其关税退款裁令一事罕见公开发声，双方围绕退款主导权的法律交锋正在升级。</p><p><br /></p><p>美国国际贸易法院法官 Richard Eaton 周三通过一封公开信，直接回应美国司法部对其裁令的上诉，对政府方面的法律立场提出质疑，并警告若上诉法院介入，可能对目前已处理至少 850 亿美元退款的在线申请系统造成冲击。</p><p><br /></p><p>美国司法部随后当天回应称，它是基于「自身职权」设立这一在线退税系统的，试图撇清这一系统与法官 Eaton 退还关税裁定之间的关系。美国司法部本周正式提起上诉的核心论点在于：CBP 在法律上无权重新开启已\"最终清算\"的进口报关单，而 Eaton 也无权就未在该贸易法院独立提起诉讼的进口商下达退款令。</p><p><br /></p><p>此案的走向直接关乎约 33 万名曾缴纳争议关税的进口商能否顺利获得退款，其中小企业面临的申请障碍尤为受到关注。</p>",
+      "link": "https://www.theblockbeats.info/flash/349540",
+      "published": "Thu, 04 Jun 2026 23:59:17 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "「Buy the dip」促道指新高，纳值走V，明星股AAOI涨超10%、MRVL涨近5%，比特币低位盘整静待方向选择",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，昨夜今晨，受博通 AI 业绩指引不及预期的影响，美股科技股和芯片板块出现回调，资金顺势轮动至医疗、金融等落后板块，推动道指大涨 1.73%，创历史新高。盘中纳指一度跌超 1%，但<strong>投资者仍执行「buy the dip」策略令收盘时大体收复失地。</strong></p><p><br /></p><p>个股方面，<strong>英伟达涨近 2%，美光科技跌 7.7%，博通跌超 12%，黄仁勋指定的下一个万亿市值股 MRVL 涨 4.89%</strong>，谷歌涨 3.68%，领涨科技七巨头。</p><p><br /></p><p>CPO（共封装光学）概念股中，<strong>AAOI 收盘大涨 10.16%，但盘后高管备案将出售部分公司股票，导致盘后跌 3.41%</strong>，COHR 涨 1.05%，LITE 涨 0.75%，GLW 跌 1.4%。</p><p><br /></p><p>比特币在 Serenity 喊单下止跌，现维持在 6.3 万美元上方横盘，静待方向选择。此外，<strong>Serenity 提",
+      "link": "https://www.theblockbeats.info/flash/349539",
+      "published": "Thu, 04 Jun 2026 23:55:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国高级官员考虑接收AI巨头公司「自愿转让」的股份",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，据三位知情人士透露，<strong>美国高级官员已与多家大型人工智能公司就联邦政府收购这些公司部分股份的可能性进行了初步讨论。</strong></p><p><br /></p><p>据两位消息人士透露，OpenAI 首席执行官萨姆·奥特曼自特朗普第二个任期开始以来，就曾多次与特朗普政府高级官员讨论过这一想法。这两位消息人士均要求匿名，以反映内部讨论的情况。他们表示，<strong>奥特曼在 2025 年初的一次谈话中首次直接向特朗普总统提出了这一概念，并在最近几周再次与政府高级官员讨论了这一想法</strong>，旨在更广泛地将人工智能的经济效益惠及公众。而另一家 AI 巨头 Anthropic 并未与政府就向政府提供股权进行任何对话。</p><p><br /></p><p>知情人士透露，虽然计划仍在制定中，细节也尚未最终确定，<strong>但讨论的重点在于让这些公司自愿将股份转让给政府。投资收益随后可用于公共用途，例如向所有美国家庭发放股息</strong>。（Notus）</p><p><br /></p><p>---------",
+      "link": "https://www.theblockbeats.info/flash/349538",
+      "published": "Thu, 04 Jun 2026 23:33:21 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普：若伊朗杀害美军，将重启冲突",
+      "summary": "<p>BlockBeats 消息，6 月 5 日，美国总统特朗普表示，（谈伊朗）若他们杀害美军，将是重启冲突的充分理由。</p>",
+      "link": "https://www.theblockbeats.info/flash/349537",
+      "published": "Thu, 04 Jun 2026 23:28:14 GMT"
+    },
+    {
+      "source": "吴说区块链",
+      "title": "吴说 VC 月报：韩亚银行 6.7 亿投资 Upbit、Kraken 母公司收购 Reap 等 - 吴说",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1BVREZrV04wdmdnV1luSGw5c2JlSEEtalN5TDlUX1dWYjNEY09OR1pyOHlNRkx0dFNNUXBDbnRQaUFKcy0yaUs5OHAwTS1RZWdnbkhtRnYwZ3VJSWJlZFhSV3FzeUhOUEtZS19QZnRkem5PbGN4TGJTblhhT0FSdXJzYXl3ODNnQUZEOWxhZl9yMGp0Q0hXTHNXSVY4cDNoLS1UaVpfbmh0bDA?oc=5\" target=\"_blank\">吴说 VC 月报：韩亚银行 6.7 亿投资 Upbit、Kraken 母公司收购 Reap 等</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">吴说</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1BVREZrV04wdmdnV1luSGw5c2JlSEEtalN5TDlUX1dWYjNEY09OR1pyOHlNRkx0dFNNUXBDbnRQaUFKcy0yaUs5OHAwTS1RZWdnbkhtRnYwZ3VJSWJlZFhSV3FzeUhOUEtZS19QZnRkem5PbGN4TGJTblhhT0FSdXJzYXl3ODNnQUZEOWxhZl9yMGp0Q0hXTHNXSVY4cDNoLS1UaVpfbmh0bDA?oc=5",
+      "published": "Thu, 04 Jun 2026 23:53:00 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "Key US House Committee Preparing Legislation to Forge Crypto Tax Structure",
+      "summary": "",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-04/key-us-house-committee-preparing-legislation-to-forge-crypto-tax-structure",
+      "published": "Thu, 04 Jun 2026 23:58:07 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Daily Crypto Discussion - June 4, 2026 (GMT+0)",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p><strong>Welcome to the Daily Crypto Discussion thread. Please read the disclaimer and rules before participating.</strong></p> <p> </p> <h1>Disclaimer:</h1> <p>Consider all information posted here with several liberal heaps of salt, and always cross check any information you may read on this thread with known sources. Any trade information posted in this open thread may be highly misleading, and could be an attempt to manipulate new readers by known &quot;pump a",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tx3h7w/daily_crypto_discussion_june_4_2026_gmt0/",
+      "published": "2026-06-04T23:00:57+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Why don't more places use sats instead of calculating things in whole coins.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I just bought $20 worth of Bitcoin which is 31,027 sats. Swan displays it as ₿0.0003127 which is the more widely accepted format. But wouldn't it help adoption if all exchanges displayed sats as the initial valuation metric? Also there's no symbol for sats. Do you think at this point at least we should have a symbol for sats?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TerminatedPotato\"> /u/TerminatedPotato </a> <br />",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1tx5b97/why_dont_more_places_use_sats_instead_of/",
+      "published": "2026-06-05T00:20:58+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Finally time to buy a bigger amount of BTC",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Do you guys think its going to keep going down more? I know your guess is as good as mine, but just curious as to what others are thinking. &quot;It's not about timing the market, but about time in the market&quot;. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Top-Power-1647\"> /u/Top-Power-1647 </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1tx649r/finally_time_to_buy_a_bigger_amount_of_btc/\">[link",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1tx649r/finally_time_to_buy_a_bigger_amount_of_btc/",
+      "published": "2026-06-05T00:56:44+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Key US House Committee Preparing Legislation to Forge Crypto Tax Structure - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWF9KUEQ0ZENYMTFITFFDa1dmS0pFc25ZWnhIOVlqbmplZ21fNzRzMTY4UUNjS0N2dG8wT3FnX1NMMFQ4TVJxR3ViQllaaFlaS2hZRGJMZjBsOFJRRjhtcllEWGprRE15bnFTaTR5RHBPUDFoY25ibTQ5MHYybTZjVlVzT3lEeG92R21URC1PQWxINGhVTFh1WEw5ZVVveGF1MTFpRXBHNmJwOHljT0F2MklTYjVCdFhKQ2pyek84UUhvRTg?oc=5\" target=\"_blank\">Key US House Committee Preparing Legislation to Forge Crypto Tax Structure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWF9KUEQ0ZENYMTFITFFDa1dmS0pFc25ZWnhIOVlqbmplZ21fNzRzMTY4UUNjS0N2dG8wT3FnX1NMMFQ4TVJxR3ViQllaaFlaS2hZRGJMZjBsOFJRRjhtcllEWGprRE15bnFTaTR5RHBPUDFoY25ibTQ5MHYybTZjVlVzT3lEeG92R21URC1PQWxINGhVTFh1WEw5ZVVveGF1MTFpRXBHNmJwOHljT0F2MklTYjVCdFhKQ2pyek84UUhvRTg?oc=5",
+      "published": "Thu, 04 Jun 2026 23:58:07 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Better, Coinbase fund Fannie Mae-backed bitcoin mortgage - HousingWire",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE0wdWhybE5tLU9wVEVocHA0a19GVHgyUUpjcXJIVEhsQ3lpTmpvTHRGV3hfLTdhOW1KVFFjMy1HWDJNeUplalhYVUdZbG9jUkN2cW9vTkdsWkxzQ3BldHJ0amYzQ28tOFJTamR3SDhuZU8tZDg?oc=5\" target=\"_blank\">Better, Coinbase fund Fannie Mae-backed bitcoin mortgage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HousingWire</font>",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wdWhybE5tLU9wVEVocHA0a19GVHgyUUpjcXJIVEhsQ3lpTmpvTHRGV3hfLTdhOW1KVFFjMy1HWDJNeUplalhYVUdZbG9jUkN2cW9vTkdsWkxzQ3BldHJ0amYzQ28tOFJTamR3SDhuZU8tZDg?oc=5",
+      "published": "Thu, 04 Jun 2026 23:22:51 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
+      "published": "2026-06-04T20:44:22.460000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f",
+      "published": "2026-06-03T14:45:06.439000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/AED Spot Trading Pair",
+      "summary": "Binance Adds USDT/AED Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/66d54f75b3a041ff991ddd179ab6ed39",
+      "published": "2026-06-03T11:00:01.465000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "summary": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2b9ff1e1acf8433793bc40c59a0cb852",
+      "published": "2026-06-02T11:01:28.377000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
+      "published": "2026-06-01T22:15:21.180000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4299caec4ca4407cb282707154a97ffe",
+      "published": "2026-06-01T14:15:08.711000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/73769d872a644d7082bc79cde6c12d98",
+      "published": "2026-06-01T10:14:55.548000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/455eedc320bd43e28e2326f58d4aac2a",
+      "published": "2026-05-29T16:00:03.554000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "summary": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3bdaff694bde45ccb443709336c8686d",
+      "published": "2026-05-29T15:00:06.968000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ee40eb721abc460cb7edca6df04d782b",
+      "published": "2026-05-28T16:16:29.339000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "summary": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/94f88766c6c84d68a07f006bc076ba6a",
+      "published": "2026-05-26T15:00:01.392000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f3a598a5ab4344af993f67a9c3f4544a",
+      "published": "2026-05-26T11:15:07.388000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
+      "published": "2026-05-22T19:45:06.558000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "summary": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4de6272354be421ba51ea042fd273a8d",
+      "published": "2026-05-22T15:18:35.961000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
+      "published": "2026-05-21T19:00:02.869000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29",
+      "published": "2026-05-21T11:30:20.816000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "summary": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3544b8dab5e64f839316a360495a6387",
+      "published": "2026-05-18T19:15:56.728000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+      "published": "2026-05-16T13:44:21.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1",
+      "published": "2026-05-15T01:04:30.843000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
+      "published": "2026-05-14T23:29:47.443000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 12 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 12，分类为「Extreme Fear」。 市场处于极度恐惧状态，历史上往往是抄底机会。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-06-05T08:00:00+08:00"
+    }
+  ]
+}
