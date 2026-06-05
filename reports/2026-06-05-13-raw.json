@@ -1,0 +1,365 @@
+{
+  "date": "2026-06-05",
+  "hour": "13",
+  "total": 51,
+  "fetched_at": "2026-06-05T13:00:40.841970+08:00",
+  "news": [
+    {
+      "source": "The Block",
+      "title": "Security researcher finds Zcash vulnerability allowing ‘unlimited’ counterfeit minting; ZEC drops 31%",
+      "summary": "<p>The vulnerability was fixed within days, and findings suggest that actual exploitation of the bug is unlikely.</p>",
+      "link": "https://www.theblock.co/post/403698/zcash-vulnerability-zec-drops?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 04 Jun 2026 23:16:08 -0400"
+    },
+    {
+      "source": "金色财经",
+      "title": "OKX Star：X Layer将很快上线xStocks的美股代币",
+      "summary": "【OKX Star：X Layer将很快上线xStocks的美股代币】6月5日消息，OKX创始人兼CEO Star在X发文表示，“代币化股票是RWA最重要用例之一。我们预计很快将在X Layer上看到xStocks，将全球股票上链并扩展对资本市场的准入。” \n据悉，X Layer 此前已与受监管代币化股票发行平台xStocks达成战略合作，xStocks相关资产将逐步接入X Layer生态及OKX Wallet。 Star认为，对全球市场的准入应当像对信息的获取一样开放。<p>原文链接: <a href=\"https://x.com/star_okx/status/2062753613970055546\">https://x.com/star_okx/status/2062753613970055546</a></p>",
+      "link": "https://jinse.com.cn/lives/516005.html",
+      "published": "Fri, 05 Jun 2026 04:57:55 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Grayscale首席法务官：ZEC漏洞在修复前就被利用了不太可能",
+      "summary": "【Grayscale首席法务官：ZEC漏洞在修复前就被利用了不太可能】金色财经报道，6月5日，Grayscale首席法务官Craig Salm发文表示，从非技术角度来看，要相信ZEC漏洞在修复前就被利用了，你必须相信：(1) 有人比 ECC、ZODL、Shielded Labs、Zcash 基金会以及其他 Zcash 核心开发和安全贡献者加起来都更深入地研究了 Zcash 的代码库；(2) 有人抵制住了在历史性的 20 倍以上牛市期间清空 Orchard 池，抛售所有假 ZEC 的诱惑。在我看来，这不太可能。真正的重点在于 Zcash 的开发和安全社区绝对是业内顶尖的，在应对人工智能风险方面遥遥领先于其他所有协议。鉴于模型现在的能力，人工智能风险终将波及所有协议。当然，如果进行网络升级，允许任何人验证 Zcash 供应的完整性，并证明 Orchard 池中不存在假 Zcash，那就更好了。<p>原文链接: <a href=\"https://x.com/CraigSalm/status/2062724136703590663\">https://x.com/CraigSalm/status",
+      "link": "https://jinse.com.cn/lives/516004.html",
+      "published": "Fri, 05 Jun 2026 04:54:55 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "“新股神”Serenity：看好绿的谐波，其或将受益于人形机器人规模化量产",
+      "summary": "【“新股神”Serenity：看好绿的谐波，其或将受益于人形机器人规模化量产】金色财经报道，6月5日，“新股神”Serenity发文表示，绿的谐波（LeaderDrive，688017，577.3亿人民币）是我在布局人形机器人赛道时最青睐的中国上市标的。他们的业务涵盖：谐波减速器（据称占有超过60%的国内市场份额，以及1800多家全球客户）、人形机器人旋转关节减速器、直线执行器及电机/关节，以及许多其他核心零部件，并且他们正在进军行星滚柱丝杠（planetary roller screws）领域。目前占据着绝对的主导地位：超过60%的国内市场份额以及1800多家全球客户。 \n主要客户包括优傲机器人（Universal Robots）、优必选（UBTech）、智元机器人（Agibot），而特斯拉（Tesla）、Figure 以及绝大多数其他人形机器人研发商都很可能是他们的潜在客户。 \n如果你看一下这些零部件的BOM（物料清单），粗略估计它们占到了每台研发出的人形机器人的4-15%，随着他们进军更多细分领域，这个比例可能还会更高。我认为没有人能对这类公司进行精确的财务建模，其前景更多取决于",
+      "link": "https://jinse.com.cn/lives/516003.html",
+      "published": "Fri, 05 Jun 2026 04:39:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "ZODL创始人：ZEC漏洞不是底层密码学或生成证明的引擎中的缺陷",
+      "summary": "【ZODL创始人：ZEC漏洞不是底层密码学或生成证明的引擎中的缺陷】金色财经报道，6月5日ZEC受Orchard池无限伪造漏洞影响大跌30%，ZODL创始人Josh Swihart发文表示，Orchard漏洞存在于其中一条规则中，该规则编写得过于宽松，允许接受虚假信息并仍然通过验证。因此，引擎可能会误认为虚假交易有效。实际上，有人可能在Orchard交易池中伪造了ZEC。这是手写规则中的缺陷，而不是底层密码学或生成证明的引擎中的缺陷。问题是如何确保漏洞不再发生，最好的答案是形式化验证。Tachyon 目前正采用形式化验证进行构建，使用更简洁、更统一的规则手册。与 Orchard 相比，特殊情况和复杂细节更少，这意味着整个规则手册都可以通过数学证明进行完美验证。多个团队已经在着手正式验证Orchard现有的电路。如果验证成功，那么在Tachyon之前，近期推出第二个Orchard池或许是最佳方案。Tachyon更加简洁，但经过正式验证的Orchard池可以作为有效的过渡措施。<p>原文链接: <a href=\"https://x.com/jswihart/status/206274177",
+      "link": "https://jinse.com.cn/lives/516002.html",
+      "published": "Fri, 05 Jun 2026 04:34:49 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Kraken联合CEO将以550万美元收购一家怀俄明州小型银行",
+      "summary": "【Kraken联合CEO将以550万美元收购一家怀俄明州小型银行】金色财经报道，6月5日，据Bank Reg Blog披露，Kraken联合首席执行官Arjun Sethi已签署协议，将以550万美元收购一家处于破产程序中的怀俄明州小型银行Summit National Bank。该行此前已有多笔出售交易失败。 \n经济学家David Beckworth询问此举是否会影响Kraken的精简版美联储主账户试点，以及此次收购是否会将精简版账户转为常规账户。Bank Reg Blog回应称，预计不会产生直接影响，该行确实拥有常规主账户，但此次交易以Sethi个人名义进行，而非Kraken拥有该银行。<p>原文链接: <a href=\"https://x.com/bank_reg/status/2062642903139156199\">https://x.com/bank_reg/status/2062642903139156199</a></p>",
+      "link": "https://jinse.com.cn/lives/516001.html",
+      "published": "Fri, 05 Jun 2026 04:16:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国将取消1000万韩元以上加密资产转移强制报告，改由交易所自行管理风险",
+      "summary": "【韩国将取消1000万韩元以上加密资产转移强制报告，改由交易所自行管理风险】金色财经报道，6月5日，据韩国SBS新闻报道，韩国金融情报院（FIU）调整了《特定金融信息法》施行令修订案，取消1000万韩元以上虚拟资产转移的强制报告义务，改为由交易所自行管理风险。原案要求境内经营者向境外转移1000万韩元以上时，无论风险高低均须向FIU报告。FIU采纳行业意见后决定取消强制报告，改为各公司建立内部风险管理体系。 \n其他调整包括：Travel Rule规则适用范围将从100万韩元以上扩大至所有金额；高风险可疑交易的强化客户认证从强制改为仅在公司判断风险特别高时执行；负债率不超过200%的申报条件给予小型企业一年宽限期；反洗钱计算机设备须设在境内的规定允许使用境外云服务。修订案经法制处审查后将于8月20日施行。<p>原文链接: <a href=\"https://news.sbs.co.kr/news/endPage.do?news_id=N1008595845&amp;plink=ORI&amp;cooper=NAVER\">https://news.sbs.co.kr/news/endPage",
+      "link": "https://jinse.com.cn/lives/516000.html",
+      "published": "Fri, 05 Jun 2026 04:12:35 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "市场分析 ：美国5月非农就业岗位增长料放缓，但仍保持稳健",
+      "summary": "【市场分析 ：美国5月非农就业岗位增长料放缓，但仍保持稳健】金色财经报道，6月5日，美国就业在连续两个月强劲增长后，5月增速可能有所放缓，但仍与劳动力市场稳定状况一致。经济学家预计，劳工部周五发布的备受关注的就业报告将证实，中东冲突虽推高油价并助长通胀，但尚未对就业市场产生实质性影响。他们表示，以退税和关税退款形式体现的财政刺激措施提振了企业利润，使企业得以避免大规模裁员。路透调查显示，经济学家预计，非农就业岗位继4月增加11.5万个后，5月料增加8.5万个，预估值区间在5万-12.5万。5月的预期增幅仍高于今年以来的月均水平7.6万。经济学家还认为，在美国劳工统计局更新用于估算企业开业或倒闭所带来就业变化的“出生-死亡”模型后，历史就业数据被大幅修正的空间有限。",
+      "link": "https://jinse.com.cn/lives/515999.html",
+      "published": "Fri, 05 Jun 2026 04:10:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "标普全球公司：SpaceX等巨型IPO不会被快速纳入标普500指数",
+      "summary": "【标普全球公司：SpaceX等巨型IPO不会被快速纳入标普500指数】金色财经报道，6月5日，标普全球公司表示，将维持其对标普500指数等主要基准指数的现有资格要求，拒绝了加快SpaceX等巨型公司上市后快速纳入该基准指数的提案。周四，标普指数在一份新闻稿中指出，不会缩短目前对新上市公司设定的12个月“成熟期”，也不会根据公司规模豁免现有的盈利能力和公众持股比例要求。这意味着，SpaceX至少在上市一年后才能被纳入标普500指数，还需要满足该指数现有的盈利能力和公众持股比例要求，即公司必须在最近一个季度以及最近四个季度的总和中，按照GAAP实现盈利，且公众持股比例不低于50%。（财联社）",
+      "link": "https://jinse.com.cn/lives/515998.html",
+      "published": "Fri, 05 Jun 2026 04:09:55 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "腾讯云TokenHub：连续多月翻倍，日Token消耗量跃升至5万亿",
+      "summary": "【腾讯云TokenHub：连续多月翻倍，日Token消耗量跃升至5万亿】金色财经报道，6月5日，在今天举行的腾讯云AI产业应用大会上，腾讯云总经理、TokenHub负责人高航透露，腾讯云大模型服务平台TokenHub上线3个月，保持每月翻倍的增长态势，目前日Token消耗量已突破5万亿。（36氪）",
+      "link": "https://jinse.com.cn/lives/515997.html",
+      "published": "Fri, 05 Jun 2026 04:07:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "金色午报 | 6月5日午间重要动态一览",
+      "summary": "【金色午报 | 6月5日午间重要动态一览】7:00-12:00关键词：a16z、SpaceX、Arthur Hayes \n1.美国大型银行拟联合推出代币化存款网络； \n2.a16z过去1日累计提取价值1515.6万美元HYPE； \n3.Arthur Hayes：受Orchard Pool漏洞影响，已清仓ZEC； \n4.SpaceX日本IPO募资额上调25% 散户需求强劲推高发售规模； \n5.美SEC委员Hester Peirce：发布DeFi代码属于受保护的言论自由； \n6.Curve创始人：加密货币和AI都是基础性技术，原则上不是竞争关系； \n7.Gravity Bridge攻击者将1180枚ETH存入Tornado，价值约206万美元。",
+      "link": "https://jinse.com.cn/lives/515996.html",
+      "published": "Fri, 05 Jun 2026 04:00:02 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "华为云发布全球首个全流程具身智能开发平台CloudRobo",
+      "summary": "【华为云发布全球首个全流程具身智能开发平台CloudRobo】金色财经报道，6月5日，在2026华为云INSPIRE创想者大会上，华为云正式发布“行业AI梦工厂·具身智能专区”，同时宣布全球首个全流程具身智能开发平台——CloudRobo将在月内开启公测。专区提供一站式具身智能数据合成、模型开发、仿真验证平台，提供面向具身智能开发者提供百万级开箱即用的数据资产与20+昇腾亲和的模型资产。而华为云CloudRobo提供PB级数据底座及开发管线、业界首个云原生具身模型生产引擎及首个全国产Real-Sim数据生产及模型评测体系。新松机器人、乐聚机器人、深朴智能、亿嘉和、凌云光旗下元客视界、上海交大等首批入驻专区。（新浪财经）",
+      "link": "https://jinse.com.cn/lives/515995.html",
+      "published": "Fri, 05 Jun 2026 03:46:37 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "腾讯首发效率智能体工具集，覆盖20多个垂直场景Agent",
+      "summary": "【腾讯首发效率智能体工具集，覆盖20多个垂直场景Agent】金色财经报道，6月5日，腾讯在2026腾讯云AI产业应用大会上首次系统发布“效率智能体工具集”，面向个人提效、办公提效、企业提效三类需求，针对20多个垂直场景提供差异化的智能体解决方案。针对个人用户，本地AI助手QClaw首创“微信直连”模式，并打通腾讯文档、腾讯会议、ima、QQ邮箱等工具。面向职场人群，腾讯推出了“Buddy”家族系列产品。针对企业用户，腾讯还正式发布WorkBuddy企业版及办公智能体套件Agent Suite，升级企业智能体管控平台ClawPro和智能体开发平台ADP 4.0。（金十）",
+      "link": "https://jinse.com.cn/lives/515994.html",
+      "published": "Fri, 05 Jun 2026 03:36:17 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Forward Industries向Coinbase Prime存入45.58万枚SOL，约合3187万美元",
+      "summary": "【Forward Industries向Coinbase Prime存入45.58万枚SOL，约合3187万美元】金色财经报道，6月5日，据Lookonchain监测，SOL财库公司Forward Industries的SOL持仓浮亏近11.3亿美元。该公司在沉寂一个月后，向Coinbase Prime存入455,784枚SOL，价值约3187万美元。 \n自2025年9月启动Solana财库策略以来，Forward Industries已花费约15.9亿美元买入683万枚SOL，平均买入价为232.08美元。目前，其持有的683万枚SOL价值仅约4.586亿美元。<p>原文链接: <a href=\"https://x.com/lookonchain/status/2062736598018478445\">https://x.com/lookonchain/status/2062736598018478445</a></p>",
+      "link": "https://jinse.com.cn/lives/515993.html",
+      "published": "Fri, 05 Jun 2026 03:26:06 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Curve创始人：加密货币和AI都是基础性技术，原则上不是竞争关系",
+      "summary": "【Curve创始人：加密货币和AI都是基础性技术，原则上不是竞争关系】金色财经报道，6月5日，Curve创始人Michael Egorov发文表示，当前市场出现大量关于比特币和加密市场的悲观言论，原因是加密资产暂时不再是市场最偏好的方向，AI股票成为当前主线。加密并不是“玩具”，其正在服务真正目的，即为每个用户提供自我主权，以及始终在线、不会停止运转的金融轨道。机构也正在采用没有笨重中介的基础设施，因此从基本面看，加密行业处于比以往更好的状态。 \nEgorov同时表示，AI是基础性技术，但也会经历自身的“死亡谷”。其认为，用AI替代人类会使AI输出进入AI输入，质量将下降，而维持该系统的成本将指数级增长。推动AI无处不在的大公司也未必正确使用AI，因此会报告过高的支出。加密和AI都是基础性技术，但二者并不相同，原则上也不是竞争关系。其表示：“加密是金融的未来。”<p>原文链接: <a href=\"https://x.com/newmichwill/status/2062593705471791413\">https://x.com/newmichwill/status/206259370",
+      "link": "https://jinse.com.cn/lives/515992.html",
+      "published": "Fri, 05 Jun 2026 03:24:45 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国现货以太坊ETF昨日净流入1887万美元",
+      "summary": "【美国现货以太坊ETF昨日净流入1887万美元】金色财经报道，6月5日，据Trader T监测，美国现货以太坊ETF昨日净流入1887万美元。<p>原文链接: <a href=\"https://x.com/thepfund/status/2062736218501382624\">https://x.com/thepfund/status/2062736218501382624</a></p>",
+      "link": "https://jinse.com.cn/lives/515991.html",
+      "published": "Fri, 05 Jun 2026 03:22:11 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国现货比特币ETF昨日净流入269万美元",
+      "summary": "【美国现货比特币ETF昨日净流入269万美元】金色财经报道，6月5日，据Trader T监测，美国现货比特币ETF昨日净流入269万美元。<p>原文链接: <a href=\"https://x.com/thepfund/status/2062734860641550464\">https://x.com/thepfund/status/2062734860641550464</a></p>",
+      "link": "https://jinse.com.cn/lives/515990.html",
+      "published": "Fri, 05 Jun 2026 03:21:05 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Binance将下架AB、ARLP等23只股票",
+      "summary": "【Binance将下架AB、ARLP等23只股票】金色财经报道，6月5日，据官方公告，Binance根据最新审查结果，将于2026年6月5日19:00停止支持部分股票交易。本次下架的股票包括：AB、ARLP、BSM、CAPL、CQP、DKL、DMLP、EPD、ET、GEL、GLP、IEP、MMLP、MPLX、NGL、NRP、PAA、SPH、SUN、UAN、USAC、WES和WLKP。",
+      "link": "https://jinse.com.cn/lives/515989.html",
+      "published": "Fri, 05 Jun 2026 03:05:36 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "Bitcoin Treasury Firms Shed $62 Billion in Deepening Crypto Rout - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQVkVoQmp6UmRuWWVTR3FvblBmQm9wRlZKQjBCRFR0Y1MwcmNrWlZ2NjZQNXdqSDgtVVZlN2lxc1l2SDF0ZVhmZ2ZGYVYyeXE4VllmanNudzdaT1U4SHpFdWZqWGFCZmNDcXhDNUROcEQzQlhZbGZpT1FDMkRBTkh0T2I3VG1RZzlYeHY0clZ5RC10Xzc5bVVYd1FjMzNGYjBFVEhOcWcwSnRYWGd3UkFOblp4VUo?oc=5\" target=\"_blank\">Bitcoin Treasury Firms Shed $62 Billion in Deepening Crypto Rout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVkVoQmp6UmRuWWVTR3FvblBmQm9wRlZKQjBCRFR0Y1MwcmNrWlZ2NjZQNXdqSDgtVVZlN2lxc1l2SDF0ZVhmZ2ZGYVYyeXE4VllmanNudzdaT1U4SHpFdWZqWGFCZmNDcXhDNUROcEQzQlhZbGZpT1FDMkRBTkh0T2I3VG1RZzlYeHY0clZ5RC10Xzc5bVVYd1FjMzNGYjBFVEhOcWcwSnRYWGd3UkFOblp4VUo?oc=5",
+      "published": "Fri, 05 Jun 2026 04:00:00 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Imagine investing in computer code currency",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tx9tkd/imagine_investing_in_computer_code_currency/\"> <img alt=\"Imagine investing in computer code currency\" src=\"https://preview.redd.it/gbnm8bdazd5h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=336e0437cd11918c441baadc86f25bbe8ef35901\" title=\"Imagine investing in computer code currency\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Down -32% as of today</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a h",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tx9tkd/imagine_investing_in_computer_code_currency/",
+      "published": "2026-06-05T03:49:38+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Zcash shielded pool exploit could’ve minted infinite coins",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>A bug was discovered that had been dormant for years and could in theory allow someone to mint ZEC in the shielded pool </p> <p>It was found by a white hat and immediately patched with no evidence the exploit was ever materialized </p> <p>My take: unlikely someone exploited it as they would’ve rugged $1b of dollars of liquidity already </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Accomplished-Eye5567\"> /u/Accomplished-E",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tx96yt/zcash_shielded_pool_exploit_couldve_minted/",
+      "published": "2026-06-05T03:18:49+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Metamask keeps suggesting I pay half a dollar transaction fee on sending USDC but I always change it to look and pay 5 cents and the transaction gets executed the same. It even shows the exact same predicted time of 48 seconds for high, market and low so why does it suggest so much?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I feel like most people are overpaying on ETH transactions a lot. Plus if everybody overpays that just makes the fee estimator suggest higher fees.</p> <p>Yes I know, not paying enough and getting your tx stuck is super annoying but is it really worth losing 45 cents on every tx for NO REASON?</p> <p>Honestly, there must be better software wallets then Metamask by now? I am using a trezor + metamask but I am so tired of using metamask. Any good alternatives that",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1txaqsv/metamask_keeps_suggesting_i_pay_half_a_dollar/",
+      "published": "2026-06-05T04:36:11+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Reason for ZEC optimism?",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1tx993e/reason_for_zec_optimism/\"> <img alt=\"Reason for ZEC optimism?\" src=\"https://external-preview.redd.it/XxIwkPLHQP4m1jvgBxqG8JNE-RdXnEVaj8aLgAIUQHE.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ee6b348844b6b5a9b84d3b33ca04151049b6819c\" title=\"Reason for ZEC optimism?\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TEX_DE_COCA\"> /u/TEX_DE_COCA </a> <br /> <span><a href=\"/r/zec/comm",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1tx993e/reason_for_zec_optimism/",
+      "published": "2026-06-05T03:21:43+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Buy now? Newbie trader",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>is this a good time to buy, any prediction to see if it will go even further down, want to buy at the cheapest hi hi hi</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/After_Highway6962\"> /u/After_Highway6962 </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1tx9f2f/buy_now_newbie_trader/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1tx9f2f/buy_now_newbie_trader/\">[com",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1tx9f2f/buy_now_newbie_trader/",
+      "published": "2026-06-05T03:29:57+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "How do today's kids view BTC?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>One underappreciated aspect of BTC is how potential future investors see it. Nearly everybody currently investing into it saw it develop and then were eventually convinced to buy in, but will this be the case in the future? Or do today's kids already understand it's value and be more likely to buy in once they have their own portfolio?</p> <p>They've grown up in a digital economy and understand how microtransactions work, and have spent much of their childhood b",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1txag3v/how_do_todays_kids_view_btc/",
+      "published": "2026-06-05T04:21:04+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Treasury Firms Shed $62 Billion in Deepening Crypto Rout - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQVkVoQmp6UmRuWWVTR3FvblBmQm9wRlZKQjBCRFR0Y1MwcmNrWlZ2NjZQNXdqSDgtVVZlN2lxc1l2SDF0ZVhmZ2ZGYVYyeXE4VllmanNudzdaT1U4SHpFdWZqWGFCZmNDcXhDNUROcEQzQlhZbGZpT1FDMkRBTkh0T2I3VG1RZzlYeHY0clZ5RC10Xzc5bVVYd1FjMzNGYjBFVEhOcWcwSnRYWGd3UkFOblp4VUo?oc=5\" target=\"_blank\">Bitcoin Treasury Firms Shed $62 Billion in Deepening Crypto Rout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVkVoQmp6UmRuWWVTR3FvblBmQm9wRlZKQjBCRFR0Y1MwcmNrWlZ2NjZQNXdqSDgtVVZlN2lxc1l2SDF0ZVhmZ2ZGYVYyeXE4VllmanNudzdaT1U4SHpFdWZqWGFCZmNDcXhDNUROcEQzQlhZbGZpT1FDMkRBTkh0T2I3VG1RZzlYeHY0clZ5RC10Xzc5bVVYd1FjMzNGYjBFVEhOcWcwSnRYWGd3UkFOblp4VUo?oc=5",
+      "published": "Fri, 05 Jun 2026 04:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ethereum Price Downtrend May Not Be Over—Sub-$1,700 Levels Loom - TradingView",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxORWt0Rk5GNTNVMFo1ZndUN2U0aE0wdzRZQkhzUTRyR01rZ0JyeEkxYV93OW5zUnh1bDNSNVdxRzl0X01sVmJBelZrRkliWGRRNkJuZU1pZHB6NmtCbVFfbmJNdFkyc29sN0VxWmp3RUV0MEVjdV82eTVpVkdnR2l3U0YxeVZpWTduVS1TZkM5cnQwU0NTY2Nqb1plLWdFc3VMSS0yR01PcWFRYWNXdVRYczRxc2pENnNNZFY5WQ?oc=5\" target=\"_blank\">Ethereum Price Downtrend May Not Be Over—Sub-$1,700 Levels Loom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORWt0Rk5GNTNVMFo1ZndUN2U0aE0wdzRZQkhzUTRyR01rZ0JyeEkxYV93OW5zUnh1bDNSNVdxRzl0X01sVmJBelZrRkliWGRRNkJuZU1pZHB6NmtCbVFfbmJNdFkyc29sN0VxWmp3RUV0MEVjdV82eTVpVkdnR2l3U0YxeVZpWTduVS1TZkM5cnQwU0NTY2Nqb1plLWdFc3VMSS0yR01PcWFRYWNXdVRYczRxc2pENnNNZFY5WQ?oc=5",
+      "published": "Fri, 05 Jun 2026 03:28:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Treasury Firms Shed $62 Billion in Deepening Crypto Rout - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOZm9BNzc1WlVwM3NQQkJ3REhyLXRpeFZfZ01FeERQR3N2TDVRMFREay1mb0hQNmtTZllfNWV6eW9yZzNpczduNHdtbE04b3d1NXN6V292Qm01TEd3MkVCSzN6NE95YUdWY1ZkX2tka3JKNUt0R25ERGtQVUhHQkV6NFBuMmV1TlJjQVpZT0sxWXExZGVhcnNTR0dDaw?oc=5\" target=\"_blank\">Bitcoin Treasury Firms Shed $62 Billion in Deepening Crypto Rout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZm9BNzc1WlVwM3NQQkJ3REhyLXRpeFZfZ01FeERQR3N2TDVRMFREay1mb0hQNmtTZllfNWV6eW9yZzNpczduNHdtbE04b3d1NXN6V292Qm01TEd3MkVCSzN6NE95YUdWY1ZkX2tka3JKNUt0R25ERGtQVUhHQkV6NFBuMmV1TlJjQVpZT0sxWXExZGVhcnNTR0dDaw?oc=5",
+      "published": "Fri, 05 Jun 2026 04:00:00 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Cardano logs 30% monthly loss amid risk-off sentiment in crypto markets - equiti.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNnNMTXZPdlBtUnVEUUZwNTlkeERLQ3ZMajVFNnlqd3FIc1MtTjhSS2ZRa19nMkpVV09uRnBQWXIzaGwwVmZ2ZFhOVkRmbkc0RDdMMVNnTnJwX1RtTi1VaUFLVnNCZ2xSb0lmZ0p0Ykh3Qmo0NHlTR3ZRclljenpEdUhsU2ZMRW5JZVZscldxMUNsa2pSWEN0dEpfa1NVVktFTnZJN0NsMk1SQTIwa1UxeEY0Y2t1YmpE?oc=5\" target=\"_blank\">Cardano logs 30% monthly loss amid risk-off sentiment in crypto markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">equiti.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNnNMTXZPdlBtUnVEUUZwNTlkeERLQ3ZMajVFNnlqd3FIc1MtTjhSS2ZRa19nMkpVV09uRnBQWXIzaGwwVmZ2ZFhOVkRmbkc0RDdMMVNnTnJwX1RtTi1VaUFLVnNCZ2xSb0lmZ0p0Ykh3Qmo0NHlTR3ZRclljenpEdUhsU2ZMRW5JZVZscldxMUNsa2pSWEN0dEpfa1NVVktFTnZJN0NsMk1SQTIwa1UxeEY0Y2t1YmpE?oc=5",
+      "published": "Fri, 05 Jun 2026 04:03:22 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
+      "published": "2026-06-04T20:44:22.460000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f",
+      "published": "2026-06-03T14:45:06.439000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/AED Spot Trading Pair",
+      "summary": "Binance Adds USDT/AED Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/66d54f75b3a041ff991ddd179ab6ed39",
+      "published": "2026-06-03T11:00:01.465000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "summary": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2b9ff1e1acf8433793bc40c59a0cb852",
+      "published": "2026-06-02T11:01:28.377000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
+      "published": "2026-06-01T22:15:21.180000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4299caec4ca4407cb282707154a97ffe",
+      "published": "2026-06-01T14:15:08.711000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/73769d872a644d7082bc79cde6c12d98",
+      "published": "2026-06-01T10:14:55.548000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/455eedc320bd43e28e2326f58d4aac2a",
+      "published": "2026-05-29T16:00:03.554000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "summary": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3bdaff694bde45ccb443709336c8686d",
+      "published": "2026-05-29T15:00:06.968000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ee40eb721abc460cb7edca6df04d782b",
+      "published": "2026-05-28T16:16:29.339000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "summary": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/94f88766c6c84d68a07f006bc076ba6a",
+      "published": "2026-05-26T15:00:01.392000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f3a598a5ab4344af993f67a9c3f4544a",
+      "published": "2026-05-26T11:15:07.388000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
+      "published": "2026-05-22T19:45:06.558000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "summary": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4de6272354be421ba51ea042fd273a8d",
+      "published": "2026-05-22T15:18:35.961000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
+      "published": "2026-05-21T19:00:02.869000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29",
+      "published": "2026-05-21T11:30:20.816000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "summary": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3544b8dab5e64f839316a360495a6387",
+      "published": "2026-05-18T19:15:56.728000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+      "published": "2026-05-16T13:44:21.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/875f9acd516c443b8752e800aa94b4b1",
+      "published": "2026-05-15T01:04:30.843000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCUSD1 Perpetual Contract (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a6284dbe6a7420b85a94054b6fb6613",
+      "published": "2026-05-14T23:29:47.443000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 12 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 12，分类为「Extreme Fear」。 市场处于极度恐惧状态，历史上往往是抄底机会。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-06-05T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "比特币、以太坊延续跌势，加密货币市场情绪转弱 - Moomoo",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPQmdZd1NMQWhKOG9aVG8tQlExQnhiRU9UUnRiaWg2cldTMlF2Q1JrelJySV82TWVFenZ2aXZxRUVxLXN1QlVFVUFwVXVNeWhzdXNLaVNEeWNUT0tlZ00xRy1fTWt0MVcxU0x1SjhUU1FWSngzTjdLaV9YZ2RwUjQ5Q0FKWG9XblRwRU5lVU5NZTBWVTNhQ212dFM5MmJfZnBNdFBoTzl0Z0xZTWRPWW1ndQ?oc=5\" target=\"_blank\">比特币、以太坊延续跌势，加密货币市场情绪转弱</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQmdZd1NMQWhKOG9aVG8tQlExQnhiRU9UUnRiaWg2cldTMlF2Q1JrelJySV82TWVFenZ2aXZxRUVxLXN1QlVFVUFwVXVNeWhzdXNLaVNEeWNUT0tlZ00xRy1fTWt0MVcxU0x1SjhUU1FWSngzTjdLaV9YZ2RwUjQ5Q0FKWG9XblRwRU5lVU5NZTBWVTNhQ212dFM5MmJfZnBNdFBoTzl0Z0xZTWRPWW1ndQ?oc=5",
+      "published": "Fri, 05 Jun 2026 03:10:12 GMT"
+    }
+  ]
+}
