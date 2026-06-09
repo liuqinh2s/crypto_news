@@ -1,0 +1,323 @@
+{
+  "date": "2026-06-09",
+  "hour": "18",
+  "total": 45,
+  "fetched_at": "2026-06-09T18:00:48.984818+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "USDT's flashing a golden cross and that may be bad news for bitcoin",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/09/usdt-s-flashing-a-golden-cross-and-that-may-be-bad-news-for-bitcoin",
+      "published": "Tue, 09 Jun 2026 09:27:02 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coinbase and Cardless unveil credit card backed by stablecoins",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/09/coinbase-and-cardless-unveil-credit-card-backed-by-stablecoins",
+      "published": "Tue, 09 Jun 2026 08:04:59 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Japan’s SBI Shinsei Bank plans crypto rewards program for depositors this fall: Nikkei",
+      "summary": "<p>The program is set to grant customers vouchers worth 20% of their deposit interest payments, redeemable for cryptocurrencies.</p>",
+      "link": "https://www.theblock.co/post/404080/japan-sbi-shinsei-bank-plans-crypto-rewards-program?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 09 Jun 2026 05:52:51 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "US Bitcoin ETFs log further outflows, though analyst sees signs of easing selling pressure",
+      "summary": "<p>An analyst predicted that selling pressure in Bitcoin ETFs is starting to ease, pointing out that four funds saw net inflows for the day.</p>",
+      "link": "https://www.theblock.co/post/404075/us-bitcoin-etfs-four-week-negative-streak?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 09 Jun 2026 05:41:34 -0400"
+    },
+    {
+      "source": "金色财经",
+      "title": "日本SBI新生银行试点将存款利息兑换为主流加密货币",
+      "summary": "【日本SBI新生银行试点将存款利息兑换为主流加密货币】金色财经报道，6月9日，据CoinDesk报道，日本SBI Shinsei Bank将于6月10日启动试点，允许客户把部分存款利息兑换为BTC、ETH或XRP。该计划以“利息兑换”为切入点，将加密资产引入传统存款产品，用户无需直接购买即可获得加密货币敞口。此举以小规模试点形式推进，后续扩展将取决于客户参与情况及监管环境。<p>原文链接: <a href=\"https://x.com/CoinDesk/status/2064274069042745589\">https://x.com/CoinDesk/status/2064274069042745589</a></p>",
+      "link": "https://jinse.com.cn/lives/516602.html",
+      "published": "Tue, 09 Jun 2026 09:52:19 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Humility确认被盗资金达3600万美元，正配合警方展开调查",
+      "summary": "【Humility确认被盗资金达3600万美元，正配合警方展开调查】金色财经报道，6月9日，Humility 发布黑客攻击事件说明称，北京时间 6 月 8 日晚，H 代币在 Ethereum 和 BSC 链上遭遇协同攻击，目前确认已有超过 3600 万美元资产被盗并遭抛售。初步调查显示，此次事件源于一名员工的电脑被攻破，导致控制 Hyperlane Bridge ProxyAdmin 的多重签名钱包密钥泄露。 \n其中，攻击者获取以太坊链上 Gnosis Safe 6 个持有者中的 3 个私钥，将 ProxyAdmin 所有权转移至其控制的钱包，并将桥接合约升级为恶意实现，随后通过单笔交易转移约 1.412 亿枚 H 代币。与此同时，攻击者还控制了 BSC 链上 Safe 钱包 5 个持有者中的 3 个私钥，以相同方式接管 ProxyAdmin，并部署具备无限增发功能的恶意合约，分两次向自身钱包增发 2 亿枚 H 代币。 \nHumility 表示，已暂停受影响桥接服务的所有存取款操作，并正与交易所等相关合作方协作以减少损失，同时正配合警方展开调查，并尝试追回部分被盗资金。<p>原文链接:",
+      "link": "https://jinse.com.cn/lives/516601.html",
+      "published": "Tue, 09 Jun 2026 09:46:23 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Humanity黑客已套现3400万美元，H代币的BSC链上流动性已枯竭",
+      "summary": "【Humanity黑客已套现3400万美元，H代币的BSC链上流动性已枯竭】金色财经报道，6月9日，据EmberCN监测，因“私钥泄露”事件，BSC链上H代币持续发生异常增发与抛售行为已持续约13小时，攻击者仍可在链上进行增发并持续出货。该地址已累计增发约3亿枚H，并通过抛售合计套现约4.5亿枚H，获得约3400万美元资产（ETH+BNB）。目前BSC链上相关流动性池已被抽干，仅剩约13美元流动性。受此影响，H链上价格已下跌约99.9%，最低跌至约0.0009美元；但在中心化交易平台永续合约市场中价格仍约为0.09美元，两者出现约100倍价差，形成严重脱锚状态。<p>原文链接: <a href=\"https://x.com/EmberCN/status/2064279758842777817\">https://x.com/EmberCN/status/2064279758842777817</a></p>",
+      "link": "https://jinse.com.cn/lives/516600.html",
+      "published": "Tue, 09 Jun 2026 09:39:56 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "分析：USDC成为Hyperliquid官方稳定币将生态收入提升21%-30%",
+      "summary": "【分析：USDC成为Hyperliquid官方稳定币将生态收入提升21%-30%】金色财经报道，6月9日，Coinbase已成为Hyperliquid平台上USDC的官方资金部署方。OAK Research分析称，在最初宣布三周后，USDC正式成为Hyperliquid的官方稳定币，并取代了Native Markets的USDH。作为回报，Hyperliquid平台上USDC资金储备所产生的收益的90%将返还给生态系统。鉴于整个生态系统中约有62.7亿枚USDC流通，这将为援助基金带来近1.8亿美元的额外年收入，较当前收入（基于过去30天的数据）增长21%至30%。 \n这对Hyperliquid而言是一条全新的收入来源，丰富了其此前几乎完全依赖交易量驱动的商业模式。除了纯粹的财务层面，采用USDC作为“统一报价资产”将显著简化生态系统的开发，因为该资产将应用于所有HIP-3和HIP-4市场，无论这些市场是否已部署。作为此次合作的一部分，Coinbase和Circl已各自质押了50万枚HYPE（按当前价格计算价值6400万美元）。<p>原文链接: <a href=\"https://x.c",
+      "link": "https://jinse.com.cn/lives/516599.html",
+      "published": "Tue, 09 Jun 2026 09:33:52 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Hyperscale Data比特币持仓量增至约709枚",
+      "summary": "【Hyperscale Data比特币持仓量增至约709枚】金色财经报道，6月9日，Hyperscale Data发布公告称，截至2026年6月7日，其全资子公司Sentinum, Inc.和Ault Capital Group, Inc合计持有708.9675枚比特币。 \nHyperscale Data表示，计划逐步将其分配给数字资产金库战略的现金全部用于购买比特币。<p>原文链接: <a href=\"https://www.prnewswire.com/news-releases/hyperscale-data-bitcoin-treasury-reaches-approximately-709-bitcoin-302794678.html\">https://www.prnewswire.com/news-releases/hyperscale-data-bitcoin-treasury-reaches-approximately-709-bitcoin-302794678.html</a></p>",
+      "link": "https://jinse.com.cn/lives/516598.html",
+      "published": "Tue, 09 Jun 2026 09:23:09 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Backpack 证券正式上线，支持券商持仓转入、股息及投票权",
+      "summary": "【Backpack 证券正式上线，支持券商持仓转入、股息及投票权】金色财经报道，6月9日，Backpack 证券现已正式上线，为用户提供真实美股交易服务，上线首月免手续费。平台支持与 IBKR、嘉信等主流券商之间进行持仓转入转出，用户持有的股票具备股息分配权与股东投票权。Backpack 证券还包含美股及欧洲、韩国等新兴市场 ETF，支持 24/5 连续交易。此外，股票账户与加密现货、永续合约共用同一账户，支持借贷、抵押等操作，最大化资金利用率。<p>原文链接: <a href=\"https://x.com/backpack_cn/status/2064268374830616755\">https://x.com/backpack_cn/status/2064268374830616755</a></p>",
+      "link": "https://jinse.com.cn/lives/516597.html",
+      "published": "Tue, 09 Jun 2026 09:03:23 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Binance：拥有至少 241 点 Alpha 积分可领取 160 枚 KGEN 代币空投",
+      "summary": "【Binance：拥有至少 241 点 Alpha 积分可领取 160 枚 KGEN 代币空投】金色财经报道，Binance Alpha 第二轮 KGeN (KGEN) 空投奖励现已开启。拥有至少 241 点 Alpha 积分的用户即可领取 160 枚 KGEN 代币空投，先到先得。如果奖励池未全部发放完毕，积分门槛将每 5 分钟自动降低 5 点。请注意，领取空投将消耗 15 点 Alpha 积分。用户必须在 24 小时内于 Alpha 活动页面确认领取，否则将被视为放弃领取。",
+      "link": "https://jinse.com.cn/lives/516596.html",
+      "published": "Tue, 09 Jun 2026 09:03:16 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "特朗普称美伊谈判进入“最后关头”",
+      "summary": "【特朗普称美伊谈判进入“最后关头”】金色财经报道，6月9日电，美国总统特朗普9日说，美国与伊朗的谈判已进入“最后关头”，将在“两到三天内”达成协议。特朗普9日在纽约肯尼迪国际机场接受记者采访时说，以色列和伊朗此前“来回交锋”，如今“同意停火”，“我们正处在最后关头，将达成一份非常、非常棒的协议”。当被问及谈判还需耗时多久，特朗普回答：“两到三天。”当地时间7日晚至8日，伊朗与以色列爆发自4月上旬美以伊宣布停火以来最大规模交火。8日晚些时候，伊朗与以色列先后宣布停止对对方的袭击。特朗普近期多次表示即将与伊朗达成协议，但截至目前都没有达成。 (新华社)",
+      "link": "https://jinse.com.cn/lives/516595.html",
+      "published": "Tue, 09 Jun 2026 08:42:35 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Tale of a crypto trader",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1u0zadp/tale_of_a_crypto_trader/\"> <img alt=\"Tale of a crypto trader\" src=\"https://preview.redd.it/14itl21ty76h1.jpg?width=140&amp;height=84&amp;auto=webp&amp;s=a79764165bb1ea371f830da9b8378edfc39a458c\" title=\"Tale of a crypto trader\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fun_Training6342\"> /u/Fun_Training6342 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u0zadp\">[lin",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1u0zadp/tale_of_a_crypto_trader/",
+      "published": "2026-06-09T08:40:24+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Autonomous AI Agents Pose Crypto Financial Risks",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1u105g7/autonomous_ai_agents_pose_crypto_financial_risks/\"> <img alt=\"Autonomous AI Agents Pose Crypto Financial Risks\" src=\"https://external-preview.redd.it/dwMJnsUaBNxUNP4smrSvxdubxBdFkKCxqktE4fwKhP4.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1eefe2de17a113cef1d0592d5d798fe001bf04c6\" title=\"Autonomous AI Agents Pose Crypto Financial Risks\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><blockquote> <p>Except fr",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1u105g7/autonomous_ai_agents_pose_crypto_financial_risks/",
+      "published": "2026-06-09T09:32:35+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin loses its luster as traders chase AI wave - CNN",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1XdWhGRWcxaXZvYTFPa3NkN3RLYlZkVUJ1dDZMNVdQZXdxOWQzM0pLLVVOMzZvWTYtOV9DSm5BSHJmcmNMMjRXamVIY0E0N01LNWF6N0NSbVEyMFk2Y0RYZnM2WlRyQUl4d2xmdlBvaGk?oc=5\" target=\"_blank\">Bitcoin loses its luster as traders chase AI wave</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XdWhGRWcxaXZvYTFPa3NkN3RLYlZkVUJ1dDZMNVdQZXdxOWQzM0pLLVVOMzZvWTYtOV9DSm5BSHJmcmNMMjRXamVIY0E0N01LNWF6N0NSbVEyMFk2Y0RYZnM2WlRyQUl4d2xmdlBvaGk?oc=5",
+      "published": "Tue, 09 Jun 2026 09:30:07 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "How Low Can Bitcoin Go? This BTC Price Prediction Targets Lows from September 2024 - Finance Magnates",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFMdW1PU2RTUVdNLVRaUENCcndjTlcycG1ZQ25weUZVN1NEb0ZyLXJ5UF9YUk5fVjNhYU92M1hNcW10SWluaG9FQ2R3cE9lLUsxb3hmaWt2M1pLOXJLMGM0T3UwUzFzZGgwTjRTYUFWRGhLelRpbHA5NXBRcWxCekduZnZhYi1qS1dJOEpFeUhDRTFVNkUxcnM2UFF1ZG5SSm90TVJGSVQtWUliSEFYbk54SzRiRDBjMGJaLVB5bzQ?oc=5\" target=\"_blank\">How Low Can Bitcoin Go? This BTC Price Prediction Targets Lows from September 2024</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finance Magnates</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFMdW1PU2RTUVdNLVRaUENCcndjTlcycG1ZQ25weUZVN1NEb0ZyLXJ5UF9YUk5fVjNhYU92M1hNcW10SWluaG9FQ2R3cE9lLUsxb3hmaWt2M1pLOXJLMGM0T3UwUzFzZGgwTjRTYUFWRGhLelRpbHA5NXBRcWxCekduZnZhYi1qS1dJOEpFeUhDRTFVNkUxcnM2UFF1ZG5SSm90TVJGSVQtWUliSEFYbk54SzRiRDBjMGJaLVB5bzQ?oc=5",
+      "published": "Tue, 09 Jun 2026 08:46:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Hyperscale Data Bitcoin Treasury Reaches Approximately 709 Bitcoin - PR Newswire",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUhpVHhwR29Za01URk9CUUs0RlVZRnpPSE1tYlNNUF9nTW82Q1FDQkFSYXRyLVFwZ09URFBDU1lzS3hmS21lai1WTVUyQ0NoSFpTRGxCVDNrSW1IYlNRcWI3TTNISkFZVzlrdlR4QzltNDI3bkQ3by1aZ2stc0ZhbDRqaDhGd0dyN2lWbHl6bXlOVENQUnRzNmVwVzk3UTB1YXRRT1VsTmtoUy1ueEJBTkVhZkJaWFJQUDZwc2dHTQ?oc=5\" target=\"_blank\">Hyperscale Data Bitcoin Treasury Reaches Approximately 709 Bitcoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PR Newswire</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUhpVHhwR29Za01URk9CUUs0RlVZRnpPSE1tYlNNUF9nTW82Q1FDQkFSYXRyLVFwZ09URFBDU1lzS3hmS21lai1WTVUyQ0NoSFpTRGxCVDNrSW1IYlNRcWI3TTNISkFZVzlrdlR4QzltNDI3bkQ3by1aZ2stc0ZhbDRqaDhGd0dyN2lWbHl6bXlOVENQUnRzNmVwVzk3UTB1YXRRT1VsTmtoUy1ueEJBTkVhZkJaWFJQUDZwc2dHTQ?oc=5",
+      "published": "Tue, 09 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin On Ethereum? Circle Launches cirBTC on ETH Targeting $9B WBTC Market - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNckdLX0JKVnBScWRGUGduS0FFWGl2eHlhbzZSNmVIV083aFlsVm1HODR3NlFCZ3RjX2RBR0FWZ0FwdHJYNTIyTWRGU0x3TXVxWmFwR0M1dlhYTVVoWXpIb1ZJN3Y1U0lfVDBWZWZWSWdvM0cyR0NucXdzQjh6aWhjU3c2ODgyTVYzUmpVQWRFNmo2VTVTeVVIenlNMzBPVW1wVXZCdW55QQ?oc=5\" target=\"_blank\">Bitcoin On Ethereum? Circle Launches cirBTC on ETH Targeting $9B WBTC Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNckdLX0JKVnBScWRGUGduS0FFWGl2eHlhbzZSNmVIV083aFlsVm1HODR3NlFCZ3RjX2RBR0FWZ0FwdHJYNTIyTWRGU0x3TXVxWmFwR0M1dlhYTVVoWXpIb1ZJN3Y1U0lfVDBWZWZWSWdvM0cyR0NucXdzQjh6aWhjU3c2ODgyTVYzUmpVQWRFNmo2VTVTeVVIenlNMzBPVW1wVXZCdW55QQ?oc=5",
+      "published": "Tue, 09 Jun 2026 08:32:29 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Executives Urge Congress to Keep Exception for Developers - Bloomberg Government News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNV1RWc2kzU1VOWVR5ZDFqOUJRYU00RktqMFZCaUV4VGtGWHhkbWEzNzl6ZlJITzh3QUVPd0o2X1FVaWdYSHFhaXZzMDZvUm1JTlRFNXhwMGxJZDcyTzVTUDRjWmx0VEhfWERmQUJmUkZwOVNqLUpmVGN0alAzWHh6RnRoTWpBNUdHejBGVldra1BDejZBa21kTTRiTkRleGI4a1cyQnpRNHo4Rjk2aV9DR3Nn?oc=5\" target=\"_blank\">Crypto Executives Urge Congress to Keep Exception for Developers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg Government News</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV1RWc2kzU1VOWVR5ZDFqOUJRYU00RktqMFZCaUV4VGtGWHhkbWEzNzl6ZlJITzh3QUVPd0o2X1FVaWdYSHFhaXZzMDZvUm1JTlRFNXhwMGxJZDcyTzVTUDRjWmx0VEhfWERmQUJmUkZwOVNqLUpmVGN0alAzWHh6RnRoTWpBNUdHejBGVldra1BDejZBa21kTTRiTkRleGI4a1cyQnpRNHo4Rjk2aV9DR3Nn?oc=5",
+      "published": "Tue, 09 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "USDT's flashing a golden cross and that may be bad news for bitcoin - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQRnA4eU9qTS1LbDBHdHdISUozd21UYy1ydFNDQVExdXdFT0RkMXRhUnc0cHo0MGdwX1B1YWdjT2hOcVAzcHFXdmRuWlU2WWszOExYQ2VJLW5OdkplcWpJNEc5ZXNBbzY4YlJ2U2h3MEJ1bDhoa25yRUg5X19iWDhHNWN2SHJ5LWZYYUFHWUFUeG1JbW5DVnh1OEdBMXJFWDBJYmMtSmw0NkpoUFl2MTJLUw?oc=5\" target=\"_blank\">USDT's flashing a golden cross and that may be bad news for bitcoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRnA4eU9qTS1LbDBHdHdISUozd21UYy1ydFNDQVExdXdFT0RkMXRhUnc0cHo0MGdwX1B1YWdjT2hOcVAzcHFXdmRuWlU2WWszOExYQ2VJLW5OdkplcWpJNEc5ZXNBbzY4YlJ2U2h3MEJ1bDhoa25yRUg5X19iWDhHNWN2SHJ5LWZYYUFHWUFUeG1JbW5DVnh1OEdBMXJFWDBJYmMtSmw0NkpoUFl2MTJLUw?oc=5",
+      "published": "Tue, 09 Jun 2026 09:32:09 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ethereum Flashes 'Historic Opportunity,' Says Analyst, as Tom Lee's Bitmine Buys $218M - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRlhyQ1hMN3RDQ3RBRUgzeUhOOXRFajZyYUN5a01pcWdHZ0RDbXduLWVqNTFBOUJmM2plWjNzV1ROX1RWX25aMjctNE82M1d4NGpFbk9qeFdUaXc3c2dzaDg1S01mQk5oLUJLUDcxMjZ2MmFKempOeGJZLURoRkNEX0V6OEdxU0tYYUZsem5OektQMHNhczlSbXBES3p4VUNmd2xSa1FDY05mc2M?oc=5\" target=\"_blank\">Ethereum Flashes 'Historic Opportunity,' Says Analyst, as Tom Lee's Bitmine Buys $218M</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRlhyQ1hMN3RDQ3RBRUgzeUhOOXRFajZyYUN5a01pcWdHZ0RDbXduLWVqNTFBOUJmM2plWjNzV1ROX1RWX25aMjctNE82M1d4NGpFbk9qeFdUaXc3c2dzaDg1S01mQk5oLUJLUDcxMjZ2MmFKempOeGJZLURoRkNEX0V6OEdxU0tYYUZsem5OektQMHNhczlSbXBES3p4VUNmd2xSa1FDY05mc2M?oc=5",
+      "published": "Tue, 09 Jun 2026 08:42:17 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Russia Takes Aim at Pro-Western Crypto With New Fees and Limits - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQTGtXQ1EwVEp3ek1NVWgxNTlOSzdGNVMxMXM0d3pPVmpxS2l1NndBLThjLTZZaHc3Xy1hTTJSV1djVHlCWmYtcFpwaFFHYVlrUmVzUUNJaTZHcFVDaEN6a0RkNlNXYWhSdWN2VXN1d0txSUhDNVp5aFdnemUybWh6V0lraHREVllxaDNRREtscHAxNXlUOEJhbA?oc=5\" target=\"_blank\">Russia Takes Aim at Pro-Western Crypto With New Fees and Limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTGtXQ1EwVEp3ek1NVWgxNTlOSzdGNVMxMXM0d3pPVmpxS2l1NndBLThjLTZZaHc3Xy1hTTJSV1djVHlCWmYtcFpwaFFHYVlrUmVzUUNJaTZHcFVDaEN6a0RkNlNXYWhSdWN2VXN1d0txSUhDNVp5aFdnemUybWh6V0lraHREVllxaDNRREtscHAxNXlUOEJhbA?oc=5",
+      "published": "Tue, 09 Jun 2026 09:03:21 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "$44.8M in Bitcoin: inside AI data-center firm Hyperscale Data's treasury - Stock Titan",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOb0J3and1Wld6eHhjWmYyM2Y4ek5LbG1nNzZ2cWljR1ZzTzh5WVNOTVlSeTNWY25xYUNscUlKY0xiS2NtekVFMFotV0l2MEJ1RHg0ZjdJOXhXNW1GRTBOLXJYTmFCTEFkV25xaVBIT3pWemRPYkE5TXNfRTdsSU5mLWt6bDFNQXdMWG5VdjNpNDBJTmsyZEI5eE01MkY5Yng4bnpUUi0xMkVoT2RkMWtwcnUzUQ?oc=5\" target=\"_blank\">$44.8M in Bitcoin: inside AI data-center firm Hyperscale Data's treasury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stock Titan</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb0J3and1Wld6eHhjWmYyM2Y4ek5LbG1nNzZ2cWljR1ZzTzh5WVNOTVlSeTNWY25xYUNscUlKY0xiS2NtekVFMFotV0l2MEJ1RHg0ZjdJOXhXNW1GRTBOLXJYTmFCTEFkV25xaVBIT3pWemRPYkE5TXNfRTdsSU5mLWt6bDFNQXdMWG5VdjNpNDBJTmsyZEI5eE01MkY5Yng4bnpUUi0xMkVoT2RkMWtwcnUzUQ?oc=5",
+      "published": "Tue, 09 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Anthropic's AI Just Found a Bug That Sent Zcash Down 40% in 1 Day. Here's Why That's Bearish for Ethereum. - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzFKNk5zZ2dLazFySWZ5RTRiWTN2MWwtbkNPYU82NXA2Vmc0NmlBaVZzeTRIM3R3RmpzNjdKV0hpTzA2YzJNM3VSdzIwc0hqd293bUppbFBBZ0xXVnozYUFCV0xzekgtQ0dTemJwQmZBM3UwYUlrc3l6TlpPVTRsMEJSclpVQkIzQzhBVkJUakRPNlFxbVFjQw?oc=5\" target=\"_blank\">Anthropic's AI Just Found a Bug That Sent Zcash Down 40% in 1 Day. Here's Why That's Bearish for Ethereum.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzFKNk5zZ2dLazFySWZ5RTRiWTN2MWwtbkNPYU82NXA2Vmc0NmlBaVZzeTRIM3R3RmpzNjdKV0hpTzA2YzJNM3VSdzIwc0hqd293bUppbFBBZ0xXVnozYUFCV0xzekgtQ0dTemJwQmZBM3UwYUlrc3l6TlpPVTRsMEJSclpVQkIzQzhBVkJUakRPNlFxbVFjQw?oc=5",
+      "published": "Tue, 09 Jun 2026 08:35:00 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f598c7bb87d74b8c995b9f67bf210be1",
+      "published": "2026-06-09T14:15:12.545000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1",
+      "published": "2026-06-08T12:45:01.727000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
+      "published": "2026-06-04T20:44:22.460000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f",
+      "published": "2026-06-03T14:45:06.439000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/AED Spot Trading Pair",
+      "summary": "Binance Adds USDT/AED Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/66d54f75b3a041ff991ddd179ab6ed39",
+      "published": "2026-06-03T11:00:01.465000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "summary": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2b9ff1e1acf8433793bc40c59a0cb852",
+      "published": "2026-06-02T11:01:28.377000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
+      "published": "2026-06-01T22:15:21.180000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4299caec4ca4407cb282707154a97ffe",
+      "published": "2026-06-01T14:15:08.711000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/73769d872a644d7082bc79cde6c12d98",
+      "published": "2026-06-01T10:14:55.548000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/455eedc320bd43e28e2326f58d4aac2a",
+      "published": "2026-05-29T16:00:03.554000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "summary": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3bdaff694bde45ccb443709336c8686d",
+      "published": "2026-05-29T15:00:06.968000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ee40eb721abc460cb7edca6df04d782b",
+      "published": "2026-05-28T16:16:29.339000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "summary": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/94f88766c6c84d68a07f006bc076ba6a",
+      "published": "2026-05-26T15:00:01.392000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f3a598a5ab4344af993f67a9c3f4544a",
+      "published": "2026-05-26T11:15:07.388000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
+      "published": "2026-05-22T19:45:06.558000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "summary": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4de6272354be421ba51ea042fd273a8d",
+      "published": "2026-05-22T15:18:35.961000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7",
+      "published": "2026-05-21T19:00:02.869000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4a9484ee10b347d287f514ee3fdd6a29",
+      "published": "2026-05-21T11:30:20.816000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "summary": "Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3544b8dab5e64f839316a360495a6387",
+      "published": "2026-05-18T19:15:56.728000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6253a74ac0734740bdf36864584d1bd1",
+      "published": "2026-05-16T13:44:21.924000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 10 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 10，分类为「Extreme Fear」。 市场处于极度恐惧状态，历史上往往是抄底机会。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-06-09T08:00:00+08:00"
+    }
+  ]
+}
