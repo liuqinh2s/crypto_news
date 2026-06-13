@@ -1,0 +1,232 @@
+{
+  "date": "2026-06-13",
+  "hour": "16",
+  "total": 32,
+  "fetched_at": "2026-06-13T16:00:56.731924+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Top cryptographers can't agree on Bitcoin's biggest quantum question",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/06/13/top-cryptographers-can-t-agree-on-bitcoin-s-biggest-quantum-question",
+      "published": "Sat, 13 Jun 2026 06:07:00 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Anthropic's pre-IPO shares fall as US government shuts down its most powerful AI model",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/13/anthropic-s-pre-ipo-shares-fall-as-us-government-shuts-down-its-most-powerful-ai-model",
+      "published": "Sat, 13 Jun 2026 06:02:05 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "Coinbase：x402协议即将支持Coinbase for Agents用户的USDC余额直付",
+      "summary": "【Coinbase：x402协议即将支持Coinbase for Agents用户的USDC余额直付】金色财经报道，Coinbase开发者平台发布支付生态开发进展更新，随着Coinbase for Agents正式上线，用户已经能为AI Agent创建独立账户，在设定权限与风控规则下，执行交易、资产管理等自动化操作；新的Coinbase CLI与MCP简化登录流程已展示，可通过Claude进行身份与操作集成演示；开发者钱包现已通过Swift SDK提供，支持在iOS原生应用中集成自托管钱包功能。 \n接下来几周，x402协议将支持Coinbase for Agents内的用户使用USDC余额直接支付，允许Agent不仅能操作账户，还能直接通过用户持有的稳定币完成真实支付。此外Coinbase将于6月16日发布系统更新，进一步完善支付与Agent相关能力。<p>原文链接: <a href=\"https://x.com/CoinbaseDev/status/2065555837595390333\">https://x.com/CoinbaseDev/status/20655558375953",
+      "link": "https://jinse.com.cn/lives/517324.html",
+      "published": "Sat, 13 Jun 2026 07:47:55 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某地址于10小时前抛售3000枚ETH，约合498万美元",
+      "summary": "【某地址于10小时前抛售3000枚ETH，约合498万美元】金色财经报道，6月13日，据链上分析师Ai姨监测，某地址于10小时前在链上卖出3000枚ETH，价值约498万美元，平均卖出价格为1658.68美元。据追踪，该部分ETH最早可追溯至3年前，期间多数时间存放于Aave等DeFi协议中获取收益，此次终于在链上卖出。<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2065694160167030895\">https://x.com/ai_9684xtpa/status/2065694160167030895</a></p>",
+      "link": "https://jinse.com.cn/lives/517323.html",
+      "published": "Sat, 13 Jun 2026 07:29:34 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "“木头姐”卖出AMD股票，买入SpaceX股票",
+      "summary": "【“木头姐”卖出AMD股票，买入SpaceX股票】金色财经报道，6月13日，“木头姐”旗下ARK方舟基金于2026年6月12日（周五）公布了当日交易记录，显示出了投资策略的重大转变。最引人注目的操作是，旗下多只ETF合计买入3,291,184股SpaceX的股票，交易总额高达444,309,840美元，表明该基金对太空技术领域的兴趣日益浓厚。与此同时，方舟大幅减持AMD(AMD.O)，通过ARKQ、ARKW和ARKX三只ETF共卖出80,536股，交易总值为39,337,809美元，延续了对AMD持仓的削减趋势。(金十）",
+      "link": "https://jinse.com.cn/lives/517322.html",
+      "published": "Sat, 13 Jun 2026 06:42:32 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "顶级密码学家无法就比特币面临的核心量子安全难题达成共识",
+      "summary": "【顶级密码学家无法就比特币面临的核心量子安全难题达成共识】金色财经报道，6月13日，由Coinbase召集成立、汇聚全球多位顶尖密码学家的顾问委员会，近日发布了一份关于“未来量子计算机可能窃取数百万枚比特币时，比特币应如何应对”的报告。然而，对于其中最关键、最具争议的问题，该委员会并未给出明确答案。 \n该委员会成员包括：Scott Aaronson（得州大学奥斯汀分校）、Dan Boneh（斯坦福大学）及Justin Drake（以太坊基金会）。 \n委员会认为：量子计算机目前尚未对区块链构成现实威胁，而且没人知道这种威胁何时会真正到来，因此相关讨论不应等待明确时间表后再开始。不过，他们指出，量子风险主要集中在比特币网络。 \n目前约有170万枚BTC存放在约2万个早期Pay-to-Public-Key（P2PK）地址 中。这类地址会直接将用户公钥公开记录在区块链上，一旦量子计算机具备足够能力，就可能通过公钥反推出私钥，从而盗取这些资产。 \n其中许多地址被认为属于Satoshi Nakamoto（中本聪）以及其他已经遗失私钥的早期持有者。这些比特币实际上无法再被主动转移到更安全的地址中。",
+      "link": "https://jinse.com.cn/lives/517321.html",
+      "published": "Sat, 13 Jun 2026 06:29:15 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国政府叫停Anthropic最强AI模型，pre-IPO市场股价应声下跌",
+      "summary": "【美国政府叫停Anthropic最强AI模型，pre-IPO市场股价应声下跌】金色财经报道，6月13日，由于美国政府勒令Anthropic关闭其两款最强大的AI模型，Anthropic的pre-IPO市场股价随即出现抛售。根据数据显示，Hyperliquid上的Anthropic永续合约在周六下跌了3.7%，降至约1,627美元。 \n在此之前，随着Fable 5模型发布，该合约曾在几天内交易于1,800美元以上的历史高位附近。目前该合约的未平仓合约规模接近860万美元，尽管相对于SpaceX的永续合约来说规模较小，但对于一家尚未正式提交IPO申请的公司而言，这已经是一个相当重要的数字。<p>原文链接: <a href=\"https://www.coindesk.com/markets/2026/06/13/anthropic-s-pre-ipo-shares-fall-as-us-government-shuts-down-its-most-powerful-ai-model\">https://www.coindesk.com/markets/2026/06/13/anthropic-",
+      "link": "https://jinse.com.cn/lives/517320.html",
+      "published": "Sat, 13 Jun 2026 06:11:05 GMT"
+    },
+    {
+      "source": "PANews",
+      "title": "想追SpaceX？数据显示30家明星美股IPO，第一年大多先腰斩 - PANews",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5LMTVHdTRVcnpaM1lJOGpzLTRnZnBUTURaWlczamw2NVNRZTRrX2NfNmIwV0RRMGxhZ1h2eWhIWmRoWVI4cWlFbkgtSjF6ZTBKTmpHbW1UNG9qQ2UtNldBVzZwaFhhRExZUDlmSGVNZE5WQ1hKUHFHY0ZRcmYzQzQ?oc=5\" target=\"_blank\">想追SpaceX？数据显示30家明星美股IPO，第一年大多先腰斩</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PANews</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LMTVHdTRVcnpaM1lJOGpzLTRnZnBUTURaWlczamw2NVNRZTRrX2NfNmIwV0RRMGxhZ1h2eWhIWmRoWVI4cWlFbkgtSjF6ZTBKTmpHbW1UNG9qQ2UtNldBVzZwaFhhRExZUDlmSGVNZE5WQ1hKUHFHY0ZRcmYzQzQ?oc=5",
+      "published": "Sat, 13 Jun 2026 07:35:32 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Daily Discussion, June 13, 2026",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Please utilize this sticky thread for all general <strong>Bitcoin</strong> discussions! If you see posts on the front page or <a href=\"/r/Bitcoin/new\">/r/Bitcoin/new</a> which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!</p> <p>If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.</p> <p>Please check the <a href=\"https://www.redd",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1u4j0gu/daily_discussion_june_13_2026/",
+      "published": "2026-06-13T06:05:03+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Quantum Threat to Crypto Is Not Here Yet, but Coinbase Advisory Board Says the Time to Prepare Is Now - The Quantum Insider",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQVVsbkxGYVd5Y09YTnJDUEIySHpYaTJWYS1ucTB6OHY4Yy1OdXpkTVdVY2ljUnJYOXFxRVMxczlBTkZaSG5fUm1YSFhvUmg3d3pDRm54aHB2djQ4S011N1BNWTlwTEhRMFRIOWtOdXJQV1VCbzV1d05ISDM1UkRMeC1lUHM0SG16THJfVDZUZDVRZ1djSDJDcW50RkMwSFVrX3E3OEpxeUg0d3BBTVlmRFJMOHFWZTRCMXdHUnN5QkotYkl6dk5xLW1FNFZMTUktVXFmWU5iN0J0UQ?oc=5\" target=\"_blank\">Quantum Threat to Crypto Is Not Here Yet, but Coinbase Advisory Board Says the Time to Prepare Is Now</a>&nbsp;&nbsp;<font color=\"#6f",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQVVsbkxGYVd5Y09YTnJDUEIySHpYaTJWYS1ucTB6OHY4Yy1OdXpkTVdVY2ljUnJYOXFxRVMxczlBTkZaSG5fUm1YSFhvUmg3d3pDRm54aHB2djQ4S011N1BNWTlwTEhRMFRIOWtOdXJQV1VCbzV1d05ISDM1UkRMeC1lUHM0SG16THJfVDZUZDVRZ1djSDJDcW50RkMwSFVrX3E3OEpxeUg0d3BBTVlmRFJMOHFWZTRCMXdHUnN5QkotYkl6dk5xLW1FNFZMTUktVXFmWU5iN0J0UQ?oc=5",
+      "published": "Sat, 13 Jun 2026 07:35:12 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "What happens to Satoshi's BTC when Bitcoin's quantum problem is fixed? - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPZVRxdDlmTlMwYWV6U0pCLTVhUUMxWDVBX0hYYXVjejhZOGZVMEJNTlQwSnZ1RnBSNzI0S0FoNHpwWXA1OVA1ZmE5VXZwa1V3MDNlUjNENm4wT3pNNllrOXlMS3dmRWNkYmpsU01HVG1GN01uMVJfenZDOXVaaVNWYk80a0pGdjBobnNscGlYbXFYczlUOWFjWTZ4NzFpMEdpRXFoNFZlMy1DU01hd1E?oc=5\" target=\"_blank\">What happens to Satoshi's BTC when Bitcoin's quantum problem is fixed?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZVRxdDlmTlMwYWV6U0pCLTVhUUMxWDVBX0hYYXVjejhZOGZVMEJNTlQwSnZ1RnBSNzI0S0FoNHpwWXA1OVA1ZmE5VXZwa1V3MDNlUjNENm4wT3pNNllrOXlMS3dmRWNkYmpsU01HVG1GN01uMVJfenZDOXVaaVNWYk80a0pGdjBobnNscGlYbXFYczlUOWFjWTZ4NzFpMEdpRXFoNFZlMy1DU01hd1E?oc=5",
+      "published": "Sat, 13 Jun 2026 06:08:45 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/191cb96109f24c5c85362631a55a45d3",
+      "published": "2026-06-13T00:00:00.917000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities Trading Pair(s) & Trading Bots Services on Binance Spot - 2026-06-11",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities Trading Pair(s) & Trading Bots Services on Binance Spot - 2026-06-11",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+      "published": "2026-06-11T22:05:06.698000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-11)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+      "published": "2026-06-11T15:30:03.874000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b893d3539ae34c47856013b1f3cc94fb",
+      "published": "2026-06-10T12:30:19.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f598c7bb87d74b8c995b9f67bf210be1",
+      "published": "2026-06-09T14:15:12.545000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1",
+      "published": "2026-06-08T12:45:01.727000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
+      "published": "2026-06-04T20:44:22.460000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f",
+      "published": "2026-06-03T14:45:06.439000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/AED Spot Trading Pair",
+      "summary": "Binance Adds USDT/AED Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/66d54f75b3a041ff991ddd179ab6ed39",
+      "published": "2026-06-03T11:00:01.465000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "summary": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2b9ff1e1acf8433793bc40c59a0cb852",
+      "published": "2026-06-02T11:01:28.377000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
+      "published": "2026-06-01T22:15:21.180000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4299caec4ca4407cb282707154a97ffe",
+      "published": "2026-06-01T14:15:08.711000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/73769d872a644d7082bc79cde6c12d98",
+      "published": "2026-06-01T10:14:55.548000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/455eedc320bd43e28e2326f58d4aac2a",
+      "published": "2026-05-29T16:00:03.554000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "summary": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3bdaff694bde45ccb443709336c8686d",
+      "published": "2026-05-29T15:00:06.968000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ee40eb721abc460cb7edca6df04d782b",
+      "published": "2026-05-28T16:16:29.339000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "summary": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/94f88766c6c84d68a07f006bc076ba6a",
+      "published": "2026-05-26T15:00:01.392000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f3a598a5ab4344af993f67a9c3f4544a",
+      "published": "2026-05-26T11:15:07.388000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6b7d36a6472f4f60803a1d048d1c33e8",
+      "published": "2026-05-22T19:45:06.558000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "summary": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4de6272354be421ba51ea042fd273a8d",
+      "published": "2026-05-22T15:18:35.961000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 13 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 13，分类为「Extreme Fear」。 市场处于极度恐惧状态，历史上往往是抄底机会。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-06-13T08:00:00+08:00"
+    }
+  ]
+}
