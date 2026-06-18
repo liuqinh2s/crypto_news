@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-18",
+  "hour": "14",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12094,
+    "completion_tokens": 1766,
+    "total_tokens": 13860
+  },
+  "content_length": 1893,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"STRC优先股创新低\",\n      \"summary\": \"Strategy Inc.的优先股STRC价格跌破发行价，收于89美元，创历史最低收盘水平。这反映了市场对Strategy杠杆策略的担忧，可能引发比特币抛售压力，因为Strategy持有大量BTC。短期看空BTC，长期需观察。\",\n      \"reason\": \"Strategy的优先股创新低可能引发连锁抛售，直接影响BTC价格。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"STRA\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/06/18/strategy-s-strc-preferred-stock-hits-a-record-low-below-par\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"CLARITY Act或快速推进\",\n      \"summary\": \"美国众议院成员Dusty Johnson表示，众议院已准备好在8月休会前快速推进《CLARITY Act》法案。该法案旨在为稳定币提供明确监管框架，利好合规稳定币项目如USDC、USDT，增加监管确定性，整体利好加密货币市场。\",\n      \"reason\": \"稳定币监管法案快速推进是重大政策利好，可能吸引机构资金入场。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDC\", \"USDT\", \"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518169.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Scaramucci预测年底反弹\",\n      \"summary\": \"前白宫通讯主任Anthony Scaramucci预测比特币将在2026年底反弹，并支持Michael Saylor的Strategy公司。此言论在恐慌指数15时出现，可能提振市场情绪。但需注意其个人立场，不宜过度解读。\",\n      \"reason\": \"名人看多言论在极度恐惧时可能成为情绪反转信号，但非直接基本面。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Pluang\",\n          \"url\": \"https://news.google.com/rss/articles/CBMikwFBVV95cUxPMFRMQVA5Zmk0cjAzYURSWnRnU3FLYVdaczlTSmNpZF9YRE1oaDV1QXl6U2dQX2k2X0MyeE5qWUU1Mm1vdUoxejZ6Q0NIMVRwZnFCYjNsTWhhVnRndXZlSS1ZaXVtMUpwQURwYVdkbmpfWVZTV3VyOFRUZU0wZWFlOWdBNlhKSU9pMkY2UGhZdXJQaWc?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮抓取素材中重复消息较多，仅选出3条有独立价值的新消息。Binance公告系列、美联储鹰派、ETF流出等已在历史消息中覆盖。\"\n}"
+}

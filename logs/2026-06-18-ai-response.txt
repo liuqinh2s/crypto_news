@@ -413,3 +413,63 @@ content length: 3530
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1766, prompt_tokens=12094, total_tokens=13860, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=992, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10942)
+content length: 1893
+============================================================
+{
+  "news": [
+    {
+      "title": "STRC优先股创新低",
+      "summary": "Strategy Inc.的优先股STRC价格跌破发行价，收于89美元，创历史最低收盘水平。这反映了市场对Strategy杠杆策略的担忧，可能引发比特币抛售压力，因为Strategy持有大量BTC。短期看空BTC，长期需观察。",
+      "reason": "Strategy的优先股创新低可能引发连锁抛售，直接影响BTC价格。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "STRA"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/18/strategy-s-strc-preferred-stock-hits-a-record-low-below-par"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY Act或快速推进",
+      "summary": "美国众议院成员Dusty Johnson表示，众议院已准备好在8月休会前快速推进《CLARITY Act》法案。该法案旨在为稳定币提供明确监管框架，利好合规稳定币项目如USDC、USDT，增加监管确定性，整体利好加密货币市场。",
+      "reason": "稳定币监管法案快速推进是重大政策利好，可能吸引机构资金入场。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "USDT", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518169.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Scaramucci预测年底反弹",
+      "summary": "前白宫通讯主任Anthony Scaramucci预测比特币将在2026年底反弹，并支持Michael Saylor的Strategy公司。此言论在恐慌指数15时出现，可能提振市场情绪。但需注意其个人立场，不宜过度解读。",
+      "reason": "名人看多言论在极度恐惧时可能成为情绪反转信号，但非直接基本面。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Pluang",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMFRMQVA5Zmk0cjAzYURSWnRnU3FLYVdaczlTSmNpZF9YRE1oaDV1QXl6U2dQX2k2X0MyeE5qWUU1Mm1vdUoxejZ6Q0NIMVRwZnFCYjNsTWhhVnRndXZlSS1ZaXVtMUpwQURwYVdkbmpfWVZTV3VyOFRUZU0wZWFlOWdBNlhKSU9pMkY2UGhZdXJQaWc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中重复消息较多，仅选出3条有独立价值的新消息。Binance公告系列、美联储鹰派、ETF流出等已在历史消息中覆盖。"
+}

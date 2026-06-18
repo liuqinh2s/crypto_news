@@ -1269,3 +1269,83 @@
 2026-06-18 05:02:15 [DEBUG]   去重: 「Tether关闭黄金背书的aUSDT稳定币」 → URL重复: https://cointelegraph.com/news/tether-winds-down-gold-backed
 2026-06-18 05:02:15 [INFO] 📦 JSON 已保存: reports/2026-06-18-13.json
 2026-06-18 05:02:15 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-06-18 06:00:54 [INFO] 🚀 开始抓取 2026-06-18 14:00 币圈新闻
+2026-06-18 06:00:54 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-18 06:00:54 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-18 06:00:54 [INFO]   ⏭ Decrypt: 过滤掉 38 条非近期新闻
+2026-06-18 06:00:54 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-06-18 06:00:54 [INFO]   ⏭ CoinTelegraph: 过滤掉 28 条非近期新闻
+2026-06-18 06:00:54 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-18 06:00:54 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:54 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:54 [INFO]   ⏭ 宏观经济: 过滤掉 47 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 25 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ CoinDesk: 过滤掉 21 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ Blockworks: 过滤掉 4 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ Crypto Twitter: 过滤掉 42 条非近期新闻
+2026-06-18 06:00:55 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-18 06:00:56 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-18 06:01:04 [DEBUG] 请求失败 https://www.dlnews.com/rss/: [Errno -3] Temporary failure in name resolution
+2026-06-18 06:01:04 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-18 06:01:04 [INFO]   ✓ CoinDesk: 4 条
+2026-06-18 06:01:04 [INFO]   ✓ The Block: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Decrypt: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ CoinTelegraph: 2 条
+2026-06-18 06:01:04 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Blockworks: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ DL News: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ 金色财经: 3 条
+2026-06-18 06:01:04 [INFO]   ✓ PANews: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Crypto Twitter: 8 条
+2026-06-18 06:01:04 [INFO]   ✓ 宏观经济: 3 条
+2026-06-18 06:01:04 [INFO]   ✓ Binance公告: 20 条
+2026-06-18 06:01:04 [INFO]   ✓ OKX公告: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Bitget公告: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Whale Alert: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-18 06:01:04 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-18 06:01:04 [INFO]   ✓ 雪球加密: 0 条
+2026-06-18 06:01:04 [INFO] 📊 共抓取 41 条新闻
+2026-06-18 06:01:04 [INFO] 📋 原始新闻已保存: reports/2026-06-18-14-raw.json (41 条)
+2026-06-18 06:01:04 [INFO] 📋 标题摘要已保存: reports/2026-06-18-14-raw-titles.md
+2026-06-18 06:01:04 [INFO] ✅ 抓取完成，共 41 条，已保存到 reports/2026-06-18-14-raw.json
+2026-06-18 06:01:05 [INFO] 🤖 开始 AI 筛选 2026-06-18 14:00 币圈消息
+2026-06-18 06:01:05 [INFO] 📋 已加载原始新闻: reports/2026-06-18-14-raw.json (41 条)
+2026-06-18 06:01:05 [INFO] 📚 已加载历史新闻标题（20889 字符）
+2026-06-18 06:01:05 [INFO] 📚 已加载历史筛选标题 18 条、URL 19 个，用于去重
+2026-06-18 06:01:05 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-18 06:01:05 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-18 06:01:05 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（41 条，9610 字符，temp=0.3）
+2026-06-18 06:01:26 [INFO] AI 原始返回已保存: logs/2026-06-18-ai-response.txt (finish_reason=stop, 1893 字符)
+2026-06-18 06:01:26 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-18-14-ai-raw.json
+2026-06-18 06:01:26 [DEBUG] parse_json_response 输入长度: 1893 字符
+2026-06-18 06:01:26 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "STRC优先股创新低",
+      "summary": "Strategy Inc.的优先股STRC价格跌破发行价，收于89美元，创历史最低收盘水平。这反映了市场对Strategy杠杆策略的担忧，可能引发比特币抛售压力，因为Strategy持有大量BTC。短期看空BTC，长期需观察。",
+      "reason": "Strategy的优先股创新低可能引发连锁抛售，直接影响BTC价格。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "STRA"]
+2026-06-18 06:01:26 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-06-18 06:01:26 [INFO] ✅ AI 返回 3 条新闻
+2026-06-18 06:01:26 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-06-18 06:01:26 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-06-18 06:01:26 [INFO] 📦 JSON 已保存: reports/2026-06-18-14.json
+2026-06-18 06:01:26 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
