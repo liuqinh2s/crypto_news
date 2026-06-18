@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-18",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12878,
+    "completion_tokens": 3111,
+    "total_tokens": 15989
+  },
+  "content_length": 1882,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Arthur Hayes购入1500ETH\",\n      \"summary\": \"前BitMEX CEO Arthur Hayes通过Cumberland购买1500枚ETH（约263万美元），从OTC买入，表明其看涨ETH。该行为可能带动市场情绪，短期利好ETH走势。尽管ETH受宏观压力下跌，但巨鲸买入提供支撑，交易者可逢低布局。\",\n      \"reason\": \"巨鲸异动，直接买入，看涨信号，符合优先级一。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518147.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Strategy优先股收于89美元新低\",\n      \"summary\": \"Strategy（前MicroStrategy）的STRC优先股收盘价89美元，创上市以来新低，较面值折价11%。市场担忧其比特币持仓价值下降及股息支付压力，可能迫使公司出售部分BTC以维持分红，形成潜在抛压。对BTC构成中期利空，交易者可考虑减仓或对冲。\",\n      \"reason\": \"机构动向，可能引发BTC抛售，看空信号，符合优先级二。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518145.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"351万ZRO解锁代币转入币安\",\n      \"summary\": \"ZRO团队/投资人地址将351万枚解锁代币转入币安，价值约342万美元。解锁代币直接转入交易所通常意味着计划出售，增加市场抛压，对ZRO形成直接利空。交易者应避免追高，已持仓可考虑止损或做空对冲。\",\n      \"reason\": \"巨鲸异动（解锁抛售），直接利空，符合优先级一。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ZRO\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518141.html\"}],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"鲸鱼从Bybit提取5万HYPE\",\n      \"summary\": \"某新建钱包地址从Bybit交易所提取5万枚HYPE（约358万美元），至自托管地址。大额提币通常表明巨鲸转为长期持有，减少交易所供应，对HYPE构成利好。短期可能推动价格上行，交易者可关注做多机会。\",\n      \"reason\": \"链上异动，提币看涨，符合优先级一。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518139.html\"}],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮抓取新闻与历史消息高度重复，仅筛选出4条未重复且有交易价值的新消息。美联储决议相关消息已在历史中充分体现，故未重复选入。\"\n}"
+}
