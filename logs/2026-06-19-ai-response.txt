@@ -545,3 +545,126 @@ content length: 2410
   ],
   "note": "由于近6小时大量重复标题（包括Binance旧公告、此前已报道的宏观事件、恐惧贪婪指数未变等），仅筛选出4条具有新信息价值且符合筛选标准的关键消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2428, prompt_tokens=13556, total_tokens=15984, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=869, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12404)
+content length: 4069
+============================================================
+{
+  "news": [
+    {
+      "title": "德州电力新规利好矿工转型",
+      "summary": "德克萨斯州提出新的电网分配框架，允许比特币矿工更容易转型为数据中心运营商。这一政策优化了矿工的收入结构，可能推动矿工从单纯挖矿向AI算力服务扩展，利好矿企如HIVE、IREN等。同时可能减少矿工抛售BTC的压力。整体偏多，但需关注具体实施细节。",
+      "reason": "新消息，影响矿工行业结构和BTC抛压，优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405322/texas-power-grid-allocation-framework-lift-bitcoin-miners-data-center-operators"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Gillibrand之子筹建合规永续交易所",
+      "summary": "参议员Gillibrand的儿子筹集3000万美元，计划建立一个同时接受CFTC和SEC监管的永续合约交易所。此举可能为美国合规加密货币衍生品市场开辟新路径，短期利多整体市场情绪，但长期可能挑战现有交易所格局。",
+      "reason": "新消息，涉及监管创新和市场结构变化，影响比特币和以太坊等主流币。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405334/sen-gillibrand-son-building-perps-exchange-dual-cftc-sec-oversight"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊利诺伊州2027年起征收0.2%加密转账税",
+      "summary": "伊利诺伊州宣布从2027年1月1日起对加密货币转账征收0.2%的税。这是美国州级首次对加密转账单独征税，可能增加交易成本，压制链上活跃度，短期利空BTC、ETH等主要资产，但长期影响取决于其他州是否跟进。",
+      "reason": "新消息，监管政策变化，直接影响加密交易成本，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Forbes via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNzEtM2J6N1JTaHdUNlctb1J5QnFwb3lPTXRlUjNHLXVGcUJybDc4TDM3eWZzQ1R1S0RnSWdnUHBwY21meGw3RjFRWUdjRzI2R3BWT1ZiU2cyX1M5TGZmNVk4V2JqSWpqVS1pSUl6elhhZEV2RUEzckdUdWp3Vm9vZFVrRlZjRkhqbnd5NUxCcTVrS3lxQ3BSWk5XS0poM1E0WF9mTF9sU3hlYVdZdGJFdWQ4djFTZw"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "爱尔兰政府考虑加密资产保护措施",
+      "summary": "爱尔兰政府正在评估加密资产相关的金融风险，并可能出台新的消费者保护法规。此举是欧盟MiCA框架的补充，短期内可能增加合规成本，但长期有助于吸引机构资金，对市场影响中性偏空。",
+      "reason": "新消息，监管政策动向，影响欧洲加密企业。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ireland-government-standards-crypto-risk-assessment"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Wealthsimple推出Kalshi预测市场应用",
+      "summary": "加拿大财富管理平台Wealthsimple上线由Kalshi驱动的预测市场应用，允许加拿大用户对政治、经济事件进行投注。此举将预测市场引入主流零售，可能增加对相关代币（如Kalshi代币或预测市场概念币）的关注，但影响有限。",
+      "reason": "新消息，市场结构变化，但影响较小。",
+      "category": "市场结构",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/wealthsimple-launches-kalshi-powered-prediction-market-app-for-canadian-investors"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitwise：比特币相对AI股折价，但鹰派风险仍存",
+      "summary": "Bitwise分析师指出，比特币当前估值远低于AI相关股票，存在较大折价，但美联储鹰派立场和ETF资金流出仍是短期风险。建议投资者关注逢低布局机会，长期看多。",
+      "reason": "新消息，机构观点，提供交易参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-flashes-a-discount-to-ai-stocks-but-hawkish-fed-risk-lingers-bitwise"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Algorand路线图：2027年底实现量子抵抗",
+      "summary": "Algorand发布技术路线图，计划在2027年底前实现量子安全，成为首个主要量子抗性Layer1。长期来看，若成功将提升其竞争力，但短期交易价值有限。",
+      "reason": "新消息，技术升级，对ALGO有一定利好。",
+      "category": "项目更新",
+      "impact_coins": ["ALGO"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371581/algorand-plans-ready-quantum-computing-threat-end-2027"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
