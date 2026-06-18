@@ -481,3 +481,67 @@ content length: 2735
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3137, prompt_tokens=14944, total_tokens=18081, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2203, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13792)
+content length: 2410
+============================================================
+{
+  "news": [
+    {
+      "title": "CFTC永久禁止Celsius CEO交易",
+      "summary": "CFTC与Celsius前CEO Alex Mashinsky达成和解，永久禁止其交易和注册，标志其监管诉讼终结。Celsius已破产，此事件主要影响CEL代币及相关债权人，但对整体市场情绪有轻微负面作用，因监管机构对加密高管处罚趋严。短期看空CEL，对BTC/ETH影响有限。",
+      "reason": "CFTC对前Celsius CEO的永久禁令是监管执法重要事件，虽已部分预期，但最终落地仍为市场提供监管确定性，属利空信号。",
+      "category": "监管政策",
+      "impact_coins": ["CEL", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/405323/cftc-enters-settlement-former-celsius-ceo-imposes-permanent-trading-ban"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MiCA过渡期结束前欧洲加密企业承压",
+      "summary": "欧盟MiCA法规过渡期即将结束，欧洲加密企业面临注册和合规压力，预计将导致部分小型平台退出或迁移。监管收紧短期利空市场情绪，可能促使资金流向合规平台，对Coinbase等合规交易所利好，但对USDT、ETH等主流币影响中性。长期来看，合规化有助于行业健康发展。",
+      "reason": "MiCA过渡期结束是监管重大节点，直接影响欧洲市场结构，属于优先级一的监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "BTC", "USDT"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/371561/europes-crypto-firms-face-squeeze-mica-transition-period-end-looms"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitwise: BTC较AI股折价，但联储鹰派风险未消",
+      "summary": "Bitwise报告指出，当前比特币估值相对AI概念股（如NVIDIA）深度折价，但美联储鹰派转向仍是潜在下行风险。BTC在62000美元附近震荡，若利率预期进一步收紧，可能测试60000支撑。该观点对中长期投资者偏多，但短期交易需警惕宏观风险。",
+      "reason": "专业机构对比特币与AI股估值分析，涉及宏观经济和机构观点，属中期影响。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-flashes-a-discount-to-ai-stocks-but-hawkish-fed-risk-lingers-bitwise"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BlackRock高管：比特币‘不可忽视’，推溢价收益ETF",
+      "summary": "BlackRock执行董事表示比特币已‘大到不能忽视’，并透露正在讨论推出新的比特币溢价收益ETF。该消息反映传统机构持续接纳BTC，有助于提振市场信心，但产品细节未定，短期影响有限。对BTC偏多信号。",
+      "reason": "BlackRock作为全球最大资管公司，高管表态和ETF动态对机构入场情绪有示范作用，属于优先级二机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/blackrock-executive-calls-bitcoin-too-big"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于近6小时大量重复标题（包括Binance旧公告、此前已报道的宏观事件、恐惧贪婪指数未变等），仅筛选出4条具有新信息价值且符合筛选标准的关键消息。"
+}
