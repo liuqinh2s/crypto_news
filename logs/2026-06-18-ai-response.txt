@@ -866,3 +866,94 @@ content length: 3773
   ],
   "note": "本轮抓取素材中大量与历史重复，仅筛选出5条有效新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3382, prompt_tokens=15261, total_tokens=18643, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1971, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14109)
+content length: 3312
+============================================================
+{
+  "news": [
+    {
+      "title": "马耳他探索DeFi监管",
+      "summary": "马耳他金融监管机构正在研究将部分DeFi活动纳入MiCA监管框架，这是继欧盟MiCA法规之后又一重要的监管进展。可能影响涉及DeFi的相关代币如AAVE、UNI、MKR等，短期可能带来不确定性，但长期利好合规发展，信号中性。",
+      "reason": "监管政策新动向，影响DeFi市场预期，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["AAVE", "UNI", "MKR"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/06/18/malta-s-financial-regulator-explores-bringing-parts-of-defi-under-mica-s-orbit"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Aztec再遭黑客攻击",
+      "summary": "隐私项目Aztec在不到一周内第二次遭黑客攻击，损失210万美元，安全漏洞引发市场对隐私币安全性的担忧。可能影响Aztec代币及同类隐私项目如ZEC、SCRT等，短期看空。",
+      "reason": "项目重大安全事件，直接影响对应币种，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["AZTEC", "ZEC", "SCRT"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/aztec-exploited-21-million-previous-hack-slowmist?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "以太坊国库公司抄底ETH",
+      "summary": "全球最大的以太坊国库公司（可能是The Ethereum Treasury或类似实体）在近期下跌中买入ETH，显示机构对以太坊的长期信心。该行为直接利好ETH，可能带动市场情绪回暖。",
+      "reason": "机构买入动作，属于优先级的机构动向，直接利好ETH。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNXhoTk53NGJOWEFfV0ZrTnN0OHNJeEI2OTdGUm5QS1dCSFVaVncwR1hfc1d0Qkk2eEstNHBNWF80THYtOU9TNzJkb0h6UVYzUEdMNm4yVWI3WEo4Y2lWMjFqanhudHBIWkRRVkpQV3FBXzZLVDhZbXROd1MyQjl4SWp4OEdEZ2pKLVhEMHIwZm9IZ2RraTRyNlZ4WmNocnNkMUdnYnlKTHg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密托管机构崛起",
+      "summary": "文章指出托管机构正成为加密行业的关键支柱，传统金融机构如富达、Coinbase Custody等扩大托管服务，推动机构资金安全入场。长期利好BTC、ETH等主流币，信号看多。",
+      "reason": "行业结构变化趋势，属于优先级二的中期利好。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVlU2Vm5aTHB0b3Y3azNhTG9fNDZERW1Bd0hXR05jU01pZERZT2VFZ2xzbUhoNm9MTldyRE5JY2ZZRUJSUVZnRExWV0NYUXJZU3oyTVpXT1lUOW9QZ0lTRl9PMHhPY0N1a2N2a2pkUGhIRXlRSU9TVzRtYmNlUHI3TXUta0hNMUtRdFFQN2Qzd0lPVmJELUlUdFpuVEF0dHY4bVQ2R29lNk0zaS1YU05Dem9PVEFPbE90?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Coinbase CEO谈AI加密",
+      "summary": "Coinbase CEO Brian Armstrong在采访中讨论了AI与加密货币的融合，认为AI代理需要加密支付基础设施。虽无实质利好，但头部CEO的观点提振市场对Coinbase及生态的代币预期，影响中性偏正向。",
+      "reason": "行业领袖观点影响市场情绪，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["COIN", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmdueUIyYU44djBGNnRmUElCbnpVU1lWcm9rcUY5Y2ZDMUtCZE1JMzgyVEdVYmQxYXlmbXE5U0pybk1oUmNFdFZLTlRTdVM3TXFHMTdWNmxqZ2xKc2pwLU1aV0ZxTkNybXlaWHBJZ1czTmJMTFltT2V1dHowZHl1OGxQM1h3dkk?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
