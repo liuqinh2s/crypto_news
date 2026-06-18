@@ -774,3 +774,95 @@ content length: 3370
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4959, prompt_tokens=13681, total_tokens=18640, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3170, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12529)
+content length: 3773
+============================================================
+{
+  "news": [
+    {
+      "title": "灰度看多AAVE至175美元",
+      "summary": "灰度将传统金融估值模型应用于AAVE，认为其代币价值可达175美元。当前AAVE价格约110美元，意味着约59%的上行空间。灰度作为大型机构，其估值报告可能吸引更多资金关注AAVE，推动价格上涨。该消息对AAVE构成直接看多信号。",
+      "reason": "机构估值报告，直接影响对应币种价格预期，属优先级二的中期影响消息。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/grayscale-aave-traditional-finance-defi-token-valuation"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "摩根大通：比特币算力对价格更敏感",
+      "summary": "摩根大通报告指出，比特币算力与价格的相关性增强，算力增长对价格的敏感度提高。这可能意味着矿工行为对市场影响加大，但方向不明确。算力上升可能暗示矿工信心，但也可能增加抛压。短期中性，需关注算力变化。",
+      "reason": "机构研究报告，分析链上指标变化，属优先级二的中期影响消息。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYWRWZldMUENKaWxITFA3WWtXYjlfYW5VMUZvZ21aOFFPZjJyOFd5eDV0WGV0dlV5Nm1XMm1SWFdrLURGQ0otbHRVTkpyMTJ6UEF3T1R2SUJ3UzlMak15QVBRaWhib1JERmFVeHdKNUc1Qm5uVVVVMFdZVWpWcjItamxvc0tpTWtEWUI4OFJkNGR1Y2JWMzVGOTdqclctT2FicHZlSERGOXpHMTBwQlNEbXZEYU5fTVdlR25nMWxTSzFrMm80"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CleanSpark产量强劲涨12.6%",
+      "summary": "比特币矿企CleanSpark五月产量强劲，基础设施升级，股价上涨12.6%。矿企产量增加反映算力增长和运营效率提升，间接利好比特币网络健康。但需注意矿企股价上涨可能提前透支预期，整体对BTC偏多。",
+      "reason": "矿企动态反映行业基本面，属优先级二的机构动向。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT3Z2WXNSNUNxNjhac1NOTlFwY2FBR09oWFRzLVdoZ1JWZENveGpKa0E0M29rNFBzVEpJMjhOcDNIZy02TW14Z2RIMThGN0tvN3B1cVY4angwZmpzUnNlWUdsZWMyQS1QTVgzakhIeURkYmhNWldkbnRtYzZ1b0V4UFpPZE1DT1ppbGVZT2plRXYtdVFLbFdaMFJkbFVZSU0yT1N1azVTYUd0bjFxLTRrNnJDdFI0aWVJUEg5WDhTWXlPS0t4d29qUtIBzgFBVV95cUxQcEZkakU0QUFTaWpJWTNtNlBCYnFjNWRsV0pSanpRSG9ra0V5dTl4a3ZCU1BEUGNSQVZrMjNydlVQbk8waDBUdllxQTZEZXdDYU15UC1PbE1xd0U2UUZjTWNmbkpIYktSQmRWYUZGSkRwc0JUTmN1b0RRV05Vb0pNUjNWa0U2LWU2eFdnWVQtUVVmVk1LUGlMcFdKbjQ3OVJPejVLN2dwbUo3ZVRjam9oRlp1WFhjOHczTHliUmNGMHFDWll5Z2F5R1NaMjdLdw"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "币安上线Re（RE）代币",
+      "summary": "Binance宣布上架Re（RE）代币，并附加种子标签。上币消息通常对代币价格形成短期利好，增加流动性和曝光度。RE项目尚属早期，种子标签提示高风险。看好短期价格上涨，但长期需谨慎。",
+      "reason": "交易所上币公告，直接影响对应币种流动性，属优先级一的消息。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SpaceX股价企稳，SPCXB受关注",
+      "summary": "SpaceX股票在连续三天上涨后企稳，其代币化版本SPCXB在Binance上交易。股价稳定可能减少SPCXB波动，中短期对SPCXB无明确方向。但SpaceX作为优质资产，长期看多。",
+      "reason": "代币化股票关联标的走势，属优先级三的市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["SPCXB"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5mUGlsMXM2QVBHeEZJREFJZWtvalZOS3cyYVZvano3UGU2NWxCU3lFdXhKcG1XUzJ3ZzQ4SVAxRW9kcUEtVVVXYm1RVUc4UjFQS2hqZEVmOVJlR3VnbnNFa1hjUlhfQy0yQUhqRHlZZUpIbWZUSXFramxQONIBgAFBVV95cUxOS3ptaDdhdVQ2dmFWVlhqSklpS1d0WEl2ZWZSYlFiSDluMlU0MnBLU3EtREMxLTBuMlBIWWRNZG83S25lWmotNEZLYWQ2NTBjWDR4TlFrV2ZQSXJJaUpjQUpUUndxemptc05XdTFjY1FnSHFlX29yY0Vwb0ZUWnNJUw"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大量与历史重复，仅筛选出5条有效新消息。"
+}

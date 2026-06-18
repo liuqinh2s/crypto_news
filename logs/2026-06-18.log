@@ -1644,3 +1644,87 @@
 2026-06-18 09:02:21 [DEBUG]   去重: 「Tether关闭aUSDT稳定币」 → 标题相似: Tether关停黄金稳定币aUSDT
 2026-06-18 09:02:21 [INFO] 📦 JSON 已保存: reports/2026-06-18-17.json
 2026-06-18 09:02:21 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-06-18 10:00:56 [INFO] 🚀 开始抓取 2026-06-18 18:00 币圈新闻
+2026-06-18 10:00:56 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-18 10:00:56 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-18 10:00:56 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-06-18 10:00:56 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:56 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-06-18 10:00:57 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-18 10:00:57 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:57 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-18 10:00:57 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:57 [INFO]   ⏭ 宏观经济: 过滤掉 47 条非近期新闻
+2026-06-18 10:00:57 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-18 10:00:57 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-06-18 10:00:57 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-06-18 10:00:57 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:57 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:58 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:58 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:58 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:58 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:58 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-06-18 10:00:58 [INFO]   ⏭ Crypto Twitter: 过滤掉 38 条非近期新闻
+2026-06-18 10:01:06 [DEBUG] 请求失败 https://www.dlnews.com/rss/: [Errno -3] Temporary failure in name resolution
+2026-06-18 10:01:07 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-18 10:01:12 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-18 10:01:12 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-18 10:01:12 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-18 10:01:12 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-06-18 10:01:12 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-18 10:01:13 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-18 10:01:13 [INFO]   ✓ CoinDesk: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ The Block: 1 条
+2026-06-18 10:01:13 [INFO]   ✓ Decrypt: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ CoinTelegraph: 1 条
+2026-06-18 10:01:13 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ Blockworks: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ DL News: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ 金色财经: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ PANews: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ CNBC Crypto: 1 条
+2026-06-18 10:01:13 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-06-18 10:01:13 [INFO]   ✓ Crypto Twitter: 12 条
+2026-06-18 10:01:13 [INFO]   ✓ 宏观经济: 3 条
+2026-06-18 10:01:13 [INFO]   ✓ Binance公告: 20 条
+2026-06-18 10:01:13 [INFO]   ✓ OKX公告: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ Bitget公告: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ Whale Alert: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-18 10:01:13 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-18 10:01:13 [INFO]   ✓ 雪球加密: 0 条
+2026-06-18 10:01:13 [INFO] 📊 共抓取 41 条新闻
+2026-06-18 10:01:13 [INFO] 📋 原始新闻已保存: reports/2026-06-18-18-raw.json (41 条)
+2026-06-18 10:01:13 [INFO] 📋 标题摘要已保存: reports/2026-06-18-18-raw-titles.md
+2026-06-18 10:01:13 [INFO] ✅ 抓取完成，共 41 条，已保存到 reports/2026-06-18-18-raw.json
+2026-06-18 10:01:13 [INFO] 🤖 开始 AI 筛选 2026-06-18 18:00 币圈消息
+2026-06-18 10:01:13 [INFO] 📋 已加载原始新闻: reports/2026-06-18-18-raw.json (41 条)
+2026-06-18 10:01:13 [INFO] 📚 已加载历史新闻标题（22709 字符）
+2026-06-18 10:01:13 [INFO] 📚 已加载历史筛选标题 16 条、URL 17 个，用于去重
+2026-06-18 10:01:13 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-18 10:01:13 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-18 10:01:13 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（41 条，11244 字符，temp=0.3）
+2026-06-18 10:02:12 [INFO] AI 原始返回已保存: logs/2026-06-18-ai-response.txt (finish_reason=stop, 3773 字符)
+2026-06-18 10:02:12 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-18-18-ai-raw.json
+2026-06-18 10:02:12 [DEBUG] parse_json_response 输入长度: 3773 字符
+2026-06-18 10:02:12 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "灰度看多AAVE至175美元",
+      "summary": "灰度将传统金融估值模型应用于AAVE，认为其代币价值可达175美元。当前AAVE价格约110美元，意味着约59%的上行空间。灰度作为大型机构，其估值报告可能吸引更多资金关注AAVE，推动价格上涨。该消息对AAVE构成直接看多信号。",
+      "reason": "机构估值报告，直接影响对应币种价格预期，属优先级二的中期影响消息。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+
+2026-06-18 10:02:12 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-06-18 10:02:12 [INFO] ✅ AI 返回 5 条新闻
+2026-06-18 10:02:12 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-06-18 10:02:12 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-06-18 10:02:12 [INFO] 📦 JSON 已保存: reports/2026-06-18-18.json
+2026-06-18 10:02:12 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
