@@ -1,16 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2604, prompt_tokens=14195, total_tokens=16799, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=975, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=0), prompt_cache_hit_tokens=0, prompt_cache_miss_tokens=14195)
+content length: 3580
+============================================================
 {
-  "date": "2026-06-18",
-  "hour": "09",
   "news": [
     {
       "title": "CME起诉CFTC永续合约",
       "summary": "CME首席执行官Terrence Duffy宣布将就永续合约问题起诉美国CFTC。CME认为CFTC对永续合约的监管越权，这一诉讼可能影响整个加密货币衍生品市场的监管框架。若CME胜诉，可能导致永续合约在美国合法化或被禁止，影响BTC、ETH等主流币种的交易和价格。短期看，监管不确定性增加，利空市场情绪；长期若监管明朗化，可能利好机构入场。信号偏向中性。",
       "reason": "直接影响衍生品交易所监管，属优先级一重大监管动态，新消息未被历史覆盖。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -26,10 +28,7 @@
       "summary": "伊利诺伊州州长普利兹克签署法案，对加密货币交易征收0.2%的税，被视为全美最严苛的加密税法之一。该税适用于转账和交易，引发行业强烈反弹。短期内可能抑制该州加密活动，但全国影响有限。长期若其他州效仿，可能增加交易成本，利空整个加密市场。该法案已正式生效，构成利空信号。",
       "reason": "重大监管动态，新消息为正式签署（此前为草案），符合优先级一。",
       "category": "监管政策",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
@@ -41,13 +40,27 @@
       "urgency": "immediate"
     },
     {
+      "title": "恐惧贪婪指数降至15",
+      "summary": "恐惧贪婪指数从22跌至15（极度恐惧），创近期新低。极度恐惧通常意味着市场超卖，历史上该区域往往对应阶段性底部，中长期看多。但短期可能因恐慌继续下杀。当前BTC已跌破$64K，市场弥漫悲观情绪，建议关注抄底机会，但需等待企稳信号。",
+      "reason": "优先级三市场情绪信号，指数数值更新且进入极端区域，新数据。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
       "title": "法国淘汰非量子加密",
       "summary": "法国计划逐步淘汰非量子加密标准，引发对比特币等加密货币量子安全性的担忧。虽然短期内不会影响比特币网络，但若主要国家跟进，可能迫使比特币升级签名算法。长期看可能增加技术不确定性，对比特币构成潜在利空。目前风险尚远，影响较弱。",
       "reason": "优先级二技术升级相关，新消息，对远期安全有影响。",
       "category": "项目更新",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bearish",
       "impact_level": 2,
       "sources": [
@@ -63,10 +76,7 @@
       "summary": "美联储鹰派利率决议后，比特币价格跌破64,000美元，创6月新低。利率期货定价年底前加息两次，9月加息概率超50%。风险资产普遍承压，加密货币清算规模扩大。短期宏观压力持续，但极度恐惧指数可能预示超跌反弹。操作上建议观望或轻仓做空，等待企稳。",
       "reason": "优先级一直接影响行情的宏观数据，虽然事件已发生，但价格跌破关键位为最新进展。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -77,7 +87,5 @@
       ],
       "urgency": "immediate"
     }
-  ],
-  "total_fetched": 40,
-  "generated_at": "2026-06-18T09:01:34.774131+08:00"
+  ]
 }
