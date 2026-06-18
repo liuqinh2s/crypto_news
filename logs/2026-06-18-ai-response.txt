@@ -473,3 +473,92 @@ content length: 1893
   ],
   "note": "本轮抓取素材中重复消息较多，仅选出3条有独立价值的新消息。Binance公告系列、美联储鹰派、ETF流出等已在历史消息中覆盖。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2352, prompt_tokens=12220, total_tokens=14572, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1855, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11068)
+content length: 1275
+============================================================
+{
+  "news": [
+    {
+      "title": "Ryan Salame妻子面临指控",
+      "summary": "FTX前高管Ryan Salame的妻子Michelle Bond因涉嫌为Ryan Salame的国会竞选提供非法资金而面临指控。该竞选资金来自FTX客户资金，涉及政治捐款违规。这可能影响FTX相关代币（如FTT）及整体市场情绪，因为FTX丑闻持续发酵，可能引发监管进一步收紧。信号偏空，但影响范围有限。",
+      "reason": "新事件，FTX丑闻延续，可能引发监管关注，属于优先级一的项目方重大事件。",
+      "category": "监管政策",
+      "impact_coins": ["FTT"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ryan-salames-wife-to-face-charges-over-ftx-funded-congressional-run"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "佛罗里达男子承认推广18亿欺诈",
+      "summary": "一名佛罗里达男子承认推广HyperFund加密货币庞氏骗局，涉案金额18亿美元，投资者损失巨大。该事件强化了监管对加密货币欺诈的打击，可能引起对类似项目（如高收益质押）的警惕，但整体市场影响有限，属于个别案件。信号偏空，主要影响相关代币和投资者信心。",
+      "reason": "新事件，重大欺诈案认罪，属于项目方重大事件，但影响范围有限。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/florida-man-pleads-guilty-to-18b-crypto-fraud-scheme"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中绝大多数消息已在历史中出现重复，仅有上述两条新消息。其余如ETF流出、Fed决议等均为旧闻延续，故输出少于5条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2820, prompt_tokens=12220, total_tokens=15040, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1870, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12160), prompt_cache_hit_tokens=12160, prompt_cache_miss_tokens=60)
+content length: 1996
+============================================================
+{
+  "news": [
+    {
+      "title": "长期持有者信号：恐惧贪婪15",
+      "summary": "恐惧贪婪指数降至15（极度恐惧），历史上该区域往往对应比特币中期底部，但短期可能继续下探。该指标反映市场情绪极度悲观，可能为中长期买入机会，但短期合约做多需谨慎。影响BTC、ETH。",
+      "reason": "恐惧贪婪指数极值（<20）是优先级三的市场情绪信号，历史上抄底区，中长期看多信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Scaramucci预测BTC年底反弹",
+      "summary": "对冲基金创始人Anthony Scaramucci预测比特币将在2026年底反弹，并支持Michael Saylor的Strategy公司。该言论可能提振市场情绪，但无实际数据支撑。短期影响有限，但可能引发散户跟风。影响BTC。",
+      "reason": "KOL集体看多信号，属于优先级三的市场情绪信号，但仅为言论，影响级别较低。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [{"name": "Pluang", "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMFRMQVA5Zmk0cjAzYURSWnRnU3FLYVdaczlTSmNpZF9YRE1oaDV1QXl6U2dQX2k2X0MyeE5qWUU1Mm1vdUoxejZ6Q0NIMVRwZnFCYjNsTWhhVnRndXZlSS1ZaXVtMUpwQURwYVdkbmpfWVZTV3VyOFRUZU0wZWFlOWdBNlhKSU9pMkY2UGhZdXJQaWc?oc=5"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Elon Musk仍持有BTC和DOGE",
+      "summary": "分析师指出，Elon Musk作为世界首位万亿富翁仍持有比特币和部分狗狗币。该消息强化Meme币与BTC的关联性，但无实质买入动作，可能短暂提振DOGE情绪。影响BTC、DOGE。",
+      "reason": "KOL持仓动态属于优先级三的市场情绪信号，但影响力取决于Musk后续行动，目前仅情绪影响。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "DOGE"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [{"name": "Benzinga", "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT3lCbUd6QXVQYTdOWTYzMER1b1VRNm0xTGNuUjd3c0VkTzU5TjlOcFNuUElPMGMtUU1Oakh3ekpzLU0wM2ZleFZ0VkpEamcxUXFRSk9IQWF1MmtCekdUSW0xZ29kV1cxZzU3TG56ZkVUQUF3bE9LZV9Kc3ZYd3A2Sm00clVOV2tjcmFWSkJsa3o4THdHakFadXRSakQ5dHdHMVdVempDbUUtLXF4TEJjX0t2NkRNcFJNVmNKQk5yNm0yY2tnSVZ0eW12d3R0QQ?oc=5"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮消息中缺乏直接影响行情的优先级一事件，多数消息为旧闻重复或低影响力情绪信号。已去重后仅选出3条符合标准的新消息，均属于市场情绪类，交易决策需结合技术面。"
+}

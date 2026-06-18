@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-18",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12220,
+    "completion_tokens": 2820,
+    "total_tokens": 15040
+  },
+  "content_length": 1996,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"长期持有者信号：恐惧贪婪15\",\n      \"summary\": \"恐惧贪婪指数降至15（极度恐惧），历史上该区域往往对应比特币中期底部，但短期可能继续下探。该指标反映市场情绪极度悲观，可能为中长期买入机会，但短期合约做多需谨慎。影响BTC、ETH。\",\n      \"reason\": \"恐惧贪婪指数极值（<20）是优先级三的市场情绪信号，历史上抄底区，中长期看多信号。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"Alternative.me\", \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Scaramucci预测BTC年底反弹\",\n      \"summary\": \"对冲基金创始人Anthony Scaramucci预测比特币将在2026年底反弹，并支持Michael Saylor的Strategy公司。该言论可能提振市场情绪，但无实际数据支撑。短期影响有限，但可能引发散户跟风。影响BTC。\",\n      \"reason\": \"KOL集体看多信号，属于优先级三的市场情绪信号，但仅为言论，影响级别较低。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 1,\n      \"sources\": [{\"name\": \"Pluang\", \"url\": \"https://news.google.com/rss/articles/CBMikwFBVV95cUxPMFRMQVA5Zmk0cjAzYURSWnRnU3FLYVdaczlTSmNpZF9YRE1oaDV1QXl6U2dQX2k2X0MyeE5qWUU1Mm1vdUoxejZ6Q0NIMVRwZnFCYjNsTWhhVnRndXZlSS1ZaXVtMUpwQURwYVdkbmpfWVZTV3VyOFRUZU0wZWFlOWdBNlhKSU9pMkY2UGhZdXJQaWc?oc=5\"}],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Elon Musk仍持有BTC和DOGE\",\n      \"summary\": \"分析师指出，Elon Musk作为世界首位万亿富翁仍持有比特币和部分狗狗币。该消息强化Meme币与BTC的关联性，但无实质买入动作，可能短暂提振DOGE情绪。影响BTC、DOGE。\",\n      \"reason\": \"KOL持仓动态属于优先级三的市场情绪信号，但影响力取决于Musk后续行动，目前仅情绪影响。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"DOGE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 1,\n      \"sources\": [{\"name\": \"Benzinga\", \"url\": \"https://news.google.com/rss/articles/CBMizgFBVV95cUxOT3lCbUd6QXVQYTdOWTYzMER1b1VRNm0xTGNuUjd3c0VkTzU5TjlOcFNuUElPMGMtUU1Oakh3ekpzLU0wM2ZleFZ0VkpEamcxUXFRSk9IQWF1MmtCekdUSW0xZ29kV1cxZzU3TG56ZkVUQUF3bE9LZV9Kc3ZYd3A2Sm00clVOV2tjcmFWSkJsa3o4THdHakFadXRSakQ5dHdHMVdVempDbUUtLXF4TEJjX0t2NkRNcFJNVmNKQk5yNm0yY2tnSVZ0eW12d3R0QQ?oc=5\"}],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮消息中缺乏直接影响行情的优先级一事件，多数消息为旧闻重复或低影响力情绪信号。已去重后仅选出3条符合标准的新消息，均属于市场情绪类，交易决策需结合技术面。\"\n}"
+}
