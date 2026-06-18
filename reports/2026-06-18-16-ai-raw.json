@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-18",
+  "hour": "16",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12907,
+    "completion_tokens": 3203,
+    "total_tokens": 16110
+  },
+  "content_length": 2231,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"币安添加观察标签\",\n      \"summary\": \"币安宣布将为ACT、BLUR、PIVX和QKC添加观察标签。观察标签通常意味着项目存在较高风险或波动性，可能被视为下架前的预警信号，导致相关代币价格下跌。受影响币种：ACT、BLUR、PIVX、QKC。信号：看空。\",\n      \"reason\": \"交易所动态直接影响对应币种价格，添加观察标签是利空信号。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"ACT\", \"BLUR\", \"PIVX\", \"QKC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518178.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"BNB Chain引入代币化预IPO\",\n      \"summary\": \"ColbFinance在BNB Chain上带来6000万美元的代币化预IPO头寸，使BNB生态获得机构级资产。这增加了BNB Chain的TVL和应用场景，对BNB及其生态代币构成利好。信号：看多BNB及生态代币。\",\n      \"reason\": \"DeFi/TVL剧变属于中期影响因素，机构级资产引入提升生态价值。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BNB\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1u903oj/bnb_chain_welcomes_colbfinance_with_60m_in/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数跌至15\",\n      \"summary\": \"加密货币恐惧贪婪指数降至15（极度恐惧）。历史数据显示，该区域往往是中长期底部区域，但短期可能继续下跌。当前市场情绪极度悲观，虽不直接触发行情，但对中长期投资者是买入信号。\",\n      \"reason\": \"市场情绪极值，根据历史规律，极度恐惧后常伴随反弹，但短期需谨慎。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"债券市场释放利率信号\",\n      \"summary\": \"CoinDesk分析指出，债券市场正在发出明确的利率信号，比特币多头应关注。该信号暗示利率可能维持高位或进一步上升，这对风险资产包括加密货币构成压力。但分析本身不直接触发交易，提供宏观背景。信号：看空。\",\n      \"reason\": \"宏观经济分析有助于判断中期走势，利率预期是影响加密货币的重要变量。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/06/18/the-bond-market-is-flashing-a-clear-signal-on-interest-rates-bitcoin-bulls-should-take-note\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"由于历史消息中大量重复，本轮仅筛选出4条新消息。\"\n}"
+}

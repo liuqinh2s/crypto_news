@@ -562,3 +562,79 @@ content length: 1996
   ],
   "note": "本轮消息中缺乏直接影响行情的优先级一事件，多数消息为旧闻重复或低影响力情绪信号。已去重后仅选出3条符合标准的新消息，均属于市场情绪类，交易决策需结合技术面。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3203, prompt_tokens=12907, total_tokens=16110, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2372, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11755)
+content length: 2231
+============================================================
+{
+  "news": [
+    {
+      "title": "币安添加观察标签",
+      "summary": "币安宣布将为ACT、BLUR、PIVX和QKC添加观察标签。观察标签通常意味着项目存在较高风险或波动性，可能被视为下架前的预警信号，导致相关代币价格下跌。受影响币种：ACT、BLUR、PIVX、QKC。信号：看空。",
+      "reason": "交易所动态直接影响对应币种价格，添加观察标签是利空信号。",
+      "category": "交易所",
+      "impact_coins": ["ACT", "BLUR", "PIVX", "QKC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518178.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BNB Chain引入代币化预IPO",
+      "summary": "ColbFinance在BNB Chain上带来6000万美元的代币化预IPO头寸，使BNB生态获得机构级资产。这增加了BNB Chain的TVL和应用场景，对BNB及其生态代币构成利好。信号：看多BNB及生态代币。",
+      "reason": "DeFi/TVL剧变属于中期影响因素，机构级资产引入提升生态价值。",
+      "category": "项目更新",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1u903oj/bnb_chain_welcomes_colbfinance_with_60m_in/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数跌至15",
+      "summary": "加密货币恐惧贪婪指数降至15（极度恐惧）。历史数据显示，该区域往往是中长期底部区域，但短期可能继续下跌。当前市场情绪极度悲观，虽不直接触发行情，但对中长期投资者是买入信号。",
+      "reason": "市场情绪极值，根据历史规律，极度恐惧后常伴随反弹，但短期需谨慎。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "债券市场释放利率信号",
+      "summary": "CoinDesk分析指出，债券市场正在发出明确的利率信号，比特币多头应关注。该信号暗示利率可能维持高位或进一步上升，这对风险资产包括加密货币构成压力。但分析本身不直接触发交易，提供宏观背景。信号：看空。",
+      "reason": "宏观经济分析有助于判断中期走势，利率预期是影响加密货币的重要变量。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/18/the-bond-market-is-flashing-a-clear-signal-on-interest-rates-bitcoin-bulls-should-take-note"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于历史消息中大量重复，本轮仅筛选出4条新消息。"
+}
