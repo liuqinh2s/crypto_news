@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-18",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11063,
+    "completion_tokens": 1773,
+    "total_tokens": 12836
+  },
+  "content_length": 1842,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"高盛预测美联储最早9月加息\",\n      \"summary\": \"高盛经济学家Rob Kaplan表示，如果通胀不显著降温，美联储最早可能在9月加息。此前美联储在沃什首次FOMC会议上维持利率不变但释放鹰派信号，市场已定价年底前加息两次。若加息预期强化，将利空风险资产包括加密货币。影响BTC、ETH等主流币。信号：看空。\",\n      \"reason\": \"宏观紧缩预期直接影响风险资产价格，属于优先级二宏观经济数据中的利率决议后续影响。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Briefing\",\n          \"url\": \"https://news.google.com/rss/articles/CBMidEFVX3lxTFBmMWswSGc1blpXY1NRNU82ekZJR3VFVUdmcW9Od1RMR2R2eXZ1ZXF0ZGNXcVJXem5YZnNiMzJ5UWNWU3NVblJmT1ZCZ04wbEhPOFZSNy0xb1h2TjU5ZnliaTBmc1JMYWVNMmJkblMyTS00YTll?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"慢雾：Little Boy Plus遭黑客攻击损失37万美元\",\n      \"summary\": \"据慢雾安全团队监测，项目Little Boy Plus遭遇黑客攻击，损失约37万美元资金。该事件属于链上安全事件，可能引发相关代币抛售，但项目规模较小，影响有限。主要影响该项目的原生代币及相关DeFi池。信号：看空（对涉事代币）。\",\n      \"reason\": \"项目方被黑客攻击属于优先级一重大事件，但损失金额小，影响范围有限。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"Little Boy Plus相关代币\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518148.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Binance上线季度交割合约（1225）\",\n      \"summary\": \"Binance Futures将上线USDⓈ-M和COIN-M季度交割合约，交割日为2026年12月25日。这是Binance新增的远期合约产品，可能吸引套利和投机资金，增加市场深度。对交易量和大盘影响中性偏多，但信号中性。影响BTC、ETH等主流币。\",\n      \"reason\": \"交易所新品上线属于优先级一（交易所上币/上线合约），可能影响对应币种流动性和交易行为。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
