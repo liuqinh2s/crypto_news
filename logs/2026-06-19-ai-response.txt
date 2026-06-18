@@ -668,3 +668,79 @@ content length: 4069
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3527, prompt_tokens=13600, total_tokens=17127, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2354, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12448)
+content length: 2723
+============================================================
+{
+  "news": [
+    {
+      "title": "iShares推出比特币收入ETF",
+      "summary": "BlackRock旗下iShares正式推出一款比特币收入ETF，该基金旨在通过期权策略生成收入，不同于传统的比特币现货ETF。这是继此前贝莱德高管讨论该产品后的正式落地，表明机构对加密收入类产品的兴趣增加。可能吸引更多保守型投资者入场，对比特币价格和ETF资金流入形成中长期利好。",
+      "reason": "新ETF产品落地，属于ETF机构类别，直接影响比特币需求，看多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "ETF Database",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9FU2t3c21HM3FkMW1SYVJSR1R0dXFfQ2Z2MlNfNGdSaGZubzc1blZGSGF5WDFkVE1TSXUzNmNNcVZpaXlDMjkxcmE4RDdTOEktOEd5Sm1DUGJuRktNTnRMY3NCckwtLXYwUjdrZG1fUTRiZENtZUhqLVRB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "马耳他提出DeFi监管框架",
+      "summary": "马耳他政府发布DeFi规则手册草案，旨在将DAO等去中心化实体纳入MiCA后续监管框架。该提案明确软件型组织的法律地位，要求披露控制人并向监管注册。此举为DeFi项目提供了合规路径，降低政策不确定性，对DeFi概念币如UNI、AAVE等形成长期利好。但短期影响有限。",
+      "reason": "新监管框架出台，属于监管政策类别，长期利好合规项目，信号中性偏多。",
+      "category": "监管政策",
+      "impact_coins": ["UNI", "AAVE"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/malta-defi-framework-daos-software-based-organizations-mica"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "下周通胀数据重要性加剧",
+      "summary": "CNBC报道，在美联储鹰派转向后，下周即将公布的CPI和PPI数据将成为市场关注焦点。若通胀超预期，将强化加息预期，利空BTC及风险资产；若低于预期，则可能缓解压力。目前市场已部分定价鹰派，但数据波动将引发短期剧烈波动，建议密切关注。",
+      "reason": "宏观经济数据是影响风险资产的核心变量，属于宏观经济类别，对BTC和ETH有直接冲击，信号中性但需警惕。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT2hxa0dSa1pyYnJVMEFZaVV0NWVGdWNuYVZHME5UdlYwNkszZVFmLVd1ZFhzMDlWZWhlMHFxUGl0dDBTSDdEZEEtVCNBNHZsQ3E2aHZKWEQ2MDFIUU5La3J4VG5xNS1ubjRoVUc3VXdfcE5WeGNBNEFPYzlMN1hZNnBfT3J2NnUxV0czU2pPRzdsMFVUOG95bldhSlVBb2E4QUU1SzZLYkl5Ym1aOWlr?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币微交易占比达80%",
+      "summary": "CryptoQuant数据显示，比特币每日交易中，小额转账（通常低于100美元）占比已升至80%，表明散户和采用者广泛参与。尽管短期价格承压，但链上活跃度提升是健康信号，可能为后续上涨奠定基础。不过当前价格下跌趋势下，该指标未能扭转悲观情绪。",
+      "reason": "链上异动信号，反映散户参与度，属于链上异动类别，中长期看多但短期中性。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405340/cryptoquant-bitcoin-micro-transactions-btc"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时内多数重大事件已在前序时段报道，本轮仅筛选出4条新消息。市场焦点仍在美联储鹰派转向、Strategy优先股问题及稳定币监管，建议持续关注。"
+}
