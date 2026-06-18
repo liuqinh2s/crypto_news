@@ -58,3 +58,217 @@ content length: 2519
   ],
   "note": "当前市场缺乏高优先级新消息，仅筛选出3条新鲜度较高且未在历史标题中重复的关键动态。恐惧贪婪指数15极值已反复出现，未列入；多数监管、交易所公告、矿工数据均已在前几小时报道。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2698, prompt_tokens=16431, total_tokens=19129, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2641, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15279)
+content length: 101
+============================================================
+{
+  "news": [],
+  "note": "当前6小时内所有关键消息均与前期重复，无新增交易信号。市场主要受美联储鹰派立场影响，恐惧贪婪指数15（极度恐惧），但数值未变。建议等待新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3561, prompt_tokens=16431, total_tokens=19992, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3496, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=16384), prompt_cache_hit_tokens=16384, prompt_cache_miss_tokens=47)
+content length: 117
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材与历史消息高度重复，无新增有交易价值的关键消息。所有已报道事件（美联储鹰派、以太坊基金会高管辞职、比特币下跌、监管动态等）均已出现在历史标题中，暂时无需重复发出。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3481, prompt_tokens=16431, total_tokens=19912, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=688, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=16384), prompt_cache_hit_tokens=16384, prompt_cache_miss_tokens=47)
+content length: 7228
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储鹰派维稳利率",
+      "summary": "美联储在Kevin Warsh首次会议中维持利率不变，但释放鹰派信号，暗示2026年降息次数减少。比特币从64500美元跌至62000美元，ETH跌破1700美元，SOL跌破70美元。美债收益率上升，美元走强，加密货币全线承压。影响：BTC、ETH等主流币看空，短期可能进一步下行。",
+      "reason": "宏观经济重大事件，直接影响风险资产定价，优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/markets/bitcoin-price-falls-to-62000-as-hawkish"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至15",
+      "summary": "加密货币恐惧与贪婪指数降至15（极度恐惧），创近期新低。历史数据显示极度恐惧区域通常对应中长期底部，但短期抛压仍存。该指标反映市场恐慌情绪，暗示可能过度悲观，但需等待确认信号。影响：BTC、ETH等整体市场，中长期看多，短期谨慎。",
+      "reason": "市场情绪极值信号，优先级三，但具有反转参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "以太坊基金会高层再离职",
+      "summary": "以太坊基金会联合执行董事兼董事会成员Hsiao-Wei Wang宣布辞职。这是继Aya Miyaguchi之后又一位核心领导离开，引发对基金会治理和人才流失的担忧。ETH价格已跌破1700美元，此消息可能进一步打击信心。影响：ETH看空。",
+      "reason": "项目重大人事变动，优先级一，直接影响ETH市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/06/18/ethereum-foundation-loses-another-key-leader-as-co-executive-director-hsiao-wei-wang-resigns"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405271/ethereum-foundation-co-exec-director-board-member-hsiao-wei-wang-steps-down"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CME起诉CFTC阻BTC永续期货",
+      "summary": "CME集团计划起诉CFTC，反对批准Kalshi推出比特币永续期货，称其违反Dodd-Frank法案分类。这将影响比特币衍生品市场格局，若CME胜诉可能限制零售永续期货发展，但机构产品不受影响。短中期不确定性增加，偏利空。影响：BTC。",
+      "reason": "监管与市场结构重大冲突，优先级一，可能改变期货监管环境。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/cme-group-to-sue-cftc-over-bitcoin-perpetual-futures-approval"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371548/cme-to-sue-cftc-over-bitcoin-perpetual-futures-approval-ceo"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国FinCEN拟要求稳定币KYC",
+      "summary": "美国金融犯罪执法网络（FinCEN）提出规则制定，要求稳定币发行人建立客户身份识别程序。此举旨在堵住反洗钱漏洞，但可能增加合规成本，短期利空稳定币及相关DeFi项目。不过监管明确化长期利好行业。影响：USDT、USDC等稳定币，以及依赖稳定币的DeFi协议。",
+      "reason": "监管政策重大动态，优先级一，直接冲击稳定币生态。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/federal-reserve-moves-to-close-stablecoin"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405268/bitcoin-miners-bitdeer-cleanspark-and-more-report-mixed-may-output-as-ai-buildouts-impact-hashrate-growth-treasury-models"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Strategy优先股暴跌但继续买BTC",
+      "summary": "Strategy（原MicroStrategy）优先股STRC跌破85美元，因投资者担忧稀释。但公司表示仍持有大量BTC储备且股息覆盖良好。同时Strategy在BTC下跌中继续买入1000万美元BTC（另有报道称1000万）。机构增持是看多信号，但优先股下跌显示市场情绪分歧。影响：BTC。",
+      "reason": "机构动向重要信号，优先级二，BTC增持为看多因子。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371529/everyday-savers-bet-big-bitcoin-giant-strategy-strc-falling"
+        },
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVGFRMW13T0FYYVFVRWlWYlBKaWY4Q3ZaaXJDc2M0elU1eFEtejJ1ZXZFLWtSQy1CN2NEdzJYTHFMaHhYU1JDYkdUTDBoeUJhSkFwS2hGTG1uQjkyeWYzcnM3SHYySDZzbXJIOGFTOGpialIyYnhUOWhwREZKazFBd1ZtMkdJaGUwd3Zsb3VDdw"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF资金整体净流出",
+      "summary": "据报道，比特币现货ETF近日遭遇抛售潮，仅富达ETF获得1400万美元净流入，其余全部净流出。资金外流加剧比特币下行压力，显示机构短期避险情绪。影响：BTC看空。",
+      "reason": "ETF资金流向直接影响BTC价格，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNVzRnMjJuQzNObDczeVpqVW9CbVdEQmExT0pNYVMydFRfUkFtSkNBZjRLQlRncGx6V3ZucXI1UF9iX3pjVXM5T053QUE1RndNWkhBYTZiZ2R0ellqbGthMFhwMzhEV1Q2Q21HeDAwR002X2xyYXZ3V0tYdWNaRGhvb0F6aHBqS0VNSllRX1ZGckZDVFBpcExLa1o4VjI2N3B5LUE4a3lUaW15OWVyS1VZZ1I4LVcwMmZ5aGNWbWZKd2pnUUd4MmVVOHNBMjMtQTlIMmxaaTQxTHViY1ZkdGM1cGgxTzUtVExpdFVGR3U2TFhxTEx5cFZwcFAzS1lsT3RVc2lJRmF6QW5LS0I4eXNOUXhLSkVZbkwzdjVNcHRDdDJjSWdRSlc2M19fOW9taVByZk1GcGFLajZxZ3dwT1VB"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "G7联手打击朝鲜加密盗窃",
+      "summary": "七国集团（G7）呼吁采取联合行动，应对朝鲜加密货币盗窃和网络犯罪。可能加强国际监管合作和制裁，短期增加市场不确定性，但长期有利于行业安全。影响偏中性，对BTC、ETH等整体市场情绪略偏空。影响：整体市场。",
+      "reason": "监管合作动态，优先级二，但影响程度中等。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/g7-calls-for-joint-action-on-north-korean-crypto-theft-cybercrime"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币矿工产出分化AI影响增强",
+      "summary": "Bitdeer、CleanSpark等矿企报告5月产量分化，AI算力建设挤压矿业算力增长。矿企库存和产量变化影响BTC抛压，AI转型可能减少矿工卖出BTC，但短期不确定性增加。影响：BTC中性。",
+      "reason": "矿业动态影响BTC供需，优先级二，但数据偏混杂。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405268/bitcoin-miners-bitdeer-cleanspark-and-more-report-mixed-may-output-as-ai-buildouts-impact-hashrate-growth-treasury-models"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aztec再遭200万美元漏洞利用",
+      "summary": "隐私协议Aztec遭遇第二起200万美元漏洞利用，此前一周已损失210万美元。攻击针对已废弃的支付产品，但暴露出安全漏洞。短期利空Aztec及相关隐私币，但整体市场影响有限。影响：隐私概念币（如ZEC、XMR）看空。",
+      "reason": "项目安全事件，优先级一，但涉及金额较小。",
+      "category": "项目更新",
+      "impact_coins": ["ZEC", "XMR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/aztec-hit-by-second-2-1m-exploit-in-less-than-a-week-slowmist"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405268/bitcoin-miners-bitdeer-cleanspark-and-more-report-mixed-may-output-as-ai-buildouts-impact-hashrate-growth-treasury-models"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "筛选出10条关键消息，涵盖美联储政策、情绪指标、以太坊基金会人事变动、监管冲突、机构行为、ETF资金流、国际监管合作、矿业数据和链上安全事件。其中美联储消息影响最大，已引发BTC下跌至62000美元。"
+}
