@@ -415,3 +415,69 @@ content length: 3561
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3539, prompt_tokens=13889, total_tokens=17428, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2425, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12737)
+content length: 2735
+============================================================
+{
+  "news": [
+    {
+      "title": "JPMorgan警告BTC挖矿成本倒挂",
+      "summary": "JPMorgan发布报告称，随着比特币价格跌至62,000美元以下，已低于平均挖矿生产成本，比特币挖矿经济状况恶化。这可能迫使矿工抛售比特币以维持运营，增加市场抛压。影响币种BTC，看空信号，矿工相关币种也受影响。这是中长期利空，可能加速矿工投降。",
+      "reason": "宏观挖矿经济指标恶化，对BTC供应端产生压力。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/405302/jpmorgan-bitcoin-mining-btc-production-cost"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Jefferies看好IREN AI云业务",
+      "summary": "Jefferies分析师预计IREN的AI云业务将超过数据中心租赁，给予其30%上涨空间。IREN是一家比特币矿商，正在向AI转型，这标志矿商多元化趋势。影响IREN代币及同类AI矿商。看多IREN，但对比特币中性。",
+      "reason": "矿商AI转型题材，直接影响IREN股价及代币。",
+      "category": "项目更新",
+      "impact_coins": ["IREN"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/405284/jefferies-expects-irens-ai-cloud-business-outpace-data-center-leasing-30-upside"}],
+      "urgency": "days"
+    },
+    {
+      "title": "肯塔基州起诉Kalshi和Polymarket",
+      "summary": "美国肯塔基州对预测市场平台Kalshi和Polymarket提起法律诉讼，指控其非法经营赌博业务。这加剧了预测市场行业的监管不确定性，可能影响相关代币和平台。但影响限于预测市场领域。",
+      "reason": "监管政策收紧，影响预测市场代币（如POLY）。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "KALSHI"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/371564/kentucky-sues-kalshi-polymarket-prediction-market-legal-battle"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperliquid CEO称HYPE有望走高",
+      "summary": "Hyperion CEO表示Hyperliquid交易所将超越单纯交易平台，推动其原生代币HYPE价值上升。Hyperliquid是一个去中心化永续合约交易所，近期表现活跃。这是项目方积极言论，可能短期提振HYPE价格。",
+      "reason": "项目关键人物言论，对HYPE有直接利多。",
+      "category": "项目更新",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/405300/hyperliquid-poised-become-more-exchange-boost-hypes-value-hyperion-ceo-says"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "降息希望消退压制比特币ETF需求",
+      "summary": "美联储鹰派立场导致市场重新定价降息概率，抑制了比特币ETF的需求。近期ETF资金流入放缓甚至流出，比特币价格承压。若利率预期持续鹰派，ETF资金可能继续外流，利空BTC。",
+      "reason": "宏观经济与ETF机构动态直接影响BTC价格。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Investing.com", "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ2VXNF92S1lIRllzdGRvcWtXZzlmR1VqZ3RhTnJmZDRwZUVlaHp2b1lZZmd3MEdmd2dpUThaTEJJdTNTZncwUXIzX1k1N2lRM29yUmlYbEV1VENGNS0xdlo5UzNWcGNNSUR0d3I4UHRJZGVJWUFhblhzOHRCYjBjWGFPTktsc1EzYlc3Z2prOEViNDNBQkhjNHlCMGRQWHNrRDdOZU1kOA?oc=5"}],
+      "urgency": "days"
+    }
+  ]
+}
