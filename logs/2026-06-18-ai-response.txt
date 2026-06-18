@@ -957,3 +957,91 @@ content length: 3312
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1597, prompt_tokens=16728, total_tokens=18325, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=373, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15576)
+content length: 3263
+============================================================
+{
+  "news": [
+    {
+      "title": "美元指数逼近突破，比特币承压",
+      "summary": "CoinDesk报道，美元指数（DXY）正逼近关键阻力位，若突破将压制比特币等风险资产。当前DXY因美联储鹰派立场走强，比特币已在64K附近徘徊，技术面看空。",
+      "reason": "美元指数与比特币负相关，突破信号将中期利空BTC/ETH。按优先级一，影响行情。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/daybook-us/2026/06/18/bitcoin-s-nemesis-the-dollar-index-is-on-the-verge-of-a-major-breakout"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "G7联合警告朝鲜加密盗窃",
+      "summary": "七国集团（G7）呼吁联合行动打击朝鲜加密货币盗窃与网络犯罪。可能引发监管收紧，对整体市场情绪偏空，但短期影响有限。",
+      "reason": "优先级一监管动态，但非直接禁令，影响中等。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/g7-north-korea-crypto-theft-cybercrime-warning"}],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币市值回弹需5-10年",
+      "summary": "CoinTelegraph报道，自2025年中以来比特币市值排名已下降10位，分析师认为完全恢复需5-10年。长期看空信号，但短期影响小。",
+      "reason": "优先级二市场结构，中长期利空，但非即时。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-market-cap-rebound-to-take-5-10-years-after-dropping-10-places-since-mid-2025"}],
+      "urgency": "days"
+    },
+    {
+      "title": "马耳他探索DeFi纳入MiCA",
+      "summary": "马耳他金融监管机构研究将部分DeFi纳入欧盟MiCA框架。可能带来监管明确性，中性偏多，但进展缓慢。",
+      "reason": "优先级一监管动态，利好合规DeFi项目。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "AAVE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/06/18/malta-s-financial-regulator-explores-bringing-parts-of-defi-under-mica-s-orbit"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Aztec再遭210万美元利用",
+      "summary": "隐私协议Aztec一周内第二次被利用，损失210万美元。事件暴露DeFi安全风险，利空相关代币。",
+      "reason": "优先级一黑客攻击，直接影响Aztec以及整体DeFi情绪。",
+      "category": "项目更新",
+      "impact_coins": ["AZTEC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/aztec-exploited-21-million-previous-hack-slowmist"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Aster回购销毁升级短时涨超10%",
+      "summary": "Aster Network推出激进回购销毁升级，代币价格短时飙升10%后回落。短期投机，无持续影响。",
+      "reason": "优先级三市场情绪，但持续性强，影响低。",
+      "category": "项目更新",
+      "impact_coins": ["ASTER"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/18/aster-popped-over-10-on-radical-buyback-and-burn-upgrade-but-gains-were-short-lived"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线Re（RE）现货",
+      "summary": "Binance将于今日上线Re（RE）并标注种子标签，增加流动性，短期利好RE价格。",
+      "reason": "优先级一交易所上币，直接影响RE。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"}],
+      "urgency": "immediate"
+    }
+  ]
+}
