@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-18",
+  "hour": "12",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12222,
+    "completion_tokens": 3279,
+    "total_tokens": 15501
+  },
+  "content_length": 2255,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"肯塔基起诉预测市场\",\n      \"summary\": \"美国肯塔基州正式起诉Kalshi和Polymarket，加入其他州对预测市场的法律行动。该诉讼可能限制预测市场在美国的运营，影响相关代币（如POLY）及整个预测市场板块。这是对美国监管环境的打击，看空信号。\",\n      \"reason\": \"监管机构对预测市场采取直接行动，属于重大监管动态，影响相关币种和情绪。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"POLY\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/kentucky-sues-kalshi-polymarket-joining-prediction-market-legal-battle\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Tether关停黄金稳定币aUSDT\",\n      \"summary\": \"Tether宣布停止其黄金支持的衍生稳定币aUSDT，原因未明。该产品规模较小，但可能影响Tether生态和投资者对稳定币的信心。短期中性偏空，因减少供应，但整体影响有限。\",\n      \"reason\": \"主要稳定币发行商产品变动，属于项目更新，但aUSDT非主流，影响中等偏低。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"USDT\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/tether-winds-down-gold-backed-derivative-stablecoin-ausdt\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"现货比特币ETF净流出8217万\",\n      \"summary\": \"美国现货比特币ETF在6月17日净流出8217万美元，以太坊ETF净流出2935万美元。资金流出增加抛压，短期看空BTC和ETH。结合美联储鹰派言论，市场情绪脆弱。\",\n      \"reason\": \"ETF资金流向直接影响BTC/ETH价格，属于优先级一信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518159.html\"\n        },\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518160.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"花旗预计美联储10月降息\",\n      \"summary\": \"花旗银行预测美联储将在2026年10月、12月和2027年1月各降息25个基点。若实现，将推动风险资产上涨，利好BTC和ETH。但当前市场鹰派情绪浓厚，该预测为中期看多信号。\",\n      \"reason\": \"宏观经济预测影响风险资产偏好，属于中期影响因素。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518158.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮筛选出的新消息较少，大量内容与历史重复（如Binance公告、美联储决议、恐惧贪婪指数等），仅选出4条有实际交易价值且不重复的消息。\"\n}"
+}
