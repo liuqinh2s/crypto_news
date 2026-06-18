@@ -1281,3 +1281,110 @@ content length: 4590
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=6446, prompt_tokens=16128, total_tokens=22574, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=4993, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14976)
+content length: 3603
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储拟推稳定币KYC规则",
+      "summary": "美联储提出规则制定，要求稳定币发行方建立客户身份识别程序。此举旨在加强反洗钱合规，对USDT、USDC等稳定币构成监管压力，可能迫使发行方调整运营。短期看，稳定币市场可能面临不确定性，但长期合规化利于主流采用。对BTC/ETH间接影响偏负面，因为监管收紧通常压制风险偏好。信号：看空。",
+      "reason": "稳定币监管动态直接影响加密市场流动性，属于优先级一监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405247/federal-reserve-rolls-out-proposing-rulemaking-requiring-stablecoin-issuers-to-maintain-customer-identification-program"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kraken集成Solana DEX交易",
+      "summary": "Kraken在其核心应用中集成Solana DEX交易，用户可直接在Kraken界面交易Solana链上DEX代币，计划未来支持更多网络。这提升了Kraken的DeFi可访问性，利好SOL和生态代币（如RAY、ORCA）。但影响范围有限，因为Kraken并非最大交易所。短期看SOL可能获得一定买盘。信号：看多。",
+      "reason": "交易所整合新功能，属于中度利好，优先级二。",
+      "category": "交易所",
+      "impact_coins": ["SOL", "RAY", "ORCA"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405242/kraken-integrates-solana-dex-trading-into-core-app-support-additional-networks-planned"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY法案保护开发者",
+      "summary": "美国参议院密集磋商CLARITY法案，拟明确非托管软件开发者的法律责任豁免，即不会因第三方使用其代码而承担法律责任。这对DeFi、钱包、DApp开发者是重大利好，降低法律风险，可能刺激以太坊、Solana等智能合约平台的创新和投资。信号：看多。",
+      "reason": "监管进展利好DeFi，属于优先级一监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "SOL", "UNI", "AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518263.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "THORChain停摆超一个月",
+      "summary": "THORChain自5月中旬以来持续停摆，链上几乎无交易，引发社区质疑。THORChain是跨链DEX，停摆严重损害其生态和代币RUNE价值。若问题持续，RUNE可能进一步下跌。信号：看空。",
+      "reason": "项目重大故障，影响其代币价格，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["RUNE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518260.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗将向通过海峡船只收费",
+      "summary": "伊朗议会议长宣布，在60天免收费期结束后，将向通过霍尔木兹海峡的船只收取费用。此举可能加剧中东紧张局势，推高油价，进而影响通胀预期和美联储政策。对加密货币构成间接利空，因为风险偏好下降。信号：看空（间接）。",
+      "reason": "地缘政治风险影响宏观环境，优先级二宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518250.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "StarkWare联创：最糟加密寒冬",
+      "summary": "StarkWare联合创始人表示当前是他见过的最糟加密寒冬，但比特币和以太坊仍能胜出。这是悲观情绪的表达，但同时也暗示底部可能不远。该言论可能加剧短期恐慌，但中长期看可能是底部信号。信号：中性。",
+      "reason": "KOL观点可能影响市场情绪，属于优先级三市场情绪。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbGdEQXVfNkU1QS1VRFZoOW5GMGNSeDRNSlZVX1JYX0VySzZFQzFWVTNxcEtPNlVqVk1GNWFaWVQySHF2aGNiTERmUktLMkRrNmhtRzdzQUJOTzZUa3FLX1VUc1ZJRVhYUFFxOVM1TnNKMGZjZEdIbE5oQ2dfSE10dE43T2xTQ1ZYZmRvSEEzcnkyb25jSFFhRmJMMXFvak94X3M5ekhJRkpfMzNtdWZqQVJFQVJiWkl6bGxVdGhLbnN1QWxTbHdyaVk0M2lhUmVpWVJWUEFuank4QnpMVXN3eEFDclZQdw"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
