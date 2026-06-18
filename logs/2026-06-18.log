@@ -1160,3 +1160,112 @@
 2026-06-18 04:01:30 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
 2026-06-18 04:01:30 [INFO] 📦 JSON 已保存: reports/2026-06-18-12.json
 2026-06-18 04:01:30 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-06-18 05:00:58 [INFO] 🚀 开始抓取 2026-06-18 13:00 币圈新闻
+2026-06-18 05:00:58 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-18 05:00:58 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-18 05:00:58 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-06-18 05:00:58 [INFO]   ⏭ Decrypt: 过滤掉 38 条非近期新闻
+2026-06-18 05:00:58 [INFO]   ⏭ CoinTelegraph: 过滤掉 27 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-18 05:00:59 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-18 05:00:59 [INFO]   ⏭ CoinDesk: 过滤掉 22 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ 宏观经济: 过滤掉 33 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-18 05:00:59 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 25 条非近期新闻
+2026-06-18 05:01:00 [INFO]   ⏭ Blockworks: 过滤掉 5 条非近期新闻
+2026-06-18 05:01:00 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-18 05:01:00 [INFO]   ⏭ Crypto Twitter: 过滤掉 45 条非近期新闻
+2026-06-18 05:01:00 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-18 05:01:01 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 1 条非近期新闻
+2026-06-18 05:01:14 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-18 05:01:14 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-18 05:01:14 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-18 05:01:14 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-18 05:01:14 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-18 05:01:14 [INFO]   ✓ CoinDesk: 3 条
+2026-06-18 05:01:14 [INFO]   ✓ The Block: 1 条
+2026-06-18 05:01:14 [INFO]   ✓ Decrypt: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ CoinTelegraph: 3 条
+2026-06-18 05:01:14 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Blockworks: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ DL News: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ 金色财经: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ PANews: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Crypto Twitter: 5 条
+2026-06-18 05:01:14 [INFO]   ✓ 宏观经济: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Binance公告: 20 条
+2026-06-18 05:01:14 [INFO]   ✓ OKX公告: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Bitget公告: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Whale Alert: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-18 05:01:14 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-18 05:01:14 [INFO]   ✓ 雪球加密: 0 条
+2026-06-18 05:01:14 [INFO] 📊 共抓取 33 条新闻
+2026-06-18 05:01:14 [INFO] 📋 原始新闻已保存: reports/2026-06-18-13-raw.json (33 条)
+2026-06-18 05:01:14 [INFO] 📋 标题摘要已保存: reports/2026-06-18-13-raw-titles.md
+2026-06-18 05:01:14 [INFO] ✅ 抓取完成，共 33 条，已保存到 reports/2026-06-18-13-raw.json
+2026-06-18 05:01:15 [INFO] 🤖 开始 AI 筛选 2026-06-18 13:00 币圈消息
+2026-06-18 05:01:15 [INFO] 📋 已加载原始新闻: reports/2026-06-18-13-raw.json (33 条)
+2026-06-18 05:01:15 [INFO] 📚 已加载历史新闻标题（21491 字符）
+2026-06-18 05:01:15 [INFO] 📚 已加载历史筛选标题 15 条、URL 16 个，用于去重
+2026-06-18 05:01:15 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-18 05:01:15 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-18 05:01:15 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（33 条，7765 字符，temp=0.3）
+2026-06-18 05:01:34 [INFO] AI 原始返回已保存: logs/2026-06-18-ai-response.txt (finish_reason=stop, 101 字符)
+2026-06-18 05:01:34 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-18-13-ai-raw.json
+2026-06-18 05:01:34 [DEBUG] parse_json_response 输入长度: 101 字符
+2026-06-18 05:01:34 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取素材与近6小时历史消息高度重复，无新增关键交易信号。恐惧贪婪指数持续15极度恐惧，但数值未变。市场聚焦美联储鹰派信号，已反映在价格中。"
+}
+2026-06-18 05:01:34 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-18 05:01:34 [INFO] ✅ AI 返回 0 条新闻
+2026-06-18 05:01:34 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-06-18 05:01:34 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（33 条，7765 字符，temp=0.3）
+2026-06-18 05:01:50 [INFO] AI 原始返回已保存: logs/2026-06-18-ai-response.txt (finish_reason=stop, 61 字符)
+2026-06-18 05:01:50 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-18-13-ai-raw.json
+2026-06-18 05:01:50 [DEBUG] parse_json_response 输入长度: 61 字符
+2026-06-18 05:01:50 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取素材中所有消息均与历史消息重复，无新有价值的交易信号。"
+}
+2026-06-18 05:01:50 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-18 05:01:50 [INFO] ✅ AI 返回 0 条新闻
+2026-06-18 05:01:50 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 返回空数组，将重试
+2026-06-18 05:01:50 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（33 条，7765 字符，temp=0.3）
+2026-06-18 05:02:15 [INFO] AI 原始返回已保存: logs/2026-06-18-ai-response.txt (finish_reason=stop, 3530 字符)
+2026-06-18 05:02:15 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-18-13-ai-raw.json
+2026-06-18 05:02:15 [DEBUG] parse_json_response 输入长度: 3530 字符
+2026-06-18 05:02:15 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "美联储鹰派信号致BTC/ETH下跌",
+      "summary": "美联储在沃什首次会议上维持利率不变但释放鹰派信号，市场定价年底前加息两次。BTC跌破64000美元，ETH同步下跌。这是直接影响风险资产的宏观利空，短期看空BTC和ETH。",
+      "reason": "美联储鹰派表态直接引发市场下跌，属于优先级一的宏观经济事件，影响广泛。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "b
+2026-06-18 05:02:15 [DEBUG] 从 JSON 对象的 news 字段提取到 6 条记录
+2026-06-18 05:02:15 [INFO] ✅ AI 返回 6 条新闻
+2026-06-18 05:02:15 [INFO] ✅ AI 筛选出 6 条交易相关消息，符合预期
+2026-06-18 05:02:15 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
+2026-06-18 05:02:15 [INFO] 🔄 去重：移除 3 条与历史报告重复的新闻
+2026-06-18 05:02:15 [DEBUG]   去重: 「CME计划起诉CFTC永续合约批准」 → 标题相似: CME起诉CFTC永续合约
+2026-06-18 05:02:15 [DEBUG]   去重: 「肯塔基州起诉Kalshi和Polymarket」 → URL重复: https://cointelegraph.com/news/kentucky-sues-kalshi-polymark
+2026-06-18 05:02:15 [DEBUG]   去重: 「Tether关闭黄金背书的aUSDT稳定币」 → URL重复: https://cointelegraph.com/news/tether-winds-down-gold-backed
+2026-06-18 05:02:15 [INFO] 📦 JSON 已保存: reports/2026-06-18-13.json
+2026-06-18 05:02:15 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
