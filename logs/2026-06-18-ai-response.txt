@@ -1045,3 +1045,124 @@ content length: 3263
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4487, prompt_tokens=16626, total_tokens=21113, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3967, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15474)
+content length: 1233
+============================================================
+{
+  "news": [
+    {
+      "title": "初请失业金超预期 降息概率上升",
+      "summary": "美国上周首次申领失业救济人数录得22.6万人，高于市场预期的22.0万人，表明劳动力市场有所降温。这增加了美联储未来降息的可能性，对风险资产包括加密货币构成利好。尽管美联储近期鹰派表态，但经济数据疲软可能推动政策转向，短期看多比特币和以太坊。",
+      "reason": "宏观经济数据直接影响降息预期，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518242.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "戴蒙抨击Clarity Act 监管冲突升级",
+      "summary": "摩根大通CEO Jamie Dimon公开反对Clarity Act（加密清晰法案），认为该法案可能引发金融风险。这表明华尔街传统巨头与加密行业的监管冲突加剧，可能阻碍法案通过，对市场情绪造成压力。短期来看，监管不确定性上升，看空比特币、以太坊及Solana等美国敏感币种。",
+      "reason": "监管动态影响行业前景，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Fox Business",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yWjIwcE9xN2pTYVJ1YnhIWGxkQUFKd3ZOZVFPVTVfdDdwNnZNZm5uVm9XT25fOG9rdVlhcWdwWl9YMnA1bTRvZ0JMMFZKTjdYQWRiWUQxRzhHc0k?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分事件与历史重复，仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3125, prompt_tokens=16626, total_tokens=19751, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1992, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=16512), prompt_cache_hit_tokens=16512, prompt_cache_miss_tokens=114)
+content length: 2920
+============================================================
+{
+  "news": [
+    {
+      "title": "Capital B批准$120B融资买BTC",
+      "summary": "Capital B股东批准将债务融资能力提高至1200亿美元，用于扩大比特币储备。这是继此前1000亿欧元后的重大更新，显示机构持续加仓比特币。预计将推高比特币需求，中长期看多。",
+      "reason": "机构大规模增持比特币，直接影响BTC供需，属于优先级一项目方重大事件。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/capital-b-shareholders-approve-120b-capital"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Alchemy与Visa合作AI支付卡",
+      "summary": "Alchemy推出基于Visa网络的虚拟支付卡，用于AI代理的加密支付。这是加密支付与传统金融的深度融合，提升加密实用性和采用率。利好加密支付生态，但短期影响有限。",
+      "reason": "Visa合作属于重大技术/商业落地，影响中期采用，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "MATIC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/06/18/alchemy-s-ai-driven-identity-and-payment-service-gains-access-to-visa-network"}],
+      "urgency": "days"
+    },
+    {
+      "title": "爱尔兰收紧加密安全法规",
+      "summary": "爱尔兰在最新金融犯罪行动计划中强化加密货币安全措施，加强对交易所和托管方的合规要求。全球监管收紧趋势延续，增加运营成本，但长期规范市场。短期偏利空，影响有限。",
+      "reason": "监管政策直接影响市场情绪，属优先级一，但非直接禁令。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "Decrypt", "url": "https://decrypt.co/371518/ireland-tightens-crypto-safeguards-in-new-financial-crime-action-plan"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Jamie Dimon抨击加密Clarity法案",
+      "summary": "摩根大通CEO Jamie Dimon批评加密货币Clarity Act，称其削弱银行监管。加密行业与华尔街监管冲突加剧，法案前景不确定。短期可能打压市场情绪，但法案若通过则利好。",
+      "reason": "华尔街重要人物言论影响监管预期，属优先级一监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Fox Business", "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yWjIwcE9xN2pTYVJ1YnhIWGxkQUFKd3ZOZVFPVTVfdDdwNnZNZm5uVm9XT25fOG9rdVlhcWdwWl9YMnA1bTRvZ0JMMFZKTjdYQWRiWUQxRzhHc0k"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国初请失业金高于预期",
+      "summary": "美国上周初请失业金人数22.6万，高于预期的22万，显示劳动力市场放缓。可能促使美联储考虑降息，但当前Fed偏鹰，市场对经济衰退担忧加剧。短期利空风险资产，BTC承压。",
+      "reason": "宏观经济数据影响利率预期，属优先级二，直接影响BTC走势。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "Jinse", "url": "https://jinse.com.cn/lives/518242.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数15:极度恐惧",
+      "summary": "恐惧贪婪指数降至15，处于极度恐惧区间。历史数据显示该区域通常为中长期抄底区。短期情绪悲观，但中长期看涨概率大。建议观望或分批建仓。",
+      "reason": "极端市场情绪信号，属优先级三，历史规律有效。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    }
+  ]
+}
