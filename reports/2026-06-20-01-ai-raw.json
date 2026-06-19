@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-20",
+  "hour": "01",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11788,
+    "completion_tokens": 3163,
+    "total_tokens": 14951
+  },
+  "content_length": 1878,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Strive清算致STRC暴跌\",\n      \"summary\": \"Strive CEO Matt Cole表示，数字信贷市场经历了史上最艰难的一天，STRC和SATA因杠杆清算而暴跌。Strive持有超过19,000枚BTC，其股票STRC因市场去杠杆而大幅下跌，反映出高杠杆环境下的连锁风险。该事件直接影响STRC、SATA及比特币，短期加剧市场恐慌，看空。\",\n      \"reason\": \"项目方重大事件，清算导致资产价格剧烈波动，属于直接影响行情的消息。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"STRC\", \"SATA\", \"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Decrypt\",\n          \"url\": \"https://decrypt.co/371686/strive-blames-leverage-liqidations-sata-bitcoin-giant-strategy-strc-plunge\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"黎巴嫩袭击威胁伊朗停火\",\n      \"summary\": \"黎巴嫩发动袭击，可能破坏伊朗与以色列的停火协议，导致地缘政治风险升级。比特币、以太坊和XRP随之下跌，市场避险情绪升温。该事件若持续恶化，将进一步打压风险资产，看空。\",\n      \"reason\": \"地缘政治突发事件影响风险资产，属于中期影响行情消息。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"XRP\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMinwFBVV95cUxNR040M2thMVV6LVB4NFlsLWMyaThCMmtlZG9pOTBFSWo4YlBxRnZfQ0FnaW9wcEtRUFYyWmlSR1FOZkpZT3VqdktOc3RiQ0wzQTFTWDhmM3RldEp5OFh0S1dCWVowWWhreFJ0dG1NSy1FQnp1TG81M3laTHhYdVYtclRIZ3gzMThGQWxLd2t0eTdUdm1EQTF0YklhM2p4VEE?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Kalshi收入20亿考虑IPO\",\n      \"summary\": \"预测市场Kalshi收入达20亿美元，正考虑IPO。这反映了加密及预测市场领域的机构化进程，可能吸引更多传统资金入场。对加密市场整体情绪有正面提振，但影响间接，中性偏多。\",\n      \"reason\": \"机构动向，中期影响行情。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Bitcoin Magazine\",\n          \"url\": \"https://bitcoinmagazine.com/news/prediction-market-kalshi-eyes-ipo\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮仅有3条可筛选的新消息，其余均为重复或无关内容。\"\n}"
+}
