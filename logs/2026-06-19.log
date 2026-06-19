@@ -1360,3 +1360,107 @@
 2026-06-19 06:01:29 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
 2026-06-19 06:01:29 [INFO] 📦 JSON 已保存: reports/2026-06-19-14.json
 2026-06-19 06:01:29 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-06-19 07:00:48 [INFO] 🚀 开始抓取 2026-06-19 15:00 币圈新闻
+2026-06-19 07:00:48 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-19 07:00:48 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-19 07:00:48 [INFO]   ⏭ Decrypt: 过滤掉 37 条非近期新闻
+2026-06-19 07:00:48 [INFO]   ⏭ The Block: 过滤掉 17 条非近期新闻
+2026-06-19 07:00:48 [INFO]   ⏭ CoinTelegraph: 过滤掉 27 条非近期新闻
+2026-06-19 07:00:48 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-19 07:00:49 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ CoinDesk: 过滤掉 22 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ Blockworks: 过滤掉 6 条非近期新闻
+2026-06-19 07:00:49 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:50 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:50 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:50 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-19 07:00:50 [INFO]   ⏭ Crypto Twitter: 过滤掉 48 条非近期新闻
+2026-06-19 07:00:55 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 3 条非近期新闻
+2026-06-19 07:01:04 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-19 07:01:04 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-19 07:01:04 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-19 07:01:04 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-19 07:01:05 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-19 07:01:05 [INFO]   ✓ CoinDesk: 3 条
+2026-06-19 07:01:05 [INFO]   ✓ The Block: 3 条
+2026-06-19 07:01:05 [INFO]   ✓ Decrypt: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ CoinTelegraph: 3 条
+2026-06-19 07:01:05 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ Blockworks: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ DL News: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ 金色财经: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ PANews: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-06-19 07:01:05 [INFO]   ✓ Crypto Twitter: 2 条
+2026-06-19 07:01:05 [INFO]   ✓ 宏观经济: 1 条
+2026-06-19 07:01:05 [INFO]   ✓ Binance公告: 20 条
+2026-06-19 07:01:05 [INFO]   ✓ OKX公告: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ Bitget公告: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ Whale Alert: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-19 07:01:05 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-19 07:01:05 [INFO]   ✓ 雪球加密: 0 条
+2026-06-19 07:01:05 [INFO] 📊 共抓取 36 条新闻
+2026-06-19 07:01:05 [INFO] 📋 原始新闻已保存: reports/2026-06-19-15-raw.json (36 条)
+2026-06-19 07:01:05 [INFO] 📋 标题摘要已保存: reports/2026-06-19-15-raw-titles.md
+2026-06-19 07:01:05 [INFO] ✅ 抓取完成，共 36 条，已保存到 reports/2026-06-19-15-raw.json
+2026-06-19 07:01:05 [INFO] 🤖 开始 AI 筛选 2026-06-19 15:00 币圈消息
+2026-06-19 07:01:05 [INFO] 📋 已加载原始新闻: reports/2026-06-19-15-raw.json (36 条)
+2026-06-19 07:01:05 [INFO] 📚 已加载历史新闻标题（17021 字符）
+2026-06-19 07:01:05 [INFO] 📚 已加载历史筛选标题 27 条、URL 28 个，用于去重
+2026-06-19 07:01:05 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-19 07:01:05 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-19 07:01:05 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（36 条，7314 字符，temp=0.3）
+2026-06-19 07:01:32 [INFO] AI 原始返回已保存: logs/2026-06-19-ai-response.txt (finish_reason=stop, 993 字符)
+2026-06-19 07:01:32 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-19-15-ai-raw.json
+2026-06-19 07:01:32 [DEBUG] parse_json_response 输入长度: 993 字符
+2026-06-19 07:01:32 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Bielik.io与BitGo合作提供合规交易",
+      "summary": "Bielik.io宣布与BitGo Europe GmbH合作，在欧洲经济区（EEA）支持受监管的加密交易。此举有助于扩大合规交易渠道，可能吸引更多机构资金入场。影响币种包括BTC、ETH及主流币种。从做多视角看，这是bullish信号，表明行业合规化进程推进，但短期内对价格影响有限。",
+      "reason": "机构合规合作属于中期利好，增强市场信任，且该消息在历史标题中未出现，具有新鲜度。",
+      "categor
+2026-06-19 07:01:32 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-19 07:01:32 [INFO] ✅ AI 返回 1 条新闻
+2026-06-19 07:01:32 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-06-19 07:01:32 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（36 条，7314 字符，temp=0.3）
+2026-06-19 07:01:53 [INFO] AI 原始返回已保存: logs/2026-06-19-ai-response.txt (finish_reason=stop, 4249 字符)
+2026-06-19 07:01:53 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-19-15-ai-raw.json
+2026-06-19 07:01:53 [DEBUG] parse_json_response 输入长度: 4249 字符
+2026-06-19 07:01:53 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "CFTC与SEC征求掉期定义意见",
+      "summary": "美国CFTC和SEC就'掉期'监管定义公开征求意见，此举源于CME诉讼案。若重新定义可能影响加密衍生品交易分类，利好合规交易所，但短期增加监管不确定性。主要影响BTC、ETH及所有期货合约币种。信号中性偏空，因监管收紧可能限制杠杆产品。",
+      "reason": "优先级一监管动态，直接影响衍生品市场结构。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+ 
+2026-06-19 07:01:53 [DEBUG] 从 JSON 对象的 news 字段提取到 9 条记录
+2026-06-19 07:01:53 [INFO] ✅ AI 返回 9 条新闻
+2026-06-19 07:01:53 [INFO] ✅ AI 筛选出 9 条交易相关消息，符合预期
+2026-06-19 07:01:53 [INFO] 🔗 来源链接覆盖: 9/9 条新闻有有效链接
+2026-06-19 07:01:53 [INFO] 🔄 去重：移除 6 条与历史报告重复的新闻
+2026-06-19 07:01:53 [DEBUG]   去重: 「CFTC与SEC征求掉期定义意见」 → URL重复: https://www.theblock.co/post/405380/cftc-sec-public-comment-
+2026-06-19 07:01:53 [DEBUG]   去重: 「BTC低于挖矿成本五个月，矿工承压」 → URL重复: https://www.coindesk.com/markets/2026/06/19/live-markets-bit
+2026-06-19 07:01:53 [DEBUG]   去重: 「BTC交易者大举押注看跌至$52k」 → URL重复: https://www.coindesk.com/markets/2026/06/19/bitcoin-traders-
+2026-06-19 07:01:53 [DEBUG]   去重: 「巨鲸平ETH空单获利580万，另鲸买入7000ETH」 → 标题相似: 巨鲸平ETH空单赚580万
+2026-06-19 07:01:53 [DEBUG]   去重: 「摩根士丹利提交ETH和SOL ETF低费率修订」 → 标题相似: 摩根士丹利提交ETH/SOL ETF修订
+2026-06-19 07:01:53 [DEBUG]   去重: 「XRP失守$1.15支撑，跌3%」 → URL重复: https://www.coindesk.com/markets/2026/06/19/xrp-falls-3-afte
+2026-06-19 07:01:53 [INFO] 📦 JSON 已保存: reports/2026-06-19-15.json
+2026-06-19 07:01:53 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
