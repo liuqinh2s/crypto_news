@@ -888,3 +888,142 @@ content length: 4022
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3359, prompt_tokens=10857, total_tokens=14216, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1496, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9705)
+content length: 4479
+============================================================
+{
+  "news": [
+    {
+      "title": "SEC批准或含SHIB的ETF",
+      "summary": "SEC批准了一只可能包含SHIB的加密ETF，这被视为对Shiba Inu的重大利好，可能吸引机构资金入场。SHIB价格有望上涨，同时提振整个meme币板块。信号看多。",
+      "reason": "直接影响SHIB行情，属于重大监管动态，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["SHIB"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeHN6TWZPbHNlbGtjcHd3NHpHanhTdVlkNXBDbWpwQWNycTd4bFBVZDJYblRGaG1DTzd0QU93N2QxSE1kaXZ2elZzdG4tcXo4d2hHalhCbHZ3VUJNaXFVZDR3V1UwdFR4a3Q0ajVTQkxla3J3c0cxU3QySTVWR2djc0x2SThzSnMxRUJ5eUFwVVNLYzI5ZF9RYw"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Arthur Hayes卖ETH，鲸鱼买入",
+      "summary": "Arthur Hayes在亏损状态下卖出大量ETH，但链上数据显示鲸鱼在支撑位持续买入。短期抛压存在，但鲸鱼买盘提供底部支撑，ETH大概率震荡。信号中性，但鲸鱼行为偏多。",
+      "reason": "巨鲸异动，影响ETH短期走势，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZVFCaElCRHpLTnBYX2wtZzNuZ1RYcGhyZnpHWDJMQVFmVktxN19LLXRkUmlVWGdCTzVJQzgteEpncHJEd0NhbWhKNk5iaVd5eXpDc0tBSmpXVUs3OUZvQlUwd0gyc0N1ZFdvWjc4aldPenZudzExZGxUM0lOeE9Ndi1YMHNlSEdGczJqeVBYZXk2bU9pTGM3alIzZU1mdw"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "高盛下调黄金目标，BTC承压",
+      "summary": "高盛下调黄金目标价，暗示宏观环境不利于贵金属和加密货币等风险资产。比特币可能跟随承压，短期看空。",
+      "reason": "宏观经济信号，影响整体市场情绪，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xYWZDcWs4R0VBT0FGMVFOaXVMU2llRVlKNGhuT2gtcDFWZHpRUFlOQzFZV0YxeEFad1RtclVWQTJXR2p2NkJoczZpMEE4TXA3WW52WUhGR0Etdjg"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普威胁伊朗60天协议",
+      "summary": "特朗普称美伊须60天内达成长期协议，否则采取进一步行动。地缘政治紧张升级，可能引发避险情绪，利空风险资产如比特币。",
+      "reason": "地缘政治风险影响风险资产，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518408.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "ADA月跌30%，市场偏空",
+      "summary": "Cardano一个月内下跌30%，反映整体加密货币市场风险偏好下降。ADA技术面疲软，可能进一步下探。信号看空。",
+      "reason": "市场结构显示弱势，优先级三。",
+      "category": "市场结构",
+      "impact_coins": ["ADA"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "equiti.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVUpSTjhoazJmMHVXX1FnaXRTMFVzVFFKOWZFOTBZTzVZNjdQZUEweGp3d0FoSWN5N3hXenVaU2tSNjUxdkloNHpVWkM5ZXlkZG5PYWZSRV8yNVhkWllYdktmUkNlZTA5dGtVZURWTTZpRE5YTV9kMWgwYldZVzR1QmhlWEhoUlkxa21pTE92ckdIamcxeWNuT2loaVd3bXVvcjJMZ1R5WkNqRUZrS21yOVUxWXJ1TkU"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上架RE代币",
+      "summary": "Binance宣布上线Re (RE)并标注种子标签，同时提供理财、保证金和期货服务。短期利好RE价格，但需注意波动风险。",
+      "reason": "交易所上币影响对应币种，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线季度交割合约",
+      "summary": "Binance将上线USDⓈ-M和COIN-M季度1225交割合约，提供更多对冲工具。对市场流动性中性，但可能增加BTC/ETH波动。",
+      "reason": "新期货产品影响市场结构，优先级二。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance",
+          "url": "https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "德州劫案盗800万加密资产",
+      "summary": "德州兄弟持枪挟持一家庭8小时，劫走800万美元加密资产，面临20年监禁。此类暴力犯罪可能引发监管关注，但市场影响有限。",
+      "reason": "负面事件但非系统性风险，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518409.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
