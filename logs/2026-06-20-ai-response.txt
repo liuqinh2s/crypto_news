@@ -699,3 +699,63 @@ content length: 1860
   ],
   "note": "由于大量新闻与历史重复，仅筛选出3条有价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3186, prompt_tokens=10600, total_tokens=13786, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2323, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9448)
+content length: 2084
+============================================================
+{
+  "news": [
+    {
+      "title": "13亿美元BTC期权到期",
+      "summary": "6月20日将有价值约130亿美元的比特币期权到期。如此大规模的期权到期通常会导致市场波动加剧，可能引发价格剧烈波动。当前BTC价格在63000美元附近，多头持仓占优，若到期后未能守住关键价位，可能出现清算加速下跌。建议短期规避，不宜追多。影响币种：BTC。看空信号。",
+      "reason": "大规模期权到期直接影响市场结构，属于优先级一，对价格有实质性影响。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/13b-bitcoin-options-expiry-looms-will-bulls-endure-more-pain-in-june"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "WhiteBIT获MiCA牌照",
+      "summary": "加密货币交易所WhiteBIT在奥地利获得MiCA（欧盟加密资产市场）牌照，可在欧盟范围内合规运营。这是监管合规的重要进展，表明欧盟加密监管框架逐步落地，有利于主流币种特别是ETH和BTC的机构采用。利好欧洲市场情绪，但短期影响有限。影响币种：BTC, ETH。看多信号。",
+      "reason": "MiCA监管正式落地，属于优先级一的监管政策，对市场情绪和合规交易所利好多。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/whitebit-secures-mica-license-austria-gains-access-eu-crypto-market"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Warsh首秀致BTC跌破63K",
+      "summary": "美联储主席Kevin Warsh首次公开亮相，市场解读为鹰派，比特币从64000美元附近回落至63000美元以下，加密货币市值蒸发数十亿美元。市场担忧7月加息概率接近40%，风险资产承压。短期宏观压力加大，但极端恐惧指数14或预示底部临近。影响币种：BTC, ETH。看空信号。",
+      "reason": "美联储新主席首次会议直接影响宏观预期，属于优先级二宏观经济事件，与利率决议相关。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "InsuranceNewsNet",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNlE0UHhwZTFtVXFLNGlaVzRIUVhlQU9qaWU3NW96RmdETG5INXRXaElRMmg2MEVSbkIwejdSX1laYWN0TzlkZTRqUV9BZDZjcDhfRUZUQ3laUXU1SkxPb1ZTVi1jZFMybVd3QlZzVldPa3hPREwzZEJuUGNHRzhaVG0zYV9SWHRPMU04WVlDZldCR29acENpQWRyYnd5d3JEWG1QTWpIdlZUS2ctVGpqSGdOd0RlWjNXVUE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于大量历史重复新闻被排除，仅选出3条有价值的新消息。其余素材多为已报道的旧闻或低相关性内容。"
+}

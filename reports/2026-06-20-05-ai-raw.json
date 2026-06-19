@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-20",
+  "hour": "05",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10600,
+    "completion_tokens": 3186,
+    "total_tokens": 13786
+  },
+  "content_length": 2084,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"13亿美元BTC期权到期\",\n      \"summary\": \"6月20日将有价值约130亿美元的比特币期权到期。如此大规模的期权到期通常会导致市场波动加剧，可能引发价格剧烈波动。当前BTC价格在63000美元附近，多头持仓占优，若到期后未能守住关键价位，可能出现清算加速下跌。建议短期规避，不宜追多。影响币种：BTC。看空信号。\",\n      \"reason\": \"大规模期权到期直接影响市场结构，属于优先级一，对价格有实质性影响。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/13b-bitcoin-options-expiry-looms-will-bulls-endure-more-pain-in-june\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"WhiteBIT获MiCA牌照\",\n      \"summary\": \"加密货币交易所WhiteBIT在奥地利获得MiCA（欧盟加密资产市场）牌照，可在欧盟范围内合规运营。这是监管合规的重要进展，表明欧盟加密监管框架逐步落地，有利于主流币种特别是ETH和BTC的机构采用。利好欧洲市场情绪，但短期影响有限。影响币种：BTC, ETH。看多信号。\",\n      \"reason\": \"MiCA监管正式落地，属于优先级一的监管政策，对市场情绪和合规交易所利好多。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/whitebit-secures-mica-license-austria-gains-access-eu-crypto-market\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Warsh首秀致BTC跌破63K\",\n      \"summary\": \"美联储主席Kevin Warsh首次公开亮相，市场解读为鹰派，比特币从64000美元附近回落至63000美元以下，加密货币市值蒸发数十亿美元。市场担忧7月加息概率接近40%，风险资产承压。短期宏观压力加大，但极端恐惧指数14或预示底部临近。影响币种：BTC, ETH。看空信号。\",\n      \"reason\": \"美联储新主席首次会议直接影响宏观预期，属于优先级二宏观经济事件，与利率决议相关。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"InsuranceNewsNet\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiugFBVV95cUxQNlE0UHhwZTFtVXFLNGlaVzRIUVhlQU9qaWU3NW96RmdETG5INXRXaElRMmg2MEVSbkIwejdSX1laYWN0TzlkZTRqUV9BZDZjcDhfRUZUQ3laUXU1SkxPb1ZTVi1jZFMybVd3QlZzVldPa3hPREwzZEJuUGNHRzhaVG0zYV9SWHRPMU04WVlDZldCR29acENpQWRyYnd5d3JEWG1QTWpIdlZUS2ctVGpqSGdOd0RlWjNXVUE?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"由于大量历史重复新闻被排除，仅选出3条有价值的新消息。其余素材多为已报道的旧闻或低相关性内容。\"\n}"
+}
