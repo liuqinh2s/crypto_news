@@ -1169,3 +1169,80 @@ content length: 2613
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2062, prompt_tokens=9928, total_tokens=11990, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1036, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8776)
+content length: 2603
+============================================================
+{
+  "news": [
+    {
+      "title": "摩根士丹利提交ETH/SOL ETF修订",
+      "summary": "摩根士丹利向SEC提交了以太坊和Solana ETF的修订申请，披露的费率均为0.20%，为市场最低水平。此举表明顶级投行正在积极布局加密ETF，若获批将大幅降低投资者成本，吸引大量资金流入。对ETH和SOL构成直接利好，信号强烈看多。但需注意监管审批不确定性。",
+      "reason": "优先级一：ETF机构动向，顶级投行最低费率申请，直接影响ETH和SOL价格预期。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/405362/morgan-stanley-eth-sol-etf-amendments"},
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518331.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "摩根士丹利逢低买入BTC持仓破4300枚",
+      "summary": "据金色财经报道，摩根士丹利在近期比特币价格回调时进行逢低买入，其比特币总持仓量已突破4300枚。这表明机构投资者在下跌途中持续吸筹，对BTC形成强劲支撑。作为首家提供比特币基金的美国大型银行，其增持行为具有风向标意义，信号看多。",
+      "reason": "优先级一：机构动向，大行增持BTC，直接利好比特币价格。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518327.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Fidelity推出GENIUS对齐的货币市场基金",
+      "summary": "Fidelity推出一只新的货币市场基金，专门为稳定币发行人设计，并与GENIUS法案对齐。该基金旨在提供合规的短期投资工具，帮助稳定币发行人管理储备资产。此举可能促进USDT、USDC等稳定币的合规发展，增加市场流动性和信心，对加密市场整体偏利好。",
+      "reason": "优先级二：机构动向，稳定币基础设施完善，可能带来资金流入。",
+      "category": "项目更新",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/405357/fidelity-stablecoin-money-market-fund"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bithumb上线ReProtocol(RE)韩元市场",
+      "summary": "韩国交易所Bithumb宣布新增ReProtocol（RE）的韩元交易对。RE是刚在币安上线的新币种，Bithumb作为韩国头部交易所，上线韩元市场将极大增加RE在韩国市场的流动性和交易量，可能引发短期价格上涨。但RE属于高风险小币，波动较大。",
+      "reason": "优先级二：交易所上币，新币在主要韩交所上线，直接刺激交易量和价格。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518330.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Sui Seal MPC主网上线",
+      "summary": "Sui网络宣布其Seal MPC（多方计算）功能已上线主网。该技术提升了Sui的隐私和安全性，可能吸引更多DeFi和资产托管应用。作为Layer1公链，技术升级有助于提升网络竞争力和生态发展，对SUI代币形成中长期利好。",
+      "reason": "优先级二：技术升级，提升公链实用性，可能推动生态增长。",
+      "category": "项目更新",
+      "impact_coins": ["SUI"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518329.html"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
