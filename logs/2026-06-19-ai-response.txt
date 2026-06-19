@@ -1990,3 +1990,113 @@ content length: 3262
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=6068, prompt_tokens=11696, total_tokens=17764, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3884, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10544)
+content length: 4964
+============================================================
+{
+  "news": [
+    {
+      "title": "USDC增发2.5亿枚",
+      "summary": "Circle在Solana链上增发2.5亿USDC，总供应量增加。稳定币增发通常被视为资金入场信号，利好BTC及整个加密市场。短期看多。",
+      "reason": "稳定币增发是优先级一信号，直接指示资金流入。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518366.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "阿曼推国家级比特币矿池",
+      "summary": "阿曼推出国家级比特币矿池，要求所有持牌矿工统一接入。该政策显示主权国家对BTC挖矿的认可和规范化，利好BTC长期基本面，短期情绪偏多。",
+      "reason": "国家级政策积极信号，属监管利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518368.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "以太坊开发资金危机预警",
+      "summary": "前以太坊基金会贡献者表示，若资金问题不解决，以太坊核心开发可能在九个月内面临“资金危机”，导致开发进度放缓。该消息利空ETH，可能打压投资者信心。",
+      "reason": "项目重大更新，直接影响以太坊生态长期发展。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/405404/ethereum-could-face-core-development-funding-crisis-within-nine-months-says-former-ef-contributor?utm_source=rss&utm_medium=rss"}],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC Q3底部或近5万美元",
+      "summary": "CoinTelegraph报道分析师预测比特币可能在Q3形成“宏观底部”接近5万美元，因市场正经历一次重大流动性清洗。当前BTC已跌破63K，若继续下行至50K附近，可能触发更多多头清算。短期偏空，中期抄底机会。",
+      "reason": "关键价格预测，对交易策略有参考价值。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-q3-macro-bottom-near-50k-as-major-liquidity-grab-looms?utm_source=rss&utm_medium=rss&utm_campaign=rss"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "DeFi币种领跌市场",
+      "summary": "CoinDesk报道智能合约和DeFi板块领跌，BTC连续第四日下跌，显示市场整体弱势。短期空头主导，可能形成进一步下探。利空ETH和DeFi代币。",
+      "reason": "市场结构显示资金流出趋势。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "UNI", "AAVE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/19/smart-contract-and-defi-coins-lead-losses-as-bitcoin-wilts-for-4th-straight-day"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Fed鹰派引爆4.4亿爆仓",
+      "summary": "因Kevin Warsh发表鹰派言论，加密市场24小时内爆仓4.4亿美元，主爆多单。市场对降息预期大幅下调，宏观利空压制风险资产。短期继续看空BTC/ETH。",
+      "reason": "宏观经济直接影响风险资产，属优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "The Cryptonomist", "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObW94OGJSd2FEbFNlNjd0QWJreXQ3bGstdzJGdHI3eTF5bWZNSVROZ3c0U2dEMFd6YUV3c1I5UkpzR05DTzFfRmxGMWlhbEE0elhGWEdTanVXei1rWlVfOVVXSjR2NWRIcnVNLUJUaVpjbUl4OVYtTFZNOU02WXhlaUNYQ0dzYkg1REhn?oc=5"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "市场测试200周均线",
+      "summary": "Investing.com报道加密市场正在测试200周简单移动平均线，这一关键支撑位如果失守可能引发更大抛售。当前BTC价格接近该均线，多空争夺激烈。中性偏空。",
+      "reason": "技术指标重要节点，影响交易决策。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Investing.com", "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSkNUQmhmMXBjTUVNandkeEZWWHh6TTlySkJjUFpLdnBFLXFIVU53SUhqM2dmSHIyWnYtTy1YVW9taTY3VF9wSFJra0lnMHQ0aG5RQnB6YW9UM2JUeGJQeHFVZHRpaDB1XzZ1ZElZSk1qOHl4SjVOTHpDZkp2dy1uaFhFMnNHd0drSUgydE9xajg1SDNqUUNfYXNIZmhTQ1F4azFQRHBma3RKaFV3QnZJUngxQQ?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "预测市场收窄BTC价格区间",
+      "summary": "Proactive消息称预测市场将比特币价格波动区间收窄，显示市场对未来方向分歧减少，波动性可能下降。通常意味着突破临近，但方向不明。中性。",
+      "reason": "市场情绪指标，反映预期。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Proactive", "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdGhWN3AwdXJwclhsM09BSmszeGZLVVdqc2Y2dnFuUEphVmVmLUcwN1JGZHBZQzVTQW91enJ5bzc2elF1K24wOXRXZU5xRl9rLVlEUjhuaXhuWHdEbE1OWTJwU0FiVm9FUjFXVGp4eFdEbzZFTVVsOFFMTkZTbkpwVGRaRkRPTkxqYU5GQ3lHcjFlU2dMRFFlZjVHMXplMTVXendxSUd1ZVRUXzZVaFZSb3ZGZTZqNmhqNHJZNFlEaVY0NjBoQ0tsRFhmOXFTS1l0ckE?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP测试1.13美元支撑",
+      "summary": "受美联储鹰派影响，XRP跌至1.13美元关键支撑位，若跌破可能进一步下探。市场整体卖压下XRP短期承压。利空XRP。",
+      "reason": "主要币种关键价位，影响交易。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "Pluang", "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcTUtN3hIMmdMVW9WaVV4VmVSNk95aThKcmpUZFBhaHJHTVBaUTJ6OGpfNElnX1pxWkloUE9rTl9reUNHRzE5X0ctSnlrOFhESlZLYTNPOUtMTnVwWDhJYml6cW1FZmh5ZmtuNVRMbTVzR2pNNEpMSGFXempBVDFYRHJkeUsydl9GczVCazZRMmNsMVptM2sxY0pUWkk4cGc?oc=5"}],
+      "urgency": "hours"
+    }
+  ]
+}
