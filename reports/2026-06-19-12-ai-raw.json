@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-19",
+  "hour": "12",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3505,
+    "completion_tokens": 1647,
+    "total_tokens": 5152
+  },
+  "content_length": 1760,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"MorStanley ETH/SOL ETF费率最低\",\n      \"summary\": \"摩根士丹利提交ETH和SOL ETF修正案，披露其费用为市场最低。此举显示传统金融机构对加密ETF的兴趣持续升温，可能吸引更多资金流入ETH和SOL。看多信号，短期提升市场信心，但需等待SEC最终批准。\",\n      \"reason\": \"直接影响：机构ETF进展，降低费用利好需求，属于优先级一的ETF机构动态。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"ETH\", \"SOL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/405362/morgan-stanley-eth-sol-etf-amendments?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数14极度恐惧\",\n      \"summary\": \"加密货币恐惧贪婪指数跌至14，处于极度恐惧区间。历史数据表明，该区域往往是中长期买入机会，市场情绪极度悲观可能预示阶段性底部。短期看空情绪主导，但中长期看多信号。\",\n      \"reason\": \"市场情绪极值，历史规律显示<20为中长期底部区域，属于优先级三的市场情绪信号。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Celsius Mashinsky永久交易禁令\",\n      \"summary\": \"CFTC与Celsius前CEO Mashinsky达成和解，永久禁止其交易。这对Celsius破产案后续处理影响有限，但强化了监管对加密高管追责的信号，短期可能轻微打压市场情绪，但整体影响较小。\",\n      \"reason\": \"监管政策新闻，涉及标志性人物，但市场已预期，影响层级较低。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/cftc-permanently-bans-celsius-mashinsky-from-trading?utm_source=rss&utm_medium=rss&utm_campaign=rss\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮27条素材中，多数为过期Binance公告或无关内容，仅筛选出3条对交易决策有较明确影响的消息。\"\n}"
+}

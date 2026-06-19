@@ -1054,3 +1054,145 @@
 2026-06-19 03:01:14 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
 2026-06-19 03:01:14 [INFO] 📦 JSON 已保存: reports/2026-06-19-11.json
 2026-06-19 03:01:14 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-06-19 04:00:48 [INFO] 🚀 开始抓取 2026-06-19 12:00 币圈新闻
+2026-06-19 04:00:48 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-19 04:00:48 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-19 04:00:48 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-06-19 04:00:48 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-06-19 04:00:48 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:48 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-19 04:00:48 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-19 04:00:48 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-19 04:00:48 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:48 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:48 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:48 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:48 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ Blockworks: 过滤掉 6 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ 宏观经济: 过滤掉 41 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ Crypto Twitter: 过滤掉 49 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:49 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-19 04:00:50 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-19 04:01:04 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-06-19 04:01:04 [INFO]   ✓ CoinDesk: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ The Block: 1 条
+2026-06-19 04:01:04 [INFO]   ✓ Decrypt: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ CoinTelegraph: 1 条
+2026-06-19 04:01:04 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Blockworks: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ DL News: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ 金色财经: 1 条
+2026-06-19 04:01:04 [INFO]   ✓ PANews: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-06-19 04:01:04 [INFO]   ✓ Crypto Twitter: 1 条
+2026-06-19 04:01:04 [INFO]   ✓ 宏观经济: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Binance公告: 20 条
+2026-06-19 04:01:04 [INFO]   ✓ OKX公告: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Bitget公告: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Whale Alert: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-19 04:01:04 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-19 04:01:04 [INFO]   ✓ 雪球加密: 0 条
+2026-06-19 04:01:04 [INFO] 📊 共抓取 27 条新闻
+2026-06-19 04:01:04 [INFO] 📋 原始新闻已保存: reports/2026-06-19-12-raw.json (27 条)
+2026-06-19 04:01:04 [INFO] 📋 标题摘要已保存: reports/2026-06-19-12-raw-titles.md
+2026-06-19 04:01:04 [INFO] ✅ 抓取完成，共 27 条，已保存到 reports/2026-06-19-12-raw.json
+2026-06-19 04:01:04 [INFO] 🤖 开始 AI 筛选 2026-06-19 12:00 币圈消息
+2026-06-19 04:01:04 [INFO] 📋 已加载原始新闻: reports/2026-06-19-12-raw.json (27 条)
+2026-06-19 04:01:04 [INFO] 📚 已加载历史新闻标题（19121 字符）
+2026-06-19 04:01:04 [INFO] 📚 已加载历史筛选标题 21 条、URL 22 个，用于去重
+2026-06-19 04:01:04 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-19 04:01:04 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-19 04:01:04 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（27 条，5211 字符，temp=0.3）
+2026-06-19 04:01:22 [INFO] AI 原始返回已保存: logs/2026-06-19-ai-response.txt (finish_reason=stop, 678 字符)
+2026-06-19 04:01:22 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-19-12-ai-raw.json
+2026-06-19 04:01:22 [DEBUG] parse_json_response 输入长度: 678 字符
+2026-06-19 04:01:22 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "STRC脱锚成市场极限试探",
+      "summary": "分析师指出，MicroStrategy优先股STRC持续脱锚（当前价格低于90美元），可能被视为对市场承受力的极限试探。STRC持有者主要为散户，若抛售压力传导至MSTR，可能迫使MicroStrategy抛售比特币以维持流动性，从而对BTC形成中期利空。目前BTC价格徘徊在6万美元附近，恐惧指数14显示极度悲观。",
+      "reason": "STRC脱锚反映市场对MicroStrategy杠杆策略的担忧，可能引发BTC连锁抛售，属于机构动向类中
+2026-06-19 04:01:22 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-19 04:01:22 [INFO] ✅ AI 返回 1 条新闻
+2026-06-19 04:01:22 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-06-19 04:01:22 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（27 条，5211 字符，temp=0.3）
+2026-06-19 04:01:36 [INFO] AI 原始返回已保存: logs/2026-06-19-ai-response.txt (finish_reason=stop, 665 字符)
+2026-06-19 04:01:36 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-19-12-ai-raw.json
+2026-06-19 04:01:36 [DEBUG] parse_json_response 输入长度: 665 字符
+2026-06-19 04:01:36 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "STRC脱锚或为极限试探",
+      "summary": "分析师指出，Strategy优先股STRC持续下跌并脱锚，可能是市场对极限压力的试探。STRC是Michael Saylor旗下Strategy公司发行的优先股，其价格与比特币价值挂钩。当前STRC交易价格低于90美元，且交易量激增，脱锚可能引发市场对Strategy财务健康的担忧，进而导致比特币抛售。该信号偏中性，但需关注是否引发连锁反应。短期内若STRC继续下跌，可能加剧比特币下行压力。",
+      "reason": "STRC作为与比特币挂钩的金
+2026-06-19 04:01:36 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-19 04:01:36 [INFO] ✅ AI 返回 1 条新闻
+2026-06-19 04:01:36 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-06-19 04:01:36 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（27 条，5211 字符，temp=0.3）
+2026-06-19 04:01:44 [INFO] AI 原始返回已保存: logs/2026-06-19-ai-response.txt (finish_reason=stop, 98 字符)
+2026-06-19 04:01:44 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-19-12-ai-raw.json
+2026-06-19 04:01:44 [DEBUG] parse_json_response 输入长度: 98 字符
+2026-06-19 04:01:44 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮素材中所有消息均与历史消息重复或无关，无新增有交易价值的信息。恐惧贪婪指数维持14（Extreme Fear），已在历史中多次出现。"
+}
+2026-06-19 04:01:44 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-19 04:01:44 [INFO] ✅ AI 返回 0 条新闻
+2026-06-19 04:01:44 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 返回空数组，将重试
+2026-06-19 04:01:44 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（27 条，8172 字符，temp=0.3）
+2026-06-19 04:02:00 [INFO] AI 原始返回已保存: logs/2026-06-19-ai-response.txt (finish_reason=stop, 60 字符)
+2026-06-19 04:02:00 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-19-12-ai-raw.json
+2026-06-19 04:02:00 [DEBUG] parse_json_response 输入长度: 60 字符
+2026-06-19 04:02:00 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "当前时间段内所有消息均为历史重复内容，无新增高价值交易信号。"
+}
+2026-06-19 04:02:00 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-19 04:02:00 [INFO] ✅ AI 返回 0 条新闻
+2026-06-19 04:02:00 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 返回空数组，将重试
+2026-06-19 04:02:00 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（27 条，8172 字符，temp=0.3）
+2026-06-19 04:02:23 [INFO] AI 原始返回已保存: logs/2026-06-19-ai-response.txt (finish_reason=stop, 699 字符)
+2026-06-19 04:02:23 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-19-12-ai-raw.json
+2026-06-19 04:02:23 [DEBUG] parse_json_response 输入长度: 699 字符
+2026-06-19 04:02:23 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "STRC脱锚或为市场极限试探",
+      "summary": "加密分析师Murphy发文表示，MicroStrategy优先股STRC脱锚可视为市场极限试探。STRC脱锚使其暂时失去融资能力，后续回锚时间将影响市场对MicroStrategy是否再次卖币的担忧。当前BTC价格承压，若STRC持续脱锚可能引发进一步抛售。影响币种：BTC。信号：bearish。",
+      "reason": "STRC是MicroStrategy的优先股，其脱锚可能迫使MicroStrategy出售比特币以回购优先股，形成BTC
+2026-06-19 04:02:23 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-19 04:02:23 [INFO] ✅ AI 返回 1 条新闻
+2026-06-19 04:02:23 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-06-19 04:02:23 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（27 条，5211 字符，temp=0.3）
+2026-06-19 04:02:43 [INFO] AI 原始返回已保存: logs/2026-06-19-ai-response.txt (finish_reason=stop, 1760 字符)
+2026-06-19 04:02:43 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-19-12-ai-raw.json
+2026-06-19 04:02:43 [DEBUG] parse_json_response 输入长度: 1760 字符
+2026-06-19 04:02:43 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "MorStanley ETH/SOL ETF费率最低",
+      "summary": "摩根士丹利提交ETH和SOL ETF修正案，披露其费用为市场最低。此举显示传统金融机构对加密ETF的兴趣持续升温，可能吸引更多资金流入ETH和SOL。看多信号，短期提升市场信心，但需等待SEC最终批准。",
+      "reason": "直接影响：机构ETF进展，降低费用利好需求，属于优先级一的ETF机构动态。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH",
+2026-06-19 04:02:43 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-06-19 04:02:43 [INFO] ✅ AI 返回 3 条新闻
+2026-06-19 04:02:43 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-06-19 04:02:43 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-06-19 04:02:43 [INFO] 📦 JSON 已保存: reports/2026-06-19-12.json
+2026-06-19 04:02:43 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
