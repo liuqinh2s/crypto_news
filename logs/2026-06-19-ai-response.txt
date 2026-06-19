@@ -1412,3 +1412,102 @@ content length: 1760
   ],
   "note": "本轮27条素材中，多数为过期Binance公告或无关内容，仅筛选出3条对交易决策有较明确影响的消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2059, prompt_tokens=9494, total_tokens=11553, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=699, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8342)
+content length: 3454
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币跌破63000美元",
+      "summary": "比特币价格跌破63,000美元，因风险资产全面抛售，本周反弹消退。这可能与美元指数走强、美联储鹰派预期及地缘紧张有关。短期看空BTC及整体加密市场，交易者需警惕进一步下行风险。影响币种：BTC。信号：bearish。",
+      "reason": "直接影响行情，比特币价格跌破关键位，市场情绪脆弱。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/19/bitcoin-falls-below-usd63-000-as-risk-assets-sell-off-and-the-week-s-bounce-fades"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美元指数突破101，创近一年新高",
+      "summary": "美元指数DXY向上突破101，创2025年5月以来最高水平。强势美元压制风险资产，包括加密货币。高盛预计美联储今年不降息，市场预期加息周期重启。这利空BTC、ETH等风险资产，短期看跌。",
+      "reason": "宏观经济关键数据，美元走强直接压制加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518343.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "高盛下调黄金目标价，预计今年不降息",
+      "summary": "高盛下调黄金价格目标，并预测美联储2026年全年不会降息。鹰派预期推动美元走强，加密市场承压。若利率维持高位，风险资产估值将受抑制。对BTC、ETH偏空。",
+      "reason": "权威投行观点影响市场预期，直接关联宏观流动性。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518336.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储鹰派信号，期权全面押注加息",
+      "summary": "期权市场数据显示，交易员全面押注美联储加息周期重启，美元看涨热潮高涨。这与近期鹰派言论一致，进一步打压加密市场流动性。短期看空BTC、ETH。",
+      "reason": "市场预期急剧转向，情绪指标发出强烈信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518332.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸买入7000枚ETH，价值1181万美元",
+      "summary": "某巨鲸地址花费1181.6万美元买入7000枚ETH，均价约1688美元。大额买入通常视为长期看涨信号，可能支撑ETH价格。但需关注整体市场风险。对ETH短期偏多。",
+      "reason": "巨鲸异动，大额买入ETH，可能预示底部支撑。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518334.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊进入机构继承期，资金分配挑战",
+      "summary": "以太坊核心开发者表示，以太坊进入机构继承阶段，可能面临资金与合法性再分配挑战。这可能增加不确定性，对ETH长期发展构成潜在利空。短期影响中性偏空。",
+      "reason": "项目重大更新，机构化进程中的风险提示。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518342.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Circle CCTP支持Stellar网络",
+      "summary": "Circle宣布跨链传输协议CCTP扩展至Stellar网络，提升USDC互操作性。利好Stellar生态系统，可能推动XLM价格。同时增强USDC流动性，偏多。",
+      "reason": "基础设施升级，影响特定币种和稳定币生态。",
+      "category": "项目更新",
+      "impact_coins": ["XLM", "USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518333.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "瑞士否认美伊会谈按计划举行",
+      "summary": "瑞士外交部称原定周五的美伊会谈将不会进行。地缘政治紧张加剧，避险情绪可能上升，但通常美元走强，加密货币作为风险资产承压。短期偏空。",
+      "reason": "地缘政治风险影响风险偏好，间接影响加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518341.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
