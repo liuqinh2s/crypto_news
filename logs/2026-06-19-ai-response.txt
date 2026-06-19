@@ -2100,3 +2100,122 @@ content length: 4964
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3126, prompt_tokens=13114, total_tokens=16240, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2786, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11962)
+content length: 793
+============================================================
+{
+  "news": [
+    {
+      "title": "MICA法规7月1日生效",
+      "summary": "欧盟加密资产市场法规（MiCA）将于2026年7月1日正式生效，为欧盟内加密资产服务提供者建立统一监管框架，涵盖交易所、钱包提供商、稳定币发行方等，要求注册并遵守反洗钱、用户保护等规则。该法案是史上最全面的加密监管框架，直接影响所有在欧盟运营的加密货币项目，尤其是稳定币需获得授权。长期来看，合规化利好行业健康发展，吸引机构资金；短期市场可能因不确定性出现波动。对BTC、ETH及主流稳定币USDT/USDC构成利好信号。",
+      "reason": "优先级一监管政策：MICA是欧盟最重大的加密监管事件，影响全球第二大经济体的加密市场，直接决定项目合规成本与市场准入。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Reddit r/bitcoin",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1u9z4tr/eus_mica_regulation_taking_action_on_july_1st/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮筛选仅发现一条有交易价值的新消息（MICA生效），其余消息均与历史标题重复或不符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2415, prompt_tokens=13114, total_tokens=15529, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1423, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13056), prompt_cache_hit_tokens=13056, prompt_cache_miss_tokens=58)
+content length: 2652
+============================================================
+{
+  "news": [
+    {
+      "title": "USDC在Solana增发2.5亿",
+      "summary": "USDC Treasury在Solana链上新增铸造2.5亿枚USDC。这可能预示着资金正在流入市场，尤其是Solana生态，通常被视为看多信号。增发稳定币意味着投资者有更多资金可用于购买加密资产，可能推动BTC、ETH及Solana等代币上涨。",
+      "reason": "稳定币大量铸造是明确的资金入场信号，属于优先级一（直接影响行情）。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.cn/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "阿曼推出国家级比特币矿池",
+      "summary": "阿曼政府宣布推出国家级比特币矿池，强制所有持牌矿工统一接入。此举标志着主权国家正式介入比特币挖矿，可能增加算力集中度，但同时也为比特币网络带来合规性和稳定性。短期对币价影响中性，但长期可能增强机构信心。",
+      "reason": "阿曼政府主导的矿池属于重大监管动态，影响比特币挖矿生态和可能的算力分布，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.cn/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "全网24小时爆仓4.52亿美元",
+      "summary": "过去24小时全网爆仓4.52亿美元，主要爆多单。多单大量爆仓表明市场出现了超预期的下跌，导致多头杠杆被迫平仓。这通常会加剧短期抛压，但爆仓完成后往往迎来反弹。当前信号偏空，需警惕进一步下杀风险。",
+      "reason": "大规模爆仓直接反映市场杠杆风险和恐慌情绪，属于优先级一（直接影响行情）。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.cn/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "以太坊可能面临资金危机",
+      "summary": "前以太坊基金会贡献者指出，核心开发可能在9个月内遇到资金危机。这说明以太坊生态的持续开发可能受阻，影响网络升级和长期发展。该消息对ETH产生利空影响，可能引发市场对ETH长期价值的担忧。",
+      "reason": "以太坊核心开发资金危机属于重大项目更新，直接影响以太坊的未来路线图和市场信心，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405404/ethereum-could-face-core-development-funding-crisis-within-nine-months-says-former-ef-contributor"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Base主网升级与B20标准",
+      "summary": "Base宣布将于6月25日进行Beryl升级，并推出新的B20代币标准。这标志着Base生态的重要进展，可能吸引更多开发者和流动性。B20标准有望提升代币的互操作性，对Base代币和以太坊L2板块构成利好。",
+      "reason": "主流L2的升级和新标准属于技术里程碑，可能带动生态代币上涨，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "BASE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405410/base-targets-june-25-mainnet-launch-for-beryl-upgrade-and-new-b20-token-standard"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
