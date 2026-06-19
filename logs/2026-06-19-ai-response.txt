@@ -2447,3 +2447,79 @@ content length: 3494
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3108, prompt_tokens=12563, total_tokens=15671, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1964, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11411)
+content length: 2685
+============================================================
+{
+  "news": [
+    {
+      "title": "期权市场押注BTC跌至52000",
+      "summary": "据Yahoo Finance报道，期权交易员押注比特币价格将跌至52000美元。这一看跌期权押注表明市场预期比特币可能进一步下探。当前比特币在63000美元附近震荡，若跌破关键支撑，可能加速下跌。该信号利空BTC，并可能带动整体市场下行。",
+      "reason": "期权市场出现明确的看跌押注，直接影响市场情绪和潜在价格路径，属于优先级一的市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQV9SOWhVbWhrQjZoT1BqY09ISFZ3Mk5xeE5rMmtSTVNGQm94bndsV3RPMWc5SFNVQkNQdXlLaG5KTjlJcFRvaFpvTTgxaHNUbWN0bHpNdkJwYmo3bEo2eHNoU0Y0bHpDdm11TnpaSUlKel9QWW4wcmcwX01oMjVwWFJNTXMtaFg4VzA1TDVlZE5hSXAyV0Qxb2RsdUhyQU0?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy恢复买入比特币",
+      "summary": "MicroStrategy（Strategy Inc.）据报道恢复了比特币购买狂潮，此前其股票因杠杆清算遭受重挫。该公司再次买入BTC显示了机构对长期价值的信心，但市场仍对其融资模式存疑。此消息对BTC构成短期利好，但需注意其股票与BTC的高度相关性。",
+      "reason": "机构恢复买入BTC是直接的看多信号，属于优先级二的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbEx4S1hPZDhSUkYydmJaTVNtd1dWdTVsOEpnV0c2d1ItOUZndmpjdHdhZnlKbDJ6blNnYk94enNjVExCLTF0NHNzZWExR1dlRlNMUVkwS0RYNmg1ZmxYYXVtY1NpRFRlZGY0UmNKSHFyTmJlRFo2NzJrYkpqX01zSWZXM0FHZ3M5UzZ0LVlHa1VLZHlBY2c?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗否认霍尔木兹海峡关闭",
+      "summary": "伊朗外交部否认此前关于霍尔木兹海峡关闭的报道，称通行正常。此前伊朗宣布新规引发紧张，但澄清后缓解了能源供应中断担忧。对加密货币影响间接，短期内可能减轻避险情绪，小幅利好风险资产如BTC和ETH。",
+      "reason": "地缘政治紧张缓解通常利好风险资产，属于优先级二的宏观因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518379.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储7月加息概率升至40%",
+      "summary": "根据CME FedWatch数据，市场押注美联储7月加息25基点的概率接近40%。美联储主席Warsh近期鹰派言论推高了加息预期，对加密货币等风险资产构成压力。若加息成真，BTC和ETH可能面临进一步下行。",
+      "reason": "宏观紧缩预期直接影响加密货币估值，属于优先级一的宏观经济数据。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-taps-63k-on-juneteenth-as-july-fed-rate-hike-odds-near-40?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中新消息较少，主要受限于大量重复内容（如Binance旧公告、恐惧贪婪指数持续14等）。筛选出的4条均为新信息且具备交易参考价值。"
+}
