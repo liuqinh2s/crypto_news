@@ -1078,3 +1078,94 @@ content length: 1575
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2922, prompt_tokens=10977, total_tokens=13899, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1930, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9825)
+content length: 2613
+============================================================
+{
+  "news": [
+    {
+      "title": "富达推出稳定币货币市场基金",
+      "summary": "富达（Fidelity）推出一款与GENIUS标准对齐的货币市场基金，旨在为稳定币发行商提供合规的储备资产投资选项。此举有助于稳定币生态更加合规化，可能促进USDT/USDC等稳定币的进一步增发和采用，从而为加密市场带来更多流动性。对BTC、ETH等主要币种形成间接利好。",
+      "reason": "机构动向，直接影响稳定币供应量和合规性，属于优先级二中的机构动向，可能推动资金入场。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405357/fidelity-stablecoin-money-market-fund?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗坚守底线，地缘风险持续",
+      "summary": "伊朗表示在签署与美国的谅解备忘录后仍将坚守底线，意味着中东紧张局势难以迅速缓和。地缘政治不确定性通常打压全球风险资产，加密货币市场可能承压，但比特币的避险属性可能提供一定支撑。短期内对BTC、ETH偏空。",
+      "reason": "地缘政治风险影响市场情绪，属于宏观经济范畴，可能引发风险资产抛售。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518324.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "以黎冲突升级，避险升温",
+      "summary": "以色列再次轰炸黎巴嫩南部，与真主党爆发激烈冲突，中东局势急剧恶化。历史上此类事件会短暂推升黄金和比特币的避险需求，但本次白银下跌显示避险情绪有限，整体风险偏好下降可能导致加密市场联动下跌。对BTC、ETH偏空。",
+      "reason": "突发区域性冲突，属于宏观经济中的地缘政治事件，可能影响短期风险资产走势。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518323.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "白银跌破65美元，贵金属承压",
+      "summary": "现货白银失守65美元/盎司，为6月11日以来首次，反映出市场对避险资产需求减弱或美元走强。贵金属疲软可能拖累比特币等风险资产，但比特币近期与贵金属相关性减弱，影响有限。对BTC、ETH偏空。",
+      "reason": "贵金属价格波动反映市场宏观情绪，可能间接影响加密市场，属于宏观经济观察。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518325.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数14，极度恐惧",
+      "summary": "恐慌与贪婪指数降至14，处于极度恐惧区间。历史数据表明，该区域通常是中长期底部区域，适合分批建仓。虽然短期可能继续下探，但长期看多信号明确。对BTC、ETH中长期看多。",
+      "reason": "市场情绪极值，属于优先级三的经典信号，极度恐惧是历史抄底区（中长期看多）。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Fear & Greed Index",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
