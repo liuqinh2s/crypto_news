@@ -1,0 +1,163 @@
+2026-06-19 16:00:52 [INFO] 🚀 开始抓取 2026-06-20 00:00 币圈新闻
+2026-06-19 16:00:52 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-19 16:00:52 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-19 16:00:52 [INFO]   ⏭ CoinTelegraph: 过滤掉 26 条非近期新闻
+2026-06-19 16:00:52 [INFO]   ⏭ Decrypt: 过滤掉 34 条非近期新闻
+2026-06-19 16:00:52 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-06-19 16:00:52 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-19 16:00:52 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-19 16:00:52 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 8 条非近期新闻
+2026-06-19 16:00:52 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 22 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ 宏观经济: 过滤掉 43 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ 吴说区块链: 过滤掉 47 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ Blockworks: 过滤掉 6 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-06-19 16:00:53 [INFO]   ⏭ Crypto Twitter: 过滤掉 46 条非近期新闻
+2026-06-19 16:01:07 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-19 16:01:07 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-19 16:01:07 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-19 16:01:08 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-19 16:01:08 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-06-19 16:01:08 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-19 16:01:08 [INFO]   ✓ CoinDesk: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ The Block: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ Decrypt: 2 条
+2026-06-19 16:01:08 [INFO]   ✓ CoinTelegraph: 4 条
+2026-06-19 16:01:08 [INFO]   ✓ Bitcoin Magazine: 2 条
+2026-06-19 16:01:08 [INFO]   ✓ Blockworks: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ DL News: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ 金色财经: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ PANews: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ 吴说区块链: 1 条
+2026-06-19 16:01:08 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ Reddit r/cryptocurrency: 3 条
+2026-06-19 16:01:08 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ Crypto Twitter: 4 条
+2026-06-19 16:01:08 [INFO]   ✓ 宏观经济: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ Binance公告: 20 条
+2026-06-19 16:01:08 [INFO]   ✓ OKX公告: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ Bitget公告: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ Whale Alert: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-19 16:01:08 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-19 16:01:08 [INFO]   ✓ 雪球加密: 0 条
+2026-06-19 16:01:08 [INFO] 📊 共抓取 37 条新闻
+2026-06-19 16:01:08 [INFO] 📋 原始新闻已保存: reports/2026-06-20-00-raw.json (37 条)
+2026-06-19 16:01:08 [INFO] 📋 标题摘要已保存: reports/2026-06-20-00-raw-titles.md
+2026-06-19 16:01:08 [INFO] ✅ 抓取完成，共 37 条，已保存到 reports/2026-06-20-00-raw.json
+2026-06-19 16:01:08 [INFO] 🤖 开始 AI 筛选 2026-06-20 00:00 币圈消息
+2026-06-19 16:01:08 [INFO] 📋 已加载原始新闻: reports/2026-06-20-00-raw.json (37 条)
+2026-06-19 16:01:08 [INFO] 📚 已加载历史新闻标题（24432 字符）
+2026-06-19 16:01:08 [INFO] 📚 已加载历史筛选标题 29 条、URL 30 个，用于去重
+2026-06-19 16:01:08 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-19 16:01:08 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-19 16:01:08 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（37 条，7754 字符，temp=0.3）
+2026-06-19 16:01:21 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 1218 字符)
+2026-06-19 16:01:21 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-00-ai-raw.json
+2026-06-19 16:01:21 [DEBUG] parse_json_response 输入长度: 1218 字符
+2026-06-19 16:01:21 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "萨尔瓦多持续增持比特币",
+      "summary": "萨尔瓦多再次买入比特币，每日定投使其储备超过7680 BTC。该国持续将比特币作为战略储备，显示国家层面看多态度。可能影响BTC价格，但增持量相对有限，短期信号中性偏多。",
+      "reason": "国家级比特币储备增持，属于机构动向，影响市场情绪，但每日定投规模不大，对行情支撑温和。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish
+2026-06-19 16:01:21 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-06-19 16:01:21 [INFO] ✅ AI 返回 2 条新闻
+2026-06-19 16:01:21 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-06-19 16:01:21 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（37 条，7754 字符，temp=0.3）
+2026-06-19 16:01:45 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 1279 字符)
+2026-06-19 16:01:45 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-00-ai-raw.json
+2026-06-19 16:01:45 [DEBUG] parse_json_response 输入长度: 1279 字符
+2026-06-19 16:01:45 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Aave经历史上最大提款潮",
+      "summary": "Aave协议近期经历了84.5亿美元的大规模提款，但成功避免了坏账和清算危机。尽管流动性暂时稳定，但分析师指出，当抵押资产价格剧烈波动时，Aave的风险模型可能不足以应对连环清算。此事件暴露了DeFi借贷协议的结构性风险，可能对AAVE和ETH价格产生持续压制。市场需关注后续是否有更多资金出逃。",
+      "reason": "DeFi重大事件，84.5亿美元提款规模罕见，可能影响市场信心。",
+      "category": "项目更新",
+ 
+2026-06-19 16:01:45 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-06-19 16:01:45 [INFO] ✅ AI 返回 2 条新闻
+2026-06-19 16:01:45 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-06-19 16:01:45 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（37 条，7754 字符，temp=0.3）
+2026-06-19 16:02:09 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 1241 字符)
+2026-06-19 16:02:09 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-00-ai-raw.json
+2026-06-19 16:02:09 [DEBUG] parse_json_response 输入长度: 1241 字符
+2026-06-19 16:02:09 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Aave扛住84.5亿提款潮",
+      "summary": "去中心化借贷协议Aave成功应对了高达84.5亿美元的流动性提款压力，未出现坏账或清算危机。这一事件表明Aave的风险管理机制有效，短期内缓解了市场对DeFi流动性的担忧。但长期仍需关注后续资金回流情况。信号中性偏多，有利于Aave自身及整体DeFi生态信心恢复。影响币种：AAVE, ETH。",
+      "reason": "DeFi重大事件，TVL剧变，优先级二",
+      "category": "项目更新",
+      "impact_
+2026-06-19 16:02:09 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-06-19 16:02:09 [INFO] ✅ AI 返回 2 条新闻
+2026-06-19 16:02:09 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-06-19 16:02:09 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（37 条，11431 字符，temp=0.3）
+2026-06-19 16:02:26 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 1170 字符)
+2026-06-19 16:02:26 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-00-ai-raw.json
+2026-06-19 16:02:26 [DEBUG] parse_json_response 输入长度: 1170 字符
+2026-06-19 16:02:26 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Aave应对84.5亿提款",
+      "summary": "Aave协议成功处理了84.5亿美元的提款，未冻结资金，但事件暴露了DeFi借贷中的隐藏风险。可能影响AAVE和整个DeFi板块。短期市场对DeFi信心可能受挫，但Aave的系统韧性表现中性偏积极。信号中性。",
+      "reason": "DeFi重大事件，涉及大额流动性撤离，对AAVE及DeFi板块有中期影响。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "s
+2026-06-19 16:02:26 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-06-19 16:02:26 [INFO] ✅ AI 返回 2 条新闻
+2026-06-19 16:02:26 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-06-19 16:02:26 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（37 条，11431 字符，temp=0.3）
+2026-06-19 16:02:51 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 1212 字符)
+2026-06-19 16:02:51 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-00-ai-raw.json
+2026-06-19 16:02:51 [DEBUG] parse_json_response 输入长度: 1212 字符
+2026-06-19 16:02:51 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Aave承受84.5亿提款考验",
+      "summary": "Aave协议最近处理了84.5亿美元的巨额提款而未冻结资金，展示了其流动性管理的韧性。然而，这一事件引发了市场对DeFi借贷中隐藏风险的担忧，特别是关于清算机制和资金流动性的问题。虽然Aave成功应对了挤兑，但风险讨论可能促使部分投资者减持DeFi资产，尤其是AAVE。从交易视角看，短期市场情绪可能偏空，因为风险暴露引发谨慎。但长期看，Aave的稳健表现也体现了其价值，中性偏空信号。",
+      "reason": "DeFi领域重大事件，TVL剧
+2026-06-19 16:02:51 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-06-19 16:02:51 [INFO] ✅ AI 返回 2 条新闻
+2026-06-19 16:02:51 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-06-19 16:02:51 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（37 条，7754 字符，temp=0.3）
+2026-06-19 16:03:13 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 3864 字符)
+2026-06-19 16:03:13 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-00-ai-raw.json
+2026-06-19 16:03:13 [DEBUG] parse_json_response 输入长度: 3864 字符
+2026-06-19 16:03:13 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Fed加息概率升40%利空",
+      "summary": "7月美联储加息概率接近40%，比特币触及63K后回落。市场预期紧缩，风险资产承压。影响BTC、ETH等主流币。看空信号。",
+      "reason": "宏观经济数据影响风险资产走势，属优先级二，但影响较大。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+    
+2026-06-19 16:03:13 [DEBUG] 从 JSON 对象的 news 字段提取到 7 条记录
+2026-06-19 16:03:13 [INFO] ✅ AI 返回 7 条新闻
+2026-06-19 16:03:13 [INFO] ✅ AI 筛选出 7 条交易相关消息，符合预期
+2026-06-19 16:03:13 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
+2026-06-19 16:03:13 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-06-19 16:03:13 [DEBUG]   去重: 「Fed加息概率升40%利空」 → URL重复: https://cointelegraph.com/markets/bitcoin-taps-63k-on-junete
+2026-06-19 16:03:13 [INFO] 📦 JSON 已保存: reports/2026-06-20-00.json
+2026-06-19 16:03:13 [INFO] ✅ AI 筛选完成，共 6 条交易相关消息

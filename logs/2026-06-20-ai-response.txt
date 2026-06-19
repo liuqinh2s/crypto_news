@@ -1,0 +1,332 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1581, prompt_tokens=11536, total_tokens=13117, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1106, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10384)
+content length: 1218
+============================================================
+{
+  "news": [
+    {
+      "title": "萨尔瓦多持续增持比特币",
+      "summary": "萨尔瓦多再次买入比特币，每日定投使其储备超过7680 BTC。该国持续将比特币作为战略储备，显示国家层面看多态度。可能影响BTC价格，但增持量相对有限，短期信号中性偏多。",
+      "reason": "国家级比特币储备增持，属于机构动向，影响市场情绪，但每日定投规模不大，对行情支撑温和。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ua53tj/el_salvador_adds_to_bitcoin_reserve_again_as/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave应对85亿美元提款风险",
+      "summary": "Aave协议经历大规模提款（85亿美元），但成功应对。风险问题仍存，市场需关注其储备健康度。可能影响AAVE和DeFi板块，短期看空（恐慌），但若Aave证明稳健则为中性。",
+      "reason": "DeFi蓝筹项目遭遇类似银行挤兑事件，虽暂时安全但风险暴露，可能引发对DeFi流动性的担忧，对AAVE及整体市场情绪偏空。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/learn/aave-defi-bank-run-lending-risk?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选出2条新消息，因大量历史消息重复且无新增影响，其他消息多为重复或交易价值低。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3335, prompt_tokens=11536, total_tokens=14871, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2836, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11520), prompt_cache_hit_tokens=11520, prompt_cache_miss_tokens=16)
+content length: 1279
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave经历史上最大提款潮",
+      "summary": "Aave协议近期经历了84.5亿美元的大规模提款，但成功避免了坏账和清算危机。尽管流动性暂时稳定，但分析师指出，当抵押资产价格剧烈波动时，Aave的风险模型可能不足以应对连环清算。此事件暴露了DeFi借贷协议的结构性风险，可能对AAVE和ETH价格产生持续压制。市场需关注后续是否有更多资金出逃。",
+      "reason": "DeFi重大事件，84.5亿美元提款规模罕见，可能影响市场信心。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/learn/aave-defi-bank-run-lending-risk?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "萨尔瓦多持续增持BTC",
+      "summary": "萨尔瓦多政府继续执行每日比特币购买计划，目前总持仓已超过7,680 BTC，价值约4.8亿美元。该国作为首个将比特币定为法定货币的国家，其持续增持行为彰显了对比特币的长期信心，为市场提供了买盘支撑。这属于国家级机构买入，有助于提振市场情绪。",
+      "reason": "国家层面持续买入比特币，属于机构入场信号，对BTC价格有正面影响。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ua53tj/el_salvador_adds_to_bitcoin_reserve_again_as/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选仅发现两条值得关注的新消息。其它素材多为重复或低价值，已按去重规则排除。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3272, prompt_tokens=11536, total_tokens=14808, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2785, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11520), prompt_cache_hit_tokens=11520, prompt_cache_miss_tokens=16)
+content length: 1241
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave扛住84.5亿提款潮",
+      "summary": "去中心化借贷协议Aave成功应对了高达84.5亿美元的流动性提款压力，未出现坏账或清算危机。这一事件表明Aave的风险管理机制有效，短期内缓解了市场对DeFi流动性的担忧。但长期仍需关注后续资金回流情况。信号中性偏多，有利于Aave自身及整体DeFi生态信心恢复。影响币种：AAVE, ETH。",
+      "reason": "DeFi重大事件，TVL剧变，优先级二",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/learn/aave-defi-bank-run-lending-risk?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "萨尔瓦多持续加仓比特币",
+      "summary": "萨尔瓦多政府再次增持比特币，其每日购买计划使其储备总量超过7,680枚BTC。这显示主权国家对比特币的持续信心，提供实际买盘支撑。在当前市场因美联储鹰派表态而承压的背景下，此消息为利多信号。影响币种：BTC。",
+      "reason": "机构/国家增持，中期影响，优先级二",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ua53tj/el_salvador_adds_to_bitcoin_reserve_again_as/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中仅有以上两条不重复且具有交易价值的新消息，其余素材均与历史消息重复或价值较低。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2011, prompt_tokens=12581, total_tokens=14592, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1570, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=2560), prompt_cache_hit_tokens=2560, prompt_cache_miss_tokens=10021)
+content length: 1170
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave应对84.5亿提款",
+      "summary": "Aave协议成功处理了84.5亿美元的提款，未冻结资金，但事件暴露了DeFi借贷中的隐藏风险。可能影响AAVE和整个DeFi板块。短期市场对DeFi信心可能受挫，但Aave的系统韧性表现中性偏积极。信号中性。",
+      "reason": "DeFi重大事件，涉及大额流动性撤离，对AAVE及DeFi板块有中期影响。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/learn/aave-defi-bank-run-lending-risk?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "萨尔瓦多再度增持BTC",
+      "summary": "萨尔瓦多持续每日买入比特币，总持仓已超7,680 BTC。该国作为主权国家持续增持，强化比特币作为储备资产的叙事，对BTC价格形成长期支撑。信号看多。",
+      "reason": "主权国家持续买入BTC，代表机构级长期看涨信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ua53tj/el_salvador_adds_to_bitcoin_reserve_again_as/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "仅有两条有效新消息，其余素材均与历史消息重复或与交易决策无关。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2972, prompt_tokens=12581, total_tokens=15553, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2468, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12544), prompt_cache_hit_tokens=12544, prompt_cache_miss_tokens=37)
+content length: 1212
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave承受84.5亿提款考验",
+      "summary": "Aave协议最近处理了84.5亿美元的巨额提款而未冻结资金，展示了其流动性管理的韧性。然而，这一事件引发了市场对DeFi借贷中隐藏风险的担忧，特别是关于清算机制和资金流动性的问题。虽然Aave成功应对了挤兑，但风险讨论可能促使部分投资者减持DeFi资产，尤其是AAVE。从交易视角看，短期市场情绪可能偏空，因为风险暴露引发谨慎。但长期看，Aave的稳健表现也体现了其价值，中性偏空信号。",
+      "reason": "DeFi领域重大事件，TVL剧变且风险讨论广泛，属于优先级二链上指标异常，影响中等。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "DeFi"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/learn/aave-defi-bank-run-lending-risk?utm_source=rss&utm_medium=rss&utm_campaign=rss"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "萨尔瓦多持续每日购入BTC",
+      "summary": "萨尔瓦多继续实施每日比特币购买策略，国家储备已增至超过7680枚BTC。这一行为强化了国家层面对比特币作为储备资产的长期信心，并为市场提供了持续的买盘支撑。尽管单日购买量不大，但持续性的积累对BTC价格形成温和利好。从交易角度看，这是看多信号，但影响幅度有限，属于中长期偏多因素。",
+      "reason": "机构动向，国家主权基金级别增持BTC，属于中期利好，影响程度较轻。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ua53tj/el_salvador_adds_to_bitcoin_reserve_again_as/"}],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2633, prompt_tokens=4476, total_tokens=7109, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1132, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3324)
+content length: 3864
+============================================================
+{
+  "news": [
+    {
+      "title": "Fed加息概率升40%利空",
+      "summary": "7月美联储加息概率接近40%，比特币触及63K后回落。市场预期紧缩，风险资产承压。影响BTC、ETH等主流币。看空信号。",
+      "reason": "宏观经济数据影响风险资产走势，属优先级二，但影响较大。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-taps-63k-on-juneteenth-as-july-fed-rate-hike-odds-near-40?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "萨尔瓦多持续增持BTC",
+      "summary": "萨尔瓦多继续每日买入比特币，总持仓超过7,680枚。国家持续囤币，显示对BTC的长期信心，利多。",
+      "reason": "机构/国家增持属优先级二，比特币直接利好。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ua53tj/el_salvador_adds_to_bitcoin_reserve_again_as/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Strategy重启BTC买入",
+      "summary": "MicroStrategy（现Strategy Inc.）恢复比特币购买狂潮，尽管面临美联储压力，公司继续增持。利多。",
+      "reason": "机构持续买入属优先级二，影响BTC价格预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbEx4S1hPZDhSUkYydmJaTVNtd1dWdTVsOEpnV0c2d1ItOUZndmpjdHdhZnlqBLDJ6blNnYk94enNjVExCLTF0NHNzZWExR1dlRlNMUVkwS0RYNmg1ZmxYYXVtY1NpRFRlZGY0UmNKSHFyTmJlRFo2NzJrYkpqX01zSWZXM0FHZ3M5UzZ0LVlHa1VLZHlBY2c?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Aave遭84.5亿提款风险",
+      "summary": "Aave经历84.5亿美元提款后幸存，但风险问题仍存。可能引发对DeFi流动性的担忧，利空AAVE及DeFi板块。",
+      "reason": "DeFi重大事件，属于优先级二，影响DeFi市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/learn/aave-defi-bank-run-lending-risk?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数跌至14",
+      "summary": "恐惧贪婪指数降至14，极度恐惧。历史数据显示该区域为中长期底部区域，但短期可能继续下跌。中性偏多。",
+      "reason": "市场情绪极值，属优先级三，历史抄底信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线RE代币",
+      "summary": "Binance将上线Re (RE) 并标记为种子标签，同时提供多种服务。新币上线可能带来短期波动，但不确定性高。中性。",
+      "reason": "交易所上币属优先级一，但影响程度视市场反应而定。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "英国法院或认可BTC支付",
+      "summary": "英国法院被问及债务是否可以比特币支付，若认可将加强比特币法律地位。利多BTC。",
+      "reason": "监管利好，属优先级一，可能推动加密货币合法化。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaUszSkpkWnAyUUQ2UHBvLXBpUzlEVVlTSlZKS0hYYmdjUFJwUm5NYlZlLURDeW15NnpGbktBbDlRaTRyeTVUbWlZeDFWbUlZdUZxd252X3Zwc29LUE40R1lCS29aRmt3MVE5emVuSTUzSWxIWFRPOWlKc3RWRENpVUZOdnlMTm04UDdNMnFjWVB3OGVScmE2OXV2M1FUb2dvUUZvV2NKQmxKUXVPbkdmVU41QQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
