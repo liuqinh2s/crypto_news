@@ -759,3 +759,132 @@ content length: 2084
   ],
   "note": "由于大量历史重复新闻被排除，仅选出3条有价值的新消息。其余素材多为已报道的旧闻或低相关性内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=936, prompt_tokens=9876, total_tokens=10812, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=902, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8724)
+content length: 63
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中所有消息均与历史消息重复，未发现新的有价值交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1134, prompt_tokens=9876, total_tokens=11010, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1058, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=20)
+content length: 152
+============================================================
+{
+  "news": [],
+  "note": "本轮31条素材经去重后无符合筛选标准的新消息。历史消息已覆盖所有关键事件（如Charles Schwab预测市场、130亿美元BTC期权到期、Kevin Warsh讲话、Binance公告等），且恐惧贪婪指数维持14未变。无新增影响行情的消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2389, prompt_tokens=9876, total_tokens=12265, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=714, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=20)
+content length: 4022
+============================================================
+{
+  "news": [
+    {
+      "title": "Fed首秀Kevin Warsh致BTC跌破63k",
+      "summary": "新任美联储主席Kevin Warsh首次公开讲话，暗示可能加息以应对通胀，市场解读为鹰派。比特币应声下跌至63,000美元以下，加密市场蒸发数十亿美元。宏观紧缩预期打击风险资产，短期看空。影响所有加密币种，尤其是BTC、ETH。",
+      "reason": "美联储政策转变直接影响风险资产估值，历史数据显示加息预期通常导致加密市场下跌。属于优先级二中的宏观经济消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "InsuranceNewsNet",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNlE0UHhwZTFtVXFLNGlaVzRIUVhlQU9qaWU3NW96RmdETG5INXRXaElRMmg2MEVSbkIwejdSX1laYWN0TzlkZTRqUV9BZDZjcDhfRUZUQ3laUXU1SkxPb1ZTVi1jZFMybVd3QlZzVldPa3hPREwzZEJuUGNHRzhaVG0zYV9SWHRPMU04WVlDZldCR29acENpQWRyYnd5d3JEWG1QTWpIdlZUS2ctVGpqSGdOd0RlWjNXVUE?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "130亿美元BTC期权即将到期",
+      "summary": "价值约130亿美元的比特币期权将于6月到期，市场面临大规模合约交割。当前未平仓合约量巨大，叠加价格已在低位，可能引发波动性飙升。若交割后价格未能反弹，空头可能继续施压。对BTC合约交易者影响显著，短期偏空。",
+      "reason": "大额期权到期通常引发市场波动和方向性选择，属于优先级一中的直接影响行情消息。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/13b-bitcoin-options-expiry-looms-will-bulls-endure-more-pain-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Charles Schwab联手Cboe推预测市场",
+      "summary": "据WSJ报道，Charles Schwab计划与Cboe合作推出基于S&P 500指数的预测市场合约。传统金融巨头进入预测市场赛道，可能提升该领域的合法性和关注度，间接利好Polymarket等预测市场代币。但对主流加密资产影响有限，中性。",
+      "reason": "传统金融机构涉足预测市场，可能带动加密预测市场概念币热度，属于优先级二中的机构动向消息。",
+      "category": "ETF机构",
+      "impact_coins": ["POL"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371708/charles-schwab-planning-sp-500-prediction-markets-cboe"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "WhiteBIT获MiCA牌照进军欧盟",
+      "summary": "加密货币交易所WhiteBIT在奥地利获得MiCA（加密资产市场监管）牌照，允许其向欧盟全境提供服务。这是合规化的重要进展，表明交易所愿意遵守监管，可能增强市场信心。对合规概念币如XRP影响偏正面，但整体影响中性。",
+      "reason": "交易所合规牌照属于监管动态，虽然利好行业，但非重大事件，影响有限。属于优先级一中的监管动态（合规利好）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/whitebit-secures-mica-license-austria-gains-access-eu-crypto-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CME起诉CFTC 比特币永续合约存疑",
+      "summary": "TD Cowen报告称，CME在起诉CFTC关于批准比特币永续期货合约的案件中占据优势。若CME胜诉，可能限制或调整加密永续合约的监管框架，带来不确定性。对衍生品交易构成潜在利空，尤其影响BTC和ETH合约市场。",
+      "reason": "监管诉讼直接影响衍生品市场结构，可能引发监管收紧担忧。属于优先级一中的监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOLW5UN2RSSVhmU1ZqZmsxNUpjeEdrVE5RSlpPaTF6ZUwwaE9kOEJIeFg1UFhRUVQ2dnNpWEdXNEJ6cUVhWEFSRHNFN2NxWUg2bmZCYUVHMDJueWtBX0FqSFlWc3EtV29QRnV6VFFOWlNnWjNiNFg2dDBBV05BTEtnSGZacUh5QVQxSVBGSVotSmZMR1Jwa2dwbk90aW1wZElJcWhVdUZyUFRwR2p4NnNjYkxNR0lwcnJCYUJLWUEzS0JSR2lydWlFNTVkLV9MNHdhS2VkZlRyeFV4Y0gydTNNRi1BYnpoNHJLMjZ5OVNB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数14 极度恐惧",
+      "summary": "加密市场恐惧与贪婪指数降至14，处于极度恐惧区域。历史数据显示该区域通常是中长期底部区域，但短期可能继续恐慌。对交易者而言，可视为中长期抄底信号，但短期做多仍需谨慎。影响所有币种情绪。",
+      "reason": "恐惧贪婪指数极值属于市场情绪信号，优先级三。历史表明<20时长期看涨，但短期可能继续下行。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
