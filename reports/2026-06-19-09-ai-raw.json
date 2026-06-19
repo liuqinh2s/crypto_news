@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-19",
+  "hour": "09",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11875,
+    "completion_tokens": 1893,
+    "total_tokens": 13768
+  },
+  "content_length": 1575,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"日本央行副行长称将继续加息\",\n      \"summary\": \"日本央行副行长冰见野良三表示将继续进一步加息。日本央行加息预期强化，将收紧全球流动性，利空风险资产包括加密货币。可能影响BTC、ETH等主流币，短期看空信号。\",\n      \"reason\": \"直接影响宏观经济流动性，属于优先级二：宏观经济数据/央行政策，对风险资产走势有中期影响。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518320.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"富兰克林邓普顿申请两只比特币ETF\",\n      \"summary\": \"资产管理巨头富兰克林邓普顿已申请推出两只新ETF，产品将股息再投资到比特币。此举显示机构对比特币的持续兴趣，可能带来增量资金流入，利好BTC价格。\",\n      \"reason\": \"优先级二：ETF机构动向，直接影响比特币需求，bullish信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518317.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"分析师预测ETH将再迎抛售潮\",\n      \"summary\": \"CoinTelegraph报道，以太坊分析师预测ETH将再次迎来抛售浪潮，目前ETH价格挣扎在1700美元以下。ETH持续弱势，面临ETF流出和链上活动低迷等压力，短期看空ETH。\",\n      \"reason\": \"优先级三：市场情绪/分析观点，但涉及ETH直接走势，提供明确看空信号，辅助交易决策。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/ether-below-17k-gains-interest-as-analysts-warn-of-another-selling-wave?utm_source=rss&utm_medium=rss&utm_campaign=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

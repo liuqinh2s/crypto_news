@@ -1019,3 +1019,62 @@ content length: 1718
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1893, prompt_tokens=11875, total_tokens=13768, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1321, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10723)
+content length: 1575
+============================================================
+{
+  "news": [
+    {
+      "title": "日本央行副行长称将继续加息",
+      "summary": "日本央行副行长冰见野良三表示将继续进一步加息。日本央行加息预期强化，将收紧全球流动性，利空风险资产包括加密货币。可能影响BTC、ETH等主流币，短期看空信号。",
+      "reason": "直接影响宏观经济流动性，属于优先级二：宏观经济数据/央行政策，对风险资产走势有中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518320.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "富兰克林邓普顿申请两只比特币ETF",
+      "summary": "资产管理巨头富兰克林邓普顿已申请推出两只新ETF，产品将股息再投资到比特币。此举显示机构对比特币的持续兴趣，可能带来增量资金流入，利好BTC价格。",
+      "reason": "优先级二：ETF机构动向，直接影响比特币需求，bullish信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518317.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "分析师预测ETH将再迎抛售潮",
+      "summary": "CoinTelegraph报道，以太坊分析师预测ETH将再次迎来抛售浪潮，目前ETH价格挣扎在1700美元以下。ETH持续弱势，面临ETF流出和链上活动低迷等压力，短期看空ETH。",
+      "reason": "优先级三：市场情绪/分析观点，但涉及ETH直接走势，提供明确看空信号，辅助交易决策。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/ether-below-17k-gains-interest-as-analysts-warn-of-another-selling-wave?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
