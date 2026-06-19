@@ -481,3 +481,94 @@ content length: 2673
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3461, prompt_tokens=11087, total_tokens=14548, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1783, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9935)
+content length: 3906
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌破生产成本",
+      "summary": "摩根大通报告指出，比特币挖矿成本已恶化，当前BTC价格低于生产成本。这意味着矿工可能面临压力，可能引发抛售。影响BTC。信号：看空。理由：生产成本是BTC价格的心理支撑，跌破支撑通常导致进一步下跌。",
+      "reason": "直接影响BTC价格，优先级一：项目方重大事件（矿工成本）。历史消息中未出现该具体报告，是新消息。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/jpmorgan-bitcoin-mining-costs-worsened"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CME诉CFTC永续合约诉讼占优",
+      "summary": "TD Cowen分析称CME在与CFTC关于加密永续期货的诉讼中占据上风。若CME胜诉，可能放松对加密衍生品的监管，利好CME及整个加密衍生品市场。影响BTC期货及CME相关产品。信号：看多。",
+      "reason": "优先级一：重大监管动态。诉讼结果可能影响监管格局，历史消息中无此具体观点。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/405446/td-cowen-cme-upper-hand-cftc-lawsuit-crypto-perpetual-futures"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "共和党议员提议禁止预测市场内幕交易",
+      "summary": "共和党议员提出法案，禁止预测市场内幕交易，但未涵盖白宫官员。这显示监管正填补漏洞，可能对预测市场代币（如Kalshi、Polymarket相关）造成不确定性。信号：中性偏空，因监管趋严。",
+      "reason": "优先级一：监管政策。直接影响预测市场领域，历史消息中未出现该法案细节。",
+      "category": "监管政策",
+      "impact_coins": ["KALSHI", "POLY"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/prediction-markets-law-white-house-officials"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "嘉信理财进军预测市场",
+      "summary": "据WSJ报道，嘉信理财将加入预测市场竞赛，推出基于标普500指数的事件期权。传统金融巨头入场，有望提升预测市场合法性和流动性，利好相关平台。信号：看多预测市场概念。",
+      "reason": "优先级二：机构动向。嘉信理财作为大型券商入局，影响市场结构。历史消息中无此具体报道。",
+      "category": "ETF机构",
+      "impact_coins": ["KALSHI", "POLY"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/19/schwab-to-join-prediction-markets-race-with-s-and-p-500-event-based-options-wsj"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "以色列称将继续回应真主党停火违反",
+      "summary": "以色列军方表示将继续回应黎巴嫩真主党违反停火协议的行为，中东地缘政治紧张局势持续。这增加风险资产（包括加密货币）的不确定性，可能引发避险抛售。信号：看空BTC、ETH。",
+      "reason": "优先级一：重大监管动态（地缘政治影响）。直接冲击风险偏好，历史消息中虽有停火消息，但以色列最新回应是新动态。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518396.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊美谈判斡旋方将在埃及会晤",
+      "summary": "伊朗与美国谈判的斡旋相关方将在埃及举行会晤，旨在缓和紧张局势。若谈判取得进展，可能降低风险溢价，利好加密货币。信号：暂时中性，有潜在看多可能。",
+      "reason": "优先级二：宏观经济（地缘政治）。与上条结合，但方向相反，需关注进展。历史消息中无此具体会晤消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518394.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊新技术升级即将到来",
+      "summary": "多家媒体报道以太坊即将迎来新技术升级（可能指Pectra或后续升级），市场期待性能提升。若升级成功，将增强以太坊网络，利好ETH价格。信号：看多。",
+      "reason": "优先级二：技术升级/里程碑。历史消息中有以太坊资金危机，但升级消息为新动态。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEYybG1TQTd5VkFhcF9fQnU1Ujh2NzI0eGxaRmt1UEJsRHJlajIySURWSzU1T252aWI3bTBMS3hsaGpYaTIxX0lXbFdDZ0pzTDVFRjhyZ0ZRX3pPQ1NTb1pvUjNHY0dWdGdOSFFjb2Jobzc5TGMycHljNTlxcFRlX19jeEZmLUFtZ3Robk5Edmc1NWFZRnA5Ul9ZM1NXbHph?oc=5"},
+        {"name": "The Motley Fool", "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWHVfWG5vQVhUQUhOaHZWMDhNaXBiZEVGZXVRdnpLS3ZJNF85a1FqekoxN29VV0RJQjRmT3gxUFF1ZjJ0OS13bDNqMXlaUndyRGFjMHBnXzFRUmF1Nzh4LXoteW5PWTYwYzdUbkRpd2NIck5BdDNTNW5JRmdIRnlXRVNMc1RvTExZUXM5S1hvUnRwTmZxeUJROQ?oc=5"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
