@@ -1743,3 +1743,82 @@ content length: 4249
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2998, prompt_tokens=10043, total_tokens=13041, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1869, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8891)
+content length: 2676
+============================================================
+{
+  "news": [
+    {
+      "title": "欧洲央行管委暗示可能加息",
+      "summary": "欧洲央行管委温施表示，若看到服务业通胀上升，可能考虑再加息25个基点。这一鹰派言论强化了市场对欧洲央行继续收紧货币政策的预期，利空风险资产包括加密货币。欧元区利率上升将压制流动性，比特币和以太坊等资产可能承压下跌。当前市场已因美联储鹰派而承压，欧央行跟进将雪上加霜。",
+      "reason": "宏观经济中影响风险资产走势的关键消息，央行加息预期直接利空加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518349.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "中东局势升级，伊朗威胁报复",
+      "summary": "伊朗革命卫队宣称已准备好给敌人带来惨败，以色列内政部长叫嚣摧毁黎巴嫩，以官员强硬回击万斯威胁，布伦特原油重回80美元。地缘政治紧张加剧，避险情绪上升，资金可能流出风险资产转向黄金、美债和石油。加密货币市场短期面临抛压，尤其是比特币和以太坊可能进一步下跌。",
+      "reason": "地缘冲突升级直接影响市场风险偏好，属于宏观冲击，且油价上涨可能加剧通胀担忧。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518355.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518353.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Fed崩溃警告，预测比特币大涨",
+      "summary": "Forbes报道一位分析师发出'比2008年更严重'的10万亿美元美联储崩溃警告，并预测比特币将因此大涨。消息本身是负面宏观信号，但可能吸引避险资金进入比特币。短期看，市场恐慌加剧可能先导致下跌，但长期视角下比特币被视为对冲法币崩溃的工具。整体信号偏中性，需观察市场反应。",
+      "reason": "极端宏观警告影响市场情绪，涉及比特币的避险叙事，属于市场情绪信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Twitter / Forbes",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTFNLMmZUZEhNX2dLX3Q2VmJGYnlHVGM2QTNPV3lnZGRzalNpenNxV0gtNUF2UHZoTDQ4dVJ2dFpQODB4QnJ2TzFYcExZS0w3MlhwekcwazdXUi10QkRKb0NaS0t3SFVveFVLMi1WSWhVRTYwUFV5VF9vTHR2V0ZfR2xfN1Z2RF9oYm9qR0FLT010NktRWkxrSkhJeUxxUHBOMzJCQ0I1YTBqU3dIaEotbENXTHo4ZlE0R3Q3MUdncmVSN3lTSXA1RW5CVGVtTEdjbzRsVWZ0NDNvc0EzeS1RRw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "瑞典克朗稳定币SEKAU发行",
+      "summary": "AllUnity推出完全储备的瑞典克朗稳定币SEKAU，旨在提供合规的欧元区稳定币选择。欧洲稳定币生态扩展中长期利好加密市场，但短期影响有限。可能增加欧洲用户对加密资产的接入，但对BTC/ETH价格无直接推动。属于项目更新，评级中性。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/allunity-debut-fully-reserved-swedish-krona-stablecoin-sekau?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近期市场消息重复性高，多数重要新闻（如BTC跌破63k、恐惧贪婪指数14、Binance公告等）已在历史标题中覆盖，故仅筛选出4条新消息。"
+}
