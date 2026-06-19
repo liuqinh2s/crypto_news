@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-19",
+  "hour": "08",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12430,
+    "completion_tokens": 1054,
+    "total_tokens": 13484
+  },
+  "content_length": 1718,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"恐惧贪婪指数降至14\",\n      \"summary\": \"加密市场恐惧贪婪指数从15进一步降至14，处于极端恐惧区域。历史数据显示，该区域通常对应中长期底部，是潜在的抄底区间。若市场继续下探，可能迎来反弹，但短期仍可能受宏观因素打压。主要影响BTC、ETH及整个市场，信号为中长期看多，短期中性。\",\n      \"reason\": \"指数发生变化且处于极端值，属于市场情绪信号，符合筛选标准优先级三。指数下降显示恐慌加剧，历史经验为牛市信号。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"马耳他提出DeFi监管框架\",\n      \"summary\": \"马耳他监管机构就DeFi及DAO的法律框架征求意见，旨在将DeFi项目纳入MiCA体系监管。若实施，可能影响以太坊、Solana等公链上的DeFi项目，短期可能增加合规成本，但长期利好合规化发展。信号为中性，影响中等。\",\n      \"reason\": \"属于监管政策类消息，中期影响行情，符合优先二级。马耳他是欧盟成员国，政策可能影响欧洲DeFi活动。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"ETH\", \"SOL\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/malta-defi-framework-daos-software-based-organizations-mica\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"币安希腊牌照或被驳回\",\n      \"summary\": \"据Reddit用户转述路透社消息，币安在希腊的牌照可能被驳回，欧盟合规审查收紧可能导致币安失去欧盟运营资格。若属实，将严重打击币安欧洲业务，影响BNB及整体市场情绪。信号为bearish，影响等级极高。但消息来源为Reddit，需验证。\",\n      \"reason\": \"属于交易所重大监管动态，直接影响币安及BNB，符合优先一级。虽来源可靠性一般，但若证实影响巨大。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BNB\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1u9mb62/币安希腊牌照面临驳回或无缘欧盟市场/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

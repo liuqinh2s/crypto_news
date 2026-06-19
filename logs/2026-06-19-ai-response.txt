@@ -836,3 +836,186 @@ content length: 2811
   ],
   "note": "历史消息中大量重复内容（如Binance旧公告、CFTC和解、Gillibrand之子建交易所等），经去重后筛选出5条新消息，影响力中等偏下。极度恐惧指数（15）虽重要但已有，未重复选取。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1539, prompt_tokens=11354, total_tokens=12893, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=726, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10202)
+content length: 1672
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至14",
+      "summary": "加密货币恐惧贪婪指数进一步下跌至14（极度恐惧），此前为15。该指数处于历史抄底区域，历史上指数低于20通常意味着市场恐慌过度，中长期可能迎来反弹。但短期需注意情绪修复可能需要时间。影响BTC、ETH等主流币。信号中性偏bullish，因极度恐惧往往酝酿反弹机会。",
+      "reason": "恐惧贪婪指数触及极值（<20），属于优先级三的市场情绪信号，且数值较之前下降，为更新数据，具有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日本核心通胀持稳预期",
+      "summary": "日本5月核心CPI同比增速持稳，符合预期，未出现超预期上升。虽然日本通胀数据对全球风险资产影响有限，但若日本央行后续政策转向可能间接影响套利交易。当前数据中性，未加剧市场紧缩担忧。影响有限，但对亚洲市场情绪略有支撑。主流币影响中性。",
+      "reason": "宏观经济数据（通胀）为优先级二，虽不是美国CPI，但作为主要经济体数据，可辅助判断全球流动性环境。数据符合预期，无重大影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVVhObldLUktUVThwV3UxX0x2dW9wajk4Y2xZQTlhX3FEb2JDVUFPY29qWGdURm53aFdIaTVaNzFuZFJHMEZSMThKOGNHMmJHazZOUkZIOXRBWjJkY1FCdnFCWExSVmRybkpKMVk4UE01SHFLXzdZb0MzSU1kRWxFVk9KRko5ZVAyYTVITFAyVTBLdk94X2ZGMVNJZW9FeUc2WlhWTVBRcFMyckN4YVJrX0NCVjNHdFZUTWZ1WTJsRXdVSXJ5dy1jZdIBzgFBVV95cUxOa1I5cDhZeGtsa09KVFZQczJpeFNIZENCeXV0TlBPbVhPWE9ZYThfTDFLMmY0M1pZUWltLWFpRENvRlc4SVI0cUt5U2hlcm5BTHBOVXNmZlRWV28ydGtUTkNZUk5uMFppNkFZajVzd3pDdzF5RnFxR3ZGakdadVV6TF82eVBJTUR2UVByVVRkRzVadmlzLVpLWUlDYi1vcEppZlA3RUY0TDBpZEF2anp2YkRPcnRwZ0Q5elRTZ2V0U09XTVVjRzBOS1gyWHZYdw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1502, prompt_tokens=11354, total_tokens=12856, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=647, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11264), prompt_cache_hit_tokens=11264, prompt_cache_miss_tokens=90)
+content length: 1746
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至14",
+      "summary": "恐惧贪婪指数从之前的15进一步降至14（极度恐惧），创近期新低。极度恐惧通常被视为市场触底的信号，历史上该区域往往对应中长期买入机会。虽然短期可能继续下跌，但该指标暗示抛压接近衰竭，中长期看多BTC。需结合其他指标确认。",
+      "reason": "恐惧贪婪指数降至14，属于极端恐惧（<20），符合优先级三：恐惧贪婪指数极值。历史抄底区，中长期bullish信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日本核心通胀持稳，影响利率预期",
+      "summary": "日本5月核心CPI同比持稳，符合预期。尽管日本央行可能维持宽松，但全球通胀粘性可能推迟美联储降息。持续高利率环境对风险资产（包括加密货币）构成压力，短期偏空BTC/ETH。不过日本数据影响有限，需关注后续美国CPI。",
+      "reason": "宏观经济数据影响风险资产走势，属于优先级二。日本通胀持稳可能强化全球鹰派预期，短期bearish。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVVhObldLUktUVThwV3UxX0x2dW9wajk4Y2xZQTlhX3FEb2JDVUFPY29qWGdURm53aFdIaTVaNzFuZFJHMEZSMThKOGNHMmJHazZOUkZIOXRBWjJkY1FCdnFCWExSVmRybkpKMVk4UE01SHFLXzdZb0MzSU1kRWxFVk9KRko5ZVAyYTVITFAyVTBLdk94X2ZGMVNJZW9FeUc2WlhWTVBRcFMyckN4YVJrX0NCVjNHdFZUTWZ1WTJsRXdVSXJ5dy1jZdIBzgFBVV95cUxOa1I5cDhZeGtsa09KVFZQczJpeFNIZENCeXV0TlBPbVhPWE9ZYThfTDFLMmY0M1pZUWltLWFpRENvRlc4SVI0cUt5U2hlcm5BTHBOVXNmZlRWV28ydGtUTkNZUk5uMFppNkFZajVzd3pDdzF5RnFxR3ZGakdadVV6TF82eVBJTUR2UVByVVRkRzVadmlzLVpLWUlDYi1vcEppZlA3RUY0TDBpZEF2anp2YkRPcnRwZ0Q5elRTZ2V0U09XTVVjRzBOS1gyWHZYdw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分消息与历史重复，仅筛选出2条新消息。Binance公告全为重复，恐惧贪婪指数有更新，日本通胀数据为新公布。其他消息如Reddit帖子缺乏交易价值或来源不可靠，已排除。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1122, prompt_tokens=11354, total_tokens=12476, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=672, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11264), prompt_cache_hit_tokens=11264, prompt_cache_miss_tokens=90)
+content length: 1101
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至14",
+      "summary": "恐惧贪婪指数从15进一步降至14，处于极度恐惧区间。历史数据显示，极度恐惧区域通常是中长期抄底机会，但短期可能继续下跌。该指数反映市场情绪极度悲观，可能预示后续反弹机会。影响币种主要为BTC、ETH。信号为中性，因为短期可能继续下行，但中长期看多。",
+      "reason": "恐惧贪婪指数出现数值变化，从15降至14，符合筛选标准优先级三，作为市场情绪极值信号，具有交易参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "币安希腊牌照面临驳回风险",
+      "summary": "据Reddit社区消息，币安在希腊的加密服务提供商牌照可能面临驳回，若属实将影响其在欧盟市场的合规运营。尽管消息来源为社区讨论，尚未官方确认，但若牌照受阻可能对币安及其平台币BNB产生利空影响，并加剧欧盟市场合规不确定性。影响币种：BNB。信号：bearish。",
+      "reason": "涉及交易所监管动态，属于优先级一（重大监管动态），若牌照驳回将直接影响币安在欧盟的业务，对BNB产生利空。虽然来源为社区，但值得关注。",
+      "category": "监管政策",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Reddit", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1u9mb62/币安希腊牌照面临驳回或无缘欧盟市场/"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1054, prompt_tokens=12430, total_tokens=13484, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=398, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=2688), prompt_cache_hit_tokens=2688, prompt_cache_miss_tokens=9742)
+content length: 1718
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至14",
+      "summary": "加密市场恐惧贪婪指数从15进一步降至14，处于极端恐惧区域。历史数据显示，该区域通常对应中长期底部，是潜在的抄底区间。若市场继续下探，可能迎来反弹，但短期仍可能受宏观因素打压。主要影响BTC、ETH及整个市场，信号为中长期看多，短期中性。",
+      "reason": "指数发生变化且处于极端值，属于市场情绪信号，符合筛选标准优先级三。指数下降显示恐慌加剧，历史经验为牛市信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "马耳他提出DeFi监管框架",
+      "summary": "马耳他监管机构就DeFi及DAO的法律框架征求意见，旨在将DeFi项目纳入MiCA体系监管。若实施，可能影响以太坊、Solana等公链上的DeFi项目，短期可能增加合规成本，但长期利好合规化发展。信号为中性，影响中等。",
+      "reason": "属于监管政策类消息，中期影响行情，符合优先二级。马耳他是欧盟成员国，政策可能影响欧洲DeFi活动。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/malta-defi-framework-daos-software-based-organizations-mica"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "币安希腊牌照或被驳回",
+      "summary": "据Reddit用户转述路透社消息，币安在希腊的牌照可能被驳回，欧盟合规审查收紧可能导致币安失去欧盟运营资格。若属实，将严重打击币安欧洲业务，影响BNB及整体市场情绪。信号为bearish，影响等级极高。但消息来源为Reddit，需验证。",
+      "reason": "属于交易所重大监管动态，直接影响币安及BNB，符合优先一级。虽来源可靠性一般，但若证实影响巨大。",
+      "category": "监管政策",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1u9mb62/币安希腊牌照面临驳回或无缘欧盟市场/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
