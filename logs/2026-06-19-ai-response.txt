@@ -1511,3 +1511,79 @@ content length: 3454
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2285, prompt_tokens=10165, total_tokens=12450, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1283, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9013)
+content length: 2519
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌破挖矿成本五个月",
+      "summary": "比特币已连续五个月低于其挖矿成本，矿工面临严重财务压力。这可能迫使矿工抛售库存以维持运营，增加市场抛压。影响BTC，长期看空信号。",
+      "reason": "直接影响行情：矿业成本持续高于币价，矿工抛售压力增大，可能引发BTC进一步下跌。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/19/live-markets-bitcoin-has-traded-below-its-mining-cost-for-five-months-squeezing-miners"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC看跌期权堆积至$52k",
+      "summary": "比特币交易员大量加仓看跌期权，目标价最低至$52,000，显示市场极度看空。当前BTC已跌破$63,000，若继续下跌，可能触发大量期权行权，加剧跌势。影响BTC，强烈看空。",
+      "reason": "市场结构异常：期权市场集中押注下跌，反映专业交易员悲观预期，可能自我实现。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/19/bitcoin-traders-load-up-on-bearish-bets-all-the-way-down-to-usd52-000"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CFTC/SEC拟澄清掉期定义",
+      "summary": "美国CFTC和SEC就'掉期'定义公开征求意见，此举源于CME诉讼。新的定义可能影响加密货币衍生品监管，增加合规成本或限制某些产品。影响BTC、ETH及相关衍生品，中性偏利空。",
+      "reason": "监管动态：监管机构对衍生品定义修正将影响市场交易结构和产品创新。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/405380/cftc-sec-public-comment-swaps?utm_source=rss&utm_medium=rss"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "巨鲸平ETH空单赚580万",
+      "summary": "某巨鲸地址完全平掉ETH空单，获利约580万美元。此举可能意味着该巨鲸认为ETH短期见底或空头拥挤，选择获利了结。减少空头头寸对ETH价格构成偏多影响，但需关注后续是否转为多头。",
+      "reason": "链上异动：巨鲸行为具有参考价值，平空单释放空头压力，短期看多ETH。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518347.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP跌破1.15美元支撑",
+      "summary": "XRP下跌3%，失守$1.15关键支撑位，反弹尝试失败。技术面破位可能引发进一步抛售，短期看空XRP。注意与BTC同步下跌的风险。",
+      "reason": "直接影响行情：技术性破位，且XRP与BTC相关性高，可能延续跌势。",
+      "category": "项目更新",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/19/xrp-falls-3-after-losing-usd1-15-support-as-breakout-attempt-fades"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
