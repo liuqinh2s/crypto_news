@@ -572,3 +572,130 @@ content length: 3906
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2088, prompt_tokens=10454, total_tokens=12542, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1580, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9302)
+content length: 983
+============================================================
+{
+  "news": [
+    {
+      "title": "加密货币大跳水12万人爆仓",
+      "summary": "据新浪财经报道，加密货币市场突然集体杀跌，近12万人爆仓。比特币、以太坊等主流币种短时大幅下挫，市场恐慌情绪蔓延。此次暴跌可能与美联储鹰派预期、地缘政治风险以及杠杆多头拥挤有关。数据表明，大量多头仓位被清算，短期内可能进一步下探，但极端恐慌后或出现技术性反弹。",
+      "reason": "直接影响行情的大规模爆仓事件，显示市场杠杆过高，抛压集中释放，对BTC、ETH等主流币种构成明确看空信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVFd3clFENFIwLWpEYU96ZGk4STI0dTVaYUJOT2R5d29KckFIRTVqenVvRl9VYUZnc0J2TnpheEVqYldlZC03THFDZGpqcjhpXzRjc0s4Y0NIMmtSd0MycC10T2Q1SDJvNjB4MkNMSDBwMHdHNVotX1hCUE15NjRuV0hXMldSMkdSanhncU5aVVpmcHQtaEZCeFNnajZZVjlvU2JuallwQUJsc1BrZVA5VWRZQ1VMTmFPdThCdlVUTTU2dFBoMzNNWjRaS0c4M3BPaDRabnhtTmFGUlRBWE5nb1ZPZlZsWEJ5THUyRzJveTlEazcyaExndg?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取素材中大部分为历史重复消息（如Binance旧公告、恐惧贪婪指数、地缘政治新闻等），仅发现一条有效新消息，故输出一条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=913, prompt_tokens=10454, total_tokens=11367, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=882, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=86)
+content length: 60
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中所有消息均为历史重复或无关内容，无新增有价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2148, prompt_tokens=10454, total_tokens=12602, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1641, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=86)
+content length: 969
+============================================================
+{
+  "news": [
+    {
+      "title": "近12万人爆仓加密跳水",
+      "summary": "加密货币市场出现集体杀跌，BTC跌破63,000美元，近12万交易者爆仓，总爆仓金额约3.2亿美元。主要受美联储鹰派预期、地缘紧张及杠杆清算连锁反应影响。短期可能继续下探，但极端恐惧指数14显示市场已超卖。对BTC、ETH构成直接抛压，看空信号。",
+      "reason": "大规模爆仓事件直接反映市场杠杆清算，对短期价格形成压力，属于优先级一的链上异动，且爆仓数据具有时效性。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVFd3clFENFIwLWpEYU96ZGk4STI0dTVaYUJOT2R5d29KckFIRTVqenVvRl9VYUZnc0J2TnpheEVqYldlZC03THFDZGpqcjhpXzRjc0s4Y0NIMmtSd0MycC10T2Q1SDJvNjB4MkNMSDBwMHdHNVotX1hCUE15NjRuV0hXMldSMkdSanhncU5aVVpmcHQtaEZCeFNnajZZVjlvU2JuallwQUJsc1BrZVA5VWRZQ1VMTmFPdThCdlVUTTU2dFBoMzNNWjRaS0c4M3BPaDRabnhtTmFGUlRBWE5nb1ZPZlZsWEJ5THUyRzJveTlEazcyaExndg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材大部分与历史消息重复，仅筛选出1条新信息。其他重复消息如Binance旧公告、恐惧贪婪指数14、监管草案等均未纳入。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2268, prompt_tokens=11817, total_tokens=14085, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1445, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1792), prompt_cache_hit_tokens=1792, prompt_cache_miss_tokens=10025)
+content length: 1860
+============================================================
+{
+  "news": [
+    {
+      "title": "乌俄谈判或将重启",
+      "summary": "乌克兰总统泽连斯基表示乌俄谈判可能重启，允许俄方确定形式，需第三方参与。核心诉求包括安全保障和入欧盟。俄方暂无回应。地缘政治缓和通常利好风险资产，包括加密货币，可能推动市场情绪回暖，降低避险需求。影响BTC、ETH等主流币种，看多信号。",
+      "reason": "地缘政治缓和对风险资产有支撑，属于中期影响因子。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518397.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密货币集体杀跌，近12万人爆仓",
+      "summary": "加密货币市场突然跳水，近12万交易者爆仓，显示杠杆多头被大量清算。此前BTC跌破63K，ETH跌破1700。这种大规模清算常伴随短期超跌反弹机会，但市场情绪脆弱，需警惕进一步下跌。影响BTC、ETH及高杠杆币种。短期看空，但超卖后可能反弹。",
+      "reason": "大规模爆仓是重要的市场结构事件，影响流动性和后续走势。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVFd3clFENFIwLWpEYU96ZGk4STI0dTVaYUJOT2R5d29KckFIRTVqenVvRl9VYUZnc0J2TnpheEVqYldlZC03THFDZGpqcjhpXzRjc0s4Y0NIMmtSd0MycC10T2Q1SDJvNjB4MkNMSDBwMHdHNVotX1hCUE15NjRuV0hXMldSMkdSanhncU5aVVpmcHQtaEZCeFNnajZZVjlvU2JuallwQUJsc1BrZVA5VWRZQ1VMTmFPdThCdlVUTTU2dFBoMzNNWjRaS0c4M3BPaDRabnhtTmFGUlRBWE5nb1ZPZlZsWEJ5THUyRzJveTlEazcyaExndg?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美元指数小幅下跌",
+      "summary": "6月19日美元指数下跌0.12%至100.729。美元走软通常利好加密货币作为美元替代资产，但跌幅较小，影响有限。宏观层面偏多，但需结合美联储政策判断。",
+      "reason": "美元指数与加密资产负相关，下跌提供温和利好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518398.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于大量新闻与历史重复，仅筛选出3条有价值的新消息。"
+}
