@@ -2057,3 +2057,135 @@ content length: 2179
   ],
   "note": "当前6小时内有效新消息较少，Binance公告均为重复内容，恐惧贪婪指数未变，故仅筛选出3条具有交易价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2248, prompt_tokens=8387, total_tokens=10635, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1557, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7235)
+content length: 1501
+============================================================
+{
+  "note": "本轮抓取素材中绝大多数与历史消息重复或无关，仅选出两条有交易价值的新消息。",
+  "news": [
+    {
+      "title": "最大BTC持有者从未卖出",
+      "summary": "The Street报道称，全球最大比特币持有者（可能指MicroStrategy或某大型机构）从未卖出任何比特币。该消息强化了长期持有者的信心，减少抛售压力，对BTC构成看多信号。但缺乏具体金额和地址，影响力有限。",
+      "reason": "机构长期囤币信号，属于优先级一的巨鲸异动（转出为囤币），但消息来源不够明确，影响级别降为中等。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Street",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHBSa2RZcXNWM21kMmFUTHVrLWkzNi12My0zLTlwMUlqdC0takJxLUM0ak9ZaktJakNaZ08xMTF5YzRPSVI4N3B4RFA3aUkyYnFPTW1DOEtFb1lwRGZZdzFpT05CUVZLbVBndEs0ajZIRE9wWGNaek1LVm83NmhBd2c4OXdYaVpMNjF6RlZQdVBfVVQ3V0ZlbENDS01BMzhrdjJv?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美联储Warsh面临AI挑战",
+      "summary": "Crypto Briefing报道，美联储理事Kevin Warsh在人工智能繁荣背景下面临货币政策挑战。AI可能推高生产率或通胀，影响降息路径。当前市场对美联储政策敏感，此消息增加不确定性，对BTC和ETH构成轻度看空信号。",
+      "reason": "宏观经济数据影响风险资产，属于优先级二的中期影响消息。但未给出明确政策倾向，影响级别较低。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIQW9OVE1Jb1YwcEl6Q2Jvd3ZNT0hUcGtHZ3VVbFgxNjVKbUJtS2otZFdvWXdoeFlkNDFvRk50TUd2NFF2VDI4STY4QlV6SHBKYkZMQndSVllKLTRjeVExUnhaRHZqV3pZU01VaDFZQ0dqZ3Fa?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1691, prompt_tokens=8387, total_tokens=10078, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1264, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8320), prompt_cache_hit_tokens=8320, prompt_cache_miss_tokens=67)
+content length: 914
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储新主席面临AI挑战",
+      "summary": "据Crypto Briefing报道，美联储新任主席Kevin Warsh面临人工智能繁荣带来的挑战。AI的快速发展可能影响通胀和就业，进而影响美联储的货币政策路径。具体影响尚不明朗，但若AI推动生产力提升，可能缓解通胀压力，利好风险资产；反之若导致失业，可能促使宽松。当前对加密货币无直接冲击，但需关注后续政策表态。影响币种：BTC、ETH。信号：中性。",
+      "reason": "该消息涉及美联储新主席及AI对宏观经济的潜在影响，虽不直接针对加密市场，但货币政策变动会影响所有风险资产，符合筛选标准中宏观经济类的中等优先级。因细节不足，评为微弱影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIQW9OVE1Jb1YwcEl6Q2Jvd3ZNT0hUcGtHZ3VVbFgxNjVKbUJtS2otZFdvWXdoeFlkNDFvRk50TUd2NFF2VDI4STY4QlV6SHBKYkZMQndSVllKLTRjeVExUnhaRHZqV3pZU01VaDFZQ0dqZ3Fa?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取中多数消息与历史重复（Binance公告、CZ言论、恐惧贪婪指数等），仅发现一条关于美联储新主席的宏观经济消息，但影响微弱且信号中性。当前时段缺乏高质量交易相关消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2129, prompt_tokens=8387, total_tokens=10516, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1272, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8320), prompt_cache_hit_tokens=8320, prompt_cache_miss_tokens=67)
+content length: 1940
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储主席人选面临AI挑战",
+      "summary": "据报道，美联储理事Kevin Warsh可能成为下一任主席，但他面临AI泡沫带来的政策挑战。AI热潮推高风险资产，可能迫使美联储维持高利率更久，对加密货币构成宏观压力。该消息利空BTC、ETH等风险资产。",
+      "reason": "美联储人事变动影响货币政策预期，属于宏观经济类，中期影响行情。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIQW9OVE1Jb1YwcEl6Q2Jvd3ZNT0hUcGtHZ3VVbFgxNjVKbUJtS2otZFdvWXdoeFlkNDFvRk50TUd2NFF2VDI4STY4QlV6SHBKYkZMQndSVllKLTRjeVExUnhaRHZqV3pZU01VaDFZQ0dqZ3Fa?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "全球最大比特币持有者从未卖出",
+      "summary": "消息称，全球最大比特币持有者（推测为MicroStrategy或某实体）从未卖出过一枚比特币，显示长期持有信心。此消息在BTC价格回撤至63k背景下提供情绪支撑，属于看多信号。",
+      "reason": "巨鲸行为影响市场情绪，属链上异动/市场情绪类，但未提供具体地址验证，影响有限。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Street",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHBSa2RZcXNWM21kMmFUTHVrLWkzNi12My0zLTlwMUlqdC0takJxLUM0ak9ZaktJakNaZ08xMTF5YzRPSVI4N3B4RFA3aUkyYnFPTW1DOEtFb1lwRGZZdzFpT05CUVZLbVBndEs0ajZIRE9wWGNaek1LVm83NmhBd2c4OXdYaVpMNjF6RlZQdVBfVVQ3V0ZlbENDS01BMzhrdjJv?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "OKX CEO称不鼓励员工炒币",
+      "summary": "OKX Star表示不鼓励员工以炒币暴富为职业愿景，提倡长期激励。此言论反映交易所内部文化，对市场无直接冲击，但可能引发交易所员工抛售预期？整体中性，影响微弱。",
+      "reason": "交易所高管言论间接影响市场情绪，但非实质性事件，排除项但可选入补充数量。",
+      "category": "交易所",
+      "impact_coins": ["OKB", "BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518451.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于过去6小时内多数消息重复或无关，仅筛选出3条低至中等影响的消息。恐惧贪婪指数23已连续出现，未纳入。"
+}

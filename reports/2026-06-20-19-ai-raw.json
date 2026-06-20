@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-20",
+  "hour": "19",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8387,
+    "completion_tokens": 2129,
+    "total_tokens": 10516
+  },
+  "content_length": 1940,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"美联储主席人选面临AI挑战\",\n      \"summary\": \"据报道，美联储理事Kevin Warsh可能成为下一任主席，但他面临AI泡沫带来的政策挑战。AI热潮推高风险资产，可能迫使美联储维持高利率更久，对加密货币构成宏观压力。该消息利空BTC、ETH等风险资产。\",\n      \"reason\": \"美联储人事变动影响货币政策预期，属于宏观经济类，中期影响行情。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Crypto Briefing\",\n          \"url\": \"https://news.google.com/rss/articles/CBMidEFVX3lxTFBIQW9OVE1Jb1YwcEl6Q2Jvd3ZNT0hUcGtHZ3VVbFgxNjVKbUJtS2otZFdvWXdoeFlkNDFvRk50TUd2NFF2VDI4STY4QlV6SHBKYkZMQndSVllKLTRjeVExUnhaRHZqV3pZU01VaDFZQ0dqZ3Fa?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"全球最大比特币持有者从未卖出\",\n      \"summary\": \"消息称，全球最大比特币持有者（推测为MicroStrategy或某实体）从未卖出过一枚比特币，显示长期持有信心。此消息在BTC价格回撤至63k背景下提供情绪支撑，属于看多信号。\",\n      \"reason\": \"巨鲸行为影响市场情绪，属链上异动/市场情绪类，但未提供具体地址验证，影响有限。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Street\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHBSa2RZcXNWM21kMmFUTHVrLWkzNi12My0zLTlwMUlqdC0takJxLUM0ak9ZaktJakNaZ08xMTF5YzRPSVI4N3B4RFA3aUkyYnFPTW1DOEtFb1lwRGZZdzFpT05CUVZLbVBndEs0ajZIRE9wWGNaek1LVm83NmhBd2c4OXdYaVpMNjF6RlZQdVBfVVQ3V0ZlbENDS01BMzhrdjJv?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"OKX CEO称不鼓励员工炒币\",\n      \"summary\": \"OKX Star表示不鼓励员工以炒币暴富为职业愿景，提倡长期激励。此言论反映交易所内部文化，对市场无直接冲击，但可能引发交易所员工抛售预期？整体中性，影响微弱。\",\n      \"reason\": \"交易所高管言论间接影响市场情绪，但非实质性事件，排除项但可选入补充数量。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"OKB\", \"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518451.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"由于过去6小时内多数消息重复或无关，仅筛选出3条低至中等影响的消息。恐惧贪婪指数23已连续出现，未纳入。\"\n}"
+}
