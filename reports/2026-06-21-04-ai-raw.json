@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-21",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9283,
+    "completion_tokens": 2716,
+    "total_tokens": 11999
+  },
+  "content_length": 2057,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"CZ提议冻结中本聪BTC防量子风险\",\n      \"summary\": \"币安创始人CZ在社交媒体上讨论量子计算对比特币的潜在威胁，提议冻结中本聪持有的约100万枚BTC以防范风险。该言论引发市场恐慌，担心未来量子攻击可能导致比特币网络不安全，或导致中本聪BTC被冻结而减少流动性。可能影响币种：BTC。此为看空信号，短期内可能加剧抛售压力。\",\n      \"reason\": \"CZ作为头部交易所创始人，其言论直接影响市场情绪；量子风险和中本聪BTC冻结是重大事件，优先级一。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMioAFBVV95cUxNamVvS3Z1Q2NIbkpiVy1IaktDUXNLOEJ2NkVvT0xsS19CM3dNSGtnclg3eXlWUHMtVzNQVnd0RGdCMzhLV05TVUVpa2JlN2FTbWE4dEZfeHpjT2ZEM2VZdHgyeWNmMUhMajI0QTlDSjVUdmpoQjFiQzNOV243aElZaHkyek1ocGVuYWpZM3BwUW5wYW9XZFh6N1ZLUFRjaG94?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"比特币资金轮动至山寨币失效\",\n      \"summary\": \"CoinTelegraph报道称，比特币资金轮动至山寨币的趋势已崩溃，历史上典型的‘山寨季’模式似乎消失。分析指出，当前市场结构下资金更集中在BTC和少数主流币，山寨币缺乏持续上涨动力。可能影响所有山寨币。此为看空信号，提示山寨币短期承压。\",\n      \"reason\": \"市场结构变化直接影响交易策略，属于优先级二中期影响。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Charles Schwab联合Cboe推二元期权\",\n      \"summary\": \"据WSJ报道，Charles Schwab正与Cboe合作推出基于标普500的‘是或否’二元期权合约。虽然不直接涉及加密货币，但传统金融机构积极推出创新衍生品，可能预示加密货币领域类似产品获批的潜在利好。影响有限，中性信号。\",\n      \"reason\": \"传统金融创新对加密市场情绪有间接提振，但非直接关联，属优先级三。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/405454/charles-schwab-is-working-with-cboe-to-launch-sp-500-yes-or-no-binary-options-contracts-wsj?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
