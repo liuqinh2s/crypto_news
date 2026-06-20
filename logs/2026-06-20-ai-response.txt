@@ -2429,3 +2429,79 @@ content length: 3208
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1846, prompt_tokens=10031, total_tokens=11877, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=443, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8879)
+content length: 3119
+============================================================
+{
+  "news": [
+    {
+      "title": "美伊技术会谈21日举行",
+      "summary": "巴基斯坦称美伊技术层级会谈将于21日在瑞士举行。这是伊朗与美国在霍尔木兹海峡危机后的首次正式接触，有望缓解中东紧张局势，降低地缘政治风险。地缘缓和利好比特币等风险资产，若谈判取得进展，可能推动BTC重回65k以上。看多信号，影响BTC、ETH等主流币。",
+      "reason": "优先级一：地缘政治重大动态，直接影响风险资产行情，且历史消息中仅有伊朗军方关闭海峡等冲突信息，未有会谈具体消息，属于新进展。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518473.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以色列下令在黎巴嫩停火",
+      "summary": "以色列总理内塔尼亚胡下令在黎巴嫩停火。此举进一步缓解中东冲突，减少区域性风险溢价。地缘政治紧张局势降温通常利好加密货币，可能推动短期反弹。看多信号，影响BTC、ETH。",
+      "reason": "优先级一：重大地缘政治缓和，与美伊会谈叠加，强化看多逻辑。历史消息中出现过黎巴嫩军方指责以色列，但停火命令是新进展。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518472.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC网络活跃度攀升",
+      "summary": "CryptoQuant数据显示，比特币网络活动正在上升，尽管BTC价格较峰值下跌近50%。活跃地址和交易量增加通常被视为底部形成信号，表明链上使用需求未减。若价格企稳，可能迎来反弹。看多信号，影响BTC。",
+      "reason": "优先级二：链上指标异常（活跃地址骤变），属于中期影响信号。历史消息中有类似“As of this morning, there are more blocks...”但那是区块数量与剩余币量的比较，与本条不同，本条是网络活动数据，新消息。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/371702/bitcoin-network-activity-rising-btc-falls-50-percent-below-peak-price"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "238亿美元比特币诉讼遇阻",
+      "summary": "Ian Cohen面临法律挑战，针对238亿美元比特币（含中本聪钱包）的诉讼遭法律反击。该诉讼主张废弃比特币所有权，若成功将引发市场恐慌，但目前遭遇阻力。短期可能产生负面情绪，但实际影响有限，因诉讼难度大。中性偏空，影响BTC。",
+      "reason": "优先级一：项目方重大事件（法律纠纷），虽非直接黑客攻击但涉及中本聪钱包归属。历史消息中有相关标题提及，但本轮提供了具体进展（法律反击），属于更新。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "crypto.news", "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObE1XN3hHNWVHZWVPb1N3TEFoVlNMbXVOSDdleGVFYW5KNlo1WGJIV1RMWnNWSGlkNEdydmdvVEUzdmU1eGd2VFZlT01hSWZGZ2NZM3QwZkRLcG9jMzZsb1k5NEkzWDVhTE52U3hMaUREVHE2Skt5eEhFUlNEYVVRYl9lWk51dldzakE?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC衍生品持仓持续受关注",
+      "summary": "比特币衍生品市场：永续和期货合约持续成为焦点，BTC处于决策区。未平仓合约量高但价格滞涨，可能预示潜在波动。当前资金费率中性，未出现极端拥挤。中性信号，需关注后续方向选择。",
+      "reason": "优先级三：市场结构（资金费率/未平仓），但无极端值。历史消息中有类似“Bitcoin Derivatives Watch”标题，本轮为同一来源更新，但内容未提供新数据，作为辅助信息。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "TradingView", "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcnhyUlAwU2lRLWxKZ28xX3Bma21nN04wMmpQNmFCVXlNZDAzQmd0T3NadTRNLV9LenE2MHdyaFc5VkplZGRyV3hWWXNuSXo3SHBJMXNJYVQwYWZ4NmdkVUlOS2htZ0lwMDhUd0puV3RkWW81dUl1R3BFTG5GMXd0Rm5zMVB6R204dWhCQllPWkI4MXNlemVRckh6b1Qzc2U1czNvaGVLRGt2SDJSOERhY3kwUGxlRVBfVjk2Z0Uwd0ZHSGtOb3ZSYThSektRQ3RhRmR6MWczT3I1dw?oc=5"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}

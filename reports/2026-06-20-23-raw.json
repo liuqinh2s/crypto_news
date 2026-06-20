@@ -1,0 +1,267 @@
+{
+  "date": "2026-06-20",
+  "hour": "23",
+  "total": 37,
+  "fetched_at": "2026-06-20T23:00:52.532072+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "AI is making crypto security cheaper, faster and harder to ignore",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/06/20/ai-is-making-crypto-security-cheaper-faster-and-harder-to-ignore",
+      "published": "Sat, 20 Jun 2026 15:00:00 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Network Activity Is Rising as BTC Falls Nearly 50% Below Peak Price: CryptoQuant",
+      "summary": "Activity on the Bitcoin network is surging, CryptoQuant said, but it's not correlating with price movement for its native asset.",
+      "link": "https://decrypt.co/371702/bitcoin-network-activity-rising-btc-falls-50-percent-below-peak-price",
+      "published": "Sat, 20 Jun 2026 14:59:51 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "巴基斯坦称美伊技术层级会谈21日在瑞士举行",
+      "summary": "【巴基斯坦称美伊技术层级会谈21日在瑞士举行】金色财经报道，6月20日，巴基斯坦外交部6月20日称，根据美伊谅解备忘录的后续安排，技术层级会谈将于2026年6月21日在瑞士举行。巴基斯坦及卡塔尔将作为调解人参加该会议。伊朗外交部发言人巴加埃当地时间20日表示，伊朗代表团将前往瑞士，就美国方面履行承诺一事提出诉求，并明确他们将如何履行自己的承诺。巴加埃表示，美方必须尽快采取必要措施，否则整个谅解备忘录将面临破裂风险。 (央视新闻)<p>原文链接: <a href=\"https://www.cls.cn/detail/2404677\">https://www.cls.cn/detail/2404677</a></p>",
+      "link": "https://jinse.com.cn/lives/518473.html",
+      "published": "Sat, 20 Jun 2026 14:59:34 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "以色列总理内塔尼亚胡下令在黎巴嫩停火",
+      "summary": "【以色列总理内塔尼亚胡下令在黎巴嫩停火】金色财经报道，6月20日，据以色列媒体：以色列总理内塔尼亚胡下令在黎巴嫩停火。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260620224400223800\">https://flash.jin10.com/detail/20260620224400223800</a></p>",
+      "link": "https://jinse.com.cn/lives/518472.html",
+      "published": "Sat, 20 Jun 2026 14:59:01 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BTC突破64000美元",
+      "summary": "【BTC突破64000美元】金色财经报道，行情显示，BTC突破64000美元，现报64093.99美元，24小时涨幅达到1.24%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/518471.html",
+      "published": "Sat, 20 Jun 2026 14:47:18 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "As of this morning, there are more blocks in the blockchain than coins left to be mined",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1uawn02/as_of_this_morning_there_are_more_blocks_in_the/\"> <img alt=\"As of this morning, there are more blocks in the blockchain than coins left to be mined\" src=\"https://preview.redd.it/ujq1r183wf8h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4c0ab68d62f1db401f7a5d7f6d29761cd4504ae5\" title=\"As of this morning, there are more blocks in the blockchain than coins left to be mined\" /> </a> </td><td> &#32; submitted by &#32;",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uawn02/as_of_this_morning_there_are_more_blocks_in_the/",
+      "published": "2026-06-20T13:27:39+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Build a Bitcoin transaction by hand — a free interactive walkthrough, with the real Bitcoin Core code behind each step (no signup)",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><pre><code>I kept seeing people (myself included) get stuck on how a Bitcoin transaction actually works — &quot;your balance isn't stored anywhere,&quot; UTXOs, change, fees, signing. Most explanations are either hand-wavy or a wall of C++. So I built a free page where you do it yourself: tap your balance to see it's really a set of UTXOs, pick which ones to spend, watch the change output appear, drag the fee rate, sign, and watch it get mined into a block. ~10 min",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uaxa69/build_a_bitcoin_transaction_by_hand_a_free/",
+      "published": "2026-06-20T13:57:00+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Nostr is not just a Twitter replacement — when connected to LND it becomes a sovereign payment layer",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Most people discover Nostr as a censorship-resistant social network. That's true — but it's only the surface.</p> <p>&#x200b;</p> <p>When you connect your own LND node to Nostr via Nostr Wallet Connect (NIP-47), your npub becomes a payment endpoint. Zaps hit your node directly — no Wallet of Satoshi, no Strike, no custodian of any kind.</p> <p>&#x200b;</p> <p>The flow looks like this:</p> <p>&#x200b;</p> <p>Nostr Client → encrypted NIP-47 request → Relay → your",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uayl78/nostr_is_not_just_a_twitter_replacement_when/",
+      "published": "2026-06-20T14:54:19+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Buy with PayPal and transfer??",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Couldn't find a relevant previous post. I had to receive a large payment through PayPal recently. I know I can buy BTC with PayPal, but don't want to hold it with PayPal. Is withdrawal from PP dependable enough? Or am I better off moving the funds elsewhere before I buy??</p> <p>&#x200b;</p> <p>This may be common knowledge, I just haven't used PayPal in many years.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/K0rbenKen0b",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uax3u3/buy_with_paypal_and_transfer/",
+      "published": "2026-06-20T13:48:58+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Real estate, car dealerships, bitcoin and a TIF: A look into Toby Doeden’s empire - KOTA Territory News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFgzMUlrNTdwMHEwM1BEOG1Ib1VDb2hCaEFjU0lKaHRXbU1MTzgtcWVkZTRTN0ptSzBVZmMzSEl6UGNUcVRxaXVWbEI3d2N4NnBNNnJJNHEwLVhwVVVrc3MxVHlvT2VYUUVIZEZ6akJUeW5PT1ZpQURtdzVoVlpmY1EzWWdQU3B4M3RlcnBZOFljdXV4MC15ejV5aDN2d0pKNFMzWDUtQdIBuwFBVV95cUxNQlBqSS10azZTVmxLcmhtQ2Y0LWVhNHR1eHV3V1B6VV9hUWNlUUtQc2RybGc0S2ZlVmJHeWVZbUJzRUY2eVpOV2hsR1NBN01haDNlTXZYQVdOd1ptYzUxRXd6VFRyU1VXMDZ6dTZocjltMVZPQ01xbEZjSDdXbXVsdnpSSjBBR2lJQXJuSExHSy16WDlTVnRUZHluN04tTERyVml0Rj",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFgzMUlrNTdwMHEwM1BEOG1Ib1VDb2hCaEFjU0lKaHRXbU1MTzgtcWVkZTRTN0ptSzBVZmMzSEl6UGNUcVRxaXVWbEI3d2N4NnBNNnJJNHEwLVhwVVVrc3MxVHlvT2VYUUVIZEZ6akJUeW5PT1ZpQURtdzVoVlpmY1EzWWdQU3B4M3RlcnBZOFljdXV4MC15ejV5aDN2d0pKNFMzWDUtQdIBuwFBVV95cUxNQlBqSS10azZTVmxLcmhtQ2Y0LWVhNHR1eHV3V1B6VV9hUWNlUUtQc2RybGc0S2ZlVmJHeWVZbUJzRUY2eVpOV2hsR1NBN01haDNlTXZYQVdOd1ptYzUxRXd6VFRyU1VXMDZ6dTZocjltMVZPQ01xbEZjSDdXbXVsdnpSSjBBR2lJQXJuSExHSy16WDlTVnRUZHluN04tTERyVml0RjJPTE1KdUFKQlFMVUp2MC1JWUZJOEpr?oc=5",
+      "published": "Sat, 20 Jun 2026 14:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "$Bitcoin (BTC.CC)$ 4 hour 50 EMA said - Moomoo",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFZQRGJSQmpnMEFCUFRuU2VPOFB3VXM0LUEzUVJvTWcwOXhWNllRVDhkTGZEUXNpbFlKT196T0lJcTdqTXJzQlRyMnFyMTh2eDBkUXRQSmhSUGtXelU4TFY3cjJhLTZELUx2bTNFX3hrcGptWWpOUG1CYUxHbE5SX0ZpZDh4NlJwMWhuLUotcWE?oc=5\" target=\"_blank\">$Bitcoin (BTC.CC)$ 4 hour 50 EMA said</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFZQRGJSQmpnMEFCUFRuU2VPOFB3VXM0LUEzUVJvTWcwOXhWNllRVDhkTGZEUXNpbFlKT196T0lJcTdqTXJzQlRyMnFyMTh2eDBkUXRQSmhSUGtXelU4TFY3cjJhLTZELUx2bTNFX3hrcGptWWpOUG1CYUxHbE5SX0ZpZDh4NlJwMWhuLUotcWE?oc=5",
+      "published": "Sat, 20 Jun 2026 14:48:09 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "What Happened to 2024's Top Cryptocurrencies? Here's Who Graduated and Who Got Held Back. - The Motley Fool",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxObDVRTGxPcmRHY2FiMC10dFFKNmIwcVFleFQyTDA3bzlOQnEyRG1BQndJcE0zeG5Ca3hGZi1HdEpXbXQzZkxWTUQxM1NHTVBMWVh3MlhkZ25zWmFkTVZtMEY3R18tSkszUlh2clgtZGljeVFaZ3lVa1djY25MU3ByX2FXc040TjVzdVpzNS1ybw?oc=5\" target=\"_blank\">What Happened to 2024's Top Cryptocurrencies? Here's Who Graduated and Who Got Held Back.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObDVRTGxPcmRHY2FiMC10dFFKNmIwcVFleFQyTDA3bzlOQnEyRG1BQndJcE0zeG5Ca3hGZi1HdEpXbXQzZkxWTUQxM1NHTVBMWVh3MlhkZ25zWmFkTVZtMEY3R18tSkszUlh2clgtZGljeVFaZ3lVa1djY25MU3ByX2FXc040TjVzdVpzNS1ybw?oc=5",
+      "published": "Sat, 20 Jun 2026 14:45:45 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "A look at how falling Bitcoin prices, capital structure changes pushed STRC below $83 in just five weeks. - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk02Ym5LSUVjM1lwUXhLU2gxLUoxZGVLazU1d0YzUWVEUzVaNl9wVFJfS2F4dHFsMzhEd2NUMksyVDBjcVh2dDBnQktkeWt4S0xrX2pNSTR1VGdTTzBTeDRfU1F3cDJQT0lja0Q0UEJXX3lBc1RtWlJabWRyS21MbkcxUkpnNU9zQlRRY1h2OW5TaUo1VlNfSUJaWklZdHVhWXBZVEJ1enJ0ZjU2dEhwMjdpanBNcmZlYU4xYU5B?oc=5\" target=\"_blank\">A look at how falling Bitcoin prices, capital structure changes pushed STRC below $83 in just five weeks.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk02Ym5LSUVjM1lwUXhLU2gxLUoxZGVLazU1d0YzUWVEUzVaNl9wVFJfS2F4dHFsMzhEd2NUMksyVDBjcVh2dDBnQktkeWt4S0xrX2pNSTR1VGdTTzBTeDRfU1F3cDJQT0lja0Q0UEJXX3lBc1RtWlJabWRyS21MbkcxUkpnNU9zQlRRY1h2OW5TaUo1VlNfSUJaWklZdHVhWXBZVEJ1enJ0ZjU2dEhwMjdpanBNcmZlYU4xYU5B?oc=5",
+      "published": "Sat, 20 Jun 2026 13:02:20 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ian Cohen battles $238B Bitcoin grab targeting Satoshi wallets - crypto.news",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxObE1XN3hHNWVHZWVPb1N3TEFoVlNMbXVOSDdleGVFYW5KNlo1WGJIV1RMWnNWSGlkNEdydmdvVEUzdmU1eGd2VFZlT01hSWZGZ2NZM3QwZkRLcG9jMzZsb1k5NEkzWDVhTE52U3hMaUREVHE2Skt5eEhFUlNEYVVRYl9lWk51dldzakE?oc=5\" target=\"_blank\">Ian Cohen battles $238B Bitcoin grab targeting Satoshi wallets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">crypto.news</font>",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObE1XN3hHNWVHZWVPb1N3TEFoVlNMbXVOSDdleGVFYW5KNlo1WGJIV1RMWnNWSGlkNEdydmdvVEUzdmU1eGd2VFZlT01hSWZGZ2NZM3QwZkRLcG9jMzZsb1k5NEkzWDVhTE52U3hMaUREVHE2Skt5eEhFUlNEYVVRYl9lWk51dldzakE?oc=5",
+      "published": "Sat, 20 Jun 2026 13:23:04 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Lawsuit to claim $238B Bitcoin, including Satoshi's, faces legal pushback over abandonment claims - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPSkF2eHlpVWthalhLRmRGdEpEMExXNVhRSzdNSnU4ZkVCQWlRWG5DSFlMeVdnanNOT2EyX2lhWjNPdnhqOTRaUnF3QXFuclZSMzlDOEQwRUU3dC1QdXMzRFhDMGxrcThFZVJZWDB3OTV0YjZHZWZRdWpHZU1LX2RtWDJXQTJRU0RMZndaQlNR?oc=5\" target=\"_blank\">Lawsuit to claim $238B Bitcoin, including Satoshi's, faces legal pushback over abandonment claims</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSkF2eHlpVWthalhLRmRGdEpEMExXNVhRSzdNSnU4ZkVCQWlRWG5DSFlMeVdnanNOT2EyX2lhWjNPdnhqOTRaUnF3QXFuclZSMzlDOEQwRUU3dC1QdXMzRFhDMGxrcThFZVJZWDB3OTV0YjZHZWZRdWpHZU1LX2RtWDJXQTJRU0RMZndaQlNR?oc=5",
+      "published": "Sat, 20 Jun 2026 14:32:36 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Derivatives Watch: Perps And Futures Stay In Focus As BTC Holds Decision Zone - TradingView",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcnhyUlAwU2lRLWxKZ28xX3Bma21nN04wMmpQNmFCVXlNZDAzQmd0T3NadTRNLV9LenE2MHdyaFc5VkplZGRyV3hWWXNuSXo3SHBJMXNJYVQwYWZ4NmdkVUlOS2htZ0lwMDhUd0puV3RkWW81dUl1R3BFTG5GMXd0Rm5zMVB6R204dWhCQllPWkI4MXNlemVRckh6b1Qzc2U1czNvaGVLRGt2SDJSOERhY3kwUGxlRVBfVjk2Z0Uwd0ZHSGtOb3ZSYThSektRQ3RhRmR6MWczT3I1dw?oc=5\" target=\"_blank\">Bitcoin Derivatives Watch: Perps And Futures Stay In Focus As BTC Holds Decision Zone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingVie",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcnhyUlAwU2lRLWxKZ28xX3Bma21nN04wMmpQNmFCVXlNZDAzQmd0T3NadTRNLV9LenE2MHdyaFc5VkplZGRyV3hWWXNuSXo3SHBJMXNJYVQwYWZ4NmdkVUlOS2htZ0lwMDhUd0puV3RkWW81dUl1R3BFTG5GMXd0Rm5zMVB6R204dWhCQllPWkI4MXNlemVRckh6b1Qzc2U1czNvaGVLRGt2SDJSOERhY3kwUGxlRVBfVjk2Z0Uwd0ZHSGtOb3ZSYThSektRQ3RhRmR6MWczT3I1dw?oc=5",
+      "published": "Sat, 20 Jun 2026 14:00:04 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969",
+      "published": "2026-06-18T21:45:04.798000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Re (RE) with Seed Tag Applied",
+      "summary": "Binance Will List Re (RE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6",
+      "published": "2026-06-18T17:47:21.424000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 1225 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 1225 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05",
+      "published": "2026-06-18T10:00:33.640000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/191cb96109f24c5c85362631a55a45d3",
+      "published": "2026-06-13T00:00:00.917000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities Trading Pair(s) & Trading Bots Services on Binance Spot - 2026-06-11",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities Trading Pair(s) & Trading Bots Services on Binance Spot - 2026-06-11",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+      "published": "2026-06-11T22:05:06.698000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-11)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+      "published": "2026-06-11T15:30:03.874000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b893d3539ae34c47856013b1f3cc94fb",
+      "published": "2026-06-10T12:30:19.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f598c7bb87d74b8c995b9f67bf210be1",
+      "published": "2026-06-09T14:15:12.545000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1",
+      "published": "2026-06-08T12:45:01.727000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
+      "published": "2026-06-04T20:44:22.460000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f",
+      "published": "2026-06-03T14:45:06.439000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/AED Spot Trading Pair",
+      "summary": "Binance Adds USDT/AED Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/66d54f75b3a041ff991ddd179ab6ed39",
+      "published": "2026-06-03T11:00:01.465000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "summary": "Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2b9ff1e1acf8433793bc40c59a0cb852",
+      "published": "2026-06-02T11:01:28.377000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ed2c6a6160c64eb397b534af90b9d66a",
+      "published": "2026-06-01T22:15:21.180000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4299caec4ca4407cb282707154a97ffe",
+      "published": "2026-06-01T14:15:08.711000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/73769d872a644d7082bc79cde6c12d98",
+      "published": "2026-06-01T10:14:55.548000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/455eedc320bd43e28e2326f58d4aac2a",
+      "published": "2026-05-29T16:00:03.554000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "summary": "Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3bdaff694bde45ccb443709336c8686d",
+      "published": "2026-05-29T15:00:06.968000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ee40eb721abc460cb7edca6df04d782b",
+      "published": "2026-05-28T16:16:29.339000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "summary": "Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/94f88766c6c84d68a07f006bc076ba6a",
+      "published": "2026-05-26T15:00:01.392000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 23 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 23，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-06-20T08:00:00+08:00"
+    }
+  ]
+}
