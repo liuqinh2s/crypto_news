@@ -590,3 +590,63 @@ content length: 3305
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1795, prompt_tokens=9154, total_tokens=10949, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1005, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8002)
+content length: 1989
+============================================================
+{
+  "news": [
+    {
+      "title": "Axelar桥漏洞被盗467万",
+      "summary": "Secret Network的Axelar桥因第三方代币合约存在无限铸造漏洞，被攻击者盗取467万美元，且漏洞持续7天未被发现。该事件直接影响Secret Network生态及AXL代币，显示跨链桥安全问题依然严峻，可能引发用户对相关链的信心下降，短期内看空AXL及Secret生态代币。",
+      "reason": "黑客攻击事件，优先级一，直接影响相关币种价格，且涉及安全漏洞，需警惕。",
+      "category": "链上异动",
+      "impact_coins": ["AXL", "SCRT"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405459/secret-networks-axelar-bridge-drained-for-4-67-million-in-infinite-mint-exploit-that-went-unnoticed-for-seven-days?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储通胀指标加速上升",
+      "summary": "美国联邦储备局最新通胀指标显示通胀加速，高于市场预期。这意味着美联储可能维持更长时间的高利率，甚至进一步加息，对风险资产（包括加密货币）构成压力。历史上，通胀超预期通常导致BTC、ETH等下跌，看空。",
+      "reason": "宏观经济数据直接影响风险资产走势，优先级二。通胀加速是利空信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0R1otNEtFOHAyTmxoSVQ2amIzQUNpUFBacGR5VEZBYkZzQkFWdmJ5cGpfcTczTFF0R0FjUWZlbUpiS3p6TFdXdTFYTGVnRWdmYVJpV0JHS0U0NXlONXpFTDcwenZHSTZqamVWMWZGRQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国Clarity Act推进受阻",
+      "summary": "Reddit社区讨论显示，美国加密监管法案Clarity Act可能失去动力，难以在7月或8月通过。该法案本旨是提供监管清晰度，利好加密货币。若延迟或失败，将削弱市场对合规的乐观预期，短期利空市场情绪。",
+      "reason": "监管动态优先级一，法案推进受阻影响市场信心。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ub7nzv/is_clarity_act_losing_traction_hard_to_see_july/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分为重复历史公告或无关内容，仅筛选出3条高价值新消息。"
+}
