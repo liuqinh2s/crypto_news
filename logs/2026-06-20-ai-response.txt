@@ -1755,3 +1755,63 @@ content length: 1702
   ],
   "note": "当前有效消息较少，仅筛选出3条有交易价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2122, prompt_tokens=8152, total_tokens=10274, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1427, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7000)
+content length: 1736
+============================================================
+{
+  "news": [
+    {
+      "title": "美SEC拟放行股票代币化交易",
+      "summary": "路透社报道，美国SEC正在考虑批准股票代币化交易试点，允许在DTC（美国存管信托与清算公司）框架下进行代币化证券交易。这被视为加密行业与主流金融融合的重大突破，可能带来数万亿美元规模的RWA市场。影响币种：RWA赛道相关代币（如ONDO、POLY、MKR等）以及潜在受惠的Layer1（如ETH、SOL）。信号：bullish，监管利好。",
+      "reason": "优先级一：重大监管动态，SEC放行代币化证券将重塑市场格局，直接影响RWA板块和整体加密货币风险情绪。",
+      "category": "监管政策",
+      "impact_coins": ["ONDO", "POLY", "MKR", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518438.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普称不再视Anthropic为威胁",
+      "summary": "特朗普发言表示已不再将AI公司Anthropic视为国家安全威胁。此前Binance已上线ANTHROPICUSDT预IPO合约，此言论可能推动ANTHROPIC代币价格上涨，但需注意预IPO合约风险。影响币种：ANTHROPICUSDT（系Binance预IPO代币）。信号：bullish。",
+      "reason": "优先级二：项目重大事件（关联ANTHROPICUSDT合约，特朗普言论直接利好该代币），短期交易机会。",
+      "category": "项目更新",
+      "impact_coins": ["ANTHROPIC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518437.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ENS DAO提案扩大基金会职能",
+      "summary": "ENS DAO发起Temp Check提案，拟扩大ENS基金会职能，以支持更多生态建设和治理升级。若通过，将增强ENS协议的去中心化与实用性，可能推动ENS代币价值提升。影响币种：ENS。信号：bullish。",
+      "reason": "优先级二：项目重大进展（DAO治理升级），对ENS有中期利好影响。",
+      "category": "项目更新",
+      "impact_coins": ["ENS"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518436.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本期符合筛选标准的新消息较少，仅3条。其他素材多为重复内容或较低优先级事件，已按去重规则排除。"
+}
