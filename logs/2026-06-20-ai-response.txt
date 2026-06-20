@@ -1432,3 +1432,134 @@ content length: 2507
   ],
   "note": "本轮素材中多数为历史公告（6月初），近期有价值消息较少，仅筛选4条高优先级消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=772, prompt_tokens=9045, total_tokens=9817, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=705, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7893)
+content length: 120
+============================================================
+{
+  "news": [],
+  "note": "本次抓取素材与历史消息全部重复，无新增关键交易信号。恐惧贪婪指数维持23，市场极度恐惧但无新变化。Binance公告均为旧重复。建议关注后续更新的清算数据、链上大额转账及宏观事件。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=943, prompt_tokens=9045, total_tokens=9988, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=883, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8960), prompt_cache_hit_tokens=8960, prompt_cache_miss_tokens=85)
+content length: 107
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材全部为历史已出现或低价值内容，无新增关键交易信号。恐惧与贪婪指数23已在历史中记录，Binance公告均为重复旧闻，其余为普通讨论或重复标题。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=830, prompt_tokens=9045, total_tokens=9875, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=800, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8960), prompt_cache_hit_tokens=8960, prompt_cache_miss_tokens=85)
+content length: 57
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的所有消息均与历史消息重复，无新增有价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=389, prompt_tokens=9821, total_tokens=10210, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=340, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8669)
+content length: 92
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中几乎全部为重复历史标题或低价值内容（如普通Reddit讨论、重复公告、未变化的恐惧贪婪指数），无新增关键交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=607, prompt_tokens=9821, total_tokens=10428, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=551, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=93)
+content length: 100
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的26条素材与历史消息标题完全重复，无新增有价值信息。恐惧贪婪指数仍为23（重复），雪球爆仓新闻已出现，Binance公告均为旧闻。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1671, prompt_tokens=3599, total_tokens=5270, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=431, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2447)
+content length: 2902
+============================================================
+{
+  "news": [
+    {
+      "title": "Fear & Greed指数降至23",
+      "summary": "当前恐惧贪婪指数为23，处于极度恐惧区间。历史数据显示极度恐惧往往是中长期买入区域，但短期可能仍有下行压力。该指标暗示市场情绪极度悲观，可能酝酿反弹机会，但需警惕进一步下跌风险。影响所有币种，尤其BTC、ETH。",
+      "reason": "市场情绪信号，恐惧贪婪指数低于20是极端值，具有抄底参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密货币集体杀跌12万人爆仓",
+      "summary": "据新浪财经报道，加密货币市场突然集体下跌，近12万人爆仓。此次下跌可能由多重因素引发，如宏观压力、多头踩踏等。短期内市场波动加剧，空头占优，但爆仓后市场可能趋于稳定。影响BTC、ETH及主流币种。",
+      "reason": "直接影响行情的大幅波动，爆仓数据反映市场剧烈清算，是重要交易信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "新浪财经", "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPTmVDM3FKWTIzcVEyb1FDWUlXMEwwanhHZ29PYU81MXQ2dEFaWVJqOHVKa3JOcHNSTGJ6WG5sbjRvOGNBNThvbGU3TGdSWDRuejhXOHdWeERhc2tpT001TXRwMWhndWh0cW9kWWJDMUtCZzB2VksteTVHc2wtc25CZzRmLVNmTXQzV3N4M21RX2VPbXVNbmU5ckpOYTFSd0hHY0tVR1REc3FlczY2Q1VtbDFPZ0lyenN2NGNTUVlleDR4bEFiWENCN0doNmZVNEt6WmwxUkhqZjZZdE94eF9HR1lBc1NPeURnUzE5Z2Y4TGs3ckZ5WGR2aUt5ejZvU284UFhrMjJiZ0M5bTY5ZGFjMkgwd3J6eHM?oc=5"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架RE代币",
+      "summary": "Binance宣布将上线Re (RE)代币，并应用于Earn、Buy Crypto、Convert、VIP Loan、Margin及Futures。新币上线通常带来短期炒作机会，但种子标签意味着高风险高波动。RE价格可能大幅波动，短期看多但需警惕高波动风险。",
+      "reason": "交易所上币属于直接影响行情的事件，尤其Binance上架新币会带动交易量和价格波动。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance推出季度交割合约",
+      "summary": "Binance Futures将上线USDⓈ-M和COIN-M季度1225交割合约。季月交割合约推出增加市场深度和套利工具，可能吸引机构资金，对BTC、ETH产生中期积极影响。",
+      "reason": "交易所新增重要衍生品，影响市场结构和流动性，属于中等影响事件。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance HODLer空投GENIUS",
+      "summary": "Binance推出Genius Terminal (GENIUS) HODLer空投，用户可通过申购BNB简单赚币获得空投。空投活动通常刺激BNB锁仓需求，短期对BNB价格有提振作用。",
+      "reason": "项目更新中的空投活动，可能对BNB产生正面影响，但影响有限。",
+      "category": "项目更新",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/455eedc320bd43e28e2326f58d4aac2a"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
