@@ -1962,3 +1962,90 @@
 2026-06-20 11:02:03 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
 2026-06-20 11:02:03 [INFO] 📦 JSON 已保存: reports/2026-06-20-19.json
 2026-06-20 11:02:03 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-06-20 12:00:55 [INFO] 🚀 开始抓取 2026-06-20 20:00 币圈新闻
+2026-06-20 12:00:55 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-20 12:00:55 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-20 12:00:55 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-06-20 12:00:55 [INFO]   ⏭ Decrypt: 过滤掉 36 条非近期新闻
+2026-06-20 12:00:55 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-06-20 12:00:55 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:55 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:55 [INFO]   ⏭ 金色财经: 过滤掉 17 条非近期新闻
+2026-06-20 12:00:55 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-20 12:00:55 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-20 12:00:55 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-20 12:00:55 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:55 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ Blockworks: 过滤掉 7 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ 吴说区块链: 过滤掉 48 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ Crypto Twitter: 过滤掉 47 条非近期新闻
+2026-06-20 12:00:56 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-06-20 12:01:10 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-20 12:01:10 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-20 12:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-06-20 12:01:11 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-20 12:01:11 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-20 12:01:11 [INFO]   ✓ CoinDesk: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ The Block: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Decrypt: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ CoinTelegraph: 1 条
+2026-06-20 12:01:11 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Blockworks: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ DL News: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ 金色财经: 3 条
+2026-06-20 12:01:11 [INFO]   ✓ PANews: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-06-20 12:01:11 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Crypto Twitter: 3 条
+2026-06-20 12:01:11 [INFO]   ✓ 宏观经济: 1 条
+2026-06-20 12:01:11 [INFO]   ✓ Binance公告: 20 条
+2026-06-20 12:01:11 [INFO]   ✓ OKX公告: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Bitget公告: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Whale Alert: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-20 12:01:11 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-20 12:01:11 [INFO]   ✓ 雪球加密: 0 条
+2026-06-20 12:01:11 [INFO] 📊 共抓取 31 条新闻
+2026-06-20 12:01:11 [INFO] 📋 原始新闻已保存: reports/2026-06-20-20-raw.json (31 条)
+2026-06-20 12:01:11 [INFO] 📋 标题摘要已保存: reports/2026-06-20-20-raw-titles.md
+2026-06-20 12:01:11 [INFO] ✅ 抓取完成，共 31 条，已保存到 reports/2026-06-20-20-raw.json
+2026-06-20 12:01:11 [INFO] 🤖 开始 AI 筛选 2026-06-20 20:00 币圈消息
+2026-06-20 12:01:11 [INFO] 📋 已加载原始新闻: reports/2026-06-20-20-raw.json (31 条)
+2026-06-20 12:01:11 [INFO] 📚 已加载历史新闻标题（14407 字符）
+2026-06-20 12:01:11 [INFO] 📚 已加载历史筛选标题 19 条、URL 19 个，用于去重
+2026-06-20 12:01:11 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-20 12:01:11 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-20 12:01:11 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（31 条，6205 字符，temp=0.3）
+2026-06-20 12:01:41 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 2916 字符)
+2026-06-20 12:01:41 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-20-ai-raw.json
+2026-06-20 12:01:41 [DEBUG] parse_json_response 输入长度: 2916 字符
+2026-06-20 12:01:41 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "亿万富翁称BTC已见底",
+      "summary": "两位加密顶级亿万富翁（身份未明确）表示认为比特币已触及底部，此言论在社交媒体引发讨论。当前BTC价格回升至63,000美元附近，恐惧贪婪指数仅23（极端恐惧），历史底部区域往往伴随乐观言论。该信号可能支撑比特币短期反弹，但需警惕情绪过早一致。影响币种：BTC。看多信号。",
+      "reason": "KOL集体看多属于市场情绪信号，且结合极端恐惧指数，符合抄底区特征，对BTC有潜在支撑。",
+      "category": "市场情绪",
+    
+2026-06-20 12:01:41 [DEBUG] 从 JSON 对象的 news 字段提取到 4 条记录
+2026-06-20 12:01:41 [INFO] ✅ AI 返回 4 条新闻
+2026-06-20 12:01:41 [INFO] ✅ AI 筛选出 4 条交易相关消息，符合预期
+2026-06-20 12:01:41 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
+2026-06-20 12:01:41 [INFO] 🔄 去重：移除 2 条与历史报告重复的新闻
+2026-06-20 12:01:41 [DEBUG]   去重: 「最大BTC持有者从未出售」 → URL重复: https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHBSa2R
+2026-06-20 12:01:41 [DEBUG]   去重: 「美联储新主席面临AI挑战」 → URL重复: https://news.google.com/rss/articles/CBMidEFVX3lxTFBIQW9OVE1
+2026-06-20 12:01:41 [INFO] 📦 JSON 已保存: reports/2026-06-20-20.json
+2026-06-20 12:01:41 [INFO] ✅ AI 筛选完成，共 2 条交易相关消息
