@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-20",
+  "hour": "14",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9442,
+    "completion_tokens": 2116,
+    "total_tokens": 11558
+  },
+  "content_length": 1702,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"马来西亚明确数字资产规则\",\n      \"summary\": \"马来西亚对公务员持股规定进行修订，明确数字资产相关规则。新规允许公务员持有数字资产，但需遵守持股比例不超过5%或价值不超过30万令吉（较低者）。该政策可能促进当地合规采用，对马来西亚相关代币影响有限，但整体为加密货币监管框架利好信号，视为中性偏多。\",\n      \"reason\": \"新监管动态明确数字资产规则，属于监管政策，虽在马来西亚，但表明亚洲国家逐步合规化，中期利好。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518434.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Conio获欧盟MiCAR牌照\",\n      \"summary\": \"意大利加密金融科技公司Conio（由Poste Italiane和Banca Generali支持）已获得欧盟MiCAR框架下的加密资产服务商牌照。该牌照由意大利Consob与央行审查后授予，允许Conio提供数字资产托管、转账和配售服务。这标志着欧盟加密合规进程加速，对于欧洲加密生态系统是积极信号，可能吸引更多传统金融机构入场，中期利多。\",\n      \"reason\": \"重大监管动态，欧盟MiCAR牌照授予，表明合规推进，利好整个加密市场。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518433.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Aave V4瞄准万亿证券融资\",\n      \"summary\": \"Aave创始人Stani Kulechov发文称，Aave V4可用于重构链上证券融资市场，指出证券抵押贷款已是数万亿美元级业务，包括美国回购市场日均12.6万亿美元、保证金融资1.3万亿美元。这为Aave带来巨大叙事潜力，但V4尚未上线，属于项目长期愿景。短期可能推动Aave代币价格情绪，但需谨慎。\",\n      \"reason\": \"项目重大更新，Aave V4定位顶级市场，可能带来DeFi新叙事，影响AAVE及DeFi板块。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"AAVE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518432.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前有效消息较少，仅筛选出3条有交易价值的新消息。\"\n}"
+}

@@ -1563,3 +1563,195 @@ content length: 2902
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1606, prompt_tokens=8336, total_tokens=9942, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1168, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7184)
+content length: 1092
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave V4瞄准链上证券融资",
+      "summary": "Aave创始人Stani Kulechov表示Aave V4可重构链上证券融资市场，目标市场规模达数万亿美元。这暗示Aave将扩展至RWA和证券代币化，对Aave及DeFi板块是长期利好，但短期无实质性进展。可能影响AAVE、CRV等DeFi币种。看多信号，但需要较长时间落地。",
+      "reason": "Aave V4概念提出，可能推动DeFi与RWA融合，中期利好。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518432.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "意大利Conio获MiCAR牌照",
+      "summary": "意大利加密金融科技公司Conio获得欧盟MiCAR加密资产服务商牌照。这是欧盟监管框架下的积极进展，利好合规交易所和托管服务，但直接行情影响有限。可能对CEX和合规代币如XRP、ADA等有轻微提振。",
+      "reason": "监管合规进展，体现欧盟对加密的接受度，但并非重大监管突破。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP", "ADA"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518433.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前时段无高价值交易消息，仅选出两条中等影响消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2427, prompt_tokens=8336, total_tokens=10763, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1994, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8320), prompt_cache_hit_tokens=8320, prompt_cache_miss_tokens=16)
+content length: 1095
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave V4将重构证券融资市场",
+      "summary": "Aave创始人表示，Aave V4可以重构链上证券融资市场，目标市场规模达数万亿美元。这可能推动Aave生态发展，吸引传统金融资金入场。对Aave代币（AAVE）和整个DeFi板块构成中长期利好。看多AAVE及DeFi代币。",
+      "reason": "该项目更新属中期影响，Aave是DeFi龙头，创始人言论可能引发市场关注和资金流入。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518432.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "意大利Conio获MiCAR牌照",
+      "summary": "意大利加密金融科技公司Conio获得MiCAR（欧盟加密资产市场法规）牌照，成为合规加密服务商。这一进展表明欧盟加密监管框架正在落地，有利提升市场信心，吸引机构入场。对ETH等合规性较强的币种略偏多。",
+      "reason": "监管利好属中期影响，MiCAR牌照落地表明合规进程推进，有助于加密市场长期发展。",
+      "category": "监管政策",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518433.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效新消息较少，多数Binance公告和恐惧贪婪指数在历史消息中已重复出现，故仅筛选出2条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1869, prompt_tokens=8336, total_tokens=10205, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1364, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8320), prompt_cache_hit_tokens=8320, prompt_cache_miss_tokens=16)
+content length: 1219
+============================================================
+{
+  "news": [
+    {
+      "title": "Aave V4重构链上证券融资",
+      "summary": "Aave创始人表示，Aave V4可以重新构建链上证券融资市场，目标市场规模达万亿美元。这一消息表明DeFi龙头项目正在向传统金融证券领域拓展，可能吸引机构资金入场，对AAVE和整个DeFi板块构成中长期利好。受影响币种主要包括AAVE、以及预期受益的DeFi代币如UNI、MKR等。从交易方向来看，此消息为bullish信号，但并非立即执行，需关注后续技术进展。",
+      "reason": "Aave是DeFi龙头，其V4版本规划指向链上证券融资，可能重塑市场结构，属项目更新类的重大发展，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE", "UNI", "MKR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518432.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "意大利金融科技公司获MiCAR牌照",
+      "summary": "意大利加密金融科技公司Conio获得MiCAR（欧盟加密资产市场法规）下的加密资产服务商牌照。这表明欧盟监管框架逐步落地，合规化进程推进，有利于合规交易所和托管机构发展，利好整体加密货币市场情绪。但Conio规模较小，直接影响有限。从交易方向看，中性偏bullish，为监管利好信号。",
+      "reason": "欧盟MiCAR牌照发放属于监管政策进展，但单个公司获牌影响不大，属优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518433.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材大量为重复历史消息，仅选取2条新消息，其余无交易价值或已包含在历史中。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2116, prompt_tokens=9442, total_tokens=11558, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1439, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8290)
+content length: 1702
+============================================================
+{
+  "news": [
+    {
+      "title": "马来西亚明确数字资产规则",
+      "summary": "马来西亚对公务员持股规定进行修订，明确数字资产相关规则。新规允许公务员持有数字资产，但需遵守持股比例不超过5%或价值不超过30万令吉（较低者）。该政策可能促进当地合规采用，对马来西亚相关代币影响有限，但整体为加密货币监管框架利好信号，视为中性偏多。",
+      "reason": "新监管动态明确数字资产规则，属于监管政策，虽在马来西亚，但表明亚洲国家逐步合规化，中期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518434.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Conio获欧盟MiCAR牌照",
+      "summary": "意大利加密金融科技公司Conio（由Poste Italiane和Banca Generali支持）已获得欧盟MiCAR框架下的加密资产服务商牌照。该牌照由意大利Consob与央行审查后授予，允许Conio提供数字资产托管、转账和配售服务。这标志着欧盟加密合规进程加速，对于欧洲加密生态系统是积极信号，可能吸引更多传统金融机构入场，中期利多。",
+      "reason": "重大监管动态，欧盟MiCAR牌照授予，表明合规推进，利好整个加密市场。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518433.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Aave V4瞄准万亿证券融资",
+      "summary": "Aave创始人Stani Kulechov发文称，Aave V4可用于重构链上证券融资市场，指出证券抵押贷款已是数万亿美元级业务，包括美国回购市场日均12.6万亿美元、保证金融资1.3万亿美元。这为Aave带来巨大叙事潜力，但V4尚未上线，属于项目长期愿景。短期可能推动Aave代币价格情绪，但需谨慎。",
+      "reason": "项目重大更新，Aave V4定位顶级市场，可能带来DeFi新叙事，影响AAVE及DeFi板块。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518432.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前有效消息较少，仅筛选出3条有交易价值的新消息。"
+}
