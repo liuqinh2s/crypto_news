@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-20",
+  "hour": "08",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11281,
+    "completion_tokens": 1050,
+    "total_tokens": 12331
+  },
+  "content_length": 1420,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"英国法院倾向以英镑折算比特币偿债\",\n      \"summary\": \"英国法院审理一起比特币偿债案件，法官倾向不允许直接用比特币偿还债务，而是以英镑按判决日汇率折算赔偿。此案若形成判例，可能影响加密货币作为支付手段的法律地位，增加市场不确定性。直接影响BTC等加密货币的合法性认知，信号偏空，但影响程度中等。\",\n      \"reason\": \"监管政策类，法院对加密货币偿债的立场可能影响未来法律框架，属于优先级一的监管动态。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518414.html\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"欧盟2027年实施新反洗钱规则\",\n      \"summary\": \"欧盟宣布自2027年起实施新反洗钱规则，现金支付上限1万欧元，并强化加密货币及高风险行业监管。此举将增加加密交易所合规成本，可能抑制散户参与，对BTC、ETH等主流币种构成中期利空。\",\n      \"reason\": \"重大监管动态，直接影响整个加密市场情绪，属于优先级一。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518413.html\"}\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数升至23仍极度恐惧\",\n      \"summary\": \"加密恐惧贪婪指数从14上升至23，仍处于极度恐惧区间。历史数据分析，极度恐惧往往是中长期买入机会，但近期市场仍受美联储鹰派打压，短期反弹空间有限。对BTC、ETH等为中性偏多信号。\",\n      \"reason\": \"市场情绪极值指标，属于优先级三，且数值有变，非重复。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"Alternative.me\", \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"}\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
