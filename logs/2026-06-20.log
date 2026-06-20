@@ -1121,3 +1121,142 @@
 2026-06-20 03:01:29 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
 2026-06-20 03:01:29 [INFO] 📦 JSON 已保存: reports/2026-06-20-11.json
 2026-06-20 03:01:29 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-06-20 04:00:48 [INFO] 🚀 开始抓取 2026-06-20 12:00 币圈新闻
+2026-06-20 04:00:48 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-20 04:00:48 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-20 04:00:48 [INFO]   ⏭ Decrypt: 过滤掉 36 条非近期新闻
+2026-06-20 04:00:48 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-06-20 04:00:48 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-06-20 04:00:48 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:48 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:48 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-20 04:00:48 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-20 04:00:48 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-20 04:00:48 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:48 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:48 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 22 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ 宏观经济: 过滤掉 43 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ Blockworks: 过滤掉 6 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-06-20 04:00:49 [INFO]   ⏭ Crypto Twitter: 过滤掉 48 条非近期新闻
+2026-06-20 04:00:51 [INFO]   ⏭ CoinTelegraph: 过滤掉 22 条非近期新闻
+2026-06-20 04:00:51 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-06-20 04:01:03 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-20 04:01:03 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-20 04:01:03 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-20 04:01:04 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-20 04:01:04 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-20 04:01:04 [INFO]   ✓ CoinDesk: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ The Block: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Decrypt: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ CoinTelegraph: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Blockworks: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ DL News: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ 金色财经: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ PANews: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Reddit r/cryptocurrency: 3 条
+2026-06-20 04:01:04 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Crypto Twitter: 2 条
+2026-06-20 04:01:04 [INFO]   ✓ 宏观经济: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Binance公告: 20 条
+2026-06-20 04:01:04 [INFO]   ✓ OKX公告: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Bitget公告: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Whale Alert: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-20 04:01:04 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-20 04:01:04 [INFO]   ✓ 雪球加密: 1 条
+2026-06-20 04:01:04 [INFO] 📊 共抓取 27 条新闻
+2026-06-20 04:01:04 [INFO] 📋 原始新闻已保存: reports/2026-06-20-12-raw.json (27 条)
+2026-06-20 04:01:04 [INFO] 📋 标题摘要已保存: reports/2026-06-20-12-raw-titles.md
+2026-06-20 04:01:04 [INFO] ✅ 抓取完成，共 27 条，已保存到 reports/2026-06-20-12-raw.json
+2026-06-20 04:01:05 [INFO] 🤖 开始 AI 筛选 2026-06-20 12:00 币圈消息
+2026-06-20 04:01:05 [INFO] 📋 已加载原始新闻: reports/2026-06-20-12-raw.json (27 条)
+2026-06-20 04:01:05 [INFO] 📚 已加载历史新闻标题（17385 字符）
+2026-06-20 04:01:05 [INFO] 📚 已加载历史筛选标题 19 条、URL 19 个，用于去重
+2026-06-20 04:01:05 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-20 04:01:05 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-20 04:01:05 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（27 条，5623 字符，temp=0.3）
+2026-06-20 04:01:19 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 139 字符)
+2026-06-20 04:01:19 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-12-ai-raw.json
+2026-06-20 04:01:19 [DEBUG] parse_json_response 输入长度: 139 字符
+2026-06-20 04:01:19 [DEBUG] 输入内容前 300 字符: {"news": [], "note": "本轮抓取素材均为历史重复内容，没有新的值得关注的消息。恐惧贪婪指数23与之前持平，Binance公告均为旧公告，雪球爆仓消息已重复。建议关注Chainlink巨量转入交易所、CME起诉CFTC、美联储鹰派立场等历史消息的持续影响。"}
+2026-06-20 04:01:19 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-20 04:01:19 [INFO] ✅ AI 返回 0 条新闻
+2026-06-20 04:01:19 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-06-20 04:01:19 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（27 条，5623 字符，temp=0.3）
+2026-06-20 04:01:32 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 114 字符)
+2026-06-20 04:01:32 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-12-ai-raw.json
+2026-06-20 04:01:32 [DEBUG] parse_json_response 输入长度: 114 字符
+2026-06-20 04:01:32 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取素材全部为历史重复信息或无关讨论，无新增关键交易消息。恐惧贪婪指数23与前几小时相同，Binance公告均为旧闻，雪球财经重复报道同一事件。建议关注后续新动态。"
+}
+2026-06-20 04:01:32 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-20 04:01:32 [INFO] ✅ AI 返回 0 条新闻
+2026-06-20 04:01:32 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 返回空数组，将重试
+2026-06-20 04:01:32 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（27 条，5623 字符，temp=0.3）
+2026-06-20 04:01:49 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 109 字符)
+2026-06-20 04:01:49 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-12-ai-raw.json
+2026-06-20 04:01:49 [DEBUG] parse_json_response 输入长度: 109 字符
+2026-06-20 04:01:49 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮抓取素材与近6小时历史消息高度重复，无新增有交易价值的信息。Fear & Greed指数维持23，Binance公告均为重复内容，市场集体杀跌事件已反映。"
+}
+2026-06-20 04:01:49 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-20 04:01:49 [INFO] ✅ AI 返回 0 条新闻
+2026-06-20 04:01:49 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 返回空数组，将重试
+2026-06-20 04:01:49 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（27 条，8295 字符，temp=0.3）
+2026-06-20 04:02:01 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 60 字符)
+2026-06-20 04:02:01 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-12-ai-raw.json
+2026-06-20 04:02:01 [DEBUG] parse_json_response 输入长度: 60 字符
+2026-06-20 04:02:01 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮素材中所有消息均为历史重复或低价值内容，无新增关键消息。"
+}
+2026-06-20 04:02:01 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-20 04:02:01 [INFO] ✅ AI 返回 0 条新闻
+2026-06-20 04:02:01 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 返回空数组，将重试
+2026-06-20 04:02:01 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（27 条，8295 字符，temp=0.3）
+2026-06-20 04:02:12 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 96 字符)
+2026-06-20 04:02:12 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-12-ai-raw.json
+2026-06-20 04:02:12 [DEBUG] parse_json_response 输入长度: 96 字符
+2026-06-20 04:02:12 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本轮素材全部与历史消息重复或属于排除项（如普通讨论、已发布的Binance公告、重复的恐惧贪婪指数等），未发现可筛选的高价值新消息。"
+}
+2026-06-20 04:02:12 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-20 04:02:12 [INFO] ✅ AI 返回 0 条新闻
+2026-06-20 04:02:12 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 返回空数组，将重试
+2026-06-20 04:02:12 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（27 条，5623 字符，temp=0.3）
+2026-06-20 04:02:38 [INFO] AI 原始返回已保存: logs/2026-06-20-ai-response.txt (finish_reason=stop, 2507 字符)
+2026-06-20 04:02:38 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-20-12-ai-raw.json
+2026-06-20 04:02:38 [DEBUG] parse_json_response 输入长度: 2507 字符
+2026-06-20 04:02:38 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Binance上架RE代币",
+      "summary": "Binance宣布上线Re (RE) 现货并开放Earn、Margin、Futures等产品，RE将附带种子标签。新币上线通常带来短期交易量激增和价格波动，但种子标签提示高风险。对RE看多，但需注意抛压风险。",
+      "reason": "直接影响行情：交易所上币对应币种，符合优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish
+2026-06-20 04:02:38 [DEBUG] 从 JSON 对象的 news 字段提取到 4 条记录
+2026-06-20 04:02:38 [INFO] ✅ AI 返回 4 条新闻
+2026-06-20 04:02:38 [INFO] ✅ AI 筛选出 4 条交易相关消息，符合预期
+2026-06-20 04:02:38 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
+2026-06-20 04:02:38 [INFO] 📦 JSON 已保存: reports/2026-06-20-12.json
+2026-06-20 04:02:38 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
