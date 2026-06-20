@@ -1906,3 +1906,94 @@ content length: 2648
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2398, prompt_tokens=8424, total_tokens=10822, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1151, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7272)
+content length: 3040
+============================================================
+{
+  "news": [
+    {
+      "title": "俄罗斯核威胁升级",
+      "summary": "俄罗斯宣称霍尔木兹海峡将被视为核武器使用区域，这是针对该地区紧张局势的极端升级。霍尔木兹海峡是全球最重要的石油运输通道，此言论可能引发原油价格飙升和全球避险情绪。加密货币作为风险资产，短期内可能承压下跌，但若冲突导致法币体系动荡，比特币的避险属性可能在中长期显现。交易建议：短期看空BTC/ETH，但需警惕极端事件带来的波动性放大。",
+      "reason": "地缘政治极端事件，直接影响全球风险偏好，属于优先级一（重大监管/地缘动态），对BTC和ETH有强烈短期利空影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518444.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Grant Cardone买入282 BTC",
+      "summary": "知名亿万富翁Grant Cardone在加密货币抛售期间购买了282枚比特币，价值约1900万美元。此举显示机构和高净值投资者在下跌中逢低买入，对比特币价格形成支撑。历史类似行为常伴随后续反弹，当前恐惧贪婪指数23（极度恐惧），该买入行为可能预示市场底部区域。交易建议：中长期看多BTC，短期可能提振市场情绪。",
+      "reason": "机构买入信号，属于优先级二（机构动向），直接利好BTC，市场情绪影响大。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1uar6lf/grant_cardone_scoops_up_282_btc_as_crypto_selloff/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tom Lee驳斥以太坊FUD",
+      "summary": "Tom Lee（Fundstrat联合创始人）在接受采访时表示，以太坊的资金危机担忧被夸大，强调以太坊基本面强劲，并将继续支持智能合约生态。该言论可能缓解近期市场对以太坊流动性和安全性的恐惧，ETH价格近期承压，此消息属利好。交易建议：短期看多ETH，可能触发空头回补。",
+      "reason": "知名分析师正面表态，属于市场情绪信号（KOL观点），直接关联ETH，可视为短期反转信号。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWEJmN0N1TWJ2Yy03QTZXZjczLXdhaWVrVXNUVXNTZXppbWVFY0JtbEhNY3hKbEItTlgtWDNuckdVUkNaZ3k3TDJzM2hrcFd1eHJIOUtxV2xnOHdUZ2d1SEsyblBneHRkSjNOX3pkQk1CNUJpcEtsS1dMUWY0TjUxTzd0TE1IbDlmam5wUGVaNWhlWXBEb3RtSFdvVjdwcGM?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CZ：AI代理将用区块链",
+      "summary": "CZ（赵长鹏）在社媒发言称，AI代理交易和支付将在数月内到来，并且会使用区块链技术。此言论可能推动AI+加密赛道热度，特别是BNB Chain生态相关代币。CZ作为行业领袖，其观点常引发市场关注。交易建议：短期看多BNB及AI概念币，但需注意消息面驱动的波动。",
+      "reason": "行业领袖言论，属于优先级三（市场情绪），直接影响AI和BNB Chain相关代币，有一定炒作空间。",
+      "category": "市场情绪",
+      "impact_coins": ["BNB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518443.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美高级代表团抵瑞士",
+      "summary": "美国高级代表团已抵达瑞士，可能进行乌克兰危机相关谈判。若谈判取得进展，将缓解地缘政治紧张局势，利好风险资产包括加密货币。但若谈判破裂，可能加剧市场不确定性。目前消息面中性偏多，因谈判本身带来缓和预期。交易建议：短期中性，但后续进展需关注。",
+      "reason": "地缘政治谈判，属于宏观经济，影响全球风险偏好，可能改善市场情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518446.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
