@@ -1077,3 +1077,79 @@ content length: 1420
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1790, prompt_tokens=10039, total_tokens=11829, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=933, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8887)
+content length: 2162
+============================================================
+{
+  "news": [
+    {
+      "title": "Chainlink巨鲸向币安存入1837万LINK",
+      "summary": "链上数据显示，Chainlink非流通供应钱包在6月20日向币安存入1837.5万枚LINK，价值约1.4493亿美元。这通常被解读为潜在的抛售信号，因为大额转入交易所可能意味着项目方或早期投资者准备减持。该事件直接影响LINK价格，短期看空。同时可能对整体市场情绪产生负面影响，但BTC/ETH受影响较小。",
+      "reason": "优先级一：巨鲸异动，大额转入交易所=可能抛售，直接影响LINK价格，属于链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["LINK"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518417.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SOL突破70美元",
+      "summary": "6月20日，SOL价格突破70美元关口，当前报70.2美元。此前SOL随大盘下跌，本次反弹可能受技术支撑或短期资金推动。但整体市场仍处于调整中，美联储鹰派立场未变，SOL能否站稳70美元有待观察。短期看中性偏多，但需警惕回调风险。",
+      "reason": "优先级三：价格突破重要心理关口，可能引发短期交易机会，但无明确基本面变化，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["SOL"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518415.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Sonic调整领导层，Matt Visser任CEO",
+      "summary": "Sonic（前身为Fantom）宣布领导层调整，Matt Visser将出任首席执行官。这一变动可能影响项目未来发展路线和战略执行。短期对币价影响有限，但若新CEO带来积极进展，中长期可能利好。目前评级中性，关注后续公告。",
+      "reason": "优先级二：项目重大事件（管理层变动），但非立即影响价格，属于项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["SONIC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518418.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Crypto-Pal创始人因诈骗面临最高20年监禁",
+      "summary": "加密平台Crypto-Pal创始人因涉及近100万美元的诈骗案被定罪，面临最高20年监禁。该事件表明监管机构对加密欺诈的打击力度加大，可能短期影响市场信任度，但对主流币种影响微弱。属于个案，不构成系统性风险。",
+      "reason": "优先级二：监管动态（执法案例），但金额较小，对市场影响有限。",
+      "category": "监管政策",
+      "impact_coins": [],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518416.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分与历史消息重复（如Binance公告、恐惧贪婪指数、社区抗议等），仅筛选出4条新消息。"
+}
