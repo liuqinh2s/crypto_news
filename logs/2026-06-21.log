@@ -82,3 +82,146 @@
 2026-06-20 16:01:23 [DEBUG]   去重: 「BTC网络活动上升CryptoQuant」 → URL重复: https://decrypt.co/371702/bitcoin-network-activity-rising-bt
 2026-06-20 16:01:23 [INFO] 📦 JSON 已保存: reports/2026-06-21-00.json
 2026-06-20 16:01:23 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-06-20 17:00:59 [INFO] 🚀 开始抓取 2026-06-21 01:00 币圈新闻
+2026-06-20 17:00:59 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-20 17:00:59 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-20 17:00:59 [INFO]   ⏭ Decrypt: 过滤掉 36 条非近期新闻
+2026-06-20 17:00:59 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-06-20 17:00:59 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-06-20 17:01:00 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-20 17:01:00 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-20 17:01:00 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-20 17:01:00 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-20 17:01:00 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-06-20 17:01:03 [INFO]   ⏭ CoinTelegraph: 过滤掉 22 条非近期新闻
+2026-06-20 17:01:15 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-20 17:01:15 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-20 17:01:15 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-20 17:01:24 [INFO]   ✓ CoinDesk: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ The Block: 1 条
+2026-06-20 17:01:24 [INFO]   ✓ Decrypt: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ CoinTelegraph: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Blockworks: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ DL News: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ 金色财经: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ PANews: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-06-20 17:01:24 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Crypto Twitter: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ 宏观经济: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Binance公告: 20 条
+2026-06-20 17:01:24 [INFO]   ✓ OKX公告: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Bitget公告: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Whale Alert: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-20 17:01:24 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-20 17:01:24 [INFO]   ✓ 雪球加密: 0 条
+2026-06-20 17:01:24 [INFO] 📊 共抓取 24 条新闻
+2026-06-20 17:01:24 [INFO] 📋 原始新闻已保存: reports/2026-06-21-01-raw.json (24 条)
+2026-06-20 17:01:24 [INFO] 📋 标题摘要已保存: reports/2026-06-21-01-raw-titles.md
+2026-06-20 17:01:24 [INFO] ✅ 抓取完成，共 24 条，已保存到 reports/2026-06-21-01-raw.json
+2026-06-20 17:01:25 [INFO] 🤖 开始 AI 筛选 2026-06-21 01:00 币圈消息
+2026-06-20 17:01:25 [INFO] 📋 已加载原始新闻: reports/2026-06-21-01-raw.json (24 条)
+2026-06-20 17:01:25 [INFO] 📚 已加载历史新闻标题（17513 字符）
+2026-06-20 17:01:25 [INFO] 📚 已加载历史筛选标题 17 条、URL 18 个，用于去重
+2026-06-20 17:01:25 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-20 17:01:25 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-20 17:01:25 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（24 条，4512 字符，temp=0.3）
+2026-06-20 17:01:38 [INFO] AI 原始返回已保存: logs/2026-06-21-ai-response.txt (finish_reason=stop, 658 字符)
+2026-06-20 17:01:38 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-21-01-ai-raw.json
+2026-06-20 17:01:38 [DEBUG] parse_json_response 输入长度: 658 字符
+2026-06-20 17:01:38 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Sonic Labs创始人辞职，S跌97%",
+      "summary": "Andre Cronje等三人从Sonic Labs董事会辞职，其代币S较峰值下跌97%。这可能引发市场对Sonic生态信心的进一步下滑，利空S及相关DeFi代币。但事件本身对BTC/ETH等主流币影响有限。",
+      "reason": "项目方重大人事变动，代币价格暴跌，属于优先级一中的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "
+2026-06-20 17:01:38 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-20 17:01:38 [INFO] ✅ AI 返回 1 条新闻
+2026-06-20 17:01:38 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-06-20 17:01:38 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（24 条，4512 字符，temp=0.3）
+2026-06-20 17:01:47 [INFO] AI 原始返回已保存: logs/2026-06-21-ai-response.txt (finish_reason=stop, 705 字符)
+2026-06-20 17:01:47 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-21-01-ai-raw.json
+2026-06-20 17:01:47 [DEBUG] parse_json_response 输入长度: 705 字符
+2026-06-20 17:01:47 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Cronje等三人辞任Sonic Labs董事",
+      "summary": "Andre Cronje及另外两位董事会成员从Sonic Labs辞职，该项目的S代币目前已较峰值下跌97%。这属于项目核心人物离职的重大负面事件，可能进一步打击市场信心，引发S代币继续下跌。对Sonic生态内的其他代币也可能产生负面影响。信号看空。",
+      "reason": "项目核心创始人离职属于优先级一中的项目方重大事件，直接影响代币价格。S代币已暴跌97%，消息发布后可能引发进一步抛售。",
+      "catego
+2026-06-20 17:01:47 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-20 17:01:47 [INFO] ✅ AI 返回 1 条新闻
+2026-06-20 17:01:47 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-06-20 17:01:47 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（24 条，4512 字符，temp=0.3）
+2026-06-20 17:01:58 [INFO] AI 原始返回已保存: logs/2026-06-21-ai-response.txt (finish_reason=stop, 697 字符)
+2026-06-20 17:01:58 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-21-01-ai-raw.json
+2026-06-20 17:01:58 [DEBUG] parse_json_response 输入长度: 697 字符
+2026-06-20 17:01:58 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Andre Cronje辞职 Sonic Labs受挫",
+      "summary": "Sonic Labs联合创始人Andre Cronje及另外两人辞去董事会职务，当前S代币价格较历史峰值下跌97%。该项目核心人物离职可能导致市场信心崩塌，S代币面临进一步抛压，并可能波及相关DeFi生态。看空S代币及关联项目。",
+      "reason": "项目方核心人物离职是重大利空事件，直接影响Sonic Labs代币价格，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+  
+2026-06-20 17:01:58 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-20 17:01:58 [INFO] ✅ AI 返回 1 条新闻
+2026-06-20 17:01:58 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 1 条（期望 3），将重试
+2026-06-20 17:01:58 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（24 条，6816 字符，temp=0.3）
+2026-06-20 17:02:20 [INFO] AI 原始返回已保存: logs/2026-06-21-ai-response.txt (finish_reason=stop, 733 字符)
+2026-06-20 17:02:20 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-21-01-ai-raw.json
+2026-06-20 17:02:20 [DEBUG] parse_json_response 输入长度: 733 字符
+2026-06-20 17:02:20 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Andre Cronje等三人辞任Sonic Labs董事",
+      "summary": "Sonic Labs（原Fantom）三位联合创始人包括Andre Cronje辞去董事会职务，但仍保留投资。S代币已较峰值下跌97%。此事件可能打击市场对Sonic未来发展信心，尤其核心人物退出。受影响币种包括S（原FTM）。看空信号，因为核心领导层变动通常导致项目不确定性增加，可能引发抛售。",
+      "reason": "核心人物辞任属重大项目更新，直接影响币价信心，符合优先级一项目方重大事件。",
+      
+2026-06-20 17:02:20 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-20 17:02:20 [INFO] ✅ AI 返回 1 条新闻
+2026-06-20 17:02:20 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-06-20 17:02:20 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（24 条，6816 字符，temp=0.3）
+2026-06-20 17:02:34 [INFO] AI 原始返回已保存: logs/2026-06-21-ai-response.txt (finish_reason=stop, 691 字符)
+2026-06-20 17:02:34 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-21-01-ai-raw.json
+2026-06-20 17:02:34 [DEBUG] parse_json_response 输入长度: 691 字符
+2026-06-20 17:02:34 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Sonic Labs三名董事辞职",
+      "summary": "Sonic Labs（原Fantom）宣布Andre Cronje等三人从董事会辞职，但称他们仍投资于Sonic的成功。S代币当前交易价较峰值下跌97%，消息加剧市场对项目治理稳定性的担忧，可能进一步打压S价格。对S币种为看空信号。",
+      "reason": "优先级一：项目方重大事件——核心人物辞职，代币价格已大幅下跌，可能引发进一步抛售。",
+      "category": "项目更新",
+      "impact_coins":
+2026-06-20 17:02:34 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-20 17:02:34 [INFO] ✅ AI 返回 1 条新闻
+2026-06-20 17:02:34 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-06-20 17:02:34 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（24 条，4512 字符，temp=0.3）
+2026-06-20 17:03:01 [INFO] AI 原始返回已保存: logs/2026-06-21-ai-response.txt (finish_reason=stop, 2176 字符)
+2026-06-20 17:03:01 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-21-01-ai-raw.json
+2026-06-20 17:03:01 [DEBUG] parse_json_response 输入长度: 2176 字符
+2026-06-20 17:03:01 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Sonic Labs三位董事辞职，S币暴跌97%",
+      "summary": "Andre Cronje等三位董事从Sonic Labs董事会辞职，S代币价格已较峰值下跌97%。此事件反映项目内部治理危机，可能进一步打压市场信心，对S代币构成重大利空。投资者应警惕恐慌性抛售风险。",
+      "reason": "项目核心人物离职属于优先级一项目方重大事件，直接影响S代币价格。",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "si
+2026-06-20 17:03:01 [DEBUG] 从 JSON 对象的 news 字段提取到 4 条记录
+2026-06-20 17:03:01 [INFO] ✅ AI 返回 4 条新闻
+2026-06-20 17:03:01 [INFO] ✅ AI 筛选出 4 条交易相关消息，符合预期
+2026-06-20 17:03:01 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
+2026-06-20 17:03:01 [INFO] 📦 JSON 已保存: reports/2026-06-21-01.json
+2026-06-20 17:03:01 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息

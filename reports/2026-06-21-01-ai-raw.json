@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-21",
+  "hour": "01",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3154,
+    "completion_tokens": 2049,
+    "total_tokens": 5203
+  },
+  "content_length": 2176,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Sonic Labs三位董事辞职，S币暴跌97%\",\n      \"summary\": \"Andre Cronje等三位董事从Sonic Labs董事会辞职，S代币价格已较峰值下跌97%。此事件反映项目内部治理危机，可能进一步打压市场信心，对S代币构成重大利空。投资者应警惕恐慌性抛售风险。\",\n      \"reason\": \"项目核心人物离职属于优先级一项目方重大事件，直接影响S代币价格。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"S\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/405450/andre-cronje-two-others-resign-from-sonic-labs-board-as-s-token-trades-97-below-its-peak\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Binance上架RE代币（含现货及合约）\",\n      \"summary\": \"Binance宣布将上线RE代币（Re），并同步支持Earn、保证金、合约等产品，种子标签已应用。上架交易所通常带来短期流动性涌入，但种子标签提示高风险。RE价格可能经历剧烈波动，短期多为炒作行情。\",\n      \"reason\": \"交易所上币直接对应币种影响，属于优先级一。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"RE\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数降至23（极度恐惧）\",\n      \"summary\": \"加密货币恐惧与贪婪指数跌至23，处于极度恐惧区间。历史数据显示该区域往往是中长期抄底窗口，但短期可能继续下探。市场情绪极度悲观，需关注是否出现恐慌性抛售。\",\n      \"reason\": \"极端情绪指标属于优先级三市场情绪信号，极值区具有反转意义。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Binance上架SpaceX代币化证券（bStocks）\",\n      \"summary\": \"Binance现货市场新增bStocks代币化证券SpaceX（SPCXB），允许用户交易SpaceX股票代币。该产品将传统股票引入链上，可能吸引部分投资需求，但整体市场规模较小，对主流币影响有限。\",\n      \"reason\": \"传统金融资产代币化上架属于交易所动态，但非直接主流币影响，优先级较低。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"SPCXB\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/191cb96109f24c5c85362631a55a45d3\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

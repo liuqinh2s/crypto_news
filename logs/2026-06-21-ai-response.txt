@@ -89,3 +89,218 @@ content length: 2520
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=906, prompt_tokens=8562, total_tokens=9468, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=649, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7410)
+content length: 658
+============================================================
+{
+  "news": [
+    {
+      "title": "Sonic Labs创始人辞职，S跌97%",
+      "summary": "Andre Cronje等三人从Sonic Labs董事会辞职，其代币S较峰值下跌97%。这可能引发市场对Sonic生态信心的进一步下滑，利空S及相关DeFi代币。但事件本身对BTC/ETH等主流币影响有限。",
+      "reason": "项目方重大人事变动，代币价格暴跌，属于优先级一中的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405450/andre-cronje-two-others-resign-from-sonic-labs-board-as-s-token-trades-97-below-its-peak"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中除本条外，其余均为历史重复消息或低价值内容，故仅输出1条有效新闻。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=626, prompt_tokens=8562, total_tokens=9188, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=352, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8448), prompt_cache_hit_tokens=8448, prompt_cache_miss_tokens=114)
+content length: 705
+============================================================
+{
+  "news": [
+    {
+      "title": "Cronje等三人辞任Sonic Labs董事",
+      "summary": "Andre Cronje及另外两位董事会成员从Sonic Labs辞职，该项目的S代币目前已较峰值下跌97%。这属于项目核心人物离职的重大负面事件，可能进一步打击市场信心，引发S代币继续下跌。对Sonic生态内的其他代币也可能产生负面影响。信号看空。",
+      "reason": "项目核心创始人离职属于优先级一中的项目方重大事件，直接影响代币价格。S代币已暴跌97%，消息发布后可能引发进一步抛售。",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405450/andre-cronje-two-others-resign-from-sonic-labs-board-as-s-token-trades-97-below-its-peak"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮素材中多数为重复或无关消息，仅筛选出一条符合标准的有效交易信息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=804, prompt_tokens=8562, total_tokens=9366, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=532, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8448), prompt_cache_hit_tokens=8448, prompt_cache_miss_tokens=114)
+content length: 697
+============================================================
+{
+  "news": [
+    {
+      "title": "Andre Cronje辞职 Sonic Labs受挫",
+      "summary": "Sonic Labs联合创始人Andre Cronje及另外两人辞去董事会职务，当前S代币价格较历史峰值下跌97%。该项目核心人物离职可能导致市场信心崩塌，S代币面临进一步抛压，并可能波及相关DeFi生态。看空S代币及关联项目。",
+      "reason": "项目方核心人物离职是重大利空事件，直接影响Sonic Labs代币价格，属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405450/andre-cronje-two-others-resign-from-sonic-labs-board-as-s-token-trades-97-below-its-peak"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中，除上述新闻外，其余均为重复历史消息或低价值内容，因此仅筛选出1条有效消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1657, prompt_tokens=9278, total_tokens=10935, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1368, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8126)
+content length: 733
+============================================================
+{
+  "news": [
+    {
+      "title": "Andre Cronje等三人辞任Sonic Labs董事",
+      "summary": "Sonic Labs（原Fantom）三位联合创始人包括Andre Cronje辞去董事会职务，但仍保留投资。S代币已较峰值下跌97%。此事件可能打击市场对Sonic未来发展信心，尤其核心人物退出。受影响币种包括S（原FTM）。看空信号，因为核心领导层变动通常导致项目不确定性增加，可能引发抛售。",
+      "reason": "核心人物辞任属重大项目更新，直接影响币价信心，符合优先级一项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["S", "FTM"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405450/andre-cronje-two-others-resign-from-sonic-labs-board-as-s-token-trades-97-below-its-peak"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取素材中大部分为Binance重复公告及已出现过的市场情绪数据，仅一条新消息符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1048, prompt_tokens=9278, total_tokens=10326, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=776, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9216), prompt_cache_hit_tokens=9216, prompt_cache_miss_tokens=62)
+content length: 691
+============================================================
+{
+  "news": [
+    {
+      "title": "Sonic Labs三名董事辞职",
+      "summary": "Sonic Labs（原Fantom）宣布Andre Cronje等三人从董事会辞职，但称他们仍投资于Sonic的成功。S代币当前交易价较峰值下跌97%，消息加剧市场对项目治理稳定性的担忧，可能进一步打压S价格。对S币种为看空信号。",
+      "reason": "优先级一：项目方重大事件——核心人物辞职，代币价格已大幅下跌，可能引发进一步抛售。",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405450/andre-cronje-two-others-resign-from-sonic-labs-board-as-s-token-trades-97-below-its-peak"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为历史重复的Binance公告或时效性不足的内容，仅有一条涉及项目重大人事变动的消息符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2049, prompt_tokens=3154, total_tokens=5203, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1228, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2002)
+content length: 2176
+============================================================
+{
+  "news": [
+    {
+      "title": "Sonic Labs三位董事辞职，S币暴跌97%",
+      "summary": "Andre Cronje等三位董事从Sonic Labs董事会辞职，S代币价格已较峰值下跌97%。此事件反映项目内部治理危机，可能进一步打压市场信心，对S代币构成重大利空。投资者应警惕恐慌性抛售风险。",
+      "reason": "项目核心人物离职属于优先级一项目方重大事件，直接影响S代币价格。",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405450/andre-cronje-two-others-resign-from-sonic-labs-board-as-s-token-trades-97-below-its-peak"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上架RE代币（含现货及合约）",
+      "summary": "Binance宣布将上线RE代币（Re），并同步支持Earn、保证金、合约等产品，种子标签已应用。上架交易所通常带来短期流动性涌入，但种子标签提示高风险。RE价格可能经历剧烈波动，短期多为炒作行情。",
+      "reason": "交易所上币直接对应币种影响，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至23（极度恐惧）",
+      "summary": "加密货币恐惧与贪婪指数跌至23，处于极度恐惧区间。历史数据显示该区域往往是中长期抄底窗口，但短期可能继续下探。市场情绪极度悲观，需关注是否出现恐慌性抛售。",
+      "reason": "极端情绪指标属于优先级三市场情绪信号，极值区具有反转意义。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上架SpaceX代币化证券（bStocks）",
+      "summary": "Binance现货市场新增bStocks代币化证券SpaceX（SPCXB），允许用户交易SpaceX股票代币。该产品将传统股票引入链上，可能吸引部分投资需求，但整体市场规模较小，对主流币影响有限。",
+      "reason": "传统金融资产代币化上架属于交易所动态，但非直接主流币影响，优先级较低。",
+      "category": "交易所",
+      "impact_coins": ["SPCXB"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/191cb96109f24c5c85362631a55a45d3"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
