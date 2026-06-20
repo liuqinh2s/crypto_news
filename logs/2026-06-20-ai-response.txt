@@ -1997,3 +1997,63 @@ content length: 3040
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4217, prompt_tokens=8567, total_tokens=12784, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3171, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7415)
+content length: 2179
+============================================================
+{
+  "news": [
+    {
+      "title": "韩国芯片奖金或推高通胀",
+      "summary": "韩国芯片工人获得巨额奖金，引发央行通胀警惕，可能迫使韩国央行收紧货币政策。紧缩预期通常导致风险资产资金外流，对加密市场构成利空。受影响币种包括BTC、ETH等主流币。",
+      "reason": "宏观经济事件可能影响全球流动性预期，符合中期影响行情的标准。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYVI2MVhwTzJvWEVXTUdXWlF1Q3dlbjBYNU14YVI0MEhrbUUzYkp4NTRfZi1Yd3hvQ3RxMGNURTRGZXpLbXhlaUpNcVpQMHQ0LUJoRzBXNk5NMnpiYXVQc1o3N2VONHlidUZfSnFqUjZWdHZTRjFmdUlJck5CNTloN2g4OEc3amdGQ01SNVg0eHViTTlO0gGaAUFVX3lxTE9aVlk0U2hDNER1amp4ZmJYYnNjMV9OSXZYaDQzeERlUkJ1My1zQjBXNHctR1R4bVFMT05TNTFXc3RyRTNZTlU3Z0NCMWhBUVNtRjNaMlRfOVlGdDdLOHkzdVV0V3I0NEgySUhIU1I1SlBuUGQ5UHhQZkd1T3lGa2VuTWVlUms2VjY3OFhsenIwU19jS1N4UGs1bmc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币反弹突破63000美元",
+      "summary": "比特币价格在近期下跌后反弹至63000美元上方，市场情绪有所改善。恐惧贪婪指数仍处于23的极度恐惧区域，反弹可能吸引抄底资金。短期看多，但需关注监管进展。",
+      "reason": "价格直接反映市场情绪，结合恐惧贪婪指数低位，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSlhVZU0tVjZjbDVEQ082WERRTmdmbDdhOTMyVnVDWUVoVkFDQzZBdjlqNGFOUUo0c0lxWXVKcThOR0tobTBKcWg3ajQ5UEZpT3p4UXFrbm03cnhXa3dqbVVEemFpSDhmOVBCMTVhRk84cGNjQm5KSkpmN0ZxZUZLc0FFYW9jVzJqVzNPT1BBOG8wUHFFYU9zUlIyUzFUTW1sMnJjRXQ2WG9saDZJaW43R0NucmhqbEhtWWVDV3ZsLU9tVHNGZHpzVA?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "黎巴嫩军方指责以色列持续袭击",
+      "summary": "黎巴嫩军方称以方持续袭击阻挠恢复稳定的努力，中东地缘紧张加剧。冲突升级可能引发避险情绪，资金流出风险资产，对加密市场构成短期利空。",
+      "reason": "地缘政治事件可能引发市场避险，属于中期影响因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518448.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前6小时内有效新消息较少，Binance公告均为重复内容，恐惧贪婪指数未变，故仅筛选出3条具有交易价值的新消息。"
+}

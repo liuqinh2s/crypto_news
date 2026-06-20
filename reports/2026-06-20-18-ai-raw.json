@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-20",
+  "hour": "18",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8567,
+    "completion_tokens": 4217,
+    "total_tokens": 12784
+  },
+  "content_length": 2179,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"韩国芯片奖金或推高通胀\",\n      \"summary\": \"韩国芯片工人获得巨额奖金，引发央行通胀警惕，可能迫使韩国央行收紧货币政策。紧缩预期通常导致风险资产资金外流，对加密市场构成利空。受影响币种包括BTC、ETH等主流币。\",\n      \"reason\": \"宏观经济事件可能影响全球流动性预期，符合中期影响行情的标准。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CNBC\",\n          \"url\": \"https://news.google.com/rss/articles/CBMilAFBVV95cUxPYVI2MVhwTzJvWEVXTUdXWlF1Q3dlbjBYNU14YVI0MEhrbUUzYkp4NTRfZi1Yd3hvQ3RxMGNURTRGZXpLbXhlaUpNcVpQMHQ0LUJoRzBXNk5NMnpiYXVQc1o3N2VONHlidUZfSnFqUjZWdHZTRjFmdUlJck5CNTloN2g4OEc3amdGQ01SNVg0eHViTTlO0gGaAUFVX3lxTE9aVlk0U2hDNER1amp4ZmJYYnNjMV9OSXZYaDQzeERlUkJ1My1zQjBXNHctR1R4bVFMT05TNTFXc3RyRTNZTlU3Z0NCMWhBUVNtRjNaMlRfOVlGdDdLOHkzdVV0V3I0NEgySUhIU1I1SlBuUGQ5UHhQZkd1T3lGa2VuTWVlUms2VjY3OFhsenIwU19jS1N4UGs1bmc?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"比特币反弹突破63000美元\",\n      \"summary\": \"比特币价格在近期下跌后反弹至63000美元上方，市场情绪有所改善。恐惧贪婪指数仍处于23的极度恐惧区域，反弹可能吸引抄底资金。短期看多，但需关注监管进展。\",\n      \"reason\": \"价格直接反映市场情绪，结合恐惧贪婪指数低位，属于市场情绪信号。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Investing.com\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSlhVZU0tVjZjbDVEQ082WERRTmdmbDdhOTMyVnVDWUVoVkFDQzZBdjlqNGFOUUo0c0lxWXVKcThOR0tobTBKcWg3ajQ5UEZpT3p4UXFrbm03cnhXa3dqbVVEemFpSDhmOVBCMTVhRk84cGNjQm5KSkpmN0ZxZUZLc0FFYW9jVzJqVzNPT1BBOG8wUHFFYU9zUlIyUzFUTW1sMnJjRXQ2WG9saDZJaW43R0NucmhqbEhtWWVDV3ZsLU9tVHNGZHpzVA?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"黎巴嫩军方指责以色列持续袭击\",\n      \"summary\": \"黎巴嫩军方称以方持续袭击阻挠恢复稳定的努力，中东地缘紧张加剧。冲突升级可能引发避险情绪，资金流出风险资产，对加密市场构成短期利空。\",\n      \"reason\": \"地缘政治事件可能引发市场避险，属于中期影响因素。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518448.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前6小时内有效新消息较少，Binance公告均为重复内容，恐惧贪婪指数未变，故仅筛选出3条具有交易价值的新消息。\"\n}"
+}
