@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-21",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9611,
+    "completion_tokens": 2863,
+    "total_tokens": 12474
+  },
+  "content_length": 1897,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"GENIUS法案将稳定币公司绑美债\",\n      \"summary\": \"美国GENIUS法案被批评为强制稳定币发行商持有高比例美债作为储备，可能降低稳定币的流动性和灵活性，导致资金从加密市场撤离。该法案主要影响USDT/USDC等稳定币，间接减少BTC和ETH等主流币的流动性供给。从做多视角看，这是一个bearish信号，因为可能引发资金外流和市场抛压。\",\n      \"reason\": \"稳定币监管动态直接影响市场流动性，属于优先级一的监管政策。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDT\", \"USDC\", \"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1ub1thl/the_genius_act_was_sold_as_crypto_regulation_it/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Hedera网络强但代币低迷\",\n      \"summary\": \"Hedera网络基础面良好但代币HBAR价格停滞，市场对项目估值存在分歧。短期无直接交易机会，但可能吸引价值投资者关注。信号中性，建议观望。\",\n      \"reason\": \"链上指标异常（价格与基本面背离），属于优先级二的项目更新。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"HBAR\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Reddit\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1ub4ha9/hederas_paradox_a_strong_network_with_a_stuck/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"马斯克持有BTC和部分DOGE\",\n      \"summary\": \"报道称Elon Musk持有比特币和狗狗币，作为世界首富的持仓对市场情绪有提振作用。但消息本身无新增购买行为，属旧闻重提。短期可能轻微提振BTC和DOGE，影响有限。\",\n      \"reason\": \"KOL持仓消息影响市场情绪，属于优先级三。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"DOGE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiogFBVV95cUxQUW5BdHhhMEhaZWowSGxjSXF3LUxRVk1Ec3llSklCZElNVmZWSmhNZTdYWldtUmN6RFR0alZ6MEd4Vkd3ZmF2b2FYemlMc0VzN1JzSEl1b1dfMGJWOHphVWJTRnQxZUItcHNZSm9RVVZjSWtrQndTclBoM3dPR1gwUTIzSlhiT1pSLWEzRzFkUWNOajJ0YjA1RkYyT3VQcDMtNlE?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前时间仅筛选出3条高价值消息，其余消息重复或无关。\"\n}"
+}

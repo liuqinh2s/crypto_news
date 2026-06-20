@@ -310,3 +310,88 @@
 2026-06-20 18:01:44 [INFO] 🔗 来源链接覆盖: 4/4 条新闻有有效链接
 2026-06-20 18:01:44 [INFO] 📦 JSON 已保存: reports/2026-06-21-02.json
 2026-06-20 18:01:44 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-06-20 19:00:55 [INFO] 🚀 开始抓取 2026-06-21 03:00 币圈新闻
+2026-06-20 19:00:55 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-20 19:00:55 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-20 19:00:56 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ Decrypt: 过滤掉 49 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:56 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-20 19:00:56 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 21 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-06-20 19:00:56 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ Blockworks: 过滤掉 7 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ 吴说区块链: 过滤掉 49 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ Crypto Twitter: 过滤掉 46 条非近期新闻
+2026-06-20 19:00:57 [INFO]   ⏭ 宏观经济: 过滤掉 44 条非近期新闻
+2026-06-20 19:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-20 19:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-20 19:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-20 19:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-06-20 19:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-06-20 19:01:12 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-06-20 19:01:12 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-20 19:01:12 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-20 19:01:12 [INFO]   ✓ CoinDesk: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ The Block: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Decrypt: 1 条
+2026-06-20 19:01:12 [INFO]   ✓ CoinTelegraph: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Blockworks: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ DL News: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ 金色财经: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ PANews: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ CNBC Crypto: 1 条
+2026-06-20 19:01:12 [INFO]   ✓ Reddit r/cryptocurrency: 4 条
+2026-06-20 19:01:12 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Crypto Twitter: 4 条
+2026-06-20 19:01:12 [INFO]   ✓ 宏观经济: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Binance公告: 20 条
+2026-06-20 19:01:12 [INFO]   ✓ OKX公告: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Bitget公告: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Whale Alert: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-20 19:01:12 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-20 19:01:12 [INFO]   ✓ 雪球加密: 0 条
+2026-06-20 19:01:12 [INFO] 📊 共抓取 31 条新闻
+2026-06-20 19:01:12 [INFO] 📋 原始新闻已保存: reports/2026-06-21-03-raw.json (31 条)
+2026-06-20 19:01:12 [INFO] 📋 标题摘要已保存: reports/2026-06-21-03-raw-titles.md
+2026-06-20 19:01:12 [INFO] ✅ 抓取完成，共 31 条，已保存到 reports/2026-06-21-03-raw.json
+2026-06-20 19:01:12 [INFO] 🤖 开始 AI 筛选 2026-06-21 03:00 币圈消息
+2026-06-20 19:01:12 [INFO] 📋 已加载原始新闻: reports/2026-06-21-03-raw.json (31 条)
+2026-06-20 19:01:12 [INFO] 📚 已加载历史新闻标题（17271 字符）
+2026-06-20 19:01:12 [INFO] 📚 已加载历史筛选标题 19 条、URL 20 个，用于去重
+2026-06-20 19:01:12 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-20 19:01:12 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-20 19:01:12 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（31 条，6990 字符，temp=0.3）
+2026-06-20 19:01:41 [INFO] AI 原始返回已保存: logs/2026-06-21-ai-response.txt (finish_reason=stop, 1897 字符)
+2026-06-20 19:01:41 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-21-03-ai-raw.json
+2026-06-20 19:01:41 [DEBUG] parse_json_response 输入长度: 1897 字符
+2026-06-20 19:01:41 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "GENIUS法案将稳定币公司绑美债",
+      "summary": "美国GENIUS法案被批评为强制稳定币发行商持有高比例美债作为储备，可能降低稳定币的流动性和灵活性，导致资金从加密市场撤离。该法案主要影响USDT/USDC等稳定币，间接减少BTC和ETH等主流币的流动性供给。从做多视角看，这是一个bearish信号，因为可能引发资金外流和市场抛压。",
+      "reason": "稳定币监管动态直接影响市场流动性，属于优先级一的监管政策。",
+      "category": "监管政策",
+      
+2026-06-20 19:01:41 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-06-20 19:01:41 [INFO] ✅ AI 返回 3 条新闻
+2026-06-20 19:01:41 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-06-20 19:01:41 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-06-20 19:01:41 [INFO] 📦 JSON 已保存: reports/2026-06-21-03.json
+2026-06-20 19:01:41 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
