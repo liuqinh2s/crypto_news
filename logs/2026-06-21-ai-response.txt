@@ -650,3 +650,132 @@ content length: 1989
   ],
   "note": "本轮抓取素材中大部分为重复历史公告或无关内容，仅筛选出3条高价值新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1063, prompt_tokens=8028, total_tokens=9091, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1010, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=6876)
+content length: 101
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的所有素材均与历史消息重复，无新的具有交易价值的事件。恐惧贪婪指数维持23，Binance公告均为重复内容，桥攻击和CZ评论也已出现。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=929, prompt_tokens=8028, total_tokens=8957, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=904, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7936), prompt_cache_hit_tokens=7936, prompt_cache_miss_tokens=92)
+content length: 49
+============================================================
+{"news": [], "note": "本轮抓取的所有消息均已在历史消息中出现，无新消息。"}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=994, prompt_tokens=8028, total_tokens=9022, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=969, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=7936), prompt_cache_hit_tokens=7936, prompt_cache_miss_tokens=92)
+content length: 48
+============================================================
+{
+  "news": [],
+  "note": "所有消息均为历史重复，无新交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=631, prompt_tokens=8716, total_tokens=9347, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=594, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7564)
+content length: 68
+============================================================
+{"news":[],"note":"本轮所有消息均已在历史消息中出现，无新事件。恐惧贪婪指数23维持不变，其余均为重复公告或旧闻。"}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1208, prompt_tokens=8716, total_tokens=9924, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1177, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8704), prompt_cache_hit_tokens=8704, prompt_cache_miss_tokens=12)
+content length: 59
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取的所有新闻均在历史消息中出现过，无新消息可供筛选。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2111, prompt_tokens=3183, total_tokens=5294, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1158, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2031)
+content length: 2506
+============================================================
+{
+  "news": [
+    {
+      "title": "Secret Network桥被黑467万美元",
+      "summary": "1) Secret Network的Axelar桥因无限铸造漏洞被盗467万美元，漏洞存在7天未被发现。2) 直接影响SCRT和AXL代币，并可能波及整个跨链生态。3) 这是典型的黑客攻击事件，对SCRT和AXL为看空信号，短期抛压风险高。",
+      "reason": "优先级一：黑客攻击导致资产损失，属于重大安全事件，直接影响币价。",
+      "category": "项目更新",
+      "impact_coins": ["SCRT", "AXL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405459/secret-networks-axelar-bridge-drained-for-4-67-million-in-infinite-mint-exploit-that-went-unnoticed-for-seven-days"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上架Re (RE)",
+      "summary": "1) Binance宣布上架RE，并标注Seed Tag，同时支持Earn、Margin、Futures等产品。2) 直接利好RE代币，上币效应通常会带来短期资金涌入和价格上涨。3) 看多RE，但需注意Seed Tag意味着较高波动风险。",
+      "reason": "优先级一：交易所上币直接影响对应币种价格，属于直接交易信号。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告1",
+          "url": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969"
+        },
+        {
+          "name": "Binance公告2",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至23",
+      "summary": "1) 当前恐惧贪婪指数为23（极度恐惧），处于历史抄底区域。2) 该情绪指标通常暗示市场过度悲观，中长期可能迎来反弹。3) 对整体市场中性偏看多，但短期可能继续下探，需结合其他信号。",
+      "reason": "优先级三：恐惧贪婪指数极值（<20为极度恐惧，23接近）是重要市场情绪反转信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CZ提议冻结中本聪比特币防量子风险",
+      "summary": "1) CZ在社交媒体讨论量子计算威胁，提议冻结中本聪钱包的比特币。2) 该言论引发市场对量子风险和中心化控制的讨论，短期内可能增加不确定性。3) 虽然实际影响有限，但情绪上偏利空比特币。",
+      "reason": "优先级二：KOL言论可能影响市场情绪，且涉及比特币安全话题。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ub7hfc/cz_floats_freezing_satoshis_bitcoin_over_quantum/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于素材中大部分为历史公告或低影响消息，仅筛选出4条核心信息。其余Binance期货公告日期较早，市场已消化，故未采用。"
+}
