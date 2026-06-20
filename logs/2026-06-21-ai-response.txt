@@ -1,0 +1,91 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1631, prompt_tokens=10832, total_tokens=12463, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=702, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9680)
+content length: 2520
+============================================================
+{
+  "news": [
+    {
+      "title": "24小时爆仓1.8亿美元主空",
+      "summary": "过去24小时全网爆仓1.8亿美元，其中大部分为空单爆仓。这显示空头仓位被挤压，短期内可能推动价格继续上涨。影响币种包括BTC、ETH等主流币。信号为看多，因为大量空头平仓会形成买入压力。",
+      "reason": "爆仓数据是市场结构的重要信号，主爆空单意味着空头拥挤，短期有轧空风险。属于优先级一的市场结构消息。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518479.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Axelar第三方合约无限铸造",
+      "summary": "Axelar Network回应的安全事件：漏洞源于第三方代币合约的“无限铸造”问题，而非Axelar核心协议。该漏洞可能导致相关代币增发，影响AXL及跨链资产。短期看空AXL，但若及时修复且影响可控，可能中性。",
+      "reason": "安全事件属于优先级一的项目重大事件，直接影响AXL及相关币种。需警惕抛售风险。",
+      "category": "项目更新",
+      "impact_coins": ["AXL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518478.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC网络活动上升CryptoQuant",
+      "summary": "CryptoQuant数据显示，尽管BTC价格较峰值下跌近50%，但网络活动正在上升。这可能意味着底部区域有资金积累，是中期看多信号。影响BTC。",
+      "reason": "链上活跃度上升是优先级二的链上指标，可能预示价格底部。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371702/bitcoin-network-activity-rising-btc-falls-50-percent-below-peak-price"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Grant Cardone买入282 BTC",
+      "summary": "地产大亨Grant Cardone在市场下跌中购入282枚BTC，显示机构或大户在低位吸筹。这对BTC是温和看多信号。",
+      "reason": "机构增持属于优先级二，尽管金额不算巨鲸级别，但可反映市场情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/cryptocurrency/comments/1uaz7tf/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数23极度恐惧",
+      "summary": "恐惧贪婪指数持续处于23（极度恐惧），接近历史抄底区间。该指标通常作为中长期看多信号，但短期可能继续震荡。影响BTC、ETH。",
+      "reason": "市场情绪指标达到极值，符合优先级三，中长期有参考价值。虽历史已有，但作为更新选入。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
