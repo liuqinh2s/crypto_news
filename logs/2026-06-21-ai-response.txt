@@ -304,3 +304,79 @@ content length: 2176
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3167, prompt_tokens=9491, total_tokens=12658, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1585, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8339)
+content length: 3297
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken推美国CFTC永续期货",
+      "summary": "Kraken宣布将在美国推出首个CFTC监管的加密永续期货合约，标志着美国合规加密衍生品的重要进展。此举可能吸引更多机构资金入场，提升市场流动性和价格发现效率。受影响的币种包括BTC、ETH等主要资产，长期看多信号，但短期可能因监管不确定性带来波动。",
+      "reason": "优先级一：交易所重大产品创新，直接影响衍生品市场和机构参与度。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUx4ZFdPb3lveUM1VWg0Q0N5cEZ0T1dJVV9QSEVuckU2N1U5Y1RQd3VJNUtCUmdrdmhZLV9ZalhpQmxzNXlYSjJHNUZLWTNNQ0ZtSUVRWjd0c2o2MTVGM1JtRDdtUVFHbm1oQS1kakVEWG5CSEd1T0FKbWh1YTNHeWRzVDhRRHBZc1VBSVBtQ3BUQTFmb202d2U0TERJWWhXRWRtejZUUm84eEkwM1h4WS1PSEVKZlRDQ256a05LUzBDWU42bnQ2QXZB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MSTR股价与STRC面临生存危机",
+      "summary": "Michael Saylor称MicroStrategy的比特币持仓已实现480亿美元账面利润，但其优先股STRC价格暴跌，市场担忧资本结构崩溃。STRC下跌可能迫使MicroStrategy出售BTC或面临清算风险，对BTC构成潜在抛压。此外，STRC的动荡可能蔓延至更广泛的加密市场。受影响的币种包括BTC和MSTR相关资产，短期看空。",
+      "reason": "优先级一：机构重大事件，直接影响BTC价格和MSTR持仓安全。",
+      "category": "机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX0Z2Q1pXNmFQRklaaFNWUGVLNzJIMkt0Umd0a3QxMl93cVF2dkZuZmpmY1gtVTZSbWk4djY4QnBoaHRHUEZBYXBsT2FiZFFXbnVPbnZkS0pXckdtMno5ZVVOSXgtTDVsT20zdHpRb2VzbkR3QkFoM0FYeXpTVlRqTW1pS2NBUzh4U0RCX0F6ODJJNWtmMGhBR1pxZkQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "宏观流动性考验来自华盛顿",
+      "summary": "比特币未受日本加息影响，但市场关注美联储政策动向。分析指出，华盛顿的流动性政策（如利率决议、缩表）才是更关键因素。近期美联储官员表态偏鹰，可能限制风险资产上涨。BTC短期承压，但若流动性宽松预期重燃，可能反弹。受影响的币种：BTC、ETH。信号中性偏空。",
+      "reason": "优先级二：宏观经济数据影响风险资产情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2JEY21HUnh2aDY3WFlVTkplcW9wY3BTODUxc2l3ZlVDRzFacEhlT29Fc0VGNmt3TG14eWw3S2pHOXZMYXZoTnpZRWxMRnkwdzlBZDVDclJ3cXJNMHoycVFCbE50MXd3ZlhmSnNmZjUyR0doR0lEUG83a3JPb3NfcmFHc011dDRDbHBVdFZIZHliblNaZGJ4UF9lUGFhVFZkYTJnMVRidU4wOUE0cm1jaUZaNzNUTzlpdkZXOEwtbw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "STRC危机或引发加密市场系统性风险",
+      "summary": "MicroStrategy的优先股STRC持续暴跌，市场担心其资本结构崩溃可能迫使公司抛售比特币或引发连锁清算。若STRC价值归零，MSTR可能面临破产风险，进而冲击BTC价格。该事件影响深远，涉及机构持仓信心和衍生品市场稳定。受影响的币种：BTC。信号极度看空。",
+      "reason": "优先级一：机构系统性风险，可能引发大规模抛售。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Crowdfund Insider",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObjEta0dxRUp5cG9tNERlTmg3ZzZFMDE3bmZYY3JnbUNVX2c5bGYyU0t6MFZWRHg2SkdSelNST0ZjTk10RXpsdnUzNDZhakc3dXZGQU5fWUdHUlNWNV9rTnZvMXBIR1RXeHp0WWlGY3VRd1JYektET0RWVk1ta25EN2dnemtDWGx5WHE2MVpYOTB1dDcySlBGdmxoMnQ5cllrZmF4cklqd2JFazNrcE15LTlmRUI1MndGWHFUSFhoQkVnMXBkWTJUOHpOVVo4MFhrSElXQkFKdkZHc0djT2ZBOQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "素材中大部分标题与历史消息重复（如Binance旧公告、恐惧贪婪指数未变、Andre Cronje辞职等），仅选出4条真正的新消息。"
+}
