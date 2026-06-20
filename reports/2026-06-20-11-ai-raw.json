@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-20",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9654,
+    "completion_tokens": 2403,
+    "total_tokens": 12057
+  },
+  "content_length": 1718,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"F2Pool联创提5.45万ETH\",\n      \"summary\": \"F2Pool联合创始人王纯在过去半个月内累计从Binance提出5.45万枚ETH，价值约9325万美元。这显示巨鲸正在将ETH从交易所转移至个人钱包，通常被视为囤币行为，减少交易所供应，减少抛压。此动向对ETH构成看多信号，可能引发跟随买盘。影响币种主要为ETH，也可能带动以太坊生态代币。\",\n      \"reason\": \"巨鲸大额转出交易所，是优先级一的链上异动，历史消息中未出现，具有直接行情影响。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518424.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"预测市场周交易量创新高\",\n      \"summary\": \"a16z crypto指出，受世界杯等多重事件共振推动，预测市场周交易量创历史新高。此前消息称Kalshi年化营收突破20亿美元，Charles Schwab计划推出预测市场。预测市场火爆显示加密应用落地加速，吸引新用户，中长期利好整个加密市场。但对短期价格影响有限，属于市场结构改善信号。主要影响BTC、ETH等主流币，但间接。\",\n      \"reason\": \"优先级二：市场结构变化，历史消息未提及该数据，具有中期影响。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518426.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"CryptoQuant：山寨季或已结束\",\n      \"summary\": \"CryptoQuant创始人表示，比特币上涨带动山寨币普涨的时代可能已经结束。这一观点反映市场结构性变化：比特币主导地位可能持续，资金更集中于BTC，山寨币面临流动性流失。若市场认同此观点，可能导致资金从山寨币流出，利空ETH及其他山寨币，但利好BTC相对强势。属于市场情绪与结构研判。\",\n      \"reason\": \"优先级三：市场情绪信号，来自知名链上分析平台创始人的观点，可能影响交易者行为。历史未出现。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"ALT\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518425.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮素材中大部分消息与历史重复或为低价值公告，仅筛选出3条有效新消息。\"\n}"
+}
