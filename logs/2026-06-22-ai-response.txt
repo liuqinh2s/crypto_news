@@ -1,0 +1,279 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1812, prompt_tokens=12226, total_tokens=14038, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1533, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11074)
+content length: 690
+============================================================
+{
+  "news": [
+    {
+      "title": "知名MEV机器人被盗750万",
+      "summary": "著名的MEV机器人 'jaredfromsubway' 因遭遇反MEV蜜罐攻击，损失约750万美元。该机器人长期在以太坊上执行夹心攻击，此次被一个精心设计的合约陷阱反向套利。事件表明MEV生态中攻击手段不断进化，可能引发短期对以太坊链上安全性的担忧，但整体影响有限。信号偏空，但不足以改变ETH趋势。",
+      "reason": "链上黑客攻击事件，属于优先级一的重大事件，且此前历史消息中未出现。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405464/notorious-jaredfromsubway-mev-bot-drained-for-roughly-7-5-million-in-counter-mev-honeypot"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取消息大部分与历史重复，仅此一条为有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1718, prompt_tokens=12226, total_tokens=13944, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1030, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12160), prompt_cache_hit_tokens=12160, prompt_cache_miss_tokens=66)
+content length: 1551
+============================================================
+{
+  "news": [
+    {
+      "title": "知名MEV机器人被反MEV蜜罐盗取750万美元",
+      "summary": "The Block报道，名为'jaredfromsubway'的知名MEV机器人遭遇反MEV蜜罐攻击，损失约750万美元。该机器人曾通过三明治攻击获利，此次被针对性设计的高效蜜罐合约反向捕获。事件暴露了MEV生态中的安全风险，可能引发对MEV相关代币（如Flashbots代币）的短期抛售，但整体市场影响有限。信号偏空，主要影响MEV相关项目和以太坊网络情绪。",
+      "reason": "链上异动：知名MEV机器人被盗，金额较大，属优先级一，可能引发对MEV安全的担忧，影响相关代币和ETH网络情绪。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405464/notorious-jaredfromsubway-mev-bot-drained-for-roughly-7-5-million-in-counter-mev-honeypot?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "华尔街老兵：SpaceX和比特币本质相同，但BTC目前缺乏动能",
+      "summary": "Yahoo Finance报道，华尔街资深人士Jordi Visser表示SpaceX和比特币本质相同，都是创新资产，但比特币目前缺乏能源（动能）。该评论出现在BTC价格震荡之际，市场情绪偏谨慎。虽无直接交易信号，但反映了部分机构对比特币短期前景的犹豫。整体中性偏空。",
+      "reason": "市场情绪：机构评论影响投资者信心，属优先级三，但缺乏实质数据，影响中等。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUzQ3dWZaQmdpdVlDbjF4R3VwNkRoM2UyYlNmUWM2WFZXcXl4Q2huTHlwdzg0emtzeEpYdm4wNTRCSFY4cElQSng5anRSenRmOHVRSHhMZkR1ZVYxWjdtTHZTcE9YRWhjLUdSZTYxTEhPRFJScWI3cHJGSV9hT3FyZkd5YnlwWFFrbzg0elZseXVZSExwWU4wSU9GTHNBV0g1?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取消息与历史高度重复，仅筛选出2条有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2378, prompt_tokens=12226, total_tokens=14604, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1600, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12160), prompt_cache_hit_tokens=12160, prompt_cache_miss_tokens=66)
+content length: 1647
+============================================================
+{
+  "news": [
+    {
+      "title": "MEV机器人被反向蜜罐盗750万",
+      "summary": "知名MEV机器人 'jaredfromsubway' 被一个反向MEV蜜罐合约盗走约750万美元的加密资产。该事件表明MEV生态存在新型攻击手段，可能引发对以太坊MEV安全性的担忧。短期内可能对ETH价格产生轻微负面影响，但影响有限。信号偏中性，但需警惕MEV相关代币的波动。",
+      "reason": "链上异动，涉及知名MEV机器人被盗，属于优先级一的事件，可能影响ETH及其MEV生态。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405464/notorious-jaredfromsubway-mev-bot-drained-for-roughly-7-5-million-in-counter-mev-honeypot?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "特朗普威胁伊朗 地缘紧张升级",
+      "summary": "美国总统特朗普威胁伊朗，称若伊朗不控制真主党，将再次发动打击。与此同时，副总统万斯在瑞士参加伊朗和平谈判。地缘政治紧张局势加剧，可能引发风险资产抛售，对BTC等加密货币构成短期利空。但谈判仍在进行，存在不确定性。",
+      "reason": "地缘政治风险影响风险资产偏好，属于优先级二（宏观经济）事件，可能引发BTC短期下跌。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC Crypto",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0lMRG9UMVhBSlRKQ3NYQ1hsMmlUQ3VwT0JlVEhYQUJFOHh6MnUyTnc0Nmd4NXo5dm5rZU5SUXZPbmtYYVRLU2ZhTEk1djZLX0NwaE82eWFRRldjVmdwQ2pJMHJ0eWVqb1FDaUJZWmh4MllHd25Wa2wtd2ZYNHV5bGp1VndLSFBrekRCTnpPVzgxUdIBlwFBVV95cUxNNnRneXJaTGVnWUhlSVItcWZMbENueVJ2RjRjb0dUeGFDU3ZzdHlteU5QanR5NE1iMEExRjgzdTM3MC0wbGZKcmpia3R6WUZ4Z1NPNElxN0tUT2ZOYlBHZHVRVXhjOGlHblNlMWUzQ1RPNkY5dkpPUGJWWFdjUk9nTzJJUUk1MUZiU0J3RnNMMDBqaHR3TzFB?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮素材中大部分消息与历史重复或交易价值低，仅筛选出2条关键信息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1993, prompt_tokens=13288, total_tokens=15281, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1670, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1536), prompt_cache_hit_tokens=1536, prompt_cache_miss_tokens=11752)
+content length: 753
+============================================================
+{
+  "news": [
+    {
+      "title": "MEV bot被反向洗劫750万美元",
+      "summary": "知名MEV机器人\"jaredfromsubway\"遭遇反MEV蜜罐攻击，损失约750万美元。该机器人被部署了针对其交易策略的蜜罐合约，导致其清算。事件可能引发对MEV市场脆弱性的关注，影响MEV相关代币及以太坊网络情绪。短期看空MEV服务商，但整体市场影响有限。",
+      "reason": "链上异动：知名MEV机器人被反向利用损失大额资金，属优先级一事件，可能影响市场对MEV安全性的信心，短期看空相关币种。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "MEV代币"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405464/notorious-jaredfromsubway-mev-bot-drained-for-roughly-7-5-million-in-counter-mev-honeypot"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "经严格去重，本轮抓取素材中仅有1条新消息符合筛选标准。其余素材均已在历史标题中出现或属于排除项（无交易价值的营销/博客/小额转账等）。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2086, prompt_tokens=13288, total_tokens=15374, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1726, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13184), prompt_cache_hit_tokens=13184, prompt_cache_miss_tokens=104)
+content length: 843
+============================================================
+{
+  "news": [
+    {
+      "title": "MEV机器人遭反黑客攻击损失750万",
+      "summary": "知名MEV机器人'jaredfromsubway'遭遇反MEV蜜罐攻击，损失约750万美元。该机器人长期在以太坊上执行三明治攻击，此次被对手利用巧妙设计的合约套取资金。事件影响：1）可能引发对MEV安全性的短期恐慌，增加以太坊链上风险溢价；2）攻击者或获利后抛售ETH，但金额不大；3）对以太坊价格影响有限，但因涉及知名机器人，短期可能小幅打压ETH情绪。信号：bearish，对ETH轻微利空；impact_level: 3。",
+      "reason": "优先级一：链上异动（黑客攻击），涉及知名MEV机器人，直接影响以太坊生态情绪，可能与ETH短期抛压相关。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405464/notorious-jaredfromsubway-mev-bot-drained-for-roughly-7-5-million-in-counter-mev-honeypot?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "经过严格去重，本轮抓取素材中仅发现一条新消息（MEV机器人被攻击），其他均在历史消息中重复出现或无交易价值。因此仅输出一条。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2404, prompt_tokens=6153, total_tokens=8557, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1000, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=5001)
+content length: 3573
+============================================================
+{
+  "news": [
+    {
+      "title": "Franklin Templeton申请股票股息转BTC ETF",
+      "summary": "资管巨头Franklin Templeton向SEC提交申请，计划推出两只ETF，将持有股票的股息收入再投资于比特币。这为传统投资者提供了间接配置比特币的新渠道，可能带来增量资金。直接利好BTC，看多信号。",
+      "reason": "ETF机构重大进展，创新产品有望吸引资金流入BTC。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/bitcoin",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1ubsvdp/franklin_templeton_files_for_two_etfs_that/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至23（极度恐惧）",
+      "summary": "Alternative.me数据显示，加密货币恐惧与贪婪指数当前为23，处于“极度恐惧”区间。历史表明该区域常为中长期底部区域，可能预示价格反弹。但短期仍可能继续下跌，综合判断为中长期看多信号。",
+      "reason": "市场情绪极值，历史抄底区，符合筛选标准第三条。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "日本养老基金计划配置加密货币对冲美元风险",
+      "summary": "日本某养老基金（GPIF）计划将部分资产配置于加密货币，以对冲美元贬值风险。若落实，将带来长期机构资金入场，利好BTC等主流币。目前处于计划阶段，但信号积极。",
+      "reason": "机构动向，中期利多，符合优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "BeInCrypto",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yVVEwZ3BEdXJuZDRTQWY0aUQwSXA2N1hoM1pjeFdLLU1weHU4dzRkbzdfQXVETHdmUEFuVGZoN281UldWbElXWXpmYjFlblJjc1EyV19XYWh4cEZIWkUtNHVnSXM2SDB0cFNFUHFLTW5vVDA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Michael Saylor暗示MicroStrategy将再次买入BTC",
+      "summary": "MicroStrategy创始人Michael Saylor在推特上暗示即将再次购入比特币，并呼吁社区团结。若属实，将延续机构持续买入趋势，提振市场信心。但仅为暗示，未披露金额。",
+      "reason": "机构风向标，符合优先级二机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU1NRMFJOOUU1RDQzWGhuckhwZ1VRc3dBVUJDOGhwbmlONVhzUnoyY2tlcGNFaHp1cElCbi1WdHY4X3RlM2xGbXV6akhTZUpZbE50SzlWVzBkOFhpcGZrUnZSTG1yblFlRS1PanVGejdLUEVTVTB2eDJLYWNVcFM1V1RXOWJSYk5mVzFlWk5wUzhITm0tQ0dFX0R2a1ZWUGZC?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线RE代币（Seed标签）",
+      "summary": "Binance宣布将于近期上线Re (RE) 现货及衍生品交易，并标注为Seed Tag（高风险新币）。上币效应通常短期利多RE，但对整体市场影响有限。需注意高波动风险。",
+      "reason": "交易所上币直接影响对应币种价格，符合优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MEV机器人jaredfromsubway被攻击损失750万美元",
+      "summary": "知名MEV机器人'jaredfromsubway'在反MEV蜜罐攻击中损失约750万美元。事件显示MEV生态风险，可能短期影响ETH链上活动，但对ETH价格影响有限。可视为链上异常事件。",
+      "reason": "链上异动，虽金额不大但涉及知名机器人，符合优先级一项目方重大事件。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405464/notorious-jaredfromsubway-mev-bot-drained-for-roughly-7-5-million-in-counter-mev-honeypot?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}

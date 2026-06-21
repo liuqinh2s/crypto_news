@@ -1,0 +1,154 @@
+2026-06-21 16:00:55 [INFO] 🚀 开始抓取 2026-06-22 00:00 币圈新闻
+2026-06-21 16:00:55 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-21 16:00:55 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-21 16:00:55 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:55 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-06-21 16:00:55 [INFO]   ⏭ CoinTelegraph: 过滤掉 28 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:56 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-21 16:00:56 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ CNBC Crypto: 过滤掉 48 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ 宏观经济: 过滤掉 44 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:56 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:57 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:57 [INFO]   ⏭ Blockworks: 过滤掉 8 条非近期新闻
+2026-06-21 16:00:57 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-06-21 16:00:57 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:57 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-21 16:00:57 [INFO]   ⏭ Crypto Twitter: 过滤掉 41 条非近期新闻
+2026-06-21 16:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-21 16:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-21 16:01:11 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-21 16:01:11 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-21 16:01:12 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-21 16:01:12 [INFO]   ✓ CoinDesk: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ The Block: 1 条
+2026-06-21 16:01:12 [INFO]   ✓ Decrypt: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ CoinTelegraph: 2 条
+2026-06-21 16:01:12 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ Blockworks: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ DL News: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ 金色财经: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ PANews: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ CNBC Crypto: 2 条
+2026-06-21 16:01:12 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-06-21 16:01:12 [INFO]   ✓ Crypto Twitter: 9 条
+2026-06-21 16:01:12 [INFO]   ✓ 宏观经济: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ Binance公告: 20 条
+2026-06-21 16:01:12 [INFO]   ✓ OKX公告: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ Bitget公告: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ Whale Alert: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-21 16:01:12 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-21 16:01:12 [INFO]   ✓ 雪球加密: 1 条
+2026-06-21 16:01:12 [INFO] 📊 共抓取 39 条新闻
+2026-06-21 16:01:12 [INFO] 📋 原始新闻已保存: reports/2026-06-22-00-raw.json (39 条)
+2026-06-21 16:01:12 [INFO] 📋 标题摘要已保存: reports/2026-06-22-00-raw-titles.md
+2026-06-21 16:01:12 [INFO] ✅ 抓取完成，共 39 条，已保存到 reports/2026-06-22-00-raw.json
+2026-06-21 16:01:12 [INFO] 🤖 开始 AI 筛选 2026-06-22 00:00 币圈消息
+2026-06-21 16:01:12 [INFO] 📋 已加载原始新闻: reports/2026-06-22-00-raw.json (39 条)
+2026-06-21 16:01:12 [INFO] 📚 已加载历史新闻标题（20611 字符）
+2026-06-21 16:01:12 [INFO] 📚 已加载历史筛选标题 17 条、URL 17 个，用于去重
+2026-06-21 16:01:12 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-21 16:01:12 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-21 16:01:12 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（39 条，10335 字符，temp=0.3）
+2026-06-21 16:01:37 [INFO] AI 原始返回已保存: logs/2026-06-22-ai-response.txt (finish_reason=stop, 690 字符)
+2026-06-21 16:01:37 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-22-00-ai-raw.json
+2026-06-21 16:01:37 [DEBUG] parse_json_response 输入长度: 690 字符
+2026-06-21 16:01:37 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "知名MEV机器人被盗750万",
+      "summary": "著名的MEV机器人 'jaredfromsubway' 因遭遇反MEV蜜罐攻击，损失约750万美元。该机器人长期在以太坊上执行夹心攻击，此次被一个精心设计的合约陷阱反向套利。事件表明MEV生态中攻击手段不断进化，可能引发短期对以太坊链上安全性的担忧，但整体影响有限。信号偏空，但不足以改变ETH趋势。",
+      "reason": "链上黑客攻击事件，属于优先级一的重大事件，且此前历史消息中未出现。",
+      "category": "链上异动
+2026-06-21 16:01:37 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-21 16:01:37 [INFO] ✅ AI 返回 1 条新闻
+2026-06-21 16:01:37 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-06-21 16:01:37 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（39 条，10335 字符，temp=0.3）
+2026-06-21 16:01:50 [INFO] AI 原始返回已保存: logs/2026-06-22-ai-response.txt (finish_reason=stop, 1551 字符)
+2026-06-21 16:01:50 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-22-00-ai-raw.json
+2026-06-21 16:01:50 [DEBUG] parse_json_response 输入长度: 1551 字符
+2026-06-21 16:01:50 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "知名MEV机器人被反MEV蜜罐盗取750万美元",
+      "summary": "The Block报道，名为'jaredfromsubway'的知名MEV机器人遭遇反MEV蜜罐攻击，损失约750万美元。该机器人曾通过三明治攻击获利，此次被针对性设计的高效蜜罐合约反向捕获。事件暴露了MEV生态中的安全风险，可能引发对MEV相关代币（如Flashbots代币）的短期抛售，但整体市场影响有限。信号偏空，主要影响MEV相关项目和以太坊网络情绪。",
+      "reason": "链上异动：知名MEV机器人被盗，金额较大
+2026-06-21 16:01:50 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-06-21 16:01:50 [INFO] ✅ AI 返回 2 条新闻
+2026-06-21 16:01:50 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 只返回了 2 条（期望 3），将重试
+2026-06-21 16:01:50 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（39 条，10335 字符，temp=0.3）
+2026-06-21 16:02:08 [INFO] AI 原始返回已保存: logs/2026-06-22-ai-response.txt (finish_reason=stop, 1647 字符)
+2026-06-21 16:02:08 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-22-00-ai-raw.json
+2026-06-21 16:02:08 [DEBUG] parse_json_response 输入长度: 1647 字符
+2026-06-21 16:02:08 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "MEV机器人被反向蜜罐盗750万",
+      "summary": "知名MEV机器人 'jaredfromsubway' 被一个反向MEV蜜罐合约盗走约750万美元的加密资产。该事件表明MEV生态存在新型攻击手段，可能引发对以太坊MEV安全性的担忧。短期内可能对ETH价格产生轻微负面影响，但影响有限。信号偏中性，但需警惕MEV相关代币的波动。",
+      "reason": "链上异动，涉及知名MEV机器人被盗，属于优先级一的事件，可能影响ETH及其MEV生态。",
+      "category": "链上异动
+2026-06-21 16:02:08 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-06-21 16:02:08 [INFO] ✅ AI 返回 2 条新闻
+2026-06-21 16:02:08 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 2 条（期望 3），将重试
+2026-06-21 16:02:08 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（39 条，13964 字符，temp=0.3）
+2026-06-21 16:02:27 [INFO] AI 原始返回已保存: logs/2026-06-22-ai-response.txt (finish_reason=stop, 753 字符)
+2026-06-21 16:02:27 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-22-00-ai-raw.json
+2026-06-21 16:02:27 [DEBUG] parse_json_response 输入长度: 753 字符
+2026-06-21 16:02:27 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "MEV bot被反向洗劫750万美元",
+      "summary": "知名MEV机器人\"jaredfromsubway\"遭遇反MEV蜜罐攻击，损失约750万美元。该机器人被部署了针对其交易策略的蜜罐合约，导致其清算。事件可能引发对MEV市场脆弱性的关注，影响MEV相关代币及以太坊网络情绪。短期看空MEV服务商，但整体市场影响有限。",
+      "reason": "链上异动：知名MEV机器人被反向利用损失大额资金，属优先级一事件，可能影响市场对MEV安全性的信心，短期看空相关币种。",
+      "cat
+2026-06-21 16:02:27 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-21 16:02:27 [INFO] ✅ AI 返回 1 条新闻
+2026-06-21 16:02:27 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 1 条（期望 3），将重试
+2026-06-21 16:02:27 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（39 条，13964 字符，temp=0.3）
+2026-06-21 16:02:43 [INFO] AI 原始返回已保存: logs/2026-06-22-ai-response.txt (finish_reason=stop, 843 字符)
+2026-06-21 16:02:43 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-22-00-ai-raw.json
+2026-06-21 16:02:43 [DEBUG] parse_json_response 输入长度: 843 字符
+2026-06-21 16:02:43 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "MEV机器人遭反黑客攻击损失750万",
+      "summary": "知名MEV机器人'jaredfromsubway'遭遇反MEV蜜罐攻击，损失约750万美元。该机器人长期在以太坊上执行三明治攻击，此次被对手利用巧妙设计的合约套取资金。事件影响：1）可能引发对MEV安全性的短期恐慌，增加以太坊链上风险溢价；2）攻击者或获利后抛售ETH，但金额不大；3）对以太坊价格影响有限，但因涉及知名机器人，短期可能小幅打压ETH情绪。信号：bearish，对ETH轻微利空；impact_level: 3。",
+      "r
+2026-06-21 16:02:43 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-21 16:02:43 [INFO] ✅ AI 返回 1 条新闻
+2026-06-21 16:02:43 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 只返回了 1 条（期望 3），将重试
+2026-06-21 16:02:43 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（39 条，10335 字符，temp=0.3）
+2026-06-21 16:03:03 [INFO] AI 原始返回已保存: logs/2026-06-22-ai-response.txt (finish_reason=stop, 3573 字符)
+2026-06-21 16:03:03 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-22-00-ai-raw.json
+2026-06-21 16:03:03 [DEBUG] parse_json_response 输入长度: 3573 字符
+2026-06-21 16:03:03 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Franklin Templeton申请股票股息转BTC ETF",
+      "summary": "资管巨头Franklin Templeton向SEC提交申请，计划推出两只ETF，将持有股票的股息收入再投资于比特币。这为传统投资者提供了间接配置比特币的新渠道，可能带来增量资金。直接利好BTC，看多信号。",
+      "reason": "ETF机构重大进展，创新产品有望吸引资金流入BTC。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+ 
+2026-06-21 16:03:03 [DEBUG] 从 JSON 对象的 news 字段提取到 6 条记录
+2026-06-21 16:03:03 [INFO] ✅ AI 返回 6 条新闻
+2026-06-21 16:03:03 [INFO] ✅ AI 筛选出 6 条交易相关消息，符合预期
+2026-06-21 16:03:03 [INFO] 🔗 来源链接覆盖: 6/6 条新闻有有效链接
+2026-06-21 16:03:03 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-06-21 16:03:03 [DEBUG]   去重: 「Franklin Templeton申请股票股息转BTC ETF」 → 标题相似: Franklin Templeton提交比特币分红ETF
+2026-06-21 16:03:03 [INFO] 📦 JSON 已保存: reports/2026-06-22-00.json
+2026-06-21 16:03:03 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
