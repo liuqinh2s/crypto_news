@@ -1261,3 +1261,106 @@ content length: 1648
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1261, prompt_tokens=9111, total_tokens=10372, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=827, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7959)
+content length: 1157
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF 30天流出64亿美元",
+      "summary": "在过去的30天内，比特币ETF净流出创纪录的64亿美元，表明机构投资者正在大规模撤离。这可能由于宏观不确定性、价格下跌或市场情绪悲观。流出规模是历史最大，直接增加BTC抛压。看空信号，影响BTC及整体市场。",
+      "reason": "ETF资金流动是直接影响行情的关键指标，创纪录流出属于重大利空。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "德意志银行上调美国通胀预期",
+      "summary": "德意志银行上调美国通胀预期，暗示美联储可能维持紧缩政策更久。高通胀延迟降息，对风险资产（包括加密货币）构成宏观压力。BTC和ETH等资产可能承压，短期内下跌风险增加。看空信号。",
+      "reason": "宏观经济数据（通胀预期）影响风险资产定价，属于中期影响因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518519.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中仅筛选出2条具有明确交易价值的新消息，其余均为重复或无关内容。已严格去重。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1031, prompt_tokens=9111, total_tokens=10142, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=460, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=23)
+content length: 1537
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF 30天净流出64亿",
+      "summary": "比特币ETF在30天内净流出创纪录的64亿美元，反映机构资金加速离场，市场恐慌情绪蔓延。资金大幅流出通常预示短期抛压加剧，对BTC价格构成利空。该数据直接关联BTC和整体市场情绪。",
+      "reason": "ETF资金流向是直接影响行情的关键指标，净流出64亿美元规模创纪录，属于优先级一，强烈看空信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美伊谈判代表抵达瑞士",
+      "summary": "美国和伊朗谈判代表已抵达瑞士，可能就核问题或地区局势进行磋商。地缘政治紧张局势缓解的预期可能短暂提振风险资产，但不确定性仍存。对BTC等加密货币影响中性偏多，取决于谈判结果。",
+      "reason": "地缘政治事件可能影响市场风险偏好，属于中期影响，但直接关联度有限，评级中性。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518520.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "德意志银行上调美国通胀预期",
+      "summary": "德意志银行上调美国通胀预期，市场对美联储维持紧缩政策的担忧加剧。通胀预期上升可能推迟降息，对风险资产包括加密货币构成压力。但若通胀超预期，可能引发市场恐慌。整体偏空。",
+      "reason": "宏观经济数据影响风险资产走势，通胀预期上修利空加密货币，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518519.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}

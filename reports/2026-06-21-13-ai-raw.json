@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-21",
+  "hour": "13",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9111,
+    "completion_tokens": 1031,
+    "total_tokens": 10142
+  },
+  "content_length": 1537,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC ETF 30天净流出64亿\",\n      \"summary\": \"比特币ETF在30天内净流出创纪录的64亿美元，反映机构资金加速离场，市场恐慌情绪蔓延。资金大幅流出通常预示短期抛压加剧，对BTC价格构成利空。该数据直接关联BTC和整体市场情绪。\",\n      \"reason\": \"ETF资金流向是直接影响行情的关键指标，净流出64亿美元规模创纪录，属于优先级一，强烈看空信号。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 5,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"美伊谈判代表抵达瑞士\",\n      \"summary\": \"美国和伊朗谈判代表已抵达瑞士，可能就核问题或地区局势进行磋商。地缘政治紧张局势缓解的预期可能短暂提振风险资产，但不确定性仍存。对BTC等加密货币影响中性偏多，取决于谈判结果。\",\n      \"reason\": \"地缘政治事件可能影响市场风险偏好，属于中期影响，但直接关联度有限，评级中性。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518520.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"德意志银行上调美国通胀预期\",\n      \"summary\": \"德意志银行上调美国通胀预期，市场对美联储维持紧缩政策的担忧加剧。通胀预期上升可能推迟降息，对风险资产包括加密货币构成压力。但若通胀超预期，可能引发市场恐慌。整体偏空。\",\n      \"reason\": \"宏观经济数据影响风险资产走势，通胀预期上修利空加密货币，属于优先级二。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518519.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
