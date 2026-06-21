@@ -2122,3 +2122,63 @@ content length: 3733
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2373, prompt_tokens=11583, total_tokens=13956, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1461, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10431)
+content length: 2054
+============================================================
+{
+  "news": [
+    {
+      "title": "日本国家基金拟投比特币",
+      "summary": "据报道，日本国家基金计划投资比特币及其他加密货币，同时一项新的数字资产法案正在推进中。这可能为日本政府层面正式配置加密资产铺平道路，吸引大量机构资金入场。利好BTC、ETH等主流币，属于重大机构看多信号。",
+      "reason": "日本国家基金拟投资比特币为重大机构动向，历史消息中仅有企业养老金计划，本消息为首次出现，影响深远。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://cryptonews.net/news/bitcoin/22924567/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Warsh重塑美联储政策",
+      "summary": "CNBC报道称，新任美联储主席Kevin Warsh正以\"天鹅绒手套下的政权更迭\"方式重塑美联储，市场关注其货币政策立场变化。若Warsh倾向鸽派（降息或放缓缩表），将利好风险资产包括加密货币；若鹰派则利空。当前市场解读为偏鸽派，短期中性偏多，但需后续具体政策落地。",
+      "reason": "美联储主席更迭及政策方向变化直接决定宏观流动性，影响所有风险资产定价，属于顶级宏观经济事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVDd6RFBjRnNkT05BQm0tWnRYd3Mtakg5TExfQmpleVFrLUxDdkR1OFhhT043UU5LVFVsYXBaT2FIaXJxSmJfT21Cd2szYTFaMkx1M2ZaWUNYbnVwZF8yUGpUU2NlOHYyc3hUQzdXX3UyTVptRW9ib3p1WVlweHZRY3hXMkVVUm5kT0HSAY8BQVVfeXFMTzNTa3Zqc1RMS05RTlZ3Y0hOWUZDZ21tU080QTNHOFJ1dEtxcHUyRU9oR0paMDhqZHkwSEx2VThwRHpXMmNLeFJLNkJpUDJBMEhheFlzaWVTMVhRN1B1ZVFWSHJCdXVfZUllMzBaMS1JdFdMaFBlV1RUSzZQRUlHdkNIeVQwYUpaY2lmUnQ3djA?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC突破65K因伊朗谈判",
+      "summary": "比特币价格从64K附近反弹至65K以上，主要催化剂是美国副总统Vance抵达瑞士参与伊朗和平谈判，市场对地缘风险缓解抱有期望。若谈判取得进展，避险情绪降温可能推动资金回流风险资产；但谈判破裂则可能引发抛售。短期看多，但需密切关注谈判结果。",
+      "reason": "价格突破伴随重大地缘事件进展，市场情绪敏感，短期交易机会明显。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/bitcoin-65k-vance-iran-talks/"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前6小时内大部分新闻与历史消息重复，仅筛选出3条有价值新消息。"
+}
