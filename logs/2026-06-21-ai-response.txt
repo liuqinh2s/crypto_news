@@ -1765,3 +1765,63 @@ content length: 3211
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2566, prompt_tokens=9181, total_tokens=11747, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1945, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8029)
+content length: 1608
+============================================================
+{
+  "news": [
+    {
+      "title": "ETH最大三明治机器人被黑750万",
+      "summary": "以太坊上最大的MEV三明治机器人因漏洞被黑客攻击，损失约750万美元。该机器人通常通过夹击交易获利，但被利用执行攻击。此事件暴露了MEV生态的安全风险，可能引发对以太坊DeFi安全性的担忧。短期看空ETH及相关MEV代币。",
+      "reason": "直接影响行情的项目安全事件，涉及以太坊主流MEV机器人，金额较大。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗军方：霍尔木兹海峡仍关闭",
+      "summary": "伊朗军方消息人士称霍尔木兹海峡仍然关闭，此前美伊谈判因美国未执行谅解备忘录陷入僵局。霍尔木兹海峡是全球重要石油运输通道，关闭将推高油价并加剧地缘风险，进而影响风险资产包括加密货币。BTC和ETH可能承压下跌。",
+      "reason": "地缘政治事件直接影响风险资产情绪，属于宏观风险，可能引发避险抛售。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518537.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC跌破64000美元",
+      "summary": "比特币价格跌破64000美元关口，此前在64000附近横盘。受地缘政治紧张和ETF资金持续流出影响，BTC短期下行压力加大。技术面破位可能引发止损抛售，短期看空BTC。",
+      "reason": "价格关键位突破，直接影响行情，属于市场结构变化。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518536.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "仅筛选出3条高价值新消息，其余多为重复或低影响内容。"
+}
