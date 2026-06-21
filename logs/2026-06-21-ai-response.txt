@@ -1567,3 +1567,110 @@ content length: 3553
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2602, prompt_tokens=10009, total_tokens=12611, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1289, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8857)
+content length: 3338
+============================================================
+{
+  "news": [
+    {
+      "title": "霍尔木兹威胁升级，美伊谈判蒙阴影",
+      "summary": "据CoinDesk报道，由于霍尔木兹海峡威胁再起，美国与伊朗的停火谈判蒙上阴影，比特币周一维持于64,000美元附近。地缘政治紧张加剧可能打击风险资产，短期内对BTC等加密货币构成下行压力，属于看空信号。",
+      "reason": "地缘政治风险直接影响市场情绪，霍尔木兹威胁是新增变量，可能引发避险抛售。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/21/bitcoin-holds-near-usd64-000-as-a-renewed-hormuz-threat-clouds-us-iran-ceasefire-talks"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "高盛大砍黄金目标价，长期多头转谨慎",
+      "summary": "金色财经消息，高盛大幅下调黄金目标价，长期多头态度趋于谨慎。黄金作为避险资产被下调目标，可能反映市场对通胀或利率预期的变化，间接影响加密货币作为替代性价值存储的需求，短期偏中性但需关注后续宏观数据。",
+      "reason": "高盛为顶级投行，其商品观点影响大类资产配置，可能间接传导至加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518528.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "AC退出Sonic Labs董事会，技术架构不变",
+      "summary": "Sonic Labs创始人AC回应退出董事会，称其仅负责技术架构，不参与商业和代币决策。此消息可能引发市场对Sonic（原FTM）治理稳定性的担忧，短期偏空，但AC强调技术架构持续负责，长期影响有限。",
+      "reason": "项目创始人退出关键职位可能影响社区信心，属于项目更新类消息，对FTM/SONIC币种有直接影响。",
+      "category": "项目更新",
+      "impact_coins": ["FTM", "SONIC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518524.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Galaxy Research：比特币矿工已进入投降阶段",
+      "summary": "Galaxy Research报告指出，比特币矿工已进入投降阶段，通常意味着市场底部区域。矿工抛压减轻，算力可能下降，历史数据显示该阶段后比特币价格往往形成底部，中长期看多信号。",
+      "reason": "矿工投降是链上关键指标，常被视为周期底部信号，对BTC有重要参考价值。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518522.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitwise CEO：加密市场正重演互联网泡沫",
+      "summary": "Bitwise CEO表示，当前加密市场与互联网泡沫时期相似，未来头部项目规模与生命周期将超预期。该观点偏向长期乐观，但短期内市场仍处于调整阶段，参考意义为主。",
+      "reason": "机构高管观点可影响市场情绪，但无实质数据支撑，仅作情绪参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518521.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "路透调查：特朗普家族加密利润超10亿美元",
+      "summary": "路透社调查显示，特朗普家族从三个主要加密项目中获利超10亿美元，包括纳斯达克上市的American Bitcoin。该消息可能引发监管关注或政治争议，短期中性，但若监管介入则利空。",
+      "reason": "涉及政治人物与监管，可能影响加密货币合规预期，需持续关注后续反应。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reuters Crypto via East Anglia Bylines",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORHNLNGlUTU0zand3dEh0V011M0hjaUE3OHp4cEdoMmFZX05HSGwxYkpRYkk5VjFTejhNQ2RrcjJQNG1JWmtPZUdIdUNsd0syUW0yVGhRZU1RcXBBNVhhTWRwOU00VS1VeW5IaHhidXBEMFNPcjVjcEJ6RUs2NHA1WURvOXlBWlpjOE5DZVhKNkJCRTBSNjU0anBnbw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
