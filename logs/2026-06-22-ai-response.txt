@@ -633,3 +633,107 @@ content length: 1555
   ],
   "note": "经过筛选，本轮素材中与历史不重复且有交易价值的新消息仅有3条，均为中等或轻度影响。Binance公告多为重复或已过时，市场情绪指标与历史相同，故未纳入更多条目。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2469, prompt_tokens=10157, total_tokens=12626, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1977, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9005)
+content length: 1238
+============================================================
+{
+  "news": [
+    {
+      "title": "菲律宾SEC支持RWA代币化",
+      "summary": "菲律宾证券交易委员会（SEC）宣布已准备好进行现实世界资产（RWA）代币化，表明监管机构对加密创新的支持态度。此举可能推动RWA赛道发展，利好相关代币如ONDO、MKR、CFG等。短期内属于积极监管信号，但尚未落地具体规则，影响有限。看多RWA概念币。",
+      "reason": "监管政策利好，直接支持RWA代币化，属于中期影响。",
+      "category": "监管政策",
+      "impact_coins": ["ONDO", "MKR", "CFG"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518569.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Humanity Protocol黑客抛售",
+      "summary": "Humanity Protocol遭遇漏洞利用，黑客将盗取的资产兑换为USDC并将约750万美元存入KuCoin交易所，可能引发抛售压力。该事件涉及DeFi安全风险，短期对Humanity Protocol代币及相关协议构成利空，也警示整个DeFi生态。但金额较小，影响范围有限。",
+      "reason": "链上异动，黑客存入交易所为抛售信号，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["HUMANITY", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ubx3ac/humanity_protocol_exploiter_swaps_loot_for_usdc/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段缺乏直接影响行情的重大消息，仅选出两条中等影响的消息。Binance公告均为旧闻重复，恐惧贪婪指数维持23未变，其余素材多为分析或重复内容，无新增交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1565, prompt_tokens=10157, total_tokens=11722, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=750, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10112), prompt_cache_hit_tokens=10112, prompt_cache_miss_tokens=45)
+content length: 1898
+============================================================
+{
+  "news": [
+    {
+      "title": "菲律宾SEC准备RWA代币化",
+      "summary": "菲律宾证券交易委员会（SEC）宣布已准备好进行真实世界资产（RWA）代币化。这意味着菲律宾可能成为首批允许代币化资产交易的国家之一，为加密市场带来合规化利好。影响方面，RWA相关代币如POLY、LINK、MAKER等可能受益。监管利好信号，整体看多。",
+      "reason": "直接监管政策利好，可能推动RWA赛道发展，符合优先级一中的监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["LINK", "POLY", "MKR"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518569.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Humanity Protocol黑客洗钱",
+      "summary": "Humanity Protocol（HP）漏洞被利用，黑客将盗取资金转换为USDC并存入KuCoin，涉及金额约750万美元。这属于链上异动，可能引发HP代币抛售压力，并对同类项目产生负面情绪。影响币种主要是HP，但整体市场情绪偏空。",
+      "reason": "黑客事件直接导致潜在抛压，属优先级一中的项目方重大事件。",
+      "category": "链上异动",
+      "impact_coins": ["HP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ubx3ac/humanity_protocol_exploiter_swaps_loot_for_usdc/"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币网络活跃度激增",
+      "summary": "比特币网络活跃度出现激增，链上交易量显著上升。这可能是牛市启动信号，但也可能是大户转移资金。短期内可能对BTC价格形成支撑，但需结合其他指标。影响BTC，偏多信号。",
+      "reason": "链上指标异常，属优先级二中的链上指标异常，可能预示行情变化。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CryptoPotato",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1RTd1ZjTFF6TmQtNVFUdGUyWEN6alFjNW5hMXlGOXNPdnVPVUE5WXpRSTkxVkxzY0VqWnFPWXc3NjRpSWctcHBPNlhsSW9fSE9oeUJiVk1zVThsUE52MUw5WlFrek0yVENiNG5zMUZCZXBrQ0k2aWtfUmlGZ05PeXpNU0QyZnFCNHlER1RxNWxGQ0hqdVhGd3Z4YkZkLUg2ODhXQjBR?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于大部分新闻在历史消息中已重复出现（如Binance旧公告、恐惧贪婪指数、同一事件评论等），仅选出3条有价值的新消息。"
+}

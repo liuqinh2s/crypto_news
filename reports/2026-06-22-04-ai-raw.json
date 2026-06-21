@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-22",
+  "hour": "04",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10157,
+    "completion_tokens": 1565,
+    "total_tokens": 11722
+  },
+  "content_length": 1898,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"菲律宾SEC准备RWA代币化\",\n      \"summary\": \"菲律宾证券交易委员会（SEC）宣布已准备好进行真实世界资产（RWA）代币化。这意味着菲律宾可能成为首批允许代币化资产交易的国家之一，为加密市场带来合规化利好。影响方面，RWA相关代币如POLY、LINK、MAKER等可能受益。监管利好信号，整体看多。\",\n      \"reason\": \"直接监管政策利好，可能推动RWA赛道发展，符合优先级一中的监管动态。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"LINK\", \"POLY\", \"MKR\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518569.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Humanity Protocol黑客洗钱\",\n      \"summary\": \"Humanity Protocol（HP）漏洞被利用，黑客将盗取资金转换为USDC并存入KuCoin，涉及金额约750万美元。这属于链上异动，可能引发HP代币抛售压力，并对同类项目产生负面情绪。影响币种主要是HP，但整体市场情绪偏空。\",\n      \"reason\": \"黑客事件直接导致潜在抛压，属优先级一中的项目方重大事件。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"HP\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1ubx3ac/humanity_protocol_exploiter_swaps_loot_for_usdc/\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"比特币网络活跃度激增\",\n      \"summary\": \"比特币网络活跃度出现激增，链上交易量显著上升。这可能是牛市启动信号，但也可能是大户转移资金。短期内可能对BTC价格形成支撑，但需结合其他指标。影响BTC，偏多信号。\",\n      \"reason\": \"链上指标异常，属优先级二中的链上指标异常，可能预示行情变化。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CryptoPotato\",\n          \"url\": \"https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1RTd1ZjTFF6TmQtNVFUdGUyWEN6alFjNW5hMXlGOXNPdnVPVUE5WXpRSTkxVkxzY0VqWnFPWXc3NjRpSWctcHBPNlhsSW9fSE9oeUJiVk1zVThsUE52MUw5WlFrek0yVENiNG5zMUZCZXBrQ0k2aWtfUmlGZ05PeXpNU0QyZnFCNHlER1RxNWxGQ0hqdVhGd3Z4YkZkLUg2ODhXQjBR?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"由于大部分新闻在历史消息中已重复出现（如Binance旧公告、恐惧贪婪指数、同一事件评论等），仅选出3条有价值的新消息。\"\n}"
+}
