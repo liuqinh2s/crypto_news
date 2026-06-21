@@ -1026,3 +1026,110 @@ content length: 3382
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2937, prompt_tokens=9524, total_tokens=12461, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1408, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8372)
+content length: 3542
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸3倍做空2.65万枚ETH",
+      "summary": "巨鲸Pension在链上以3倍杠杆做空2.65万枚ETH（约4600万美元），开仓均价约1736美元。如此大规模做空直接影响ETH价格预期，增加短期抛压。看空ETH，关注ETH可能承压下行。",
+      "reason": "链上异动，大额做空单直接反映市场情绪，属于优先级一，影响明确",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518511.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "MSUSD脱锚跌至0.36美元",
+      "summary": "算法稳定币MSUSD脱锚，价格暴跌至0.36美元，官方声称资产全额支持并将恢复市场。脱锚事件可能引发市场恐慌和类似UST的连锁反应，影响DeFi生态及投资者信心。利空整体市场，尤其是算法稳定币项目。",
+      "reason": "稳定币脱锚是重大风险事件，可能引发系统性恐慌，优先级一",
+      "category": "项目更新",
+      "impact_coins": ["MSUSD", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518510.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "GameFi板块代币普涨",
+      "summary": "GameFi板块代币普遍上涨，其中AXS 24小时涨幅达26.1%。板块异动可能由短期资金轮动或项目利好驱动，但需关注持续性。短期看多AXS及相关GameFi代币，但注意追高风险。",
+      "reason": "板块轮动信号，GameFi活跃可能带动短期交易机会，优先级三",
+      "category": "市场情绪",
+      "impact_coins": ["AXS", "SLP", "GALA"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518507.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "分析师称STRC脱锚过度反应",
+      "summary": "分析师指出Strategy（STRC）离强制清算还很远，将其脱锚对比UST/LUNA暴雷明显过度。该评论可能缓解市场对MSTR清算的恐慌，稳定比特币抵押品预期。中性偏多，短期可能修复MSTR和BTC情绪。",
+      "reason": "机构相关分析，影响比特币衍生品和MSTR股价，优先级二",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518508.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MSTR资本灵活性受质疑",
+      "summary": "分析文章指出Strategy（MSTR）的比特币支持股息结构可能收紧资本灵活性。这暗示MSTR融资能力受限，可能减少未来比特币购买，间接利空BTC。需关注MSTR后续财报和比特币持仓变化。",
+      "reason": "机构动态，MSTR作为最大企业比特币持有者，其资本状况影响BTC需求，优先级二",
+      "category": "机构动态",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOXlGbkQtSjlEemZNNG9JcEhlWlM4WUxBaVZObnhKTWlMbFFJUkxXTENmbUZfTTFidXZxa2dwM3BRR1hFb3NHYTFGaTFmYzBTYVNuNEdkQ2V6bHhQcU9FTFdmREJ6RDZtY1RvelRZY1hfVVF6bVQ3NDBfZzVLZG1NS2VucmFzUFVTbDhnTE5jdkJ4QklxdUpiSTEzU3A1VWVvcFBZTG1HS0RmOW9jbnduV0NOX1pYN3IyNDJnTEdTZ1BCbFFDT3fSAcsBQVVfeXFMT25ZTnY3Z1RUS0RicE8xR0VYWkQwSDNJbER4RHZ3NGJiSnhUMnF1Y0NHcUVDYTVURGQwZnFVc3Y5ZnU0WUYwQk96TnNfQThBajdBZlFMbTJURFlMY0p6Z0w4c0drbnZuZVJrOXdIb2xXOTFKZG5saF8yWUt3TlhSSTZBWWp6cFVpSHM2OXkzTHl6bVlDTEpqN3IyUnFZQmYweVVMTEtBYzhsaU1aRkxsVWltTEJMdlRGZzEyYmV3WFd3Ykh1NlNtTWp1dTg"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase深度绑定Morpho",
+      "summary": "分析显示Coinbase与DeFi借贷协议Morpho深度绑定，存款占比过半，借贷规模超12亿美元。此举显示机构对DeFi的信任，可能促进ETH和DeFi生态发展，但中心化风险隐现。中性偏多，关注Morpho及ETH链上活动。",
+      "reason": "DeFi重大事件，机构深度参与影响DeFi流动性和ETH价值捕获，优先级二",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "MORPHO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518512.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
