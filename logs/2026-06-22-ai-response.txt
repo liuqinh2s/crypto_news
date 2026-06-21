@@ -841,3 +841,79 @@ content length: 2740
   ],
   "note": "筛选出4条有价值消息，其余均为历史重复或低价值信息（如Binance批量公告、恐惧贪婪指数未变、Reddit闲聊、技术分析预测等）。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2342, prompt_tokens=9817, total_tokens=12159, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1038, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8665)
+content length: 2898
+============================================================
+{
+  "news": [
+    {
+      "title": "日本养老基金配置BTC",
+      "summary": "据报道，日本养老基金正式将比特币纳入资产配置，以对冲美元风险。此举标志主权基金级别的入场，可能吸引更多亚洲机构跟随。直接影响BTC需求，中期看涨。可能影响其他主流币如ETH。",
+      "reason": "优先级二：机构动向，日本养老基金配置BTC是超大型机构入场的信号，对BTC构成实质性利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "InsuranceNewsNet",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQnJ4X3JaRmJ6aWVIRERUNXU4RERGUVVfNUx4ZC1uVEZFM2hzMzNVWm1PNkN2cFUtQ045UE1NV0N0MklQN2lLU3VOVDktV3RCazRFVmR5eHVKNHhhTzB5X0ZpOEx1LW5WZnFxdGpYSU9XZEg5WlV5UVpBTDA5bTNWM181TFptb3ktLUp0dTVDQkhZbkRnQUMxMW92QjBXTXRZeEd5NHRXelpJVDFFc1lRd2tB?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CLARITY法案受阻于特朗普关系",
+      "summary": "Yahoo Finance报道，CLARITY法案的最大障碍并非加密货币监管本身，而是特朗普与加密行业的联系。法案若无法通过，将延长监管不确定性，对市场情绪构成压制，尤其影响美国合规项目代币。短期偏空，但长期影响需观察。",
+      "reason": "优先级一：重大监管动态，法案进展直接影响行业预期，利空信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNODB5QVE1TEpyT2RCemlQOWJqenZaR0dxY3hHd1NFSlhUTzdpUGNYXzFzSmhnSGV3Mk9KZTJfMndDWDVaZWh2ZVp6ZGxBZU13Mm9yTldSVXN2TWc1ZE9TQ1NkRWFPbnFjMFpOdWRzNU14b1ZvbmhqWGY0MWFIVjhHM2JHZWFvV3psbUxrTXkwRzF6VkpVM01wRFh5NENTZWhO?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "芬太尼网络涉Zksync假代币诈骗",
+      "summary": "Nikkei报道，与中国芬太尼网络相关的组织从日本发起加密诈骗，涉及虚假Zksync.jp代币。该事件可能损害ZKSync生态声誉，短期对ZKSync相关代币（如ZK）构成抛压，但影响范围有限。看空ZK及L2概念。",
+      "reason": "优先级一：项目方重大事件（诈骗），负面消息影响相关代币价格。",
+      "category": "项目更新",
+      "impact_coins": ["ZK"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405468/fentanyl-linked-chinese-network-tied-to-crypto-fraud-from-japan-involving-fake-zksync-jp-token-nikkei?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "黄金三周连跌，美元强加息预期",
+      "summary": "黄金因美元走强和美联储加息担忧连续第三周下跌。市场认为风险资产（含BTC）可能受类似宏观压力。若加息预期持续，BTC短期承压。但部分分析师仍看好黄金和BTC长期前景。",
+      "reason": "优先级二：宏观经济数据，黄金与BTC常呈正相关，黄金下跌反映风险资产压力。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Pluang",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVlHN0FuQnVKVTE5VmR2Y1F3UF95N2c1czFCMmpzc01KcjdoN3pWV2JHWnJKT0swazBBX0dlVkFJVk83TzRlWEJneWVDMk5reXIzbnVYOFB2M0RpVC16S21PNHhSS3FBeW04UVVXLURaakZ2bHJCN0owQUwzUkZrM3FLWk0?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于本轮有效新消息数量有限，仅筛选出4条较有价值的信息。恐惧贪婪指数23虽为极值但因重复未收录；Binance公告多为旧闻已去重。建议关注后续日本养老基金执行细节及CLARITY法案动态。"
+}
