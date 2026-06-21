@@ -2272,3 +2272,63 @@ content length: 3631
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2537, prompt_tokens=11696, total_tokens=14233, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1771, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10544)
+content length: 1788
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普威胁伊朗打击真主党",
+      "summary": "特朗普威胁称，如果伊朗不控制真主党，美国将再次发动打击。此前美伊在瑞士会谈，伊朗方面称霍尔木兹海峡仍关闭，此次威胁加剧中东紧张局势，可能引发风险资产抛售。比特币近期因地缘风险承压，若冲突升级或进一步下跌。对BTC、ETH构成利空信号。",
+      "reason": "地缘政治事件直接影响风险资产情绪，为优先级一（重大监管/地缘动态）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518553.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸开20倍ETH空单3964万美元",
+      "summary": "某巨鲸地址开设20倍杠杆的ETH空单，仓位价值3964万美元。大额杠杆空单表明专业交易者看跌ETH，短期内可能对ETH价格形成压制。该消息属于链上异动，直接影响合约市场情绪。",
+      "reason": "巨鲸大额杠杆空单为优先级一（巨鲸异动），直接指示做空压力。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518552.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Franklin Templeton提交比特币分红ETF",
+      "summary": "资管巨头Franklin Templeton（BEN）向SEC提交比特币分红ETF文件，其AUM达1.78万亿美元。这是首个以分红为目标的比特币ETF产品，若获批将吸引更多机构资金入场，对比特币价格构成中长期利好。",
+      "reason": "ETF相关申请为优先级一（ETF审批），机构动态利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQlpiZkxFdi1QUHlBVHcycDBEd1Zwb3RuVWRYSFpNUml1NUtoR3NJSTI1WVQyQktGVDBNZ20wS1ptWTExVXpBWUZaUVVjQjN6NnlSR0g2d2lndGQ4STF4elV5Z1liNGhuWmlJalZuMmswMUJKemZxN0RQVFI3Zi1MVXREVlMycXJXZlZsb0dPMnR0NktqRzgtRjJkOE5xSXFRbV9Z"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本次仅筛选出3条符合标准的新消息，其他素材因重复或不具备交易价值已排除。"
+}
