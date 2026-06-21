@@ -368,3 +368,208 @@ content length: 3191
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1266, prompt_tokens=10564, total_tokens=11830, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=981, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9412)
+content length: 658
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗谈判变数：代表团离场",
+      "summary": "伊朗代表团已离开谈判会场，但美国与伊朗的谈判仍在通过中间方继续进行。特朗普此前威胁伊朗，导致地缘政治紧张局势升级，可能引发风险资产抛售。若局势恶化，BTC和ETH等加密货币可能承压下行。该消息为利空信号，但谈判仍在继续，不确定性强。",
+      "reason": "地缘政治紧张直接影响风险资产情绪，属于优先级一中的重大事件（可能引发避险情绪），且为最新进展，未完全重复历史消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518562.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中其余消息多为重复公告（如Binance上币、季度合约等）或非交易相关（如学习资源、AI对比等），无新增重要交易信号。恐惧贪婪指数23已在历史消息中多次出现，数值未变，故不重复选入。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2154, prompt_tokens=10564, total_tokens=12718, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1870, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=68)
+content length: 661
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗谈判继续但代表团已离场",
+      "summary": "伊朗代表团已离开谈判地点，但美国与伊朗的谈判仍通过中间方继续。特朗普此前威胁伊朗，若不控制真主党将再次发动打击。地缘政治紧张可能加剧不确定性，短期利空风险资产（BTC/ETH），因市场避险情绪可能升温；但若谈判取得突破，则可能反转。当前信号偏空。",
+      "reason": "伊朗局势直接影响霍尔木兹海峡通行，威胁能源供应，属于优先级二的地缘政治事件，可能影响全球风险偏好，间接影响加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518564.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中大部分Binance公告、伊朗谈判初始消息、恐惧贪婪指数等已在历史消息中存在重复，且无新增高价值交易信息。仅伊朗谈判最新进展（通过中间方继续）为微小更新，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2027, prompt_tokens=10564, total_tokens=12591, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1391, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=68)
+content length: 1339
+============================================================
+{
+  "news": [
+    {
+      "title": "Exodus增持BTC和SOL",
+      "summary": "加密钱包服务商Exodus最新持仓显示，BTC持有量增至656枚，SOL持有量突破2万枚。Exodus作为合规加密货币钱包提供商，其持续增持BTC和SOL表明对这些资产长期价值的看好，可能对市场情绪产生一定积极影响，但规模较小。影响币种主要为BTC和SOL，信号偏多，但影响有限。",
+      "reason": "Exodus是知名合规钱包，其增持行为属于机构增持信号，虽然规模不大，但符合优先级二中机构动向的筛选标准。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518561.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "中国芬太尼网络涉嫌加密诈骗",
+      "summary": "据Nikkei Asia报道，一个中国芬太尼网络被怀疑通过日本基地进行加密货币诈骗。该消息可能引发监管层对加密货币洗钱和非法金融活动的进一步关注，增加监管不确定性，对加密货币市场情绪产生负面影响，但事件本身不直接针对主流币种，影响有限。",
+      "reason": "涉及犯罪与加密关联，可能触发监管打压，属于优先级一中的重大监管动态的潜在先兆，直接影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "Nikkei Asia", "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUFppMWxpekpFcGRDNGdyUThwMWI3VXpEUVBENVFmSk4wME96TllJcUxaekxvOGpjUGpvYWZ5MXhSc2x3V2wzY1M0OGtzRGdFNUo2OTExcmF4LW9KdzZwZDlmSTFSN1NCV01qXzh1RXJDZlhHM0JkMlpKd2d0Y3dWUl93dEdzSG1qTlM2YjlFTXNfZHBCYk0yYTFlSTV1SjFLM0dua3VoMHhtY3hrNUNjTHQ2VDlUN0Z2ZURlb0JUMnF2WXBJMnNOTTljN3M?oc=5"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为重复历史消息或无关内容，仅筛选出2条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1493, prompt_tokens=12010, total_tokens=13503, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1241, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1664), prompt_cache_hit_tokens=1664, prompt_cache_miss_tokens=10346)
+content length: 613
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗谈判因美威胁暂停",
+      "summary": "6月22日，伊朗代表团因抗议特朗普威胁言论离开谈判会场，但与美国谈判仍在通过中间方继续进行。此前特朗普威胁伊朗控制黎巴嫩代理人，否则将再次打击。地缘政治不确定性增加，可能影响BTC等风险资产。短期看，谈判暂停增加避险情绪，但中间方渠道保留意味着冲突未升级，市场可能震荡。",
+      "reason": "地缘政治冲突直接影响风险资产价格，谈判暂停为最新进展，虽已出现在历史消息中但细节更新。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518562.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中绝大部分消息与历史重复或价值较低，仅伊朗谈判暂停有新进展且具交易价值，故仅输出一条。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1157, prompt_tokens=12010, total_tokens=13167, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1106, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11904), prompt_cache_hit_tokens=11904, prompt_cache_miss_tokens=106)
+content length: 92
+============================================================
+{
+  "news": [],
+  "note": "近6小时所有消息均为历史重复，无新增重要交易信号。当前市场焦点为伊朗地缘风险和恐惧贪婪指数持续极端恐惧（23），但均为旧闻。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1997, prompt_tokens=4314, total_tokens=6311, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1208, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3162)
+content length: 2083
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数23极恐",
+      "summary": "恐惧贪婪指数降至23，处于极度恐惧区间。历史数据显示，极度恐惧往往是中长期抄底区间，可能预示市场底部临近。但短期情绪可能继续悲观。对BTC、ETH等主要币种构成潜在看多信号，但需等待确认。",
+      "reason": "极端情绪信号，历史抄底区，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Exodus增持BTC/SOL",
+      "summary": "加密钱包服务商Exodus披露其BTC持仓增至656枚，SOL持仓突破2万枚。机构持续增持显示长期看好，对BTC和SOL构成温和看多信号，但金额不大，影响有限。",
+      "reason": "机构增持信号，中期利好，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518561.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线RE代币",
+      "summary": "Binance宣布将上线Re (RE)代币，并标注Seed Tag。新币上线通常带来短期交易机会和流动性，对RE本身是看多信号，但Seed Tag提示高风险，整体影响局限于该币种。",
+      "reason": "交易所上币公告，直接影响RE价格，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance推出季度交割合约",
+      "summary": "Binance Futures将上线USDⓈ-M和COIN-M季度1225交割合约，增加衍生品工具。这为交易者提供更多对冲和投机选择，可能增加市场深度和波动性，对主流币种影响中性偏多。",
+      "reason": "市场结构变化，提供新工具，优先级二。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前素材中无直接影响行情的重大消息（如ETF审批、巨鲸异动、黑客攻击等），故输出4条。其余多为教育内容、旧公告或无关事件，已排除。"
+}

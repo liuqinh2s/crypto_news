@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-22",
+  "hour": "02",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4314,
+    "completion_tokens": 1997,
+    "total_tokens": 6311
+  },
+  "content_length": 2083,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"恐惧贪婪指数23极恐\",\n      \"summary\": \"恐惧贪婪指数降至23，处于极度恐惧区间。历史数据显示，极度恐惧往往是中长期抄底区间，可能预示市场底部临近。但短期情绪可能继续悲观。对BTC、ETH等主要币种构成潜在看多信号，但需等待确认。\",\n      \"reason\": \"极端情绪信号，历史抄底区，优先级三。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Exodus增持BTC/SOL\",\n      \"summary\": \"加密钱包服务商Exodus披露其BTC持仓增至656枚，SOL持仓突破2万枚。机构持续增持显示长期看好，对BTC和SOL构成温和看多信号，但金额不大，影响有限。\",\n      \"reason\": \"机构增持信号，中期利好，优先级二。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"SOL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518561.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Binance上线RE代币\",\n      \"summary\": \"Binance宣布将上线Re (RE)代币，并标注Seed Tag。新币上线通常带来短期交易机会和流动性，对RE本身是看多信号，但Seed Tag提示高风险，整体影响局限于该币种。\",\n      \"reason\": \"交易所上币公告，直接影响RE价格，优先级一。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"RE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Binance推出季度交割合约\",\n      \"summary\": \"Binance Futures将上线USDⓈ-M和COIN-M季度1225交割合约，增加衍生品工具。这为交易者提供更多对冲和投机选择，可能增加市场深度和波动性，对主流币种影响中性偏多。\",\n      \"reason\": \"市场结构变化，提供新工具，优先级二。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前素材中无直接影响行情的重大消息（如ETF审批、巨鲸异动、黑客攻击等），故输出4条。其余多为教育内容、旧公告或无关事件，已排除。\"\n}"
+}
