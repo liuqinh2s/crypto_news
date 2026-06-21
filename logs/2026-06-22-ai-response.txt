@@ -737,3 +737,107 @@ content length: 1898
   ],
   "note": "由于大部分新闻在历史消息中已重复出现（如Binance旧公告、恐惧贪婪指数、同一事件评论等），仅选出3条有价值的新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1414, prompt_tokens=9608, total_tokens=11022, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=958, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8456)
+content length: 938
+============================================================
+{
+  "news": [
+    {
+      "title": "美伊谈判破裂恐引发黑色星期一",
+      "summary": "Yahoo Finance报道，美伊在瑞士的谈判破裂，美国威胁新打击，伊朗代表团已离开。市场预期可能引发Black Monday，比特币和原油市场已开始承压。BTC目前跌破64000美元，若股市大幅下挫，BTC可能进一步下跌至分析师警告的24000美元区域。此消息对BTC和整体加密市场构成利空，地缘政治风险上升，风险资产遭抛售。",
+      "reason": "地缘政治紧张局势升级，直接影响风险资产（BTC/ETH），属于宏观经济/地缘政治类重大事件，可能导致短期剧烈波动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdEoxTkdTb1pGMGdQY2QyXzJ0WFVvZnpoVUEtYzBTN2dsWWY2RUY4REI2dGhNRGJRM2VmaC1laEZ3cl9STmpjUE4temxwTGR6UTk0X1AxWTI1WlNvc0hjYU5MZGMwUVhJM0otZmNiZ010YnVhTUlUZjBodnlZcDFMRXJOVDhRLU9URjdLM3AzNllkRElVZWR6cnJMeTRCZ3pD?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效新消息较少，仅筛选出一条关键消息。多数新闻为重复历史公告或低影响事件（如个人观点、普通项目更新、已存在指数等），故输出少于5条。建议持续关注地缘政治及BTC价格破位情况。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2762, prompt_tokens=9608, total_tokens=12370, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1591, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9600), prompt_cache_hit_tokens=9600, prompt_cache_miss_tokens=8)
+content length: 2740
+============================================================
+{
+  "news": [
+    {
+      "title": "美伊谈判破裂或引发黑色星期一",
+      "summary": "据报道，美国与伊朗在瑞士的谈判破裂，加剧中东紧张局势。市场担忧可能引发“黑色星期一”，比特币和原油价格面临下行压力。比特币近期已跌破64000美元，地缘政治风险加剧可能进一步打压风险资产。历史上类似冲突曾导致BTC短期抛售，但避险资金也可能后续流入。当前信号偏空，短期内BTC、ETH可能承压。",
+      "reason": "地缘政治风险是影响风险资产的重要因素，谈判破裂可能导致市场恐慌性抛售，属优先级一（重大事件）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdEoxTkdTb1pGMGdQY2QyXzJ0WFVvZnpoVUEtYzBTN2dsWWY2RUY4REI2dGhNRGJRM2VmaC1laEZ3cl9STmpjUE4temxwTGR6UTk0X1AxWTI1WlNvc0hjYU5MZGMwUVhJM0otZmNiZ010YnVhTUlUZjBodnlZcDFMRXJOVDhRLU9URjdLM3AzNllkRElVZWR6cnJMeTRCZ3pD?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "380亿美元洗钱服务被捣毁",
+      "summary": "当局拆除了名为AudiA6的勒索软件加密货币洗钱服务，该服务涉及超过380亿美元交易。此行动打击了非法加密金融活动，有助于提升合规环境。短期市场情绪可能因监管加强而承压，但长期利好加密行业健康发展。对主流币种影响中性偏多，但对隐私币或混币相关项目可能利空。",
+      "reason": "重大执法行动影响市场对加密货币合规性的看法，属优先级一（监管动态）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Cybersecurity Insiders",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcjdMWk9Yc29ZTDhxd1BTVWh4Y0VrcnBTMzR5aVBtYzI0SDNqZDBtNzZIRWJmM0h0MEE3RDFzQzlQaDlMekNHd0thZlRhS0ZiSkRSQUZNRHIzZGNvY0FYMlJ5ZmhpR2pXeFJLNVZ1dVZBLW9JUDRMdEg4WFdFMWJVYS11OXg2ZVREMjJOLW1GRQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Blockstream CEO力挺Strategy优先股",
+      "summary": "Blockstream首席执行官Adam Back发表言论，认为MicroStrategy（Strategy）不会归零，并批评市场对其优先股STRC的负面看法缺乏依据。此言论可能提振持有MicroStrategy相关资产的投资者信心，间接利好比特币（因为MicroStrategy大量持有BTC）。但仅为个人观点，实际影响有限。",
+      "reason": "Blockstream CEO是行业重要人物，言论可能影响市场情绪，属优先级三（KOL观点）。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518571.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Mainstreet声明MSUSD完全抵押",
+      "summary": "针对MSUSD稳定币脱锚传闻，Mainstreet团队回应称MSUSD仍然完全由资产支持，并强调透明度。该声明旨在稳定用户情绪，但市场信心恢复仍需时间。若抵押充足，脱锚风险可能被控制，对MSUSD及关联项目构成短期利好。但若进一步出现赎回压力，则可能形成抛售。",
+      "reason": "稳定币脱锚事件直接影响交易者和DeFi生态，属优先级一（项目重大事件）。",
+      "category": "项目更新",
+      "impact_coins": ["MSUSD"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518570.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "筛选出4条有价值消息，其余均为历史重复或低价值信息（如Binance批量公告、恐惧贪婪指数未变、Reddit闲聊、技术分析预测等）。"
+}
