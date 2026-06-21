@@ -2020,3 +2020,105 @@ content length: 4025
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1774, prompt_tokens=10388, total_tokens=12162, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=153, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9236)
+content length: 3733
+============================================================
+{
+  "news": [
+    {
+      "title": "币安上线RE代币",
+      "summary": "币安宣布将上线Re (RE)代币，并开放现货、杠杆、合约等交易。RE是新项目，具有Seed标签，波动性可能较大。此举为RE带来流动性，短期利好RE价格，但需注意风险。",
+      "reason": "币安上币直接影响RE价格，属于优先级一，新消息未重复。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Kraken推CFTC监管永续合约",
+      "summary": "Kraken将联合Bitnomial推出首个CFTC监管的加密货币永续合约，面向美国客户。这标志着合规化进展，吸引更多机构资金，利多BTC、ETH等主流币。Kraken此举可能引领其他交易所跟进，提升市场透明度。",
+      "reason": "监管合规利好，属于优先级一，新消息未重复。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Pluang", "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSl9rR2VEdm83NEFjNHZsd21BT2ZCT2psZWFqWGU3ZHlqUUhaRWw2S2lVai0wOHJJR2lyN1UtT0JiNGxaMC00b29CWVo2VGFjZmlVNFVaTWp2WG11X1l2OERXeVN0LUp5bDZiY3Z5dGo3VDVWRW8xZ05hakhqbDN4MV9pWkdYbWdPOFVGRDNNNzZtMzJJdjFZ?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hester Peirce将离职SEC",
+      "summary": "被加密社区誉为“加密妈妈”的SEC委员Hester Peirce宣布将离职。她是加密友好派，离职可能削弱SEC内部支持加密的立场，短期利空。但若继任者同样友善，影响有限。对整体市场情绪偏空。",
+      "reason": "监管人事变动影响预期，属于优先级一，新消息。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "crypto.news", "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV3BrbnFrU0l0a3JKTDhQOWFBbWRCTFFCMnNoQk9BNVFhbFIzOTNtZkY0a0R2a2F3OWhHcXNqc2FzVzU4TVNMOEx5WlZzTTJEdFhsZjhOZ0ZVaTg3UlJYQnY1d1BYUzc0a2ZWb0Y4SXNmTjJGbDFRUUxIY0NiOGRQVC1xcDl4OWp0cDh3clRtQnZBQQ?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊最大MEV机器人被黑",
+      "summary": "以太坊上最大的“三明治”套利机器人因漏洞被黑客盗走750万美元资产。该事件引发对DeFi安全性的担忧，短期利空ETH及关联DeFi币种（如UNI、LINK）。但属于单一事件，影响有限。",
+      "reason": "重大安全事件，属于优先级一，新消息未重复。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "UNI", "LINK"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://coindesk.com"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币矿工进入投降阶段",
+      "summary": "Galaxy Research报告指出，比特币矿工已进入投降阶段，表现为算力下降、矿工抛售。这通常发生在市场底部附近，历史上是长期买入信号。短期利空（抛压），中长期利多。",
+      "reason": "链上关键指标，属于优先级二，新消息未重复。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Galaxy Research", "url": "https://www.galaxy.com/research"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "摩根士丹利拟推ETH/SOL ETF低费率",
+      "summary": "摩根士丹利计划推出以太坊和Solana现货ETF，并提议0.14%的低费率，可能引发价格战。若获批将为ETH和SOL带来巨量资金，强烈利多。目前处于提议阶段，需关注后续。",
+      "reason": "机构ETF进展，属于优先级一，新消息未重复。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "CryptoSlate", "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YamR5bFg3M3hRdjVKM2RIVTdmSDdsamo5UmpZR3Zpc1k3N191emZMcmtWNHBLMl8yVmItdHNEMnhPZ0JPMS1WWg?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "币安上线季度交割合约",
+      "summary": "币安将上线USDⓈ-M和COIN-M季度1225交割合约，为交易者提供更多对冲和投机工具。对市场结构影响中性，但增加BTC、ETH衍生品深度。",
+      "reason": "交易所新产品增加流动性，属于市场结构，新消息。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
