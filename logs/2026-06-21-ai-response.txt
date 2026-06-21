@@ -855,3 +855,83 @@ content length: 3132
   ],
   "note": "筛选出4条新消息，其余素材均为重复或低价值内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2665, prompt_tokens=9298, total_tokens=11963, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1029, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8146)
+content length: 3578
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧指数23极度恐惧",
+      "summary": "恐惧贪婪指数降至23，处于极度恐惧区间，历史上该区域常为中长期底部。当前市场情绪极度悲观，但可能是抄底机会。影响BTC及整体市场，信号看多（中长期），短期可能继续弱势。",
+      "reason": "恐惧贪婪指数极值（<20-25）是市场情绪反转信号，历史抄底区。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗和平协议后BTC网络活跃",
+      "summary": "伊朗和平协议达成后，比特币网络活动量激增，链上交易数大幅上升，可能反映地缘风险缓解后资金回流。短期看多BTC，但需观察持续性。",
+      "reason": "网络活动激增是链上异动，可能预示底部或资金入场。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Cryptonews", "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBV0otTklINE90N0QzSG5OYU1VLTZ5VXIxTVdGOWZyVEpTcm9jR1pRSFVBZnZZNDhZYkFqZGJxV0JWWU5ZclNIaElPNHFnbDNuVHJtMWxiRlFEV25lSHZUT3pBbVJZMFg4NDBINkg2dl9TWWVWeDA3ODZxZTFmUQ?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC期权倾向12万看涨",
+      "summary": "比特币期权交易者持续青睐2026年12月到期的12万美元看涨期权，显示市场对中长期价格有强烈看多预期。高行权价看涨期权未平仓合约增加，说明专业投资者押注BTC上涨。",
+      "reason": "期权市场是机构动向的重要指标，大额看涨期权是 bullish 信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Pluang", "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWTJJeFl4V3ZkeG9RS3JKdmxqODNRWTl1U0VRTHFqUHZPTTMwaDJTZ0JkU2o5ZHhabTBOTUJTeUtSXzItYkZhY0pQTTZPZGp1eFA4dENmaS1NbDZIMVdWaU1TT3BOU3lCQ0JkSjhnemE2dnB1blRWZXlzeVBMR2FrbmNiN2RjSmVfeGU4ejFBcTh2NmNGOFdxXzdB?oc=5"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Galaxy CEO：降息或提振BTC",
+      "summary": "Galaxy Digital CEO Mike Novogratz表示，若美联储降息，可能扭转比特币走势，证明看空者错误。市场对降息预期升温，利好风险资产。但尚未实际降息，短期影响有限。",
+      "reason": "机构大佬言论反映市场情绪和潜在宏观利好，虽非官方消息，但具影响力。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Pluang", "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQV9mUzRhbHFhcUdScFZicEtyUnV1Q0xWb3p4akVieGdScWdRQl9yUDJDS2JCMzFZajlEcW5zQlN1b05DQVBraUFWTGJ3dkR5Qm1RMDFidUt2VlR3LWh1SWdodUw3eWE3UnUwOTRWaDZDRWltR1ZJTTU0WnA0dGllb1lySE1TQ29DdUh1Qm9GMWRJWlVSMVR2YjZYQQ?oc=5"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上架Re代币",
+      "summary": "Binance宣布上线Re (RE)并开放现货、杠杆、合约等交易，同时添加Seed标签（高风险）。新币上线通常带来短期上涨，但Seed代币波动大，需注意风险。",
+      "reason": "交易所上币直接影响对应代币价格和流动性，属优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"},
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Trump家族加密项目获利10亿",
+      "summary": "据报道，特朗普家族从三个加密项目（包括纳斯达克上市的American Bitcoin）中获得约10亿美元税前利润。该消息可能提振市场信心，显示政界对加密领域的参与度和盈利能力。",
+      "reason": "政治人物家族巨额获利可能吸引更多关注，属中期影响的市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Pluang", "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNVgxVGJ4NTZnXzJxc2dRRGJmY1dBZXRENHp0TjUxODdWMnI3VjIxMTJUajc2Skk0TzByOHpOVEtjZmhsMkctRXFWZXhYU3BFTlRNbWdRQjZSZGlvblhiU1pfclhSbXVVMVNtNXVIeXF2aTRkVmpuNWszTDZ1Yl9URGx3UDExQ01ZZVBfQkxfcw?oc=5"}],
+      "urgency": "days"
+    }
+  ]
+}
