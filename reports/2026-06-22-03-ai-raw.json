@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-22",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10275,
+    "completion_tokens": 2107,
+    "total_tokens": 12382
+  },
+  "content_length": 1555,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"加密PAC资金涌入初选\",\n      \"summary\": \"据报道，福布斯称加密超级政治行动委员会（PAC）资金已开始大量涌入2026年美国初选，表明加密行业正通过政治捐款影响政策制定。这可能推动更友好的监管环境，对BTC、ETH等主要币种构成中期利好。看多信号，但短期影响有限。\",\n      \"reason\": \"新消息，历史未出现。属于监管政策类，中期利多，影响等级中等。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518567.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Bitfinex报告卖压暂停\",\n      \"summary\": \"Bitfinex发布报告指出，比特币当前呈现“卖压暂停但买盘未确认”的市场结构，意味着抛售动力减弱但多头尚未积极入场。该信号中性，需等待进一步确认。短期内BTC可能维持震荡，建议观望。\",\n      \"reason\": \"新消息，历史未出现。属于市场结构分析，对BTC交易有参考价值。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518566.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"BTC跌破64000美元\",\n      \"summary\": \"比特币价格跌破64000美元关口，较此前Father's Day的64,100美元有所回落。短期技术面走弱，可能测试更低支撑。看空信号，但需结合后续能否快速收复。\",\n      \"reason\": \"新价格变动，历史未直接报道。属于直接影响行情的价格异动，影响等级中等。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518565.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ],\n  \"note\": \"经过筛选，本轮素材中与历史不重复且有交易价值的新消息仅有3条，均为中等或轻度影响。Binance公告多为重复或已过时，市场情绪指标与历史相同，故未纳入更多条目。\"\n}"
+}
