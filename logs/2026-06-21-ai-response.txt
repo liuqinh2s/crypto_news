@@ -2332,3 +2332,94 @@ content length: 1788
   ],
   "note": "本次仅筛选出3条符合标准的新消息，其他素材因重复或不具备交易价值已排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3244, prompt_tokens=11789, total_tokens=15033, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1680, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10637)
+content length: 3534
+============================================================
+{
+  "news": [
+    {
+      "title": "Saylor暗示买入BTC",
+      "summary": "Michael Saylor发推暗示MicroStrategy将再次买入比特币，此前他刚呼吁社区团结。若买入将增加机构持仓，利好BTC。但需关注其资金来源是否来自STRC股票销售。看多信号，影响短期情绪。",
+      "reason": "机构增持BTC属于优先级二，影响中期行情，Saylor的买入暗示通常引发市场跟进。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU1NRMFJOOUU1RDQzWGhuckhwZ1VRc3dBVUJDOGhwbmlONVhzUnoyY2tlcGNFaHp1cElCbi1WdHY4X3RlM2xGbXV6akhTZUpZbE50SzlWVzBkOFhpcGZrUnZSTG1yblFlRS1PanVGejdLUEVTVTB2eDJLYWNVcFM1V1RXOWJSYk5mVzFlWk5wUzhITm0tQ0dFX0R2a1ZWUGZC?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "分析师警告BTC或跌至24K",
+      "summary": "一位分析师警告，若美股崩跌50%，比特币可能跌至24,000美元。目前BTC在64K附近震荡，该观点反映市场对宏观风险的担忧。但仅为假设情景，短期影响有限。偏空信号，需关注美股后续走势。",
+      "reason": "直接关联BTC价格预测，虽然假设性较强，但属于市场分析中的风险管理提示。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC涨势可疑目标66K",
+      "summary": "交易员指出比特币近期涨势可疑，可能面临回调，目标位66,000美元。当前价格64K附近，短期阻力明显。该分析基于技术面，但市场情绪在极度恐惧中，多头需谨慎。中性偏空信号。",
+      "reason": "技术面分析，影响短期交易决策，属于优先级二的市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-66k-top-as-trader-flags-suspicious-btc-price-gains?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH ETF资金外流但机构买入",
+      "summary": "数据显示华尔街机构正在买入以太坊，但ETH ETF投资者却在撤离。这种分歧可能表明长期资金入场而短期投机资金离场。ETH价格在1,700美元附近，若机构买盘持续，中期看涨。但ETF流出施压短期价格。偏空信号。",
+      "reason": "ETH ETF资金流向属于优先级一，直接影响ETH价格，且机构动向与散户背离，值得关注。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yellow.com",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNck9DeE9rWlA5NGdWNlhkMTdhaWVJUkNmLTFyZWlHdXZBWTBQYW0wc1FpU3JnQ2FqaXFvQUZtN1FHUkQ4U1JCNW8wYXUtUExuQmk2ajVtbTM3VlRwU3dHRHh4aWRvQ3JXNzdBa1FKY1hSd3hBZkRjY2o1bGVvTzkwZXRjbUtJUU92WXk4Y19nMkdndWZkcUxsNkZobVBTTkRROHhua29aSWZVSkJ5LUNfOEhfSnVud0Y3SE90OGowenRJcGV4eVNLMGdZUWZOUzZwZ1ZWVVBqWFFkNTVJRnZQU2lOT1gwQ2IxSnZ3MTFhaTVFU0tneHEzMFV6REQxUEZCS3JlaG5zY1pVR1dxYmNtcWVQMk1hMkxaN0poeWVOYlNEQS1aUVlZdnl3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "FBI警告加密投资骗局",
+      "summary": "FBI发布警告，针对老年人的加密货币投资诈骗正在增加。该消息提醒监管风险，但不会直接影响价格。市场情绪可能受到轻微压制，但整体影响微弱。中性信号。",
+      "reason": "监管动态属于优先级一，但该警告范围有限，且是老生常谈，影响程度低。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "geekspin",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUUpmMld5Qm5qbENLQjVQLUkwZURtMHJUVHlvajE3dVhhSGRqY3otRVZCSFRWamRaTThtbm51a21OUjhsejl0QXNGM2luM2F4ZkpMUktYdDloQ3pZdXM3R1FZVWRYNWVZOVNXY0owUHNzdVRPY2lERUU5M0RDc1QyWWdPSjcydWNuQmtHRW1LME4yZ180NGc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
