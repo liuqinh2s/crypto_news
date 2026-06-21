@@ -152,3 +152,87 @@
 2026-06-21 16:03:03 [DEBUG]   去重: 「Franklin Templeton申请股票股息转BTC ETF」 → 标题相似: Franklin Templeton提交比特币分红ETF
 2026-06-21 16:03:03 [INFO] 📦 JSON 已保存: reports/2026-06-22-00.json
 2026-06-21 16:03:03 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息
+2026-06-21 17:00:51 [INFO] 🚀 开始抓取 2026-06-22 01:00 币圈新闻
+2026-06-21 17:00:51 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-21 17:00:51 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-21 17:00:52 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ Decrypt: 过滤掉 35 条非近期新闻
+2026-06-21 17:00:52 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-21 17:00:52 [INFO]   ⏭ CoinDesk: 过滤掉 25 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 23 条非近期新闻
+2026-06-21 17:00:52 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ 宏观经济: 过滤掉 43 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ Blockworks: 过滤掉 8 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ CoinDesk: 过滤掉 50 条非近期新闻
+2026-06-21 17:00:53 [INFO]   ⏭ Crypto Twitter: 过滤掉 45 条非近期新闻
+2026-06-21 17:01:07 [DEBUG] 请求失败 https://rsshub.rssforever.com/cointelegraph: 
+2026-06-21 17:01:07 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-21 17:01:07 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-21 17:01:07 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-06-21 17:01:07 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-06-21 17:01:08 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-21 17:01:08 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-21 17:01:08 [INFO]   ✓ CoinDesk: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ The Block: 1 条
+2026-06-21 17:01:08 [INFO]   ✓ Decrypt: 1 条
+2026-06-21 17:01:08 [INFO]   ✓ CoinTelegraph: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Blockworks: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ DL News: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ 金色财经: 2 条
+2026-06-21 17:01:08 [INFO]   ✓ PANews: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Reddit r/bitcoin: 2 条
+2026-06-21 17:01:08 [INFO]   ✓ Crypto Twitter: 5 条
+2026-06-21 17:01:08 [INFO]   ✓ 宏观经济: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Binance公告: 20 条
+2026-06-21 17:01:08 [INFO]   ✓ OKX公告: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Bitget公告: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Whale Alert: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-21 17:01:08 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-21 17:01:08 [INFO]   ✓ 雪球加密: 0 条
+2026-06-21 17:01:08 [INFO] 📊 共抓取 32 条新闻
+2026-06-21 17:01:08 [INFO] 📋 原始新闻已保存: reports/2026-06-22-01-raw.json (32 条)
+2026-06-21 17:01:08 [INFO] 📋 标题摘要已保存: reports/2026-06-22-01-raw-titles.md
+2026-06-21 17:01:08 [INFO] ✅ 抓取完成，共 32 条，已保存到 reports/2026-06-22-01-raw.json
+2026-06-21 17:01:08 [INFO] 🤖 开始 AI 筛选 2026-06-22 01:00 币圈消息
+2026-06-21 17:01:08 [INFO] 📋 已加载原始新闻: reports/2026-06-22-01-raw.json (32 条)
+2026-06-21 17:01:08 [INFO] 📚 已加载历史新闻标题（21076 字符）
+2026-06-21 17:01:08 [INFO] 📚 已加载历史筛选标题 17 条、URL 17 个，用于去重
+2026-06-21 17:01:08 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-21 17:01:08 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-21 17:01:08 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（32 条，6966 字符，temp=0.3）
+2026-06-21 17:01:41 [INFO] AI 原始返回已保存: logs/2026-06-22-ai-response.txt (finish_reason=stop, 3191 字符)
+2026-06-21 17:01:41 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-22-01-ai-raw.json
+2026-06-21 17:01:41 [DEBUG] parse_json_response 输入长度: 3191 字符
+2026-06-21 17:01:41 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "伊朗代表团离开谈判地点",
+      "summary": "据金色财经报道，由于美国特朗普政府发出新威胁，伊朗代表团在日内瓦谈判中离开。霍尔木兹海峡局势再度紧张，地缘政治风险上升。可能影响全球风险资产，包括加密货币。若冲突升级，避险情绪可能打压BTC等风险资产，但若和平预期恢复，则可能反弹。短期内看空风险资产。",
+      "reason": "地缘政治紧张直接影响风险偏好，属于优先级二的中期影响因素，且是已有事件的重大更新。",
+      "category": "宏观经济",
+      "impact_co
+2026-06-21 17:01:41 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-06-21 17:01:41 [INFO] ✅ AI 返回 5 条新闻
+2026-06-21 17:01:41 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-06-21 17:01:41 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-06-21 17:01:41 [INFO] 📦 JSON 已保存: reports/2026-06-22-01.json
+2026-06-21 17:01:41 [INFO] ✅ AI 筛选完成，共 5 条交易相关消息

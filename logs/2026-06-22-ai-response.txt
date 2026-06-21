@@ -277,3 +277,94 @@ content length: 3573
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2780, prompt_tokens=10557, total_tokens=13337, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1375, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9405)
+content length: 3191
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗代表团离开谈判地点",
+      "summary": "据金色财经报道，由于美国特朗普政府发出新威胁，伊朗代表团在日内瓦谈判中离开。霍尔木兹海峡局势再度紧张，地缘政治风险上升。可能影响全球风险资产，包括加密货币。若冲突升级，避险情绪可能打压BTC等风险资产，但若和平预期恢复，则可能反弹。短期内看空风险资产。",
+      "reason": "地缘政治紧张直接影响风险偏好，属于优先级二的中期影响因素，且是已有事件的重大更新。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518562.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Exodus钱包增持BTC和SOL",
+      "summary": "加密钱包服务商Exodus披露其BTC持仓量增至656枚，SOL持仓量突破2万枚。Exodus作为公开上市公司，其增持行为可视为机构看好信号。BTC增持直接利好BTC，SOL增持利好SOL。整体偏多信号。",
+      "reason": "机构/公司增持属于优先级一的机构动向，直接影响市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518561.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "前CFTC委员警告加密2.5年内需变大而不能倒",
+      "summary": "前CFTC专员Carolyn Pham警告称，加密货币行业有2.5年时间窗口来发展壮大至“大而不能倒”，否则可能面临更严厉监管。此言论暗示监管不确定性，可能给市场带来压力。但中长期看，若行业合规化，反而利好。短期偏空。",
+      "reason": "监管动态属于优先级一，直接影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1JEeG9fYWlvbjBfOHVOa21ZRGZKcXVSZy1tOVhtbTdkWURrUHZqWlBtb1BXa0JNMENGc2ZYVHlmZV9GUWNOaWFrUm9QYWV1c0lsbmFQNl9qN2xuQy0xdEFoTGRmYlRvNE1SeUVJUVhfa2F0MjhGX0FEVlVFY2E0TVRJc0lEVFVOWUFVdDVsdkNqc21pU2JJUUYzTzgzX21MOXN3ag?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF流动仍是关键市场驱动因素",
+      "summary": "报道指出比特币ETF的流入流出仍然是市场的主要驱动力，且投资者正转向ETF。目前ETF资金流对价格影响显著，需密切关注。未给出具体数据，但强调ETF重要性。中性偏多，因为ETF通道持续吸引资金。",
+      "reason": "ETF机构动态属于优先级一，直接影响BTC价格。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ2ZERlFDdWRiTi1IdklLZHRNRUhpT2FCRjdjS0FSdk51QUJzVS04U0dwQWdEd012RGZ6VVlvWjFmbUNPT2toYkUyMHFJM0h2V1ZQdVRaUUNPRjJMeUFaUlhIc0dnNHMwRC0yQzNsckZrMG1QX2NWdktsSkNoZkgtY1ZoSVVFSVdJbDB6QncxVmhzbTZGSUZ0c213LTNsemZxZ3FRX3dGV2c0dw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加拿大RRSP/TFSA中持有黄金和加密的税务讨论",
+      "summary": "文章探讨了在加拿大注册退休储蓄计划（RRSP）或免税储蓄账户（TFSA）中持有黄金和加密货币的风险与税务影响。虽未直接看多或看空，但表明主流金融界对加密的接纳度增加，长期利好。但短期影响有限。",
+      "reason": "属于主流金融讨论，反映机构认可度提升，但为次级信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRlFvWkxyUFp2dndnNkdjWnNVTkREZ0tZVGJNak1GRGRqZmpOdjV3QkpkeTNha2s0NG9NS1hIRWhMdS1DZE1OaVBlb29yZlpmWnp0X00tUFhNZExwT1phZENWVUZ2NHg5Zzd1RTZPMmppVnlSaFJiNTRHZkdGQzBuNFY1UTBIdkps?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
