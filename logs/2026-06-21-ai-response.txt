@@ -1674,3 +1674,94 @@ content length: 3338
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2351, prompt_tokens=10420, total_tokens=12771, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=943, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9268)
+content length: 3211
+============================================================
+{
+  "news": [
+    {
+      "title": "日本养老基金拟配置1%加密货币",
+      "summary": "日本养老基金计划在2026财年将1%的资产配置到加密货币，这是首个大型国家级养老金进入加密市场。该消息提振了长期看多情绪，可能推动BTC和ETH等主流币需求。看多信号，因为机构资金入场将增强市场流动性和信心。",
+      "reason": "优先级二：机构动向，首个国家级养老金入市，中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ubjpfz/japan_pension_fund_plans_1_crypto_allocation_in/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "STRC跌破100美元，债务超480亿",
+      "summary": "Strategy股票STRC跌破100美元，其比特币+现金负债超过480亿美元。市场担忧其财务杠杆过重，可能面临强制清算风险。该消息利空MSTR/STRC相关资产，并可能引发比特币抛售压力，因为若清算将抛售BTC。看空信号。",
+      "reason": "优先级一：项目方重大事件，巨额债务可能引发清算。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZUtCaGxnbWUtTjFBcFpZMF9wQWxpYlQtalBhRG5MM0ZTU0NYZV9XODJZd0RlNEttSWwxck1naWVlSGhSclVBQWVPbEd1ODB6OU1ReGZyVHc3ZlU5X2NhM3poQlUtZ2s5cEdNenF1OWt0aGMxUmZqV1hiRncwb1puSzlGWDUzdlg3WDY3T00yMEw0ZnczR0ZLZDNfTGdwWW9YNTNBRXoxSTlvUDJFWEVsdWdHZkhjUFZ1VDlOdktHQWJNZkRaWUE"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Bitdeer挖矿921 BTC，储备下降引AI转型疑问",
+      "summary": "Bitdeer在6月挖出921枚BTC，但其比特币储备减少，市场质疑其是否将转向AI业务。矿工储备下降可能增加BTC抛压，但若转向AI则减少矿工抛售。中性偏空，因储备下降暗示近期出售。",
+      "reason": "优先级二：矿工动态，链上指标异常，可能影响BTC供应。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR3NRbjF6NjhwbEl2czNiZHRJS0trUDRlVGI3aG9iLVRySEtzQ2pPcmdBY1dZNkM3QTZIMUdPRGdhUUZmVE94cnkyOE8tSkFqX3Vnblg3SjlVbXc2NVdpTUdFbnhYRXZjdl94dUFIak9hTGlxLUlwR29ZYThyRTlLUFBJY1lZeU01X0g5ZXAwSjlseFhzQ29WT3hn"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Scaramucci坚持看多比特币，列出五大理由",
+      "summary": "知名投资人Anthony Scaramucci仍看好比特币，尽管近期价格下跌。他列举了机构采用、减半效应等因素。该消息为市场情绪注入信心，但KOL喊单短期影响有限。偏多信号，属市场情绪类。",
+      "reason": "优先级三：KOL集体看多，但需结合其他信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Pluang",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVEp3a0xOR1BtS2xuRURuazhuaXdXckxkZTN6RENJaUNJTlpLNHNWUDVPTzNLNk9zdUdJTk9CZl9icHE4U0Y1ekFKQTczV1pOZnBZek8xV0V0ZDlxcnczS2pxcnlBMzJ0cndfdHg2UTNFdGoyb2ljMEN3S0lEN0t2amxYcjRhR1hBcm81Nm9JLU5CekJq"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "130亿美元比特币期权到期，空头占优",
+      "summary": "价值130亿美元的比特币期权即将到期，其中空头仓位占优。市场担忧本月跌势可能延续，短期波动加大。看空信号，因未平仓合约高且空头主导，可能加剧抛压。",
+      "reason": "优先级一：影响行情的市场结构事件，大规模期权到期。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
