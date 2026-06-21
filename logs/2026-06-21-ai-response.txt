@@ -1133,3 +1133,131 @@ content length: 3542
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=832, prompt_tokens=9178, total_tokens=10010, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=795, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8026)
+content length: 65
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中所有标题均与历史消息重复或为无交易价值的信息，无新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1222, prompt_tokens=9178, total_tokens=10400, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=968, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=90)
+content length: 625
+============================================================
+{
+  "news": [
+    {
+      "title": "Coinbase深度绑定Morpho协议",
+      "summary": "分析显示，Coinbase与DeFi借贷协议Morpho深度绑定，存款占比超过一半，借贷规模超过12亿美元。这反映了中心化交易所与去中心化协议的深度融合，可能提升Morpho协议的流动性和市场地位，但同时也增加了系统性关联风险。对MORPHO代币短期偏多，但对ETH影响中性，因资金可能从其他DeFi协议转移。",
+      "reason": "DeFi领域重大合作，直接影响MORPHO代币生态，且为历史未报道的新消息。",
+      "category": "项目更新",
+      "impact_coins": ["MORPHO", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518512.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数与历史重复，仅筛选出一条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=835, prompt_tokens=9178, total_tokens=10013, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=765, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=90)
+content length: 117
+============================================================
+{
+  "news": [],
+  "note": "近6小时内无符合筛选标准的新消息，多数消息为重复或低影响内容。恐惧贪婪指数持续为23，已包含在历史消息中；大额期权到期消息已重复；巨鲸做空ETH消息已重复。无新增高影响事件。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=866, prompt_tokens=10294, total_tokens=11160, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=832, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9142)
+content length: 65
+============================================================
+{"news": [], "note": "本轮抓取素材中无新有价值消息，所有内容均已出现在历史消息或为无交易价值的普通新闻。"}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=613, prompt_tokens=10294, total_tokens=10907, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=579, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10240), prompt_cache_hit_tokens=10240, prompt_cache_miss_tokens=54)
+content length: 64
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中所有消息均与历史重复或不符合筛选标准，无新增交易价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2264, prompt_tokens=4082, total_tokens=6346, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1629, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2930)
+content length: 1648
+============================================================
+{
+  "news": [
+    {
+      "title": "Binance上线RE代币",
+      "summary": "Binance宣布上线Re (RE)代币，并支持Earn、现货、杠杆、期货等产品，同时标注Seed标签。新币上线通常会吸引大量交易和投机，短期看涨RE，但Seed标签意味着高风险，需警惕波动。影响币种：RE。信号：bullish（短期利好，但注意风险）。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Coinbase深度绑定Morpho",
+      "summary": "分析显示Coinbase与DeFi借贷协议Morpho深度整合，存款占比超50%，借贷规模超12亿美元。这为Morpho带来强劲流动性，长期利好MORPHO代币及DeFi板块，可能吸引更多资金流入。影响币种：MORPHO，间接影响AAVE等。信号：bullish（对Morpho是实质性利好）。",
+      "reason": "DeFi重大事件，机构深度参与，属于优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["MORPHO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518512.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数跌至23",
+      "summary": "加密货币恐惧贪婪指数降至23，处于\"极度恐惧\"区间。历史数据显示极度恐惧通常是中长期底部区域，适合分批建仓。当前情绪悲观，但指标暗示市场过度恐慌，可能孕育反弹。对BTC、ETH等主流币种形成中长期看多信号，但短期可能继续下探。影响币种：BTC, ETH。信号：neutral（短期偏空，中长期偏多）。",
+      "reason": "市场情绪极值信号，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}

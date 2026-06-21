@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-21",
+  "hour": "12",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4082,
+    "completion_tokens": 2264,
+    "total_tokens": 6346
+  },
+  "content_length": 1648,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Binance上线RE代币\",\n      \"summary\": \"Binance宣布上线Re (RE)代币，并支持Earn、现货、杠杆、期货等产品，同时标注Seed标签。新币上线通常会吸引大量交易和投机，短期看涨RE，但Seed标签意味着高风险，需警惕波动。影响币种：RE。信号：bullish（短期利好，但注意风险）。\",\n      \"reason\": \"交易所上币直接影响对应币种价格，属于优先级一。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"RE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Coinbase深度绑定Morpho\",\n      \"summary\": \"分析显示Coinbase与DeFi借贷协议Morpho深度整合，存款占比超50%，借贷规模超12亿美元。这为Morpho带来强劲流动性，长期利好MORPHO代币及DeFi板块，可能吸引更多资金流入。影响币种：MORPHO，间接影响AAVE等。信号：bullish（对Morpho是实质性利好）。\",\n      \"reason\": \"DeFi重大事件，机构深度参与，属于优先级二。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"MORPHO\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518512.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数跌至23\",\n      \"summary\": \"加密货币恐惧贪婪指数降至23，处于\\\"极度恐惧\\\"区间。历史数据显示极度恐惧通常是中长期底部区域，适合分批建仓。当前情绪悲观，但指标暗示市场过度恐慌，可能孕育反弹。对BTC、ETH等主流币种形成中长期看多信号，但短期可能继续下探。影响币种：BTC, ETH。信号：neutral（短期偏空，中长期偏多）。\",\n      \"reason\": \"市场情绪极值信号，属于优先级三。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
