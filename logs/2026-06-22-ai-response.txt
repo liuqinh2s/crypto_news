@@ -1763,3 +1763,82 @@ content length: 1862
   ],
   "note": "本轮消息中大部分与历史重复，仅筛选出3条新消息。当前市场极度恐惧（指数20），未见明显催化剂。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2679, prompt_tokens=10124, total_tokens=12803, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1731, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8972)
+content length: 2464
+============================================================
+{
+  "news": [
+    {
+      "title": "日本养老金拟投1%加密货币",
+      "summary": "日本一家企业养老金计划计划将资产的1%配置到加密货币，标志着养老基金正式涉足数字资产。这可能是机构采用的重要里程碑，直接利好BTC、ETH等主流币。尽管初期规模不大，但示范效应可能引发其他养老基金跟进，中长期看多信号。该消息可能推动BTC和ETH的买盘情绪。",
+      "reason": "机构养老金入场是重大机构动向，符合优先级二，影响级别高。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405489/japan-pension-fund-crypto-allocation"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "摩根士丹利ETF费用战",
+      "summary": "摩根士丹利修订以太坊和Solana ETF申请文件，披露极低的费用以抢占市场。这表明传统金融巨头正积极推动加密ETF竞争，对ETH和SOL形成中长期利好。低费用可能吸引更多资金流入，但短期市场反应平淡，因仍待SEC批准。",
+      "reason": "ETF机构动向，直接影响ETH和SOL预期，属于优先级一/二。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "瑞典克朗稳定币上线",
+      "summary": "欧洲首个基于法币的稳定币——瑞典克朗稳定币上线，但市场质疑美元流动性已过度集中。该事件对加密市场直接影响有限，但可能推动稳定币生态多元化和欧洲监管框架发展，中长期中性偏利好。",
+      "reason": "稳定币供应量变化属于优先级一，但影响较小，且发行量未披露，实际影响有限。",
+      "category": "市场结构",
+      "impact_coins": ["USDT"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3QlNiZkI3Y1lJNmM5WWJrZFhWY3E5c3pjN2N2SE8wWkxIbXZteXdmRFZoVVJYRGNURUxMcGkzRzNBLVZEMlZuVHRCTVNLcXdOVjZDenlMY3dxTUtqcGl1THVZT0dDdw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Taiko桥攻击后呼吁提款",
+      "summary": "以太坊Layer2项目Taiko确认桥接合约遭利用，损失约170万美元，目前已暂停生产区块并建议用户立即提款。黑客已将部分代币转至交易所，后续可能引发抛压。对TAIKO代币价格构成短期看空压力，同时影响Layer2赛道情绪。",
+      "reason": "项目方黑客攻击属于优先级一，直接影响TAIKO及Layer2板块。",
+      "category": "项目更新",
+      "impact_coins": ["TAIKO", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405486/taiko-confirms-exploit"
+        },
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
