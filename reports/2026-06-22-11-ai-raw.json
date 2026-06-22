@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-22",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8866,
+    "completion_tokens": 3675,
+    "total_tokens": 12541
+  },
+  "content_length": 2251,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Fed承认通胀3.6%，可能加息\",\n      \"summary\": \"美联储在最新会议中承认当前通胀率运行在3.6%，并表示如果通胀持续高企，可能不得不加息。这大幅降低了市场对7月降息的预期，并增加了加息可能性。对BTC、ETH等风险资产构成利空，因为流动性收紧预期会压制估值。目前市场情绪脆弱，恐惧指数处于20极值，加息言论可能引发新一轮抛售。\",\n      \"reason\": \"美联储货币政策转向信号直接决定风险资产流动性环境，属于高优先级宏观经济事件\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1uc7tov/the_fed_just_admitted_inflation_is_running_at_36/\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"特朗普威胁霍尔木兹海峡，BTC持平\",\n      \"summary\": \"美国前总统特朗普威胁将对伊朗采取行动封锁霍尔木兹海峡，引发地缘政治紧张。BTC、ETH、XRP、DOGE等主流币价格整体持平，但分析师指出比特币若跌破关键支撑位可能迎来更大跌幅。地缘风险通常短期打压风险资产，但加密货币有时会因避险需求获得支撑。目前市场在等待进一步消息，波动性可能加剧。\",\n      \"reason\": \"美伊冲突升级可能引发全球市场动荡，直接影响加密货币风险偏好，属于高优先级地缘政治事件\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"XRP\", \"DOGE\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Benzinga via Google News\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiggJBVV95cUxPNmk1NVkxS2VLX3p6SUlqQ0NFbm8tam44QXFZUXMyTHVHYVNnZi1uRU8wMU9GX3BtdmlONm1kVFJvSTlfRHN3RktwT2xvc19jZFo4Qy0xUFdad0hGMjRvckpXekg4OXVxQ1YxWEFXMGRaT2ZFRlQ3U2tkYkdQVG5saE9MR0p2YXRjSmtnYllRZkt2Y3NqYlpibHl0RkJLaVlSUUFzRWZuRktXWTdtYTZQVXZWelpka2tDdVdlYkZaZ2tHWnBQNzJuMEF6V0VwZ19kMnJxQ1I4aDJQN1pxSXdYSER6bjFuM0s0ZE5vRmZXMzlpN2NKSFpsWGpNcHB4VGhGclE?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Kraken美联储账户之争影响合规\",\n      \"summary\": \"Kraken与美联储就主账户（master account）的诉讼结果可能决定加密公司能否直接接入美联储支付系统。如果Kraken胜诉，将为其他加密公司打开直接支付通道，利好行业合规化和机构入场；若败诉，则可能进一步限制加密银行服务。目前案件正在推进，短期内结果未定，但市场情绪偏向谨慎。\",\n      \"reason\": \"美联储主账户审批直接影响加密公司的银行服务能力，是监管政策的关键节点，影响机构资金流入\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CryptoSlate\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Zd3hxWVMyMzZCTlF0dWFXVXp6Q192aktaY05XRENLVlRZcTVoUFZ4OTJFYzJOYWJMQ2ozWkltdERBU2pZb3hrUg?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
