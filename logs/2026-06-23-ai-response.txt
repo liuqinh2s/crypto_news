@@ -609,3 +609,95 @@ content length: 3040
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3541, prompt_tokens=13333, total_tokens=16874, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2489, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12181)
+content length: 2685
+============================================================
+{
+  "news": [
+    {
+      "title": "芝商所平台中断",
+      "summary": "芝加哥商品交易所(CME)平台发生连接中断，影响期货交易。这对加密货币市场可能造成短暂波动，因为CME比特币期货是重要衍生品市场。中断导致交易延迟或无法执行，可能引发短期价格混乱，但通常影响有限，恢复后市场回归正常。受影响的币种包括BTC和ETH。信号上偏向轻度看空，因为中断可能引发恐慌性抛售或流动性缺失。",
+      "reason": "CME平台中断直接影响交易执行，属于交易所技术故障，优先级一，但影响程度中等。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518779.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "城堡证券评美联储政策",
+      "summary": "城堡证券(Citadel Securities)表示，美联储新政策体系可能将稳定长期国债收益率。这可能减少市场波动，间接利好风险资产包括加密货币。但影响间接且需要时间验证。目前信号为中性，但若市场解读为宽松则偏多。",
+      "reason": "机构对美联储政策的分析影响市场预期，属于宏观经济次要消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518786.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CFTC持仓数据净多头增加",
+      "summary": "商品期货交易委员会(CFTC)数据显示，资产管理公司美国国债期货净多头增加，对冲基金净空头增加。这表明大型机构增持国债，可能出于避险或利率预期。对加密货币影响间接，若避险情绪升温则利空，但净多头增加也意味资金流入债市而非加密市场。综合看中性偏空。",
+      "reason": "CFTC持仓数据反映机构仓位变化，属于市场结构指标，对中期趋势有参考价值。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518782.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线RE代币",
+      "summary": "Binance宣布将上线Re(RE)代币，并开放交易对。同时支持RE在理财、购买、转换、VIP贷款、保证金和期货等产品。RE代币将带有种子标签，提醒风险。上线交易所通常带来价格短期上涨，对RE看多，但持续性和规模待观察。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一消息。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗议长管理海峡言论",
+      "summary": "伊朗议长表示霍尔木兹海峡将按伊方制定的机制进行管理。此前特朗普声称完全控制海峡，局势紧张。地缘风险可能推高油价，间接影响风险资产如加密货币。但比特币近期已部分反映，且该消息未超出预期，信号为轻度看空。",
+      "reason": "地缘政治影响风险偏好，属于宏观经济范畴，但消息已被部分消化。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518780.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前6小时内有效新消息较少，部分重要事件已在历史时段中覆盖。本筛选仅包含5条新消息，其中Binance上线RE为直接影响，其他为次要信号。"
+}
