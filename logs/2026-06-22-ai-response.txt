@@ -2374,3 +2374,120 @@ content length: 4843
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1932, prompt_tokens=15026, total_tokens=16958, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=415, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13874)
+content length: 4082
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF连续六周流出 分析师称卖压将尽",
+      "summary": "过去一周现货比特币ETF净流出，已连续第六周净流出。但分析师认为卖压正在耗尽，可能预示底部。这可能影响BTC价格，短期偏空但中期或见底。",
+      "reason": "ETF资金流向直接影响BTC价格，连续流出为熊市信号，但分析师观点提供反转预期，符合优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/405540/spot-bitcoin-etfs-sixth-consecutive-week-outflow"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "英国央行放松稳定币规则 设400亿英镑上限",
+      "summary": "英国央行放弃对英镑稳定币的严格持有限额，改为设置400亿英镑发行上限，为2027年启动铺平道路。利好USDT、USDC等合规稳定币，也可能提振加密整体情绪。",
+      "reason": "重大监管政策变化，直接影响稳定币市场及加密合规预期，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/06/22/bank-of-england-backs-down-on-strict-stablecoin-holding-limits-sets-usd50-billion-issuance-cap"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/405545/bank-of-england-drops-proposed-individual-holding-caps-for-sterling-stablecoins-sets-40-billion-issuance-guardrail"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Taiko L2遭桥接攻击 暂停网络 代币暴跌10%",
+      "summary": "以太坊L2项目Taiko因桥接漏洞被利用，暂停区块生产并敦促用户提款，代币跌10%。影响ETH L2生态信心，利空TAIKO，但可能使资金回流ETH主网。",
+      "reason": "项目方黑客攻击直接影响对应代币价格，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["TAIKO", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/06/22/taiko-halts-its-ethereum-layer-2-network-after-a-bridge-exploit-token-dives-10"},
+        {"name": "The Block", "url": "https://www.theblock.co/post/405525/ethereum-tax-debate"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美国银行预计2026年再加息三次",
+      "summary": "美国银行预测美联储将在2026年9月、10月、12月各加息25基点。鹰派预期利空风险资产，加密货币承压，可能延续跌势。",
+      "reason": "宏观经济预期直接影响整体市场，优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518705.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗央行推动解冻被冻结资产 地缘缓解",
+      "summary": "伊朗央行开始推动解冻被冻结资产，叠加霍尔木兹海峡局势缓和，地缘风险下降。可能短期支撑风险偏好，利好BTC等。",
+      "reason": "地缘政治影响风险资产情绪，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518707.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Q2成史上最多黑客攻击季度 共83起",
+      "summary": "2026年第二季度发生83起黑客攻击，成为历史上最严重季度。加密安全担忧上升，可能打压市场情绪，尤其影响DeFi代币。",
+      "reason": "安全事件集中爆发影响市场信心，属于链上异动，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "SOL", "ARB"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase上线Anthropic和OpenAI Pre-IPO合约",
+      "summary": "Coinbase将上线Anthropic与OpenAI Pre-IPO永续合约市场，与Binance类似产品竞争。利好AI相关币种（如FET、AGIX），且显示交易所对AI题材兴趣。",
+      "reason": "交易所上币（特别是Pre-IPO）影响对应代币和板块，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["ANTHROPIC", "OPENAI"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518709.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐慌与贪婪指数降至20 极度恐惧",
+      "summary": "恐惧贪婪指数为20（极度恐惧），处于历史抄底区。中长期看涨信号，但短期仍可能惯性下跌。",
+      "reason": "市场情绪极值提供反转参考，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
