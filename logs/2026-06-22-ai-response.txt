@@ -1008,3 +1008,215 @@ content length: 3258
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1188, prompt_tokens=9300, total_tokens=10488, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=963, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8148)
+content length: 577
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至20",
+      "summary": "恐惧贪婪指数从23进一步下降至20，处于极度恐惧区间。历史上极度恐惧往往对应市场底部区域，中长期看多信号。但当前市场仍可能继续探底。影响BTC及整体加密货币市场。",
+      "reason": "恐惧贪婪指数极值（<20）是优先级三的市场情绪信号，历史抄底区，中长期看多。数值从23更新至20，有变化。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮其他消息均与历史消息重复，仅有恐惧贪婪指数更新，故只输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=960, prompt_tokens=9300, total_tokens=10260, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=759, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9216), prompt_cache_hit_tokens=9216, prompt_cache_miss_tokens=84)
+content length: 537
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至20",
+      "summary": "恐惧贪婪指数从23降至20，进入极度恐惧区间（<20为历史抄底区）。该指数反映市场恐慌情绪加剧，通常中长期看涨信号，但短期可能继续下探。影响所有加密货币，尤其BTC和ETH。",
+      "reason": "恐惧贪婪指数极值属市场情绪信号，极度恐惧是中长期抄底信号，且数值有实际变化（从23降到20），符合筛选标准。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2015, prompt_tokens=9300, total_tokens=11315, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1762, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9216), prompt_cache_hit_tokens=9216, prompt_cache_miss_tokens=84)
+content length: 648
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数跌至20",
+      "summary": "恐惧贪婪指数从之前的23降至20，处于极度恐惧区域。历史数据显示，极度恐惧往往是中长期买入机会。当前市场情绪极度悲观，可能预示底部区域，但短期仍需观察。影响所有加密货币，特别是比特币。从合约做多视角看，中长期偏多，但短期可能继续下行。",
+      "reason": "恐惧贪婪指数是市场情绪核心指标，数值变化至极度恐惧，符合筛选标准优先级三，且数值更新提供了新信息。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me Fear and Greed Index",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材与历史消息高度重复，仅恐惧贪婪指数数值有更新，其他消息均为历史已出现内容，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1805, prompt_tokens=10148, total_tokens=11953, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1593, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8996)
+content length: 563
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至20",
+      "summary": "当前加密市场恐惧贪婪指数为20，处于极度恐惧区间。历史上极度恐惧往往是中长期抄底机会，但短期可能仍有下行压力。可能影响BTC、ETH等主流币，信号中性偏多（中长期利多，短期可能继续震荡）。",
+      "reason": "市场情绪指标进入极端值，可能预示市场触底或进一步恐慌，对交易决策有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "其他消息均为重复或低价值，仅此一条有更新。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1703, prompt_tokens=10148, total_tokens=11851, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1459, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10112), prompt_cache_hit_tokens=10112, prompt_cache_miss_tokens=36)
+content length: 583
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至20",
+      "summary": "当前加密市场恐惧贪婪指数为20，属于极度恐惧区间（低于20为历史抄底区）。该指数较前值23进一步下降，反映市场恐慌情绪加剧。历史上极度恐惧往往对应中期底部，是中长期看多信号。参考BTC、ETH等主流币可能迎来超跌反弹机会，但短期仍有下探风险。",
+      "reason": "恐慌指数极值（<20）是市场情绪信号，符合筛选标准优先级三，且数值较前次更新，具有交易参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "其余本轮抓取消息均为历史已出现标题的重复或无关信息，无新增交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1924, prompt_tokens=3876, total_tokens=5800, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=724, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2724)
+content length: 2811
+============================================================
+{
+  "news": [
+    {
+      "title": "Polymarket伪造中奖赌注",
+      "summary": "据报道，Polymarket向创作者付费，在虚假网站上伪造中奖赌注。此举可能损害平台信誉，引发监管关注。影响去中心化预测市场类代币如POL，短期偏空。但Polymarket非主流币，影响有限。",
+      "reason": "涉及欺诈行为，可能引发监管打压，属于优先级一的监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["POL"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/405471/polymarket-paid-creators-to-stage-fake-winning-bets-on-dummy-sites-wsj"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国监管将定义加密永续合约",
+      "summary": "报道指出，美国监管机构对加密货币永续合约的分类将决定其未来。若被认定为衍生品，可能面临更严格监管，利空整个衍生品交易板块及相关代币如DYDX、SNX等。短期不确定，中期偏空。",
+      "reason": "重大监管动态，直接影响加密衍生品市场，属优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["DYDX", "SNX", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CryptoSlate", "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pajVac2ZqTkJRbE15VE9ydkJiVFFmX1QtZ0REZEIwN0dVMEVfc3o1dDBrem85enlRTkpIazVSTVM1ajJlaExmZDE0Rm5zcERIeXdCYW5Jb3ByQ3d3cnJ0MC1qTWtYT24wWlJreg?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "摩根士丹利推进ETH/SOL低成本ETF",
+      "summary": "摩根士丹利正在推进低成本以太坊和Solana ETF，显示传统金融机构对主流山寨币的接受度提升。此举有望带来大量增量资金，利好ETH和SOL价格，中长期看多。",
+      "reason": "机构巨头进军山寨币ETF，属优先级一ETF机构动态，直接影响行情。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Crowdfund Insider", "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSEMtZVN3OG9iWElTbHdVTlBsMjlyQlJXRUw1Y1JTRDMxV1M2R0FnbzMxT0l6WVpydWhRSDBXbUdhZFBrRktsUGcwV3lVRWdtbEhpckF1MTFyVlNBVGItTkU1bEhSNHhxMm1ZamdVWVBTclBKaDhiOHFCR0NUbDF3VkRLNmk2djBzd05IblRrUjducVd1RlV1SmdWOFotZlBmdjRLNlhUWUhWNzd2ck82OXV3aGZzRm8?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线RE代币",
+      "summary": "Binance宣布上线Re (RE)并开放Earn、合约等产品。RE为新兴项目，上币后流动性及关注度提升，短期可能有做多机会，但波动风险大。适合短线交易，需注意种子标签风险。",
+      "reason": "交易所上币直接影响对应币种价格，属优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数跌至20（极度恐惧）",
+      "summary": "恐惧贪婪指数降至20，属极度恐惧区间。历史数据表明该区间通常是中长期底部区域，适合分批建仓。短期市场可能继续恐慌，但中长期看多信号明确。情绪极度悲观，是反向指标。",
+      "reason": "市场情绪极值信号，属优先级三，历史抄底区。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
