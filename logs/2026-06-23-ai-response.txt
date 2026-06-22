@@ -137,3 +137,94 @@ content length: 4623
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5777, prompt_tokens=18188, total_tokens=23965, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=4443, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=17036)
+content length: 3199
+============================================================
+{
+  "news": [
+    {
+      "title": "ETH基金会人才流失",
+      "summary": "以太坊基金会近期出现多位核心开发者离职，引发社区对领导力和项目治理的担忧。此次人才外流可能影响以太坊未来升级进程和生态发展，短期内市场信心受挫。事件主要影响ETH及其生态代币，在缺乏明确替代领导方案前，预计ETH价格承压。这是看空信号，建议谨慎持有或减仓。",
+      "reason": "核心团队人才流失是项目风险关键指标，直接影响市场对以太坊的信心，属于优先级二的中期影响事件。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/06/22/ethereum-foundation-talent-exodus-sparks-fresh-debate-over-leadership"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "HIVE股价飙升25%",
+      "summary": "上市矿企HIVE因常春藤联盟研究人员在其巴拉圭GPU上训练神经网络而股价大涨25%。这显示了AI与挖矿业务协同潜力，可能带动其他矿企股走强，但对加密货币市场直接影响有限。事件对BTC、ETH等主流币种影响中性，可关注挖矿板块相关标的。",
+      "reason": "矿企动态虽非直接币价驱动，但反映行业创新和盈利能力，属于中期影响事件。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405637/hive-stock-surges-ivy-league-researchers-train-neural-networks-paraguay-gpus"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币网络活跃度新高",
+      "summary": "据CryptoQuant数据，比特币网络活跃度达到2024年以来最高水平，表明链上交易量和地址数显著增加。这通常是需求增强的信号，可能推动BTC价格进一步上行。结合当前BTC在$65K附近震荡，活跃度上升提供支撑。这是看多信号，可考虑逢低买入。",
+      "reason": "链上活跃度是比特币基本面关键指标，活跃度新高预示价格上涨潜力，属于优先级二的链上指标异常。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/bitcoin-network-activity-hit-highest-level"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "贝莱德高管称需求最重要",
+      "summary": "贝莱德数字资产主管Mitchnick表示，对比特币价格动量而言，需求是最重要的驱动因素。这一表态强化了机构持续看多的市场情绪，可能吸引更多资金通过ETF等渠道流入。虽然仅为言论而非实际动作，但作为全球最大资管公司的发声，仍具参考价值。看多信号。",
+      "reason": "顶级资管公司高管发言影响市场情绪，属于机构动向，具有中期影响。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQXIxZ0xXZlVVMm5GaDFWQXFPeU4ydGlfYnpsaXZqQnhrT1B2OVJxdUtGNHNPdEN0YmxybVU1dkpGTVAwRVV2MWdaNVA4SXU0Z2M0aFVJQVBFck8zQndLZ0tlazVxS0cydnpIZGVvOGJMVUhzQUJ4c3BsWUtidWh0c1pBbE02eU5pbVE"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "国会拟禁止数字美元",
+      "summary": "美国国会推进一项法案，旨在禁止政府发行数字美元（CBDC），避免与私人加密货币竞争。若通过，将消除CBDC对去中心化加密货币的潜在威胁，提升比特币、以太坊等资产的相对吸引力。目前法案尚在审议，但消息已引发市场对监管环境的乐观预期。看多信号。",
+      "reason": "监管政策对加密货币影响重大，禁止CBDC减少政府竞争，属于优先级一的重大监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Barron's",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeHYybEVJNmJRaDh2Rl9IYWNEYkRKc2xvaFBHWnhtN2Y1S2d0Y0tiUFE3NWVSSmZEYkZJYmFxd0pCNWNHMWl4cHhNUUFLT3pHd0tmRmVpeUc2cHFvb0ppSUxVeXFKSkpORTRZSmx6QWc0eEluUUtvNThxcUk5TGluaWlqV0daLUo1b01aTldfLVRLU0lEYVE"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
