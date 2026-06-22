@@ -2100,3 +2100,138 @@ content length: 4668
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3582, prompt_tokens=13201, total_tokens=16783, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3110, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12049)
+content length: 1237
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitwise推零售加密组合",
+      "summary": "Bitwise将加密模型投资组合引入零售应用，允许普通投资者一键配置多元加密资产。此举旨在扩大加密投资需求，可能吸引更多零售资金流入BTC和ETH。信号：看多，因机构降低门槛，增加资金入场。",
+      "reason": "机构动向：Bitwise作为知名加密资产管理公司，推出零售产品有望带来新资金，属于中期利好。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitwise-brings-crypto-model-portfolios-to-retail-apps-as-issuers-seek-demand-beyond-ticker-picking/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线TradFi永续合约",
+      "summary": "Binance Futures将上线多个USDⓈ-Margined TradFi永续合约（2026-06-22），进一步扩展传统金融代币化交易产品。此举可能增加相关代币的流动性和交易量，但短期内对市场影响有限。信号：中性，产品上线通常利好交易量，但不直接推动价格。",
+      "reason": "交易所新合约上线，影响相关代币交易活跃度，属于中等影响事件。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/88ea4a4f9f0b4ad4b7b308195c026fe4"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "近6小时内大多数消息与历史重复，仅筛选出两条新且有价值的信息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2813, prompt_tokens=13201, total_tokens=16014, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1847, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13184), prompt_cache_hit_tokens=13184, prompt_cache_miss_tokens=17)
+content length: 2637
+============================================================
+{
+  "news": [
+    {
+      "title": "Bitwise推出加密模型投资组合",
+      "summary": "Bitwise将其加密模型投资组合引入零售投资应用，旨在扩大投资者获取加密资产的渠道。该举措表明机构正在主动推动加密产品面向大众，可能增加对BTC、ETH等主要币种的需求。看多信号，尤其利好主流币。",
+      "reason": "机构通过零售渠道推广加密产品，属于机构动向，中期利好主流币。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitwise-brings-crypto-model-portfolios-to-retail-apps/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线RE代币",
+      "summary": "Binance宣布将上线Re（RE）代币，并标记为Seed Tag。新代币上市初期通常交易活跃，短期看多。RE可能受到关注并出现价格波动。",
+      "reason": "交易所上币直接影响对应币种，短期价格效应明显。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线TradFi永续合约",
+      "summary": "Binance Futures于2026-06-22上线多个USDⓈ-Margined TradFi永续合约，涉及传统金融资产。新合约增加交易机会，可能吸引资金入场，但具体影响取决于市场参与度。短期中性偏多，中长期带来流动性。",
+      "reason": "新合约推出可能增加市场活跃度，但不确定直接多空方向。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/88ea4a4f9f0b4ad4b7b308195c026fe4"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance新增交易对",
+      "summary": "Binance Spot将于2026-06-23新增多个交易对，包括与USDT等稳定币的对。通常新增交易对会提升对应代币的流动性，短期温和看多。",
+      "reason": "新交易对增加流动性，可能带动交易量。",
+      "category": "交易所",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/f0c763fc49934c1b9b4e4ce1653e67dc"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "GoMining挑战Square支付系统",
+      "summary": "GoMining推出基于比特币的支付系统，挑战Jack Dorsey的Square。此举可能推动比特币作为支付手段的应用，但当前影响较小。长期看多比特币的实用性。",
+      "reason": "新项目试图在比特币支付领域竞争，但尚未产生实质影响。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ucew5g/gomining_challenges_jack_dorseys_square_with/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
