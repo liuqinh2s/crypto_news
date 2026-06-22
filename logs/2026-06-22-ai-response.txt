@@ -2864,3 +2864,63 @@ content length: 1923
   ],
   "note": "当前新闻重复度高，仅选出3条新消息。恐惧贪婪指数20仍为极端恐惧，但无变化。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3822, prompt_tokens=17385, total_tokens=21207, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3169, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16233)
+content length: 1692
+============================================================
+{
+  "news": [
+    {
+      "title": "Clarity法案加速推动",
+      "summary": "加密行业正加速推动《Clarity法案》落地，同时大额政治献金同步加码，旨在为美国数字资产建立明确监管框架。该法案若通过，将利好整个加密市场，尤其是合规化项目。但银行业强烈反对，可能面临立法阻力。短期看多情绪，但需关注法案进展。影响币种：BTC、ETH及美国合规概念币。",
+      "reason": "监管政策有重大进展，可能为行业提供清晰规则，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518749.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Enso推出RWA应用",
+      "summary": "Enso发布RWA应用程序及交易平台，支持超过500种代币化资产，涵盖房地产、债券等。这一举措可能扩大RWA市场流动性，吸引传统资金入场。但初期影响有限，需观察用户采纳。对RWA相关代币（如POLY、OM）有轻微利好，整体市场影响中性。",
+      "reason": "RWA赛道扩容，但非巨额资金流入，影响中等偏下。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "POLY", "OM"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Bitwise推出加密投资组合",
+      "summary": "Bitwise将其加密模型投资组合引入零售应用，使散户投资者能通过ETF类产品轻松配置加密资产。此举可能增加散户资金流入，改善ETF需求。当前BTC ETF连续六周净流出，此消息或能缓解抛压。对BTC、ETH构成温和利好。",
+      "reason": "机构推动散户化，可能带动资金流入，属于机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitwise-brings-crypto-model-portfolios-to-retail-apps/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前时段多数新闻已在历史消息中重复，筛选出3条未重复且具交易价值的新消息。"
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-22",
+  "hour": "23",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17385,
+    "completion_tokens": 3822,
+    "total_tokens": 21207
+  },
+  "content_length": 1692,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Clarity法案加速推动\",\n      \"summary\": \"加密行业正加速推动《Clarity法案》落地，同时大额政治献金同步加码，旨在为美国数字资产建立明确监管框架。该法案若通过，将利好整个加密市场，尤其是合规化项目。但银行业强烈反对，可能面临立法阻力。短期看多情绪，但需关注法案进展。影响币种：BTC、ETH及美国合规概念币。\",\n      \"reason\": \"监管政策有重大进展，可能为行业提供清晰规则，属于优先级一。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518749.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Enso推出RWA应用\",\n      \"summary\": \"Enso发布RWA应用程序及交易平台，支持超过500种代币化资产，涵盖房地产、债券等。这一举措可能扩大RWA市场流动性，吸引传统资金入场。但初期影响有限，需观察用户采纳。对RWA相关代币（如POLY、OM）有轻微利好，整体市场影响中性。\",\n      \"reason\": \"RWA赛道扩容，但非巨额资金流入，影响中等偏下。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"LINK\", \"POLY\", \"OM\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Bitwise推出加密投资组合\",\n      \"summary\": \"Bitwise将其加密模型投资组合引入零售应用，使散户投资者能通过ETF类产品轻松配置加密资产。此举可能增加散户资金流入，改善ETF需求。当前BTC ETF连续六周净流出，此消息或能缓解抛压。对BTC、ETH构成温和利好。\",\n      \"reason\": \"机构推动散户化，可能带动资金流入，属于机构动向。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CryptoSlate\",\n          \"url\": \"https://cryptoslate.com/bitwise-brings-crypto-model-portfolios-to-retail-apps/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前时段多数新闻已在历史消息中重复，筛选出3条未重复且具交易价值的新消息。\"\n}"
+}
