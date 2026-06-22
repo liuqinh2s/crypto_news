@@ -518,3 +518,94 @@ content length: 3304
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2926, prompt_tokens=12928, total_tokens=15854, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1763, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11776)
+content length: 3040
+============================================================
+{
+  "news": [
+    {
+      "title": "特朗普加速量子准备",
+      "summary": "美国总统特朗普下令加速量子计算机准备，以应对比特币等加密资产面临的量子攻击风险。量子计算机可能在未来破解比特币的SHA-256加密算法，长期威胁比特币安全性。但短期内实际影响有限，更多是情绪层面的偏空信号。影响币种：BTC。信号：bearish。",
+      "reason": "优先级一，直接影响比特币安全预期，属于长期重大风险。但当前量子计算尚未成熟，情绪面利空。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371807/trump-quantum-orders-accelerate-security-bitcoin-faces-risk"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "英国央行放宽稳定币规则",
+      "summary": "英国央行宣布放宽稳定币规则，将持有上限替换为400亿英镑的'护栏'机制，同时美国CLARITY法案通过概率降至50%以下。这为稳定币发行方提供了更灵活的监管环境，利好USDT、USDC等稳定币及以太坊生态（稳定币主要基于以太坊）。但CLARITY法案概率下降增加美国监管不确定性。整体偏多稳定币市场。影响币种：ETH、USDT、USDC。信号：bullish。",
+      "reason": "优先级一，监管政策变化直接影响稳定币市场，进而影响整个加密市场流动性。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1uctt9k/bank_of_england_softens_stablecoin_rules_as/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Solmate最大股东起诉董事会",
+      "summary": "Solana生态国库管理公司Solmate的最大股东起诉董事会，指控其自我交易和违反信托责任。该诉讼可能影响Solmate的运营及Solana生态信心，但Solana近期表现强劲，占据95%的代币化股权市场。此事件短期利空SOL，但需观察法律进展。影响币种：SOL。信号：bearish。",
+      "reason": "优先级一，项目重大法律纠纷直接利空SOL，可能引发抛售。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405690/solana-treasury-firm-solmate-largest-stakeholder-sues-board-self-dealing-fiduciary-breaches"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strive澄清：抛售为清算非信用危机",
+      "summary": "比特币策略公司Strive（ASST）表示，近期数字信贷产品（STRC）的抛售是清算事件而非信用危机，并已修复。此前STRC暴跌引发市场恐慌，此澄清有助于恢复投资者对STRC及整个策略生态的信心。间接利好比特币（因策略买入比特币）。影响币种：BTC、MSTR、STRC。信号：bullish。",
+      "reason": "优先级一，项目重大事件澄清，缓解市场恐慌，属于利空出尽后的反弹信号。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/22/strive-says-digital-credit-selloff-was-a-liquidation-event-not-a-credit-crisis"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗局势：特朗普控制霍尔木兹海峡",
+      "summary": "美国总统特朗普声称完全控制霍尔木兹海峡，并可能重启封锁。伊美磋商期间逾400艘船在等待。此前伊朗协议摇摆导致油价跌至16周低点，比特币反弹至$65,500。地缘紧张短期利好比特币（避险需求），但若局势升级可能引发全球市场动荡。信号短期偏多。影响币种：BTC、ETH。信号：bullish。",
+      "reason": "优先级一，地缘政治直接影响风险资产，油价下跌降低通胀预期，间接利好加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518778.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
