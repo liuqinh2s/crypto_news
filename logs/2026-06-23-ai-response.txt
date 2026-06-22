@@ -1,0 +1,139 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3630, prompt_tokens=16828, total_tokens=20458, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1711, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15676)
+content length: 4623
+============================================================
+{
+  "news": [
+    {
+      "title": "摩根士丹利ETF费率降至0.14%",
+      "summary": "摩根士丹利将旗下比特币ETF费率降至创纪录低点0.14%，点燃ETF费率战，此举有望吸引大量资金流入，推动比特币和以太坊价格上涨。该消息发生在ETF连续六周净流出的背景下，费率降低可能逆转流出趋势，利好BTC和ETH。",
+      "reason": "机构行动，ETF费率降低直接吸引资金，属于中期利好信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQRS0wUVgzN1pKZVpOTFZvUDhJMkxJWHVyVG5FbDJ2dVFnOUI4NmFCUGtMVG1IM1hYUnZDd1N2RGxVU200Q3NaZi0xTUpaU2pCVS1nTFI3Y1pVSEs5andFMV9KblNqQjY4QjVVRFJoVTJuZHFrNFgwQkRYOWwzUGhLWmFBVE4zYWRmRnhYTGpySUM1SkJURkt3OW1ad2JaNjcxb2UwSWxPZU5ISHJfUnhtSWRmTHUybHBUX0xjWnl3TndJRURRbUc1LS04UE1UME5VS0JCelNLdGpOY3RDemwyaFRlRFh2TjRhZWtNTFlMbzk1b2pPYUk2TkY1ZlpsWVVGTDNaakFKNUJ3Q3V5WVBtQXNXOGVFMkhSa0o0SGw5bjFicXVaeDdBak04ZUpRd2RKaW1Ha3RfeXF2M3VFNktyLUhmZEVMLW9tcGcxbWhGOUhHRDc4OEE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy暂停STRC抛BTC付息",
+      "summary": "Michael Saylor的Strategy公司暂停STRC优先股销售，并出售部分比特币来支付股息。尽管公司同时买入520 BTC，但卖出BTC支付股息增加了抛压，短期利空BTC。此前STRC发行曾提供低成本融资，暂停或引发市场担忧。",
+      "reason": "项目方重大行为，直接涉及BTC买卖，影响供应预期。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeTVwN1kza3RieVFYTjViZ0J2VF9QYVV4VzZrWmtEUWlJRkt0ZHk5MVc2eVc5UWlWQjZjbUg5UExEbTZONk15OEk3RWZLWW9SRWNNeGU4Vk9OMHdyeHJxTDVpS3hjYlZ0eUFPeGh6QnZNcGtDb2kxMmg0Y2pZTzFnb210RDU1Zw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美银预计美联储年内再加息三次",
+      "summary": "美国银行预计美联储将在2026年9月、10月和12月各加息25个基点，总计75个基点。紧缩预期打压风险资产，加密货币承压。尽管当前BTC价格在65K附近反弹，但加息风险可能限制涨幅，并引发抛售。",
+      "reason": "宏观紧缩预期直接利空所有风险资产，包括加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518752.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密行业加速推动Clarity法案",
+      "summary": "加密行业通过政治献金加大游说力度，推动《Clarity法案》落地，该法案旨在为数字资产提供明确的监管框架。若通过，将利好整个市场，降低不确定性，吸引机构资金。短期影响有限，但中期监管明朗化是重大利好。",
+      "reason": "监管政策进展，中长期利好行业合规发展。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518749.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Coinbase上线GEODNET现货",
+      "summary": "Coinbase宣布将于2026年6月23日上线GEODNET（GEOD）现货交易。GEOD是去中心化物理基础设施网络（DePIN）项目代币，上线主流交易所将提升流动性和关注度，短期利好GEOD价格。",
+      "reason": "交易所上币直接影响对应币种价格，属于优先级一信号。",
+      "category": "交易所",
+      "impact_coins": ["GEOD"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518756.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance将上线Re (RE)代币",
+      "summary": "Binance宣布将上线Re（RE）代币，并标注Seed Tag。RE是一个去中心化金融（DeFi）项目代币，上线Binance将大幅提升曝光度和流动性，短期看涨RE。但鉴于Seed Tag提示高风险，投资者需谨慎。",
+      "reason": "头部交易所上币，直接影响币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "日本财相与美财政部紧急会议",
+      "summary": "日本财务大臣据悉与美国财政部官员举行紧急线上会议，可能讨论汇率波动或金融稳定。若达成协调行动，将稳定市场情绪，间接利好风险资产包括加密货币。但内容未公布，暂为中性偏多。",
+      "reason": "地缘/宏观事件，可能影响全球流动性预期和风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518757.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SpaceX签63亿美元算力协议",
+      "summary": "SpaceX与开源AI初创公司Reflection签署最高价值63亿美元的算力合作协议。该消息可能提振SpaceX股价，间接利好其代币化证券SPCXB。但SPCXB交易量有限，影响范围较小。",
+      "reason": "项目重大合作，间接影响代币化证券价格。",
+      "category": "项目更新",
+      "impact_coins": ["SPCXB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518754.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
