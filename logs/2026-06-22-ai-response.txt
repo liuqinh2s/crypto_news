@@ -1418,3 +1418,78 @@ content length: 3131
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1873, prompt_tokens=8422, total_tokens=10295, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=954, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7270)
+content length: 2208
+============================================================
+{
+  "news": [
+    {
+      "title": "Taiko攻击者转入MEXC抛售",
+      "summary": "链上数据显示，Taiko攻击者已将199万枚TAIKO代币转入MEXC交易所，价值约18.9万美元。这表示攻击者正在试图变现赃物，对TAIKO构成直接抛压。该币种可能面临短期下跌风险，建议持有者警惕。影响币种：TAIKO。信号：看空。",
+      "reason": "属于优先级一的链上异动（黑客转移代币至交易所），直接影响对应币种价格，且金额较大。",
+      "category": "链上异动",
+      "impact_coins": ["TAIKO"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518595.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊美达成协议文件",
+      "summary": "伊朗外交部宣布与美国达成协议文件，中东地缘紧张局势有望缓和。这可能降低市场避险情绪，推动风险资产价格回升，包括比特币等加密货币。短期利好风险偏好，但实际影响需视协议细节。影响币种：BTC、ETH。信号：看多。",
+      "reason": "属于优先级二的地缘政治事件，宏观情绪改善对加密货币有积极影响，但非直接基本面。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518599.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美布两油跌超1%",
+      "summary": "美油和布油日内均跌超1%，分别报76.47美元和79.32美元。原油价格下跌有助于缓解通胀压力，可能降低美联储加息预期，对风险资产（包括加密货币）构成利好。但需关注跌势持续性。影响币种：BTC、ETH。信号：看多。",
+      "reason": "属于优先级二的宏观经济数据（油价变动影响通胀预期），间接利好加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518592.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "欧洲比特币国债公司成本承压",
+      "summary": "据CryptoSlate报道，欧洲的比特币国债公司正面临股东成本问题。这可能意味着这些公司持有比特币的成本上升或盈利能力受损，或导致减持比特币，对BTC价格构成潜在利空。影响币种：BTC。信号：看空。",
+      "reason": "属于优先级二的机构动向，机构成本问题可能影响其持有BTC的意愿，产生卖压。",
+      "category": "机构ETF",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQckJ0Z3k2ckhHcDdIMEZyZF9vX0c3V0I1RVZueUFhcl90U3gyRW1zVDZkUFJTYXVPbXRsV3dIUlgwbm5TdElDOFpOZ3JGdmZCa2FPQTFPcXE2Tlcyd0JDZXdJME9xTG1pTEJiYVVkam9vV0lFb2ZNUGIxR3hNUFpuSQ?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
