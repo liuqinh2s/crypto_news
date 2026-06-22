@@ -2716,3 +2716,151 @@ content length: 5264
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1986, prompt_tokens=18193, total_tokens=20179, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1433, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=17041)
+content length: 1455
+============================================================
+{
+  "news": [
+    {
+      "title": "RWA代币化市值破510亿美元",
+      "summary": "据Bernstein报告，代币化现实世界资产（RWA）市值在过去一个月增长40%，突破510亿美元。该增长由机构对股权代币化的兴趣推动，贝莱德等巨头加速布局。这可能利好以太坊（ERC-20代币化标准）及相关RWA项目。看多信号：传统资金涌入预示加密与实体经济融合加速，中长期利好ETH和代币化赛道。",
+      "reason": "新消息，历史标题中未出现；RWA赛道扩容标志机构入场加速，影响中期行情。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "RWA概念币"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405578/tokenized-rwa-market-cap-rises-51-billion-industry-races-define-equity-tokenization-model-bernstein"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Benchmark重申Strategy目标价570",
+      "summary": "尽管STRC（Strategy优先股）近期下跌，Benchmark仍重申对Strategy的570美元目标价，认为其优先股并非稳定币，且BTC持仓策略有效。Strategy近期增持520枚BTC并增加美元储备。这显示传统金融机构对MicroStrategy模式的认可，可能提振MSTR股价和比特币信心。看多信号：分析师背书可能吸引更多机构买入。",
+      "reason": "新消息，历史标题中未直接出现；分析师评级影响MSTR和BTC预期。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405581/benchmark-reiterates-570-target-on-strategy-after-strc-selloff-says-preferred-stock-is-not-a-stablecoin"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前6小时内多数消息已在历史标题中重复出现（如Strategy增持、Bitmine购ETH、OKX/NYSE合作、恐惧贪婪指数等），仅筛选出2条未重复且具有交易参考价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5546, prompt_tokens=18193, total_tokens=23739, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=5109, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=18176), prompt_cache_hit_tokens=18176, prompt_cache_miss_tokens=17)
+content length: 1232
+============================================================
+{
+  "news": [
+    {
+      "title": "RWA代币化市值突破510亿",
+      "summary": "Bernstein报告显示，代币化实物资产（RWA）市值增长40%达510亿美元，行业正竞相定义股权代币化模式。这标志机构采用加速，利好以太坊和Solana等公链生态，中长期看多信号。",
+      "reason": "机构采用加速信号，中期利好加密市场",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405578/tokenized-rwa-market-cap-rises-51-billion-industry-races-define-equity-tokenization-model-bernstein"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Benchmark维持Strategy目标价570美元",
+      "summary": "Benchmark分析师重申Strategy（MSTR）目标价570美元，称其优先股STRC并非稳定币，且公司比特币持仓和现金储备健康。该评级增强市场信心，利好比特币和MSTR。",
+      "reason": "机构评级维持买入，提振BTC信心",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405581/benchmark-reiterates-570-target-on-strategy-after-strc-selloff-says-preferred-stock-is-not-a-stablecoin"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前6小时内新消息较少，多数重要新闻已在之前小时重复出现。筛选出2条相对有价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2977, prompt_tokens=18193, total_tokens=21170, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2263, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=18176), prompt_cache_hit_tokens=18176, prompt_cache_miss_tokens=17)
+content length: 1923
+============================================================
+{
+  "news": [
+    {
+      "title": "MoneyGram成为Solana验证者",
+      "summary": "MoneyGram（速汇金）宣布成为Solana网络验证者，计划利用Solana的高吞吐量和低费用来扩展区块链支付策略。这是传统金融支付巨头直接参与区块链基础设施的重要一步，可能推动更多机构采用Solana生态。对SOL币种构成看多信号，短期提振市场信心。",
+      "reason": "传统金融机构直接成为公链验证者，属于机构入场信号，影响中期生态发展，评估为中等影响。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/06/22/moneygram-joins-solana-as-validator-amid-stablecoin-payment-push"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "代币化RWA市值达510亿美元",
+      "summary": "据Bernstein报告，代币化现实世界资产（RWA）市值增长40%至510亿美元，行业正加速定义股权代币化模型。RWA赛道持续扩张，对相关代币（如Token、Ondo等）构成看多信号，反映机构对链上资产兴趣浓厚。",
+      "reason": "RWA市场大幅增长是DeFi领域重要里程碑，影响中期投资者情绪，但未直接指向单个币种。",
+      "category": "市场结构",
+      "impact_coins": ["RWA", "ONDO", "CFG"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405578/tokenized-rwa-market-cap-rises-51-billion-industry-races-define-equity-tokenization-model-bernstein"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Benchmark重申Strategy目标价$570",
+      "summary": "Benchmark分析师重申Strategy（MSTR）目标价为570美元，认为其优先股并非稳定币，在STRC下跌后仍看好。这显示机构对MicroStrategy比特币策略的持续信心，间接利好BTC。但影响力有限，因为MSTR与BTC高度相关。",
+      "reason": "机构维持目标价体现长期看好，但为个股层面，间接影响BTC，属于中度影响。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405581/benchmark-reiterates-570-target-on-strategy-after-strc-selloff-says-preferred-stock-is-not-a-stablecoin"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前新闻重复度高，仅选出3条新消息。恐惧贪婪指数20仍为极端恐惧，但无变化。"
+}
