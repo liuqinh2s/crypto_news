@@ -1933,3 +1933,170 @@ content length: 2794
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4324, prompt_tokens=13239, total_tokens=17563, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3877, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12087)
+content length: 1197
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF连续六周流出",
+      "summary": "比特币价格维持在64,000美元附近，但ETF资金已连续第六周净流出，显示机构投资者持续撤资。这可能加剧比特币抛压，并拖累以太坊等主流币种。交易者应警惕进一步下行风险。影响币种：BTC, ETH。看空信号。",
+      "reason": "直接影响行情的ETF资金流向数据，市场核心利空。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/06/22/live-markets-bitcoin-is-stuck-near-usd64-000-as-etf-outflows-reach-a-sixth-week"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Bitget推出加密货币买美股",
+      "summary": "Bitget交易所上线Stock+功能，用户可直接用加密货币购买美国股票。这一举措可能推动加密货币与传统金融融合，增加加密货币需求，但短期影响有限。影响币种：BTC, ETH, USDT。看多信号。",
+      "reason": "交易所创新功能，可能增加加密货币应用场景，中期利好。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH", "USDT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405507/bitget-us-stock-purchases-crypto?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中绝大多数消息与历史消息重复，仅筛选出2条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3014, prompt_tokens=13239, total_tokens=16253, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=977, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13184), prompt_cache_hit_tokens=13184, prompt_cache_miss_tokens=55)
+content length: 4668
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC ETF连续六周净流出",
+      "summary": "据CoinDesk报道，比特币ETF已连续六周出现资金净流出，比特币价格承压于64,000美元附近。ETF持续流出表明机构投资者情绪悲观，短期抛压增加，但历史数据表明超卖后可能迎来反弹。影响币种：BTC。信号：看空（中期偏空，长期需关注是否触底）。",
+      "reason": "优先级一：BTC ETF资金流向直接影响BTC行情，连续六周净流出为重大利空信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/06/22/live-markets-bitcoin-is-stuck-near-usd64-000-as-etf-outflows-reach-a-sixth-week"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitget推加密资产直接买美股",
+      "summary": "The Block报道，Bitget推出新功能，允许用户使用加密货币直接购买美国股票，实现加密与传统金融的互联。这提升了加密资产的实用性，吸引传统投资者入场，但短期对行情影响有限。影响币种：Bitget平台代币BGB（未直接上线主流交易所），但整体利好加密市场情绪。信号：看多（长期利好，短期中性）。",
+      "reason": "优先级一：交易所创新功能可能增加加密资产应用场景，提升市场情绪。",
+      "category": "交易所",
+      "impact_coins": ["BGB"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405507/bitget-us-stock-purchases-crypto"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "韩国Toss Bank基于Solana试验",
+      "summary": "韩国Toss Bank宣布将在Solana区块链上测试全球汇款与结算概念验证项目。这是传统金融机构对Solana的认可，有望提升SOL的应用价值和市场信心。影响币种：SOL。信号：看多（直接利好）。",
+      "reason": "优先级二：机构采用增加，中期利好SOL生态系统。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405505/toss-solana-partnership"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "MicroStrategy暗示将再次买入BTC",
+      "summary": "据TradingView报道，MicroStrategy高层重申比特币战略，Saylor暗示即将进行新一轮购买。MicroStrategy作为最大企业BTC持有者，其买入行为直接推动BTC需求，增强市场信心。影响币种：BTC。信号：看多（直接利好）。",
+      "reason": "优先级二：机构动向，大型买入信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPREk3QlRJWXBvdHA4d0NTVUkwY2J5QmIycEI2VDNWX25qVVpxY3FKOFdUcXJvTXdVU0pMRjJhM3BKMFZDb1RaSkJSRFRIUjFEcWR6U0JMUlhtVXA4RXNwWEpmdkVkYXVfcExLbTJja2Z4ZHVBVGZJYlFxeW4xdVd5Q1piOHF5Nmx1am1xcEl1b1k4Mzh2Y1Q1dkladVBpSXN1MnYwUlZYZnlGUHBucnpWOW5wMEJxNHBJSmJZdjFVbmduNTlFRXc"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "以太坊核心开发资金缺口3000万",
+      "summary": "分析文章指出，以太坊核心开发面临约3000万美元的资金缺口，可能影响以太坊网络升级和长期发展。资金不足可能导致开发进度延迟，对ETH价格产生压力。影响币种：ETH。信号：看空（利空）。",
+      "reason": "优先级二：项目资金问题影响技术升级，中期利空。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "vocal.media",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPamhlSGx4aXhZY1FwVkFmWGlweS1pdHlWOHBVSTRDdlN3VTRmMWZIMzdLcnlvcHVSbkZrcDM0N0stZWY0RHl6ODdSdUk1a3BhVzdMVUU2T3l6UVpYLW8zMWJVbU9KRnZmM19mclRSZ1BIMGpHZFNqSnA2emxadmd5SUM3SklBZ2c0YUxNeXB2SHRpNWhIRHRrMjlSR25jMlVfTHZSaWYwQzNTWWE2RGRGSmVuSUk"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "MiCAR后欧洲加密市场进入监管时代",
+      "summary": "欧盟MiCAR法规全面实施后，欧洲加密市场进入正式监管阶段。合规化短期可能增加成本，但长期利好机构入场，提升市场稳定性。影响币种：BTC、ETH等主流币。信号：中性（短期有不确定性，长期利好）。",
+      "reason": "优先级一：重大监管动态，影响整个市场格局。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdi03SHdYWEd1dVJaLUJRYm1mYlZIOHdTbXgzVkhlYlBmd05ER3d2NXBpdmhWeGVZc2F3S21ZNWlDVVBvdzM0N2owdTVqWnd3RjhrU0YtMVNzRnVKZWI5akZINmtKbGpwd0RGaS1RblpEc1hLTW1OTTFlemJxeWlXdUtObm8wZkctdHppay1ZbGMwQ0VRbWJTbGdVQWhRZjg"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC受美伊谈判僵持影响盘整",
+      "summary": "Investing.com报道，比特币在64,000美元附近盘整，美伊谈判进展不明朗导致市场风险偏好下降。地缘政治不确定性短期压制加密货币等风险资产，但若谈判达成协议可能迎来反弹。影响币种：BTC。信号：中性（短期偏空，但已有预期）。",
+      "reason": "优先级二：宏观经济与地缘政治事件影响风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT3Y3UDM5ZVV5eHhsaDRTZ2xZUkdnT2xjR1V0ZWRjSk5Cdnp5aXFwTmdlQXhwRHNONXhNZXZYMmM5RFlEM0hLQnJVOEhHOTB0bXRBVXh3MmV1LXlXNlNwN2tscmZueW1KNmZfVWV1aGdPc2xkWHlNYkhaS0xMbkJYXzJnakRQSVFxT3pxNms4ZFNZYjUtUmlwc0pHQ3dSV2ZINzJGU3ExakFidFlvU1Brbk1ydkptZw"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
