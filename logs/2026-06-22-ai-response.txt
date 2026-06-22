@@ -1842,3 +1842,94 @@ content length: 2464
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3551, prompt_tokens=12206, total_tokens=15757, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2398, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11054)
+content length: 2794
+============================================================
+{
+  "news": [
+    {
+      "title": "交易员抛售XAUT买入BNB",
+      "summary": "知名交易员Technorevenant关联地址抛售492枚XAUT（价值约127万美元）并买入3457枚BNB（约150万美元）。该地址在链上进行了大额资产转换，从黄金代币XAUT转向BNB，可能反映短期看涨BNB情绪。对BNB构成买盘支撑，对XAUT形成抛压。信号：短期看多BNB，看空XAUT。",
+      "reason": "巨鲸异动，大额资产转换影响BNB和XAUT价格。",
+      "category": "链上异动",
+      "impact_coins": ["BNB", "XAUT"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518665.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "渣打称美联储预期过于鹰派",
+      "summary": "渣打银行报告指出市场对美联储的加息预期过于鹰派，预计美联储年内将保持按兵不动。这暗示当前市场定价可能过度悲观，若后续数据证实，风险资产（包括BTC/ETH）可能迎来修复。短期看多，但需等待实际数据确认。",
+      "reason": "宏观经济预期影响风险资产，若美联储不行动则利好加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518662.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "日经225收盘创历史新高",
+      "summary": "日经225指数收盘上涨，创下历史新高。日本股市强势通常反映全球风险偏好回升，可能带动加密市场情绪。同时日本养老基金计划配置1%资产至加密市场（此前已有报道），今日创新高或增强资金流入预期。信号：短期看多BTC/ETH。",
+      "reason": "股市新高为风险情绪提供支撑，间接利好加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518661.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以色列与黎巴嫩将举行会谈",
+      "summary": "市场消息称以色列和黎巴嫩本周将举行会谈，讨论将相关区域移交给黎巴嫩军队控制。中东地缘局势缓和可能降低油价波动，减少避险情绪，利好风险资产。加密市场可能受益于风险偏好回升。信号：短期看多BTC/ETH。",
+      "reason": "地缘政治缓和提升风险偏好，间接利好加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518663.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitget推出货币化美股产品",
+      "summary": "Bitget推出Stock+功能，允许用户通过加密账户直接持有真实美股所有权（如Google、Meta等）。这是传统金融与加密融合的尝试，可能吸引资金流入加密生态，但影响有限。对平台币BGB有小幅利好。信号：中性偏多。",
+      "reason": "交易所新产品可能增加用户活跃度，但短期对价格影响较小。",
+      "category": "交易所",
+      "impact_coins": ["BGB"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Finance Magnates via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObUgxN3pwUVRHTVFXNlAyUlpVUUNRRzA5eHRFTzZPV0JOSzVmWDBPRkdqaXdjNjJqdE1BcjhpVldmdXpaa3E1eTA5WWQxNGg3aVUwYWZZcE1GWV84dFpINERtbjhBNGNUUjVMUW1JLVQzTmcwVFZsaDhZaEo2SF9CaV9CdlZCYWtEdnMtVDBpMTV2SG1sZGpXVDl5QVo1YTU2b0RaR2x0NGdXS2plTnd5LUJXTGpfd3BuQldYRw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
