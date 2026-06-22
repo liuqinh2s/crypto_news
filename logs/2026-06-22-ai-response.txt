@@ -1552,3 +1552,69 @@ content length: 2251
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2705, prompt_tokens=10209, total_tokens=12914, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1891, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9057)
+content length: 2162
+============================================================
+{
+  "news": [
+    {
+      "title": "Secret Network桥被利用470万美元",
+      "summary": "Secret Network桥被攻击者利用无限铸币漏洞窃取约470万美元，导致桥暂停。该事件直接利空SCRT代币，可能引发恐慌抛售，短期看空。",
+      "reason": "黑客攻击直接影响项目安全，属于优先级一事件，需立即关注。",
+      "category": "项目更新",
+      "impact_coins": ["SCRT"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Altura因提款潮关闭稳定币金库",
+      "summary": "Altura因遭遇前所未有的提款请求，决定关闭稳定币收益金库。这显示项目流动性危机，可能引发ALT代币进一步下跌，短期看空。",
+      "reason": "项目稳定币金库关闭是重大利空，影响投资者信心。",
+      "category": "项目更新",
+      "impact_coins": ["ALT"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/405477/altura-winds-down-stablecoin-vault?utm_source=rss&utm_medium=rss"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Taiko暂停生成新区块",
+      "summary": "Taiko宣布暂停生成新区块以调查和修复相关问题。此前已发生攻击者转移代币事件，技术故障加剧投资者担忧，短期看空TAIKO。",
+      "reason": "项目暂停区块生产属于重大运行问题，直接影响币价。",
+      "category": "项目更新",
+      "impact_coins": ["TAIKO"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518618.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BCH突破200美元",
+      "summary": "BCH价格突破200美元关口，短期多头动能增强。但需注意整体市场情绪仍偏恐惧，突破可持续性存疑，短期看多但需谨慎。",
+      "reason": "价格突破关键阻力位，可能吸引追涨资金，但属于价格异动，影响有限。",
+      "category": "市场结构",
+      "impact_coins": ["BCH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518619.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国Toss Bank基于Solana开展汇款项目",
+      "summary": "韩国Toss Bank将基于Solana开展全球汇款与结算概念验证项目。这是Solana在传统金融领域的实际应用，中长期利好SOL，但短期影响有限。",
+      "reason": "大型银行采用Solana技术，显示其实用价值，属于项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/518615.html"}],
+      "urgency": "days"
+    }
+  ]
+}
