@@ -1220,3 +1220,201 @@ content length: 2811
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1114, prompt_tokens=8215, total_tokens=9329, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=860, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7063)
+content length: 625
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至20",
+      "summary": "恐惧贪婪指数当前为20（极度恐惧），较前值23进一步下降。历史数据表明极度恐惧区间通常是中长期抄底区域，可能预示市场底部的形成，但短期价格可能继续承压。该指标影响比特币及整体加密货币市场情绪。从做多视角看，极度恐惧是中长期看多信号，但短期需谨慎。",
+      "reason": "恐惧贪婪指数降至20（极度恐惧），属于优先级三市场情绪信号，且数值较之前有更新，符合筛选标准。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮新消息中仅恐惧贪婪指数变化具有交易参考价值，其他消息均已在历史中重复出现或属于排除项，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1637, prompt_tokens=8215, total_tokens=9852, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1608, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8192), prompt_cache_hit_tokens=8192, prompt_cache_miss_tokens=23)
+content length: 58
+============================================================
+{
+  "news": [],
+  "note": "本轮所有新闻均为历史重复内容，无新增影响行情的关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=950, prompt_tokens=8215, total_tokens=9165, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=703, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8192), prompt_cache_hit_tokens=8192, prompt_cache_miss_tokens=23)
+content length: 635
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至20",
+      "summary": "恐惧贪婪指数从23降至20，进入极度恐惧区间。历史数据显示，极度恐惧往往是市场底部的情绪信号，可能预示中长期买入机会。该指数针对整个加密货币市场，主要影响BTC和ETH。虽然短期价格可能继续承压，但从历史看，极度恐惧区域通常是中长期看多抄底区。",
+      "reason": "恐惧贪婪指数更新，降至20极度恐惧，属于优先级三市场情绪信号，且数值变化（从23到20）符合例外更新规则。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材中Binance公告均为重复历史消息，Reddit帖子无交易价值，因此仅筛选出一条有效新闻。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1485, prompt_tokens=8907, total_tokens=10392, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1226, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7755)
+content length: 653
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数骤降至20",
+      "summary": "当前加密市场恐惧贪婪指数为20，处于极度恐惧状态（Extreme Fear）。此前几小时指数为23，进一步下跌。极端恐惧历史往往对应市场底部区域，可能预示中期反弹机会，但短期价格仍有下行风险。该信号影响所有主要加密货币，可作为市场情绪指标参考。",
+      "reason": "恐惧贪婪指数低于20属于极值，根据筛选标准，这是中长期看多信号；但短期需谨慎。指数从23降至20，数据更新，未重复历史标题（历史23，现20）。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于抓取素材中绝大多数为历史重复消息或低价值内容，仅筛选出1条符合标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=418, prompt_tokens=8907, total_tokens=9325, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=377, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8832), prompt_cache_hit_tokens=8832, prompt_cache_miss_tokens=75)
+content length: 83
+============================================================
+{"news": [], "note": "本轮素材中无符合筛选标准的新消息。Binance公告均为重复历史内容，恐惧贪婪指数未变化，Reddit帖子无交易价值。"}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2644, prompt_tokens=3014, total_tokens=5658, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1430, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=1862)
+content length: 3131
+============================================================
+{
+  "news": [
+    {
+      "title": "Binance上架RE代币",
+      "summary": "Binance宣布将在Earn、现货、保证金、合约等多产品线上线Re (RE)代币，并标注种子标签。RE是一个去中心化数据协议代币，上币将带来流动性提升和短期价格波动。从合约做多视角看，新币上线初期通常伴随高波动和做市商活动，但种子标签提示风险较高。影响币种：RE。信号：bullish（短期交易机会）。",
+      "reason": "交易所上币是直接影响行情的优先级一事件，RE获得多产品线支持，交易量和关注度将显著提升。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Binance公告 - Add RE",
+          "url": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969"
+        },
+        {
+          "name": "Binance公告 - List RE",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数跌至20",
+      "summary": "加密恐惧与贪婪指数当前为20（极度恐惧），处于历史极值区域。极度恐惧通常意味着市场过度悲观，历史数据显示该区域往往是中长期底部区间，可能孕育反弹机会。但短期仍有惯性下探风险，需结合其他指标确认。影响币种：BTC、ETH等主流币。信号：中性偏bullish（中长期抄底信号）。",
+      "reason": "恐惧贪婪指数极值是优先级三的市场情绪信号，<20是极端值，对中长期策略有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Alternative Fear & Greed Index",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线SpaceX代币化股票",
+      "summary": "Binance现货市场新增bStocks代币化证券SpaceX (SPCXB)交易对，允许用户交易SpaceX股票代币。这是传统金融资产代币化的一步，可能吸引寻求太空概念曝光的交易者。风险在于监管不确定性和流动性风险。影响币种：SPCXB。信号：bullish（短期概念炒作）。",
+      "reason": "交易所上线主要标的属于优先级一事件，SpaceX知名度高，可能引发短期交易热度。",
+      "category": "交易所",
+      "impact_coins": ["SPCXB"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告 - bStocks SpaceX",
+          "url": "https://www.binance.com/zh-CN/support/announcement/191cb96109f24c5c85362631a55a45d3"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线USDT/AED现货交易对",
+      "summary": "Binance新增USDT/AED（阿联酋迪拉姆）现货交易对，方便中东地区用户直接用法币交易USDT。此举可能增强阿联酋地区流动性，但对整体行情影响微弱。影响币种：USDT、AED相关。信号：neutral。",
+      "reason": "添加法币交易对属于交易所日常更新，对市场影响极小，但可作为交易所动态参考。",
+      "category": "交易所",
+      "impact_coins": ["USDT"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Binance公告 - USDT/AED",
+          "url": "https://www.binance.com/zh-CN/support/announcement/66d54f75b3a041ff991ddd179ab6ed39"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线季度交割合约1225",
+      "summary": "Binance Futures即将上线USDⓈ-M和COIN-M季度交割合约，到期日为2025年12月（1225）。季度合约提供更多对冲和投机工具，但不会直接推动价格方向。当前市场环境下，新合约可能吸引更多机构参与。影响币种：BTC、ETH。信号：neutral。",
+      "reason": "新期货合约上线属于市场结构变化，中期影响，但无直接多空信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告 - 1225 Delivery",
+          "url": "https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
