@@ -304,3 +304,126 @@ content length: 2078
   ],
   "note": "本轮素材中大量消息与历史重复，仅筛选出3条新且有交易参考价值的消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4130, prompt_tokens=15681, total_tokens=19811, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2517, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14529)
+content length: 4096
+============================================================
+{
+  "news": [
+    {
+      "title": "Franklin Templeton成立加密部门",
+      "summary": "Franklin Templeton宣布关闭2.5亿美元数字资产交易，并推出机构加密部门，正式进军数字资产领域。此举意味着又一家顶级传统资管巨头全面布局加密货币，可能吸引更多机构资金流入。影响BTC、ETH，看多信号。",
+      "reason": "传统金融机构入场是中期利好，符合优先级二机构动向标准。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/franklin-templeton-closes-250-digital"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "前以太坊成员创立Ethlabs",
+      "summary": "由前以太坊基金会成员创立的Ethlabs项目启动，获Bitmine、Sharplink和Joe Lubin资助，旨在加速以太坊的机构化进程。该项目可能推动ETH在传统金融机构中的应用，利好ETH生态。",
+      "reason": "以太坊生态新进展，属于项目更新，中期影响。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPZjVwZUdhU3RuQmN6V0pkbUt2eE1fVlo1RkNJSW0yMmdtUlAyQ3FTTkJQSjFaNmxidEZHUW5nUlV1c1Z6NWljX2JPeXpnaG5hb1BWVEY0OWM4U1g4bnc4S0hZLXFBR0ZjZGlYY0dPMjByOXpPanUyT2hJVWRhRl9OTkFISDVvLTRlSFlKM2RxT3JlUi1HS2lKV3dqWnByZlNHNXZXYllUMWc1ZXpaVnQwSjE1QVJNU0d5NE81RDVzQmVqVkVNY3pubWhtenpYdV9CVFB5MGh3dmExcmxpNlM4X0NXTVpkdGlxOWpTeG1BZlJqaFVhSnFZWU1BVlBMNjVpVGlBUmZMcmQ3enpSOGFic1FyVkVGSW5Cc21UOXVrQXlRTXNQNG80XzZrM0hHRmZFRm5GS2xYRU1uWng3YTBicjg3VVhSMDhfcDRhTGNBcWhCVHVuSE1UN3hZdUNSeWM?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普称伊朗同意重大核查",
+      "summary": "特朗普表示伊朗将同意接受重大武器核查，中东紧张局势有望缓解。地缘风险下降可能推动风险资产上涨，包括比特币和加密货币。此消息与近期伊朗协议进展相关，短期提振市场情绪。",
+      "reason": "地缘政治影响风险资产，属于宏观经济范畴，可能引发短期行情。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518766.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "新兴市场ETF资金回流",
+      "summary": "在美上市的新兴市场ETF近期出现资金回流，表明全球资金风险偏好回升。资金流入新兴市场可能外溢至加密货币，尤其是比特币作为风险资产的一部分，短期看多。",
+      "reason": "资金流向信号，属于宏观经济指标，可能预示风险资产上涨。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518765.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MEV机器人大额损失引法律战",
+      "summary": "以太坊MEV机器人JaredFromSubway被盗750万美元后威胁采取法律行动。事件凸显DeFi MEV风险，可能短期影响相关代币情绪，但整体对以太坊影响中性。",
+      "reason": "链上异动，涉及MEV，属于次要事件，但可能引发短期波动。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371787/ethereum-mev-bot-jaredfromsubway-legal-action-7-5-million-attack"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Reddit情绪：华尔街停止对抗BTC",
+      "summary": "Reddit热帖指出BlackRock、Fidelity和Franklin Templeton等机构买入比特币，认为华尔街已停止对抗比特币。这反映了散户和社区看多情绪，但需注意情绪可能过热。",
+      "reason": "市场情绪信号，虽非直接消息，但可辅助判断。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1ucrtoc/blackrock_fidelity_and_now_franklin_templeton/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Securitize请求驳回tZERO专利指控",
+      "summary": "Securitize向法院请求驳回tZERO提出的代币化专利侵权诉讼，称其‘毫无价值’。此案涉及RWA代币化技术专利，结果可能影响行业标准，但短期影响有限。",
+      "reason": "监管/法律事件，对代币化赛道有潜在影响，但进展缓慢。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405672/securitize-asks-court-reject-tzeros-meritless-tokenization-patent-allegations?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
