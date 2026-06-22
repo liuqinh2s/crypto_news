@@ -2491,3 +2491,110 @@ content length: 4082
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3346, prompt_tokens=16659, total_tokens=20005, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1506, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15507)
+content length: 4086
+============================================================
+{
+  "news": [
+    {
+      "title": "Polymarket虚假投注190万美元",
+      "summary": "WSJ报道称Polymarket上约190万美元的虚假投注被用于制造热门预测市场假象，夸大交易量。这可能引发对Polymarket及预测市场板块信任危机，短期利空相关代币（如POL）以及同类预测项目。但整体市场规模小，影响有限。",
+      "reason": "新消息，涉及主流媒体报道，可能打击Polymarket声誉，影响相关代币价格。",
+      "category": "项目更新",
+      "impact_coins": ["POL", "EXE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371756/1-9m-in-fake-bets-drove-polymarket-hype-wsj"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国银行法案CLARITY Act遭银行业反对",
+      "summary": "报道指出美国银行业正在抵制CLARITY法案，该法案旨在明确加密资产分类和监管。若法案通过将对加密行业构成利好，但银行业反对可能导致进程缓慢。目前为中性偏多，长期取决于法案进展。影响BTC、ETH及多数加密资产。",
+      "reason": "监管政策动向，直接影响行业合规预期，需持续关注。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "crypto.news",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WWkdmT0RQdmxpNDRncS1YZDU5eGkyb2ZuOU1EZGRPMWZlM0RKZTZBWWZfNGt1dkI2LXpuMXlsUzdQamhIcjd4NGw5Q2JfRFdlWm1FRDE2ZDZheXBBNDVUOEhWazJGwEpCY1RmWEJoQnVJci04?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "JPMorgan加密市场主管跳槽Barclays",
+      "summary": "JPMorgan加密市场部门主管已离职加入Barclays，表明传统金融机构间加密人才流动加剧。短期内无直接影响，但可能削弱JPMorgan加密业务执行力，对市场信心略偏空；长期看人才流动利于行业扩散。影响有限。",
+      "reason": "机构人事变动，反映行业动态，但非直接行情驱动。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "eFinancialCareers",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ2RMa2V5QUNuVTZNZzE3QWd2bFA2QnJJb0lZcjdlX1dSaG5DTlJUX3BGYnBRTlpKVG53dXBQUkxtNmJKXzl1bWwwLTRDUWdVQ20zRjdSMUJ0b1NFWTEza2w3NEFfNzMwT2tsZURSYk9FWVJlRDNnamdwbUNfTThuM3B6NDBjUTRXVWZPU29tUHNjZ01pWGg1c1p3?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "加密货币交易量反弹搜索兴趣飙升",
+      "summary": "尽管6月市场回调，但加密货币交易量反弹，谷歌搜索兴趣激增，表明散户关注度上升。短期情绪回暖，但需警惕追涨风险。中性偏多，但非强力信号。",
+      "reason": "市场情绪指标，交易量回升显示潜在买盘，但已反映在价格中。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "eciks.org",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNXdNT2R5WE5FYlFaREpzYnQ5WjRGcDNDTlpOUERtUFlPdUVMSXluRGs3ZDVBTG5xdUtKSmVuWC1GTXM4dzk4aS1TZkdnY0V4Y0pUaTJGYlBqLTIwS2VIeV9LaHFQZ3lBd2VvSFo0NC1xV2hxX3JpdTR4eUVqbTJVV2RB?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "前美联储主席格林斯潘去世",
+      "summary": "美联储前主席艾伦·格林斯潘去世，享年100岁。作为影响深远的央行人物，其去世可能引发市场对货币政策历史的回顾，但对当前政策无直接影响。短期情绪扰动，市场反应预计有限。",
+      "reason": "宏观事件，虽非加密直接相关，但作为重大人物去世可能影响整体风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVFFjb1FvV1FDZTU5Y3BqOTVSRkFzaWRXNWJjOU5wLXM1SUJ0NVE0TVQ0d0RQeWx0U2lvUUVFaHU5cHZqdW5OYWRMZU1FVkxQRzJoR2ZicEpmRjJDUWgzTmUwM04tQ0U0LU8tLWIzMFMtLVVqR2Q3bVVoSnNqTllMYjdtMFA1bFRxZUhua2k5ajF6M2pzd1pUMGl30gGfAUFVX3lxTE1zbUFsTkpaMTZxUms5TS1MOG5VZlhSekUzV2R1YTg0a0Vlbm5GcXZ2VTFJMDlhRUVBVVJpaG1XY0JEZGxPSkJaQ1g0ZlVqOGdmNmd5bFBFZVNlTEVjX1hZOTY3ZjZ3OXNaUk1fWi1YUnFta0VHUmc3Uk9TeE00R0dES3NNSERoRGlJZEZQRWktb2hZaFJzSU4zYTFoOHRTQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "衍生品显示对反弹持怀疑态度",
+      "summary": "尽管比特币和山寨币价格近日上涨，但期货升水收窄、期权偏斜等衍生品信号显示交易者对反弹持续性存疑。短期内市场可能面临回调压力，谨慎偏空。",
+      "reason": "市场结构信号，衍生品定价反映机构情绪，对短期方向有指导意义。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/22/as-bitcoin-altcoin-prices-gain-derivatives-signal-skepticism-over-a-sustained-rally"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
