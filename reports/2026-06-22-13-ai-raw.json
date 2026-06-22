@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-22",
+  "hour": "13",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13363,
+    "completion_tokens": 3839,
+    "total_tokens": 17202
+  },
+  "content_length": 1862,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"日本或抛美债干预汇市\",\n      \"summary\": \"日本财务省数据显示5月外国证券减少756亿美元，可能与干预汇市有关，动用了包括美债在内的储备。此举可能推高美债收益率，美元走强，对BTC等风险资产形成压力。看空BTC、ETH。\",\n      \"reason\": \"日本抛售美债干预汇率是宏观重大事件，可能引发全球流动性收紧，影响风险资产。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518637.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"科威特暗示海峡重启\",\n      \"summary\": \"科威特要求买家从波斯湾港口提货，交易员称这是长时间以来首次，暗示霍尔木兹海峡可能重启。若海峡通航恢复，油价可能回落，缓解通胀压力，利好风险资产。但信号尚弱，需进一步确认。短期看多BTC、ETH。\",\n      \"reason\": \"地缘政治缓和直接影响油价和通胀预期，进而影响风险资产。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518633.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"中国反制裁美国公司\",\n      \"summary\": \"中国对数十家美国公司实施贸易限制，作为对五角大楼黑名单的报复。中美贸易摩擦升级，市场避险情绪升温，可能打压BTC等风险资产。\",\n      \"reason\": \"地缘政治紧张加剧，影响全球风险偏好。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"CNBC\", \"url\": \"https://news.google.com/rss/articles/CBMivAFBVV95cUxNQXo1RzZsUk1PSnJ4V2hJWEZmZG51bmZrRW5Na183b0I5TUlWbGpFR3lVTFVoQ0pBUkNoQlcyUm9QQW1oSTdWLTdvaHRoZUdVVnJFalNQOWRjSC1fVHFIOVJnZjliSTdxTXhWYkNqQVU2dlRmYlRJMW9vLWpwY3hiLVBFNk10alBTLW1ud1FtOF9iaDRtRURMNEQ2ZHpIcmtkN2M1VEl0b1doX3dBckptVEppZXlzVi1xMUx5ZtIBwgFBVV95cUxPNUNPb1BmUzVUdm1pZVFfcC1jUGVwaUVyV1NvSjZVM1lEdnF1MnpsSzNRTnBXbFY2cHIxb1EwQ29peXZmNHFxUE9tUTg3ZlVuenZYeVVNZ1JwLVhkVktMdVlNWGtYVjNsWWR1Zk5fa2hKZHRZeDJadElPXzQwY1g0MUJhUTdzOFU0THNJSVhJSUR0NXFVUjdyNlZtUXdGRjNlbDRMWXJVbzdNVDFWSEZ5Q0RkT0ZvekJLMVI2aFAxZ3FRZw?oc=5\"}],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮消息中大部分与历史重复，仅筛选出3条新消息。当前市场极度恐惧（指数20），未见明显催化剂。\"\n}"
+}
