@@ -479,3 +479,94 @@ content length: 2322
   ],
   "note": "本轮消息中多数与历史重复，仅筛选出4条具有交易价值的新消息，影响等级均为中等偏低，市场整体偏空情绪仍未改变。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2612, prompt_tokens=14171, total_tokens=16783, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1293, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13019)
+content length: 3151
+============================================================
+{
+  "news": [
+    {
+      "title": "Roubini加入代币化热潮",
+      "summary": "长期批评加密货币的经济学家鲁比尼（Roubini）参与代币化项目，推出基于区块链的'Technodollar'。此举表明传统金融界对代币化资产的兴趣增加，可能推动更多机构入场，对代币化相关币种（如LINK、ADA）构成情绪利好，但鲁比尼的参与也可能引发争议。整体看中性偏正面，但影响有限。",
+      "reason": "知名批评者转向，反映行业趋势，可能影响市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["LINK", "ADA"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/06/23/crypto-critic-roubini-joins-tokenization-boom-with-onchain-technodollar"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "参议院民主党要求听证特朗普家族加密联系",
+      "summary": "美国参议院民主党敦促共和党人就特朗普家族与阿布扎比皇室之间的加密货币关联举行听证会。这可能引发监管调查，增加政治不确定性，短期利空比特币及加密市场整体，尤其是如果调查扩大可能带来负面监管压力。",
+      "reason": "监管调查可能升级，影响市场信心。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405902/senate-democrats-urge-republicans-to-hold-hearings-on-trump-family-crypto-ties-to-abu-dhabi-royalty"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CBOE推出预测市场平台",
+      "summary": "芝加哥期权交易所（CBOE）推出名为'CBOE Predicts'的预测市场平台。预测市场赛道竞争加剧，可能提升Polymarket等代币的关注度，但短时对加密市场整体影响不大。该消息利好预测市场代币（如POLY, REP），但CBOE的合规背景可能带来更多传统用户。",
+      "reason": "主流交易所布局预测市场，利好相关概念币。",
+      "category": "交易所",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519017.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "法官允许搜查加密高管ChatGPT记录",
+      "summary": "美国法官批准搜查令，要求提供某加密货币高管的ChatGPT记录。这显示监管机构对加密行业调查手段的升级，可能引发隐私担忧和合规风险，对市场情绪构成短期利空，尤其影响隐私币和AI相关代币。",
+      "reason": "监管执法新手段，增加行业不确定性。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Law.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVHB4TVBJLU1yR09pY2JINXdkQzN2bXcza1NyYk0yek5kUEF4ZU1wNUpFX3FNN1VncUR2bzdSWVo0T1RkbjYxTDViNy05dnJCSTFNSGRFd3pXVC1rN3JlZmNNVWs2dTVRcl8xNzZUSDRTWUVGMTBnck5PaC14cFVSN3Y3bmY1Rjg0aGhvSm9qQXJsVElfTmNYRjlhdWIzQi0xUFcxQ1NOb3A0X0w5LU1nWjZHUzRyeUU5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "参议院加密货币税收计划或秋季出台",
+      "summary": "共和党参议员表示，参议院可能于秋季推出加密货币税收计划。明确的税收框架长期可能带来合规利好，但短期增加市场对征税的担忧，利空加密资产，尤其是美国投资者可能提前抛售。",
+      "reason": "税收监管预期升温，直接压制市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bloomberg Tax",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPanpKaEpqWXlRV2ctLUJZRy12LU50ODZaalZza2lnZjk5U1o1VFRCanBVNTlHVDYwRUdYSFNFWVRXcFFBZGZHWDhOcDZtdDR3TUdjY0d0TzBQWXZYLVhuaTFKSWNzbU5RREM3XzRIMjJtZVVDbjFYQVFNVURpRmlJUHhGZW5hdlJzR2l4dmlfd3gxaDFKb0VMNXI4dUdOdC13am9pS1NPZzRjWWs"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
