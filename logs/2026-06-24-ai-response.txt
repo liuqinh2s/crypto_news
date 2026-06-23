@@ -378,3 +378,48 @@ content length: 1960
   ],
   "note": "由于当前市场处于情绪低迷、信息重复较多，仅筛选出3条具有交易价值的新消息。其余多数消息已在历史记录中重复或属于无关内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3551, prompt_tokens=14770, total_tokens=18321, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2886, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13618)
+content length: 1684
+============================================================
+{
+  "news": [
+    {
+      "title": "百名天主教领袖反对CLARITY法案",
+      "summary": "近100名天主教领袖联名反对CLARITY法案，认为该法案削弱了反洗钱和打击人口贩运的保障措施。CLARITY法案旨在为加密资产提供监管清晰度，目前正在国会推进。反对声音可能增加法案通过的阻力，对加密货币政策环境形成短期利空。影响币种：BTC、ETH。看空信号。",
+      "reason": "监管政策重大动态，反对势力增强可能阻碍法案通过，属于优先级一的监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/405868/clarity-act-new-opposition-catholic-leaders-weakened-safeguards-against-illicit-finance"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "长期持有者卖出量创19月新低",
+      "summary": "数据显示，比特币长期持有者（持有时间超过1年）的卖出量降至19个月以来的最低点。同时，减半模型预测新的市场底部时间。这表明长期投资者惜售，供应紧张，是看多信号。影响币种：BTC。看多信号。",
+      "reason": "链上异动，长期持有者行为是重要指标，属于优先级一的链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/og-bitcoin-selling-hits-19-month-low-as-halving-model-flags-new-bottom-date-analyst"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Zcash矿商Fortitude通过合并纳斯达克上市",
+      "summary": "Zcash（ZEC）挖矿公司Fortitude通过与HeartSciences合并的方式获得纳斯达克上市资格。这为Zcash生态系统带来传统资本市场关注，可能提升ZEC的机构认可度和流动性。影响币种：ZEC。看多信号。",
+      "reason": "项目更新，矿商上市对对应币种形成利好，属于优先级二的项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["ZEC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前市场信息量较少，且大量消息与历史重复，仅筛选出3条新消息，建议结合现有持仓和价格走势判断。"
+}
