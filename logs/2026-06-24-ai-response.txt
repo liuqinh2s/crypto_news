@@ -65,3 +65,142 @@ content length: 3294
   ],
   "note": "当前市场受科技股抛售和美联储加息预期影响，整体偏空，但上述消息以机构增持和采用进展为主，可能提供局部反弹机会。恐惧贪婪指数23（极度恐惧）已在历史中，未重复入选。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3923, prompt_tokens=15766, total_tokens=19689, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2163, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14614)
+content length: 4602
+============================================================
+{
+  "news": [
+    {
+      "title": "ESMA勒令无牌加密公司退出欧盟",
+      "summary": "欧洲证券和市场管理局(ESMA)发布命令，要求所有未获得MiCA牌照的加密货币公司必须在截止日期前退出欧盟市场，否则将面临执法行动。MiCA法规自2025年6月起分阶段实施，宽限期将于2026年7月1日结束。此举预计将迫使80%的交易所退出欧洲，导致当地流动性收缩。影响币种：BTC、ETH及所有在欧盟有业务的代币。看空信号：短期流动性下降，可能引发抛售。",
+      "reason": "优先级一：重大监管动态，直接影响交易所运营和市场结构，可能导致资金外流。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/european-esma-unlicensed-crypto"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "H100股东批准BTC收购计划",
+      "summary": "欧洲上市公司H100的股东投票批准了一项比特币收购计划，交易完成后H100将成为欧洲第二大上市公司比特币持有者。具体规模和金额未披露，但此举显示企业继续采用比特币作为储备资产。影响币种：BTC。看多信号：机构增持，提振市场信心。",
+      "reason": "优先级二：机构动向，企业增持BTC是长期利好信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/h100-shareholders-approve-bitcoin-deal"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z关联地址从Binance提出12,780 ETH",
+      "summary": "链上数据显示，a16z关联地址从Binance交易所提出12,780枚ETH，价值约2122万美元。大额转出交易所通常被视为囤币行为，减少抛压。影响币种：ETH。看多信号：巨鲸提币，暗示长期持有意愿。",
+      "reason": "优先级一：巨鲸异动，大额转出=囤币信号，直接利好ETH。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518992.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CBOE考虑将BTC/ETH永续期货转为永续合约",
+      "summary": "据报道，芝加哥期权交易所(CBOE)正在考虑将其比特币和以太坊连续期货产品转换为永续期货合约。此举若落实，将为交易者提供更灵活的杠杆工具，并可能增加交易量和机构参与度。影响币种：BTC、ETH。看多信号：衍生品创新有利于价格发现和流动性。",
+      "reason": "优先级二：交易所重大产品创新，影响BTC/ETH衍生品市场结构。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BNY称FOMO推动资管涌入代币化基金",
+      "summary": "纽约梅隆银行(BNY)表示，FOMO（害怕错过）情绪正在推动更多资产管理公司进入代币化基金领域，代币化国债产品需求激增。这反映了机构对区块链资产日益增长的信心。影响币种：ETH（主要代币化平台）、代币化资产相关币种。看多信号：主流机构采用代币化技术，利好以太坊生态。",
+      "reason": "优先级二：机构动向，代币化趋势加速，中长期利好ETH。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/23/bny-sees-fomo-driving-asset-managers-into-tokenized-funds"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Tether支持Oobit将USDT引入巴西PIX",
+      "summary": "由Tether投资的支付应用Oobit将USDT集成到巴西央行支付系统PIX，使近1.7亿用户可以直接使用USDT进行转账和支付。这是稳定币在新兴市场的重要采用进展。影响币种：USDT、BTC（整体情绪）。看多信号：稳定币使用场景扩大，促进加密货币采用。",
+      "reason": "优先级一：稳定币供应量变化应用扩展，增加USDT需求，间接利好市场。",
+      "category": "项目更新",
+      "impact_coins": ["USDT", "BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405819/tether-backed-oobit-brings-usdt-170-million-users-brazils-pix-payment-network"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Goldfinch社区投票关闭Prime池",
+      "summary": "DeFi项目Goldfinch社区投票批准了关闭其Prime池的提案，该项目将逐渐停止运营。Prime池是Goldfinch的主要产品，TVL约3000万美元。影响币种：GFI。看空信号：项目关停导致代币价值丧失，短期抛压。",
+      "reason": "优先级二：DeFi重大事件，项目关闭，直接利空相关代币。",
+      "category": "项目更新",
+      "impact_coins": ["GFI"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405825/goldfinch-set-shutter-prime-community-vote-backs-wind-down-proposal"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国司法部查封Huione Group云计算账户",
+      "summary": "美国司法部(DOJ)查封了柬埔寨集团Huione Group的云计算账户，该账户被指控用于洗钱数十亿美元的欺诈收益。Huione Group曾运营加密货币交易所，此次行动可能影响相关加密渠道。影响币种：隐私币（如XMR）、涉事代币。看空信号：监管打击非法金融活动，可能引发市场对隐私币的担忧。",
+      "reason": "优先级一：重大监管执法，打击洗钱，可能短期内影响隐私币和去中心化交易所。",
+      "category": "监管政策",
+      "impact_coins": ["XMR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405834/doj-seizes-huione-group-account-launder-billions"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
