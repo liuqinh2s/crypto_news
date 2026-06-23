@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-23",
+  "hour": "08",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12041,
+    "completion_tokens": 2634,
+    "total_tokens": 14675
+  },
+  "content_length": 2343,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"美参议院通过4年CBDC禁令\",\n      \"summary\": \"美国参议院通过住房法案，其中包含一项禁止美联储发行央行数字货币（CBDC）四年的条款。这意味着美国短期内不会推出数字美元，降低了稳定币和去中心化加密货币面临的潜在竞争压力。市场可能将其解读为对加密货币的利好，尤其是比特币和以太坊，因为CBDC的延迟相当于为私人加密资产留下了发展空间。此外，该消息可能提振市场对去中心化金融的信心。\",\n      \"reason\": \"重大监管动态：CBDC禁令直接影响加密市场情绪，利好比特币和以太坊。与历史消息'Congress Set to Ban Digital Dollar'不同，此为法案正式通过进展。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/policy/2026/06/22/u-s-senate-passes-housing-bill-that-carries-four-year-ban-on-a-fed-cbdc\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Jaredfromsubway攻击者抛售ETH\",\n      \"summary\": \"Jaredfromsubway攻击者通过Tornado Cash转移2000枚ETH，并已在市场上卖出1422枚ETH，造成以太坊抛压。此前该MEV机器人因漏洞损失750万美元，攻击者后续执行清仓操作。此举可能短期压低ETH价格，对ETH持有者构成利空信号。\",\n      \"reason\": \"链上异动：大额ETH通过混币器转移并卖出，对ETH形成抛压。历史消息仅提及诉讼，此为实际抛售行动，属于新进展。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/518798.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Binance新增现货交易对\",\n      \"summary\": \"Binance公告将于2026-06-23增加新的现货交易对及交易机器人服务。新交易对通常会带来流动性增加和交易量上升，短期可能刺激相关币种价格上涨。虽然具体币种未明确，但通常利好被添加的代币。\",\n      \"reason\": \"交易所公告：新交易对上线的常规影响，但属于已知模式，影响中等。注意历史中有类似公告但日期不同，此为最新日程。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Binance\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/f0c763fc49934c1b9b4e4ce1653e67dc\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数回升至23\",\n      \"summary\": \"恐惧贪婪指数从20（极度恐惧）小幅回升至23（仍属极度恐惧）。虽然数值依然处于极端低位，但反弹表明市场情绪略有改善。历史上极度恐惧区间往往是中长期买入机会，当前信号偏向中性偏多，但需警惕短期抛压。\",\n      \"reason\": \"市场情绪指标更新：指数从20升至23，虽变化不大但方向积极。历史已有20的报道，此为更新数据。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}
