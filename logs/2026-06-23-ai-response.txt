@@ -1546,3 +1546,110 @@ content length: 4689
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3108, prompt_tokens=10116, total_tokens=13224, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1839, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8964)
+content length: 3297
+============================================================
+{
+  "news": [
+    {
+      "title": "Franklin Templeton推出加密部门",
+      "summary": "Franklin Templeton完成250笔数字交易并推出新的加密业务部门，显示传统金融机构加速布局数字资产。此举可能增强机构信心，利好BTC和ETH等主流资产，属看多信号。",
+      "reason": "机构积极入场，中期利好加密货币市场。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ud9zvo/franklin_templeton_completes_250_digital_deal/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "FOMC鹰派转向压制市场",
+      "summary": "分析报告指出美联储6月会议鹰派转向，可能维持高利率更久，对风险资产（包括加密货币）构成压力。比特币已跌至63k，若利率持续高位，将进一步承压，属看空信号。",
+      "reason": "宏观紧缩政策直接压制风险资产估值。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Intellectia AI",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xdTNLRmQ5dXhkRlBRTGhtVEtmanpNbnFqZ0w1Z1dLM2NUb0w0Mzh1OG9KbmhmS3EzVG5UV042NUo0V3pWRFY0NFJCdG5fVUVEZ1VlOEJmd09Qd2hDQ1NTbU0tRFY0eTg?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF累计流出80亿美元",
+      "summary": "2026年以来比特币ETF累计流出超80亿美元，反映机构持续撤退。结合近期每日净流出（昨日-6819万），市场流动性恶化，看空压力加大。",
+      "reason": "ETF资金持续外流是明确看空信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Intellectia AI",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYXZuNVFZNWZUN2NWN24wbzlEN3NZOC00UEIwdHZpTndmUUJyYU9XZTNobHFkZ21RdjRTUEdsbEFTanBXbWFiTTAyNVNNaENmQWVaa1pGa1RZYVZJVnZ3MUFRbnVDU0JqVFBCUFBsQkM1am90REFRVTZ5bEllMWVTYw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币矿工转型AI数据中心",
+      "summary": "比特币价格较峰值跌48%，但矿企Riot、Galaxy、Mara等因转型AI数据中心股价反涨，显示矿工多元化收入模式。对BTC本身影响中性，但矿工抛压或减轻。",
+      "reason": "矿工业务转型减少被动抛售，中期利好BTC供需。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1uda9r2/bitcoin_is_down_48_percent_from_its_peak_riot/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance新增保证金交易对",
+      "summary": "Binance Margin新增多个交易对，提升市场流动性，但对主流币价格直接影响有限，属中性消息。",
+      "reason": "交易所功能更新，影响级别低。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/3af18ad98b3048a3b959ef1405b9d45b"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线USDT/AED现货对",
+      "summary": "Binance新增USDT/AED现货交易对，便利中东用户出入金，长期利于资金流入，但短期影响很小。",
+      "reason": "新增法币通道，轻微利好流动性。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/66d54f75b3a041ff991ddd179ab6ed39"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
