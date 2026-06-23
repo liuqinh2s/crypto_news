@@ -157,3 +157,82 @@
 2026-06-23 17:01:53 [DEBUG]   去重: 「Tether支持Oobit将USDT引入巴西PIX」 → URL重复: https://www.theblock.co/post/405819/tether-backed-oobit-brin
 2026-06-23 17:01:53 [INFO] 📦 JSON 已保存: reports/2026-06-24-01.json
 2026-06-23 17:01:53 [INFO] ✅ AI 筛选完成，共 7 条交易相关消息
+2026-06-23 18:01:05 [INFO] 🚀 开始抓取 2026-06-24 02:00 币圈新闻
+2026-06-23 18:01:05 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-23 18:01:05 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-23 18:01:05 [INFO]   ⏭ The Block: 过滤掉 15 条非近期新闻
+2026-06-23 18:01:05 [INFO]   ⏭ CoinTelegraph: 过滤掉 28 条非近期新闻
+2026-06-23 18:01:05 [INFO]   ⏭ Decrypt: 过滤掉 33 条非近期新闻
+2026-06-23 18:01:05 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-23 18:01:05 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:05 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:05 [INFO]   ⏭ 宏观经济: 过滤掉 48 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ CNBC Crypto: 过滤掉 46 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 21 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ CoinDesk: 过滤掉 23 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 7 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ Blockworks: 过滤掉 6 条非近期新闻
+2026-06-23 18:01:06 [INFO]   ⏭ Crypto Twitter: 过滤掉 40 条非近期新闻
+2026-06-23 18:01:19 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 3 条非近期新闻
+2026-06-23 18:01:21 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-23 18:01:21 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-23 18:01:21 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-23 18:01:21 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:21 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-23 18:01:21 [INFO]   ✓ CoinDesk: 2 条
+2026-06-23 18:01:21 [INFO]   ✓ The Block: 5 条
+2026-06-23 18:01:21 [INFO]   ✓ Decrypt: 1 条
+2026-06-23 18:01:21 [INFO]   ✓ CoinTelegraph: 2 条
+2026-06-23 18:01:21 [INFO]   ✓ Bitcoin Magazine: 3 条
+2026-06-23 18:01:21 [INFO]   ✓ Blockworks: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ DL News: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ 金色财经: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ PANews: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ CNBC Crypto: 4 条
+2026-06-23 18:01:21 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ Reddit r/bitcoin: 4 条
+2026-06-23 18:01:21 [INFO]   ✓ Crypto Twitter: 10 条
+2026-06-23 18:01:21 [INFO]   ✓ 宏观经济: 2 条
+2026-06-23 18:01:21 [INFO]   ✓ Binance公告: 20 条
+2026-06-23 18:01:21 [INFO]   ✓ OKX公告: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ Bitget公告: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ Whale Alert: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-23 18:01:21 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-23 18:01:21 [INFO]   ✓ 雪球加密: 0 条
+2026-06-23 18:01:21 [INFO] 📊 共抓取 54 条新闻
+2026-06-23 18:01:21 [INFO] 📋 原始新闻已保存: reports/2026-06-24-02-raw.json (54 条)
+2026-06-23 18:01:21 [INFO] 📋 标题摘要已保存: reports/2026-06-24-02-raw-titles.md
+2026-06-23 18:01:21 [INFO] ✅ 抓取完成，共 54 条，已保存到 reports/2026-06-24-02-raw.json
+2026-06-23 18:01:22 [INFO] 🤖 开始 AI 筛选 2026-06-24 02:00 币圈消息
+2026-06-23 18:01:22 [INFO] 📋 已加载原始新闻: reports/2026-06-24-02-raw.json (54 条)
+2026-06-23 18:01:22 [INFO] 📚 已加载历史新闻标题（30006 字符）
+2026-06-23 18:01:22 [INFO] 📚 已加载历史筛选标题 24 条、URL 27 个，用于去重
+2026-06-23 18:01:22 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-23 18:01:22 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-23 18:01:22 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（54 条，13592 字符，temp=0.3）
+2026-06-23 18:02:33 [INFO] AI 原始返回已保存: logs/2026-06-24-ai-response.txt (finish_reason=stop, 5294 字符)
+2026-06-23 18:02:33 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-24-02-ai-raw.json
+2026-06-23 18:02:33 [DEBUG] parse_json_response 输入长度: 5294 字符
+2026-06-23 18:02:33 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Meta进军预测市场app",
+      "summary": "据NYT报道，Meta正在开发一款名为Arena的预测市场应用，旨在与Polymarket和Kalshi竞争。该领域近期爆发式增长，Meta的入场可能显著提升预测市场的用户规模和合法性。直接影响预测市场代币如POLY、REP，同时可能带动整个DeFi和社交交易板块情绪。短期看多预测市场相关代币，但大盘影响有限。",
+      "reason": "Meta作为科技巨头进入预测市场，属于行业重大信号，可能引发板块资金流入。",
+      "categor
+2026-06-23 18:02:33 [DEBUG] 从 JSON 对象的 news 字段提取到 7 条记录
+2026-06-23 18:02:33 [INFO] ✅ AI 返回 7 条新闻
+2026-06-23 18:02:33 [INFO] ✅ AI 筛选出 7 条交易相关消息，符合预期
+2026-06-23 18:02:33 [INFO] 🔗 来源链接覆盖: 7/7 条新闻有有效链接
+2026-06-23 18:02:33 [INFO] 📦 JSON 已保存: reports/2026-06-24-02.json
+2026-06-23 18:02:33 [INFO] ✅ AI 筛选完成，共 7 条交易相关消息
