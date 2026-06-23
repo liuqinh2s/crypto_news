@@ -1653,3 +1653,142 @@ content length: 3297
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3378, prompt_tokens=11099, total_tokens=14477, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1540, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9947)
+content length: 4634
+============================================================
+{
+  "news": [
+    {
+      "title": "Ripple获MiCA许可",
+      "summary": "Ripple已获得初步MiCA（加密资产市场）许可证，可在欧盟27国运营，赶在7月1日截止日前。这将允许Ripple向欧盟客户提供受监管的加密服务，包括支付和托管。对XRP是重大利好，因为合规性提升有助于机构采用和银行合作。信号：看多，影响XRP。",
+      "reason": "监管政策重大利好，欧盟MiCA许可为Ripple带来合规优势，直接利好XRP，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC ETF流出达80亿美元",
+      "summary": "2026年比特币ETF累计资金流出已达80亿美元，机构持续撤退。主要原因包括美联储鹰派立场、科技股抛售等。这可能加剧BTC抛压，但极端流出也常预示底部。信号：短期看空（资金离场），但中期可能触底。影响BTC。",
+      "reason": "ETF资金流出是直接利空BTC，属于优先级一的市场结构。累计80亿创纪录，需关注。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Intellectia AI",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYXZuNVFZNWZUN2NWN24wbzlEN3NZOC00UEIwdHZpTndmUUJyYU9XZTNobHFkZ21RdjRTUEdsbEFTanBXbWFiTTAyNVNNaENmQWVaa1pGa1RZYVZJVnZ3MUFRbnVDU0JqVFBCUFBsQkM1am90REFRVTZ5bEllMWVTYw"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "UBS测试以太坊银行应用",
+      "summary": "瑞银（UBS）正在以太坊上测试受监管的银行应用程序，包括支付、结算等。这标志着传统金融机构对以太坊的信任加深，可能推动ETH的机构采用。信号：看多，影响ETH及以太坊生态。",
+      "reason": "机构动向，顶级银行采用以太坊有助于提升ETH的合法性和需求，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "finews.com",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUnBxcGx5TDdNQ3NLblpGdDV4NWJBd2VWOFN4LTluN2JGV0NRT2ZqTUxBR0YxYjYwMkg0VXJZb2otdHphc0NFNlpRZnZkRV80b05QaUxES3RtU0lQMW5oalFtQ1RaNVJYUWhhXy0wV0hLdExuTDgwdEo1a2dkS0VDWFVQVnJrQW5zbXBpeUNBWDg3ano0YzFZb0h3SEJhVU9YUXVMY2t3djFJeU5XanppX0lCQTBwRWFaX2V4Z2N3"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Franklin Templeton股息转BTC ETF",
+      "summary": "Franklin Templeton提交ETF申请，将标普500股票股息自动买入比特币。该产品若获批，将为传统投资者提供间接BTC敞口，利好BTC。信号：看多，影响BTC。",
+      "reason": "ETF机构新动向，可能带来增量资金，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/cryptocurrency/comments/1udbadn/franklin_templeton_etf_dividends_btc/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "MoneyGram加入Solana验证节点",
+      "summary": "跨境支付巨头MoneyGram成为Solana验证节点，帮助运营区块链支付网络。这增强了Solana的机构信誉和实际用例，利好SOL。信号：看多，影响SOL。",
+      "reason": "机构采用Solana，提升网络价值，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/cryptocurrency/comments/1udbadn/moneygram_joins_solana_validator/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance下架ME/USDC等交易对",
+      "summary": "Binance宣布将于近期下架ME/USDC、NOT/FDUSD、PARTI/BNB、SUPER/BTC现货交易对。下架通常导致对应币种价格下跌，因为流动性降低。信号：看空，影响ME、NOT、PARTI、SUPER。",
+      "reason": "交易所下架直接影响代币价格，优先级一。",
+      "category": "交易所",
+      "impact_coins": ["ME", "NOT", "PARTI", "SUPER"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518887.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐慌指数VIX飙升超18%",
+      "summary": "VIX恐慌指数升至20.54，涨幅超18%，反映市场恐慌情绪加剧。通常与加密货币下跌相关，可能加剧BTC/ETH抛售。信号：短期看空，影响整体加密市场。",
+      "reason": "宏观经济情绪指标，高VIX对应风险资产下跌，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518879.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC接近底部信号出现",
+      "summary": "CoinDesk报道，一项逆向指标显示比特币下行空间有限，可能接近底部。同时恐惧贪婪指数23处于极度恐惧，历史底部区域。但短期仍有下行风险。信号：中长期看多，短期中性。影响BTC。",
+      "reason": "市场情绪极值+逆向指标，属于优先级三，但具有操作参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/23/bitcoin-price-has-limited-downside-likely-bottom-contrarian-indicator-suggests"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
