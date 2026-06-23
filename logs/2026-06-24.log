@@ -1,0 +1,81 @@
+2026-06-23 16:01:06 [INFO] 🚀 开始抓取 2026-06-24 00:00 币圈新闻
+2026-06-23 16:01:06 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-23 16:01:06 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-23 16:01:06 [INFO]   ⏭ Decrypt: 过滤掉 48 条非近期新闻
+2026-06-23 16:01:06 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-06-23 16:01:06 [INFO]   ⏭ CoinTelegraph: 过滤掉 26 条非近期新闻
+2026-06-23 16:01:07 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-23 16:01:07 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ Reuters Crypto: 过滤掉 49 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ CNBC Crypto: 过滤掉 48 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ CoinDesk: 过滤掉 21 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 7 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 23 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ Blockworks: 过滤掉 8 条非近期新闻
+2026-06-23 16:01:07 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-23 16:01:08 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-23 16:01:08 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-23 16:01:08 [INFO]   ⏭ Crypto Twitter: 过滤掉 41 条非近期新闻
+2026-06-23 16:01:13 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 3 条非近期新闻
+2026-06-23 16:01:22 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-23 16:01:22 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-23 16:01:22 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-23 16:01:22 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-23 16:01:22 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-23 16:01:22 [INFO]   ✓ CoinDesk: 4 条
+2026-06-23 16:01:22 [INFO]   ✓ The Block: 1 条
+2026-06-23 16:01:22 [INFO]   ✓ Decrypt: 2 条
+2026-06-23 16:01:22 [INFO]   ✓ CoinTelegraph: 4 条
+2026-06-23 16:01:22 [INFO]   ✓ Bitcoin Magazine: 3 条
+2026-06-23 16:01:22 [INFO]   ✓ Blockworks: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ DL News: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ 金色财经: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ PANews: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ Reuters Crypto: 1 条
+2026-06-23 16:01:22 [INFO]   ✓ CNBC Crypto: 2 条
+2026-06-23 16:01:22 [INFO]   ✓ Reddit r/cryptocurrency: 2 条
+2026-06-23 16:01:22 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ Crypto Twitter: 9 条
+2026-06-23 16:01:22 [INFO]   ✓ 宏观经济: 1 条
+2026-06-23 16:01:22 [INFO]   ✓ Binance公告: 20 条
+2026-06-23 16:01:22 [INFO]   ✓ OKX公告: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ Bitget公告: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ Whale Alert: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-23 16:01:22 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-23 16:01:22 [INFO]   ✓ 雪球加密: 0 条
+2026-06-23 16:01:22 [INFO] 📊 共抓取 50 条新闻
+2026-06-23 16:01:22 [INFO] 📋 原始新闻已保存: reports/2026-06-24-00-raw.json (50 条)
+2026-06-23 16:01:22 [INFO] 📋 标题摘要已保存: reports/2026-06-24-00-raw-titles.md
+2026-06-23 16:01:22 [INFO] ✅ 抓取完成，共 50 条，已保存到 reports/2026-06-24-00-raw.json
+2026-06-23 16:01:23 [INFO] 🤖 开始 AI 筛选 2026-06-24 00:00 币圈消息
+2026-06-23 16:01:23 [INFO] 📋 已加载原始新闻: reports/2026-06-24-00-raw.json (50 条)
+2026-06-23 16:01:23 [INFO] 📚 已加载历史新闻标题（29353 字符）
+2026-06-23 16:01:23 [INFO] 📚 已加载历史筛选标题 22 条、URL 24 个，用于去重
+2026-06-23 16:01:23 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-23 16:01:23 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-23 16:01:23 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（50 条，12608 字符，temp=0.3）
+2026-06-23 16:01:48 [INFO] AI 原始返回已保存: logs/2026-06-24-ai-response.txt (finish_reason=stop, 3294 字符)
+2026-06-23 16:01:48 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-24-00-ai-raw.json
+2026-06-23 16:01:48 [DEBUG] parse_json_response 输入长度: 3294 字符
+2026-06-23 16:01:48 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "摩根士丹利推出ETH/SOL ETF",
+      "summary": "摩根士丹利（Morgan Stanley）宣布推出0.14%管理费的以太坊和Solana现货ETF，并附带95%的质押收益。这是主流金融机构首次提供高收益的ETH/SOL ETF产品，将大幅降低传统资金进入门槛，直接利好ETH和SOL。ETF资金流入预计会推动价格上涨，属于极大利好信号。",
+      "reason": "机构ETF产品直接带来增量资金，影响级别最高，符合ETF机构分类。",
+      "category": "ETF机构"
+2026-06-23 16:01:48 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-06-23 16:01:48 [INFO] ✅ AI 返回 5 条新闻
+2026-06-23 16:01:48 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-06-23 16:01:48 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-06-23 16:01:48 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-06-23 16:01:48 [DEBUG]   去重: 「Tom Lee旗下BitMine买入9200万美元ETH」 → 标题相似: Tom Lee的BitMine买入9200万ETH
+2026-06-23 16:01:48 [INFO] 📦 JSON 已保存: reports/2026-06-24-00.json
+2026-06-23 16:01:48 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息

@@ -1,0 +1,67 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3019, prompt_tokens=15873, total_tokens=18892, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1645, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14721)
+content length: 3294
+============================================================
+{
+  "news": [
+    {
+      "title": "摩根士丹利推出ETH/SOL ETF",
+      "summary": "摩根士丹利（Morgan Stanley）宣布推出0.14%管理费的以太坊和Solana现货ETF，并附带95%的质押收益。这是主流金融机构首次提供高收益的ETH/SOL ETF产品，将大幅降低传统资金进入门槛，直接利好ETH和SOL。ETF资金流入预计会推动价格上涨，属于极大利好信号。",
+      "reason": "机构ETF产品直接带来增量资金，影响级别最高，符合ETF机构分类。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 5,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbzV5RFhHR1NWWV90MGI5dUVmRGRETXlSMFpPMmxiUFgwRVhFRDF0QTEyVUxPQVVNb1BGVTBGdHRxSi15ZWd5WGUybFRBS3VxdW9mSDd6Ym5rdmdTUDFGTWZRTG52RDY5b1BRUC01Uy1LY1RuWjVBdmFTWGtKSlZPRDJacFZVVEpoM2lURXg4Zi1ZdG5waTBmaA"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Tom Lee旗下BitMine买入9200万美元ETH",
+      "summary": "知名市场分析师Tom Lee的BitMine公司购买了价值9200万美元的以太坊，并获得Ethlabs支持。此次大额买入显示机构对ETH的长期看好，可能带动市场信心，短期内推动ETH价格反弹。属于机构增持的看多信号。",
+      "reason": "大额机构买入ETH是直接影响行情的巨鲸行为，符合优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT1lLLTJqNTE5RFpfYWNWMTBzVzJUa0ZwbUVxNUdHRV9sRU5ZczhsTlA3T1BFOXktOWQwOXVoblQ0UmNrZUp0S2dxdEgySGREUzE5R3FYSWNabTFVSllPWjZYY3BJQnFQQ1pmd1h0TGxtMWRWQldVZ0JaSEgzQVFVVHVHXzJTdmVjeXMtcHdFVmVyc3dR"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Chainlink与47家韩欧银行合作",
+      "summary": "Chainlink与47家韩国和欧洲银行组成联盟，共同开发基于区块链的国际汇款结算网络，旨在提高跨境支付效率。这一合作将增强Chainlink在传统金融领域的应用，有望推动LINK代币的采用和价格上涨。属于项目重大更新的看多信号。",
+      "reason": "与传统银行大规模合作是项目更新的重大利好，影响中期行情。",
+      "category": "项目更新",
+      "impact_coins": ["LINK"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/23/chainlink-teams-up-with-47-south-korean-european-banks-to-speed-up-international-money-transfers"}, {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Tether支持的Oobit将USDT接入巴西PIX",
+      "summary": "Tether投资的支付平台Oobit与巴西PIX支付网络整合，使近1.7亿巴西用户可以直接使用USDT进行支付。这大幅扩展了USDT的使用场景，有利于稳定币需求增长，间接利好整个加密货币市场。属于稳定币采用的重要里程碑，看多信号。",
+      "reason": "稳定币在重要经济体的支付集成将增加其使用量，可能带动资金流入，符合优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["USDT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/405819/tether-backed-oobit-brings-usdt-170-million-users-brazils-pix-payment-network"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Apple威胁下架Sparrow比特币钱包",
+      "summary": "Apple向比特币钱包Sparrow开发者发出App Store下架威胁，原因是其涉及未批准的加密货币功能。此举可能限制iOS用户使用比特币钱包，对BTC的日常使用和采用构成轻微负面影响，属于利空信号，但影响有限。",
+      "reason": "科技巨头限制比特币钱包可能影响采用，但事件级别较低，符合市场情绪分类。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1uditv7/apple_threatens_sparrow_bitcoin_wallet_dev_with/"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前市场受科技股抛售和美联储加息预期影响，整体偏空，但上述消息以机构增持和采用进展为主，可能提供局部反弹机会。恐惧贪婪指数23（极度恐惧）已在历史中，未重复入选。"
+}
