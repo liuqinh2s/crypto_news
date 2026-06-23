@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-24",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 15800,
+    "completion_tokens": 3239,
+    "total_tokens": 19039
+  },
+  "content_length": 1960,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"CLARITY Act听证会定于7月17日\",\n      \"summary\": \"美国国会已安排CLARITY Act听证会于2026年7月17日在纽约举行。CLARITY Act旨在为加密货币提供明确的监管框架，若通过将利好整个行业。该消息显示立法进程推进，市场可能预期监管明朗化，从而提振加密资产。影响币种包括BTC、ETH等主流币。看多信号。\",\n      \"reason\": \"监管政策进展，属于优先级一（重大监管动态），且未在历史消息中出现具体听证日期。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\"name\": \"Bitcoin Magazine\", \"url\": \"https://bitcoinmagazine.com/news/congress-schedules-clarity-act-hearing\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Ripple获欧盟加密服务牌照初步批准\",\n      \"summary\": \"Ripple已获得欧盟加密资产服务提供商许可证的初步批准，这标志着Ripple在欧盟合规化迈出关键一步，有助于其扩大欧洲业务并推动XRP采用。该消息对XRP形成直接利好，可能吸引更多机构资金流入。看多XRP。同时，反映了加密监管环境的逐步友好。\",\n      \"reason\": \"监管利好，属于优先级一（重大监管动态），且为XRP单独事件，未在历史消息中重复。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"XRP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"PYMNTS.com via Crypto Twitter\", \"url\": \"https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2EwR1h4S1puM1Z4SnZLOHlJeThzZ21FVkFjd3RvWDdYSjI4UER4WTdFbnBtbTNMbWRXVFhJSk9NUkdOZDhYN0tTVzlWWGZDX3doc2RUVEl3QkpIc1Q5UE5OcHYwYWZraWxiNWZKZGtZai1EczZLa2pDUG0zRWpHSXpTSU5tZGY4alJIR2x4MlFUdXRBdC04SGdDenlRUW9NTDB3MEczSC1WVlBKdERDZXN5ck95UQ\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Zcash矿工Fortitude通过合并上市纳斯达克\",\n      \"summary\": \"Zcash矿工Fortitude通过与HeartSciences合并获得纳斯达克上市，这为Zcash生态系统带来传统资本接入点，可能提升ZEC的市场关注度和流动性。但该新闻对ZEC价格的直接影响有限，更多是长期叙事改善。短期中性，中长期利好。\",\n      \"reason\": \"项目更新，属于优先级二（机构动向），但影响范围有限，且未在历史消息中出现。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ZEC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger\"}\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"由于当前市场处于情绪低迷、信息重复较多，仅筛选出3条具有交易价值的新消息。其余多数消息已在历史记录中重复或属于无关内容。\"\n}"
+}
