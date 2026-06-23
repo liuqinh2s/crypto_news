@@ -1418,3 +1418,131 @@ content length: 1921
   ],
   "note": "由于历史消息已包含大量重复内容（如Binance公告、ETF净流出、恐惧贪婪指数等），本轮仅筛选出3条新且有交易价值的消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3513, prompt_tokens=9982, total_tokens=13495, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1713, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8830)
+content length: 4689
+============================================================
+{
+  "news": [
+    {
+      "title": "Binance欧盟7月后运营不确定",
+      "summary": "Reddit消息称，Binance告知用户其不确定能否在7月1日后继续在欧盟运营。这可能与MiCA监管框架合规有关。若Binance退出欧盟，将导致大量用户迁移，影响BNB及整体市场流动性。利空信号。",
+      "reason": "直接影响Binance运营及市场情绪，属于重大监管政策不确定性。",
+      "category": "监管政策",
+      "impact_coins": ["BNB", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ud9oq0/binance_just_told_its_own_users_it_doesnt_know/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SpaceX市值暴跌重创BTC",
+      "summary": "SpaceX市值三天内蒸发6000亿美元，几乎抹去比特币一半市值。比特币作为风险资产承压，跌破63000美元。市场恐慌情绪蔓延，利空整体加密市场。",
+      "reason": "科技股领跌风险资产，比特币跟随下行，直接影响行情。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/23/spacex-s-usd600-billion-dive-erased-nearly-half-a-bitcoin-market-cap-in-three-days"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币跌破63000美元",
+      "summary": "比特币在技术股抛售中跌至63000美元下方，创近期新低。市场风险偏好下降，加密市场整体下跌。短期空头占优，可能测试60000支撑。利空信号。",
+      "reason": "价格关键点位失守，直接影响交易策略。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/23/bitcoin-slips-toward-usd63-000-as-a-tech-selloff-drags-risk-assets-lower"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "山寨币季节信号闪现",
+      "summary": "CoinDesk报道，比特币下跌触发了‘山寨币季节’信号，但实际是比特币资金流出转向山寨币。该信号可能预示短期内山寨币相对强势，但需注意历史表现。中性偏多。",
+      "reason": "市场结构信号，可能影响资金流向和交易机会。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "SOL", "XRP", "DOGE"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/23/live-updates-an-altcoin-season-signal-flashed-but-bitcoin-s-slide-is-what-set-it-off"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP跌向1.10美元支撑",
+      "summary": "XRP在三周盘整区间下沿1.10美元附近徘徊，若跌破可能加速下行。市场关注能否守住关键支撑。目前空头压力较大，利空信号。",
+      "reason": "关键价位突破信号，影响XRP交易决策。",
+      "category": "市场结构",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/23/xrp-drifts-toward-usd1-10-support-as-traders-await-break-from-three-week-range"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Cardano钱包安全事件",
+      "summary": "SecondFi发现少量Cardano钱包受安全问题影响，平台进入维护模式。具体原因不明，可能涉及漏洞或攻击。短期利空ADA，需关注事态发展。",
+      "reason": "安全事件直接影响代币价值和用户信任。",
+      "category": "项目更新",
+      "impact_coins": ["ADA"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/518859.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Jaredfromsubway MEV Bot被黑",
+      "summary": "知名MEV机器人Jaredfromsubway.eth遭遇批准漏洞攻击，损失750万美元。攻击者将2000ETH转入Tornado Cash并卖出。该事件显示DeFi安全风险，但不会系统影响市场。中性偏空。",
+      "reason": "安全事件虽大，但影响范围有限，主要影响ETH链上活动。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ud8tep/jaredfromsubwayeth_mev_bot_drained_of_75_million/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "灰度关联BTC与Fed利率",
+      "summary": "Grayscale发布报告，将比特币前景与美联储利率政策关联。若降息则利好BTC。但当前市场预期加息，短期偏空。该观点为中长期参考，中性。",
+      "reason": "机构观点影响市场情绪，但无即时交易信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Grafa", "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbEFSTWZFZXRjRUVxdi11TkVkTWo5dmRfWjMwVDF5UVVEYVRvZHRUbGR4UjFUc0sxVEV0QWpfZEJKVmtDa05NaHhKU1BjZUhmUTB6bFBfd3RjQVpheGs2RlZTUjNtMjBkdU5DZE9jLUlfMjBkcWFCcUxMWGRKdVV6Wmg1aw?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线AMD等bStocks",
+      "summary": "Binance Spot新增AMD、iShares韩国ETF、Intel和Strategy（MSTRB）的bStocks交易对，扩大代币化股票产品。提升平台多样性，但短期影响有限。中性偏多。",
+      "reason": "交易所上新交易对，提供更多交易机会，但不直接影响原生加密资产。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {"name": "Binance公告", "url": "https://www.binance.com/zh-CN/support/announcement/d1343e10bc2648cd8302c83a5b1223a9"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}

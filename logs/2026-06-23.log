@@ -1311,3 +1311,87 @@
 2026-06-23 06:02:13 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
 2026-06-23 06:02:13 [INFO] 📦 JSON 已保存: reports/2026-06-23-14.json
 2026-06-23 06:02:13 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
+2026-06-23 07:00:52 [INFO] 🚀 开始抓取 2026-06-23 15:00 币圈新闻
+2026-06-23 07:00:52 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-23 07:00:52 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-23 07:00:52 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:52 [INFO]   ⏭ The Block: 过滤掉 19 条非近期新闻
+2026-06-23 07:00:52 [INFO]   ⏭ CoinTelegraph: 过滤掉 27 条非近期新闻
+2026-06-23 07:00:52 [INFO]   ⏭ CoinDesk: 过滤掉 20 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-23 07:00:53 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-23 07:00:53 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ Blockworks: 过滤掉 8 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ Crypto Twitter: 过滤掉 48 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:53 [INFO]   ⏭ 雪球加密: 过滤掉 50 条非近期新闻
+2026-06-23 07:00:54 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 22 条非近期新闻
+2026-06-23 07:01:08 [DEBUG] 请求失败 https://rsshub.rssforever.com/theblockbeats/newsflash: 
+2026-06-23 07:01:08 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-06-23 07:01:08 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-06-23 07:01:08 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-23 07:01:08 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-23 07:01:08 [INFO]   ✓ CoinDesk: 5 条
+2026-06-23 07:01:08 [INFO]   ✓ The Block: 1 条
+2026-06-23 07:01:08 [INFO]   ✓ Decrypt: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ CoinTelegraph: 3 条
+2026-06-23 07:01:08 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ Blockworks: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ DL News: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ 金色财经: 4 条
+2026-06-23 07:01:08 [INFO]   ✓ PANews: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ CNBC Crypto: 1 条
+2026-06-23 07:01:08 [INFO]   ✓ Reddit r/cryptocurrency: 3 条
+2026-06-23 07:01:08 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ Crypto Twitter: 2 条
+2026-06-23 07:01:08 [INFO]   ✓ 宏观经济: 1 条
+2026-06-23 07:01:08 [INFO]   ✓ Binance公告: 20 条
+2026-06-23 07:01:08 [INFO]   ✓ OKX公告: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ Bitget公告: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ Whale Alert: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-23 07:01:08 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-23 07:01:08 [INFO]   ✓ 雪球加密: 0 条
+2026-06-23 07:01:08 [INFO] 📊 共抓取 41 条新闻
+2026-06-23 07:01:08 [INFO] 📋 原始新闻已保存: reports/2026-06-23-15-raw.json (41 条)
+2026-06-23 07:01:08 [INFO] 📋 标题摘要已保存: reports/2026-06-23-15-raw-titles.md
+2026-06-23 07:01:08 [INFO] ✅ 抓取完成，共 41 条，已保存到 reports/2026-06-23-15-raw.json
+2026-06-23 07:01:09 [INFO] 🤖 开始 AI 筛选 2026-06-23 15:00 币圈消息
+2026-06-23 07:01:09 [INFO] 📋 已加载原始新闻: reports/2026-06-23-15-raw.json (41 条)
+2026-06-23 07:01:09 [INFO] 📚 已加载历史新闻标题（15833 字符）
+2026-06-23 07:01:09 [INFO] 📚 已加载历史筛选标题 17 条、URL 19 个，用于去重
+2026-06-23 07:01:09 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-23 07:01:09 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-23 07:01:09 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（41 条，8627 字符，temp=0.3）
+2026-06-23 07:01:44 [INFO] AI 原始返回已保存: logs/2026-06-23-ai-response.txt (finish_reason=stop, 4689 字符)
+2026-06-23 07:01:44 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-23-15-ai-raw.json
+2026-06-23 07:01:44 [DEBUG] parse_json_response 输入长度: 4689 字符
+2026-06-23 07:01:44 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Binance欧盟7月后运营不确定",
+      "summary": "Reddit消息称，Binance告知用户其不确定能否在7月1日后继续在欧盟运营。这可能与MiCA监管框架合规有关。若Binance退出欧盟，将导致大量用户迁移，影响BNB及整体市场流动性。利空信号。",
+      "reason": "直接影响Binance运营及市场情绪，属于重大监管政策不确定性。",
+      "category": "监管政策",
+      "impact_coins": ["BNB", "BTC", "ETH"],
+
+2026-06-23 07:01:44 [DEBUG] 从 JSON 对象的 news 字段提取到 9 条记录
+2026-06-23 07:01:44 [INFO] ✅ AI 返回 9 条新闻
+2026-06-23 07:01:44 [INFO] ✅ AI 筛选出 9 条交易相关消息，符合预期
+2026-06-23 07:01:44 [INFO] 🔗 来源链接覆盖: 9/9 条新闻有有效链接
+2026-06-23 07:01:44 [INFO] 🔄 去重：移除 1 条与历史报告重复的新闻
+2026-06-23 07:01:44 [DEBUG]   去重: 「比特币跌破63000美元」 → URL重复: https://www.coindesk.com/markets/2026/06/23/bitcoin-slips-to
+2026-06-23 07:01:44 [INFO] 📦 JSON 已保存: reports/2026-06-23-15.json
+2026-06-23 07:01:44 [INFO] ✅ AI 筛选完成，共 8 条交易相关消息
