@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-23",
+  "hour": "12",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9319,
+    "completion_tokens": 2154,
+    "total_tokens": 11473
+  },
+  "content_length": 1848,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Franklin Templeton申请自动购BTC ETF\",\n      \"summary\": \"Franklin Templeton提交了一份ETF申请，该ETF将标普500股票股息自动转换为比特币。这意味着资金将从传统股市流入比特币市场，为BTC带来持续买盘。可能影响BTC、ETH等主流币种。看多信号。\",\n      \"reason\": \"机构巨头申请创新ETF，直接连接传统股市分红与BTC购买，属于重大机构动向，对BTC长期看多。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1ud6hy7/franklin_templeton_just_filed_an_etf_that_takes/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Ark Invest抄底买入3200万美元SpaceX股票\",\n      \"summary\": \"Ark Invest在SpaceX股价暴跌16%后买入3200万美元股票，同时Binance已上线SpaceX代币化证券SPCXB。此举可能提振SPCXB价格，并反映机构对优质资产下跌时抄底的态度。可能影响SPCXB及整体市场情绪。看多SPCXB。\",\n      \"reason\": \"知名机构在暴跌后抄底，与Binance代币化证券直接相关，属于机构动向，对SPCXB有提振作用。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"SPCXB\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/405730/ark-invest-buys-spacex-shares?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Binance上线ARXUSDT永续合约\",\n      \"summary\": \"Binance Futures于2026-06-23推出ARXUSDT USDⓈ-M永续合约，提供最高75倍杠杆。新合约上线通常提升该币种流动性和交易量，短期看多ARX。可能带动ARX价格上涨，但需注意波动风险。看多ARX。\",\n      \"reason\": \"交易所上线新合约属于直接影响行情的消息，对应币种通常获得资金关注，看多。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"ARX\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ],\n  \"note\": \"经严格去重后，本轮仅有3条有价值新消息。其余素材多为历史重复或无关内容。\"\n}"
+}
