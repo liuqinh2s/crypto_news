@@ -2019,3 +2019,94 @@ content length: 2311
   ],
   "note": "经去重后仅筛选出3条有交易价值的新消息，其余多在历史中重复或影响微弱。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1998, prompt_tokens=11104, total_tokens=13102, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=804, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9952)
+content length: 3019
+============================================================
+{
+  "news": [
+    {
+      "title": "100亿美元BTC期权到期临近",
+      "summary": "据CoinDesk报道，比特币波动率目前处于低位，而价值约100亿美元的比特币期权即将于本周五到期结算。大量期权到期可能引发价格剧烈波动，尤其是当行权价集中时，往往会导致市场短期方向选择。当前BTC价格在62000美元附近，大量未平仓合约集中在60000-65000区间。历史数据显示，期权到期前后通常伴随大幅波动，交易者需警惕Gamma挤压风险。影响币种：BTC。信号：中性（短期波动加剧）。",
+      "reason": "大规模期权到期是直接影响BTC短期波动的关键事件，属于市场结构类优先级一消息。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/daybook-us/2026/06/23/bitcoin-volatility-looks-cheap-as-usd10-billion-options-settlement-nears"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SBI本周发行日元稳定币JPYSC",
+      "summary": "日本金融巨头SBI Holdings宣布计划于本周内发行与日元1:1挂钩的稳定币JPYSC。此举将为日本加密市场提供合规的日元稳定币，有望提升流动性并吸引更多机构参与。日元稳定币的加入可能增加亚洲市场资金入场通道，对整体市场情绪有正面影响。影响币种：BTC、ETH等主流币。信号：bullish（资金流入预期）。",
+      "reason": "稳定币增发/新发属于优先级一，直接影响资金供应，日元稳定币可视为法币入场渠道扩展。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518925.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "德意志银行警告：多次加息可能打击金价",
+      "summary": "德意志银行发布报告称，若美联储继续加息，黄金价格可能跌至3800美元/盎司。虽然直接针对黄金，但作为风险资产的代表，加息预期同样利空加密货币。当前市场已反映部分鹰派预期，但若加息幅度超预期，可能进一步打压BTC和ETH。影响币种：BTC、ETH。信号：bearish（宏观紧缩预期强化）。",
+      "reason": "宏观经济数据直接影响风险资产定价，属于优先级二。加息预期是当前市场主导因素之一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518921.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "阿布扎比MGX融资500亿美元加速AI交易",
+      "summary": "阿布扎比投资集团MGX完成约500亿美元融资，旨在加速人工智能领域的交易。该机构此前已布局加密和区块链领域，巨额资本流入可能利好AI相关代币和整体风险资产。但需注意，融资主要投向AI，对加密的直接带动有限，更多是宏观流动性信号。影响币种：FET、AGIX等AI概念币。信号：bullish（长期资金入场）。",
+      "reason": "机构动向属于优先级二，大型主权基金入场对市场信心有提振作用，尤其利好AI赛道。",
+      "category": "项目更新",
+      "impact_coins": ["FET", "AGIX"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518924.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC跌至两日低点，技术面警告$54K",
+      "summary": "CoinTelegraph报道，比特币在亚洲技术股抛售中跌至11日低点，分析师警告若跌破关键支撑，可能下探54000美元。当前BTC已跌破62000美元，纳斯达克期货下跌2.5%，科技股暴跌拖累加密市场。恐慌指数VIX飙升超18%，市场风险厌恶情绪浓厚。技术面与宏观面共振，短期下行压力加大。影响币种：BTC、ETH。信号：bearish（破位风险）。",
+      "reason": "价格下跌和技术面分析直接影响交易决策，属于优先级一市场行情动态。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
