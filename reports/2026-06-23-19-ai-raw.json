@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-23",
+  "hour": "19",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 13812,
+    "completion_tokens": 4014,
+    "total_tokens": 17826
+  },
+  "content_length": 2311,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC获$54K警告 科技股跌势拖累\",\n      \"summary\": \"CoinTelegraph报道，比特币跌至11日低点，分析师警告可能下探54,000美元，因亚洲科技股抛售蔓延至加密市场。纳斯达克100指数期货跌2.5%，芯片股暴跌（英特尔跌7.6%），恐慌指数VIX飙升18%。当前BTC跌破62,000美元，ETH跌超6%。该信号偏向看空，若全球科技股继续回调，比特币可能面临进一步下行压力，影响BTC及主流币。\",\n      \"reason\": \"直接影响行情：价格目标预警，结合科技股暴跌和风险偏好恶化，短期看空信号强烈。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Hyperscale Data增持BTC至727枚\",\n      \"summary\": \"加密公司Hyperscale Data持有比特币达727枚，约值4500万美元。该消息显示机构持续囤积BTC，可能缓解部分抛售压力。但公司规模较小，对整体市场影响有限。信号偏向看多，但短期内仍需关注宏观风险。\",\n      \"reason\": \"中期影响行情：机构增持属于看多信号，但影响程度有限。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"PR Newswire via Crypto Twitter\",\n          \"url\": \"https://news.google.com/rss/articles/CBMivwFBVV95cUxQaTVqcGlmSTFWaUt3NENIQjk3TnptVUx0aGg4dWUtOWo4UUJ6b2xRMDNXb2ZSWS1rT3lsWjI1cEtPeXk4azRFQVBlWVlVQWEzVWxITDBwRnFjRnhEM0hUbjRhZWJJYWJkNGZjYjF1ck14NXk1VXZLUWVDOGx5ZTZPaFhSMkZjSjJwTm85NlBWR1RJd0R2M1l0Y3J0UkhzTnhuakM3cC1UVURrT3Vpa0lqRGgySURkWU03Z09OUXVNUQ\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"NEAR首席法务评MiCA宽限期结束\",\n      \"summary\": \"NEAR Foundation首席法务官表示，7月1日MiCA宽限期结束后，未获许可的加密交易所将面临监管制裁。Binance等已告知用户许可证不确定性，若不能合规运营，可能导致欧盟用户流失和抛售压力。消息短期内偏向看空，尤其影响在欧盟运营的大型交易所代币（如BNB）。另：Ripple已获初步MiCA许可，有竞争优势。\",\n      \"reason\": \"监管政策直接影响交易所运营，7月1日临近，需重点关注。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BNB\", \"XRP\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance via Crypto Twitter\",\n          \"url\": \"https://news.google.com/rss/articles/CBMinwFBVV95cUxQRXZQM1BCUmZtN1c2SmZUT2gzVmJsVjdVZGFYdnZmMVJZMVpVZXIyZzZJQ196RURkMVoyTm9ueVlLLXlUa0EyNVZoOVZsOWY4dV9IOTlRM2xNOVE4Y1ZLeU9NcnV0ZmFBQ2lsYkdMb0haXzNzOFJYWmlFcUJSaHd0cENzZlJqREM4cnZ2RTY1YXEtVWFURlM1S2VWdzlmeW8\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ],\n  \"note\": \"经去重后仅筛选出3条有交易价值的新消息，其余多在历史中重复或影响微弱。\"\n}"
+}

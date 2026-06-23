@@ -1915,3 +1915,107 @@ content length: 3800
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3633, prompt_tokens=13812, total_tokens=17445, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3016, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12660)
+content length: 1450
+============================================================
+{
+  "news": [
+    {
+      "title": "Hyperscale Data持有727 BTC",
+      "summary": "上市公司Hyperscale Data宣布其比特币国库持有约727枚BTC（约4500万美元），体现机构持续增持。尽管数量不大，但在市场恐慌情绪中提供了额外的买入需求信号，对BTC情绪有轻微积极影响。但整体受科技股抛售压制，需谨慎。看多信号。",
+      "reason": "机构增持BTC，潜在买入需求，符合优先级二机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaTVqcGlmSTFWaUt3NENIQjk3TnptVUx0aGg4dWUtOWo4UUJ6b2xRMDNXb2ZSWS1rT3lsWjI1cEtPeXk4azRFQVBlWVlVQWEzVWxITDBwRnFjRnhEM0hUbjRhZWJJYWJkNGZjYjF1ck14NXk1VXZLUWVDOGx5ZTZPaFhSMkZjSjJwTm85NlBWR1RJd0R2M1l0Y3J0UkhzTnhuakM3cC1UVURrT3Vpa0lqRGgySURkWU03Z09OUXVNUQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Nakamoto关闭诊所转型比特币",
+      "summary": "比特币布道者David Bailey旗下公司Nakomo关闭传统医疗诊所，全面转向比特币运营公司。此举象征比特币实体化进程，但直接价格影响微弱。长期看对BTC生态有益，但短期无实质刺激。中性偏多。",
+      "reason": "比特币生态公司转型，长期积极，但影响力小。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405755/david-baileys-nakamoto-closes-legacy-healthcare-clinics-as-bitcoin-operating-company-pivot-nears-completion"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于近期市场下跌，新闻密集重复，无新的重大直接影响行情消息。筛选出两条公司动态消息，影响较小。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4014, prompt_tokens=13812, total_tokens=17826, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2966, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13696), prompt_cache_hit_tokens=13696, prompt_cache_miss_tokens=116)
+content length: 2311
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC获$54K警告 科技股跌势拖累",
+      "summary": "CoinTelegraph报道，比特币跌至11日低点，分析师警告可能下探54,000美元，因亚洲科技股抛售蔓延至加密市场。纳斯达克100指数期货跌2.5%，芯片股暴跌（英特尔跌7.6%），恐慌指数VIX飙升18%。当前BTC跌破62,000美元，ETH跌超6%。该信号偏向看空，若全球科技股继续回调，比特币可能面临进一步下行压力，影响BTC及主流币。",
+      "reason": "直接影响行情：价格目标预警，结合科技股暴跌和风险偏好恶化，短期看空信号强烈。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hyperscale Data增持BTC至727枚",
+      "summary": "加密公司Hyperscale Data持有比特币达727枚，约值4500万美元。该消息显示机构持续囤积BTC，可能缓解部分抛售压力。但公司规模较小，对整体市场影响有限。信号偏向看多，但短期内仍需关注宏观风险。",
+      "reason": "中期影响行情：机构增持属于看多信号，但影响程度有限。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PR Newswire via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaTVqcGlmSTFWaUt3NENIQjk3TnptVUx0aGg4dWUtOWo4UUJ6b2xRMDNXb2ZSWS1rT3lsWjI1cEtPeXk4azRFQVBlWVlVQWEzVWxITDBwRnFjRnhEM0hUbjRhZWJJYWJkNGZjYjF1ck14NXk1VXZLUWVDOGx5ZTZPaFhSMkZjSjJwTm85NlBWR1RJd0R2M1l0Y3J0UkhzTnhuakM3cC1UVURrT3Vpa0lqRGgySURkWU03Z09OUXVNUQ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "NEAR首席法务评MiCA宽限期结束",
+      "summary": "NEAR Foundation首席法务官表示，7月1日MiCA宽限期结束后，未获许可的加密交易所将面临监管制裁。Binance等已告知用户许可证不确定性，若不能合规运营，可能导致欧盟用户流失和抛售压力。消息短期内偏向看空，尤其影响在欧盟运营的大型交易所代币（如BNB）。另：Ripple已获初步MiCA许可，有竞争优势。",
+      "reason": "监管政策直接影响交易所运营，7月1日临近，需重点关注。",
+      "category": "监管政策",
+      "impact_coins": ["BNB", "XRP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Yahoo Finance via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRXZQM1BCUmZtN1c2SmZUT2gzVmJsVjdVZGFYdnZmMVJZMVpVZXIyZzZJQ196RURkMVoyTm9ueVlLLXlUa0EyNVZoOVZsOWY4dV9IOTlRM2xNOVE4Y1ZLeU9NcnV0ZmFBQ2lsYkdMb0haXzNzOFJYWmlFcUJSaHd0cENzZlJqREM4cnZ2RTY1YXEtVWFURlM1S2VWdzlmeW8"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "经去重后仅筛选出3条有交易价值的新消息，其余多在历史中重复或影响微弱。"
+}
