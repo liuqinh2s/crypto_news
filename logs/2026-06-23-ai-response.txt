@@ -2213,3 +2213,94 @@ content length: 3553
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3663, prompt_tokens=16734, total_tokens=20397, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2639, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15582)
+content length: 2581
+============================================================
+{
+  "news": [
+    {
+      "title": "美国6月PMI超预期",
+      "summary": "美国6月综合PMI初值升至52.2，制造业PMI超预期达55.7，服务业PMI也高于预期。数据表明经济韧性较强，可能强化美联储维持紧缩立场的预期，对风险资产构成压力。影响BTC、ETH等主流币，短期看空。",
+      "reason": "宏观经济数据超预期，可能影响美联储利率路径，进而影响加密货币整体走势。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518969.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Robinhood上线WLD",
+      "summary": "Robinhood宣布已上线Worldcoin (WLD)交易。Robinhood作为美国主流零售交易平台，上币将显著增加WLD的流动性和用户接触面，短期利好WLD价格。",
+      "reason": "头部交易所上币直接影响对应币种价格，属于优先级一。",
+      "category": "交易所",
+      "impact_coins": ["WLD"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518962.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "巨鲸从Binance提出1683 BTC",
+      "summary": "链上监测显示，一新地址从Binance提出1683枚BTC，价值约1.0487亿美元。大额BTC从交易所转出通常被视为囤币信号，减少抛压，利好BTC价格。",
+      "reason": "巨鲸异动（大额转出交易所）是优先级一的链上异动，直接关系供需。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518956.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CZ：BTC$60K冬季是正常的",
+      "summary": "币安创始人CZ表示比特币跌破6万美元属于正常冬季，并预测稳定币可能增长‘数千倍’。言论缓解市场恐慌情绪，但无实质操作面影响，中性偏多。",
+      "reason": "KOL集体言论影响市场情绪，但非决定性因素。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ3ZueXRpTTlGTjEyeVB6ZTFsYkJteWV0amxZcERfc0N5UW5CV3UwZ1Z2N3NJS2QycGhDeE4tdDVkS3NseDZrcGlqS3VfazBRWDVNdnpfZDJUMkc5ZzhKajhtNWZ1dzdRaEIxMnVXWHo4c3c0QWlOTDNnVTZsU0w2Y2hYSWNsZU9ZbG5IbTVCNzYxcjZKVm5jaWJRYVgtQQ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "费城半导体指数重挫7%",
+      "summary": "费城半导体指数开盘重挫7%，带动纳指下跌2.36%。科技股抛售蔓延至加密市场，BTC跌破62000美元，ETH跌超6%。风险偏好下降，短期看空加密资产。",
+      "reason": "科技股与加密相关性高，恐慌性下跌直接影响BTC/ETH价格。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518964.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
