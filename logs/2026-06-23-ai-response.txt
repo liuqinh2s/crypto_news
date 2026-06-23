@@ -1267,3 +1267,154 @@ content length: 2855
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2332, prompt_tokens=8961, total_tokens=11293, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1841, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7809)
+content length: 1249
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌至63k，科技股抛售拖累",
+      "summary": "比特币下跌逼近63,000美元，受科技股抛售潮拖累，纳斯达克100指数期货跌超1%，日经225指数跌破71,000点。市场恐慌情绪蔓延，恐惧贪婪指数仅23。此次下跌由宏观因素主导，短期可能继续承压，但极度恐惧通常是中长期底部信号。影响BTC、ETH等主流币。",
+      "reason": "直接影响当前行情，价格跌破关键支撑，且有宏观抛售背景，交易者需要调整仓位。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/23/bitcoin-slips-toward-usd63-000-as-a-tech-selloff-drags-risk-assets-lower"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "加密游说敦促国会通过质押挖矿税收法案",
+      "summary": "加密货币游说团体敦促美国国会以现有形式通过质押和挖矿税收法案（Staking and Mining Tax Bill），该法案旨在明确质押奖励和挖矿收入的征税规则，避免重复征税。若通过，将利好ETH（质押）和BTC（挖矿）生态，提升合规预期。目前法案仍在审议中，短期影响有限，但中期情绪偏多。",
+      "reason": "监管政策可能带来长期利好，影响质押和挖矿相关币种，且是新的政策动向。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1867, prompt_tokens=8961, total_tokens=10828, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1357, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8960), prompt_cache_hit_tokens=8960, prompt_cache_miss_tokens=1)
+content length: 1260
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌向63000，科技股领跌",
+      "summary": "比特币价格滑向63,000美元，受科技股抛售拖累，风险资产整体走低。日经225指数跌破71000点，欧美主要股指期货下挫，纳斯达克100指数期货跌超1%。这轮回调由宏观因素主导，而非加密本身。影响币种BTC、ETH等，短期看空，但若宏观情绪企稳可能反弹。",
+      "reason": "直接关联BTC价格走势，反映当前市场恐慌情绪，对短期交易方向有明确指引。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/23/bitcoin-slips-toward-usd63-000-as-a-tech-selloff-drags-risk-assets-lower"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "加密游说敦促国会通过税收法案",
+      "summary": "加密货币游说团体敦促美国国会通过关于质押和挖矿的税收法案，保持法案原样不修改。该法案将明确质押奖励和挖矿收入的税务处理，降低行业合规成本，对矿工和质押者构成利好。若通过，将提振市场信心，尤其是对ETH（PoS）和BTC（挖矿）相关币种。",
+      "reason": "属于中期政策利好，若法案通过将减轻行业税收负担，提升市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前有效新消息较少，仅筛选出2条。大部分新闻与历史重复或缺乏交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1763, prompt_tokens=8961, total_tokens=10724, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1048, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=8960), prompt_cache_hit_tokens=8960, prompt_cache_miss_tokens=1)
+content length: 1921
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币因科技股暴跌逼近6.3万",
+      "summary": "6月23日，受科技股抛售拖累，比特币跌向63,000美元。亚洲股市日经、韩国KOSPI指数大跌，纳斯达克期货下挫1%，宏观风险资产承压。这可能引发进一步下行，短期内看空BTC、ETH。",
+      "reason": "直接影响行情，风险资产联动下跌，看空信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/23/bitcoin-slips-toward-usd63-000-as-a-tech-selloff-drags-risk-assets-lower"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "加密游说敦促通过质押挖矿税法案",
+      "summary": "加密货币游说团体紧急呼吁美国国会通过涉及质押和挖矿的税收法案（不修改原文），该法案将为质押奖励和挖矿收入提供更清晰的税收处理，利好矿工和质押者。若通过，将促进算力和质押量增长，中期看多BTC、ETH。",
+      "reason": "中期监管利好，可能影响矿工和质押生态，看多信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普签令2031年完成后量子迁移",
+      "summary": "美国总统特朗普签署行政命令，设定2031年为后量子密码学迁移的截止日期，并推动量子计算机建设。虽然短期对加密市场无直接影响，但长期可能削弱比特币的加密安全性，若量子计算突破将构成威胁，目前市场反应中性。",
+      "reason": "监管与技术里程碑，长期影响加密安全，短期中性。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405737/trump-executive-orders-quantum-computing"
+        },
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于历史消息已包含大量重复内容（如Binance公告、ETF净流出、恐惧贪婪指数等），本轮仅筛选出3条新且有交易价值的消息。"
+}

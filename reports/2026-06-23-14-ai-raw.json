@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-23",
+  "hour": "14",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 3/6 策略=仅标题+链接 retry=2",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8961,
+    "completion_tokens": 1763,
+    "total_tokens": 10724
+  },
+  "content_length": 1921,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"比特币因科技股暴跌逼近6.3万\",\n      \"summary\": \"6月23日，受科技股抛售拖累，比特币跌向63,000美元。亚洲股市日经、韩国KOSPI指数大跌，纳斯达克期货下挫1%，宏观风险资产承压。这可能引发进一步下行，短期内看空BTC、ETH。\",\n      \"reason\": \"直接影响行情，风险资产联动下跌，看空信号。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"CoinDesk\",\n          \"url\": \"https://www.coindesk.com/markets/2026/06/23/bitcoin-slips-toward-usd63-000-as-a-tech-selloff-drags-risk-assets-lower\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"加密游说敦促通过质押挖矿税法案\",\n      \"summary\": \"加密货币游说团体紧急呼吁美国国会通过涉及质押和挖矿的税收法案（不修改原文），该法案将为质押奖励和挖矿收入提供更清晰的税收处理，利好矿工和质押者。若通过，将促进算力和质押量增长，中期看多BTC、ETH。\",\n      \"reason\": \"中期监管利好，可能影响矿工和质押生态，看多信号。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"特朗普签令2031年完成后量子迁移\",\n      \"summary\": \"美国总统特朗普签署行政命令，设定2031年为后量子密码学迁移的截止日期，并推动量子计算机建设。虽然短期对加密市场无直接影响，但长期可能削弱比特币的加密安全性，若量子计算突破将构成威胁，目前市场反应中性。\",\n      \"reason\": \"监管与技术里程碑，长期影响加密安全，短期中性。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/405737/trump-executive-orders-quantum-computing\"\n        },\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"由于历史消息已包含大量重复内容（如Binance公告、ETF净流出、恐惧贪婪指数等），本轮仅筛选出3条新且有交易价值的消息。\"\n}"
+}
