@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-24",
+  "hour": "05",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 14412,
+    "completion_tokens": 2996,
+    "total_tokens": 17408
+  },
+  "content_length": 2322,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"特朗普推量子安全利好BTC\",\n      \"summary\": \"据报道，特朗普政府正将政府资金和时间投入量子安全领域，这可能对比特币构成利好，因为量子计算威胁被视为比特币长期风险之一。政府重视量子安全有助于增强市场对比特币安全性的信心，可能吸引更多机构入场。影响币种主要为BTC。看多信号，但短期影响有限，属于政策导向。\",\n      \"reason\": \"新消息：特朗普政府关注量子安全，可能对比特币长期安全构成利好，属于监管政策范畴，符合优先级二中的机构动向。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/405893/trump-directing-government-dollars-time-quantum-security-could-boon-bitcoin\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"CFTC起诉肯塔基州预测市场\",\n      \"summary\": \"CFTC对肯塔基州提起诉讼，涉及预测市场监管。这是CFTC对预测市场的最新打击，可能对相关代币如POLY、REP等造成负面影响。监管趋严导致预测市场平台运营风险上升，短期内可能引发抛售。看空信号。\",\n      \"reason\": \"新消息：CFTC诉讼属于重大监管动态，直接影响预测市场项目币价，符合优先级一中的重大监管动态。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"POLY\", \"REP\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"The Block\", \"url\": \"https://www.theblock.co/post/405879/kentucky-becomes-latest-state-sued-by-cftc-over-prediction-markets\"}],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"游戏驿站拟收购eBay\",\n      \"summary\": \"游戏驿站宣布将于本周公布拟议收购eBay的战略依据与规划。此消息虽为股票事件，但可能带动相关meme币（如GME概念代币）的投机情绪。不过影响较为间接，且加密货币市场对此类消息反应有限。中性信号，需观察后续。\",\n      \"reason\": \"新消息：游戏驿站作为meme股代表，其收购计划可能引发短期情绪波动，影响相关meme币交易量，符合优先级三的市场情绪信号。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"GME\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/519006.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Strive持续大量买入比特币\",\n      \"summary\": \"Strive资产管理公司CEO表示正在大量买入比特币，显示出机构对BTC的长期看好。此类机构增持行为通常被视为看多信号，可能提振市场信心，推动比特币价格反弹。但由于当前市场整体疲软，影响程度需观察。看多信号。\",\n      \"reason\": \"新消息：机构公开增持比特币符合优先级二中的机构动向，属于中期影响，直接利好BTC。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"Yahoo Finance via Crypto Twitter\", \"url\": \"https://news.google.com/rss/articles/CBMihAFBVV95cUxPTVlNMW9fNE9sZVJ0ZGpTZ2VEMEFjSHNJbm9Gb3FNWHdGY09OeUI0M0U1WDhHT084QXFGbHR3ME5uaUlFWHBCZThMaGZJRldTMnlTTnI3VlZaaUExMW9yenRqRzhjTUZDejd1X0ZUVVR0YXJDUlVWWDFHdmNJWWpyQWJhQjM?oc=5\"}],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮消息中多数与历史重复，仅筛选出4条具有交易价值的新消息，影响等级均为中等偏低，市场整体偏空情绪仍未改变。\"\n}"
+}
