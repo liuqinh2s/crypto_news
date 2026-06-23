@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-23",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9695,
+    "completion_tokens": 3234,
+    "total_tokens": 12929
+  },
+  "content_length": 1882,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Hut 8和解投资者诉讼\",\n      \"summary\": \"比特币矿企Hut 8同意支付235万美元和解投资者集体诉讼，涉及2023年与USBTC合并的信息披露争议。和解金额较小，消除部分法律不确定性，但短期对股价和BTC矿业情绪影响有限。该消息对BTC影响中性偏负。\",\n      \"reason\": \"矿企法律和解，直接关联BTC矿业，属于项目更新，影响有限但值得关注。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518821.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"韩股KOSPI 200熔断5%\",\n      \"summary\": \"韩国KOSPI 200期货合约下跌5%触发熔断机制，反映亚洲市场风险情绪急剧恶化。全球避险情绪可能蔓延至加密货币市场，BTC、ETH等风险资产短期面临抛售压力，看空信号。\",\n      \"reason\": \"宏观经济风险事件，可能引发全球风险资产联动下跌，对加密市场情绪有直接传导。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518820.html\"}],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"两交易员做多ETH与BTC超1亿\",\n      \"summary\": \"两名交易员在市场回调期间大举做多ETH和BTC，合计持仓超1亿美元，显示聪明资金看好短期反弹。此行为可能提振市场信心，但需警惕杠杆风险。短期看多信号。\",\n      \"reason\": \"大额做多行为属于链上异动，直接反映巨鲸情绪，可能对价格产生正向引导。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/518819.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"MoneyGram加入Solana验证者\",\n      \"summary\": \"支付巨头MoneyGram正式成为Solana网络验证者，协助运行区块链支付通道。此举增强Solana的去中心化程度和实际支付应用场景，对SOL生态形成利好，看多信号。\",\n      \"reason\": \"传统金融机构加入验证，提升Solana网络可信度，属于重要机构合作，利好SOL。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"SOL\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"Reddit\", \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1ud4nlu/moneygram_joins_solana_as_validator_to_help_run/\"}],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前市场消息平淡，多数为重复或无关信息，仅筛选出4条相对重要的新消息。\"\n}"
+}
