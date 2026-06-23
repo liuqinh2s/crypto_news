@@ -880,3 +880,63 @@ content length: 2343
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1952, prompt_tokens=10942, total_tokens=12894, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1339, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9790)
+content length: 1561
+============================================================
+{
+  "news": [
+    {
+      "title": "CFTC征求24/7期货及能源永续合约意见",
+      "summary": "美国商品期货交易委员会(CFTC)就期货合约交易延长至24/7以及上市原油等能源永续合约征求公众意见。此举若落地，将大幅提升加密衍生品市场的流动性及覆盖范围，并吸引传统能源交易者进入链上市场。短期属中性信号，但长期利好合规化，可能推动BTC/ETH期货交易量增长。",
+      "reason": "监管动向：CFTC征求意见可能开启传统期货与加密衍生品的融合，属中期利好。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518802.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "两巨鲸同步做多BTC，合计1.75亿美元",
+      "summary": "两巨鲸账户今日同时增加BTC多头仓位，合计价值约1.75亿美元。此类大额做多行为通常显示机构或高净值投资者的看涨信心，可能推动短期内BTC价格上行。但需警惕后续是否有对冲或减仓行为。",
+      "reason": "优先级一：巨鲸异动（大额做多），直接看多信号。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/518800.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数23，市场极度恐惧",
+      "summary": "今日恐惧贪婪指数为23（极度恐惧），相比前值20略有回升但仍处历史低位。极度恐惧区域通常为中长期抄底区，但短期可能继续下探。该指数反映市场悲观情绪蔓延，但历史上当指数低于20后反弹概率较高。",
+      "reason": "优先级三：恐惧贪婪指数极值，市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "其他素材多与历史消息重复或无关交易，仅筛选出3条有效消息。"
+}
