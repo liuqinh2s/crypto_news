@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-24",
+  "hour": "17",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11493,
+    "completion_tokens": 3584,
+    "total_tokens": 15077
+  },
+  "content_length": 1851,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"英国国债收益率创两月新低\",\n      \"summary\": \"英国10年期国债收益率跌至4.722%，创下两个半月以来新低。国债收益率下降通常反映市场对经济前景的悲观预期，但同时也意味着无风险利率下降，可能提升风险资产吸引力。历史经验显示，债券收益率下行往往伴随资金从债市流向股市和加密货币等风险资产。当前比特币和以太坊处于回调阶段，此消息可能提供短期支撑，但需关注后续通胀数据和央行政策。整体看多BTC和ETH。\",\n      \"reason\": \"宏观经济数据直接影响风险资产定价，国债收益率新低是利率下行的积极信号，符合优先级二的中期影响标准。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519104.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"伊朗拟与海湾国家达成安全协议\",\n      \"summary\": \"伊朗表示准备与海湾国家达成安全协议，此举可能缓和中东紧张局势。中东地缘风险是近期压制风险资产的重要因素之一，若局势缓和，将降低避险情绪，有利于风险资产反弹。比特币和以太坊在近期因地缘冲突承压，此消息可能触发空头回补。但需注意谈判进展仍存变数，短期偏多但需警惕反复。\",\n      \"reason\": \"地缘政治缓和属于中期影响因素，可能改善市场风险偏好，符合优先级二中宏观环境变化。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519099.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Mark Cuban面临Voyager案上诉\",\n      \"summary\": \"Mark Cuban和达拉斯独行侠队面临Voyager破产案被驳回后的上诉。Voyager是已破产的加密货币借贷平台，此案可能重新引发市场对平台暴雷的负面回忆，但实际影响有限。Cuban作为知名人士，上诉消息可能短期打压VGX代币价格，但Voyager已无实际业务，对主流币影响可忽略。评级中性。\",\n      \"reason\": \"涉及前知名平台的法律进展，属于项目更新类，影响范围小，但具有一定情绪价值，符合优先级三。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"VGX\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/405937/mark-cuban-dallas-mavericks-face-appeal-over-dismissed-voyager-crypto-case\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前新消息量较少，仅筛选出3条具有交易价值的消息。多数热点如ETF资金流出、Saylor暂停买入等已在此前时段覆盖，且Binance公告均为重复内容。\"\n}"
+}
