@@ -646,3 +646,79 @@ content length: 2739
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3166, prompt_tokens=12597, total_tokens=15763, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1500, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11445)
+content length: 3521
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至17",
+      "summary": "恐惧贪婪指数从23进一步降至17（极度恐惧），创近期新低。历史数据显示极度恐惧区域往往是中期抄底区间，但短期可能因恐慌情绪继续承压。影响所有币种情绪，中长期看多信号。",
+      "reason": "极度恐惧(<20)是经典抄底信号，属于优先级三的市场情绪信号，且数值更新。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "摩根县暂停比特币矿场",
+      "summary": "美国阿拉巴马州摩根县批准暂停比特币挖矿数据中心建设的提案，当地社区对噪音和能源消耗表示担忧。此决定可能影响矿场部署进度，对BTC算力增长构成轻微阻力。属于地方性监管，影响有限但信号偏空。",
+      "reason": "直接影响比特币挖矿，属于优先级一的项目方/监管动态，但影响范围局部。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "WAFF", "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTDRxNFhZa1E1TGg3ZkNPbmFMWkNNeWE5MFlDSTNjeEhhWmdzeERyRzVIaTdMX1VpUF9mOGdLZUZPeG5pRERka0s2Qnhsak1HZ3pNUlk0eEg4SEF4WkN5RGdXYmM4UjI1MFFWQ1VhNTBqOHVIOVdXS2pNSGIyTUFZRDl4Ym9qR1UtRkJ6UllHcFdDdGU2VDFTcFJmdW9DakHSAbMBQVVfeXFMTXRaSkNzd1lpY280d0p3b1VzQTVNOHlQU09KaVBGamVQdGlYenhydDdvUWRmUTJiZ0lKRWFkTC1vVGZKcGdfc1RCVUFyRjAyNldqZmd2Wi1ILWxTcmFsbHFxSDZTa2RFM1NzYjZETjhPN0pnczdGRmN4ODVUV2pQcnJoUUhndmZYSDZBLVBWM01Ib01qcWdCUzdxN0pITm01UER2UzZ5emxwb1Nnd2ppSzI2RjA?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Circle称对Drift黑客不负责",
+      "summary": "支付公司Circle发布声明，表示对Drift协议黑客攻击中用户损失不承担责任，称攻击源于Drift智能合约漏洞而非Circle基础设施。该声明可能加剧DeFi信任危机，影响DRIFT及生态代币，但整体市场影响中性。",
+      "reason": "涉及近期黑客事件的责任归属，属于项目更新，影响DeFi板块情绪。",
+      "category": "项目更新",
+      "impact_coins": ["DRIFT", "USDC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Law360", "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUHBtWjU4UjRIRVI3ZVNsN1NxYjh5Y05YaDhxWHZHT0FibmxiM3Zkb3RZaG1mQk5ET3Nka0RhclZNN241OGk0VWVvbXNjSzhPRGVJdDBiT01jWWRkOHBocVNXYXBmal9ucWc4VklBNzdMUkxjSXFPRVoxa0drU1RXN1lwTjZpWVNWam9oUGFiN2lLd2Qwa044SzFzUHRnVFHSAVZBVV95cUxNczVLNHlfUUtOV1lPa0tiMFNneU90ckMyMnRCRTdCbllNM1dXdnNtRWJfTnJwekdxV2h2Q1JIb2pWMTNfd1pwdkJ0bTJKZjN0aDAycXBMUQ?oc=5"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "行政令加速量子安全迁移",
+      "summary": "美国总统行政令要求2027年前联邦系统完成量子安全加密迁移，并激励私营部门加速。对加密货币而言，长期利好比特币网络安全性提升，但短期可能引发市场对量子威胁的讨论。整体影响中性偏多。",
+      "reason": "涉及加密安全监管政策，属于优先级一的重大监管动态，推动行业标准升级。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Ars Technica", "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOUVkakdoSWtVVnl1aUJYWE1KdHpZWnBvS2cwdk1KX3lzSzNXRTJHOF80Ylc4bmFBLWxyb1BmLVR3RTVVNVc3WWdsd0c3eVBYVG5wdUFVNkhDUXdYQTZGOFozX3M1NnMwX0o0TTdvLWJyX3Nqc3B1MXdHUWtzLTZXZDgxVy1QYzdfYmNUSWlaYVh6MTktMFFyRk5YdEdPU1FKVjQzcENUTFhjdDNvWkZYbUNUU0xnVkZ3VElQT2ZKa2pmNUd5WXc?oc=5"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "以太坊质押税或已过时",
+      "summary": "CoinTelegraph分析文章指出，随着以太坊Dencun升级和L2交易费下降，原本讨论的质押收益税可能不再具有实际意义。此消息减轻市场对ETH质押成本增加的担忧，对ETH需求及质押率构成利好。",
+      "reason": "涉及以太坊网络经济模型变化，属于项目更新，影响ETH质押参与意愿。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/features/ethereums-funding-scare-why-a-hated-staking-tax-may-already-be-obsolete?utm_source=rss&utm_medium=rss&utm_campaign=rss"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
