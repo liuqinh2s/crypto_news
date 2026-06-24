@@ -1795,3 +1795,102 @@ content length: 4013
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3074, prompt_tokens=13690, total_tokens=16764, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2495, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12538)
+content length: 1386
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC交易量两年新高",
+      "summary": "比特币链上交易量突破82万笔，创两年新高，主要受Runes协议复兴驱动。Runes是比特币上的代币协议，近期活动激增。交易量上升通常被视为网络活跃度提升的看多信号，但需关注是否为短期投机。影响币种：BTC。信号：看多，因为链上活跃度增加表明使用需求回暖，但需注意若交易量来自meme代币炒作则持续性存疑。总体偏向积极。",
+      "reason": "链上异动：比特币交易量创两年新高，直接影响市场情绪和充提行为，属于优先级一的链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/24/the-runes-revival-bitcoin-traffic-hits-a-two-year-high-as-transactions-blast-past-820-000"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance上线OUSDT永续",
+      "summary": "Binance Futures将于2026-06-24上线USDⓈ-Margined OUSDT永续合约，提供最高75倍杠杆。OUSDT是某项目代币，具体待查。新合约上线通常带来流动性增加和短期投机需求，对OUSDT形成利好。但上线永续合约也可能带来高波动风险。影响币种：OUSDT。信号：看多，因交易所支持增加流动性。",
+      "reason": "交易所动态：Binance上架新合约直接影响标的价格，属于优先级一的交易所上币/合约公告。",
+      "category": "交易所",
+      "impact_coins": ["OUSDT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance Announcement",
+          "url": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场缺乏重大新消息，大部分头条已被历史消息覆盖（如美联储鹰派、ETF流出、恐惧贪婪指数17、CryptoQuant建议停止买入等）。仅筛选出两条新信息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2800, prompt_tokens=13690, total_tokens=16490, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1590, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13568), prompt_cache_hit_tokens=13568, prompt_cache_miss_tokens=122)
+content length: 2628
+============================================================
+{
+  "news": [
+    {
+      "title": "Runes协议推动BTC日交易量创新高",
+      "summary": "根据CoinDesk报道，受Runes协议复兴驱动，比特币网络日交易量突破82万笔，创两年新高。Runes是一种基于比特币的替代性代币标准，近期活动激增，显著增加了链上拥堵和手续费收入。这可能意味着比特币网络价值捕获能力增强，短期看多BTC。但需注意交易量虽高，价格未必同步上涨。",
+      "reason": "链上异动信号，比特币网络活动大幅增加，可能吸引更多用户和开发者，对BTC长期利好。属于优先级二（链上指标异常）。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/24/the-runes-revival-bitcoin-traffic-hits-a-two-year-high-as-transactions-blast-past-820-000"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "新EU加密规则或致数百家退出市场",
+      "summary": "Euronews报道，欧盟即将实施的新加密资产法规（MiCA全面实施）可能由于合规成本过高，迫使数百家小型加密企业退出市场。这将对市场产生短期冲击，增加不确定性，利空整体加密市场情绪，尤其影响在欧洲运营的交易所和DeFi项目。长期看，合规化有助于行业健康发展，但短期是利空。",
+      "reason": "重大监管动态，直接影响市场情绪和供给端。属于优先级一（监管动态）。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Euronews", "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQzBqRkZ2QVlwM2s5Mm1oZDlqQXlzS3ZEUUpETE5haHU3ZGZQWjhtWDNLaDdiY2hOYTVmcEFfRzU0Q1NxT1duN3g4VHVnQXV4Wm8tRUl5M3dNckN2Q0I5ZnAtSzVLM0JhREhVSUxSTnIyRUJtMDJoczdIZV9aek03OG1LcmUtNDJzRFFsMHNqUENXUGRXdFVhV3VoYUdTX2VXNjBmTzVxeGl4cHh5aFBiSUtER1VsdVFHTnA3dTRfdXIxRmc?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Clear Street执行首笔比特币DR交易",
+      "summary": "Clear Street通过Prime Broker执行了首笔比特币存托凭证（DR）交易，标志着机构级比特币交易基础设施进一步成熟。DR产品允许传统投资者通过证券账户间接持有比特币，类似ETF但结构不同。此举可能吸引更多机构资金流入，看多BTC。",
+      "reason": "机构动向，显示传统金融渠道对比特币的接纳度提升，属于优先级二（机构动向）。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Markets Media", "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUHA2Vm1KRHZqSk0tcDl3anNPUkRsM3diQng1ekx4UFBKb1RNMzZha1FYX1VLTk9lUW4xZ1lSVlRwVjRFS2EwS3d0NXp2REdYUnJJTEo2Q3VieFEyVGZDeHE2MUctenF0dzVvUXlIOHVJdDA2M2V2V1NjalVRRnFCOTRBQk0ybEJoaDd3a2R0dWljdzBUQTgyWjJKMA?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance将上线OUSDT永续合约",
+      "summary": "Binance Futures将于2026年6月24日上线USDⓈ-Margined OUSDT永续合约。OUSDT可能与Ondo Finance（OND）相关，流动性提升有助于价格发现，短期可能刺激价格波动。上币通常被视为利好，但需要观察市场反应。",
+      "reason": "交易所上币公告，直接影响对应币种流动性。属于优先级一（交易所上币）。",
+      "category": "交易所",
+      "impact_coins": ["OUSDT", "OND"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f"}],
+      "urgency": "immediate"
+    }
+  ]
+}
