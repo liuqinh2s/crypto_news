@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-25",
+  "hour": "02",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17639,
+    "completion_tokens": 5641,
+    "total_tokens": 23280
+  },
+  "content_length": 2077,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"比特币暴跌预警：连锁崩盘风险\",\n      \"summary\": \"Forbes发布警告，称比特币价格突然暴跌可能引发连锁崩盘（cascade crash）。该警告基于市场脆弱性、ETF资金流出和零售投资者撤退。比特币已跌破60,000美元，较历史高点下跌超50%。若引发大规模清算，可能进一步下探至55,000美元甚至更低。主要影响BTC，间接影响ETH等主流币。这是明显的看空信号，需警惕短期加速下跌风险。\",\n      \"reason\": \"新消息，市场情绪预警，可能引发恐慌性抛售，属于优先级三（市场情绪），但影响紧迫。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Forbes via Google News\",\n          \"url\": \"https://news.google.com/rss/articles/CBMixAFBVV95cUxPV2ZHaFc4NDJoZXNFVTYyVVNUXy1Gc0NBZ1JqU2I0MjJJM3NRUVpMVlBTLVZPaVNTT203eTlvYWI4QmZPLTBBaEFxZm9GUERMMjhnQ2lXY3dwRXFPbkxBVEh5NWFXeGZ1RGxuMFktYng4czAxRVFHWEFIdVZCVjdWcVJQRHNRZXB5ZUVhVGpaMmp0MWhfemc4YVFzMlJVS254a0VESlF6a2RncGo0WEVTS1pFblkzQTBOdlVPRWFvdVFIdF9Z?oc=5\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"亲加密候选人赢得三州初选\",\n      \"summary\": \"据CoinTelegraph报道，加密货币支持的政治候选人在美国三个州（纽约、马里兰等）的初选中获胜。这表明加密行业政治影响力上升，可能推动有利监管政策，包括CLARITY Act等法案的通过。对加密市场是中期利好，有助于改善监管环境。主要影响BTC和整体加密市场情绪。\",\n      \"reason\": \"监管政策利好，中期影响，属于优先级二（监管政策）。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/crypto-backed-candidates-new-york-maryland-primaries\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Cathie Wood称通胀或大幅回落\",\n      \"summary\": \"Ark Invest CEO Cathie Wood表示通胀可能大幅下降，潜在通胀仅为0.5%。若通胀降温，美联储可能放缓加息甚至转向宽松，利好风险资产包括加密货币。但需注意这是个人观点，尚未得到官方数据证实。若后续CPI数据验证，则可能成为重要反转信号。\",\n      \"reason\": \"宏观经济预期，若通胀回落则利多，属于优先级二（宏观经济）。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519229.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"由于近期市场消息重复度较高（如比特币持续下跌、Binance撤回希腊申请、恐惧贪婪指数维持17等），仅筛选出3条具有新价值的关键消息。其余重复事件已在历史消息中覆盖，未再纳入。\"\n}"
+}
