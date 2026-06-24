@@ -391,3 +391,69 @@ content length: 1987
   ],
   "note": "本轮抓取素材中多数重大事件（如BTC跌破60K、Strategy大跌、Binance撤回申请、美联储鹰派信号等）已在历史消息中重复，故仅筛选出3条有新交易价值的信息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1715, prompt_tokens=14864, total_tokens=16579, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=731, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13712)
+content length: 2472
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊基金会动荡引看多",
+      "summary": "以太坊基金会发生重大人事变动，多位核心成员离开，引发社区热议。但一些知名加密人物认为这可能带来积极变革，推动ETH走向更去中心化的治理。该事件可能短期造成ETH波动，但长期或利好。影响币种：ETH。信号：bullish。",
+      "reason": "以太坊基金会人事变动属于项目重大事件，直接影响ETH市场情绪，多位大佬看多，符合优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/06/24/upheaval-at-the-ethereum-foundation-has-some-of-crypto-s-biggest-names-feeling-bullish"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC回升至61000美元",
+      "summary": "在持续下跌后，比特币自59,000美元区域反弹至61,000美元以上，日内涨幅约3%。此前BTC跌破60,000美元创2024年10月以来新低，此次反弹可能吸引抄底资金。但整体趋势仍偏弱，需关注能否站稳。影响币种：BTC。信号：neutral（短期反弹，中期仍偏空）。",
+      "reason": "价格关键位反弹，直接影响交易决策，属于优先级一的价格异动，但须结合整体趋势判断。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519258.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储重组银行监管方案",
+      "summary": "美联储最终确定重组银行监管部门的计划，旨在提高监管效率。该变化可能影响银行对加密货币业务的处理方式，增加合规要求，但长期或为加密企业提供更清晰的监管框架。短期内可能增加不确定性。影响币种：BTC、ETH。信号：bearish（短期不确定性增加）。",
+      "reason": "美联储监管政策变动属于重大监管动态，直接影响市场对加密银行业的信心，符合优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519249.html"}],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普称伊朗同意所有要求",
+      "summary": "特朗普宣布伊朗同意其提出的所有要求，地缘政治紧张局势显著缓解。此举可能降低市场避险情绪，提振风险资产包括加密货币。但此前中东局势已对油价产生较大影响，缓和信号有助于市场情绪恢复。影响币种：BTC、ETH。信号：bullish。",
+      "reason": "地缘政治风险缓和属于宏观因素，影响风险资产偏好，符合优先级二的宏观经济。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519247.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase推出Tech100永续期货",
+      "summary": "Coinbase宣布推出基于Tech100指数（科技股100）的永续期货合约，允许用户对科技股指数进行杠杆交易。此举扩大了Coinbase产品线，可能吸引更多传统投资者，间接利好COIN及加密市场。但直接影响较小。影响币种：无直接。信号：neutral。",
+      "reason": "交易所推出新产品虽属优先级一，但Tech100不是加密资产，对币价影响微弱，仅作为交易所动态关注。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519250.html"}],
+      "urgency": "days"
+    }
+  ]
+}
