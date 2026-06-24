@@ -880,3 +880,110 @@ content length: 4186
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2147, prompt_tokens=10651, total_tokens=12798, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1074, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9499)
+content length: 3008
+============================================================
+{
+  "news": [
+    {
+      "title": "SecondFi被盗超2000万美元",
+      "summary": "慢雾余弦披露SecondFi遭遇安全攻击，被盗资金或超过2000万美元。这是一起严重的安全事件，可能导致相关代币价格下跌，并引发市场对DeFi安全性的担忧。短期看空受影响的项目代币，但整体市场影响有限。",
+      "reason": "安全事件直接影响项目代币价格，符合优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["SecondFi相关代币"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519042.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Polygon旧合约遭攻击损失26万美元",
+      "summary": "Polygon链上Royalties旧合约遭攻击，损失约26.12万美元。虽然金额较小，但可能影响Polygon生态信心，短期看空MATIC。",
+      "reason": "安全事件，影响特定公链生态。",
+      "category": "项目更新",
+      "impact_coins": ["MATIC", "POL"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519045.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "高盛：美联储7月加息概率50%",
+      "summary": "高盛投资主管表示美联储7月加息概率为50%，股价上涨的财富效应可能成为加息理由。加息预期升温对风险资产（包括加密货币）形成压力，短期看空BTC、ETH等。",
+      "reason": "宏观经济数据影响风险资产走势，符合优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519043.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY Act卡在特朗普家族受益条款",
+      "summary": "Reddit热议CLARITY Act新进展：法案卡在是否禁止特朗普及其家族在任内从加密中获利。若通过，可能加强监管透明度，长期利好行业；但短期不确定性增加，特别对特朗普相关项目。",
+      "reason": "监管政策重大进展，直接影响行业预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1udzx4k/the_clarity_act_isnt_stuck_on_the_stablecoin/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Grayscale称Strategy存在现金流风险",
+      "summary": "Grayscale研究主管指出Strategy（MSTR）有15亿美元现金流问题，可能形成死亡螺旋。若MSTR被迫抛售BTC，将带来巨大卖压，短期看空BTC及MSTR相关代币。",
+      "reason": "机构动向可能引发BTC抛售，符合优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1udzsfo/grayscales_head_of_research_says_strategy_has_a/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币跌破63000美元",
+      "summary": "BTC短暂跌破63000美元，受多重利空影响：美联储加息预期、科技股抛售、ETF资金流出等。目前处于下跌趋势，短期看空，但恐慌指数极低（17）或预示中期底部。",
+      "reason": "价格异动直接影响交易决策，符合优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519046.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
