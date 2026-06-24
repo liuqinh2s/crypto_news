@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-24",
+  "hour": "11",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10588,
+    "completion_tokens": 2868,
+    "total_tokens": 13456
+  },
+  "content_length": 2320,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC跌破6万美元\",\n      \"summary\": \"比特币价格跌破60,000美元关口，创两周新低，主要受美联储加息预期升温、科技股抛售及ETF持续流出的多重压力。截至目前，BTC报59,800美元附近。此次下跌可能引发更多清算，尤其是杠杆多头。CFTC数据显示，比特币期货未平仓合约减少，资金费率转负，表明市场情绪极度悲观。影响币种：BTC、ETH及主流币。信号：看空。短期内可能进一步下探。\",\n      \"reason\": \"直接影响行情，BTC跌破关键心理价位，创近期新低，交易价值高。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 5,\n      \"sources\": [\n        {\n          \"name\": \"CoinMarketCap\",\n          \"url\": \"https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGdVWUlnWTdYMWdNdnZCTUwwYkQwSzR2ZS1tWDVDNTlIQmtEbjdpeVRGVkdoMExqWVN0RTF2ZDJvd3g5MWVDRlI4bDl0MndxdjQwQkVnMzJFd3ZKZ1ZiMGtaTFRTSUstamJBTzJvZU80Y3NCcjBLTi1meXlYYW03ZzlSVzVUZVFDaEp0c1VaZTJ6UQ\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"CLARITY Act卡在特朗普家族获利条款\",\n      \"summary\": \"Reddit帖子透露，CLARITY法案的争议焦点已从稳定币转向是否禁止特朗普及其家族在任内从加密货币中获利。这一条款成为法案通过的最后障碍。若法案通过，可能为加密行业提供明确监管框架，利好整体市场；但若因政治分歧搁浅，则增加不确定性。目前需关注国会动向。影响币种：整体市场。信号：中性偏利好（若通过），但短期不确定性增加。\",\n      \"reason\": \"监管政策重大动态，法案进展直接影响行业预期，可能影响整个加密市场情绪。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/cryptocurrency\",\n          \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1udzx4k/the_clarity_act_isnt_stuck_on_the_stablecoin/\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美银看好Coinbase受益于监管改革\",\n      \"summary\": \"美国银行（BofA）发布报告称，Coinbase有望从美国加密货币监管改革中受益，并给出买入评级。报告认为，更明确的监管框架将吸引更多机构资金，Coinbase作为合规交易所将首当其冲。此外，Coinbase近期推出多项新产品，市场占有率稳定。影响币种：COIN（股票）以及BTC、ETH等主流币。信号：看多。但该消息主要为传统金融视角，对加密货币现货价格直接影响有限。\",\n      \"reason\": \"机构动向，显示主流金融机构对加密行业信心增强，可能带动资金流入。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Investing.com\",\n          \"url\": \"https://news.google.com/rss/articles/CBMitgFBVV95cUxPREx3UUU4WGdhbTFJdUlBNU1WV20tdG00Y1o3eDN4d0NCZW5mNzBaZWw5akRoVmVHdHBJVV9lUFd3eEhnRmowRG5PZVptYmRkaDB0OEZDdWpBRUlEN2owbFZqdTNvanFsdGNjY1lRU1c1WVU5azkzTDNBc3drWXUwNzFuXzBGcndfRHV5U2tVWV9LUTVaSE85SE1VclFRQjQwY0NDRHdxbC1aaTVmRjdIbEhBOFZ4Zw\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"因大量消息重复或属于排除项，仅筛选出3条高交易价值消息。\"\n}"
+}
