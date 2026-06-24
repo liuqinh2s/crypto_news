@@ -1971,3 +1971,142 @@ content length: 3417
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4875, prompt_tokens=15874, total_tokens=20749, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2903, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14722)
+content length: 4753
+============================================================
+{
+  "news": [
+    {
+      "title": "Cardano钱包现地址级漏洞",
+      "summary": "SecondFi披露Cardano钱包存在地址级漏洞，导致约1600万ADA被利用。该漏洞已被追踪并修复，但暴露了Cardano生态安全性问题。可能影响ADA短期价格，看空信号。",
+      "reason": "项目安全事件，直接影响ADA持有者信心，可能导致抛售。",
+      "category": "项目更新",
+      "impact_coins": ["ADA"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/cardano-wallet-secondfi-flaw-16-million-ada-exploit"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美司法部扣押汇旺洗钱基础设施",
+      "summary": "美国司法部扣押了与汇旺（Huione）相关的数十亿美元洗钱基础设施，汇旺被指控为加密货币洗钱平台。此举可能打击场外交易及稳定币使用，对USDT等产生负面情绪，但直接抛压有限。看空信号。",
+      "reason": "重大监管行动，涉及数十亿规模，可能引发市场对反洗钱合规的担忧。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371950/doj-seizes-huione-infrastructure-linked-to-billions-in-crypto-laundering"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Meta进军预测市场",
+      "summary": "Meta被曝正在构建预测市场，类似Polymarket和Kalshi。尽管Meta平台是传统互联网，但可能推动预测市场概念在加密领域的关注，对相关代币如POLY构成利好。但Meta项目可能中心化，影响有限。看多信号。",
+      "reason": "新叙事热点，可能吸引资金流入预测市场概念币种。",
+      "category": "项目更新",
+      "impact_coins": ["POLY", "LINK"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/371953/morning-minute-meta-is-building-a-prediction-market"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "高盛警告AI定价领先基本面",
+      "summary": "高盛发出警示，AI投资热潮未见顶但市场定价已明显领先基本面。这可能引发AI相关加密货币如RENDER、TAO、AGIX等回调。看空信号。",
+      "reason": "顶级投行警告，影响AI板块情绪，可能引发获利了结。",
+      "category": "宏观经济",
+      "impact_coins": ["RENDER", "TAO", "AGIX"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519179.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "零售投资者撤退加剧市场脆弱",
+      "summary": "Bloomberg文章指出比特币零售投资者撤退，市场流动性变差，加剧脆弱性。结合当前BTC在62.5k附近挣扎，看空信号增强。",
+      "reason": "市场结构恶化，散户撤离是典型下跌前兆。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bloomberg Crypto",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMnFmTVljZklrd0tfUWZhZVlwbVZaNnBmZnZqRng2ZlRtR1RyMG9weVZKUmhETl9ienRmeF9zODVLT19JNHo3ek8ybV9LTVJKeHpQanNCbGpqSjZDLXptMTVEZEFaY3c1cDBPd0xSWGpzcVdoSFBLbzViRkFJTkpYLTlyS2ZCWndEekFXTjBXeGZEc2VJb3VwU0NwWFc1alJ0ajZUYW9EYTZBcFhUcld5ZU16OW0?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance欧洲牌照受挫但承诺留下",
+      "summary": "Binance在欧洲某国牌照遭遇挫折，但公司表示将继续留在欧洲市场。牌照问题可能引发合规担忧，对BNB短线利空，但承诺留下减轻恐慌。看空信号。",
+      "reason": "监管阻力影响交易所估值及平台币信心。",
+      "category": "监管政策",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRFBKT0dwLUVuWDlqVDNPWTdmZ3VodTY0ZGhUSkpha2dHMHltVmdfVlJnWGJNYkR4VEdBdFZkYi1TRzJ3ZjA4N0FPclhLbkJuWFFaZlJPWmFXTzhDcl9raXdyYXNSM0pGNDVRa29uZjZHbTlNYUY3cWJHQ2hXdjg5ajVERmN5dWRuWjd4aXQ3RVBfamJ1N3dpQjdzZkN5UjhRNFdR?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY法案7月17日听证会",
+      "summary": "美国众议院计划于7月17日举行CLARITY法案听证会，该法案可能影响加密犯罪调查。若通过，可能加强监管打击，对加密市场情绪形成压制。看空信号。",
+      "reason": "监管政策推进，不确定性增加，利空整体市场。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ueb4wj/house_schedules_july_17_clarity_act_hearing_as/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美联储加息概率上升打压币价",
+      "summary": "市场对9月美联储加息预期升温，美元走强，风险资产承压。比特币、以太坊等承压下跌。宏观紧缩信号利空。",
+      "reason": "直接影响风险资产定价，加息预期增强将压制加密货币估值。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUUQtcVRONHNuMk1ROFExeXA1WXZ3dGUzeWtUdVAtNi16aktVa1N4RkZZenB0ZjliZC1iYUg2UU5TVnMxWENFSWJUM25SQzlLSWU3VE1qNmwwTkpaSmR4Umd4SEVuWkZWUGJPMmQyMnFteG9oTHVUa2k5STVXQXdGS2hSajhacktSTTg1NU5UNDlUeHdUa3V6dl9TaXIyX2ZFVW5JRzFoQi1ucDRzeDJ6MDJtcGx2TWlNeWtFSFZDU0ZEQ0dQbzRqMWtlNHBXcmoySktBWllSTjNmT0dGU0c3RVdUUTlGVGU0S0Iw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
