@@ -2110,3 +2110,126 @@ content length: 4753
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3868, prompt_tokens=17734, total_tokens=21602, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2341, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16582)
+content length: 3916
+============================================================
+{
+  "news": [
+    {
+      "title": "10x Research：BTC或跌至55000",
+      "summary": "10x Research发布最新报告，认为比特币可能跌至55000美元才能见底，理由是当前市场缺乏新的催化剂，且宏观环境收紧。该预测直接影响BTC交易情绪，若跌破关键支撑可能引发连锁清算。信号为看空，影响币种：BTC。",
+      "reason": "新预测，直接看空BTC，未在历史消息中出现，属于优先级一（项目方重大事件/机构观点）。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/24/bitcoin-could-fall-to-usd55-000-before-finding-a-bottom-10x-research-says"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strategy股价跌破100美元",
+      "summary": "MicroStrategy（MSTR）股价跌破100美元，为2024年3月以来首次。由于MSTR与BTC高度关联，股价下跌反映市场对BTC及公司杠杆策略的担忧，可能引发BTC抛售。信号为看空，影响币种：BTC、MSTR相关代币。",
+      "reason": "新价格事件，未在历史消息中出现（此前只有暴跌80%的预测，未提及实际跌破100），属于优先级一（机构动向）。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519208.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Strive增持BTC至19864枚",
+      "summary": "Strive（ASST）CEO表示公司正在‘疯狂买入’比特币，目前资产负债表持有19864枚BTC，体现机构对BTC的长期信心。此消息短期内可能提振BTC价格，属于看多信号。影响币种：BTC。",
+      "reason": "新机构增持消息，未在历史消息中出现，属于优先级二（机构动向）。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/strive-asst-ceo-says-buying-bitcoin"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kraken Ink升级至Optimism",
+      "summary": "Kraken孵化的Layer2网络Ink升级至Optimism的OP Enterprise Fully Managed基础设施，为多年期合作。这加强了Optimism生态，可能推高OP代币需求。信号为看多，影响币种：OP。",
+      "reason": "新合作升级消息，未在历史消息中出现，属于优先级二（技术升级）。",
+      "category": "项目更新",
+      "impact_coins": ["OP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405957/kraken-incubated-ink-upgrades-to-optimism-op-enterprise-fully-managed"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "国际油价跌破70美元",
+      "summary": "美油期货跌破70美元整数关口，布伦特原油跌幅扩大至4%。油价大幅下跌反映全球需求担忧，可能加剧风险资产（包括加密货币）的抛售压力。信号为看空，影响币种：BTC、ETH。",
+      "reason": "新价格水平，未在历史消息中出现（此前只有跌3%），属于优先级二（宏观经济）。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519207.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "AAVE跌破75美元",
+      "summary": "AAVE价格跌破75美元，DeFi代币承压。近期DeFi整体资金流出，Aave作为龙头率先走弱，可能引发板块连锁反应。信号为看空，影响币种：AAVE、DeFi相关代币。",
+      "reason": "新价格下跌，未在历史消息中出现（此前只有看涨预测），属于优先级二（DeFi重大事件）。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519201.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "亿万富翁发出比特币警告",
+      "summary": "一位匿名亿万富翁投资者公开对比特币未来表示担忧，认为市场脆弱且缺乏基本面支撑。此消息可能加剧散户恐慌，短期内利空BTC。信号为看空，影响币种：BTC。",
+      "reason": "新警告消息，未在历史消息中出现，属于优先级三（KOL集体看空）。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMTRpdzMzWkVWU01hM05sdUQzUGl3ajlNYVRhUG40WWgxaEVQTHZLMHJieW9VZDRLcG1xTE9XSnBLZnRfVVpJeVVGMzc0eHVIUlhYdGVoOVBPZUNERGlvMEZwZXlUOGdJcDFnZ1lCVWN1THM0ejNGQWRIb0pBbzE4VU1sQjFpZFJjX2l3QXFvS3g3Y1pDV0VlbjB5LU1JZF9JUGRhR215MzYxSk5S"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
