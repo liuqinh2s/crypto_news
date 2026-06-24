@@ -1429,3 +1429,126 @@ content length: 4025
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3930, prompt_tokens=10033, total_tokens=13963, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2135, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8881)
+content length: 4377
+============================================================
+{
+  "news": [
+    {
+      "title": "参议院结束美伊战争法案通过",
+      "summary": "美国参议院通过战争权力法案，旨在结束美伊军事冲突。该法案已送交特朗普总统签署。如果签署，将减少地缘政治风险，提振全球风险资产偏好。对比特币和以太坊等加密货币构成潜在的看涨催化剂，因为战争结束可能促使资金从避险资产回流风险市场。短期看多BTC、ETH。",
+      "reason": "宏观地缘政治重大事件，直接影响风险情绪，属于优先级二（宏观经济）中的重大事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ1hOeXZBaVBSVFJSalR6XzhlQTE1TmdfZ29hd0hfWWVLWGpYMklVc2NsVlR3RTk1bzBub0lSNWV0cVlhMGlmSmpyTzJBaWd0cW9jeXI1eUQ0clpqMG1yX28yUFc2ZEVUUkx3UFIzWWJwMUYtVXI1a2Z3dzdJUE1fa3JiUWRQaDFveFA3bE5aOWRVd0Z1cVMwbjJCQ0U?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币OG投资者减少卖出",
+      "summary": "CoinDesk报道，比特币的‘OG’（早期）投资者近期放缓了卖出步伐，这被视为市场看涨信号。链上数据显示，长期持有者（LTH）的支出量下降，表明抛压减弱。通常，当长期持有者停止卖出，表明他们对价格重拾信心，可能预示着底部支撑形成。该消息直接影响BTC，看多。",
+      "reason": "链上异动信号，属于优先级一中的项目方重大事件（巨鲸行为），对市场情绪有直接影响。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/24/bitcoin-s-og-investors-have-slowed-selling-in-a-bullish-sign-for-the-market"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Hypersurface收购Acre推波动率金库",
+      "summary": "Hypersurface宣布收购比特币金库Acre，并推出交易波动率的比特币策略金库HSBPI。该产品允许用户通过波动率策略获取比特币收益，可能吸引更多投资者参与比特币生态，增加需求。对BTC构成轻度利好，但属于新产品发布，短期影响有限。看多BTC。",
+      "reason": "项目更新，属于优先级二（技术升级/里程碑），但影响范围较小。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519076.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Cboe推出预测市场套件",
+      "summary": "芝加哥期权交易所（Cboe）推出预测市场套件，包括基于标普500的二元期权合约。这一举措使预测市场进入传统金融领域，可能提升相关区块链预测市场项目的关注度，如PolyMarket（POLY）等。但对加密货币市场的直接影响很小，中性信号，需观察后续采用。",
+      "reason": "交易所推出新产品，属于优先级一（交易所上币），但非加密原生交易所，影响有限。",
+      "category": "交易所",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405930/cboe-launches-prediction-market-suite?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币矿企按AI逻辑重定价",
+      "summary": "BIT官方发文称，比特币矿企正按照AI基础设施逻辑被重新定价，即市场将其视为数据中心提供商而非单纯挖矿公司。这可能提升矿企估值，并吸引AI相关资金。对矿企股票（如MARA、RIOT）有利，但对比特币本身影响间接。长期看多矿企相关资产。",
+      "reason": "行业趋势分析，属于优先级二（机构动向），但非直接交易信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519077.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "天主教领袖质疑CLARITY法案",
+      "summary": "CoinTelegraph报道，天主教领袖与美国执法部门一同对CLARITY法案提出挑战，认为该法案将促进加密货币犯罪活动。CLARITY法案旨在为加密行业提供监管明确性，但若遭到反对，可能增加立法阻力，导致监管不确定性上升。偏空信号，影响所有加密币种。",
+      "reason": "监管政策争议，属于优先级一（重大监管动态），影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/law-enforcement-and-catholic-groups-warn-clarity-act-facilitates-crypto-crime?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊下跌卖方主导趋势",
+      "summary": "Traders Union报道以太坊价格下跌，卖方主导短期趋势，表明市场看跌情绪浓厚。技术面上，ETH可能继续承压，短期偏空。注意，这仅是技术分析，并非突发事件，但当前ETH走势值得警惕。",
+      "reason": "市场结构信号，属于优先级三（市场情绪），短期趋势参考。",
+      "category": "市场情绪",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "雪球加密 via Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb3NlU0x3V3FRTEFKLXgtbFpIemtyTGg2bzVSdTZZckVXdzlJaXRubWRUZ091LTdKTHNnRVR4blRTRlllUmhHTXN6eHM2bE9LYXhTakYzd1Q4N0FBVWRFY3FYT09RVG9jYXQ0Vnh6d054UjRVb3EwUmNIS1E3d3ljcTZjY2k4cFZ5VjE3RVJYQU9ZZ2ltR1dhY1VEeks3a1JMOTdqTFJvTWcyMi1D?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
