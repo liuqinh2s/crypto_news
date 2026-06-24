@@ -457,3 +457,268 @@ content length: 2472
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1914, prompt_tokens=13889, total_tokens=15803, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1413, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12737)
+content length: 1260
+============================================================
+{
+  "news": [
+    {
+      "title": "矿工收入低于成本价",
+      "summary": "比特币矿工面临收入持续下滑，当前已低于平均生产成本。这意味着矿工可能被迫出售BTC以支付电费和运营成本，增加市场抛压。近期BTC价格下跌已导致多矿企股价暴跌，若矿工大规模去库存，将进一步打压BTC价格。该信号为中期看空，需关注矿工链上转账数据。",
+      "reason": "矿工收入低于成本是重要链上基本面指标，历史上常引发矿工抛售，属于优先级二链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405858/bitcoin-miners-face-deepening-margin-squeeze-as-revenue-falls-below-production-costs"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "FTX高管妻子被起诉",
+      "summary": "FTX前高管Ryan Salame的妻子Michelle Bond因竞选财务违规被起诉，定于11月开庭。此案属于FTX余波，可能短期压制FTT市场情绪，但实际影响有限。FTT当前交易量低，消息不会显著冲击大盘，但需关注后续法律进展是否牵出更多内幕。",
+      "reason": "涉及FTX后续法律事件，属监管政策类，但影响范围小，为优先级二边缘消息。",
+      "category": "监管政策",
+      "impact_coins": ["FTT"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ftx-exec-wife-november-trial-campaign-finance-charges"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮素材大量重复历史消息（BTC跌破6万、ETF流出、Binance公告等），仅筛选出2条新信息。恐惧贪婪指数17已连续多时，未纳入。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1574, prompt_tokens=13889, total_tokens=15463, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1041, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13824), prompt_cache_hit_tokens=13824, prompt_cache_miss_tokens=65)
+content length: 1349
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币矿工利润跌破成本",
+      "summary": "据The Block报道，比特币矿工面临利润率持续压缩，收入已低于生产成本。这意味着矿工可能需要抛售比特币以维持运营，或部分矿机关机，导致算力下降。历史类似情况往往伴随BTC价格进一步下跌（如2018年底、2022年）。当前BTC已跌至61000美元附近，矿工压力加剧抛售风险。影响币种：BTC。信号：看空。",
+      "reason": "矿工生产成本是比特币基本面重要指标，收入低于成本通常导致抛压，属于优先级一（链上异动）。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405858/bitcoin-miners-face-deepening-margin-squeeze-as-revenue-falls-below-production-costs"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "DXY飙升叠加BTC跌破5.9万",
+      "summary": "CoinTelegraph报道比特币逼近59000美元，同时美元指数（DXY）大幅走强。美元走强通常对风险资产（包括加密货币）形成压制，因资金流向美元。此次DXY上涨叠加美联储鹰派预期，加剧了BTC的下行压力。影响币种：BTC、ETH、XRP等。信号：看空。",
+      "reason": "宏观经济因素（DXY）直接影响风险资产走势，属于优先级二（宏观经济）。尽管BTC价格下跌已在历史消息中出现，但DXY飙升是新的压力因素。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-nearly-loses-59k-as-dxy-surges-are-traders-bracing-for-more-pain"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取素材多数与历史消息重复或影响微弱，仅选出2条新增有效交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1858, prompt_tokens=13889, total_tokens=15747, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1377, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13824), prompt_cache_hit_tokens=13824, prompt_cache_miss_tokens=65)
+content length: 1227
+============================================================
+{
+  "news": [
+    {
+      "title": "矿工收入低于成本，利润压缩",
+      "summary": "据The Block报道，比特币矿工正面临日益严重的利润压缩，挖矿收入已低于生产成本。这可能导致矿工抛售BTC以维持运营，增加市场卖压。影响比特币及关联币种（如挖矿设备相关代币）。信号：看空，短期内可能加剧下跌。",
+      "reason": "矿工利润压缩是链上异动，属于优先级一：矿工可能被迫抛售，直接影响BTC供应和价格。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405858/bitcoin-miners-face-deepening-margin-squeeze-as-revenue-falls-below-production-costs"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kalshi起诉伊利诺伊州监管",
+      "summary": "Decrypt报道，预测市场Kalshi起诉伊利诺伊州官员，反对该州对体育相关预测市场征收新税。这反映了监管与预测市场之间的紧张关系，可能影响相关代币（如POLY、KALSHI代币）。信号：看空，监管打压可能限制预测市场增长。",
+      "reason": "预测市场相关诉讼属于监管政策动态，影响市场情绪和代币价格。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/372048/kalshi-sues-illinois-state-taxes-sports-related-prediction-markets"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中多数关键消息已在历史中出现（如BTC价格波动、ETF资金流、恐惧贪婪指数等），仅筛选出两条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2148, prompt_tokens=15866, total_tokens=18014, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1860, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=4096), prompt_cache_hit_tokens=4096, prompt_cache_miss_tokens=11770)
+content length: 700
+============================================================
+{
+  "news": [
+    {
+      "title": "矿工利润紧缩，20%不盈利",
+      "summary": "The Block报道，比特币矿工面临深度利润挤压，约20%矿工在当前价格下无法覆盖生产成本，收入已低于成本线。这可能导致矿工被迫出售比特币储备以维持运营，增加市场抛压。同时全网算力或出现下降，进一步削弱网络安全性。该信号对BTC构成中期看空压力，矿工抛售可能加剧当前下跌趋势。影响币种：BTC。看空信号。",
+      "reason": "矿工盈利指标是链上基本面关键数据，直接关系BTC供应压力，属于优先级二链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405858/bitcoin-miners-face-deepening-margin-squeeze-as-revenue-falls-below-production-costs"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中多数为重复消息或非交易相关，仅筛选出1条符合标准的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1713, prompt_tokens=15866, total_tokens=17579, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1419, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=15744), prompt_cache_hit_tokens=15744, prompt_cache_miss_tokens=122)
+content length: 704
+============================================================
+{
+  "news": [
+    {
+      "title": "矿工利润率压缩至亏损",
+      "summary": "The Block报道，由于比特币价格下跌，约20%的矿工当前处于亏损状态，挖矿收入已低于生产成本。这可能导致矿工抛售BTC以维持运营，增加市场卖压。若价格持续低迷，更多矿工可能关机或抛售，形成下行螺旋。对BTC构成看空信号，可能拖累整个市场。",
+      "reason": "链上异动：矿工亏损是重要基本面指标，预示潜在抛压，直接影响BTC供给。此前历史消息未提及该具体数据，属新信息。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405858/bitcoin-miners-face-deepening-margin-squeeze-as-revenue-falls-below-production-costs"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中仅有1条新消息，其余均为重复历史事件。根据筛选标准，仅选入矿工利润率压缩这条对行情有直接影响的链上异动。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1784, prompt_tokens=5273, total_tokens=7057, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=537, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=4121)
+content length: 3003
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币跌破6万，DXY飙升",
+      "summary": "比特币价格再次跌破60000美元，最低触及59000美元，同时美元指数DXY大幅上涨至106以上。DXY走强通常对风险资产构成压力，导致资金从加密货币流出。此次下跌伴随加密货币股票跳水，市场情绪悲观。影响币种：BTC、ETH、XRP等主要币种均承压。信号：看空，因宏观美元走强，抛压增加。",
+      "reason": "符合优先级一：直接影响行情（价格突破关键位），且伴随DXY飙升确认宏观压力。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "XRP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-nearly-loses-59k-as-dxy-surges-are-traders-bracing-for-more-pain"},
+        {"name": "Decrypt", "url": "https://decrypt.co/372025/painful-bitcoin-sell-off-ethereum-xrp-dogecoin-lower-crypto-firms-dive"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "矿工收入低于生产成本",
+      "summary": "据报道，比特币矿工面临利润压缩，收入已低于生产成本。这通常会导致矿工抛售比特币以弥补运营成本，增加市场卖压。矿工是天然的卖方，若收入持续低于成本，可能引发更多BTC流向交易所。影响币种：BTC。信号：看空，矿工抛压预期增强。",
+      "reason": "符合优先级一：链上异动（矿工行为直接影响供应），且与当前价格弱势一致。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/405858/bitcoin-miners-face-deepening-margin-squeeze-as-revenue-falls-below-production-costs"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至17",
+      "summary": "恐惧贪婪指数从昨日27降至17，进入极度恐惧区间。历史数据显示，该区间（<20）往往对应中长期买点，但短期仍可能继续下跌。当前市场情绪极度悲观，但杠杆风险已大幅释放。影响币种：BTC、ETH。信号：中性偏多（中长期看多，短期可能继续探底）。",
+      "reason": "符合优先级三：恐惧贪婪极值，对中长期交易有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Saylor或停止购买比特币",
+      "summary": "Bloomberg分析文章指出，MicroStrategy（现Strategy）的持续购买比特币策略可能面临压力，最佳选择或许是暂停购币。若消息证实，将减少机构端需求支撑，对BTC价格构成利空。影响币种：BTC、MSTR相关。信号：看空，机构需求减弱。",
+      "reason": "符合优先级二：机构动向，且可能反转此前买入支撑逻辑。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Bloomberg Crypto", "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZkJrZ3F1TkRPRjI5cHJWOXRqbGZEQnBpeWlOWXJodG1QSUJ1UDN2VWZsZDhTa2plejJTVV9mQ3piR0VxX1VPa2Y0aFpNVjVSS1Z3bVZlNUtVQWYzMjJIQ0NMVDJyOVBjc2ptZGtoX0tXS2doSVBmNVZuMUdqQ2pQaW9NUkdkaDg2Qmx6bHYyUWhTdEtVVUNVY01WclVXc2liMmM2OFVNSjZkZEtIWFVFOXdNVDFFdVZaVGJn"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC回升至61000美元",
+      "summary": "比特币价格短线反弹，回升至61000美元上方，收复昨日部分跌幅。反弹力度有限，上方62000阻力较强。若后续企稳，可能触发空头回补，但趋势仍偏空。影响币种：BTC。信号：中性，短期反弹但反转需确认，偏向空头延续。",
+      "reason": "符合优先级一：价格波动直接影响交易，作为市场动态更新。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519258.html"}
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
