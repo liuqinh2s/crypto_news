@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-25",
+  "hour": "03",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 17335,
+    "completion_tokens": 1885,
+    "total_tokens": 19220
+  },
+  "content_length": 1876,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC跌破59K创新低\",\n      \"summary\": \"比特币价格进一步下跌至59,000美元，较历史高点下跌超50%。策略公司MSTR股票暴跌10%至两年低点，CryptoQuant建议其停止购买比特币。市场恐慌情绪蔓延，但部分分析师认为15%反弹可期。看空信号：价格跌破重要心理位，机构买入力量衰减；但极度恐惧或预示短期底部。\",\n      \"reason\": \"比特币跌破60K标志市场极度弱势，直接影响所有加密货币，属于优先级一的价格异动。历史类似标题有60K，但59K是进一步下跌，有更新。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 5,\n      \"sources\": [\n        {\"name\": \"Bitcoin Magazine\", \"url\": \"https://bitcoinmagazine.com/markets/bitcoin-price-collapses-to-59000\"}\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"美联储鹰派施压加密市场\",\n      \"summary\": \"美联储理事Kevin Warsh发出鹰派信号，优先控制通胀而非经济增长，9月加息概率上升。同时特朗普政府公开支持Warsh。鹰派立场推高美元和美债收益率，对风险资产构成压力。看空信号：宏观紧缩预期打压加密货币估值，尽管BTC、ETH等已大幅下跌，但短期仍承压。\",\n      \"reason\": \"宏观经济政策直接影响风险资产走势，属于优先级二。虽历史有相关标题，但此条包含具体细节（Warsh表态），视为更新。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\"name\": \"Crypto Briefing\", \"url\": \"https://news.google.com/rss/articles/CBMifEFVX3lxTE80VkdaY2F5Uk05azZDcmZLWnBwRXpiRHAwMTcwd21TbUNzQ2xxNlhCVjBzejRfZlZPbTlpTkxfNU5iN1ZNbG1wRTZQaUpFQ09YZ0paN3dRVGVwa2RFNnhJSW1VVXlUdWpIX3Rac2hnd0RENnFvY2NmaXphLW8\"}\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数17极度恐惧\",\n      \"summary\": \"当前恐惧贪婪指数为17（极度恐惧），处于历史低位。历史数据表明，极度恐惧区域通常是中长期抄底区。但短期市场可能继续下探，情绪极度悲观往往预示反转不远。中性偏多信号：中长期看多，但短期仍需观望。\",\n      \"reason\": \"恐惧贪婪指数极值是市场情绪关键指标，属于优先级三。虽然历史已出现，但数值持续为17，可视为当前状态的确认。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\"name\": \"Alternative.me\", \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"}\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前6小时内无重大新事件，所有关键消息（如BTC跌破6万、Binance撤申请、ETF流出等）已在历史标题中覆盖。以上3条为最新更新或持续信号，建议关注后续发展。\"\n}"
+}
