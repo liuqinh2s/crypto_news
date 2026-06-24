@@ -1047,3 +1047,126 @@ content length: 2320
   ],
   "note": "因大量消息重复或属于排除项，仅筛选出3条高交易价值消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1562, prompt_tokens=11005, total_tokens=12567, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=161, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9853)
+content length: 3760
+============================================================
+{
+  "news": [
+    {
+      "title": "Fed加息概率升至77%",
+      "summary": "据Cryptonews报道，美联储鹰派转向导致12月加息概率升至77%，美元指数创11月新高，科技股遭抛售，比特币跌破6万美元。流动性前景恶化，风险资产承压。影响BTC、ETH等所有加密货币，看空信号。",
+      "reason": "美联储加息预期是影响全球风险资产的关键宏观因素，概率高达77%属于重大利空，直接影响行情。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5SDlwbDdmMU4wR2FHV0lwa3pRLXpvcUlHV1pxTnRMZ3ZQQUw0VDl4SktRVWc2d19LS3V1ZktvYzhma3lNZ0NGOUNUSXZDUjdXMWZGdHF2cUs?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数跌至17",
+      "summary": "恐惧贪婪指数降至17（极度恐惧），创近期新低。历史数据显示该区域是中长期抄底区间，但短期可能继续恐慌抛售。对BTC、ETH等主流币种构成中长期看多信号，但短期仍偏弱。",
+      "reason": "恐惧贪婪指数极值是经典市场情绪指标，<20 historically bullish for medium-term, 但仍需结合其他因素。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "CFTC起诉肯塔基州",
+      "summary": "美国商品期货交易委员会（CFTC）起诉肯塔基州，因其对预测市场提起诉讼。CFTC此举旨在维护联邦监管权威，可能限制各州对加密市场的过度干预。影响预测市场相关代币，短期利空监管不确定性，但长期有利于统一监管框架。",
+      "reason": "CFTC起诉州政府是重大监管动态，直接关系预测市场合法性，影响行业情绪。",
+      "category": "监管政策",
+      "impact_coins": ["POLY", "REP"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/cftc-sues-kentucky-after-states-prediction-market-lawsuits"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "a16z从Binance提币2.5万ETH",
+      "summary": "a16z关联地址过去9小时从Binance提币25,560枚ETH（约5839万美元）。巨鲸提币至冷钱包通常被视为囤币信号，减少交易所抛压，对ETH构成看多信号。",
+      "reason": "机构级别的大额提币属于链上异动，直接影响ETH供应量和市场情绪。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://www.jinse.com/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Crypto PAC助选获胜",
+      "summary": "Crypto PAC投入550万美元支持的候选人Adrian Boafo在马里兰州民主党初选中获胜，另有更多加密友好候选人晋级。这显示加密行业政治影响力上升，有利于未来更友好的监管环境，中长期利好BTC、ETH等。",
+      "reason": "政治献金影响监管政策走向，加密友好议员增加可能推动利好立法。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/06/23/crypto-pac-s-usd5-5-million-congress-pick-gets-maryland-win-more-crypto-allies-advance"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "战略公司现金流危机预警",
+      "summary": "Grayscale研究主管称Strategy（原MicroStrategy）存在15亿美元现金流问题，可能形成“死亡螺旋”。Strategy持有大量BTC，若被迫抛售将加剧BTC抛压。看空BTC。",
+      "reason": "机构巨头财务危机可能引发大规模BTC抛售，直接影响行情。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/cryptocurrency/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币跌破6万美元",
+      "summary": "比特币跌破60,000美元整数关口，创两周新低，受美联储加息预期、ETF持续流出及科技股抛售影响。市场风险偏好急剧下降，短期可能进一步下探。主要利空BTC、ETH。",
+      "reason": "关键心理价位跌破，确认下行趋势，引发连锁清算风险。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinMarketCap",
+          "url": "https://coinmarketcap.com/"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
