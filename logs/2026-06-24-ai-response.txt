@@ -2233,3 +2233,126 @@ content length: 3916
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5192, prompt_tokens=17258, total_tokens=22450, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3635, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=16106)
+content length: 3940
+============================================================
+{
+  "news": [
+    {
+      "title": "ETP年度净流出首现负值",
+      "summary": "K33 Research数据显示，比特币ETP的滚动一年净流出首次自2023年以来转为负值，表明机构资金持续撤离。这可能意味着投资者对比特币信心减弱，抛压加大。影响币种：BTC。信号：看空。",
+      "reason": "优先级一：ETF资金流出直接影响BTC价格，属于重大机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/405989/bitcoin-etp-outflows-push-rolling-one-year-flows-negative-first-time-since-2023-k33"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "DeFi TVL年内暴跌39%",
+      "summary": "2026年DeFi总锁仓价值（TVL）从年初高点下降39%，抹去约450亿美元价值，创纪录黑客攻击和市场下跌是主因。这反映DeFi生态萎缩，利空ETH及主要DeFi代币如AAVE、UNI等。信号：看空。",
+      "reason": "优先级一：DeFi TVL剧变属于重大链上事件，影响ETH及DeFi币种。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "AAVE", "UNI"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/defi-tvl-falls-39-2026-erases-45b-value"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Kalshi起诉伊利诺伊州预测市场法",
+      "summary": "预测市场平台Kalshi起诉伊利诺伊州及其州长，反对一项实施预测市场监管制度的新法案。这凸显监管不确定性，可能影响相关预测市场代币（如POLY）的合规预期。短期中性，长期视结果而定。信号：中性。",
+      "reason": "优先级二：监管诉讼涉及预测市场合规，中期影响相关代币。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406000/kalshi-sues-illinois-pritzker-over-state-bill-implementing-prediction-markets-regulatory-regime"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "彩虹图跌入“BTC已死”区",
+      "summary": "比特币价格跌破彩虹图最底部支撑线，进入历史罕见的“BTC is dead”区域。该指标历史上出现在极端熊市底部，或预示中期反弹机会，但短期情绪极度悲观。信号：中性（短期看空，中长期看多）。",
+      "reason": "优先级三：恐惧贪婪指数极值类似指标，反映市场情绪极端，有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/24/bitcoin-just-broke-below-the-floor-of-its-famous-rainbow-chart-into-the-btc-is-dead-zone"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美国10年期国债收益率创5月新低",
+      "summary": "美国10年期国债收益率跌至4.4138%，为5月11日以来最低，反映市场避险情绪或经济放缓预期。收益率下降通常利好风险资产，可能为BTC和ETH提供支撑。信号：看多。",
+      "reason": "优先级二：宏观经济数据变化影响风险资产整体走势，属于中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519213.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "CLARITY法案听证会定于7月17日",
+      "summary": "美国众议院将于7月17日就CLARITY法案举行听证会，特朗普推动8月通过。该法案若通过将明确加密资产监管框架，对全行业构成重大利好。信号：看多。",
+      "reason": "优先级一：重大监管动态，法案进展直接影响市场预期。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTXA2VEZaQmVzM3ZpMVNEVnAxSjRzUDg0RHN6c2ZCcUJHVzBsUmRmdUxVQXV5dUcxbjUxVlJ2bXh6c2hPUUZOMjJMWGNramRHR1FXZkx6eE1EUkowYTRzQTd4cmhXakxzOWg3UVJiNzBJa3N2ZmQzTG8wazZycVdIQWxnRXZldEVlWmRYbEFOcnVLaC1ucGY1aTVKZDRISEdsYy11OVRuRmFlQ2dpR3c"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ETH 18倍多头爆仓3461万美元",
+      "summary": "某地址以18倍杠杆做多2.1万枚ETH（约3461万美元），因价格下跌浮亏169.6万美元，面临强平风险。爆仓增加抛压，短期利空ETH。信号：看空。",
+      "reason": "优先级一：大额杠杆头寸爆仓/清算属于市场结构异常，直接施压价格。",
+      "category": "市场结构",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519219.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
