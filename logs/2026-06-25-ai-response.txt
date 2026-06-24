@@ -287,3 +287,107 @@ content length: 1876
   ],
   "note": "当前6小时内无重大新事件，所有关键消息（如BTC跌破6万、Binance撤申请、ETF流出等）已在历史标题中覆盖。以上3条为最新更新或持续信号，建议关注后续发展。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2130, prompt_tokens=16311, total_tokens=18441, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1604, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=15159)
+content length: 1312
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊基金会动荡引看多",
+      "summary": "以太坊基金会近期发生管理层变动，引发社区对项目治理的讨论。多位知名加密人物表示看好，认为动荡可能带来积极变革。该事件可能影响ETH短期情绪，但基本面未变。当前以太坊价格承压，但消息面偏多，短线或有反弹机会。受影响的币种主要是ETH。信号：看多。",
+      "reason": "以太坊基金会动荡属于项目重大事件，优先级一，直接影响ETH行情。多位大V看多提供情绪支撑。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/06/24/upheaval-at-the-ethereum-foundation-has-some-of-crypto-s-biggest-names-feeling-bullish"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "稳定币市值近ATH 资金仍在",
+      "summary": "尽管市场大幅回调，稳定币总市值仍维持在3154亿美元附近，接近历史高点。这显示大量资金未离场，可能准备在低位买入。通常稳定币市值高位是看多信号，表明市场潜在购买力充足。受影响的币种包括BTC、ETH等主流。信号：看多。",
+      "reason": "稳定币供应量变化属于优先级一，直接影响购买力。市值高位表明资金充沛，是看多信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1uenrbf/stablecoin_market_cap_holds_near_ath_at_3154b/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中多数为历史消息的重复内容（BTC跌破6万、Strategy股价大跌、Binance撤回希腊MiCA、恐惧贪婪指数等），仅筛选出以上两条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3694, prompt_tokens=16311, total_tokens=20005, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2918, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=16256), prompt_cache_hit_tokens=16256, prompt_cache_miss_tokens=55)
+content length: 1987
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊基金会动荡引大佬看涨",
+      "summary": "以太坊基金会近期经历内部动荡，但多位加密知名人物（如Vitalik Buterin等）认为这种变动是积极信号，可能推动更高效的管理和生态发展。CoinDesk报道称，一些行业领袖因此对ETH前景更加乐观。这一事件可能引发短期波动，但中长期看多情绪升温。影响币种：ETH。信号：bullish。",
+      "reason": "以太坊基金会是核心项目，重大人事变动会直接影响市场对ETH的信心，且多位大佬看涨，具有交易参考价值。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/06/24/upheaval-at-the-ethereum-foundation-has-some-of-cryptos-biggest-names-feeling-bullish"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "稳定币市值维持3154亿ATH",
+      "summary": "尽管比特币跌破60,000美元，但稳定币总市值仍保持在3154亿美元的历史最高附近。这表明资金并未大规模离场，可能正等待抄底时机。稳定币供应量高企通常被视为看多信号，因为资金在场外蓄势。影响币种：BTC、ETH。信号：bullish。",
+      "reason": "稳定币市值是判断市场流动性和潜在购买力的重要指标，高位持稳意味着抛压可能有限，属于市场结构利多信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1uenrbf/stablecoin_market_cap_holds_near_ath_at_3154b/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "国会讨论加密公司接入美联储账户",
+      "summary": "美国国会正在审议一项提案，允许加密和金融科技公司通过'瘦账户'直接接入美联储支付系统。若通过，将为合规加密企业提供更便捷的银行服务，降低运营成本并提升合法性。但风险控制仍是争议焦点。影响币种：BTC、ETH。信号：bullish（长期利好）。",
+      "reason": "此举可能显著改善加密行业的金融基础设施，属于监管政策层面的积极信号，对主流币有潜在提振作用。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406050/who-gets-direct-line-to-fed-congress-weighs-risks-fed-skinny-accounts-crypto-fintech-firms"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中多数重大事件（如BTC跌破60K、Strategy大跌、Binance撤回申请、美联储鹰派信号等）已在历史消息中重复，故仅筛选出3条有新交易价值的信息。"
+}
