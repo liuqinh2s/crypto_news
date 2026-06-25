@@ -2328,3 +2328,94 @@ content length: 2441
   ],
   "note": "本轮抓取素材中大量消息与历史重复（如Binance公告、恐惧贪婪指数、期权到期等），实际新增有价值消息较少，仅筛选出上述4条。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3881, prompt_tokens=13694, total_tokens=17575, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2628, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12542)
+content length: 3108
+============================================================
+{
+  "news": [
+    {
+      "title": "AAVE逆势上涨10.1%",
+      "summary": "CoinDesk 20指数更新显示，AAVE在整体市场下跌中逆势上涨10.1%，成为指数中表现最好的资产。这可能源于DeFi协议基本面强劲或短期资金轮动。AAVE作为蓝筹DeFi代币，其独立行情暗示资金可能从主流币流向优质DeFi资产。短期看多AAVE，但对大盘影响有限。",
+      "reason": "AAVE在普跌中逆势上涨，属于项目更新中的强势信号，可能预示资金转向DeFi蓝筹，有交易价值。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/coindesk-indices/2026/06/25/coindesk-20-performance-update-aave-gains-10-1-as-index-rises"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kraken起诉PowerTrade挪用资金",
+      "summary": "Kraken起诉加密衍生品平台PowerTrade，指控其挪用Kraken委托的资金。该诉讼可能影响PowerTrade运营及用户信心，但整体市场影响有限。事件反映交易所间信任问题，可能引发监管关注。短期对Kraken相关代币影响中性，对PowerTrade生态负面。",
+      "reason": "交易所法律纠纷属于中度影响事件，但涉及知名交易所Kraken，可能带来监管政策联动，值得跟踪。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/06/25/kraken-sues-crypto-derivatives-firm-powertrade-over-misappropriated-funds-claim"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "波兰逮捕SIM交换攻击者涉加密",
+      "summary": "波兰警方逮捕四名嫌疑人，涉嫌通过SIM交换攻击入侵加密货币交易所账户，并盗取资产。ZachXBT将案件与代号'Merry'的攻击者关联。此类事件虽局部，但反映加密安全漏洞持续存在，可能引发短期对交易所安全性的担忧，但整体市场影响小。",
+      "reason": "安全事件虽不直接冲击价格，但属于链上异动中的黑客攻击类型，需关注是否扩大。",
+      "category": "链上异动",
+      "impact_coins": [],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406159/four-arrested-poland-sim-swap-attacks-crypto-exchanges-zachxbt-social-engineering-threat-merry"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "中国最大矿工暗示BTC底部已至",
+      "summary": "中国最大比特币矿工（未具名）在社交媒体上赞同Arthur Hayes关于BTC底部的观点，暗示当前价格可能接近周期底部。矿工行为往往被视为市场情绪指标，但需注意矿工也可能有利益关联。若矿工认为底部已到，可能减少抛售，对BTC形成心理支撑。短期中性偏积极，但需观察链上数据。",
+      "reason": "矿工作为市场重要参与者，其观点可能影响情绪，属于市场情绪信号中的KOL观点。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc00wSkFSUTVNMkJrQWF3ZGNHM2k3NDkxYkIxZE95Q0Nwa1ZISFAwQlNHVm1DRjlOSzdPRjZ6X3V4VThISzNjODJSdG8xemdQYWpmdjU0YkE4WlRZNG1wQkIzRDJtU3prNkdsSEcxckptUFFrcXNoY19YdDhEMlRNb0VhU2RYaWdXcFo2dnRscGtIREpqdTBhcmxVMGtCQQ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "新加坡金管局成立未来金融研究院",
+      "summary": "新加坡金融管理局成立'未来金融研究院'，重点关注人工智能和代币化技术。此举表明新加坡继续力推金融科技监管友善环境，可能吸引更多加密企业布局。长期利好新加坡相关加密项目（如稳定币、合规交易所），但对短期市场影响有限。信号偏积极。",
+      "reason": "监管政策中的积极信号，属于中期影响，利好合规发展。",
+      "category": "监管政策",
+      "impact_coins": ["ETH", "SOL"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519509.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
