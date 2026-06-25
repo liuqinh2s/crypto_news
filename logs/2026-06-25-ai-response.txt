@@ -2009,3 +2009,246 @@ content length: 3747
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4106, prompt_tokens=12310, total_tokens=16416, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3525, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11158)
+content length: 1070
+============================================================
+{
+  "news": [
+    {
+      "title": "CNBC：交易员押注比特币更糟",
+      "summary": "CNBC报道指出，比特币今年表现严峻，交易员正押注情况将进一步恶化。这反映了市场极度悲观情绪，可能引发更多抛售。短期内看空比特币及整体加密市场。",
+      "reason": "主流媒体CNBC报道交易员看空情绪，属于市场情绪信号，可能加剧市场恐慌，符合筛选标准中的市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC via Google News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdlZnTE5kQ0lIa0lrZVQ4cWl4NFBYa2JTS2hqaXBqa21qOE5DQUhGZEVKVzVTR0JJQkJCLU10TkdhOTF5MUtRSkU3ZmlCMk11dFBqeDduX2M2TzRmczJVcHVRNHE1YnZDX0otRG9zVTFESjhGQ2hpdnFFX1FrbEl6emZlOWhadWgtRzN2TmJRNXg3MTE3bHN4aU1ZOFJHdmRqZUpHWUpqcVNlWW02WUhF0gG0AUFVX3lxTE9pQXpxOVVXTUpKaDF6X3dqbFJaQlNyU2M3bDFRVGtiWXBreWY2b3R5WWdDb216S21yYlQ4YkNNT3E2R2RPWmFZaU1hT1NnaktMOEZQX1VpaEsxS1o4OFBtN3lZVjJWZHBETUs4M0I1Vk9JZmxESk8wOVVDT01UZ1dxWm5KNEozNHZiQjdNS1Z0YVpJWExEdTB6VzZ2NUltS05aUGZvQzEwU2h0Q3dmbUNLQ1Z5UQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前市场主要消息重复或非交易关键，仅筛选出1条新消息。其他重大事件如PCE数据即将公布，但已在历史消息中覆盖。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4691, prompt_tokens=12310, total_tokens=17001, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3769, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=22)
+content length: 1861
+============================================================
+{
+  "news": [
+    {
+      "title": "衍生品恐慌+弱PCE或触发反弹",
+      "summary": "比特币衍生品市场目前显示出恐慌信号，看跌情绪浓厚，但市场预期今晚20:30公布的美国5月核心PCE数据可能弱于预期。若PCE低于预期，可能暗示通胀放缓，削弱美联储加息预期，从而触发空头回补和短期反弹。当前比特币在6万美元附近挣扎，10亿美元期权即将到期会加大波动。该事件主要影响比特币，若PCE弱则短期看多，但整体仍受衍生品结构压制。",
+      "reason": "核心PCE是美联储最青睐的通胀指标，数据发布通常引发市场剧烈波动，且当前衍生品信号叠加可能形成交易机会。与历史重复的衍生品信号相比，本条加入了PCE催化剂的新信息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/daybook-us/2026/06/25/bitcoin-derivatives-signal-panic-a-weak-core-pce-reading-could-trigger-snapback"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CNBC：交易员押注比特币继续下跌",
+      "summary": "CNBC报道称，比特币今年表现艰难，交易员正在押注情况会变得更糟。尽管市场已出现极度恐慌（恐惧贪婪指数12），但衍生品信号显示看跌势头未减，空头仍占主导。短期看，比特币可能继续承压，但极度恐惧往往是历史底部区域，中长期可能提供抄底机会。主要影响BTC。",
+      "reason": "主流媒体CNBC的报道反映了当前市场极端悲观情绪，是市场情绪信号的重要补充，且与历史消息中其他看跌观点形成共振，但报道本身具有独立新闻价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC via Google News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdlZnTE5kQ0lIa0lrZVQ4cWl4NFBYa2JTS2hqaXBqa21qOE5DQUhGZEVKVzVTR0JJQkJCLU10TkdhOTF5MUtRSkU3ZmlCMk11dFBqeDduX2M2TzRmczJVcHVRNHE1YnZDX0otRG9zVTFESjhGQ2hpdnFFX1FrbEl6emZlOWhadWgtRzN2TmJRNXg3MTE3bHN4aU1ZOFJHdmRqZUpHWUpqcVNlWW02WUhF0gG0AUFVX3lxTE9pQXpxOVVXTUpKaDF6X3dqbFJaQlNyU2M3bDFRVGtiWXBreWY2b3R5WWdDb216S21yYlQ4YkNNT3E2R2RPWmFZaU1hT1NnaktMOEZQX1VpaEsxS1o4OFBtN3lZVjJWZHBETUs4M0I1Vk9JZmxESk8wOVVDT01UZ1dxWm5KNEozNHZiQjdNS1Z0YVpJWExEdTB6VzZ2NUltS05aUGZvQzEwU2h0Q3dmbUNLQ1Z5UQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于本轮素材中绝大多数消息与历史6小时内标题重复（如CoinEx、Micron、SBI收购、恐惧指数12等），仅筛选出2条有更新或独立的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2114, prompt_tokens=12310, total_tokens=14424, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2082, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12288), prompt_cache_hit_tokens=12288, prompt_cache_miss_tokens=22)
+content length: 64
+============================================================
+{
+  "news": [],
+  "note": "近6小时内所有消息均已重复出现在历史消息中，无新增有价值的交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2743, prompt_tokens=13324, total_tokens=16067, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2364, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=2816), prompt_cache_hit_tokens=2816, prompt_cache_miss_tokens=10508)
+content length: 808
+============================================================
+{
+  "news": [
+    {
+      "title": "CNBC：交易员押注比特币更糟",
+      "summary": "CNBC报道称，比特币今年表现艰难，交易员普遍押注其将进一步下跌。当前市场情绪极度悲观，恐慌指数持续处于12的极端恐惧水平。CME比特币期货空头头寸增加，未平仓合约下滑，表明专业投资者正在对冲下行风险。这可能影响BTC，并传导至ETH和SOL等主流币。整体看空信号。",
+      "reason": "市场情绪信号：主流媒体CNBC报道交易员看空比特币，叠加恐惧贪婪指数12，属于极值情绪，有参考价值。且为近6小时历史中未出现的新标题。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CNBC via Crypto Twitter",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdlZnTE5kQ0lIa0lrZVQ4cWl4NFBYa2JTS2hqaXBqa21qOE5DQUhGZEVKVzVTR0JJQkJCLU10TkdhOTF5MUtRSkU3ZmlCMk11dFBqeDduX2M2TzRmczJVcHVRNHE1YnZDX0otRG9zVT"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段大部分新闻为历史重复，仅发现一条有效新消息。市场处于极度恐惧状态，但缺乏新的实质性交易信号。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5380, prompt_tokens=13324, total_tokens=18704, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=4475, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=13312), prompt_cache_hit_tokens=13312, prompt_cache_miss_tokens=12)
+content length: 1847
+============================================================
+{
+  "news": [
+    {
+      "title": "衍生品恐慌，PCE或引爆反弹",
+      "summary": "比特币衍生品市场出现恐慌信号，持仓数据显示空头拥挤，市场情绪极度悲观。同时，市场聚焦今晚20:30将公布的美国5月核心PCE数据，该数据为美联储关注的核心通胀指标。若PCE弱于预期，可能缓解加息担忧，并触发空头挤压，带动BTC、ETH等加密资产反弹。目前BTC在6万美元附近徘徊，期权市场看跌期权持仓偏高。该消息影响BTC和ETH，若PCE数据低于预期则为强烈看多信号，但若高于预期可能加剧下跌。由于预期偏弱，信号暂定为bullish，但需等待数据确认。",
+      "reason": "直接关联宏观经济核心PCE数据发布，该数据对风险资产有重大影响，同时衍生品市场显示极端恐慌，是多空博弈关键节点。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/daybook-us/2026/06/25/bitcoin-derivatives-signal-panic-a-weak-core-pce-reading-could-trigger-snapback"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CNBC：交易员看空比特币",
+      "summary": "CNBC发表报道指出，比特币今年表现疲软，交易员普遍押注进一步下跌。报道引用了近期10亿美元清算事件及衍生品看跌信号，认为悲观情绪可能持续。该消息强化了市场当前的极度恐惧状态（恐惧贪婪指数12）。影响币种主要为BTC，短期信号为bearish，但极端恐惧下中长期可能酝酿反弹，需警惕情绪反转。",
+      "reason": "主流财经媒体CNBC的看空观点有助于市场情绪传导，属于情绪信号，可能进一步压制短期价格。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CNBC via Google News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdlZnTE5kQ0lIa0lrZVQ4cWl4NFBYa2JTS2hqaXBqa21qOE5DQUhGZEVKVzVTR0JJQkJCLU10TkdhOTF5MUtRSkU3ZmlCMk11dFBqeDduX2M2TzRmczJVcHVRNHE1YnZDX0otRG9zVTFESjhGQ2hpdnFFX1FrbEl6emZlOWhadWgtRzN2TmJRNXg3MTE3bHN4aU1ZOFJHdmRqZUpHWUpqcVNlWW02WUhF0gG0AUFVX3lxTE9pQXpxOVVXTUpKaDF6X3dqbFJaQlNyU2M3bDFRVGtiWXBreWY2b3R5WWdDb216S21yYlQ4YkNNT3E2R2RPWmFZaU1hT1NnaktMOEZQX1VpaEsxS1o4OFBtN3lZVjJWZHBETUs4M0I1Vk9JZmxESk8wOVVDT01UZ1dxWm5KNEozNHZiQjdNS1Z0YVpJWExEdTB6VzZ2NUltS05aUGZvQzEwU2h0Q3dmbUNLQ1Z5UQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时间段内大部分消息为重复事件，仅选出2条重要新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2716, prompt_tokens=5287, total_tokens=8003, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1268, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=4135)
+content length: 3709
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC亏损供应创新高",
+      "summary": "比特币亏损供应量达到历史新高的1083万枚BTC，意味着超过一半的流通供应处于未实现亏损状态。这一指标通常被视为市场底部信号，因为长期持有者倾向于在亏损时持有而非抛售。短期看空，但中长期可能形成支撑。影响币种：BTC。",
+      "reason": "链上异动指标创历史新高，符合优先级一「链上指标异常」，对价格有直接参考价值。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-supply-in-loss-reaches-record-high-10-83-million-btc"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数跌至12",
+      "summary": "加密货币恐惧与贪婪指数降至12（极度恐惧），为近期最低水平。历史数据表明，极度恐惧区域通常对应中长期底部，是逆向买入信号。但短期情绪可能继续恶化。影响币种：BTC、ETH等整体市场。",
+      "reason": "市场情绪极值，符合优先级三「恐惧贪婪指数极值」标准。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "衍生品恐慌+弱PCE或反弹",
+      "summary": "比特币衍生品市场信号显示恐慌情绪（如资金费率及期权偏斜），但分析指出若美国核心PCE数据弱于预期，可能触发价格反弹。当前市场做空拥挤，一旦宏观数据利好，容易出现轧空。影响币种：BTC、ETH。短期看多（条件性）。",
+      "reason": "结合衍生品信号与宏观数据，属于优先级一「巨鲸异动/市场结构」和优先级二「宏观经济数据」。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/daybook-us/2026/06/25/bitcoin-derivatives-signal-panic-a-weak-core-pce-reading-could-trigger-snapback"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "10亿美元清算后市场企稳",
+      "summary": "加密市场经历超过10亿美元的多头清算后，价格暂时企稳。历史经验表明，大规模清算后短期往往出现技术性反弹，但衍生品看跌信号仍存，反弹高度可能有限。影响币种：BTC、ETH。短期看多反弹，但需警惕后续抛压。",
+      "reason": "大规模清算事件属于优先级一「市场结构异常」，对短期方向有指导意义。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/25/crypto-relief-rally-fails-to-shake-persistent-bearish-derivatives-signal"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "美光财报强劲打压加密多头",
+      "summary": "美光科技公布超预期财报，股价大涨16%，吸引资金从风险资产（包括加密货币）流出。传统市场强势可能分流流动性，对加密市场形成短期压力。影响币种：BTC、ETH及相关科技币。短期看空。",
+      "reason": "传统市场资金流向影响风险资产，属于优先级二「宏观经济数据」的延伸。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/25/micron-delivers-blowout-earnings-surges-16-and-deals-crypto-bulls-a-blow"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "SBI控股收购日本交易所Bitbank",
+      "summary": "日本金融巨头SBI Holdings以2.886亿美元收购加密货币交易所Bitbank，显示传统金融机构持续布局加密领域。该收购将对日本市场产生积极信号，提升合规交易所估值。影响币种：整体市场偏多，尤其日元交易对。",
+      "reason": "大型机构收购交易所，符合优先级二「机构动向」，利好合规化进程。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/406105/sbi-holdings-agrees-to-acquire-japanese-crypto-exchange-bitbank-in-288-6-million-deal?utm_source=rss&utm_medium=rss"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Circle与野村合作稳定币结算",
+      "summary": "Circle与野村证券计划在日本推出基于稳定币的企业外汇即时结算服务，有望推动稳定币在跨境支付领域的采用。这是稳定币实用化的重要进展，利好USDC及相关生态。影响币种：USDC、整体市场偏多。",
+      "reason": "稳定币应用扩展符合优先级二「DeFi/项目更新」，对市场流动性有长期利好。",
+      "category": "项目更新",
+      "impact_coins": ["USDC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/circle-nomura-partner-instant-fx-settlement-business?utm_source=rss&utm_medium=rss&utm_campaign=rss"}],
+      "urgency": "days"
+    }
+  ]
+}
