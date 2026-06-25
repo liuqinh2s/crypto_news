@@ -950,3 +950,94 @@ content length: 1859
   ],
   "note": "当前市场处于极度恐惧状态（恐惧贪婪指数12），但该指数在历史消息中已重复，未再列入。本轮仅有3条新增有价值消息，其余多为重复公告或低影响内容。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1705, prompt_tokens=10981, total_tokens=12686, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=817, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9829)
+content length: 2384
+============================================================
+{
+  "news": [
+    {
+      "title": "Ripple稳定币RLUSD进入日本",
+      "summary": "Ripple的稳定币RLUSD获得日本监管批准，可正式进入日本市场。日本是全球重要的加密市场之一，此举为Ripple生态带来合规突破，可能增加XRP的使用场景和需求。属于监管利好，对XRP和RLUSD是看多信号。",
+      "reason": "优先级一：重大监管动态，国家级别批准稳定币，直接利好Ripple生态。",
+      "category": "监管政策",
+      "impact_coins": ["XRP", "RLUSD"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519294.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CoinEx被指涉伊朗资金流动",
+      "summary": "华尔街日报报道CoinEx与伊朗相关加密资金存在关联，可能面临监管调查。若证实，CoinEx及相关代币（CET）将受负面影响，并可能引发市场对交易所合规风险的担忧，利空CET及相关代币。",
+      "reason": "优先级一：重大监管动态，交易所涉及非法资金流动是严重负面消息。",
+      "category": "监管政策",
+      "impact_coins": ["CET"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519293.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗警告霍尔木兹海峡通行",
+      "summary": "伊朗革命卫队警告未经协调穿越霍尔木兹海峡是危险行为，地缘政治紧张升级。可能推高油价，加剧全球避险情绪，利空风险资产包括加密货币。短期看空BTC、ETH等。",
+      "reason": "优先级二：地缘政治事件影响市场情绪和风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519288.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Coinbase溢价指数连续46天为负",
+      "summary": "Coinbase溢价指数连续46天为负值，表明美国机构投资者对比特币需求持续低迷，抛压大于买入。这是市场结构弱势信号，中期看空BTC。",
+      "reason": "优先级一：链上异动/市场结构指标直接反映机构需求，影响比特币价格。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519286.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "两巨鲸做空标普500超9000万美元",
+      "summary": "两个巨鲸账户开设大额标普500空头仓位，总规模超9000万美元，反映对美股及宏观经济的悲观预期。可能引发风险资产回调，利空加密货币。",
+      "reason": "优先级二：巨鲸行为预示宏观悲观预期，可能引发连锁反应。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519285.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
