@@ -210,3 +210,142 @@ content length: 1997
   ],
   "note": "经去重筛选，仅发现3条有交易价值的新消息。多数新闻已在历史中重复出现。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3593, prompt_tokens=15273, total_tokens=18866, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1664, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14121)
+content length: 4803
+============================================================
+{
+  "news": [
+    {
+      "title": "Base链中断影响产出",
+      "summary": "Coinbase孵化的Base链遭遇主网链中断，区块生产暂停。这是Base首次重大故障，可能影响Base生态代币如AERO、DEGEN等，并引发对L2安全性的担忧。短期偏空，但若快速恢复影响有限。",
+      "reason": "交易所公链重大故障，直接影响Base生态资产交易和情绪。属于优先级一的项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["AERO", "DEGEN", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406213/coinbase-incubated-base-blockchain-suffers-unsafe-head-stall-interrupting-block-production"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Kraken拟15%入股Aave",
+      "summary": "Kraken正在谈判以3.85亿美元估值收购DeFi借贷协议Aave 15%的股份。若达成，将提振Aave的市场信心和采用，利好AAVE代币。但尚未确认，需关注进展。",
+      "reason": "头部交易所入股DeFi蓝筹，直接利好AAVE价格。属于机构动向，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/06/25/kraken-in-talks-to-buy-15-stake-in-defi-lender-aave-at-usd385-million-valuation"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "XRP跌破1美元风险加大",
+      "summary": "XRP价格接近1美元关键心理位，但链上数据显示活跃地址和交易量回升，暗示可能存在支撑。若破位则可能加速下跌，反之则可能反弹。信号中性偏空。",
+      "reason": "主流币关键价位博弈，结合链上数据，属于优先级二的链上指标异常。",
+      "category": "链上异动",
+      "impact_coins": ["XRP"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/xrp-may-lose-1-but-onchain-data-signals-improving-outlook-heres-why"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "21Shares下调2026预测",
+      "summary": "尽管机构采用增加，21Shares仍下调2026年加密资产价格预测，理由是宏观不确定性和监管压力。这反映了机构短期看空情绪，可能加剧市场悲观。",
+      "reason": "知名资管机构下调预测，影响市场情绪。属于优先级二的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/21shares-trims-2026-crypto-forecasts-etf-adoption"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Kraken与Maple推机构贷款",
+      "summary": "Kraken和Maple Finance联合推出链上仓库设施，为机构提供加密抵押贷款。这有望增加机构资金流入，提升流动性，利好加密市场。",
+      "reason": "机构级贷款产品推出，促进主流采用和流动性。属于优先级二的机构动向。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/kraken-maple-launch-onchain-warehouse-facility-for-crypto-backed-institutional-loans"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "BTC期权到期106亿美元施压",
+      "summary": "比特币面临创纪录的106亿美元季度期权到期，Bitfinex警告“最大痛点”可能引发波动。大量期权到期通常放大价格波动，可能加剧抛售或反弹。短期偏空。",
+      "reason": "巨量期权到期是市场结构重要事件，直接影响BTC价格波动。属于优先级一的市场结构信号。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOREVfQ0UtdTBTcWoyOXZHSmd5Ty1FdmJCSXNBMjRxMjZMOU9McFJ5QkdfS0x6UF81TEkyTjVLVndFU0NmNTg3bGN6NTltdGhOZldZNUlqME1qcWpvQ3k2SXhVU2F0YTFmNXIzbHBManYzRkJNYVlLbkVLNWtPQkM4WkM5Ynl6QXNyYTJCM1dPWnBqVngxYVFj"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "共和党将推出新加密法案",
+      "summary": "一位共和党参议员表示，新加密法案草案即将公布。该法案可能为加密市场提供更明确的监管框架，利好整个行业。但具体内容未知，需观望。",
+      "reason": "美国监管政策重大进展，若法案通过将利好。属于优先级一的监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomberg Government",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3VERWxQXzJJWWowZ1FPakp2c1BOUUxlLUgydkJMWU1mOWNRRVBvWE1ycERXQlRlM1NnNHI4Q2xybHpGbVo5ZWFIcXNGeFhfMlYtSjZKMFU0dFdOT2s4dzNYX2hGMDFWNk84YVg3aXNoUnJiY0o4RWJSRGZJeHVvdVBwSjZfNEhFazhYSFczZGtWRnRla3VUVF9sX0g3MWZqSm5Jc1pqM1o3aDVZ"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "14.8亿美元强制清算冲击",
+      "summary": "加密货币市场遭遇14.8亿美元强制清算，创近期新高。大量多单被平仓，加剧下跌趋势，但清算后往往出现短期反弹机会。信号偏空，但需警惕反转。",
+      "reason": "大规模清算事件直接影响行情，属于链上异动。历史有类似但未给具体金额，此为新数据。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Cryptonomist",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01ODI3ajZNNi1BaDB6dGpQa2ZONk9TdUNRd3ZQYjVwQ00zSUpOQURfcndqckZPckxrWlE0c1lpUjNpRVgwcW02VWpneGEwNEdSOTJ3MlZfYjJUNHp5ckdWMTNRVmljTVZoVURpUC03cmw"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
