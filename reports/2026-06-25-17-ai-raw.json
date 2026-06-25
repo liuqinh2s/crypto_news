@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-25",
+  "hour": "17",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11391,
+    "completion_tokens": 3022,
+    "total_tokens": 14413
+  },
+  "content_length": 2068,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"印尼要求加密影响者持证\",\n      \"summary\": \"印度尼西亚政府出台新规，要求推荐加密货币的社交媒体影响者必须获得认证，以保护投资者并遏制虚假宣传。短期可能抑制市场情绪，但长期有利于规范行业发展。影响币种以主流为主，信号中性。\",\n      \"reason\": \"监管政策首次出现，未重复，影响中等。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/indonesia-certification-rules-influencers-recommending-crypto\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"波兰Kanga获MiCA牌照\",\n      \"summary\": \"波兰加密货币交易所Kanga在拉脱维亚获得MiCA监管许可，可合规服务欧盟客户。这是合规利好，显示欧洲监管框架推进，可能提振市场对合规交易所的信心，利好整体市场情绪。\",\n      \"reason\": \"监管合规利好，首次出现，未重复。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/poland-kanga-secures-mica-license-latvia\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Hyperscale Data资产覆盖市值\",\n      \"summary\": \"Hyperscale Data公司披露其持有现金、比特币和白银资产约9480万美元，相当于其普通股市值的100.42%。该消息对加密货币市场整体影响极小，仅对该公司相关代币或股票有微弱影响。\",\n      \"reason\": \"公司资产公告，涉及比特币持有，但非巨鲸级，影响微弱。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Morningstar\",\n          \"url\": \"https://news.google.com/rss/articles/CBMixwJBVV95cUxOWmIwazZTcXJ3WTE3LW9OOWhuTWVNdUhHNjM3S2NHd2VJcG9CZ1BSQlFMZ1FHS2M2LWhSOGJfdVoxRktnRmk4VXRuUGs1a3pyZ2JJdlpHazEyQzlnZjZqendYR2s0TVJUMXFEa3pYT0hkQlN1WmhSUlIyUnBTZXVCOUZ5OUpRWWExYUVuUjloeV9FUWlJRkVsMEVXRzlSOXBocTcxU2tURExoa1ZvVnRrTUxzc2R4VW5Ub2doMnoydFg5bzNTWExuWE1NdlVyZVNEU1lTblFMMWVYVlBJYi04TmxvdGE1RGw0c1RsOG90ZExTOHRmUHUzYVZ1Z2hfR2JrSzh5TzRRRm9nOGZGc3ZlTkJ0LWV0TXpaaFd2ZGdNZHZ0Y1F6UXdEOVA1c1llVVNJblptZ2RPZ1d1Z2wzYl9WaG12cDJlNkk?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"本轮素材中大部分消息与历史重复（如Binance公告、恐惧贪婪指数、主流新闻等），经过严格去重后仅筛选出3条新消息，均为轻度影响。未发现优先级一或二级的重要消息。\"\n}"
+}
