@@ -1886,3 +1886,126 @@ content length: 1551
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2253, prompt_tokens=12864, total_tokens=15117, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=887, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11712)
+content length: 3747
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC亏损供应量创历史新高",
+      "summary": "据CoinDesk报道，比特币亏损供应量达到历史最高的1083万枚BTC，占流通量的54%以上。这意味着超过一半的比特币持有者处于浮亏状态，通常被视为底部信号。长期持有者并未恐慌，但短期抛压可能持续。影响币种：BTC。信号：中性（中长期看多，短期偏空）。",
+      "reason": "链上数据异动，属于优先级一的链上异动（巨量亏损可能引发恐慌或抄底）。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-supply-in-loss-reaches-record-high-10-83-million-btc"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "衍生品指标持续看跌",
+      "summary": "CoinDesk分析指出，即使出现反弹，加密货币衍生品市场仍持续发出看跌信号。资金费率和未平仓合约结构显示空头占据主导，反弹可能难以持续。影响币种：BTC、ETH。信号：看跌。",
+      "reason": "市场结构信号，属于优先级三的市场情绪（资金费率异常）。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/25/crypto-relief-rally-fails-to-shake-persistent-bearish-derivatives-signal"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美光财报超预期分流资金",
+      "summary": "美光科技公布强劲财报，股价飙升16%，推动科技股上涨。但这也导致资金从加密货币市场流出，加剧了BTC和ETH的卖压。影响币种：BTC、ETH。信号：看跌（资金流向传统科技股）。",
+      "reason": "宏观经济相关（财报影响风险资产轮动），属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/25/micron-delivers-blowout-earnings-surges-16-and-deals-crypto-bulls-a-blow"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SBI控股收购日本交易所Bitbank",
+      "summary": "日本金融巨头SBI Holdings同意以2.886亿美元收购日本加密货币交易所Bitbank。此举显示传统金融机构加速入场，长期利好日本加密市场，但短期影响有限。影响币种：BTC、ETH。信号：看多（机构认可）。",
+      "reason": "机构动向，属于优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406105/sbi-holdings-agrees-to-acquire-japanese-crypto-exchange-bitbank-in-288-6-million-deal"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "泰国通缉涉非法挖矿中国商人",
+      "summary": "泰国对一名涉嫌非法加密货币挖矿的中国商人发出逮捕令，涉案金额2800万美元。此举可能加剧东南亚国家对加密货币的监管压力。影响币种：BTC。信号：看跌（监管利空）。",
+      "reason": "监管动态，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406090/thailand-issues-arrest-warrant-chinese-businessman-mining-power-theft"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "贝莱德向Coinbase存入2400 BTC",
+      "summary": "据金色财经报道，资产管理巨头贝莱德向Coinbase存入2400枚BTC，价值约1.45亿美元。可能用于ETF申赎或交易，通常被视为短期抛压信号。影响币种：BTC。信号：看跌（大额流入交易所）。",
+      "reason": "巨鲸异动，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519405.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至12（极端恐惧）",
+      "summary": "当前恐惧贪婪指数为12，属于极度恐惧区间。历史数据显示该区域通常是中长期底部，但短期可能继续下跌。影响币种：BTC、ETH。信号：中性（短期看跌，中长期看多）。",
+      "reason": "市场情绪极值，属于优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
