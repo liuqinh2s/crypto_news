@@ -814,3 +814,79 @@ content length: 2650
   ],
   "note": "当前市场消息以宏观利空为主，恐惧贪婪指数17（极度恐惧）已持续，但历史消息中已重复，故未列入。Binance公告等常规上币消息因重复且不影响主流币交易，已排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3088, prompt_tokens=12304, total_tokens=15392, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2084, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11152)
+content length: 2518
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数降至12",
+      "summary": "恐惧与贪婪指数从17进一步下降至12，进入极度恐惧区域。历史数据显示，指数低于20往往对应市场底部区域，中长期看涨信号强烈。当前BTC跌破60000美元，ETH跌破1600美元，市场恐慌情绪蔓延，但极度恐惧通常为逆向买入机会。影响整个加密货币市场，尤其是BTC和ETH。信号：中长期看涨，短期可能继续震荡。",
+      "reason": "恐惧贪婪指数极值，符合筛选标准中优先级三的市场情绪信号，<20为中长期抄底区。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "渣打银行预测AAVE涨50倍",
+      "summary": "渣打银行发布报告称，Aave代币到2030年可能上涨50倍，理由包括DeFi借贷市场增长、AAVE通缩机制及机构采用。该预测对AAVE构成直接利好，短期可能吸引资金关注，但时间跨度较长，需警惕短期炒作风险。影响币种：AAVE。信号：看多。",
+      "reason": "顶级机构给出极端乐观预测，直接影响AAVE币种，符合优先级二的中期影响和机构动向。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/372056/aave-token-climb-50x-end-2030-standard-chartered"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "HYPE从高点下跌22%",
+      "summary": "HYPE代币价格较历史高点下跌22%，市场分析认为需要现货需求复苏才能逆转跌势。当前价格处于关键支撑位，若需求无法恢复，可能进一步下探。短期看空，但若出现抄底买盘可能反弹。影响币种：HYPE。信号：看空（短期承压）。",
+      "reason": "币种价格大幅下跌，涉及技术面分析，影响短期交易决策，符合优先级二中的技术分析相关。",
+      "category": "市场结构",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/hype-down-22-from-record-highs-can-spot-demand-retain-the-uptrend"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Sonic宣布今年不增发代币",
+      "summary": "Sonic项目宣布2026年将不增发其代币$S，并正在探索停止代币通胀的机制。此举有利于减少供应压力，对S代币价格构成利好。影响币种：S。信号：看多。",
+      "reason": "项目代币经济模型重大调整，直接影响供需，符合优先级二的项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["S"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519276.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "黄仁勋：AI基建周期长达数十年",
+      "summary": "NVIDIA CEO黄仁勋在股东大会上表示，本轮AI基础设施建设周期将持续数十年，利好AI相关科技股及加密货币中的AI叙事。虽然不直接作用于加密货币，但提振市场风险偏好，间接利好BTC、ETH等主流币。信号：看多（情绪面）。",
+      "reason": "重要人物言论，影响市场情绪，符合优先级二的宏观驱动力。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519273.html"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
