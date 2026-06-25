@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-25",
+  "hour": "18",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11586,
+    "completion_tokens": 1600,
+    "total_tokens": 13186
+  },
+  "content_length": 1551,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Kraken扩张OTC贷款\",\n      \"summary\": \"Kraken通过Maple Finance的链上仓库设施扩展OTC贷款业务，允许机构借款人利用链上信用额度进行大额交易。这增加了市场流动性，可能吸引更多机构资金入场，对BTC、ETH等主流币形成间接利好。但短期内影响有限，更多是基础设施完善。信号中性偏多。\",\n      \"reason\": \"机构借贷扩张是市场成熟的标志，中期利好，优先级二。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/406054/kraken-expands-otc-lending-onchain-warehouse-facility-maple\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Circle与野村推日本稳定币\",\n      \"summary\": \"Circle与野村证券计划于2027年在日本推出合规稳定币结算服务，USDC有望进一步渗透亚洲市场。日本监管环境友好，此举将增加稳定币供应和应用场景，利好USDC及整个加密生态。但距离实施尚早，短期情绪提振有限。\",\n      \"reason\": \"稳定币合规化是监管利好，有助于资金入场，优先级二。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519380.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Polymarket pUSD交易量破5亿\",\n      \"summary\": \"Polymarket的pUSD交易量已超过5亿美元，表明预测市场对稳定币需求旺盛，可能推动更多流动性流入链上。但pUSD本身非主流稳定币，短期对BTC等影响微弱。市场情绪中性。\",\n      \"reason\": \"链上活跃度提升，但非核心指标，优先级三。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"USDC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519374.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

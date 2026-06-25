@@ -1827,3 +1827,62 @@ content length: 2068
   ],
   "note": "本轮素材中大部分消息与历史重复（如Binance公告、恐惧贪婪指数、主流新闻等），经过严格去重后仅筛选出3条新消息，均为轻度影响。未发现优先级一或二级的重要消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1600, prompt_tokens=11586, total_tokens=13186, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1022, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10434)
+content length: 1551
+============================================================
+{
+  "news": [
+    {
+      "title": "Kraken扩张OTC贷款",
+      "summary": "Kraken通过Maple Finance的链上仓库设施扩展OTC贷款业务，允许机构借款人利用链上信用额度进行大额交易。这增加了市场流动性，可能吸引更多机构资金入场，对BTC、ETH等主流币形成间接利好。但短期内影响有限，更多是基础设施完善。信号中性偏多。",
+      "reason": "机构借贷扩张是市场成熟的标志，中期利好，优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406054/kraken-expands-otc-lending-onchain-warehouse-facility-maple"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Circle与野村推日本稳定币",
+      "summary": "Circle与野村证券计划于2027年在日本推出合规稳定币结算服务，USDC有望进一步渗透亚洲市场。日本监管环境友好，此举将增加稳定币供应和应用场景，利好USDC及整个加密生态。但距离实施尚早，短期情绪提振有限。",
+      "reason": "稳定币合规化是监管利好，有助于资金入场，优先级二。",
+      "category": "监管政策",
+      "impact_coins": ["USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519380.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Polymarket pUSD交易量破5亿",
+      "summary": "Polymarket的pUSD交易量已超过5亿美元，表明预测市场对稳定币需求旺盛，可能推动更多流动性流入链上。但pUSD本身非主流稳定币，短期对BTC等影响微弱。市场情绪中性。",
+      "reason": "链上活跃度提升，但非核心指标，优先级三。",
+      "category": "市场结构",
+      "impact_coins": ["USDC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519374.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
