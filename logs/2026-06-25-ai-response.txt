@@ -1236,3 +1236,94 @@ content length: 1805
   ],
   "note": "由于大部分消息与历史重复，且本轮有效筛选仅3条，已全部输出。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2771, prompt_tokens=10232, total_tokens=13003, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1433, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9080)
+content length: 3247
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC期权到期或加剧波动",
+      "summary": "据彭博报道，6月25日将有约100亿美元比特币期权到期，其中名义价值巨大的合约可能加剧市场波动。当前比特币价格在6万美元附近挣扎，大规模期权到期往往引发价格剧烈波动，尤其是行权价附近的对冲活动。若比特币无法站稳6万，可能触发更多下行；若守住则可能反弹。影响币种主要为BTC，短期看空，因未平仓量大且市场情绪脆弱。",
+      "reason": "大规模期权到期直接影响BTC短期价格，属于市场结构重大事件，可能引发清算和波动。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomberg Crypto",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFNjbjZOTHhmTGpjYUUtY0pEcy1QVFlibXVfZVhGc3JXRkhPWTd4X2dyVnlSdjRVNzJkRHJlYllnMVV6TkR1Y2tBSmdQbWItQk9tR3d6NnRYVWZJV19HSGhVN2E5MWRMaFFrc1VQSHlnM3lBYVB6NmdrOFpYdElZeDE3OXh3MTZsUFlzRVg0MHBLc3BabVBPaEpCMnlteEhJZEpNajZaQVBrWVRmc0lhNWNsZnc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "核心PCE数据将考验BTC",
+      "summary": "CoinDesk指出，比特币目前处于关键支撑位，周四（6月25日）即将公布的核心PCE物价指数可能成为下一个重要催化剂。若PCE高于预期，将强化美联储加息预期，利空风险资产；若低于预期，则可能短暂提振市场。该数据直接关联美元走势和降息预期，对BTC、ETH等加密资产影响显著。目前市场预期中性，但数据偏差可能引发剧烈波动。",
+      "reason": "核心PCE是美联储最关注的通胀指标，直接影响货币政策预期，属于宏观经济重大事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-has-a-new-line-in-the-sand-thursday-s-core-pce-could-stress-test-it"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "ADA跌出市值前20",
+      "summary": "Reddit社区热议，Cardano（ADA）已正式跌出加密货币市值前20名，创历史新低。ADA价格持续下跌，市值被多个新兴项目超越。这一标志性事件显示ADA市场地位急剧下滑，社区信心受挫。从基本面看，ADA缺乏重大升级和生态应用支持，当前熊市中资金持续外流。持续看空ADA，短期内可能继续下跌。",
+      "reason": "市值排名变化反映项目基本面恶化和市场情绪，属于项目更新类利空信号。",
+      "category": "项目更新",
+      "impact_coins": ["ADA"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit r/cryptocurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ueybfl/ada_is_officially_out_of_the_top_20/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Kalshi遭伊利诺伊州起诉",
+      "summary": "预测市场平台Kalshi因伊利诺伊州新税法对体育预测市场征税而提起诉讼。该诉讼可能影响美国预测市场监管格局，若Kalshi败诉，将增加合规成本并打压行业信心。此事件对相关代币如POLY（Polymarket）等构成负面情绪，但短期影响有限。整体看空预测市场代币，因监管不确定性加剧。",
+      "reason": "监管诉讼直接影响预测市场赛道，属于监管政策类事件，可能引发板块下跌。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/234567/kalshi-sues-illinois-over-new-state-tax-on-sports-related-prediction-markets"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "XRP承压测试1美元",
+      "summary": "CoinDesk报道，XRP下跌2.8%，反弹乏力，1美元关口成关键支撑。Ripple在日本推出RLUSD稳定币的消息未能提振XRP，市场对XRP的看跌情绪延续。技术面显示XRP可能跌破1美元，若失守将打开进一步下行空间。影响币种为XRP，短期看空。",
+      "reason": "XRP作为主流币，关键支撑位博弈对短线交易有指引作用，属于行情异动。",
+      "category": "链上异动",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/25/xrp-slides-2-8-as-weak-bounce-keeps-usd1-support-in-focus"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
