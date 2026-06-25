@@ -1,16 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4919, prompt_tokens=15441, total_tokens=20360, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3509, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14289)
+content length: 3843
+============================================================
 {
-  "date": "2026-06-26",
-  "hour": "00",
   "news": [
     {
       "title": "BTC跌至58K受高PCE影响",
       "summary": "美国5月核心PCE通胀数据高于预期，引发市场对加息的担忧，导致BTC从61K闪崩至58K，创多年新低。分析师认为存在操纵痕迹，但短期可能触发空头挤压。此消息直接影响BTC及整个加密货币市场，看空信号明显。",
       "reason": "宏观经济数据直接影响风险资产，PCE超预期是重大利空，符合优先级一。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 5,
       "sources": [
@@ -26,10 +28,7 @@
       "summary": "以Strategy优先股STRC为抵押的稳定币apxUSD价格跌破0.8美元，引发市场对STRC偿债能力的担忧。STRC此前已从100美元跌至76美元，apxUSD脱锚可能加剧恐慌，导致更多抛售。直接影响STRC、MSTR及BTC（因Strategy持有大量BTC）。",
       "reason": "稳定币脱锚是重大风险事件，可能引发连锁清算，符合优先级一。",
       "category": "项目更新",
-      "impact_coins": [
-        "BTC",
-        "MSTR"
-      ],
+      "impact_coins": ["BTC", "MSTR"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -45,9 +44,7 @@
       "summary": "一家量化基金指出，罕见链上信号（如长期持有者行为、交易所流量等）表明比特币接近重大转折点。尽管当前价格下跌，但这些信号历史上曾预示底部或顶部。需关注后续价格行为，但当前信号偏中性。",
       "reason": "链上异动指标异常，可能预示趋势反转，符合优先级二。",
       "category": "链上异动",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "neutral",
       "impact_level": 3,
       "sources": [
@@ -63,10 +60,7 @@
       "summary": "Tether在以太坊上的USDT0（桥接版本）累计交易量突破1000亿美元里程碑，显示稳定币使用率依然强劲。虽然供应增长放缓，但交易量高企表明市场活跃度仍在，对整体市场情绪有支撑作用。",
       "reason": "稳定币交易量增长是资金入场信号，符合优先级一（但不如增发直接）。",
       "category": "市场结构",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bullish",
       "impact_level": 2,
       "sources": [
@@ -82,10 +76,7 @@
       "summary": "数据显示Strategy仍有10个月的现金用来支付股息，但散户投资者因STRC和MSTR暴跌而失去信心。CryptoQuant建议停止购买BTC并增加现金储备。若Strategy减少买币，将削弱BTC买盘压力。",
       "reason": "机构动向影响BTC供需，矛盾信号需关注，符合优先级二。",
       "category": "ETF机构",
-      "impact_coins": [
-        "BTC",
-        "MSTR"
-      ],
+      "impact_coins": ["BTC", "MSTR"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
@@ -101,9 +92,7 @@
       "summary": "比特币矿企Bitplanet与Antalpha签署协议，启动新的挖矿业务。此举可能增加算力，但规模有限，对市场影响微弱。",
       "reason": "挖矿业务拓展，属于行业新闻但影响较小，符合优先级三。",
       "category": "项目更新",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "neutral",
       "impact_level": 1,
       "sources": [
@@ -119,9 +108,7 @@
       "summary": "安全公司Specter报告指出，多名Polymarket用户疑似遭钓鱼攻击，总损失约294万美元。此事件可能影响用户对预测市场的信心，但规模较小。",
       "reason": "安全事件但金额不大，属于轻度影响。",
       "category": "项目更新",
-      "impact_coins": [
-        "Polygon"
-      ],
+      "impact_coins": ["Polygon"],
       "signal": "bearish",
       "impact_level": 1,
       "sources": [
@@ -133,6 +120,5 @@
       "urgency": "hours"
     }
   ],
-  "total_fetched": 73,
-  "generated_at": "2026-06-26T00:01:34.039742+08:00"
+  "note": "经过严格去重，从73条抓取素材中筛选出7条具有交易价值的新消息。市场整体偏空，短期关注PCE影响和apxUSD脱锚风险。"
 }
