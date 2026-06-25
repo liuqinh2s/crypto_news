@@ -1148,3 +1148,91 @@ content length: 3260
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2193, prompt_tokens=10431, total_tokens=12624, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1854, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9279)
+content length: 791
+============================================================
+{
+  "news": [
+    {
+      "title": "MIM稳定币脱锚恶化",
+      "summary": "Abracadabra协议因MIM稳定币脱锚加剧而采取紧急措施。MIM是Abracadabra发行的算法稳定币，近期价格跌破1美元，脱锚幅度扩大，引发市场恐慌。协议团队已启动紧急治理提案，试图稳定币价，包括调整抵押品参数、增加流动性等。该事件直接影响MIM及关联代币SPELL，并可能引发DeFi市场连锁反应：若脱锚失控，可能造成大量坏账和清算，利空DeFi板块。此外，MIM的抵押资产中包含CRV等代币，可能波及Curve生态。整体看空信号，建议规避MIM、SPELL及关联资产。",
+      "reason": "DeFi稳定币脱锚属于重大事件，可能引发系统性风险，影响中期行情，符合优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["MIM", "SPELL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/abracadabra-takes-emergency-measures-as-magic-internet-money-depeg-worsens"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "当前市场信息重复性高，多数消息已在历史中出现，仅筛选到一条具有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1873, prompt_tokens=10431, total_tokens=12304, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1166, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=63)
+content length: 1805
+============================================================
+{
+  "news": [
+    {
+      "title": "Ripple在日推出RLUSD",
+      "summary": "Ripple宣布其稳定币RLUSD已获日本监管机构批准并正式上线，成为首个进入日本市场的美元稳定币。日本是全球最大的加密货币交易市场之一，Ripple的合规进展将增强XRP生态及RLUSD采用，同时可能增加XRP的需求。看多XRP及Ripple相关代币。",
+      "reason": "Ripple稳定币RLUSD正式在日本市场推出，属于重大合规与产品进展，对XRP形成直接利好，且影响中期市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["XRP", "RLUSD"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406067/ripple-launches-rlusd-stablecoin-japan"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "MIM脱锚加剧，Abracadabra紧急行动",
+      "summary": "Abracadabra团队宣布采取紧急措施应对MIM稳定币脱锚问题，目前MIM价格已跌至0.85美元附近，脱锚幅度扩大。MIM是DeFi协议Abracadabra的核心资产，脱锚可能引发连锁清算，影响SPELL及协议锁仓资产。短期看空MIM/SPELL，可能导致CRV等相关资产承压。",
+      "reason": "稳定币脱锚属于DeFi重大事件，历史上类似事件曾引发市场恐慌及清算潮，对相关协议代币有直接利空影响。",
+      "category": "项目更新",
+      "impact_coins": ["MIM", "SPELL"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/abracadabra-takes-emergency-measures-as-magic-internet-money-depeg-worsens"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Uniswap新增无代码代币拍卖",
+      "summary": "Uniswap在Web应用中新增无需代码的代币拍卖工具，用户可直接创建代币拍卖，无需智能合约知识。这降低了发币门槛，可能吸引更多项目在Uniswap上发行，增加UNI代币的实用性和协议营收。短期利好UNI，但发酵需要时间。",
+      "reason": "Uniswap产品升级增加了平台吸引力，可能提升交易量和UNI需求，属于项目更新中的积极信号。",
+      "category": "项目更新",
+      "impact_coins": ["UNI"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519301.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于大部分消息与历史重复，且本轮有效筛选仅3条，已全部输出。"
+}
