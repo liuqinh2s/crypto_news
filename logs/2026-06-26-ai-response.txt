@@ -714,3 +714,186 @@ content length: 3569
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2265, prompt_tokens=11975, total_tokens=14240, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1777, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10823)
+content length: 1174
+============================================================
+{
+  "news": [
+    {
+      "title": "美联储7月维持利率不变概率69%",
+      "summary": "CME FedWatch工具显示，美联储在7月会议上维持利率不变的概率为69%。尽管近期PCE通胀数据高于预期，但市场仍预期美联储将按兵不动。这可能缓解对加息的恐慌，对BTC和ETH等风险资产构成短期利好。但若通胀持续高企，后续加息风险仍在。信号为中性偏多，影响币种BTC、ETH。",
+      "reason": "宏观数据更新，直接影响风险资产定价，市场对利率路径的预期变化影响加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519579.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗警告驶离指定航线船舶无安全保障",
+      "summary": "伊朗官方声明称，驶离指定航线的船舶将不享有安全保障，此系霍尔木兹海峡货船遇袭事件的后续升级。地缘政治风险加剧可能推高油价并引发避险情绪，短期对风险资产（包括加密货币）造成压力。但鉴于近期BTC已大幅下跌，该消息可能加重抛售，信号偏空，影响币种BTC、ETH。",
+      "reason": "地缘政治风险升级，可能触发风险资产抛售，间接影响加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519575.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大多与历史消息重复，仅筛选出两条具有交易价值的新消息。恐惧贪婪指数持续12（极度恐惧）虽为重要情绪指标，但因数值未变且历史已多次出现，故未重复纳入。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2238, prompt_tokens=11975, total_tokens=14213, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=333, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11904), prompt_cache_hit_tokens=11904, prompt_cache_miss_tokens=71)
+content length: 4571
+============================================================
+{
+  "news": [
+    {
+      "title": "Invesco拟推代币化稳定币基金",
+      "summary": "资管巨头Invesco申请推出代币化基金，专门针对稳定币储备市场，旨在将传统金融与链上稳定币结合。该消息可能提升稳定币及整个DeFi生态的合规性和吸引力，对BTC和ETH构成长期利好。看多信号，但短期影响有限。",
+      "reason": "优先级一：重大机构动态，涉及稳定币供应和储备市场，可能影响USDT、USDC等稳定币及整体市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519582.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币ETF创纪录资金外流",
+      "summary": "据CNBC报道，比特币ETF出现创纪录的投资者外流，显示机构投资者在比特币跌破6万美元后恐慌性撤离。这进一步加剧了抛售压力，是强烈的看空信号，可能推动比特币进一步下跌。",
+      "reason": "优先级一：ETF资金流入流出直接影响BTC价格，创纪录外流为重大利空。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUJpRmh1eURaY0s2Mk5tVmRNdHNpdDEtVkdrSkJ0V21pTDNqUFZRMmZ0U3NSUll3cTFjRTV0WW5pc1BqdmltUzlvcjM3SjJrdXNYbk9mcVlXRDlQNUFyVmxXT1JoUFpjYy1KcnVXejVvLTAwT01OcGQ1YnRyN1BWN0U3SQ?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "参议院7月冲刺加密立法",
+      "summary": "美国参议院争取在7月推进加密货币立法（如《清晰法案》），但住房法案动荡可能压缩时间窗口。若立法通过，将提供监管清晰度，利好整个行业；若失败，市场不确定性增加。目前中性偏多。",
+      "reason": "优先级一：重大监管动态，直接影响市场预期和合规路径。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519577.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Aave创始人拒绝70%折价收购",
+      "summary": "针对Kraken拟以70%折扣收购AAVE的传闻，Aave创始人Stani Kulechov明确表示AAVE不卖。此举稳定了市场情绪，短期对AAVE价格形成支撑。看多AAVE，但中长期取决于协议发展。",
+      "reason": "优先级一：项目方重大事件，直接影响AAVE代币价格和投资者信心。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406252/aave-stani-kulechov-says-aave-isnt-for-sale-at-70-discount-report-payward-bid"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "PCE通胀超预期打压市场",
+      "summary": "美国4月PCE通胀升至三年来最高，引发美联储可能继续加息的担忧。风险资产承压，比特币跌破$58K并创2026年新低。宏观紧缩预期强烈，看空BTC及整个加密货币市场。",
+      "reason": "优先级一：宏观经济数据（PCE）直接影响风险资产走势，属重大利空。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc0NkblFzTU9vTjhuR2tiN0Y4WmtHY2dPb0JJdDlMM295b1EtLVBzaTBuUVVWVl9NVmdFSnZCYmRqbjZCSktSNmVWaFRFZC1NX3RmTkowY2lTek1JWHoybHlRZl8wc1JxeDlEQ1htWllJek93UXdOREt2U1ZCQnZxVkZQc3NjbEFXLVlSOUhRMXh6NUU?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "1.48亿美元加密强制平仓",
+      "summary": "比特币下跌引发大规模清算，24小时内1.48亿美元多头仓位被强平，创近期新高。连锁反应可能加剧短期抛售，但强平后市场往往出现反弹。短期看空，中长期中性。",
+      "reason": "优先级二：市场结构/链上异动，大规模清算信号影响短期价格走势。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Cryptonomist",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc0NkblFzTU9vTjhuR2tiN0Y4WmtHY2dPb0JJdDlMM295b1EtLVBzaTBuUVVWVl9NVmdFSnZCYmRqbjZCSktSNmVWaFRFZC1NX3RmTkowY2lTek1JWHoybHlRZl8wc1JxeDlEQ1htWllJek93UXdOREt2U1ZCQnZxVkZQc3NjbEFXLVlSOUhRMXh6NUU?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数12极度恐惧",
+      "summary": "恐惧贪婪指数降至12（极度恐惧），历史上该区域往往是中长期底部区域。虽然短期可能继续承压，但已进入历史抄底区间，中长期看多信号。",
+      "reason": "优先级三：市场情绪极端值，有助于判断中长期拐点。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗袭击货船推高地缘风险",
+      "summary": "伊朗在霍尔木兹海峡袭击货船，数艘油轮折返，中东紧张局势升级。可能推高油价和避险情绪，间接影响风险资产，比特币短期或受避险资金流入而上涨。看多BTC（避险属性），但需关注事态发展。",
+      "reason": "优先级二：地缘政治事件影响市场情绪和风险资产定价。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519574.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
