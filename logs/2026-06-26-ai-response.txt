@@ -122,3 +122,91 @@ content length: 3843
   ],
   "note": "经过严格去重，从73条抓取素材中筛选出7条具有交易价值的新消息。市场整体偏空，短期关注PCE影响和apxUSD脱锚风险。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4424, prompt_tokens=15852, total_tokens=20276, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3975, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=14700)
+content length: 926
+============================================================
+{
+  "news": [
+    {
+      "title": "共和党将公布新加密法案草案",
+      "summary": "据Bloomberg Government News报道，美国共和党参议员表示即将公布一份新的加密货币法案草案。该法案可能涉及市场结构、稳定币监管等内容，若获通过将为行业提供更清晰的法律框架，可能吸引机构资金入场。当前市场极度悲观，政策利好可能触发反弹。影响币种包括BTC、ETH及合规概念币。短期看多，但需关注具体细节。",
+      "reason": "监管重大动态，直接影响全市场预期，且历史消息中未重复。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomberg Government News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3VERWxQXzJJWWowZ1FPakp2c1BOUUxlLUgydkJMWU1mOWNRRVBvWE1ycERXQlRlM1NnNHI4Q2xybHpGbVo5ZWFIcXNGeFhfMlYtSjZKMFU0dFdOT2s4dzNYX2hGMDFWNk84YVg3aXNoUnJiY0o4RWJSRGZJeHVvdVBwSjZfNEhFazhYSFczZGtWRnRla3VUVF9sX0g3MWZqSm5Jc1pqM1o3aDVZ"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取的65条素材中，大部分与历史消息重复，包括比特币暴跌、策略公司STRC下跌、PCE通胀、apxUSD脱锚、鲸鱼做多等。唯一未被覆盖的新消息仅为上述加密法案草案，故仅输出1条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4236, prompt_tokens=15852, total_tokens=20088, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3368, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=15744), prompt_cache_hit_tokens=15744, prompt_cache_miss_tokens=108)
+content length: 1997
+============================================================
+{
+  "news": [
+    {
+      "title": "GOP参议员将公布新加密法案草案",
+      "summary": "据Bloomberg Government News，一位共和党参议员表示即将公布新的加密法案草案，这可能是美国加密监管的重大进展。具体条款未明，但可能涉及市场结构、稳定币等。若法案利好合规，将推动加密市场上涨；但若过于严苛，则可能带来压力。目前信号偏向中性观望。",
+      "reason": "新的监管动态，直接影响市场情绪和未来合规走向，优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomberg Government News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3VERWxQXzJJWWowZ1FPakp2c1BOUUxlLUgydkJMWU1mOWNRRVBvWE1ycERXQlRlM1NnNHI4Q2xybHpGbVo5ZWFIcXNGeFhfMlYtSjZKMFU0dFdOT2s4dzNYX2hGMDFWNk84YVg3aXNoUnJiY0o4RWJSRGZJeHVvdVBwSjZfNEhFazhYSFczZGtWRnRla3VUVF9sX0g3MWZqSm5Jc1pqM1o3aDVZ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国罚款Bithumb 13.6万美元",
+      "summary": "韩国当局因Bithumb未经用户同意向海外共享个人信息对其罚款13.6万美元。此事件表明韩国监管趋严，但罚款金额较小，对交易所影响有限。可能会轻微打压Bithumb相关代币情绪，但整体影响不大。",
+      "reason": "监管处罚事件，属于监管政策范畴，但影响较小。",
+      "category": "监管政策",
+      "impact_coins": ["BTS", "KLAY"],
+      "signal": "bearish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/south-korea-investigation-bithumb-user-information"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "全线下跌，超20万人爆仓",
+      "summary": "加密市场全线下跌，据数据统计超过20万交易者爆仓，总清算金额巨大。这显示出市场极度恐慌和杠杆出清。短期可能因过度抛售而出现反弹机会，但中期依旧承压。",
+      "reason": "爆仓数据反映市场结构恶化，属于市场结构类消息，提供交易参考。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "每日经济新闻",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iV05wTjAxUE1OWFNrcUM0LWtveG5nY1NTMVRsSnBDYjY3RXRoalpRdUpfOFZRaFRGUEtEMEQ0NlI1X1ZrNC1YYUdjaENPSy1tQWJiYXg4dGtTZEVGalZrYTdvSTFVQQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经去重筛选，仅发现3条有交易价值的新消息。多数新闻已在历史中重复出现。"
+}
