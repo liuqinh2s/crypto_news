@@ -1327,3 +1327,277 @@ content length: 3247
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1645, prompt_tokens=10877, total_tokens=12522, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1221, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9725)
+content length: 1133
+============================================================
+{
+  "news": [
+    {
+      "title": "CoinEx涉伊朗资金38亿",
+      "summary": "TRM Labs报告显示，加密交易所CoinEx处理了与伊朗相关的38亿美元资金，成为伊朗资金进出加密货币的主要通道。该报道比之前WSJ的报道提供了更具体的金额，可能引发美国监管机构对CoinEx的更严厉审查，并对整个加密交易所行业产生负面情绪。对BTC、ETH等主流币种构成间接利空，因监管风险上升。信号看空。",
+      "reason": "新消息提供具体金额，相比历史消息有更新，属于重大监管风险，影响中等。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406073/coinex-iran-trm-labs"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "民主党要求SEC回应AI投顾",
+      "summary": "美国众议院民主党议员要求证券交易委员会（SEC）就人工智能投资顾问的监管问题作出回应。这显示监管机构可能加强对AI相关金融产品的审查，但目前对加密货币直接影响有限。市场情绪中性，但长期可能影响加密领域中的AI项目。评级中性。",
+      "reason": "监管新动态，但影响范围有限，属于优先级二边缘消息。",
+      "category": "监管政策",
+      "impact_coins": ["AI相关代币"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/dems-want-secs-answers-on-ai-investment-advisors"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3531, prompt_tokens=10877, total_tokens=14408, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3039, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10752), prompt_cache_hit_tokens=10752, prompt_cache_miss_tokens=125)
+content length: 1277
+============================================================
+{
+  "news": [
+    {
+      "title": "CoinEx涉38亿伊朗资金",
+      "summary": "TRM Labs报告指出，加密货币交易所CoinEx处理了约38亿美元与伊朗相关的资金，成为伊朗绕过制裁的加密货币门户。这可能引发监管机构对CoinEx的进一步调查，增加市场对交易所合规性的担忧，短期内对整体市场情绪形成压力，特别是比特币和以太坊。该消息为看空信号。",
+      "reason": "涉及交易所合规和伊朗制裁，属于重大监管动态（优先级一），且历史消息中虽有类似报道但无具体金额，本次有具体数据更新。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406073/coinex-iran-trm-labs?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美众议院要求SEC解释AI投顾",
+      "summary": "美国众议院民主党议员要求证券交易委员会（SEC）就AI投资顾问的监管问题做出答复。这可能预示着未来对AI在金融领域的监管加强，短期内对加密市场影响有限，但长期可能影响使用AI的交易平台和代币。该消息为中性信号。",
+      "reason": "虽然涉及监管，但针对AI投顾，并非直接针对加密，属于中期影响（优先级二），且影响较小。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/dems-want-secs-answers-on-ai-investment-advisors?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "经过筛选，当前素材中仅有2条未在历史消息中出现的新信息，其余均为重复内容。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1145, prompt_tokens=10877, total_tokens=12022, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1061, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10752), prompt_cache_hit_tokens=10752, prompt_cache_miss_tokens=125)
+content length: 150
+============================================================
+{"news":[],"note":"截至2026-06-25 14:00 UTC+8，本轮抓取的所有消息均与历史消息重复（如M代币暴跌、RLUSD上线、CoinEx伊朗关联、恐惧贪婪指数、Binance公告等），无新的重大交易信号。建议关注周四核心PCE数据及$10亿期权到期对行情的潜在影响。"}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2419, prompt_tokens=11810, total_tokens=14229, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2136, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1664), prompt_cache_hit_tokens=1664, prompt_cache_miss_tokens=10146)
+content length: 688
+============================================================
+{
+  "news": [
+    {
+      "title": "美民主党要求SEC回应AI投顾",
+      "summary": "美国众议院民主党议员致信SEC，质疑交易平台提供的AI投资顾问服务是否合规，要求SEC回应如何保护散户投资者。这可能影响涉及AI代币和DeFi平台，若监管趋严，相关币种承压。短期内影响有限，但长期可能增加合规成本。信号偏空，但影响级别较低。",
+      "reason": "新监管动向，可能影响AI相关加密项目。",
+      "category": "监管政策",
+      "impact_coins": ["FET", "AGIX", "OCEAN"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/dems-want-secs-answers-on-ai-investment-advisors"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中其他消息均与历史消息重复（如恐惧贪婪指数12、BTC回升至6万、Ripple RLUSD上线日本、M代币暴跌、CoinEx关联伊朗、Binance公告等），已去重。仅此一条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1285, prompt_tokens=11810, total_tokens=13095, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1026, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11776), prompt_cache_hit_tokens=11776, prompt_cache_miss_tokens=34)
+content length: 642
+============================================================
+{
+  "news": [
+    {
+      "title": "美众议员要求SEC解释AI投顾",
+      "summary": "美国众议院民主党议员致信SEC，要求解释交易平台提供AI代理顾问服务是否合规，以及如何保护散户投资者。此举若导致SEC出台严格监管，可能限制AI相关加密项目的创新，对AI赛道代币（如AGIX、FET等）构成间接利空。但当前仅为问询阶段，尚未形成正式政策，影响有限。整体信号中性偏空。",
+      "reason": "监管政策询问可能引发后续监管收紧，影响AI相关代币及市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["AGIX", "FET"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/dems-want-secs-answers-on-ai-investment-advisors"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本次素材中多数消息与历史消息重复，仅筛选出1条新消息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2958, prompt_tokens=5049, total_tokens=8007, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1305, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3897)
+content length: 4120
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC $100亿期权到期",
+      "summary": "明天（6月26日）将有约100亿美元比特币期权到期，最大痛点约$55,000。大量期权到期可能引发市场波动和价格压力，尤其是在当前市场情绪脆弱、BTC刚回升至$60,000的背景下。若BTC未能守住$60,000，可能加速下跌。主要影响BTC，间接影响ETH和SOL。短期看空信号。",
+      "reason": "优先级一：市场结构事件，巨额期权到期往往导致价格剧烈波动和方向性变化，影响行情直接。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomberg Crypto",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFNjbjZOTHhmTGpjYUUtY0pEcy1QVFlibXVfZVhGc3JXRkhPWTd4X2dyVnlSdjRVNzJkRHJlYllnMVV6TkR1Y2tBSmdQbWItQk9tR3d6NnRYVWZJV19HSGhVN2E5MWRMaFFrc1VQSHlnM3lBYVB6NmdrOFpYdElZeDE3OXh3MTZsUFlzRVg0MHBLc3BabVBPaEpCMnlteEhJZEpNajZaQVBrWVRmc0lhNWNsZnc?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数12极端恐惧",
+      "summary": "恐惧贪婪指数降至12，处于极度恐惧区间。历史数据显示该区域通常对应中期底部，是分批建仓的机会。当前市场情绪极度悲观，但需等待其他催化剂确认反转。主要影响BTC和ETH。中长期看多信号。",
+      "reason": "优先级三：恐惧贪婪指数极值，<20为历史抄底区，具有中长期参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "RLUSD在日本获批上线",
+      "summary": "Ripple的RLUSD稳定币已获得日本监管机构批准，正式在日本上线。这是Ripple在亚洲市场的重要突破，有望提升XRP的实用性和采用率。日本是严格的监管市场，获批表明RLUSD合规性得到认可。利好XRP和Ripple生态。看多信号。",
+      "reason": "优先级一：重大监管动态（稳定币合规获批），直接影响XRP价格和市场信心。",
+      "category": "监管政策",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/25/ripple-s-rlusd-stablecoin-goes-live-in-japan-after-regulatory-approval"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "M代币崩盘80%原因不明",
+      "summary": "MemeCore项目代币M突然暴跌80%，无明确触发因素，疑似砸盘或 rug pull。此类崩盘可能引发对 Meme 和低流动性代币的恐慌，资金可能流向主流资产。对M持有者利空，对BTC/ETH可能情绪上偏中性。看空M信号。",
+      "reason": "优先级一：项目方重大事件（崩盘/rug），直接影响对应代币，并可能引起市场恐慌。",
+      "category": "项目更新",
+      "impact_coins": ["M"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/25/memecore-s-m-token-suddenly-crashes-80-with-no-clear-trigger"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CoinEx被指处理伊朗关联38亿美元",
+      "summary": "TRM Labs报告指出CoinEx处理了38亿美元与伊朗相关的资金，充当加密网关。这可能引发美国监管机构对CoinEx的制裁风险，并波及其他离岸交易所。监管压力增加，整体市场偏空，尤其是可能影响伊朗相关的加密活动。看空整体市场信号。",
+      "reason": "优先级一：重大监管动态（制裁风险），可能引发交易所倒闭或监管收紧，影响市场情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406073/coinex-iran-trm-labs?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "币安上线RE代币（种子标签）",
+      "summary": "Binance宣布上线Re (RE) 代币并附带种子标签，RE是一个去中心化计算平台代币。新币上线通常带来短期交易量和波动，但种子标签提示高风险。可能吸引投机资金，短期看多RE，但需注意波动风险。影响RE为主。",
+      "reason": "优先级一：交易所上币公告，直接影响对应代币的流动性、价格和关注度。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "币安上线ARX永续合约",
+      "summary": "Binance Futures将于6月23日上线ARXUSDT永续合约。ARX是Arweave生态代币（存储），上线永续合约增加杠杆交易，提高流动性，短期利好AR价格。影响AR。看多信号。",
+      "reason": "优先级一：交易所上线合约，直接增加交易工具，通常推动价格短期上涨。",
+      "category": "交易所",
+      "impact_coins": ["AR"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
