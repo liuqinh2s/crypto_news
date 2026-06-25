@@ -607,3 +607,110 @@ content length: 2638
   ],
   "note": "本轮抓取素材中多数为历史重复消息，仅筛选出4条有效新消息。整体市场处于极度恐惧状态（Fear & Greed指数12），但该指标已在历史中多次出现，未纳入。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2360, prompt_tokens=13041, total_tokens=15401, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=932, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=11889)
+content length: 3569
+============================================================
+{
+  "news": [
+    {
+      "title": "Invesco进军代币化稳定币储备基金",
+      "summary": "资产管理巨头Invesco提交文件，计划推出一支代币化基金，专门投资于稳定币储备资产（如短期国债等）。这意味着传统大型机构正直接进入稳定币底层市场，可能提升稳定币的合规性和透明度，吸引更多资金流入加密市场。长期看利好整个加密生态，尤其是稳定币发行商和DeFi协议。信号：看多。",
+      "reason": "优先级一：机构动态，万亿级资管公司直接参与稳定币基础设施，可能引发行业跟风，显著利好。",
+      "category": "ETF机构",
+      "impact_coins": ["USDT", "USDC", "DAI"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "参议院7月加速推进加密立法",
+      "summary": "美国参议院正在努力在7月推进一项加密法案，但住房法案的动荡可能威胁时间表。如果法案通过，将为加密市场提供明确的监管框架，减少不确定性。这是近期监管层面的重大利好进展，可能提振市场信心。",
+      "reason": "优先级一：监管动态，立法进程直接影响市场预期，利好整个加密市场。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406231/senate-races-advance-crypto-legislation-housing-bill-turmoil-threatens-timeline"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Aave创始人否认出售传闻",
+      "summary": "Aave创始人Stani Kulechov回应称，AAVE不会以70%的折扣出售，此前有报道称Kraken（Payward）曾出价收购15%股份。这消除了市场对AAVE被低价收购的担忧，短期利好AAVE价格，但收购谈判的不确定性依然存在。",
+      "reason": "优先级二：项目重大事件，直接影响AAVE代币价格和DeFi龙头估值。",
+      "category": "项目更新",
+      "impact_coins": ["AAVE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406252/aave-stani-kulechov-says-aave-isnt-for-sale-at-70-discount-report-payward-bid"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket将退款黑客受害者",
+      "summary": "去中心化预测市场Polymarket宣布，将向近期网站漏洞中被盗数百万美元的用户退款。此事虽暴露安全风险，但官方承诺退款可缓解社区恐慌，对POLY代币情绪有短期修复作用。",
+      "reason": "优先级二：安全事件后续，直接关联平台信誉和代币价格。",
+      "category": "项目更新",
+      "impact_coins": ["POLY"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/372129/polymarket-refund-users-scammers-swipe-millions-website-exploit"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "AI算力需求激增利好比特币矿工",
+      "summary": "据Bloomberg报道，AI对电力的巨大需求正在为陷入困境的比特币矿工带来新机遇，矿场可转租算力或合作运营AI数据中心。这可能缓解矿工抛售压力，支撑比特币价格，尤其利好拥有廉价电力和基础设施的矿企。",
+      "reason": "优先级二：链上异动/行业趋势，直接影响矿工行为和比特币抛压。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMy1SbGJvbnY0WlpFUWJZWHI1cGMzY25HQm9zRzl4R1ktNS1xelppSU56ZE50TmlVNVdQb2xlR3hJZTdUaHI5TnIzZU1fVzB2d2cyZVZMM0I5RWRjdzJnazFSQzhTSEdDdnRuNGNKQnJHSERQT1N3S3VmRHU5RFhSZ1hzMFptSDRjWnpIUDd6RTlMeWg1c2NKTS1uYnd1anQ5MGhvZTVqNTZ4VlZEVC1ZTTlESm9GZw?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "霍尔木兹海峡油轮遇袭，地缘风险升温",
+      "summary": "一艘货船在霍尔木兹海峡遇袭，多艘油轮折返，该海峡是中东石油运输要道。地缘紧张可能推高油价，间接引发通胀担忧，对风险资产（包括加密货币）短期利空，但长期可能促使避险资金流入比特币。",
+      "reason": "优先级二：宏观经济/地缘事件，影响风险偏好和通胀预期。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519568.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
