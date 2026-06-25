@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-25",
+  "hour": "16",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 12065,
+    "completion_tokens": 2546,
+    "total_tokens": 14611
+  },
+  "content_length": 1761,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"MicroStrategy或转向AI减持BTC\",\n      \"summary\": \"Yahoo Finance报道称，MicroStrategy (MSTR) 可能正在重新平衡其核心叙事，从比特币转向人工智能。MSTR是最大的上市公司比特币持有者之一，若转向AI可能减持BTC，增加抛售压力。此消息对BTC构成潜在利空，但尚未确认。\",\n      \"reason\": \"机构动向可能引发大规模BTC抛售，影响行情\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"Yahoo Finance\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiowFBVV95cUxNVXNQbkMwT1B4U01PbU5xOEYtcTQtVTdoMW03c1dBcUoyNEUyUzlsWE16QU1FUzhab3drbGNwZHBjd1FlZmpHcTNRTXZxYTBUSVk5TFN5RVpYbVFFS0NpZUx0ZU9YNURwYnR1cVNoMDVfOHY5eEtIUnJIVlZMekZHbDlNay1sSzZrZ0xCOFI3aVZ0WjEzOTZiN1BhVEo1cUpsbTRj?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"鲁比奥警告霍尔木兹海峡收费\",\n      \"summary\": \"美国参议员鲁比奥表示，对霍尔木兹海峡通行收费将开创不可接受的先例。此前伊朗曾警告未经协调穿越海峡危险。地缘政治紧张加剧可能推高油价，间接影响风险资产和加密货币市场情绪，短期偏空。\",\n      \"reason\": \"地缘政治风险上升，影响宏观经济预期\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519352.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"韩国处罚Bithumb数据违规\",\n      \"summary\": \"The Block报道，韩国对Bithumb处以罚款，因其未经同意将用户数据共享到海外。监管行动可能引发市场对韩国交易所合规风险的担忧，短期利空市场情绪，但影响有限。\",\n      \"reason\": \"监管政策影响交易所运营和投资者信心\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"The Block\",\n          \"url\": \"https://www.theblock.co/post/406082/south-korea-bithumb-information-penalty?utm_source=rss&utm_medium=rss\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}

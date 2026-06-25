@@ -1462,3 +1462,82 @@
 2026-06-25 07:01:22 [DEBUG]   去重: 「RLUSD稳定币在日本上线」 → URL重复: https://www.coindesk.com/markets/2026/06/25/ripple-s-rlusd-s
 2026-06-25 07:01:22 [INFO] 📦 JSON 已保存: reports/2026-06-25-15.json
 2026-06-25 07:01:22 [INFO] ✅ AI 筛选完成，共 4 条交易相关消息
+2026-06-25 08:00:58 [INFO] 🚀 开始抓取 2026-06-25 16:00 币圈新闻
+2026-06-25 08:00:58 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-25 08:00:58 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-25 08:00:58 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-06-25 08:00:58 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-25 08:00:58 [INFO]   ⏭ CoinTelegraph: 过滤掉 29 条非近期新闻
+2026-06-25 08:00:58 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-25 08:00:58 [INFO]   ⏭ CoinDesk: 过滤掉 23 条非近期新闻
+2026-06-25 08:00:58 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-25 08:00:58 [INFO]   ⏭ 宏观经济: 过滤掉 49 条非近期新闻
+2026-06-25 08:00:58 [INFO]   ⏭ Reuters Crypto: 过滤掉 49 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ CNBC Crypto: 过滤掉 50 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 22 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ 雪球加密: 过滤掉 48 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ Blockworks: 过滤掉 5 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ Crypto Twitter: 过滤掉 45 条非近期新闻
+2026-06-25 08:00:59 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 50 条非近期新闻
+2026-06-25 08:01:02 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-25 08:01:02 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-25 08:01:14 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-06-25 08:01:14 [INFO]   ✓ CoinDesk: 2 条
+2026-06-25 08:01:14 [INFO]   ✓ The Block: 1 条
+2026-06-25 08:01:14 [INFO]   ✓ Decrypt: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ CoinTelegraph: 1 条
+2026-06-25 08:01:14 [INFO]   ✓ Bitcoin Magazine: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ Blockworks: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ DL News: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ 金色财经: 10 条
+2026-06-25 08:01:14 [INFO]   ✓ PANews: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ Reuters Crypto: 1 条
+2026-06-25 08:01:14 [INFO]   ✓ CNBC Crypto: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ Reddit r/bitcoin: 3 条
+2026-06-25 08:01:14 [INFO]   ✓ Crypto Twitter: 5 条
+2026-06-25 08:01:14 [INFO]   ✓ 宏观经济: 1 条
+2026-06-25 08:01:14 [INFO]   ✓ Binance公告: 20 条
+2026-06-25 08:01:14 [INFO]   ✓ OKX公告: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ Bitget公告: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ Whale Alert: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-25 08:01:14 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-25 08:01:14 [INFO]   ✓ 雪球加密: 2 条
+2026-06-25 08:01:14 [INFO] 📊 共抓取 47 条新闻
+2026-06-25 08:01:14 [INFO] 📋 原始新闻已保存: reports/2026-06-25-16-raw.json (47 条)
+2026-06-25 08:01:14 [INFO] 📋 标题摘要已保存: reports/2026-06-25-16-raw-titles.md
+2026-06-25 08:01:14 [INFO] ✅ 抓取完成，共 47 条，已保存到 reports/2026-06-25-16-raw.json
+2026-06-25 08:01:14 [INFO] 🤖 开始 AI 筛选 2026-06-25 16:00 币圈消息
+2026-06-25 08:01:14 [INFO] 📋 已加载原始新闻: reports/2026-06-25-16-raw.json (47 条)
+2026-06-25 08:01:14 [INFO] 📚 已加载历史新闻标题（18246 字符）
+2026-06-25 08:01:14 [INFO] 📚 已加载历史筛选标题 23 条、URL 23 个，用于去重
+2026-06-25 08:01:14 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-25 08:01:14 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-25 08:01:14 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（47 条，9611 字符，temp=0.3）
+2026-06-25 08:01:40 [INFO] AI 原始返回已保存: logs/2026-06-25-ai-response.txt (finish_reason=stop, 1761 字符)
+2026-06-25 08:01:40 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-25-16-ai-raw.json
+2026-06-25 08:01:40 [DEBUG] parse_json_response 输入长度: 1761 字符
+2026-06-25 08:01:40 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "MicroStrategy或转向AI减持BTC",
+      "summary": "Yahoo Finance报道称，MicroStrategy (MSTR) 可能正在重新平衡其核心叙事，从比特币转向人工智能。MSTR是最大的上市公司比特币持有者之一，若转向AI可能减持BTC，增加抛售压力。此消息对BTC构成潜在利空，但尚未确认。",
+      "reason": "机构动向可能引发大规模BTC抛售，影响行情",
+      "category": "ETF机构",
+      "impact_coins": ["B
+2026-06-25 08:01:40 [DEBUG] 从 JSON 对象的 news 字段提取到 3 条记录
+2026-06-25 08:01:40 [INFO] ✅ AI 返回 3 条新闻
+2026-06-25 08:01:40 [INFO] ✅ AI 筛选出 3 条交易相关消息，符合预期
+2026-06-25 08:01:40 [INFO] 🔗 来源链接覆盖: 3/3 条新闻有有效链接
+2026-06-25 08:01:40 [INFO] 📦 JSON 已保存: reports/2026-06-25-16.json
+2026-06-25 08:01:40 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息

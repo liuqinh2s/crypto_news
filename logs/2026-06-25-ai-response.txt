@@ -1708,3 +1708,62 @@ content length: 3202
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2546, prompt_tokens=12065, total_tokens=14611, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1841, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10913)
+content length: 1761
+============================================================
+{
+  "news": [
+    {
+      "title": "MicroStrategy或转向AI减持BTC",
+      "summary": "Yahoo Finance报道称，MicroStrategy (MSTR) 可能正在重新平衡其核心叙事，从比特币转向人工智能。MSTR是最大的上市公司比特币持有者之一，若转向AI可能减持BTC，增加抛售压力。此消息对BTC构成潜在利空，但尚未确认。",
+      "reason": "机构动向可能引发大规模BTC抛售，影响行情",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVXNQbkMwT1B4U01PbU5xOEYtcTQtVTdoMW03c1dBcUoyNEUyUzlsWE16QU1FUzhab3drbGNwZHBjd1FlZmpHcTNRTXZxYTBUSVk5TFN5RVpYbVFFS0NpZUx0ZU9YNURwYnR1cVNoMDVfOHY5eEtIUnJIVlZMekZHbDlNay1sSzZrZ0xCOFI3aVZ0WjEzOTZiN1BhVEo1cUpsbTRj?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "鲁比奥警告霍尔木兹海峡收费",
+      "summary": "美国参议员鲁比奥表示，对霍尔木兹海峡通行收费将开创不可接受的先例。此前伊朗曾警告未经协调穿越海峡危险。地缘政治紧张加剧可能推高油价，间接影响风险资产和加密货币市场情绪，短期偏空。",
+      "reason": "地缘政治风险上升，影响宏观经济预期",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519352.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国处罚Bithumb数据违规",
+      "summary": "The Block报道，韩国对Bithumb处以罚款，因其未经同意将用户数据共享到海外。监管行动可能引发市场对韩国交易所合规风险的担忧，短期利空市场情绪，但影响有限。",
+      "reason": "监管政策影响交易所运营和投资者信心",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406082/south-korea-bithumb-information-penalty?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
