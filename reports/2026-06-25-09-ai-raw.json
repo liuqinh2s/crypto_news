@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-25",
+  "hour": "09",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11125,
+    "completion_tokens": 2307,
+    "total_tokens": 13432
+  },
+  "content_length": 1859,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Coinbase获卢森堡MiCA牌照\",\n      \"summary\": \"Coinbase已获得卢森堡金融监管部门的MiCA牌照，将以卢森堡作为欧盟业务总部。这意味着Coinbase可以在欧盟合规运营，利好整个加密货币生态系统，特别是Coinbase相关代币和欧盟加密资产。该牌照表明欧盟加密监管框架落地，可能吸引更多机构进入市场。对BTC、ETH等主流币种构成长期利好，短期影响中性偏多。\",\n      \"reason\": \"重大监管动态：Coinbase获得欧盟MiCA牌照，为合规进度重要里程碑，直接影响加密行业在欧洲的发展，属于优先级一监管政策，影响广泛。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"COIN\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519283.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"KyberSwap攻击者再转移2000ETH\",\n      \"summary\": \"据PeckShield监测，KyberSwap攻击者将2000枚ETH（约1200万美元）转移至Tornado Cash进行混币，目前已有超80%被盗资金被洗白。这标志着黑客仍在持续出货，对ETH构成抛压，同时KyberSwap相关代币KNC可能承压。链上数据表明黑客出货未结束，短期偏空信号。\",\n      \"reason\": \"链上异动：大额资金转移至混币器，预示可能抛售，影响ETH价格和DeFi生态信心，属于优先级一中的项目方重大事件（黑客攻击后果）。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\", \"KNC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519282.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Polymarket集成TON至Telegram\",\n      \"summary\": \"预测市场Polymarket通过TON网络集成至Telegram，用户可直接在Telegram应用内参与预测市场，大幅降低使用门槛。这将推动预测市场板块的用户增长，利好TON生态和Polymarket（Kalshi竞争对手）。对于TON代币和预测市场概念币种（如REP）有正面影响，但短期影响有限。\",\n      \"reason\": \"项目更新：重要的集成事件，可能带动TON和预测市场热度，属于优先级二中的DeFi/NFT重大事件（TVL或用户增长潜力）。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"TON\", \"REP\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519278.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前市场处于极度恐惧状态（恐惧贪婪指数12），但该指数在历史消息中已重复，未再列入。本轮仅有3条新增有价值消息，其余多为重复公告或低影响内容。\"\n}"
+}
