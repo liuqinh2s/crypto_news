@@ -1614,3 +1614,110 @@ content length: 3566
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3895, prompt_tokens=11395, total_tokens=15290, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2731, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10243)
+content length: 3161
+============================================================
+{
+  "news": [
+    {
+      "title": "USDT市值超越ETH",
+      "summary": "Tether稳定币USDT市值超过以太坊ETH，成为第二大加密货币，ETH价格跌至1500美元。这反映资金避险情绪高涨，投资者从ETH转向稳定币。短期看空ETH，但USDT增发通常被视为资金入场信号，整体市场可能已接近底部。",
+      "reason": "市场结构重大变化，USDT市值超越ETH为历史首次，直接影响资金流向和ETH估值。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "USDT"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/tether-stablecoin-flips-ether-by-market-cap-as-eth-routs-to-15k"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "德银：PCE削弱加息押注",
+      "summary": "德意志银行表示，美国PCE数据低于预期，令市场削减美联储加息押注，利好风险资产包括加密货币。此前市场因通胀担忧导致币价大跌，若加息预期降温，BTC、ETH等可能迎来反弹。",
+      "reason": "宏观经济直接影响风险资产定价，加息预期减弱是加密市场重大利好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519643.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Alex关联钱包抛售1.76万ETH",
+      "summary": "两个疑似Celsius前CEO Alex Mashinsky关联钱包卖出1.76万枚ETH，获得2724万枚USDS。此举将ETH从长期持有转入活跃状态，可能为配合法律行动或偿付，产生显著抛压。",
+      "reason": "链上异动，巨鲸大额抛售ETH，直接对ETH价格构成利空压力。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519639.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy账面亏损1300亿美元",
+      "summary": "Strategy（原MicroStrategy）持有大量BTC，当前未实现亏损达130亿美元，超过许多山寨币总市值。虽然公司暂无强制平仓风险，但巨额浮亏可能引发市场对其财务状况的担忧，加剧BTC抛售情绪。",
+      "reason": "机构巨头账面巨额亏损是市场情绪的重要信号，可能引发连锁负面解读。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/26/too-big-to-fail-strategy-s-usd13-billion-bitcoin-paper-loss-alone-dwarfs-hundreds-of-prominent-tokens"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "GENIUS Act稳定币法案指南",
+      "summary": "The Block发布美国稳定币法案GENIUS Act指南，该法案旨在建立稳定币联邦监管框架。若通过，将对USDT、USDC等合规性产生重大影响，可能推动机构资金入场，中长期利好合规稳定币及加密市场。",
+      "reason": "监管政策是影响市场基础的重大事件，虽然非立即生效，但提供了预期方向。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDT", "USDC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/learn/406286/what-is-the-genius-act"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "日股收跌4.15%创近三月最大",
+      "summary": "日经指数收盘下跌4.15%，为3月9日以来最大单日跌幅，进一步确认全球风险资产抛售潮。加密货币与股市关联性高，亚洲股市暴跌将加剧加密市场短期下行压力。",
+      "reason": "宏观经济联动性，日股暴跌反映宏观避险情绪蔓延，拖累加密市场。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519638.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
