@@ -2478,3 +2478,110 @@ content length: 4777
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=5285, prompt_tokens=14587, total_tokens=19872, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=4085, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13435)
+content length: 3173
+============================================================
+{
+  "news": [
+    {
+      "title": "Hyperliquid被新加坡MAS警告",
+      "summary": "新加坡金融管理局(MAS)将Hyperliquid列入投资者警示名单，意味着该平台未获MAS授权或监管。这可能导致Hyperliquid平台代币HYPE面临抛售压力，并可能影响其生态内的DeFi项目。这是监管利空信号，可能引发短期下跌。",
+      "reason": "历史消息中未出现，属于优先级一监管政策，直接影响Hyperliquid相关资产。",
+      "category": "监管政策",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/hyperliquid-singapore-mas-investor-alert-list"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "BTC ETF流出6.92亿+期权到期",
+      "summary": "据Decrypt报道，比特币ETF在6月26日录得6.92亿美元净流出，为6月最大单日流出。同时，价值108亿美元的BTC、ETH、XRP、SOL季度期权即将到期，可能加剧价格波动。ETF持续流出显示机构撤离，叠加衍生品到期，短期BTC面临下行压力。市场情绪极度恐惧（FGI 13），历史抄底区但短期仍可能继续探底。",
+      "reason": "历史中虽有ETF流出消息，但具体金额6.92亿和期权到期是新信息，属于优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH", "XRP", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/372180/bitcoin-tests-59k-as-etfs-shed-692m-options-expiry-looms"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美债收益率与美元走低",
+      "summary": "据金色财经报道，美债收益率与美元因通胀担忧缓解而走低。通常，美元走弱和收益率下降有利于风险资产，包括加密货币。这可能在中期缓解部分下行压力，但当前市场仍受ETF流出和宏观紧缩预期主导，短期看涨信号有限。",
+      "reason": "历史中未出现，属于宏观经济利好信号，影响风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519803.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "费城半导体指数大跌5%",
+      "summary": "费城半导体指数（SOX）大跌超5%，显示科技股抛售加剧。加密货币与科技股相关性较高，尤其是BTC和ETH。半导体疲软通常预示科技需求放缓，可能拖累加密市场情绪，短期利空。",
+      "reason": "历史中虽有AI芯片股下跌，但指数大跌5%是新的具体数据，属于宏观经济/市场结构影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519813.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "黄金突破4060美元",
+      "summary": "现货黄金突破4060美元/盎司，创下新高，反映出市场强烈的避险情绪。资金可能从风险资产流向黄金，加密货币（尤其是BTC作为数字黄金）可能面临资金分流压力。但BTC近期跌幅较大，黄金创新高也意味着流动性宽松环境，中长期看多。综合判断短期中性偏空。",
+      "reason": "历史中未出现，黄金创新高对加密市场有指示作用，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519797.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC反弹突破60000",
+      "summary": "BTC在跌至58000美元后反弹突破60000美元，显示短期买盘介入。但ETF持续流出、衍生品到期在即，反弹可能难以持续。CF Benchmarks提示历史买入区，但需等待确认。短期中性，中期偏多。",
+      "reason": "历史中未出现反弹突破60000的标题，是新的市场数据。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519815.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
