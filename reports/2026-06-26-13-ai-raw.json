@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-26",
+  "hour": "13",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10890,
+    "completion_tokens": 1763,
+    "total_tokens": 12653
+  },
+  "content_length": 2105,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Bitmine质押16万ETH\",\n      \"summary\": \"Bitmine地址再度质押160,480枚ETH，价值约2.487亿美元。这是大额质押行为，显著减少ETH流通供应，对ETH形成支撑。结合当前BTC跌破6万美元的恐慌情绪，大额质押显示长线资金看好ETH，可能抵消部分抛压。利好ETH，看涨信号。\",\n      \"reason\": \"巨鲸大规模质押ETH，减少流通供应，属于优先级一（链上异动），对ETH价格有直接支撑。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519625.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"USDC隐私功能上线Starknet\",\n      \"summary\": \"USDC隐私功能现已在Starknet上线，允许用户进行机密交易。这将提升Starknet生态的隐私能力，可能吸引更多DeFi应用迁移，对Starknet生态和USDC采用有利。但短期对价格影响有限，属于技术升级。对Starknet原生代币和USDC偏利好，但力度较弱。\",\n      \"reason\": \"属于优先级二（技术升级），对Starknet生态有长期利好，但短期影响有限。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"STRK\", \"USDC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519610.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"韩国审查加密资产纳入债务减免\",\n      \"summary\": \"韩国“新起点基金”将加密资产纳入债务减免审查，意味着债务人在申请减免时可能需要披露加密资产，可能被计入资产。这增加了监管透明度，但可能抑制韩国用户持有加密资产的意愿，短期偏利空。对韩国市场相关币种如BTC、ETH有轻微负面影响。\",\n      \"reason\": \"属于优先级二（监管政策），虽然影响范围有限，但涉及国家层面的监管态度，对市场情绪有压制。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519613.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Binance Alpha上线CAP独家TGE\",\n      \"summary\": \"Binance Alpha宣布将上线CAP(CAP)独家TGE（代币生成事件）。新币上线短期会带来交易量和关注度，但CAP为低市值项目，波动风险大。对CAP本身是重大利好，但对整体市场影响极小。适合短线交易者关注，长期价值不明。\",\n      \"reason\": \"属于优先级一（交易所上币），但项目体量小，仅对CAP有直接行情影响。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"CAP\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519623.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    }\n  ]\n}"
+}
