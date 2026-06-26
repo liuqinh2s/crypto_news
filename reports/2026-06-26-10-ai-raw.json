@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-26",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10051,
+    "completion_tokens": 3974,
+    "total_tokens": 14025
+  },
+  "content_length": 1993,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"ARK增持Coinbase等股票\",\n      \"summary\": \"知名投资机构ARK Invest在比特币大幅下跌后，逢低增持了Coinbase（COIN）、Circle、Bullish和Robinhood等加密相关股票。这显示机构对加密行业长期看好，可能提振市场信心。对Coinbase等股票价格有直接利好，间接利好整个加密市场，特别是比特币和以太坊。看多信号。\",\n      \"reason\": \"机构逢低增持，属于中期利好，反映机构信心。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"COIN\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/519594.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Spark向Uniswap v4注入1.5亿\",\n      \"summary\": \"Spark（MakerDAO生态系统）向Uniswap v4协议注入了1.5亿美元稳定币流动性。此举将极大提升Uniswap v4的深度，降低滑点，并可能吸引更多交易量。对Uniswap（UNI）代币价格形成利好，同时利好DeFi板块整体。\",\n      \"reason\": \"大额流动性注入，属于DeFi重大事件，直接利好UNI。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"UNI\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"Reddit\", \"url\": \"https://www.reddit.com/r/CryptoCurrency/comments/1ufsuio/spark_brings_150m_stablecoin_liquidity_to_uniswap/\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"Tornado Cash DAO现可疑提案\",\n      \"summary\": \"Tornado Cash DAO出现一个可疑治理提案，研究人员警告这可能是针对其2300万美元金库的攻击。如果提案通过，金库资金可能被盗。这对Tornado Cash（TORN）代币是重大利空，可能引发价格暴跌。需要密切关注提案进展。\",\n      \"reason\": \"直接安全事件，可能造成大规模资金损失。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"TORN\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/519595.html\"}],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Solana监控系统现漏洞\",\n      \"summary\": \"Solana基金会警告，Cherry Servers的旧版监控系统（Sensu）存在安全漏洞，要求验证节点运营方自查。虽然这不是直接对Solana核心的漏洞，但可能影响节点监控运行，存在潜在风险。可能引发短期恐慌，对SOL价格产生轻度负面影响。\",\n      \"reason\": \"安全漏洞影响Solana网络，但严重程度中等。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"SOL\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/519593.html\"}],\n      \"urgency\": \"hours\"\n    }\n  ],\n  \"note\": \"当前时段优先级一消息较少，主要筛选出4条中期影响消息。\"\n}"
+}

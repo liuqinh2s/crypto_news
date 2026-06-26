@@ -1,0 +1,274 @@
+{
+  "date": "2026-06-26",
+  "hour": "10",
+  "total": 38,
+  "fetched_at": "2026-06-26T10:00:47.486347+08:00",
+  "news": [
+    {
+      "source": "CoinTelegraph",
+      "title": "BitGo cuts 15% of staff to sharpen focus on AI, stablecoins",
+      "summary": "BitGo co-founder and CEO Mike Belshe says the layoffs are “a one-time action” and the company doesn’t see the need for further staff reductions.",
+      "link": "https://cointelegraph.com/news/crypto-infrastructure-firm-bitgo-lays-off-15-of-staff?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "Fri, 26 Jun 2026 00:41:02 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Bluewater 收购 Suilend 及其产品，后者将保持独立运营",
+      "summary": "【Bluewater 收购 Suilend 及其产品，后者将保持独立运营】金色财经报道，6月26日，DeFi 开发团队 Bluewater 完成对 Sui 生态借贷协议 Suilend 的收购，并同步收购其生态产品 STEAMM 和 SpringSui。收购完成后，Suilend 将继续作为独立平台运营，保留自身品牌、产品方向和基础设施。此外，Bluefin 联合创始人 Zabi 将出任 Suilend 首席执行官。 \n过渡期间官方将采取渐进且安全优先的策略，用户无需进行任何操作，现有仓位和协议功能将保持正常运行。Suilend 与 Bluefin 将维持独立品牌和法律结构，但未来会在交易、借贷、抵押品和流动性等方面进行更深度的整合。此次收购不包含 SEND 代币，SEND 将通过单独的清算流程向持有人进行分配。<p>原文链接: <a href=\"https://x.com/bluewaterHQ/status/2070126711056806150\">https://x.com/bluewaterHQ/status/2070126711056806150</a></p>",
+      "link": "https://jinse.com.cn/lives/519597.html",
+      "published": "Fri, 26 Jun 2026 01:57:33 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某新地址时隔一周再次从FalconX提出135万美元的ETH和287万美元的HYPE",
+      "summary": "【某新地址时隔一周再次从FalconX提出135万美元的ETH和287万美元的HYPE】金色财经报道，6月26日，据链上分析师@ai_9684xtpa监测，新地址0x643…CF565时隔一周再次从FalconX提出135万美元的ETH和287万美元的HYPE。目前共持有1450万美元的ETH，961万美元的HYPE，提出均价分别为1691.58美元和66.5美元，累计浮亏179.2万美元。<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2070320707091784127\">https://x.com/ai_9684xtpa/status/2070320707091784127</a></p>",
+      "link": "https://jinse.com.cn/lives/519596.html",
+      "published": "Fri, 26 Jun 2026 01:41:32 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Tornado Cash DAO出现可疑治理提案，研究人员警告或为针对2300万美元金库的攻击",
+      "summary": "【Tornado Cash DAO出现可疑治理提案，研究人员警告或为针对2300万美元金库的攻击】金色财经报道，6月26日，区块链安全研究员Sergey Shemyakov于6月25日发出预警，指Tornado Cash DAO约8小时前出现一份高度可疑的治理提案，呼吁社区独立审查。 \n该提案存在多项异常信号。第一，提案合约代码未经验证，而这在Tornado Cash DAO历史提案中极为罕见，研究员认为此举本身已构成恶意提案的明确信号；第二，提案创建者地址4天前通过隐私协议Railgun获得资金，来源混淆，行为高度可疑；第三，提案描述内容疑似误导性包装，但核心在于其目标合约——一旦提案通过并执行，治理合约将以delegatecall方式调用目标合约函数，意味着攻击者可借此获得极高权限。 \n研究员指出，Tornado Cash混币池本身安全不受影响，但若该提案成功通过，极有可能构成对Tornado Cash DAO本身的直接攻击，当前DAO金库中存有价值约2300万美元的TORN代币面临风险。2022年，Tornado Cash DAO曾遭受过类似攻击，攻击者通过恶意治理提案成功获取协",
+      "link": "https://jinse.com.cn/lives/519595.html",
+      "published": "Fri, 26 Jun 2026 01:34:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "ARK Invest逢低增持Coinbase、Circle、Bullish和Robinhood股票",
+      "summary": "【ARK Invest逢低增持Coinbase、Circle、Bullish和Robinhood股票】金色财经报道，6月26日，在加密概念股周四普遍走低之际，Cathie Wood旗下投资机构ARK Invest再次逢低加仓，增持了Coinbase、Circle、Bullish以及Robinhood的股票。<p>原文链接: <a href=\"https://x.com/TheBlockCo/status/2070302365606129764\">https://x.com/TheBlockCo/status/2070302365606129764</a></p>",
+      "link": "https://jinse.com.cn/lives/519594.html",
+      "published": "Fri, 26 Jun 2026 01:12:37 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Solana 基金会：Cherry Servers旧版监控系统出现安全漏洞，验证节点运营方需自查 Sensu 监控日志",
+      "summary": "【Solana 基金会：Cherry Servers旧版监控系统出现安全漏洞，验证节点运营方需自查 Sensu 监控日志】金色财经报道，6月26日，据SolanaFloor披露，Solana 基金会表示，云服务商 Cherry Servers 披露其旧版监控系统出现安全漏洞事件，所有托管在该服务商的 Solana 验证节点运营方需自查 Sensu 监控日志。 \n基金会建议存在潜在风险的验证节点完成以下操作：轮换身份密钥、排查是否存在泄露凭证；若无法排除服务器已被入侵，应重新搭建主机环境。",
+      "link": "https://jinse.com.cn/lives/519593.html",
+      "published": "Fri, 26 Jun 2026 01:11:51 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BitGo宣布裁员约15%，聚焦安全、稳定币、交易及AI基础设施",
+      "summary": "【BitGo宣布裁员约15%，聚焦安全、稳定币、交易及AI基础设施】金色财经报道，6月26日，加密资产托管机构BitGo首席执行官Mike Belshe今日发文宣布，公司将裁减约15%的员工。他将此次裁员定性为一次性调整，并强调不预计进行进一步裁减。 \nBelshe表示，此次决定源于加密生态系统的深刻演变以及金融服务构建方式的根本性转变。为保持竞争力，BitGo需要将资源集中聚焦于最关键的领域，包括安全、交易、稳定币、结算及AI驱动的基础设施。 \nBitGo是全球最大的数字资产机构托管服务商之一，主要面向机构客户提供托管、交易及钱包基础设施服务。目前受影响员工已由各自直属经理及人力资源部门直接告知。<p>原文链接: <a href=\"https://x.com/mikebelshe/status/2070240967479996463?s=46\">https://x.com/mikebelshe/status/2070240967479996463?s=46</a></p>",
+      "link": "https://jinse.com.cn/lives/519592.html",
+      "published": "Fri, 26 Jun 2026 01:02:38 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "部分美股芯片股夜盘走低，美光科技(MU.O)跌近4%",
+      "summary": "【部分美股芯片股夜盘走低，美光科技(MU.O)跌近4%】金色财经报道，6月26日，部分美股芯片股夜盘走低，美光科技(MU.O)跌近4%，西部数据(WDC.O)和迈威尔科技(MRVL.O)跌2%，高通(QCOM.O)跌1%。(金十)",
+      "link": "https://jinse.com.cn/lives/519591.html",
+      "published": "Fri, 26 Jun 2026 00:38:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "沉寂8个月后Sharplink从FalconX收到5,000枚ETH，约合785万美元",
+      "summary": "【沉寂8个月后Sharplink从FalconX收到5,000枚ETH，约合785万美元】金色财经报道，6月26日，据链上分析师余烬监测，，以太坊财库公司Sharplink于今日从FalconX收到5,000枚ETH（约785万美元），距其上一次买入ETH已时隔约8个月。 \n截至目前，Sharplink累计持有87.6万枚ETH，当前市值约13.7亿美元，持仓成本均价3,609美元，按当前价格计算浮亏约17.89亿美元，亏损幅度高达56%。 \n时间节点颇为引人关注。就在三天前（6月23日），Sharplink联合Bitmine及以太坊联合创始人Joseph Lubin共同成立了非营利组织Ethlabs，定位为承接以太坊基金会部分职能的新机构。Sharplink随即于6月26日重启ETH买入，市场普遍猜测此举是否有意为Ethlabs提供背书支持。<p>原文链接: <a href=\"https://x.com/EmberCN/status/2070302322161541603\">https://x.com/EmberCN/status/2070302322161541603</a></p",
+      "link": "https://jinse.com.cn/lives/519590.html",
+      "published": "Fri, 26 Jun 2026 00:35:52 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Base网络经历两小时宕机后已恢复运行",
+      "summary": "【Base网络经历两小时宕机后已恢复运行】金色财经报道，6月26日，Coinbase支持的以太坊Layer2网络Base今晨在经历约两小时的中断后已恢复出块和交易处理。 \nBase团队表示，网络目前已恢复正常运行，内部节点同步正常，但故障根本原因仍在调查中。同时，团队建议生态节点运营商重启Base节点，以恢复同步状态。 \n此次故障最早于今晨00:03被发现，当时Base表示主网出块状态“不健康”；00:52，团队确认已定位问题，并启动多项修复措施。此次事件导致这一以太坊主要Layer2网络的交易处理一度暂停。 \n截至目前，Base尚未披露此次异常区块产生的具体原因，也未说明事故是否由软件漏洞或共识机制相关问题引发。值得注意的是，Base此前曾于2025年8月发生过一次网络中断。<p>原文链接: <a href=\"https://www.coindesk.com/tech/2026/06/25/coinbase-s-base-blockchain-resumes-after-two-hour-outage-disrupted-network\">https://www.coindesk.c",
+      "link": "https://jinse.com.cn/lives/519589.html",
+      "published": "Fri, 26 Jun 2026 00:33:03 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "STRC与比特币相关性升至历史新高，稳健收益属性减弱",
+      "summary": "【STRC与比特币相关性升至历史新高，稳健收益属性减弱】6 月 26 日消息，Strategy 旗下永续优先股 STRC（Stretch）与比特币的 90 日相关系数已升至接近 0.70，创 2025 年 7 月推出以来新高，意味着其价格走势正越来越紧密地跟随比特币波动，削弱了其作为相对稳健收益型产品的吸引力。 \n数据显示，本月 STRC 已下跌 23% 至 76 美元，而比特币同期跌近 20%，跌破 6 万美元。STRC 面值为 100 美元，采用浮动股息机制，目前年化股息率为 11.5%，公司原本希望通过维持股价接近面值，持续增发融资买入更多比特币。 \n不过，由于 STRC 目前大幅低于面值交易，Strategy 通过增发筹资购买比特币的能力受到限制。与此同时，公司近期还小规模出售比特币以支付股息，这与其长期坚持的「永不卖币」策略形成鲜明对比。 \n市场观点存在分歧，部分投资者认为 STRC 当前折价提供了兼具高收益与潜在资本增值的投资机会；也有观点担忧，若低迷行情持续，可能削弱 Strategy 的融资能力，并影响其依靠资本市场持续增持比特币的模式。<p>原文链接: <a href",
+      "link": "https://jinse.com.cn/lives/519588.html",
+      "published": "Fri, 26 Jun 2026 00:26:21 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某新建钱包从Coinbase提取222493枚HYPE，价值1440万美元",
+      "summary": "【某新建钱包从Coinbase提取222493枚HYPE，价值1440万美元】金色财经报道，6月26日，据Onchain Lens监测，新建钱包地址0x66F从Coinbase提取222493枚HYPE，价值1440万美元。 \n巨鲸地址0x643又从FalconX收到44986枚HYPE（价值287万美元）以及860.8枚ETH（价值135万美元）；该地址当前持仓152986枚HYPE（价值986万美元）、9311枚ETH（价值1458万美元）。<p>原文链接: <a href=\"https://x.com/OnchainLens/status/2070296238667489709\">https://x.com/OnchainLens/status/2070296238667489709</a></p>",
+      "link": "https://jinse.com.cn/lives/519587.html",
+      "published": "Fri, 26 Jun 2026 00:16:09 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "特朗普称将用伊朗的钱买美国农产品",
+      "summary": "【特朗普称将用伊朗的钱买美国农产品】金色财经报道，6月26日，美国总统特朗普当地时间6月25日在白宫一场活动上对美国农场主称，美国“有一个新市场即将开启，那就是伊朗”。按照特朗普的说法，美国将很快动用解冻的伊朗资产，从美国农场主手中购买小麦、大豆和玉米。特朗普称，“他们（伊朗）眼下粮食供应很困难，而我们要拿走他们的一部分钱——我们会花掉这笔钱，用来购买小麦、大豆和玉米，大量采购，这个过程很快就会启动。规模会很大。”美国方面近来已多次称“伊朗将用解冻的资金购买美国农产品”，伊朗则坚决否认。伊朗首席谈判代表、伊朗议会议长卡利巴夫6月25日重申，美方所谓“伊朗将动用解冻资产购买美国农产品”的说法纯属无稽之谈。 (CCTV国际时讯)",
+      "link": "https://jinse.com.cn/lives/519586.html",
+      "published": "Fri, 26 Jun 2026 00:14:14 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Spark Brings $150M Stablecoin Liquidity to Uniswap v4",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1ufsuio/spark_brings_150m_stablecoin_liquidity_to_uniswap/\"> <img alt=\"Spark Brings $150M Stablecoin Liquidity to Uniswap v4\" src=\"https://external-preview.redd.it/GwnVobCZvryosTsmokVVssF4hwfhmhmPtU-CfntOVrg.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7fd4340cb5990b7cfa2bd9d1364e165275de984f\" title=\"Spark Brings $150M Stablecoin Liquidity to Uniswap v4\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1ufsuio/spark_brings_150m_stablecoin_liquidity_to_uniswap/",
+      "published": "2026-06-26T01:32:06+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Possible scammer approached me",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, so today I was approached by someone working at the grocery store, who was doing an instacart shopping order.</p> <p>He asked if I know about &quot;redplugging&quot; with crypto. I tried to clarify if he meant &quot;rugpull&quot; but he said no, that it was a new technique to make $.</p> <p>He said he would wire money to my account to buy a certain crypto, and then it would skyrocket and I could sell.</p> <p>My friend believes it's a scam, but is a",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1ufsp7i/possible_scammer_approached_me/",
+      "published": "2026-06-26T01:25:25+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Are altcoins finished, or is this just another cycle? I’d like to hear your thoughts.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been wondering if altcoins are ever going to recover like they have in previous cycles. It feels like they’ve struggled ever since Trump returned to office, despite many people expecting his administration to be more crypto-friendly.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/k24ap\"> /u/k24ap </a> <br /> <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1ufrbrc/are_altcoins_finished_or_is_this_just_a",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1ufrbrc/are_altcoins_finished_or_is_this_just_another/",
+      "published": "2026-06-26T00:22:57+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Peter Schiff Says Gold’s Selloff Is A Buying Opportunity, Bitcoin’s Decline Is ‘A Bubble Deflating’ - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmRkVmp6QjdUNUJNVERNakpiWVZwdmdzQkItSW9Ka1diRmM3eWVMNGFVdFNnWGhEbnNzc3p4WlZLb25XaFVFeHB6MFZLUVFjMWljaGc1b3hvV21tb3Ftdk9mY08zcWI0VGFMVldoYm93aGFrdmxtM1c0c2diVjc3ZVFscEZBaGo2cGZKMEMzQmhscUdRMWZxSGhlYkd0YmVPamc?oc=5\" target=\"_blank\">Peter Schiff Says Gold’s Selloff Is A Buying Opportunity, Bitcoin’s Decline Is ‘A Bubble Deflating’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmRkVmp6QjdUNUJNVERNakpiWVZwdmdzQkItSW9Ka1diRmM3eWVMNGFVdFNnWGhEbnNzc3p4WlZLb25XaFVFeHB6MFZLUVFjMWljaGc1b3hvV21tb3Ftdk9mY08zcWI0VGFMVldoYm93aGFrdmxtM1c0c2diVjc3ZVFscEZBaGo2cGZKMEMzQmhscUdRMWZxSGhlYkd0YmVPamc?oc=5",
+      "published": "Fri, 26 Jun 2026 00:30:00 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f",
+      "published": "2026-06-24T18:30:18.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
+      "published": "2026-06-23T18:00:31.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "summary": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa",
+      "published": "2026-06-23T16:15:03.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3af18ad98b3048a3b959ef1405b9d45b",
+      "published": "2026-06-23T15:00:02.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "summary": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d1343e10bc2648cd8302c83a5b1223a9",
+      "published": "2026-06-23T14:32:00.591000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b",
+      "published": "2026-06-23T11:30:38.167000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/88ea4a4f9f0b4ad4b7b308195c026fe4",
+      "published": "2026-06-22T16:15:20.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-23",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f0c763fc49934c1b9b4e4ce1653e67dc",
+      "published": "2026-06-22T14:00:02.890000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969",
+      "published": "2026-06-18T21:45:04.798000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Re (RE) with Seed Tag Applied",
+      "summary": "Binance Will List Re (RE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6",
+      "published": "2026-06-18T17:47:21.424000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 1225 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 1225 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/81092181ec124efea616f591cf335c05",
+      "published": "2026-06-18T10:00:33.640000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/191cb96109f24c5c85362631a55a45d3",
+      "published": "2026-06-13T00:00:00.917000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities Trading Pair(s) & Trading Bots Services on Binance Spot - 2026-06-11",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities Trading Pair(s) & Trading Bots Services on Binance Spot - 2026-06-11",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245",
+      "published": "2026-06-11T22:05:06.698000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-11)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9",
+      "published": "2026-06-11T15:30:03.874000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b893d3539ae34c47856013b1f3cc94fb",
+      "published": "2026-06-10T12:30:19.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f598c7bb87d74b8c995b9f67bf210be1",
+      "published": "2026-06-09T14:15:12.545000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1",
+      "published": "2026-06-08T12:45:01.727000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38",
+      "published": "2026-06-04T20:44:22.460000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f",
+      "published": "2026-06-03T14:45:06.439000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds USDT/AED Spot Trading Pair",
+      "summary": "Binance Adds USDT/AED Spot Trading Pair",
+      "link": "https://www.binance.com/zh-CN/support/announcement/66d54f75b3a041ff991ddd179ab6ed39",
+      "published": "2026-06-03T11:00:01.465000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 13 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 13，分类为「Extreme Fear」。 市场处于极度恐惧状态，历史上往往是抄底机会。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-06-26T08:00:00+08:00"
+    }
+  ]
+}
