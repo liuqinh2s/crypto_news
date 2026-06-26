@@ -2092,3 +2092,126 @@ content length: 2804
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2417, prompt_tokens=11794, total_tokens=14211, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=726, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10642)
+content length: 4304
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy STRC股息率重置期临近",
+      "summary": "所有目光聚焦Strategy（原MicroStrategy）6月30日除息日及月度STRC股息率重置。STRC是Strategy发行的可转换优先股，股息率按月重置，当前市场关注该重置是否会导致股息率大幅调整，进而影响STRC价格及MSTR股价。若股息率上升，可能增加持有成本，短期利空STRC；若下调则利好。该事件直接影响MSTR和STRC。",
+      "reason": "项目方重大事件，影响MSTR/STRC价格，市场关注度高。",
+      "category": "项目更新",
+      "impact_coins": ["MSTR", "STRC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/26/all-eyes-on-strategy-s-june-30-ex-dividend-date-and-monthly-strc-dividend-rate-reset"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "币安因未获MiCA牌照退出欧盟市场",
+      "summary": "币安正式通知欧盟用户，因未能获得MiCA（加密资产市场）牌照，将停止向欧盟客户提供服务。此前有消息称币安已通知部分国家客户提取资金，现在得到确认。此举将导致币安失去欧盟市场，短期利空BNB及平台币，同时可能引发用户恐慌性转移资产，对BTC、ETH等主流币造成抛压。长期看，监管趋严有助于合规交易所发展。",
+      "reason": "重大监管动态，直接影响交易所格局和用户行为。",
+      "category": "监管政策",
+      "impact_coins": ["BNB", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/06/26/binance-tells-eu-users-it-will-no-longer-provide-services-after-failing-to-secure-mica-license"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Base网络Beryl硬分叉因注册问题延迟",
+      "summary": "Coinbase的Layer2网络Base宣布推迟Beryl硬分叉，原因是B20注册时间问题。Beryl硬分叉原本计划提升网络性能，延迟可能影响开发者信心和Base生态发展，短期利空Base相关代币（如无直接代币则影响ETH质押者心情）。但整体影响有限，不改变基本面。",
+      "reason": "技术升级延期，影响Layer2生态。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406336/base-delays-beryl-hard-fork-over-b20-registry-timing-issue"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BitGo裁员15%转向AI和稳定币",
+      "summary": "加密货币托管商BitGo宣布裁员15%，将重心转向AI基础设施和稳定币业务。这是继多家加密公司裁员后的又一案例，反映行业低迷期。裁员虽短期利空BitGo品牌，但战略调整可能长期利好。对市场整体情绪有负面影响，显示行业收缩。",
+      "reason": "机构裁员反映市场困境，影响市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/372164/bitgo-joins-cryptos-ai-layoff-wave-slashing-staff-by-15"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF录得6月最大单日净流出",
+      "summary": "6月26日，美国现货比特币ETF净流出6.9579亿美元，创6月单日最大流出。同时BTC跌破60,000美元，最低触及59,000美元以下。ETF持续流出表明机构投资者看空情绪浓厚，短期BTC面临进一步下行压力。该数据与BTC价格下跌形成负反馈，后续关注是否有反弹信号。",
+      "reason": "ETF资金流向直接影响BTC价格，为重要市场信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-etfs-biggest-outflows-june-btc-below-60k"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "数字人民币立法及SBI发行日元稳定币",
+      "summary": "PANews报道RWA周刊：中国数字人民币将被立法确立法律地位，日本SBI推出首只信托银行托管合规日元稳定币JPYSC。这代表亚洲加密货币监管积极进展，数字人民币立法利好与中国相关的项目（如RWA），SBI发行稳定币增加日元稳定币供应，可能推动资金入场。长期看多稳定币和RWA赛道。",
+      "reason": "监管积极信号，推动稳定币和RWA发展。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "RWA"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "PANews",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZME9XRm50VlRxSGEwWVRfTllPcHppeU5ONmIyTkI4cmJ5cDQ1XzVITFZNQ001eThXcVZaNktJeUc4bnBQMjh6Um1vTFExWkRMckdnaWNyZGMyWW5FSV9lOHVDWkFvRW12S2Y2ZFdNNktvMDNGdnA0OXZqSTlqYWM?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "比特币跌破彩虹图底部进入“死亡”区",
+      "summary": "Reddit用户发现比特币价格跌破彩虹图（Rainbow Chart）的最底部区域，即“BTC is dead”区间。彩虹图是反映长期价格区间的技术指标，进入该区域历史上意味着极度低估。结合恐惧贪婪指数13，市场处于极度恐慌状态，这往往被视作历史性抄底信号，但短期仍可能继续下跌。",
+      "reason": "市场情绪极端，提供逆势交易信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ug1jww/bitcoin_just_broke_below_the_floor_of_its_famous/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
