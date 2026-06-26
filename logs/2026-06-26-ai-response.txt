@@ -1721,3 +1721,194 @@ content length: 3161
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2130, prompt_tokens=10694, total_tokens=12824, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1681, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9542)
+content length: 904
+============================================================
+{
+  "news": [
+    {
+      "title": "10.8B期权到期在即",
+      "summary": "据Yahoo Finance报道，价值约108亿美元的比特币、以太坊、XRP和SOL期权即将到期。大额期权到期通常引发市场剧烈波动，历史数据显示到期前后价格常出现急涨急跌。当前市场已处于极度恐惧状态（恐惧贪婪指数13），多头持仓拥挤，到期可能引发大规模清算。短期看空信号，但中期可能是触底反弹机会。影响币种：BTC、ETH、XRP、SOL。",
+      "reason": "大额期权到期直接影响市场结构和短期价格走势，属于优先级一的市场结构事件。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "XRP", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVlVoYnVvRGNZUmxXQ1d3TjNUUXdjdW5kMnZjTC10S0RkLTNJX2tPYVdpcFNKVUwzbEE2aGNiOXN2ek1GdVV5bkx2M0dtX1YwZ3FZc3UzYUZHSXhKMjhIMG5zZDItQzQ4RHo5T2k4YkRISW40bXRJYnYxUXJ4U09xTGFleHh4Z1ptWUtDaFhlV3AxMHh5dFFqY2tHT0cxWjNRWFAw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前抓取素材中与历史消息重复较多，仅筛选到一条新消息。其余如恐惧贪婪指数、ETF流出、币安公告等已在历史中重复出现。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1489, prompt_tokens=10694, total_tokens=12183, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1063, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=70)
+content length: 830
+============================================================
+{
+  "news": [
+    {
+      "title": "10.8B期权到期在即",
+      "summary": "6月26日，价值约108亿美元的比特币、以太坊、XRP和SOL期权即将到期，市场可能出现剧烈波动。历史数据表明，大规模期权到期前后通常伴随价格大幅波动和清算。当前比特币处于6万美元附近，宏观压力和技术抛压并存，到期可能加剧短期下行风险或引发轧空。对BTC、ETH、XRP、SOL构成中性偏空信号，需警惕波动性激增。",
+      "reason": "大规模期权到期是市场结构事件，直接影响短期价格波动和清算风险，属于优先级一（直接影响行情）。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "XRP", "SOL"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVlVoYnVvRGNZUmxXQ1d3TjNUUXdjdW5kMnZjTC10S0RkLTNJX2tPYVdpcFNKVUwzbEE2aGNiOXN2ek1GdVV5bkx2M0dtX1YwZ3FZc3UzYUZHSXhKMjhIMG5zZDItQzQ4RHo5T2k4YkRISW40bXRJYnYxUXJ4U09xTGFleHh4Z1ptWUtDaFhlV3AxMHh5dFFqY2tHT0cxWjNRWFAw?oc=5"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "其他素材均与历史消息重复或属于常规内容，仅此一条具有独立交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1278, prompt_tokens=10694, total_tokens=11972, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1247, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10624), prompt_cache_hit_tokens=10624, prompt_cache_miss_tokens=70)
+content length: 57
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中所有消息均为历史重复，无新交易价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1585, prompt_tokens=11729, total_tokens=13314, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1530, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1920), prompt_cache_hit_tokens=1920, prompt_cache_miss_tokens=9809)
+content length: 102
+============================================================
+{
+  "news": [],
+  "note": "近6小时内没有发现新的、未被历史消息覆盖的重大交易决策消息。所有重要事件（如ETF净流出、市场暴跌、恐惧贪婪指数13等）已在历史标题中重复出现。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1180, prompt_tokens=11729, total_tokens=12909, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1125, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11648), prompt_cache_hit_tokens=11648, prompt_cache_miss_tokens=81)
+content length: 97
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中，所有新闻标题均与历史消息重复，无非重大新消息。当前市场处于极度恐惧状态（恐惧贪婪指数13），但已多次报道，无新增信息。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2129, prompt_tokens=4270, total_tokens=6399, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=533, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3118)
+content length: 3765
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数跌至13",
+      "summary": "恐惧贪婪指数降至13，处于极度恐惧区间。历史数据显示该区域通常为中长期底部，但短期可能伴随进一步恐慌下杀。当前市场情绪极度悲观，可能意味着散户抛售接近尾声，但需等待确认反转信号。影响BTC、ETH等主流币。中长期看多，短期中性偏空。",
+      "reason": "优先级三：恐惧贪婪指数极值，历史抄底信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tether市值超越ETH",
+      "summary": "Tether (USDT) 市值超越以太坊 (ETH)，反映稳定币供应量相对增加，可能意味着资金正在从ETH等资产转向稳定币，或新资金入场。但ETH价格跌至1.5K，市场风险偏好下降。稳定币增发通常为看多信号，但需结合走势。短期中性，若后续资金回流则看多。",
+      "reason": "优先级一：稳定币供应量变化中的市值超越，暗示资金轮动。",
+      "category": "市场结构",
+      "impact_coins": ["ETH", "USDT"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/tether-stablecoin-flips-ether-by-market-cap-as-eth-routs-to-15k"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC跌破6万美元螺旋回调",
+      "summary": "比特币价格跌破6万美元，市场出现恐慌性抛售，比特币陷入螺旋式回调。技术面关键支撑位失守，可能引发更多止损和清算。短期看空，但若在5.8万附近企稳则可能反弹。影响BTC及关联资产。",
+      "reason": "优先级一：直接影响行情的大幅价格波动。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {
+          "name": "证券时报 via 雪球加密",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YdEhvU2RJNWt3VkpXU0IycWFRc0lfMWZVSW1id3M2b25WOE9VQlhIMUtlSWItcG1jNGRQWl9IVTJwWG9aTm1YWjQ4QkVvUTlCSDd4cXVjRk1pamtt?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "10.8B美元期权到期前市场反弹",
+      "summary": "价值108亿美元的BTC、ETH、XRP、SOL期权即将到期，市场出现恢复迹象。大量期权到期往往增加波动性，可能引发方向性选择。当前未平仓量较大，若价格无法站稳，可能出现剧烈波动。短期中性，注意风险。",
+      "reason": "优先级一：巨量期权到期直接影响市场波动和清算风险。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "XRP", "SOL"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVlVoYnVvRGNZUmxXQ1d3TjNUUXdjdW5kMnZjTC10S0RkLTNJX2tPYVdpcFNKVUwzbEE2aGNiOXN2ek1GdVV5bkx2M0dtX1YwZ3FZc3UzYUZHSXhKMjhIMG5zZDItQzQ4RHo5T2k4YkRISW40bXRJYnYxUXJ4U09xTGFleHh4Z1ptWUtDaFhlV3AxMHh5dFFqY2tHT0cxWjNRWFAw?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy持有BTC浮亏130亿美元",
+      "summary": "Strategy（原MicroStrategy）的比特币持仓纸面亏损高达130亿美元，超过数百种代币市值。尽管公司未卖出，但巨额浮亏可能引发市场对杠杆头寸和强制平仓的担忧。若需追加保证金，或引发大规模抛售。短期偏空，关注是否影响BTC价格。",
+      "reason": "优先级一：巨鲸异动相关，潜在抛压风险。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/26/too-big-to-fail-strategy-s-usd13-billion-bitcoin-paper-loss-alone-dwarfs-hundreds-of-prominent-tokens"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SharpLink恢复买入以太坊",
+      "summary": "上市公司SharpLink在暂停8个月后恢复购买以太坊，表明机构对ETH的长期信心。虽然金额可能不大，但作为机构增持信号，对ETH情绪有提振。长期看多，短期影响有限。",
+      "reason": "优先级二：机构动向，增持ETH。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNm5ocXNJV1h0VERabEwyQ19CY2Q5TFVSNjAzQnk2NWdYdHVoUHVDOXZSSGhNbHliRGFCTE9pU3lqSGdwczVwSkZwN2gwRFZLSWFCY01pSW1zZzFtMFplaXoyMjZnZlpmWHBDTy1XeEE2TF9tMWpvNVdYRTktT2l3SU4xY21JZkh1a1JvZVNhRHJOTXZxY2xjUDVYcTJFWDNvOVE?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
