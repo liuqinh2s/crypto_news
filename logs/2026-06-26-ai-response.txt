@@ -897,3 +897,48 @@ content length: 4571
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3353, prompt_tokens=10928, total_tokens=14281, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2719, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9776)
+content length: 1563
+============================================================
+{
+  "note": "当前时段有效新消息较少，仅筛选出3条具有交易参考价值的信息。",
+  "news": [
+    {
+      "title": "巨鲸从WhiteBit提取14944枚ETH",
+      "summary": "链上数据显示某新建钱包从WhiteBit交易所提取14,944枚ETH（约2350万美元）。大额转出通常被视为囤币信号，减少交易所抛压，对ETH形成短期支持。需注意提币方身份不明，可能为冷存储或机构托管，但行为本身偏多。当前市场情绪恐慌下，此类异动可能提振信心。",
+      "reason": "巨鲸异动（优先级一），大额转出交易所可能为囤币信号，直接影响ETH供需。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519585.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Ripple与SBI获日本批准发行RLUSD",
+      "summary": "Ripple与日本SBI集团获得日本监管机构批准，将在日本推出RLUSD稳定币。这标志着Ripple在合规化方面取得重要进展，有助于扩大XRP生态并吸引机构采用。消息对XRP构成直接利好，但稳定币市场竞争激烈，实际影响需观察后续发行规模。",
+      "reason": "重大监管动态（优先级一），合规批准直接影响XRP及稳定币市场。",
+      "category": "监管政策",
+      "impact_coins": ["XRP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ufpp45/ripple_and_sbi_group_secure_regulatory_nod_to/"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数升至13，极度恐惧",
+      "summary": "恐惧贪婪指数从12小幅升至13，仍处于极度恐惧区间（<20）。历史数据显示极度恐惧往往对应中长期底部区域，是潜在抄底机会。但短期市场情绪依然悲观，需警惕惯性下跌。该指标对BTC/ETH等主流币种有参考意义。",
+      "reason": "市场情绪极值（优先级三），极度恐惧为中长期看多信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    }
+  ]
+}
