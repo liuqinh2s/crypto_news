@@ -2215,3 +2215,127 @@ content length: 4304
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2840, prompt_tokens=13445, total_tokens=16285, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=670, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12293)
+content length: 4780
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币反弹至5.8万但衍生品预示更多痛苦",
+      "summary": "比特币在跌至58000美元后反弹，但衍生品市场信号显示更多下行压力。未平仓合约高企且资金费率转负，表明空头主导。可能影响BTC、ETH及整个市场。看空信号，短期反弹可能是诱多。",
+      "reason": "直接价格分析，涉及关键支撑位和衍生品指标，对交易决策有即时参考价值。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/26/bitcoin-bounces-from-usd58-000-as-derivatives-signal-more-pain-in-the-pipeline"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "AscendEX面临流动性危机，ZachXBT质疑储备",
+      "summary": "AscendEX交易所出现大量提现投诉，链上侦探ZachXBT对其储备表示质疑，可能引发用户恐慌和挤兑。若证实，将严重影响该平台上线币种价格，并可能蔓延至其他中小交易所。看空信号。",
+      "reason": "交易所流动性问题是优先级1的事件，直接影响用户信心和对应代币价格，需警惕系统性风险。",
+      "category": "交易所",
+      "impact_coins": ["USDT", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/ascendex-exchange-reportedly-faces-liquidity-issues-claims-zachxbt"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Hyperliquid拟投票下架IP代币",
+      "summary": "去中心化衍生品平台Hyperliquid计划于6月29日发起投票，决定是否下架IP代币。IP为Knowledge Layer网络代币，若下架将导致流动性骤降和价格暴跌。直接影响IP和HYPE（投票治理代币）。看空IP。",
+      "reason": "项目方重大事件，直接影响代币存续和价格，属于优先级1。",
+      "category": "项目更新",
+      "impact_coins": ["IP", "HYPE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519777.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "24小时加密清算12.6亿美元，20.9万交易者爆仓",
+      "summary": "加密货币市场24小时内清算12.6亿美元，20.9万名交易者爆仓，创近期新高。大规模清算表明杠杆多头被清洗，短期可能加速下跌，但也可能形成短期底部。看空信号，但需关注后续资金费率企稳。",
+      "reason": "市场结构重大事件，直接反映多头踩踏，影响交易情绪和仓位管理。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CCN.com",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWS1CYUpJX01ZWUk3UGRvQlNraUY5N2F6NWpJcmU1S0F2S2ZrTm94NGh2ZUpPZFdaa2lvOVp3cmQyZE5UZ1FCbWJoRm9TYkIyN3ZKVnI5amdGWHpaT01VWV9jOGc1UFVfbEkteEhmamQtLXZlanhBMWNnQ1Ywb2llTm5TM2g4UQ"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "比特币跌至21个月低点，市场苦苦支撑",
+      "summary": "比特币触及21个月低点，市场勉强守住支撑。宏观压力持续，科技股暴跌拖累加密。基本面疲软，技术面破位，看空。可能继续下探前低。",
+      "reason": "价格创21个月新低是重大技术信号，直接影响交易方向判断。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbFhubzBKcXpwYkhQUkFhekdaNGFfQzd2UFBqald0bkxqeUxFazFNR0pYVVpBT2U3TnY4X3RWa3BVS0wzUTRwVjZYT3o4UXNvbm4xbFhHY1Vvczh6cGE5YlgydUpmVFZtaGJxNDFhNVJwWWFiUGVjazMtb1Zoc1I4Z0ZqU2oyTldjeF9GWXFiZzFramlKcmVQZzdwcmZETnA5aXZCaTRxQmFoM1BXcDlndDY1TFdyMEZrRUZhY2xERQ"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "特朗普计划开办银行引发政策猜测",
+      "summary": "报道称特朗普计划开办银行，可能影响金融监管和加密货币竞争格局。若落实，或利好传统金融股但利空加密去中介化叙事。短期中性，长期看事件进展。",
+      "reason": "涉及重要政治人物金融计划，可能影响监管预期和资金流向，关注后续。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "vox.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSFNQQ3Ezc2pYWGpvelpjVFRmcTFjTEZ1VXI1N0JEdDFCQzF3SXhhdlNpbUZFS3RrZW1mdzdKYjBBVkl6c0tsbFQ2OHliNVkwTXV3TWZNVTF0N1Jzc1R0alk4QkZybzFrLWVGMzhDamQ4aVBianBFbEt0ekJZUENhcW94ejNwWlNtYktOU2dzVUNIcGc"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密衍生品多空分化，BTC空头加仓ETH企稳",
+      "summary": "数据显示加密衍生品市场多空分歧加大，BTC持仓攀升且交易员倾向追空，而ETH持仓企稳未现恐慌。BTC看空信号强，ETH相对抗跌。需警惕BTC进一步下跌导致ETH补跌。",
+      "reason": "链上衍生品数据直接反映市场情绪和仓位变化，对短期交易有指导意义。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "WEEX",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQVHBKMUI1MkdfSFVtZ1g0azB3Q3RPNlVqdTdNaUdQX0Z0N3dlWlZCbWJwdkY3S25BeUxIMml5cDdncWhxN1FDXzhrblZiTHFTQTRkNVhZMktzb2FsOWlJOEJsOWQtMFhQbTJlQkRtNVMyVmhBZW9LODNNSW5QMmlyWTJsTGhjRHl1VTlYdHR2OEY1MlNPVUZUMlFqLU1tSEM0cEJXcXJFc20wSm1wQTlIUlFHdTRsVzdDZmVpMGkyYWQ4NDNOMGtjNjNqVk9BR2c3c3BKczlBdDloaGtaTEhNeXZNUHp3aDBWR0hnSGpOQUNoa1FTLUNKYXhSbkVSMnJkSlNEQ1czSzJOa1QxOTNwSDUzR0g1VVNpcDBnX2pnVjBiR2dpME9QcVRJSXdpbW1jMUdESXJORjgyR3FBbFhKRkVBTDROQ01RY3RTdXdtUFNlZw"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "由于历史消息中已包含大量重复公告（如Binance常规上线、恐惧贪婪指数、Binance退出欧盟等），本批次仅筛选出7条具有新信息且优先级较高的消息。"
+}
