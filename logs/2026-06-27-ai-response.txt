@@ -448,3 +448,126 @@ content length: 2788
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2783, prompt_tokens=11933, total_tokens=14716, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1350, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10781)
+content length: 3859
+============================================================
+{
+  "news": [
+    {
+      "title": "AAVE/SOL领涨反弹",
+      "summary": "在比特币稳定于6万美元附近之际，Aave和Solana生态代币领涨加密货币反弹。AAVE近期因Aave创始人宣布通过证券借贷扩展资产类别而获得关注，SOL则受益于生态项目DAT股票双位数上涨。这显示市场在BTC横盘时出现板块轮动，资金可能流向DeFi和Layer1龙头。短期看多AAVE和SOL，但需警惕整体熊市背景下反弹的持续性。",
+      "reason": "直接行情影响：领涨币种对应做多机会，属于优先级一的市场动态。",
+      "category": "市场结构",
+      "impact_coins": ["AAVE", "SOL", "BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/26/aave-solana-ecosystem-tokens-lead-crypto-rebound-as-bitcoin-steadies-near-usd60-000"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美民主党人谴责401k加密投资",
+      "summary": "一位可能很快担任重要委员会主席的美国众议院民主党人公开谴责在401(k)退休计划中纳入加密货币。这预示着未来可能出台更严格的监管限制，打击机构合规采用渠道。短期利空BTC及所有加密资产，尤其影响合规交易所和ETF需求。",
+      "reason": "监管政策利空，优先级一信号。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/06/26/u-s-house-democrat-who-may-soon-run-key-committee-condemns-crypto-in-401-k-s"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ripple CEO批评Saylor伤害市场",
+      "summary": "Ripple首席执行官公开表示，Michael Saylor（Strategy创始人）的比特币购买行为伤害了加密市场，因为Strategy股票STRC目前交易价较面值折价25%。这加剧了市场对杠杆牛市的质疑，可能削弱投资者信心。短期偏空，尤其是与Strategy相关的BTC持仓和MSTR代币。",
+      "reason": "知名人物观点影响市场情绪，属于优先级三但结合STOCK暴跌有实质影响。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406432/ripple-ceo-says-michael-saylor-has-hurt-crypto-market-as-strategys-strc-trades-25-below-par?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Galaxy下调《清晰法案》通过概率",
+      "summary": "Galaxy Research将美国《清晰加密货币法案》的通过概率下调至50-50，因参议院剩余时间不足。法案若无法通过，将推迟监管框架落地，增加不确定性。利空美国合规及机构资金入场预期，对BTC、ETH构成压力。",
+      "reason": "监管进展不确定性增加，利空中期行情。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/galaxy-research-cuts-clarity-act-passage"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "美军对伊朗发动打击",
+      "summary": "美国中央司令部宣布对伊朗发动打击，以回应其袭击商船的行为。地缘冲突急剧升级，避险情绪升温，黄金跳涨至4100美元，加密货币作为风险资产承压。历史经验显示短期BTC可能随美股下跌，但中期若局势缓和或出现超跌反弹。",
+      "reason": "重大地缘事件，直接影响风险偏好，优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519850.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "甲骨文创互联网泡沫后最大周跌幅",
+      "summary": "甲骨文股价遭遇自互联网泡沫破灭以来最大单周跌幅，带动科技股普跌。费城半导体指数跌超5%，美光科技跌超6%。科技股与加密货币高度相关，资金外逃风险资产。利空BTC、ETH及整体加密市场。",
+      "reason": "科技股恐慌蔓延，影响加密货币流动性，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519851.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美股三大指数集体收跌",
+      "summary": "美股三大指数收盘集体下跌，科技股领跌。宏观压力叠加地缘冲突，投资者转向避险资产。加密货币短期承压，但极度恐惧下可能出现超跌反弹。利空短期走势。",
+      "reason": "宏观联动下跌，影响风险情绪，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519849.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
