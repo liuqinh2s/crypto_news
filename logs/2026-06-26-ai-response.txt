@@ -1356,3 +1356,79 @@ content length: 4395
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3285, prompt_tokens=10614, total_tokens=13899, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2295, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9462)
+content length: 2486
+============================================================
+{
+  "news": [
+    {
+      "title": "韩股跌超8%触发熔断",
+      "summary": "韩国股市暴跌超8%触发熔断机制，SK海力士等科技股跌幅显著。全球风险资产承压，加密货币市场随之走弱，BTC一度跌破5.9万美元。韩国市场恐慌情绪可能蔓延至加密市场，短期利空BTC、ETH等主流币种。信号：看空。",
+      "reason": "韩国股市熔断属于重大宏观经济事件，直接冲击风险偏好，加密资产难以独善其身，符合优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519614.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "韩国将加密资产纳入债务减免审查",
+      "summary": "韩国“新起点基金”宣布将加密资产纳入债务减免审查范围，意味着持有加密资产的债务人可能面临资产冻结或强制清偿。此举增加监管不确定性，韩国加密用户可能抛售以规避风险，利空BTC及山寨币。信号：看空。",
+      "reason": "韩国监管政策直接影响本国加密市场情绪，可能引发抛售，符合优先级一监管动态。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519613.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸开启500 BTC 20倍多单",
+      "summary": "疑似同一巨鲸在三个地址累计开启500 BTC的20倍多头仓位，价值约2939万美元。此举显示大户在BTC跌破5.9万美元后抄底做多，短期内可能支撑价格，但高杠杆下若继续下跌易爆仓。信号：看多（短期）。",
+      "reason": "巨鲸异动直接影响BTC供需预期，开多单为看涨信号，符合优先级一链上异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519606.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Base宕机因无效区块，中心化风险受关注",
+      "summary": "分析师指出Base网络两小时宕机源于无效区块问题，单一排序器模式存在中心化风险。该事件暴露了Base依赖单一排序器的脆弱性，可能引发对ETH Layer2安全性的质疑，短期利空Base生态和ETH。信号：看空。",
+      "reason": "Base宕机影响Layer2信誉，但已有报道，本消息为分析更新，符合优先级二项目更新。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519603.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "StablecoinX在纳斯达克上市",
+      "summary": "StablecoinX宣布于周五在纳斯达克上市，并整合Ethena生态系统。此举意味着传统金融市场对Ethena稳定币体系的认可，可能带动Ethena相关代币需求，对Ethena生态构成利好。信号：看多。",
+      "reason": "传统交易所上市属于机构动向，对Ethena生态有直接利好，符合优先级二。",
+      "category": "项目更新",
+      "impact_coins": ["ETHENA"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/stablecoinx-merges-with-tlgy-and-begins-trading-on-nasdaq-friday?utm_source=rss&utm_medium=rss&utm_campaign=rss"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
