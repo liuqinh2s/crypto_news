@@ -357,3 +357,94 @@ content length: 3150
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2688, prompt_tokens=13927, total_tokens=16615, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1600, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=12775)
+content length: 2788
+============================================================
+{
+  "news": [
+    {
+      "title": "美民主党人批评加密401(k)",
+      "summary": "即将掌管关键委员会的美国众议院民主党人公开谴责将加密货币纳入401(k)退休计划，认为其风险过高、缺乏监管保护。这可能导致未来立法限制退休基金配置加密资产，对机构资金流入形成阻碍。影响BTC、ETH等主流币种，短期构成监管利空信号。",
+      "reason": "优先级一：监管动态，可能影响机构资金准入，偏空。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/06/26/u-s-house-democrat-who-may-soon-run-key-committee-condemns-crypto-in-401-k-s"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "前高盛合伙人警示美股泡沫",
+      "summary": "前高盛合伙人发出警告，认为当前美股估值过高，投资者应对潜在回调保持警惕。该言论加剧市场对风险资产（包括加密货币）的避险情绪，可能促使资金流出加密市场转向避险资产。影响BTC、ETH及山寨币，偏空。",
+      "reason": "优先级二：宏观经济情绪，利空风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519844.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "OpenAI GPT-5.6受限推出",
+      "summary": "OpenAI正式推出GPT-5.6，但受特朗普政府限制仅部分用户可用。该消息突显AI监管不确定性，对AI相关的加密货币（如FET、AGIX等）带来情绪波动，短期偏中性，但长期可能压制AI板块热度。影响AI概念代币。",
+      "reason": "优先级三：市场情绪，影响AI币短期走势。",
+      "category": "项目更新",
+      "impact_coins": ["FET", "AGIX"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/372238/openai-rolls-out-gpt-5-6-limited-access-trump-admin"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美军加速撤离以色列军机",
+      "summary": "以色列交通部宣布美军将加速撤离停放在以色列机场的美国军机。此举可能暗示中东局势缓和，降低地缘政治风险，削弱避险需求，对加密货币并非直接利好，但风险偏好或小幅回升。影响BTC、ETH中性偏多。",
+      "reason": "优先级三：地缘政治情绪，可能影响风险偏好。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519840.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Tether市值或超比特币",
+      "summary": "Bloomberg预测Tether（USDT）市值将很快超越比特币成为第一大加密货币。目前USDT市值持续增长，反映资金入场效应，但若USDT过度膨胀可能引发监管担忧。短期USDT增发通常利好加密市场，但长期需关注风险。影响BTC、ETH偏多。",
+      "reason": "优先级一：稳定币供应量变化（虽为预测，但反映趋势），偏多。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Pluang via Bloomberg Crypto",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYTFFITXlEb3loMkRLbUxWaWZNT1RSR1RTLTBSbUFjVjBxMjFRTjVyMkdnQ3FJSFFsVEVzODcwaGZ5ZnJFR2RNMFN2WVJZVTVBTWRFNVRUSGVUbFVBNXNMQ2tJRWEyUThxQ3FFaDdPYUhsdkF5NmtRd1lR?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
