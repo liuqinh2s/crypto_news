@@ -187,3 +187,78 @@ content length: 2895
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3384, prompt_tokens=14491, total_tokens=17875, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2082, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13339)
+content length: 2878
+============================================================
+{
+  "news": [
+    {
+      "title": "加密ETF一周流出45亿美元",
+      "summary": "据Bloomberg报道，在截至6月26日的一周内，加密ETF遭遇45亿美元净流出，为历史最大单周流出之一。比特币ETF流出占主导，以太坊ETF也出现资金外流。这显示机构投资者在宏观压力下加速撤离，加剧市场抛售。影响BTC、ETH，看空信号。",
+      "reason": "直接影响行情：ETF资金巨量流出是明确抛压信号，影响广泛，优先级一。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVEdiSUlKT0c0LUVhVzNoN1M5M283ZEpqZFZ5aGxvYjRKUEJObzlKQU1pVVBtb1lKejhrcXFndnpZZE5zcDY3Sk1kT1Q4dTNpOXIxd3RJRWtaSjVjcnRYQllla0VINDFqdlZnZHlyX09lSW1hQV9MeGRDVlhWdDVoMWJZRXVmc0pzUU1Rc2tFdVZBdWl4dXlGNmZiU1hzX0Q5MXpaTy1GWkVBRUFfSE9SeGxlUGQ?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "微策略融资优势消失股价承压",
+      "summary": "Bloomberg报道，比特币最大企业持有者MicroStrategy（现名Strategy）的融资套利策略失效，其可转债融资成本上升且股价遭重挫，STRC创新低。公司持有约4%比特币供应量，若被迫出售将引发市场暴跌。目前尚无出售迹象，但市场质疑加剧。影响BTC、MSTR，看空信号。",
+      "reason": "优先级一：项目方重大事件，巨鲸持仓动摇可能引发连锁反应。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaTE5d25SV1MyY0dnaktIb1pqbjNXckNtWmNIcDBaX3NYdDJ4SHBoWjFSdUR1d0hDYVRMc052M1d4dHA0WTl3aHlKb1dLS2lMcWV6RmFxMHNtS2xaQmxSTFN2YXVRR2NLbmFrOEFId2k3blk3LVVPaHBSTDY4TEJYaU5aNUtOUndLM3k0UTBRdzlBUF9RS1g2T3V4TnI3eGN2RlBTU2Y5MEFzbG1UYkY5X1kxTy1wX1NucWs3UGhKT2VkZUdKYVZpUVhCamo?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Base主网两天内第二次宕机",
+      "summary": "据The Block，Coinbase L2网络Base在48小时内出现第二次主网停滞，原因是Beryl硬分叉因B20注册时间问题延迟。连续故障打击用户信任，可能引发资金撤离Base生态。影响ETH、Base生态代币，短期看空。",
+      "reason": "优先级二：技术升级/网络故障影响链上活动和资金安全，对以太坊生态情绪有压制。",
+      "category": "项目更新",
+      "impact_coins": ["ETH", "BASE生态"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406409/base-suffers-second-mainnet-stall-in-two-days"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Sharplink恢复以太坊购买",
+      "summary": "Yahoo Finance报道，投资公司Sharplink宣布恢复以太坊购买计划，此前曾暂停。该公司曾持有一定ETH仓位，此举显示机构对ETH价值认可。影响ETH，中性偏多信号。",
+      "reason": "优先级二：机构动向，虽然规模不大但可视为信心信号。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMEJmVDJUNWNIOWQ4TGRmNlVCUUM4el9mWWhZMldOSTVxcWRIeVRKYXBXdXlweVM4bWdyOEFUN05IejJac2VTSEE4Rld5Wi1GcTJ4M1FqbENBREIxc1lvWWFNMFJ4UUZTYmtqRDNqOTJ6eWxSY2l4azVpZUhuaFROc0Q3c2ZMd3NCelFQMFgwUm5uaTdXeDlzT29USXo3eUlscl8w?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
