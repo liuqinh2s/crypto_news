@@ -1074,3 +1074,285 @@ content length: 1993
   ],
   "note": "当前时段优先级一消息较少，主要筛选出4条中期影响消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1002, prompt_tokens=9746, total_tokens=10748, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=941, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8594)
+content length: 105
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材中无新增高价值消息，大部分重复历史已有信息或无关公告。市场已持续下跌，恐惧贪婪指数13，但属重复。建议关注后续是否有新监管动态或巨鲸异动。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1972, prompt_tokens=9746, total_tokens=11718, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1332, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=18)
+content length: 1406
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌破5.9万，巨量期权到期",
+      "summary": "比特币跌破5.9万美元，加密货币ETF全线下跌。同时，价值百亿美元的比特币期权即将到期，可能引发剧烈波动。大户和机构被迫平仓或滚动头寸，短期抛压加剧。但极度恐惧下可能出现反弹机会。影响币种：BTC、ETH及相关ETF。信号：短期看空（期权到期抛压），中长期看多（极度恐惧抄底机会）。",
+      "reason": "百亿美元期权到期是重大市场结构事件，结合BTC跌破关键价位，可能触发清算和波动。属于优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOazFxbElvbEtQSnRwUXpuUWtPY29FZHlUT1JoN1BLU0FjQjlNYzZWRzdpTlNCUmd6amFDRzRxMDJiVzd0R0tZLUhMdWJFcGNlQUc4RjFHclV1TG5xUHZOSXUta1VoRkZHR0Z2cEdDRFF2YkZaZzVrbHZJV3RyYV9aWS1GOURCd1VIN3VpQzdDQXA4Rl83cHlQbGZoTzllN3J6aWxscjN3Q2c?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至13",
+      "summary": "恐慌与贪婪指数从12微升至13，仍处于极度恐惧区间。历史数据显示，该区域往往是中长期底部区域，但短期仍有下跌惯性。当前市场情绪极度悲观，可能吸引价值投资者左侧买入，但趋势反转需等待信号。影响币种：整体市场。信号：中长期看多，短期中性。",
+      "reason": "恐惧贪婪指数<20是优先级三信号，历史抄底区。数值从12变为13，有更新。属于市场情绪指标。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中，大部分为重复的Binance公告和已处理过的ARK增持消息，仅筛选出2条具有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1947, prompt_tokens=9746, total_tokens=11693, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1508, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9728), prompt_cache_hit_tokens=9728, prompt_cache_miss_tokens=18)
+content length: 875
+============================================================
+{
+  "news": [
+    {
+      "title": "百亿美元比特币期权到期",
+      "summary": "据富途牛牛报道，加密货币ETF全线下跌，比特币跌破5.9万美元，同时市场面临百亿美元比特币期权即将到期的压力。本次期权到期规模巨大，可能引发价格剧烈波动。此前比特币已多次测试5.9万美元支撑，期权到期或加剧方向选择。影响币种主要为BTC，期权到期后若交割量大，可能带来短期抛压或轧空。信号中性偏空，因大量期权到期通常伴随波动，但方向不确定。",
+      "reason": "百亿美元期权到期为事件驱动型消息，可能引发短期剧烈波动，属于优先级一的市场结构事件。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOazFxbElvbEtQSnRwUXpuUWtPY29FZHlUT1JoN1BLU0FjQjlNYzZWRzdpTlNCUmd6amFDRzRxMDJiVzd0R0tZLUhMdWJFcGNlQUc4RjFHclV1TG5xUHZOSXUta1VoRkZHR0Z2cEdDRFF2YkZaZzVrbHZJV3RyYV9aWS1GOURCd1VIN3VpQzdDQXA4Rl83cHlQbGZoTzllN3J6aWxscjN3Q2c?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮筛选仅发现1条新消息，其余素材均与历史消息重复或交易价值低。可关注期权到期后的市场反应。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3013, prompt_tokens=10487, total_tokens=13500, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2200, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1536), prompt_cache_hit_tokens=1536, prompt_cache_miss_tokens=8951)
+content length: 1667
+============================================================
+{
+  "news": [
+    {
+      "title": "PCE数据超预期引发加息担忧",
+      "summary": "6月26日公布的PCE数据高于预期，显示通胀顽固，美联储鹰派预期升温。市场消息称'Fed Rate Hike Alarm'，BTC跌破59000美元，引发大规模爆仓。此消息强化了加息预期，对加密货币整体构成压力。影响BTC、ETH等所有风险资产，看空信号。",
+      "reason": "宏观经济数据直接影响市场风险偏好，数据超预期导致BTC跌破关键支撑，属于优先级二中的宏观经济事件。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONnNTdEJaeUhidjA0OGplVnNrZmJWUVFBVDRuRjFKdkhJOUZ1TnFKa1lBZWNrN1h1TE1qbU9oR1BKd2NlMFZhZzVON1l4NmxFR2VjNldmZVlqd01rZlE2dGFaTGZmVklXREl5MW54a25rZTZMNzZDMWJCWnp3NXVOV3BZXzRHMnQ5S3k3cHNxNlZhazE2UkdoMmFVaFA2bDhZSU9nSlVibld3YlM0eW05TFhVdURtOVBYZXl4YXFHeWtzNWtzZnRyMFBrRXQ3NnVCVVE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "百亿美元比特币期权即将到期",
+      "summary": "6月26日或附近将有名义价值约百亿美元的比特币期权到期。当前BTC价格已跌至59000美元以下，大量看涨期权可能面临失效，同时期权到期前后通常伴随市场波动和移仓行为。该事件可能加剧市场不确定性，短期中性偏空。影响BTC。",
+      "reason": "巨额期权到期属于市场结构事件，可能引发大规模平仓和波动，属于优先级二中的市场结构事件。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOazFxbElvbEtQSnRwUXpuUWtPY29FZHlUT1JoN1BLU0FjQjlNYzZWRzdpTlNCUmd6amFDRzRxMDJiVzd0R0tZLUhMdWJFcGNlQUc4RjFHclV1TG5xUHZOSXUta1VoRkZHR0Z2cEdDRFF2YkZaZzVrbHZJV3RyYV9aWS1GOURCd1VIN3VpQzdDQXA4Rl83cHlQbGZoTzllN3J6aWxscjN3Q2c?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "本轮抓取素材中大部分与历史消息重复，仅筛选出2条新消息。市场处于极度恐惧状态，建议关注后续宏观数据和期权到期影响。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1419, prompt_tokens=10487, total_tokens=11906, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1164, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10368), prompt_cache_hit_tokens=10368, prompt_cache_miss_tokens=119)
+content length: 635
+============================================================
+{
+  "news": [
+    {
+      "title": "恐惧贪婪指数13持续",
+      "summary": "当前加密市场恐惧贪婪指数为13，属于极度恐惧状态，已连续多日处于该区间。历史数据显示极度恐惧往往是中长期抄底区域，但短期价格可能继续承压。该指数反映了市场情绪极度悲观，可能形成过度抛售后的反弹机会。影响所有币种，中长期看多信号，短期中性。",
+      "reason": "恐惧贪婪指数极值（<20）是优先级三的市场情绪信号，虽然数值未变，但持续性强化了极端情绪，可作为交易参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时内没有出现符合筛选标准的新消息，多数事件已在历史消息中出现并去重，仅恐惧贪婪指数持续极端值得关注。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2765, prompt_tokens=3686, total_tokens=6451, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=954, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2534)
+content length: 4395
+============================================================
+{
+  "news": [
+    {
+      "title": "PCE超预期，BTC跌破59000",
+      "summary": "美国PCE数据高于预期，市场担心美联储继续加息，比特币跌破59000美元，加密市场全面下跌。这是宏观紧缩信号，利空所有风险资产，尤其是BTC和ETH。短期内可能进一步下探，但极度恐惧指数也暗示超卖。",
+      "reason": "宏观经济数据直接影响风险资产价格，属于优先级二，但PCE超预期+价格破位影响重大，升级为优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONnNTdEJaeUhidjA0OGplVnNrZmJWUVFBVDRuRjFKdkhJOUZ1TnFKa1lBZWNrN1h1TE1qbU9oR1BKd2NlMFZhZzVON1l4NmxFR2VjNldmZVlqd01rZlE2dGFaTGZmVklXREl5MW54a25rZTZMNzZDMWJCWnp3NXVOV3BZXzRHMnQ5S3k3cHNxNlZhazE2UkdoMmFVaFA2bDhZSU9nSlVibld3YlM0eW05TFhVdURtOVBYZXl4YXFHeWtzNWtzZnRyMFBrRXQ3NnVCVVE?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数13，极度恐惧",
+      "summary": "恐惧贪婪指数跌至13，属于极度恐惧区间。历史上该区域往往对应市场底部，是中长期买入信号。但短期可能继续恐慌，需要结合其他指标。影响所有币种，尤其是BTC。",
+      "reason": "市场情绪极值，优先级三，但13接近历史最低，抄底信号明确。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "加密货币ETF全线下跌，百亿美元期权到期",
+      "summary": "加密货币ETF全线下跌，比特币跌破5.9万美元，同时百亿美元比特币期权即将到期（6月26日）。期权到期可能引发标的物波动加剧，目前看空情绪浓厚，但到期后压制可能解除。影响BTC、ETH及相关ETF。",
+      "reason": "ETF资金流和期权到期是市场结构事件，优先级一和二的结合，短期波动风险高。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOazFxbElvbEtQSnRwUXpuUWtPY29FZHlUT1JoN1BLU0FjQjlNYzZWRzdpTlNCUmd6amFDRzRxMDJiVzd0R0tZLUhMdWJFcGNlQUc4RjFHclV1TG5xUHZOSXUta1VoRkZHR0Z2cEdDRFF2YkZaZzVrbHZJV3RyYV9aWS1GOURCd1VIN3VpQzdDQXA4Rl83cHlQbGZoTzllN3J6aWxscjN3Q2c?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Ark Invest增持Coinbase等股票",
+      "summary": "Ark Invest在市场下跌中买入Coinbase、Circle、Bullish、Robinhood等股票，显示机构对加密相关公司的长期看好。虽然不直接购买加密货币，但提振市场信心，中期偏多。",
+      "reason": "机构动向属于优先级二，Ark作为知名机构，其增持行为有市场号召力。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH", "COIN"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406258/ark-invest-coinbase-circle-bullish-robinhood?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance新增日元交易对及零挂单费",
+      "summary": "Binance新增JPY现货交易对并推出零挂单费活动，利好日元交易者，提升流动性。对BTC、ETH等主流币有正面影响，但程度有限。",
+      "reason": "交易所新增流动性措施，优先级一边缘，影响温和。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线RE代币",
+      "summary": "Binance将上线Re (RE) 代币并标记为Seed Tag，同时支持Earn、Margin、Futures等。新币上线通常带来短期交易机会，但波动风险大，需注意Seed Tag高风险警示。",
+      "reason": "交易所上币属于优先级一，影响新币价格，对整体市场影响小。",
+      "category": "交易所",
+      "impact_coins": ["RE"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告（List）",
+          "url": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6"
+        },
+        {
+          "name": "Binance公告（Earn等）",
+          "url": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance将推出TradFi永续合约（6月29日）",
+      "summary": "Binance将于6月29日上线多个传统金融代币的永续合约（如MSTRB等），为加密用户提供做多/做空传统股票的机会。可能增加相关代币的交易量和波动，影响MSTRB等标的。",
+      "reason": "交易所上线新合约是优先级一事件，但距离执行还有几天，影响有限。",
+      "category": "交易所",
+      "impact_coins": ["MSTRB", "AMDB", "EWYB", "INTCB"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
