@@ -1,16 +1,18 @@
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1781, prompt_tokens=14377, total_tokens=16158, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=520, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=13225)
+content length: 3480
+============================================================
 {
-  "date": "2026-06-27",
-  "hour": "00",
   "news": [
     {
       "title": "卡什卡利预计2026年加息",
       "summary": "美联储卡什卡利表示，预计2026年将加息一次。紧缩预期将打压风险资产，加密货币承压。影响BTC、ETH等所有风险资产，短期看空信号。",
       "reason": "美联储官员鹰派言论，直接影响宏观经济预期，属于优先级二。",
       "category": "宏观经济",
-      "impact_coins": [
-        "BTC",
-        "ETH"
-      ],
+      "impact_coins": ["BTC", "ETH"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -26,9 +28,7 @@
       "summary": "灰度向Coinbase Prime存入8697枚ETH，价值约1377万美元。大额ETH转入交易所通常预示潜在抛售压力，对ETH短期利空。",
       "reason": "灰度作为大型机构，其转入交易所行为是链上异动中的巨鲸动向，直接影响ETH价格。",
       "category": "链上异动",
-      "impact_coins": [
-        "ETH"
-      ],
+      "impact_coins": ["ETH"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -44,9 +44,7 @@
       "summary": "因Story品牌升级，Binance将于6月29日下架IPUSDT和IPUSDC永续合约。下架合约可能导致IP价格下跌及交易量萎缩，对IP代币利空。",
       "reason": "交易所下架合约直接影响对应币种，属于优先级一。",
       "category": "交易所",
-      "impact_coins": [
-        "IP"
-      ],
+      "impact_coins": ["IP"],
       "signal": "bearish",
       "impact_level": 3,
       "sources": [
@@ -56,6 +54,22 @@
         }
       ],
       "urgency": "hours"
+    },
+    {
+      "title": "巨鲸做空912.9 BTC与10025 ETH",
+      "summary": "某巨鲸开仓做空912.9枚BTC与10025枚ETH，总价值超7000万美元。大额空单表明大户看跌后市，加剧市场悲观情绪，利空BTC和ETH。",
+      "reason": "巨鲸交易行为是重要链上异动，反映市场情绪和潜在压力。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519824.html"
+        }
+      ],
+      "urgency": "immediate"
     },
     {
       "title": "Securitize借壳上市融资4亿美元",
@@ -94,9 +108,7 @@
       "summary": "比特币自2024年Q3以来首次收盘低于6万美元，同时技术股进入深熊区域。关键支撑位失守，技术面恶化，短期看空。",
       "reason": "重要价格行为，属于市场结构变化，直接影响交易决策。",
       "category": "市场结构",
-      "impact_coins": [
-        "BTC"
-      ],
+      "impact_coins": ["BTC"],
       "signal": "bearish",
       "impact_level": 4,
       "sources": [
@@ -107,7 +119,5 @@
       ],
       "urgency": "immediate"
     }
-  ],
-  "total_fetched": 52,
-  "generated_at": "2026-06-27T00:01:13.492902+08:00"
+  ]
 }
