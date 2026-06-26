@@ -2003,3 +2003,92 @@ content length: 2696
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1966, prompt_tokens=11244, total_tokens=13210, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=924, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10092)
+content length: 2804
+============================================================
+{
+  "news": [
+    {
+      "title": "Sharplink买入5000枚ETH",
+      "summary": "以太坊资金管理公司Sharplink在暂停8个月后首次买入以太坊，新增5000枚ETH。ETH当前处于2026年低点，机构买入信号可能预示底部。对ETH看多，短期可能反弹。",
+      "reason": "机构买入ETH，属于巨鲸异动，直接影响ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/26/ethereum-treasury-firm-sharplink-takes-in-ether-for-the-first-time-in-eight-months"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SBI Holdings收购Bitbank",
+      "summary": "日本金融服务巨头SBI Holdings以2.89亿美元收购加密货币交易所Bitbank。此举显示传统金融机构持续布局加密领域，可能提振日本市场信心。对BTC、ETH等主流币看多，中期利好。",
+      "reason": "重大机构收购，显示传统资本入场，影响市场情绪。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/06/26/japanese-financial-services-giant-sbi-holdings-to-buy-bitbank-for-usd289-million"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Polymarket被窃290万美元",
+      "summary": "预测市场Polymarket遭供应商入侵，损失290万美元，承诺全额退还用户。短期可能影响平台代币POLY及相关DeFi代币价格，但影响有限。",
+      "reason": "交易所/项目安全事件，可能引发抛售。",
+      "category": "项目更新",
+      "impact_coins": ["POLY"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/polymarket-vendor-compromise-drains-29m-users"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "F2Pool联创加仓ETH/WBTC",
+      "summary": "F2Pool联合创始人王纯增持9937枚ETH和147.5枚WBTC并存入Spark。增持后其持仓显著增加，显示矿工对后市的信心。对ETH和BTC看多。",
+      "reason": "巨鲸加仓，链上异动，通常被解读为看多信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH", "BTC"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519741.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "4个OG钱包卖出3.36万ETH",
+      "summary": "4个持有ETH长达8年的早期钱包近日卖出3.36万ETH，约合5200万美元。长期持有者抛售可能增加ETH短期抛压，对ETH看空。",
+      "reason": "鲸鱼抛售，链上异动，直接影响ETH供应。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519731.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "欧洲央行或于9月加息",
+      "summary": "美国银行预测欧洲央行将在2026年9月加息，紧缩预期可能压制风险资产。对加密货币整体看空，尤其BTC、ETH。影响程度中等。",
+      "reason": "宏观经济数据，影响整体流动性预期。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519726.html"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
