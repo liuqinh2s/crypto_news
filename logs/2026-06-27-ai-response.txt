@@ -866,3 +866,234 @@ content length: 3589
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1297, prompt_tokens=11455, total_tokens=12752, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=938, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10303)
+content length: 843
+============================================================
+{
+  "news": [
+    {
+      "title": "以太坊老钱包移动3.78万ETH",
+      "summary": "据CoinTelegraph报道，多个以太坊古老钱包在6月26日转移了总计37,806 ETH（约合5700万美元），这些钱包沉寂多年。市场解读为鲸鱼可能准备抛售，尤其是在ETH价格跌至1500美元关键支撑位之际。若这些ETH进入交易所，将增加抛压，可能加速ETH跌破1500美元。该消息对ETH形成短期利空信号，但需关注后续动向。",
+      "reason": "巨鲸异动属于优先级一，大额转出或转入交易所可能直接影响价格。此事件涉及3.78万ETH，规模中等，且发生在ETH价格关键支撑位，可能引发恐慌性抛售。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分新闻与历史消息重复或为低价值内容（如Binance重复公告、诈骗警告、社区讨论等），仅有此条链上异动符合筛选标准，因此输出少于5条。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1267, prompt_tokens=11455, total_tokens=12722, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=974, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=63)
+content length: 731
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸移动3.78万ETH",
+      "summary": "CoinTelegraph报道，旧以太坊钱包转移了37,806 ETH，价值约5700万美元，而ETH价格正测试1500美元关键支撑位。这些钱包长期休眠后突然激活，可能预示大户准备抛售或换仓。若ETH跌破1500美元，可能引发更大规模清算。对ETH看空信号。",
+      "reason": "优先级一：巨鲸异动——大额ETH转移至交易所或新地址可能预示抛压，直接影响ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前抓取素材中，其他新闻均与历史重复或交易价值低，仅筛选到1条有效消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1125, prompt_tokens=11455, total_tokens=12580, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=798, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11392), prompt_cache_hit_tokens=11392, prompt_cache_miss_tokens=63)
+content length: 796
+============================================================
+{
+  "news": [
+    {
+      "title": "Old ETH wallets move 37,806 ETH",
+      "summary": "多个老旧以太坊钱包（可能为早期巨鲸或沉睡地址）在最近移动了总计37,806 ETH（约合5900万美元），正值ETH价格在$1,500关键支撑位附近挣扎。这种突发的大额转移往往预示潜在抛压，尤其是当鲸鱼在关键价位解锁时。若ETH跌破$1,500，可能导致更多清算。短期偏空信号，影响ETH及关联代币。",
+      "reason": "巨鲸异动优先级一：大额ETH转移（接近$6000万）可能预示抛售或换仓。结合ETH价格在关键支撑位，该动作值得密切关注。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮6小时内抓取的其他消息均已在历史标题中出现或属于排除项，仅此一条新消息符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1880, prompt_tokens=12521, total_tokens=14401, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1588, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=2432), prompt_cache_hit_tokens=2432, prompt_cache_miss_tokens=10089)
+content length: 735
+============================================================
+{
+  "news": [
+    {
+      "title": "老旧ETH钱包转移37,806枚ETH",
+      "summary": "CoinTelegraph报道，一些老旧以太坊钱包地址转移了37,806枚ETH（约合6000万美元），这是自2019年以来长期持有者首次整体浮亏，表明市场信心动摇。大额链上转移通常预示潜在抛压，对ETH形成短期利空。当前ETH价格约$1,500，此动作可能加剧下行压力。",
+      "reason": "巨鲸异动（优先级一），大额ETH转移可能引发抛售，直接影响ETH行情。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮抓取素材中大部分与历史消息重复，仅筛选出1条有交易价值的新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2271, prompt_tokens=12521, total_tokens=14792, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1932, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=12416), prompt_cache_hit_tokens=12416, prompt_cache_miss_tokens=105)
+content length: 815
+============================================================
+{
+  "news": [
+    {
+      "title": "旧以太坊钱包转移37,806 ETH",
+      "summary": "据报道，多个旧以太坊钱包转移了37,806 ETH（约5670万美元），这些地址为长期持有者，自2019年以来首次出现负盈利。此次转移可能预示部分巨鲸开始获利了结或调整仓位，但无法确定是否立即抛售。尽管不是直接卖出，但大额链上移动增加了潜在抛压，对ETH短期价格构成利空因素。如果后续这些ETH进入交易所，可能引发进一步下跌。目前信号偏中性，但需密切关注后续动向。影响币种：ETH。",
+      "reason": "链上异动，巨鲸转移大额ETH，属优先级一关键消息。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "仅有1条符合筛选标准的新消息。其余消息（如恐惧贪婪指数、Binance公告、宏观经济数据等）已在6小时内历史标题中重复出现或不符合筛选标准。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2103, prompt_tokens=4540, total_tokens=6643, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=774, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=3388)
+content length: 3238
+============================================================
+{
+  "news": [
+    {
+      "title": "美通胀指标创3年新高，BTC跌",
+      "summary": "美联储偏好的通胀指标PCE达到3年高位，引发市场对加息预期升温，风险资产受挫。比特币、以太坊、XRP和狗狗币均大幅下跌。该数据强化了紧缩预期，对加密货币整体构成看空信号，尤其是BTC和ETH。",
+      "reason": "宏观经济数据直接影响风险资产走势，符合优先级二，且为关键通胀指标。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH", "XRP", "DOGE"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "foreignpolicyjournal.com",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMFg0RndQc2o4LVJtZDVVUWhlRF9YY3AyaGh2cGw5S0c0YnE4cnowZFhGN251X1NUYkxQQVN5MXZHLXBPeGlhWmU2WHRsc3NjYU5jSnV3Nm80cGVhUkxhTFU3UkRNMkdDdmZpUTM1M2FNLWZuYkRxdFlxdjNiVUM1ZkVVQlluUk9BOWR5bW1iRmVqYmdwc1RvSkU4NDZHbXlDWjBSbFBIUVJMZDl6MHU5SkhDT25BM1V5TGJ4cXB5bTVrVkx4cDMzbU00VWx3bmoxREtZV1JueklzbFUxNjlBWWotemNPVW05dkRJeG4zYUZYSGFGd0FRZ0xuUW4zSzZVNzJFUTVB?oc=5"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数降至13极度恐惧",
+      "summary": "加密货币恐惧与贪婪指数跌至13，处于极端的恐惧区间。历史数据显示，该指数低于20通常标志着中期底部区域，但短期价格可能继续下探。当前市场情绪极度悲观，可能为中长期投资者提供买入机会，但短期仍面临下行风险。影响所有主流币。",
+      "reason": "市场情绪极值信号，符合优先级三，具有中长期参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "旧以太坊钱包转移37,806 ETH",
+      "summary": "多个长期沉寂的以太坊钱包突然移动了37,806 ETH（约合5700万美元），这些ETH被转入交易所或新地址。此行为可能预示持有者准备抛售，给ETH带来抛压。当前ETH价格正面临1500美元关键支撑测试，若跌破可能加速下行。看空ETH。",
+      "reason": "巨鲸异动（大额链上转移），符合优先级一，直接影响ETH行情。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test-at-1-5k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy比特币溢价消失",
+      "summary": "MicroStrategy（现名Strategy）的股价相对于其比特币持仓的溢价（mNAV）跌破1，意味着市场对其企业价值的估值低于其持有的比特币价值。这表明市场对该公司利用比特币的策略持悲观态度，可能引发抛售压力。该信号对BTC本身影响中性偏空，但反应机构情绪。",
+      "reason": "机构动向，符合优先级二，反映市场对BTC信心的变化。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406438/strategy-loses-bitcoin-premium-enterprise-mnav-dips-below-1?utm_source=rss&utm_medium=rss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线OUSDT永续合约",
+      "summary": "Binance宣布将于2026年6月24日推出OUSDT USDⓈ-M永续合约，最高杠杆75倍。OUSDT是某项目的代币，新合约上线通常会带来短期交易量和价格波动。考虑到当前市场整体偏空，该消息对OUSDT短期看多，但需要关注后续交易深度。",
+      "reason": "交易所上币/合约上线，符合优先级一，直接影响对应币种。",
+      "category": "交易所",
+      "impact_coins": ["OUSDT"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
