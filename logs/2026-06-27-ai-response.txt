@@ -1453,3 +1453,69 @@ content length: 1727
   ],
   "note": "本轮素材中大部分为Reddit新手提问和旧公告，符合筛选标准的有效消息仅3条。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3509, prompt_tokens=9289, total_tokens=12798, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2720, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8137)
+content length: 2067
+============================================================
+{
+  "news": [
+    {
+      "title": "SOL反弹但链上动能减弱",
+      "summary": "SOL价格回升至72美元，但链上数据显示动量指标走弱，表明反弹可能缺乏持续性，短期内存在回调风险。影响SOL及其生态代币，对SOL短期看空。",
+      "reason": "直接分析SOL价格走势，链上数据提供具体交易信号。",
+      "category": "链上异动",
+      "impact_coins": ["SOL"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/sol-reclaims-72-but-onchain-data-flags-weakening-momentum"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "休眠两年鲸鱼卖出5671枚ETH",
+      "summary": "某休眠两年的巨鲸地址近期将5671枚ETH（约800万美元）转移至交易所，通常视为抛售前兆，增加ETH短期抛压。对ETH看空。",
+      "reason": "巨鲸大额转入交易所是直接抛压信号，影响ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519895.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "SharpLink两天购入1万枚ETH",
+      "summary": "游戏公司SharpLink Gaming在两天内买入1万枚ETH（约1573万美元），显示机构级别买入需求，对ETH形成利好。",
+      "reason": "机构或企业大额买入是明显看多信号，提振市场信心。",
+      "category": "项目更新",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519888.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "大摩预计美联储年内不加息",
+      "summary": "摩根士丹利分析师认为美联储2026年不会加息，但提示两大潜在加息风险。整体偏鸽派，利好风险资产包括比特币和以太坊。",
+      "reason": "宏观宽松预期直接影响加密货币定价，鸽派信号构成看多依据。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519882.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "前谷歌技术负责人清仓比特币",
+      "summary": "前谷歌技术负责人卖出全部比特币持仓，并称遭受巨额财务损失。个人行为但具有情绪传导效应，可能加剧市场悲观氛围。对BTC短期情绪偏空。",
+      "reason": "知名人士清仓可影响散户情绪，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519885.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
