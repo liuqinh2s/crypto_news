@@ -2397,3 +2397,59 @@ content length: 4230
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1998, prompt_tokens=10742, total_tokens=12740, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=857, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9590)
+content length: 2595
+============================================================
+{
+  "news": [
+    {
+      "title": "CZ批评2026加密市场",
+      "summary": "币安创始人赵长鹏(CZ)将2026年加密货币市场的低迷归因于AI热潮、全球地缘政治紧张以及四年周期。他表示AI吸走了大量资金和注意力，同时全球冲突加剧风险厌恶情绪。这是CZ对当前市场的罕见公开评论，可能影响市场情绪。对BTC、ETH及主流币种偏空，但并非直接利空信号。",
+      "reason": "CZ作为行业领袖，其观点可能引导市场情绪，属于市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/06/27/binance-founder-cz-blames-crypto-s-sour-2026-on-mix-of-ai-global-tension-4-year-cycle"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "MSTR估值跌破BTC持仓",
+      "summary": "Strategy（原MicroStrategy）的市值已跌破其持有的比特币总价值，对应负溢价。这意味着市场对公司的杠杆策略失去信心，可能引发MSTR清算或迫使公司出售BTC偿还债务。若发生，将带来BTC抛压。短期看空BTC，利空MSTR。",
+      "reason": "直接影响BTC价格的重要信号，巨鲸异动和项目方重大事件。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/27/strategy-s-valuation-has-fallen-below-the-value-of-its-bitcoin-holdings"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Cardano钱包漏洞影响ADA",
+      "summary": "跨链桥SecondFi遭遇Cardano钱包漏洞，攻击者利用漏洞盗取资金。SecondFi承诺在两周内恢复，但漏洞事件打击Cardano生态信心，可能导致ADA短期抛售。看空ADA。",
+      "reason": "项目方安全事件，直接影响相关币种价格。",
+      "category": "项目更新",
+      "impact_coins": ["ADA"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/secondfi-two-week-recovery-cardano-wallet-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "ETF交易暗示通胀担忧缓解",
+      "summary": "CNBC报道：部分ETF的交易模式显示市场认为通胀恐惧被夸大。若通胀预期回落，美联储可能放缓紧缩或转向宽松，利好风险资产包括加密市场。对BTC、ETH等偏多。",
+      "reason": "宏观经济数据预期变化，影响风险资产整体走势。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "CNBC", "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON1NzNE5qNV96cy1KYUlFb0JhUlhWTWFTRnAzQmFMMVFNRDdMVmJmRFptU1J5bGlIVzVXczhSVWxOc3EyVkQ3S3BoSGxlemwtRzlPeE9mWXdaelNMWXU1LU5FcGZYN3B1WGRNaTBfRThEV01va0w0LTJrcW9zM0ZMc3RlcmZyNU1CMENKblNnWHRUQzJuR0Z4NzJpcmpobWtNUHg40gGoAUFVX3lxTFBuVUNrQ1Y0U3RSLVhxVG9naF9sZGZzV2VxRTgwTlFPajBqeExqM0dMVXNXaF9FNnhvQjFxVkFNdHJ6bms1RHFSUGpRWFR6TnNDUFZuLTFrLUNablFmQ3hEVTJhUGlKTnEwb3hkNFMxSDRwcnhDdjFVY21KRl9OZnM4cjlxaVRKRTQyZUx6dklCSUp5bFFnenFfLUt6cnhSOTNhbVkzY0xzMg?oc=5"}],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮筛选出4条有交易价值的新消息，其余信息与历史重复或无关交易信号。"
+}
