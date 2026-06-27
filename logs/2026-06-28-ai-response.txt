@@ -303,3 +303,69 @@ content length: 1634
   ],
   "note": "当前市场极度恐惧（贪婪指数15），已有大量空头消息重复，此次筛选仅3条新且有影响的消息，其余多为重复或无交易价值。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2041, prompt_tokens=10796, total_tokens=12837, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=857, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9644)
+content length: 2848
+============================================================
+{
+  "news": [
+    {
+      "title": "黄金白银跌拖累比特币",
+      "summary": "CoinDesk报道，近期黄金和白银价格下跌正在拖累比特币。传统避险资产走弱引发市场对整体风险资产的悲观情绪，比特币与黄金的短期相关性增强。这可能意味着如果贵金属继续下跌，比特币将进一步承压。影响币种：BTC。信号：bearish。",
+      "reason": "直接影响行情：黄金白银作为宏观风向标，其下跌带动比特币走弱，属于优先级一的市场联动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/27/why-a-selloff-in-gold-and-silver-is-dragging-bitcoin-down"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "伊朗通胀率升至88.6%",
+      "summary": "伊朗6月通胀率同比升至88.6%，创历史新高。高通胀可能加剧伊朗国内经济压力，促使政府采取更激进的货币政策，或增加地缘政治不确定性。这可能推动避险情绪，利好比特币作为替代资产，但短期因中东紧张情绪也可能带来抛售。影响币种：BTC。信号：neutral。",
+      "reason": "宏观经济数据影响风险资产，属于优先级二的中期影响。伊朗通胀激增可能引发资金流入比特币对冲，但也可能因地缘风险导致短期波动。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/519982.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "DCG旗下Yuma推Bittensor基金",
+      "summary": "DCG支持的Yuma宣布推出基金，为机构提供Bittensor（TAO）的敞口。这意味着更多传统资金可能通过合规渠道进入TAO市场，增加需求并提升流动性。同时，DCG的背书增强了市场对TAO生态的信心。影响币种：TAO。信号：bullish。",
+      "reason": "机构动向利好TAO，属于优先级二的机构入场。",
+      "category": "ETF机构",
+      "impact_coins": ["TAO"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/yuma-bittensor-fund-institutional-tao-decentralized-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance EU用户转移讨论",
+      "summary": "Reddit出现讨论：Binance EU因未获MiCA牌照，用户需将资金转移至其他平台。这可能导致Binance在欧盟的用户流失和交易量下降，对BNB及平台上币种产生负面影响。但Coinbase和OKX正试图吸引这些用户，可能给后者带来增量。影响币种：BNB。信号：bearish。",
+      "reason": "重大监管动态：交易所牌照问题直接影响用户信心和币价，属于优先级一的监管事件。",
+      "category": "监管政策",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Reddit r/cryptocurrency", "url": "https://www.reddit.com/r/CryptoCurrency/comments/1uh916g/where_to_send_your_funds_if_you_are_still_on/"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "MARA转向能源而非比特币",
+      "summary": "矿企MARA Holdings表示其未来核心是电力资产而非比特币，可能减少挖矿投入或出售比特币储备。此举可能引发市场对矿工抛售的担忧，增加比特币卖压。同时暗示矿业公司对挖矿盈利前景持谨慎态度。影响币种：BTC。信号：bearish。",
+      "reason": "项目方重大事件：矿企战略转变影响比特币供需预期，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "TIKR.com", "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSnVzbl9jM1RYOTRpcjNSczA5MFJiQWtFM05qUkw1dUh4eTNOcmFiN1gxVlNiM1J1elNGR1NwenA4V1FucXdMNWpaYTFtYkVVSlpHMDB0MUMtbVVfODA4OElrVWxGcmk1UGJsUkI0X2QtU2loWWFqZUNLelhsWENNZ2stcjBhbk41cGc?oc=5"}],
+      "urgency": "hours"
+    }
+  ]
+}
