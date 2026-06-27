@@ -2268,3 +2268,132 @@ content length: 2772
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1130, prompt_tokens=9464, total_tokens=10594, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1105, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8312)
+content length: 47
+============================================================
+{
+  "news": [],
+  "note": "所有消息均已重复，无新事件可筛选。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1407, prompt_tokens=9464, total_tokens=10871, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1383, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9344), prompt_cache_hit_tokens=9344, prompt_cache_miss_tokens=120)
+content length: 48
+============================================================
+{"news": [], "note": "本轮所有消息均与历史消息重复，无新增有价值信息。"}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2690, prompt_tokens=9464, total_tokens=12154, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=955, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9344), prompt_cache_hit_tokens=9344, prompt_cache_miss_tokens=120)
+content length: 4230
+============================================================
+{
+  "news": [
+    {
+      "title": "MSTR五天跌25% BTC暴跌",
+      "summary": "Strategy(MSTR)股价五天暴跌25%，伴随BTC价格大幅下挫至6万美元附近。MSTR作为最大比特币持有上市公司，其股价崩跌加剧市场恐慌，可能引发更多机构抛售BTC。直接利空BTC和MSTR，短期看空。",
+      "reason": "优先级一：项目方重大事件，直接影响BTC和MSTR价格，市场联动效应强。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Bitcoin Magazine", "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Wd2dxV0JwWTZtVmhRcWxZTDNITUhwdXdSaDhYWExzNXJyRTA0dFlMV0VBX1dKbVhrXzI2cHRzSXJ3elBrTFhqRUt5WjFpeU1CNXJ6TGdyeHdaem9RLUFEalBHX1AzR1ZkS1FIZWhiT1BrNmVMTEs4a1hmUlFVc0k?oc=5"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "新建钱包开290万XRP空单",
+      "summary": "某新建钱包向HyperLiquid存入63万USDC，开设290万枚XRP空单，杠杆比例约4.6倍。巨鲸大额做空XRP信号强烈，可能引发XRP价格进一步下跌。看空XRP。",
+      "reason": "优先级一：巨鲸异动，大额空单直接施加抛压，影响XRP。",
+      "category": "链上异动",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://www.jinse.com"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Vitalik关联地址转7000ETH至CEX",
+      "summary": "Vitalik Buterin关联地址转移7000枚ETH（约4200万美元）至中心化交易所，通常被视为潜在抛售信号。若出售将增加ETH供给压力，短期看空ETH。",
+      "reason": "优先级一：项目方重大事件，创始人关联地址转移大额代币至交易所，有抛售风险。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://www.jinse.com"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "香港受监管稳定币即将推出",
+      "summary": "香港政府表示受监管稳定币预计今年中至下半年推出，标志合规框架落地。利好香港合规稳定币相关项目及整个加密市场，增加资金入场通道。看多BTC、ETH及合规稳定币。",
+      "reason": "优先级一：重大监管动态，合规稳定币推出利好市场整体情绪。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH", "USDC", "USDT"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://www.jinse.com"}],
+      "urgency": "days"
+    },
+    {
+      "title": "Franklin Resources收购并推出加密业务",
+      "summary": "资管巨头Franklin Resources收购250 Digital并推出Franklin Crypto，正式进军加密领域。机构大规模入场看多信号，预期带来长期资金流入。看多BTC、ETH。",
+      "reason": "优先级二：机构动向，全球资管巨头入场，利好市场信心。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "Yahoo Finance", "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BSXl0WU1BMGc0N1M5VTdtenhpVURqYU9uNHNsLXRHaC00SnBCbUU0cmFWdEdTUWVsVmJ3WC1CZjhKZ1AyTGRDaU9YQllTcHdDWWh0NTVPVTlSNEdBRV9JNnBXUS0?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "21Shares Hyperliquid ETF首次减持HYPE",
+      "summary": "21Shares Hyperliquid ETF昨日首次减持HYPE，表明机构对HYPE短期看空或调整配置。利空HYPE，可能引发跟随抛售。",
+      "reason": "优先级二：机构动向，ETF减持直接利空对应币种。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://www.jinse.com"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Bitwise存入1.14亿HYPE并质押",
+      "summary": "Bitwise在8小时前向Hyperliquid存入价值1.14亿美元的HYPE并质押，显示机构长期看好HYPE。与ETF减持形成对比，但近期增持信号更直接，利多HYPE。",
+      "reason": "优先级二：机构动向，大额增持并质押，看多信号。",
+      "category": "ETF机构",
+      "impact_coins": ["HYPE"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://www.jinse.com"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线CAPUSDT永续合约",
+      "summary": "Binance Futures于6月27日上线CAPUSDT永续合约，最高杠杆75倍。新合约上市通常带动CAP价格上涨及交易量增加，利好CAP。看多CAP。",
+      "reason": "优先级一：交易所上币公告，直接影响对应币种流动性及价格。",
+      "category": "交易所",
+      "impact_coins": ["CAP"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "Binance", "url": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "恐惧贪婪指数15极度恐惧",
+      "summary": "恐惧贪婪指数降至15（极度恐惧），为历史低位区间。过去十年多次比特币底部均出现在该区域，暗示市场过度悲观，中长期抄底机会。短期中性但中长期看多BTC。",
+      "reason": "优先级三：市场情绪指标极值，历史抄底区，但需结合其他信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    }
+  ]
+}
