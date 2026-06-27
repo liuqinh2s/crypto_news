@@ -1863,3 +1863,94 @@ content length: 2198
   ],
   "note": "当前时段有效高价值消息较少，仅筛选出4条。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3571, prompt_tokens=9965, total_tokens=13536, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2324, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8813)
+content length: 2948
+============================================================
+{
+  "news": [
+    {
+      "title": "Vitalik关联地址转移7000ETH",
+      "summary": "链上数据显示，与Vitalik Buterin关联的地址转移了7000枚ETH（约1050万美元），可能即将存入交易所抛售。这是以太坊创始人相关地址的罕见大额转出，可能引发市场对ETH短期抛压的担忧，导致价格承压。如果ETH跌破关键支撑位，可能加速下跌。建议交易者密切关注该地址后续动作。信号：看空ETH。",
+      "reason": "链上异动：Vitalik关联地址大额转移，可能准备抛售，属于优先级一事件。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519926.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "新建钱包开290万XRP空单",
+      "summary": "某新建钱包向HyperLiquid存入63万枚USDC，开设了290万枚XRP的空单（约140万美元仓位）。这表明有交易者强烈看空XRP，认为其价格将继续下跌。大额空单开仓可能加剧XRP的抛售压力，同时若价格反弹，可能触发空头平仓导致上涨，但短期内空头信号明显。建议XRP短线以做空为主。",
+      "reason": "链上异动：大额空单开仓，直接反映市场情绪和潜在价格方向，属于优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519922.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "对冲基金经理警告AI股票超级泡沫",
+      "summary": "中国知名对冲基金经理公开警告称，全球AI股票已经成为“超级泡沫”，暗示股价远超基本面。此言论可能引发风险资产（包括加密货币）的避险情绪，因为AI股票是近年来市场领军者，泡沫破裂可能带动整体科技和风险偏好下行。比特币和以太坊等加密资产作为高风险资产，可能面临短期抛压。但若资金从AI流出转向其他资产，比特币可能反而受益，需观察。",
+      "reason": "宏观经济：知名人物对AI泡沫的警告可能影响市场情绪，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519925.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "霍尔木兹海峡通航明显放缓",
+      "summary": "自昨日美伊再次交火以来，霍尔木兹海峡通航流量已明显放缓。霍尔木兹海峡是全球最重要的石油运输通道，通航放缓可能推高油价，增加全球通胀压力，进而影响美联储货币政策预期。对加密货币而言，短期可能因避险情绪而下跌，但长期若油价持续上涨导致经济衰退，则可能利好比特币作为对冲工具。当前偏空。",
+      "reason": "宏观经济：地缘政治事件影响能源和风险资产，属于优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519923.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "RWA周刊：数字人民币立法与日元稳定币",
+      "summary": "PANews报道，数字人民币将被立法确立法律地位，同时SBI推出日本首只信托银行托管合规日元稳定币JPYSC。这标志着中国和日本在数字货币及稳定币监管领域的重大进展，为RWA（真实世界资产）代币化和合规稳定币奠定了基础。短期内可能利好合规稳定币和RWA相关代币，如ONDO、USDC等。长期看，监管清晰化有助于机构入场。",
+      "reason": "监管政策：数字人民币立法和合规稳定币推出，影响稳定币和RWA生态，属于优先级一/二。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "USDT", "ONDO"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PANews",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZME9XRm50VlRxSGEwWVRfTllPcHppeU5ONmIyTkI4cmJ5cDQ1XzVITFZNQ001eThXcVZaNktJeUc4bnBQMjh6Um1vTFExWkRMckdnaWNyZGMyWW5FSV9lOHVDWkFvRW12S2Y2ZFdNNktvMDNGdnA0OXZqSTlqYWM?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
