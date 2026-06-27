@@ -243,3 +243,63 @@ content length: 3393
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2707, prompt_tokens=10594, total_tokens=13301, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2031, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9442)
+content length: 1634
+============================================================
+{
+  "news": [
+    {
+      "title": "伊朗无人机袭击巴林",
+      "summary": "在美国打击伊朗后，伊朗无人机袭击巴林并袭击油轮，霍尔木兹海峡紧张局势升级。地缘政治风险上升通常导致风险资产承压，加密货币作为风险资产可能短期下跌。影响币种：BTC、ETH。信号：短期看空。",
+      "reason": "地缘冲突升级可能引发避险情绪，加密货币作为风险资产承压。历史消息中虽有相关提及，但此次为最新袭击事件，属更新。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519981.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "BTC ETH高杠杆空头重开",
+      "summary": "链上数据显示，巨鲸重新开立了BTC和ETH的高杠杆空头头寸。高杠杆空头拥挤通常预示短期价格可能承压，但也可能引发轧空风险。当前市场偏空，此信号增强看空预期。影响币种：BTC、ETH。信号：看空。",
+      "reason": "巨鲸高杠杆空头开仓是链上异动，直接反映市场情绪和潜在卖压，符合优先级一中的巨鲸异动。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "TradingView",
+          "url": "https://www.tradingview.com/news/cointelegraph:8c9e1a9ef1c1e4c4e6a5d6c4e8a9b1c2"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美国上市ETF流入破万亿",
+      "summary": "2026年美国上市ETF总流入已超1万亿美元，全年有望突破2万亿美元创历史新高。尽管非直接加密ETF，但宏观资金充裕利好整体风险资产，可能间接提振加密货币市场。影响币种：BTC、ETH。信号：中性偏多。",
+      "reason": "宏观资金流入宽松环境有利于风险资产，虽非直接但属中期利好，影响程度中等。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519979.html"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前市场极度恐惧（贪婪指数15），已有大量空头消息重复，此次筛选仅3条新且有影响的消息，其余多为重复或无交易价值。"
+}
