@@ -2453,3 +2453,180 @@ content length: 2595
   ],
   "note": "本轮筛选出4条有交易价值的新消息，其余信息与历史重复或无关交易信号。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=3375, prompt_tokens=11688, total_tokens=15063, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2770, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=10536)
+content length: 1322
+============================================================
+{
+  "news": [
+    {
+      "title": "比特币溢价指数持续负值",
+      "summary": "Coinbase比特币溢价指数已连续40日处于负溢价，表明美国市场购买力持续低迷。这可能意味着机构需求不足或抛压较大，对BTC价格构成下行压力。当前BTC在6万美元附近震荡，负溢价持续可能预示反弹乏力。信号偏空，短期影响中等。",
+      "reason": "直接影响行情：Coinbase溢价指数负值反映市场结构弱势，是链上异动指标，符合优先级一（链上指标异常）。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519959.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币跌至2024最低空头激增",
+      "summary": "比特币价格跌至2024年以来最低水平，同时空头头寸显著积累。大量空单聚集可能增加后续向上爆仓压力，但也反映市场极度看空情绪。历史数据显示，极端空头积累往往伴随短期反弹风险。当前偏空但需警惕轧空。影响级别中等。",
+      "reason": "链上异动：空头头寸积累是市场结构关键信号，符合优先级一（链上指标异常）。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "KuCoin",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSlFhcnd6cElIZDdfN3M1blBlbm0tZExBdDk2bE4yTEV5TkFhQ3Q4Mm1MOVF1bG1fempiVzhCWmJyLWdhTzJ3Rm00b210MnVQcjZ6dk9qZk4wR0kwdFVrZ1Q2YnVOQ1I1RzVpbGVYcWJhakJFWjZsQ3ByMXBQRUJrNGFmV0hjcXVVTTRleG5wVmhOcnhYSGZWMEIyemhvVTRWaWtKakd4QQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前时段有效新消息较少，仅筛选出两条链上/市场结构信号。多数历史新闻重复或交易价值不足。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=4148, prompt_tokens=11688, total_tokens=15836, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=3443, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11648), prompt_cache_hit_tokens=11648, prompt_cache_miss_tokens=40)
+content length: 1480
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌至2024年以来最低",
+      "summary": "比特币价格跌至2024年以来的最低水平，同时空头头寸持续积累。这可能表明市场极度悲观，短期内继续下探风险较高，但也可能触发反弹。影响币种BTC，看空信号。",
+      "reason": "价格新低且空头积累，属于直接影响行情的关键消息，符合优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "KuCoin",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSlFhcnd6cElIZDdfN3M1blBlbm0tZExBdDk2bE4yTEV5TkFhQ3Q4Mm1MOVF1bG1fempiVzhCWmJyLWdhTzJ3Rm00b210MnVQcjZ6dk9qZk4wR0kwdFVrZ1Q2YnVOQ1I1RzVpbGVYcWJhakJFWjZsQ3ByMXBQRUJrNGFmV0hjcXVVTTRleG5wVmhOcnhYSGZWMEIyemhvVTRWaWtKakd4QQ?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "旅行规则加密KYC/AML解读",
+      "summary": "Crypto.news发布关于旅行规则(Travel Rule)的科普，该规则要求加密服务商共享客户交易信息，增加合规成本。可能对隐私币和去中心化交易所产生压力，影响币种如XMR、DASH。中性偏空信号。",
+      "reason": "监管动态相关，属于中期影响，但非重大突变，归类为监管政策，影响等级较低。",
+      "category": "监管政策",
+      "impact_coins": ["XMR", "DASH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "crypto.news",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tMzU3MGswc1VOZnlIZGhfS3dQMjZ4TTEyRm9KMEo4MGJxUHNGT1FJbFJJLTQ4aW0zS2RzQ0VZbEw4emtTaHZGWjFrY3g2eGVRcnJ1LUJqMkVLOE40U2RkQ2xlNVNYcklTdGxvOS1ycHdPVHVUWU1EQg?oc=5"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "近6小时大部分重要消息已在历史中出现，仅选出两条新增消息，其余均为重复内容。特别是恐惧贪婪指数15持续未变，Strategy mNAV跌破1等已涵盖。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1760, prompt_tokens=11688, total_tokens=13448, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=556, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=11648), prompt_cache_hit_tokens=11648, prompt_cache_miss_tokens=40)
+content length: 3056
+============================================================
+{
+  "news": [
+    {
+      "title": "Strategy mNAV跌破1，BTC持仓折价",
+      "summary": "MicroStrategy（现Strategy）的比特币持仓价值已超过其公司市值，mNAV（净资产价值倍数）跌破1，意味着市场对公司估值低于其持有的BTC价值。这引发对Saylor杠杆购买模型可持续性的担忧，可能迫使公司调整策略或出售BTC。影响BTC和MSTR，看空信号，因为溢价消失可能引发抛售压力。",
+      "reason": "优先级一：项目方重大事件——标志性机构估值模型失效，可能引发连锁反应。",
+      "category": "项目更新",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/27/strategy-s-valuation-has-fallen-below-the-value-of-its-bitcoin-holdings"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Vitalik关联地址转移7000ETH",
+      "summary": "据金色财经报道，Vitalik Buterin关联地址转移7000枚ETH，市场推测可能存入中心化交易所（CEX）。历史上类似转移通常伴随后续抛售或清算。若存入CEX，将增加ETH供应压力，短期看空ETH。当前ETH已周跌9%，此消息加剧弱势。",
+      "reason": "优先级一：链上异动——巨鲸转移代币至交易所是典型抛压信号。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519960.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "XRP巨鲸开290万枚空单",
+      "summary": "某新建钱包向HyperLiquid存入63万USDC，开设290万枚XRP空头头寸。该行为属于高杠杆做空，显示专业资金对XRP后市极度看空。若XRP跌破关键支撑，可能触发清算加速下跌。对XRP构成直接看空压力。",
+      "reason": "优先级一：链上异动——大额定向空单是明确的看空信号。",
+      "category": "链上异动",
+      "impact_coins": ["XRP"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519960.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Coinbase溢价指数连续40日负值",
+      "summary": "Coinbase比特币溢价指数已连续40日处于负溢价状态，表明美国市场购买力持续低迷，机构投资者买入意愿不强。该指数通常领先价格方向，持续负值暗示BTC可能面临进一步下行压力。对BTC看空。",
+      "reason": "优先级二：市场结构——美国现货购买力指标持续恶化，反映需求疲软。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519959.html"}
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Ripple CEO批评Saylor策略",
+      "summary": "Ripple CEO Brad Garlinghouse表示仍看好比特币，但批评Michael Saylor的杠杆买入策略伤害了加密市场。言论加剧市场对MSTR偿债能力和BTC潜在抛压的担忧。短期增加市场恐慌情绪，对BTC和MSTR偏空。",
+      "reason": "优先级二：KOL观点——重量级人物公开质疑主流机构策略，影响市场信心。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/06/27/ripple-ceo-stays-bullish-on-bitcoin-but-says-saylor-strategy-has-hurt-crypto"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "香港预计今年推出受监管稳定币",
+      "summary": "香港政府表示受监管稳定币预计于2026年中至下半年推出。这为合规稳定币创造发展环境，可能吸引资金流入。对整体加密市场中性偏多，尤其利好合规稳定币项目及香港相关概念币，但影响需时间显现。",
+      "reason": "优先级一：监管动态——重要地区明确合规方向，中长期利好。",
+      "category": "监管政策",
+      "impact_coins": ["USDT", "USDC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519960.html"}
+      ],
+      "urgency": "days"
+    }
+  ]
+}
