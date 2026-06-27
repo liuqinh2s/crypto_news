@@ -2630,3 +2630,79 @@ content length: 3056
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1774, prompt_tokens=10493, total_tokens=12267, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=659, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9341)
+content length: 2817
+============================================================
+{
+  "news": [
+    {
+      "title": "Tether黄金储备贷款",
+      "summary": "Tether宣布将其230亿美元黄金储备用于提供黄金支持贷款，此举可能增加市场流动性并增强USDT的支撑。Tether作为最大稳定币发行商，其资产运用方式影响整体加密市场资金面。利好稳定币生态，可能被视为积极信号。看多。",
+      "reason": "稳定币发行商重大资产运作，直接影响USDT供应和流动性，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["USDT", "BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/06/27/tether-putting-usd23-billion-gold-stockpile-to-work-with-bullion-backed-loans"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Polymarket黑客损失扩大",
+      "summary": "Polymarket黑客事件更新，损失从之前的数额升至310万美元，尽管平台承诺全额退款。安全事件打击用户信任，可能影响Polymarket代币及预测市场相关项目。看空。",
+      "reason": "重大安全事件，直接影响项目信誉和代币价格，属于优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["POLY"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/27/polymarket-hack-updated-to-usd3-1-million-days-after-the-platform-promised-users-full-refunds"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "币安欧盟用户争夺战",
+      "summary": "Binance未能获得MiCA牌照，Coinbase和OKX试图吸引其4.5亿欧盟用户。这可能导致Binance市场份额下降，BNB承压；而Coinbase和OKX受益。看空BNB，看多COIN、OKB相关。",
+      "reason": "监管动态影响交易所竞争格局，属于优先级一监管政策。",
+      "category": "监管政策",
+      "impact_coins": ["BNB", "BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/06/27/coinbase-and-okx-try-to-lure-in-binance-s-450m-eu-users-after-failing-to-secure-a-mica-license"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "亿万富翁Grantham看空比特币",
+      "summary": "知名投资者Jeremy Grantham表示比特币和其他加密货币最终会'呜咽'消失，加剧市场悲观情绪。但此类言论在极端恐惧时往往为反向指标。短期利空情绪，中长期可能形成底部。看空短期，中性长期。",
+      "reason": "市场情绪消息，属于优先级三，但影响有限。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/372205/billionaire-jeremy-grantham-dismisses-bitcoin-crypto"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "地缘冲突推高油价加密反弹",
+      "summary": "以色列发动袭击导致国际油价拉升，加密货币全线上涨，显示地缘紧张暂时推动避险资金流入加密。短期反弹但不改中期趋势。看多短期，但需注意持续性。",
+      "reason": "地缘政治事件影响风险资产，属于优先级二宏观经济情景。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "雪球加密", "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ3BBMFU3X2h3N2VSLS1uQmxIZzVoVU1QZ0ZtOXZJVnYyLTJNWTJWd211SGNMdnBkMFNoVENTZmN5TWNkc1lQTTNGaGtINm8yOEJUQ05FbVljZ21EcnJBNUp1bDk0TENSQjVjbURlcjA0cDlLZlVCVEdsUHNhSktzZld0YWx6cnJxNHVaYg?oc=5"}
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
