@@ -1954,3 +1954,107 @@ content length: 2948
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2788, prompt_tokens=10108, total_tokens=12896, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2482, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8956)
+content length: 740
+============================================================
+{
+  "news": [
+    {
+      "title": "欧盟敦促评估DeFi/质押/NFT监管",
+      "summary": "欧盟立法者呼吁对去中心化金融（DeFi）、质押服务和NFT进行监管评估，可能出台更严格的合规框架。这增加了DeFi项目及NFT市场的监管不确定性，短期内可能导致相关代币（如UNI、AAVE、LDO等）承压，ETH因质押服务占比高也可能受情绪影响。中长期看，合规化可能利好合规项目，但短期信号偏空。",
+      "reason": "监管政策动向，直接关系到DeFi和质押生态，属于优先级一的监管动态；欧盟作为主要经济体，其监管态度对全球市场有示范效应。",
+      "category": "监管政策",
+      "impact_coins": ["UNI", "AAVE", "LDO", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/eu-lawmakers-assessing-defi-staking-nft-regulation"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "本轮抓取素材中大部分为历史消息的重复公告，仅有1条有效新消息。市场整体处于极度恐惧状态（指数15），BTC持续下跌，需警惕进一步下行风险。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2050, prompt_tokens=10108, total_tokens=12158, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1035, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9984), prompt_cache_hit_tokens=9984, prompt_cache_miss_tokens=124)
+content length: 2473
+============================================================
+{
+  "news": [
+    {
+      "title": "EU议员要求评估DeFi监管",
+      "summary": "欧盟立法者呼吁评估DeFi、质押和NFT的监管框架，可能出台新规。若监管收紧，对DeFi项目（如UNI、AAVE）不利，但合规项目受益。短期中性偏空，长期需关注具体法规。",
+      "reason": "监管政策优先级高，可能影响DeFi板块中期走势。",
+      "category": "监管政策",
+      "impact_coins": ["UNI", "AAVE", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/eu-lawmakers-assessing-defi-staking-nft-regulation"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Strategy股价五日内跌25%",
+      "summary": "BTC下跌导致MicroStrategy（现名Strategy）股价五日累跌25%，MSTR持有大量BTC，其抛售压力增加。利空BTC市场情绪，可能引发连锁清算。但公司表示仍在运作。短期看空。",
+      "reason": "机构重仓BTC，股价暴跌可能被迫抛售，直接利空BTC。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Wd2dxV0JwWTZtVmhRcWxZTDNITUhwdXdSaDhYWExzNXJyRTA0dFlMV0VBX1dKbVhrXzI2cHRzSXJ3elBrTFhqRUt5WjFpeU1CNXJ6TGdyeHdaem9RLUFEalBHX1AzR1ZkS1FIZWhiT1BrNmVMTEs4a1hmUlFVc0k?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "数字人民币立法，SBI推日元稳定币",
+      "summary": "中国拟立法确立数字人民币法律地位，SBI推出日本首只合规日元稳定币JPYSC。利好RWA和稳定币生态，可能增加流动性。对BTC/ETH影响间接，但提升监管确定性。看多稳定币相关代币。",
+      "reason": "重大监管进展，影响稳定币和RWA板块。",
+      "category": "监管政策",
+      "impact_coins": ["USDC", "USDT", "XRP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "PANews",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZME9XRm50VlRxSGEwWVRfTllPcHppeU5ONmIyTkI4cmJ5cDQ1XzVITFZNQ001eThXcVZaNktJeUc4bnBQMjh6Um1vTFExWkRMckdnaWNyZGMyWW5FSV9lOHVDWkFvRW12S2Y2ZFdNNktvMDNGdnA0OXZqSTlqYWM?oc=5"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance将上线多个TradFi永续合约",
+      "summary": "Binance Futures将于6月29日上线多个传统金融标的永续合约（如股票、ETF），增加交易品种。对加密货币现货市场影响有限，但可能吸引传统资金入场。中性信号。",
+      "reason": "交易所上新，扩大市场，但影响微弱。",
+      "category": "交易所",
+      "impact_coins": [],
+      "signal": "neutral",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "Only 4 significant new messages found; others are duplicates or low impact."
+}
