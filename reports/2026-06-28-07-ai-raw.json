@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-28",
+  "hour": "07",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 8731,
+    "completion_tokens": 1425,
+    "total_tokens": 10156
+  },
+  "content_length": 2040,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC跌破60000美元\",\n      \"summary\": \"比特币价格跌破60000美元整数关口，引发市场恐慌情绪。该价位是重要心理支撑位，跌破可能触发更多止损单和合约清算，进一步加大下行压力。当前市场情绪极度恐惧，资金费率可能转为负值。可能影响BTC及整个加密货币市场，短期看空信号，但中长期可能迎来超卖反弹。\",\n      \"reason\": \"直接影响行情，价格跌破关键心理位，可能引发连锁反应，优先级一。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519990.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"西班牙MiCA过渡期不延期\",\n      \"summary\": \"西班牙监管机构确认MiCA过渡期不再延长，未获牌照的加密平台需于2026年7月起退出市场。这可能导致部分小型交易所退出西班牙市场，流动性收紧，并引发其他欧盟国家效仿。短期对欧洲市场偏空，但长期有利于合规交易所合规化。可能影响BTC、ETH及其他在欧盟交易的币种。\",\n      \"reason\": \"重大监管动态，直接影响欧盟加密市场，优先级一。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519986.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"美军连续空袭伊朗南部\",\n      \"summary\": \"美国中央司令部确认再次对伊朗进行打击，中东地缘政治紧张局势升级。地缘冲突通常推动避险资产如黄金上涨，但加密市场风险偏好下降，资金可能流出。历史经验表明，重大地缘事件短期利空BTC等风险资产。可能影响BTC、ETH及整体市场，短期看空。\",\n      \"reason\": \"地缘政治事件影响风险资产，可能引发避险情绪，优先级二（宏观经济）。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519993.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"特朗普施压降息难推高通胀\",\n      \"summary\": \"机构分析认为，特朗普施压美联储降息导致通胀高于2%的可能性较低，暗示美联储可能维持紧缩政策。若降息预期落空，风险资产承压。加密市场对流动性敏感，偏鹰派消息利空BTC等。可能影响BTC、ETH及整体市场，短期看空。\",\n      \"reason\": \"宏观经济政策方向影响市场流动性预期，优先级二。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519989.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    }\n  ]\n}"
+}
