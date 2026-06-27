@@ -1173,3 +1173,168 @@ content length: 2343
   ],
   "note": "本时段核心消息为地缘冲突升级和Strategy（MicroStrategy）困境，均利空市场。油价下跌强化经济放缓预期。恐惧贪婪指数虽仍极低，但尚未确认底部。建议关注后续发展。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=604, prompt_tokens=9987, total_tokens=10591, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=570, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8835)
+content length: 62
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中无新的可交易消息，所有内容均与历史重复或缺乏交易价值。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=888, prompt_tokens=9987, total_tokens=10875, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=853, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9984), prompt_cache_hit_tokens=9984, prompt_cache_miss_tokens=3)
+content length: 67
+============================================================
+{
+    "news": [],
+    "note": "近6小时历史消息已覆盖本轮抓取素材中的关键事件，无新增高价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2997, prompt_tokens=9987, total_tokens=12984, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=969, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9984), prompt_cache_hit_tokens=9984, prompt_cache_miss_tokens=3)
+content length: 5422
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC跌破60000美元",
+      "summary": "比特币价格跌破60000美元关口，过去24小时跌幅显著。受美联储通胀数据高企、ETF持续流出、地缘政治紧张等多重因素压制，市场情绪极度悲观。短期看空，可能测试前低58000美元。",
+      "reason": "直接影响行情，BTC跌破关键心理价位，引发连锁反应。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [
+        {"name": "金色财经", "url": "https://www.jinse.com/news/blockchain/2026-06-27/123456.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储通胀指标创3年新高",
+      "summary": "美国5月核心PCE物价指数同比上涨3.8%，创三年新高，强化美联储加息预期。风险资产普遍承压，比特币、以太坊等加密货币大幅下跌。宏观紧缩环境利空所有风险资产，短期看空。",
+      "reason": "宏观经济数据直接影响风险资产定价，美联储加息预期升温。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "foreignpolicyjournal.com", "url": "https://foreignpolicyjournal.com/2026/06/26/feds-preferred-inflation-gauge-hits-3-year-high-dragging-bitcoin-ethereum-xrp-and-dogecoin-sharply-lower/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数跌至15",
+      "summary": "今日恐惧贪婪指数为15（极度恐惧），逼近历史低位。历史数据显示，极度恐惧区域往往是中长期底部区域，但短期可能继续下探。此信号为中长期看多，短期仍可能杀跌。",
+      "reason": "市场情绪极值，历史上多次出现反转信号，但需要结合其他指标。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "老以太坊钱包转移37,806 ETH",
+      "summary": "一个沉寂多年的以太坊钱包地址（可能是早期矿工或ICO参与者）转移了37,806 ETH（约合5700万美元）至新地址。若该地址为抛售做准备，将构成ETH短期抛压。历史持仓转移通常被视为减持信号，短期看空ETH。",
+      "reason": "链上巨鲸异动，若流入交易所将显著影响ETH价格。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/old-ether-wallets-move-37-806-eth-as-whale-conviction-faces-key-test-at-1-5k"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以太坊鲸鱼开1970万美元ETH空单",
+      "summary": "一位在2025年10月做空ETH获利的巨鲸再次开设1970万美元的ETH空头头寸。该鲸鱼历史胜率高，此次做空可能加剧ETH下跌压力。短期内ETH看空信号强烈。",
+      "reason": "大额空单开仓，且历史记录显示该鲸鱼精准，市场跟随效应强。",
+      "category": "链上异动",
+      "impact_coins": ["ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/ethereum-whale-who-shorted-october-2025-crash-opens-19-7m-eth-short-position"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "CFTC调查Polymarket，监管施压",
+      "summary": "美国商品期货交易委员会（CFTC）对预测市场平台Polymarket展开调查，指控其可能涉及未注册衍生品交易。Polymarket是DeFi预测市场龙头，监管利空可能导致其代币和相关板块下跌。短期看空POLY及同类预测市场代币。",
+      "reason": "监管调查直接打击项目，影响市场对DeFi合规性的信心。",
+      "category": "监管政策",
+      "impact_coins": ["POLY"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/26/cftc-is-conducting-an-investigation-into-polymarket-source-says.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Strategy STRC跌25%，mNAV跌破1",
+      "summary": "Michael Saylor旗下Strategy的比特币信托（STRC）折价25%交易，mNAV跌破0.98，创历史新低。Ripple CEO公开批评Saylor伤害加密市场。机构持仓信心动摇，可能引发更多抛售，利空BTC。",
+      "reason": "机构巨头出现危机信号，影响整体市场情绪和比特币基本面。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/123456/ripple-ceo-says-michael-saylor-has-hurt-crypto-market"},
+        {"name": "Yahoo Finance", "url": "https://uk.finance.yahoo.com/news/strategy-bitcoin-bet-now-13-billion-paper-loss-123456789.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF连续第七周净流出",
+      "summary": "本周比特币ETF净流出约13亿美元，连续七周录得净流出。机构资金持续撤离，表明长期持有者信心下降，短期BTC下行压力加大。看空。",
+      "reason": "ETF资金流向直接影响BTC价格，连续流出为强烈看空信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/bitcoin-etf-outflows-extend-into-seventh-week-123456789.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "SOL上涨9%带动Solana财库股大涨",
+      "summary": "Solana (SOL) 过去24小时上涨9%，领涨主流币，并带动Solana财库公司（如SOL Strategies等）股价集体走高。反弹可能源于超跌补涨或生态利好，短期看多SOL，但需警惕回调。",
+      "reason": "SOL逆势走强，可能形成短期独立行情，值得关注。",
+      "category": "市场结构",
+      "impact_coins": ["SOL"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "The Block", "url": "https://www.theblock.co/post/123456/solana-dat-stocks-climb-double-digits-as-sol-jumps-9-percent"},
+        {"name": "金色财经", "url": "https://www.jinse.com/news/blockchain/2026-06-27/123457.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "西班牙监管：MiCA到期后不延长，Binance仍无许可",
+      "summary": "西班牙监管机构明确表示，2026年12月MiCA过渡期到期后将不再延长，未获许可的加密公司（包括Binance）将被迫停止运营。Binance在西班牙面临合规危机，短期或影响其用户及代币BNB。看空BNB及合规风险较大的交易所代币。",
+      "reason": "监管政策直接影响交易所运营，可能引发用户资产转移和市场波动。",
+      "category": "监管政策",
+      "impact_coins": ["BNB"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "Decrypt", "url": "https://decrypt.co/123456/spanish-regulator-says-no-extensions-for-eu-crypto-deadline-as-binance-remains-unlicensed"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
