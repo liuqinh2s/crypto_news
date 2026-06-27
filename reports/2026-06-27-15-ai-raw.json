@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-27",
+  "hour": "15",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 2/6 策略=仅标题+链接 retry=1",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9400,
+    "completion_tokens": 4909,
+    "total_tokens": 14309
+  },
+  "content_length": 2198,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"香港将推受监管稳定币\",\n      \"summary\": \"香港政府宣布受监管稳定币预计于今年中至下半年推出，为加密货币市场注入合规利好。此举将提升稳定币在香港地区的合法性和使用场景，可能吸引更多机构入场，利好整体市场情绪。但短期对价格影响有限，属于长期制度性利好。影响币种：USDT、USDC等稳定币及相关概念。信号：看多。\",\n      \"reason\": \"稳定币监管合规是重大利好，属于优先级一的监管动态，可能吸引资金进场。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDT\", \"USDC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519920.html\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Serenity喊单Cerebras暴涨\",\n      \"summary\": \"KOL Serenity喊单导致Cerebras（CBRS）短时暴涨，链上数据显示该代币在去中心化交易所价格飙升，且存在明显溢价。该事件属于情绪驱动型行情，可持续性存疑，短期可能吸引散户追涨，但风险较高。影响币种：CBRS。信号：看多（短期）。\",\n      \"reason\": \"KOL喊单引发价格异动，属于优先级三的市场情绪信号，短期交易机会。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"CBRS\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519917.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"OpenAI拟在Cerebras推新版本\",\n      \"summary\": \"Serenity宣称OpenAI将在Cerebras上推出GPT-5.6 Sol，且已建仓CBRS。若消息属实，OpenAI与Cerebras的合作将大幅提升CBRS的技术价值和应用预期，但需警惕谣言风险。当前CBRS价格受消息面影响剧烈波动。影响币种：CBRS。信号：看多。\",\n      \"reason\": \"与OpenAI合作是重大技术合作，属于优先级二的技术升级/里程碑，若属实则影响巨大。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"CBRS\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519916.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Tando解锁肯尼亚比特币支付\",\n      \"summary\": \"项目Tando宣布将向4000万肯尼亚人提供比特币支付服务，旨在扩大比特币在非洲的使用场景。此举长期有助于比特币的网络效应和采用率，但短期内对价格影响较小。影响币种：BTC。信号：中性（长期利好）。\",\n      \"reason\": \"比特币采用推广属于项目更新，但属于优先级二的技术升级/里程碑，但影响较为远期。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Reddit r/bitcoin\",\n          \"url\": \"https://www.reddit.com/r/Bitcoin/comments/1ugvh21/tando_is_unlocking_spending_bitcoin_for_40/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"当前时段有效高价值消息较少，仅筛选出4条。\"\n}"
+}
