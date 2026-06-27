@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-28",
+  "hour": "06",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 4/6 策略=完整内容 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 10075,
+    "completion_tokens": 2036,
+    "total_tokens": 12111
+  },
+  "content_length": 2165,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"富达驳斥减半后比特币安全性下降论\",\n      \"summary\": \"富达发布报告反驳了减半后比特币安全性下降的说法，认为固定供应计划不会削弱网络安全，即使矿工奖励减少。该报告有助于稳定市场对比特币长期安全性的信心，对比特币是中性偏多信号，但影响有限。影响币种：BTC。\",\n      \"reason\": \"直接回应市场对减半后安全性的担忧，属于项目更新，中期影响。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [{\"name\": \"CoinTelegraph\", \"url\": \"https://cointelegraph.com/news/fidelity-bitcoin-long-term-security-halvings-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"}],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"以官员威胁强烈回应真主党攻击\",\n      \"summary\": \"以色列安全官员称，若黎巴嫩真主党发动攻击，将严阵以待并作出强烈回应。地缘政治紧张局势升级，可能引发避险情绪，短期利空风险资产如BTC、ETH。影响币种：BTC、ETH。\",\n      \"reason\": \"地缘政治风险加剧，可能引发市场恐慌，属于直接影响行情的消息。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/519985.html\"}],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"DeSantis签署佛罗里达州稳定币框架\",\n      \"summary\": \"佛罗里达州州长DeSantis签署稳定币监管框架和加密售货机防欺诈法规。该框架为稳定币发行提供明确规则，利好合规稳定币项目（如USDC、USDT），并可能推动其他州效仿，对加密市场整体偏多。\",\n      \"reason\": \"监管政策利好，明确稳定币合规路径，属于监管政策类。\",\n      \"category\": \"监管政策\",\n      \"impact_coins\": [\"USDT\", \"USDC\", \"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"Florida Politics\", \"url\": \"https://news.google.com/rss/articles/CBMiogFBVV95cUxQOTQybFdOX2hZemRLTl9IdlRKODhyQjFBRk9yY25FN0xFdDdkZ0hkY1JQY0pKaHRlYUFkTFRySUktS0VNM0RqMzFxWW9mWW9nZDZnVXA3NWJyWG13dGt0VFk0VW9TZUhuTm1lVGw0NVVQcDRPZFhDeGJDdmJRME9jWFpyVTBjNHdManFsc1hBS2l5ZHd6TkZlTndzRVR6Q3pzQ2c?oc=5\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"机构预测美元有望突破近期区间\",\n      \"summary\": \"Neuberger投资组合经理表示，由于美国实际利率上升，美元可能走强并突破过去6-9个月的区间。美元走强通常利空BTC等风险资产，可能加剧当前市场下行压力。\",\n      \"reason\": \"宏观经济数据预期，影响风险资产走势，属于宏观经济类。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/519984.html\"}],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮抓取素材中多数为重复或低价值消息，仅筛选出4条有效新闻。\"\n}"
+}
