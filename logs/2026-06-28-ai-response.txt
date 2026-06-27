@@ -369,3 +369,260 @@ content length: 2848
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1167, prompt_tokens=9679, total_tokens=10846, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=623, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8527)
+content length: 1307
+============================================================
+{
+  "news": [
+    {
+      "title": "5万BTC亏损移动，投降风险加剧",
+      "summary": "据CoinTelegraph报道，近期有约5万枚比特币在亏损状态下被转移，这通常被视为市场投降信号，可能预示价格进一步下跌。当前比特币价格已跌至2024年以来最低水平，ETF资金持续流出，市场情绪极度恐惧。该事件直接影响BTC，可能引发恐慌性抛售，形成短期下行压力。从合约做多视角看，这是强烈看空信号，需警惕继续破位风险。",
+      "reason": "链上异动：5万BTC亏损移动属于优先级一中的项目方重大事件（巨鲸异动），直接反映市场情绪和抛压，对BTC行情有直接影响。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "以色列防长：以军准备长期驻留黎南部",
+      "summary": "据金色财经报道，以色列国防部长已指示军队做好长期驻留黎巴嫩南部安全区的准备，同时伊朗与以色列之间的紧张局势持续升级（伊朗无人机袭击巴林油轮）。地缘政治风险上升可能推动避险情绪，但短期对加密货币影响复杂：传统避险资产如黄金下跌拖累比特币，而地缘冲突也可能加剧市场不确定性，导致风险资产抛售。整体偏空，BTC、ETH等可能承压。",
+      "reason": "宏观地缘政治事件影响市场风险偏好，属于优先级二中的宏观经济因素，可能引发避险资金流入美元或黄金，间接利空加密货币。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519983.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "近期重大新闻较少，除上述两条外，其他素材多为重复或低价值信息，因此仅筛选出两条关键消息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=965, prompt_tokens=9679, total_tokens=10644, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=547, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9600), prompt_cache_hit_tokens=9600, prompt_cache_miss_tokens=79)
+content length: 1122
+============================================================
+{
+  "news": [
+    {
+      "title": "5万枚BTC亏损转移引发恐慌",
+      "summary": "CoinTelegraph报道，近50,000枚比特币在亏损状态下被转移，表明持有者正在割肉离场，市场面临新的投降风险。这可能加剧BTC下行压力，短期看空信号。该异动显示链上抛压增加，可能引发进一步下跌。",
+      "reason": "巨量BTC亏损转移属于优先级一链上异动，直接影响BTC价格，需立即关注。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "以色列指示军队长期驻留黎南部",
+      "summary": "以色列国防部长指示军队做好长期驻留黎巴嫩南部安全区的准备，中东地缘政治紧张局势持续升级。这可能打击风险资产偏好，包括加密货币，短期看空BTC和ETH。",
+      "reason": "地缘冲突升级影响宏观风险情绪，属于中期影响，但已多次出现，此次为最新进展。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519983.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=950, prompt_tokens=9679, total_tokens=10629, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=619, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9600), prompt_cache_hit_tokens=9600, prompt_cache_miss_tokens=79)
+content length: 791
+============================================================
+{
+  "news": [
+    {
+      "title": "5万BTC亏损转移，抛压加剧",
+      "summary": "CoinTelegraph报道，有约5万枚BTC在亏损状态下被移动，通常被视为市场恐慌或大户抛售信号。当前比特币价格已跌至2024年以来低点，此笔大额亏损转移可能加剧市场下行压力。该事件直接影响BTC，同时可能带动ETH等主流币跟跌。从合约做多视角看，这是强烈的看空信号，建议谨慎做多或考虑对冲。",
+      "reason": "链上异动：大额BTC亏损转移是典型抛压信号，属于优先级一，直接影响行情。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "经严格去重，本轮仅有一条未在历史消息中出现的具有交易价值的新消息。其他素材均与历史消息重复（如恐惧贪婪指数15、Binance公告、地缘冲突等），故未选入。"
+}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1082, prompt_tokens=10622, total_tokens=11704, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=813, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1536), prompt_cache_hit_tokens=1536, prompt_cache_miss_tokens=9086)
+content length: 664
+============================================================
+{
+  "news": [
+    {
+      "title": "5万BTC亏损转移至交易所",
+      "summary": "据CoinTelegraph报道，过去一段时间内近5万枚比特币以亏损状态转移至交易所，短期持有者压力水平达两年新高。这通常被视为散户恐慌抛售或矿工投降信号，可能加剧下行压力。影响BTC和ETH等主流币种，看空信号。",
+      "reason": "链上异动：大额BTC亏损转移至交易所是明确的抛压信号，符合优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮素材中仅一两条有意义的新消息，其余与历史重复或缺乏交易价值。当前恐惧贪婪指数15已持续多时，市场极度恐惧但未出现新催化剂。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=882, prompt_tokens=10622, total_tokens=11504, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=642, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=10496), prompt_cache_hit_tokens=10496, prompt_cache_miss_tokens=126)
+content length: 574
+============================================================
+{
+  "news": [
+    {
+      "title": "5万BTC亏损转交易所",
+      "summary": "据CoinTelegraph报道，近5万枚比特币在亏损状态下被转移至交易所，短期持有者压力水平达到两年新高。这通常预示大规模抛售或投降事件，可能推动BTC进一步下跌。影响币种：BTC。信号：看空。",
+      "reason": "链上异动：大额BTC亏损转移至交易所，典型抛压信号，对行情影响直接。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss"}],
+      "urgency": "hours"
+    }
+  ],
+  "note": "本轮28条素材中仅有1条有效新消息，其余均为重复或无关内容，未达5条下限。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1926, prompt_tokens=3633, total_tokens=5559, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=849, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2481)
+content length: 2802
+============================================================
+{
+  "news": [
+    {
+      "title": "5万BTC亏损转移触发投降风险",
+      "summary": "据CoinTelegraph报道，链上数据显示约5万枚比特币在亏损状态下被转移，可能引发新一轮市场投降（capitulation），加剧抛售压力。该事件直接影响BTC价格预期，短期看空信号强烈。需关注后续链上是否有继续转移，若持续则可能进一步下探支撑位。",
+      "reason": "链上异动中巨量BTC亏损转移为优先级一的直接看空信号，影响深远。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数跌至15极度恐惧",
+      "summary": "加密货币恐惧贪婪指数降至15（极度恐惧），为历史低位区域。历史数据显示该区间往往对应中期底部，可能引发价值投资者逐步建仓。当前情绪极度悲观，暗示市场超卖，中长期看多信号，但短期仍可能惯性下探。",
+      "reason": "恐惧贪婪指数<20属于市场情绪极值，历史抄底区，中长期看多参考。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "黄金白银抛售拖累比特币下跌",
+      "summary": "CoinDesk分析指出，传统贵金属黄金和白银的抛售潮正在传导至比特币市场，投资者情绪联动，风险资产普遍承压。此现象反映加密资产与传统金融的相关性增强，短期内比特币可能跟随贵金属走势继续调整，偏空。",
+      "reason": "宏观经济联动影响优先级二，虽非直接加密事件，但解释了当前下跌逻辑，对交易有参考价值。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/06/27/why-a-selloff-in-gold-and-silver-is-dragging-bitcoin-down"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线CAPUSDT永续合约",
+      "summary": "Binance Futures于2026年6月27日推出CAPUSDT永续合约，最高杠杆75倍。新合约上线通常会带动CAP代币的流动性提升与短期交易热度，但CAP市值较小，波动风险高。短期利好CAP价格，但长期需观察实际资金参与。",
+      "reason": "交易所上新币合约属于优先级一的直接影响，对CAP币种短期看多。",
+      "category": "交易所",
+      "impact_coins": ["CAP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "Binance将上线多个TradFi永续合约",
+      "summary": "Binance Futures将于2026年6月29日推出多个传统金融（TradFi）相关代币的永续合约，具体币种尚未公布。此举表明交易所扩展传统金融代币化衍生品，可能带动相关代币交易量上升，但影响需待合约上线及币种明确后判断。短期中性偏多。",
+      "reason": "交易所批量上线新合约对市场结构有调整，但具体影响需看币种，属于中等影响。",
+      "category": "交易所",
+      "impact_coins": ["TradFi相关的代币"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
