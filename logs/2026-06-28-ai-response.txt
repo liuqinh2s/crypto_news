@@ -177,3 +177,69 @@ content length: 2901
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2718, prompt_tokens=10621, total_tokens=13339, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1210, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9469)
+content length: 3393
+============================================================
+{
+  "news": [
+    {
+      "title": "Robinhood裁员预示加密寒冬",
+      "summary": "CoinDesk报道，Robinhood近期裁员反映了加密货币投资领域的低迷现状。作为零佣金交易平台，Robinhood的裁员表明散户参与度下降，市场信心不足。可能影响BTC、ETH等主流币种及平台币HOOD。从合约做多视角看，这是看空信号，投资者应警惕进一步回调。",
+      "reason": "Robinhood裁员是行业景气度的直接指标，反映散户资金离场，属于中期影响行情的市场结构消息。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "HOOD"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinDesk", "url": "https://www.coindesk.com/opinion/2026/06/27/what-robinhood-s-recent-layoffs-say-about-the-current-state-of-crypto-investments"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "IBIT投资者平均亏损40%",
+      "summary": "据The Block，现货比特币ETF IBIT的投资者平均浮亏约40%，ETF本周录得第二糟糕周度流出。这可能引发恐慌性赎回，进一步打压BTC价格。影响BTC及相关ETF持仓。看空信号，短期仍有下行风险。",
+      "reason": "直接反映ETF投资者情绪和资金流向，亏损幅度巨大，可能触发连锁抛售，属于优先级一的ETF机构消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/406451/average-ibit-investor-now-down-about-40-as-spot-bitcoin-etfs-cap-second-worst-week-on-record"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "Coinbase与Circle股价跑输科技股",
+      "summary": "CoinTelegraph报道，加密货币相关股票（Coinbase、Circle）表现显著落后于大型科技股，表明市场对加密行业信心减弱。可能拖累COIN、USDC等相关资产，间接影响BTC、ETH。看空信号，资金持续流出加密板块。",
+      "reason": "机构股票表现反映了市场对加密行业的悲观预期，属于中期影响行情的机构动态。",
+      "category": "市场结构",
+      "impact_coins": ["BTC", "ETH", "COIN", "USDC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [{"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/crypto-stocks-underperform-tech-market-slump"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "MSTR因比特币卖空股息遭质疑",
+      "summary": "Strategy（MSTR）通过出售比特币筹集资金支付STRC股息，引发市场对其可持续性的质疑。MSTR估值已跌破比特币持仓价值。若MSTR被迫清仓将冲击BTC。看空信号，可能加剧抛压。",
+      "reason": "Strategy是最大比特币上市公司，其财务操作直接影响比特币供需，属于优先级一的机构动向。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "MSTR"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [{"name": "Simply Wall St", "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNDRrbDVLaDdmYjNSdWtGQlVHaF90LTU0cE9iaEVFSTA3RUFlSWJud0RxekhtbjJTdEJ3WmhQdUZWSllZMHV4VWszRlh3eXA1b3FXajFoamVjZ0pXMkRybTJxR1FMaGRTX0pQWkp0VE5CQ0tlcElmRlJzaHpPclhKaHp5UmRHLXZsRm56RXI0NjRma21MSGlBV1JsM25sbl9ZNDlaZno4MmVVR2NEdzJUNlAzRUJjMHZVVDRBSVN6NDJqTk5sOUHSAcsBQVVfeXFMUFRNYVNTVldxeFJla1dlQk1pR2RkaTd6cFpBLXdoZHJRbjdFQllCS2gzWTFvcnV6Tlh2Y3dCVEw2U1plZVpqM2JTdlF1NG15THQ0cDFwdnBJeTV4N091LXZucF92ZjUyOFhSak8yUnAtRzlRN3M4QzM3TDhUV29wall3WTVtMzFMS202ZTFUUF9kNTYyVHRHbHM2YnJSYVBpWlFIUWRsSFBJM2pIUGZla01iNnJJcW16cmZhMWc0MXVrV2dESXZHdlNPNVk?oc=5"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "比特币ETF本周流出60亿美元创纪录",
+      "summary": "CryptoSlate报道，比特币现货ETF本周净流出约60亿美元，为历史最差周度纪录，分析师称可能标志着华尔街首次投降。巨额流出显示机构恐慌，BTC价格承压。看空信号，但极端抛售可能接近底部。",
+      "reason": "ETF资金流出是直接影响BTC价格的核心指标，60亿美元规模巨大，属于优先级一的ETF机构消息。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 5,
+      "sources": [{"name": "CryptoSlate", "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWVpTVhkbEhSZnIwZlRCb2RpSG5QQVdUajVZWTJzZHc1cTJqN0NENzItSjZKQkh2ZGN2aHU4eHpUM3EyMTlFWHRuQkJtLWZleU5aYUNteW9KRk9rZGppZE5BZVM2OERBYjNLOWFsZnYxVFlmcWplczd4QlNVaUxvN2lBbTNtVGtsT2JfQkpLYjg?oc=5"}],
+      "urgency": "immediate"
+    }
+  ]
+}
