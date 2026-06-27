@@ -1,0 +1,135 @@
+2026-06-27 16:00:55 [INFO] 🚀 开始抓取 2026-06-28 00:00 币圈新闻
+2026-06-27 16:00:55 [INFO] 📡 抓取 RSS 新闻源...
+2026-06-27 16:00:55 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-06-27 16:00:55 [INFO]   ⏭ The Block: 过滤掉 20 条非近期新闻
+2026-06-27 16:00:55 [INFO]   ⏭ Decrypt: 过滤掉 33 条非近期新闻
+2026-06-27 16:00:55 [INFO]   ⏭ CoinTelegraph: 过滤掉 30 条非近期新闻
+2026-06-27 16:00:55 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-06-27 16:00:55 [INFO]   ⏭ CoinDesk: 过滤掉 22 条非近期新闻
+2026-06-27 16:00:55 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 10 条非近期新闻
+2026-06-27 16:00:55 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-06-27 16:00:55 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ 宏观经济: 过滤掉 50 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ DeFi Llama: 过滤掉 50 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ Reddit r/bitcoin: 过滤掉 25 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ 宏观经济: 过滤掉 48 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ Blockworks: 过滤掉 2 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ 吴说区块链: 过滤掉 50 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 49 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ The Block: 过滤掉 50 条非近期新闻
+2026-06-27 16:00:56 [INFO]   ⏭ Crypto Twitter: 过滤掉 44 条非近期新闻
+2026-06-27 16:01:00 [INFO]   ⏭ CoinTelegraph: 过滤掉 22 条非近期新闻
+2026-06-27 16:01:00 [INFO]   ⏭ CoinTelegraph: 过滤掉 50 条非近期新闻
+2026-06-27 16:01:04 [INFO]   ⏭ 律动BlockBeats: 过滤掉 50 条非近期新闻
+2026-06-27 16:01:05 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-06-27 16:01:10 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-06-27 16:01:10 [INFO]   ✓ CoinDesk: 3 条
+2026-06-27 16:01:10 [INFO]   ✓ The Block: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Decrypt: 1 条
+2026-06-27 16:01:10 [INFO]   ✓ CoinTelegraph: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Bitcoin Magazine: 1 条
+2026-06-27 16:01:10 [INFO]   ✓ Blockworks: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ DL News: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ 金色财经: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ PANews: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ 律动BlockBeats: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ 吴说区块链: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Reuters Crypto: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ CNBC Crypto: 1 条
+2026-06-27 16:01:10 [INFO]   ✓ Reddit r/cryptocurrency: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Crypto Twitter: 6 条
+2026-06-27 16:01:10 [INFO]   ✓ 宏观经济: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Binance公告: 20 条
+2026-06-27 16:01:10 [INFO]   ✓ OKX公告: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Bitget公告: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Whale Alert: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-06-27 16:01:10 [INFO]   ✓ DeFi Llama: 0 条
+2026-06-27 16:01:10 [INFO]   ✓ 雪球加密: 1 条
+2026-06-27 16:01:10 [INFO] 📊 共抓取 34 条新闻
+2026-06-27 16:01:10 [INFO] 📋 原始新闻已保存: reports/2026-06-28-00-raw.json (34 条)
+2026-06-27 16:01:10 [INFO] 📋 标题摘要已保存: reports/2026-06-28-00-raw-titles.md
+2026-06-27 16:01:10 [INFO] ✅ 抓取完成，共 34 条，已保存到 reports/2026-06-28-00-raw.json
+2026-06-27 16:01:11 [INFO] 🤖 开始 AI 筛选 2026-06-28 00:00 币圈消息
+2026-06-27 16:01:11 [INFO] 📋 已加载原始新闻: reports/2026-06-28-00-raw.json (34 条)
+2026-06-27 16:01:11 [INFO] 📚 已加载历史新闻标题（17930 字符）
+2026-06-27 16:01:11 [INFO] 📚 已加载历史筛选标题 13 条、URL 13 个，用于去重
+2026-06-27 16:01:11 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-06-27 16:01:11 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-06-27 16:01:11 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（34 条，8974 字符，temp=0.3）
+2026-06-27 16:02:16 [INFO] AI 原始返回已保存: logs/2026-06-28-ai-response.txt (finish_reason=stop, 158 字符)
+2026-06-27 16:02:16 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-28-00-ai-raw.json
+2026-06-27 16:02:16 [DEBUG] parse_json_response 输入长度: 158 字符
+2026-06-27 16:02:16 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "本次抓取素材中，绝大多数新闻已在历史消息中出现（重复），如Binance公告、恐惧贪婪指数、Grantham看空言论、Strategy股价下跌、地缘政治事件等。新出现的Tether黄金贷款事件对行情影响微弱，不符合筛选标准。因此当前时段无值得关注的新消息。"
+}
+2026-06-27 16:02:16 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-27 16:02:16 [INFO] ✅ AI 返回 0 条新闻
+2026-06-27 16:02:16 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 返回空数组，将重试
+2026-06-27 16:02:16 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（34 条，8974 字符，temp=0.3）
+2026-06-27 16:02:33 [INFO] AI 原始返回已保存: logs/2026-06-28-ai-response.txt (finish_reason=stop, 93 字符)
+2026-06-27 16:02:33 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-28-00-ai-raw.json
+2026-06-27 16:02:33 [DEBUG] parse_json_response 输入长度: 93 字符
+2026-06-27 16:02:33 [DEBUG] 输入内容前 300 字符: {
+  "news": [],
+  "note": "近6小时内无新增关键消息，所有素材均已在历史消息中出现，且无数据更新。恐惧贪婪指数持续15，市场情绪极度恐惧，但无新催化因素。"
+}
+2026-06-27 16:02:33 [DEBUG] 从 JSON 对象的 news 字段提取到 0 条记录
+2026-06-27 16:02:33 [INFO] ✅ AI 返回 0 条新闻
+2026-06-27 16:02:33 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 返回空数组，将重试
+2026-06-27 16:02:33 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（34 条，8974 字符，temp=0.3）
+2026-06-27 16:02:52 [INFO] AI 原始返回已保存: logs/2026-06-28-ai-response.txt (finish_reason=stop, 826 字符)
+2026-06-27 16:02:52 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-28-00-ai-raw.json
+2026-06-27 16:02:52 [DEBUG] parse_json_response 输入长度: 826 字符
+2026-06-27 16:02:52 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "MSTR股票因BTC抛售受质疑",
+      "summary": "Strategy（MSTR）股价5日暴跌25%，因其出售比特币筹集资金用于支付STRC股息，导致市场对其融资模型产生质疑。目前MSTR的mNAV已跌破1，意味着其市值低于持有的比特币价值。这可能引发更多抛售压力，对BTC价格构成利空。影响币种：BTC。看空信号。",
+      "reason": "机构动向（MicroStrategy/Strategy）是中期影响行情的关键消息。mNAV跌破1显示市场对其溢价消失，可能引发连锁抛售，属于优先级二的机构
+2026-06-27 16:02:52 [DEBUG] 从 JSON 对象的 news 字段提取到 1 条记录
+2026-06-27 16:02:52 [INFO] ✅ AI 返回 1 条新闻
+2026-06-27 16:02:52 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 只返回了 1 条（期望 3），将重试
+2026-06-27 16:02:52 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（34 条，12066 字符，temp=0.3）
+2026-06-27 16:03:12 [INFO] AI 原始返回已保存: logs/2026-06-28-ai-response.txt (finish_reason=stop, 968 字符)
+2026-06-27 16:03:12 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-28-00-ai-raw.json
+2026-06-27 16:03:12 [DEBUG] parse_json_response 输入长度: 968 字符
+2026-06-27 16:03:12 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "MSTR市值跌破BTC持仓",
+      "summary": "Strategy（MSTR）股价5日暴跌25%，其市值已低于所持比特币价值，mNAV跌破1。此前Strategy通过发行优先股筹集资金并出售比特币以支付股息，引发市场对其资金模型可持续性的质疑。若MSTR被迫持续抛售BTC，将形成额外卖压。影响比特币及相关ETF。",
+      "reason": "核心机构资金模型受质疑，抛压预期增强，属优先级一。",
+      "category": "机构动向",
+      "impact_coins": ["
+2026-06-27 16:03:12 [DEBUG] 从 JSON 对象的 news 字段提取到 2 条记录
+2026-06-27 16:03:12 [INFO] ✅ AI 返回 2 条新闻
+2026-06-27 16:03:12 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 只返回了 2 条（期望 3），将重试
+2026-06-27 16:03:12 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（34 条，12066 字符，temp=0.3）
+2026-06-27 16:03:31 [INFO] AI 原始返回已保存: logs/2026-06-28-ai-response.txt (finish_reason=stop, 2901 字符)
+2026-06-27 16:03:31 [INFO] 📦 AI 原始返回 JSON 已保存: reports/2026-06-28-00-ai-raw.json
+2026-06-27 16:03:31 [DEBUG] parse_json_response 输入长度: 2901 字符
+2026-06-27 16:03:31 [DEBUG] 输入内容前 300 字符: {
+  "news": [
+    {
+      "title": "Tether金条贷款230亿美元",
+      "summary": "Tether宣布将其230亿美元黄金储备用于发放金条抵押贷款，这标志着稳定币发行商进一步多元化业务。该举措可能增加市场流动性，对加密市场整体偏多，但短期内影响有限。主要影响USDT稳定币及其相关交易对。",
+      "reason": "Tether大规模黄金储备商业化，可能增强其盈利能力并支持USDT稳定性，对市场资金面构成潜在利好。",
+      "category": "项目更新",
+      "impact_coins": ["USD
+2026-06-27 16:03:31 [DEBUG] 从 JSON 对象的 news 字段提取到 5 条记录
+2026-06-27 16:03:31 [INFO] ✅ AI 返回 5 条新闻
+2026-06-27 16:03:31 [INFO] ✅ AI 筛选出 5 条交易相关消息，符合预期
+2026-06-27 16:03:31 [INFO] 🔗 来源链接覆盖: 5/5 条新闻有有效链接
+2026-06-27 16:03:31 [INFO] 🔄 去重：移除 2 条与历史报告重复的新闻
+2026-06-27 16:03:31 [DEBUG]   去重: 「Tether金条贷款230亿美元」 → URL重复: https://www.coindesk.com/business/2026/06/27/tether-putting-
+2026-06-27 16:03:31 [DEBUG]   去重: 「Coinbase/OKX抢夺Binance欧盟用户」 → URL重复: https://www.coindesk.com/business/2026/06/27/coinbase-and-ok
+2026-06-27 16:03:31 [INFO] 📦 JSON 已保存: reports/2026-06-28-00.json
+2026-06-27 16:03:31 [INFO] ✅ AI 筛选完成，共 3 条交易相关消息
