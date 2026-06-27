@@ -1519,3 +1519,92 @@ content length: 2067
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2542, prompt_tokens=9237, total_tokens=11779, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1374, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8085)
+content length: 2982
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC/ETH ETF大额净流出",
+      "summary": "昨日比特币ETF净流出4.445亿美元，以太坊ETF净流出1280万美元。资金大幅流出表明机构投资者短期看空情绪浓厚，可能进一步打压BTC和ETH价格。该信号为看空，且持续一周的流出趋势加剧。",
+      "reason": "直接影响行情：ETF资金流动是市场风向标，大额净流出为强烈看空信号。",
+      "category": "ETF机构",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519904.html"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "巨鲸开启BTC/ETH空单",
+      "summary": "某巨鲸再次开启价值7076万美元的BTC和ETH空单，已浮亏约142万美元。巨鲸加杠杆做空显示其对短期价格看跌，但浮亏表明可能面临轧空风险。该信号为看空，但需警惕空头回补。",
+      "reason": "巨鲸异动：大额空单开仓增加抛压预期，属于优先级一的关键事件。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519903.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "伊朗打击美军目标",
+      "summary": "伊朗革命卫队宣布打击美军多个目标以回应美空袭伊朗，中东局势骤然升级。地缘政治紧张通常会引发避险情绪，短期利空风险资产如BTC、ETH，但可能推动避险资产需求。信号为看空。",
+      "reason": "宏观经济/地缘政治：重大冲突风险影响全球市场，加密货币作为风险资产承压。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519898.html"}
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SOL重回72美元但动能减弱",
+      "summary": "SOL价格回升至72美元，但链上数据显示上涨动能减弱，交易量和活跃地址未同步增长。短期反弹可能乏力，存在回调风险。信号中性偏空，建议谨慎追多。",
+      "reason": "市场结构：链上数据与价格背离是中期顶部的预警信号。",
+      "category": "市场结构",
+      "impact_coins": ["SOL"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/markets/sol-reclaims-72-but-onchain-data-flags-weakening-momentum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "参议员敦促CFTC调查Polymarket",
+      "summary": "美国参议员敦促CFTC对预测市场平台Polymarket展开调查，指控其“欺骗性营销”。监管压力增加可能影响Polymarket及相关代币（如POL），但当前主要影响平台本身。信号看空，但影响范围有限。",
+      "reason": "监管政策：新的监管调查可能引发市场对预测赛道的担忧，属于优先级一。",
+      "category": "监管政策",
+      "impact_coins": ["POL"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {"name": "CoinTelegraph", "url": "https://cointelegraph.com/news/us-senators-urge-cftc-probe-polymarket-over-report-deceptive-marketing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"}
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "OG巨鲸代理人做空ZEC",
+      "summary": "「BTC OG 内幕巨鲸」代理人再次做空ZEC，同时其比特币多单已浮亏超2000万美元。做空ZEC显示对ZEC的看空态度，但比特币多单浮亏暗示其整体仓位风险较高。信号看空ZEC。",
+      "reason": "链上异动：知名巨鲸的做空行为可能引发跟风抛售，但ZEC流动性较低，影响相对局限。",
+      "category": "链上异动",
+      "impact_coins": ["ZEC"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {"name": "金色财经", "url": "https://jinse.com.cn/lives/519900.html"}
+      ],
+      "urgency": "hours"
+    }
+  ]
+}
