@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-27",
+  "hour": "08",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11223,
+    "completion_tokens": 2858,
+    "total_tokens": 14081
+  },
+  "content_length": 2343,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"伊朗打击美军据点，地缘风险升级\",\n      \"summary\": \"据伊朗革命卫队声明，已对美军在中东多处据点发动打击，以回应美国此前对伊朗商船袭击的军事行动。美国中央司令部确认对伊朗发动打击。地缘冲突急剧升级，市场避险情绪升温。预计将导致比特币等风险资产短期承压，资金可能流向黄金等避险资产。信号看空。\",\n      \"reason\": \"直接影响行情的重大地缘事件，优先级一。冲突升级可能引发市场恐慌抛售，对比特币等风险资产构成利空。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519870.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"STRC跌至历史新低，mNAV跌破1\",\n      \"summary\": \"Strategy（原MicroStrategy）股价STRC跌至71.40美元历史新低，企业市值与净清算价值比（mNAV）最低触及0.98，意味着市场对公司比特币持仓的估值低于其账面价值。此前Ripple CEO批评Saylor损害加密市场，且Strategy持仓出现130亿美元未实现亏损。这加剧了市场对比特币最大持有者财务健康的担忧，可能引发比特币抛售压力。信号看空。\",\n      \"reason\": \"直接影响行情的项目方重大事件，优先级一。Strategy的困境直接关联比特币价格，市场情绪恶化可能引发连锁反应。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"BTC\", \"MSTR\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 5,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519859.html\"\n        }\n      ],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"纽约油价跌破70美元，风险资产承压\",\n      \"summary\": \"纽约原油价格自美伊冲突以来首次跌破每桶70美元，反映市场对全球经济放缓的担忧加剧。油价下跌通常与需求下降相关，可能预示经济衰退风险，进一步打压比特币等风险资产。此外，中东局势虽紧张但油价不升反跌，暗示市场更关注需求端疲软。信号看空。\",\n      \"reason\": \"宏观经济数据影响风险资产走势，优先级二。油价作为经济晴雨表，持续下跌利空加密市场。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"金色财经\",\n          \"url\": \"https://jinse.com.cn/lives/519866.html\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数15，极度恐惧持续\",\n      \"summary\": \"当前加密货币恐惧与贪婪指数为15（极度恐惧），较前几日的13略有回升但仍处于历史低位。极度恐惧通常意味着市场情绪极度悲观，历史上往往是中长期买入区间，但短期可能仍有下跌惯性。该指数已连续多日处于极低水平，暗示市场恐慌情绪蔓延，但也是潜在反转信号。信号中性偏中长期看多。\",\n      \"reason\": \"市场情绪信号，优先级三。恐惧贪婪指数极值是重要的反转参考，但当前尚未出现明确的底部确认。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本时段核心消息为地缘冲突升级和Strategy（MicroStrategy）困境，均利空市场。油价下跌强化经济放缓预期。恐惧贪婪指数虽仍极低，但尚未确认底部。建议关注后续发展。\"\n}"
+}
