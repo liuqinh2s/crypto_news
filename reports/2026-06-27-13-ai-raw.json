@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-27",
+  "hour": "13",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9010,
+    "completion_tokens": 2830,
+    "total_tokens": 11840
+  },
+  "content_length": 1574,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"克里米亚宣布紧急状态\",\n      \"summary\": \"克里米亚地区宣布进入紧急状态，地缘政治紧张局势升级。此前伊朗与美军冲突已导致BTC跌破6万美元，新消息可能加剧市场避险情绪，利空风险资产。影响币种：BTC、ETH。看空信号。\",\n      \"reason\": \"地缘政治风险加剧，影响风险资产情绪，属于优先级二宏观因素。\",\n      \"category\": \"宏观经济\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/519909.html\"}],\n      \"urgency\": \"immediate\"\n    },\n    {\n      \"title\": \"Bitwise存入1.14亿HYPE并质押\",\n      \"summary\": \"Bitwise在8小时前向Hyperliquid存入价值1.14亿美元的HYPE代币并进行了质押。这是机构大规模布局HYPE，表明机构看好，可能推动HYPE价格上涨。但HYPE流动性相对较小，需注意波动。看多HYPE。\",\n      \"reason\": \"机构大额存入并质押，属机构动向，利好HYPE。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"HYPE\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 3,\n      \"sources\": [{\"name\": \"金色财经\", \"url\": \"https://jinse.com.cn/lives/519907.html\"}],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"某公司持有5% ETH引发抛售担忧\",\n      \"summary\": \"The Motley Fool报道称，一家公司目前持有近5%的以太坊总供应量，这可能是一个明显的抛售信号。巨量集中持仓可能引发市场对抛压的担忧，利空ETH。具体公司未明，但历史上有Strategy等机构持有大量加密货币。看空ETH。\",\n      \"reason\": \"巨鲸集中持仓风险，可能预示潜在抛压，属链上异动。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 4,\n      \"sources\": [{\"name\": \"The Motley Fool\", \"url\": \"https://news.google.com/rss/articles/CBMimAFBVV95cUxOUEhVNzJUWldPd3BQMEhOUk5aZHVVUHNjMG9HMGNLRlIyTmh3UVFQVmItU1RPVmE2MktVTHRPNWtGSkdEYmtrV0VXcHFyaDJNMUF4ZTZ6SktvMEZFcjhNV3FrelRFOW1wMmV4VXJVX1Z0ZTdPUDVFOFo4UU9pclBpc0dndTdxd3d1Z1JvWDVVVkRIVS1Tc2RWVw?oc=5\"}],\n      \"urgency\": \"immediate\"\n    }\n  ]\n}"
+}
