@@ -2177,3 +2177,94 @@ content length: 3421
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2410, prompt_tokens=9801, total_tokens=12211, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1296, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8649)
+content length: 2772
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC突破6.2万将触发9.15亿空单清算",
+      "summary": "据金色财经报道，若比特币价格突破6.2万美元，主流中心化交易所累计空单清算强度将达到9.15亿美元。这意味着如果BTC快速突破该价位，可能引发大规模空头爆仓，从而加速上涨。但该数据仅为清算强度预测，实际走势需结合市场情绪。主要影响BTC合约市场，短期内可能形成轧空行情。信号为中性偏多，因为突破后空头爆仓会助推价格，但需警惕假突破后反向波动。",
+      "reason": "清算强度数据属于链上异动/市场结构，直接影响短期价格行为，符合筛选标准优先级一。",
+      "category": "市场结构",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519949.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "霍尔木兹海峡油轮遭袭，地缘风险升温",
+      "summary": "英国海上贸易行动办公室报告称一艘油轮在霍尔木兹海峡遭袭。此前美伊冲突已导致该海峡通航放缓，此次袭击加剧了中东紧张局势。地缘政治风险上升通常引发避险情绪，但加密货币市场可能承压，因风险资产偏好下降。短期看空BTC、ETH等主流币，但地缘冲突也可能促使部分资金转向比特币作为避险工具，需观察后续事态发展。",
+      "reason": "地缘政治事件影响宏观风险偏好，属于优先级二宏观经济范畴，且与历史消息中的霍尔木兹海峡通航放缓事件有更新。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519946.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Cathie Wood：比特币财富保护属性不可替代",
+      "summary": "Ark Invest CEO Cathie Wood发表观点称，尽管AI吸引了大量投资关注，但AI无法替代比特币的财富保护属性。她认为比特币作为去中心化、稀缺的数字资产，在长期资产配置中仍有独特价值。该言论可能提振市场信心，但属于个人观点，影响力有限。对BTC形成微弱看多信号。",
+      "reason": "知名机构人物言论影响市场情绪，属于优先级三市场情绪信号。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 1,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519945.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "分析师：比特币或形成底部，关注200周SMA",
+      "summary": "有分析师指出，比特币可能正在形成底部，200周简单移动平均线（SMA）再次成为关键观察位。历史上200周SMA多次作为熊市底部支撑，当前BTC价格若在该均线附近企稳，可能意味着下跌空间有限。但从合约做多视角看，该信号为偏多，但需等待确认。",
+      "reason": "技术分析观点属于中期影响，符合优先级二的技术升级/里程碑（虽非升级，但关键位置分析），",
+      "category": "项目更新",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519942.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "Binance上线CAPUSDT永续合约",
+      "summary": "Binance Futures宣布将于2026年6月27日上线USDⓈ-Margined CAPUSDT永续合约，提供最高75倍杠杆。CAP是某项目代币，新合约上线将增加其流动性和交易量，短期利好CAP价格。但需注意新币波动风险，且对整体市场影响有限。",
+      "reason": "交易所新币上线合约属于直接影响行情的消息，符合优先级一。",
+      "category": "交易所",
+      "impact_coins": ["CAP"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ]
+}
