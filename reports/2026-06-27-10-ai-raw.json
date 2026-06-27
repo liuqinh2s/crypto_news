@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-27",
+  "hour": "10",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3297,
+    "completion_tokens": 1183,
+    "total_tokens": 4480
+  },
+  "content_length": 1727,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"恐惧贪婪指数跌至15\",\n      \"summary\": \"当前恐惧贪婪指数为15（极度恐惧），处于历史抄底区域。过去6小时无显著改善。通常极度恐惧意味着市场过度悲观，中长期往往是反弹机会，但短期可能继续下探。影响BTC及整体市场情绪，对比特币等主要币种中长期看多信号。\",\n      \"reason\": \"恐惧贪婪指数<20符合优先级三的极值标准，历史数据显示该区域常出现阶段性底部，具有中长期参考价值。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Binance将上线TradFi永续合约\",\n      \"summary\": \"Binance Futures将于2026-06-29上线多个USDⓈ-M TradFi永续合约，涵盖传统金融标的代币。新合约上线增加交易工具和流动性，对相关代币（如MSTRB等）短期可能带来波动和交易量提升，但方向不确定，中性偏多。\",\n      \"reason\": \"交易所上合约属于优先级一，上线时间临近，可能短期影响相关币种流动性和价格。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"MSTR\", \"AMDB\", \"EWYB\", \"INTCB\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b\"\n        }\n      ],\n      \"urgency\": \"days\"\n    },\n    {\n      \"title\": \"Binance新增JPY现货对\",\n      \"summary\": \"Binance于2026-06-26新增JPY（日元）现货交易对并推出零挂单费促销。此举降低日元用户交易成本，可能吸引更多日本资金入场，对BTC/ETH等主流币种形成温和利好。\",\n      \"reason\": \"增加法币现货对提升流动性，属于交易所基础设施改善，有助市场深度。\",\n      \"category\": \"交易所\",\n      \"impact_coins\": [\"BTC\", \"ETH\", \"USDT\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 1,\n      \"sources\": [\n        {\n          \"name\": \"Binance公告\",\n          \"url\": \"https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮素材中大部分为Reddit新手提问和旧公告，符合筛选标准的有效消息仅3条。\"\n}"
+}
