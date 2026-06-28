@@ -1231,3 +1231,69 @@ content length: 2242
   ],
   "note": "由于部分历史消息重复，仅筛选出4条新消息。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2004, prompt_tokens=9350, total_tokens=11354, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1132, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8198)
+content length: 2268
+============================================================
+{
+  "news": [
+    {
+      "title": "巨鲸从币安提取1350 BTC",
+      "summary": "某新建钱包从币安提取1350枚BTC，价值约8187万美元。大额BTC从交易所流出通常被视为囤币信号，减少流通供应，对BTC价格构成支撑。历史数据表明此类行为常伴随后续价格上涨。",
+      "reason": "巨鲸异动：交易所大额流出，看多信号，优先级一。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bullish",
+      "impact_level": 4,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/520002.html"}],
+      "urgency": "immediate"
+    },
+    {
+      "title": "SharpLink Gaming买入29196 ETH",
+      "summary": "SharpLink Gaming再次购入29,196枚ETH，价值约4670万美元。机构持续增持ETH表明对以太坊长期价值的信心，可能推动ETH价格上涨，同时反映机构资金入场趋势。",
+      "reason": "机构动向：大额买入ETH，看多信号，优先级二。",
+      "category": "ETF机构",
+      "impact_coins": ["ETH"],
+      "signal": "bullish",
+      "impact_level": 3,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/520000.html"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数回升至18",
+      "summary": "恐惧贪婪指数从15上升至18，仍处于极端恐惧区间（<20）。历史数据表明极端恐惧往往是中长期底部区域，抄底信号。但短线可能继续磨底，适合分批建仓。",
+      "reason": "市场情绪极值：极度恐惧，中长期看多，优先级三。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [{"name": "Alternative.me", "url": "https://alternative.me/crypto/fear-and-greed-index/"}],
+      "urgency": "days"
+    },
+    {
+      "title": "SecondFi Cardano钱包被黑",
+      "summary": "SecondFi遭Cardano钱包漏洞攻击损失240万美元，计划两周内归还资金。该事件对ADA生态造成负面影响，但金额较小，市场反应有限。短期可能打压ADA价格，需关注后续进展。",
+      "reason": "项目安全事件：黑客攻击，直接利空，优先级一。",
+      "category": "项目更新",
+      "impact_coins": ["ADA"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [{"name": "The Block", "url": "https://www.theblock.co/post/406457/secondfi-maps-recovery-path-after-2-4-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks"}],
+      "urgency": "hours"
+    },
+    {
+      "title": "鲸鱼多空仓位双双浮亏",
+      "summary": "某鲸鱼价值1.02亿美元的仓位中，BTC多单浮亏186万美元，ETH空单浮亏123万美元。反映大户在BTC上做多、ETH上做空，但双边承压。若价格继续下跌，可能触发止损或清算，加剧波动。",
+      "reason": "链上异动：大户仓位风险，可能带来短期波动，优先级二。",
+      "category": "链上异动",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [{"name": "金色财经", "url": "https://jinse.com.cn/lives/520001.html"}],
+      "urgency": "hours"
+    }
+  ]
+}
