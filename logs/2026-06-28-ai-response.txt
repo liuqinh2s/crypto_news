@@ -1388,3 +1388,202 @@ content length: 2482
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1218, prompt_tokens=9120, total_tokens=10338, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=810, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=7968)
+content length: 1090
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC UTXO预示投降",
+      "summary": "分析师指出，比特币未花费交易输出（UTXO）数据表明市场正在发生投降，大量持币者亏损卖出。当前BTC跌破60000美元，链上亏损转移量激增，短期可能进一步下探。信号偏空，影响BTC。",
+      "reason": "链上异动，属于优先级一的市场信号，直接反映抛压和恐慌情绪。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以色列总理否认两国方案",
+      "summary": "以色列总理称不存在两国空间，中东局势持续紧张。此前美军已多次空袭伊朗，地缘政治风险升温可能引发避险情绪，但加密货币作为风险资产短期承压。该消息可能加剧市场不确定性，利空BTC、ETH。",
+      "reason": "地缘冲突影响风险偏好，属于宏观经济/市场情绪范畴，但非直接加密消息。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/520008.html"
+        }
+      ],
+      "urgency": "hours"
+    }
+  ],
+  "note": "当前素材中多数消息已重复或影响微弱，仅筛选出两条有价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1799, prompt_tokens=9120, total_tokens=10919, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1329, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=32)
+content length: 1200
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC链上信号：投降式抛售进行中",
+      "summary": "据CoinTelegraph报道，分析师指出比特币未花费交易输出（UTXO）数据表明市场正在经历投降式抛售。历史类似阶段往往对应底部区域，但短期价格可能进一步承压。BTC已跌破60000美元，链上亏损转移量增加。信号偏空，但中长期可能迎来机会。影响币种：BTC。",
+      "reason": "链上异动指标显示可能正在触底，属于优先级三的链上指标异常，对交易决策有参考价值。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "以色列总理称不存在两国空间",
+      "summary": "以色列总理发表言论，明确表示不存在两国方案的空间。该表态可能加剧中东地缘政治紧张局势，与美军空袭伊朗、特朗普警告等事件叠加，增加市场不确定性。地缘风险通常促使资金流向避险资产，但加密市场近期因风险情绪恶化而下跌，该消息可能进一步压制风险偏好。影响币种：BTC、ETH。",
+      "reason": "地缘政治突发事件，可能影响市场情绪，属于优先级三的市场情绪信号。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/520008.html"
+        }
+      ],
+      "urgency": "immediate"
+    }
+  ],
+  "note": "经过严格去重，本轮有效新消息仅2条，其余多为历史消息重复或交易价值较低的内容。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1731, prompt_tokens=9120, total_tokens=10851, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=616, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=32)
+content length: 3097
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC UTXO信号投降",
+      "summary": "分析师指出，比特币未花费交易输出（UTXO）数据显示市场投降正在进行，大量亏损地址转移BTC，可能预示短期底部。该信号通常出现在恐慌抛售后，中长期来看可能是买入机会。影响BTC，短期看空但中长期看多。",
+      "reason": "链上异动信号，符合优先级一，直接影响市场情绪和潜在反转。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "美军空袭伊朗 加密货币跳水",
+      "summary": "美军连续空袭伊朗南部，伊朗革命卫队反击，特朗普警告加剧中东紧张局势。加密货币市场承压，BTC跌破60000美元，地缘风险引发避险情绪。影响BTC、ETH等主流币，短期看空。",
+      "reason": "地缘政治事件直接冲击风险资产，符合优先级一。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/520009.html"
+        },
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/520005.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "非农数据提前至7月2日",
+      "summary": "下周迎来数据海啸周，非农就业数据提前至7月2日公布。若数据强劲可能强化美联储加息预期，利空风险资产；若疲软则可能推动降息预期，利多。影响BTC、ETH，中性偏空。",
+      "reason": "宏观经济数据影响风险资产走势，符合优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/520004.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "以色列总理否定两国方案",
+      "summary": "以色列总理称不存在两国空间，中东局势进一步恶化，可能延长地缘冲突。避险情绪升温，BTC承压，短期看空。",
+      "reason": "地缘政治持续恶化，影响风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/520008.html"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "Binance上线TradFi合约",
+      "summary": "Binance将于6月29日上线多个传统金融指数永续合约，包括标普500、纳斯达克等。可能吸引传统资金入场，对加密市场影响间接，但增加交易品种。影响BTC、ETH（情绪），中性。",
+      "reason": "交易所上线新产品，符合优先级一（轻度），但影响有限。",
+      "category": "交易所",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Binance公告",
+          "url": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "恐惧贪婪指数18",
+      "summary": "恐惧贪婪指数降至18（极度恐惧），历史抄底区间。虽然短期情绪悲观，但中长期可能迎来反弹。影响BTC、ETH，长期看多。",
+      "reason": "市场情绪极值，符合优先级三，但历史已有，不过作为更新选取（数值未变但持续）。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
