@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-28",
+  "hour": "14",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 1/6 策略=仅标题+链接 retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9904,
+    "completion_tokens": 2303,
+    "total_tokens": 12207
+  },
+  "content_length": 2151,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"Base网络宕机复盘\",\n      \"summary\": \"以太坊Layer2网络Base近期出现连续宕机，官方发布事后分析报告，确认根本原因是排序器程序中的漏洞（sequencer bug）。该漏洞导致交易排序异常，进而引起网络中断。Base团队已部署修复补丁，并承诺加强测试流程。Base作为Coinbase支持的热门L2，其稳定性对生态内DeFi协议（如Aerodrome、Uniswap等）有直接影响。短期内可能削弱用户对Base网络的信任，但修复后影响有限。对ETH本身影响较小。总体偏中性。\",\n      \"reason\": \"Base作为主流L2，其技术故障可能引发市场对L2安全性的担忧，但已修复，属于项目更新类消息。\",\n      \"category\": \"项目更新\",\n      \"impact_coins\": [\"ETH\", \"BASE\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/base-post-mortem-reveals-sequencer-bug-behind-back-to-back-outages\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"灰度提出熊市出路路径\",\n      \"summary\": \"灰度研究发布报告，指出比特币本轮熊市已持续237天，但跌幅是历次最小。报告提出两条可能的出路：一是宏观经济环境改善（如美联储转向鸽派），二是比特币自身的减半和ETF流入等催化剂。灰度认为尽管目前市场低迷，但基本面依然稳健，长期持有者未大规模抛售。该报告可能提振部分投资者信心，但未给出明确看多信号。对BTC影响中性偏多。\",\n      \"reason\": \"灰度是重要的机构参与者，其观点可能影响市场情绪，属于机构动向类消息。\",\n      \"category\": \"ETF机构\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Cryptonews.net\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFYkJfb2JEQklqeldDdXIwTjBtWXF0RlVHQjR0Q0VUTXE5QUI5eFg4Z19qYWtKNkFGc0R3MGc3ZWI0ZjNVek9pcFZROUJkS29iaW5TTTFJN2I?oc=5\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"加密风投参与度降至6年低点\",\n      \"summary\": \"最新数据显示，加密风投活动大幅收窄，投资者参与度创下6年新低。这表明机构资金对加密项目的投资意愿下降，市场可能处于深度调整期。但历史上风投活动低谷往往也是市场底部区域，可能意味着长期买入机会。短期来看，该消息加剧市场悲观情绪，对BTC、ETH等主流币构成利空信号。\",\n      \"reason\": \"风投活动是市场信心的重要指标，6年低点属于市场结构异动，影响中期行情。\",\n      \"category\": \"市场结构\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bearish\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"Cryptonews.net\",\n          \"url\": \"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tdHlzZS14MXJiZlJEVTZqMENxWi1DSXNuZk9xNlFld0JTVVktVVBqTGRGbHdrNDZKODNDUFA4M1UteXI4RlFkSjdvMGlQQWthaHE3ZmR1ME4?oc=5\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ],\n  \"note\": \"本轮有效新消息较少，仅筛选出3条具有交易参考价值的信息。历史消息中已有大量重复内容（如Binance上币公告、BTC跌破6万、恐惧贪婪指数不变等），已按去重规则排除。\"\n}"
+}
