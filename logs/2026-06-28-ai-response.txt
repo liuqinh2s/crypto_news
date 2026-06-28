@@ -1833,3 +1833,79 @@ content length: 2151
   ],
   "note": "本轮有效新消息较少，仅筛选出3条具有交易参考价值的信息。历史消息中已有大量重复内容（如Binance上币公告、BTC跌破6万、恐惧贪婪指数不变等），已按去重规则排除。"
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=2989, prompt_tokens=10575, total_tokens=13564, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=2068, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=9423)
+content length: 2281
+============================================================
+{
+  "news": [
+    {
+      "title": "IBIT投资者亏损40%",
+      "summary": "BlackRock的比特币ETF IBIT投资者目前账面亏损约40%，反映了自高点以来的大幅回调。这一信号可能加剧市场恐慌，导致散户抛售，对BTC、ETH等主流币构成短期下行压力。从合约做多视角看，此为看空信号。",
+      "reason": "ETF投资者深度亏损可能引发恐慌性抛售，属市场情绪类重要消息。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "thestreet.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY0U4YXdpemVsVm4yeW9wVko4Z0I3bnJqQ3k5RnUyVk1UNFhDOGlrWkhFbHFnVFVnRTZndklvWmdueDVfU2pJd3hTbnVhU2plcTRQb1pZVkFDTGY3UXJwZG5DT3VrS3RmYWxqWTdIcXpnUVo1bkM3MHRNNlAxSF9GX2hMMVRWOFhWMmtaMWRNeXNJNmxCbFE?oc=5"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "韩国将宣布三星SK大项目",
+      "summary": "韩国将于周一宣布三星、SK集团等多个大型项目，可能涉及半导体、AI等产业。虽非直接加密监管，但大型产业政策可能影响韩国经济及风险偏好，间接影响加密市场。短期影响有限，中性偏多。",
+      "reason": "韩国作为加密活跃市场，大型产业政策可能带动市场情绪，属中期影响。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/520020.html"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "伊朗称将更强烈回应",
+      "summary": "伊朗革命卫队称将更强烈回应美国进一步行为，地缘紧张局势升级。这可能触发风险资产抛售，加密市场短期承压。对于BTC、ETH等，这是看空信号。",
+      "reason": "地缘冲突升级通常导致风险资产下跌，属直接影响宏观情绪。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/520019.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "日本数字日元蓝图发布",
+      "summary": "Reddit上出现关于日本CBDC（数字日元）的详细蓝图，讨论多阶段过渡至CBDC生态。日本央行一直推进数字货币，若落地可能对稳定币和加密支付产生影响，但短期无直接影响，中性。",
+      "reason": "CBDC相关政策是监管政策大类，虽非突发事件，但作为长期趋势值得关注。",
+      "category": "监管政策",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Reddit r/CryptoCurrency",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1uhpne3/the_digital_yen_blueprint_navigating_japans/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "当前市场消息匮乏，多数已重复，仅选出4条有交易价值的新消息，其中两条为中等影响级别。"
+}
