@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-28",
+  "hour": "12",
+  "model": "deepseek-v4-flash",
+  "attempt": "[deepseek] 6/6 策略=仅标题（无历史） retry=0",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3921,
+    "completion_tokens": 1031,
+    "total_tokens": 4952
+  },
+  "content_length": 1261,
+  "raw_content": "{\n  \"news\": [\n    {\n      \"title\": \"BTC UTXO投降信号\",\n      \"summary\": \"CoinTelegraph报道，比特币未花费交易输出（UTXO）数据表明市场正在经历投降阶段。分析师指出，链上指标显示长期持有者正在亏损卖出，历史类似模式通常出现在价格底部区域。此信号可能意味着BTC短期抛压加剧，但中长期或迎来反弹。影响币种：BTC。从合约做多视角，短期偏空（恐慌抛售），但中长期看多（抄底机会）。建议关注后续价格确认。\",\n      \"reason\": \"链上异动指标异常，属于优先级二中期影响，可提供交易决策参考。\",\n      \"category\": \"链上异动\",\n      \"impact_coins\": [\"BTC\"],\n      \"signal\": \"neutral\",\n      \"impact_level\": 3,\n      \"sources\": [\n        {\n          \"name\": \"CoinTelegraph\",\n          \"url\": \"https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\"\n        }\n      ],\n      \"urgency\": \"hours\"\n    },\n    {\n      \"title\": \"恐惧贪婪指数18极度恐惧\",\n      \"summary\": \"加密货币恐惧贪婪指数降至18，处于极度恐惧区间。历史数据表明，该水平通常对应市场底部区域，是中长期布局的潜在机会。当前市场情绪极度悲观，但往往预示反转。影响币种：BTC、ETH等主要币种。从合约做多视角，短期可能继续下探，但中长期看多，可考虑分批建仓。\",\n      \"reason\": \"恐惧贪婪指数低于20，属于市场情绪极值信号（优先级三），历史抄底区，对交易策略有参考价值。\",\n      \"category\": \"市场情绪\",\n      \"impact_coins\": [\"BTC\", \"ETH\"],\n      \"signal\": \"bullish\",\n      \"impact_level\": 2,\n      \"sources\": [\n        {\n          \"name\": \"Alternative.me\",\n          \"url\": \"https://alternative.me/crypto/fear-and-greed-index/\"\n        }\n      ],\n      \"urgency\": \"days\"\n    }\n  ]\n}"
+}

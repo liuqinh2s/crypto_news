@@ -1587,3 +1587,98 @@ content length: 3097
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=876, prompt_tokens=9209, total_tokens=10085, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=846, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8057)
+content length: 57
+============================================================
+{
+  "news": [],
+  "note": "本轮素材中所有消息均与历史消息重复，无新增有价值信息。"
+}
+
+============================================================
+attempt: [deepseek] 2/6 策略=仅标题+链接 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=765, prompt_tokens=9209, total_tokens=9974, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=735, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=121)
+content length: 56
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材均为历史消息重复内容，无新交易价值消息。"
+}
+
+============================================================
+attempt: [deepseek] 3/6 策略=仅标题+链接 retry=2
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=669, prompt_tokens=9209, total_tokens=9878, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=587, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9088), prompt_cache_hit_tokens=9088, prompt_cache_miss_tokens=121)
+content length: 142
+============================================================
+{"news": [], "note": "当前抓取素材中无新增高价值消息。历史消息已覆盖地缘冲突、BTC跌破6万、巨鲸增持BTC、恐惧贪婪指数等关键信息，且最新恐惧贪婪指数18与前几小时相同，Binance公告多为重复上线通知，无实质性影响。建议关注后续非农数据及地缘局势演变。"}
+
+============================================================
+attempt: [deepseek] 4/6 策略=完整内容 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=807, prompt_tokens=9971, total_tokens=10778, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=765, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8819)
+content length: 73
+============================================================
+{
+  "news": [],
+  "note": "当前抓取素材均与历史消息重复或为无交易价值的预测市场/已过期公告，未筛选出有效新消息。"
+}
+
+============================================================
+attempt: [deepseek] 5/6 策略=完整内容 retry=1
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=437, prompt_tokens=9971, total_tokens=10408, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=379, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=9856), prompt_cache_hit_tokens=9856, prompt_cache_miss_tokens=115)
+content length: 104
+============================================================
+{
+  "news": [],
+  "note": "本轮抓取素材与历史消息高度重复，未发现新的关键交易信号。恐惧贪婪指数仍为18（已连续多时），Binance公告均为历史重复，预测试场消息无实质影响。"
+}
+
+============================================================
+attempt: [deepseek] 6/6 策略=仅标题（无历史） retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1031, prompt_tokens=3921, total_tokens=4952, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=548, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=2769)
+content length: 1261
+============================================================
+{
+  "news": [
+    {
+      "title": "BTC UTXO投降信号",
+      "summary": "CoinTelegraph报道，比特币未花费交易输出（UTXO）数据表明市场正在经历投降阶段。分析师指出，链上指标显示长期持有者正在亏损卖出，历史类似模式通常出现在价格底部区域。此信号可能意味着BTC短期抛压加剧，但中长期或迎来反弹。影响币种：BTC。从合约做多视角，短期偏空（恐慌抛售），但中长期看多（抄底机会）。建议关注后续价格确认。",
+      "reason": "链上异动指标异常，属于优先级二中期影响，可提供交易决策参考。",
+      "category": "链上异动",
+      "impact_coins": ["BTC"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数18极度恐惧",
+      "summary": "加密货币恐惧贪婪指数降至18，处于极度恐惧区间。历史数据表明，该水平通常对应市场底部区域，是中长期布局的潜在机会。当前市场情绪极度悲观，但往往预示反转。影响币种：BTC、ETH等主要币种。从合约做多视角，短期可能继续下探，但中长期看多，可考虑分批建仓。",
+      "reason": "恐惧贪婪指数低于20，属于市场情绪极值信号（优先级三），历史抄底区，对交易策略有参考价值。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bullish",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    }
+  ]
+}
