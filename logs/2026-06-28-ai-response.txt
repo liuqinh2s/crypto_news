@@ -1155,3 +1155,79 @@ content length: 2040
     }
   ]
 }
+
+============================================================
+attempt: [deepseek] 1/6 策略=仅标题+链接 retry=0
+finish_reason: stop
+usage: CompletionUsage(completion_tokens=1988, prompt_tokens=9642, total_tokens=11630, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=1129, rejected_prediction_tokens=None), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=1152), prompt_cache_hit_tokens=1152, prompt_cache_miss_tokens=8490)
+content length: 2242
+============================================================
+{
+  "news": [
+    {
+      "title": "SecondFi遭黑客损失240万美元",
+      "summary": "SecondFi遭遇Cardano钱包漏洞攻击，损失约240万美元。项目方承诺两周内归还用户资金。该事件直接暴露Cardano生态安全问题，可能引发短期抛压。对ADA持看空信号，但影响有限。",
+      "reason": "黑客攻击事件，优先级一，直接影响Cardano生态和市场情绪。",
+      "category": "项目更新",
+      "impact_coins": ["ADA"],
+      "signal": "bearish",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/post/406457/secondfi-maps-recovery-path-after-2-4-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks"
+        }
+      ],
+      "urgency": "hours"
+    },
+    {
+      "title": "恐惧贪婪指数降至18极端恐惧",
+      "summary": "当前恐惧贪婪指数为18，处于极度恐惧区间。历史数据显示，该区域往往是中长期抄底机会，但短期市场情绪极度悲观，可能继续下探。对BTC持中性信号，中期偏向看多。",
+      "reason": "市场情绪极值，符合筛选标准优先级三。数值较此前15稍有回升，但仍属极端。",
+      "category": "市场情绪",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 2,
+      "sources": [
+        {
+          "name": "Alternative.me",
+          "url": "https://alternative.me/crypto/fear-and-greed-index/"
+        }
+      ],
+      "urgency": "days"
+    },
+    {
+      "title": "特朗普威胁伊朗：或‘不复存在’",
+      "summary": "特朗普声称伊朗可能‘不复存在’，美伊军事冲突升级风险加剧。地缘政治紧张通常会引发风险资产抛售，比特币、以太坊等可能承压。对BTC/ETH持看空信号。",
+      "reason": "地缘政治重大事件，可能短期引发避险情绪，影响风险资产。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "bearish",
+      "impact_level": 4,
+      "sources": [
+        {
+          "name": "金色财经",
+          "url": "https://jinse.com.cn/lives/519996.html"
+        }
+      ],
+      "urgency": "immediate"
+    },
+    {
+      "title": "美联储降息前景现相反观点",
+      "summary": "美联储面临关于降息的分歧观点，部分官员认为应谨慎，而市场预期仍偏向宽松。降息预期若落空可能打压加密货币，若兑现则利好。目前信号中性，需关注后续数据。",
+      "reason": "宏观经济重要消息，直接影响风险资产定价，优先级二。",
+      "category": "宏观经济",
+      "impact_coins": ["BTC", "ETH"],
+      "signal": "neutral",
+      "impact_level": 3,
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Bbjh3NzhFSXZuUm9VU0pKNWlpV3ZjLUZTbHAxLXJkMTVRUlpyVkJBWkRQN183aXF4Y05tX3dhTHI1UVM5dXZ5dW1yUTFraGcxajRoeDBZQkdtbkxaRG1jdnE4Wmw5WVdpb3FkNlBINzRpZE92SjFfQUt3"
+        }
+      ],
+      "urgency": "days"
+    }
+  ],
+  "note": "由于部分历史消息重复，仅筛选出4条新消息。"
+}
