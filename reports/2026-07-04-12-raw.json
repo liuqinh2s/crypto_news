@@ -1,0 +1,225 @@
+{
+  "date": "2026-07-04",
+  "hour": "12",
+  "total": 31,
+  "fetched_at": "2026-07-04T12:01:08.164148+08:00",
+  "news": [
+    {
+      "source": "CoinTelegraph",
+      "title": "Bitcoin, Ether extend relief rallies as extreme fear meets renewed ETF buying",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin, Ether extend relief rallies as extreme fear meets renewed ETF buying\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-etf-is-now-superior-over-dollar-2.jpg\" /></p><p>Bitcoin and Ether bounced off multi-year lows as dip buyers finally stepped in, and the spot BTC ETFs saw a $221 million inflow on July 2. </p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-ether-extend-relief-rallies-as-extreme-fear-meets-renewed-etf-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Jul 2026 03:54:18 +0000"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Revolut即将下架「非欧盟合规稳定币」USDT",
+      "summary": "<p>BlockBeats 消息，7 月 4 日，欧洲最大金融科技公司 Revolut  通过 App 推送以及邮件等方式告知用户将下架 USDT。7 月 6 日前用户仍可正常购买 USDT，7 月 30 日将停止接收新的 USDT 存款，8 月 31 日前用户仍可正常卖出 USDT 或提现至平台外部钱包，之后 Revolut 将把用户账户内剩余的 USDT 按照届时汇率转换为法币。</p><p><br /></p><p>BlockBeats 注：Revolut 下架 USDT 的主要原因是欧盟 MiCA（加密资产市场法规）已全面实施，并于 7 月进入严格执行阶段。MiCA 对稳定币发行人提出非常高的合规要求，包括储备资产的透明度、定期审计、流动性保障以及对发行人的严格监管授权。USDT 发行方 Tether 至今未在欧盟申请或完全满足 MiCA 合规认证，导致 USDT 被视为「非欧盟合规稳定币」。为了避免监管处罚、法律风险以及平台运营合规问题，Revolut 等欧洲受监管平台必须逐步下架 USDT，并为用户提供过渡期。</p><p><br /></p><p>Revolut 提供多币",
+      "link": "https://www.theblockbeats.info/flash/354549",
+      "published": "Sat, 04 Jul 2026 03:39:37 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Solana升至7日公链活跃度首位，活跃地址数激增55%升至2984.4万",
+      "summary": "<p>BlockBeats 消息，7 月 4 日，据 Nansen 数据，在 Meme 币 ANSEM 交易活跃带动下，Solana 升至近 7 日公链活跃度首位，活跃地址数约 2984.4 万个，远超其余公链，TRON（874 万）、BNB Chain（809 万）、比特币（273 万）、以太坊（246 万）分列其后。</p><p><br /></p><p>Solana 活跃地址数近一周激增 55%，交易笔数 6.8 亿笔，产生 366 万美元费用，同比上升 62%，公链 7 日收入 40.7 万美元同比增加 18%。Solana 全链 TVL 现报 250 亿美元，7 日增加 5.9%。</p>",
+      "link": "https://www.theblockbeats.info/flash/354548",
+      "published": "Sat, 04 Jul 2026 03:13:41 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "定理证明也开始卷成本：Mistral开源Leanstral 1.5，每题约4美元",
+      "summary": "<p>据 <a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating </a>监测，Mistral AI 开源 Leanstral 1.5，一款面向 Lean 4 形式化证明的模型。模型总参数量 1190 亿，激活参数约 65 亿，采用 Apache-2.0 协议，并提供免费 API 访问。<br /><br />官方评测显示，Leanstral 1.5 在 PutnamBench 672 道题中解出 587 道；在抽象代数基准 FATE-H 和 FATE-X 上分别达到 87% 和 34%，刷新同类模型最佳表现。<br /><br />Leanstral 1.5 在 PutnamBench 上的平均解题成本约为 4 美元，低于此前部分系统数十至数百美元的成本。随着单题 token 预算提高，它的解题数量持续增加；在 AVL 树复杂度证明中，模型经过超过 270 万 token 推理和 22 次上下文压缩，最终完成相关证明。<br /><br />除数学证明外，Leanstral 1.5 还被用于代码验证。团队在 57",
+      "link": "https://www.theblockbeats.info/flash/354547",
+      "published": "Sat, 04 Jul 2026 02:49:07 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "TradingView上线Hyperliquid与Trade.xyz市场数据",
+      "summary": "<p>BlockBeats 消息，7 月 4 日，TradingView 宣布已接入 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 及 Trade.xyz 链上市场数据，用户现可直接查看去中心化永续合约的实时价格走势。</p><p><br /></p><p>Hyperliquid 是当前规模最大、流动性最充裕的去中心化永续合约交易平台，同时支持借贷与完整 EVM 功能，累计交易量已突破 4 万亿美元。近期增长主要来自 HIP-3 升级，允许独立团队在 Hyperliquid 基础设施上部署自有永续合约市场。</p><p><br /></p><p>Trade.xyz 是 HIP-3 的首个部署者且仍为规模最大的参与者，提供覆盖股票、大宗商品、外汇及 IPO 前市场等多资产类别的全天候永续合约交易。</p>",
+      "link": "https://www.theblockbeats.info/flash/354545",
+      "published": "Sat, 04 Jul 2026 02:40:22 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Mistral AI创始人警告：闭源模型会偷企业数据并抢夺客户",
+      "summary": "<p>据<a href=\"https://t.me/OneMillion_AI\" target=\"_blank\"> 动察 Beating</a> 监测，Mistral AI 创始人 Arthur Mensch 对企业 AI 选型发出严厉警告。在他看来，闭源大模型厂商强制留存数据是个巨大陷阱，企业数据一旦接入就会被厂商看光并学走，从而对企业获得巨大的商业杠杆优势。他甚至声称，闭源巨头历史上早有利用这些敏感信息跨界直接成为其最成功客户竞争对手的前科。<br /><br />为了防止被软件巨头困在围墙花园中，他建议企业必须将数据存放在开放系统里；如果供应商拒绝提供完全的数据访问权，企业则应利用 AI 快速迁移出逃。拿到数据后，企业必须精细化管理访问权限，结合刚性规则系统与软性大模型防范员工越权。最关键的是要建立专有的持续训练飞轮，根据交互反馈把业务优势打磨成对手无法复制的专属系统，并通过模型压缩省下高昂的部署成本。<br /><br />Mensch 坦言，这套涵盖 IT 架构与开发模式的重构非常复杂，企业既要懂人类行为，又要懂梯度下降。为了降低落地门槛，Mistral 提供 Studio",
+      "link": "https://www.theblockbeats.info/flash/354544",
+      "published": "Sat, 04 Jul 2026 02:32:39 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "豆包智能体功能将于7月15日下线",
+      "summary": "<p>据 <a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating </a>监测，豆包发布《豆包智能体功能下线通知》称，智能体功能将于 2026 年 7 月 15 日下线，届时用户将无法新建智能体，已创建保存的智能体也会同步无法调用、运行。在 7 月 15 日之后，豆包将对智能体相关数据进行处理，后续将无法在豆包内查看或恢复。</p><p><br /></p><p>---------------------------------</p><p>点击下方原文链接，加入动察 Beating · 飞书 AI 新闻渠道，7×24 小时不间断监测全球 AI 热点与新闻。</p>",
+      "link": "https://www.theblockbeats.info/flash/354543",
+      "published": "Sat, 04 Jul 2026 02:32:02 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普：经济正在腾飞！股市完成我担任总统以来最好季度表现",
+      "summary": "<p>BlockBeats 消息，7 月 4 日，特朗普在 Truth Social 发文称：特朗普经济正在腾飞！股市刚刚完成了我上次担任总统以来最好的一个季度。标普 500 指数、纳斯达克指数和道琼斯指数全部大幅飙升，让美国人的 401(k) 养老金账户越来越值钱。</p><p><br /></p><p>我的《工薪家庭减税法案》意味着美国人兜里将有更多钱。我们的贸易逆差持续缩小，美国出口连续数月创下历史新高。美国正在建造更多、生产更多、销售更多。</p><p><br /></p><p>我的政府吸引了数万亿美元的新投资，这意味着更多工厂、更多就业机会，以及更多美国人的发展机遇。这就是胜利！美国的黄金时代已经开启——而我们才刚刚开始！</p>",
+      "link": "https://www.theblockbeats.info/flash/354542",
+      "published": "Sat, 04 Jul 2026 02:13:37 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto groups welcome softening of UK regulation - TheBanker.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE51NXZYNTdRNXdjYnBWTC1rYnRPelgyVE1rY2cwNllkcDZDQ01KdEdtZFdaRWdadkpLOGFPcXVGeGlTZFlzN08tU2VldFhQMFA4Q19UeVNJNFh3WmQ2SV9uUUh0WFJIRVFyWC1Ya0syRm9USk5sWTNvSlNB?oc=5\" target=\"_blank\">Crypto groups welcome softening of UK regulation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheBanker.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51NXZYNTdRNXdjYnBWTC1rYnRPelgyVE1rY2cwNllkcDZDQ01KdEdtZFdaRWdadkpLOGFPcXVGeGlTZFlzN08tU2VldFhQMFA4Q19UeVNJNFh3WmQ2SV9uUUh0WFJIRVFyWC1Ya0syRm9USk5sWTNvSlNB?oc=5",
+      "published": "Sat, 04 Jul 2026 02:20:19 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "summary": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/03b264b679a646119d1a2415b9097bd6",
+      "published": "2026-06-30T13:30:25.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b026c9829d28459cb1f1a95000960a08",
+      "published": "2026-06-30T13:00:03.128000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d8400c84767448a2bcb71b7bf3864a97",
+      "published": "2026-06-30T12:30:19.411000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8057e105f5724d9bbf29ba416f14149e",
+      "published": "2026-06-29T17:30:03.090000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
+      "published": "2026-06-27T18:50:43.165000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f",
+      "published": "2026-06-24T18:30:18.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
+      "published": "2026-06-23T18:00:31.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "summary": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa",
+      "published": "2026-06-23T16:15:03.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3af18ad98b3048a3b959ef1405b9d45b",
+      "published": "2026-06-23T15:00:02.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "summary": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d1343e10bc2648cd8302c83a5b1223a9",
+      "published": "2026-06-23T14:32:00.591000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b",
+      "published": "2026-06-23T11:30:38.167000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/88ea4a4f9f0b4ad4b7b308195c026fe4",
+      "published": "2026-06-22T16:15:20.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-23",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f0c763fc49934c1b9b4e4ce1653e67dc",
+      "published": "2026-06-22T14:00:02.890000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969",
+      "published": "2026-06-18T21:45:04.798000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Re (RE) with Seed Tag Applied",
+      "summary": "Binance Will List Re (RE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6",
+      "published": "2026-06-18T17:47:21.424000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 22 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 22，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-04T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "ETH price on Jul 3, 2026 at 4pm EDT? - Coinbase",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE0tSWRSN19DM0ZCcHk0cFZxREotYi1zWnExYUhfbnUzUVF1QXdfTS1qdTFiR2VUMXA2ZldIbFoxeGVIY25qWmVZZEdCdV82UEttUVRZOU1GSlVCcUFtWS03dG1uR0FNS3lSUkhDRXNGVVMxQlk?oc=5\" target=\"_blank\">ETH price on Jul 3, 2026 at 4pm EDT?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinbase</font>",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tSWRSN19DM0ZCcHk0cFZxREotYi1zWnExYUhfbnUzUVF1QXdfTS1qdTFiR2VUMXA2ZldIbFoxeGVIY25qWmVZZEdCdV82UEttUVRZOU1GSlVCcUFtWS03dG1uR0FNS3lSUkhDRXNGVVMxQlk?oc=5",
+      "published": "Sat, 04 Jul 2026 03:13:31 GMT"
+    }
+  ]
+}
