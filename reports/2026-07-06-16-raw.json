@@ -1,0 +1,379 @@
+{
+  "date": "2026-07-06",
+  "hour": "16",
+  "total": 53,
+  "fetched_at": "2026-07-06T16:01:14.298664+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Vitalik Buterin says Ethereum is preparing its 'biggest rebuild' since the Merge",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/07/06/vitalik-buterin-says-ethereum-is-preparing-its-biggest-rebuild-since-the-merge",
+      "published": "Mon, 06 Jul 2026 07:44:58 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live markets: Bitcoin pops to $63,900, then reverses, as week begins",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/07/06/live-markets-bitcoin-pops-to-usd63-900-then-reverses-as-week-begins",
+      "published": "Mon, 06 Jul 2026 07:43:21 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "I am contemplating selling some of my bitcoin for gold, veteran trader Peter Brandt says",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/06/i-am-contemplating-selling-some-of-my-bitcoin-for-gold-veteran-trader-peter-brandt-says",
+      "published": "Mon, 06 Jul 2026 06:03:29 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "How Sovereign Wealth Funds Invest in Digital Assets",
+      "summary": "<p>Sovereign wealth funds invest in digital assets mainly through regulated vehicles: spot bitcoin exchange-traded funds (ETFs), publicly traded companies with crypto exposure, blockchain infrastructure firms, and venture capital funds. Direct ownership of bitcoin or other tokens remains uncommon, held back by governance rules, custody requirements, and political accountability. At present, only a small number of [&hellip;]</p>",
+      "link": "https://www.theblock.co/learn/407186/how-sovereign-wealth-funds-invest-in-digital-assets?utm_source=rss&utm_medium=rss",
+      "published": "Mon, 06 Jul 2026 02:14:32 -0400"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Nigel Farage accepted gifts from crypto-linked fraudster: Report",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Nigel Farage accepted gifts from crypto-linked fraudster: Report\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-uk-tightens-aml-laws-and-mentions-crypto-as-suspicious.jpg\" /></p><p>Before he was an MP, Nigel Farage was reportedly gifted staff, security and other benefits from George Cottrell, a convicted fraudster involved in a crypto casino.</p>",
+      "link": "https://cointelegraph.com/news/nigel-farage-accepted-gifts-from-crypto-linked-fraudster-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 06 Jul 2026 06:02:55 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "Vitalik提出以太坊共识链Lean化路径，拟降低状态需求并增强验证者隐私",
+      "summary": "【Vitalik提出以太坊共识链Lean化路径，拟降低状态需求并增强验证者隐私】金色财经报道，7月6日，Vitalik Buterin发文提出以太坊共识链在Lean升级背景下进一步精简状态需求并增强验证者隐私的路径，包括通过基于STARK的聚合从信标链状态中移除验证者公钥、由验证者每日生成STARK证明更新余额、将每名验证者状态压缩至1字节有效余额和5字节公钥索引，并减少epoch末处理负担。 \nVitalik称，该设计或可支持数百万验证者；在高级版本中，可通过每日重新匿名化验证者、ZK-STARK余额更新证明和隐藏提款地址承诺，增强验证者隐私，断开存款、质押活动和提款之间的公开关联。该机制还可近似提供单一秘密领导者选举（SSLE）；余额更新周期方面，1小时为下限，1天较为保守。<p>原文链接: <a href=\"https://x.com/VitalikButerin/status/2074033310875975719\">https://x.com/VitalikButerin/status/2074033310875975719</a></p>",
+      "link": "https://jinse.com.cn/lives/521524.html",
+      "published": "Mon, 06 Jul 2026 07:58:26 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "清华特奖得主顾煜贤加入DeepSeek，曾主导大模型蒸馏与50倍长文本提速",
+      "summary": "【清华特奖得主顾煜贤加入DeepSeek，曾主导大模型蒸馏与50倍长文本提速】金色财经报道，7月6日消息，清华大学计算机系博士毕业生、2025 年研究生特等奖学金获得者顾煜贤已正式加入 DeepSeek，名字已出现在 DeepSeek V4 论文作者列表中。 \n顾煜贤的研究主要聚焦大模型在预训练、模型压缩和推理阶段的效率优化，谷歌学术总引用量已近 5000 次。顾煜贤此前的代表作包括大模型知识蒸馏方法 MiniLLM（已被谷歌、阿里、英伟达等平台采用），以及混合架构模型 Jet-Nemotron。Jet-Nemotron 在 H100 显卡处理 256K 超长上下文时，生成吞吐量比传统全注意力模型提速达 53.6 倍，并在多项基准测试中超越了参数规模更大的混合专家模型。<p>原文链接: <a href=\"https://mp.weixin.qq.com/s/l7xBcYWYOJqlgUiA0T6D9g\">https://mp.weixin.qq.com/s/l7xBcYWYOJqlgUiA0T6D9g</a></p>",
+      "link": "https://jinse.com.cn/lives/521523.html",
+      "published": "Mon, 06 Jul 2026 07:57:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "荷兰国际：日元干预风险仍存，下一窗口或在7月16-17日",
+      "summary": "【荷兰国际：日元干预风险仍存，下一窗口或在7月16-17日】金色财经报道，7月6日讯，荷兰国际集团分析师克里斯·特纳在一份报告中表示，尽管上周五备受关注的干预行动并未落地，日本当局仍可能在本月晚些时候出手支撑日元。他指出，在周五美国假期导致的淡静交投中，日本当局按兵不动，美元因此已重返162日元上方。“这可能提醒市场，东京方面希望谨慎使用其有限的外汇储备。”下一个潜在的干预窗口可能在7月16日至17日，即7月20日日本下个公共假期之前。(金十)",
+      "link": "https://jinse.com.cn/lives/521522.html",
+      "published": "Mon, 06 Jul 2026 07:53:28 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "WTI原油日内跌超1.00%，现报68.40美元/桶",
+      "summary": "【WTI原油日内跌超1.00%，现报68.40美元/桶】金色财经报道，WTI原油日内跌超1.00%，现报68.40美元/桶。(金十)",
+      "link": "https://jinse.com.cn/lives/521521.html",
+      "published": "Mon, 06 Jul 2026 07:53:03 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "联合国秘书长：AI发展太快，全球规则须尽快跟上",
+      "summary": "【联合国秘书长：AI发展太快，全球规则须尽快跟上】金色财经报道，7月6日讯，联合国秘书长古特雷斯周一在日内瓦首届政府级AI全球对话上警告称，人工智能的发展速度已超出所有人的跟进能力，呼吁制定全球统一规则以降低潜在风险，尤其是对儿童的风险。古特雷斯表示：“这项技术能够重塑经济、改变职场格局、影响选举走向、左右安全平衡，但其部署速度已超过任何人——包括其开发者的跟进能力。”古特雷斯强调：“创新需要‘护栏’。AI要发挥强大作用，就必须受到有效治理。”(金十)",
+      "link": "https://jinse.com.cn/lives/521520.html",
+      "published": "Mon, 06 Jul 2026 07:52:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "摩根大通：下调Q4金价预测至4500美元/盎司",
+      "summary": "【摩根大通：下调Q4金价预测至4500美元/盎司】金色财经报道，7月6日，摩根大通（JPMorgan）对黄金短期走势转为保守，将2026年第四季度金价预测下调25%至每盎司4500美元，此前该行给出的目标价位约6000美元，同时预计今年第三季度黄金均价为4300美元。此次调整主要受黄金主要采购板块需求走弱影响，叠加金价对实际利率波动反应更敏感，短期上涨空间被压制，该机构判断下半年金价将维持区间震荡，待宏观环境改善后才会迎来修复行情。",
+      "link": "https://jinse.com.cn/lives/521519.html",
+      "published": "Mon, 06 Jul 2026 07:45:09 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "SK海力士：计划通过ADR上市筹集43万亿韩元",
+      "summary": "【SK海力士：计划通过ADR上市筹集43万亿韩元】金色财经报道，7月6日，SK海力士：计划通过ADR上市筹集43万亿韩元。",
+      "link": "https://jinse.com.cn/lives/521518.html",
+      "published": "Mon, 06 Jul 2026 07:45:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "前日本外汇“掌门人”：日元或被低估20%，空头仍需当心干预风险",
+      "summary": "【前日本外汇“掌门人”：日元或被低估20%，空头仍需当心干预风险】金色财经报道，7月6日，曾担任日本财务省财务官、日本前外汇政策负责人的山崎达雄周一在接受采访时表示，日元应较当前水平升值至多20%（约130日元兑1美元），并反驳了那些押注日元可能进一步走弱的观点。山崎表示：“这已不再是基本面问题，而是市场预期如何转变的问题。但我们正在接近高潮。”他认为日元当前被低估10%的估算可能偏于保守。“如果日元升至130左右，我也不会感到意外。老实说，这就是我的看法。”与此同时，山崎暗示市场不应将日本当局近期表面上的平静误解为自满。他表示：“他们已经发出警告，任何仍持有日元空头头寸的人都清楚，他们面临被干预惩罚的风险——即被迫平仓。财务省已超越警告阶段，当局已表明他们愿意采取行动。”",
+      "link": "https://jinse.com.cn/lives/521517.html",
+      "published": "Mon, 06 Jul 2026 07:42:12 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国监管机构审查Polymarket是否构成非法赌博，决定前给予其回应机会",
+      "summary": "【韩国监管机构审查Polymarket是否构成非法赌博，决定前给予其回应机会】金色财经报道，7月6日，据The Block报道，韩国媒体监管机构将给予Polymarket一次回应的机会，然后再决定是否对其预测市场平台采取纠正措施。监管机构正在审查Polymarket的服务是否构成韩国法律所禁止的非法赌博活动。<p>原文链接: <a href=\"https://x.com/TheBlockCo/status/2074034369560555570\">https://x.com/TheBlockCo/status/2074034369560555570</a></p>",
+      "link": "https://jinse.com.cn/lives/521516.html",
+      "published": "Mon, 06 Jul 2026 07:38:57 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "瑞银：连续第十个月上调DRAM及NAND价格预测，铠侠目标价升至14.4万日元",
+      "summary": "【瑞银：连续第十个月上调DRAM及NAND价格预测，铠侠目标价升至14.4万日元】金色财经报道，7月6日，瑞银发表研报指，由于记忆体供需持续紧张，连续第十个月上调对DRAM及NAND的价格预测，9月底止季度价格预测从环比增长16%上调至32%，截至12月底止季度预测则从增长10%上调至12%，相应将铠侠控股2027财年经营利润预测从7.71万亿日元上调至9.18万亿日元，2028财年从10.9万亿日元上调至12.9万亿日元。瑞银指出，铠侠能否锁定五年期合约已成为市场焦点，预期未来市场关注点将落在长期协议的谈判进展上，考虑到供需状况非常紧张，相信消息倾向正面，将目标价由13.2万日元上调至14.4万日元，维持“买入”评级。",
+      "link": "https://jinse.com.cn/lives/521515.html",
+      "published": "Mon, 06 Jul 2026 07:29:18 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "阿里升级实时语音大模型Fun-ASR-Realtime：首字延迟百毫秒，温州话识别准确率超82%",
+      "summary": "【阿里升级实时语音大模型Fun-ASR-Realtime：首字延迟百毫秒，温州话识别准确率超82%】7月6日消息，阿里通义实验室将流式语音识别大模型 Fun-ASR-Realtime 的首字延迟降至百毫秒级，实现话音刚落即出字，且准确率逼近离线模型。 \n在影视飓风最近结束的 100 小时荒岛直播中，模型在户外暴雨、多人频繁切换发言的恶劣环境下，全程提供实时字幕支持，累计识别 6 万余条、共 132 万字。 \n为了解决实时语音识别容易断章取义的痛点，新模型强化了上下文感知能力，能结合历史对话与实时热词动态纠错（例如根据后文自动将「叶鹿」修正为「夜鹭」）。模型目前支持 30 种语言和 16 种方言，在方言测试中平均字符准确率达 88.62%，其中上海话为 92.41%，号称最难懂的温州话也达到 82.74%。 \n离线版模型 Fun-ASR-Flash 则在全球 AI 评测平台 Artificial Analysis 的字错率排行榜上夺得第一。两款模型的 API 服务均已在阿里云百炼上线，底层开源工具包与模型可在魔搭社区与 GitHub 获取。<p>原文链接: <a href=\"https:",
+      "link": "https://jinse.com.cn/lives/521514.html",
+      "published": "Mon, 06 Jul 2026 07:26:56 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "AI超级周期驱动业绩爆发，三星芯片部门员工获100%绩效奖金",
+      "summary": "【AI超级周期驱动业绩爆发，三星芯片部门员工获100%绩效奖金】金色财经报道，7月6日讯，三星电子周一表示，半导体业务员工今年上半年绩效奖金最高达基本工资的100%。这一丰厚的奖金水平与去年下半年持平，将于周三发放。此次奖金发放之际，半导体行业正步入前所未有的AI超级周期，高带宽存储器（HBM）出货量持续攀升。分析师估计，仅今年上半年，三星存储芯片部门营业利润就达约140万亿韩元（约合910亿美元）。全年营业利润可能接近350万亿韩元。三星定于周二公布第二季度业绩指引。(金十)",
+      "link": "https://jinse.com.cn/lives/521513.html",
+      "published": "Mon, 06 Jul 2026 07:25:47 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "首届全球人工智能治理对话在日内瓦举行",
+      "summary": "【首届全球人工智能治理对话在日内瓦举行】金色财经报道，7月6日讯，当地时间7月6日，首届全球人工智能治理对话在瑞士日内瓦举行，约1500名来自世界各地的代表将在为期两天的会议期间就人工智能治理进行交流。联合国秘书长古特雷斯在开幕式上表示，人工智能正以惊人的速度发展。问题在于，我们是要共同驾驭它，还是任由它驾驭我们。全球人工智能治理对话首次让每个国家都有机会参与其中。我们现在必须将全球参与转化为全球行动，使人工智能更安全、更公平、更易获取、更符合伦理。据介绍，首届全球人工智能治理对话将聚焦四大优先事项：人工智能的机遇与影响；能力建设与人工智能领域的鸿沟；安全可信的人工智能；人权与人类监督。（央视新闻）",
+      "link": "https://jinse.com.cn/lives/521512.html",
+      "published": "Mon, 06 Jul 2026 07:25:09 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Farmhouse增持1枚BTC，总持仓达9.209枚BTC",
+      "summary": "<figure><img alt=\"1121\" src=\"https://img.jinse.com.cn/jinse_1783322550757209400_live-rb.png\" /></figure>【Farmhouse增持1枚BTC，总持仓达9.209枚BTC】金色财经报道，据市场消息：上市公司 Farmhouse FMHS 增持 1 枚 BTC，目前共持有 9.209 枚 BTC。<p>原文链接: <a href=\"https://x.com/BTCtreasuries/status/2074029737497014393\">https://x.com/BTCtreasuries/status/2074029737497014393</a></p>",
+      "link": "https://jinse.com.cn/lives/521511.html",
+      "published": "Mon, 06 Jul 2026 07:22:36 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "外交部：中国海军组织潜射战略导弹试射 不针对任何特定国家和目标",
+      "summary": "【外交部：中国海军组织潜射战略导弹试射 不针对任何特定国家和目标】金色财经报道，7月6日，据央视，外交部发言人毛宁主持例行记者会。在回答有关中国海军成功组织潜射战略导弹试射的问题时，毛宁表示，关于你提到的这个问题，中方已经发布了消息，具体情况建议你向主管部门了解。我可以告诉你的是，这是中方年度军事训练的例行性安排，符合国际法和国际惯例，不针对任何特定国家和目标。",
+      "link": "https://jinse.com.cn/lives/521510.html",
+      "published": "Mon, 06 Jul 2026 07:21:03 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "大摩、高盛等多家投行警告港股抛压加剧",
+      "summary": "【大摩、高盛等多家投行警告港股抛压加剧】金色财经报道，7月6日，香港过去一年有多只新股挂牌，随着限售股陆续解禁，一波前所未有的限售股解禁潮将来袭，券商认为，这可能会给本已举步维艰的港股带来抛压。 \n智谱(2513.HK)周三将有2560万股股份结束为期6个月的基石投资者禁售期，占其已发行股份总数的近6%。该股股价自上市以来已累计上涨逾12倍。稀宇科技(MiniMax)(0100.HK)和天数智芯(9903.HK)也在本周迎来限售股解禁，将分别有相当于已发行股份总数45%和4.3%的股份解禁。 \n摩根士丹利报告指出，二级市场的抛售压力将主要集中在7月和9月。即使公司基本面保持稳健，这些解禁事件也可能对市场流动性构成阻力；这也是该行短期内对香港市场保持谨慎态度的关键原因之一。 \n高盛早前亦预计，未来12个月将有价值2740亿美元(约2.14万亿港元)的限售股在香港市场解禁，规模创历史新高。从历史经验来看，相关股票在限售股解禁后的3至6个月内，股价通常会下跌4%至7%。 \n新股亮眼的回报可能进一步加剧获利回吐压力。安永数据显示，今年上半年香港IPO首日平均涨幅为61%，而大盘表现则相对低迷。",
+      "link": "https://jinse.com.cn/lives/521509.html",
+      "published": "Mon, 06 Jul 2026 07:18:47 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "机构：日本产出缺口维持正值，或支持进一步加息",
+      "summary": "【机构：日本产出缺口维持正值，或支持进一步加息】金色财经报道，7月6日，SMBC日兴证券经济学家丸山义正表示，日本央行第一季度的产出缺口估算显示出稳定的正值趋势，这有助于推动通胀走高。他指出，该数据可被视为支持进一步加息的理由。但他补充称，正产出缺口并未扩大，表明目前尚无加快货币紧缩步伐的紧迫必要。“未来若需加快加息速度或扩大加息幅度，可能源于中东局势引发的通胀压力滞后但显著的传导效应，或是通胀预期的上升，”他表示。",
+      "link": "https://jinse.com.cn/lives/521508.html",
+      "published": "Mon, 06 Jul 2026 07:17:39 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "纽约梅隆：美联储进一步紧缩的紧迫性已有所下降",
+      "summary": "【纽约梅隆：美联储进一步紧缩的紧迫性已有所下降】金色财经报道，7月6日，纽约梅隆银行高级宏观策略师杰夫指出，美国劳动力数据走软及通胀数据改善，已降低了美联储进一步紧缩的紧迫性，但这并未解决增长放缓是否处于可控范围、或政策预期是否已过度调整的问题。他表示：“全球叙事正变得不那么统一。”在美国，问题在于美联储能否在通胀风险不重新出现的情况下保持耐心；而在欧洲，讨论焦点正从紧急通胀管理转向经济增长、财政信誉及防务融资等议题。",
+      "link": "https://jinse.com.cn/lives/521507.html",
+      "published": "Mon, 06 Jul 2026 07:15:11 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "万斯：美国反对乌军发动新攻势",
+      "summary": "【万斯：美国反对乌军发动新攻势】金色财经报道，7月6日，据俄罗斯卫星社，美国副总统万斯在接受采访时表示，华盛顿反对乌军发动新的攻势，并坚持认为其应采取防御战术。万斯说：“特朗普政府倾向于认为，在我们进行谈判的同时，乌克兰人应最大限度地进行防御。”",
+      "link": "https://jinse.com.cn/lives/521506.html",
+      "published": "Mon, 06 Jul 2026 07:11:47 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "腾讯混元今天正式发布Hy3",
+      "summary": "【腾讯混元今天正式发布Hy3】金色财经报道，7月6日消息，腾讯正式发布了 295B 参数的混元 3.0（Hy3）混合专家模型（MoE）正式版。最核心的变化是，开源许可证换成了最宽松的 Apache 2.0，废除了此前禁止欧盟、英国和韩国使用的地域条款。 \n今年 4 月预览版刚发布时，因为严格的地域限制和 1 亿月活商用红线，许多出海或跨国团队只能望而却步。正式版则扫清了所有合规障碍，还针对落地难题做了硬核调优：它融合了快慢思考机制，并塞入一个 3.8B 参数的多 Token 预测（MTP）层做并行生成，有效拉低了推理延迟。经过细粒度数据清洗与训练约束，正式版把大模型胡说八道的幻觉率从 12.5% 压到了 5.4%，多轮交互测试的出错率也从 17.4% 砍到了 7.9%。 \n针对智能体开发时工具调用容易跑偏的顽疾，混元 3.0 也做了定向补强。无论是在 Cline 还是 CodeBuddy 等主流脚手架里，跨框架的工具调用准确率波动都被压在 4% 以内，输出更稳定。官方同步发布的 FP8 量化版本，也把本地部署和微调的显存门槛降了下来。<p>原文链接: <a href=\"https://",
+      "link": "https://jinse.com.cn/lives/521505.html",
+      "published": "Mon, 06 Jul 2026 07:08:35 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "Odd Lots: The Sharps Who Dominate Prediction Markets (Podcast)",
+      "summary": "",
+      "link": "https://www.bloomberg.com/news/audio/2026-07-06/odd-lots-the-sharps-who-dominate-prediction-markets-podcast",
+      "published": "Mon, 06 Jul 2026 08:00:00 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "EasyJet shares soar 10% as budget airline agrees $7.3 billion Castlelake takeover - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNY0VJZzFrelFUQW9kcmlsM2FzSHFhWU41djV1TGQ1TWR3bWc2VU1ZdmtkSklKOGtQdUtkRXFIQzRpMWdQamZTNE5DakQ0bXFvZk1Ba1BlZjB1N3pvd0xrZDc5UTNIbGdwbVlReGhxby1OeGJsVHo4bW9WVTVsLVFKMGZCYm_SAYoBQVVfeXFMTUM5Ykt5emNDQzRraHdfbWFYWnRfbHE3VXRnSWhIZjRCNTA4ZXZPeGYtRVN6ZVFOYTJaZVM4aUhCNmgyRTZiN2dTUk5KYXFMc1hvcDFPTUtxNC0xNkJhaFVvWGlsNThHck9yWGdNMG9BS1dZV2tXd25YdDZ4S180SFFiWXFjNzFsbWhB?oc=5\" target=\"_blank\">EasyJet shares soar 10% as budget airline agrees $7.3 billi",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY0VJZzFrelFUQW9kcmlsM2FzSHFhWU41djV1TGQ1TWR3bWc2VU1ZdmtkSklKOGtQdUtkRXFIQzRpMWdQamZTNE5DakQ0bXFvZk1Ba1BlZjB1N3pvd0xrZDc5UTNIbGdwbVlReGhxby1OeGJsVHo4bW9WVTVsLVFKMGZCYm_SAYoBQVVfeXFMTUM5Ykt5emNDQzRraHdfbWFYWnRfbHE3VXRnSWhIZjRCNTA4ZXZPeGYtRVN6ZVFOYTJaZVM4aUhCNmgyRTZiN2dTUk5KYXFMc1hvcDFPTUtxNC0xNkJhaFVvWGlsNThHck9yWGdNMG9BS1dZV2tXd25YdDZ4S180SFFiWXFjNzFsbWhB?oc=5",
+      "published": "Mon, 06 Jul 2026 07:12:26 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Daily Discussion, July 06, 2026",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Please utilize this sticky thread for all general <strong>Bitcoin</strong> discussions! If you see posts on the front page or <a href=\"/r/Bitcoin/new\">/r/Bitcoin/new</a> which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!</p> <p>If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.</p> <p>Please check the <a href=\"https://www.redd",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uop059/daily_discussion_july_06_2026/",
+      "published": "2026-07-06T06:10:01+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Will BTC have RWA tokenization, stables, easy lending and borrowing on time?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Been waiting for tokenization of stocks like What Ondo and xstocks is doing now. Never wanted stocks because didn’t want to be in the legacy system. But now it’s gonna be possible to get tokenized equities on altcoin chains. Can BTC really win if all of tradfi is gonna be built on altcoins? Tell me it will compete and evolve right on time like Apple with the iPhone 1. Perhaps right when user experience becomes super simple, BTC will surprise us and become more t",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uop8ff/will_btc_have_rwa_tokenization_stables_easy/",
+      "published": "2026-07-06T06:23:19+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Mentor Monday, July 06, 2026: Ask all your bitcoin questions!",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Ask (and answer!) away! Here are the general rules:</p> <ul> <li>If you'd like to learn something, ask.</li> <li>If you'd like to share knowledge, answer.</li> <li>Any question about Bitcoin is fair game.</li> </ul> <p>And don't forget to check out <a href=\"/r/BitcoinBeginners\">/r/BitcoinBeginners</a></p> <p>You can sort by new to see the latest questions that may not be answered yet.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uoq1zv/mentor_monday_july_06_2026_ask_all_your_bitcoin/",
+      "published": "2026-07-06T07:10:07+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Trader Peter Brandt wants to dump bitcoin for gold. Here's why - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNVUlJN25WQzFEUGRuOUp1ZDAwTFRNc0RJRXlSRVBsQlVwenQ2d1lTZGNXSzk3ZDIwZG8tZE8xb1pvMTd5c3hUZFN1VGhnTnk4NGhYYWFDZHM0czV6RzNJZGRiLV9HaDZSRS0zSTZ0YWNuWDVkWU14MVpQaERudmJwTlhwYzFRa1ZpN3NfMTJ5LTdSaWh4SFdyVE9CRF80REEtTmc5aE5sS0YzYnhTSHd0YUpMSFFYZzU4cWhrUjJfbk9wY1lueEVGZmxhQQ?oc=5\" target=\"_blank\">Trader Peter Brandt wants to dump bitcoin for gold. Here's why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVUlJN25WQzFEUGRuOUp1ZDAwTFRNc0RJRXlSRVBsQlVwenQ2d1lTZGNXSzk3ZDIwZG8tZE8xb1pvMTd5c3hUZFN1VGhnTnk4NGhYYWFDZHM0czV6RzNJZGRiLV9HaDZSRS0zSTZ0YWNuWDVkWU14MVpQaERudmJwTlhwYzFRa1ZpN3NfMTJ5LTdSaWh4SFdyVE9CRF80REEtTmc5aE5sS0YzYnhTSHd0YUpMSFFYZzU4cWhrUjJfbk9wY1lueEVGZmxhQQ?oc=5",
+      "published": "Mon, 06 Jul 2026 06:07:41 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Solana company partners with Kazakhstan on $6B Alatau Crypto Megacity - EU Reporter",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPOXE4T0JPSDdEVHNpWDhwSU9HTG8wc1ZNcWJRRUk0VE1tWTVDYS1OVHlJanlHU2pfTjlEWVBOTm8xNXFYUWRqZUcwanp1dWdpV3pQM2FFckJjN19ib1NaeG9lcEh5U1pqZE5UN1cwSEhYZ0dkZUxQREtMcmlWNk5RWlpkbHdyUEtSWmhybVJuMTNOVHJuRFJqUW9EVUlsdUVjVm4xTVE0VjBZRGwxZnNVTUZR?oc=5\" target=\"_blank\">Solana company partners with Kazakhstan on $6B Alatau Crypto Megacity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EU Reporter</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOXE4T0JPSDdEVHNpWDhwSU9HTG8wc1ZNcWJRRUk0VE1tWTVDYS1OVHlJanlHU2pfTjlEWVBOTm8xNXFYUWRqZUcwanp1dWdpV3pQM2FFckJjN19ib1NaeG9lcEh5U1pqZE5UN1cwSEhYZ0dkZUxQREtMcmlWNk5RWlpkbHdyUEtSWmhybVJuMTNOVHJuRFJqUW9EVUlsdUVjVm4xTVE0VjBZRGwxZnNVTUZR?oc=5",
+      "published": "Mon, 06 Jul 2026 07:12:51 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "summary": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/03b264b679a646119d1a2415b9097bd6",
+      "published": "2026-06-30T13:30:25.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b026c9829d28459cb1f1a95000960a08",
+      "published": "2026-06-30T13:00:03.128000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d8400c84767448a2bcb71b7bf3864a97",
+      "published": "2026-06-30T12:30:19.411000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8057e105f5724d9bbf29ba416f14149e",
+      "published": "2026-06-29T17:30:03.090000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
+      "published": "2026-06-27T18:50:43.165000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f",
+      "published": "2026-06-24T18:30:18.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
+      "published": "2026-06-23T18:00:31.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "summary": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa",
+      "published": "2026-06-23T16:15:03.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3af18ad98b3048a3b959ef1405b9d45b",
+      "published": "2026-06-23T15:00:02.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "summary": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d1343e10bc2648cd8302c83a5b1223a9",
+      "published": "2026-06-23T14:32:00.591000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b",
+      "published": "2026-06-23T11:30:38.167000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/88ea4a4f9f0b4ad4b7b308195c026fe4",
+      "published": "2026-06-22T16:15:20.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-23",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f0c763fc49934c1b9b4e4ce1653e67dc",
+      "published": "2026-06-22T14:00:02.890000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/005d1ef77538417cbe69d4703deb1969",
+      "published": "2026-06-18T21:45:04.798000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Re (RE) with Seed Tag Applied",
+      "summary": "Binance Will List Re (RE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6",
+      "published": "2026-06-18T17:47:21.424000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 24 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 24，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-06T08:00:00+08:00"
+    }
+  ]
+}
