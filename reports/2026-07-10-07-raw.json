@@ -1,0 +1,337 @@
+{
+  "date": "2026-07-10",
+  "hour": "07",
+  "total": 47,
+  "fetched_at": "2026-07-10T07:01:17.812949+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "New Hampshire snuffs out trailblazing state-government bitcoin bond effort",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/07/09/new-hampshire-snuffs-out-trailblazing-bitcoin-municipal-bond-effort",
+      "published": "Thu, 09 Jul 2026 22:19:54 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Bitwise says bitcoin’s ‘floor is rising’ despite AI boom and regulatory delays",
+      "summary": "<p>Bitwise says institutions are buying the bitcoin bear market dip, while many larger investors are still awaiting regulatory clarity.</p>",
+      "link": "https://www.theblock.co/post/407790/bitwise-says-bitcoins-floor-rising-despite-ai-boom-regulatory-delays?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 09 Jul 2026 17:54:35 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase Chief Legal Officer Paul Grewal steps down, remains in advisory role",
+      "summary": "<p>Coinbase Chief Legal Officer Paul Grewal joined the firm in mid-2020 to lead its legal, compliance and government relations operations. </p>",
+      "link": "https://www.theblock.co/post/407809/coinbase-chief-legal-officer-paul-grewal-steps-down?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 09 Jul 2026 17:13:44 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Agents Could Be Turned Into Botnets Through Hallucinations, Researchers Warn",
+      "summary": "Researchers warn AI agents could be tricked into downloading malicious code by exploiting the same hallucinations that cause chatbots to make mistakes.",
+      "link": "https://decrypt.co/373196/ai-agents-botnets-hallucinations-researchers-warn",
+      "published": "Thu, 09 Jul 2026 21:45:01 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Coinbase chief legal officer to transition to advisory role on July 31",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Coinbase chief legal officer to transition to advisory role on July 31\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-coinbase-vs-us-court-follow-up.jpg\" /></p><p>The soon-to-be former chief legal officer did not announce the details of his next move but said that he would continue working with the Board of Coinbase National Trust Company.</p>",
+      "link": "https://cointelegraph.com/news/coinbase-chief-legal-officer-stepping-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 09 Jul 2026 21:35:12 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国2026财年前9个月联邦赤字约1.4万亿美元",
+      "summary": "【美国2026财年前9个月联邦赤字约1.4万亿美元】金色财经报道，7月10日，据美国国会预算办公室发布的《2026年6月月度预算回顾》，2026财年前九个月，美国联邦预算赤字总计约1.4万亿美元，比上一财年同期增加350亿美元。同期联邦收入为4.2万亿美元，增加1420亿美元，增幅4%；支出为5.5万亿美元，增加1780亿美元，增幅3%。（央视）<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260710064759770800\">https://flash.jin10.com/detail/20260710064759770800</a></p>",
+      "link": "https://jinse.com.cn/lives/522470.html",
+      "published": "Thu, 09 Jul 2026 22:59:37 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Immunefi：2026年上半年加密行业黑客攻击事件数创新高，损失约9.72亿美元",
+      "summary": "【Immunefi：2026年上半年加密行业黑客攻击事件数创新高，损失约9.72亿美元】金色财经报道，7月10日，Immunefi 报告显示，2026 年上半年加密项目因 207 起黑客攻击事件累计损失约 9.72 亿美元，虽然攻击事件数创下历史新高，但总损失仍低于 10 亿美元，且不到 2025 年上半年损失规模的一半。 \n报告指出，DeFi 领域攻击损失已较 2022 年 的 26.2 亿美元峰值下降 74%，降至约 6.803 亿美元，中位数单笔损失同期下降 75%。Immunefi 认为，这一下降与持续的安全覆盖、漏洞赏金计划、审计竞赛以及更多研究人员提前发现漏洞有关。 \n此外，风险来源正从单纯的智能合约漏洞，转向基础设施故障、私钥泄露、跨链配置错误及特权访问薄弱点。<p>原文链接: <a href=\"https://www.theblock.co/post/407707/crypto-hack-losses-fall-below-1-billion-in-h1-2026-even-as-attack-volume-hits-record-immunefi?utm_source",
+      "link": "https://jinse.com.cn/lives/522469.html",
+      "published": "Thu, 09 Jul 2026 22:58:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Ethereum Foundation使用AI代理红队测试 ETH网络并发现真实漏洞",
+      "summary": "【Ethereum Foundation使用AI代理红队测试 ETH网络并发现真实漏洞】金色财经报道，7月10日，Ethereum Foundation Protocol Security 团队研究人员在周四博客文章中表示，已部署一系列 AI 代理对 Ethereum 依赖的软件进行测试，搜寻加密系统、协议代码和智能合约中的漏洞。AI 代理发现的漏洞包括 Ethereum 共识客户端所用点对点层 libp2p gossipsub 中可远程触发的 panic 问题，该问题已修复并在 Github 披露为 CVE-2026-34219。 \n研究人员称，AI 代理被组织为侦察、搜寻、补缺和验证等专门角色，用于寻找潜在攻击路径、复现故障并验证其是否适用于生产代码。Ethereum Foundation 表示，AI 没有取代安全研究员，而是改变了工作方式，使团队能够覆盖远多于人工审查的范围，但需要研究人员对大量看似可信的结论进行更谨慎判断。<p>原文链接: <a href=\"https://decrypt.co/373169/ethereum-foundation-turns-ai-loose-",
+      "link": "https://jinse.com.cn/lives/522468.html",
+      "published": "Thu, 09 Jul 2026 22:50:11 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国货币市场基金资产规模升至7.953万亿美元，创历史新高",
+      "summary": "【美国货币市场基金资产规模升至7.953万亿美元，创历史新高】金色财经报道，7月10日，据美国投资公司协会（ICI），美国货币市场基金资产规模升至7.953万亿美元，创历史新高。<p>原文链接: <a href=\"https://www.cls.cn/detail/2422241\">https://www.cls.cn/detail/2422241</a></p>",
+      "link": "https://jinse.com.cn/lives/522467.html",
+      "published": "Thu, 09 Jul 2026 22:46:58 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "SK海力士据称美国IPO定价为每份ADS 149美元",
+      "summary": "【SK海力士据称美国IPO定价为每份ADS 149美元】金色财经报道，7月10日，知情人士透露，SK海力士美国IPO定价为每份ADS 149美元。SK海力士在美国的ADR发行认购需求接近2000亿美元，发行获逾500个账户认购。<p>原文链接: <a href=\"https://www.cls.cn/detail/2422247\">https://www.cls.cn/detail/2422247</a></p>",
+      "link": "https://jinse.com.cn/lives/522466.html",
+      "published": "Thu, 09 Jul 2026 22:46:14 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美联储7月维持利率不变的概率为74.9%",
+      "summary": "【美联储7月维持利率不变的概率为74.9%】金色财经报道，7月10日，据CME“美联储观察”：美联储7月维持利率不变的概率为74.9%，累计加息25个基点的概率为25.1%。 美联储到9月维持利率不变的概率为35.7%，累计加息25个基点的概率为51.1%，累计加息50个基点的概率为13.1%。",
+      "link": "https://jinse.com.cn/lives/522465.html",
+      "published": "Thu, 09 Jul 2026 22:44:49 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Strategy拟通过12.5亿美元比特币货币化计划支持10亿美元优先股回购",
+      "summary": "【Strategy拟通过12.5亿美元比特币货币化计划支持10亿美元优先股回购】金色财经报道，7月10日，Strategy 于 6 月 29 日将 STRC 年化股息上调至 12%，并授权一项 10 亿美元回购计划，覆盖 STRC、STRF、STRD 和 STRK 四只优先证券，其中 STRC 为初始优先回购目标。 \nStrategy 披露，回购资金不会来自其约 25.5 亿美元储备，可能来自同期批准的 12.5 亿美元比特币货币化计划。STRC 本周交易价格处于 80 美元中高位，部分交易日跌破 85 美元，低于 Strategy 设定的 99 美元至 100 美元长期交易目标。Peter Schiff 表示，STRC 低于 87 美元的价格显示华尔街质疑比特币增长速度。<p>原文链接: <a href=\"https://news.bitcoin.com/debate-grows-over-strategy-using-bitcoin-sales-to-fund-strc-buybacks/\">https://news.bitcoin.com/debate-grows-over-st",
+      "link": "https://jinse.com.cn/lives/522464.html",
+      "published": "Thu, 09 Jul 2026 22:42:07 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美联储主席沃什组建外部专家团队，审查货币政策框架",
+      "summary": "【美联储主席沃什组建外部专家团队，审查货币政策框架】金色财经报道，7月10日，美联储主席凯文·沃什组建五个工作组，对美联储货币政策运行机制展开全面审查，涵盖资产负债表管理、政策工具、人工智能影响等领域。美联储表示，各工作组将独立运作，以事实为依据开展研究，并向联邦公开市场委员会提交严谨分析结果。工作组将评估政策工具、分析方法和政策框架是否存在改进空间。此次审查团队成员包括多位知名经济学家和前央行官员。其中，哈佛大学经济学家拉杰·切蒂将参与领导数据工作组，科技投资人马克·安德森将负责生产率与就业工作组，前白宫经济顾问委员会主席格雷格·曼昆将共同领导通胀工作组。沃什表示，美国经济在过去一代发生巨大变化，当前转型速度更快，美联储需要确保自身处于最佳状态，以实现稳定物价和促进就业的双重目标。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260710031013582800\">https://flash.jin10.com/detail/20260710031013582800</a></p>",
+      "link": "https://jinse.com.cn/lives/522463.html",
+      "published": "Thu, 09 Jul 2026 22:39:25 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伊朗遭袭系误报，实为防空系统启动",
+      "summary": "【伊朗遭袭系误报，实为防空系统启动】金色财经报道，7月10日，据伊朗迈赫尔通讯社报道，当地时间7月9日晚，伊朗多地接连传出爆炸声，包括南部沿海城市布什尔、乔加达克和阿巴斯港，以及东南部沿海城市科纳拉克。随后Axios报道称，美国官员表示美军与伊朗最新遭袭事件无关。大约一小时后，伊朗国家媒体否认了遭袭报道，伊朗官员称爆炸系防空系统启动所致。另外CNN证实美国一小时前未对伊朗进行打击。此前，美军已经连续两日打击伊朗，打击约170个军事目标。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260710034807607800\">https://flash.jin10.com/detail/20260710034807607800</a></p>",
+      "link": "https://jinse.com.cn/lives/522462.html",
+      "published": "Thu, 09 Jul 2026 22:26:59 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "霍尔木兹海峡通航量骤降 几近停滞",
+      "summary": "【霍尔木兹海峡通航量骤降 几近停滞】金色财经报道，7月10日，总部位于英国的温沃德海事分析公司9日发布报告说，由于美伊持续交火，霍尔木兹海峡通航量急剧下降，经海峡驶离波斯湾的商船交通基本陷入停滞。报告说，霍尔木兹海峡通航量近日经历大幅起伏。7日霍尔木兹海峡共记录51次通行，驶离波斯湾的船舶数量激增，达到35艘；8日记录35次通行，驶离的18艘中仅两艘经南部航道驶离，说明前一夜袭击发生后，船舶运营商选择避开靠近阿曼一侧航道；8日夜间至9日凌晨，霍尔木兹海峡仅记录5次通行，只有一艘驶离波斯湾。（新华社）<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260710033548038800\">https://flash.jin10.com/detail/20260710033548038800</a></p>",
+      "link": "https://jinse.com.cn/lives/522461.html",
+      "published": "Thu, 09 Jul 2026 22:22:41 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "消息人士：埃及同哈马斯讨论落实加沙停火事宜",
+      "summary": "【消息人士：埃及同哈马斯讨论落实加沙停火事宜】金色财经报道，7月10日，埃及安全部门消息人士9日表示，巴勒斯坦伊斯兰抵抗运动（哈马斯）领导层代表团当天在埃及首都开罗同埃方官员举行会谈，重点商讨加沙停火协议第二阶段落实事宜。这位不愿具名的消息人士说，由哈马斯高级官员组成的代表团在会谈中确认，将把加沙地带行政管理权移交给加沙国家行政委员会，并同意将武器交由该委员会保管。哈马斯代表团还表示，愿为维和部队和加沙国家行政委员会开展工作提供便利，为落实加沙停火协议第二阶段铺路。（新华社）<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260710055755920800\">https://flash.jin10.com/detail/20260710055755920800</a></p>",
+      "link": "https://jinse.com.cn/lives/522460.html",
+      "published": "Thu, 09 Jul 2026 22:20:30 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "消息人士：新版Clarity Act法案最早下周发布",
+      "summary": "【消息人士：新版Clarity Act法案最早下周发布】金色财经报道，7月10日，关注该工作的知情人士表示，立法者最早可能于下周发布新版加密货币 Clarity Act 法案。新版法案将整合美国参议院银行委员会和农业委员会的工作内容，但仍有待解决事项，包括参议院民主党人的关键要求之一伦理问题。 \n民主党人仍需接受新版草案，该草案需要 60 票才能在参议院推进。<p>原文链接: <a href=\"https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say\">https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say</a></p>",
+      "link": "https://jinse.com.cn/lives/522459.html",
+      "published": "Thu, 09 Jul 2026 22:18:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "特朗普重启对伊朗打击 共和党担忧拖累中期选举",
+      "summary": "【特朗普重启对伊朗打击 共和党担忧拖累中期选举】金色财经报道，7月10日，据Politico，特朗普称因伊朗继续袭击霍尔木兹海峡船只，停火已结束。随后，美军在48小时内打击伊朗至少170个军事目标，伊朗则对美军基地发动反击。共和党部分议员担心，冲突升级将推高油价、加剧经济压力，并影响今年中期选举。一名众议院共和党议员直言：“他正在把我们推向政治毁灭。”该议员认为，特朗普更关注伊朗问题，而非共和党的选举处境。共和党鹰派支持继续军事行动。众议员唐·培根称，美国应持续强硬回应伊朗，直到其寻求和平。但部分共和党人士警告，油价上涨可能削弱选民支持，使共和党难以回应民众最关心的物价问题。与此同时，国会也要求政府说明670亿美元战争追加资金的使用计划。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260710054645407800\">https://flash.jin10.com/detail/20260710054645407800</a></p>",
+      "link": "https://jinse.com.cn/lives/522458.html",
+      "published": "Thu, 09 Jul 2026 22:07:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伯恩斯坦看涨下半年黄金 目标价上调至4375美元/盎司",
+      "summary": "【伯恩斯坦看涨下半年黄金 目标价上调至4375美元/盎司】金色财经报道，7月10日，伯恩斯坦上调2026年黄金价格预期，预计下半年金价目标为每盎司4375美元，全年目标价为4533美元。该机构认为，央行持续购金以及美联储未来12个月大概率不会加息，将成为支撑金价的主要因素。伯恩斯坦预计，美联储最多仅可能加息1至2次，黄金ETF资金流出压力也将有限。伯恩斯坦指出，2026年二季度实际利率上升曾导致金价从4650美元/盎司回落至约4000美元，但随着利率预期趋稳，黄金仍具上涨空间。该机构同时警告，若通胀持续高于预期，促使美联储采取更激进加息措施，将成为金价上涨的主要风险。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260710055709958800\">https://flash.jin10.com/detail/20260710055709958800</a></p>",
+      "link": "https://jinse.com.cn/lives/522457.html",
+      "published": "Thu, 09 Jul 2026 21:59:36 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美官员：美伊相关技术谈判仍在继续",
+      "summary": "【美官员：美伊相关技术谈判仍在继续】金色财经报道，7月10日，一名美国官员表示，在伊朗问题上美国仍致力于寻求解决方案，相关技术谈判仍在继续。 (央视新闻)",
+      "link": "https://jinse.com.cn/lives/522456.html",
+      "published": "Thu, 09 Jul 2026 21:46:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "卢特尼克敦促SK海力士、三星扩大美国存储芯片产能",
+      "summary": "【卢特尼克敦促SK海力士、三星扩大美国存储芯片产能】金色财经报道，7月10日，美国商务部长卢特尼克呼吁三星电子和SK海力士加大在美国的存储芯片扩产的力度，以协助缓解全球范围内人工智能发展关键零部件短缺问题。卢特尼克证实，他正在与这两家韩国存储芯片制造商进行商谈，但未透露具体细节。他承认，美光首席执行官梅赫罗特拉可能不会欢迎竞争对手扩大在美国的布局，但卢特尼克表示，为了让美国芯片供应链更加稳固，有必要采取这一举措。“你们知道，他（梅赫罗特拉）不会喜欢这样，但我希望把他的竞争对手——三星和SK海力士——带到美国来设厂”卢特尼克表示，“美光目前处于领先地位。其他公司难免会感到眼红，对吧？所以它们也不得不跟进。”<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260710044106700800\">https://flash.jin10.com/detail/20260710044106700800</a></p>",
+      "link": "https://jinse.com.cn/lives/522455.html",
+      "published": "Thu, 09 Jul 2026 21:05:50 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "Coinbase's top attorney who has led crypto's Washington fight to step down - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQY0llYzhKbzUtZmhmNDV6SHMzQXFiYS1PTWxXVHcyOXhDODFjU0U4OFA5MW43SG1KMlVsSjJiWlBYSVphVHhWYjBERTUybXdnTzdHdkp3b3FuVDVxRlZKQWc3Zk9ESGQ2S2xLVUpweWVvTFROOUNZek4tdFhOMjJZUnhiZEk1WmVCODZtVjFOQUZnQTVwRjlOM25sdWhZMTg3SE9JMlBEUG5McU5DazAzVA?oc=5\" target=\"_blank\">Coinbase's top attorney who has led crypto's Washington fight to step down</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY0llYzhKbzUtZmhmNDV6SHMzQXFiYS1PTWxXVHcyOXhDODFjU0U4OFA5MW43SG1KMlVsSjJiWlBYSVphVHhWYjBERTUybXdnTzdHdkp3b3FuVDVxRlZKQWc3Zk9ESGQ2S2xLVUpweWVvTFROOUNZek4tdFhOMjJZUnhiZEk1WmVCODZtVjFOQUZnQTVwRjlOM25sdWhZMTg3SE9JMlBEUG5McU5DazAzVA?oc=5",
+      "published": "Thu, 09 Jul 2026 21:56:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Brief - Lowenstein Sandler LLP",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPd3pfMmZpT3pXUzVtX3JlRXB4VEJubW5VWmtoM2JaWHlMcXdtbGtKTkpFT1E3UzhqdzJLUUFwTWpiZDhWN3dkSmhkUjlZQlBNQ241ZjJQbFZmVFpIQ21aenhiTzdBZW5pSTBWbmVQMmQySlpyZFVJcWdyNE9ZdGxaaFdJSQ?oc=5\" target=\"_blank\">Crypto Brief</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lowenstein Sandler LLP</font>",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd3pfMmZpT3pXUzVtX3JlRXB4VEJubW5VWmtoM2JaWHlMcXdtbGtKTkpFT1E3UzhqdzJLUUFwTWpiZDhWN3dkSmhkUjlZQlBNQ241ZjJQbFZmVFpIQ21aenhiTzdBZW5pSTBWbmVQMmQySlpyZFVJcWdyNE9ZdGxaaFdJSQ?oc=5",
+      "published": "Thu, 09 Jul 2026 21:06:04 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase's top attorney who has led crypto's Washington fight to step down - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQY0llYzhKbzUtZmhmNDV6SHMzQXFiYS1PTWxXVHcyOXhDODFjU0U4OFA5MW43SG1KMlVsSjJiWlBYSVphVHhWYjBERTUybXdnTzdHdkp3b3FuVDVxRlZKQWc3Zk9ESGQ2S2xLVUpweWVvTFROOUNZek4tdFhOMjJZUnhiZEk1WmVCODZtVjFOQUZnQTVwRjlOM25sdWhZMTg3SE9JMlBEUG5McU5DazAzVA?oc=5\" target=\"_blank\">Coinbase's top attorney who has led crypto's Washington fight to step down</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY0llYzhKbzUtZmhmNDV6SHMzQXFiYS1PTWxXVHcyOXhDODFjU0U4OFA5MW43SG1KMlVsSjJiWlBYSVphVHhWYjBERTUybXdnTzdHdkp3b3FuVDVxRlZKQWc3Zk9ESGQ2S2xLVUpweWVvTFROOUNZek4tdFhOMjJZUnhiZEk1WmVCODZtVjFOQUZnQTVwRjlOM25sdWhZMTg3SE9JMlBEUG5McU5DazAzVA?oc=5",
+      "published": "Thu, 09 Jul 2026 21:56:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "New Hampshire sends bitcoin bond plan to the crypt - Bond Buyer",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOGp5TVpBUGc4Q3VNMG9kaUFEM0RjN090MWs2aHE1Q2NsdEhmcHBKcE5vQzFib0NFZS12WDlpazA3dkU3N0VrbV9meGlBWGRDZEdtRm01amJTT05kLUg4NWlPSXplZGotTXVGRGpMdW1CQWRub3dsdEF0TjdRYXcxS0tUdWVtV24w?oc=5\" target=\"_blank\">New Hampshire sends bitcoin bond plan to the crypt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bond Buyer</font>",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOGp5TVpBUGc4Q3VNMG9kaUFEM0RjN090MWs2aHE1Q2NsdEhmcHBKcE5vQzFib0NFZS12WDlpazA3dkU3N0VrbV9meGlBWGRDZEdtRm01amJTT05kLUg4NWlPSXplZGotTXVGRGpMdW1CQWRub3dsdEF0TjdRYXcxS0tUdWVtV24w?oc=5",
+      "published": "Thu, 09 Jul 2026 21:37:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise - The Motley Fool",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxPaVZIMTZTMXQtVFNMWFlVVC1seEVoQzBKYm91NC0yeGNKTjJiZEhUcTdFci11eUNDdmtPd3JldzdjNkwwRDdRbUtWUDljck5qd21OSHN5NXdJOGY2TjFlRDVDQnFwOWVMSmdPWk95VmJXbjVYXzdRVVczbzE0X1A5c3NMckxPZ0JfSWVGMXNFR3cxLW9BVERiX3IzTVU1MWY0eEZjbEhyaXBROHlHLTJjbzBXblhQX3ZjSm43ckppY0djdlJ5N1pMWXhfdU1BRkxNVnFoT2hpcE9yZGdzZlh0RklKZ1NNLWNjZjJrNDE5VQ?oc=5\" target=\"_blank\">Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise</a>&n",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPaVZIMTZTMXQtVFNMWFlVVC1seEVoQzBKYm91NC0yeGNKTjJiZEhUcTdFci11eUNDdmtPd3JldzdjNkwwRDdRbUtWUDljck5qd21OSHN5NXdJOGY2TjFlRDVDQnFwOWVMSmdPWk95VmJXbjVYXzdRVVczbzE0X1A5c3NMckxPZ0JfSWVGMXNFR3cxLW9BVERiX3IzTVU1MWY0eEZjbEhyaXBROHlHLTJjbzBXblhQX3ZjSm43ckppY0djdlJ5N1pMWXhfdU1BRkxNVnFoT2hpcE9yZGdzZlh0RklKZ1NNLWNjZjJrNDE5VQ?oc=5",
+      "published": "Thu, 09 Jul 2026 21:03:19 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "summary": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/03b264b679a646119d1a2415b9097bd6",
+      "published": "2026-06-30T13:30:25.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b026c9829d28459cb1f1a95000960a08",
+      "published": "2026-06-30T13:00:03.128000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d8400c84767448a2bcb71b7bf3864a97",
+      "published": "2026-06-30T12:30:19.411000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8057e105f5724d9bbf29ba416f14149e",
+      "published": "2026-06-29T17:30:03.090000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
+      "published": "2026-06-27T18:50:43.165000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f",
+      "published": "2026-06-24T18:30:18.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
+      "published": "2026-06-23T18:00:31.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "summary": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa",
+      "published": "2026-06-23T16:15:03.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3af18ad98b3048a3b959ef1405b9d45b",
+      "published": "2026-06-23T15:00:02.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "summary": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d1343e10bc2648cd8302c83a5b1223a9",
+      "published": "2026-06-23T14:32:00.591000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b",
+      "published": "2026-06-23T11:30:38.167000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/88ea4a4f9f0b4ad4b7b308195c026fe4",
+      "published": "2026-06-22T16:15:20.368000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 22 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 22，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-09T08:00:00+08:00"
+    }
+  ]
+}
