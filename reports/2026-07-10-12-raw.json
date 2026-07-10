@@ -1,0 +1,351 @@
+{
+  "date": "2026-07-10",
+  "hour": "12",
+  "total": 49,
+  "fetched_at": "2026-07-10T12:01:11.871491+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin zips higher to nearly $64,000 as chip rally and yen strength drive gains",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/10/bitcoin-zips-to-nearly-usd64-000-as-chip-rally-and-yen-strength-drive-gains",
+      "published": "Fri, 10 Jul 2026 03:57:58 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Hackers tried to backdoor Injective npm package to steal wallet keys",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hackers tried to backdoor Injective npm package to steal wallet keys \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/crimes-code-tweezers-theft-hack-hacker-red-wallet.jpg\" /></p><p>The incident is significant for developers and applications that handle Injective wallet workflows, Socket researchers said.\n</p>",
+      "link": "https://cointelegraph.com/news/hackers-compromise-injective-npm-package-with-malware-to-steal-wallet-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 10 Jul 2026 03:07:47 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "DeFi may be ‘quietly re-rating’ given outperformance against Bitcoin: Bitwise",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"DeFi may be ‘quietly re-rating’ given outperformance against Bitcoin: Bitwise\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/defi-adoption-survey-by-ct-consulting1.jpg\" /></p><p>“DeFi usually swings much harder than Bitcoin, so holding up this well is unusual,” says Bitwise, as DeFi tokens have outperformed Bitcoin.</p>",
+      "link": "https://cointelegraph.com/news/defi-quietly-re-rating-holds-up-unusually-well-in-downturn-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 10 Jul 2026 02:30:44 +0000"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Manus拟以20亿美元估值进行股权交易，腾讯或成为最大股东",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，据知情人士透露，腾讯正洽谈成为 AI 智能体公司 Manus 的最大股东。包括腾讯、真格基金和红杉中国在内的多数现有投资者，正讨论以 20 亿美元估值支持一项交易，以撤销 Meta 的收购。</p><p><br /></p><p>此前消息，国家发展改革委外商投资安全审查办公室禁止外资对 Manus 项目的收购交易，要求撤销交易；今年早些时候，Manus 曾宣布即将被 Meta 收购。</p>",
+      "link": "https://www.theblockbeats.info/flash/355435",
+      "published": "Fri, 10 Jul 2026 04:00:25 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Robinhood Chain上线一周，地址数超35万，协议TVL约2.5亿美元",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，Robinhood Chain 负责人 Johann 发文总结该网络上线一周的数据：网络实现超 1700 万笔交易，地址数超 35 万，协议 TVL 约 2.5 亿美元，DEX 成交量超 10 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/355434",
+      "published": "Fri, 10 Jul 2026 03:48:04 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "英伟达有意入股Stargate供电商，整体估值或达100亿美元",
+      "summary": "<p>据动察 Beating 监测，Stargate 是 OpenAI、软银和甲骨文等公司推动的 AI 数据中心计划，计划四年在美国投入 5000 亿美元。负责首个得州园区土地和供电设施的 Lancium，正与多家科技公司洽谈出售少数股权。<br /><br />英伟达已表达兴趣。交易对 Lancium 的整体估值可能达到 70 亿至 100 亿美元，其中包含公司债务。Anthropic 也曾接触 Lancium，但没有进入正式谈判。<br /><br />Lancium 主要寻找适合建设数据中心的土地，取得电网接入许可，并建设变电站等供电设施。在 Stargate 得州阿比林园区，Lancium 负责土地和供电基础设施，Crusoe 负责建设数据中心。<br /><br />科技公司看中的不只是土地，更是 Lancium 已经拿到的电网接入许可和供电能力。这些资源能让大型数据中心更快开工和通电。</p>",
+      "link": "https://www.theblockbeats.info/flash/355432",
+      "published": "Fri, 10 Jul 2026 03:33:19 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Injective npm包遭恶意修改，黑客试图窃取钱包私钥和助记词",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，据 Socket 监测，Injective 区块链 npm 软件包 @injectivelabs/sdk-ts 遭恶意修改，攻击者通过入侵开发者 GitHub 账户植入窃取钱包私钥和助记词的恶意代码，并将窃取数据编码后发送至伪装成合法 Injective 网络服务器的地址。</p><p><br /></p><p>该软件包周下载量约 5 万次，恶意版本 1.20.21 于 6 月 8 日开始存在可疑提交，并被锁定在 Injective Labs npm 范围内其他 17 个包中，未直接安装该 SDK 的用户也可能受到影响。</p>",
+      "link": "https://www.theblockbeats.info/flash/355431",
+      "published": "Fri, 10 Jul 2026 03:33:06 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Bitunix分析师：BTC突破63,000后挑战64,000，市场交易的是「风险可控」，而非风险消失",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，全球市场仍围绕三条主线同步定价：美联储制度改革、美国 AI 资本竞赛，以及中东地缘政治的不确定性。</p><p><br /></p><p>美联储主席 Kevin Warsh 正式公布五大改革工作小组，涵盖通胀、资产负债表、经济数据、生产力及政策沟通等核心领域，并引入科技产业、学界及企业领袖参与。这代表市场未来需要关注的不只是利率政策，而是美联储决策框架本身是否逐步改变，包括降低前瞻性指引、重新定义经济数据以及调整资产负债表管理方式，未来政策的不确定性可能高于过去数年。</p><p><br /></p><p>另一方面，AI 产业资本支出仍持续扩张。OpenAI 推出 GPT-5.6 系列模型，美光宣布将美国投资提高至超过 2,500 亿美元，Meta 则否认算力过剩并认为算力出租同样具备商业价值，显示大型科技企业仍持续投入 AI 基础建设，也使 AI 仍是吸引全球资金的重要主线。</p><p><br /></p><p>地缘政治方面，美伊冲突仍维持「军事对抗与技术谈判并存」的状态。虽然双方互有军事行动，停火协议实际上已名存实亡，但技术性谈",
+      "link": "https://www.theblockbeats.info/flash/355429",
+      "published": "Fri, 10 Jul 2026 03:25:17 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Kimi Code正式上线K2.7 Code HighSpeed，输出提速5至6倍",
+      "summary": "<p>据动察 Beating 监测，Kimi Code 正式上线 K2.7 Code HighSpeed。该模式已结束 Beta，成为常驻可选项。<br /><br />高速版与普通版使用同一模型。常规编程场景输出约 180 Token/s，短上下文可达 260 Token/s。<br /><br />Allegretto 及以上会员无需申请，可在 Kimi Code CLI 或其他支持 Coding Plan 的工具中直接使用。CLI 用户输入 /model，选择 kimi-for-coding-highspeed 即可开启。<br /><br />高速版用量消耗为普通版的 3 倍，更适合看重响应速度的编码任务。</p>",
+      "link": "https://www.theblockbeats.info/flash/355428",
+      "published": "Fri, 10 Jul 2026 03:18:07 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Zcash重要升级预计于北京时间7月28日晚上8点激活",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，Zcash 核心开发者 Sean Bowe 在 X 平台发文称，Zcash Ironwood 主网激活区块高度已确定并完成标记。所有主要组织承诺在区块高度 3,428,143 激活 NU6.3 升级，预计时间为北京时间 7 月 28 日晚上 8 点。</p><p><br /></p><p>根据此前消息，此次升级源于此前 Orchard 池漏洞——该漏洞可能允许攻击者无限量铸造伪造 ZEC，且由于 Orchard 池的隐私属性，团队无法确定漏洞修补前是否有伪造 ZEC 被铸造。Ironwood 升级将采取两个核心措施：一是引入一个使用 Orchard 协议的新隐私池，旧池将被逐步淘汰；二是在零知识证明电路中增加一个控制标志，启用后可禁用向池内其他用户转账的功能，同时保留找零功能。</p>",
+      "link": "https://www.theblockbeats.info/flash/355427",
+      "published": "Fri, 10 Jul 2026 03:10:35 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "港股Minimax跌超10%",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，据 Bitget 行情数据，港股 MINIMAX-W(00100.HK) 跌超 10%，MINIMAX-W 完成新一轮 160 亿港币融资。</p>",
+      "link": "https://www.theblockbeats.info/flash/355424",
+      "published": "Fri, 10 Jul 2026 03:06:12 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "长鑫科技IPO中金公司领衔承销团，承销费约1.84亿元",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，据长鑫科技 IPO 招股说明书，本次 IPO 中，中金公司、中信建投担任联席保荐机构及主承销商，国泰海通、国元证券、华泰联合、招商证券担任联席主承销商，合计 6 家券商组成承销团。承销费约 1.84 亿元（费率 0.6%），低于市场预期。</p><p><br /></p><p>多家承销商同时是公司股东，反映券商服务硬科技正从\"收费型\"向\"资产化\"转变，股权投资收益可能远超承销收入。</p>",
+      "link": "https://www.theblockbeats.info/flash/355423",
+      "published": "Fri, 10 Jul 2026 03:01:44 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Meta新模型连夺三榜第一，法律Agent反超Grok 4.5",
+      "summary": "<p>据动察 Beating 监测，AI 评测机构 Vals AI 公布 Muse Spark 1.1 成绩。模型在医疗文书、税务问答和法律 Agent 三项评测中排名第一，得分分别为 88.89%、79.72% 和 20.00%。 <br /><br />在税务评测 TaxEval v2 中，它超过 Fable 5、Opus 4.8 和 GPT-5.5。该评测包含超过 1200 道未公开测试题，既检查答案，也检查推理过程。头部模型差距较小，前十名相差不到 3 个百分点。 <br /><br />法律 Agent 评测中，Muse Spark 1.1 得分 20.00%，超过 Grok 4.5 的 12.92% 和 Fable 5 的 11.25%。测试要求模型使用文档、表格和文件工具完成真实法律工作。 <br /><br />它在网页应用编程评测中得分 72.16%，超过 GPT-5.5、Grok 4.5 和 GPT-5.4，但仍落后于 Fable 5 和多款 Claude 模型。</p>",
+      "link": "https://www.theblockbeats.info/flash/355422",
+      "published": "Fri, 10 Jul 2026 02:57:18 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "比特币短时突破6.4万美元",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，据 HTX 行情信息，比特币短时突破 6.4 万美元，现报价 63953 美元，24 小时涨幅达 3.58%。</p>",
+      "link": "https://www.theblockbeats.info/flash/355421",
+      "published": "Fri, 10 Jul 2026 02:54:39 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Bitwise Q2总结：加密市场量价齐跌，预测市场交投火爆",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，Bitwise 发布 2026 年第三季度加密市场回顾报告。报告显示，第二季度 Bitwise 10 大市值加密指数下跌 15.4%，10 只成分股中有 8 只下跌；现货比特币 ETF 录得最差季度流出；链上活动、交易量和 DeFi 资产均下滑，加密市场与股票相关性上升，录得连续第三个季度负回报，为 2022 年以来最长连续下跌。但报告同时指出多个亮点：预测市场交易量达 432 亿美元，同比增长近 18 倍；代币化 RWA 今年增长 50.3% 至 328.9 亿美元；Bitwise 加密创新者 30 指数上涨 30.6%；稳定币结算量是 Visa 的 2.3 倍，持有美债超大多数国家；<a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a>、PancakeSwap 和 Aave 过去一年各产生约 9 亿美元收入。</p><p><br /></p><p>Bitwise 表示，与 2022 年熊市底部相比，",
+      "link": "https://www.theblockbeats.info/flash/355420",
+      "published": "Fri, 10 Jul 2026 02:52:12 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "传Meta内部模型已到Mythos 5水平，数月内或上线",
+      "summary": "<p>据动察 Beating 监测，Critini Research 分析师 Jukan 称，他在 ICML 现场听到传闻：Meta 已完成一款内部模型，能力大致达到 Anthropic Mythos 5 水平，未来几个月可能部署。<br /><br />Mythos 5 是 Anthropic 目前最强的模型。它与公开版 Fable 5 使用同一底座，但在部分高风险领域解除安全限制。 <br /><br />Meta 刚发布 Muse Spark 1.1，主打编程、Agent 和多模态任务。如果传闻属实，Meta 手里还有一款尚未公开的前沿模型。</p>",
+      "link": "https://www.theblockbeats.info/flash/355419",
+      "published": "Fri, 10 Jul 2026 02:43:55 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "安全机构：Robinhood Chain出现大量诈骗代币",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，安全协议 Relay Protocol 发出警告，新上线的 Robinhood Chain 上已出现大量诈骗代币，投资者购买后资金面临全部损失的风险。</p><p><br /></p><p>Relay Protocol 确认已收到多起用户报告，称其在购买某些代币后，代币立即从钱包中消失，无法出售或转移。这类蜜罐代币通过智能合约代码设置限制，允许买入但不允许卖出，使投资者资金被永久锁定。诈骗代币的激增与 Robinhood Chain 近期用户活动和代币创建量的爆发式增长同步出现。</p>",
+      "link": "https://www.theblockbeats.info/flash/355418",
+      "published": "Fri, 10 Jul 2026 02:34:30 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "以太坊基金会协议支持团队已解散",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，以太坊基金会协议支持团队（EF Protocol Support）在 X 平台宣布该团队已解散。</p><p><br /></p><p>该团队主要负责协调以太坊协议开发过程，包括组织和协调核心开发者会议、跟踪以太坊网络升级、支持 EIP 推进、运行以太坊协议。</p>",
+      "link": "https://www.theblockbeats.info/flash/355417",
+      "published": "Fri, 10 Jul 2026 02:32:47 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Meta利好连发，投研机构Citrini押注复刻「谷歌150美元」行情",
+      "summary": "<p>据<a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> 监测，「AI 末日报告」发布机构 Citrini 表示，Meta 可能迎来一轮猛烈上涨。等行情走完后，市场会把它说成「早就显而易见」，并假装自己一直在低位买入。<br /><br />Citrini 把这种情况称为「谷歌 150 美元现象」：没涨时争议不断，涨完后人人都说自己早就看懂了。 <br /><br />Meta 昨天连续放出利好。新一代自研 AI 芯片 Iris 将于 9 月投产，公司计划把算力从今年的 7GW 增至 2027 年的 14GW。Muse Spark 1.1 也开始通过 API 收费，Meta 首次直接向开发者出售大模型服务。 <br /><br />Meta 股价随后上涨 4.7%。市场此前最担心巨额 AI 投入难以回本，现在开始押注自研芯片降本、广告业务增收和模型 API 变现。</p>",
+      "link": "https://www.theblockbeats.info/flash/355416",
+      "published": "Fri, 10 Jul 2026 02:25:47 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "AI军备竞赛推动科技巨头债券发行创纪录，六大科技公司今年已发行1820亿美元投资级债券",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，The Kobeissi Letter 发文表示，AI 军备竞赛正在推动大型科技公司借款规模创下纪录。数据显示，2026 年至今，亚马逊、Alphabet、英伟达、Meta、甲骨文和 SpaceX 已发行创纪录的 1820 亿美元投资级债券，较 2025 年同期约 130 亿美元增长 1300%。</p><p><br /></p><p>这 6 家公司占今年以来美国企业债发行总量近 15%，并贡献了今年企业债发行增长的 50% 以上。同期，美国市场出现了创纪录的 7 笔规模 250 亿美元及以上债券交易，与 2019 年至 2025 年期间此类交易总数相当。</p><p><br /></p><p>其中 7 笔大型债券交易中，有 6 笔来自上述 6 家公司，剩余 1 笔来自 Salesforce。AI 资本需求正在重塑企业债市场。</p>",
+      "link": "https://www.theblockbeats.info/flash/355414",
+      "published": "Fri, 10 Jul 2026 02:24:03 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "OKX将上线Solstice(SLX)现货交易",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，据官方消息，OKX 将于 7 月 10 日 20:00 上线 Solstice (SLX) 的现货交易。用户可于同日 10:00 充币，19:00 至 20:00 期间可进行 SLX/USDT 的提前挂单，22:00 开放提币。</p>",
+      "link": "https://www.theblockbeats.info/flash/355413",
+      "published": "Fri, 10 Jul 2026 02:17:52 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某巨鲸开多2280万美元SK海力士，或押注其美股ADR今晚开盘后继续上涨",
+      "summary": "<p>BlockBeats 消息，7 月 10 日，据链上分析师余烬监测，半小时前，巨鲸「AllegraSeam」将 2032 万枚 USDC 转入 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a>，并以 1480 美元价格开多价值约 2280 万美元的 SKHX（SK 海力士）。</p><p><br /></p><p>此前，另一巨鲸前日也在 1411 美元价格开多价值约 3000 万美元的 SKHX。市场或正在押注 SK 海力士美股 ADR 今晚开盘后继续上涨。</p><p><br /></p><p>SK 海力士美股 ADR 定价为 149 美元，对应韩股价格约为 1490 美元，目前 SKHX 价格也位于该水平附近。</p>",
+      "link": "https://www.theblockbeats.info/flash/355412",
+      "published": "Fri, 10 Jul 2026 02:06:23 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Wrench attacks on Bitcoin and crypto holders are up 75% in a year, and most victims now aren't even holders.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1usasls/wrench_attacks_on_bitcoin_and_crypto_holders_are/\"> <img alt=\"Wrench attacks on Bitcoin and crypto holders are up 75% in a year, and most victims now aren't even holders.\" src=\"https://preview.redd.it/2jrpfc5tbbch1.png?width=140&amp;height=78&amp;auto=webp&amp;s=7c06766cdfb82c4073a257a6d68d8b3130615db9\" title=\"Wrench attacks on Bitcoin and crypto holders are up 75% in a year, and most victims now aren't even holders.\" />",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1usasls/wrench_attacks_on_bitcoin_and_crypto_holders_are/",
+      "published": "2026-07-10T02:26:15+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Why Does Coinbase Give The Same Limits For Sends & Withdrawals?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Title kind of says it all, if someone hacks your account and sends coins to a rando address you are likely F'ed</p> <p>If someone hacks your account and sells coins before withdrawing money to your already connected bank account then you at least still have the value in your bank, annoying, but you aren't F'ed</p> <p>There should be separate limit options for sending and withdrawing, and they might as well allow us to whitelist receiving addresses and bank accou",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1usan1a/why_does_coinbase_give_the_same_limits_for_sends/",
+      "published": "2026-07-10T02:19:22+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Atleast you know the name I have the money💸🤑",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1usaynb/atleast_you_know_the_name_i_have_the_money/\"> <img alt=\"Atleast you know the name I have the money💸🤑\" src=\"https://external-preview.redd.it/YnRzemk0a3BkYmNoMVljmTdAA08oWABtjNADgAbQWO_frqlvZzw6nt48ixlX.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=0e183112740ee347ae28c5da28d583d12a06c24b\" title=\"Atleast you know the name I have the money💸🤑\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1usaynb/atleast_you_know_the_name_i_have_the_money/",
+      "published": "2026-07-10T02:34:07+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Grayscale's CFO exits after 7 years with crypto asset manager - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbzBWWE0zWklXckQzS0Flb3Nob3lPQ01CVGN1ckVmZ3U0MW5hNEFEUzYwMnZkZ0VaU29uS2lKdlQ2bTZfcWplbXhkRnFPQVBIY1BBbjJ3eEMzQzFjaVRranBWRVM0R1lfNFRYTFFfbE80bjlreC15SC1jTW1LVUlsMHlxNU84WGhzRkFHV0ttelJDMmdRMWp6bXB0ajlSNVo3bmRrbGI0MHdzZw?oc=5\" target=\"_blank\">Grayscale's CFO exits after 7 years with crypto asset manager</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbzBWWE0zWklXckQzS0Flb3Nob3lPQ01CVGN1ckVmZ3U0MW5hNEFEUzYwMnZkZ0VaU29uS2lKdlQ2bTZfcWplbXhkRnFPQVBIY1BBbjJ3eEMzQzFjaVRranBWRVM0R1lfNFRYTFFfbE80bjlreC15SC1jTW1LVUlsMHlxNU84WGhzRkFHV0ttelJDMmdRMWp6bXB0ajlSNVo3bmRrbGI0MHdzZw?oc=5",
+      "published": "Fri, 10 Jul 2026 02:23:47 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BTC, ETH price news: What next as bitcoin zips to nearly $64,000 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcGJRR1h6RGliME5ZNHhOcjJKNXA4d0pZbE5ENHE3LUg3bDYwQ25tR2NGeHg3cTdVaWFXMkYwbWZCUmVTVWkxbEVnazRWSEo5dUFUTnNicXRqY21MWkhNNEFUVEZVcGhaVGZBcnhySkMzR0oxTHVWRllZSjY4Y2dQQ3pHdXpUcmVGdkt6N2JQZHEyZ3BfSTRyVjBlTU5abzNPbGppS3lObkREaDB0UUpWeXg0YWVOVXo4c0pJ?oc=5\" target=\"_blank\">BTC, ETH price news: What next as bitcoin zips to nearly $64,000</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcGJRR1h6RGliME5ZNHhOcjJKNXA4d0pZbE5ENHE3LUg3bDYwQ25tR2NGeHg3cTdVaWFXMkYwbWZCUmVTVWkxbEVnazRWSEo5dUFUTnNicXRqY21MWkhNNEFUVEZVcGhaVGZBcnhySkMzR0oxTHVWRllZSjY4Y2dQQ3pHdXpUcmVGdkt6N2JQZHEyZ3BfSTRyVjBlTU5abzNPbGppS3lObkREaDB0UUpWeXg0YWVOVXo4c0pJ?oc=5",
+      "published": "Fri, 10 Jul 2026 03:58:23 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "summary": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/03b264b679a646119d1a2415b9097bd6",
+      "published": "2026-06-30T13:30:25.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b026c9829d28459cb1f1a95000960a08",
+      "published": "2026-06-30T13:00:03.128000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d8400c84767448a2bcb71b7bf3864a97",
+      "published": "2026-06-30T12:30:19.411000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8057e105f5724d9bbf29ba416f14149e",
+      "published": "2026-06-29T17:30:03.090000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
+      "published": "2026-06-27T18:50:43.165000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f",
+      "published": "2026-06-24T18:30:18.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
+      "published": "2026-06-23T18:00:31.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "summary": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa",
+      "published": "2026-06-23T16:15:03.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3af18ad98b3048a3b959ef1405b9d45b",
+      "published": "2026-06-23T15:00:02.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "summary": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d1343e10bc2648cd8302c83a5b1223a9",
+      "published": "2026-06-23T14:32:00.591000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b",
+      "published": "2026-06-23T11:30:38.167000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/88ea4a4f9f0b4ad4b7b308195c026fe4",
+      "published": "2026-06-22T16:15:20.368000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 23 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 23，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-10T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Dragonfly合伙人：在AI狂热和OG离场的时代，如何守住加密货币的“指数级增长”？ - PANews",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1qX240ejc1WGtKZ0NFaWVWMGJ2d3MwOUc1U25qQlBPR3c1N00yRG5hSXFnNW9INXZBU0g5ZW02NzFra2Nsc085LWVBSlltZGx2NzdoMkFpZVF5OUU5S0FMR2pqWnF2Y2VuSVVNR251LV81bGwtUVJtVjNQM29SNjQ?oc=5\" target=\"_blank\">Dragonfly合伙人：在AI狂热和OG离场的时代，如何守住加密货币的“指数级增长”？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PANews</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qX240ejc1WGtKZ0NFaWVWMGJ2d3MwOUc1U25qQlBPR3c1N00yRG5hSXFnNW9INXZBU0g5ZW02NzFra2Nsc085LWVBSlltZGx2NzdoMkFpZVF5OUU5S0FMR2pqWnF2Y2VuSVVNR251LV81bGwtUVJtVjNQM29SNjQ?oc=5",
+      "published": "Fri, 10 Jul 2026 02:22:42 GMT"
+    }
+  ]
+}
