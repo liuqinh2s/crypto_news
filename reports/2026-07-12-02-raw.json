@@ -1,0 +1,288 @@
+{
+  "date": "2026-07-12",
+  "hour": "02",
+  "total": 40,
+  "fetched_at": "2026-07-12T02:01:15.303602+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/08/crypto-ipo-market-stalls-as-capital-rotates-to-ai-and-macro-uncertainty-weighs",
+      "published": "Sat, 11 Jul 2026 17:07:24 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
+      "summary": "Robinhood Chain is an Ethereum layer-2 network built with Arbitrum technology for tokenized assets, crypto apps, and on-chain financial products.",
+      "link": "https://decrypt.co/resources/what-robinhood-chain-ethereum-layer-2-network-tokenized-stocks",
+      "published": "Sat, 11 Jul 2026 16:21:34 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "以太坊基金会：AI发现可导致验证节点离线的漏洞，但仍需人工验证真伪",
+      "summary": "【以太坊基金会：AI发现可导致验证节点离线的漏洞，但仍需人工验证真伪】金色财经报道，以太坊基金会近日披露，其安全团队利用AI代理对以太坊验证节点运行的软件展开测试，并成功发现一个可被远程触发、导致节点崩溃的漏洞。不过，研究人员强调，在AI生成的大量安全报告中，人工审核仍是区分真实漏洞与误报的关键环节。 \n此次发现的漏洞存在于以太坊网络消息传播协议gossipsub中，攻击者可远程触发节点软件进入异常计算状态，导致程序崩溃并关闭，使验证节点离线，直至运营者手动重启，该漏洞已被修复并以编号“CVE-2026-34219”完成登记。 \n以太坊基金会协议安全团队成员Nikos Baxevanis称，本次事件真正令人意外的并非AI发现漏洞的能力，而是团队花费了大量时间去辨别哪些漏洞真实存在，哪些只是看似可信的“幻觉”。<p>原文链接: <a href=\"https://www.coindesk.com/tech/2026/07/10/ai-found-an-ethereum-bug-that-could-take-validators-offline-but-humans-had-to-prov",
+      "link": "https://jinse.com.cn/lives/522757.html",
+      "published": "Sat, 11 Jul 2026 18:00:03 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Tom Lee：战争虽令投资者担忧，但美国经济仍能保持韧性实现V形复苏",
+      "summary": "【Tom Lee：战争虽令投资者担忧，但美国经济仍能保持韧性实现V形复苏】金色财经报道，Bitmine董事长Tom Lee在CNBC采访中表示，战争通常是投资者最担心的风险因素之一，但历史数据显示，美国经济在战争时期的表现往往比市场预期更具韧性。尽管没有人希望美国卷入战争，但相关数据揭示了更复杂的现实：原本被认为会导致市场大幅下跌的时期，美国经济却依然保持稳定并将最终实现V形复苏。 \nTom Lee补充称，当前推动美国经济增长的动力已不仅限于人工智能基础设施投资，大规模国防支出同样正发挥越来越重要的作用，持续增长的国防开支正直接推动美国制造业回流和再工业化进程，成为支撑经济的重要力量之一。<p>原文链接: <a href=\"https://x.com/TomLeeTracker/status/2075911548736774422\">https://x.com/TomLeeTracker/status/2075911548736774422</a></p>",
+      "link": "https://jinse.com.cn/lives/522756.html",
+      "published": "Sat, 11 Jul 2026 17:34:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Citrini分析师：消息称英伟达Rubin架构发布再次延期",
+      "summary": "【Citrini分析师：消息称英伟达Rubin架构发布再次延期】金色财经报道，Citrini分析师Jukan在X平台发文表示，其收到一场专家电话会议的消息称，英伟达下一代Rubin架构产品的发布时间再次被推迟，以至于自己“连周六都无法休息”。 \n目前，英伟达尚未就Rubin项目延期传闻作出正式回应。Rubin被视为英伟达继Blackwell之后的新一代AI芯片架构，其研发和量产进度一直受到市场高度关注。不过，截至目前上述消息仍属于未经证实的市场传闻，具体发布时间仍需等待英伟达官方披露。<p>原文链接: <a href=\"https://x.com/jukan05/status/2075933338540581375\">https://x.com/jukan05/status/2075933338540581375</a></p>",
+      "link": "https://jinse.com.cn/lives/522755.html",
+      "published": "Sat, 11 Jul 2026 17:00:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "摩根大通测试AI投资智能体，可自主调整股票债券配置",
+      "summary": "【摩根大通测试AI投资智能体，可自主调整股票债券配置】7月12日消息，摩根大通正在测试可自主调整股票和债券投资比例的AI智能体，以根据市场环境变化动态调整投资组合。测试结果显示，在20年历史回测中，表现最佳的AI模型年化收益率较传统「60/40」股票债券组合高出0.7个百分点，同时具备更低波动率。摩根大通测试的8个AI智能体均实现了更高的风险调整后收益。不过，摩根大通表示，相关结果仍基于模拟测试，并非实际投资表现。该行同时警告，AI大规模应用可能导致交易策略趋同，增加市场拥挤交易，并在压力环境下放大市场波动。<p>原文链接: <a href=\"https://x.com/DeItaone/status/2075954010167693736\">https://x.com/DeItaone/status/2075954010167693736</a></p>",
+      "link": "https://jinse.com.cn/lives/522754.html",
+      "published": "Sat, 11 Jul 2026 17:00:31 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "I built an autonomous ESP32-S3 controller to mine Bitcoin strictly using solar surplus (Zero grid consumption). Open Source! ☀️⛏️",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1utpsqd/i_built_an_autonomous_esp32s3_controller_to_mine/\"> <img alt=\"I built an autonomous ESP32-S3 controller to mine Bitcoin strictly using solar surplus (Zero grid consumption). Open Source! ☀️⛏️\" src=\"https://preview.redd.it/stiwvqynvmch1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=36830e58c506d0f45fba42c9971b2627b5e559f4\" title=\"I built an autonomous ESP32-S3 controller to mine Bitcoin strictly using solar surplus (Ze",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1utpsqd/i_built_an_autonomous_esp32s3_controller_to_mine/",
+      "published": "2026-07-11T17:14:46+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "I built Freeport - a P2P marketplace over Nostr with a built-in self-custodial Lightning wallet",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Freeport is a P2P marketplace (rides, services, goods) running entirely on Nostr relays - no server, no middleman. It now has payments built in:</p> <p>- Self-custodial Lightning (Breez SDK / Spark) - the app never holds funds</p> <p>- Wallet key derived from your Nostr key: one backup covers identity + wallet</p> <p>- No signup - keypair generated on-device, optional passkey login</p> <p>- Lightning address, bolt11, on-chain</p> <p>- Confirmed deals get a Pay b",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1utowmn/i_built_freeport_a_p2p_marketplace_over_nostr/",
+      "published": "2026-07-11T16:40:03+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Anyone else worried that it’s too easy?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Bitcoin is the best performing asset in human history, and we can just scale in at the scheduled bear market lows that occur every 4 years and 5x our money in a few years? </p> <p>I had these same thoughts after the FTX capitulation, that surely it can’t be this easy to buy here and wait. Sure enough, bitcoin went up almost 800% off the lows and I made a ton of money. Are they really going to let us do it again?? </p> </div><!-- SC_ON --> &#32; submitted by &#32",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1utpo6w/anyone_else_worried_that_its_too_easy/",
+      "published": "2026-07-11T17:09:56+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Just curious how many buy on exchange versus stuff like Venmo or Cash App",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>And then transfer it to a cold wallet?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SamFisherXboxOG\"> /u/SamFisherXboxOG </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1utqqqa/just_curious_how_many_buy_on_exchange_versus/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1utqqqa/just_curious_how_many_buy_on_exchange_versus/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1utqqqa/just_curious_how_many_buy_on_exchange_versus/",
+      "published": "2026-07-11T17:50:17+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Any big moves on weekends?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, still new to BTC, been DCAing a couple of months now just as a possible alternative investment. I haven't been paying much attention to the price movement over the years (except when it would rocket up or down). My question for long timers is, have any really big moves occured on weekend days? I know it is technically a 24/7 asset, but have there been any surprise moves when no one was expecting them? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uto1a0/any_big_moves_on_weekends/",
+      "published": "2026-07-11T16:06:00+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "What's one trading lesson that completely changed the way you trade?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>For me, it was realizing that not taking a trade is also a valid trading decision.</p> <p>Earlier I felt like I had to trade every day.</p> <p>Now I wait for high-quality setups, and my results have improved a lot.</p> <p>What's one lesson that changed your trading journey?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/shourytripathi\"> /u/shourytripathi </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1utoop7/whats_one_trading_lesson_that_completely_changed/",
+      "published": "2026-07-11T16:31:19+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Dips Below $60,000 and History Points to What Comes Next - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNRU16eWROQ2o1YTFyMjluR3JHVGJxUHhITktFcVZneW5peEFnZFVzbVprNW91cWNBemtHNWxMaW1zSVZEN00xcXNoZUlXOTA3T0FyanBMOTF4ZTBmeEgtNTlsdmF4Q1QwbzU3NVNOcC10Y2xqV0Y1OXB1bG9xc3pway1qQTVkYkV3WFBMQUZXWlU3MUtn?oc=5\" target=\"_blank\">Bitcoin Dips Below $60,000 and History Points to What Comes Next</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRU16eWROQ2o1YTFyMjluR3JHVGJxUHhITktFcVZneW5peEFnZFVzbVprNW91cWNBemtHNWxMaW1zSVZEN00xcXNoZUlXOTA3T0FyanBMOTF4ZTBmeEgtNTlsdmF4Q1QwbzU3NVNOcC10Y2xqV0Y1OXB1bG9xc3pway1qQTVkYkV3WFBMQUZXWlU3MUtn?oc=5",
+      "published": "Sat, 11 Jul 2026 16:10:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Dips Below $60,000 and History Points to What Comes Next - The Motley Fool",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQZlVkQXhfc2tFM0pTdzJQdHY5TnQ0azFWZndPV3pCSFU0UXpLVTRkcDBvcVcwZnBQcFg0YU90dy1zdUwzUmtOeWV4UzAtclhON1dteTRKbDNnNDMybWV1ZFVEcjE3Rmk0U0YwdFlObWk1b0dNSUxsMzlHaFFzaTVsdVRiOWpwQ3BUb2NzYldGTGFJSEt5WW54Qw?oc=5\" target=\"_blank\">Bitcoin Dips Below $60,000 and History Points to What Comes Next</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZlVkQXhfc2tFM0pTdzJQdHY5TnQ0azFWZndPV3pCSFU0UXpLVTRkcDBvcVcwZnBQcFg0YU90dy1zdUwzUmtOeWV4UzAtclhON1dteTRKbDNnNDMybWV1ZFVEcjE3Rmk0U0YwdFlObWk1b0dNSUxsMzlHaFFzaTVsdVRiOWpwQ3BUb2NzYldGTGFJSEt5WW54Qw?oc=5",
+      "published": "Sat, 11 Jul 2026 16:07:58 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto IPO pipeline slows amid weak market conditions - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVm41b3ZNcnU4TGlncVJaT2tSenZUNXZhQm56bW5hMXZFLTl3ZWNYZXZvUmhYNi0wYVBKVUYzeVYzWHRVcWZicjhEM3hDaDZBWnFCc0c0akNRald3Xzd1ZG12X1FOUHBfc1JXUzk1dm5hUHhRQWtVa3B0U0VqOVlRcXZIdnkwRnMtNUxyR2Fhb0pfQnpKdmZWb2RCdXlPamIwUzhvaEd5dDlUYlVScXJRelRpMFhJbTN3OWhaeXlUNUo?oc=5\" target=\"_blank\">Crypto IPO pipeline slows amid weak market conditions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVm41b3ZNcnU4TGlncVJaT2tSenZUNXZhQm56bW5hMXZFLTl3ZWNYZXZvUmhYNi0wYVBKVUYzeVYzWHRVcWZicjhEM3hDaDZBWnFCc0c0akNRald3Xzd1ZG12X1FOUHBfc1JXUzk1dm5hUHhRQWtVa3B0U0VqOVlRcXZIdnkwRnMtNUxyR2Fhb0pfQnpKdmZWb2RCdXlPamIwUzhvaEd5dDlUYlVScXJRelRpMFhJbTN3OWhaeXlUNUo?oc=5",
+      "published": "Sat, 11 Jul 2026 17:07:56 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Is The Hardest Hurdle Rate To Beat, Says Strive CEO Matt Cole, And ‘Cash Is Almost Irresponsible’ - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNZ2RaVGE2dElTb0d3RmJyWkE1Umhaa1NSMTBFUmRsVkJoRjdqa21YYlJTNXJnRWFDM2pRU0dnX0JZU0hzdC15OEw5cnVfZHZMMTlydnhxb2dMb2xhblhRazZ6RTJ3MlN5VW1kcjdYMkU4dnFnOVdXQnptR0pJQXo2N19ibUpSWHFFVjdGT3NGOW5BaU1SSjdVV2xvM0d1dw?oc=5\" target=\"_blank\">Bitcoin Is The Hardest Hurdle Rate To Beat, Says Strive CEO Matt Cole, And ‘Cash Is Almost Irresponsible’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ2RaVGE2dElTb0d3RmJyWkE1Umhaa1NSMTBFUmRsVkJoRjdqa21YYlJTNXJnRWFDM2pRU0dnX0JZU0hzdC15OEw5cnVfZHZMMTlydnhxb2dMb2xhblhRazZ6RTJ3MlN5VW1kcjdYMkU4dnFnOVdXQnptR0pJQXo2N19ibUpSWHFFVjdGT3NGOW5BaU1SSjdVV2xvM0d1dw?oc=5",
+      "published": "Sat, 11 Jul 2026 16:06:26 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Stocks To Watch Before The July CPI Report - simplywall.st",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTGVYVkVTYUZkemQ3R09YbXM3MmFfYm5DWVlXd094aUtHTFRqT0JxcHp4MmpNRlIxTnMwcEk1dG41djdBU3ZMYVVPNWVIcEJJV3o5b2ZaTkw1MDZJc3RrT2JXU3RDalNGeUx4OHo3OWJkTFpfMFFNUWNaOFRmbFpYcDBiR01ZNVJCRWpYeVluSjY1MldHV3U5akJ4eFVRLS1wZEtxX3RCVFl5VzYxU3M4enZXSkdPX2l4SnBOWF93Y0xpQXPSAcgBQVVfeXFMTUpEY2pLaWFrMWNUNUZDQTA2Wmtxc2NUUVBQWHJKTG1KaG93QUhESUFWZTFGeVo4VmpaYldWZTNKUC1BaVBEVWJhWE03cHdTTGtsUmVvNk9BTXQta0ZsWk1YUzhjZjlReUNQbnY1S1pMY2tSM2s0RTFJdzNWZ3hrbmpsSkZiaFVNQn",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTGVYVkVTYUZkemQ3R09YbXM3MmFfYm5DWVlXd094aUtHTFRqT0JxcHp4MmpNRlIxTnMwcEk1dG41djdBU3ZMYVVPNWVIcEJJV3o5b2ZaTkw1MDZJc3RrT2JXU3RDalNGeUx4OHo3OWJkTFpfMFFNUWNaOFRmbFpYcDBiR01ZNVJCRWpYeVluSjY1MldHV3U5akJ4eFVRLS1wZEtxX3RCVFl5VzYxU3M4enZXSkdPX2l4SnBOWF93Y0xpQXPSAcgBQVVfeXFMTUpEY2pLaWFrMWNUNUZDQTA2Wmtxc2NUUVBQWHJKTG1KaG93QUhESUFWZTFGeVo4VmpaYldWZTNKUC1BaVBEVWJhWE03cHdTTGtsUmVvNk9BTXQta0ZsWk1YUzhjZjlReUNQbnY1S1pMY2tSM2s0RTFJdzNWZ3hrbmpsSkZiaFVNQnZFUkdiV242c09oSTBma0tsUmhEa25rTURXUHBRVFNXOFZHVXpWRlN0RmwxLTljNkU3YjM4RG9wajRxR3ZUYUg?oc=5",
+      "published": "Sat, 11 Jul 2026 17:33:39 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ethereum Rallies 2.0% -- Crypto Mover - Moomoo",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOSVFIZUVscUM0NkNlanBqLVhBbl9zWXNUeXIzNTg5eUFFTXptUjR3Z20yT1lBRjFULWIyVkg0LVZvT2hHMURJR3lKbTRsLWc5NEVvemhsRS1CdGJPWFVRWUFDSVNuZXlyTEFXRXprc1dQVm1VMEs5NDktT1pXUGZmSw?oc=5\" target=\"_blank\">Ethereum Rallies 2.0% -- Crypto Mover</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSVFIZUVscUM0NkNlanBqLVhBbl9zWXNUeXIzNTg5eUFFTXptUjR3Z20yT1lBRjFULWIyVkg0LVZvT2hHMURJR3lKbTRsLWc5NEVvemhsRS1CdGJPWFVRWUFDSVNuZXlyTEFXRXprc1dQVm1VMEs5NDktT1pXUGZmSw?oc=5",
+      "published": "Sat, 11 Jul 2026 17:50:36 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "ETH price range on Jul 11, 2026 at 2pm EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPTjE3bENKRGVWNHU1a09mMzhJck5ENC1GWlItT1BhXzkya3VnUGNJMWJTaTREOHYtMkZLc1I1cldrZFlHSzdybW1zRjhTamh1SEZIckExNlJjTl9naVdZVVRrSVBpc1BVZUpibVRUZ2R0WTlmdjl3Y09IR1RsWm1XTExNTTVncWQ4eDB5OV9zVG9QTlpSdE1xa1gzRkRSTGk1MFVNeE1Oay11ZDhHb3RBWjZyQ01YQQ?oc=5\" target=\"_blank\">ETH price range on Jul 11, 2026 at 2pm EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTjE3bENKRGVWNHU1a09mMzhJck5ENC1GWlItT1BhXzkya3VnUGNJMWJTaTREOHYtMkZLc1I1cldrZFlHSzdybW1zRjhTamh1SEZIckExNlJjTl9naVdZVVRrSVBpc1BVZUpibVRUZ2R0WTlmdjl3Y09IR1RsWm1XTExNTTVncWQ4eDB5OV9zVG9QTlpSdE1xa1gzRkRSTGk1MFVNeE1Oay11ZDhHb3RBWjZyQ01YQQ?oc=5",
+      "published": "Sat, 11 Jul 2026 17:16:27 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6fe9f6dc91544df88dc24ad41211feff",
+      "published": "2026-07-10T23:37:03.303000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53",
+      "published": "2026-07-10T14:45:21.461000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "summary": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/03b264b679a646119d1a2415b9097bd6",
+      "published": "2026-06-30T13:30:25.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b026c9829d28459cb1f1a95000960a08",
+      "published": "2026-06-30T13:00:03.128000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d8400c84767448a2bcb71b7bf3864a97",
+      "published": "2026-06-30T12:30:19.411000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8057e105f5724d9bbf29ba416f14149e",
+      "published": "2026-06-29T17:30:03.090000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
+      "published": "2026-06-27T18:50:43.165000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f",
+      "published": "2026-06-24T18:30:18.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
+      "published": "2026-06-23T18:00:31.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "summary": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa",
+      "published": "2026-06-23T16:15:03.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3af18ad98b3048a3b959ef1405b9d45b",
+      "published": "2026-06-23T15:00:02.113000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "summary": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d1343e10bc2648cd8302c83a5b1223a9",
+      "published": "2026-06-23T14:32:00.591000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 26 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 26，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-11T08:00:00+08:00"
+    }
+  ]
+}
