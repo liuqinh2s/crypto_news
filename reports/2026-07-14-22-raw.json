@@ -1,0 +1,792 @@
+{
+  "date": "2026-07-14",
+  "hour": "22",
+  "total": 112,
+  "fetched_at": "2026-07-14T22:01:23.476674+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Hut 8 price target hiked to $165 at Benchmark as AI pivot reshapes valuation",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/14/hut-8-price-target-hiked-to-usd165-at-benchmark-as-ai-pivot-reshapes-valuation",
+      "published": "Tue, 14 Jul 2026 12:53:05 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/14/u-s-june-cpi-fell-0-4-likely-cooling-move-toward-fed-rate-hikes",
+      "published": "Tue, 14 Jul 2026 12:33:24 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "ECB picks firms including Deutsche Bank, Revolut for digital euro pilot",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/14/ecb-picks-firms-including-deutsche-bank-revolut-for-digital-euro-pilot",
+      "published": "Tue, 14 Jul 2026 12:10:03 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Japan’s biggest card network taps Circle to bring stablecoins to 40 million merchants",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/14/circle-signs-mou-with-japan-s-largest-card-network-to-explore-stablecoin-payments",
+      "published": "Tue, 14 Jul 2026 12:01:50 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "European Central Bank taps 36 payment providers for yearlong digital euro pilot",
+      "summary": "<p>The ECB selected 36 payment providers to test a beta digital euro in a yearlong pilot beginning in late 2027.</p>",
+      "link": "https://www.theblock.co/post/408228/european-central-bank-taps-36-payment-providers-for-yearlong-digital-euro-pilot?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 14 Jul 2026 09:30:02 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Distributed compute startup Boundless expands 4,000-GPU network from ZK to AI",
+      "summary": "<p>Boundless, which built a 4,000 GPU cluster to settle Ethereum and Base ZK proofs on Bitcoin, is expanding to AI compute.</p>",
+      "link": "https://www.theblock.co/post/408213/distributed-compute-startup-boundless-gpus-zk-to-ai?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 14 Jul 2026 09:00:00 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "CleanSpark signs $6.6 billion, 20-year data center lease with unnamed global tech firm",
+      "summary": "<p>CleanSpark has signed a 20-year, $6.6 billion data center lease in Sandersville, Georgia, with a confidential tech tenant.</p>",
+      "link": "https://www.theblock.co/post/408215/cleanspark-signs-20-year-data-center-lease-with-unnamed-tech-giant?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 14 Jul 2026 08:25:45 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: Saylor's Strategy Hoards Cash, Doesn't Buy BTC",
+      "summary": "Strategy’s Bitcoin-buying machine stayed in neutral, while BTC and crypto majors chop and oil spikes ahead of a key CPI print this morning.",
+      "link": "https://decrypt.co/373466/morning-minute-saylors-strategy-hoards-cash-doesnt-buy-btc",
+      "published": "Tue, 14 Jul 2026 12:13:05 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "OpenAI quietly adds Kalshi World Cup odds to ChatGPT: Report",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"OpenAI quietly adds Kalshi World Cup odds to ChatGPT: Report\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/sam-altman-polymarket.png\" /></p><p>OpenAI’s ChatGPT now displays Kalshi’s World Cup prediction market odds in search results, marking the AI firm’s first reported deal with a prediction market platform.</p>",
+      "link": "https://cointelegraph.com/news/openai-kalshi-prediction-markets-world-cup-chatgpt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 14 Jul 2026 13:30:06 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Strategy became a symbol of the dot-com crash: Could history repeat?",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Strategy became a symbol of the dot-com crash: Could history repeat?\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-mag-from-dot-com-crash-to-bitcoin-treasury-king-has-michael-saylor-rewritten-his-legacy-1.jpg\" /></p><p>MicroStrategy blew up during the dot-com era, before Michael Saylor transformed it into the world's largest corporate Bitcoin holder. Did he learn his lesson?</p>",
+      "link": "https://cointelegraph.com/features/from-dot-com-bust-to-bitcoin-king-has-michael-saylor-rewritten-his-legacy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 14 Jul 2026 13:30:00 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Humanity Protocol to prioritize operational security following $36M hack",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Humanity Protocol to prioritize operational security following $36M hack\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-what-is-dns-hijacking.jpg\" /></p><p>Humanity Protocol’s founder said they will refocus on operational security, as malicious actors are switching from smart contract vulnerabilities to exploiting human behavior.\n</p>",
+      "link": "https://cointelegraph.com/news/humanity-protocol-operational-security-36m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 14 Jul 2026 13:08:00 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "White House Crypto Chief Patrick Witt to Begin Military Leave as Clarity Act Nears Senate Deadline",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/07/White-House-Crypto-Chief-Patrick-Witt-to-Begin-Military-Leave-as-Clarity-Act-Nears-Senate-Deadline.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/white-house-crypto-chief-patrick-witt\" rel=\"nofollow\">White House Crypto Chief Patrick Witt to Begin Military Leave as Clarity Act Nears Senate Deadline</a",
+      "link": "https://bitcoinmagazine.com/news/white-house-crypto-chief-patrick-witt",
+      "published": "Tue, 14 Jul 2026 13:13:43 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "SK海力士ADR股价上涨12%",
+      "summary": "【SK海力士ADR股价上涨12%】金色财经报道，7月14日，SK海力士ADR股价上涨12%，报170.700美元/股，总市值报1.24万亿美元。",
+      "link": "https://jinse.com.cn/lives/523084.html",
+      "published": "Tue, 14 Jul 2026 13:57:16 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "灰度向Coinbase Prime转入约852枚比特币",
+      "summary": "【灰度向Coinbase Prime转入约852枚比特币】金色财经报道，7月14日，据Onchain Lens报道，Grayscale向Coinbase Prime转移852.7枚BTC，按当前价格计约5,440万美元。",
+      "link": "https://jinse.com.cn/lives/523083.html",
+      "published": "Tue, 14 Jul 2026 13:42:46 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "AI合规基础设施公司Hadrius完成2700万美元融资",
+      "summary": "【AI合规基础设施公司Hadrius完成2700万美元融资】金色财经报道，AI合规基础设施公司Hadrius宣布完成2700万美元种子轮和A轮融资，本轮融资由CRV领投，Y Combinator、Pathlight Ventures以及Altruist、Jump AI和FINNY创始人等参投，新资金将用于构建面向金融服务行业的AI原生合规基础设施建设，通过AI代理（Agentic AI）技术，将分散的合规审查、风险监控和监管文档管理整合到单一智能工作流中。<p>原文链接: <a href=\"https://www.prnewswire.com/news-releases/hadrius-raises-27-million-to-build-agentic-compliance-infrastructure-302824196.html\">https://www.prnewswire.com/news-releases/hadrius-raises-27-million-to-build-agentic-compliance-infrastructure-302824196.html</",
+      "link": "https://jinse.com.cn/lives/523082.html",
+      "published": "Tue, 14 Jul 2026 13:36:43 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "IBM暴跌23%，创1987年以来最大单日盘中跌幅",
+      "summary": "【IBM暴跌23%，创1987年以来最大单日盘中跌幅】金色财经报道，IBM(IBM.N)暴跌23%，创1987年以来最大单日盘中跌幅。",
+      "link": "https://jinse.com.cn/lives/523081.html",
+      "published": "Tue, 14 Jul 2026 13:32:16 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美股三大股指开盘涨跌不一：AI硬件股全线上涨 IBM下跌22%",
+      "summary": "【美股三大股指开盘涨跌不一：AI硬件股全线上涨 IBM下跌22%】金色财经报道，美股三大股指开盘涨跌不一，道琼斯指数跌0.25%，标普500指数涨0.13%，纳斯达克综合指数涨0.49%。AI硬件股全线上涨，存储板块涨幅居前。热门个股方面，闪迪涨8%，台积电股价上涨2.17%，SK海力士股价上涨11.29%，美光科技股价上涨5.68%，超威半导体股价上涨6.62%，英特尔股价上涨3.82%。IBM的股价在该公司公布第二季度初步销售额低于预期后暴跌超22%，该公司将业绩未达预期归咎于客户将支出转向芯片和服务器。",
+      "link": "https://jinse.com.cn/lives/523080.html",
+      "published": "Tue, 14 Jul 2026 13:31:10 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BTC突破64000美元",
+      "summary": "【BTC突破64000美元】金色财经报道，行情显示，BTC突破64000美元，现报64016美元，24小时涨幅达到2.51%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/523079.html",
+      "published": "Tue, 14 Jul 2026 13:26:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "长鑫科技：发行价格为8.66元/股 7月16日进行网上和网下申购",
+      "summary": "【长鑫科技：发行价格为8.66元/股 7月16日进行网上和网下申购】金色财经报道，7月14日，长鑫科技(688825.SH)公告称，公司首次公开发行股票并在科创板上市，发行价格为8.66元/股。投资者请按此价格在2026年7月16日（T日）进行网上和网下申购，申购时无需缴付申购资金。其中，网下申购时间为9:30-15:00，网上申购时间为9:30-11:30，13:00-15:00。本次初始发行股份数量为668,808.8608万股，占发行后总股本约10.00%，并授予中金公司不超过初始发行股份15.00%的超额配售选择权。发行价格对应的2025年扣非前后孰低摊薄后市盈率为308.92倍(未行使超额配售选择权)，高于行业平均市盈率76.32倍及可比公司平均市盈率134.62倍。预计募集资金总额约579.19亿元(超额配售选择权行使前)，扣除发行费用后净额约576.38亿元。",
+      "link": "https://jinse.com.cn/lives/523078.html",
+      "published": "Tue, 14 Jul 2026 13:12:52 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "稳定币支付基础设施Pact Labs完成700万美元A轮融资，Tether领投",
+      "summary": "【稳定币支付基础设施Pact Labs完成700万美元A轮融资，Tether领投】金色财经报道，稳定币支付基础设施Pact Labs宣布完成700万美元A轮融资，Tether领投，Blockchange Ventures和Lasagna跟投，新资金将用于加速基础设施建设，推动USAT能够为数百万美国工人提供工资发放、工资提取、信贷和支付服务，USAT是由Tether与Anchorage Digital Bank合作发行的美元稳定币。<p>原文链接: <a href=\"https://www.prnewswire.com/news-releases/tether-backs-pact-labs-to-put-digital-dollars-in-every-american-paycheck-302824169.html\">https://www.prnewswire.com/news-releases/tether-backs-pact-labs-to-put-digital-dollars-in-every-american-paycheck-302824169.html</a></",
+      "link": "https://jinse.com.cn/lives/523077.html",
+      "published": "Tue, 14 Jul 2026 13:07:25 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "金色晚报 | 7月14日晚间重要动态一览",
+      "summary": "【金色晚报 | 7月14日晚间重要动态一览】12:00-21:00关键词：6月CPI、DeepSeek、Velocity、巴菲特 \n1.伊朗称美进入正式战争状态 \n2.美国6月CPI同比增长3.5% 低于预期 \n3.交易员将美联储加息预期推迟至10月 \n4.白宫官员：特朗普对征收20%通行费计划“非常认真” \n5.DeepSeek首轮融资完成仅一个月后考虑启动新一轮融资 \n6.美联储主席沃什：对经济持乐观态度 对AI繁荣持谨慎态度 \n7.稳定币公司Velocity完成3800万美元A轮融资，Dragonfly领投 \n8.巴菲特将向四家基金会捐赠1200万股B类股票 价值近60亿美元",
+      "link": "https://jinse.com.cn/lives/523076.html",
+      "published": "Tue, 14 Jul 2026 13:00:51 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "CPI数据公布后 美联储7月维持利率不变的概率为83.4%",
+      "summary": "【CPI数据公布后 美联储7月维持利率不变的概率为83.4%】金色财经报道，7月14日，据CME“美联储观察”：美联储到7月维持利率不变的概率为83.4%，累计加息25个基点的概率为16.6%。美联储到9月维持利率不变的概率为40.3%，累计加息25个基点的概率51.1%，累计加息50个基点的概率为8.6%。",
+      "link": "https://jinse.com.cn/lives/523075.html",
+      "published": "Tue, 14 Jul 2026 12:56:59 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "交易员将美联储加息预期推迟至10月",
+      "summary": "【交易员将美联储加息预期推迟至10月】金色财经报道，7月14日，交易员将美联储加息预期推迟至10月。",
+      "link": "https://jinse.com.cn/lives/523074.html",
+      "published": "Tue, 14 Jul 2026 12:56:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美联储主席沃什：对经济持乐观态度 对AI繁荣持谨慎态度",
+      "summary": "【美联储主席沃什：对经济持乐观态度 对AI繁荣持谨慎态度】金色财经报道，7月14日，美联储主席沃什对整体经济形势持乐观态度。他认为，劳动力市场总体稳定，几乎没有裁员现象，名义工资也有所增长。这位美联储主席对人工智能领域的繁荣持更为谨慎的态度。他认为，人工智能虽然推动了企业投资的增加，但也给经济带来了不确定性。他表示：“我们还不清楚经济能在多大程度上从人工智能的发展中受益。”“经济领域出现的新机遇同时也给政策制定者带来了新的挑战。美联储正在密切关注这些变化对通胀和劳动力市场的影响。”",
+      "link": "https://jinse.com.cn/lives/523073.html",
+      "published": "Tue, 14 Jul 2026 12:55:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美联储主席沃什：正在监测AI对通胀和劳动力市场的影响",
+      "summary": "【美联储主席沃什：正在监测AI对通胀和劳动力市场的影响】金色财经报道，美联储主席沃什：AI机遇对决策者构成挑战。正在监测AI对通胀和劳动力市场的影响。",
+      "link": "https://jinse.com.cn/lives/523072.html",
+      "published": "Tue, 14 Jul 2026 12:39:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "现货黄金突破4100美元",
+      "summary": "【现货黄金突破4100美元】金色财经报道，7月14日，现货黄金突破4100美元，日内上涨2.41%。现货白银日内涨幅扩大至3%，报59.4美元/盎司。",
+      "link": "https://jinse.com.cn/lives/523071.html",
+      "published": "Tue, 14 Jul 2026 12:38:36 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国两年期国债收益率当日下跌10个基点",
+      "summary": "【美国两年期国债收益率当日下跌10个基点】金色财经报道，美国两年期国债收益率当日下跌10个基点，报4.18%。",
+      "link": "https://jinse.com.cn/lives/523070.html",
+      "published": "Tue, 14 Jul 2026 12:34:46 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "交易员大幅削减对美联储加息的押注",
+      "summary": "【交易员大幅削减对美联储加息的押注】金色财经报道，7月14日，美国6月通胀数据公布后，美国短期利率期货大幅跳涨，交易员大幅削减对美联储加息的押注。",
+      "link": "https://jinse.com.cn/lives/523069.html",
+      "published": "Tue, 14 Jul 2026 12:34:13 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国6月核心CPI同比增长2.6% 预期为2.8%",
+      "summary": "【美国6月核心CPI同比增长2.6% 预期为2.8%】金色财经报道，7月14日，美国6月核心CPI同比增长2.6%，预估为2.8%，前值为2.9%。美国6月核心CPI环比持平，预估增长0.2%。",
+      "link": "https://jinse.com.cn/lives/523068.html",
+      "published": "Tue, 14 Jul 2026 12:33:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美联储主席沃什：美联储对持续高通胀“零容忍”",
+      "summary": "【美联储主席沃什：美联储对持续高通胀“零容忍”】金色财经报道，7月14日，美联储主席沃什表示，美联储对持续高通胀“零容忍”。商业投资是当前经济最显著的特征。美国经济具有韧性，增长步伐稳健。消费增长温和，住房市场持续滞后。AI机遇对决策者构成挑战。正在监测AI对通胀和劳动力市场的影响。劳动力市场总体稳定，名义工资增长稳健。",
+      "link": "https://jinse.com.cn/lives/523067.html",
+      "published": "Tue, 14 Jul 2026 12:32:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国6月CPI同比增长3.5% 低于预期",
+      "summary": "【美国6月CPI同比增长3.5% 低于预期】金色财经报道，7月14日，美国6月消费者价格指数（CPI）同比增长3.5%，预估为增长3.8%，前值为增长4.2%。美国6月CPI环比下降0.4%，预估为下降0.1%，前值为增长0.5%。",
+      "link": "https://jinse.com.cn/lives/523066.html",
+      "published": "Tue, 14 Jul 2026 12:31:01 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BTC突破63000美元",
+      "summary": "【BTC突破63000美元】金色财经报道，行情显示，BTC突破63000美元，现报63000.91美元，24小时涨幅达到0.38%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/523065.html",
+      "published": "Tue, 14 Jul 2026 12:25:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "沃什将于22时出席国会货币政策听证会",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，美联储主席沃什将于北京时间 22:00 出席众议院金融服务委员会「美联储半年度货币政策报告」听证会。</p>",
+      "link": "https://www.theblockbeats.info/flash/356112",
+      "published": "Tue, 14 Jul 2026 13:52:27 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "高盛CEO：AI建设仍处于早期阶段",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，高盛首席执行官所罗门表示，人工智能建设仍处于早期阶段。(金十)</p>",
+      "link": "https://www.theblockbeats.info/flash/356111",
+      "published": "Tue, 14 Jul 2026 13:42:58 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "灰度向Coinbase Prime转入852.7枚BTC",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据 Onchain Lens 监测，灰度向 Coinbase Prime 转入 852.7 枚 BTC，价值约 5440 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/356110",
+      "published": "Tue, 14 Jul 2026 13:40:55 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "AI初创公司Reflection与Nebius签署超10亿美元算力租赁协议",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据路透社报道，AI 初创公司 Reflection 周二表示，已与 Nebius（NBIS.O）签署一项金额超过 10 亿美元的协议，以确保获得计算资源，其中包括使用英伟达（Nvidia）最新一代芯片的算力支持。</p><p><br /></p><p>该协议延续了 Reflection 今年 6 月与 SpaceX 达成的算力合作。Reflection 预计将在 2029 年前每月向 SpaceX 支付约 1.5 亿美元，以获取计算能力支持。</p><p><br /></p><p>点击下方原文链接，加入动察 Beating · 飞书 AI 新闻渠道，7×24 小时不间断监测全球 AI 热点与新闻。</p>",
+      "link": "https://www.theblockbeats.info/flash/356109",
+      "published": "Tue, 14 Jul 2026 13:36:58 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析师：CPI数据偏向鸽派，美联储7月加息预期落空",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，分析师 Justin McQueen 表示，在美联储理事沃勒周一发表偏鹰派讲话、暗示若核心 CPI 表现强劲则可能支持近期加息后，周二公布的美国 6 月通胀数据却释放出明显的鸽派信号。</p><p><br /></p><p>数据显示，6 月核心 CPI 环比持平，低于市场预期的上涨 0.2%；同比涨幅为 2.6%，同样低于预期。这一结果显著削弱了美联储短期内进一步加息的紧迫性。从市场定价来看，7 月加息预期已明显降温。利率市场隐含的 7 月加息概率已回落至约 15%，基本回到沃勒讲话前的水平，意味着投资者几乎已将 7 月加息排除在外。尽管这并不意味着年内进一步收紧政策的可能性完全消失，但美联储再次加息的门槛已明显提高。</p><p><br /></p><p>分析认为，除非中东局势升级导致能源供应再度受扰、油价大幅上涨，从而重新推升通胀压力，否则美联储未来一段时间更可能维持利率不变，短期内加息的可能性已大幅下降。</p>",
+      "link": "https://www.theblockbeats.info/flash/356107",
+      "published": "Tue, 14 Jul 2026 13:34:04 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "IBM暴跌23%，创1987年以来最大单日盘中跌幅",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据 BIT(bit.com) 行情数据，IBM(IBM.N) 暴跌 23%，创 1987 年以来最大单日盘中跌幅。</p><p><br /></p><p>此前报道，IBM 第二财季初步营收为 172 亿美元，预期为 178.6 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/356106",
+      "published": "Tue, 14 Jul 2026 13:32:43 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股开盘，三大股指涨跌互现",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据 BIT（bit.com）行情数据，美股开盘，道指开跌 0.26%，标普 500 指数涨 0.19%，纳指涨 0.53%。</p><p><br /></p><p>SK 海力士 ADR(SKHY.O) 涨超 11%，闪迪 (SNDK.O) 涨超 7%，美光科技 (MU.O) 涨超 5%，高通 (QCOM.O) 涨 2%，英特尔 (INTC.O) 涨 4%。</p>",
+      "link": "https://www.theblockbeats.info/flash/356105",
+      "published": "Tue, 14 Jul 2026 13:30:59 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "做空HYPE亏损4646万美元后，交易员Loracle开启做多SK海力士同步做空原油",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据 Lookonchain 监测，在做空 HYPE 亏损 4646 万美元后，<a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 知名交易员 Loracle 今日开设新的仓位：做多 SKHX，同时做空原油。</p><p><br /></p><p>其盈亏表现如同过山车，曾一度达到 4287 万美元的最高盈利，随后转为 1727 万美元亏损，目前又回升至整体 206 万美元盈利。</p>",
+      "link": "https://www.theblockbeats.info/flash/356104",
+      "published": "Tue, 14 Jul 2026 13:25:51 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "比特币回升突破6.4万美元",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据 HTX 行情数据，比特币回升突破 6.4 万美元，现报价 64,001 美元，24 小时涨幅 2.49%。</p>",
+      "link": "https://www.theblockbeats.info/flash/356103",
+      "published": "Tue, 14 Jul 2026 13:21:55 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "以太坊工程与研究公司EthSystems正式成立",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据 GlobeNewswire 报道，EthSystems 宣布正式成立，公司由以太坊基金会「机构隐私工作组」原班团队创立，获得 Bitmine、Sharplink、Joe Lubin 等支持。<br /><br />EthSystems 主要为银行、资产管理机构等受监管主体开发基于以太坊的隐私与合规技术，旨在支持机构在不公开交易细节和客户身份等敏感信息的情况下开展链上金融活动。公司表示，已提前完成一年开源研发工作，并已与多个中央银行、监管机构及一级金融机构建立合作联系。</p>",
+      "link": "https://www.theblockbeats.info/flash/356102",
+      "published": "Tue, 14 Jul 2026 13:13:25 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "长鑫科技：发行价格为8.66元/股",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，长鑫科技公告，公司首次公开发行股票并在科创板上市，发行价格为 8.66 元/股。投资者请按此价格在 2026 年 7 月 16 日（T 日）进行网上和网下申购，申购时无需缴付申购资金。</p><p><br /></p><p>其中，网下申购时间为 9:30-15:00，网上申购时间为 9:30-11:30，13:00-15:00。本次初始发行股份数量为 668,808.8608 万股，占发行后总股本约 10.00%，并授予中金公司不超过初始发行股份 15.00% 的超额配售选择权。</p>",
+      "link": "https://www.theblockbeats.info/flash/356101",
+      "published": "Tue, 14 Jul 2026 13:12:26 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "存储芯片涨价挤压利润率，爱立信股价大跌",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，瑞典电信设备巨头爱立信（Ericsson）股价在斯德哥尔摩市场大幅下跌，创 18 个月以来最大跌幅。此前公司警告称，由于核心网络业务受到零部件成本飙升影响，本季度利润率将面临压力。</p><p><br /></p><p>爱立信股价一度在斯德哥尔摩市场下跌 10%。即将卸任的首席执行官博里·埃克霍尔姆（Börje Ekholm）表示，公司投入成本正在上升，其中部分原因是人工智能驱动的存储芯片需求激增，推高了相关零部件价格。花旗分析师指出，市场最大的担忧在于利润率压力可能持续至 2027 年。</p><p><br /></p><p>花旗分析师安德鲁·加德纳（Andrew Gardiner）表示：「我们认为，最大的挑战在于零部件成本压力正在形成。短期影响并不是主要问题，更重要的是这种压力可能在 2027 年进一步加剧。」</p><p><br /></p><p>爱立信第二季度调整后息税折旧摊销前利润（EBITA）同比下降 7%，至 68.8 亿瑞典克朗，略高于彭博市场预期的 68.2 亿瑞典克朗。由于电信运营商资本支出疲软持续拖累整个电信设备",
+      "link": "https://www.theblockbeats.info/flash/356100",
+      "published": "Tue, 14 Jul 2026 13:12:10 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Aster推出ANSEM、CASHCAT及CARDS网格交易活动，总奖池1万美元ASTER",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，Aster 宣布推出 Grid-to-Earn 网格交易活动。活动时间为 7 月 14 日 10:00（UTC）至 7 月 21 日 10:00（UTC），用户交易 ANSEMUSDT、CASHCATUSDT 或 CARDSUSDT 合约网格，即可参与瓜分总计 1 万美元等值 ASTER 奖励。</p><p><br /></p><p>网格交易策略通过在设定价格区间内自动挂买卖单，在震荡行情中实现低买高卖。用户可根据市场判断选择中性（Neutral）、做多（Long）或做空（Short）策略，并设置价格区间及网格数量，由系统自动执行交易。</p>",
+      "link": "https://www.theblockbeats.info/flash/356099",
+      "published": "Tue, 14 Jul 2026 13:03:49 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Tether领投Pact Labs 700万美元A轮融资，推动稳定币USAT拓展服务领域",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据官方消息，Tether 今日宣布已领投 Pact Labs 的 700 万美元 A 轮融资，Blockchange Ventures 和 Lasagna 参投。</p><p><br /></p><p>此次投资将支持 Pact Labs 的发展，使其成为 USAT 在薪资支付、工资提前支取、信贷以及日常支付等领域的核心基础设施提供商。</p>",
+      "link": "https://www.theblockbeats.info/flash/356098",
+      "published": "Tue, 14 Jul 2026 13:03:27 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股盘前要闻一览：CPI数据低于预期，IBM营收不及预期大跌",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，美股盘前市场重要新闻一览如下：</p><p><br /></p><p>1、美国 6 月未季调 CPI 年率 3.5%，预期 3.8%。交易员将美联储加息押注推迟至 10 月；</p><p>2、美联储主席沃什表示，美联储对持续高通胀「零容忍」，对 AI 繁荣持谨慎态度；</p><p>3、IBM(IBM.N) 盘前跌超 20%，公司第二财季初步营收为 172 亿美元，预期为 178.6 亿美元；</p><p>4、高盛 (GS.N) 美股盘前涨超 2%，公司第二季度股票销售与交易收入为 74.2 亿美元，预期为 50.2 亿美元；</p><p>5、KeyBanc 上调多家 AI 芯片股目标价，Arm 目标价升至 430 美元，美光科技（MU）目标价升至 1750 美元；</p><p>6、纽约将暂时禁止大型新数据中心建设；</p><p>7、SK 海力士加速为英伟达量产 HBM4；</p><p>8、英伟达在亚洲建立新的客户「白名单」。新一轮审查后，新加坡、马来西亚和日本获准购买 AI 芯片的客户减少一半以上；</p><p>9、特朗普拟强化霍尔木",
+      "link": "https://www.theblockbeats.info/flash/356097",
+      "published": "Tue, 14 Jul 2026 13:00:05 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "交易员将美联储加息押注推迟至10月",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，交易员将美联储加息押注推迟至10月。</p>",
+      "link": "https://www.theblockbeats.info/flash/356096",
+      "published": "Tue, 14 Jul 2026 12:57:40 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "沃什：对经济持乐观态度，对AI繁荣持谨慎态度",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，美联储主席沃什对整体经济形势持乐观态度。他认为，劳动力市场总体稳定，几乎没有裁员现象，名义工资也有所增长。</p><p><br /></p><p>这位美联储主席对人工智能领域的繁荣持更为谨慎的态度。他认为，人工智能虽然推动了企业投资的增加，但也给经济带来了不确定性。</p><p><br /></p><p>他表示：「我们还不清楚经济能在多大程度上从人工智能的发展中受益。」「经济领域出现的新机遇同时也给政策制定者带来了新的挑战。美联储正在密切关注这些变化对通胀和劳动力市场的影响。」</p>",
+      "link": "https://www.theblockbeats.info/flash/356095",
+      "published": "Tue, 14 Jul 2026 12:50:04 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "CPI公布后，美股半导体、光通信及存储板块盘前集体走强",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据 BIT(bit.com) 行情数据，美股盘前半导体股普遍上涨，迈威尔科技（MRVL）涨 5.7%、英特尔（INTC）涨 3.89%、Arm（ARM）涨 3.71%、应用材料（AMAT）涨 6.53%。</p><p><br /></p><p>光通信概念股盘前涨幅居前，康宁（GLW）涨 5.4%、Applied Optoelectronics（AAOI）涨 6.26%、Coherent（COHR）涨 4.05%、Astera Labs（ALAB）涨 6%、Credo（CRDO）涨 6.36%。</p><p><br /></p><p>存储板块同步走强，希捷科技（STX）涨 5.43%；西部数据（WDC）涨 5.3%；闪迪（SNDK）涨 6.54%；美光科技（MU）涨 5.03%。</p><p><br /></p><p>此前，美国公布 6 月未季调 CPI 年率录得 3.5%（前值 4.2%），市场预期为 3.8%。</p>",
+      "link": "https://www.theblockbeats.info/flash/356094",
+      "published": "Tue, 14 Jul 2026 12:48:52 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某币本位交易员卖出全部30,139枚ETH兑换为859枚BTC",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，据余烬监测，某币本位交易员卖出全部 30,139 枚 ETH 兑换为 859 枚 BTC (约 5409 万美元)，卖空汇率为 0.0285，汇率下跌后将可再买回更多 ETH。</p>",
+      "link": "https://www.theblockbeats.info/flash/356093",
+      "published": "Tue, 14 Jul 2026 12:45:31 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国CPI自2020年以来首次下降，核心指标持平",
+      "summary": "<p>BlockBeats 消息，7 月 14 日，美国 6 月份消费者价格六年来首次出现下滑，且一项衡量潜在通胀的关键指标基本持平，这在一定程度上缓解了美联储加息的压力。</p><p><br /></p><p>根据美国劳工统计局周二公布的数据，消费者价格指数（CPI）较 5 月份下降 0.4%，较上年同期上涨 3.5%。剔除食品和能源后的核心指数与 5 月份持平，较上年同期上涨 2.6%。</p><p><br /></p><p>该报告显示，随着伊朗战争引发的能源价格冲击最严重时期开始消退，6 月份汽油价格的下跌为消费者带来了一定程度的缓解。在美联储本月底召开会议之前，美联储官员可能会对这一数据表示欢迎；不过，美伊敌对局势重燃导致油价再次上涨，这可能延长该冲突引发的通胀影响。</p><p><br /></p><p>随着投资者减少对美联储 7 月份加息的押注，美国股指期货上涨，国债收益率下跌。数据显示，核心通胀指标受到抑制，主要归因于服装和二手车等商品价格的下跌。机动车保险费也大幅下降。</p>",
+      "link": "https://www.theblockbeats.info/flash/356092",
+      "published": "Tue, 14 Jul 2026 12:42:41 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "CleanSpark Shares Jump on $6.6 Billion Data-Center Deal",
+      "summary": "",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-14/cleanspark-agrees-20-year-data-center-lease-for-6-6-billion",
+      "published": "Tue, 14 Jul 2026 13:43:47 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "Perpetuals.com ends acquisition talks with Trump-linked crypto firm - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ09aWEh4YUVhTDBLbTlKM0lNbzlBRmlMR0JMdXZGX052WUtHU21BMlpieU8zeUJ2SWwta3FEbERzNUxCb1AxdGRuR3lfVVoteHJXQTByTWktSGlJTzNoMHlPZzBQMkdLWE92QW1GZUd5UWM4SWZ6UnlsQmVOeHVPdS1mdVJySGtkbmpHaFFCRFhvSkFtLWQ4eDhYcE44QUVlY0xMSy1Fanctc2E4VU44MnRaUUJKLWRBYmRwY3ZaTQ?oc=5\" target=\"_blank\">Perpetuals.com ends acquisition talks with Trump-linked crypto firm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ09aWEh4YUVhTDBLbTlKM0lNbzlBRmlMR0JMdXZGX052WUtHU21BMlpieU8zeUJ2SWwta3FEbERzNUxCb1AxdGRuR3lfVVoteHJXQTByTWktSGlJTzNoMHlPZzBQMkdLWE92QW1GZUd5UWM4SWZ6UnlsQmVOeHVPdS1mdVJySGtkbmpHaFFCRFhvSkFtLWQ4eDhYcE44QUVlY0xMSy1Fanctc2E4VU44MnRaUUJKLWRBYmRwY3ZaTQ?oc=5",
+      "published": "Tue, 14 Jul 2026 13:54:02 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Warren Buffett excludes Gates Foundation from his annual donations of Berkshire stock - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPVnFsMnVJOUhTNTNEeExEQVlyNVF6czQzZ1g2YVFPcnplYVZJWklaaWJ2SEpabG5QWlY2SU9JZTZydGlaTHR5X2tKNjJGNW1FQ2RkM2p4TG83UjFOcFJMVGxib0lXeXh3OWljVV9VYTVNZjMxTkFmMkp6RGRGV2dNZGhtSDNvNFp3M2VJb1hkVC1xVUlGQ2M0azBVV2JPVE9mNVFLWV9IeDBsdi1IOHpzQjd6dWRDS0g4NHpGV2kwMNIBxAFBVV95cUxNdUtBVVZ3UTVaYTFSbG5iRTdjcWVQdFgxN3dVWThibVJTUlBwTEFoR3c2cFdZejBBazQzM3psLVR1RkEtdnBHMlpwQmRmM2ZHMU5HNnV5cXlNaUdhZjVoQnhIQ0N0eklQUVY5eUQwS1NPUi1ORmhYOVJaVE1mbGRTbEVBSHFOWFh1akVfV0",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVnFsMnVJOUhTNTNEeExEQVlyNVF6czQzZ1g2YVFPcnplYVZJWklaaWJ2SEpabG5QWlY2SU9JZTZydGlaTHR5X2tKNjJGNW1FQ2RkM2p4TG83UjFOcFJMVGxib0lXeXh3OWljVV9VYTVNZjMxTkFmMkp6RGRGV2dNZGhtSDNvNFp3M2VJb1hkVC1xVUlGQ2M0azBVV2JPVE9mNVFLWV9IeDBsdi1IOHpzQjd6dWRDS0g4NHpGV2kwMNIBxAFBVV95cUxNdUtBVVZ3UTVaYTFSbG5iRTdjcWVQdFgxN3dVWThibVJTUlBwTEFoR3c2cFdZejBBazQzM3psLVR1RkEtdnBHMlpwQmRmM2ZHMU5HNnV5cXlNaUdhZjVoQnhIQ0N0eklQUVY5eUQwS1NPUi1ORmhYOVJaVE1mbGRTbEVBSHFOWFh1akVfV0pHS2hRb3NKWFpSWkVRZklwbHlacHVPZWpxV1phSFhVQjl2WGlSSF9Vd3EtZG1nQjdMSjNkZVMt?oc=5",
+      "published": "Tue, 14 Jul 2026 12:05:38 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Frontier Airlines to debut in-flight Wi-Fi in 2027 with SpaceX's Starlink - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQaGtFaE9SMTM3MFVkdzhFUGlkVmRaSzl0andxcVh6elZCQk80eEk3bkI3TnlINjdTd1k3eTExTU8tMnBHRmVRNkUzU0VJTzdPWEp2Y3hEOXc4Qi1pODloMlRUcDhwRU1QWGo5MDVQaFhWRnJpLTg0LXNMT01hcThaadIBhgFBVV95cUxObkpuQ0RBQlJVNW1sS1JHZzdLeWFFdGpVTFNGQXM3dzZyR29Nbzc2RjNnaGpTQ2hTdFZpemR2ME1HTUh3SGZGbDdHZG1FcTRKc0JsTzhfTzBwUTUyYU5KY3diSXJaYl8wUVAxTW94Q01mREJSU0ZaT3JGSWdIR2lMUzNhSkJlQQ?oc=5\" target=\"_blank\">Frontier Airlines to debut in-flight Wi-Fi in 2027 with SpaceX's Star",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaGtFaE9SMTM3MFVkdzhFUGlkVmRaSzl0andxcVh6elZCQk80eEk3bkI3TnlINjdTd1k3eTExTU8tMnBHRmVRNkUzU0VJTzdPWEp2Y3hEOXc4Qi1pODloMlRUcDhwRU1QWGo5MDVQaFhWRnJpLTg0LXNMT01hcThaadIBhgFBVV95cUxObkpuQ0RBQlJVNW1sS1JHZzdLeWFFdGpVTFNGQXM3dzZyR29Nbzc2RjNnaGpTQ2hTdFZpemR2ME1HTUh3SGZGbDdHZG1FcTRKc0JsTzhfTzBwUTUyYU5KY3diSXJaYl8wUVAxTW94Q01mREJSU0ZaT3JGSWdIR2lMUzNhSkJlQQ?oc=5",
+      "published": "Tue, 14 Jul 2026 13:00:01 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "This trucking stock has doubled in 2026. BMO says it has more room to run - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU0laUlQ4RVMxQlp3Rm5oRkdDUUhXNVFOc2dWYWJSVXRXaFJUcEFZNVlXNDNnaGpzRm1jeFRxSm9FYllNZzJpY3M4SEpNVms2dkpPNHdYb0M3Y0pYTTlKUU10Q2YzeGhfTHpsRkZZcTR3UVBaWVNoRkUxYXg4WWtUMmtpN3p5eF9kVnZoYXRmOXJ6eVlqcVh2Z0JzOWZSWkdtZ2U5LTB6OFMxdw?oc=5\" target=\"_blank\">This trucking stock has doubled in 2026. BMO says it has more room to run</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU0laUlQ4RVMxQlp3Rm5oRkdDUUhXNVFOc2dWYWJSVXRXaFJUcEFZNVlXNDNnaGpzRm1jeFRxSm9FYllNZzJpY3M4SEpNVms2dkpPNHdYb0M3Y0pYTTlKUU10Q2YzeGhfTHpsRkZZcTR3UVBaWVNoRkUxYXg4WWtUMmtpN3p5eF9kVnZoYXRmOXJ6eVlqcVh2Z0JzOWZSWkdtZ2U5LTB6OFMxdw?oc=5",
+      "published": "Tue, 14 Jul 2026 12:09:52 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "TikTok policy chief defends safety measures amid EU push to limit children's social media access - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQLWVERUhSZlN6MTdZZTlyamxkdXhzR3ZjZzV1X1dQcDIzcExva0JXU0dMNE55TVFxUXJrczFQYmkyRFBmci1ZOGZvbXE0VGtUOURLU2FaNTNlWFVLTDM4YkhRLUVqVW5DczB6alRURDVUX3RLVEFNd1RvRUU5dlMtZHA2UzBPc0VNQnBYOTgzTdIBlAFBVV95cUxQTndhYlJpM1hGU1VWeDBmNC1uejdic0l3eldaNVJRQkJjTC1YVzliRXBfaWJMWDJGczJqY1czODhjU1p5dnZLRTVsVy1GdkpGeFVfTG83S3ctY01QUzdhZFVFWFhiYmdXU0lTa2NyRmpOUGtNLWplQndEN09FMjNCbm1pT2FnRUhyeTlMblU3U3VENnp0?oc=5\" target=\"_blank\">TikTok policy chief defends saf",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLWVERUhSZlN6MTdZZTlyamxkdXhzR3ZjZzV1X1dQcDIzcExva0JXU0dMNE55TVFxUXJrczFQYmkyRFBmci1ZOGZvbXE0VGtUOURLU2FaNTNlWFVLTDM4YkhRLUVqVW5DczB6alRURDVUX3RLVEFNd1RvRUU5dlMtZHA2UzBPc0VNQnBYOTgzTdIBlAFBVV95cUxQTndhYlJpM1hGU1VWeDBmNC1uejdic0l3eldaNVJRQkJjTC1YVzliRXBfaWJMWDJGczJqY1czODhjU1p5dnZLRTVsVy1GdkpGeFVfTG83S3ctY01QUzdhZFVFWFhiYmdXU0lTa2NyRmpOUGtNLWplQndEN09FMjNCbm1pT2FnRUhyeTlMblU3U3VENnp0?oc=5",
+      "published": "Tue, 14 Jul 2026 12:01:32 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNcm9XNEdSNkktczM1amczZ1J5Zm9scHJGS3ZESHdOUmlRMldFLXVIUGl0Ti1hd0VGdUdjQzMtbDhKcVdONnctcUd6cFNMb1Azc01ZVTctLXRHeXJTNmVNSHE3NDdNNE5qX0dmVmJ1YnMzWjdaVVFING1xOFZuaFFjekhYZDhqMXB6NFAzQ055QnN5UFFJSlJwM01tVHdqVmEw?oc=5\" target=\"_blank\">Jim Cramer's top 10 things to watch in the stock market Tuesday</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcm9XNEdSNkktczM1amczZ1J5Zm9scHJGS3ZESHdOUmlRMldFLXVIUGl0Ti1hd0VGdUdjQzMtbDhKcVdONnctcUd6cFNMb1Azc01ZVTctLXRHeXJTNmVNSHE3NDdNNE5qX0dmVmJ1YnMzWjdaVVFING1xOFZuaFFjekhYZDhqMXB6NFAzQ055QnN5UFFJSlJwM01tVHdqVmEw?oc=5",
+      "published": "Tue, 14 Jul 2026 13:22:20 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "United Airlines' new upsell: Keeping other travelers out of the middle seat - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmlxaURPNGFZdklPeEFKcGp1QjVtclpVU09lZ2U3eXRtb3A4bE1nYllPZjctZjdSSG5uYUxMakR3VEltY0xSTFpjN3NHQkcxbUVXYVN5YjAzeDljcnhLOWlwZ2ZUSFRZbXZKNVlzMHh3dTlITlAxdVd0aktpSUlRUm9pcGpraGFGWFJCRE1hamRuUdIBlwFBVV95cUxOeWpVaUVGZXZXbVpuZS1rRXhIc3czTmFIMFdlVXZqWmRxT3B3MkJmMF9ZdkdSWWhNWkhnNFVUMUw3Y2dLdGkzUlM1dGd6cWRHRUNPbDV6MEh3ZE9jdFhmc0FQTHdGOFlJakt1SUptY2Nqa1daZkVNMi1uZHpLdzNQcGVhek5lZUo1UnM1OWw5aS1hSjk0Ym84?oc=5\" target=\"_blank\">United Airlines' new up",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmlxaURPNGFZdklPeEFKcGp1QjVtclpVU09lZ2U3eXRtb3A4bE1nYllPZjctZjdSSG5uYUxMakR3VEltY0xSTFpjN3NHQkcxbUVXYVN5YjAzeDljcnhLOWlwZ2ZUSFRZbXZKNVlzMHh3dTlITlAxdVd0aktpSUlRUm9pcGpraGFGWFJCRE1hamRuUdIBlwFBVV95cUxOeWpVaUVGZXZXbVpuZS1rRXhIc3czTmFIMFdlVXZqWmRxT3B3MkJmMF9ZdkdSWWhNWkhnNFVUMUw3Y2dLdGkzUlM1dGd6cWRHRUNPbDV6MEh3ZE9jdFhmc0FQTHdGOFlJakt1SUptY2Nqa1daZkVNMi1uZHpLdzNQcGVhek5lZUo1UnM1OWw5aS1hSjk0Ym84?oc=5",
+      "published": "Tue, 14 Jul 2026 13:17:32 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Warsh promises inflation will be a 'thing of the past,' cites benefits of AI investment boom - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPMTVOeldLR0ZKajhJYmlDM2V0TlVUNkVnUGdNTnZUX0poam1SbnQ4Mk1ycmRZR3VXV3dVTlEza3pEMTBaODNVWi0xVFA3ckRjNVdDUDFHS3p5UkRLUHpDUzU5VGJZRVAtVm5EZmdxRW9qZTRlVUFLTE9IVE1DQllsQkp2MFM5RXVBMmt5WTFWdjBXbHNvU1k4VkphNXY2djVnMlRpWUx0azRWZUIxU2ZmNTNoRl9lMHZJbVhkY0hMZ291aV900gHKAUFVX3lxTE8zbVlvYkpJNHhjUm1GNTR4WmJDVXZQUkFfNEVuQ1ZaSzJKV1U5UklkRnZ1bkp0cmludnVqTGJPSGt0RUd0R2dyblRZLTQxa056cUU1V25TcFpyNGNwSkcwNnhrMEw5LTFfdllZbXByeDJNd0N3cnRBVXNGckQ2UkM0UVlmaHpWdk",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMTVOeldLR0ZKajhJYmlDM2V0TlVUNkVnUGdNTnZUX0poam1SbnQ4Mk1ycmRZR3VXV3dVTlEza3pEMTBaODNVWi0xVFA3ckRjNVdDUDFHS3p5UkRLUHpDUzU5VGJZRVAtVm5EZmdxRW9qZTRlVUFLTE9IVE1DQllsQkp2MFM5RXVBMmt5WTFWdjBXbHNvU1k4VkphNXY2djVnMlRpWUx0azRWZUIxU2ZmNTNoRl9lMHZJbVhkY0hMZ291aV900gHKAUFVX3lxTE8zbVlvYkpJNHhjUm1GNTR4WmJDVXZQUkFfNEVuQ1ZaSzJKV1U5UklkRnZ1bkp0cmludnVqTGJPSGt0RUd0R2dyblRZLTQxa056cUU1V25TcFpyNGNwSkcwNnhrMEw5LTFfdllZbXByeDJNd0N3cnRBVXNGckQ2UkM0UVlmaHpWdk1MaW1pS2VIaE96bGRlUEFyU2daSmNnV0k5MTkxb1dmRlN0RFB5YTZqR3RYT2NMRmoyWlZhWlFGTzVjVzE0SkI1OGc?oc=5",
+      "published": "Tue, 14 Jul 2026 12:30:21 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Bitcoin movement July-October 2026",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I was wondering what people have predicted for price movement between the months mentioned.</p> <p>I’ve seen a lot of talk online about a steep bottom in October. I am just curious as to why so many people are so sure that bitcoin will continue moving downward. I’m looking for genuine data/fact backed reasoning for this claim. </p> <p>If there’s a genuine reason for this, I would like to know so I can configure my strategy to incorporate such information.</p> <p",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uw76e3/bitcoin_movement_julyoctober_2026/",
+      "published": "2026-07-14T12:23:54+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "\"Trust me Mechanic — I knew BIP110 would lead to a chainsplit. Now watch me adjust the difficulty and make the Bitaxes go... *pounds his chest* thump thump next block.\" BIP110 is a Fugazi.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1uw8lo8/trust_me_mechanic_i_knew_bip110_would_lead_to_a/\"> <img alt=\"&quot;Trust me Mechanic — I knew BIP110 would lead to a chainsplit. Now watch me adjust the difficulty and make the Bitaxes go... *pounds his chest* thump thump next block.&quot; BIP110 is a Fugazi.\" src=\"https://external-preview.redd.it/bjBxM2U0cDc1N2RoMQ0aBJGJmL1fv8o-mL8H4aqAH2jDdnrM2Cpm6gsIVHj3.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e5cdb10e4e05346",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uw8lo8/trust_me_mechanic_i_knew_bip110_would_lead_to_a/",
+      "published": "2026-07-14T13:23:33+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "“There is no real use case for Bitcoin”",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1uw6ybe/there_is_no_real_use_case_for_bitcoin/\"> <img alt=\"“There is no real use case for Bitcoin”\" src=\"https://external-preview.redd.it/kTq2WmpYSuyBC72efF4QYjA0st-S27ZzjCP43aWsT7o.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=b355760e00bb304e5f5c4d90ad11c1e7616a7016\" title=\"“There is no real use case for Bitcoin”\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Please show support for the real people driving Bitcoin ad",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1uw6ybe/there_is_no_real_use_case_for_bitcoin/",
+      "published": "2026-07-14T12:13:38+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Prediction: This Cryptocurrency Could Overtake Bitcoin and Ethereum Combined in Total Value - The Motley Fool",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNNEJqbFVIdzhMLXRZV0g2OFctSzM0ZUtOeW1jVzl3ZUVZeTc4dThOdEpaaklEZTNRWEkyZG1vOFd3dFVPcWJxU3dyRW1adS1oZUdlZHFwTXNZQ0loLTY0SmRSMXBJN3pKcXpvcDRueGFWNlFGWXVyV0JXby1oUlJiMXpYVVhwVFF2NllRV1dR?oc=5\" target=\"_blank\">Prediction: This Cryptocurrency Could Overtake Bitcoin and Ethereum Combined in Total Value</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNEJqbFVIdzhMLXRZV0g2OFctSzM0ZUtOeW1jVzl3ZUVZeTc4dThOdEpaaklEZTNRWEkyZG1vOFd3dFVPcWJxU3dyRW1adS1oZUdlZHFwTXNZQ0loLTY0SmRSMXBJN3pKcXpvcDRueGFWNlFGWXVyV0JXby1oUlJiMXpYVVhwVFF2NllRV1dR?oc=5",
+      "published": "Tue, 14 Jul 2026 13:10:35 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin and ethereum prices today, Tuesday, July 14, 2026: - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOUkNiQlhMYWV5NDloQkktZDVEUnJNNFJQSDhWZnJPd1dVN2kySDRyQ09pSnl6VjNsVl90RGJKVXhSTExseUh0dzdULVV0WDU5VHZ1dTVIWEJxTkMtZzdBY0FQRkZvRWxZOTAyckh5ay1iM1JyYS1NeDRFZE1oVjBuLWdDRVlGSHA5TERwQWRCN3JMdnJESFpGTDYxOGNqRWVEb0N6YzRrZzBxNFUtX01hQnJwVDhSUWRkVkZCZUFnWE5mcGhoUGp4QVVR?oc=5\" target=\"_blank\">Bitcoin and ethereum prices today, Tuesday, July 14, 2026:</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUkNiQlhMYWV5NDloQkktZDVEUnJNNFJQSDhWZnJPd1dVN2kySDRyQ09pSnl6VjNsVl90RGJKVXhSTExseUh0dzdULVV0WDU5VHZ1dTVIWEJxTkMtZzdBY0FQRkZvRWxZOTAyckh5ay1iM1JyYS1NeDRFZE1oVjBuLWdDRVlGSHA5TERwQWRCN3JMdnJESFpGTDYxOGNqRWVEb0N6YzRrZzBxNFUtX01hQnJwVDhSUWRkVkZCZUFnWE5mcGhoUGp4QVVR?oc=5",
+      "published": "Tue, 14 Jul 2026 12:30:22 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Prediction: This Cryptocurrency Could Overtake Bitcoin and Ethereum Combined in Total Value - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOTUpKQUEwMFM1SG1HbFdsQ3pvcmNhTDVsd2tqNzhLRFBUUDlvajN1WnRiLTJKbVl3YnhLMW1RajkyUXhLVmxwa3VWM3RockdwUGFNdDMxcDJvOHp2anZ6Y1lVdGp2MXh4eW5ET2JaS0d4R0tUWjFBZ1A2ZzNQenVueEsyZDRnU1VjUS01R0sxRVVfQ3lmSW1Sbnc0OEFPNFdzYlE1Vzl3dXYxblFYYUl4R2lDVQ?oc=5\" target=\"_blank\">Prediction: This Cryptocurrency Could Overtake Bitcoin and Ethereum Combined in Total Value</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTUpKQUEwMFM1SG1HbFdsQ3pvcmNhTDVsd2tqNzhLRFBUUDlvajN1WnRiLTJKbVl3YnhLMW1RajkyUXhLVmxwa3VWM3RockdwUGFNdDMxcDJvOHp2anZ6Y1lVdGp2MXh4eW5ET2JaS0d4R0tUWjFBZ1A2ZzNQenVueEsyZDRnU1VjUS01R0sxRVVfQ3lmSW1Sbnc0OEFPNFdzYlE1Vzl3dXYxblFYYUl4R2lDVQ?oc=5",
+      "published": "Tue, 14 Jul 2026 13:20:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Perpetuals.com ends acquisition talks with Trump-linked crypto firm - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ09aWEh4YUVhTDBLbTlKM0lNbzlBRmlMR0JMdXZGX052WUtHU21BMlpieU8zeUJ2SWwta3FEbERzNUxCb1AxdGRuR3lfVVoteHJXQTByTWktSGlJTzNoMHlPZzBQMkdLWE92QW1GZUd5UWM4SWZ6UnlsQmVOeHVPdS1mdVJySGtkbmpHaFFCRFhvSkFtLWQ4eDhYcE44QUVlY0xMSy1Fanctc2E4VU44MnRaUUJKLWRBYmRwY3ZaTQ?oc=5\" target=\"_blank\">Perpetuals.com ends acquisition talks with Trump-linked crypto firm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ09aWEh4YUVhTDBLbTlKM0lNbzlBRmlMR0JMdXZGX052WUtHU21BMlpieU8zeUJ2SWwta3FEbERzNUxCb1AxdGRuR3lfVVoteHJXQTByTWktSGlJTzNoMHlPZzBQMkdLWE92QW1GZUd5UWM4SWZ6UnlsQmVOeHVPdS1mdVJySGtkbmpHaFFCRFhvSkFtLWQ4eDhYcE44QUVlY0xMSy1Fanctc2E4VU44MnRaUUJKLWRBYmRwY3ZaTQ?oc=5",
+      "published": "Tue, 14 Jul 2026 13:54:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "The U.S. New Hampshire Expands Crypto Protections for Self-Custody, Mining, and Staking - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1RdmFJdlVzeVNVazM3amVHLTFKTnhnN04tTG9OdDhGMXFlQXJ2VXpmTGd5UjluNjlFakR1WVRsYWlNV0ZwQWJyNHkyRlZ3RzkwZ2JfU3ZUbmlManU1YlNPU1pZVkcxLUtOR0UwVVlWTlktZFZhZm11amV0MA?oc=5\" target=\"_blank\">The U.S. New Hampshire Expands Crypto Protections for Self-Custody, Mining, and Staking</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RdmFJdlVzeVNVazM3amVHLTFKTnhnN04tTG9OdDhGMXFlQXJ2VXpmTGd5UjluNjlFakR1WVRsYWlNV0ZwQWJyNHkyRlZ3RzkwZ2JfU3ZUbmlManU1YlNPU1pZVkcxLUtOR0UwVVlWTlktZFZhZm11amV0MA?oc=5",
+      "published": "Tue, 14 Jul 2026 13:11:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto buyers may be emerging from their winter hibernation - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV3V4Mnk3MmZTUUxoRVllNDJEanVkMXpENEg2SjY2VTBISVFPWjNsc2lRcEhLdnV5QnZ3Sk9ORl9LSmVGTlV4LWhCc0M3Yjg4YnU5amV3SGNtMXFEdUtnVmZIc0NkRGo3UFUwaVhsNUxoa3pxTGRucE1URHhfb3VrdFNZdU5yaW9Fa0NvWWJzd0ZxekUzOGlYTFZwNzE5VjJZbmxidDU4OUZOdEZYMVB0S3Mwa1liS2ZIWWlHcGs5bkk?oc=5\" target=\"_blank\">Crypto buyers may be emerging from their winter hibernation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV3V4Mnk3MmZTUUxoRVllNDJEanVkMXpENEg2SjY2VTBISVFPWjNsc2lRcEhLdnV5QnZ3Sk9ORl9LSmVGTlV4LWhCc0M3Yjg4YnU5amV3SGNtMXFEdUtnVmZIc0NkRGo3UFUwaVhsNUxoa3pxTGRucE1URHhfb3VrdFNZdU5yaW9Fa0NvWWJzd0ZxekUzOGlYTFZwNzE5VjJZbmxidDU4OUZOdEZYMVB0S3Mwa1liS2ZIWWlHcGs5bkk?oc=5",
+      "published": "Tue, 14 Jul 2026 13:52:03 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "What Bitcoin's Institutional Outflows Really Tell Investors About 2026 - StoneX",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY2Z6ODZSTW5senZQQW1kbW82QkQwR1VPMDgxSy1wNDdKY0RDZWhIYTh5b20xdkMtZUZDeFEwelpaczhXdUxWUm1BTkI5THdxZ3FfOWNpS0VhV05vWE9VY2tOSEZSUTFUVWtRR3VjMFVPLUp6c3Vka2ZBMGJiZ1kxN3ExS29TRGNtR3pMZl9sNXhIbGwzN20tYkV6YlFRSU5VSlVsX3diSDRoQQ?oc=5\" target=\"_blank\">What Bitcoin's Institutional Outflows Really Tell Investors About 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StoneX</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY2Z6ODZSTW5senZQQW1kbW82QkQwR1VPMDgxSy1wNDdKY0RDZWhIYTh5b20xdkMtZUZDeFEwelpaczhXdUxWUm1BTkI5THdxZ3FfOWNpS0VhV05vWE9VY2tOSEZSUTFUVWtRR3VjMFVPLUp6c3Vka2ZBMGJiZ1kxN3ExS29TRGNtR3pMZl9sNXhIbGwzN20tYkV6YlFRSU5VSlVsX3diSDRoQQ?oc=5",
+      "published": "Tue, 14 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "U.S. Government Moves Seized Bitcoin And Ethereum To Coinbase Exchange - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQSENaM1cyYUxXR2FObUtZdThSYXh6VFdoV0Zia1hzY2xDZzB5TUU2RE9OekdBTUs5bFloMVJiZmVURVFoTURZTk1QYzd0WFBieHJ6WEF4REZhdUlNLTZqZ3NBX1RSRGlhbWhmRm1WaHFQTUN5QmFZdXlWU2dwMXBRZ25rMm5yTU9uU1NHYVFyaHRxRnRudV9Oblo1clVsZXc?oc=5\" target=\"_blank\">U.S. Government Moves Seized Bitcoin And Ethereum To Coinbase Exchange</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSENaM1cyYUxXR2FObUtZdThSYXh6VFdoV0Zia1hzY2xDZzB5TUU2RE9OekdBTUs5bFloMVJiZmVURVFoTURZTk1QYzd0WFBieHJ6WEF4REZhdUlNLTZqZ3NBX1RSRGlhbWhmRm1WaHFQTUN5QmFZdXlWU2dwMXBRZ25rMm5yTU9uU1NHYVFyaHRxRnRudV9Oblo1clVsZXc?oc=5",
+      "published": "Tue, 14 Jul 2026 13:37:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Best Cloud Mining Platforms for Bitcoin Mining in 2026 - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9Yb0FYeFpXUm83N1owWFpZbV9OaDVoaHlrN2hhelJVVVZ1emVOU2Q2QUlzQUdYX0RoSGdmZ3BiZmFiQUVVdmhuTFlmQnZxd1U2eXZlQWZGLWNVR3EyTW90alpNTzZhNVJYUDR4aTNTS0pvUmhpcTRWZUlzQQ?oc=5\" target=\"_blank\">Best Cloud Mining Platforms for Bitcoin Mining in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Yb0FYeFpXUm83N1owWFpZbV9OaDVoaHlrN2hhelJVVVZ1emVOU2Q2QUlzQUdYX0RoSGdmZ3BiZmFiQUVVdmhuTFlmQnZxd1U2eXZlQWZGLWNVR3EyTW90alpNTzZhNVJYUDR4aTNTS0pvUmhpcTRWZUlzQQ?oc=5",
+      "published": "Tue, 14 Jul 2026 13:25:08 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "CPI Surprise: Inflation Drops Sharper Than Expected, Lifting Crypto Outlook - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3JTN2N1dGIzaUhMbDYwOVJLdGU1ZmFYUnlLOWw2djJ1d2hzZ3M5LUhmS3prZjlGOWxjVG4zcXNwS2V3bS1NX2s3YTJpcFNzX3pNRGFUQ0l6cWdqeUx6dWtGVWZpaXdaRjBBYXY3LVZfRjVVbjgxa1lOVm91S0hGejlyYVRFTDhPSXotdVg0QXhuV1hXREVhLU5KU2VlOE1MWTNz?oc=5\" target=\"_blank\">CPI Surprise: Inflation Drops Sharper Than Expected, Lifting Crypto Outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3JTN2N1dGIzaUhMbDYwOVJLdGU1ZmFYUnlLOWw2djJ1d2hzZ3M5LUhmS3prZjlGOWxjVG4zcXNwS2V3bS1NX2s3YTJpcFNzX3pNRGFUQ0l6cWdqeUx6dWtGVWZpaXdaRjBBYXY3LVZfRjVVbjgxa1lOVm91S0hGejlyYVRFTDhPSXotdVg0QXhuV1hXREVhLU5KU2VlOE1MWTNz?oc=5",
+      "published": "Tue, 14 Jul 2026 12:38:34 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Boundless taps idle crypto GPUs to cut AI inference costs - SiliconANGLE",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPY3NGdjNkaHpVdVdxdm9Qbi0tbFMwRHY1T2FaWW5iNy1zWmV4TS10Sm9URXQ2a2VHcHBvR0RnSlp2bUVtTzBwY1dfdnQ0NGlIek5GeUJ3RWxoN2Y5SkVNZ1czdjZTSXMtQk5qN1d4SzFYWWhZTDYxVlZQN0h2MXljcUVPWUNMd09OVWFERmczdDhNeGZxYnc?oc=5\" target=\"_blank\">Boundless taps idle crypto GPUs to cut AI inference costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SiliconANGLE</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY3NGdjNkaHpVdVdxdm9Qbi0tbFMwRHY1T2FaWW5iNy1zWmV4TS10Sm9URXQ2a2VHcHBvR0RnSlp2bUVtTzBwY1dfdnQ0NGlIek5GeUJ3RWxoN2Y5SkVNZ1czdjZTSXMtQk5qN1d4SzFYWWhZTDYxVlZQN0h2MXljcUVPWUNMd09OVWFERmczdDhNeGZxYnc?oc=5",
+      "published": "Tue, 14 Jul 2026 13:00:47 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Federal Reserve, Bank of England face trust deficit amid inflation concerns - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1LQnBHeWd6UnQ3WGFvRFBVbFI0alMteEFadldYQ0RxbzRibVFwYWhzZWJvYzFFd1dDSWxuLWFGUUROZVVGSk1PRWZxaDJpaFMwcy1LbGQzVXo4MUIxZndLMTNoQk9GcGd5Unc4V3d6aTktLW03?oc=5\" target=\"_blank\">Federal Reserve, Bank of England face trust deficit amid inflation concerns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LQnBHeWd6UnQ3WGFvRFBVbFI0alMteEFadldYQ0RxbzRibVFwYWhzZWJvYzFFd1dDSWxuLWFGUUROZVVGSk1PRWZxaDJpaFMwcy1LbGQzVXo4MUIxZndLMTNoQk9GcGd5Unc4V3d6aTktLW03?oc=5",
+      "published": "Tue, 14 Jul 2026 12:18:03 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes - Cryptonews.net",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CRkVRbUJHR2I5dWFqbXZOcVVBdU85Y2pYZGRQNkRrLXY5dTRCTjliUkNJcFlFWk1NNHJDS3NSbHZjWFJ5X0d4NEVwVjhqUEZhOEJTWktXTTc?oc=5\" target=\"_blank\">U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews.net</font>",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CRkVRbUJHR2I5dWFqbXZOcVVBdU85Y2pYZGRQNkRrLXY5dTRCTjliUkNJcFlFWk1NNHJDS3NSbHZjWFJ5X0d4NEVwVjhqUEZhOEJTWktXTTc?oc=5",
+      "published": "Tue, 14 Jul 2026 13:02:29 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin jumps near $62,600 as US inflation drops 0.4%, boosting hopes for Fed rate cuts. - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQZWwzWmZEWmhVQ01QVUM1QkRsZzByUWJ0VnFDT1BxZ09MSUdzaW5BRHl0MW5iVFBSTno5dDRJdU54eWotLWZHYU5Hdmx1Ynkwb0JZSWFDSzNPbG9YNW5TQmRDVUFWb000UDBaRkgzcUl5cm5FY29tVmpDT09FNFNYTUxqMVUzX2xiT0c0b04tT01UNk5RNlhaYQ?oc=5\" target=\"_blank\">Bitcoin jumps near $62,600 as US inflation drops 0.4%, boosting hopes for Fed rate cuts.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZWwzWmZEWmhVQ01QVUM1QkRsZzByUWJ0VnFDT1BxZ09MSUdzaW5BRHl0MW5iVFBSTno5dDRJdU54eWotLWZHYU5Hdmx1Ynkwb0JZSWFDSzNPbG9YNW5TQmRDVUFWb000UDBaRkgzcUl5cm5FY29tVmpDT09FNFNYTUxqMVUzX2xiT0c0b04tT01UNk5RNlhaYQ?oc=5",
+      "published": "Tue, 14 Jul 2026 12:54:51 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "US consumer prices fall in June, easing pressure on Federal Reserve - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQcG5Rb1g2QXAtTGFKM2pHM3Uza0V4LXNIZEI0Z05sd2FNU2lHMUxaNEw1a1hpZ203cDZrTEpySl81SS02QnFiTy0wc2tUbmNKN3JUbzJzLTVFVkd5bjB1ZEJCbVYtQ3dweDgwVFBuLUlZYTllajJ6TmNiclF5bklxbUVQcFBhQlhic2lnekg3VDA5Z2JTSlphb05n?oc=5\" target=\"_blank\">US consumer prices fall in June, easing pressure on Federal Reserve</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcG5Rb1g2QXAtTGFKM2pHM3Uza0V4LXNIZEI0Z05sd2FNU2lHMUxaNEw1a1hpZ203cDZrTEpySl81SS02QnFiTy0wc2tUbmNKN3JUbzJzLTVFVkd5bjB1ZEJCbVYtQ3dweDgwVFBuLUlZYTllajJ6TmNiclF5bklxbUVQcFBhQlhic2lnekg3VDA5Z2JTSlphb05n?oc=5",
+      "published": "Tue, 14 Jul 2026 12:46:37 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "US CPI Report Releases Today: What To Expect - Cryptonews.net",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1USWVJNjhSemMxMEEwdDFqTC1jVkhmX1BGLW42QjBLdlRRRzFQNW1tTkE4WFdETnBEQlhsaXVFbThraGNzaFViSksteTRBYzExN3c3Mkw1U28?oc=5\" target=\"_blank\">US CPI Report Releases Today: What To Expect</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews.net</font>",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1USWVJNjhSemMxMEEwdDFqTC1jVkhmX1BGLW42QjBLdlRRRzFQNW1tTkE4WFdETnBEQlhsaXVFbThraGNzaFViSksteTRBYzExN3c3Mkw1U28?oc=5",
+      "published": "Tue, 14 Jul 2026 12:02:15 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "US Treasuries surge as traders scale back Fed rate hike bets after softer CPI - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5FamVJMGlHRGpDMGJoQTRUM3N2YWRZeGdZbEZoLXNKOEYwcS1uOXE2VGh5SThYN3ZxYXB4Yms3WnJzVmc1N2pOVkVsSy1haG9WRHFQTkVDR3lyckpJUDE0WEh4b21HUHpXQ0lYbXA0N0tYMXdR?oc=5\" target=\"_blank\">US Treasuries surge as traders scale back Fed rate hike bets after softer CPI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FamVJMGlHRGpDMGJoQTRUM3N2YWRZeGdZbEZoLXNKOEYwcS1uOXE2VGh5SThYN3ZxYXB4Yms3WnJzVmc1N2pOVkVsSy1haG9WRHFQTkVDR3lyckpJUDE0WEh4b21HUHpXQ0lYbXA0N0tYMXdR?oc=5",
+      "published": "Tue, 14 Jul 2026 13:20:44 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "US inflation cools as CPI falls, core CPI - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9rLUdkdE10bm4zVC1mZGh1ZlM4XzNKcnV1dHB0TS0ySEQxdThDNFBwUGsxQzJEeEROdTFaZ1dPTHhxS2JzTENMUW5ld2ZZT1ZWX0o3U0pITFFxWlh3TXpvT1ZmZEQ5czVmUVNSWG9BdG9aWjY5T29z?oc=5\" target=\"_blank\">US inflation cools as CPI falls, core CPI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rLUdkdE10bm4zVC1mZGh1ZlM4XzNKcnV1dHB0TS0ySEQxdThDNFBwUGsxQzJEeEROdTFaZ1dPTHhxS2JzTENMUW5ld2ZZT1ZWX0o3U0pITFFxWlh3TXpvT1ZmZEQ5czVmUVNSWG9BdG9aWjY5T29z?oc=5",
+      "published": "Tue, 14 Jul 2026 12:56:46 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Fed rate hike odds plummet after June CPI drop - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOVozT0FzRXpONG1vekl6VGRnazBQX1cxeHNocFJ0Z1R3QmY2UGszYmtfc2tWc3ZJai15X0E1c0VaNXY3UEZURmJaNlNoMjFLd200SlpBLWtpTDktN0oxRTBqdV9FdmZEZHI5NmNianpwd2Jlb1NVdTYyc2tuVzQ?oc=5\" target=\"_blank\">Fed rate hike odds plummet after June CPI drop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOVozT0FzRXpONG1vekl6VGRnazBQX1cxeHNocFJ0Z1R3QmY2UGszYmtfc2tWc3ZJai15X0E1c0VaNXY3UEZURmJaNlNoMjFLd200SlpBLWtpTDktN0oxRTBqdV9FdmZEZHI5NmNianpwd2Jlb1NVdTYyc2tuVzQ?oc=5",
+      "published": "Tue, 14 Jul 2026 13:20:46 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "US stocks rise as June CPI eases inflation concerns, Fed rate hike odds drop - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNSk9pOEdhMTNQa0FfRlRFa3hGRHU0eWotbE54NktpZFBhdTdMQ3FDdmNnc3M4dzRTZzl4OVZkYnotQ2hTRm1JcWtiM01zUm80QkU1VktCZkREamEzYXpBUE1WU3V0SGNZMkZSZDJzZEdsdER3NGZNOTRoUDVDQWozQUQ0VjdXTHdzT1VFUnN6THBtX1BlYU9pMWJmdHRzLXR5bklmTVFB?oc=5\" target=\"_blank\">US stocks rise as June CPI eases inflation concerns, Fed rate hike odds drop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSk9pOEdhMTNQa0FfRlRFa3hGRHU0eWotbE54NktpZFBhdTdMQ3FDdmNnc3M4dzRTZzl4OVZkYnotQ2hTRm1JcWtiM01zUm80QkU1VktCZkREamEzYXpBUE1WU3V0SGNZMkZSZDJzZEdsdER3NGZNOTRoUDVDQWozQUQ0VjdXTHdzT1VFUnN6THBtX1BlYU9pMWJmdHRzLXR5bklmTVFB?oc=5",
+      "published": "Tue, 14 Jul 2026 13:20:42 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Federal Reserve Chair Warsh links long-term inflation to monetary policy - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFAzYzZqcGhvUkE0dERuRHNxdVF2amtXdU03YjNteHV2LXFvdzJ4NXZqLTl1M0xSSVlLYl8tZlo5ckFTRzRtWWpId1ZoV3BEUktHdHpFZlowY3VWWWZJeWZQYUlxTHZUVnRIZTVONEc2ZFJpdTJlOWtRUQ?oc=5\" target=\"_blank\">Federal Reserve Chair Warsh links long-term inflation to monetary policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzYzZqcGhvUkE0dERuRHNxdVF2amtXdU03YjNteHV2LXFvdzJ4NXZqLTl1M0xSSVlLYl8tZlo5ckFTRzRtWWpId1ZoV3BEUktHdHpFZlowY3VWWWZJeWZQYUlxTHZUVnRIZTVONEc2ZFJpdTJlOWtRUQ?oc=5",
+      "published": "Tue, 14 Jul 2026 12:46:30 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Federal Reserve Chair Warsh highlights strong productivity growth, stable labor market - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNeGVoNFNab2dkY3p2cnJNRXRsdVZHcmlpT28zNzNaTnRILU5lWHZ4d2hpX01weHh4NVNzbDVhcnpBTlRWTHBhZkF5Mm5SUldFZUlQUzV1X3VlS0NhdTlBUG93elZjaEx3V0s4RkZwWWRCb2FaaWJya0VnUWxTaW9weV9B?oc=5\" target=\"_blank\">Federal Reserve Chair Warsh highlights strong productivity growth, stable labor market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeGVoNFNab2dkY3p2cnJNRXRsdVZHcmlpT28zNzNaTnRILU5lWHZ4d2hpX01weHh4NVNzbDVhcnpBTlRWTHBhZkF5Mm5SUldFZUlQUzV1X3VlS0NhdTlBUG93elZjaEx3V0s4RkZwWWRCb2FaaWJya0VnUWxTaW9weV9B?oc=5",
+      "published": "Tue, 14 Jul 2026 12:54:11 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin surges as US CPI falls 0.4% in June, biggest drop since 2020 - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBfTG92TlJRNFo3QmFxMG9FbHhXNGNCYll6V01aMGFncEJ6RlFyaFVZd2pjTk5lZ0l2WXBhQTVyaExDbEw2YndFeW9MY21UYXd6aUtUYmtPeUdfNXlxOUJuQUhhV3FyX2NJNEdpRVM5TTdyQ2g5Y2Ywb1FyTQ?oc=5\" target=\"_blank\">Bitcoin surges as US CPI falls 0.4% in June, biggest drop since 2020</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfTG92TlJRNFo3QmFxMG9FbHhXNGNCYll6V01aMGFncEJ6RlFyaFVZd2pjTk5lZ0l2WXBhQTVyaExDbEw2YndFeW9MY21UYXd6aUtUYmtPeUdfNXlxOUJuQUhhV3FyX2NJNEdpRVM5TTdyQ2g5Y2Ywb1FyTQ?oc=5",
+      "published": "Tue, 14 Jul 2026 12:56:44 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Traders pull back on bets for a Fed rate hike this month - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9tZ0tvN2VmV3A5eFBxZlk4WDh6THlZM1ozd1prRDI5UFRLemFtV1JVX1RBTTlMdHNsY0p6Nk5RdlNJWnBPRlBENzFUQm4weWY5aGxiWTJNMXN1SFdxV0RseUdCWGJXRFFOOExqbmd3?oc=5\" target=\"_blank\">Traders pull back on bets for a Fed rate hike this month</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tZ0tvN2VmV3A5eFBxZlk4WDh6THlZM1ozd1prRDI5UFRLemFtV1JVX1RBTTlMdHNsY0p6Nk5RdlNJWnBPRlBENzFUQm4weWY5aGxiWTJNMXN1SFdxV0RseUdCWGJXRFFOOExqbmd3?oc=5",
+      "published": "Tue, 14 Jul 2026 12:44:57 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin faces a 90-minute Fed shock as CPI and Warsh testimony collide today - CryptoRank",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPTjdLamtPSlJXamswRlRLQmxpMmtHX2I3ZURXeUp1Ym03M1VzQzl3dzlUYmNpSENzanZQbmI5UFF0Sk93b1p2OUFWbnhXNU5LemoxRjBxSmNYeERaVU9YZzBXNE1TOUJtYTlxX0lsOXhLOVhMQzcxYkFLV3FhSjJZd0ZQbG9xUll3X3ZpQm8xMFJlalRMZDZpbEVqVW80Z1B5Z3I4Ullzc0xOaEJE?oc=5\" target=\"_blank\">Bitcoin faces a 90-minute Fed shock as CPI and Warsh testimony collide today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTjdLamtPSlJXamswRlRLQmxpMmtHX2I3ZURXeUp1Ym03M1VzQzl3dzlUYmNpSENzanZQbmI5UFF0Sk93b1p2OUFWbnhXNU5LemoxRjBxSmNYeERaVU9YZzBXNE1TOUJtYTlxX0lsOXhLOVhMQzcxYkFLV3FhSjJZd0ZQbG9xUll3X3ZpQm8xMFJlalRMZDZpbEVqVW80Z1B5Z3I4Ullzc0xOaEJE?oc=5",
+      "published": "Tue, 14 Jul 2026 12:14:57 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "June CPI Beat Lifts Bitcoin — Fed's Next Move Matters - Cryptonews",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFAydHZfeXAxOGxrdE9DR0dFQjdmNFEzQno1SW5fVWdGaXVnUGNYYkJKTkgxTmVFWW9URWpNS044ODF0OG9ObkItemFrQ3BfaU9BeXotVzFHRThwU29PQzdKRVh1X29QWEtpSFhhUmxJT191bS11SnRnX0dISmxmYUE?oc=5\" target=\"_blank\">June CPI Beat Lifts Bitcoin — Fed's Next Move Matters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAydHZfeXAxOGxrdE9DR0dFQjdmNFEzQno1SW5fVWdGaXVnUGNYYkJKTkgxTmVFWW9URWpNS044ODF0OG9ObkItemFrQ3BfaU9BeXotVzFHRThwU29PQzdKRVh1X29QWEtpSFhhUmxJT191bS11SnRnX0dISmxmYUE?oc=5",
+      "published": "Tue, 14 Jul 2026 13:24:30 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dbc90c04fc654d848f08b0b974fec233",
+      "published": "2026-07-13T17:00:02.055000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2e92c3c6c8347c197b9091851ec285e",
+      "published": "2026-07-13T16:00:06.635000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6fe9f6dc91544df88dc24ad41211feff",
+      "published": "2026-07-10T23:37:03.303000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53",
+      "published": "2026-07-10T14:45:21.461000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "summary": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/03b264b679a646119d1a2415b9097bd6",
+      "published": "2026-06-30T13:30:25.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b026c9829d28459cb1f1a95000960a08",
+      "published": "2026-06-30T13:00:03.128000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d8400c84767448a2bcb71b7bf3864a97",
+      "published": "2026-06-30T12:30:19.411000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8057e105f5724d9bbf29ba416f14149e",
+      "published": "2026-06-29T17:30:03.090000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
+      "published": "2026-06-27T18:50:43.165000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f",
+      "published": "2026-06-24T18:30:18.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b",
+      "published": "2026-06-23T18:00:31.403000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "summary": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-06-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d83363b157b24be699c47baa4aa307fa",
+      "published": "2026-06-23T16:15:03.419000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 22 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 22，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-14T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "华尔街的比特币成绩单：巨头们为何集体“偏科”？_加密货币_全球资讯 - bihainews.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE55d1hlUUYxel9meFhBaVFPbmZVOENMNTJFNjNQOTFDaFZ1am1uM09fT0pYaHJKa1A5X3Y3NzhNZUhodG5VYWpNSmxVMi15c195MVBzRHJHSUxnZGhMaDBzOTZwbVFNS0VyYmc?oc=5\" target=\"_blank\">华尔街的比特币成绩单：巨头们为何集体“偏科”？_加密货币_全球资讯</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bihainews.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55d1hlUUYxel9meFhBaVFPbmZVOENMNTJFNjNQOTFDaFZ1am1uM09fT0pYaHJKa1A5X3Y3NzhNZUhodG5VYWpNSmxVMi15c195MVBzRHJHSUxnZGhMaDBzOTZwbVFNS0VyYmc?oc=5",
+      "published": "Tue, 14 Jul 2026 12:51:23 GMT"
+    }
+  ]
+}
