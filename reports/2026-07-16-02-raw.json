@@ -1,0 +1,379 @@
+{
+  "date": "2026-07-16",
+  "hour": "02",
+  "total": 53,
+  "fetched_at": "2026-07-16T02:01:18.711007+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "DTCC moves tokenized securities into live trading, marking a milestone for Wall Street's blockchain push",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/15/dtcc-moves-tokenized-securities-into-live-trading-marking-a-milestone-for-wall-street-s-blockchain-push",
+      "published": "Wed, 15 Jul 2026 17:02:22 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cantor and Securitize collaborate on blockchain-based IPOs",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/15/cantor-and-securitize-collaborate-on-blockchain-based-ipos",
+      "published": "Wed, 15 Jul 2026 16:52:28 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase’s Jesse Pollak hands Base app leadership to Cobie after admitting social bets fell short",
+      "summary": "<p>Coinbase executive Jesse Pollak will focus on Base blockchain's infrastructure, prioritizing trading, stablecoin payments, and AI agents.</p>",
+      "link": "https://www.theblock.co/post/408504/coinbases-jesse-pollak-hands-base-app-leadership-cobie-social-bets-fell-short?utm_source=rss&utm_medium=rss",
+      "published": "Wed, 15 Jul 2026 13:58:49 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "BlackRock outlines vision for crypto-TradFi convergence as product pipeline grows",
+      "summary": "<p>The firm seeks to offer tokenized long-term investments like \"Treasury funds, iShares ETFs, and even private markets.\"</p>",
+      "link": "https://www.theblock.co/post/408436/blackrock-outlines-vision-crypto-tradfi-convergence-product-pipeline-grows?utm_source=rss&utm_medium=rss",
+      "published": "Wed, 15 Jul 2026 12:56:06 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Crypto clearinghouse Glacis Labs raises $6.8 million seed to expand ZeroDelta platform",
+      "summary": "<p>Glacis aims to expand ZeroDelta, its multichain clearing platform for stablecoins, into tokenized securities and foreign exchange over time.</p>",
+      "link": "https://www.theblock.co/post/408490/crypto-clearinghouse-glacis-labs-zerodelta-funding?utm_source=rss&utm_medium=rss",
+      "published": "Wed, 15 Jul 2026 12:43:07 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Kraken Institutional taps Upshift to build vaults that earn yield on idle bitcoin, ETH and stablecoins",
+      "summary": "<p>Upshift will build dedicated vaults tailored to each client’s specific investment strategy and risk considerations.</p>",
+      "link": "https://www.theblock.co/post/408448/kraken-institutional-taps-upshift-to-build-vaults-that-earn-yield-on-idle-bitcoin-eth-and-stablecoins?utm_source=rss&utm_medium=rss",
+      "published": "Wed, 15 Jul 2026 12:05:02 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Another DeFi Exploit: Perp DEX Ostium Loses $18 Million in Oracle Attack",
+      "summary": "Hackers manipulated Ostium's price feed by compromising an oracle signer key, allowing them to drain roughly $18 million from the Arbitrum-based perpetuals exchange.",
+      "link": "https://decrypt.co/373566/defi-exploit-ostium-oracle-hack",
+      "published": "Wed, 15 Jul 2026 17:01:25 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "US Treasury Freezes $131 Million in Iran-Linked Crypto Wallets",
+      "summary": "OFAC sanctioned addresses tied to Iran's central bank and armed forces, with Tether locking four Tron wallets as Washington's financial campaign against Tehran accelerates.",
+      "link": "https://decrypt.co/373565/us-treasury-freezes-131-million-iran-crypto",
+      "published": "Wed, 15 Jul 2026 16:54:14 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Breaks Heavy Resistance—But Death Cross Looms: Analysis",
+      "summary": "BTC cleared a key resistance level Tuesday, giving bulls hope. Prediction market traders aren't convinced.",
+      "link": "https://decrypt.co/373545/bitcoin-price-heavy-resistance-death-cross-looms",
+      "published": "Wed, 15 Jul 2026 16:05:19 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Ostium pauses trading as security firms report multimillion-dollar oracle exploit",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Ostium pauses trading as security firms report multimillion-dollar oracle exploit\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/magazine-defillama-hacks-analysis.png\" /></p><p>Ostium halted trading and advised revoking contract approvals after blockchain security firms reported an apparent oracle-related exploit of its OLP liquidity vault, with estimated losses ranging from $18 million to",
+      "link": "https://cointelegraph.com/news/ostium-pauses-trading-as-security-firms-report-multimillion-dollar-oracle-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Jul 2026 17:14:21 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Aave launches V4 on Avalanche, laying groundwork for tokenized credit markets",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Aave launches V4 on Avalanche, laying groundwork for tokenized credit markets\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-what-is-ethereum-credit-1.png\" /></p><p>The deployment marks Aave V4’s first expansion beyond Ethereum and introduces lending infrastructure designed to support future markets for tokenized real-world assets.</p>",
+      "link": "https://cointelegraph.com/news/aave-brings-v4-to-avalanche-laying-groundwork-for-tokenized-asset-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Jul 2026 16:29:39 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "President Trump To Meet Senators On Clarity Act’s Ethics Fight: Report",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/06/President-Donald-Trump-Discloses-More-Than-50-Million-in-Bitcoin-Held-in-Cold-Storage.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/president-trump-to-meet-senators\" rel=\"nofollow\">President Trump To Meet Senators On Clarity Act&#8217;s Ethics Fight: Report</a></p>\n<p>President Trump will meet senat",
+      "link": "https://bitcoinmagazine.com/news/president-trump-to-meet-senators",
+      "published": "Wed, 15 Jul 2026 17:47:38 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Traders Took $8.2 Million From Polymarket’s Five-Minute Bitcoin Bets, Study Found",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/07/Traders-Took-8.2-Million-From-Polymarkets-Five-Minute-Bitcoin-Bets-Study-Found.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/traders-took-8-2-million-from-polymarkets\" rel=\"nofollow\">Traders Took $8.2 Million From Polymarket&#8217;s Five-Minute Bitcoin Bets, Study Found</a></p>\n<p>A new study found",
+      "link": "https://bitcoinmagazine.com/news/traders-took-8-2-million-from-polymarkets",
+      "published": "Wed, 15 Jul 2026 17:33:41 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Price Jumps Over $65,500 on Soft Inflation Data",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/07/Bitcoin-Price-Jumps-Over-65500-on-Soft-Inflation-Data-.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/markets/bitcoin-price-jumps-over-65500\" rel=\"nofollow\">Bitcoin Price Jumps Over $65,500 on Soft Inflation Data </a></p>\n<p>Bitcoin price jumped over $65,000 per coin after US inflation data was cooler tha",
+      "link": "https://bitcoinmagazine.com/markets/bitcoin-price-jumps-over-65500",
+      "published": "Wed, 15 Jul 2026 16:37:32 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "黄仁勋否认Vera Rubin生产延误，称正按计划交付",
+      "summary": "【黄仁勋否认Vera Rubin生产延误，称正按计划交付】金色财经报道，7月16日，英伟达(NVDA.O)CEO黄仁勋否认了有关该公司新一代AI加速器系统Vera Rubin生产延误的报道。他表示Vera Rubin已进入生产阶段，并正按计划交付给客户，且大量产品正在陆续出货。 黄仁勋表示，Vera Rubin有望实现“巨大”的生产规模，但未具体说明时间表。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260716011552060800\">https://flash.jin10.com/detail/20260716011552060800</a></p>",
+      "link": "https://jinse.com.cn/lives/523326.html",
+      "published": "Wed, 15 Jul 2026 18:00:08 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国将发行1美元特朗普「金币」，以纪念建国250周年",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，美国财政部长斯科特·贝森特今天宣布，美国铸币局将生产一枚面值 1 美元的纪念「金币」（外观为金色调，但不含实际黄金或贵金属），以纪念美国建国 250 周年。正面印有特朗普总统西装领带造型肖像，搭配「LIBERTY」「IN GOD WE TRUST」字样及 1776-2026 日期；背面为美国国玺鹰徽，标有「$1」和「250」。预计今年秋季发行。</p><p><br /></p><p>此举打破了在世总统通常不出现在美国货币上的传统，贝森特称其为「爱国主义持久象征」和「自由遗产的纪念」。</p>",
+      "link": "https://www.theblockbeats.info/flash/356371",
+      "published": "Wed, 15 Jul 2026 17:14:35 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "加密清算初创公司Glacis Labs完成680万美元种子轮融资",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，加密清算初创公司 Glacis Labs 完成 680 万美元种子轮融资。本轮由 Lightspeed Faction 领投，Franklin Templeton、Coinbase Ventures、A.GAIN（原 IDC Ventures）、Protein Capital 和 Techni Ventures 跟投，采用股权+代币认股权证结构。融资将主要用于扩展其核心产品 ZeroDelta 平台，并支持工程、合规和市场团队扩张。</p><p><br /></p><p>ZeroDelta 是一个多链清算平台，可实现跨区块链数字资产的匹配、净额结算与最终结算，目前重点服务稳定币，已累计处理超 10 亿美元交易量。</p>",
+      "link": "https://www.theblockbeats.info/flash/356370",
+      "published": "Wed, 15 Jul 2026 17:09:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "巴菲特最新访谈：批评当下市场投机潮，承认亲自主导对谷歌投资",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，在最新访谈中，「股神」沃伦·巴菲特围绕市场环境、科技投资、美联储人事等多话题发表看法。</p><p><br /></p><p><strong>批评当前市场环境难以发掘价值</strong></p><p>巴菲特批评当下市场日益受投机交易驱动，而非长期投资理念主导，「当所有人都更喜欢赌博时，便很难找到有价值的东西。」他年内早些时候也曾将股市形容为一座附带赌场的教堂，并特别指出单日期权交易属于赌博行为。今年以来，尽管美伊冲突带来能源冲击，美股三大指数仍不断创下新高，AI 基础设施相关股票被指存在过度投机，散户则大规模涌入美光科技、SpaceX 等标的。对此长期践行价值投资的巴菲特表示，真正有意义的投资机会并不常见，需要耐心与纪律——「有时候机会快得抓不住，但在另一些时候，几年能找到一个就已经很幸运了。由于人类非常热爱赌博，培养赌徒所带来的资金，比培养投资者所带来的资金更多。」</p><p><br /></p><p><strong>巴菲特承认亲自主导对谷歌的投资</strong></p><p>巴菲特表示，伯克希尔近期对谷歌的大规模投资由他本人",
+      "link": "https://www.theblockbeats.info/flash/356369",
+      "published": "Wed, 15 Jul 2026 17:06:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Base联创承认社交战略失误，将重新聚焦交易、支付与智能体三大支柱",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，Base 联合创始人 Jesse Pollak 发布长文，坦诚回顾过去半年的战略得失。承认 2024 至 2025 年制定双轨策略中，「看好开发者是对的，但看好社交是错的」——Farcaster、Zora、MiniApps 及创作者代币等整个链上社交板块已彻底瓦解。这一误判导致 Base 在永续合约和预测市场等关键领域落后于规模化竞争对手，在代币化与企业支付方面也存在明显短板。</p><p><br /></p><p>Jesse 将 2026 年第一季度形容为「脸上挨了一拳」，社区每周都在提醒他的错误，「感觉很糟，现在依然很糟」。但从十年加密创业经历中学到的核心教训是「当感觉最差的时候，最好的选择就是低头做事」——随后 Jesse 重新将时间从应用层拉回链层，亲自写代码，推出 Azul、Beryl、B20、隐私功能及 Ledgers 等一系列项目，同时反思了三个核心假设：加密是否需要社交才能增长、Base 是否需要自己的应用、Base 能否超越 Coinbase。</p><p><br /></p><p>Jesse 得出结论清晰：更好的货",
+      "link": "https://www.theblockbeats.info/flash/356368",
+      "published": "Wed, 15 Jul 2026 17:02:19 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普：数据中心是摇钱树，是未来就业增长的最大驱动力之一",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，特朗普发文表示，数据中心是未来就业增长的最大驱动力之一。它们规模庞大、实力雄厚、前景广阔，是所在州的摇钱树。然而出于政治原因，纽约州州长终止了所有在纽约州建设或计划建设的数据中心项目。这些公司现在纷纷涌向阿拉巴马州、佛罗里达州、德克萨斯州、亚利桑那州以及其他许多州。数据中心带来的税收和就业机会简直就是滚滚财源！纽约州做出了一个糟糕的决定。</p><p><br /></p><p>所有这些收入和其他收益都将流向那些被视为摇钱树的「红色州」（共和党占优势的州）以及部分「蓝色州」（民主党占优势的州），这些州不仅税收更低，还能创造创纪录的就业机会。这些州必须自行承担水电费用，剩余的资金将回馈给州政府和当地社区。对于那些有幸获得数据中心的州和社区来说，数据中心无疑是巨大的财富。纽约州应该立即改变其政策。绝不能允许激进左翼民主党人让我们失去数据中心、人工智能以及所有这些令人惊叹的新技术，让它们落入其他国家手中！</p>",
+      "link": "https://www.theblockbeats.info/flash/356367",
+      "published": "Wed, 15 Jul 2026 16:46:40 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "三星2纳米工艺订单激增致人力吃紧，谷歌TPU I/O芯片后端设计拟外包",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，三星电子正考虑将谷歌第 10 代 TPU（代号 Icefish）的 I/O 芯片后端设计工作外包。谷歌这颗基于 2 纳米工艺的 TPU 由 Compute 处理器与 I/O 芯片组成——前者预计由台积电以 1.4 纳米工艺制造，后者则由三星以 2 纳米工艺生产，负责 Compute 处理器与 HBM 之间的数据传输。谷歌正与联发科共同设计该芯片，最快 2028 年量产。然而三星近期 2 纳米订单急速涌入——除谷歌与特斯拉外，还已拿下 Anthropic 及 DeepX 两家客户——导致内部可用人力捉襟见肘，此前特斯拉 2 纳米自动驾驶芯片的后端设计仍由三星自有人力完成。</p><p><br /></p><p>目前被提及的潜在外包伙伴包括 ADTechnology、Gaonchips 及 Alphachips。前两家已各自投入大型项目——ADTechnology 正聚焦 2 纳米 CPU 项目 ADP620，目标 2028 至 2029 年间年营收突破 1 万亿韩元；Gaonchips 则准备参与韩国产业通商资源部约 8000 亿韩元的",
+      "link": "https://www.theblockbeats.info/flash/356366",
+      "published": "Wed, 15 Jul 2026 16:39:32 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "高盛观点：存储市场显露结构性变化，NAND部分替代DRAM用以降本成为实际趋势",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，Citirni 分析师 Jukan 引述高盛月度电话会议的内存板块点评，客户对 DRAM 接近 30% 的价格涨幅表现出强烈抵制，因此小幅下调第三季度 DRAM 价格增长预期。与此同时 NAND 前景变得更为乐观——AI 相关的 KV Cache 卸载需求持续超预期，叠加市场上出现用 NAND 替代昂贵 DRAM 的新兴趋势，进一步支撑 NAND 需求。分析师对 SK 海力士第二季度业绩持正面看法，预计营收约 85 万亿韩元，毛利率高达 63%，相关标的包括 SK 海力士、美光及闪迪。</p><p><br /></p><p>点评还透露出存储市场的结构性变化。此前 AI 服务器对 HBM 的爆发式需求带动 DRAM 价格飙升，但当涨幅触及 30% 后客户开始抗拒继续涨价，涨价斜率面临阶段性放缓。而 NAND 正在抢占 AI 基础设施中的新角色——KV Cache 在推理场景中至关重要，用较便宜的 NAND 部分替代昂贵的 DRAM 以降低成本正在成为实际趋势。这种分化也意味着存储产业链内部资金轮动或将延续，投资者对 DRAM 相关标的短",
+      "link": "https://www.theblockbeats.info/flash/356365",
+      "published": "Wed, 15 Jul 2026 16:29:15 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Kraken推出定制化加密金库，闲置比特币、ETH及稳定币可获收益",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，Kraken Institutional 宣布与链上收益平台 Upshift 合作，允许合格机构客户在 Kraken 合规托管体系内直接为闲置的比特币、以太坊、稳定币及其他加密资产赚取收益。与传统的汇集式金库不同，Upshift 将为每位客户构建专用的定制化金库，完全根据客户的投资策略、风险参数、流动性需求及资产组合进行量身设计。资产将分配至这些非托管金库，随后部署到选定的链上合约中，客户隔离的 Kraken 托管账户将收到一份收据代币。</p>",
+      "link": "https://www.theblockbeats.info/flash/356364",
+      "published": "Wed, 15 Jul 2026 16:20:09 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某地址通过Ostium漏洞获利2375万枚USDC，随后换得12085枚ETH",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据 EmberCN 监测，一个半小时前，DeBank 用户名为 musti_akrep 的地址，通过利用漏洞在 Perp DEX Ostium 上获利 2375 万枚 USDC 并转移至 Arbitrum 链上，后立即换为 12,085 枚 ETH，买入价格 1,965 美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/356362",
+      "published": "Wed, 15 Jul 2026 16:13:38 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "SpaceX首次跌破135美元发行价，美股太空概念股全线走低",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据 BIT(bit.com) 行情数据，美股盘中，SpaceX（SPCX）首次跌破 135 美元发行价，现报 133.6 美元，美股太空概念股全线走低，其中：</p><p><br /></p><p>AST SpaceMobile (ASTS) 跌 5.26%；</p><p>Rocket Lab (RKLB) 跌 3.4%；</p><p>Redwire (RDW) 跌 3.4%。</p>",
+      "link": "https://www.theblockbeats.info/flash/356361",
+      "published": "Wed, 15 Jul 2026 16:09:39 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Summer.fi将逐步停止运营，此前遭攻击损失610万美元",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，Summer.fi 发布公告，在 7 月 6 日 Lazy Summer 协议遭遇攻击后，团队评估认为已无可行路径继续推进业务，因此将逐步停止运营。此次攻击直接造成约 610 万美元损失，且团队成员自身资产也有相当部分存放于受攻击金库，进一步削减了重建所需的运营资金。</p><p><br /></p><p>公告显示，Summer.fi 应用将继续开放至 8 月 31 日，Lazy Summer 协议后续走向将由 Lazy Summer DAO 决定。当前 DAO 正推进恢复各金库的提款与赎回流程，包括此前受影响的两个金库。</p>",
+      "link": "https://www.theblockbeats.info/flash/356360",
+      "published": "Wed, 15 Jul 2026 16:01:28 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Strategy feels 'very secure' until bitcoin reaches $8,000-$10,000, says CEO",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1uxazpn/strategy_feels_very_secure_until_bitcoin_reaches/\"> <img alt=\"Strategy feels 'very secure' until bitcoin reaches $8,000-$10,000, says CEO\" src=\"https://external-preview.redd.it/b7lhwdiqBuH_w-4Os4bTLvLFUz3zMSh2epOPoNugd90.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=fecc4de920a1f1b1a3ed588e4476d807116fdc3c\" title=\"Strategy feels 'very secure' until bitcoin reaches $8,000-$10,000, says CEO\" /> </a> </td><td> &#",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uxazpn/strategy_feels_very_secure_until_bitcoin_reaches/",
+      "published": "2026-07-15T16:32:27+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "The DTCC has Soft Launched their Tokenization Platform",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JustStopppingBye\"> /u/JustStopppingBye </a> <br /> <span><a href=\"https://www.dtcc.com/digital-assets/tokenization/live-production-trades\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1uxazya/the_dtcc_has_soft_launched_their_tokenization/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uxazya/the_dtcc_has_soft_launched_their_tokenization/",
+      "published": "2026-07-15T16:32:43+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Bitcoin Breaks Heavy Resistance - But Death Cross Looms: Analysis",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1uxba4h/bitcoin_breaks_heavy_resistance_but_death_cross/\"> <img alt=\"Bitcoin Breaks Heavy Resistance - But Death Cross Looms: Analysis\" src=\"https://external-preview.redd.it/re-kTG-u8xFElkY9qogAdjKWP_nceVgR90-CKGJ20_0.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=85301c5381fcf69cf4f00bfb6fda1b0429876a37\" title=\"Bitcoin Breaks Heavy Resistance - But Death Cross Looms: Analysis\" /> </a> </td><td> &#32; submitted by &#32",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uxba4h/bitcoin_breaks_heavy_resistance_but_death_cross/",
+      "published": "2026-07-15T16:42:39+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Built a bitcoin Dashboard, looking for feedback",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I built a free Bitcoin dashboard,,live price, halving countdown, fees, hashrate, Fear &amp; Greed. No login, no ads, no noise.</p> <p>I got tired of checking five different sites (and closing five cookie banners) to see the state of Bitcoin, so I built one clean page that shows everything: btcdash.org<br /> Live price with moving averages, Mayer Multiple, rainbow chart, Pi Cycle<br /> Halving countdown, hashrate &amp; difficulty, fee market, mempool<br /> Fear &",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uxaznb/built_a_bitcoin_dashboard_looking_for_feedback/",
+      "published": "2026-07-15T16:32:24+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Is anyone still using dev companies for their projects right now?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I’m trying to figure out if outsourcing to a dev agency is still a viable move. It seems like the hype around them has totally died down.</p> <p>Are these companies still alive and kicking? If you've hired a dev team recently, how did it go? Would love to know if it's still worth it or it's better to avoid them?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OverGoofy\"> /u/OverGoofy </a> <br /> <span><a href=\"https://www.r",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uxddte/is_anyone_still_using_dev_companies_for_their/",
+      "published": "2026-07-15T17:56:08+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Kroll Claims Notification for Terraform Labs Bankruptcy Filing",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Just received an email from Kroll (official) notifying me about the total losses incurred and whether I wanted to accept or deny (fight the amount they totaled). </p> <p>Anyone else get this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BestInDaWrldsBbyFmno\"> /u/BestInDaWrldsBbyFmno </a> <br /> <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1uxc8a7/kroll_claims_notification_for_terraform_labs/\">[link]</a",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uxc8a7/kroll_claims_notification_for_terraform_labs/",
+      "published": "2026-07-15T17:15:20+00:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/62c2a684d09f445295b87797acc71ae8",
+      "published": "2026-07-15T15:00:02.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f198d9602f3b4604a9b15cd0a1529e32",
+      "published": "2026-07-15T14:30:03.302000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dbc90c04fc654d848f08b0b974fec233",
+      "published": "2026-07-13T17:00:02.055000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2e92c3c6c8347c197b9091851ec285e",
+      "published": "2026-07-13T16:00:06.635000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6fe9f6dc91544df88dc24ad41211feff",
+      "published": "2026-07-10T23:37:03.303000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53",
+      "published": "2026-07-10T14:45:21.461000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "summary": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/03b264b679a646119d1a2415b9097bd6",
+      "published": "2026-06-30T13:30:25.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b026c9829d28459cb1f1a95000960a08",
+      "published": "2026-06-30T13:00:03.128000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d8400c84767448a2bcb71b7bf3864a97",
+      "published": "2026-06-30T12:30:19.411000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8057e105f5724d9bbf29ba416f14149e",
+      "published": "2026-06-29T17:30:03.090000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a444dd2f67da43e0bafdd730fddc3887",
+      "published": "2026-06-27T18:50:43.165000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined OUSDT Perpetual Contract (2026-06-24)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a6b7d5a8a14a44c1b6a6a34813c6d93f",
+      "published": "2026-06-24T18:30:18.531000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 25 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 25，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-15T08:00:00+08:00"
+    }
+  ]
+}
