@@ -1,0 +1,680 @@
+{
+  "date": "2026-07-16",
+  "hour": "22",
+  "total": 96,
+  "fetched_at": "2026-07-16T22:01:26.165281+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Ledger wants AI agents to manage crypto without holding your keys",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/07/15/ledger-wants-ai-agents-to-manage-crypto-without-holding-your-keys",
+      "published": "Thu, 16 Jul 2026 13:00:00 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Polygon Labs announces second round of layoffs in 2026 as firm looks to finalize Coinme acquisition",
+      "summary": "<p>\"Two rounds of changes in one year is a lot to ask of a team, and I understand it is hard to manage,\" Polygon Labs CEO Marc Boiron said.</p>",
+      "link": "https://www.theblock.co/post/408625/polygon-labs-second-round-of-layoffs-2026-finalize-coinme-acquisition?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 16 Jul 2026 09:47:51 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Ledger unveils hardware-backed Agent Stack to prevent rogue AI transactions",
+      "summary": "<p>With Ledger Agent Stack, users can deploy bots to read balances, suggest transactions, prepare swaps and draft operations.</p>",
+      "link": "https://www.theblock.co/post/408549/ledger-unveils-hardware-backed-agent-stack?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 16 Jul 2026 09:00:00 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "MoonPay acquires Y Combinator-backed crypto deposits startup Glide in all-equity deal",
+      "summary": "<p>Crypto unicorn MoonPay has acquired Glide, a Y Combinator-backed crypto deposits startup, in an all-equity deal.</p>",
+      "link": "https://www.theblock.co/post/408603/moonpay-acquires-y-combinator-crypto-glide-all-equity-deal?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 16 Jul 2026 09:00:00 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Dune research finds 85% of concentrated DeFi liquidity is underutilized, with $150M in annual fees foregone",
+      "summary": "<p>Dune research commissioned by 1inch finds 85% of concentrated DeFi liquidity underutilized, with $150M in annual fees forgone.</p>",
+      "link": "https://www.theblock.co/post/408591/dune-research-finds-85-of-concentrated-defi-liquidity-is-underutilized-with-150m-in-annual-fees-foregone?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 16 Jul 2026 08:50:02 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Tether invests $20 million in Ualá as the fintech firm reaches $3.2 billion valuation",
+      "summary": "<p>Tether invested $20 million in Argentine neobank Ualá, joining a $197 million funding round that valued the fintech at $3.2 billion.</p>",
+      "link": "https://www.theblock.co/post/408604/tether-invests-20-million-in-uala-as-the-fintech-firm-reaches-3-2-billion-valuation?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 16 Jul 2026 08:46:06 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: Base Hands Its App Over to Cobie",
+      "summary": "Plus, Stripe makes a $53 billion move that could crown a stablecoin king. And Ostium gets drained of $18M in the latest DeFi exploit.",
+      "link": "https://decrypt.co/373636/morning-minute-base-hands-its-app-over-to-cobie",
+      "published": "Thu, 16 Jul 2026 12:03:28 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Alpaca raises $135M to fund tokenized agent-first infrastructure",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Alpaca raises $135M to fund tokenized agent-first infrastructure\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-experienced-traders-prefer-to-trade-on-desktop-computers-a-new-study-reveals3.jpg\" /></p><p>The BNP-backed brokerage infrastructure provider is expanding into tokenized markets and AI-native financial services as both DeFi and TradFi companies pursue onchain business.</p>",
+      "link": "https://cointelegraph.com/news/alpaca-raises-135m-to-fund-tokenized-agent-first-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 16 Jul 2026 13:34:19 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Gambling on random Pokémon cards: Onchain gagcha hits record high as crypto sinks",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Gambling on random Pokémon cards: Onchain gagcha hits record high as crypto sinks\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-mag-new-ath-for-onchain-gagchas-tokenized-collectibles.jpg\" /></p><p>Users spent a record $324 million on onchain gacha in June, even as Bitcoin hit a 21-month low. The thrill of scoring a top Pokemon card from a random pack is becoming big business</p>",
+      "link": "https://cointelegraph.com/features/pokemon-cards-as-rwas-gacha-spending-hits-records-as-crypto-sinks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 16 Jul 2026 13:30:00 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Prediction markets defy crypto downturn with record Q2 volume: CoinGecko",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Prediction markets defy crypto downturn with record Q2 volume: CoinGecko\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-when-will-the-prediction-market-take-place-and-what-effect-is-it-having-on-crypto.png\" /></p><p>Prediction markets reached a record $113.8 billion in notional volume in Q2 as spot CEX trading, derivatives volume and stablecoin market cap declined.</p>",
+      "link": "https://cointelegraph.com/news/crypto-cool-q2-prediction-markets-hit-records-coingecko?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 16 Jul 2026 13:05:09 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "MoonPay buys Glide to bolster crypto deposits infrastructure",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"MoonPay buys Glide to bolster crypto deposits infrastructure\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/digital-wallet-moonpay.jpg\" /></p><p>MoonPay acquired Glide, a crypto infrastructure startup founded by former Robinhood Wallet engineers, to expand cross-chain crypto deposit infrastructure.</p>",
+      "link": "https://cointelegraph.com/news/moonpay-acquires-glide-strengthen-crypto-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 16 Jul 2026 13:00:00 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Tokenized stocks market cap gains to record $2.3B",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Tokenized stocks market cap gains to record $2.3B\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-how-ondo-finance-plans-to-bring-tokenized-us-stocks-to-solana-1.jpg\" /></p><p>The market capitalization of tokenized stocks rose to a record $2.3 billion, as investors sought exposure to the growing list of tokenized equity products launched by cryptocurrency exchanges.</p>",
+      "link": "https://cointelegraph.com/news/tokenized-stocks-rise-23b-all-time-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 16 Jul 2026 12:35:52 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "FATF urges faster crypto AML enforcement as stablecoin crime increases",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"FATF urges faster crypto AML enforcement as stablecoin crime increases\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/interrogation-lamp-stablecoin-1.jpg\" /></p><p>The global task force said criminal networks are using stablecoins and developing proprietary tokens to evade asset freezes as countries struggle to enforce crypto AML rules.</p>",
+      "link": "https://cointelegraph.com/news/fatf-urges-crypto-aml-enforcement-stablecoin-crime?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 16 Jul 2026 12:05:45 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Senate Unanimously Votes That Sam Bankman-Fried Should Never Get a Pardon",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/06/Sam-Bankman-Fried-Loses-Appeal-to-Overturn-FTX-Fraud-Conviction.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/senate-unanumously-bankman-fried\" rel=\"nofollow\">Senate Unanimously Votes That Sam Bankman-Fried Should Never Get a Pardon</a></p>\n<p>The Senate unanimously approved a nonbinding resolution",
+      "link": "https://bitcoinmagazine.com/news/senate-unanumously-bankman-fried",
+      "published": "Thu, 16 Jul 2026 13:48:11 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "日本正在建设人工智能工厂，以推动下一个工业革命",
+      "summary": "【日本正在建设人工智能工厂，以推动下一个工业革命】金色财经报道，英伟达(NVDA.O)：日本正在建设人工智能工厂，以推动下一个工业革命。",
+      "link": "https://jinse.com.cn/lives/523501.html",
+      "published": "Thu, 16 Jul 2026 13:58:12 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美股光通信板块跌幅扩大 康宁跌超8%",
+      "summary": "【美股光通信板块跌幅扩大 康宁跌超8%】金色财经报道，7月16日，美股光通信板块低开低走跌幅持续扩大，康宁跌超8%，迈威尔科技跌超6%，Lumentum、Coherent、Credo跌超5%。",
+      "link": "https://jinse.com.cn/lives/523500.html",
+      "published": "Thu, 16 Jul 2026 13:53:42 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "费城半导体指数跌3% 博通股价下跌3.6%",
+      "summary": "【费城半导体指数跌3% 博通股价下跌3.6%】金色财经报道，7月16日，费城半导体指数跌3%，报12023.76点。英伟达股价下跌2.15%，台积电股价下跌2.73%，博通股价下跌3.6%，SK海力士股价下跌7.63%，美光科技股价下跌3.84%，超威半导体股价下跌3.76%，阿斯麦股价上涨0.11%，英特尔股价下跌3.68%，泛林集团股价下跌2.92%，ARM股价下跌6.6%，闪迪股价下跌7.6%。",
+      "link": "https://jinse.com.cn/lives/523499.html",
+      "published": "Thu, 16 Jul 2026 13:51:42 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Kraken交易所推出适用于比特币与以太坊的全新期权合约套件",
+      "summary": "【Kraken交易所推出适用于比特币与以太坊的全新期权合约套件】金色财经报道，7月16日，Kraken交易所推出适用于比特币（BTC）与以太币（ETH）的全新期权合约套件。",
+      "link": "https://jinse.com.cn/lives/523498.html",
+      "published": "Thu, 16 Jul 2026 13:51:06 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国国际贸易委员会发起337调查，英伟达跌超2%",
+      "summary": "【美国国际贸易委员会发起337调查，英伟达跌超2%】金色财经报道，7月16日，英伟达跌超2%，博通、超微电脑跌近4%。消息面上，美国国际贸易委员会(ITC)7月15日决定对特定动态随机存取存储器(DRAM)设备及其下游产品和组件启动337调查，涉及三星电子、谷歌、英伟达、超微电脑、博通等公司。6月16日，美国Netlist, Inc. of Irvine, California向美国ITC提出337立案调查申请，主张对美出口、在美进口和在美销售的该产品违反了美国337条款(侵权美国注册专利号12,646,537、12,650,937)，请求美国ITC发布有限排除令、禁止令。(格隆汇)",
+      "link": "https://jinse.com.cn/lives/523497.html",
+      "published": "Thu, 16 Jul 2026 13:50:35 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "纳指盘初跌幅扩大至1%",
+      "summary": "【纳指盘初跌幅扩大至1%】金色财经报道，纳指盘初跌幅扩大至1%。(金十)",
+      "link": "https://jinse.com.cn/lives/523496.html",
+      "published": "Thu, 16 Jul 2026 13:49:50 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Abraxas Capital 5小时内从CEX提取8452枚ETH",
+      "summary": "【Abraxas Capital 5小时内从CEX提取8452枚ETH】金色财经报道，7月16日，据Lookonchain监测，Abraxas Capital在过去5小时内从币安和Bybit提取8,452枚ETH，价值约1,600万美元。",
+      "link": "https://jinse.com.cn/lives/523495.html",
+      "published": "Thu, 16 Jul 2026 13:46:04 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Kraken推出适用于比特币与以太币的全新期权合约套件",
+      "summary": "【Kraken推出适用于比特币与以太币的全新期权合约套件】金色财经报道，7月16日，Kraken交易所推出适用于比特币（BTC）与以太币（ETH）的全新期权合约套件。（新浪财经）",
+      "link": "https://jinse.com.cn/lives/523494.html",
+      "published": "Thu, 16 Jul 2026 13:42:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某鲸鱼今早10倍做多SK海力士现已浮亏超41.2万美元",
+      "summary": "【某鲸鱼今早10倍做多SK海力士现已浮亏超41.2万美元】金色财经报道，据链上分析师 Ai 姨监测，做多 $ETH 并做空 $SPCX 浮盈超 204.4 万美元的账户 \"wjqq \"，今早以 $1,313.2 的价格 10x 做多了 5000 股韩国海力士($SKHX)，价值 614 万美元，现已浮亏超 41.2 万美元<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2077749611557716242\">https://x.com/ai_9684xtpa/status/2077749611557716242</a></p>",
+      "link": "https://jinse.com.cn/lives/523493.html",
+      "published": "Thu, 16 Jul 2026 13:41:01 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "胡塞武装：沙特助纣为虐 必须予以惩处",
+      "summary": "【胡塞武装：沙特助纣为虐 必须予以惩处】金色财经报道，7月16日，胡塞武装发表声明：沙特与美国、以色列和英国合作，破坏伊斯兰民族任何统一和团结的立场，其角色现已完全暴露且众所周知。沙特对也门的侵略已持续多年，没有任何法律依据，且是在与美以结盟和效忠的框架内进行的。沙特破坏性角色的首要受害者是正遭受种族灭绝的巴勒斯坦人民。必须对沙特予以惩处，肇事者必须受到惩罚。(金十)",
+      "link": "https://jinse.com.cn/lives/523492.html",
+      "published": "Thu, 16 Jul 2026 13:40:16 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伊朗已阐明重返谅解备忘录的前提条件",
+      "summary": "【伊朗已阐明重返谅解备忘录的前提条件】金色财经报道，据俄新社报道，在被问及德黑兰是否认为与华盛顿签署的备忘录目前仍然有效的问题时，伊朗议会国家安全与外交政策委员会成员艾哈迈德表示：“伊朗和美国之间的谅解备忘录目前已失效，但如果华盛顿恢复执行，德黑兰准备重新启用该备忘录。不过目前看来，美国还没有准备恢复执行，但如果美国这么做了， 伊朗也可能会重新考虑其对此问题的立场。”(金十)",
+      "link": "https://jinse.com.cn/lives/523491.html",
+      "published": "Thu, 16 Jul 2026 13:36:57 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "纳指低开0.43%，存储概念股集体回调，SK海力士跌超6%",
+      "summary": "【纳指低开0.43%，存储概念股集体回调，SK海力士跌超6%】金色财经报道，7月16日，美股开盘，三大指数涨跌不一，纳指跌0.43%，标普500指数跌0.21%，道指涨0.16%。 \n美国正式对DRAM设备及其下游产品和组件(II)启动337调查，存储概念股集体回调，SK海力士跌超6%，闪迪跌超5%，西部数据、希捷科技跌超4%，美光科技跌超3%。 \n台积电跌超3%，Q2净利润同比暴增77.4%创新高，利好兑现后迎来获利了结。 \n百度涨3.5%，公司寻求在港双重主要上市，分析指最快今年9月可冲刺港股通。",
+      "link": "https://jinse.com.cn/lives/523490.html",
+      "published": "Thu, 16 Jul 2026 13:33:17 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "彭博：Jump Trading扩大预测市场团队并计划继续招聘",
+      "summary": "【彭博：Jump Trading扩大预测市场团队并计划继续招聘】金色财经报道，据彭博社披露，高频交易巨头 Jump Trading Group 正加码预测市场领域，随着世界杯等大型事件推动预测市场交易量创下新高，Jump Trading今年已将预测市场团队规模扩大一倍至约20人，并计划继续招聘。Jump Trading预测市场负责人Simon Johansen表示，公司认为预测市场正在从边缘化产品逐渐发展为成熟金融市场的一部分，未来仍存在较大增长空间。<p>原文链接: <a href=\"https://www.bloomberg.com/news/articles/2026-07-16/jump-trading-doubles-team-to-ride-record-prediction-market-boom\">https://www.bloomberg.com/news/articles/2026-07-16/jump-trading-doubles-team-to-ride-record-prediction-market-boom</a></p>",
+      "link": "https://jinse.com.cn/lives/523489.html",
+      "published": "Thu, 16 Jul 2026 13:33:00 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "高盛：散户贡献美股约30%交易量，6月交易额再创历史新高",
+      "summary": "【高盛：散户贡献美股约30%交易量，6月交易额再创历史新高】金色财经报道，高盛数据显示，散户投资者目前约占美国股票每日交易量的 30%。今年 5 月，散户股票交易额较 2021 年 1 月「散户大战华尔街」时期的峰值高出 10%，6 月进一步刷新历史纪录。 \n期权市场热度同步上升，今年以来单日成交量已多次突破 5000 万份，较三年前翻倍。Citadel Securities 数据显示，7 月成为其记录中散户买入力度最强的月份之一，且尚未出现单日净卖出，持续买入也迫使部分低仓位机构在高位追涨。 \n高盛估算，散户自持经纪账户的资产规模已达 12 万亿美元，约占美国企业股权市场的 10%；若计入直接及间接持有资产，美国个人投资者规模达到 111 万亿美元。高盛执行服务主管 Bobby Molavi 将其形容为资本市场中的「大白鲸」。 \n不过，市场对推动本轮行情的 AI 叙事仍存在分歧。评论人士 Ed Zitron 警告，OpenAI 高额算力支出及基础设施债务可能带来「AI 版雷曼时刻」；橡树资本联席董事长霍华德·马克斯则认为，AI 的生产力潜力可能抵消短期财务压力。",
+      "link": "https://jinse.com.cn/lives/523488.html",
+      "published": "Thu, 16 Jul 2026 13:32:33 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "黎巴嫩真主党：我们绝不会交出武器",
+      "summary": "【黎巴嫩真主党：我们绝不会交出武器】金色财经报道，黎巴嫩真主党议会代表：我们绝不会交出武器，他们也永远无法从我们手中夺走这些武器。黎巴嫩政府中有九名部长不支持（2026年6月26日在美国斡旋下与以色列政权签署的）框架协议。所以，黎巴嫩政府正朝着与我们产生分歧和激烈口角的方向迈进。(金十)",
+      "link": "https://jinse.com.cn/lives/523487.html",
+      "published": "Thu, 16 Jul 2026 13:31:47 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伯恩斯坦：上调阿斯麦目标价至2500欧元，列出三大上行驱动因素",
+      "summary": "【伯恩斯坦：上调阿斯麦目标价至2500欧元，列出三大上行驱动因素】金色财经报道，7月16日，伯恩斯坦将阿斯麦的目标价从2300欧元上调至2500欧元，维持“跑赢大市”评级。分析师David Dai指出，三大上行驱动因素：其一，阿斯麦计划在2027年和2028年每年将低数值孔径EUV及ArFi产能各提升30%；定价方面存在上行空间，估计2027年EUV平均售价将上涨10%，2028年有望再度实现高个位数百分比的涨幅；看好利润率的改善空间，公司对2026年下半年毛利率指引为56%，高于市场普遍预期的52.6%。伯恩斯坦将阿斯麦2027年及2028年营收预测分别上调至560亿和720亿欧元，每股收益预测亦相应上调至53.6和75.3欧元。",
+      "link": "https://jinse.com.cn/lives/523486.html",
+      "published": "Thu, 16 Jul 2026 13:29:42 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Ledger推出开源工具包Agent Stack 支持AI代理与硬件钱包交互",
+      "summary": "【Ledger推出开源工具包Agent Stack 支持AI代理与硬件钱包交互】金色财经报道，7月16日，据CoinDesk报道，Ledger推出了Ledger Agent Stack。这是一个开源工具包，它允许AI代理通过读取余额、准备交易和建议操作来与加密钱包进行交互，同时要求用户在Ledger硬件设备上批准每一笔交易。<p>原文链接: <a href=\"https://x.com/CoinDesk/status/2077743029935362402\">https://x.com/CoinDesk/status/2077743029935362402</a></p>",
+      "link": "https://jinse.com.cn/lives/523485.html",
+      "published": "Thu, 16 Jul 2026 13:29:15 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Sharon AI计划到2027年年中部署超过62,000块英伟达GPU",
+      "summary": "【Sharon AI计划到2027年年中部署超过62,000块英伟达GPU】金色财经报道，据市场消息：Sharon AI 计划到 2027 年年中部署超过 62,000 块英伟达 GPU。",
+      "link": "https://jinse.com.cn/lives/523484.html",
+      "published": "Thu, 16 Jul 2026 13:28:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美被曝对伊战争支出或高达1000亿美元",
+      "summary": "【美被曝对伊战争支出或高达1000亿美元】金色财经报道，7月16日，据美国方面7月15日消息，美国国防部内部的一份评估数据显示，美国对伊朗军事行动的实际支出可能高达1000亿美元，远超美国政府此前公布的约300亿美元。据悉，两者之所以存在如此巨大的差距，主要因为此前官方估算并未包含未公开的作战开支、先进战机损失，以及美国在中东军事设施遭受的严重损毁成本。美国国会参议员安格斯·金表示，美国民众对无法得知战争的实际支出感到非常失望，“更不用说战事给民众在汽油价格等方面带来的额外成本”。（央视新闻）",
+      "link": "https://jinse.com.cn/lives/523483.html",
+      "published": "Thu, 16 Jul 2026 13:23:20 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "知名基金经理管理的基金集中宣布放松限购",
+      "summary": "【知名基金经理管理的基金集中宣布放松限购】金色财经报道，7月16日，近日，知名基金经理管理的基金集中宣布放松限购。7月15日-16日，金梓才、张明昕管理的多只基金均宣布放松限购，部分基金更是取消限购。上述基金近一年收益都翻倍，业绩十分抢眼。",
+      "link": "https://jinse.com.cn/lives/523482.html",
+      "published": "Thu, 16 Jul 2026 13:22:49 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股芯片、存储及光通信股跌幅扩大，闪迪跌近9%、康宁跌逾8%",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，美股芯片股普遍下挫。Arm 跌 6.40%、迈威尔科技跌 6.20%、美光科技跌 5.12%、高通跌 4.40%、英特尔跌 4.21%、AMD 跌 3.91%、博通跌 3.79%，英伟达跌 2.24%。</p><p><br /></p><p>存储板块集体重挫，闪迪跌 8.77%、希捷科技跌 7.70%、西部数据跌 7.51%、SK 海力士跌 7.46%、美光科技跌 5.12%。</p><p><br /></p><p>光通信概念股跌幅居前，康宁跌 8.17%、Astera Labs 跌 6.57%、Applied Optoelectronics 跌 6.44%、诺基亚跌 6.00%、Credo 跌 5.63%、Coherent 跌 5.57%。</p>",
+      "link": "https://www.theblockbeats.info/flash/356557",
+      "published": "Thu, 16 Jul 2026 13:55:40 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某新建钱包向Hyperliquid存入500万枚USDC，并以2倍做多价值138万美元长鑫存储",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据 Lookonchain 监测，某新建钱包向 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 存入了 500 万枚 USDC，并以 2 倍杠杆做多 194,175 股 CXMT（价值 138 万美元），清算价为 4 美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/356556",
+      "published": "Thu, 16 Jul 2026 13:53:35 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：美参议院反对赦免SBF决议仅为政治声明，并不具有法律约束力",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，加密记者 Eleanor Terrett 发文表示，美国参议院昨日以一致同意方式通过一项决议，认为 FTX 创始人 Sam Bankman-Fried 不应获得总统赦免。</p><p><br /></p><p>该决议由参议员 Ruben Gallego 和 Cynthia Lummis 提出，代表参议院正式记录其反对赦免 SBF 的政治声明。</p><p><br /></p><p>不过，该决议不具法律约束力，因此不会阻止美国总统未来赦免 SBF，对其当前法律处境也没有直接影响。</p>",
+      "link": "https://www.theblockbeats.info/flash/356555",
+      "published": "Thu, 16 Jul 2026 13:50:18 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Polygon Labs收购Coinme进入最后阶段，并启动裁员",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，Polygon Labs CEO Marc Boiron 发文表示，公司对 Coinme 的收购已进入最后阶段，交易完成后将把 Coinme 团队并入 Polygon Labs。此次整合属于更广泛的合并计划，目标是推动 Polygon Labs 于 2027 年实现盈利。</p><p><br /></p><p>在整合过程中，Polygon Labs 已于今日裁减多名员工。Marc 表示，公司正从区块链基金会转型为区块链支付公司，两类组织所需的架构和人才配置不同，此次调整源于公司发展方向变化，与离职员工的工作质量无关。</p><p><br /></p><p>他表示，Polygon Labs 当前营收表现强劲，稳定币交易量持续创下新高，客户储备超出预期，链上支付解决方案也已快速上线。公司将为受影响员工提供遣散补偿和相关支持。</p>",
+      "link": "https://www.theblockbeats.info/flash/356554",
+      "published": "Thu, 16 Jul 2026 13:44:56 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股开盘，SK海力士ADR跌超5%",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据 BIT(bit.com) 行情数据，美股开盘，道指开涨 0.2%，标普 500 指数跌 0.19%，纳指跌 0.45%。SK 海力士 ADR(SKHY.O) 跌超 5%，闪迪 (SNDK.O) 跌 4.5%，美光科技 (MU.O) 跌 3.1%，西部数据 (WDC.O) 跌 3.6%，英特尔 (INTC.O) 跌 1.4%。</p>",
+      "link": "https://www.theblockbeats.info/flash/356553",
+      "published": "Thu, 16 Jul 2026 13:31:26 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "高盛：散户贡献美股约30%交易量，6月交易额再创历史新高",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，高盛数据显示，散户投资者目前约占美国股票每日交易量的 30%。今年 5 月，散户股票交易额较 2021 年 1 月「散户大战华尔街」时期的峰值高出 10%，6 月进一步刷新历史纪录。</p><p><br /></p><p>期权市场热度同步上升，今年以来单日成交量已多次突破 5000 万份，较三年前翻倍。Citadel Securities 数据显示，7 月成为其记录中散户买入力度最强的月份之一，且尚未出现单日净卖出，持续买入也迫使部分低仓位机构在高位追涨。</p><p><br /></p><p>高盛估算，散户自持经纪账户的资产规模已达 12 万亿美元，约占美国企业股权市场的 10%；若计入直接及间接持有资产，美国个人投资者规模达到 111 万亿美元。高盛执行服务主管 Bobby Molavi 将其形容为资本市场中的「大白鲸」。</p><p><br /></p><p>不过，市场对推动本轮行情的 AI 叙事仍存在分歧。评论人士 Ed Zitron 警告，OpenAI 高额算力支出及基础设施债务可能带来「AI 版雷曼时刻」；橡树资本联席董事",
+      "link": "https://www.theblockbeats.info/flash/356552",
+      "published": "Thu, 16 Jul 2026 13:27:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美被曝对伊战争支出或高达1000亿美元",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据美国方面 7 月 15 日消息，美国国防部内部的一份评估数据显示，美国对伊朗军事行动的实际支出可能高达 1000 亿美元，远超美国政府此前公布的约 300 亿美元。据悉，两者之所以存在如此巨大的差距，主要因为此前官方估算并未包含未公开的作战开支、先进战机损失，以及美国在中东军事设施遭受的严重损毁成本。</p><p><br /></p><p>美国国会参议员安格斯·金表示，美国民众对无法得知战争的实际支出感到非常失望，「更不用说战事给民众在汽油价格等方面带来的额外成本」。（央视新闻）</p>",
+      "link": "https://www.theblockbeats.info/flash/356551",
+      "published": "Thu, 16 Jul 2026 13:23:25 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "德意志银行：若美联储选择量化紧缩而非加息，美元可能走软",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，德意志银行分析师 George Saravelos 在一份报告中指出，如果美联储将政策重心从加息转向缩减资产负债表（即量化紧缩）以收紧货币政策，美元可能会因此走软。他表示，日本的经验值得借鉴，尽管日本央行加息步伐缓慢，但却以创纪录的速度通过量化紧缩回收流动性，而日元仍处于历史低位。</p><p><br /></p><p>此外，收紧资产负债表还可能与特朗普政府产生政策冲突，因为特朗普政府已明确表示，希望维持长期国债收益率处于较低水平。他还表示，日本央行的独立性仍持续受到市场关注。日本财务大臣片山皋月甚至讨论过动用国内储蓄来支撑日本债券市场。(金十)</p>",
+      "link": "https://www.theblockbeats.info/flash/356550",
+      "published": "Thu, 16 Jul 2026 13:22:44 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "英伟达支持的Fireworks完成15亿美元融资，估值达175亿美元",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，英伟达支持的 AI 云服务初创公司 Fireworks 完成 15 亿美元融资，估值达 175 亿美元。本轮融资由 Atreides Management、Index Ventures 和 TCV 领投，英伟达、Evantic 及 Lightspeed Venture Partners 等参投。</p><p><br /></p><p>Fireworks 主要为开发者托管和运行开源 AI 模型，目前年化收入已超过 10 亿美元，为去年同期的 5 倍。公司 CEO Lin Qiao 表示，越来越多企业因成本压力转向开源模型，Fireworks 提供的同等质量模型成本可较闭源模型低 5 至 10 倍。</p><p><br /></p><p>Fireworks 支持 DeepSeek、MiniMax、智谱 AI 等公司的模型，并与微软建立合作，依托包括微软在内的逾 20 家算力供应商提供服务。公司目前每日处理约 40 万亿个 AI Token，同时开始提供用于训练 AI 模型的 GPU。</p><p><br /></p><p>Firework",
+      "link": "https://www.theblockbeats.info/flash/356549",
+      "published": "Thu, 16 Jul 2026 13:21:18 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普旗下Truth Social将面向华尔街推出实时数据服务",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据 Axios 报道，特朗普媒体与科技集团将推出 Truth API，允许金融服务公司付费获取 Truth Social 实时数据。这是公司首次将媒体业务拓展至数据授权领域，计划于 8 月 1 日正式上线。</p><p><br /></p><p>Truth API 初期将提供平台热度最高的 10 个账户的实时帖子，包括特朗普、白宫、FBI 局长 Kash Patel、白宫副幕僚长 Dan Scavino，以及美国卫生与公众服务部长 Robert F. Kennedy Jr. 等。公司未来可根据客户付费水平扩大可访问账户范围。</p><p><br /></p><p>临时 CEO Kevin McGurn 表示，公司已在上线前签下多家客户，包括财经新闻机构和高频交易公司，但未披露具体名单。其称，部分机构此前长期抓取 Truth Social 数据并向机构客户转售，授权 API 的速度将明显快于抓取方式。</p><p><br /></p><p>特朗普媒体还在讨论将 Truth Social 数据授权给 AI 公司，用于大语言模型训练。公司去",
+      "link": "https://www.theblockbeats.info/flash/356548",
+      "published": "Thu, 16 Jul 2026 13:14:21 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "国际金银持续走低，黄金失守4000美元/盎司",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据 Bitget 数据显示，国际金银持续走低，现货白银日内跌幅扩大至 4%，现报 55.6 美元/盎司；现货黄金日内跌幅扩大至 2%，失守 4000 美元/盎司。</p>",
+      "link": "https://www.theblockbeats.info/flash/356547",
+      "published": "Thu, 16 Jul 2026 13:09:58 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美媒：特朗普在买入股票数日后便在「真实社交」平台上为相关公司「带货」",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据 CNN 报道，去年，美国总统特朗普在「真实社交」（Truth Social）平台上发布了一则「非常重大且令人兴奋的消息」。当时，计算机芯片制造巨头英伟达 (NVDA.O) 刚刚宣布了在美国建造人工智能超级计算机的计划。特朗普在 2025 年 4 月 15 日向其超过 900 万粉丝发布的帖子中承诺「所有必要的许可证都将加快办理并迅速交付给英伟达及类似公司」。然而，特朗普当时未透露的是，就在几天前，他刚刚买入了价值 20 万至 50 万美元的该公司股票。</p><p><br /></p><p>CNN 的一项调查发现，特朗普在购买了 20 多家公司的股票几天后，就在他的 Truth Social 账户上推广了这些公司——有时还会宣布一些可能使他刚刚投资的公司受益的政府行动。白宫强烈否认特朗普曾利用职权谋取私利，并表示他的所有行为都是为了造福美国公众。白宫方面称，总统所有的股票交易均由外部财务经理人进行，特朗普及其家人对具体交易没有任何控制权。(金十)</p>",
+      "link": "https://www.theblockbeats.info/flash/356546",
+      "published": "Thu, 16 Jul 2026 13:08:46 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "预测市场平台Pascal完成900万美元A轮融资，USV领投",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据《财富》报道，预测市场初创公司 Pascal 完成 900 万美元 A 轮融资，由 Union Square Ventures 领投，估值未披露。该公司去年 8 月曾获 Wintermute Ventures 和 DBA 投资的 600 万美元种子轮融资。</p><p><br />Pascal 于今年 6 月上线，目前仍处于私测阶段。其产品定位更接近永续合约交易平台，允许用户围绕未来事件进行交易，并主打较低费用、更快执行速度及面向专业交易员和机构的工具。公司还计划减少交易看似成交但未最终结算的「虚假成交」问题，并通过激励提升流动性。</p>",
+      "link": "https://www.theblockbeats.info/flash/356545",
+      "published": "Thu, 16 Jul 2026 13:04:41 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股盘前要闻一览：台积电Q2净利润同比增长77%大超预期盘前仍跌超4%，大摩预计DRAM合约价增速预计在2026年Q4见顶",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，美股盘前市场重要新闻一览如下：</p><p><br /></p><p>1、美国至 7 月 11 日当周初请失业金人数 20.8 万人，预期 21.7 万人，前值由 21.5 万人修正为 21.6 万人。今日美国初请失业金数据公布后，美联储 7 月维持利率不变的概率为 87.7%，加息 25 个基点的概率为 12.3%。</p><p><br /></p><p>2、台积电今日公布 2026 年第二季度财报，净利润同比增长 77% 至 7066 亿新台币，创历史新高并超过市场预期。尽管业绩表现强劲，台积电美股盘前仍下跌 4.5%。市场对公司未来资本支出大幅增加作出负面反应。台积电预计未来三年资本支出将显著高于过去三年。</p><p><br /></p><p>3、纳斯达克 100 股指期货下跌 1.08%，美国标普 500 期货下跌 0.43%，道琼斯股指期货下跌 0.02%。存储板块跌幅居前，西部数据跌 7.83%、SK 海力士 ADR 跌 7.61%。</p><p><br /></p><p>4、摩根士丹利预计 DRAM 合约价增速预计在",
+      "link": "https://www.theblockbeats.info/flash/356544",
+      "published": "Thu, 16 Jul 2026 13:01:52 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国初请失业金数据公布后，美联储7月维持利率不变的概率为87.7%",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，美国至 7 月 11 日当周初请失业金人数 20.8 万人，预期 21.7 万人，前值由 21.5 万人修正为 21.6 万人。</p><p><br /></p><p>据 CME「美联储观察」数据，今日美国初请失业金数据公布后，美联储 7 月维持利率不变的概率为 87.7%，加息 25 个基点的概率为 12.3%。</p>",
+      "link": "https://www.theblockbeats.info/flash/356543",
+      "published": "Thu, 16 Jul 2026 12:46:39 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "摩根士丹利预计存储价格增速将在今年Q4见顶",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，摩根士丹利预计 DRAM 合约价增速预计在 2026 年四季度见顶，随后同比增速可能出现大幅下降，再像之前一年涨四倍的情况很难出现，而存储公司的估值（未来 12 个月预期市净率）有待重估。</p>",
+      "link": "https://www.theblockbeats.info/flash/356542",
+      "published": "Thu, 16 Jul 2026 12:40:04 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "DeepSeek估值超3500亿元",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，开润股份 16 日晚间的一纸投资进展公告，意外披露了国内头部人工智能企业「深度求索」（DeepSeek）的最新市场估值。按公告数据推算，DeepSeek 本轮融资后估值已攀升至约 3510 亿元。记者从接近 DeepSeek 处人士确认，随着本轮融资完成，该公司目前已经开始启动第二轮融资了，但是年底是否冲刺科创板，目前并未确定。</p>",
+      "link": "https://www.theblockbeats.info/flash/356541",
+      "published": "Thu, 16 Jul 2026 12:32:59 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国至7月11日当周初请失业金人数20.8万人，预期21.7万人",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，美国至 7 月 11 日当周初请失业金人数 20.8 万人，预期 21.7 万人，前值由 21.5 万人修正为 21.6 万人。(金十)</p>",
+      "link": "https://www.theblockbeats.info/flash/356540",
+      "published": "Thu, 16 Jul 2026 12:30:17 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Alpaca完成1.35亿美元融资，Peak XV领投",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，面向开发者的股票、期权和加密货币 API 经纪商 Alpaca 宣布完成 1.35 亿美元 融资，Peak XV 领投，Elefund、Opera Tech Ventures 和 Unbound等参投。新资金将用于扩展面向代币化市场和人工智能原生金融服务的代理优先经纪基础设施。</p><p><br /></p><p>Alpaca 融资总额达 4.35 亿美元，其中包括主要来自全球数字资产平台 Kraken 母公司 Payward 和 BMO 的债务融资。</p>",
+      "link": "https://www.theblockbeats.info/flash/356539",
+      "published": "Thu, 16 Jul 2026 12:27:41 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "「麻吉」ETH多单加仓至3066万美元，现浮盈42.7万美元",
+      "summary": "<p>BlockBeats 消息，7 月 16 日，据 <a href=\"https://t.me/HyperInsight\" target=\"_blank\">HyperInsight</a> 监测，「麻吉大哥」黄立成地址近日持续加仓 ETH 多单，目前以 25 倍杠杆做多 16300 枚 ETH（3066 万美元），建仓均价 1855.07 美元，浮盈 42.7 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/356538",
+      "published": "Thu, 16 Jul 2026 12:21:28 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "Organised crime groups move billions through crypto, global financial crime watchdog warns - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOS3QyMWEzWTNKN3BQWkwydFN6UnN3dTVVcXBxQWhKeXlJRDBKTHpNWHN2MDlWOVNOUnNpdXFNSjY0N19EVFdmWGR5S04yQWc4b20xYktzbXBCNmtYMUZ2ZTNhOF9UMmJKbzNnTUVBcXdhT3ZYRDQ5NzhzSVgtRThWb0V3WkJFN1NEdWhhQlplOFpudGpoREZ0Vi01UEZZLWxMOTdCV09Hd2JHcWNINE5WdUtYZ1VQLTk5V0JmRURVREpMTDhDamc?oc=5\" target=\"_blank\">Organised crime groups move billions through crypto, global financial crime watchdog warns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS3QyMWEzWTNKN3BQWkwydFN6UnN3dTVVcXBxQWhKeXlJRDBKTHpNWHN2MDlWOVNOUnNpdXFNSjY0N19EVFdmWGR5S04yQWc4b20xYktzbXBCNmtYMUZ2ZTNhOF9UMmJKbzNnTUVBcXdhT3ZYRDQ5NzhzSVgtRThWb0V3WkJFN1NEdWhhQlplOFpudGpoREZ0Vi01UEZZLWxMOTdCV09Hd2JHcWNINE5WdUtYZ1VQLTk5V0JmRURVREpMTDhDamc?oc=5",
+      "published": "Thu, 16 Jul 2026 13:53:44 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Nvidia-backed Fireworks hits $17.5 billion valuation as companies pursue cheaper AI models - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNRlRKeDJCZWhSbUxXbTV6dTZPeUhPZ3FiN0MzV1pnVXM3NXAzRjRoTVJYSWhxVW0tNGctUVY4QzRIT3lTMUlWRHlNeTFubW11OTdMNHFEd09GMWxHcGRMVkJNcWlIS2I3bFZFVkpoWnNYUzJFOU51ZEprM3RGdE13SVRB0gGHAUFVX3lxTE1YWm5zQU5aTlhaSm10UEJPdENLSTVMTzBuQU5lY0xNX2hpNXFrTERPRXF4OHM3VE9NRElXcl9xQU94ODl2SG1rejVONUFUbnF6eTZtWGcydnV5Y1R2bTd0VHFzLWY1SEJTbFJNbmN5RGZsV1dGSXNnZDRSYnU4a2YwOU9WcGxIYw?oc=5\" target=\"_blank\">Nvidia-backed Fireworks hits $17.5 billion valuation as companies",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRlRKeDJCZWhSbUxXbTV6dTZPeUhPZ3FiN0MzV1pnVXM3NXAzRjRoTVJYSWhxVW0tNGctUVY4QzRIT3lTMUlWRHlNeTFubW11OTdMNHFEd09GMWxHcGRMVkJNcWlIS2I3bFZFVkpoWnNYUzJFOU51ZEprM3RGdE13SVRB0gGHAUFVX3lxTE1YWm5zQU5aTlhaSm10UEJPdENLSTVMTzBuQU5lY0xNX2hpNXFrTERPRXF4OHM3VE9NRElXcl9xQU94ODl2SG1rejVONUFUbnF6eTZtWGcydnV5Y1R2bTd0VHFzLWY1SEJTbFJNbmN5RGZsV1dGSXNnZDRSYnU4a2YwOU9WcGxIYw?oc=5",
+      "published": "Thu, 16 Jul 2026 13:00:02 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Daily Discussion",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>This post contains content not supported on old Reddit. <a href=\"https://sh.reddit.com/r/CryptoCurrency/comments/1uy276f\">Click here to view the full post</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/discordditapp\"> /u/discordditapp </a> <br /> <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1uy276f/daily_discussion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comme",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uy276f/daily_discussion/",
+      "published": "2026-07-16T12:59:52+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "The Katana blockchain after 1 year - DeFi can still be safe & exciting",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Katana turned 1 on July 1st. Over the last year, they've outcompeted many chains from the 2024/25 era and are still going strong.</p> <p>I've made posts about Katana in the past. I work in web3 and this project is one of the most exciting I've seen because of the design of the chain and the way emissions are structed.</p> <p>If you've ever farmed an incentive program, you know the arc. Emissions turn on, TVL floods in, the APY looks unreal for six weeks, emissio",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uy0v3l/the_katana_blockchain_after_1_year_defi_can_still/",
+      "published": "2026-07-16T12:01:48+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "new to this, how do i genuinely get into this?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>i don’t have much experience with investing apart from an etf (which isn’t going well at all😭) and i wanna know what app/website to use, what’s safe but rewarding to invest in, etc. can someone help?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sugarch3rry\"> /u/sugarch3rry </a> <br /> <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1uy3a3i/new_to_this_how_do_i_genuinely_get_into_this/\">[link]</a></span> &",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uy3a3i/new_to_this_how_do_i_genuinely_get_into_this/",
+      "published": "2026-07-16T13:43:14+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "What's the smoothest swap experience you've had recently?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Not necessarily the cheapest trade, but one where everything worked exactly as expected without delays, confusion, or extra steps. It feels like those transactions deserve appreciation because they don't happen as often as they should.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ResidentGur271\"> /u/ResidentGur271 </a> <br /> <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1uy37zd/whats_the_smoothest_swap",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uy37zd/whats_the_smoothest_swap_experience_youve_had/",
+      "published": "2026-07-16T13:40:57+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Undeclared gains does not make you unbankable",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Most crypto bros think that if they have not been tax compliant in their jurisdiction they are not able to cash-out. This is wrong.</p> <p>Sure there is the automatic exchange of information between your tax residency and your bank account, however if you plan on becoming tax compliant through a voluntary tax disclosure while you are preparing your compliance documentation for the bank.</p> <p>Amongst the crypto community it is very normal for people to have not",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uy25g2/undeclared_gains_does_not_make_you_unbankable/",
+      "published": "2026-07-16T12:57:49+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Did anyone else receive dozens of Bitstamp emails this morning?",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1uy1u4d/did_anyone_else_receive_dozens_of_bitstamp_emails/\"> <img alt=\"Did anyone else receive dozens of Bitstamp emails this morning?\" src=\"https://preview.redd.it/g3a7ban48ldh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=13cf967656d3f6dc9bff38469eeab3356411fb32\" title=\"Did anyone else receive dozens of Bitstamp emails this morning?\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ll",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1uy1u4d/did_anyone_else_receive_dozens_of_bitstamp_emails/",
+      "published": "2026-07-16T12:44:43+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin and ethereum prices today, Thursday, July 16, 2026: Prices rise, ethereum becomes 'increasingly compelling' - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxPY3VxeWtCY0hnOFI4NzBrMEEyMlV2S05faWFENW84X3VvbEhqNEh6Qk5xQ2FWRGlsdFY4UmVfQmFMclZFY2p4NllqUE03QlZ5Q1dJRG5tWW5KRV9lQkpHTUNUdVlUazBXMGRUY3NiSHFKNGNGWW9VdzJuNHpUQkNlS3FlQktSekc0NzRwWVRKQzkyRlJVVVVMaFdYa0VJN0c3U25VVWh5bzZUd0o4UlktSkJVV3dhM1hhV0lraUxxQWRuT010V2YtcExZN0pkUkt2OWxNQXhTbnk4STFVb0dLeTlkenRkTDRZWnJNNkNIcVlOOGRuWHB0bjEyUFVqX2NnMjBLQnZWZjV3OXhEX2t1aHhn?oc=5\" target=\"_blank\">Bitcoin and ethereum prices today, Thursday, July 16, 2026:",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPY3VxeWtCY0hnOFI4NzBrMEEyMlV2S05faWFENW84X3VvbEhqNEh6Qk5xQ2FWRGlsdFY4UmVfQmFMclZFY2p4NllqUE03QlZ5Q1dJRG5tWW5KRV9lQkpHTUNUdVlUazBXMGRUY3NiSHFKNGNGWW9VdzJuNHpUQkNlS3FlQktSekc0NzRwWVRKQzkyRlJVVVVMaFdYa0VJN0c3U25VVWh5bzZUd0o4UlktSkJVV3dhM1hhV0lraUxxQWRuT010V2YtcExZN0pkUkt2OWxNQXhTbnk4STFVb0dLeTlkenRkTDRZWnJNNkNIcVlOOGRuWHB0bjEyUFVqX2NnMjBLQnZWZjV3OXhEX2t1aHhn?oc=5",
+      "published": "Thu, 16 Jul 2026 12:42:18 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Organised crime groups move billions through crypto, global financial crime watchdog warns - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOS3QyMWEzWTNKN3BQWkwydFN6UnN3dTVVcXBxQWhKeXlJRDBKTHpNWHN2MDlWOVNOUnNpdXFNSjY0N19EVFdmWGR5S04yQWc4b20xYktzbXBCNmtYMUZ2ZTNhOF9UMmJKbzNnTUVBcXdhT3ZYRDQ5NzhzSVgtRThWb0V3WkJFN1NEdWhhQlplOFpudGpoREZ0Vi01UEZZLWxMOTdCV09Hd2JHcWNINE5WdUtYZ1VQLTk5V0JmRURVREpMTDhDamc?oc=5\" target=\"_blank\">Organised crime groups move billions through crypto, global financial crime watchdog warns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS3QyMWEzWTNKN3BQWkwydFN6UnN3dTVVcXBxQWhKeXlJRDBKTHpNWHN2MDlWOVNOUnNpdXFNSjY0N19EVFdmWGR5S04yQWc4b20xYktzbXBCNmtYMUZ2ZTNhOF9UMmJKbzNnTUVBcXdhT3ZYRDQ5NzhzSVgtRThWb0V3WkJFN1NEdWhhQlplOFpudGpoREZ0Vi01UEZZLWxMOTdCV09Hd2JHcWNINE5WdUtYZ1VQLTk5V0JmRURVREpMTDhDamc?oc=5",
+      "published": "Thu, 16 Jul 2026 13:53:44 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Podcast Plus – Crypto under the FCA - Custody | Global law firm | Norton Rose Fulbright - Global Regulation Tomorrow",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUEJqTjk2VXZsdHh4X3lvRnRJU1F0eUo4Z280alJ5U1ZBSS0zZEVVUWlNdFhUZTk2QlFsYjBVZ1JYVFF0cEFfdERkNGtxN0JhRHZyUDRNT3JNVVdvRmJKNU1QM19CbnYtUWhLcXNYd3pjYnEwalhfZTRScm5kSkxFbDk3eXAtUTQ1TmNsOGtObW4yRUJQZHVqNlRmQVg4bnM5RVh6c3I5c09NVjlUSjJqT0NQLWpZNFVNSDNpMGZQbmpBRFJhVDY1dTVXM3BTTGhxQlhnSmRuLXRCeGpWUFhkYXVZMko?oc=5\" target=\"_blank\">Podcast Plus – Crypto under the FCA - Custody | Global law firm | Norton Rose Fulbright</a>&nbsp;&nbsp;<font color=\"#6f6",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUEJqTjk2VXZsdHh4X3lvRnRJU1F0eUo4Z280alJ5U1ZBSS0zZEVVUWlNdFhUZTk2QlFsYjBVZ1JYVFF0cEFfdERkNGtxN0JhRHZyUDRNT3JNVVdvRmJKNU1QM19CbnYtUWhLcXNYd3pjYnEwalhfZTRScm5kSkxFbDk3eXAtUTQ1TmNsOGtObW4yRUJQZHVqNlRmQVg4bnM5RVh6c3I5c09NVjlUSjJqT0NQLWpZNFVNSDNpMGZQbmpBRFJhVDY1dTVXM3BTTGhxQlhnSmRuLXRCeGpWUFhkYXVZMko?oc=5",
+      "published": "Thu, 16 Jul 2026 13:16:36 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Cryptocurrencies: Bitcoin Sits Just Below $65K - Advisor Perspectives",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSjJxSDludVNVRFQxTXhSaGd1TzlYbjBucTZ1ZUxNNmt5UzhBQkhsckl4UVZHOWtDZzF1UzNOWlhES2JPNTl2MkRSZktLNTdjdk1OdmZYc2J4VUdUUGJUMkFGSjdiTENicXZsWEJGeGx4aUFmVFZWX1R6T1FwdU9TLXJuTDZ6R2plNi1HNWNIMGV3NFFWZG5YZTJFUVpqMlJtTTN5T0ZEQjZpUQ?oc=5\" target=\"_blank\">Cryptocurrencies: Bitcoin Sits Just Below $65K</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Advisor Perspectives</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSjJxSDludVNVRFQxTXhSaGd1TzlYbjBucTZ1ZUxNNmt5UzhBQkhsckl4UVZHOWtDZzF1UzNOWlhES2JPNTl2MkRSZktLNTdjdk1OdmZYc2J4VUdUUGJUMkFGSjdiTENicXZsWEJGeGx4aUFmVFZWX1R6T1FwdU9TLXJuTDZ6R2plNi1HNWNIMGV3NFFWZG5YZTJFUVpqMlJtTTN5T0ZEQjZpUQ?oc=5",
+      "published": "Thu, 16 Jul 2026 13:32:28 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Dormant Crypto Wallet Moves $383 Million Of Bitcoin - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQb2VRN1Nya2JDMDN6SlJpMVk5YmhYZnJqd25SbGFWYnE1MVBKNVJwNTc3dE0xdG9FS2JBckk1MkpKLUxQTG1EdmhxbWNfbGUtSHdqVHEycDZsbEwxTTV5MU5nY1Z0aG96dmdnRFFCNElfMkRDRnlBOUJFb2NvVG9HREtWd0pNTHNvX3NwNmUwUnVXYkd6UTBIeUZvVHQ?oc=5\" target=\"_blank\">Dormant Crypto Wallet Moves $383 Million Of Bitcoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb2VRN1Nya2JDMDN6SlJpMVk5YmhYZnJqd25SbGFWYnE1MVBKNVJwNTc3dE0xdG9FS2JBckk1MkpKLUxQTG1EdmhxbWNfbGUtSHdqVHEycDZsbEwxTTV5MU5nY1Z0aG96dmdnRFFCNElfMkRDRnlBOUJFb2NvVG9HREtWd0pNTHNvX3NwNmUwUnVXYkd6UTBIeUZvVHQ?oc=5",
+      "published": "Thu, 16 Jul 2026 13:35:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ethereum price pulls back after CPI rally as analysts keep $2,000 breakout in focus - Crypto News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5RS0lmaXMtR0NHOTk2WnpSbHF4d2JkeG5CbjBoYWNDRVRYRDVGN1VDdjBYcjdlRlpMakdXUjNNLUZ0WUZVN3RYOFJNLU1FaERPaUxtSEhxSnFWNncwcEhLakVwRlNSaXRCc1JXdzExRUNrX2QzamVqT1Jicmw?oc=5\" target=\"_blank\">Ethereum price pulls back after CPI rally as analysts keep $2,000 breakout in focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto News</font>",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RS0lmaXMtR0NHOTk2WnpSbHF4d2JkeG5CbjBoYWNDRVRYRDVGN1VDdjBYcjdlRlpMakdXUjNNLUZ0WUZVN3RYOFJNLU1FaERPaUxtSEhxSnFWNncwcEhLakVwRlNSaXRCc1JXdzExRUNrX2QzamVqT1Jicmw?oc=5",
+      "published": "Thu, 16 Jul 2026 12:30:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Top Coins of Future Crypto Bull Market - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeF81NnR2aXVKWDFjNG1IaUx1MjlnTzdSLS1yaXF0alJPd0s0eXJ5RXZPMG13ODM0WkdjMllOd2FId0pMTXRIOHlWZk9iTFE2SlhfRE52MnpGa09ZWU1nR05LV2JwT2ZNWDBkTU83emFMbklTMXV5Z3N4d215R2NoeGN5YU9CckxKT0htYlZIdDNHLWtXUUo3Q1pmZm1ZeWFoMDZyUTlLQUNyeTdOdEFmQkhreG04dlJxbG9DdDJ5Qjg?oc=5\" target=\"_blank\">Top Coins of Future Crypto Bull Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeF81NnR2aXVKWDFjNG1IaUx1MjlnTzdSLS1yaXF0alJPd0s0eXJ5RXZPMG13ODM0WkdjMllOd2FId0pMTXRIOHlWZk9iTFE2SlhfRE52MnpGa09ZWU1nR05LV2JwT2ZNWDBkTU83emFMbklTMXV5Z3N4d215R2NoeGN5YU9CckxKT0htYlZIdDNHLWtXUUo3Q1pmZm1ZeWFoMDZyUTlLQUNyeTdOdEFmQkhreG04dlJxbG9DdDJ5Qjg?oc=5",
+      "published": "Thu, 16 Jul 2026 13:56:06 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Canada’s Crypto Regulation Takes a New Turn: Key Regulatory Changes Explained - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPR3JfeFZITk56OTBtU20zX3lkWFBGam5EY2tHMlIzazQxTm9nQTRCa0Z1Z2UzYlZ5T0prVW1zNU9MdndxVmg2YUFnengyalR2WXZrMnp6cW1xTDgtaTh6QW5pY3o2dFNwYjUtV0pFeHNXcThBbHBKVElkdEZPZDlVQ1dBWHpDbXRsS2hBcVhndnlDc0NNYzhZQ0E5UkFjSDJheXpmNlZ2TVJjQ0FzX3JQRzJQUUFua1BBZllJNXpMUQ?oc=5\" target=\"_blank\">Canada’s Crypto Regulation Takes a New Turn: Key Regulatory Changes Explained</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR3JfeFZITk56OTBtU20zX3lkWFBGam5EY2tHMlIzazQxTm9nQTRCa0Z1Z2UzYlZ5T0prVW1zNU9MdndxVmg2YUFnengyalR2WXZrMnp6cW1xTDgtaTh6QW5pY3o2dFNwYjUtV0pFeHNXcThBbHBKVElkdEZPZDlVQ1dBWHpDbXRsS2hBcVhndnlDc0NNYzhZQ0E5UkFjSDJheXpmNlZ2TVJjQ0FzX3JQRzJQUUFua1BBZllJNXpMUQ?oc=5",
+      "published": "Thu, 16 Jul 2026 12:50:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Kraken bringing crypto options to a wider audience as the market scales - Kraken Blog",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9wVUdPR2FRQWRCMXdmdmp2UHJhdVhlaFNjTWg0a0syajFlenBIWEY4c3ZHR2JrWHFEbkxOaUhWNkNqVkpyeURTTUNfTUhiQ0xKWkhOR1dzT0pZaFZoMC11RXpTdVVHbF8tVXZJT0Nn?oc=5\" target=\"_blank\">Kraken bringing crypto options to a wider audience as the market scales</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Kraken Blog</font>",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wVUdPR2FRQWRCMXdmdmp2UHJhdVhlaFNjTWg0a0syajFlenBIWEY4c3ZHR2JrWHFEbkxOaUhWNkNqVkpyeURTTUNfTUhiQ0xKWkhOR1dzT0pZaFZoMC11RXpTdVVHbF8tVXZJT0Nn?oc=5",
+      "published": "Thu, 16 Jul 2026 13:33:50 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Kraken Brings Crypto Options to a Wider Trader Base as the Market Scales - Business Wire",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVVpSSmVWd2hQaTNveFY5Ty16cFVxTGRRc25fWUhDcXhvakU0dXBDejVac1ZUVTVUUlRYNFRyeFFhU1dMVTFxQ0tjMmRnY2NMSjFJNXIwYmtBRjF6VTNQb2QwRlk3UUVVYkpXOWt6SzdvQjlhb3hTSVNMekJ5bXJrdTQyYjUybndTRkF6QVJ4dl9ibFRVUndvSUJad0xwQ0tCX0hSaW40cTROdzhCRDFkUVpfQXhnNTRCVFN2Z1JSd182NmR3a1NIdQ?oc=5\" target=\"_blank\">Kraken Brings Crypto Options to a Wider Trader Base as the Market Scales</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Wire</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVVpSSmVWd2hQaTNveFY5Ty16cFVxTGRRc25fWUhDcXhvakU0dXBDejVac1ZUVTVUUlRYNFRyeFFhU1dMVTFxQ0tjMmRnY2NMSjFJNXIwYmtBRjF6VTNQb2QwRlk3UUVVYkpXOWt6SzdvQjlhb3hTSVNMekJ5bXJrdTQyYjUybndTRkF6QVJ4dl9ibFRVUndvSUJad0xwQ0tCX0hSaW40cTROdzhCRDFkUVpfQXhnNTRCVFN2Z1JSd182NmR3a1NIdQ?oc=5",
+      "published": "Thu, 16 Jul 2026 13:30:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BlackRock, Vanguard and JPMorgan Join DTCC's Tokenization Pilot: Which Crypto Could Benefit? - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXFxNmhRdFlVeWtOY2hvbVNjWElXa3gtaElFWUd1RlA2Rl9ITnlVMG8waGRteEZzaU9EOXZ2cFRUZWswN1Q5TmhyYlM5a1J4WlRJMGVjTjF1ekx0emZJZkhpemx2ZWVCa3d1R1U5YWQ2TUxqZF9aY01ONXVBNVNHRW5pM0RMWGs4NUZBVHltM1Y3SDRsWjZaaVU4V05GR21UaHlXei1n?oc=5\" target=\"_blank\">BlackRock, Vanguard and JPMorgan Join DTCC's Tokenization Pilot: Which Crypto Could Benefit?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXFxNmhRdFlVeWtOY2hvbVNjWElXa3gtaElFWUd1RlA2Rl9ITnlVMG8waGRteEZzaU9EOXZ2cFRUZWswN1Q5TmhyYlM5a1J4WlRJMGVjTjF1ekx0emZJZkhpemx2ZWVCa3d1R1U5YWQ2TUxqZF9aY01ONXVBNVNHRW5pM0RMWGs4NUZBVHltM1Y3SDRsWjZaaVU4V05GR21UaHlXei1n?oc=5",
+      "published": "Thu, 16 Jul 2026 13:17:15 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ledger wants AI agents to manage crypto without holding your keys - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQXdmbnBlR1l3X1F3UzV2YWtaRmpnLTdpMnI1Z05NbFhHN2c2LTRBRjByUWJOUm9DZjVzdnNpQnItRC1scTZsTUZyMjJMZXFuaXFFTlNwUXI0WjJvem1yV3puS29XSTQ3TFhXSFVxc0RoUS1wOWZvSE95Z2VzazFkNnplblFLM3BNeU12aTBHRFUwWGIwb3VRc1Eta3dPcG55cFRBaWlHWEh3UQ?oc=5\" target=\"_blank\">Ledger wants AI agents to manage crypto without holding your keys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQXdmbnBlR1l3X1F3UzV2YWtaRmpnLTdpMnI1Z05NbFhHN2c2LTRBRjByUWJOUm9DZjVzdnNpQnItRC1scTZsTUZyMjJMZXFuaXFFTlNwUXI0WjJvem1yV3puS29XSTQ3TFhXSFVxc0RoUS1wOWZvSE95Z2VzazFkNnplblFLM3BNeU12aTBHRFUwWGIwb3VRc1Eta3dPcG55cFRBaWlHWEh3UQ?oc=5",
+      "published": "Thu, 16 Jul 2026 13:01:33 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/18724cba64a048938986a98bbb257258",
+      "published": "2026-07-16T19:30:10.537000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a613aed15cc4cf78898594d7c767661",
+      "published": "2026-07-16T14:15:11.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/62c2a684d09f445295b87797acc71ae8",
+      "published": "2026-07-15T15:00:02.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f198d9602f3b4604a9b15cd0a1529e32",
+      "published": "2026-07-15T14:30:03.302000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dbc90c04fc654d848f08b0b974fec233",
+      "published": "2026-07-13T17:00:02.055000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2e92c3c6c8347c197b9091851ec285e",
+      "published": "2026-07-13T16:00:06.635000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6fe9f6dc91544df88dc24ad41211feff",
+      "published": "2026-07-10T23:37:03.303000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53",
+      "published": "2026-07-10T14:45:21.461000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "summary": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/03b264b679a646119d1a2415b9097bd6",
+      "published": "2026-06-30T13:30:25.419000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "summary": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b026c9829d28459cb1f1a95000960a08",
+      "published": "2026-06-30T13:00:03.128000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "summary": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d8400c84767448a2bcb71b7bf3864a97",
+      "published": "2026-06-30T12:30:19.411000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8057e105f5724d9bbf29ba416f14149e",
+      "published": "2026-06-29T17:30:03.090000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 25 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 25，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-16T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Bitmine Immersion Technologies（BMNR）发布7月董事长致辞：“ETH是‘财富恐怖谷’的解药” - Moomoo",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNGF6OXN3WWMyY2RXRlI2OXdZNHdnczJ6bzM1amxTYzRrVmU3a0dVcWZ1MloydXc0Z0QyN2ZPZjBUMG85ajB5OHAwN2RNcV81WGtLWklPY1Jpb1BtRmpSRmFlWjM1SFowSEVNLW8xSEVPMjdMMlRsS3BsUFpxV3o3RERXVERUVks1X0pmbE9KRl84cjVUa1F2RXVoaFlnSzVYTGFURkJQcWdVMDgxM3dqSWszc2NNc0R4ak5Z?oc=5\" target=\"_blank\">Bitmine Immersion Technologies（BMNR）发布7月董事长致辞：“ETH是‘财富恐怖谷’的解药”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNGF6OXN3WWMyY2RXRlI2OXdZNHdnczJ6bzM1amxTYzRrVmU3a0dVcWZ1MloydXc0Z0QyN2ZPZjBUMG85ajB5OHAwN2RNcV81WGtLWklPY1Jpb1BtRmpSRmFlWjM1SFowSEVNLW8xSEVPMjdMMlRsS3BsUFpxV3o3RERXVERUVks1X0pmbE9KRl84cjVUa1F2RXVoaFlnSzVYTGFURkJQcWdVMDgxM3dqSWszc2NNc0R4ak5Z?oc=5",
+      "published": "Thu, 16 Jul 2026 12:30:00 GMT"
+    }
+  ]
+}
