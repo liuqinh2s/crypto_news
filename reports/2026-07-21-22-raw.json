@@ -1,0 +1,519 @@
+{
+  "date": "2026-07-21",
+  "hour": "22",
+  "total": 73,
+  "fetched_at": "2026-07-21T22:01:03.747589+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "MoneyGram's CEO says blockchain works best when customers don't know it's there",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/07/17/moneygram-s-ceo-says-blockchain-works-best-when-customers-don-t-know-it-s-there",
+      "published": "Tue, 21 Jul 2026 13:38:13 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/21/jack-mallers-steps-down-as-xxi-capital-ceo-as-tether-s-plans-to-merge-three-bitcoin-firms-falls",
+      "published": "Tue, 21 Jul 2026 12:42:29 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Malaysia shuts down Balaji Srinivasan’s Network School in Forest City",
+      "summary": "<p>Malaysia revoked Network School's license, ordering the Balaji Srinivasan-founded digital nomad commune to cease operations July 22.</p>",
+      "link": "https://www.theblock.co/post/409076/malaysia-shuts-down-balaji-srinivasans-network-school-forest-city?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 21 Jul 2026 09:50:19 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Jack Mallers leaves Twenty One as Strike exits Tether’s three-way bitcoin merger",
+      "summary": "<p>Twenty One Capital named Raphael Zagury CEO, replacing founder Jack Mallers, as Strike exits a Tether-backed three-way merger.</p>",
+      "link": "https://www.theblock.co/post/409075/jack-mallers-leaves-twenty-one-as-strike-exits-tethers-three-way-bitcoin-merger?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 21 Jul 2026 09:47:00 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Arcus rolls out 24/7 tokenized US stocks and perpetual markets on Robinhood Chain",
+      "summary": "<p>Arcus rolled out 24/7 trading for over 95 Stock Tokens on Robinhood Chain and also introduced beta perpetual markets with USDG collateral.</p>",
+      "link": "https://www.theblock.co/post/408895/arcus-rolls-out-24-7-tokenized-us-stocks-and-perpetual-markets-on-robinhood-chain?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 21 Jul 2026 09:30:00 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Aztec upgrades to V5 in alpha, adding full private execution environment to decentralized Ethereum L2",
+      "summary": "<p>Aztec V5 focuses on supporting \"client-side proving,\" enabling computation-heavy ZK proofs on simple devices like phones and laptops. </p>",
+      "link": "https://www.theblock.co/post/409065/aztec-upgrades-v5-alpha-adding-private-execution-environment-decentralized-ethereum-l2?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 21 Jul 2026 09:20:40 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Jito rolls out JTX self-custodial trading platform for Solana tokens and RWAs",
+      "summary": "<p>Jito Labs launched JTX, a self-custodial Solana trading platform with spot trading for tokens and tokenized RWAs.</p>",
+      "link": "https://www.theblock.co/post/409040/jito-rolls-out-jtx-self-custodial-trading-platform-for-solana-tokens-and-rwas?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 21 Jul 2026 09:05:01 -0400"
+    },
+    {
+      "source": "The Block",
+      "title": "Morpho launches fixed-rate lending protocol Midnight on Base to expand onchain credit markets",
+      "summary": "<p>Morpho has launched Midnight, a fixed-rate, fixed-term lending protocol on Base that complements its existing variable-rate lending protocol.</p>",
+      "link": "https://www.theblock.co/post/409062/morpho-midnight-fixed-rate-lending-protocol-base-onchain-credit-markets?utm_source=rss&utm_medium=rss",
+      "published": "Tue, 21 Jul 2026 09:00:00 -0400"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "CoinShares debuts Bitcoin mining ETF in Europe entrance",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"CoinShares debuts Bitcoin mining ETF in Europe entrance\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-dormant-bitcoin-wallets-are-now-the-biggest-quantum-risk-heres-why-1.jpg\" /></p><p>The UCITS ETF, CoinShares’ first in Europe, began trading on Deutsche Börse Xetra, tracking a rules-based index of publicly listed BTC miners.</p>",
+      "link": "https://cointelegraph.com/news/coinshares-debuts-bitcoin-mining-ucits-etf-in-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 21 Jul 2026 13:34:26 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Robinhood-backed DEX Arcus expands with tokenized assets, perps",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Robinhood-backed DEX Arcus expands with tokenized assets, perps\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-japan-robin-hood-join-trading-platform.png\" /></p><p>Arcus, built by the dYdX team, adds tokenized stocks and perpetual futures on Robinhood Chain as platforms compete to bring traditional assets onchain.</p>",
+      "link": "https://cointelegraph.com/news/robinhood-backed-dex-arcus-debut-multi-asset-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 21 Jul 2026 13:16:22 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Here’s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 21 Jul 2026 13:14:31 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Morpho launches fixed-rate lending protocol on Base",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Morpho launches fixed-rate lending protocol on Base\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-crypto-lending-solutions-a-review-of-3-blockchain-lending-platforms.jpg\" /></p><p>Morpho Midnight introduces fixed rates and defined maturities alongside Morpho Blue’s variable-rate lending markets.</p>",
+      "link": "https://cointelegraph.com/news/morpho-midnight-fixed-rate-lending-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 21 Jul 2026 13:00:00 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Tether-backed Twenty One, Strike merger plan scrapped: Bloomberg",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Tether-backed Twenty One, Strike merger plan scrapped: Bloomberg\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-new-cryptoasset-reporting-framework-carf-what-investors-should-know-bitcoin-tether.jpg\" /></p><p>Strike will remain a standalone company after the proposed three-way merger was scrapped, while Twenty One Capital and Elektron continue discussions, Bloomberg reported.</p>",
+      "link": "https://cointelegraph.com/news/tether-twenty-one-strike-merger-plan-scrapped-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 21 Jul 2026 12:29:25 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Russia Passes Landmark Crypto Law, Setting State-Run Rails for Sanctioned Trade",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/07/Russia-Passes-Landmark-Crypto-Law-Setting-State-Run-Rails-for-Sanctioned-Trade.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/russia-passes-landmark-crypto-law\" rel=\"nofollow\">Russia Passes Landmark Crypto Law, Setting State-Run Rails for Sanctioned Trade</a></p>\n<p>Russia's parliament passed its fir",
+      "link": "https://bitcoinmagazine.com/news/russia-passes-landmark-crypto-law",
+      "published": "Tue, 21 Jul 2026 13:15:41 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Galaxy (GLXY) Commits $5 Million to Prepare Bitcoin for the Quantum Threat",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/07/Galaxy-GLXY-Commits-5-Million-to-Prepare-Bitcoin-for-the-Quantum-Threat.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/galaxy-glxy-commits-5-million\" rel=\"nofollow\">Galaxy (GLXY) Commits $5 Million to Prepare Bitcoin for the Quantum Threat</a></p>\n<p>Galaxy Digital launched a Bitcoin Quantum Readines",
+      "link": "https://bitcoinmagazine.com/news/galaxy-glxy-commits-5-million",
+      "published": "Tue, 21 Jul 2026 12:54:28 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Jack Mallers Steps Down as CEO of Bitcoin Treasury Twenty One Capital",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2025/12/Jack-Mallers-Twenty-One-Capital-Vows-to-Buy-‘As-Much-Bitcoin-as-Possible.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/mallers-steps-down-from-bitcoin-twenty-one\" rel=\"nofollow\">Jack Mallers Steps Down as CEO of Bitcoin Treasury Twenty One Capital </a></p>\n<p>Jack Mallers has stepped down as CEO of",
+      "link": "https://bitcoinmagazine.com/news/mallers-steps-down-from-bitcoin-twenty-one",
+      "published": "Tue, 21 Jul 2026 12:07:40 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "美股云计算服务商概念持续活跃",
+      "summary": "【美股云计算服务商概念持续活跃】金色财经报道，7月21日，美股云计算服务商概念持续活跃，NEBIUS涨超7%，Cerebras Systems涨近5%，Hut 8、CoreWeave涨近4%。",
+      "link": "https://jinse.com.cn/lives/524260.html",
+      "published": "Tue, 21 Jul 2026 13:54:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "闪迪涨幅扩大至10%",
+      "summary": "【闪迪涨幅扩大至10%】金色财经报道，7月21日，闪迪股价上涨10.02%，报1530.385美元/股，总市值报2266亿美元。",
+      "link": "https://jinse.com.cn/lives/524259.html",
+      "published": "Tue, 21 Jul 2026 13:46:18 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美股加密货币概念股集体冲高 Circle大涨超10%",
+      "summary": "【美股加密货币概念股集体冲高 Circle大涨超10%】金色财经报道，7月21日，比特币重回6.6万美元上方，美股加密货币概念股集体冲高，Circle大涨超10%，Coinbase涨超9%，Robinhood涨超6%，TeraWulf、Strategy涨超4%，Riot Platforms、CleanSpark涨超2%。",
+      "link": "https://jinse.com.cn/lives/524258.html",
+      "published": "Tue, 21 Jul 2026 13:45:54 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "WTI原油日内涨幅扩大至3%",
+      "summary": "【WTI原油日内涨幅扩大至3%】金色财经报道，WTI原油日内涨幅扩大至3%，现报85.40美元/桶。布伦特原油涨2.16%，报89.4美元/桶。",
+      "link": "https://jinse.com.cn/lives/524257.html",
+      "published": "Tue, 21 Jul 2026 13:45:29 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "费城半导体指数开盘大涨4.5%",
+      "summary": "【费城半导体指数开盘大涨4.5%】金色财经报道，7月21日，费城半导体指数开盘涨4.50%。成分股中，英伟达股价上涨2.32%，台积电股价上涨3.49%，博通股价上涨2.65%，美光科技股价上涨7.26%，超威半导体股价上涨4.78%，阿斯麦股价上涨3.2%。",
+      "link": "https://jinse.com.cn/lives/524256.html",
+      "published": "Tue, 21 Jul 2026 13:31:59 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美股全线高开 存储芯片、半导体设备、晶圆代工板块领涨",
+      "summary": "【美股全线高开 存储芯片、半导体设备、晶圆代工板块领涨】金色财经报道，美股开盘，道指涨0.29%，纳指涨1.04%，标普500指数涨0.62%。存储芯片概念领涨，美光科技涨6.8%，海力士涨6.9%，闪迪、西部数据均涨超8%。半导体设备、晶圆代工、光通信等走高，联电涨5.6%，台积电涨超4%，泛林集团涨6%，应用材料、科磊涨超5%。Lumentum涨6%，迈威尔科技涨5.6%。",
+      "link": "https://jinse.com.cn/lives/524255.html",
+      "published": "Tue, 21 Jul 2026 13:31:30 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "灰度聘请Sebastian Pulido担任链上资产管理负责人",
+      "summary": "【灰度聘请Sebastian Pulido担任链上资产管理负责人】金色财经报道，据官方消息，灰度宣布聘请 Sebastian Pulido 担任链上资产管理负责人，负责领导公司的链上产品战略。Sebastian 曾在 Aave Labs、高盛以及摩根大通的 Kinexys 团队任职，拥有丰富的机构金融与数字资产领域经验。",
+      "link": "https://jinse.com.cn/lives/524254.html",
+      "published": "Tue, 21 Jul 2026 13:23:41 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "OpenAI的AI Agent在ChatGPT Work推出后用户突破1000万",
+      "summary": "【OpenAI的AI Agent在ChatGPT Work推出后用户突破1000万】金色财经报道，7月21日，OpenAI的AI Agent在ChatGPT Work推出后用户突破1000万。",
+      "link": "https://jinse.com.cn/lives/524253.html",
+      "published": "Tue, 21 Jul 2026 13:13:02 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Kalshi向CFTC申请推出挂钩黄金的永续期货",
+      "summary": "【Kalshi向CFTC申请推出挂钩黄金的永续期货】金色财经报道，7月21日，预测市场平台Kalshi向美国商品期货交易委员会（CFTC）申请推出挂钩黄金的永续期货。（金十）",
+      "link": "https://jinse.com.cn/lives/524252.html",
+      "published": "Tue, 21 Jul 2026 13:12:10 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "稳定币金融基础设施Cordant完成800万美元种子轮融资，Bankless VC等参投",
+      "summary": "【稳定币金融基础设施Cordant完成800万美元种子轮融资，Bankless VC等参投】金色财经报道，稳定币及数字资产金融基础设施Cordant宣布完成800万美元种子轮融资，Bankless VC、FJ Labs、SignalFire、Quona、Next Stage、Selah Ventures、Flatironx、Nascent Ventures、Silvercircle Ventures和Generative Ventures等参投，Cordant正与金融机构展开产品共建合作，覆盖银行、支付、嵌入式金融、跨境交易、稳定币和数字资产领域，其中拉美数字资产及支付平台Bitso以及区块链基础设施公司Paxos均参与投资并作为设计合作伙伴，新资金将支持其引入新支付网络和AI自动化工具。<p>原文链接: <a href=\"https://www.businesswire.com/news/home/20260721775932/en/Cordant-Emerges-From-Stealth-With-%248-Million-Seed-Round-as-the-Command-Cen",
+      "link": "https://jinse.com.cn/lives/524251.html",
+      "published": "Tue, 21 Jul 2026 13:11:33 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "金色晚报 | 7月21日晚间重要动态一览",
+      "summary": "【金色晚报 | 7月21日晚间重要动态一览】12:00-21:00关键词：长鑫科技、Token工厂、中际旭创、Kalshi \n1.国家超算互联网上线Kimi K3 API服务 \n2.长鑫科技：网上投资者放弃认购6,586,227股 \n3.全球代币化股票总市值在6月底达到约17亿美元 \n4.中美计划9月举行AI会谈，讨论前沿模型监管风险 \n5.美国总统特朗普最快将于本周内对数十个国家实施新的关税 \n6.北京：将布局建设Token工厂 力争下半年新增智能算力5万P \n7.摩根大通：韩国股市去杠杆进程已完成75%，继续维持“超配”评级 \n8.中际旭创香港上市拟以每股最高1010港元发售股票，筹资至少80亿美元 \n9.美国华盛顿州法院发布针对Kalshi的初步禁令，认定其开展的业务违反华盛顿州赌博法",
+      "link": "https://jinse.com.cn/lives/524250.html",
+      "published": "Tue, 21 Jul 2026 13:00:06 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "芯片股反弹盖过伊朗局势担忧 美股期货走高",
+      "summary": "【芯片股反弹盖过伊朗局势担忧 美股期货走高】金色财经报道，7月21日，美国股指期货周二上涨，AI产业链核心芯片股反弹，暂时盖过美伊冲突再度升级带来的市场压力。标普500指数期货和纳斯达克100指数期货盘中上涨，三星电子和台积电股价走高，带动科技股情绪回暖。追踪半导体公司的交易所交易基金上涨4.3%。此前日经新闻报道称，全球最大晶圆代工企业台积电计划从2027年起将部分芯片制造服务价格上调最多10%，以应对原材料、设备和海外建厂成本上升。盘前交易中，多数大型科技股上涨，特斯拉和英伟达领涨，AMD、英特尔、美光科技等芯片企业也走高。此前，受市场担忧AI相关股票估值涨幅过快影响，芯片股和AI概念股连续数周承压。",
+      "link": "https://jinse.com.cn/lives/524249.html",
+      "published": "Tue, 21 Jul 2026 12:56:30 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "北京：下半年深入实施“人工智能+”行动计划 出台具身智能企业算力和数据集专项支持政策",
+      "summary": "【北京：下半年深入实施“人工智能+”行动计划 出台具身智能企业算力和数据集专项支持政策】金色财经报道，7月21日，据新京报，从北京市经信局获悉，下半年，北京市经信局将围绕数字经济标杆城市建设年度重点任务，深入实施“人工智能+”行动计划，全面释放智能经济新动能。深入推进人工智能全域赋能。推进人工智能赋能新型工业化，建设工业领域人工智能研发与中试平台，提高工业生产核心环节的人工智能应用水平。出台具身智能企业算力和数据集专项支持政策，加快具身大模型、运动控制等核心技术迭代，依托具身智能助推产业转型和生活提质。加快建设国家(医疗)人工智能应用中试基地，联动三甲医院、科研院所与科技企业，打通医疗智能从实验室走向临床落地的转化堵点。推动智能翻译、智能同传等在文旅消费领域的应用，拓展语种范围，实现软硬件协同。完善食品安全非现场智能监管体系，形成智能预警、远程巡查、快速处置的完整监管链条。",
+      "link": "https://jinse.com.cn/lives/524248.html",
+      "published": "Tue, 21 Jul 2026 12:37:51 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "微软与Mistral扩大AI合作 签署数十亿美元欧洲AI基础设施协议",
+      "summary": "【微软与Mistral扩大AI合作 签署数十亿美元欧洲AI基础设施协议】金色财经报道，7月21日，微软与法国人工智能初创公司Mistral AI于7月21日宣布扩大双方战略合作，围绕欧洲AI基础设施建设达成一项价值数十亿美元的协议，以提升欧洲地区AI计算能力。根据协议，微软将利用Mistral扩大的欧洲GPU基础设施，为其云计算和AI服务提供支持。该基础设施将基于数千颗英伟达Vera Rubin GPU。 \n产品方面，Mistral Medium 3.5和OCR 4模型现已接入微软Foundry平台，Mistral Medium 3.5同时加入Microsoft Copilot Studio，可用于智能体应用、文档处理流程及行业定制化工作流。此外，双方将通过Azure和Azure Local扩展AI部署方式，支持云端、云连接以及完全离线环境，面向金融、医疗、制造等对数据合规要求较高的行业。",
+      "link": "https://jinse.com.cn/lives/524247.html",
+      "published": "Tue, 21 Jul 2026 12:36:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伊朗、巴基斯坦两国内政部长的正式会晤已开始",
+      "summary": "【伊朗、巴基斯坦两国内政部长的正式会晤已开始】金色财经报道，7月21日，据伊朗学生通讯社，伊朗内政部长与巴基斯坦内政部长的正式会晤数分钟前开始。",
+      "link": "https://jinse.com.cn/lives/524246.html",
+      "published": "Tue, 21 Jul 2026 12:31:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "俄罗斯议会通过加密货币市场监管法案",
+      "summary": "【俄罗斯议会通过加密货币市场监管法案】金色财经报道，7月21日，俄罗斯国家杜马已批准一项建立加密货币市场监管规则的法案，为俄罗斯境内加密资产运营及跨境贸易中的加密资产使用设定法律框架。根据俄罗斯国家杜马官方记录，议会于周二完成了编号 1194918-8、名为《数字货币与数字权利法》的法案第二、第三次审议并正式通过。此前，立法机构已按计划安排了最终表决。该法案为加密市场参与者建立了监管框架，涵盖加密货币交易平台、经纪商、资产管理机构以及托管机构等，并对相关企业的运营提出了合规要求。根据法案规定：允许加密资产用于对外贸易（跨境贸易）结算；但俄罗斯境内商品和服务的支付仍然禁止使用加密货币。法案主要条款预计将于 2026 年 9 月 1 日正式生效，并设有过渡期，持续至 2027 年 7 月 1 日。不过，该法案仍需俄罗斯总统弗拉基米尔·普京签署后才能正式成为法律。<p>原文链接: <a href=\"https://cointelegraph.com/news/russia-crypto-bill-final-readings-july-21\">https://cointelegraph.co",
+      "link": "https://jinse.com.cn/lives/524245.html",
+      "published": "Tue, 21 Jul 2026 12:29:38 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "摩根士丹利过去一周增持115枚BTC，总持仓量突破5800枚",
+      "summary": "【摩根士丹利过去一周增持115枚BTC，总持仓量突破5800枚】金色财经报道，据Arkham监测数据显示，摩根士丹利过去一周再次 “逢低买入”，通过旗下现货比特币交易所交易基金MSBT增持约115枚BTC，截至目前其比特币总持仓量已达到5876枚，价值超过3.89亿美元。<p>原文链接: <a href=\"https://arkm.com/explorer/entity/morgan-stanley\">https://arkm.com/explorer/entity/morgan-stanley</a></p>",
+      "link": "https://jinse.com.cn/lives/524244.html",
+      "published": "Tue, 21 Jul 2026 12:28:57 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "104位经济学家均预期美联储将在7月29日将维持利率不变",
+      "summary": "【104位经济学家均预期美联储将在7月29日将维持利率不变】金色财经报道，据路透调查：104位经济学家均预期美联储将在7月29日将联邦基金利率维持在3.50%-3.75%不变。",
+      "link": "https://jinse.com.cn/lives/524243.html",
+      "published": "Tue, 21 Jul 2026 12:24:51 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "北京：将布局建设Token工厂 力争下半年新增智能算力5万P",
+      "summary": "【北京：将布局建设Token工厂 力争下半年新增智能算力5万P】金色财经报道，7月21日，据新京报，从北京市经信局获悉，上半年，全市数字经济增加值增速7.8%，其中数字经济核心产业增加值增速9.8%，对全市GDP增长的带动作用显著。下半年，北京将推进人工智能全域赋能，推动智能翻译、智能同传等在文旅消费领域的应用。下半年，北京市经信局将围绕数字经济标杆城市建设年度重点任务，深入实施“人工智能+”行动计划，全面释放智能经济新动能。  \n加快打造智能经济新形态。制定Token经济发展政策，围绕Token生产、分发和应用等关键环节，布局建设Token工厂、Token分发平台，推动在工业、教育、文旅等重点领域创新应用。举办“创赢未来”OPC专场路演活动，激发超级个体的人工智能应用与创作活力。开发面向OPC的AIGC培训精品课程，释放AIGC技术价值。依托开源芯片研究院、北京通明湖信息技术应用创新中心，打造“RISC-V+AI OS”开源开放生态，构建从芯片指令集到操作系统到智能体应用的全栈自主技术体系。进一步提升智能算力供给能力。打造“超级节点+行业节点”支撑体系，力争下半年新增智能算力5万P，",
+      "link": "https://jinse.com.cn/lives/524242.html",
+      "published": "Tue, 21 Jul 2026 12:21:37 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国至7月4日当周ADP就业人数周度变动 1.65万人",
+      "summary": "【美国至7月4日当周ADP就业人数周度变动 1.65万人】金色财经报道，美国至7月4日当周ADP就业人数周度变动 1.65万人，前值1.975万人。",
+      "link": "https://jinse.com.cn/lives/524241.html",
+      "published": "Tue, 21 Jul 2026 12:16:17 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Greer hints new Trump tariffs coming on dozens of countries: 'Expect action soon' - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LVNjU2hVN29yRTlKczNWanR6MExVeHJXdmllOUxqUVhQQ3VNUnJoMlcwenJrSWxLOWFlNWdnMC1VeDkzVUJxZnNPbVdmNWc4WTNSRmRDNFo0ZG9id21JZkJfb1FqN0NqU0lMRUhENHdjdmVUTk5MQXFZSHFBeG_SAYQBQVVfeXFMUHVHUkhmYTdZWnplcWRUVlZVTlNOUkNmc3Vxa2dGTW8zaWVfR1VmWXJ0bEZBSEhhdlRTeldZelNBNUhJLUwwdURsOVpyc1FvTmR3R3lSNFlveTFLWng0UDY4S1ZhME1xeGpwOGt2QVJuMDc2SUoyZ21kdEl5TVhrRlVyTDdB?oc=5\" target=\"_blank\">Greer hints new Trump tariffs coming on dozens of countries: 'Expect action",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LVNjU2hVN29yRTlKczNWanR6MExVeHJXdmllOUxqUVhQQ3VNUnJoMlcwenJrSWxLOWFlNWdnMC1VeDkzVUJxZnNPbVdmNWc4WTNSRmRDNFo0ZG9id21JZkJfb1FqN0NqU0lMRUhENHdjdmVUTk5MQXFZSHFBeG_SAYQBQVVfeXFMUHVHUkhmYTdZWnplcWRUVlZVTlNOUkNmc3Vxa2dGTW8zaWVfR1VmWXJ0bEZBSEhhdlRTeldZelNBNUhJLUwwdURsOVpyc1FvTmR3R3lSNFlveTFLWng0UDY4S1ZhME1xeGpwOGt2QVJuMDc2SUoyZ21kdEl5TVhrRlVyTDdB?oc=5",
+      "published": "Tue, 21 Jul 2026 13:06:36 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOQmhwbUtwMFBuY0dkcGlLZE02em5sLU5VWDlsWjFXMFNtQ2pjWXVGemRkMl9XY1M4TzdOakRjUjNhWTFRbUZIdHJ1ZXZta3ZJLWp3LUJOcmg1NlFvSXdyTFVDb1lnVi12QVRfOFpMSWJIZWlGRnJ3MzNqYTVoM2ExZFpmWUhwMUtZWmRTbEszTUFNWGNwVFlmUzJ3RjZjV3B4?oc=5\" target=\"_blank\">Jim Cramer's top 10 things to watch in the stock market Tuesday</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQmhwbUtwMFBuY0dkcGlLZE02em5sLU5VWDlsWjFXMFNtQ2pjWXVGemRkMl9XY1M4TzdOakRjUjNhWTFRbUZIdHJ1ZXZta3ZJLWp3LUJOcmg1NlFvSXdyTFVDb1lnVi12QVRfOFpMSWJIZWlGRnJ3MzNqYTVoM2ExZFpmWUhwMUtZWmRTbEszTUFNWGNwVFlmUzJ3RjZjV3B4?oc=5",
+      "published": "Tue, 21 Jul 2026 13:05:47 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Brian Armstrong Warns Traders Against Treating His X Account as 'Alpha'",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/elfr1tz\"> /u/elfr1tz </a> <br /> <span><a href=\"https://beincrypto.com/armstrong-defends-x-brian-meme-coin-crash/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1v2hxcb/brian_armstrong_warns_traders_against_treating/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v2hxcb/brian_armstrong_warns_traders_against_treating/",
+      "published": "2026-07-21T13:06:37+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Free tool for blockchain dev/QA/PM",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fantastic-Walrus-429\"> /u/Fantastic-Walrus-429 </a> <br /> <span><a href=\"/r/QualityAssurance/comments/1v2hqo3/free_tool_for_blockchain_testers/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1v2hsc6/free_tool_for_blockchain_devqapm/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v2hsc6/free_tool_for_blockchain_devqapm/",
+      "published": "2026-07-21T13:01:01+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Top 10 Crypto Narratives in 2026 according to CoinGecko",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><ol> <li><p>Stablecoins and Stablechains</p></li> <li><p>Real-World Assets (RWA)</p></li> <li><p>AI x Crypto</p></li> <li><p>AI x DePIN</p></li> <li><p>Quantum</p></li> <li><p>Prediction Markets</p></li> <li><p>Perp DEXs</p></li> <li><p>Privacy and Zero-Knowledge (ZK)</p></li> <li><p>ETFs and DATcos</p></li> <li><p>Collectible Cards</p></li> </ol> <p>What do you think about these trends?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v2hmuf/top_10_crypto_narratives_in_2026_according_to/",
+      "published": "2026-07-21T12:54:55+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "450 million Europeans holding $40 trillion in household wealth are Bitcoin's next frontier. Bullish!",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1v2j5fr/450_million_europeans_holding_40_trillion_in/\"> <img alt=\"450 million Europeans holding $40 trillion in household wealth are Bitcoin's next frontier. Bullish!\" src=\"https://external-preview.redd.it/kXpQqTycnEnuo-ge1ktj-bju73Qw9fbAtNqGLeX4vVE.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=b72ed5e7a102436616c37dc73480a8619824a929\" title=\"450 million Europeans holding $40 trillion in household wealth are Bitcoin's",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v2j5fr/450_million_europeans_holding_40_trillion_in/",
+      "published": "2026-07-21T13:54:40+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Galaxy Launches Bitcoin Quantum Readiness Initiative to Protect Bitcoin's Cryptographic Foundations - galaxy.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxObGFkeUJzVTlpM2MyNVB6Z0tYcE01T2xRVmo1MzZqZzhaUkNkRWVRMDJTUXhrcG1NNF9JLVNvcjJkT0wwSlRGVkxxek15bHpLOFpLWEctZW5IMTVVVzhuZVc5NVBJQUgxVFZ6bjFMRTZoa2JWTXRFVkZ6MnNCVzVkUm9fMm1BOUFudUNvWQ?oc=5\" target=\"_blank\">Galaxy Launches Bitcoin Quantum Readiness Initiative to Protect Bitcoin's Cryptographic Foundations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">galaxy.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObGFkeUJzVTlpM2MyNVB6Z0tYcE01T2xRVmo1MzZqZzhaUkNkRWVRMDJTUXhrcG1NNF9JLVNvcjJkT0wwSlRGVkxxek15bHpLOFpLWEctZW5IMTVVVzhuZVc5NVBJQUgxVFZ6bjFMRTZoa2JWTXRFVkZ6MnNCVzVkUm9fMm1BOUFudUNvWQ?oc=5",
+      "published": "Tue, 21 Jul 2026 12:18:20 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Just Reclaimed $65k: Why This Could Be the Market’s Biggest Turning Point Yet - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNMWZlQjc0Nmp5Q2l6bmZ5VkhyUmZtS2tiYUpWVTAtR2hWdkJwRDIzREEwSk13TFNIVFBZc2pJZGxIUVRzWUd6cDVVQmhQUnQwZG1ZWUF5bUo2b3Fzb21tNGs5LXlZc0JZZi1pdkNueFhTbGd2WTBNTXUzZ1BPM1pwYmY5eDY3S2RDeW1tT2Q5T1lqak5rS1BjRmZOYWlTZ2lueHhzMENmRHJpTm5HZGlweEdBT054cVZxbGQzZ1pZU1lnRWlEaGc?oc=5\" target=\"_blank\">Bitcoin Just Reclaimed $65k: Why This Could Be the Market’s Biggest Turning Point Yet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMWZlQjc0Nmp5Q2l6bmZ5VkhyUmZtS2tiYUpWVTAtR2hWdkJwRDIzREEwSk13TFNIVFBZc2pJZGxIUVRzWUd6cDVVQmhQUnQwZG1ZWUF5bUo2b3Fzb21tNGs5LXlZc0JZZi1pdkNueFhTbGd2WTBNTXUzZ1BPM1pwYmY5eDY3S2RDeW1tT2Q5T1lqak5rS1BjRmZOYWlTZ2lueHhzMENmRHJpTm5HZGlweEdBT054cVZxbGQzZ1pZU1lnRWlEaGc?oc=5",
+      "published": "Tue, 21 Jul 2026 13:16:18 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMDJqcXNCZ2ZxdkNqblpwVzQxNjdZRGRWdjdLMEdkeFVlS1hYQnJ2WU5HRTRZMjFES3NUcmdjQk1TZmplNEMwUHVDelBUUk5SNHlyRTAxeU1pX1R4bmRpd0l0RmxDcjVFdVFiRjB2emNpWGtSb3V5NzdyWWJHNnRHbkthMUJ5Rm5BeUhwTXR0LUZYUS1DZmZWQ05hYjl5TUhVTlJYbDd5VndsNjlIM3BQTmwyZU5MbmpiakR2OHMyVUdCUzdoUUpsblhmSmNTbVJJZ0o4em9WYw?oc=5\" target=\"_blank\">Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coin",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMDJqcXNCZ2ZxdkNqblpwVzQxNjdZRGRWdjdLMEdkeFVlS1hYQnJ2WU5HRTRZMjFES3NUcmdjQk1TZmplNEMwUHVDelBUUk5SNHlyRTAxeU1pX1R4bmRpd0l0RmxDcjVFdVFiRjB2emNpWGtSb3V5NzdyWWJHNnRHbkthMUJ5Rm5BeUhwTXR0LUZYUS1DZmZWQ05hYjl5TUhVTlJYbDd5VndsNjlIM3BQTmwyZU5MbmpiakR2OHMyVUdCUzdoUUpsblhmSmNTbVJJZ0o4em9WYw?oc=5",
+      "published": "Tue, 21 Jul 2026 12:43:46 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "5 Best Crypto Casinos 2026 – Top Bitcoin Casinos For Instant Payouts And Big Bonuses - Muddy River Sports",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNLUNuUldLUkxHNGVKOERTM29yakN3TjlKQThzbUhMNWhlUjRxSDNFdnFHWDJ2OW1fRXpCOVVMcHdId3JVeTZIS1VBMW5uVG5kS2dRcHh5WU5tRVJUb0FfbUtMWnNCekx3em5wU3NpcXVpUjg1UUhKOHdERWRkVFdNOFNhSWVKQmF1ZTVMYTlEVlJVVnZQZFlJdGNIYzBEQXNzZzMyUVRtMm9DblhhNmxYaFpRRkptZ3JjaTdtWUhJa1NhWDR3SzVTc1ZnbEp5YUxUVlpNVzAzTF85VzcwNlE?oc=5\" target=\"_blank\">5 Best Crypto Casinos 2026 – Top Bitcoin Casinos For Instant Payouts And Big Bonuses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Muddy",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNLUNuUldLUkxHNGVKOERTM29yakN3TjlKQThzbUhMNWhlUjRxSDNFdnFHWDJ2OW1fRXpCOVVMcHdId3JVeTZIS1VBMW5uVG5kS2dRcHh5WU5tRVJUb0FfbUtMWnNCekx3em5wU3NpcXVpUjg1UUhKOHdERWRkVFdNOFNhSWVKQmF1ZTVMYTlEVlJVVnZQZFlJdGNIYzBEQXNzZzMyUVRtMm9DblhhNmxYaFpRRkptZ3JjaTdtWUhJa1NhWDR3SzVTc1ZnbEp5YUxUVlpNVzAzTF85VzcwNlE?oc=5",
+      "published": "Tue, 21 Jul 2026 13:46:46 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Tether-Backed Crypto Deal Falls Apart as Jack Mallers Steps Down - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLVVialJQMWNFdlZjZDVMQnRzVlhJQ3MtRjM0c0xGTWpWQ1hVb0J3NGlGblB4LUVmZmdzOTVCdGN3dl9CSXRNWkpSSDRpLUxhcTNhOXhUbmRJTjhaakJWMmxIcm1xOG1Tbl9IT3hIQlBCdU5oU0JSNTU5UjlqQW1BMUZzbWZqYzRHTkRnRmZEVGtORjRPSWJGem1QRTZRWEN0VHA2M3lUMklXWFMtbHU2UnBmd1JoU194RF9qTHUxTlZKQQ?oc=5\" target=\"_blank\">Tether-Backed Crypto Deal Falls Apart as Jack Mallers Steps Down</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLVVialJQMWNFdlZjZDVMQnRzVlhJQ3MtRjM0c0xGTWpWQ1hVb0J3NGlGblB4LUVmZmdzOTVCdGN3dl9CSXRNWkpSSDRpLUxhcTNhOXhUbmRJTjhaakJWMmxIcm1xOG1Tbl9IT3hIQlBCdU5oU0JSNTU5UjlqQW1BMUZzbWZqYzRHTkRnRmZEVGtORjRPSWJGem1QRTZRWEN0VHA2M3lUMklXWFMtbHU2UnBmd1JoU194RF9qTHUxTlZKQQ?oc=5",
+      "published": "Tue, 21 Jul 2026 13:01:18 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Tether Rethinks XXI’s Bitcoin Treasury Model After Just 7 Months - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPUTk2aXJJRUVJZnpxTm9uRFJnNWVlckU3SWpIMmVuTi1uNkNCZXZEZDJUemtuM2JNcFpFbU8xbktGSjE4ZkVkUkZHeVRYeEVLblM3Zm9USXVGQ3pHZnpxTGVodEZNSWsxSC12VXA2RG1zR0NMdkNNWTVuTVdnSVY0Nk1aN2RiMWpueEUxRlBEZThud1Utbm5BNmNKaE5mQVZ6MDRn?oc=5\" target=\"_blank\">Tether Rethinks XXI’s Bitcoin Treasury Model After Just 7 Months</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUTk2aXJJRUVJZnpxTm9uRFJnNWVlckU3SWpIMmVuTi1uNkNCZXZEZDJUemtuM2JNcFpFbU8xbktGSjE4ZkVkUkZHeVRYeEVLblM3Zm9USXVGQ3pHZnpxTGVodEZNSWsxSC12VXA2RG1zR0NMdkNNWTVuTVdnSVY0Nk1aN2RiMWpueEUxRlBEZThud1Utbm5BNmNKaE5mQVZ6MDRn?oc=5",
+      "published": "Tue, 21 Jul 2026 12:49:25 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Top 5 Biggest Crypto Bubbles in History — What Investors Can Learn Before the Next Crash - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQcjA2d0w2UUxmbzJFQmh1WFNVdVdteDZ6eUdFcnJ1QVl5dGJzTU1yZzlQNWlZT2VoOVB5b1ZiOHRpVFhKU3puMFYxbkJKcTVUMWNkRWhIT01QbzUwS2dmenVUZW1rRWJLdGFBQ2ktYjNqVzh2eF9xU1dRREZGX2tES05Cb0V5X0xqQmx6QlIyTnVhbDUzcU9ndWZ4cGh4a1luY2twcDBSM09pX01obVpNb0w1NFZJQWxwcDZxbHVyQ0ZQdXB5RjhGcDVn?oc=5\" target=\"_blank\">Top 5 Biggest Crypto Bubbles in History — What Investors Can Learn Before the Next Crash</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcjA2d0w2UUxmbzJFQmh1WFNVdVdteDZ6eUdFcnJ1QVl5dGJzTU1yZzlQNWlZT2VoOVB5b1ZiOHRpVFhKU3puMFYxbkJKcTVUMWNkRWhIT01QbzUwS2dmenVUZW1rRWJLdGFBQ2ktYjNqVzh2eF9xU1dRREZGX2tES05Cb0V5X0xqQmx6QlIyTnVhbDUzcU9ndWZ4cGh4a1luY2twcDBSM09pX01obVpNb0w1NFZJQWxwcDZxbHVyQ0ZQdXB5RjhGcDVn?oc=5",
+      "published": "Tue, 21 Jul 2026 12:27:20 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Trump Oversees Ethics Provisions As Clarity Act Nears Vote - Investor's Business Daily",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQZnotTHJvQ1U1anA3aFB1WDFxNFNPdmdXdkNUMjUzSDZELTh1S1FmZGpXdFduaW5LSTNCbTBqckpfWHpJTDduazNTMjI3Rk5kenI4Y19KLWNIdjcwNmtNWFVxakdURjVWME9qandvTDI5MTVSU2J0bGIzNVZIamYtQm5OV05RLTl5WUhHTHNOUkg5YjBCVFNSMDBpcw?oc=5\" target=\"_blank\">Trump Oversees Ethics Provisions As Clarity Act Nears Vote</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investor's Business Daily</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZnotTHJvQ1U1anA3aFB1WDFxNFNPdmdXdkNUMjUzSDZELTh1S1FmZGpXdFduaW5LSTNCbTBqckpfWHpJTDduazNTMjI3Rk5kenI4Y19KLWNIdjcwNmtNWFVxakdURjVWME9qandvTDI5MTVSU2J0bGIzNVZIamYtQm5OV05RLTl5WUhHTHNOUkg5YjBCVFNSMDBpcw?oc=5",
+      "published": "Tue, 21 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Jack Mallers Steps Down As CEO From Bitcoin Treasury Twenty One Capital - Bitcoin Magazine",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQMkpYdWY3Vm1zYmg0ZTJzZ0Y5V1Zic0U2QmFXU3hodVlyX2VVQjFVcjRCNElvWlZOYUF3UmdfNVA0MDUxWUt1YU1HMzBlT3g2LU5ZZUhVN2laamtmaW00S3BTS0Z5WnlpeEUyUG9LeUxSUnNzY3BCUFgtZ0ZRa0E1aw?oc=5\" target=\"_blank\">Jack Mallers Steps Down As CEO From Bitcoin Treasury Twenty One Capital</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Magazine</font>",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMkpYdWY3Vm1zYmg0ZTJzZ0Y5V1Zic0U2QmFXU3hodVlyX2VVQjFVcjRCNElvWlZOYUF3UmdfNVA0MDUxWUt1YU1HMzBlT3g2LU5ZZUhVN2laamtmaW00S3BTS0Z5WnlpeEUyUG9LeUxSUnNzY3BCUFgtZ0ZRa0E1aw?oc=5",
+      "published": "Tue, 21 Jul 2026 12:07:40 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "How businesses can avoid crypto scams - Altcoin Buzz",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOM3dscEZlLUo3NzZsa0lwUTNFMXFtQlotbmVsUDdqZTFKd1ZJRloyd2pGZ2Q0WGVEOWxnV1lxR3BWWWxHMTVhVktlbkpFUzJ6d0MxNUcwSzFrT0t5UFBDREl4REpYRnR0aDI5aXFBVGJJVFVJbGEtdXAyemYtQkJYRjlJTFA0akYwZFkycGJn?oc=5\" target=\"_blank\">How businesses can avoid crypto scams</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Altcoin Buzz</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOM3dscEZlLUo3NzZsa0lwUTNFMXFtQlotbmVsUDdqZTFKd1ZJRloyd2pGZ2Q0WGVEOWxnV1lxR3BWWWxHMTVhVktlbkpFUzJ6d0MxNUcwSzFrT0t5UFBDREl4REpYRnR0aDI5aXFBVGJJVFVJbGEtdXAyemYtQkJYRjlJTFA0akYwZFkycGJn?oc=5",
+      "published": "Tue, 21 Jul 2026 12:36:44 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f43403ef11974998bc0f46420826577a",
+      "published": "2026-07-21T15:45:10.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5c52a77daddf4e0d9769b87cdc91fae4",
+      "published": "2026-07-17T23:45:04.983000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6cbb1b11a9c843949624cf2eacaac8b4",
+      "published": "2026-07-17T16:30:11.242000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "summary": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1631198cd282431bbb5fbd333106a413",
+      "published": "2026-07-17T15:30:01.964000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/18724cba64a048938986a98bbb257258",
+      "published": "2026-07-16T19:30:10.537000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a613aed15cc4cf78898594d7c767661",
+      "published": "2026-07-16T14:15:11.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/62c2a684d09f445295b87797acc71ae8",
+      "published": "2026-07-15T15:00:02.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f198d9602f3b4604a9b15cd0a1529e32",
+      "published": "2026-07-15T14:30:03.302000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dbc90c04fc654d848f08b0b974fec233",
+      "published": "2026-07-13T17:00:02.055000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2e92c3c6c8347c197b9091851ec285e",
+      "published": "2026-07-13T16:00:06.635000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6fe9f6dc91544df88dc24ad41211feff",
+      "published": "2026-07-10T23:37:03.303000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53",
+      "published": "2026-07-10T14:45:21.461000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac",
+      "published": "2026-07-02T16:15:08.049000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "summary": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3da0bd5b07bf497db5788fed38d478b0",
+      "published": "2026-07-02T15:45:17.244000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined BTCU and ETHU Perpetual Contracts (2026-07-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/25da4614ffff435fa28544b27fd33a39",
+      "published": "2026-06-30T22:45:02.782000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 25 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 25，分类为「Extreme Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-21T08:00:00+08:00"
+    }
+  ]
+}
