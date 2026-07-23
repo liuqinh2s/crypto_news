@@ -1,0 +1,337 @@
+{
+  "date": "2026-07-24",
+  "hour": "00",
+  "total": 47,
+  "fetched_at": "2026-07-24T00:01:02.000192+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "The SEC settles with Coinbase over its missing Gary Gensler texts",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/07/23/sec-agrees-to-end-lawsuit-over-missing-ethereum-records-will-pay-usd150-000-in-fees",
+      "published": "Thu, 23 Jul 2026 15:36:39 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto for Advisors: It’s time for tokenization to get to work",
+      "summary": "",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/07/23/crypto-for-advisors-it-s-time-for-tokenization-to-get-to-work",
+      "published": "Thu, 23 Jul 2026 14:53:34 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase calls AI payments its ‘most high-conviction bet’ as businesses begin accepting agent payments",
+      "summary": "<p>Coinbase will enable businesses to accept payments from AI bots, powered by Coinbase Payments and the x402 standard.</p>",
+      "link": "https://www.theblock.co/post/409539/coinbase-ai-payments-most-high-conviction-bet-businesses-accepting-agent-payments?utm_source=rss&utm_medium=rss",
+      "published": "Thu, 23 Jul 2026 12:00:00 -0400"
+    },
+    {
+      "source": "Decrypt",
+      "title": "BlackRock, Coinbase and Strategy Pledge $15M to Quantum-Proof Bitcoin",
+      "summary": "Nine of the biggest institutional names in Bitcoin formed a consortium to fund the developers working to keep the network secure—including from future quantum computers.",
+      "link": "https://decrypt.co/374145/blackrock-coinbase-strategy-15m-quantum-proof-bitcoin",
+      "published": "Thu, 23 Jul 2026 15:17:38 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Goldman Sachs Backs the Clarity Act, Splitting Wall Street Over Crypto Rules",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/07/Goldman-Sachs-Backs-the-Clarity-Act-Splitting-Wall-Street-Over-Crypto-Rules.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/goldman-sachs-backs-the-clarity-act\" rel=\"nofollow\">Goldman Sachs Backs the Clarity Act, Splitting Wall Street Over Crypto Rules</a></p>\n<p>Goldman Sachs CEO David Solomon endors",
+      "link": "https://bitcoinmagazine.com/news/goldman-sachs-backs-the-clarity-act",
+      "published": "Thu, 23 Jul 2026 15:34:05 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Coinbase Builds Post-Quantum Custody System, Funds Bitcoin’s Crypto Upgrade",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2025/12/Coinbase-is-About-to-Launch-Prediction-Markets-and-Tokenized-Stocks-Report.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/coinbase-building-post-quantum-solutions\" rel=\"nofollow\">Coinbase Builds Post-Quantum Custody System, Funds Bitcoin&#8217;s Crypto Upgrade</a></p>\n<p>Coinbase says that while the",
+      "link": "https://bitcoinmagazine.com/news/coinbase-building-post-quantum-solutions",
+      "published": "Thu, 23 Jul 2026 14:47:10 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Kazakhstan Moves to Build a National Crypto Reserve Funded by Bitcoin Miners",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/07/Kazakhstan-Moves-to-Build-a-National-Crypto-Reserve-Funded-by-Bitcoin-Miners.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/kazakhstan-to-build-a-national-crypto\" rel=\"nofollow\">Kazakhstan Moves to Build a National Crypto Reserve Funded by Bitcoin Miners</a></p>\n<p>Kazakhstan has laid out a plan to b",
+      "link": "https://bitcoinmagazine.com/news/kazakhstan-to-build-a-national-crypto",
+      "published": "Thu, 23 Jul 2026 14:04:31 +0000"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "INTERNET MONEY | An Original Series (It's literally you)",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1v4glly/internet_money_an_original_series_its_literally/\"> <img alt=\"INTERNET MONEY | An Original Series (It's literally you)\" src=\"https://external-preview.redd.it/1AgWGbQtvt_Tl7sT0WXsTd_xWfbaevEps8r3Oi6ptHk.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=44748fcb480ca57b32517a45fcd0c8667937a89a\" title=\"INTERNET MONEY | An Original Series (It's literally you)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>You cra",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v4glly/internet_money_an_original_series_its_literally/",
+      "published": "2026-07-23T15:07:36+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Zilliqa’s Ledger app has been leaking users’ private keys for seven years.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Since 2019, the app contained a critical bug in its signature process. Instead of generating a fresh random nonce for every signature (as required for security), it copied the wrong bytes — leaving part of the nonce fixed at zero.That small, predictable flaw was enough. Every transaction you signed leaked a little more information about your private key. After roughly five signatures, an attacker could recover the full key in seconds on a regular laptop.The bug",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v4gewo/zilliqas_ledger_app_has_been_leaking_users/",
+      "published": "2026-07-23T15:01:03+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "I got tired of using 10 different apps to understand the market, so I built one",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Square-Historian1458\"> /u/Square-Historian1458 </a> <br /> <span><a href=\"/r/CryptoMarkets/comments/1v2e37p/i_got_tired_of_using_10_different_apps_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1v4hne7/i_got_tired_of_using_10_different_apps_to/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v4hne7/i_got_tired_of_using_10_different_apps_to/",
+      "published": "2026-07-23T15:45:43+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "SOLANA VIBES 17-22 JULY 2026",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1v4gj5d/solana_vibes_1722_july_2026/\"> <img alt=\"SOLANA VIBES 17-22 JULY 2026\" src=\"https://preview.redd.it/h7zxsapivzeh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1eeff226e74df9e75760f4d821d4e4471f84ac84\" title=\"SOLANA VIBES 17-22 JULY 2026\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>SOLANA VIBES 17-22 JULY 2026</strong> </p> <p>Solana validators are preparing for the Alpenglow upgrade as new hig",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v4gj5d/solana_vibes_1722_july_2026/",
+      "published": "2026-07-23T15:05:07+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin and ethereum prices today, Thursday, July 23: Prices mixed as analysts debate crypto bottom - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxPcFQ4R3RfLUdZQ0tEOWhpOG1GYmZLXzFVVXhHN3NldXdUam5kSFFMVUg2em54ZXRIY051OTZ4c3JNZmZiREhXek9SWXgza3FweGNlNC1rZnlzem1JOW1yd2ExLWE5R0JYb29NUUNHVkMycWFxZTB5dzFhMHA0anpNSnRnSlVWWllralh5WDBrbWRiZlNTLTdnRGxFWkhmV0NUUDJWVUp2T01lcVpkaW45RWxUczVUWHRQQzNZYWZQcmxUd05namZJNm9FTnYxTEZDZVg4eTZMVEJVckQ0RWZvckY1SEozSTZvaWdpVE1KNGdqSlJDRGhwZHpwQk5seDc2V1E?oc=5\" target=\"_blank\">Bitcoin and ethereum prices today, Thursday, July 23: Prices mixed as analysts d",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcFQ4R3RfLUdZQ0tEOWhpOG1GYmZLXzFVVXhHN3NldXdUam5kSFFMVUg2em54ZXRIY051OTZ4c3JNZmZiREhXek9SWXgza3FweGNlNC1rZnlzem1JOW1yd2ExLWE5R0JYb29NUUNHVkMycWFxZTB5dzFhMHA0anpNSnRnSlVWWllralh5WDBrbWRiZlNTLTdnRGxFWkhmV0NUUDJWVUp2T01lcVpkaW45RWxUczVUWHRQQzNZYWZQcmxUd05namZJNm9FTnYxTEZDZVg4eTZMVEJVckQ0RWZvckY1SEozSTZvaWdpVE1KNGdqSlJDRGhwZHpwQk5seDc2V1E?oc=5",
+      "published": "Thu, 23 Jul 2026 15:26:54 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "21st package of sanctions: EU hits Russian energy, financial services and crypto hard - consilium.europa.eu",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNHNJM2pLUjlpTTd0MFFLU295ajhEVkRNM3NDd1N4dXRKMVFCbk83T19WQmFQaFhIQWxOZGpkNVBzaC1vNVl2TjdXMlFUa3VyeTdGam4yN3Q5WnprM094Mm5ZMExkS3U5X0RLdERPZGxQVnh5SElFa2ZJbDRiUURSMF96T0NVdV9jWlVDeGFYRzV0cmd2al90SHh2QWFKajcyLTRJRGpBWERTTEJ3ZW5FVjVWNWhoTTl3b3BVbnRFTEM3MW9YRmhFcjB4bWJvYWJ3QURPWllBM3ZzU1VaSlNXSEJEcXpWZw?oc=5\" target=\"_blank\">21st package of sanctions: EU hits Russian energy, financial services and crypto hard</a>&nbsp;&nbsp;<font color=\"#6f",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNHNJM2pLUjlpTTd0MFFLU295ajhEVkRNM3NDd1N4dXRKMVFCbk83T19WQmFQaFhIQWxOZGpkNVBzaC1vNVl2TjdXMlFUa3VyeTdGam4yN3Q5WnprM094Mm5ZMExkS3U5X0RLdERPZGxQVnh5SElFa2ZJbDRiUURSMF96T0NVdV9jWlVDeGFYRzV0cmd2al90SHh2QWFKajcyLTRJRGpBWERTTEJ3ZW5FVjVWNWhoTTl3b3BVbnRFTEM3MW9YRmhFcjB4bWJvYWJ3QURPWllBM3ZzU1VaSlNXSEJEcXpWZw?oc=5",
+      "published": "Thu, 23 Jul 2026 15:44:04 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Major Bitcoin Firms Commit $15 Million to Support Bitcoin Security Development - The Quantum Insider",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOUENoRlN1Z3RUQ1NKeUhjdWsxZDZna0pUaWxxZ1h1UnRMZ3MtMHJxbEVicVQwb0xpWE1TcUpsWkJRMlBIRFQ4RU10Z19MQU9OTHJzOVRfTWNpZ1dFNnZpSTItaXZqSll1YzNvQU94cVByTExTRU81VjRsbVNHckwtOG9peWFyVmdNcWZkY0c1cXAyajljanpWa2dydHZTQQ?oc=5\" target=\"_blank\">Major Bitcoin Firms Commit $15 Million to Support Bitcoin Security Development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Quantum Insider</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUENoRlN1Z3RUQ1NKeUhjdWsxZDZna0pUaWxxZ1h1UnRMZ3MtMHJxbEVicVQwb0xpWE1TcUpsWkJRMlBIRFQ4RU10Z19MQU9OTHJzOVRfTWNpZ1dFNnZpSTItaXZqSll1YzNvQU94cVByTExTRU81VjRsbVNHckwtOG9peWFyVmdNcWZkY0c1cXAyajljanpWa2dydHZTQQ?oc=5",
+      "published": "Thu, 23 Jul 2026 14:11:53 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Investor Twins Gave MAGA Inc. PAC $10 Million After Regulatory Win - Truthout",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQYWo5cnctLUpBSi1Td0tETDVZTHE1T2FucFlSTzk3Z0JLcFcwTmpWRFU5MDdKR2gyOWg5VURXSTdnZkVJUG1XeDhnMnlFQWtmTjBCM2lEck5XVjUxTEtpV1NyUDVmQi1mbktXQzd3c2twLXM1XzduT25QejhUNDBqcjZ1TUVTOFZRc29FcElfTERpcXZLWHdiSjFBQ2NiZ3pFVGU3Wg?oc=5\" target=\"_blank\">Crypto Investor Twins Gave MAGA Inc. PAC $10 Million After Regulatory Win</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Truthout</font>",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYWo5cnctLUpBSi1Td0tETDVZTHE1T2FucFlSTzk3Z0JLcFcwTmpWRFU5MDdKR2gyOWg5VURXSTdnZkVJUG1XeDhnMnlFQWtmTjBCM2lEck5XVjUxTEtpV1NyUDVmQi1mbktXQzd3c2twLXM1XzduT25QejhUNDBqcjZ1TUVTOFZRc29FcElfTERpcXZLWHdiSjFBQ2NiZ3pFVGU3Wg?oc=5",
+      "published": "Thu, 23 Jul 2026 14:06:33 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Senate Must Stand Up to Crypto Billionaires and Trump Crypto Corruption - Americans for Financial Reform",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPS1FaS2hOcm1fQW45dV9QSkFiNlhzVGl3Mm45bEN0TzFxQU5lWW9HRXFxYnFpclJiNlhFMnp6alFLUVBfamlLTlNwbTlmV1diWjRDTjkwZmlBR09HOE1FT3BUdHhRM28yOC1FbERkcUY0UlVNUm1UMFJxS3FmWGd6Q2hBb3RwdFkwd2xSSXRlZHJ6dS00LUZMbHg2SlN1eHV2VnV6VzV5aTY2RThqOTM0?oc=5\" target=\"_blank\">Senate Must Stand Up to Crypto Billionaires and Trump Crypto Corruption</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Americans for Financial Reform</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS1FaS2hOcm1fQW45dV9QSkFiNlhzVGl3Mm45bEN0TzFxQU5lWW9HRXFxYnFpclJiNlhFMnp6alFLUVBfamlLTlNwbTlmV1diWjRDTjkwZmlBR09HOE1FT3BUdHhRM28yOC1FbERkcUY0UlVNUm1UMFJxS3FmWGd6Q2hBb3RwdFkwd2xSSXRlZHJ6dS00LUZMbHg2SlN1eHV2VnV6VzV5aTY2RThqOTM0?oc=5",
+      "published": "Thu, 23 Jul 2026 14:35:34 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BlackRock, Coinbase and Strategy Pledge $15M to Quantum-Proof Bitcoin - Decrypt",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPaVl4MGlfNFFzMU9wVGNmUGJrVjhLZ3BHVW5OWHlPRXE1d1hJVVZfNHVuQW9vU1VTbWtKdEZqLWdhRFlZVy1DbThDRFA0ejBTMVVwd3VybHd4MUs3ZDdyNUE2NkxKZFU0SkNKdVdkRk5lQzJjb1dQUFZIOUF4U28tZUFpOGw1QdIBjgFBVV95cUxQMDNBdnNiemlmZXJLWTdwUFo4RmZucDFtMlRfdldyVnNLREtzVUlvWDNFa2hpS0RxTWdPTW4tTDFKcTh6RWI3WndSQXJiYWVSazZ5NjBWUmF4WUtUSzVxc3RuY2ZOcXFqdWxWYnlXWXQxejRWNG13N0o4emVodHhoYldUa21vSHA2UGtLc0xR?oc=5\" target=\"_blank\">BlackRock, Coinbase and Strategy Pledge $15M to Qua",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaVl4MGlfNFFzMU9wVGNmUGJrVjhLZ3BHVW5OWHlPRXE1d1hJVVZfNHVuQW9vU1VTbWtKdEZqLWdhRFlZVy1DbThDRFA0ejBTMVVwd3VybHd4MUs3ZDdyNUE2NkxKZFU0SkNKdVdkRk5lQzJjb1dQUFZIOUF4U28tZUFpOGw1QdIBjgFBVV95cUxQMDNBdnNiemlmZXJLWTdwUFo4RmZucDFtMlRfdldyVnNLREtzVUlvWDNFa2hpS0RxTWdPTW4tTDFKcTh6RWI3WndSQXJiYWVSazZ5NjBWUmF4WUtUSzVxc3RuY2ZOcXFqdWxWYnlXWXQxejRWNG13N0o4emVodHhoYldUa21vSHA2UGtLc0xR?oc=5",
+      "published": "Thu, 23 Jul 2026 15:17:38 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BlackRock, Coinbase and Strategy Pledge $15M to Quantum-Proof Bitcoin - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNTVdPLTNlRW5mVU50X1p0VG5jVlJfZWtJUklUejhHeUVxY2s4Z0lweWE1X1hBWGl1N1hTU3ZERi1ZdlY4SHNHUjlHUlR5WGQ4VUs4cnpYd1lQTTZnejBkeXdLTF9DQTRNTHFtck1KajV4S0gzMFJvSHJDdXlrT2tsZzFJTWpWNkZzU0VHdWlDVm03anQxb0ZmTDlwb1I1eXNZaTJOSE93?oc=5\" target=\"_blank\">BlackRock, Coinbase and Strategy Pledge $15M to Quantum-Proof Bitcoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTVdPLTNlRW5mVU50X1p0VG5jVlJfZWtJUklUejhHeUVxY2s4Z0lweWE1X1hBWGl1N1hTU3ZERi1ZdlY4SHNHUjlHUlR5WGQ4VUs4cnpYd1lQTTZnejBkeXdLTF9DQTRNTHFtck1KajV4S0gzMFJvSHJDdXlrT2tsZzFJTWpWNkZzU0VHdWlDVm03anQxb0ZmTDlwb1I1eXNZaTJOSE93?oc=5",
+      "published": "Thu, 23 Jul 2026 15:17:38 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Could Rogue AI Steal Your Crypto? Why the OpenAI Scare Has Investors on Alert - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPZHBCV01PUk01Q1ZpVDVrMWU4T2gyR0UyWHpXUUx5SE41bTlIOHhFaE1HaFpyZHkyT3VfUHptMExRNTFyOVhxek53aElIdVlUdzNfUlNZUUxZcHlCeklLU0Zjc1NsbFRINFZVWjl2c0ZKVUpPT2cxZTAwRUFUT012WEpwa0J3X0xPY21oYkFqNjdoS2hPV0lXZkpDdDhXbDc4R0syMlA0VWcyWlR5SENyQTJNMmJ0YUloVW9RZA?oc=5\" target=\"_blank\">Could Rogue AI Steal Your Crypto? Why the OpenAI Scare Has Investors on Alert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZHBCV01PUk01Q1ZpVDVrMWU4T2gyR0UyWHpXUUx5SE41bTlIOHhFaE1HaFpyZHkyT3VfUHptMExRNTFyOVhxek53aElIdVlUdzNfUlNZUUxZcHlCeklLU0Zjc1NsbFRINFZVWjl2c0ZKVUpPT2cxZTAwRUFUT012WEpwa0J3X0xPY21oYkFqNjdoS2hPV0lXZkpDdDhXbDc4R0syMlA0VWcyWlR5SENyQTJNMmJ0YUloVW9RZA?oc=5",
+      "published": "Thu, 23 Jul 2026 14:23:12 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto for Advisors: It’s time for tokenization to get to work - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOUURsbE5Gd051UHNZM1R0aERhRzM3ZlB3d1NzU1k1Q3ZvcjAzRVVJbFkxNTlhMG9qaGdOTnNoSElaUzd0RWVvbkhuS0FFOFlscDkyNFBTcFBERG8zVnRLUXVpT2JydUpYdmRBczF1WXY2aG5CQlV1S3JyVmNHOEgzTEF2dUwzLUpZQlc3ZjlLQVhmRG4zOHF0WUZnSEpDUWI3LUFDdjNzZkc1OEJUbVJyYU8tU0s?oc=5\" target=\"_blank\">Crypto for Advisors: It’s time for tokenization to get to work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUURsbE5Gd051UHNZM1R0aERhRzM3ZlB3d1NzU1k1Q3ZvcjAzRVVJbFkxNTlhMG9qaGdOTnNoSElaUzd0RWVvbkhuS0FFOFlscDkyNFBTcFBERG8zVnRLUXVpT2JydUpYdmRBczF1WXY2aG5CQlV1S3JyVmNHOEgzTEF2dUwzLUpZQlc3ZjlLQVhmRG4zOHF0WUZnSEpDUWI3LUFDdjNzZkc1OEJUbVJyYU8tU0s?oc=5",
+      "published": "Thu, 23 Jul 2026 14:57:08 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase Works On Post-Quantum Future For Bitcoin - Bitcoin Magazine",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE93U0kwNjJBdmFWVkhpbDRSU2hjdHJVRm93amhIWnliaVpCUGRuOGcyaGMyLTFLZDRvM0hRR0ozYnBWQ2gyVnJlVkUzOEp0UC1NUDdYaG5rV2p5M2hBS1d0SUR5NktsZzZXT0lkUGkwd1FoYlR3XzZWRjI4dHR3QQ?oc=5\" target=\"_blank\">Coinbase Works On Post-Quantum Future For Bitcoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Magazine</font>",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93U0kwNjJBdmFWVkhpbDRSU2hjdHJVRm93amhIWnliaVpCUGRuOGcyaGMyLTFLZDRvM0hRR0ozYnBWQ2gyVnJlVkUzOEp0UC1NUDdYaG5rV2p5M2hBS1d0SUR5NktsZzZXT0lkUGkwd1FoYlR3XzZWRjI4dHR3QQ?oc=5",
+      "published": "Thu, 23 Jul 2026 14:47:10 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "'There Are Dozens of Us Left,' Analyst Says as Bitcoin Social Interest Crashes to 2018 Levels - Benzinga",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOUR3LTJsbVRrR2FwSnRfSDVZZjJqUzJqdFJqVzFuY0VKZWFORGhjVkpwRFRCRjAwMUJNQkg2QVlwc2tNZ045RW1oa1dBM2tUcHp0RmxmU2dmd04yV1h4b19XRFZRaTNwcE5oQUVfNktrVlo4QjhiWlRCR3hCaF8tYWFRMC14a0lLbklMcnpPaDF1ZEdfNkxWcUtPdkhjT2hiTlA5TDAtY1FvX1kxLUlhZnZOTnpQcDk2a285TVBKS2RTY0NUTnFGblBfb3JXZzliZ2RMaldzQ1hZa0N1TU8yT1ZINzhMT2M?oc=5\" target=\"_blank\">'There Are Dozens of Us Left,' Analyst Says as Bitcoin Social Interest Crashes to 2018 Levels</a>&nbsp;&nbsp;<font c",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOUR3LTJsbVRrR2FwSnRfSDVZZjJqUzJqdFJqVzFuY0VKZWFORGhjVkpwRFRCRjAwMUJNQkg2QVlwc2tNZ045RW1oa1dBM2tUcHp0RmxmU2dmd04yV1h4b19XRFZRaTNwcE5oQUVfNktrVlo4QjhiWlRCR3hCaF8tYWFRMC14a0lLbklMcnpPaDF1ZEdfNkxWcUtPdkhjT2hiTlA5TDAtY1FvX1kxLUlhZnZOTnpQcDk2a285TVBKS2RTY0NUTnFGblBfb3JXZzliZ2RMaldzQ1hZa0N1TU8yT1ZINzhMT2M?oc=5",
+      "published": "Thu, 23 Jul 2026 14:56:17 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Has ETH/BTC Bottomed? Bitcoin May Lead for Now, While Ethereum Is 'Cheaper, Not Capitulated' - Benzinga",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSnRiSGpTWFVTaGt3aVJ2cGVDbEpTcFRtSll6bmF4VGRpb2pJOUhleUV0aHo1cFRFcXRwY0hXdWVuYWI1TmF5dUd2Z1E0Qjhld0hUWkQ1QV9ueW00elllcWZDa3NjcldpNl9nemxXMjBEMmU4ZVQ3b2VaVEluSk8wTjQyZUJ1SEMzOWxzdnhWeS1tRzhwTWJ2S2hSLXJXS29rZWwzUUI4N0l5LXNidFZGbUZ4NHRzWmtTbnd3WFZHb3hIVEZ1bWZIWFhzV3lHM3ZINlE2NWVxR0VBVEdjdktLU1F3cw?oc=5\" target=\"_blank\">Has ETH/BTC Bottomed? Bitcoin May Lead for Now, While Ethereum Is 'Cheaper, Not Capitulated'</a>&nbsp;&nbsp;<font color=\"",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSnRiSGpTWFVTaGt3aVJ2cGVDbEpTcFRtSll6bmF4VGRpb2pJOUhleUV0aHo1cFRFcXRwY0hXdWVuYWI1TmF5dUd2Z1E0Qjhld0hUWkQ1QV9ueW00elllcWZDa3NjcldpNl9nemxXMjBEMmU4ZVQ3b2VaVEluSk8wTjQyZUJ1SEMzOWxzdnhWeS1tRzhwTWJ2S2hSLXJXS29rZWwzUUI4N0l5LXNidFZGbUZ4NHRzWmtTbnd3WFZHb3hIVEZ1bWZIWFhzV3lHM3ZINlE2NWVxR0VBVEdjdktLU1F3cw?oc=5",
+      "published": "Thu, 23 Jul 2026 14:29:36 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "ETF Perp Futures Top $116B in 7 Months — Binance Leads at 74% - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBpY2p0S1hVYnBwWXRNTzRPX1JqQXZNMFY2aE05eDJpeGtyaGc5WEoyeDBtaFI5bDJxR3RxM2VpWUhBSEhHX183bXpsUUcyNG54QTk4OFItZUk0dE9vS3pfRHFsR1FCTGVBUkZjN1V5UEdkOHdmXzVXZHRMZlY?oc=5\" target=\"_blank\">ETF Perp Futures Top $116B in 7 Months — Binance Leads at 74%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpY2p0S1hVYnBwWXRNTzRPX1JqQXZNMFY2aE05eDJpeGtyaGc5WEoyeDBtaFI5bDJxR3RxM2VpWUhBSEhHX183bXpsUUcyNG54QTk4OFItZUk0dE9vS3pfRHFsR1FCTGVBUkZjN1V5UEdkOHdmXzVXZHRMZlY?oc=5",
+      "published": "Thu, 23 Jul 2026 15:15:08 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "European Central Bank officials ready to raise interest rates in September - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE8zUU5zdGltZlVkakxzTnp3WEVJcUR4dkFhWTM3SnR2SzZLcFhoOEVEeE52dVU1MURzX05sLWZQZVRxSUs1R0RmOGtHMXJmeDJVMEhHSlJuTWZSTU0xYjRYWnBqNWdlM3lDN2JncEVkbzVERW1fd2c?oc=5\" target=\"_blank\">European Central Bank officials ready to raise interest rates in September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zUU5zdGltZlVkakxzTnp3WEVJcUR4dkFhWTM3SnR2SzZLcFhoOEVEeE52dVU1MURzX05sLWZQZVRxSUs1R0RmOGtHMXJmeDJVMEhHSlJuTWZSTU0xYjRYWnBqNWdlM3lDN2JncEVkbzVERW1fd2c?oc=5",
+      "published": "Thu, 23 Jul 2026 14:34:07 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "summary": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcdc949b45a644c78e341c88331a35ef",
+      "published": "2026-07-23T09:30:03.723000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dd18d9850f504666b7c91b5c74fe8c10",
+      "published": "2026-07-22T18:00:13.551000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e",
+      "published": "2026-07-22T14:30:04.196000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f43403ef11974998bc0f46420826577a",
+      "published": "2026-07-21T15:45:10.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5c52a77daddf4e0d9769b87cdc91fae4",
+      "published": "2026-07-17T23:45:04.983000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6cbb1b11a9c843949624cf2eacaac8b4",
+      "published": "2026-07-17T16:30:11.242000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "summary": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1631198cd282431bbb5fbd333106a413",
+      "published": "2026-07-17T15:30:01.964000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/18724cba64a048938986a98bbb257258",
+      "published": "2026-07-16T19:30:10.537000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a613aed15cc4cf78898594d7c767661",
+      "published": "2026-07-16T14:15:11.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/62c2a684d09f445295b87797acc71ae8",
+      "published": "2026-07-15T15:00:02.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f198d9602f3b4604a9b15cd0a1529e32",
+      "published": "2026-07-15T14:30:03.302000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dbc90c04fc654d848f08b0b974fec233",
+      "published": "2026-07-13T17:00:02.055000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2e92c3c6c8347c197b9091851ec285e",
+      "published": "2026-07-13T16:00:06.635000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6fe9f6dc91544df88dc24ad41211feff",
+      "published": "2026-07-10T23:37:03.303000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53",
+      "published": "2026-07-10T14:45:21.461000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 31 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 31，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-23T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "加密市场突然转弱！比特币跌破6.5万美元，一个危险信号连升五天 - FX168",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9nU1ZteW1UclAySk5RRDMyc3ltWjdZTWhrNUE2N2JWUFJhTHBHbzItUVQxSjlmcVZKdlZqcXd2R1NHbDdUUUdhSVFTSUVnVXJxSEtNQndfa2ZYM3Y2TXh5QVhtTWlOdERLSXJZX0pJQjM1SGU1dm5QZA?oc=5\" target=\"_blank\">加密市场突然转弱！比特币跌破6.5万美元，一个危险信号连升五天</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FX168</font>",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nU1ZteW1UclAySk5RRDMyc3ltWjdZTWhrNUE2N2JWUFJhTHBHbzItUVQxSjlmcVZKdlZqcXd2R1NHbDdUUUdhSVFTSUVnVXJxSEtNQndfa2ZYM3Y2TXh5QVhtTWlOdERLSXJZX0pJQjM1SGU1dm5QZA?oc=5",
+      "published": "Thu, 23 Jul 2026 15:52:27 GMT"
+    }
+  ]
+}
