@@ -1,0 +1,302 @@
+{
+  "date": "2026-07-25",
+  "hour": "12",
+  "total": 42,
+  "fetched_at": "2026-07-25T12:00:59.045156+08:00",
+  "news": [
+    {
+      "source": "金色财经",
+      "title": "美国三大闭源前沿AI实验室OpenAI、Anthropic和谷歌暂未签署黄仁勋联合公开信",
+      "summary": "【美国三大闭源前沿AI实验室OpenAI、Anthropic和谷歌暂未签署黄仁勋联合公开信】金色财经报道，黄仁勋在X（原推特）平台上发布了自己的第一条推文附上标题为《开放权重与美国在AI领域的领导地位》的联合公开信，不过截至目前美国三大闭源前沿AI实验室OpenAI、Anthropic和谷歌并未签署该联合公开信，共同签署的20多家企业包括英伟达、Meta、微软、Palantir、CrowdStrike、IBM、ServiceNow、Hugging Face、Mistral AI、a16z、Y Combinator以及Perplexity等。 \n据悉，公开信主张不应当限制“AI蒸馏（Distillation）”技术并称衡量美国AI领导地位的标准并非单一前沿模型的强大程度，而是能否构建一个渗透所有行业的稳健开放的生态系统。开放权重模型正是这一生态系统的基石。<p>原文链接: <a href=\"https://x.com/JensenHuang/status/2080643682408321103\">https://x.com/JensenHuang/status/2080643682408",
+      "link": "https://jinse.com.cn/lives/524928.html",
+      "published": "Sat, 25 Jul 2026 03:46:19 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "AMD发布全开源MoE大模型Instella-MoE，16B参数规模挑战主流开源模型",
+      "summary": "【AMD发布全开源MoE大模型Instella-MoE，16B参数规模挑战主流开源模型】7月25日，AMD宣布推出全开源混合专家模型（MoE）Instella-MoE，该模型拥有160亿总参数，每个Token激活28亿参数，号称在同规模开源语言模型中具备领先性能。AMD 表示，Instella-MoE 完全基于自家 AMD Instinct MI300X 和 MI325X GPU，以及 ROCm 软件栈从零训练完成，并采用 Gated Multi-head Latent Attention（Gated MLA）和 FarSkip-Collective 等架构创新，以提升训练和推理效率。性能测试显示，Instella-MoE-16B-A3B 基础模型平均得分达到 76.7 分，在全开源模型中排名领先，超过 SmolLM3-3B、OLMo-3-7B 等模型，并在仅激活 28 亿参数的情况下，与更大规模模型竞争。 \n此外，该模型支持 64K Token 长上下文处理，并完成预训练、中期训练、长上下文扩展、监督微调（SFT）、直接偏好优化（DPO）以及强化学习（RL）等完整训练流程。AMD 此",
+      "link": "https://jinse.com.cn/lives/524927.html",
+      "published": "Sat, 25 Jul 2026 03:28:20 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "特朗普称伊朗问题进展非常顺利 但称伊朗“还没准备好”达成协议",
+      "summary": "【特朗普称伊朗问题进展非常顺利 但称伊朗“还没准备好”达成协议】金色财经报道，7月25日，美国总统特朗普在白宫记者协会晚宴上发表讲话时谈及伊朗战事。特朗普说：“一切都进展得非常顺利。别信那些假新闻。”他接着表示，美国已经“重创伊朗”，伊朗已不再具备海军和空军作战能力。他说：“尽管你们看到了一些情况，但他们剩下的无人机已经寥寥无几了。”特朗普还补充道，他认为伊朗“非常希望能达成协议”，但觉得“他们还没准备好”。特朗普表示：“我认为时机未到，但我愿意聆听。”",
+      "link": "https://jinse.com.cn/lives/524926.html",
+      "published": "Sat, 25 Jul 2026 03:14:23 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "穆迪警告AI投资狂潮冲击科技巨头财务稳健性 微软、甲骨文等公司自由现金流承压",
+      "summary": "【穆迪警告AI投资狂潮冲击科技巨头财务稳健性 微软、甲骨文等公司自由现金流承压】金色财经报道，7月25日，随着全球科技巨头竞相加码人工智能基础设施建设，穆迪评级警告称，AI投资热潮正侵蚀大型云计算服务商的自由现金流，并推高资产负债表风险，未来投资者将更加关注这些企业能否从巨额AI投入中获得足够回报。穆迪在本周发布的研究报告中表示，包括微软(MSFT.US)、亚马逊(AMZN.US)、谷歌母公司Alphabet(GOOGL.US)、Meta(META.US)、甲骨文(ORCL.US)及CoreWeave(CRWV.US)在内的六家科技企业，正从过去依赖软件、知识产权和云服务的“轻资产”商业模式，转向需要大规模建设数据中心等基础设施的“重资产”模式。 \n穆迪指出，这一转变需要前所未有的资本投入和融资规模，并可能削弱上述公司的信用质量。该机构预计，AI基础设施投资仍将持续攀升，六家公司资本支出将在2026年达到约7850亿美元，并于2027年进一步逼近1万亿美元。报告指出，与传统软件业务相比，生成式AI需要大量数据中心、GPU服务器及高性能芯片等硬件投入，导致科技行业长期以来依靠轻资产模式维",
+      "link": "https://jinse.com.cn/lives/524925.html",
+      "published": "Sat, 25 Jul 2026 03:13:25 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "英伟达：Naver、Nvidia、Brookfield将斥资高达100亿美元扩建人工智能数据中心",
+      "summary": "【英伟达：Naver、Nvidia、Brookfield将斥资高达100亿美元扩建人工智能数据中心】金色财经报道，7月25日，英伟达表示，Naver、英伟达与Brookfield将扩大人工智能数据中心规模，融资规模最高达100亿美元。英伟达将出资10亿美元，布鲁克菲尔德将出资最高90亿美元，扩张Naver人工智能数据中心。",
+      "link": "https://jinse.com.cn/lives/524924.html",
+      "published": "Sat, 25 Jul 2026 03:10:43 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "马斯克：X将在8月开源全部系统代码",
+      "summary": "【马斯克：X将在8月开源全部系统代码】金色财经报道，马斯克表示，X将在8月开源所有涉及平台系统的代码，并交由第三方审计。审计方还会核对线上实际运行的代码是否与开源版本一致。（金十）",
+      "link": "https://jinse.com.cn/lives/524923.html",
+      "published": "Sat, 25 Jul 2026 03:08:09 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "2025年我国数字产业收入39.6万亿元",
+      "summary": "【2025年我国数字产业收入39.6万亿元】金色财经报道，7月25日，国家互联网信息办公室最新发布的《国家信息化发展报告（2025年）》显示，2025年，我国数字经济核心产业增加值占GDP的比重超过10.5%，数字产业收入39.6万亿元，同比增长8.8%。我国居民数字消费规模达25.3万亿元，同比增长8.7%。同时，我国网络基础设施提质升级。截至2025年底，我国5G基站总数达483.8万个，三分之二地级市达到千兆城市标准。IPv6活跃用户数达8.69亿。",
+      "link": "https://jinse.com.cn/lives/524922.html",
+      "published": "Sat, 25 Jul 2026 03:00:17 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某鲸鱼40倍做多603.71枚BTC，爆仓价63,667美元",
+      "summary": "【某鲸鱼40倍做多603.71枚BTC，爆仓价63,667美元】金色财经报道，7月25日，据ai_9684xtpa监测，一鲸鱼地址（0x854…c775e）于昨晚22:30开启一笔40倍杠杆BTC多单，投入603.71枚BTC，开仓价格约为64,469美元，名义仓位价值约3867万美元。目前该仓位浮亏约25.9万美元。此外，该地址还在63,500至63,674美元区间挂出价值约3144.1万美元的限价多单。若全部成交，其BTC多头持仓规模将扩大至约7011.1万美元。数据显示，该地址此前主要采用短线交易策略，持仓时间通常仅持续数小时。本次多单规模已跻身今年第六大仓位规模，若后续限价单全部成交，或将成为其年度最大规模BTC多头操作。<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2080837619441869287?s=46\">https://x.com/ai_9684xtpa/status/2080837619441869287?s=46</a></p>",
+      "link": "https://jinse.com.cn/lives/524921.html",
+      "published": "Sat, 25 Jul 2026 02:48:35 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "英伟达计划与现代汽车共同开发Genesis自动驾驶轿车",
+      "summary": "【英伟达计划与现代汽车共同开发Genesis自动驾驶轿车】金色财经报道，7月25日，据韩联社，英伟达CEO黄仁勋表示，英伟达计划与现代汽车共同开发Genesis自动驾驶轿车。",
+      "link": "https://jinse.com.cn/lives/524920.html",
+      "published": "Sat, 25 Jul 2026 02:34:52 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Anthropic CEO：已与三星电子及SK海力士签署供应协议",
+      "summary": "【Anthropic CEO：已与三星电子及SK海力士签署供应协议】7月25日消息，Anthropic 首席执行官 Dario Amodei 宣布，已与三星电子及 SK 海力士签署供应协议。彭博社近期报道称，韩国总统府高级官员透露，三星电子和 SK 海力士将在李在明访问期间，与美国顶尖科技企业签署涉及巨额资金的协议。相关合作预计包括长期存储芯片供应合同、战略投资伙伴关系以及谅解备忘录，具体规模将在企业正式公布后披露。李在明将于当地时间周五抵达旧金山，并出席人工智能峰会，与英伟达 CEO 黄仁勋、OpenAI CEO Sam Altman、Anthropic CEO Dario Amodei 以及博通 CEO Hock Tan 等美国科技企业负责人举行会谈。",
+      "link": "https://jinse.com.cn/lives/524919.html",
+      "published": "Sat, 25 Jul 2026 02:29:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Meta AI推出新功能，支持制定计划、连接邮件日历并执行任务",
+      "summary": "【Meta AI推出新功能，支持制定计划、连接邮件日历并执行任务】7月25日消息，Meta Platforms 表示，基于 Muse Spark 1.1 技术，Meta AI 目前已具备制定计划、连接电子邮件与日历应用、制作演示文稿以及代用户处理多项任务的能力。Meta 称，Meta AI 应用及 Meta.ai 的新功能将于 7 月 24 日起在部分市场陆续推出，并将在未来几周内扩展至更多国家和平台，包括 WhatsApp。",
+      "link": "https://jinse.com.cn/lives/524918.html",
+      "published": "Sat, 25 Jul 2026 02:28:21 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Anthropic：Claude Opus 5发现网络安全漏洞的能力接近顶级模型Mythos 5",
+      "summary": "【Anthropic：Claude Opus 5发现网络安全漏洞的能力接近顶级模型Mythos 5】7月25日消息，Anthropic发布新一代人工智能模型Claude Opus5，称该模型在发现网络安全漏洞方面的能力几乎与公司更先进的Mythos5模型相当。Anthropic表示，ClaudeOpus5是一款通用型模型，在自我检查工作、科学研究和代码优化等任务上实现提升。公司称，尽管该模型在漏洞发现能力上接近Mythos5，但在实际利用这些漏洞方面仍「明显落后」。 \n此外，Anthropic强调，Claude Opus5在多个能力类别中的表现接近其最先进的Fable5模型，但成本仅约为后者的一半，预计将成为企业处理日常办公任务的默认选择。随着企业持续关注AI投入成本，包括OpenAI、Meta和SpaceX AI在内的多家AI公司正加速竞争更具成本效率的模型。Anthropic表示，市场对AI性价比和实际应用能力的重视正在不断提升。<p>原文链接: <a href=\"https://x.com/claudeai/status/2080699495453528290\">https://",
+      "link": "https://jinse.com.cn/lives/524917.html",
+      "published": "Sat, 25 Jul 2026 02:15:26 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Claude 疑似停止显示完整思考痕迹，可解释性遭质疑",
+      "summary": "【Claude 疑似停止显示完整思考痕迹，可解释性遭质疑】7月25日消息，宾夕法尼亚大学教授 Ethan Mollick 发现，Claude 可能已停止显示完整的总结性思考痕迹，并公布了前后对比。Mollick 认为这是一个重大损失，会损害模型的可解释性。他指出，即使是经过总结的思考痕迹，也能帮助用户以其他方式无法做到的方式诊断错误，且这些痕迹本身具有洞见价值。目前 Anthropic 官方尚未对此变化做出说明。<p>原文链接: <a href=\"https://x.com/emollick/status/2080829512275624173\">https://x.com/emollick/status/2080829512275624173</a></p>",
+      "link": "https://jinse.com.cn/lives/524916.html",
+      "published": "Sat, 25 Jul 2026 02:11:32 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "AMD CEO苏姿丰：AI芯片市场到2030年将达到1.4万亿美元",
+      "summary": "【AMD CEO苏姿丰：AI芯片市场到2030年将达到1.4万亿美元】7月25日消息，AMD CEO苏姿丰在Advancing AI 2026大会上表示，随着行业加速迈向AGI，AI芯片市场的增长速度已经远超此前预期。AMD去年曾预测，到2028年AI芯片市场规模将达到5000亿美元，但如今看来，这一数字仍然过于保守。苏姿丰预计，到2030年，全球AI芯片市场将增长至约1.4万亿美元，规模接近今天整个半导体市场。在她看来，更好的模型会带来更多使用，更多使用又会推动算力需求继续增长。虽然未来AI芯片会呈现多种形态，但由于算法和工作负载仍在快速变化，具备更强可编程性的GPU，预计仍将占据市场的大部分份额。",
+      "link": "https://jinse.com.cn/lives/524915.html",
+      "published": "Sat, 25 Jul 2026 02:10:10 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Midjourney收购占星应用Co-Star，Co-Star CEO加入担任首席设计官",
+      "summary": "【Midjourney收购占星应用Co-Star，Co-Star CEO加入担任首席设计官】7月25日，AI图像生成工具Midjourney宣布收购占星应用Co-Star，并任命Co-Star CEO BanuGuler出任Midjourney首席设计官。Banu Guler将负责组建一支跨职能设计、产品及前端团队，推动Midjourney相关产品方向的发展。Midjourney表示，Co-Star应用将继续运营，并由Banu Guler全面负责管理。此次收购标志着Midjourney进一步扩展其产品与设计能力布局。<p>原文链接: <a href=\"https://x.com/midjourney/status/2080671833322672148\">https://x.com/midjourney/status/2080671833322672148</a></p>",
+      "link": "https://jinse.com.cn/lives/524914.html",
+      "published": "Sat, 25 Jul 2026 02:09:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "SpaceX成功进行星舰的第13次试飞",
+      "summary": "【SpaceX成功进行星舰的第13次试飞】金色财经报道，7月25日，根据发射直播画面，SpaceX公司在经历多次因天气原因和发射前自动中止的推迟后，于得克萨斯州星基地成功实施了超重型火箭星舰的第13次试飞。此次第13次任务此前曾三次推迟。首次尝试在最后一刻被叫停——由于技术参数问题，自动系统在发射前数秒停止了倒计时；随后的推迟则与得克萨斯州星基地发射场周边不利的天气条件有关。(金十)",
+      "link": "https://jinse.com.cn/lives/524913.html",
+      "published": "Sat, 25 Jul 2026 02:02:59 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Large and random Lighting payments concern/question",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I have a lightning wallet for spending and sending small amounts. I haven't used it in quite some time but today I have received multiple payments of a few sats a few $4 amounts, and even a $9 payment, in 24 hours. </p> <p>Is this something to be concerned with? Why am I receiving so many sats out of no where?</p> <p>I am going to just hold it for awhile before moving it but what is this all about?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1v5w315/large_and_random_lighting_payments_concernquestion/",
+      "published": "2026-07-25T02:49:45+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "lightning transaction stuck on queued",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I used wallet of satoshi and when i send some funds out it is stuck on queued, has anyone else experienced this? and what can i do about it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RSN_Zosma\"> /u/RSN_Zosma </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1v5wn91/lightning_transaction_stuck_on_queued/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1v5wn91/lightni",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1v5wn91/lightning_transaction_stuck_on_queued/",
+      "published": "2026-07-25T03:16:10+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Is Cash App good for investing towards bitcoin",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Trying to find out if it’s worth it or not</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Casper13679\"> /u/Casper13679 </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1v5xepc/is_cash_app_good_for_investing_towards_bitcoin/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1v5xepc/is_cash_app_good_for_investing_towards_bitcoin/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1v5xepc/is_cash_app_good_for_investing_towards_bitcoin/",
+      "published": "2026-07-25T03:53:29+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Is Bitcoin Still a Millionaire Maker? - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPWU9VNXpUWWsxWmpYVVdkWUM3TjQ2V05RYnVoN2Q1c2YwU2xad3lPUEpic1VrR3JaUlFVNGV1bGpPd2hhMlpZZ0hIU2VSaDRIT0pQdDAxaVZzclgzaVkwa2gwRXItY1pwckdJbnNScjFHZU5fOGptdkpQUy1wTEdiVGo4eGZGLW9nQWtublhab05BWFh6S0lVLVk4NEM?oc=5\" target=\"_blank\">Is Bitcoin Still a Millionaire Maker?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWU9VNXpUWWsxWmpYVVdkWUM3TjQ2V05RYnVoN2Q1c2YwU2xad3lPUEpic1VrR3JaUlFVNGV1bGpPd2hhMlpZZ0hIU2VSaDRIT0pQdDAxaVZzclgzaVkwa2gwRXItY1pwckdJbnNScjFHZU5fOGptdkpQUy1wTEdiVGo4eGZGLW9nQWtublhab05BWFh6S0lVLVk4NEM?oc=5",
+      "published": "Sat, 25 Jul 2026 02:50:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Is Bitcoin Still a Millionaire Maker? - The Motley Fool",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOMUxHRHJULVl0aVNYTnMtU3lPX2NJRk5oRlQzQ0t2emI2QVlxb1hhRU1hREJZYjRFbG1EUmVvVjFlQVNLalpZOVAxamVPN05kbkgxdUdXZTNtREF0ZXVDczFDeTFjXzdQb2g4T1lKeWdvOEVuMDVKSVdwUlRrcmlqXzB6cGhndw?oc=5\" target=\"_blank\">Is Bitcoin Still a Millionaire Maker?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMUxHRHJULVl0aVNYTnMtU3lPX2NJRk5oRlQzQ0t2emI2QVlxb1hhRU1hREJZYjRFbG1EUmVvVjFlQVNLalpZOVAxamVPN05kbkgxdUdXZTNtREF0ZXVDczFDeTFjXzdQb2g4T1lKeWdvOEVuMDVKSVdwUlRrcmlqXzB6cGhndw?oc=5",
+      "published": "Sat, 25 Jul 2026 02:52:53 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "summary": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcdc949b45a644c78e341c88331a35ef",
+      "published": "2026-07-23T09:30:03.723000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dd18d9850f504666b7c91b5c74fe8c10",
+      "published": "2026-07-22T18:00:13.551000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e",
+      "published": "2026-07-22T14:30:04.196000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f43403ef11974998bc0f46420826577a",
+      "published": "2026-07-21T15:45:10.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5c52a77daddf4e0d9769b87cdc91fae4",
+      "published": "2026-07-17T23:45:04.983000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6cbb1b11a9c843949624cf2eacaac8b4",
+      "published": "2026-07-17T16:30:11.242000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "summary": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1631198cd282431bbb5fbd333106a413",
+      "published": "2026-07-17T15:30:01.964000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/18724cba64a048938986a98bbb257258",
+      "published": "2026-07-16T19:30:10.537000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a613aed15cc4cf78898594d7c767661",
+      "published": "2026-07-16T14:15:11.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/62c2a684d09f445295b87797acc71ae8",
+      "published": "2026-07-15T15:00:02.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f198d9602f3b4604a9b15cd0a1529e32",
+      "published": "2026-07-15T14:30:03.302000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dbc90c04fc654d848f08b0b974fec233",
+      "published": "2026-07-13T17:00:02.055000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2e92c3c6c8347c197b9091851ec285e",
+      "published": "2026-07-13T16:00:06.635000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6fe9f6dc91544df88dc24ad41211feff",
+      "published": "2026-07-10T23:37:03.303000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53",
+      "published": "2026-07-10T14:45:21.461000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/98d978c5630041c49a6bd317daa791e8",
+      "published": "2026-07-03T13:30:27.549000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined ETHUSD1 Perpetual Contract (2026-07-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/23c9b8e88309409cbcd8509af0b78d10",
+      "published": "2026-07-02T18:45:04.900000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 27 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 27，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-25T08:00:00+08:00"
+    }
+  ]
+}
