@@ -1,0 +1,358 @@
+{
+  "date": "2026-07-29",
+  "hour": "12",
+  "total": 50,
+  "fetched_at": "2026-07-29T12:00:57.735531+08:00",
+  "news": [
+    {
+      "source": "CoinTelegraph",
+      "title": "South Korea plans stablecoin rules as opposition pushes crypto tax repeal",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"South Korea plans stablecoin rules as opposition pushes crypto tax repeal \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-people-start-trust-stablecoin-in-period-of-crisis-south-korea.png\" /></p><p>The FSC reportedly plans a government-backed digital asset bill covering stablecoins and exchanges, while opposition lawmakers seek to scrap a 22% crypto tax due in 2027.</p>",
+      "link": "https://cointelegraph.com/news/south-korea-consolidated-crypto-law-tax-repeal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Jul 2026 03:43:05 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Celsius-linked Bitcoin miner Ionic Digital gains 26% in Nasdaq debut",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Celsius-linked Bitcoin miner Ionic Digital gains 26% in Nasdaq debut\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-ebang-goes-for-nasdaq-whos-next-and-why-only-mining-firms-go-public.jpg\" /></p><p>The Bitcoin miner and AI infrastructure company closed at $62.90, giving it a market capitalization of about $2.8 billion after its direct listing.</p>",
+      "link": "https://cointelegraph.com/markets/celsius-bitcoin-miner-ionic-digital-nasdaq-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Jul 2026 03:26:44 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Tether signs tokenization deal with Nairobi Securities Exchange",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Tether signs tokenization deal with Nairobi Securities Exchange\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/bank-building-hall-entrance-revolving-doorsthreetether.jpg\" /></p><p>The agreement covers tokenized securities, blockchain-based market infrastructure and the potential use of USDT as a settlement layer.</p>",
+      "link": "https://cointelegraph.com/news/tether-signs-tokenization-deal-with-nairobi-securities-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Jul 2026 02:50:51 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "BNB Chain 上Crypto DAO的代币 Pro遭遇攻击，攻击者获利约 5.2 万美元",
+      "summary": "【BNB Chain 上Crypto DAO的代币 Pro遭遇攻击，攻击者获利约 5.2 万美元】金色财经报道，GoPlus中文社区发布Crypto DAO被攻击事件分析，7月28日，BNB Chain 上Crypto DAO的代币 $Pro 因访问控制漏洞被攻击，攻击者获利约 5.2 万美元，被攻击合约损失 167,200 $Pro，这些 $Pro 全部兑换成了 $USDT 转移给了被攻击合约中的receivers 。 \n攻击者在一笔交易内多次调用被攻击合约0xc44f2a中的exec函数，每次都会将其中的 50 $Pro 兑换成 $USDT，多次之后极大地抬高了 Pro/USDT 交易对中 $Pro 的价格，最后将 $Pro 兑换成 $USDT 而获利。 \n根本原因则是被攻击合约中的 exec 函数缺少访问控制，可以被任意合约调用。",
+      "link": "https://jinse.com.cn/lives/525533.html",
+      "published": "Wed, 29 Jul 2026 03:59:39 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国股市连续两日触发熔断机制",
+      "summary": "【韩国股市连续两日触发熔断机制】金色财经报道，7月29日，韩国综合股价指数（KOSPI）29日盘中跌幅一度超过8%，触发市场熔断机制，指数跌破5600点关口，创近期新低。这是韩国股市今年以来第九次触发熔断机制，也是连续两个交易日触发熔断机制。（央视新闻）",
+      "link": "https://jinse.com.cn/lives/525532.html",
+      "published": "Wed, 29 Jul 2026 03:46:56 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国现货以太坊ETF昨日净流入940万美元",
+      "summary": "【美国现货以太坊ETF昨日净流入940万美元】金色财经报道，7月29日，据Farside Investors监测数据，美国现货以太坊ETF昨日净流入940万美元。",
+      "link": "https://jinse.com.cn/lives/525531.html",
+      "published": "Wed, 29 Jul 2026 03:46:17 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国现货比特币ETF昨日净流出4970万美元",
+      "summary": "【美国现货比特币ETF昨日净流出4970万美元】金色财经报道，7月29日，据Farside Investors监测数据，美国现货比特币ETF昨日净流出4970万美元。<p>原文链接: <a href=\"https://x.com/FarsideUK/status/2082311182963069390\">https://x.com/FarsideUK/status/2082311182963069390</a></p>",
+      "link": "https://jinse.com.cn/lives/525530.html",
+      "published": "Wed, 29 Jul 2026 03:45:21 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Gemini联创：资金或从AI主题回流至比特币与Zcash",
+      "summary": "【Gemini联创：资金或从AI主题回流至比特币与Zcash】金色财经报道，7月29日，Gemini联合创始人Cameron Winklevoss在X发文表示，AI交易热潮已告一段落，当前大量资本正在寻找相对稳健的配置方向，或将重新流向比特币和Zcash等加密资产。<p>原文链接: <a href=\"https://x.com/cameron/status/2082118284946633077?s=46\">https://x.com/cameron/status/2082118284946633077?s=46</a></p>",
+      "link": "https://jinse.com.cn/lives/525529.html",
+      "published": "Wed, 29 Jul 2026 03:41:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "ETH跌破1900美元",
+      "summary": "【ETH跌破1900美元】金色财经报道，行情显示，ETH跌破1900美元，现报1899.69美元，24小时涨幅达到1.16%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/525528.html",
+      "published": "Wed, 29 Jul 2026 03:30:54 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "SK海力士两天内市值蒸发约五分之一，韩股跌18%",
+      "summary": "【SK海力士两天内市值蒸发约五分之一，韩股跌18%】金色财经报道，7月29日，韩国股市连续第二天大幅下跌，SK海力士第二季度财报不及预期，令芯片制造商延续跌势，同时散户投资者纷纷减少持仓。在周二收跌10%后，韩国KOSPI指数周三再次大跌8%。7月迄今，韩国KOSPI指数跌幅已经超过30%，本月跌幅势将创下历史之最。该指数今年早些时候大幅上涨，涨幅几乎完全依赖于三星电子和SK海力士。周二收跌14%后，SK海力士周三股价暴跌12%，两天内的跌幅令其市值蒸发约五分之一；投资者目前正等待周四三星电子及其他美国大型科技公司公布财报。(金十)",
+      "link": "https://jinse.com.cn/lives/525527.html",
+      "published": "Wed, 29 Jul 2026 03:29:56 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某交易者交易PIPEDOG不到7小时盈利超120万美元",
+      "summary": "【某交易者交易PIPEDOG不到7小时盈利超120万美元】金色财经报道，7月29日，据Lookonchain监测，一交易者不到7小时盈利超120万美元，收益率高达77倍。 \n6小时前，地址为0x4c8f的交易者花费8.39枚ETH（价值1.6万美元）买入2.9375亿枚PIPEDOG。之后卖出3455万枚PIPEDOG，获得32.67枚ETH（价值6.2万美元），目前仍持有2.592亿枚PIPEDOG，持仓市值118万美元。 \n当前总盈利已经超过120万美元，收益达到77倍。<p>原文链接: <a href=\"https://x.com/lookonchain/status/2082305522632696282\">https://x.com/lookonchain/status/2082305522632696282</a></p>",
+      "link": "https://jinse.com.cn/lives/525526.html",
+      "published": "Wed, 29 Jul 2026 03:27:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国交易所对KOSDAQ指数启动熔断机制，交易暂停20分钟",
+      "summary": "【韩国交易所对KOSDAQ指数启动熔断机制，交易暂停20分钟】金色财经报道，7月29日，韩国交易所对KOSDAQ指数启动熔断机制，交易暂停20分钟。(金十)",
+      "link": "https://jinse.com.cn/lives/525525.html",
+      "published": "Wed, 29 Jul 2026 03:21:03 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国44个州的总检察长联合致信反对CFTC监管体育预测市场",
+      "summary": "【美国44个州的总检察长联合致信反对CFTC监管体育预测市场】金色财经报道，7月29日，据CNBC报道，美国44个州的总检察长周一致信商品期货交易委员会（CFTC），称该机构无权监管预测市场平台上的体育相关事件合约。这封信发出之际，CFTC关于预测市场监管的首份拟议规则的公众意见征询期于周一晚结束，该规则主要针对交易所的体育产品。以俄亥俄州总检察长Andy Wilson为首的联盟表示，拟议规则超出了CFTC的法定权力，与宪法存在冲突，且任意武断，应重新制定并明确体育博彩不能在指定合约市场交易，而应受州法律管辖。佛罗里达州、佐治亚州、新罕布什尔州、密苏里州和得克萨斯州的总检察长未签署该信。 \nCFTC于6月发布了首份预测市场监管规则草案，重点针对体育赛事合约，并对“博彩”作出了定义。CFTC已在法庭上以联邦优先权为由与多个州对抗，目前正与9个州进行诉讼。<p>原文链接: <a href=\"https://www.cnbc.com/2026/07/28/44-states-say-cftc-has-no-authority-over-sports-prediction-markets.ht",
+      "link": "https://jinse.com.cn/lives/525524.html",
+      "published": "Wed, 29 Jul 2026 03:20:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "华尔街11个季度来首次下调金价预测，但央行买盘仍力挺多头",
+      "summary": "【华尔街11个季度来首次下调金价预测，但央行买盘仍力挺多头】金色财经报道，7月29日，路透社一项调查显示，分析师自2023年末以来首次下调黄金价格预期。此前，黄金价格从今年1月创下的历史高位明显回落，但多数受访者仍认为，央行持续购金以及市场对政府财政可持续性的担忧，将继续为金价提供支撑。 \n在过去三周对29位分析师和交易商进行的调查中，2026年黄金价格预测中位数为每盎司4509美元，低于三个月前调查中的4916美元。这也是连续11个季度以来，分析师首次下调黄金价格预期。 \n对于2027年，分析师给出的平均价格预测为每盎司4610美元，低于上一轮调查中的5100美元。 \n黄金价格今年1月一度升至每盎司5595美元的历史高位，但随后在第二季度大幅回落，并录得2013年以来最差季度表现。市场认为，伊朗战争推高能源价格，并强化了美联储加息预期，是导致金价调整的重要因素。自战争爆发以来，现货黄金价格累计下跌约22%。",
+      "link": "https://jinse.com.cn/lives/525523.html",
+      "published": "Wed, 29 Jul 2026 03:17:18 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "机构：美联储7月加息窗口打开 延迟至9月或面临政治批评风险",
+      "summary": "【机构：美联储7月加息窗口打开 延迟至9月或面临政治批评风险】金色财经报道，7月29日，投行D.A. Davidson联席首席投资官兼投资管理与研究总监詹姆斯·拉根表示，自美联储上次会议以来，通胀数据温和、就业增长适度，但7月美伊军事冲突升级使这些积极趋势受到干扰。这意味着6月在总体层面取得的通胀进展可能逆转，美联储必须评估核心层面的通胀趋势是否更具持续性。若美联储认定更高的通胀预期正在形成，他们应在7月加息，而非等到9月。尤其是考虑到今年晚些时候将举行中期选举，届时采取行动可能会招致政治方面的批评。(金十)",
+      "link": "https://jinse.com.cn/lives/525522.html",
+      "published": "Wed, 29 Jul 2026 03:01:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国KOSPI指数较6月历史高点下跌40%",
+      "summary": "【韩国KOSPI指数较6月历史高点下跌40%】金色财经报道，7月29日，韩国KOSPI指数日内跌超7%，回落至5600点下方，SK海力士跌超10%，三星电子跌超6%。该指数已较6月19日创下的历史高点下跌40%。(金十)",
+      "link": "https://jinse.com.cn/lives/525521.html",
+      "published": "Wed, 29 Jul 2026 03:00:34 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "SK海力士：正与主要客户协商2027年HBM供应及定价，目标维持稳健盈利",
+      "summary": "【SK海力士：正与主要客户协商2027年HBM供应及定价，目标维持稳健盈利】金色财经报道，7月29日，SK海力士在2026年第二季度财报电话会上表示，公司正与主要客户就2027年HBM供应规模及价格展开谈判，协商进展顺利，受强劲客户需求支撑，但暂不披露具体客户合同及定价细节。 \nSK海力士表示，HBM定价并非单纯由传统DRAM价格决定，还将综合考虑晶圆、先进制程、TSV、封装、产能投入、技术复杂度、机会成本及产品价值等因素，与客户逐一协商定价。 \n公司将依托技术、成本、量产能力及客户合作优势，维持HBM业务稳健盈利，并通过产品迭代和长期合作推动AI生态持续发展，实现长期可持续增长。<p>原文链接: <a href=\"https://x.com/jukan05/status/2082267807950184614\">https://x.com/jukan05/status/2082267807950184614</a></p>",
+      "link": "https://jinse.com.cn/lives/525520.html",
+      "published": "Wed, 29 Jul 2026 02:55:06 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某巨鲸做空SKHX浮盈超1000万美元，并获123万美元资金费收入",
+      "summary": "【某巨鲸做空SKHX浮盈超1000万美元，并获123万美元资金费收入】金色财经报道，7月29日，据Lookonchain监测，随着SKHX价格持续下跌，做空资金获利进一步扩大。其中，地址为0xEbE1开头的巨鲸当前做空SKHX仓位浮盈已超过1000万美元，此外还累计获得约123万美元的资金费收入。<p>原文链接: <a href=\"https://x.com/lookonchain/status/2082292437641552018\">https://x.com/lookonchain/status/2082292437641552018</a></p>",
+      "link": "https://jinse.com.cn/lives/525519.html",
+      "published": "Wed, 29 Jul 2026 02:55:01 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩股大跌6%，韩财长：正内部研究稳股市措施",
+      "summary": "【韩股大跌6%，韩财长：正内部研究稳股市措施】金色财经报道，7月29日，韩国财政部长具润哲周三表示，政府正在内部研究市场稳定措施，此前韩国KOSPI指数下跌了6%。具润哲在国会发言时表示，进一步调整单只股票杠杆ETF的相关规定以应对市场波动是有可能的。(金十)",
+      "link": "https://jinse.com.cn/lives/525518.html",
+      "published": "Wed, 29 Jul 2026 02:48:01 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "MoonPay 预告明日将发布重大消息",
+      "summary": "【MoonPay 预告明日将发布重大消息】金色财经报道，7月29日，MoonPay在X发文表示，明日将有重大消息公布。<p>原文链接: <a href=\"https://x.com/moonpay/status/2082229723745177657\">https://x.com/moonpay/status/2082229723745177657</a></p>",
+      "link": "https://jinse.com.cn/lives/525517.html",
+      "published": "Wed, 29 Jul 2026 02:47:51 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "OpenAI发布开源版Codex Security CLI",
+      "summary": "【OpenAI发布开源版Codex Security CLI】金色财经报道，OpenAI当地时间7月28日在社交媒体平台X发文称，已发布开源版Codex Security CLI。用户现可利用该工具扫描代码仓库、跨多次运行追踪发现的问题、验证修复结果，并将安全检查纳入持续集成和持续交付（CI/CD）流程。OpenAI表示，该产品目前仍处于早期发布阶段，未来将根据用户反馈持续改进。（新浪财经）",
+      "link": "https://jinse.com.cn/lives/525516.html",
+      "published": "Wed, 29 Jul 2026 02:42:51 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "ChatGPT周活跃用户数近10亿",
+      "summary": "【ChatGPT周活跃用户数近10亿】金色财经报道，7月29日，据OpenAI内部披露的信息，该公司旗下聊天机器人周活跃用户量即将突破10亿大关。这一里程碑原本是企业计划在去年年底达成的目标。尽管比原定预期晚了七个月才有望实现该目标，但ChatGPT上线不足四年就积累如此庞大的用户规模，即便不算增速第一，也属于互联网应用中增长速度最快的产品之一。 \nChatGPT用户增长放缓存在多重因素：一方面是谷歌Gemini人工智能的崛起，该模型正持续深度整合坐拥数十亿用户的谷歌网页搜索引擎；另一方面，去年秋季OpenAI推出GPT-5时，周活跃用户增长便出现下滑——这款模型研发过程一波三折，上线后还遭到大量用户诟病。此外，多家调研机构的数据显示，自那以后，Anthropic公司的克劳德（Claude）聊天机器人也分走了一部分聊天机器人市场份额。(金十)",
+      "link": "https://jinse.com.cn/lives/525515.html",
+      "published": "Wed, 29 Jul 2026 02:41:45 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美SEC主席Paul Atkins发文呼吁国会推进《CLARITY Act》",
+      "summary": "【美SEC主席Paul Atkins发文呼吁国会推进《CLARITY Act》】金色财经报道，7月29日，美国证券交易委员会（SEC）主席Paul Atkins在X平台发文表示，我致力于支持国会推进《CLARITY Act》，包括提供技术援助。美国在数字金融革命中的领导地位意味着要用与其相匹配的监管框架来激发美国创新者的活力。<p>原文链接: <a href=\"https://x.com/SECPaulSAtkins/status/2082190857336205486\">https://x.com/SECPaulSAtkins/status/2082190857336205486</a></p>",
+      "link": "https://jinse.com.cn/lives/525514.html",
+      "published": "Wed, 29 Jul 2026 02:37:49 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Takeaways from the 3rd annual Humanitarian Payments Council: Driving practical adoption of humanitarian payments",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1v9jw3v/takeaways_from_the_3rd_annual_humanitarian/\"> <img alt=\"Takeaways from the 3rd annual Humanitarian Payments Council: Driving practical adoption of humanitarian payments\" src=\"https://external-preview.redd.it/69EDp6hDP7ZvQa3UTq-ZudZtQAJ-fDu35U0toHKw4SI.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=3474daaf2e4a5d4a52f80c6f1184a9972a13369d\" title=\"Takeaways from the 3rd annual Humanitarian Payments Council: Drivin",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v9jw3v/takeaways_from_the_3rd_annual_humanitarian/",
+      "published": "2026-07-29T03:05:41+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "EthSystems says privacy is the key to getting banks on public blockchains",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1v9kxmq/ethsystems_says_privacy_is_the_key_to_getting/\"> <img alt=\"EthSystems says privacy is the key to getting banks on public blockchains\" src=\"https://external-preview.redd.it/ipHGw_lznde7jYasrb5Hmw9SmCT0AEGBonngKwZWfgc.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=83e96dfd45d39cd3251ce554b6ebbaf446301e22\" title=\"EthSystems says privacy is the key to getting banks on public blockchains\" /> </a> </td><td> &#32; sub",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1v9kxmq/ethsystems_says_privacy_is_the_key_to_getting/",
+      "published": "2026-07-29T03:55:28+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto & Stocks | AI Cools: Where Does the Money Go? - Moomoo",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQcEsyS3YwS0pYVWlucjN5MnNmZlllbWVlYnloUEp1cXZHU1UtR0RKVjBINGszLWFnMlpybXV2ZDVUZFFzNmdIU0lYZWJUalVES2Z3SUEzVVNvXzhQZVROdzdzd3ZTTzVHa2gyVkNvZ19XMXZ0eEdhaHpmbnY2YmtuWnNCOUtJdVJXNS01Z3pWNA?oc=5\" target=\"_blank\">Crypto & Stocks | AI Cools: Where Does the Money Go?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcEsyS3YwS0pYVWlucjN5MnNmZlllbWVlYnloUEp1cXZHU1UtR0RKVjBINGszLWFnMlpybXV2ZDVUZFFzNmdIU0lYZWJUalVES2Z3SUEzVVNvXzhQZVROdzdzd3ZTTzVHa2gyVkNvZ19XMXZ0eEdhaHpmbnY2YmtuWnNCOUtJdVJXNS01Z3pWNA?oc=5",
+      "published": "Wed, 29 Jul 2026 03:05:01 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Crypto Market Overview: US Fed rate hike fears weigh on Bitcoin – TAO, ADA sustain gains - FXStreet",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYl9rSTBVNkJYN0Y3SFdaVkM3a3NhOHQwUTRyVFk2dkYyUGpaV2txaUhER3gyMXduTFNvNUZUWmZLTllCMjhuT0JUSGNqOEZBRm4wd1g3bDJnVUUyakYyWm41SlEwSzUxRU0tVnlCUEpyUEdCdXRtVWdWRlVRckdGZFpSR0VhNGxNMFBMUHJXc0dEYnFlM1VhaWV4cEtJdUVQUVhObW1RNEM1X0g3X0pNQ21OU19aalVldDB3RUdadmVXMUpPdVhIREJIZmZZY1lHMjNxdkk1bWVqMkQt?oc=5\" target=\"_blank\">Crypto Market Overview: US Fed rate hike fears weigh on Bitcoin – TAO, ADA sustain gains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FXStr",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYl9rSTBVNkJYN0Y3SFdaVkM3a3NhOHQwUTRyVFk2dkYyUGpaV2txaUhER3gyMXduTFNvNUZUWmZLTllCMjhuT0JUSGNqOEZBRm4wd1g3bDJnVUUyakYyWm41SlEwSzUxRU0tVnlCUEpyUEdCdXRtVWdWRlVRckdGZFpSR0VhNGxNMFBMUHJXc0dEYnFlM1VhaWV4cEtJdUVQUVhObW1RNEM1X0g3X0pNQ21OU19aalVldDB3RUdadmVXMUpPdVhIREJIZmZZY1lHMjNxdkk1bWVqMkQt?oc=5",
+      "published": "Wed, 29 Jul 2026 03:48:01 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin, Ethereum, XRP, Dogecoin Gain Ahead of Fed Rate Cut Decision: Analyst Asks Investors to 'Mark You - Benzinga",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQalFjd3hNdGtuLTlZSlBHekRBXzd6dmZOVXBxX1RTaXloZWdoa1I2VUZFVmpUU01yWDgyMzRubHB2d0pqd3RmeDE4QTJaTjJjV21hQ21CNjUxN0NIeTE3dGQ0SGFQMndIN0NvNjNWY0VOeEtwU0pSZDdweElsaUhrQUhaMWdTZ292cmgtY2hqZk0tQ2YzeEdRV2FqaWhpdjM5alhVZmRsVXB4dGJwaDR3ek9BU3FhVXcwdVNRRw?oc=5\" target=\"_blank\">Bitcoin, Ethereum, XRP, Dogecoin Gain Ahead of Fed Rate Cut Decision: Analyst Asks Investors to 'Mark You</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQalFjd3hNdGtuLTlZSlBHekRBXzd6dmZOVXBxX1RTaXloZWdoa1I2VUZFVmpUU01yWDgyMzRubHB2d0pqd3RmeDE4QTJaTjJjV21hQ21CNjUxN0NIeTE3dGQ0SGFQMndIN0NvNjNWY0VOeEtwU0pSZDdweElsaUhrQUhaMWdTZ292cmgtY2hqZk0tQ2YzeEdRV2FqaWhpdjM5alhVZmRsVXB4dGJwaDR3ek9BU3FhVXcwdVNRRw?oc=5",
+      "published": "Wed, 29 Jul 2026 02:04:00 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "XRP holds near $1 amid Fed rate decision and de... - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPRTJ2R2ZHMjNZOXB5T0l1SkUxd0w3Rm1vdmF3YlJ5QmZJSVd5VXB3U1NzSS1fSHZDYVJvNlYwS0ZsODl5U2FabEJvR3E4dElqRUlpaF8ySHR0d2k4Q1NuLUtjeXJRcEJhejgxX2lPbmJQSk1SOEp5MFdDbE02RWg5bVk2Xy1zQXV2aHJobGRBODJabnkwRHc4LWoyZWdjYUxqMUNF?oc=5\" target=\"_blank\">XRP holds near $1 amid Fed rate decision and de...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRTJ2R2ZHMjNZOXB5T0l1SkUxd0w3Rm1vdmF3YlJ5QmZJSVd5VXB3U1NzSS1fSHZDYVJvNlYwS0ZsODl5U2FabEJvR3E4dElqRUlpaF8ySHR0d2k4Q1NuLUtjeXJRcEJhejgxX2lPbmJQSk1SOEp5MFdDbE02RWg5bVk2Xy1zQXV2aHJobGRBODJabnkwRHc4LWoyZWdjYUxqMUNF?oc=5",
+      "published": "Wed, 29 Jul 2026 03:46:18 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/30b76da5daf8469a9f71b09a7441691e",
+      "published": "2026-07-28T14:00:00+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-27)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a827177a387e4ebea830110ba222ca48",
+      "published": "2026-07-27T17:16:02.441000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "summary": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcdc949b45a644c78e341c88331a35ef",
+      "published": "2026-07-23T09:30:03.723000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dd18d9850f504666b7c91b5c74fe8c10",
+      "published": "2026-07-22T18:00:13.551000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e",
+      "published": "2026-07-22T14:30:04.196000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f43403ef11974998bc0f46420826577a",
+      "published": "2026-07-21T15:45:10.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5c52a77daddf4e0d9769b87cdc91fae4",
+      "published": "2026-07-17T23:45:04.983000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6cbb1b11a9c843949624cf2eacaac8b4",
+      "published": "2026-07-17T16:30:11.242000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "summary": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1631198cd282431bbb5fbd333106a413",
+      "published": "2026-07-17T15:30:01.964000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/18724cba64a048938986a98bbb257258",
+      "published": "2026-07-16T19:30:10.537000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a613aed15cc4cf78898594d7c767661",
+      "published": "2026-07-16T14:15:11.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/62c2a684d09f445295b87797acc71ae8",
+      "published": "2026-07-15T15:00:02.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f198d9602f3b4604a9b15cd0a1529e32",
+      "published": "2026-07-15T14:30:03.302000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dbc90c04fc654d848f08b0b974fec233",
+      "published": "2026-07-13T17:00:02.055000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "summary": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2e92c3c6c8347c197b9091851ec285e",
+      "published": "2026-07-13T16:00:06.635000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6fe9f6dc91544df88dc24ad41211feff",
+      "published": "2026-07-10T23:37:03.303000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53",
+      "published": "2026-07-10T14:45:21.461000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/84ad610bdd284699bc451b7baaa0ff7d",
+      "published": "2026-07-09T18:15:09.544000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a55706a042c4a7ebedc2a0899744088",
+      "published": "2026-07-07T14:30:06.598000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "summary": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading - 2026-07-06",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4",
+      "published": "2026-07-06T16:00:01.370000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 29 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 29，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-07-29T08:00:00+08:00"
+    }
+  ]
+}
