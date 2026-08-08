@@ -1,0 +1,351 @@
+{
+  "date": "2026-08-08",
+  "hour": "11",
+  "total": 49,
+  "fetched_at": "2026-08-08T11:01:00.399113+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
+      "published": "Sat, 08 Aug 2026 02:30:00 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "BIP-110或引发比特币分叉风险：开发者警告出售分叉币可能导致真实BTC被盗",
+      "summary": "【BIP-110或引发比特币分叉风险：开发者警告出售分叉币可能导致真实BTC被盗】8月8日消息，比特币开发者Kevin Loaec警告称，若与争议提案BIP-110相关的比特币分叉在本周末发生，持有者出售分叉链代币时可能面临真实BTC被转走的风险。 \n报道称，若比特币出现两条链，用户持有的BTC余额可能会同时存在于两条链上。部分交易者可能会尝试出售看似「免费获得」的分叉币，但由于两条链初期缺乏重放保护（Replay Protection），出售分叉币时签署的交易可能被复制到原始比特币网络中，导致买家同时获得等量真实BTC。 \nKevin Loaec表示，在不了解如何安全拆分两条链资产的情况下，持币者最安全的选择是暂时不要进行任何操作。未移动的BTC不会受到重放攻击影响，因为不存在可复制的签名交易。 \n此次风险源于BIP-110提案。该提案旨在限制比特币交易中包含图片、文本等非支付数据。由于未获得足够矿工支持，支持BIP-110的软件可能从预计本周末达到的961,632区块高度开始拒绝不符合规则的区块，从而形成与主链竞争的分叉。 \n目前，BIP-110矿工信号支持率约为2.6%，远低于激",
+      "link": "https://jinse.com.cn/lives/527299.html",
+      "published": "Sat, 08 Aug 2026 02:37:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "曾开出1.02亿美元BTC空单地址昨晚止损700枚BTC，并加仓30枚BTC",
+      "summary": "【曾开出1.02亿美元BTC空单地址昨晚止损700枚BTC，并加仓30枚BTC】金色财经报道，8月8日，据链上分析师@ai_9684xtpa监测，曾开出1.02亿美元BTC空单的地址昨晚九点止损700枚BTC并亏损62.4万美元，今天凌晨01:33加仓30枚BTC。 \n目前最新持仓为930枚BTC（约6032万美元），入场均价64213美元，清算价65,306美元，现仍浮亏60.5万美元。<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2085912748798648794\">https://x.com/ai_9684xtpa/status/2085912748798648794</a></p>",
+      "link": "https://jinse.com.cn/lives/527298.html",
+      "published": "Sat, 08 Aug 2026 02:20:20 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某沉睡3年ETH巨鲸10小时前向Kraken充值7323枚ETH，浮亏597.7万美元",
+      "summary": "【某沉睡3年ETH巨鲸10小时前向Kraken充值7323枚ETH，浮亏597.7万美元】金色财经报道，8月8日，据链上分析师@ai_9684xtpa监测，沉睡三年的ETH巨鲸今日苏醒，其资产较建仓时已缩水30%。 \n地址0x7C5…77b86曾在2022.02.15-03.21期间以均价2723.2美元提出23834.17枚ETH，价值6490万美元，随后质押进了Rocket Pool；10小时前他苏醒后向Kraken充值7323枚ETH（1396万美元），若卖出将亏损597.7万美元。<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2085909684490584338\">https://x.com/ai_9684xtpa/status/2085909684490584338</a></p>",
+      "link": "https://jinse.com.cn/lives/527297.html",
+      "published": "Sat, 08 Aug 2026 02:11:30 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "英伟达拟向Lancium投资至多30亿美元，支持AI数据中心电力基础设施",
+      "summary": "【英伟达拟向Lancium投资至多30亿美元，支持AI数据中心电力基础设施】金色财经报道，8月8日，据The Information报道，英伟达(NVDA.O)已同意向电力基础设施开发商Lancium投资20亿美元，并承诺在该公司获得更多规划电力资源后追加投资10亿美元。据悉，此次交易对Lancium及其土地和电力连接资产的企业价值估值约为100亿美元，其中包括投资金额及债务。Lancium是由黑石集团支持的电力基础设施企业，负责开发位于美国得克萨斯州、服务于OpenAI和甲骨文AI园区的电力基础设施项目。(金十)",
+      "link": "https://jinse.com.cn/lives/527296.html",
+      "published": "Sat, 08 Aug 2026 02:04:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "某巨鲸昨日从与富达关联钱包买入5万枚ETH，价值约9573万美元",
+      "summary": "【某巨鲸昨日从与富达关联钱包买入5万枚ETH，价值约9573万美元】金色财经报道，8月8日，据Onchain Lens监测，一名巨鲸昨日从与富达关联的钱包中买入5万枚ETH，价值约9573万美元。3小时前，该巨鲸又将其中3.653万枚ETH（约6994万美元）转移至一个新地址。 \n根据该巨鲸此前的交易模式分析，这批资金后续可能会被转入Coinbase进行出售。<p>原文链接: <a href=\"https://x.com/OnchainLens/status/2085901751341957515\">https://x.com/OnchainLens/status/2085901751341957515</a></p>",
+      "link": "https://jinse.com.cn/lives/527295.html",
+      "published": "Sat, 08 Aug 2026 01:33:41 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美官员：乌克兰同意避免攻击非俄籍油轮和黑海石油设施",
+      "summary": "【美官员：乌克兰同意避免攻击非俄籍油轮和黑海石油设施】金色财经报道，8月8日，据一名美国官员称，乌克兰已同意不针对一些非俄罗斯籍的油轮以及对哈萨克斯坦原油出口至关重要的黑海基础设施。此前，上个月对船只的袭击导致装货中断。该美国官员表示，乌克兰已设立联络点，以便商业航运公司能够沟通信息并确保安全通行。此次承诺是在美国高级政府领导人与乌克兰领导层举行会议后达成的，标志着可能在地区石油运输量增加方面迈出重要一步。此前，由于近期多次袭击发生在俄罗斯新罗西斯克的里海管道联盟终端附近，导致该地区的活动大幅降温。(金十)",
+      "link": "https://jinse.com.cn/lives/527294.html",
+      "published": "Sat, 08 Aug 2026 01:15:01 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "贝莱德IBIT本周累计增持7320枚比特币，约合4.785亿美元",
+      "summary": "【贝莱德IBIT本周累计增持7320枚比特币，约合4.785亿美元】金色财经报道，8月8日，据Onchain Lens监测，贝莱德旗下现货比特币ETF IBIT地址今日从Coinbase Prime提取1840枚比特币，价值约1.19亿美元；本周累计增持7320枚比特币，价值约4.785亿美元。",
+      "link": "https://jinse.com.cn/lives/527293.html",
+      "published": "Sat, 08 Aug 2026 01:11:07 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "特朗普媒体集团终止与 Crypto.com 的代币及预测市场合作",
+      "summary": "【特朗普媒体集团终止与 Crypto.com 的代币及预测市场合作】金色财经报道，8月8日，据报道，在双方去年达成协议、计划成立一家数字资产储备公司并购买数十亿美元规模的 Crypto.com 平台代币 CRO 一年后，特朗普媒体与科技集团（Trump Media &amp; Technology Group Corp.）于周五宣布终止该合作。 \n与此同时，双方还取消了一项原计划，即在 Truth Social 社交平台上推出预测市场合约服务。此次退出标志着这家由特朗普控制的企业正在减少其在加密领域的布局。此前，比特币价格自去年高点以来已下跌近一半，目前约为6.5万美元；与此同时，市场对于上市公司通过持有加密代币构建“数字资产储备”的热情也明显降温。",
+      "link": "https://jinse.com.cn/lives/527292.html",
+      "published": "Sat, 08 Aug 2026 01:10:12 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "BTCPay Server遭关键漏洞攻击，官方紧急要求用户升级并更换凭证",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，比特币支付处理项目 BTCPay Server 近日警告用户，其服务器存在一个正在遭受主动攻击的严重漏洞，攻击者可能利用该漏洞获取未授权访问权限并导致资金损失。</p><p><br /></p><p>BTCPay Server 在社交平台 X 上发布公告，要求管理员立即升级至 2.4.2 版本，并确认服务器页脚显示更新完成。若无法及时升级，官方建议用户暂时关闭 BTCPay Server，以防止进一步攻击。</p><p><br /></p><p>此外，BTCPay Server 建议用户更换可能暴露的 macaroons 凭证，重新创建 macaroons.db 文件，并刷新其他闪电网络（Lightning Network）后端的认证字符串。</p><p><br /></p><p>官方特别提醒，如果用户在 BTCPay Server 中创建了热钱包（hot on-chain wallet），应立即转移其中资金，并重新创建钱包。</p><p><br /></p><p>目前，BTCPay Server 尚未披露漏洞具体原理、攻击开始时间、受",
+      "link": "https://www.theblockbeats.info/flash/360489",
+      "published": "Sat, 08 Aug 2026 02:53:58 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国制裁两家伊朗加密交易平台，指控其协助规避制裁",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，美国财政部海外资产控制办公室（OFAC）宣布制裁两家伊朗加密货币交易平台 Shelbit 和 Aban Tether，进一步扩大特朗普政府针对伊朗金融网络的「经济愤怒」（Economic Fury）行动。</p><p><br /></p><p>美国财政部指控，两家交易所被用于大规模转移加密资产、规避美国制裁，并为伊朗伊斯兰革命卫队（IRGC）及其他被美国认定为恐怖组织的实体提供支持。</p><p><br /></p><p>OFAC 同时制裁了 Shelbit 运营者 Siavash Kayvanpour，以及其在格鲁吉亚、波兰和阿联酋控制的多家公司。</p><p><br /></p><p>美国财政部表示，与伊朗革命卫队相关的钱包曾向 Shelbit 发送超过 100 万美元加密资产，并从该交易所收到超过 200 万美元资金。此外，与 Kayvanpour 相关的钱包据称还向伊朗最大加密交易所 Nobitex 转移超过 200 万美元。</p><p><br /></p><p>美国财政部称，Shelbit 还为一个由 2000 多个博彩网站",
+      "link": "https://www.theblockbeats.info/flash/360488",
+      "published": "Sat, 08 Aug 2026 02:51:34 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美银继续看好闪迪：AI存储需求或推动盈利持续，目标价上调逻辑不变",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，美国银行在闪迪（SanDisk）最新财报后继续维持看多评级，并认为市场低估了该公司在 AI 存储需求推动下的长期盈利能力。</p><p><br /></p><p>美银重申闪迪「买入」评级，并维持 2500 美元目标价，较参考股价 1350.5 美元隐含约 85% 的上涨空间。该目标价基于 2027 年预期每股收益 255 美元、约 10 倍市盈率估值。</p><p><br /></p><p>闪迪此前被投资者视为典型周期股，但美银认为，随着人工智能发展推动数据存储需求增长、企业级 SSD 渗透率提升，公司当前盈利水平可能比市场预期更加持久。</p><p><br /></p><p>财报数据显示，闪迪第四财季营收达到 89.7 亿美元，环比增长 51%，高于公司此前给出的 77.5 亿至 82.5 亿美元指引。其中，约三分之二增长来自产品价格上涨，其余来自存储比特出货量增加。</p><p><br /></p><p>同期，公司毛利率升至 84.6%，高于上一季度的 78.4%，也超过此前 79% 至 81% 的预期区间。</p><p><br /",
+      "link": "https://www.theblockbeats.info/flash/360487",
+      "published": "Sat, 08 Aug 2026 02:45:23 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "BIP-110或引发比特币分叉风险：开发者警告出售分叉币可能导致真实BTC被盗",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，比特币开发者 Kevin Loaec 警告称，若与争议提案 BIP-110 相关的比特币分叉在本周末发生，持有者出售分叉链代币时可能面临真实 BTC 被转走的风险。</p><p><br /></p><p>报道称，若比特币出现两条链，用户持有的 BTC 余额可能会同时存在于两条链上。部分交易者可能会尝试出售看似「免费获得」的分叉币，但由于两条链初期缺乏重放保护（Replay Protection），出售分叉币时签署的交易可能被复制到原始比特币网络中，导致买家同时获得等量真实 BTC。</p><p><br /></p><p>Kevin Loaec 表示，在不了解如何安全拆分两条链资产的情况下，持币者最安全的选择是暂时不要进行任何操作。未移动的 BTC 不会受到重放攻击影响，因为不存在可复制的签名交易。</p><p><br /></p><p>此次风险源于 BIP-110 提案。该提案旨在限制比特币交易中包含图片、文本等非支付数据。由于未获得足够矿工支持，支持 BIP-110 的软件可能从预计本周末达到的 961,632 区块高度开始拒绝不符合",
+      "link": "https://www.theblockbeats.info/flash/360486",
+      "published": "Sat, 08 Aug 2026 02:33:02 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普媒体集团终止与Crypto.com的CRO财库及预测市场计划",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据 Axios 报道，特朗普媒体与科技集团（Trump Media &amp; Technology Group，TMTG）正在收缩其加密业务布局，退出此前与 Crypto.com 及 Yorkville Acquisition Corp. 推进的两项加密相关交易。</p><p><br /></p><p>TMTG 临时 CEO 凯文·麦格恩（Kevin McGurn）表示，公司希望重新聚焦媒体业务以及与核聚变能源公司 TAE 的潜在合并计划，并认为数字资产财库公司市场在过去一年已趋于饱和。</p><p><br /></p><p>具体来看，TMTG、Crypto.com 和 Yorkville 已共同宣布终止 Trump Media Group CRO Strategy 计划。三方表示，决定基于「当前市场环境变化以及业务和利益相关方优先事项调整」作出。同时，双方也放弃此前宣布的服务合作协议及部分数字资产产品计划。</p><p><br /></p><p>此前，该项目计划围绕 Crypto.com 旗下 Cronos 区块链及 CRO 代币打",
+      "link": "https://www.theblockbeats.info/flash/360484",
+      "published": "Sat, 08 Aug 2026 02:18:10 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Atlassian涨超35%，AI应用软件股集体收涨",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据 BIT(bit.com) 行情数据，AI 应用软件股集体收涨，其中：</p><p><br /></p><p>Atlassian (TEAM) 大涨 35.31%，阿莎娜 (ASAN) 涨 6.68%，ServiceNow (NOW) 涨 6.42%，MongoDB (MDB) 涨超 7%，赛富时 (CRM) 涨 3.20%，Palantir (PLTR) 涨超 10%、Workday (WDAY) 涨超 5%。</p>",
+      "link": "https://www.theblockbeats.info/flash/360483",
+      "published": "Sat, 08 Aug 2026 02:13:48 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "AI数据中心需求推动IPO热潮：Switch秘密递交美国上市申请，估值或接近500亿美元",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据彭博社报道，数据中心企业 Switch Inc. 已秘密提交美国 IPO 申请，成为近期借助人工智能基础设施投资热潮寻求上市的数据中心公司之一。</p><p><br /></p><p>知情人士透露，Switch 计划最早于今年 11 月进行上市，目前正与美国银行、花旗、高盛、摩根大通及摩根士丹利等投行合作推进发行事宜。公司寻求上市后的企业估值（包含债务）接近 500 亿美元。</p><p><br /></p><p>此外，风险投资机构 Andreessen Horowitz（a16z）联合创始人本·霍洛维茨（Ben Horowitz）将加入 Switch 董事会。Switch 此前正在筹备由 a16z 领投的新一轮融资，并可能寻求接近 500 亿美元的估值。</p><p><br /></p><p>Switch 总部位于拉斯维加斯，在内华达州、密歇根州、佐治亚州和得州等地运营数据中心。公司目前由数字桥（DigitalBridge）控股，后者曾联合其他投资者于 2022 年以包含债务在内约 110 亿美元的价格收购 Switch。</p><",
+      "link": "https://www.theblockbeats.info/flash/360482",
+      "published": "Sat, 08 Aug 2026 02:05:54 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Meme币STONKBROKER市值再创新高，短时突破6300万美元",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据 <a href=\"https://gmgn.ai/robinhood/token/i_m4TE56o8_0xe934e36a439c94017b64a3fece66af12099abf50\" target=\"_blank\">GMGN</a> 行情数据，Robinhood 链 Meme 币 STONKBROKER 市值今晨一度突破 6300 万美元，再创历史新高；现回落至 5975 万美元，24 小时涨幅 32%，24 小时交易量达 590 万美元。</p><p><br /></p><p>Robinhood 生态项目 STONKBROKER 近期推出多项重大更新，包括负责孵化生态项目的 launchpad，以及将股票代币封装抽卡的类 FWA 功能 Broker Box 上线。上述更新获得包括 Ansem 在内的 KOL 和社区关注，推动市值连创新高。</p><p><br /></p><p>BlockBeats 提醒用户，相关项目仍存在较大不确定性，价格波动大，用户投资需谨慎。</p>",
+      "link": "https://www.theblockbeats.info/flash/360481",
+      "published": "Sat, 08 Aug 2026 02:01:07 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "FT：月之暗面（Kimi）正重组股权结构并引入国资股东，以获监管批准赴港上市",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据英国《金融时报》报道，中国 AI 初创公司月之暗面（Moonshot AI）正在调整公司架构，并引入多家国资背景投资者，以争取监管部门批准其赴港上市。</p><p><br /></p><p>月之暗面旗下 Kimi K3 模型近期缩小了与 Anthropic 领先模型之间的性能差距，并受到开发者欢迎。公司计划通过首次公开募股（IPO）筹集资金，用于下一阶段大模型研发和业务扩张。</p><p><br /></p><p>在上市前，月之暗面可能需要拆除现有的红筹架构。由于其核心业务此前由境外实体控制，并通过海外投资者募集美元资金，中国监管部门对部分拥有境外架构的科技企业境外上市提出限制，导致包括月之暗面、阶跃星辰（StepFun）在内的多家 AI 公司暂停 IPO 准备。</p><p><br /></p><p>据悉，月之暗面上周已将中国境内主体由有限责任公司变更为股份有限公司，这是其推进上市的重要一步。公司目前正与投行及律师团队协调，解决海外投资者持股转移问题。</p><p><br /></p><p>一名投资者透露，月之暗面近期已向股东通报，",
+      "link": "https://www.theblockbeats.info/flash/360480",
+      "published": "Sat, 08 Aug 2026 01:55:26 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "英伟达拟向电力公司Lancium投资30亿美元，加速布局AI数据中心生态",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据 The Information 报道，英伟达已同意向电力基础设施开发商 Lancium 投资 20 亿美元，并承诺在该公司获得更多规划中的电力资源后追加 10 亿美元投资，交易总规模最高达 30 亿美元。</p><p><br /></p><p>Lancium 是 OpenAI 与甲骨文（Oracle）位于得州的 Stargate 人工智能园区背后的电力基础设施供应商。此次交易对 Lancium 及其土地、电力连接资产组合的企业价值估值约为 100 亿美元，其中包括投资金额及债务。</p><p><br /></p><p>知情人士透露，英伟达此次 20 亿美元投资将获得 Lancium 约 20% 的股权。该交易进一步凸显 AI 产业链中电力基础设施的重要性，英伟达正通过投资能源与算力基础设施，加速布局人工智能数据中心生态。</p>",
+      "link": "https://www.theblockbeats.info/flash/360479",
+      "published": "Sat, 08 Aug 2026 01:45:34 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某巨鲸从富达关联钱包买入5万枚ETH，后续或转入Coinbase出售",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据 Onchain Lens 监测，某巨鲸昨日从富达（Fidelity）关联钱包买入 5 万枚 ETH，价值约 9573 万美元。3 小时前，该巨鲸又将其中 3.653 万枚 ETH（约 6994 万美元）转移至新地址。</p><p><br /></p><p>链上数据显示，根据该地址此前交易模式，这批资金后续可能被转入 Coinbase 进行出售。相关地址为：0x951A4d24BA0F038B9872F253C380836Db9E67D53。</p>",
+      "link": "https://www.theblockbeats.info/flash/360478",
+      "published": "Sat, 08 Aug 2026 01:36:04 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "霍尔木兹海峡局势出现缓和迹象，通行谈判升温",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，中东局势持续受到市场关注。冲突方面，也门海军表示挫败一起针对红海油轮的袭击企图。胡塞武装称，也门武装部队对沙特境内集结力量及萨赫恩·金恩营地内的弹药库、车辆和军事装备发动打击。</p><p><br /></p><p>美伊谈判方面，伊朗总统表示，伊方在涉及谅解备忘录的谈判中「未作任何让步」。<strong>据 Axios 报道，一名调解国外交官透露，伊朗谈判团队正等待伊朗最高国家安全委员会批准与阿曼、美国达成的相关协议，并预计很快获得批准。</strong></p><p><br /></p><p>霍尔木兹海峡方面，局势出现缓和迹象。美国财长贝森特表示，霍尔木兹海峡未来将失去重要性。伊朗副外长称，波斯湾地区安全应由本地区国家共同维护，无需外部干涉。航运情报公司 Kpler 数据显示，本周仅有 6 艘油轮通过霍尔木兹海峡。伊朗官员表示，已与阿曼就海峡通行问题明确总体框架，美国官员也预计双方将很快达成协议。</p><p><br /></p><p>不过，伊朗方面仍强调自身立场。德黑兰市长扎卡尼表示，若要通过霍尔木兹海峡，必须取消制裁并支付赔偿。伊",
+      "link": "https://www.theblockbeats.info/flash/360477",
+      "published": "Sat, 08 Aug 2026 01:34:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Hyperliquid开发团队赎回43.3万枚HYPE并出售，价值约2425万美元",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据 EmberCN 监测，<a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 开发团队 HyperLabs 今晨从质押中赎回 43.3 万枚 HYPE，价值 2425 万美元，目前已通过做市商 Flowdesk 进行出售。</p><p><br /></p><p>过去几个小时内，16.5 万枚 HYPE 已转给做市商 Flowdesk；7.5 万枚 HYPE 已转入 Hyperliquid 并卖出兑换为 USDC；另有 9 万枚 HYPE，价值 504 万美元，已转入 OKX 和 Bybit。</p>",
+      "link": "https://www.theblockbeats.info/flash/360476",
+      "published": "Sat, 08 Aug 2026 01:25:47 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "视频｜Strategy创始人Michael Saylor：我借助ChatGPT设计了优先股，赚到了150亿美元",
+      "summary": "<p>8 月 6 日，Strategy 创始人 Michael Saylor 在参加播客节目《The Diary Of A CEO》时表示，自己曾利用 AI 设计金融工具，帮助公司创造了 150 亿美元价值。2025 年 Strategy 为了继续融资买入比特币，传统股权融资和可转债发行都已经接近极限，于是他开始借助 AI 设计一种全新的证券工具——比特币支持的可转换优先股 STRK。</p><p><br /></p><p>在 ChatGPT 的帮助下，Strategy 推出了这种此前市场从未出现过的金融产品，并成功发行超过 150 亿美元规模的信用工具。Saylor 称，这场金融创新让公司突破了融资瓶颈，也让他「用 AI 赚到了 150 亿美元」。</p><p><br /></p>",
+      "link": "https://www.theblockbeats.info/flash/360402",
+      "published": "Sat, 08 Aug 2026 01:15:42 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "贝莱德IBIT本周累计增持7320枚比特币，价值约4.785亿美元",
+      "summary": "<p>BlockBeats 消息，8 月 8 日，据 Onchain Lens 监测，贝莱德旗下现货比特币 ETF IBIT 地址今日从 Coinbase Prime 提取 1840 枚比特币，价值约 1.19 亿美元；本周累计增持 7320 枚比特币，价值约 4.785 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/360475",
+      "published": "Sat, 08 Aug 2026 01:07:21 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Fidelity crypo account custodial ... convince me",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1viix1b/fidelity_crypo_account_custodial_convince_me/\"> <img alt=\"Fidelity crypo account custodial ... convince me\" src=\"https://preview.redd.it/h42t85o022ih1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8ea4d784a0d1ff757f890dc0e81dfd39b8114fe9\" title=\"Fidelity crypo account custodial ... convince me\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Been around for a minute and &quot;not your keys, not your coins&quot; i",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1viix1b/fidelity_crypo_account_custodial_convince_me/",
+      "published": "2026-08-08T01:37:17+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Easiest entropy generator",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1vikjl2/easiest_entropy_generator/\"> <img alt=\"Easiest entropy generator\" src=\"https://preview.redd.it/tanc3aebg2ih1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=f4879ec3b9c72bee2b2b6172741a6a5cb88fc72e\" title=\"Easiest entropy generator\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Link to the STL files: <a href=\"https://github.com/SeedSigner/SeedPills\">https://github.com/SeedSigner/SeedPills</a></p> <p>If you don’t",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1vikjl2/easiest_entropy_generator/",
+      "published": "2026-08-08T02:57:27+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Brief - Lowenstein Crypto Newsletter - August 6, 2026 - JD Supra",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE4wYzBjODhPcXYzSnlfNGxJX21ZRHFSLWE3dnJ0TGprVC1xZ1JWMDRiR19BRjV5RUZJMTZBVm1xTkJfeHFyNUh5ek9OTzYwbEF4elhXeXNaQTV4cjV4R0VBNFFRR3pIcC1MbC1WcVRJYndEWklody1taEQ0XzUzZw?oc=5\" target=\"_blank\">Crypto Brief - Lowenstein Crypto Newsletter - August 6, 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JD Supra</font>",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4wYzBjODhPcXYzSnlfNGxJX21ZRHFSLWE3dnJ0TGprVC1xZ1JWMDRiR19BRjV5RUZJMTZBVm1xTkJfeHFyNUh5ek9OTzYwbEF4elhXeXNaQTV4cjV4R0VBNFFRR3pIcC1MbC1WcVRJYndEWklody1taEQ0XzUzZw?oc=5",
+      "published": "Sat, 08 Aug 2026 01:25:12 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto bets on AI agents as new users after human slowdown - Briefs Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOalVTZXp4WXJKXzFjVTNzX2xOdlljZWxKbFVCSGpzTjhyQ0c5YnFMa1pVcC1QLWQyLU01NzRYUFRPMmhPbWZLLThDdnE3TDBQT3F2OFFxb1U3aGphUTlpcGJFSElHeHlHblhDRURXbVZoRENralJuWlVDXzRLUkoyRnRIQTNjLTQ?oc=5\" target=\"_blank\">Crypto bets on AI agents as new users after human slowdown</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Briefs Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOalVTZXp4WXJKXzFjVTNzX2xOdlljZWxKbFVCSGpzTjhyQ0c5YnFMa1pVcC1QLWQyLU01NzRYUFRPMmhPbWZLLThDdnE3TDBQT3F2OFFxb1U3aGphUTlpcGJFSElHeHlHblhDRURXbVZoRENralJuWlVDXzRLUkoyRnRIQTNjLTQ?oc=5",
+      "published": "Sat, 08 Aug 2026 02:33:24 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/307687ad279e42e6909ee1be8c472b50",
+      "published": "2026-08-06T10:30:12.862000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets - 2026-08-05",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets - 2026-08-05",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4ac8fb01d4a63837045a660e7d03b",
+      "published": "2026-08-05T17:00:09.838000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-08-05",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-08-05",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ae96da838d754f91bced1501de728f03",
+      "published": "2026-08-05T10:30:01.986000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch GIGADEVUSDT USDⓈ-Margined Perpetual Contract (2026-08-03)",
+      "summary": "Binance Futures Will Launch GIGADEVUSDT USDⓈ-Margined Perpetual Contract (2026-08-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e8bfd0c5adaf4d8a880bb1b7327107ef",
+      "published": "2026-08-03T10:30:09.135000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GRVTUSDT Perpetual Contract (2026-07-31)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GRVTUSDT Perpetual Contract (2026-07-31)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/20536b05b2a34b87a3bae99c45d0dc91",
+      "published": "2026-07-31T19:30:11.662000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a167ac6ee74496b83a820675aea1dbe",
+      "published": "2026-07-29T17:00:01.546000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-07-29",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-07-29",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd",
+      "published": "2026-07-29T14:30:02.972000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/93b5cd2280874d9cb4303827374b940d",
+      "published": "2026-07-29T14:15:21.576000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/30b76da5daf8469a9f71b09a7441691e",
+      "published": "2026-07-28T14:00:00+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-27)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a827177a387e4ebea830110ba222ca48",
+      "published": "2026-07-27T17:16:02.441000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "summary": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcdc949b45a644c78e341c88331a35ef",
+      "published": "2026-07-23T09:30:03.723000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dd18d9850f504666b7c91b5c74fe8c10",
+      "published": "2026-07-22T18:00:13.551000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e",
+      "published": "2026-07-22T14:30:04.196000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/f43403ef11974998bc0f46420826577a",
+      "published": "2026-07-21T15:45:10.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5c52a77daddf4e0d9769b87cdc91fae4",
+      "published": "2026-07-17T23:45:04.983000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined SPCXUSD1 Perpetual Contract (2026-07-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6cbb1b11a9c843949624cf2eacaac8b4",
+      "published": "2026-07-17T16:30:11.242000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "summary": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1631198cd282431bbb5fbd333106a413",
+      "published": "2026-07-17T15:30:01.964000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/18724cba64a048938986a98bbb257258",
+      "published": "2026-07-16T19:30:10.537000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0a613aed15cc4cf78898594d7c767661",
+      "published": "2026-07-16T14:15:11.924000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/62c2a684d09f445295b87797acc71ae8",
+      "published": "2026-07-15T15:00:02.033000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 30 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 30，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-08-08T08:00:00+08:00"
+    }
+  ]
+}
