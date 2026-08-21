@@ -1,0 +1,358 @@
+{
+  "date": "2026-08-21",
+  "hour": "12",
+  "total": 50,
+  "fetched_at": "2026-08-21T12:00:51.092402+08:00",
+  "news": [
+    {
+      "source": "The Block",
+      "title": "Bitcoin breaks through $75,500 while analyst calls current rally ‘premature’",
+      "summary": "Shawn Young, chief analyst at MEXC Research, said that the crypto market is giving Treasury's intervention 'more credit than it deserves.'",
+      "link": "https://www.theblock.co/news/markets/2026-08-20-bitcoin-breaks-through-75500-412404",
+      "published": "Fri, 21 Aug 2026 02:22:44 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Capital.com plans UAE spot crypto services after affiliate wins licence",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Capital.com plans UAE spot crypto services after affiliate wins licence \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-time-to-switch-license-uae-1.jpg\" /></p><p>UAE clients will be able to buy and hold crypto through Capital.com’s app, expanding beyond price exposure through contracts for difference.</p>",
+      "link": "https://cointelegraph.com/news/capital-com-uae-spot-crypto-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 21 Aug 2026 03:33:11 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "“先定10个大目标”巨鲸的BTC和ETH整体空单规模已加仓至6415万美元",
+      "summary": "【“先定10个大目标”巨鲸的BTC和ETH整体空单规模已加仓至6415万美元】金色财经报道，8月21日，据链上分析师Ai姨监测，“先定10个大目标”巨鲸@Jason60704294加仓其空单仓位，目前仓位情况为：BTC 5倍空单546.314枚（4069万美元），开仓价74493.23美元；ETH 7倍空单1万枚（2346万美元），开仓价2346.83美元。<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2090641765053382922\">https://x.com/ai_9684xtpa/status/2090641765053382922</a></p>",
+      "link": "https://jinse.com.cn/lives/528960.html",
+      "published": "Fri, 21 Aug 2026 03:36:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "MANTRA Chain因安全事件暂停运行，存取款功能暂时受影响",
+      "summary": "【MANTRA Chain因安全事件暂停运行，存取款功能暂时受影响】金色财经报道，8月21日，MANTRA Chain官方发文表示，网络目前发生一起影响链上运行的事件，团队已出于预防目的暂停区块链运行，并正在进行调查。目前所有接口和交易均已冻结，用户向MANTRA Chain存入或提取资产的功能暂时受到影响。 \n目前尚未确认事件根本原因，也未公布恢复时间表。将在获得经过验证的信息后，通过官方渠道发布后续更新。<p>原文链接: <a href=\"https://x.com/MANTRA_Chain/status/2090592265765077162\">https://x.com/MANTRA_Chain/status/2090592265765077162</a></p>",
+      "link": "https://jinse.com.cn/lives/528959.html",
+      "published": "Fri, 21 Aug 2026 03:23:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "OKX 升级 RLUSD 奖励：VIP 10% APR 额度增至 10,000 RLUSD，标准年化升至 4.2% APR",
+      "summary": "【OKX 升级 RLUSD 奖励：VIP 10% APR 额度增至 10,000 RLUSD，标准年化升至 4.2% APR】8月21日消息，据官方消息，OKX 已升级 RLUSD 奖励活动。符合条件的 VIP 用户持有的前 10,000 RLUSD 可享 10% APR，较此前 2,000 RLUSD 的活动额度进一步提升；超过 10,000 RLUSD 的余额按 4.2% APR 计算奖励；普通用户继续享有 3.5% APR。 \n据悉，用户持有 RLUSD 无需申购、赎回或锁仓即可自动获得奖励，并可选择以 RLUSD 或 XRP 形式发放。",
+      "link": "https://jinse.com.cn/lives/528958.html",
+      "published": "Fri, 21 Aug 2026 03:21:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Rust基础库arrayref遭供应链攻击Rust基础库arrayref遭供应链攻击",
+      "summary": "【Rust基础库arrayref遭供应链攻击Rust基础库arrayref遭供应链攻击】金色财经报道，8月21日，据Cryptopolitan报道，8月20日，攻击者通过供应链攻击发布了三个广泛使用的Rust代码包恶意版本，其中名为arrayref的库被约四分之三的Rust开发环境使用。恶意更新隐藏了一个后门，可在用户编译项目时自动窃取登录信息，编译过受影响版本的用户可能已暴露电脑和密钥。 \nWiz研究人员指出，arrayref攻击的命令与控制路径与朝鲜黑客组织Sapphire Sleet和UNC1069使用的Mastra行动重叠，IP地址共享同一安全证书且使用同一托管商Hostwinds。攻击者仅新增了拼写错误的proc-macro1依赖，模仿流行的proc-macro2，未修改原有代码，使其通过测试和构建。攻击在发布86分钟后被删除，但已被大量下载。受影响包在Solana和Ethereum工具中广泛使用。Rust团队认为维护者非恶意行为，其设备或凭证可能遭入侵。<p>原文链接: <a href=\"https://www.cryptopolitan.com/did-north-kor",
+      "link": "https://jinse.com.cn/lives/528957.html",
+      "published": "Fri, 21 Aug 2026 03:08:16 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "巨鲸「先定10个大目标」空单总仓位已增至1.43亿美元，目前浮亏30.9万美元",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，据链上分析师 Ai 姨（@ai_9684xtpa）监测，巨鲸「先定 10 个大目标」空单总仓位已增至 1.43 亿美元，目前浮亏 30.9 万美元：</p><p><br /></p><p>· BTC 5 倍空单：持仓 1449.968 枚，价值约 1.08 亿美元，开仓均价 74,570.99 美元；</p><p>· ETH 7 倍空单：持仓 15,000 枚，价值约 3,521 万美元，开仓均价 2347.89 美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/362744",
+      "published": "Fri, 21 Aug 2026 03:55:10 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Bitget 8月TradFi合约交易笔数突破1.5亿笔",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，Bitget 最新数据显示，截至 8 月 20 日，平台 TradFi 合约 8 月累计交易笔数已突破 1.5 亿笔，单日交易笔数峰值达 1,364 万笔。随着美股、外汇、贵金属及大宗商品等传统金融资产交易需求持续升温，Bitget TradFi 板块交易活跃度进一步提升。</p>",
+      "link": "https://www.theblockbeats.info/flash/362742",
+      "published": "Fri, 21 Aug 2026 03:43:51 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "DeepSeek Flash留下18万亿Token缺口，AI模型「不可能三角」浮现",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，OpenCode CEO Jay V 表示，DeepSeek Flash 爆火后带来了巨大需求压力。过去两周，OpenCode 上该模型的日 Token 消耗从约 3 万亿增长到 18 万亿，暴涨 6 倍。涨价后，OpenCode 一直在寻找能以接近原价格承接流量的供应商，但很难找到同时具备低价和大规模容量的服务商。<br /><br />Jay V 认为，DeepSeek Flash 面临的挑战不是需求不足，而是低价释放了远超预期的需求。它同时满足了接近前沿模型的能力和极低成本，但一旦加入大规模稳定供应，就出现了 AI 模型市场的「不可能三角」：便宜、强大、有足够 GPU 容量，三个条件很难同时满足。<br /><br />DeepSeek 涨价后，OpenCode Go 也经历多次调整。DeepSeek Flash 配额曾从 60 美元降到 15 美元，随后恢复到 30 美元，并引入峰谷费率机制，和官方定价保持一致。</p>",
+      "link": "https://www.theblockbeats.info/flash/362741",
+      "published": "Fri, 21 Aug 2026 03:36:30 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Serenity：杠杆交易者转向加密市场及生物科技，AI股票或将更快修复",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，Serenity 发文表示，杠杆交易者已从 AI 股票重新转向 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a>（加密市场）及生物科技标的，其认为这可能有助于 AI 股票更快恢复。韩国 ETF EWY 上涨主要受 SK 海力士股票回购推动，同时三星晶圆代工价格上调约 10% 至 15%。</p><p><br /></p><p>Serenity 称，SK 海力士披露 CPO 路线图，相关方案涉及连接内存的光子中介层，后续可能扩大可寻址市场，并带动激光器、光子集成电路及封装等供应链需求。此外，继长鑫存储（CXMT）成功上市后，长江存储（YMTC）正寻求于下一季度 IPO。</p><p><br /></p><p>光电厂商 Tyntek 涨停，其订单能见度已延伸至 2028 年，反映光子产业光电二极管供需失衡。此外，高端 PCB 钻针短缺仍在持续，AI 数据中心、服务器及光通信正推动 PCB、HDI 和封",
+      "link": "https://www.theblockbeats.info/flash/362740",
+      "published": "Fri, 21 Aug 2026 03:36:05 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "HTX DeepThink：BTC领涨带动Beta扩散，行情能否延续或取决于现货买盘",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，HTX DeepThink 专栏作者、HTX Research 研究员 Chloe 分析指出，本周加密市场出现今年以来较为明显的一次风险偏好修复。BTC 从周中约 6.4 万美元快速突破 7 万美元，周涨幅约 18%；ETH 表现更强，升至 2350 美元以上，周涨幅超过 20%；SOL、XRP、HYPE 等高 Beta 资产同步扩散，说明行情已从 BTC 单点反弹逐渐演化为更广泛的 Crypto Beta 交易。</p><p><br /></p><p>本轮上涨由三组因素共同推动。首先，美国财政部宣布自 9 月 9 日起将 10—30 年期长期国债流动性支持回购规模至少翻倍至每次 40 亿美元，直接改善了长端美债的流动性预期并推动收益率回落。但需要强调，这属于债务管理而非美联储 QE，不应简单理解为新一轮货币放水。其次，SEC 提出 Regulation Crypto Assets，为部分代币融资建立 500 万美元/4 年与 7500 万美元/12 个月两档豁免，并引入条件式安全港，美国加密监管正从\"执法不确定性\"逐步转向\"可执行的",
+      "link": "https://www.theblockbeats.info/flash/362739",
+      "published": "Fri, 21 Aug 2026 03:25:54 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "巨鲸「先定10个大目标」再次开启ETH空单，并加仓BTC空单至202.265枚",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，巨鲸「先定 10 个大目标」再次开启 ETH 空单，目前做空 1211.812 枚 ETH，开仓价 2346.83 美元。并加仓 BTC 空单至 202.265 枚，开仓价 74506.57 美元。</p><p><br /></p><p>此前报道，其 8 月 19 日多单盈利 2000 万美元，昨日空单回吐 628 万美元的利润，本次多空交易的净利润为 1372 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/362737",
+      "published": "Fri, 21 Aug 2026 03:24:19 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "MANTRA Chain因安全事件暂停运行，存取款功能暂时受影响",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，MANTRA Chain 官方发文表示，网络目前发生一起影响链上运行的事件，团队已出于预防目的暂停区块链运行，并正在进行调查。目前所有接口和交易均已冻结，用户向 MANTRA Chain 存入或提取资产的功能暂时受到影响。</p><p><br /></p><p>目前尚未确认事件根本原因，也未公布恢复时间表。将在获得经过验证的信息后，通过官方渠道发布后续更新。</p>",
+      "link": "https://www.theblockbeats.info/flash/362736",
+      "published": "Fri, 21 Aug 2026 03:21:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析师：比特币本轮上涨由空头挤压推动，后续行情仍需真实需求支撑",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，比特币突破 75,000 美元关口，创三个月以来新高。此次上涨主要受到美国财政部宣布扩大长期美债流动性支持回购操作规模推动。美国财政部此前表示，将 10 年至 30 年期长期名义息票证券的流动性支持回购操作规模至少扩大一倍。此外，SEC 最新加密监管提案以及特朗普与加密行业高管举行白宫会议等因素，也进一步提振市场情绪。</p><p><br /></p><p>强劲上涨同时引发大规模空头清算。Coinglass 数据显示，周三比特币上涨已导致超过 27.5 亿美元 BTC 空头仓位被清算。过去 24 小时内，另有 7.832 亿美元比特币仓位被清算，其中 7.477 亿美元为比特币空头仓位。</p><p><br /></p><p>不过，分析师 Shawn Young 认为，当前上涨行情可能被市场过度解读。他表示，加密市场「给予美国财政部干预措施的影响远超其实际作用」，债市变化更多是迫使空头快速平仓，而非改善比特币的宏观基本面。美债仍在与比特币争夺边际资金，当前上涨更多受到市场此前过度拥挤的空头仓位推动。他称，比特币突破 70,000 美元",
+      "link": "https://www.theblockbeats.info/flash/362735",
+      "published": "Fri, 21 Aug 2026 03:18:32 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "OKX升级RLUSD奖励：VIP 10% APR额度增至10,000 RLUSD，标准年化升至4.2% APR",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，据官方消息，OKX 已升级 RLUSD 奖励活动。符合条件的 VIP 用户持有的前 10,000 RLUSD 可享 10% APR，较此前 2,000 RLUSD 的活动额度进一步提升；超过 10,000 RLUSD 的余额按 4.2% APR 计算奖励；普通用户继续享有 3.5% APR。</p><p><br /></p><p>据悉，用户持有 RLUSD 无需申购、赎回或锁仓即可自动获得奖励，并可选择以 RLUSD 或 XRP 形式发放。</p>",
+      "link": "https://www.theblockbeats.info/flash/362734",
+      "published": "Fri, 21 Aug 2026 03:16:13 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Bitget Launchpool项目ALIGN现已开放投入，锁仓BGB和ALIGN解锁966万枚ALIGN",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，Bitget Launchpool 项目 Aligned（ALIGN）现已开放投入，总奖池 9,666,666 枚 ALIGN，锁仓通道时间截止 8 月 27 日 11:00（UTC+8）。本轮 Launchpool 共开放 2 个锁仓池，其中：</p><p><br /></p><p>BGB 锁仓池：</p><p>空投总量：8,333,333 ALIGN</p><p>VIP 用户锁仓上限：50,000 BGB</p><p>普通用户锁仓上限：5,000 BGB</p><p><br /></p><p>ALIGN 锁仓池：</p><p>空投总量：1,333,333 ALIGN</p><p>个人锁仓上限：33,333,333 ALIGN</p>",
+      "link": "https://www.theblockbeats.info/flash/362733",
+      "published": "Fri, 21 Aug 2026 03:08:26 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "20倍杠杆果断追高，Hyperliquid上ETH第四大多头浮盈扩大至730万美元",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，据 <a href=\"https://www.tradingbeats.xyz/\" target=\"_blank\">TradingBeats</a>（原 Hyperinsight）监测显示，当前 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 上 ETH 第四大多头地址（前三均为 Matrixport 关联地址）浮盈扩大至 730 万美元，开仓价 2027 美元。</p><p><br /></p><p>数据显示，该地址 8 月 7 日首次向 Hyperliquid 存款，本单于 8 月 19 日晚 ETH 涨至 2057 美元时开始建仓，在 2 天时间内实现约 800 万美元盈利，其已在 8 月 20 日上午完成首次减仓，获利了结 864,565 美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/362732",
+      "published": "Fri, 21 Aug 2026 03:08:02 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "「牛来」模型 ？OpenRouter又放匿名模型，Ox Alpha疑似小米MiMo新模型",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，OpenRouter 上线新匿名模型 Ox Alpha，定位为面向代码、长时间 Agent 工作和真实生产环境的前沿模型，支持 100 万 Token 上下文，并支持文本、图片、视频输入。目前模型免费开放测试，提供方不会使用用户的 prompt 和输出训练模型。<br /><br />Ox Alpha 的身份暂未公开，但社区普遍猜测它可能来自小米 MiMo 团队。小米 CFO 林世伟此前也透露，新一代 MiMo 模型正在训练中，有望很快发布。<br /><br />在 OpenRouter 上匿名放新模型已经快成中国模型厂商的固定节目。此前智谱的 GLM-5、小米的 MiMo-V2-Pro 和 MiMo-V2-Omni、蚂蚁的 Ling-2.6-flash、美团的 LongCat-2.0，都曾先换个名字在 OpenRouter 免费跑一轮，再公开真实身份。</p>",
+      "link": "https://www.theblockbeats.info/flash/362731",
+      "published": "Fri, 21 Aug 2026 03:05:25 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "知名交易员：比特币底部已形成，后续或进入区间积累阶段",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，知名交易员 Killa 发文表示，他认为比特币底部已经形成。在经历当前这轮上涨后，BTC 可能进入新的震荡区间，该区间或将成为下一轮行情扩张前的积累阶段。</p><p><br /></p><p>他提醒市场正处于「操纵阶段」，但部分投资者仍不相信这一判断。</p>",
+      "link": "https://www.theblockbeats.info/flash/362730",
+      "published": "Fri, 21 Aug 2026 03:04:56 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "高盛：美财政部能压低长债20至40bp，但很难改变最终方向",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，高盛 MarketStrats 认为，美国财政部扩大长期美债回购，确实有能力在阶段性上缓解长端压力。参考 1961 年的 OperationTwist 和 2011 年的期限延长计划，政策工具历史上曾带来约 10—20bp 的长端利率回落；高盛判断，这一轮通过回购、调整发行期限和资产负债表管理，长端收益率阶段性回落 20—40bp 也有可能实现。</p><p><br /></p><p>但高盛对长期效果保持谨慎。当前长端利率上行背后，推动力已经不只是技术性的供需错配，还包括持续财政赤字、通胀不确定性，以及均衡实际利率中枢抬升。报告还强调，AI 资本开支、数据中心建设、电力基础设施和再工业化，也在持续推高全社会的资本需求。财政部回购可以缓解市场短期需要吸收的久期供给，却难以改变资本变贵、长期利率中枢抬升的大趋势。</p>",
+      "link": "https://www.theblockbeats.info/flash/362729",
+      "published": "Fri, 21 Aug 2026 02:58:50 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "AllScale上线CLI工具，AI Agent可一键完成稳定币收付款",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，据自托管稳定币数字银行 AllScale 官方 X 账号，该平台上线 AllScale CLI 命令行工具，一次安装即可在终端完成稳定币收款、付款与账目核对。</p><p><br /></p><p>收款端，一条命令即可向任意有效邮箱发送明细发票，支持 USDT 或 USDC，收款方无需事先注册或建立合作关系。付款端，用户只需一次性批准支出限额，包括单笔上限、总预算及有效期，此后脚本可无人值守运行。每次付款会创建并注资一条 Claim Link，收款方无需提供钱包地址；该流程具备幂等性，中途失败的任务不会重复打款。</p><p><br /></p><p>每条命令向标准输出打印 JSON，并返回 13 种已文档化的退出码，脚本或 AI Agent 可据此自动分支处理结果，无需截图核对页面。AllScale 表示，只要能运行 shell 的环境即可使用该 CLI，现已上线 npm，包名为 @allscale/cli。</p>",
+      "link": "https://www.theblockbeats.info/flash/362728",
+      "published": "Fri, 21 Aug 2026 02:54:07 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "巨鲸「先定10个大目标」再次开启BTC空单，目前做空83.866枚BTC",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，巨鲸「先定 10 个大目标」再次开启 BTC 空单，目前做空 83.866 枚 BTC（625 万美元），开仓价 74553.27 美元。</p><p><br /></p><p>此前报道，其 8 月 19 日多单盈利 2000 万美元，昨日空单回吐 628 万美元的利润，本次多空交易的净利润为 1372 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/362727",
+      "published": "Fri, 21 Aug 2026 02:51:54 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Coinbase CEO：美国加密监管明确性或于9月中旬迎来关键进展",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，Coinbase CEO Brian Armstrong 发文表示，无论通过哪种路径，相关监管明确性似乎都将到来。</p><p><br /></p><p>他列出两种可能：一是美国参议院于 9 月 15 日取得超过 60 票支持；二是美国商品期货交易委员会（CFTC）与美国证券交易委员会（SEC）于 9 月 16 日出台一套新规则。</p>",
+      "link": "https://www.theblockbeats.info/flash/362725",
+      "published": "Fri, 21 Aug 2026 02:42:45 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "比特币市值超越Meta，全球资产市值排名升至第13位",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，据 8 Market 数据显示，比特币市值暂报 1.5 万亿美元，超越 Meta（市值 1.39 万亿美元），全球资产市值排名升至第 13 位。</p><p><br /></p><p>此外，以太坊市值升至 2838.9 亿美元，超越 Dell 位列全球资产市值第 72 名。</p>",
+      "link": "https://www.theblockbeats.info/flash/362724",
+      "published": "Fri, 21 Aug 2026 02:31:23 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "过去4小时全网爆仓4.46亿美元，空单爆仓4.25亿美元",
+      "summary": "<p>BlockBeats 消息，8 月 21 日，据 Coinglass 数据，过去 4 小时全网爆仓 4.46 亿美元，其中空单爆仓 4.25 亿美元。</p><p><br /></p><p>过去 24 小时，全球共有 137,452 人被爆仓，爆仓总金额为 12.34 亿美元。最大单笔爆仓单发生在 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> - BTC-USD 价值 2513.87 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/362723",
+      "published": "Fri, 21 Aug 2026 02:31:10 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "英伟达60亿美元收编Poolside：买模型工厂，挖走109人",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，英伟达将向 AI 创业公司 Poolside 支付 60 亿美元，获得其模型开发系统 Model Factory 的非独家许可，同时计划向参与 Laguna 模型开发的 109 名员工发出 offer。<br /><br />Poolside 创始团队会留下，公司继续独立运营，但英伟达将同时获得这套模型开发系统和一批核心研发人员。<br /><br />Poolside 的 Model Factory 是一套开发 AI 模型的基础设施，覆盖数据处理、训练、强化学习和评测等环节。英伟达相当于买了一整套训练模型的生产系统。<br /><br />60 亿美元许可费将分给 Poolside 投资人，英伟达还会追加 10 亿美元投资，Poolside 投前估值为 120 亿美元。<br /><br />这笔交易与英伟达此前处理 Groq、Enfabrica 的方式类似：通过技术许可、投资和招聘团队，把 AI 领域的关键技术和人才吸收到自己体系",
+      "link": "https://www.theblockbeats.info/flash/362721",
+      "published": "Fri, 21 Aug 2026 02:27:17 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "Bitcoin Leaps Past $75,000 as Crypto Rally Continues in Asia - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOcDE4Rmt1TzR5TmJrdWNQVlNibEw5TjNVU2RCaXNrOE5hRTZidUJJT2JuazBNLUU5OHF0dnBkTTZhZENEeDVYcXhmNjMyQ3FKNTk0dk41V3dSX0tVeVFONFhxRnZqRDFOVWk0WURlZ2lLa0huYzdTYV9xRnlILTBXRDFLNmt1V1JLcnJnYUdiSmZ0RktDRThBeG1VWXZIRlJ3MUJybjJKOFJsdm1YWXlj?oc=5\" target=\"_blank\">Bitcoin Leaps Past $75,000 as Crypto Rally Continues in Asia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcDE4Rmt1TzR5TmJrdWNQVlNibEw5TjNVU2RCaXNrOE5hRTZidUJJT2JuazBNLUU5OHF0dnBkTTZhZENEeDVYcXhmNjMyQ3FKNTk0dk41V3dSX0tVeVFONFhxRnZqRDFOVWk0WURlZ2lLa0huYzdTYV9xRnlILTBXRDFLNmt1V1JLcnJnYUdiSmZ0RktDRThBeG1VWXZIRlJ3MUJybjJKOFJsdm1YWXlj?oc=5",
+      "published": "Fri, 21 Aug 2026 02:05:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Leaps Past $75,000 as Crypto Rally Continues in Asia - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOcDE4Rmt1TzR5TmJrdWNQVlNibEw5TjNVU2RCaXNrOE5hRTZidUJJT2JuazBNLUU5OHF0dnBkTTZhZENEeDVYcXhmNjMyQ3FKNTk0dk41V3dSX0tVeVFONFhxRnZqRDFOVWk0WURlZ2lLa0huYzdTYV9xRnlILTBXRDFLNmt1V1JLcnJnYUdiSmZ0RktDRThBeG1VWXZIRlJ3MUJybjJKOFJsdm1YWXlj?oc=5\" target=\"_blank\">Bitcoin Leaps Past $75,000 as Crypto Rally Continues in Asia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcDE4Rmt1TzR5TmJrdWNQVlNibEw5TjNVU2RCaXNrOE5hRTZidUJJT2JuazBNLUU5OHF0dnBkTTZhZENEeDVYcXhmNjMyQ3FKNTk0dk41V3dSX0tVeVFONFhxRnZqRDFOVWk0WURlZ2lLa0huYzdTYV9xRnlILTBXRDFLNmt1V1JLcnJnYUdiSmZ0RktDRThBeG1VWXZIRlJ3MUJybjJKOFJsdm1YWXlj?oc=5",
+      "published": "Fri, 21 Aug 2026 02:05:00 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin Price Prediction: Will Bitcoin Hit $80K and Surpass $120K? - Cryptonews.net",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pTkRQb0FDX2stN2tUQ2RTVzUwNC1zSlN3Tm83MmNOWi00aGczUkxBdFlhVDZydDFUNU11TTZVMElpRFZRTXlOTHp5TVY5Mm1CVGFIT2ZCclg?oc=5\" target=\"_blank\">Bitcoin Price Prediction: Will Bitcoin Hit $80K and Surpass $120K?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews.net</font>",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pTkRQb0FDX2stN2tUQ2RTVzUwNC1zSlN3Tm83MmNOWi00aGczUkxBdFlhVDZydDFUNU11TTZVMElpRFZRTXlOTHp5TVY5Mm1CVGFIT2ZCclg?oc=5",
+      "published": "Fri, 21 Aug 2026 02:48:45 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19)",
+      "summary": "Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3e662272597c44b7939f5db5c8c86d4f",
+      "published": "2026-08-19T10:30:09.387000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0872245db74c4daaabd4f11984ba52c1",
+      "published": "2026-08-17T10:15:25.476000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/343eff2647754fb1bd0664bba24e9a36",
+      "published": "2026-08-13T15:15:05.015000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-12",
+      "summary": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2e02db3c8dcd4a03a365655c501aa7c9",
+      "published": "2026-08-12T12:00:34.213000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 1 bStocks Trading Pair on Binance Spot - 2026-08-12",
+      "summary": "Binance Exchange Adds 1 bStocks Trading Pair on Binance Spot - 2026-08-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f884f8f195a419eb855510d203def2a",
+      "published": "2026-08-12T11:30:02.221000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DOSUSDT Perpetual Contract (2026-08-11)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DOSUSDT Perpetual Contract (2026-08-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a2ee872d61654a5bb43a87c3122b5706",
+      "published": "2026-08-11T22:00:02.967000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-11)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/45c2f20d589b420e80063ab75feb41f2",
+      "published": "2026-08-10T17:15:27.706000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/307687ad279e42e6909ee1be8c472b50",
+      "published": "2026-08-06T10:30:12.862000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets - 2026-08-05",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets - 2026-08-05",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4ac8fb01d4a63837045a660e7d03b",
+      "published": "2026-08-05T17:00:09.838000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-08-05",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-08-05",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ae96da838d754f91bced1501de728f03",
+      "published": "2026-08-05T10:30:01.986000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch GIGADEVUSDT USDⓈ-Margined Perpetual Contract (2026-08-03)",
+      "summary": "Binance Futures Will Launch GIGADEVUSDT USDⓈ-Margined Perpetual Contract (2026-08-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e8bfd0c5adaf4d8a880bb1b7327107ef",
+      "published": "2026-08-03T10:30:09.135000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GRVTUSDT Perpetual Contract (2026-07-31)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GRVTUSDT Perpetual Contract (2026-07-31)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/20536b05b2a34b87a3bae99c45d0dc91",
+      "published": "2026-07-31T19:30:11.662000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a167ac6ee74496b83a820675aea1dbe",
+      "published": "2026-07-29T17:00:01.546000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-07-29",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-07-29",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd",
+      "published": "2026-07-29T14:30:02.972000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/93b5cd2280874d9cb4303827374b940d",
+      "published": "2026-07-29T14:15:21.576000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/30b76da5daf8469a9f71b09a7441691e",
+      "published": "2026-07-28T14:00:00+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-27)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-27)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a827177a387e4ebea830110ba222ca48",
+      "published": "2026-07-27T17:16:02.441000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "summary": "Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcdc949b45a644c78e341c88331a35ef",
+      "published": "2026-07-23T09:30:03.723000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/dd18d9850f504666b7c91b5c74fe8c10",
+      "published": "2026-07-22T18:00:13.551000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e",
+      "published": "2026-07-22T14:30:04.196000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 72 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 72，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-08-21T08:00:00+08:00"
+    }
+  ]
+}
