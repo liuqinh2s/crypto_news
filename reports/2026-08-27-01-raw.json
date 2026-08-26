@@ -1,0 +1,505 @@
+{
+  "date": "2026-08-27",
+  "hour": "01",
+  "total": 71,
+  "fetched_at": "2026-08-27T01:00:50.877056+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
+      "published": "Wed, 26 Aug 2026 15:15:13 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Hyperliquid Policy Center, TradeXYZ urge CFTC to create path for US oil perpetuals",
+      "summary": "The CFTC should adopt a regulatory framework for energy perpetual contracts, the Hyperliquid Policy Center and TradeXYZ said in a letter.",
+      "link": "https://www.theblock.co/news/regulation/2026-08-26-hyperliquid-policy-center-tradexyz-urges-cftc-create-path-us-oil-perpetuals-412834",
+      "published": "Wed, 26 Aug 2026 16:06:46 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "CryptoQuant says bitcoin has entered bull market but needs to cross $83,000 for ‘official’ confirmation",
+      "summary": "\"Historically, bitcoin's bull markets have 'officially' begun when price crosses above its 365-day moving average,\" CryptoQuant said.",
+      "link": "https://www.theblock.co/news/markets/2026-08-26-cryptoquant-bitcoin-bull-market-83000-official-confirmation-412822",
+      "published": "Wed, 26 Aug 2026 16:02:01 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tokenized Deposits Could Drain $700 Billion From Bank Lending, Dallas Fed Warns",
+      "summary": "A shift toward faster, more rate-sensitive deposits could push banks into safer assets, constrain lending, and raise borrowing costs, Dallas Fed researchers said.",
+      "link": "https://decrypt.co/376609/tokenized-deposits-bank-lending-dallas-fed",
+      "published": "Wed, 26 Aug 2026 16:18:24 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "XRP Leads Crypto Pullback as Leverage Unwind Tests Rally",
+      "summary": "XRP led losses among the 10 biggest cryptocurrencies today. The charts show the real test for its rally is only getting started.",
+      "link": "https://decrypt.co/376601/xrp-price-leverage-unwind-tests-rally",
+      "published": "Wed, 26 Aug 2026 15:29:49 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Ethereum Devs Propose Deposit Contract Overhaul to Quantum-Proof Staking",
+      "summary": "The proposal would let validator keys grow to 8,192 bytes and adds a switch that permanently retires today's BLS signatures.",
+      "link": "https://decrypt.co/376599/ethereum-devs-propose-deposit-contract-overhaul-to-quantum-proof-staking",
+      "published": "Wed, 26 Aug 2026 15:04:58 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "SEC sends crypto custody rule overhaul to White House for review",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"SEC sends crypto custody rule overhaul to White House for review\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/political-tokens-into-the-white-house-sec-1.jpg\" /></p><p>The securities regulator’s crypto custody overhaul could clarify how investment advisers and funds hold digital assets for clients as the proposal moves through review. </p>",
+      "link": "https://cointelegraph.com/news/sec-crypto-custody-rules-investment-firms-white-house?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 26 Aug 2026 16:19:09 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "77% of Americans see crypto in retirement plans as risky: Survey",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"77% of Americans see crypto in retirement plans as risky: Survey\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-how-trumps-9t-executive-order-could-let-you-add-bitcoin-to-your-retirement-plan.png\" /></p><p>A new survey finds broad skepticism toward crypto in workplace retirement plans as US policymakers move to expand access to alternative assets. </p>",
+      "link": "https://cointelegraph.com/news/77-of-americans-see-crypto-in-retirement-plans-as-risky-survey?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 26 Aug 2026 16:10:56 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Bitcoin dips below $78K as stocks, gold fall on higher US PCE Inflation data",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin dips below $78K as stocks, gold fall on higher US PCE Inflation data\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/us-inflation-3.jpg\" /></p><p>Bitcoin stayed away from challenging $80,000 after July US PCE inflation data came in slightly higher than anticipated, pressuring gold and risk assets.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-dips-below-78k-as-stocks-gold-fall-on-higher-us-pce-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 26 Aug 2026 15:58:55 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Protocol upgrade decouples consensus from execution to solve scaling bottlenecks",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Protocol upgrade decouples consensus from execution to solve scaling bottlenecks\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/cover-multiversx-v1-1.jpg\" /></p><p>CTDG Dev Hub participant’s protocol upgrade decouples consensus from execution, allowing network nodes to reach agreement on blocks before transaction execution completes.</p>",
+      "link": "https://cointelegraph.com/ecosystem/protocol-upgrade-decouples-consensus-from-execution-to-solve-scaling-bottlenecks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 26 Aug 2026 15:04:32 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "SEC Sends Proposal to White House To Modernize Crypto Custody",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/07/SEC-CHair-Paul-Atkins-Supports-Clairty.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/sec-sends-crypto-custody-proposal\" rel=\"nofollow\">SEC Sends Proposal to White House To Modernize Crypto Custody</a></p>\n<p>A vote on the Clarity Act has stalled but regulators are pushing ahead with policy regardles",
+      "link": "https://bitcoinmagazine.com/news/sec-sends-crypto-custody-proposal",
+      "published": "Wed, 26 Aug 2026 15:29:13 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "美股加密货币概念股普跌",
+      "summary": "【美股加密货币概念股普跌】金色财经报道，8月27日，行情数据显示，美股加密货币概念股普跌，其中：MSTR 跌 3.52%；COIN 跌 3.23%，CRCL 跌 3.53%；SBET 跌 1.44%；BMNR 跌 0.09%，PURR 跌 3.92%，ABTC 跌 8.66%。",
+      "link": "https://jinse.com.cn/lives/529543.html",
+      "published": "Wed, 26 Aug 2026 16:16:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "普京据悉计划在乌克兰问题上采取升级行动，因其认为谈判没有成效",
+      "summary": "【普京据悉计划在乌克兰问题上采取升级行动，因其认为谈判没有成效】金色财经报道，8月27日，普京据悉计划在乌克兰问题上采取升级行动，因其认为谈判没有成效。<p>原文链接: <a href=\"https://www.cls.cn/detail/2465495\">https://www.cls.cn/detail/2465495</a></p>",
+      "link": "https://jinse.com.cn/lives/529542.html",
+      "published": "Wed, 26 Aug 2026 16:02:25 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Coinbase将上线Grass (GRASS)",
+      "summary": "【Coinbase将上线Grass (GRASS)】金色财经报道，8月26日，Coinbase 将于 2026 年 8 月 26 日上线 Grass (GRASS) 。如果流动性条件满足，且交易得到支持，GRASS-USD 交易对将于今天晚些时候开始开放。<p>原文链接: <a href=\"https://x.com/CoinbaseMarkets/status/2092641297035079792\">https://x.com/CoinbaseMarkets/status/2092641297035079792</a></p>",
+      "link": "https://jinse.com.cn/lives/529541.html",
+      "published": "Wed, 26 Aug 2026 15:58:15 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "疑似Bitkub联创关联钱包转入2600万美元ZEC，卖出后买入238枚BTC",
+      "summary": "【疑似Bitkub联创关联钱包转入2600万美元ZEC，卖出后买入238枚BTC】金色财经报道，8月26日，据 Lookonchain 监测，一个疑似与 Bitkub 联合创始人兼前董事长 Sakolkorn Sakavee 关联的钱包集群在过去 24 小时内解除隐私保护并转入 Hyperliquid 共计 3.41 万枚 ZEC，价值约 2,610 万美元。 \n随后，该地址已卖出 2.41 万枚 ZEC，价值约 1,850 万美元，并买入 238 枚 BTC。目前 Hyperliquid 上仍有约 1 万枚 ZEC，价值约 760 万美元，相关卖单价格约为 780 美元。 \n注：目前仅为链上数据分析平台对钱包关联性的推测，尚无官方信息证实这些地址属于 Sakolkorn Sakavee。<p>原文链接: <a href=\"https://t.me/mlmonchain/1403\">https://t.me/mlmonchain/1403</a></p>",
+      "link": "https://jinse.com.cn/lives/529540.html",
+      "published": "Wed, 26 Aug 2026 15:39:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Coinbase面向Coinbase One会员开放加密抵押房贷服务",
+      "summary": "【Coinbase面向Coinbase One会员开放加密抵押房贷服务】金色财经报道，8月26日，加密交易平台 Coinbase 与数字抵押贷款公司 Better Mortgage 宣布，面向 Coinbase One 会员全面开放代币抵押合规房贷（token-backed conforming mortgage），允许符合条件的借款人使用加密资产作为抵押参与购房流程。 \n该产品于 8 月 12 日起向 Coinbase One 会员开放。双方此前于今年 3 月首次公布合作计划，该抵押贷款的首笔抵押权贷款按照 Fannie Mae 标准合规房贷框架设计。根据公告，符合 Better 房贷产品资格的 Coinbase One 会员可获得相当于贷款金额 1%的贷款优惠额度，最高不超过 1 万美元。该优惠可用于抵扣房贷成交费用，适用于普通房贷、房屋净值信用额度（HELOC）以及再融资产品。<p>原文链接: <a href=\"https://www.theblock.co/news/business/2026-08-26-coinbase-better-make-token-backed-mo",
+      "link": "https://jinse.com.cn/lives/529539.html",
+      "published": "Wed, 26 Aug 2026 15:20:02 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "消息人士：Anthropic将以450亿美元租赁Nscale数据中心，获得460兆瓦算力容量",
+      "summary": "<p>BlockBeats 消息，8 月 27 日，消息人士称，Anthropic 将以 450 亿美元租赁 AI 基础设施企业 Nscale 的数据中心，获得约 460 兆瓦的算力容量。</p><p><br /></p><p>消息人士表示，Nscale 将从美国西弗吉尼亚州的数据中心为 Anthropic 提供算力，并计划斥资 710 亿美元开发该项目。</p>",
+      "link": "https://www.theblockbeats.info/flash/363744",
+      "published": "Wed, 26 Aug 2026 17:00:11 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "达拉斯联储警告：代币化存款或削弱7000亿美元的银行放贷能力",
+      "summary": "<p>BlockBeats 消息，8 月 27 日，达拉斯联储发布报告称，代币化存款若大规模普及，可能提高存款对利率的敏感度、加速资金跨银行流动，并削弱银行的流动性和期限转换能力，进而对银行信贷供给及融资成本产生影响。</p><p><br /></p><p>报告指出，与 USDT、USDC 等稳定币不同，代币化存款通常由受监管银行发行并可支付利息。区块链的即时结算、智能合约以及代理式 AI 等技术，可能让客户更加容易快速转移资金以追逐更高收益，从而削弱传统银行存款的「黏性」。</p><p><br /></p><p>达拉斯联储估算，如果存款利率敏感度提高 10%，银行承担利率风险的能力可能减少约 7000 亿美元（按 10 年期等值计算）；如果存款加权平均期限缩短 10%，银行体系的期限转换能力可能减少约 5800 亿美元。</p><p><br /></p><p>报告认为，若银行仍希望维持现有贷款规模，可能需要更多依赖期限债务等批发融资，最终使银行贷款的融资模式更接近非银行金融机构，并可能推高消费者和企业的信贷成本。</p><p><br /></p><p>目前，多家全球银行已开始测试代币",
+      "link": "https://www.theblockbeats.info/flash/363743",
+      "published": "Wed, 26 Aug 2026 16:47:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "调查：77%的美国人认为退休计划配置加密货币风险较高",
+      "summary": "<p>BlockBeats 消息，8 月 27 日，美国国家退休保障研究所（NIRS）最新调查显示，77% 的美国人认为将加密货币纳入职场退休计划存在风险，其中 46% 认为风险「非常高」；另有 53% 的受访者反对雇主提供加密货币投资选项。</p><p><br /></p><p>调查显示，美国人对退休保障的担忧正在上升，80% 的受访者认为美国正面临「退休危机」，较 2020 年的 67% 明显提高；61% 担心自身退休后的财务安全，68% 表示为退休储蓄正变得更加困难，77% 则称债务影响了其储蓄能力。</p><p><br /></p><p>该调查由 Greenwald Research 于 2025 年 10 月 24 日至 11 月 14 日进行，共调查 1203 名 25 岁及以上美国人。</p><p><br /></p><p>与此同时，美国政府及监管机构正推动扩大 401(k) 等退休账户对加密货币及其他另类资产的配置渠道。美国劳工部今年 3 月提出相关规则，为 401(k) 纳入另类资产提供潜在安全港，但该计划遭部分民主党议员反对，其认为加密资产波动性较高、投资者保护仍不",
+      "link": "https://www.theblockbeats.info/flash/363742",
+      "published": "Wed, 26 Aug 2026 16:44:33 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "英伟达盘中跌1.35%，市场静待其公司财报",
+      "summary": "<p>BlockBeats 消息，8 月 27 日，据 BIT（bit.com）行情数据，今日美股三大指数小幅低开，英伟达盘中现跌 1.35%，市值暂报 5.09 万亿美元，市场焦点集中于其公司即将公布的财报，投资者正等待其业绩及对 AI 需求的最新指引，以判断此前承压的 AI 交易能否重新获得动能。</p><p><br /></p><p>分析师预计，英伟达上季度营收同比接近翻倍，市场普遍预期财报将继续保持强劲增长。不过，AI 巨额资本投入能否转化为相应回报仍是市场担忧所在。英伟达股价此前连续七个交易日下跌，周二止跌反弹，投资者已提前布局财报行情。</p><p><br /></p><p>除英伟达财报外，市场还将关注美联储主席沃什周五在杰克逊霍尔年会上的首次重要演讲，以寻找未来利率路径线索。</p><p><br /></p><p>大宗商品方面，布伦特原油本周累计跌幅一度扩大至约 8%，但在美国 EIA 数据显示上周原油库存仅增加 9.5 万桶、远低于预期后，油价盘中跌幅明显收窄并转涨。</p>",
+      "link": "https://www.theblockbeats.info/flash/363741",
+      "published": "Wed, 26 Aug 2026 16:29:01 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "原油持续拉升，俄罗斯准备升级对乌打击，认为和谈已走入死胡同",
+      "summary": "<p>BlockBeats 消息，8 月 27 日，据 Bitget 行情数据，国际原油持续拉升，布伦特原油站上 88 美元/桶，日内涨 2.57%；WTI 原油期货站上 83 美元/桶，日内涨 2.33%。</p><p><br /></p><p>消息面上，据三位接近克里姆林宫的人士透露，俄罗斯在认定和平协议谈判陷入僵局后，正准备升级对乌克兰的军事打击。据知情人士透露，目前俄罗斯正在考虑加大对基辅和其他乌克兰城市基础设施目标的强力常规弹道导弹袭击力度。</p><p><br /></p><p>知情人士表示，所有谈判框架实际上已经破裂，交战双方又回到了原点。他们还表示，普京不会因为制裁带来的经济压力以及乌克兰对俄罗斯炼油厂和物流网络的袭击而结束战争。</p><p><br /></p><p>知情人士透露，莫斯科越来越将乌克兰的空袭视为北约国家的攻击，因为北约成员国向基辅提供武器和情报。消息人士称，当前阶段的敌对行动尚未达到军事升级的高峰。</p>",
+      "link": "https://www.theblockbeats.info/flash/363740",
+      "published": "Wed, 26 Aug 2026 16:22:43 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Fireblocks托管地址过去一周向Binance转入价值6600万美元USD1",
+      "summary": "<p>BlockBeats 消息，8 月 27 日，据 Onchain Lens 监测，Fireblocks 托管钱包过去一周累计向 Binance 转入约 6600 万美元特朗普家族支持的稳定币 USD1。该钱包 13 分钟前再次向 Binance 存入 1000 万美元 USD1。</p><p><br /></p><p>链上数据显示，该地址为 9Rycov3U4efJf5HiqZYGjN7qJJHEtMsj4vbmkG4xfCxk。此前，该钱包已在过去 21 小时内分 3 笔向 Binance 转入 2800 万美元 USD1，金额分别为 1000 万、1500 万和 300 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/363739",
+      "published": "Wed, 26 Aug 2026 16:21:17 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "苹果将于9月9日举办折叠屏iPhone发布会，开启特努斯时代",
+      "summary": "<p>BlockBeats 消息，8 月 27 日，苹果公司将于 9 月 9 日举办今年最大规模的产品发布会，正式开启新任 CEO 约翰·特努斯的任期，此次发布会的口号是「惊喜与闪耀」（Surprise and shine）。</p><p><br /></p><p>该公司准备推出多款新品，包括首款折叠屏 iPhone 以及 iPhone 18 Pro 和 Pro Max，搭载更快的芯片和更持久的电池续航。</p><p><br /></p><p>此次发布会将是新任 CEO 约翰·特努斯首次主导大型产品发布，但不会包括第二代 iPhone Air 或标准版 iPhone 18，后者将于明年春季发布。</p>",
+      "link": "https://www.theblockbeats.info/flash/363738",
+      "published": "Wed, 26 Aug 2026 16:18:49 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股加密货币概念股普跌，ABTC跌8.66%",
+      "summary": "<p>BlockBeats 消息，8 月 27 日，据 BIT（bit.com）行情数据，美股加密货币概念股普跌，其中：</p><p><br /></p><p>MSTR 跌 3.52%；COIN 跌 3.23%，CRCL 跌 3.53%；SBET 跌 1.44%；BMNR 跌 0.09%，PURR 跌 3.92%，ABTC 跌 8.66%。</p>",
+      "link": "https://www.theblockbeats.info/flash/363737",
+      "published": "Wed, 26 Aug 2026 16:07:20 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "国际原油上涨，WTI、布油均涨超2%",
+      "summary": "<p>BlockBeats 消息，8 月 26 日，据 Bitget 行情数据，国际原油上涨，WTI 原油日内涨幅达 2.00%，现报 82.30 美元/桶。布伦特原油日内涨超 2.00%，现报 87.58 美元/桶。</p>",
+      "link": "https://www.theblockbeats.info/flash/363736",
+      "published": "Wed, 26 Aug 2026 15:58:22 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Coinbase将上线Grass (GRASS)",
+      "summary": "<p>BlockBeats 消息，8 月 26 日，据 Coinbase 官方公告，Grass (GRASS) 的现货交易将于 2026 年 8 月 26 日上线。如果满足流动性条件， GRASS-USD 交易对将在今天晚些时候开始开通，在支持交易的地区。</p>",
+      "link": "https://www.theblockbeats.info/flash/363735",
+      "published": "Wed, 26 Aug 2026 15:56:59 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股存储板块盘中涨幅扩大，西部数据涨3.45%",
+      "summary": "<p>BlockBeats 消息，8 月 26 日，据 BIT（bit.com）行情数据，美股存储板块盘中涨幅扩大，其中：</p><p><br /></p><p>西部数据（WDC）涨 3.45%、希捷科技（STX）涨 2.97%、海力士（SKHY）涨 0.51%、美光科技（MU）涨 0.98%，闪迪（SNDK）涨 1.45%，SK 海力士（SKHY）涨 0.24%。</p>",
+      "link": "https://www.theblockbeats.info/flash/363734",
+      "published": "Wed, 26 Aug 2026 15:53:01 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Meme币「牛来」24小时涨超33%，市值回升至4700万美元",
+      "summary": "<p>BlockBeats 消息，8 月 26 日，据<a href=\"https://gmgn.ai/bsc/token/i_m4TE56o8_0xbeea1d618e533a387d941f58a7d4c9b7bd377777\" target=\"_blank\"> GMGN </a>行情数据，BSC 链上 Meme 币「牛来」24 小时涨超 33%，市值回升至 4700 万美元，24 小时成交量 1220 万美元。</p><p><br /></p><p>BlockBeats 提醒用户，Meme 币多无实际用例，价格波动较大，投资需谨慎。</p>",
+      "link": "https://www.theblockbeats.info/flash/363733",
+      "published": "Wed, 26 Aug 2026 15:40:27 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "以太坊拟重构质押存款合约，为后量子时代「换锁」",
+      "summary": "<p>BlockBeats 消息，8 月 26 日，以太坊开发者提出一项新的 EIP 草案，拟重构现有验证者存款合约，为以太坊质押体系向后量子密码学迁移铺路。</p><p><br /></p><p>该提案计划将现有合约固定的 BLS 密钥结构改为支持可变长度密钥和凭证数据，单项上限达 8192 字节，并要求每笔存款声明所使用的「凭证方案」。目前仅定义方案 0，即现有 BLS 签名体系，未来 EIP 可进一步定义后量子验证者密钥标准。</p><p><br /></p><p>新合约还将引入「禁用、BLS 启用、BLS 永久退役」三种状态。一旦通过系统调用进入 BLS 退役状态，将永久禁止使用现有 BLS 方案新增验证者质押，且无法重新启用。</p><p><br /></p><p>该提案目前仍处于草案阶段，尚待 EIP 编辑审核，合约地址、部署代码及激活时间均未确定，最终落地还需要以太坊共识层与执行层协调升级。</p><p><br /></p><p>提案作者之一 Thomas Coratger 指出，后量子密码学并非一次简单的软件升级。当前以太坊研究方向高度关注基于哈希的签名方案，其无状态版",
+      "link": "https://www.theblockbeats.info/flash/363732",
+      "published": "Wed, 26 Aug 2026 15:36:40 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "高通发布IMSDK 2.0：打通生成式AI与多媒体，推动边缘AI应用开发提速",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，高通发布 Qualcomm Intelligent Multimedia SDK（IMSDK）2.0，推出面向 Qualcomm Dragonwing 及 Linux 边缘平台的统一 AI 与多媒体开发框架，旨在简化摄像头、音视频、传感器、AI 推理及云端连接等功能的集成，加速智能相机、机器人、无人机及工业 AI 等产品落地。</p><p><br /></p><p>IMSDK 2.0 新增 Python 和 C++ Pipeline API 及应用构建器、生成式 AI 推理、容器化微服务、AI 编程代理技能以及「文档即代码」等功能。其中，开发者可通过 QAIRT、ONNX Runtime 和 TFLite 等多种推理运行时，在不重构整体多媒体管线的情况下切换 AI 模型。</p><p><br /></p><p>高通表示，IMSDK 2.0 基于 GStreamer 架构，并结合硬件加速插件、零拷贝数据传输和多流、多模型管线能力，可支持",
+      "link": "https://www.theblockbeats.info/flash/363731",
+      "published": "Wed, 26 Aug 2026 15:33:09 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Bitkub联合创始人疑似关联钱包转入2600万美元ZEC，卖出后买入238枚BTC",
+      "summary": "<p>BlockBeats 消息，8 月 26 日，据 Lookonchain 监测，一个疑似与 Bitkub 联合创始人兼前董事长 Sakolkorn Sakavee 关联的钱包集群在过去 24 小时内解除隐私保护并转入 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 共计 3.41 万枚 ZEC，价值约 2610 万美元。</p><p><br /></p><p>随后，该地址已卖出 2.41 万枚 ZEC，价值约 1850 万美元，并买入 238 枚 BTC。目前 Hyperliquid 上仍有约 1 万枚 ZEC，价值约 760 万美元，相关卖单价格约为 780 美元。</p><p><br /></p><p>注：目前仅为链上数据分析平台对钱包关联性的推测，尚无官方信息证实这些地址属于 Sakolkorn Sakavee。</p>",
+      "link": "https://www.theblockbeats.info/flash/363730",
+      "published": "Wed, 26 Aug 2026 15:28:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "废铜「到货秒没」！AI与电网需求撑起铜价狂飙，供应缺口成核心矛盾",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，传统铜消费淡季的 7 月至 8 月，浙江台州废铜市场却异常火热，部分优质废铜价格已突破 9 万元/吨，甚至达到 10 万元/吨，市场需求较此前增加两三倍，部分货物尚未拆解便已被客户提前预订。</p><p><br /></p><p>再生铜企业同样处于高负荷状态。浙江巨东股份今年计划将再生铜产能提升至 10 万吨，目前基本满负荷生产，订单已排至约一个月。数据显示，今年上半年上海有色金属交易中心铜现货价格指数上涨 31%；2 月至 8 月，COMEX 和 LME 铜期货分别上涨 52% 和 58%。</p><p><br /></p><p>业内认为，本轮铜价上涨的核心仍是供需错配：海外铜矿产出收缩、原料成本上升导致供应增速放缓，而 AI 算力中心、电网及新能源基建持续释放新增铜需求。9 月至 10 月进入传统消费旺季后，供需矛盾能否进一步强化仍受关注。</p><p><br /></p><p>不过，分析人士提醒，当前铜价快速上涨已对下游加工企业",
+      "link": "https://www.theblockbeats.info/flash/363729",
+      "published": "Wed, 26 Aug 2026 15:26:13 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "英伟达护城河又挨一刀：「牛来」模型GLM-5.3 Flash爆量23万亿Token，全部跑在国产芯片上",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，GLM-5.3 Flash 发布后，智谱确认了一个此前没公开的细节：Ox Alpha 匿名测试期间的流量，全部由中国国产 AI 芯片提供推理算力。</p><p><br /></p><p>Ox Alpha 在 OpenRouter 上线 6 个完整自然日就处理了 23.2 万亿 Token，是同期 DeepSeek-V4-Flash 的 2 倍多。OpenCode 此前甚至称，后台有能力提供每天 100 万亿 Token 的免费额度。</p><p><br /></p><p>智谱称，他们在相同中国国产硬件上把端到端推理性能优化到了最初的 3 倍，现在硬件效率和单 Token 成本已经能做到接近主流英伟达 GPU。</p><p><br /></p><p>SemiAnalysis 特意把这一点挑了出来。此前外界看到每天 100 万亿 Token 的供给能力，还在猜这种规模是不是只有顶级实验室和英伟达 GPU 扛得住。结果这次从头到尾用的都是中",
+      "link": "https://www.theblockbeats.info/flash/363727",
+      "published": "Wed, 26 Aug 2026 15:24:14 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "GLM-5.3-Flash斩杀DeepSeek-V4-Flash：跑分更高，还便宜近3倍",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，智谱刚开源的 GLM-5.3 Flash，直接对上了 DeepSeek-V4-Flash。两个模型都主打低价、Coding 和 Agent，但从目前公开的重合评测看，智谱更强。</p><p><br /></p><p>Terminal-Bench 2.1 上，GLM-5.3 Flash 拿到 84.3 分，DeepSeek-V4-Flash 是 82.7 分；DeepSWE 则是 63.4 对 54.4，领先 9 分。前者还原生支持图片和视频输入。</p><p><br /></p><p>价格也被压住了。GLM-5.3-Flash 限时五折后，每百万 Token 普通输入 0.075 美元、输出 0.25 美元。DeepSeek V4 Flash 即使在最便宜的低谷时段，也要 0.22 和 0.66 美元。GLM 输入便宜近 3 倍，输出便宜 2.6 倍。</p><p><br /></p><p>两周优惠结束后，GLM 恢复到 0.15 美",
+      "link": "https://www.theblockbeats.info/flash/363726",
+      "published": "Wed, 26 Aug 2026 15:15:57 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "「美联储传声筒」：沃什杰克逊霍尔首秀，通胀判断将决定下一步利率路径",
+      "summary": "<p>BlockBeats 消息，8 月 26 日，有「美联储传声筒」之称的《华尔街日报》记者 Nick Timiraos 分析表示，美联储主席 Kevin Warsh 本周将在杰克逊霍尔发表上任后的首次重要演讲，市场关注焦点将集中于他如何解释美国通胀持续高于目标，以及这一判断将如何影响未来利率路径。</p><p><br /></p><p>当前美联储内部的核心分歧在于，通胀究竟主要来自关税、战争引发的能源价格上涨等一次性外部冲击，还是美国经济需求仍然过热。若属于前者，通胀可能随着冲击消退而回落；若属于后者，则意味着美联储可能需要进一步收紧政策。Timiraos 认为，Warsh 此次讲话需要明确其判断框架及可能改变利率立场的条件。</p><p><br /></p><p>文章还指出，Warsh 上任后减少前瞻指引的沟通策略正受到市场考验。若其认为此前降息力度过大、经济仍然过热，可能需要推动逆转降息；若通胀主要由外部冲击驱动，则进一步收紧政策的必要性将下降。市场也将密切关注其是否提出适应去全球化、AI 资本开支及地缘冲突等新环境的通胀分析框架。</p>",
+      "link": "https://www.theblockbeats.info/flash/363725",
+      "published": "Wed, 26 Aug 2026 15:11:58 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：代币化股票需求加速，底层结构决定投资者实际权益",
+      "summary": "<p>BlockBeats 消息，8 月 26 日，研究显示近期代币化股票市场正迎来快速增长，2026 年至今，代币化股票永续合约交易量已从 2025 年的约 160 亿美元飙升至超过 5900 亿美元，现货交易量也已超过 880 亿美元。不过，市场规模增长背后，代币化股票的底层法律与权益结构成为投资者更需要关注的核心问题。</p><p><br /></p><p>目前市场主要存在发行方支持型、托管型和合成型三种模式。其中，发行方支持型代币可直接代表股票所有权，并对应投票权、分红及公司行为等权益；托管型通过证券中介机构提供相应经济权益；而合成型代币本质上仅是对第三方的合约债权，并不代表对标的股票的直接所有权，因此可能面临交易对手、跟踪及公司行为传导等风险。</p><p><br /></p><p>报告认为，随着监管框架逐步明确及区块链结算基础设施不断成熟，代币化股票需求仍将持续增长，但投资者需要重点辨别所持资产究竟代表真实股权，还是建立在其上的合成敞口，这将直接决定其享有的权利、承担的风险及法律保护。</p>",
+      "link": "https://www.theblockbeats.info/flash/363724",
+      "published": "Wed, 26 Aug 2026 15:09:00 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "EVERYONE: SELL! ME: HODL.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1vz18wm/everyone_sell_me_hodl/\"> <img alt=\"EVERYONE: SELL! ME: HODL.\" src=\"https://preview.redd.it/qc8y407ssqlh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d8f6c7ac63a222489a88481b826082e874268312\" title=\"EVERYONE: SELL! ME: HODL.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Embarrassed-Bath-781\"> /u/Embarrassed-Bath-781 </a> <br /> <span><a href=\"https://i.redd.it/qc8y407ssqlh1.jpeg\">[",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1vz18wm/everyone_sell_me_hodl/",
+      "published": "2026-08-26T16:02:49+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "If crypto needs Visa to become mainstream, did we win?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>For years the idea was that crypto would replace traditional payment rails and let people transact without relying on the same old financial system but now it seems like the most practical path to adoption is connecting crypto to the infrastructure we already use.</p> <p>Maybe that’s actually a good thing. People get to use crypto without merchants changing anything but if mass adoption still depends on Visa and banks in the background, did crypto actually chang",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1vz06j6/if_crypto_needs_visa_to_become_mainstream_did_we/",
+      "published": "2026-08-26T15:24:41+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Front Page NP post (Non-Participatory link). \"Man becomes overnight millionaire after being reunited with £3.3m lost Bitcoin after 12 years\"",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1vz00qf/front_page_np_post_nonparticipatory_link_man/\"> <img alt=\"Front Page NP post (Non-Participatory link). &quot;Man becomes overnight millionaire after being reunited with £3.3m lost Bitcoin after 12 years&quot;\" src=\"https://external-preview.redd.it/CBIdvU5ZgcGiVmmcvnkSIZ7TkbSXEvazKG2im1stbgA.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=3608f19bd75fc40a790f1d511bdf65c94ce446b9\" title=\"Front Page NP post (Non-Participa",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1vz00qf/front_page_np_post_nonparticipatory_link_man/",
+      "published": "2026-08-26T15:18:38+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Early days of #bitcoin-otc",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I was active on #bitcoin-otc in early 2009. An inner voice told me 1500 BTC would be enough to live my dreams. Instead I asked for 2500 BTC for $25 and got kicked out of the channel. At the time that amount was only worth a couple dollars, so I felt rejected by the community.<br /> Around the same period I also mined 50 BTC. I wrote the private key on paper, then tore it up because the software wasn’t working right and I figured it “wasn’t meant to be.” I never",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1vz2k6n/early_days_of_bitcoinotc/",
+      "published": "2026-08-26T16:49:22+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Trump Pushes CLARITY Act as Bitcoin Surges: Is Crypto Finally Getting the Rules It Needs? - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVJHa3pGZTJPcG11TzMxczJicVJXRGtKaGJYeGt0Q0IyNmdIbHRXR0tKSnhxeGdFQzV3S1B2RkYtdVoyalZqTklUb3U4a211alpmdHdFZUt3UXZydlZrM1VkaGhwb3p2UUdLRXlweWNsM1pNWE0zNllpRUR5ZHl6ZENyMi1xT2VTWUR6eHhpbVFsT00?oc=5\" target=\"_blank\">Trump Pushes CLARITY Act as Bitcoin Surges: Is Crypto Finally Getting the Rules It Needs?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVJHa3pGZTJPcG11TzMxczJicVJXRGtKaGJYeGt0Q0IyNmdIbHRXR0tKSnhxeGdFQzV3S1B2RkYtdVoyalZqTklUb3U4a211alpmdHdFZUt3UXZydlZrM1VkaGhwb3p2UUdLRXlweWNsM1pNWE0zNllpRUR5ZHl6ZENyMi1xT2VTWUR6eHhpbVFsT00?oc=5",
+      "published": "Wed, 26 Aug 2026 15:18:44 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "XRP Leads Crypto Pullback as Leverage Unwind Tests Rally - Decrypt",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9xZ0xLMFNuVjM0MHFUQ3JWRWNodGVDS3Z5TjdlazlnSW4xeTZ5ZWVCM3QxOGNyRlBjV0IyMWl3Y1RqdGFVU2M5RlZzbGVwMk9FQ3FIUDBGaXh4bERTaFdhUEJ5ZVJzS0pXUFBFMGJGdzLSAXhBVV95cUxQNXMzOXdJN0VGb2RPUi1LbnRBU2gtSXV4MzdaNDY2OWJzMVFkR1RVZWpSeFI3Z1JWaXJ5MXhDTTB1VlhWMHZPamE2bEpNajJCYTE3LWVDMHhiYkc1UXl6QkQwV1FtSE9oaUpNNFkybGRxN2QzSFU2bTM?oc=5\" target=\"_blank\">XRP Leads Crypto Pullback as Leverage Unwind Tests Rally</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Decrypt</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xZ0xLMFNuVjM0MHFUQ3JWRWNodGVDS3Z5TjdlazlnSW4xeTZ5ZWVCM3QxOGNyRlBjV0IyMWl3Y1RqdGFVU2M5RlZzbGVwMk9FQ3FIUDBGaXh4bERTaFdhUEJ5ZVJzS0pXUFBFMGJGdzLSAXhBVV95cUxQNXMzOXdJN0VGb2RPUi1LbnRBU2gtSXV4MzdaNDY2OWJzMVFkR1RVZWpSeFI3Z1JWaXJ5MXhDTTB1VlhWMHZPamE2bEpNajJCYTE3LWVDMHhiYkc1UXl6QkQwV1FtSE9oaUpNNFkybGRxN2QzSFU2bTM?oc=5",
+      "published": "Wed, 26 Aug 2026 15:29:49 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "XRP Leads Crypto Pullback as Leverage Unwind Tests Rally - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOTl9LSXFJS0lGM0pXbTQxMFRBNUkwU3NHYWwwZ1dXeGdNTUZKcllFSjFCQWo3M21DMTItUkNFWWJ3TW1OZGl0YzB1VVhLZlcxOWF2ZXY4akgzM1RtbmVxVUx2TFk1alB4NjVwXzkzY0JEWG1qSGRuN1lGSUdseEZhNDJQZ2hnVGZ4X1RneVRlMUZEVEYyM0trXzIzYTFZaUlP?oc=5\" target=\"_blank\">XRP Leads Crypto Pullback as Leverage Unwind Tests Rally</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTl9LSXFJS0lGM0pXbTQxMFRBNUkwU3NHYWwwZ1dXeGdNTUZKcllFSjFCQWo3M21DMTItUkNFWWJ3TW1OZGl0YzB1VVhLZlcxOWF2ZXY4akgzM1RtbmVxVUx2TFk1alB4NjVwXzkzY0JEWG1qSGRuN1lGSUdseEZhNDJQZ2hnVGZ4X1RneVRlMUZEVEYyM0trXzIzYTFZaUlP?oc=5",
+      "published": "Wed, 26 Aug 2026 15:29:49 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin and Gold Funds Draw $7 Billion as Scarcity Trade Surges - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQWEN0dEtXVHBxTkFRMkdpWjBtYmkzbVc5Y2xFNTRtSWlScWpadzA0czQ1bTRDWlFGTE1BN28xOURsR1hYa25ZQ2VOS1BnQTNLclN6Y3p3ZnliQkd6aDlXM2FlLTJzS0hsY0ZTSzZhZ1NRS05CWnNzX0xfNS1wSDBQNlpNMThMZFd0b3c0R1lNOXlYeGMxWFNpQklFclR5N3I5UVRBQ1NVVTQ2c2FHbnhka2d3?oc=5\" target=\"_blank\">Bitcoin and Gold Funds Draw $7 Billion as Scarcity Trade Surges</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWEN0dEtXVHBxTkFRMkdpWjBtYmkzbVc5Y2xFNTRtSWlScWpadzA0czQ1bTRDWlFGTE1BN28xOURsR1hYa25ZQ2VOS1BnQTNLclN6Y3p3ZnliQkd6aDlXM2FlLTJzS0hsY0ZTSzZhZ1NRS05CWnNzX0xfNS1wSDBQNlpNMThMZFd0b3c0R1lNOXlYeGMxWFNpQklFclR5N3I5UVRBQ1NVVTQ2c2FHbnhka2d3?oc=5",
+      "published": "Wed, 26 Aug 2026 16:48:44 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin prices fall back down to $78K. Why is the rally hitting a wall? - Yahoo! Finance Canada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2VFNTNJbkRTOHo3VW9fZVhoeF8xeG5kbE8xUnMzaW56bzJaQmFYajFNRmg0bkZHWng5TzZ4bzd6YXd2Y3FINHlmSlY0Vl83bUZIdVF1Q1JjVF9zTnMtMTFsSzRMbFBRTnJZN0VnUkZpZGp3Sjl0MU9KVHhXc2MtV1BtNHlydw?oc=5\" target=\"_blank\">Bitcoin prices fall back down to $78K. Why is the rally hitting a wall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font>",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2VFNTNJbkRTOHo3VW9fZVhoeF8xeG5kbE8xUnMzaW56bzJaQmFYajFNRmg0bkZHWng5TzZ4bzd6YXd2Y3FINHlmSlY0Vl83bUZIdVF1Q1JjVF9zTnMtMTFsSzRMbFBRTnJZN0VnUkZpZGp3Sjl0MU9KVHhXc2MtV1BtNHlydw?oc=5",
+      "published": "Wed, 26 Aug 2026 16:20:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Long & Short: Tokenized equities: the model underneath the trade - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR2MzeWJ6bkp1ejBmMzZIdTh5RzVLenIzTTY2SElXdmJ1aUkzZ0d6dEVIdEcxTUFlOVNkOTdyYjZtUFpMZFNBWTNhbVJ3RmpfcU02QUtyb0d4MU11eV9hcWNUUW5fb1NDN0piTENXUWpNQ3F6cjNoTG1NaTRiY0VSaGpHZTV6cndWSmtDX2RfM3IzVHE3VDJ2N29FNFJwYWpGc0hORW1reTdqd2xSNVo3bEx4S1ZvQ3hqRGljMjdwT3dQZw?oc=5\" target=\"_blank\">Crypto Long & Short: Tokenized equities: the model underneath the trade</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR2MzeWJ6bkp1ejBmMzZIdTh5RzVLenIzTTY2SElXdmJ1aUkzZ0d6dEVIdEcxTUFlOVNkOTdyYjZtUFpMZFNBWTNhbVJ3RmpfcU02QUtyb0d4MU11eV9hcWNUUW5fb1NDN0piTENXUWpNQ3F6cjNoTG1NaTRiY0VSaGpHZTV6cndWSmtDX2RfM3IzVHE3VDJ2N29FNFJwYWpGc0hORW1reTdqd2xSNVo3bEx4S1ZvQ3hqRGljMjdwT3dQZw?oc=5",
+      "published": "Wed, 26 Aug 2026 15:15:07 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Strive executive predicts Bitcoin could hit $11 million - Yahoo Finance Singapore",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQM2RJVlhpVGpnTC1IOTFfR2p1MVFPN2V4Y1hpSVpkQ0hoT3dVZjMxd0R1eWZ2NTFHRXVUWEw2SlZ1NnN3Wm9FSUJQaHZFcWp5ZlBQR19zQ0Z2U3Z6QVRUdEg2Skw3ZUVYQUVHbDdUMmVQQ2FLNGxSNWgzNG1tQlVZYTRqZVJnRGZ6WnJ4YkVVUkFCUQ?oc=5\" target=\"_blank\">Strive executive predicts Bitcoin could hit $11 million</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Singapore</font>",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM2RJVlhpVGpnTC1IOTFfR2p1MVFPN2V4Y1hpSVpkQ0hoT3dVZjMxd0R1eWZ2NTFHRXVUWEw2SlZ1NnN3Wm9FSUJQaHZFcWp5ZlBQR19zQ0Z2U3Z6QVRUdEg2Skw3ZUVYQUVHbDdUMmVQQ2FLNGxSNWgzNG1tQlVZYTRqZVJnRGZ6WnJ4YkVVUkFCUQ?oc=5",
+      "published": "Wed, 26 Aug 2026 16:20:51 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "OKX Research: 90% of College Students Demand Crypto and Blockchain Education - FF News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOMW9sYzNFNndVdDIwamVQVUN6UjE1dFBuZkt6LWZvbjdpdWkwTXJ2T2FIRV93a005My05R1JKVms3MllXY19iTnhJUDRodVJoemxtNFZqdHRsdXBfXzRBMGYxR2Fha2xfZDBVWTAtX3VZWWFNWDJfMFYzai1tWmgwWE1lbUFmUk9WRWFRUmFhbTRSUXJIUXhGVXBNdmFPd0pOQjNZOXBBaw?oc=5\" target=\"_blank\">OKX Research: 90% of College Students Demand Crypto and Blockchain Education</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FF News</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMW9sYzNFNndVdDIwamVQVUN6UjE1dFBuZkt6LWZvbjdpdWkwTXJ2T2FIRV93a005My05R1JKVms3MllXY19iTnhJUDRodVJoemxtNFZqdHRsdXBfXzRBMGYxR2Fha2xfZDBVWTAtX3VZWWFNWDJfMFYzai1tWmgwWE1lbUFmUk9WRWFRUmFhbTRSUXJIUXhGVXBNdmFPd0pOQjNZOXBBaw?oc=5",
+      "published": "Wed, 26 Aug 2026 15:28:16 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Tokenized deposits could raise borrowing costs, Fed economists warn - Cryptonews.net",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uLWdmV0xaNHF2TTVEY0tBejNEWWR1LW01QmpxSVdVV2hGZmt6VVdtM0lONmtveUlhcVhfU1V4R0s3UVVSVVdIZmZiaXA3X1FTQ2ZfczNXZjc?oc=5\" target=\"_blank\">Tokenized deposits could raise borrowing costs, Fed economists warn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews.net</font>",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uLWdmV0xaNHF2TTVEY0tBejNEWWR1LW01QmpxSVdVV2hGZmt6VVdtM0lONmtveUlhcVhfU1V4R0s3UVVSVVdIZmZiaXA3X1FTQ2ZfczNXZjc?oc=5",
+      "published": "Wed, 26 Aug 2026 15:11:19 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "summary": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8837d1a33b97422597c14d38ead5dc82",
+      "published": "2026-08-26T15:00:01.896000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+      "summary": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/653dce6a74234b999d7a189c0fa49a80",
+      "published": "2026-08-26T09:00:02.034000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-08-26",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9bf3e55d2add4e74a6c644b899864413",
+      "published": "2026-08-25T18:00:08.383000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-25)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/bda2e5ae3e3d46718a14a493521f6078",
+      "published": "2026-08-25T12:30:01.817000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19)",
+      "summary": "Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3e662272597c44b7939f5db5c8c86d4f",
+      "published": "2026-08-19T10:30:09.387000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0872245db74c4daaabd4f11984ba52c1",
+      "published": "2026-08-17T10:15:25.476000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/343eff2647754fb1bd0664bba24e9a36",
+      "published": "2026-08-13T15:15:05.015000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-12",
+      "summary": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2e02db3c8dcd4a03a365655c501aa7c9",
+      "published": "2026-08-12T12:00:34.213000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 1 bStocks Trading Pair on Binance Spot - 2026-08-12",
+      "summary": "Binance Exchange Adds 1 bStocks Trading Pair on Binance Spot - 2026-08-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f884f8f195a419eb855510d203def2a",
+      "published": "2026-08-12T11:30:02.221000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DOSUSDT Perpetual Contract (2026-08-11)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DOSUSDT Perpetual Contract (2026-08-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a2ee872d61654a5bb43a87c3122b5706",
+      "published": "2026-08-11T22:00:02.967000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-11)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/45c2f20d589b420e80063ab75feb41f2",
+      "published": "2026-08-10T17:15:27.706000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/307687ad279e42e6909ee1be8c472b50",
+      "published": "2026-08-06T10:30:12.862000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets - 2026-08-05",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets - 2026-08-05",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4ac8fb01d4a63837045a660e7d03b",
+      "published": "2026-08-05T17:00:09.838000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-08-05",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-08-05",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ae96da838d754f91bced1501de728f03",
+      "published": "2026-08-05T10:30:01.986000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch GIGADEVUSDT USDⓈ-Margined Perpetual Contract (2026-08-03)",
+      "summary": "Binance Futures Will Launch GIGADEVUSDT USDⓈ-Margined Perpetual Contract (2026-08-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e8bfd0c5adaf4d8a880bb1b7327107ef",
+      "published": "2026-08-03T10:30:09.135000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GRVTUSDT Perpetual Contract (2026-07-31)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GRVTUSDT Perpetual Contract (2026-07-31)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/20536b05b2a34b87a3bae99c45d0dc91",
+      "published": "2026-07-31T19:30:11.662000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "summary": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6a167ac6ee74496b83a820675aea1dbe",
+      "published": "2026-07-29T17:00:01.546000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-07-29",
+      "summary": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-07-29",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd",
+      "published": "2026-07-29T14:30:02.972000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-29)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/93b5cd2280874d9cb4303827374b940d",
+      "published": "2026-07-29T14:15:21.576000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/30b76da5daf8469a9f71b09a7441691e",
+      "published": "2026-07-28T14:00:00+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 65 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 65，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-08-26T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "一周暴涨45%，活跃地址激增650%，XRP反弹动能增强但10美元目标仍乏支撑 - Yellow.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgNBVV95cUxNWGpKcTFhVEhVVG1oc0UxLVFSUUxiYzAxeXU5Y0J2Yzg1N1p1TGV5RlRiSzNaTmtha3ZKWkEzRVNXMmM4TG1QeGhCemg4SVFvZ1RabTJNckNXUmNjU0toTEtJeElmTE9yd3B0YmdtZzZsanZzbDZZWnVTa2lxeG55QXpmMHh3N1hTQWJiLTc2bl9FbzhfYkx1c0pQQWJ1YTJSWUlRQ0h2dzNtUm1fczJCX29XSnZIWENfNW9ZeEhEaWplX1NjWF9WNGFlQVdjdVVmU09KZXh2YUQ2d1JITW1IUG51bmJqMThZVmJMdnJkdzhNUFdac2F0S3ZwazhINUlWQnFPekg0MUdRTU8tMllZUDlMX0RRSWZSXzRyU19Uc3Z5ejVBa1pYMW1teWNydDVRSWpGcWw2QlNScWZXOGJZWDBNY3VESS12dG1rdHFKY0",
+      "link": "https://news.google.com/rss/articles/CBMikgNBVV95cUxNWGpKcTFhVEhVVG1oc0UxLVFSUUxiYzAxeXU5Y0J2Yzg1N1p1TGV5RlRiSzNaTmtha3ZKWkEzRVNXMmM4TG1QeGhCemg4SVFvZ1RabTJNckNXUmNjU0toTEtJeElmTE9yd3B0YmdtZzZsanZzbDZZWnVTa2lxeG55QXpmMHh3N1hTQWJiLTc2bl9FbzhfYkx1c0pQQWJ1YTJSWUlRQ0h2dzNtUm1fczJCX29XSnZIWENfNW9ZeEhEaWplX1NjWF9WNGFlQVdjdVVmU09KZXh2YUQ2d1JITW1IUG51bmJqMThZVmJMdnJkdzhNUFdac2F0S3ZwazhINUlWQnFPekg0MUdRTU8tMllZUDlMX0RRSWZSXzRyU19Uc3Z5ejVBa1pYMW1teWNydDVRSWpGcWw2QlNScWZXOGJZWDBNY3VESS12dG1rdHFKY0JYVmxjMGpQdEVYN3NhMkZ2bjNHLVJBSjZBUFJrNm9lYzdoelB5WHl6NWtIcEFOT0dlZUktUzhQcEtweEhQYWxXNlE?oc=5",
+      "published": "Wed, 26 Aug 2026 16:30:31 GMT"
+    }
+  ]
+}
