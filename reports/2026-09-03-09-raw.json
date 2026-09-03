@@ -1,0 +1,309 @@
+{
+  "date": "2026-09-03",
+  "hour": "09",
+  "total": 43,
+  "fetched_at": "2026-09-03T09:00:49.297565+08:00",
+  "news": [
+    {
+      "source": "Decrypt",
+      "title": "Anthropic Admits Security Failures Behind Claude Hacking Incidents",
+      "summary": "After Claude models accessed real systems during cyber tests, Anthropic tightened its safeguards and warned that flawed training can encourage dangerous behavior.",
+      "link": "https://decrypt.co/377232/anthropic-security-claude-ai-hacks",
+      "published": "Wed, 02 Sep 2026 23:46:04 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "An AI Training Data Startup Just Became Y Combinator's Fastest-Ever Unicorn",
+      "summary": "Afterquery's valuation jumped more than tenfold in five months, making it Y Combinator's fastest unicorn ever.",
+      "link": "https://decrypt.co/377231/afterquery-ai-tradining-data-unicorn-y-combinator",
+      "published": "Wed, 02 Sep 2026 23:16:04 +0000"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "OpenAI Astra疑似已进API后台：模型ID从400变404",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，OpenAI Responses API 对疑似 Astra 的模型 ID gpt-6-astra 开始返回 404「Not Found」。</p><p><br />此前乱填不存在的模型名会返回 400，gpt-6-astra 现在却变成 404。按 OpenAI API 的错误码差异，这说明该模型 ID 疑似已经进入后台，但尚未对外开放。<br /></p><p>类似信号此前也出现在 Anthropic Fable 5.1 上。它上线 AWS Bedrock 前，模型 ID 同样从 400 变成 404，随后正式发布。</p><p><br />不过 gpt-6-astra 未必是最终名称。《The Information》此前称，OpenAI 一度考虑把 Astra 命名为 GPT-6，后来又放弃了这个方案。</p>",
+      "link": "https://www.theblockbeats.info/flash/365008",
+      "published": "Thu, 03 Sep 2026 00:38:09 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Robinhood Chain单日费用达375万美元，超越Solana、以太坊和Base总和",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，据链上数据，Robinhood Chain 过去 24 小时链上费用达 375 万美元，超过 Solana、以太坊主网和 Base 三条公链同期费用总和。</p>",
+      "link": "https://www.theblockbeats.info/flash/365007",
+      "published": "Thu, 03 Sep 2026 00:37:37 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某巨鲸/机构清仓HYPE，盈利1.32亿美元",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，据余烬监测，某个 7 月底从质押赎回 288.6 万枚 HYPE 的巨鲸/机构完成清仓，20 分钟前将最后的 96.9 万枚 HYPE (约 7918 万美元) 转入 Coinbase Prime 及 FalconX。</p><p><br /></p><p>去年初其以约 19.8 美元均价囤积与质押 288.6 万枚 HYPE，最近一个月内以约 64.9 美元均价清仓，实现盈利 1.32 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/365006",
+      "published": "Thu, 03 Sep 2026 00:26:47 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美CFTC拟出台规则应对预测市场与关联交易公司之间潜在利益冲突",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，据 The Information 报道，美国商品期货交易委员会（CFTC）正在审议相关规则，以解决预测市场平台及其关联交易公司之间可能存在的利益冲突。</p>",
+      "link": "https://www.theblockbeats.info/flash/365005",
+      "published": "Thu, 03 Sep 2026 00:23:11 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Coldcard Wave 3攻击者首次转移盗取资金，部分资产兑换为ETH",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，Galaxy Digital 研究主管 Alex Thorn 表示，Coldcard Wave 3 攻击者近期首次转移盗取资金，并通过跨链去中心化交易平台 THORChain 将部分资产兑换为 ETH。这是 Wave 1、Wave 2 或 Wave 3 攻击事件中，资金首次从攻击者最初的钱包地址转移至链上其他地址。</p><p><br /></p><p>目前，Wave 3 被盗资金中约 90% 仍未被转移。链上活动显示，攻击者在通过 THORChain 兑换资金时似乎遇到一定问题，部分交易不断遭到退款，但攻击者仍在持续尝试兑换剩余资金。</p>",
+      "link": "https://www.theblockbeats.info/flash/365003",
+      "published": "Thu, 03 Sep 2026 00:20:44 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "ARB 24小时涨超12%，Robinhood链上热潮带来新增收入",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，据 HTX 行情数据，ARB 上涨突破 0.12 美元，现报 0.1239 美元，24 小时涨幅 12.55%。</p><p><br /></p><p>Arbitrum 基金会今日发布未经审计报告显示，Arbitrum DAO 在 2026 年上半年获得 619 万美元收入。协议收入毛利率超过 97%，6 月底非 ARB 财库资产达 1.25 亿美元。基于 Arbitrum 技术栈构建的 Robinhood Chain 于 7 月 1 日上线主网，当月为 DAO 贡献 36 万美元许可费，占当月收入的 35%。</p>",
+      "link": "https://www.theblockbeats.info/flash/365002",
+      "published": "Thu, 03 Sep 2026 00:14:26 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Kraken母公司Payward将IPO计划推迟至最早2027年Q2",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，Kraken 母公司 Payward 已推迟备受市场关注的首次公开募股（IPO）计划，预计最早将于 2027 年第二季度上市。据两位知情人士透露，这家总部位于怀俄明州的公司目前暂无计划在此之前上市。</p><p><br /></p><p>这一延期意味着，作为加密行业最受关注的上市计划之一，Kraken IPO 的等待时间将进一步延长。</p>",
+      "link": "https://www.theblockbeats.info/flash/365001",
+      "published": "Thu, 03 Sep 2026 00:08:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "韩国KOSPI指数盘初上涨1.14%",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，据 Bitget 行情数据，韩国 KOSPI 指数 9 月 3 日（周四）开盘上涨 75.08 点，涨幅 1.14%，报 6637.8 点。三星电子和 SK 海力士涨超 1.5%。</p><p><br /></p><p>日经 225 指数 9 月 3 日（周四）开盘上涨 251.73 点，涨幅 0.39%，报 64577.37 点。</p>",
+      "link": "https://www.theblockbeats.info/flash/365000",
+      "published": "Thu, 03 Sep 2026 00:03:06 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美媒：美军周二护航40艘商船通过海峡，船上载有1800万桶石油",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，据 CNN 援引两名熟悉相关行动的美国官员称，美国军方在美东时间周二护送 40 艘载有 1800 万桶石油的商船通过霍尔木兹海峡，创下战时新高。此前，美国与伊朗周二展开新一轮交锋。</p><p><br /></p><p>据这两名官员透露，美国动用了多种空中、海上和太空力量，在持续打击伊朗袭击海峡商船的能力的同时，还抵御了多轮无人机袭击，为这些满载数百万桶石油的船只实施高风险护航。一名官员称，美军还在护航行动期间拦截并摧毁了反舰巡航导弹。据官员透露，此次行动正值美国调整战争战略之际。</p><p><br /></p><p>特朗普政府目前将打击海峡周边目标、护航商船通过这一关键水道，以及维持对伊朗港口的海上封锁置于优先位置，作为对伊朗政权领导层施加更大经济压力的「全面施压」行动的一部分。尽管周二的行动取得成功，但美国官员并不认为冲突即将得到迅速解决。即便有美军护航，能源企业仍对派遣船只通过霍尔木兹海峡所涉及的巨大风险心存顾虑。</p>",
+      "link": "https://www.theblockbeats.info/flash/364999",
+      "published": "Thu, 03 Sep 2026 00:00:43 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "PONS市值短时突破5亿美元，创历史新高",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，据 <a href=\"https://t.me/gmgnaibot?start=i_m4TE56o8\" rel=\"noopener\" target=\"_blank\">GMGN</a> 行情，Robinhood 链代币发行平台 <a href=\"https://gmgn.ai/robinhood/token/i_m4TE56o8_0x39dbed3a2bd333467115de45665cc57f813c4571\" target=\"_blank\">PONS</a> 市值今晨短时突破 5 亿美元，创历史新高，现报 4.6 亿美元，6 小时涨幅 18.7%。</p><p><br /></p><p>PONS 为 Robinhood Chain 原生代币发行平台 Pons 的平台代币，该平台支持固定供应代币的创建与发行，并将收取的 WETH 费用用于回购 PONS、收取的 PONS 费用直接销毁，被部分社区视为 Robinhood Chain 上的 Pump.fun。</p><p><br /></p><p>BlockBeats 提醒用户，此类代币",
+      "link": "https://www.theblockbeats.info/flash/364998",
+      "published": "Wed, 02 Sep 2026 23:38:03 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "油价涨势暂歇缓解通胀担忧，美股终结三连跌，比特币维持震荡",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，美国 8 月「小非农」数据不及预期。特朗普放话称准备再次打击伊朗。由于市场仍在评估美伊重新相互进行军事打击的影响，原油先涨后跌。WTI 原油盘中一度站上 90 美元大关，但随后迅速回落并回吐日内全部涨幅，最终收跌 0.28%，报 89.12 美元/桶；布伦特原油最终收跌 0.11%，报 94.30 美元/桶。</p><p><br /></p><p>据 BIT（bit.com）行情数据，美股周三收盘，道指收涨 0.56%，标普 500 指数涨 0.46%、纳指涨 0.45%。英伟达 (NVDA.O) 和甲骨文涨 3%，SK 海力士 (SKHY.O) 和美光科技 (MU.O) 涨超 2%，戴尔 (DELL.N) 大涨 15.7%。</p><p><br /></p><p>据 HTX 行情数据，比特币现报 77,195 美元，24 小时跌幅 0.13%。</p>",
+      "link": "https://www.theblockbeats.info/flash/364997",
+      "published": "Wed, 02 Sep 2026 23:31:07 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "惠与第三财季净营收略高于预期，股价盘后跌近5%",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，惠与（HPE）第三财季净营收 122.1 亿美元，分析师预期 119 亿美元。预计全年调整后每股收益（EPS）为 3.75-3.85 美元，公司原本预计 3.35-3.45 美元。</p><p><br /></p><p>据 BIT（bit.com）行情数据，惠与美股盘后跌近 5%。</p>",
+      "link": "https://www.theblockbeats.info/flash/364996",
+      "published": "Wed, 02 Sep 2026 23:04:43 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美联储褐皮书：经济温和增长，数据中心与AI投资成重要支撑",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，美联储当地时间周三发布的褐皮书显示，过去两个月美国经济活动温和增长，数据中心需求表现尤为突出。美联储表示，经济前景「积极」，但能源价格和地缘政治带来的不确定性，使不同行业的信心表现存在差异。</p><p><br /></p><p>在消费领域，高端支出仍保持稳健，但消费者对价格更加敏感。几个辖区的企业联系人表示，消费者对价格的高度敏感，限制了企业将投入成本上涨转嫁给终端消费者的能力。</p><p><br /></p><p>与此同时，大多数美联储辖区的物价呈现温和加速上涨。就业方面，全国就业人数略有增加。劳动力需求的变化并不均衡。报告称，制造业、建筑业和部分服务业仍较常见健康的劳动力需求，而零售和酒店业的劳动力需求则出现下降。</p><p><br /></p><p>制造业活动在大多数美联储辖区有所增长，主要受到国防和数据中心订单需求推动。报告对人工智能和数据中心的提及次数，也反映出这两类投资在当前经济活动中的突出地位。全文共 19 次提及人工智能，25 次提及数据中心。</p>",
+      "link": "https://www.theblockbeats.info/flash/364995",
+      "published": "Wed, 02 Sep 2026 23:02:30 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美联储褐皮书：经济前景总体积极但不确定性上升",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，美联储当地时间周三发布的褐皮书显示，自 7 月初以来，美国经济活动温和增长。12 个联储辖区中，10 个地区录得轻微至温和增长，2 个地区没有变化。</p><p><br /></p><p>消费支出小幅增加，但消费者价格敏感度提高，高端消费保持强劲；汽车销售受到信心疲软、高油价和融资成本上升影响而表现低迷。制造业活动在多数地区回升，部分地区称国防和数据中心相关订单需求强劲。就业市场增长放缓，整体仅略有增加，制造业、建筑业等领域劳动力需求较好，但零售和酒店行业需求下降。</p><p><br /></p><p>价格方面，多数地区报告物价温和上涨，能源、运输、原材料及关税带来的成本压力仍在。企业预计未来经济前景总体积极，但对能源价格、政策和国际冲突带来的不确定性保持关注。</p>",
+      "link": "https://www.theblockbeats.info/flash/364994",
+      "published": "Wed, 02 Sep 2026 23:02:12 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Snowflake上调年度销售预期，AI助手采用率推动股价大涨21%",
+      "summary": "<p>BlockBeats 消息，9 月 3 日，据 BIT（bit.com）行情数据，Snowflake(SNOW.N) 在公布季度业绩后上调全年销售预期，并表示其 AI 辅助编码工具 CoCo 采用速度加快，推动公司盘后股价上涨超过 21%。</p><p><br /></p><p>Snowflake 预计截至明年 1 月的财年产品营收约为 60.7 亿美元，高于 5 月预测，并超过分析师平均预期的 58.6 亿美元。产品销售约占公司总营收的 95%。公司表示，季度内新增超过 2000 个客户账户使用 CoCo，使总使用账户数达到 9100 个。</p><p><br /></p><p>Snowflake 是一家帮助企业在云端组织和分析数据的软件公司，正将人工智能功能融入其平台。截至 7 月的季度，Snowflake 产品营收同比增长 37% 至 14.9 亿美元，高于分析师预期的 14.2 亿美元；剩余履约义务（衡量未来订单规模）为 90 亿美元，低于分析师平均预期的 93.7 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/364993",
+      "published": "Wed, 02 Sep 2026 23:01:03 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Kraken blocked my withdrawals because scammers poisoned my wallet address. Their own support explained the mechanics.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Four years on Kraken. Used the same way always: buy, hold, withdraw to my own self-custody wallet (Phantom). Really, peanuts. Same address for 18 months, 11 successful withdrawals since February. On 2 September I sold about $2,000 of BTC for USDC, tried to withdraw to that same address and got cancelled!</p> <p>Got two emails: my account is restricted as a **scam**-prevention measure, and that specific address is &quot;not supported&quot; going forward. Kraken's",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w5qhcs/kraken_blocked_my_withdrawals_because_scammers/",
+      "published": "2026-09-02T23:15:04+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "The IMF explicitly ordered El Salvador to stop buying Bitcoin. They kept buying anyway.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1w5sh23/the_imf_explicitly_ordered_el_salvador_to_stop/\"> <img alt=\"The IMF explicitly ordered El Salvador to stop buying Bitcoin. They kept buying anyway.\" src=\"https://external-preview.redd.it/IP7xwGiju0B89wOc3zwfYDz5-hEmuDM-_Q0swWDOY8k.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=bd230e1d913e268710f0807f0a7b181b10474cc3\" title=\"The IMF explicitly ordered El Salvador to stop buying Bitcoin. They kept buying anyway.",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w5sh23/the_imf_explicitly_ordered_el_salvador_to_stop/",
+      "published": "2026-09-03T00:41:49+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "I actually built the thing",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1w5sste/i_actually_built_the_thing/\"> <img alt=\"I actually built the thing\" src=\"https://external-preview.redd.it/E84r0ed4XDOu6GCVBwcMFGG82GBSl9-16E3-uFcfSsM.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=42729d27f97433c83354163ec9fe2dab01b2bdfe\" title=\"I actually built the thing\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I posted Sectorly here a few days ago and got some pretty brutal feedback.<br /> Fair eno",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w5sste/i_actually_built_the_thing/",
+      "published": "2026-09-03T00:56:39+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Tether froze $42 million of two people's USDT four months before any warrant existed, and they weren't even part of the case it was later tied to. If you hold stablecoins, this lawsuit is about you.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1w5sbpp/tether_froze_42_million_of_two_peoples_usdt_four/\"> <img alt=\"Tether froze $42 million of two people's USDT four months before any warrant existed, and they weren't even part of the case it was later tied to. If you hold stablecoins, this lawsuit is about you.\" src=\"https://external-preview.redd.it/_C7g9D8TmtlcZdLruEiVbXbPAxu28hJNF982A007Ij8.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=174e78b5868bdb0ba534bae",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w5sbpp/tether_froze_42_million_of_two_peoples_usdt_four/",
+      "published": "2026-09-03T00:35:04+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Liam Shai Beware of crypto SCAM",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>SERIOUS CRYPTO FRAUD WARNING — PLEASE READ BEFORE SENDING FUNDS OR CONNECTING A CRYPTO WALLET</p> <p>I am posting this as a formal warning based on my personal experience and information I have obtained from other individuals who report similar experiences for @liamshaii on Instagram and @liam.shai on TikTok who is known as a SCAMMER and defrauds people out of their funds. Completly untrustworthy and falsifies &quot;testimonials&quot;.</p> <p>I personally lost $",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w5rhpv/liam_shai_beware_of_crypto_scam/",
+      "published": "2026-09-02T23:58:44+00:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8f5c893fa654432883f481b120b0a016",
+      "published": "2026-09-02T17:30:11.613000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/989347def916494f98bf3ba5ec8f9557",
+      "published": "2026-09-02T16:45:05.651000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "summary": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b3ba5cf68daf4264a1260c8da11eef6d",
+      "published": "2026-09-02T16:30:01.247000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined MARSCOINUSDT Perpetual Contract (2026-09-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined MARSCOINUSDT Perpetual Contract (2026-09-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4d9ae75c02114187b699cfe1380ac81e",
+      "published": "2026-09-01T16:45:05.663000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch HK0625USDT USDⓈ-Margined Quanto Perpetual Contract (2026-09-01)",
+      "summary": "Binance Futures Will Launch HK0625USDT USDⓈ-Margined Quanto Perpetual Contract (2026-09-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/969a4628dd5d4a479c071b02175bae57",
+      "published": "2026-09-01T10:15:01.077000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined 牛来USDT Perpetual Contract (2026-08-30)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined 牛来USDT Perpetual Contract (2026-08-30)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6e9e9784397745f4a49d3f69b1cfebda",
+      "published": "2026-08-30T16:35:14.398000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-28)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/32ac927d1cbe4aa3b527eca1c401a98f",
+      "published": "2026-08-28T15:30:09.365000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds bStocks to Spot Trading Bots and Extends Zero Maker Fee Promotion - 2026-08-28",
+      "summary": "Binance Adds bStocks to Spot Trading Bots and Extends Zero Maker Fee Promotion - 2026-08-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4fea39f8b6e54e1b88e388fc90ce323e",
+      "published": "2026-08-28T10:00:05.563000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "summary": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8837d1a33b97422597c14d38ead5dc82",
+      "published": "2026-08-26T15:00:01.896000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+      "summary": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/653dce6a74234b999d7a189c0fa49a80",
+      "published": "2026-08-26T09:00:02.034000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-08-26",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9bf3e55d2add4e74a6c644b899864413",
+      "published": "2026-08-25T18:00:08.383000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-25)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/bda2e5ae3e3d46718a14a493521f6078",
+      "published": "2026-08-25T12:30:01.817000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19)",
+      "summary": "Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3e662272597c44b7939f5db5c8c86d4f",
+      "published": "2026-08-19T10:30:09.387000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0872245db74c4daaabd4f11984ba52c1",
+      "published": "2026-08-17T10:15:25.476000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/343eff2647754fb1bd0664bba24e9a36",
+      "published": "2026-08-13T15:15:05.015000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-12",
+      "summary": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2e02db3c8dcd4a03a365655c501aa7c9",
+      "published": "2026-08-12T12:00:34.213000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 1 bStocks Trading Pair on Binance Spot - 2026-08-12",
+      "summary": "Binance Exchange Adds 1 bStocks Trading Pair on Binance Spot - 2026-08-12",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f884f8f195a419eb855510d203def2a",
+      "published": "2026-08-12T11:30:02.221000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined DOSUSDT Perpetual Contract (2026-08-11)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined DOSUSDT Perpetual Contract (2026-08-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a2ee872d61654a5bb43a87c3122b5706",
+      "published": "2026-08-11T22:00:02.967000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-11)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-11)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/45c2f20d589b420e80063ab75feb41f2",
+      "published": "2026-08-10T17:15:27.706000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/307687ad279e42e6909ee1be8c472b50",
+      "published": "2026-08-06T10:30:12.862000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 65 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 65，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-09-03T08:00:00+08:00"
+    }
+  ]
+}
