@@ -1,0 +1,330 @@
+{
+  "date": "2026-09-08",
+  "hour": "13",
+  "total": 46,
+  "fetched_at": "2026-09-08T13:00:48.049473+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Liquid Network gets back 3,400 bitcoin from whitehat hackers; talks underway for the rest",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/08/white-hat-hackers-return-most-of-usd320m-bitcoin-taken-from-liquid-network",
+      "published": "Tue, 08 Sep 2026 04:41:17 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin slips under $79,000, Zcash leads losses as Fed hike odds hold near 60%",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-under-usd79-000-zcash-leads-losses-as-fed-hike-odds-hold-near-60",
+      "published": "Tue, 08 Sep 2026 04:40:57 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Ethereum aims for quantum-safe L1 by 2029 as Hegotá upgrade takes form",
+      "summary": "Ethereum is targeting full post-quantum security by 2029, starting with account abstraction and censorship resistance upgrades for Hegotá.",
+      "link": "https://www.theblock.co/news/ecosystems/2026-09-08-ethereum-foundation-quantum-resistance-2029-413716",
+      "published": "Tue, 08 Sep 2026 04:17:21 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Liquid ‘white hats’ return $270M in Bitcoin as network prepares restart",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Liquid ‘white hats’ return $270M in Bitcoin as network prepares restart\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1ZHYDRMBN9CQ2AV6CCP6WB8/hacky-hack.png\" /></p><p>The actors returned 85% of the Bitcoin withdrawn from Liquid’s federation wallet following the security incident.</p>",
+      "link": "https://cointelegraph.com/news/liquid-white-hats-return-270m-bitcoin-network-restart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 08 Sep 2026 03:46:17 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国在岸韩元稳定币KRW1接入LayerZero实现跨链",
+      "summary": "【韩国在岸韩元稳定币KRW1接入LayerZero实现跨链】金色财经报道，9月8日，LayerZero发文称，韩国数字资产托管机构BDACS已为韩元支持稳定币KRW1采用LayerZero Labs的OFT（全链同质化代币）标准，实现跨链原生互操作。 \nLayerZero表示，KRW1由此成为首个可在主要DeFi生态间原生转移的韩元稳定币，其供应量可跨网络无缝流动，无需使用封装代币，并可避免流动性碎片化。<p>原文链接: <a href=\"https://x.com/LayerZero_Core/status/2097181739894673816\">https://x.com/LayerZero_Core/status/2097181739894673816</a></p>",
+      "link": "https://jinse.com.cn/lives/531327.html",
+      "published": "Tue, 08 Sep 2026 04:52:52 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "瑞典税务局向6家加密矿企追缴约5650万美元税款",
+      "summary": "【瑞典税务局向6家加密矿企追缴约5650万美元税款】金色财经报道，9月8日，瑞典税务局对6家位于瑞典北部城市博登（Boden）的加密货币挖矿企业追缴约5.4亿瑞典克朗（约5650万美元）的税款及罚款。调查显示，这些企业被指通过复杂的公司架构掩盖实际加密挖矿业务，以获得原本面向普通数据处理中心的税收优惠。 \n瑞典税务局情报部门负责人Patrik Lillqvist表示，相关企业通过特殊安排隐藏其挖矿活动，目的是获取其无权享受的税收优惠。此次行动源于瑞典税务局2024年至2026年开展的行业审计，全国共有9家加密企业被追缴超过5000万美元的未缴税款及罚款，其中6家位于博登的企业占绝大多数。部分涉案企业已提起上诉，但瑞典行政法院及上诉法院此前均维持税务机关的相关认定。其中，Bikupan Datacenter因无法履行税务负担已进入财务重组程序，目前正将案件上诉至瑞典最高行政法院。<p>原文链接: <a href=\"https://news.bitcoin.com/crypto-news/sweden-hits-6-crypto-firms-with-51m-back-tax-demand",
+      "link": "https://jinse.com.cn/lives/531326.html",
+      "published": "Tue, 08 Sep 2026 04:43:29 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "以太坊计划2029年前完成量子安全升级，Hegotá分叉锁定关键EIP",
+      "summary": "【以太坊计划2029年前完成量子安全升级，Hegotá分叉锁定关键EIP】金色财经报道，9月8日，据The Block报道，以太坊基金会协议团队发布Hegotá升级EIP优先级清单，并将以太坊一层在执行、共识和数据三个层面实现“量子安全”的目标时间定为2029年12月。共识层方面，FOCIL（EIP-7805）被列为S级“必上线”，通过强制包含公有内存池交易以增强抗审查能力；执行层方面，Frame Transactions（EIP-8141）同为“必上线”，通过将交易拆分为验证、Gas 支付和执行的可编程“帧”，为原生账户抽象和自定义签名、代付 Gas 等打基础并提升后量子安全准备。协议团队称，从2026年Q4“Glamsterdam”分叉起，后续多次分叉需平均约7.2个月完成，以确保在2030年前后“Q-day”前实现最低可行后量子安全里程碑。<p>原文链接: <a href=\"https://www.theblock.co/news/ecosystems/2026-09-08-ethereum-foundation-quantum-resistance-2029-413716?ut",
+      "link": "https://jinse.com.cn/lives/531325.html",
+      "published": "Tue, 08 Sep 2026 04:25:20 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "香港证监会将“金刚基金/金刚币发行有限公司”列入无牌公司警示名单",
+      "summary": "【香港证监会将“金刚基金/金刚币发行有限公司”列入无牌公司警示名单】金色财经报道，9月8日，香港证监会（SFC）已于9月7日将“金刚基金/金刚币发行有限公司”列入无牌公司警示名单。SFC指出，该实体曾声称在香港设有地址并提供香港电话号码，涉嫌在香港开展无牌活动，并以香港投资者为推销对象，但并未根据《证券及期货条例》获发牌或注册从事受规管活动。SFC此前已于8月19日将“金刚币/金刚基金”列入“可疑投资产品”名单，类别为数字代币相关。<p>原文链接: <a href=\"https://www.sfc.hk/TC/alert-list/3504\">https://www.sfc.hk/TC/alert-list/3504</a></p>",
+      "link": "https://jinse.com.cn/lives/531324.html",
+      "published": "Tue, 08 Sep 2026 04:14:48 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Anthropic和OpenAI的银行家们在首次公开募股后推动获得顶级信用评级",
+      "summary": "【Anthropic和OpenAI的银行家们在首次公开募股后推动获得顶级信用评级】金色财经报道，9月8日，据英国金融时报：Anthropic和OpenAI的银行家们在首次公开募股后推动获得顶级信用评级。(金十)",
+      "link": "https://jinse.com.cn/lives/531323.html",
+      "published": "Tue, 08 Sep 2026 04:07:23 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "金色午报 | 9月8日午间重要动态一览",
+      "summary": "【金色午报 | 9月8日午间重要动态一览】7:00-12:00关键词：Uniswap、Anthropic、Metaplanet \n1.赵长鹏：IPO将迁移至链上； \n2.Uniswap创始人称UNI年化销毁额已突破2.5亿美元； \n3.Anthropic将放弃以60亿美元收购Decart AI的交易； \n4.Robinhood首次担任IPO承销商，参与智能戒指制造商Oura上市； \n5.Tectonic：仍有约 919 万美元未追回，拟淘汰低流动性代币作为合格抵押品； \n6.OpenAI首席科学家：尚无实验室解决AI对齐与监控问题，应设共享安全门槛； \n7.Metaplanet CEO回应薪酬计划争议，承认披露不足并否认参与MMXX交易决策。",
+      "link": "https://jinse.com.cn/lives/531322.html",
+      "published": "Tue, 08 Sep 2026 04:00:37 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "AERO突破0.65美元",
+      "summary": "【AERO突破0.65美元】金色财经报道，行情显示，AERO突破0.65美元，现报0.6588美元，24小时涨幅达到21.15%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/531320.html",
+      "published": "Tue, 08 Sep 2026 03:36:42 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Cronos CEO：未来拟将全部应用收入用于回购销毁 CRO，应用将在 10 天后上线",
+      "summary": "【Cronos CEO：未来拟将全部应用收入用于回购销毁 CRO，应用将在 10 天后上线】金色财经报道，9月8日，Cronos 首席执行官 Ryan Wyatt 发推表示，本周团队将公布其网络上代币发射平台项目登陆 Crypto.com 的资格规则；Cronos 应用将在 10 天后上线；代币经济学提案拟将 100% 应用收入用于回购并销毁 CRO。<p>原文链接: <a href=\"https://x.com/Fwiz/status/2097040096457593181\">https://x.com/Fwiz/status/2097040096457593181</a></p>",
+      "link": "https://jinse.com.cn/lives/531319.html",
+      "published": "Tue, 08 Sep 2026 03:32:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Upbit将上线CP",
+      "summary": "【Upbit将上线CP】金色财经报道，9月8日，据官方消息，Upbit将上线CP，支持KRW、BTC、USDT交易对。",
+      "link": "https://jinse.com.cn/lives/531318.html",
+      "published": "Tue, 08 Sep 2026 03:25:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Netmarble第二季度USDT持仓净增约1916万枚，6月末持有量升至约2233万枚",
+      "summary": "【Netmarble第二季度USDT持仓净增约1916万枚，6月末持有量升至约2233万枚】金色财经报道，9月8日，据Digital Asset报道，韩国手游开发商Netmarble报告显示，其持有的USDT从3月末约316.58万枚增至6月末约2232.76万枚，第二季度净增约1916.18万枚。上半年其累计获取约6216.29万枚、处置等减少约4162.82万枚。 \n公司表示，USDT用于Marblex链上MBX及游戏代币的价值维持、促进用户使用游戏服务及运营支出等，相关损益计入无形资产处置损益。<p>原文链接: <a href=\"https://www.digitalasset.works/news/articleView.html?idxno=42876\">https://www.digitalasset.works/news/articleView.html?idxno=42876</a></p>",
+      "link": "https://jinse.com.cn/lives/531317.html",
+      "published": "Tue, 08 Sep 2026 03:15:30 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Global markets keep shrugging off shocks. Here's what could break that streak, according to HSBC - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ1Q2MGg4ZGRieml1MC0zdjhvWVRlTXJ2S18tMzhuSmNHNGx3N01vdXY3b3FBLTVXZUgtZk5IX0tqenEzLVVEOEIzNG5hREw1TUF6bHJ1QlRfdjNkTHVmNkVPUUVnSkVzbmRXcTh1LVZoY29GRjc1VGFZODZ5ZF8tcFJGRG5WZy1Xb2dFTXo3ZnQwYjZDbHdWYlFBMEJ2d21zSTctOFl5U002QdIBrwFBVV95cUxPbHVmWW9kRlh3NXE4QjYwYlk2S3F5Y0dMZi13NEhmX09yX2VxSHFhV0N5bWZkbURMWlpxOWhkNmFqRFlNTHUxbF9ja0NUVTZqam1qR005b0d3U01nVWRWdVBtS0FBSUtuVEMyQ0p1YWlTWDgyVzdGcXVEYzdQeU83Z3NMc3dfT1doRDJWUnIwYXlfeEJtYUtYbHhTYjFWbHB2eW",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ1Q2MGg4ZGRieml1MC0zdjhvWVRlTXJ2S18tMzhuSmNHNGx3N01vdXY3b3FBLTVXZUgtZk5IX0tqenEzLVVEOEIzNG5hREw1TUF6bHJ1QlRfdjNkTHVmNkVPUUVnSkVzbmRXcTh1LVZoY29GRjc1VGFZODZ5ZF8tcFJGRG5WZy1Xb2dFTXo3ZnQwYjZDbHdWYlFBMEJ2d21zSTctOFl5U002QdIBrwFBVV95cUxPbHVmWW9kRlh3NXE4QjYwYlk2S3F5Y0dMZi13NEhmX09yX2VxSHFhV0N5bWZkbURMWlpxOWhkNmFqRFlNTHUxbF9ja0NUVTZqam1qR005b0d3U01nVWRWdVBtS0FBSUtuVEMyQ0p1YWlTWDgyVzdGcXVEYzdQeU83Z3NMc3dfT1doRDJWUnIwYXlfeEJtYUtYbHhTYjFWbHB2eWZZRXY5VmZtYkdyQ1Rr?oc=5",
+      "published": "Tue, 08 Sep 2026 04:02:43 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "FALKAN Beta — AI-Powered bitcoin Paper Trading Platform | Looking for Early Testers",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1waejd0/falkan_beta_aipowered_bitcoin_paper_trading/\"> <img alt=\"FALKAN Beta — AI-Powered bitcoin Paper Trading Platform | Looking for Early Testers\" src=\"https://preview.redd.it/15go6gn778oh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=729ec59a4c9539ccd33f3f576b7d2392396e0a01\" title=\"FALKAN Beta — AI-Powered bitcoin Paper Trading Platform | Looking for Early Testers\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>We’r",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1waejd0/falkan_beta_aipowered_bitcoin_paper_trading/",
+      "published": "2026-09-08T04:41:55+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin slips under $79,000, Zcash leads losses as Fed hike odds hold near 60% - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNektSNVlCR2QyTUo2VjJSb1ZRckcxUEFkN0lGc0ZsM2h3NFVnNjVVSkpCUnI4WGVCWEdKM2NrOFlscXNsVHZNcHhYbng4dmF6YkFsdy1PanpmMFJRb0FBWWhMLXJWUlZxcDlkQUFBYUtlekFZTXRKSUhSd3pmdFNxSzlfbU55d0VGMi12U3QzZ0Z1NTVrYl81T2dHLU4yZmhwN1ltZl9ZcDZTZXRnMGlTb0tEUmhqSVl0cUVjVi01OA?oc=5\" target=\"_blank\">Bitcoin slips under $79,000, Zcash leads losses as Fed hike odds hold near 60%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNektSNVlCR2QyTUo2VjJSb1ZRckcxUEFkN0lGc0ZsM2h3NFVnNjVVSkpCUnI4WGVCWEdKM2NrOFlscXNsVHZNcHhYbng4dmF6YkFsdy1PanpmMFJRb0FBWWhMLXJWUlZxcDlkQUFBYUtlekFZTXRKSUhSd3pmdFNxSzlfbU55d0VGMi12U3QzZ0Z1NTVrYl81T2dHLU4yZmhwN1ltZl9ZcDZTZXRnMGlTb0tEUmhqSVl0cUVjVi01OA?oc=5",
+      "published": "Tue, 08 Sep 2026 04:40:57 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "New Crypto: AlphaPepe Presale Announces AI DEX Update While Bitcoin Price Prediction Hits $150,000 - markets.businessinsider.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVzFOeTZWVmFCZkZlVVQ3OU80M3RUZWJxSGI5and3X081UmViYVpLRUZ5UWhkUUpUZVRfVXBjUDdKTXFGSk1qNFJfSjdRWnE2dGZvMnNJelo0dnFqWWFVOWo1dGFTc3gwTTdrTWtfcEd3bWhrN18zQXRjTWhUcGtCN0hXNnM3ZWtuUGhFUjRqTjUzMjBfSXoweFFyYTl4ZTRZN0N5UGxTR3dTYXhVYW0tTUJaMjkyQXlkZVAtWGE4cEFVbVM2QXdneU53QkNIWWZESjVsWXBkeVBqZlpaYVQ1d0QxbVpZWjYwVFFN?oc=5\" target=\"_blank\">New Crypto: AlphaPepe Presale Announces AI DEX Update While Bitcoin Price Prediction Hits $150,000</a>&nbsp;&nb",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVzFOeTZWVmFCZkZlVVQ3OU80M3RUZWJxSGI5and3X081UmViYVpLRUZ5UWhkUUpUZVRfVXBjUDdKTXFGSk1qNFJfSjdRWnE2dGZvMnNJelo0dnFqWWFVOWo1dGFTc3gwTTdrTWtfcEd3bWhrN18zQXRjTWhUcGtCN0hXNnM3ZWtuUGhFUjRqTjUzMjBfSXoweFFyYTl4ZTRZN0N5UGxTR3dTYXhVYW0tTUJaMjkyQXlkZVAtWGE4cEFVbVM2QXdneU53QkNIWWZESjVsWXBkeVBqZlpaYVQ1d0QxbVpZWjYwVFFN?oc=5",
+      "published": "Tue, 08 Sep 2026 04:30:41 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Liquid Network gets back 3,400 bitcoin from white-hat hackers; talks underway for the rest - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3cwaHlfV29WV2pva2otenRDOGhoajBmYkV6cFJjSVpMUm9lYUI0Ujd0ZTV0TkNCeDVZd1ZMZTJXaXo5ZVBOSWRnWWVqZFlGbDFTWThFSUtrX1ZSZ2gyTXpmUGgyZUJiTEt1a0FNcTJ6UV9vRFdtbTFKaXl4amdLVmg0WmdQWWsyZUZwa041Y051S0tZUFV3UmF0ZTNtUE95MWFSRGlsRjB6U08xUXpMaU0zbG1GQTg2WVE?oc=5\" target=\"_blank\">Liquid Network gets back 3,400 bitcoin from white-hat hackers; talks underway for the rest</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3cwaHlfV29WV2pva2otenRDOGhoajBmYkV6cFJjSVpMUm9lYUI0Ujd0ZTV0TkNCeDVZd1ZMZTJXaXo5ZVBOSWRnWWVqZFlGbDFTWThFSUtrX1ZSZ2gyTXpmUGgyZUJiTEt1a0FNcTJ6UV9vRFdtbTFKaXl4amdLVmg0WmdQWWsyZUZwa041Y051S0tZUFV3UmF0ZTNtUE95MWFSRGlsRjB6U08xUXpMaU0zbG1GQTg2WVE?oc=5",
+      "published": "Tue, 08 Sep 2026 04:45:30 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BTC price range on Sep 8, 2026 at 12am EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQTW5zYmVOcjNPLTBDSWxHSjV3V1RuampMTkd0dEh6MG5fUi1FRmVBMHR1eW5SN3J0Nm1aWmFuRUJYODFKX3JNenlybEtXWkVmbjBmc0QzY2w2SFMwbDZvbkY1NkQ0ZXd4eDNLd0RTOHRlQXZaUFk0ZDQ2UFZzaktRakNaMjhxb3VvVnNqb3ZvQ19nbTJzUnh6bGRQU0l6NURhOG9OSEJjLXVBcnROT3hPRGdlc3ZSQQ?oc=5\" target=\"_blank\">BTC price range on Sep 8, 2026 at 12am EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTW5zYmVOcjNPLTBDSWxHSjV3V1RuampMTkd0dEh6MG5fUi1FRmVBMHR1eW5SN3J0Nm1aWmFuRUJYODFKX3JNenlybEtXWkVmbjBmc0QzY2w2SFMwbDZvbkY1NkQ0ZXd4eDNLd0RTOHRlQXZaUFk0ZDQ2UFZzaktRakNaMjhxb3VvVnNqb3ZvQ19nbTJzUnh6bGRQU0l6NURhOG9OSEJjLXVBcnROT3hPRGdlc3ZSQQ?oc=5",
+      "published": "Tue, 08 Sep 2026 03:03:30 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BTC price on Sep 8, 2026 at 12am EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOZm5LZ2l6UEtUTVFDaUdsMXh3al9uNW4xMWRzZDVKbndWNXFTMHRBLXd6TkhlaHhpUkROZVVYTG1tOHNIVDBQVVRMY0hYNC1GNnphY0U4Yy1rQWxEN080N0dqMXNlOHhuSzE1dkV0T085eW5fMkJha19BcUNOSGVGVVBoOElXdjFqcUNkOGY4UTdWT3RnTjE5SWpEZElfZ2ZDREJyb3VQNlV4TDdYbnc?oc=5\" target=\"_blank\">BTC price on Sep 8, 2026 at 12am EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZm5LZ2l6UEtUTVFDaUdsMXh3al9uNW4xMWRzZDVKbndWNXFTMHRBLXd6TkhlaHhpUkROZVVYTG1tOHNIVDBQVVRMY0hYNC1GNnphY0U4Yy1rQWxEN080N0dqMXNlOHhuSzE1dkV0T085eW5fMkJha19BcUNOSGVGVVBoOElXdjFqcUNkOGY4UTdWT3RnTjE5SWpEZElfZ2ZDREJyb3VQNlV4TDdYbnc?oc=5",
+      "published": "Tue, 08 Sep 2026 03:04:44 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "France faces $9.4B crypto tax reporting test: Chainalysis - Crypto News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1wSUhKZzlUUUw5NzM5WDRDcG9EQ1pUdjhmTldNeVBXMGpod1pXUjhtRkh2UTBBRi1nMmVVQTBsWGUwdXRZRVFZU3NVNmJZZjJlOFplaFBUX1I5UWJ0U0FrUU9jN01YaElydkRXbG00eWlOUQ?oc=5\" target=\"_blank\">France faces $9.4B crypto tax reporting test: Chainalysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto News</font>",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wSUhKZzlUUUw5NzM5WDRDcG9EQ1pUdjhmTldNeVBXMGpod1pXUjhtRkh2UTBBRi1nMmVVQTBsWGUwdXRZRVFZU3NVNmJZZjJlOFplaFBUX1I5UWJ0U0FrUU9jN01YaElydkRXbG00eWlOUQ?oc=5",
+      "published": "Tue, 08 Sep 2026 04:11:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "XRP price at Sep 8, 2026 at 12am EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOZlA5TldnYTNoOUNFNWtuNFdTYXVuTjZmWWVtLW9uazdkejF0V2g5QnpWZ1JrSkwwQUZfVVhYcFNweUJBaDZzTDRhSFAxczNfOXQ3LWVab3Z1YXFnSHVoblpUNGgxS1hsQWY0cDZIenBKRmp0T2l5OVNiMkhxSjI3cDJJMlZSRWJYV1ZlbElmZU1RVC1OT3hhdUtkRUp4T2NsNHVqVGpqSUg2NnhVaHc?oc=5\" target=\"_blank\">XRP price at Sep 8, 2026 at 12am EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZlA5TldnYTNoOUNFNWtuNFdTYXVuTjZmWWVtLW9uazdkejF0V2g5QnpWZ1JrSkwwQUZfVVhYcFNweUJBaDZzTDRhSFAxczNfOXQ3LWVab3Z1YXFnSHVoblpUNGgxS1hsQWY0cDZIenBKRmp0T2l5OVNiMkhxSjI3cDJJMlZSRWJYV1ZlbElmZU1RVC1OT3hhdUtkRUp4T2NsNHVqVGpqSUg2NnhVaHc?oc=5",
+      "published": "Tue, 08 Sep 2026 03:06:02 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PONSUSDT and 哈基米USDT Perpetual Contracts (2026-09-06)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PONSUSDT and 哈基米USDT Perpetual Contracts (2026-09-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ca3196e008da448da107d397bae0b4b0",
+      "published": "2026-09-06T13:55:11.414000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b8c68539ef9f4925a8d97202d82d98e9",
+      "published": "2026-09-04T20:45:02.072000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+      "summary": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2eaa763831745b2b1701dab45e20225",
+      "published": "2026-09-04T18:15:01.870000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-07)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/89a035c3ee0e4b7782bf0089323d8e78",
+      "published": "2026-09-04T12:46:26.706000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8",
+      "published": "2026-09-03T20:30:25.942000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8f5c893fa654432883f481b120b0a016",
+      "published": "2026-09-02T17:30:11.613000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/989347def916494f98bf3ba5ec8f9557",
+      "published": "2026-09-02T16:45:05.651000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "summary": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b3ba5cf68daf4264a1260c8da11eef6d",
+      "published": "2026-09-02T16:30:01.247000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined MARSCOINUSDT Perpetual Contract (2026-09-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined MARSCOINUSDT Perpetual Contract (2026-09-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4d9ae75c02114187b699cfe1380ac81e",
+      "published": "2026-09-01T16:45:05.663000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch HK0625USDT USDⓈ-Margined Quanto Perpetual Contract (2026-09-01)",
+      "summary": "Binance Futures Will Launch HK0625USDT USDⓈ-Margined Quanto Perpetual Contract (2026-09-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/969a4628dd5d4a479c071b02175bae57",
+      "published": "2026-09-01T10:15:01.077000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined 牛来USDT Perpetual Contract (2026-08-30)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined 牛来USDT Perpetual Contract (2026-08-30)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6e9e9784397745f4a49d3f69b1cfebda",
+      "published": "2026-08-30T16:35:14.398000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-28)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/32ac927d1cbe4aa3b527eca1c401a98f",
+      "published": "2026-08-28T15:30:09.365000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds bStocks to Spot Trading Bots and Extends Zero Maker Fee Promotion - 2026-08-28",
+      "summary": "Binance Adds bStocks to Spot Trading Bots and Extends Zero Maker Fee Promotion - 2026-08-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4fea39f8b6e54e1b88e388fc90ce323e",
+      "published": "2026-08-28T10:00:05.563000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "summary": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8837d1a33b97422597c14d38ead5dc82",
+      "published": "2026-08-26T15:00:01.896000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+      "summary": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/653dce6a74234b999d7a189c0fa49a80",
+      "published": "2026-08-26T09:00:02.034000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-08-26",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9bf3e55d2add4e74a6c644b899864413",
+      "published": "2026-08-25T18:00:08.383000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-25)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/bda2e5ae3e3d46718a14a493521f6078",
+      "published": "2026-08-25T12:30:01.817000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19)",
+      "summary": "Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3e662272597c44b7939f5db5c8c86d4f",
+      "published": "2026-08-19T10:30:09.387000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0872245db74c4daaabd4f11984ba52c1",
+      "published": "2026-08-17T10:15:25.476000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/343eff2647754fb1bd0664bba24e9a36",
+      "published": "2026-08-13T15:15:05.015000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 69 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 69，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-09-08T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "BTC、ETH 价格新闻：随着美联储加息概率维持在约 60%，比特币跌破 79,000 美元 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbzA0aHN0ajREemZMODhES3ZZNGZ5bjQ3c1k0Z05TbTZBRWc0ZU5iaU5YS0x6WW5RQmFUZkFVdTdVVDJqbFQ0bGhyajV2SkZWUFVUMVhib2RmaUNPQkxKNHRZcS1GemxQNE01djkyS2RyRmxSNHlfNmFBQWlzZ3RiQTc3VzlQV291U3JRbFJ5eDZkN1p6TTNqNUtJVmRZMWpjQUVILVd6TmUzLWZmVXNuSUNrM3pqYUE2WTZTX0hPdEhFQlk?oc=5\" target=\"_blank\">BTC、ETH 价格新闻：随着美联储加息概率维持在约 60%，比特币跌破 79,000 美元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbzA0aHN0ajREemZMODhES3ZZNGZ5bjQ3c1k0Z05TbTZBRWc0ZU5iaU5YS0x6WW5RQmFUZkFVdTdVVDJqbFQ0bGhyajV2SkZWUFVUMVhib2RmaUNPQkxKNHRZcS1GemxQNE01djkyS2RyRmxSNHlfNmFBQWlzZ3RiQTc3VzlQV291U3JRbFJ5eDZkN1p6TTNqNUtJVmRZMWpjQUVILVd6TmUzLWZmVXNuSUNrM3pqYUE2WTZTX0hPdEhFQlk?oc=5",
+      "published": "Tue, 08 Sep 2026 04:40:57 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "AI 将摧毁加密货币？Vitalik：不必恐慌，90% 身家就是我的赌注 - 深潮TechFlow",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6bVBYZkQwMlZqQzdNLVFaNmNCeWRhb3I1RHpPMlM5ZXY3clFQOFlZTDdfRFEtNDItT19neHJ0WU4xUVFPODEtNExHTHZmZ0p1eWFNUQ?oc=5\" target=\"_blank\">AI 将摧毁加密货币？Vitalik：不必恐慌，90% 身家就是我的赌注</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">深潮TechFlow</font>",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6bVBYZkQwMlZqQzdNLVFaNmNCeWRhb3I1RHpPMlM5ZXY3clFQOFlZTDdfRFEtNDItT19neHJ0WU4xUVFPODEtNExHTHZmZ0p1eWFNUQ?oc=5",
+      "published": "Tue, 08 Sep 2026 03:08:40 GMT"
+    }
+  ]
+}
