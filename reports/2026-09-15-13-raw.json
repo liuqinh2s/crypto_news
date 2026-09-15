@@ -1,0 +1,281 @@
+{
+  "date": "2026-09-15",
+  "hour": "13",
+  "total": 39,
+  "fetched_at": "2026-09-15T13:00:51.184050+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Solana transactions just got more than 3 times bigger, giving an edge over Ethereum",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/09/15/solana-transactions-just-got-more-than-3-times-bigger-giving-an-edge-over-ethereum",
+      "published": "Tue, 15 Sep 2026 04:34:10 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Democrats send counteroffer to Republicans over Clarity Act provisions",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/09/15/democrats-send-counteroffer-to-republicans-over-clarity-act-provisions",
+      "published": "Tue, 15 Sep 2026 04:09:01 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. House panel shares crypto tax bill ahead of hearing later this week",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/09/14/u-s-house-panel-shares-crypto-tax-bill-ahead-of-hearing-later-this-week",
+      "published": "Tue, 15 Sep 2026 03:27:38 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/15/bitcoin-slips-to-usd77-800-as-senate-clarity-act-vote-nears-and-oil-prices-climb",
+      "published": "Tue, 15 Sep 2026 03:23:28 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Ethereum, Base developers abandon effort to align account abstraction proposals",
+      "summary": "The talks to align two proposals, EIP-8130 and EIP-8141, fell short of a shared standard after the two sides diverged on priorities.",
+      "link": "https://www.theblock.co/news/ecosystems/2026-09-15-ethereum-base-account-abstraction-proposals-414775",
+      "published": "Tue, 15 Sep 2026 04:35:26 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "US DOJ seeks $61 million in crypto proceeds from illicit Iranian oil sales laundered on Binance",
+      "summary": "Prosecutors alleged that two Chinese companies used Binance to launder those funds to Iran and its proxies.",
+      "link": "https://www.theblock.co/news/regulation/2026-09-15-doj-61-million-crypto-proceeds-iranian-oil-sales-414768",
+      "published": "Tue, 15 Sep 2026 04:01:48 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "CoinEx to cease operation after 9 years, citing ‘significant’ crypto contraction",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"CoinEx to cease operation after 9 years, citing ‘significant’ crypto contraction\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2HJPZRCHW98XR8YR97CKYKA/crypto-winter.jpg\" /></p><p>CoinEx said falling trading volumes and liquidity, along with rising regulatory and compliance costs, had exceeded “reasonable boundaries,” with withdrawals remaining open until Dec. 22.</p>",
+      "link": "https://cointelegraph.com/news/coinex-cease-operation-citing-significant-crypto-contraction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 15 Sep 2026 04:19:16 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Balancer eyes wind-down after restructuring fails to revive revenue",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Balancer eyes wind-down after restructuring fails to revive revenue \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2HHXN4JX4VQKB9WX83V8K8J/single-leaf-on-tree-balancer.jpg\" /></p><p>Balancer cut costs and shipped new products after restructuring, but Marcus Hardt says v3 failed to replace legacy revenue as November’s $128 million exploit continued to weigh on adoption. </p>",
+      "link": "https://cointelegraph.com/news/balancer-eyes-wind-down-after-restructuring-fails-revive-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 15 Sep 2026 03:33:23 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "DEX聚合器0x：恶意Uniswap v4 Hooks激增，通过报价与结算价差欺骗用户",
+      "summary": "【DEX聚合器0x：恶意Uniswap v4 Hooks激增，通过报价与结算价差欺骗用户】金色财经报道，9月15日，DEX聚合器0x于X平台发文称，今年以来，0x已经撮合了8192万笔交易，交易量达到426.7亿美元，其中约70%的交易涉及Uniswap 流动性。 \n与此同时，我们每个月都会收到数十个关于审查和集成v4 Hooks的请求，因此我们见过其中优秀的设计，也见过存在问题的设计。但最近，我们甚至开始看到一些恶意的Hooks。 \n过去几周，0x发现恶意Uniswap v4 Hooks的数量出现令人担忧的增长。这些Hooks被设计成在报价请求阶段以一种价格展示交易，而在实际结算时却以另一种价格执行交易。 \n恶意Hooks的攻击模式各不相同，但最终结果都是一样的：通过欺骗聚合器、钱包和交易应用，从用户手中窃取资金。<p>原文链接: <a href=\"https://x.com/0xProject/status/2099578032960995502\">https://x.com/0xProject/status/2099578032960995502</a></p>",
+      "link": "https://jinse.com.cn/lives/532326.html",
+      "published": "Tue, 15 Sep 2026 04:43:17 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Weapon shortfalls, 'hundreds' of buildings and aircraft damaged, $33.4 billion spent: the U.S. government tallies costs of the Iran war - cnbc.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOU2g2cmRJTDd4WUJrcVIwTVhrbGZZZm5iZi1MWEpoTWdUdGY3dmI2ZUFQaVc3WE45eHNac2c3eHFzVy10dGI2Qm5PbFRlM3pvSmw5bGhLMVVmZU9aRDVRM05Ya2xJYlc1WkhyVGhtM0tqeTdDTFRTeDZvSHllend3Ui16ejNoSzZpLWdsN2ItMDF2LWNj0gGaAUFVX3lxTE16bzhDWEpYVUNNRkVRbTVGZmFYZEFVaW1zZV90M3dGNVlmTFNuTnVEdW92cmhqSEt3VE9leVN3a2F5ZjN0X0lrM09jdnZuS1NYZHdtejlYWEZ6NVVZMFhLSWtzcG5QUmd6dWRkdzFiUFoxNE9DcjZyc1NiWWFybkE5Tzl5LXgyOThaS1NPZWxEZE9hSEhBeER2NGc?oc=5\" target=\"_blank\">Weapon shortfall",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU2g2cmRJTDd4WUJrcVIwTVhrbGZZZm5iZi1MWEpoTWdUdGY3dmI2ZUFQaVc3WE45eHNac2c3eHFzVy10dGI2Qm5PbFRlM3pvSmw5bGhLMVVmZU9aRDVRM05Ya2xJYlc1WkhyVGhtM0tqeTdDTFRTeDZvSHllend3Ui16ejNoSzZpLWdsN2ItMDF2LWNj0gGaAUFVX3lxTE16bzhDWEpYVUNNRkVRbTVGZmFYZEFVaW1zZV90M3dGNVlmTFNuTnVEdW92cmhqSEt3VE9leVN3a2F5ZjN0X0lrM09jdnZuS1NYZHdtejlYWEZ6NVVZMFhLSWtzcG5QUmd6dWRkdzFiUFoxNE9DcjZyc1NiWWFybkE5Tzl5LXgyOThaS1NPZWxEZE9hSEhBeER2NGc?oc=5",
+      "published": "Tue, 15 Sep 2026 03:45:00 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Daily Crypto Discussion",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Welcome to the Daily Crypto Discussion thread. Please read the disclaimer and rules before participating.</p> <p> </p> <h1>Disclaimer:</h1> <p>Consider all information posted here with several liberal heaps of salt, and always cross check any information you may read on this thread with known sources. Any trade information posted in this open thread may be highly misleading, and could be an attempt to manipulate new readers by known &quot;pump and dump (PnD) gro",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wgpnom/daily_crypto_discussion/",
+      "published": "2026-09-15T04:03:31+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Coinex Exchange Closing down",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>After operating for 9 years, Coinex Exchange has announced that they are closing down for good. Remove all your funds ASAP to avoid any issues. Deadline is December.</p> <p>Link to X post: <a href=\"https://x.com/coinexcom/status/2099680522758721756\">https://x.com/coinexcom/status/2099680522758721756</a></p> <p>After prudent evaluation, and in light of the prolonged downturn in the cryptocurrency market, the significant contraction in overall industry trading vol",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wgpnl2/coinex_exchange_closing_down/",
+      "published": "2026-09-15T04:03:25+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT3dNRGdFcERGYUwtOXFqOW5Zc21ocGpsQkJzWjFwckNiWGIzRlJlYVdpUjJkdmZOakdJcVp6QWZEZjduejJuUUxWTnZJMXk2NFBWOFZ4c19qR1FJeC1jREpzbnJ2ekRfT1BfdG1fWEl0NVM1NnZpZ09tWTFaNy1vTzhpUTBlcmhUTjhybzZRZGFLOVFBSHlDYnJHM0drdE8zb0JxZlZ3Mi1Yd0NwSHZFamt1OGdZTUw3dXZvd2cxWDdLZw?oc=5\" target=\"_blank\">Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT3dNRGdFcERGYUwtOXFqOW5Zc21ocGpsQkJzWjFwckNiWGIzRlJlYVdpUjJkdmZOakdJcVp6QWZEZjduejJuUUxWTnZJMXk2NFBWOFZ4c19qR1FJeC1jREpzbnJ2ekRfT1BfdG1fWEl0NVM1NnZpZ09tWTFaNy1vTzhpUTBlcmhUTjhybzZRZGFLOVFBSHlDYnJHM0drdE8zb0JxZlZ3Mi1Yd0NwSHZFamt1OGdZTUw3dXZvd2cxWDdLZw?oc=5",
+      "published": "Tue, 15 Sep 2026 03:23:28 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "How Poland lost $230mn trying to buy Venezuelan oil with crypto - Financial Times",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNV0FOUjlQb29KMWVZX1RoVzREQzBvdVhodFNIWU1GYTF4REREYVp1TEQ3d1NKLWFRTEdJSjdyQndXTjFBSzhtQms2NGJXeUxJNGlPemVXNVhZMU12ajdqUkdlY3E3QjVXazhHUWZIbUs4WG16RjVhZDFiZFB1QnVqRzFmYk4?oc=5\" target=\"_blank\">How Poland lost $230mn trying to buy Venezuelan oil with crypto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV0FOUjlQb29KMWVZX1RoVzREQzBvdVhodFNIWU1GYTF4REREYVp1TEQ3d1NKLWFRTEdJSjdyQndXTjFBSzhtQms2NGJXeUxJNGlPemVXNVhZMU12ajdqUkdlY3E3QjVXazhHUWZIbUs4WG16RjVhZDFiZFB1QnVqRzFmYk4?oc=5",
+      "published": "Tue, 15 Sep 2026 04:02:25 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Is Holding Firm, Ethereum Is Pulling In Money: Here’s What Crypto Positioning Shows - CryptoRank",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNTjhNMHlkdnZKeFZMNmJ5dmg4UW11YVFpYUFjWnhTcnVpWlB0b3BrejVUQWx6T3R3dHU2UlpReVlmcXV5T3ZxQXFyejl2Zmp6OWxiZElwTUo3MGxGMV9OVDQxNy1tX0tjcjRTVzRYU1lZRDJ0SVU2ZDZGZWtwTW5weEFHY3hUNDBfMGF1SUhFVzlxMlJ3VjgtN1NoRTNOem00OWdRNFhSMG1DdTJ3RlBfd25FSTZRX3p5cVU4TDl3R1FibnMt?oc=5\" target=\"_blank\">Bitcoin Is Holding Firm, Ethereum Is Pulling In Money: Here’s What Crypto Positioning Shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTjhNMHlkdnZKeFZMNmJ5dmg4UW11YVFpYUFjWnhTcnVpWlB0b3BrejVUQWx6T3R3dHU2UlpReVlmcXV5T3ZxQXFyejl2Zmp6OWxiZElwTUo3MGxGMV9OVDQxNy1tX0tjcjRTVzRYU1lZRDJ0SVU2ZDZGZWtwTW5weEFHY3hUNDBfMGF1SUhFVzlxMlJ3VjgtN1NoRTNOem00OWdRNFhSMG1DdTJ3RlBfd25FSTZRX3p5cVU4TDl3R1FibnMt?oc=5",
+      "published": "Tue, 15 Sep 2026 04:40:16 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Treasury Firms Stack Ethereum, Solana, and Bitcoin Through a Jittery September Market - BeInCrypto",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZRUVvSFMxNVVQbkV2bDRaU2xmVDc3VWtfOUpaTEpucWR1R3hIYlJ0cHZCZnZtRGpCMDJENW1GRXo0aXVfQk1IaldBUTQwLVB4MU5EdHBNS2Znc1RfWFNOWjRhQW9uX3Z2?oc=5\" target=\"_blank\">Treasury Firms Stack Ethereum, Solana, and Bitcoin Through a Jittery September Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZRUVvSFMxNVVQbkV2bDRaU2xmVDc3VWtfOUpaTEpucWR1R3hIYlJ0cHZCZnZtRGpCMDJENW1GRXo0aXVfQk1IaldBUTQwLVB4MU5EdHBNS2Znc1RfWFNOWjRhQW9uX3Z2?oc=5",
+      "published": "Tue, 15 Sep 2026 03:40:00 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Crypto treasury firms buy Ethereum, Solana, and Bitcoin amid market jitters before Fed rate decision - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDlUSjJBOVJSNFhXUWgwemhwSUhZZDRyWXZfQWcxR2d0YkN1OEdoamhZM1Nrb2FiNVM3bkZFb19uOVN0OW00YTBTeFVNaDBaeDNOc1ZCVEFTQmNCSkhESWtKcUlqZ2JBNk9QVmFHcGpaZUQxOFZpUFpOLVJRUnppa18yNFdlaG9xVWZuMnpGOTVZbElpUmpRRVVxWG1SRXkwRHIyYm1TNTZmV2lGWjJGcFNB?oc=5\" target=\"_blank\">Crypto treasury firms buy Ethereum, Solana, and Bitcoin amid market jitters before Fed rate decision</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDlUSjJBOVJSNFhXUWgwemhwSUhZZDRyWXZfQWcxR2d0YkN1OEdoamhZM1Nrb2FiNVM3bkZFb19uOVN0OW00YTBTeFVNaDBaeDNOc1ZCVEFTQmNCSkhESWtKcUlqZ2JBNk9QVmFHcGpaZUQxOFZpUFpOLVJRUnppa18yNFdlaG9xVWZuMnpGOTVZbElpUmpRRVVxWG1SRXkwRHIyYm1TNTZmV2lGWjJGcFNB?oc=5",
+      "published": "Tue, 15 Sep 2026 04:13:33 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add BNCB bStocks Tokenized Securities as Collateral Asset - 2026-09-14",
+      "summary": "Binance Will Add BNCB bStocks Tokenized Securities as Collateral Asset - 2026-09-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/437f116183e243ce8759ac8cc580881f",
+      "published": "2026-09-14T17:30:06.783000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds CEA Industries (BNCB) bStocks Trading Pair on Binance Spot/Convert - 2026-09-14",
+      "summary": "Binance Exchange Adds CEA Industries (BNCB) bStocks Trading Pair on Binance Spot/Convert - 2026-09-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d625f87897a843febc1f4c139740d875",
+      "published": "2026-09-14T17:00:04.044000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 牛来 (牛来) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add 牛来 (牛来) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/39fe3154675948fbb164b1e63e036629",
+      "published": "2026-09-09T22:15:15.144000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List 牛来 (牛来) with Seed Tag Applied",
+      "summary": "Binance Will List 牛来 (牛来) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6133e417dcfe43a8ad20c0db1b53c7e8",
+      "published": "2026-09-09T19:30:19.513000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-09",
+      "summary": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-09",
+      "link": "https://www.binance.com/zh-CN/support/announcement/026d4dfdc82940a5924b22442bcb651e",
+      "published": "2026-09-09T15:00:16.577000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Salesforce (CRMB) and Hims & Hers Health (HIMSB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-09",
+      "summary": "Binance Exchange Adds Salesforce (CRMB) and Hims & Hers Health (HIMSB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-09",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7880bcb7f4744d8bbbba88cbbcd43124",
+      "published": "2026-09-09T11:00:01.882000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PONSUSDT and 哈基米USDT Perpetual Contracts (2026-09-06)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PONSUSDT and 哈基米USDT Perpetual Contracts (2026-09-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ca3196e008da448da107d397bae0b4b0",
+      "published": "2026-09-06T13:55:11.414000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b8c68539ef9f4925a8d97202d82d98e9",
+      "published": "2026-09-04T20:45:02.072000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+      "summary": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2eaa763831745b2b1701dab45e20225",
+      "published": "2026-09-04T18:15:01.870000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-07)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/89a035c3ee0e4b7782bf0089323d8e78",
+      "published": "2026-09-04T12:46:26.706000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8",
+      "published": "2026-09-03T20:30:25.942000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8f5c893fa654432883f481b120b0a016",
+      "published": "2026-09-02T17:30:11.613000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/989347def916494f98bf3ba5ec8f9557",
+      "published": "2026-09-02T16:45:05.651000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "summary": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b3ba5cf68daf4264a1260c8da11eef6d",
+      "published": "2026-09-02T16:30:01.247000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined MARSCOINUSDT Perpetual Contract (2026-09-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined MARSCOINUSDT Perpetual Contract (2026-09-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4d9ae75c02114187b699cfe1380ac81e",
+      "published": "2026-09-01T16:45:05.663000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch HK0625USDT USDⓈ-Margined Quanto Perpetual Contract (2026-09-01)",
+      "summary": "Binance Futures Will Launch HK0625USDT USDⓈ-Margined Quanto Perpetual Contract (2026-09-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/969a4628dd5d4a479c071b02175bae57",
+      "published": "2026-09-01T10:15:01.077000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined 牛来USDT Perpetual Contract (2026-08-30)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined 牛来USDT Perpetual Contract (2026-08-30)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6e9e9784397745f4a49d3f69b1cfebda",
+      "published": "2026-08-30T16:35:14.398000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-28)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/32ac927d1cbe4aa3b527eca1c401a98f",
+      "published": "2026-08-28T15:30:09.365000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds bStocks to Spot Trading Bots and Extends Zero Maker Fee Promotion - 2026-08-28",
+      "summary": "Binance Adds bStocks to Spot Trading Bots and Extends Zero Maker Fee Promotion - 2026-08-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4fea39f8b6e54e1b88e388fc90ce323e",
+      "published": "2026-08-28T10:00:05.563000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "summary": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8837d1a33b97422597c14d38ead5dc82",
+      "published": "2026-08-26T15:00:01.896000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 69 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 69，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-09-15T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "随着参议院《清晰法案》投票临近，比特币、XRP 和 SOL 价格下跌 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNWFlwY2NsTW55RWJ4WEdmV21VTGV6NERYMGM5ampJNUI4WDcyZTBTbld1MkMwUFc1a2JDeDNZNzFqUzJDUXVIVVVVaHFlb01heVBHR3oyS1lNUktjRGZnMk82Ui05QkszNWNzSEVCRTdxc3RQclNwMXE1RFc5ZEJkQWJCUmt0MXFWQk43aV9ZR0Z2dXVWczZGMjhCZDdKc1hQUHA4NHhXN0tsYkNzSk9ZZXBad1M1Ym5jeGxQMUNraG9JNDdER3c?oc=5\" target=\"_blank\">随着参议院《清晰法案》投票临近，比特币、XRP 和 SOL 价格下跌</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWFlwY2NsTW55RWJ4WEdmV21VTGV6NERYMGM5ampJNUI4WDcyZTBTbld1MkMwUFc1a2JDeDNZNzFqUzJDUXVIVVVVaHFlb01heVBHR3oyS1lNUktjRGZnMk82Ui05QkszNWNzSEVCRTdxc3RQclNwMXE1RFc5ZEJkQWJCUmt0MXFWQk43aV9ZR0Z2dXVWczZGMjhCZDdKc1hQUHA4NHhXN0tsYkNzSk9ZZXBad1M1Ym5jeGxQMUNraG9JNDdER3c?oc=5",
+      "published": "Tue, 15 Sep 2026 03:23:28 GMT"
+    }
+  ]
+}
