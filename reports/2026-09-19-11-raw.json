@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-19",
+  "hour": "11",
+  "total": 40,
+  "fetched_at": "2026-09-19T11:00:54.459094+08:00",
+  "news": [
+    {
+      "source": "金色财经",
+      "title": "Radix 基金会：金库授权漏洞导致跨链资产被提取，已完成漏洞修复",
+      "summary": "【Radix 基金会：金库授权漏洞导致跨链资产被提取，已完成漏洞修复】金色财经报道，9月19日，全栈 DeFi 项目 Radix 基金会发布攻击事件报告。8 月 31 日有攻击者利用 Radix Engine 金库授权漏洞，在未经所有者授权的情况下从第三方金库提取资产，经 Hyperlane 跨链桥转出并在外部链出售。该漏洞源于 2023 年 6 月的一次代码整理，2024 年 8 月 Zellic 进行的独立安全审计亦未发现该问题。 \n被盗资产涉及经 Hyperlane 跨链的 ETH、WBTC、USDT、USDC、BNB、SOL 及少量用于手续费的 XRD，受影响范围包括生态合约与流动性池金库。事件发生后团队启动应急操作，Hyperlane 随后暂停与 Radix 相关操作，验证者主动下线足量质押份额以中断网络活性，阻止漏洞被进一步利用。基金会称其已完成漏洞修复并经过独立审查和测试，目前正推进网络恢复。<p>原文链接: <a href=\"https://www.radixdlt.com/blog/public-incident-report-vault-authorisation-",
+      "link": "https://jinse.com.cn/lives/532846.html",
+      "published": "Sat, 19 Sep 2026 02:48:35 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Polygon：计划永久销毁1亿枚POL，此后社区可按季度继续销毁",
+      "summary": "【Polygon：计划永久销毁1亿枚POL，此后社区可按季度继续销毁】金色财经报道，9月19日，Polygon Foundation CEO Sandeep Nailwal表示，Polygon计划永久销毁1亿枚POL，相关合约已部署至测试网，待Security Council完成最终签名后将上线主网。此后，社区可按季度继续销毁进入费用收集器的POL。自2026年1月以来，POL已进入通缩状态，网络基础费用会持续进入费用收集器，目前已累计约1.21亿枚POL。Polygon 2026年迄今收入为2,450万美元。",
+      "link": "https://jinse.com.cn/lives/532845.html",
+      "published": "Sat, 19 Sep 2026 02:28:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "交易员Boomer以2,610美元均价追加1万枚ETH多单",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，据 EmberCN 监测，交易员 Boomer 继止盈 1.43 万枚 ZEC，最终获利 523.7 万美元后，以 2,610 美元均价追加 1 万枚 ETH 多单，他目前在 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 上总盈利高达 2228 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/367963",
+      "published": "Sat, 19 Sep 2026 02:43:42 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Anthropic给第三方员工级权限，老伙伴埃森哲先进场",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，Anthropic 正式开始落地「嵌入式评估」。埃森哲旗下 AI 公司 Faculty 将派人进入 Anthropic 内部，评测和红队测试模型、做对齐评估，并检查安全措施。</p><p><br /></p><p>这和普通的外部评测差别很大。评估员会拿到接近员工的权限，可以查看模型训练过程，了解开发和部署决策，还能直接和内部员工沟通。</p><p><br /></p><p>双方未来五年各投入至少 10 亿美元建设这套评估能力。Anthropic 也承认，目前行业连统一规则都没有，评估员具体能看什么、结果怎么公开、钱由谁出都还在定。眼下埃森哲的评估工作由 Anthropic 直接付钱。</p><p><br /></p><p>但埃森哲本身就是 Anthropic 的长期战略合作伙伴，还专门成立了 Anthropic Business Group，培训约 3 万人使用 Claude。AI Evaluator Forum 同日提出的最低条件之",
+      "link": "https://www.theblockbeats.info/flash/367960",
+      "published": "Sat, 19 Sep 2026 02:28:32 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Polygon将永久销毁1亿枚POL，相关合约已部署至测试网",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，Polygon 联合创始人 Sandeep Nailwal 发文表示，Polygon 网络目前已准备永久销毁 1 亿枚 POL，相关合约已部署至测试网，待安全委员会完成最终签名后将上线主网。1 亿枚 POL 将被永久移出流通，此后社区还可每季度触发 POL 销毁。</p><p><br /></p><p>目前 Polygon 累计基础费用已沉淀 1210 万枚 POL。Nailwal 称，自 2026 年 1 月以来 POL 已处于通缩状态，网络活动仍持续增长，并已将网络扩容至 5000 TPS。</p>",
+      "link": "https://www.theblockbeats.info/flash/367959",
+      "published": "Sat, 19 Sep 2026 02:27:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "本周宏观热点回顾：沃什首次出手加息，沙特抢修输油生命线",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，本周全球市场围绕美联储加息、中东冲突和 AI「减速」争议剧烈波动。美联储自 2023 年 7 月以来首次加息至 3.75%—4%，沃什上任后的首次政策调整引发关注；日本央行同步加息至 31 年高位，但日元反而走弱。中东方面，霍尔木兹海峡和沙特能源设施持续承压，沙特开始抢修受损输油管线。AI 行业则突然集体讨论发展速度，土耳其股市也因基金赎回和流动性危机大跌。</p><p><br /></p><p>1、美联储全票加息，沃什首次出手</p><p><br /></p><p>美联储将利率上调 25 个基点至 3.75%—4%，为 2023 年 7 月以来首次加息，也是沃什出任主席后的首次政策调整。点阵图显示，18 名官员中 16 人预计 2026 年至少还会再加息一次，2026 年利率中值由 3.8% 升至 4.1%。沃什称通胀仍「过高，而且持续时间太久」，当前金融条件并不算紧缩。特朗普则表示，美国利率「应该是 1% 或更低」。</p><p><br /></p><p>2、日本央行加息，日元却继续走弱</p><p><br /></p><p>日本",
+      "link": "https://www.theblockbeats.info/flash/367958",
+      "published": "Sat, 19 Sep 2026 02:24:07 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "交易员Boomer止盈1.43万枚ZEC多单，获利524万美元",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，据 AI 姨监测，ZEC 持续刷新历史新高，<a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 交易员 Boomer 于 5 分钟前清仓止盈 1.43 万枚 ZEC，最终获利 523.7 万美元，以约 1,559.6 美元的价格离场。</p>",
+      "link": "https://www.theblockbeats.info/flash/367956",
+      "published": "Sat, 19 Sep 2026 02:18:35 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Visa正着手关闭Meme币信用卡购买返现漏洞",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，Visa 已告知支付行业参与者，Crossmint 处理 Meme 币交易时使用的「数字商品媒体」商户类别码并不适用于 Meme 币购买。Visa 已通知包括 Checkout.com 在内的支付处理商停止使用该类别码，并给予相关机构过渡期，预计下周结束。</p><p><br /></p><p>此前 Robinhood Wallet 和 Fomo 用户可通过 Apple Pay 或 Google Pay 使用 Visa、Mastercard 信用卡购买 Meme 币，相关交易通过 Crossmint 处理，却被标记为电子书、电影等数字媒体交易，从而绕过加密交易分类并获得普通信用卡积分或现金返还。</p><p><br /></p><p>摩根大通此前向 Visa 提出相关交易分类问题，Visa 随后认定至少一笔交易被错误归类，不应获得信用卡奖励。未来 Meme 币购买需按照加密货币交易进行处理，并适用 Visa 相应的规则和限制。</p>",
+      "link": "https://www.theblockbeats.info/flash/367951",
+      "published": "Sat, 19 Sep 2026 02:02:54 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Garrett Jin所持ZEC空单浮亏扩大至3383万美元，爆仓价4790美元",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，据 <a href=\"https://tradingbeats.xyz/tracking?address=0x92ea19eceb7a8de0f50978a1583a5d8b018050e9\" target=\"_blank\">TradingBeats</a> 监测，「BTC OG 内幕巨鲸」代理人 Garrett Jin 所持有的 ZEC 空单浮亏已达 3383 万美元，空单仓位规模达 37,999.54 枚 ZEC，价值 5933 万美元，资金费率收入 66 万美元，爆仓价格为 4790 美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/367950",
+      "published": "Sat, 19 Sep 2026 01:56:54 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "公链Linera宣布停止运营，曾获a16z投资，已全额退还社区轮公募融资",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，Layer1 区块链 Linera 团队发布声明称，受资金短缺影响，Linera 将立即停止运营，并在可预见的未来内不再恢复。</p><p><br /></p><p>此前在 Sonar 平台发起的社区轮公募共获得近 90 万美元认购承诺，但未达到最低成交付款门槛，所有出资已全额退还。</p><p><br /></p><p>团队后续虽积极寻求紧急资金以支撑项目推进至主网，最终未能成功。Linera 方面强调，此决定与技术本身、团队实力及社区无关，对所有支持者表示感谢。</p><p><br /></p><p>BlockBeats 此前报道，2023 年，8 月 16 日，Layer1 区块链 Linera 完成 600 万美元融资，Borderless Capital 领投。新资金将用于「扩大团队、启动该协议的开发网和测试网，并在亚太地区培养战略影响力，同时继续发展其开发者学院」。</p><p><br /></p><p>2022 年 6 月 29 日，Layer1 区块链 Linera 宣布完成 600 万美元种子轮融资，本轮融资由 a1",
+      "link": "https://www.theblockbeats.info/flash/367949",
+      "published": "Sat, 19 Sep 2026 01:50:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "持仓ETH超3年巨鲸将2.1万枚ETH存入CEX，或进行部分止盈操作",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，据 EmberCN 监测，某巨鲸/机构 3 年前从 Bitfinex 提取并囤积了 112,066 枚 ETH，当时 ETH 价格约 2,030 美元，持仓成本约 2.27 亿美元。随着 ETH 近期突破 2,600 美元，其累计浮盈一度达到约 6,645 万美元，收益率约 29%。</p><p><br /></p><p>约 2 小时前，该实体将其中一个地址持有的 21,229 枚 ETH（价值约 5,593 万美元）转入 Bitfinex，或进行部分止盈操作。</p>",
+      "link": "https://www.theblockbeats.info/flash/367946",
+      "published": "Sat, 19 Sep 2026 01:35:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "因呼吁放缓AI发展，Anthropic、OpenAI等AI巨头面临共谋指控",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，根据周五在联邦法院提起的民事诉讼，AI 巨头 Anthropic、OpenAI、SpaceX AI 和谷歌因近期呼吁协调放缓 AI 发展而面临共谋指控。</p><p><br /></p><p>诉状称，Anthropic 首席执行官达里奥·阿莫代伊本月早些时候公开呼吁「行业范围协调」以「为前沿设定节奏」，并得到 SpaceXAI 负责人埃隆·马斯克、OpenAI 首席执行官萨姆·奥尔特曼和谷歌 DeepMind 联合创始人德米斯·哈萨比斯的赞同，这相当于竞争对手之间根据美国反垄断法达成的非法商业协议。</p><p><br /></p><p>代表四名原告在加州北区法院提起诉讼的律师之一尼克·罗利表示，此案旨在确保世界上最强大的营利性科技公司之间的私下自私协议不会导致 AI「迅速失控于人类控制」。当涉及核战争等灭绝事件威胁以及如今人类历史上最大的风险时，人类理应得到铁一般的保障。法治应由美国政府透明、合法地确立，并对公众负责。</p>",
+      "link": "https://www.theblockbeats.info/flash/367945",
+      "published": "Sat, 19 Sep 2026 01:29:40 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Gemini黑进3家公司，模型没越狱，是测试环境误开公网",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，谷歌确认，Gemini 在一次网络安全评测中误入 3 家真实公司的系统。一家靠猜密码进入，另外两家从公开代码库找到登录凭证。Gemini 判断目标是真实公司后都停了手。整个过程没有发生沙箱逃逸，因为公网入口本来就是开着的。<br /><br />问题出在第三方评测公司 Irregular。测试本来不该访问公网，但环境配置错误，模型可以直接联网。模拟公司还和真实公司撞名，Gemini 顺着任务一路找到了外面的真实系统。Irregular 称，这和此前其他实验室发生的同类事故是同一个问题。<br /><br />Anthropic、OpenAI 和 Meta 此前都在 Irregular 的评测中踩过类似的坑。Anthropic 和 OpenAI 都确认，相关事故源于测试环境误开公网；OpenAI 还特意强调，没有复杂的沙箱逃逸，也没有利用零日漏洞。独立媒体 Effort 因此批评，这批事故后来被包装成了「模型失控」故事。</p>",
+      "link": "https://www.theblockbeats.info/flash/367942",
+      "published": "Sat, 19 Sep 2026 01:23:04 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Robinhood生态热门Meme币普跌，AI 12小时跌近14%",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，据 <a href=\"https://t.me/gmgnaibot?start=i_m4TE56o8\" target=\"_blank\">GMGN</a> 行情数据，Robinhood 生态热门 Meme 币普跌，其中：</p><p><br /></p><p>· PONS 过去 12 小时跌超 7%，市值跌至 6.87 亿美元；</p><p>· AI 过去 12 小时跌近 14%，市值跌至 3.05 亿美元；</p><p>· BONER 过去 12 小时跌超 15%，市值跌至 4959 万美元；</p><p>· MEME  过去 12 小时跌超 13%，市值跌至 3224 万美元；</p><p>· SHROOM 过去 12 小时跌超 20%，市值跌至 1356 万美元；</p><p>· microduck 过去 12 小时跌超 8%，市值跌至 560 万美元。</p><p><br /></p><p>BlockBeats 提醒用户：Meme 币多数无实际用例且行情波动较大，注意资产保护，请勿 FOMO。</p>",
+      "link": "https://www.theblockbeats.info/flash/367941",
+      "published": "Sat, 19 Sep 2026 01:19:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Anthropic终于松口，Claude Code开始兼容AGENTS.md",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，Anthropic 给 Claude Code 加上了 AGENTS.md 支持。</p><p><br /></p><p>2.1.277 版本开始，如果项目里没有 CLAUDE.md，Claude Code 会自动读取 AGENTS.md；用户也可以在 /config 里改成两份都读。AGENTS.md 是跨工具通用的项目规则文件，Codex、Cursor、Gemini CLI、GitHub Copilot 等早已支持。</p><p><br /></p><p>这正是 Shopify CEO Tobi Lütke 八月底公开点名的问题。Shopify 同时用 Claude Code、Codex 等多种 Agent，之前 Claude Code 只认 CLAUDE.md，团队就得维护两套规则。大型代码库里只要某一层漏了同步，不同工具就可能拿到不同规则。Tobi 当时甚至说，正在考虑在 Shopify 禁用 Claude Code。</p>",
+      "link": "https://www.theblockbeats.info/flash/367940",
+      "published": "Sat, 19 Sep 2026 01:14:56 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "OpenAI CEO下周将向联合国安理会介绍AI安全问题",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，据路透社报道，OpenAI 首席执行官奥尔特曼将于下周纽约联合国大会期间，向联合国安理会介绍人工智能与国际安全问题。联合国安理会计划于周三举行关于人工智能和国际安全的公开会议。</p><p><br /></p><p>OpenAI 发言人表示，奥尔特曼的发言预计将重点介绍 OpenAI 为确保 AI 安全、让技术惠及全球采取的措施，以及推动国际协调和建立共同安全标准的必要性。此次会议正值多名 AI 行业人士呼吁协调放缓先进 AI 技术发展之际，相关人士警告，AI 能力快速提升可能带来超出人类控制的风险。</p><p><br /></p><p>奥尔特曼此前也曾长期关注 AI 风险，并在 2015 年一篇文章中表示，超级人工智能的发展可能是人类面临的最大威胁之一。</p>",
+      "link": "https://www.theblockbeats.info/flash/367939",
+      "published": "Sat, 19 Sep 2026 01:05:49 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普称美国“轻松赢得”对伊朗战争，预计冲突将很快结束",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，美国总统唐纳德·特朗普表示，美国正在「轻松赢得」与伊朗的战争，并称伊朗不会获得核武器。</p><p><br /></p><p>他表示，为阻止伊朗拥核，美国民众可能需要承担更高的汽油价格，但如果在「油价上涨」和「伊朗拥有核武器」之间选择，他认为民众会更支持避免伊朗获得核武器。</p><p><br /></p><p>特朗普称，战争将很快结束，届时汽油价格将回落，甚至可能低于战争前水平。他还表示，如果美国没有出动 B-2 轰炸机打击伊朗，伊朗「现在可能已经拥有核武器」。</p>",
+      "link": "https://www.theblockbeats.info/flash/367938",
+      "published": "Sat, 19 Sep 2026 01:05:05 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美元有望录得三个月来最佳周度表现",
+      "summary": "<p>BlockBeats 消息，9 月 19 日，美元有望录得三个月来最佳周度表现，此前美联储释放出将进一步加息的信号。受美国经济增长稳健以及美联储加息后的抗通胀立场推动，美元指数 DXY 本周上涨约 1.1%。</p><p><br /></p><p>美联储三年多来首次加息后，摩根大通、渣打银行和布朗兄弟哈里曼银行均认为，该决定消除了美元走强面临的最大阻碍。周三和周四，美元指数在其 200 日移动均线附近盘整，并于周五小幅升破这一关键水平。历史数据显示，当美元指数日收盘价突破 200 日移动均线后，美元往往会进一步上涨。</p><p><br /></p><p>此前在 3 月和 6 月，该指数突破 200 日移动均线后均出现进一步走强。由于日元在日本央行进行「汇率检查」的报道后收窄跌幅，美元指数回吐了部分周度涨幅。此前该指数本可能录得自 3 月伊朗战争爆发以来最大单周涨幅。日本央行汇率检查通常被视为官方干预的前兆。</p>",
+      "link": "https://www.theblockbeats.info/flash/367936",
+      "published": "Sat, 19 Sep 2026 01:01:44 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Gold and Bitcoin Are Starting to Rhyme? — But They Are Still Not the Same Hedge - Moomoo",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM09XQW82czhUMDh2cVF1WjNUcTBhQTF1TTBYQURvaEhjQUlPaE85cm1aQS1fQVc0eW1LZVVYRjFKai0taGE2U0prSmZrc2hmSFlTbHlaenlGdkVQcGFod3JtSGt3eVZtNnBjTEppbHVpbEc4OUU1U2k2bkpNd0k4Q1c5WVBqN3A2QVlwNnRCM25MV1RYb1RZRXQtVGJoTDQwSkI4RGQ0bHg?oc=5\" target=\"_blank\">Gold and Bitcoin Are Starting to Rhyme? — But They Are Still Not the Same Hedge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM09XQW82czhUMDh2cVF1WjNUcTBhQTF1TTBYQURvaEhjQUlPaE85cm1aQS1fQVc0eW1LZVVYRjFKai0taGE2U0prSmZrc2hmSFlTbHlaenlGdkVQcGFod3JtSGt3eVZtNnBjTEppbHVpbEc4OUU1U2k2bkpNd0k4Q1c5WVBqN3A2QVlwNnRCM25MV1RYb1RZRXQtVGJoTDQwSkI4RGQ0bHg?oc=5",
+      "published": "Sat, 19 Sep 2026 02:05:30 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "summary": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/533eb2f3998a43e3a34df310998bee48",
+      "published": "2026-09-18T22:00:03.166000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcd1b50824c04192b80091599c452ee8",
+      "published": "2026-09-18T16:00:12.684000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined Perpetual Contracts (2026-09-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined Perpetual Contracts (2026-09-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3c2b63c9c3e44d40b8cec99961166fe8",
+      "published": "2026-09-18T15:00:03.437000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Support the Broadcom (AVGO), Invesco QQQ Trust (QQQ), Meta (META), and Seagate (STX) Cash Dividend Distribution via bStocks",
+      "summary": "Binance Will Support the Broadcom (AVGO), Invesco QQQ Trust (QQQ), Meta (META), and Seagate (STX) Cash Dividend Distribution via bStocks",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7df43402f0094e79b293bd7fbb574474",
+      "published": "2026-09-18T13:00:10.872000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-16",
+      "summary": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-16",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a5bf03abedaa4430b1fd04aa760e491b",
+      "published": "2026-09-16T12:30:09.513000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds GoPro (GPROB) and Reddit (RDDTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-16",
+      "summary": "Binance Exchange Adds GoPro (GPROB) and Reddit (RDDTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-16",
+      "link": "https://www.binance.com/zh-CN/support/announcement/da7f14dd847f436ea92330a024ce0245",
+      "published": "2026-09-16T11:00:00.968000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add BNCB bStocks Tokenized Securities as Collateral Asset - 2026-09-14",
+      "summary": "Binance Will Add BNCB bStocks Tokenized Securities as Collateral Asset - 2026-09-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/437f116183e243ce8759ac8cc580881f",
+      "published": "2026-09-14T17:30:06.783000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds CEA Industries (BNCB) bStocks Trading Pair on Binance Spot/Convert - 2026-09-14",
+      "summary": "Binance Exchange Adds CEA Industries (BNCB) bStocks Trading Pair on Binance Spot/Convert - 2026-09-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d625f87897a843febc1f4c139740d875",
+      "published": "2026-09-14T17:00:04.044000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 牛来 (牛来) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add 牛来 (牛来) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/39fe3154675948fbb164b1e63e036629",
+      "published": "2026-09-09T22:15:15.144000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List 牛来 (牛来) with Seed Tag Applied",
+      "summary": "Binance Will List 牛来 (牛来) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6133e417dcfe43a8ad20c0db1b53c7e8",
+      "published": "2026-09-09T19:30:19.513000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-09",
+      "summary": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-09",
+      "link": "https://www.binance.com/zh-CN/support/announcement/026d4dfdc82940a5924b22442bcb651e",
+      "published": "2026-09-09T15:00:16.577000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Salesforce (CRMB) and Hims & Hers Health (HIMSB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-09",
+      "summary": "Binance Exchange Adds Salesforce (CRMB) and Hims & Hers Health (HIMSB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-09",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7880bcb7f4744d8bbbba88cbbcd43124",
+      "published": "2026-09-09T11:00:01.882000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PONSUSDT and 哈基米USDT Perpetual Contracts (2026-09-06)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PONSUSDT and 哈基米USDT Perpetual Contracts (2026-09-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ca3196e008da448da107d397bae0b4b0",
+      "published": "2026-09-06T13:55:11.414000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b8c68539ef9f4925a8d97202d82d98e9",
+      "published": "2026-09-04T20:45:02.072000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+      "summary": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c2eaa763831745b2b1701dab45e20225",
+      "published": "2026-09-04T18:15:01.870000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-07)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-07)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/89a035c3ee0e4b7782bf0089323d8e78",
+      "published": "2026-09-04T12:46:26.706000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8",
+      "published": "2026-09-03T20:30:25.942000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8f5c893fa654432883f481b120b0a016",
+      "published": "2026-09-02T17:30:11.613000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/989347def916494f98bf3ba5ec8f9557",
+      "published": "2026-09-02T16:45:05.651000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "summary": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b3ba5cf68daf4264a1260c8da11eef6d",
+      "published": "2026-09-02T16:30:01.247000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 71 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 71，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-09-19T08:00:00+08:00"
+    }
+  ]
+}
