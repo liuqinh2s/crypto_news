@@ -1,0 +1,337 @@
+{
+  "date": "2026-09-26",
+  "hour": "13",
+  "total": 47,
+  "fetched_at": "2026-09-26T13:00:51.877618+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
+      "published": "Sat, 26 Sep 2026 05:00:00 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets",
+      "published": "Sat, 26 Sep 2026 04:30:00 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
+      "published": "Sat, 26 Sep 2026 04:02:13 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "Vitalik：以太坊节点已可在半天内完成同步，Glamsterdam升级将进一步改善",
+      "summary": "【Vitalik：以太坊节点已可在半天内完成同步，Glamsterdam升级将进一步改善】金色财经报道，9月26日，以太坊联创 Vitalik Buterin 表示，目前以太坊节点可在半天内完成同步，采用激进配置时，磁盘占用可降至 0.5 TB 以下，主要得益于 EIP-4444 以及客户端团队对快照同步的持续优化。未来 Glamsterdam 升级将进一步改善节点同步，Nimbus 的新同步协议已采用相关机制。 \nVitalik 还表示，用户可将钱包的远程过程调用（RPC）指向本地节点，但需正确配置节点的 RPC 功能；部分浏览器内去中心化应用可能无法有效支持本地 RPC，另有一些应用已将 RPC 固定为自有服务器。下一步 Kohaku 命令行工具将进一步集成隐私协议，目前已完成部分早期开发。<p>原文链接: <a href=\"https://x.com/VitalikButerin/status/2103636111260373176\">https://x.com/VitalikButerin/status/2103636111260373176</a></p>",
+      "link": "https://jinse.com.cn/lives/533710.html",
+      "published": "Sat, 26 Sep 2026 04:58:28 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "SEC与CFTC发布加密常见问题更新：代币回购和网络升级不必然构成证券，CFTC允许链上记录保存",
+      "summary": "【SEC与CFTC发布加密常见问题更新：代币回购和网络升级不必然构成证券，CFTC允许链上记录保存】金色财经报道，9月26日，美国证券交易委员会公司金融部于 9 月 25 日发布更新版常见问题解答，明确代币回购、网络升级和营销声明不会自动使加密资产成为证券。SEC 工作人员指出，对已运行加密网络宣布回购计划本身不会使相关代币构成投资合同，但若网络尚未运行且发行人将回购宣传为持有者回报来源，则可能另当别论。FAQ 还明确，一旦加密系统投入运行，为保障、维护、改进或增强该系统或其功能、或促进网络效应而提供的服务，不构成豪威测试下的管理性努力。营销网络现有用途通常也不会产生利润预期，关于未来功能的声明同样如此，前提是不宣传盈利潜力。该更新重申结论仍将高度依赖具体个案，并建立在 SEC 今年 3 月发布的证券法适用于加密资产的解释性发布基础之上。 \n商品期货交易委员会同日更新其加密 FAQ，允许期货公司和清算所将客户资金投资于此前已允许资产的代币化版本，前提是满足投资和托管要求。CFTC 工作人员还表示，受监管公司可使用区块链进行记录保存，但必须能够在区块链或其区块浏览器无法运行时仍可提供记录",
+      "link": "https://jinse.com.cn/lives/533709.html",
+      "published": "Sat, 26 Sep 2026 04:54:19 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "LayerZero正逐步停止为部分活跃度较低区块链提供链下支持",
+      "summary": "【LayerZero正逐步停止为部分活跃度较低区块链提供链下支持】金色财经报道，9月26日，LayerZero 官方公告，正逐步停止为部分活跃度较低的区块链提供链下支持，涉及 Aurora、Taiko、Japan Open Chain、LightLink、Viction、Animechain、XPLA、Merlin、Gnosis、Zora、Otherworld Space、XAI 及 opBNB 共 13 条链，相关网络将无法继续使用 LayerZero 的 DVN 与 Executor 服务。此举也将导致 Stargate Hydra 停止支持其中部分链。LayerZero 提醒用户赎回相关链上的 USDC.e、wETH 及 Hydra USDT 等 Hydra 资产，具体受影响网络及生效日期以官方公告为准。<p>原文链接: <a href=\"https://x.com/layerzero_core/status/2103597917244436675?s=46\">https://x.com/layerzero_core/status/2103597917244436675?s=46",
+      "link": "https://jinse.com.cn/lives/533708.html",
+      "published": "Sat, 26 Sep 2026 04:48:23 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "普京：乌方必须明白，任何挑衅或升级局势的行为只会使其处境更糟糕",
+      "summary": "【普京：乌方必须明白，任何挑衅或升级局势的行为只会使其处境更糟糕】金色财经报道，9月26日，据塔斯社，俄罗斯总统普京25日在接受记者采访时，就乌克兰袭击俄境内民用设施作出表态。根据克里姆林宫发布的消息，当被问及俄乌冲突有关问题时，普京提到乌克兰近期袭击俄炼油厂、电商平台仓库等民用设施，称俄方作出了回应。“他们必须承受俄方实施的报复性打击，也必须明白一点，即任何挑衅或升级局势的行为都不会带来他们想要的结果，反而只会使他们的处境更糟糕。”另据俄新社等媒体报道，普京还称，关于恢复谈判的提议“摆在桌面上”，存在恢复谈判的可能性，但在乌方近期对俄发动袭击的背景下，俄方将认真考虑应采取哪些措施。“无论如何，对于这方面的所有决定，包括涉及可能会恢复的谈判进程的决定，我们都将以俄罗斯联邦利益为出发点。”<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260926120149604800\">https://flash.jin10.com/detail/20260926120149604800</a></p>",
+      "link": "https://jinse.com.cn/lives/533707.html",
+      "published": "Sat, 26 Sep 2026 04:47:13 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "安全团队：若用户曾在Magic Eden以太坊市场交易NFT，建议撤销Limit Break相关合约授权",
+      "summary": "【安全团队：若用户曾在Magic Eden以太坊市场交易NFT，建议撤销Limit Break相关合约授权】金色财经报道，9月26日，RevokeCash 发布安全提醒，若用户曾经在 Magic Eden 的以太坊市场交易过 NFT，钱包很可能被授权了 Limit Break 的 Payment Processor，这个合约现在存在已知漏洞，建议撤销授权。 \n昨日 Magic Eden 官方表示，当前仍在 Magic Eden 挂单的 NFT 未受此次漏洞影响，约在 2024 年 2 月至 10 月期间通过其 EVM 市场挂单的 NFT 可能受到影响，2024 年 10 月之后的挂单原则上不受影响。平台正联系协议所有者及维护方 Limit Break，研究其他风险缓解措施，包括暂停协议转账，并将继续调查实际影响范围。曾在其 EVM 市场挂单或交易 NFT 的用户，应在以太坊、Polygon 及 Base 网络撤销相关合约授权，用户可通过 revoke. cash 筛选该地址，并撤销所有标记为「approved for all」的 NFT 授权。 \n此外，Yuga Labs 区块链副总裁",
+      "link": "https://jinse.com.cn/lives/533706.html",
+      "published": "Sat, 26 Sep 2026 04:45:43 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "谢家印：周一将与Gracy Chen进行社区直播，讨论安全事件并解答社群疑问",
+      "summary": "<figure><img alt=\"886\" src=\"https://img.jinse.com.cn/jinse_1790397512175340099_live-rb.png\" /></figure>【谢家印：周一将与Gracy Chen进行社区直播，讨论安全事件并解答社群疑问】金色财经报道，9月26日，Bitget 华语区负责人谢家印发文表示，Bitget 将确保在足够安全的环境下让用户有序提币。感谢大家的耐心等待。请见谅因为被盗方式的不同，为了绝对排除所有潜在风险，所以与其他案例处理方式也不一样。 \n谢家印还表示，将与 Bitget CEO Gracy Chen 周一下午 3 点半（提现开始前 30 分钟）在社区持续直播，就本次安全事件作出讨论，并解答社区提出的问题。<p>原文链接: <a href=\"https://x.com/xiejiayinBitget/status/2103696642755170784\">https://x.com/xiejiayinBitget/status/2103696642755170784</a></p>",
+      "link": "https://jinse.com.cn/lives/533705.html",
+      "published": "Sat, 26 Sep 2026 04:38:00 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "摩根士丹利：转向看多美元，高收益率将继续挤压全球风险偏好",
+      "summary": "【摩根士丹利：转向看多美元，高收益率将继续挤压全球风险偏好】金色财经报道，9月26日，摩根士丹利已调整此前偏空美元的判断，预计美元强势将延续至 2027 年中。该行预测，美元指数届时将升至 104，欧元兑美元则可能由当前约 1.14 美元回落至 1.10 美元。报告认为，美联储进一步加息预期、美国经济韧性和能源价格长期偏高，均会维持美国利率相对优势，并继续支撑美元。 \n这一判断与近期市场环境高度一致。9 月 25 日，美债 10 年期收益率仍处于约 5.2% 的高位，美元指数在 101 附近波动；美股盘初虽受到 AI 乐观情绪支撑而企稳，比特币也在约 8.49 万美元附近徘徊，但高收益率仍在压制风险资产的估值空间。 \n摩根士丹利此前已将美联储路径调整为年内 12 月和 2027 年 3 月各加息 25 个基点，联邦基金利率区间将升至 4.25%-4.5%，并可能在 2027 年保持这一水平。对外汇市场而言，这意味着美国与其他主要经济体之间的利差优势将难以迅速收窄。 \n报告同时将欧洲政治风险列为欧元的额外压力来源，包括 2027 年春季法国总统选举，以及德国和意大利的选举风险。欧元风险溢",
+      "link": "https://jinse.com.cn/lives/533704.html",
+      "published": "Sat, 26 Sep 2026 04:36:32 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "比尔·盖茨警告AI工具“足够强大” “足以引发导致十亿人死亡的事件”",
+      "summary": "【比尔·盖茨警告AI工具“足够强大” “足以引发导致十亿人死亡的事件”】金色财经报道，9月26日，微软公司联合创始人比尔·盖茨25日警告称，人工智能是一种“足够强大”的工具，“足以引发导致十亿人死亡的事件”。盖茨在NBC《与媒体见面》节目的采访片段中表示，“从未有过任何一种武器，能比得上怀有恶意的人借助最新AI工具所形成的威胁。”盖茨在采访中表示，自我监管是不够的。“你需要执法部门和政界人士参与讨论，探讨保障措施和监督机制应该是什么样的。”他说，“这必须成为一项强制性要求。”（澎湃）<p>原文链接: <a href=\"https://flash.jin10.com/detail/20260926113422927800\">https://flash.jin10.com/detail/20260926113422927800</a></p>",
+      "link": "https://jinse.com.cn/lives/533703.html",
+      "published": "Sat, 26 Sep 2026 04:34:52 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "前X产品负责人：Paid给名人X Money分成极具创意，但应允许选择退出",
+      "summary": "<p>BlockBeats 消息，9 月 26 日，前 X 产品负责人 Nikita 称赞：「Paid 向名人 X Money 账户进行代币手续费分成」是个极具创意的解决方案。不过，如果有人不想与某个代币关联起来，那么应该允许他们选择退出或解除关联。我可以想象，那些交易者会骚扰用户，让他们为该产品代言，并协助发送垃圾回复。<br /><br />Paid 新近上线的代币手续费向 X Money 账户无许可分成的功能引发社群热议，官方称 80% 手续费将经 X Money 发送给 X 用户，20% 将兑换为 SOL 用于回购 PAID 代币。发行者在项目文本描述中加入 X Handle，即可通过 X Money 发送手续费。X 上的名人们甚至不用注册 Paid、无需同意，即可通过 X Money 收到资金分发，部分名人甚至玩笑称 X Money 账户遭遇 DDOS 攻击，频繁收到手续费分成到账通知。</p><p><br /></p><p>PAID 官方今日公告，目前通过代币创作者手续费自动分账工具已成功向 X Money 用户分发 144 万美元。据 <a href=\"https://t",
+      "link": "https://www.theblockbeats.info/flash/369099",
+      "published": "Sat, 26 Sep 2026 04:33:53 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "谢家印：周一将与Gracy Chen进行社区直播，讨论安全事件并解答社群疑问",
+      "summary": "<p>BlockBeats 消息，9 月 26 日，Bitget 华语区负责人谢家印发文表示，Bitget 将确保在足够安全的环境下让用户有序提币。感谢大家的耐心等待。请见谅因为被盗方式的不同，为了绝对排除所有潜在风险，所以与其他案例处理方式也不一样。</p><p><br /></p><p>谢家印还表示，将与 Bitget CEO Gracy Chen 周一下午 3 点半（提现开始前 30 分钟）在社区持续直播，就本次安全事件作出讨论，并解答社区提出的问题。</p>",
+      "link": "https://www.theblockbeats.info/flash/369096",
+      "published": "Sat, 26 Sep 2026 04:12:58 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Bitget将自9月28日起分阶段有序恢复提现",
+      "summary": "<p>BlockBeats 消息，9 月 26 日，Bitget 宣布将分阶段恢复提现，安全事件所涉漏洞已定位并修复，暂停提现为安全措施，与用户资产可用性无关，账户余额未受影响，财务损失由保护基金承担。Mandiant 与 SlowMist 仍在协助调查。交易与充值维持正常。</p><p><br /></p><p>提现计划按时间（UTC+8）推进：</p><p>9 月 28 日 16:00 开放 BTC（Bitcoin 网络）；</p><p>9 月 29 日 16:00 开放 ETH（Ethereum、BSC、Arbitrum、Base、Optimism）；</p><p>9 月 30 日 16:00 开放 USDT（Ethereum、BSC、Solana、Tron）；</p><p>10 月 2 日 16:00 开放其他代币、法币及 P2P。</p><p><br /></p><p>Bitget 称事件已受控，不会再发生未经授权转账，用户无需提前操作，开放进度以平台显示及官方渠道为准。</p>",
+      "link": "https://www.theblockbeats.info/flash/369094",
+      "published": "Sat, 26 Sep 2026 04:02:11 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Genius基金会拟各使用约6.25万美元买入GSTOCK与GENIUS",
+      "summary": "<p>BlockBeats 消息，9 月 26 日，Genius Terminal 联创 Ryan Myher 公布 Genius 基金会约 12.5 万美元无法 unwrap（指解包赎回为底层股票）的 BNB 用途投票结果：50% 将买入 GSTOCK，50% 将买入 GENIUS。这批资金来自 Genius. fun 发行平台进入基金会金库的费用积累。基金会称将按结果执行，完成后在 X 公布。</p><p><br /></p><p>据 <a href=\"https://t.me/gmgnaibot?start=i_m4TE56o8\" rel=\"noopener\" target=\"_blank\">GMGN</a> 数据显示，其平台代币 GENIUS 当前市值 3.45 亿美元。GSTOCK 市值突破 2400 万美元，24 小时涨幅 24.2%，成交量 840 万美元。GSTOCK 代币以 BNB 财库公司 BNC 的链上代币 BNCB 为底池配对。</p><p><br /></p><p>BlockBeats 提醒用户，相关代币价格波动大，用户投资需谨慎。</p>",
+      "link": "https://www.theblockbeats.info/flash/369092",
+      "published": "Sat, 26 Sep 2026 03:55:54 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "摩根士丹利：转向看多美元，高收益率将继续挤压全球风险偏好",
+      "summary": "<p>BlockBeats 消息，9 月 26 日，摩根士丹利已调整此前偏空美元的判断，预计美元强势将延续至 2027 年中。该行预测，美元指数届时将升至 104，欧元兑美元则可能由当前约 1.14 美元回落至 1.10 美元。报告认为，美联储进一步加息预期、美国经济韧性和能源价格长期偏高，均会维持美国利率相对优势，并继续支撑美元。</p><p><br /></p><p>这一判断与近期市场环境高度一致。9 月 25 日，美债 10 年期收益率仍处于约 5.2% 的高位，美元指数在 101 附近波动；美股盘初虽受到 AI 乐观情绪支撑而企稳，比特币也在约 8.49 万美元附近徘徊，但高收益率仍在压制风险资产的估值空间。</p><p><br /></p><p>摩根士丹利此前已将美联储路径调整为年内 12 月和 2027 年 3 月各加息 25 个基点，联邦基金利率区间将升至 4.25%-4.5%，并可能在 2027 年保持这一水平。对外汇市场而言，这意味着美国与其他主要经济体之间的利差优势将难以迅速收窄。</p><p><br /></p><p>报告同时将欧洲政治风险列为欧元的额外压力来源，",
+      "link": "https://www.theblockbeats.info/flash/369090",
+      "published": "Sat, 26 Sep 2026 03:30:57 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "PAID手续费自动分账推动代币市值突破4000万美元，24小时涨幅超360%",
+      "summary": "<p>BlockBeats 消息，9 月 26 日，PAID 官方公告，目前通过代币创作者手续费自动分账工具已成功向 X Money 用户分发 144 万美元。</p><p><br /></p><p><strong>Paid 此前在 19 日于 Pons 上线代币发行功能。官方称 80% 手续费将经 X Money 发送给 X 用户，20% 将兑换为 SOL 用于回购 PAID 代币。发行者在项目文本描述中加入 X Handle，即可通过 X Money 发送手续费。此外，X 上的名人们，甚至不用注册 Paid、无需同意，即可通过 X Money 收到资金分发，部分名人甚至玩笑称 X Money 账户遭遇 DDOS 攻击，频繁收到手续费分成到账通知。</strong></p><p><br /></p><p>据 <a href=\"https://t.me/gmgnaibot?start=i_m4TE56o8\" rel=\"noopener\" target=\"_blank\">GMGN</a> 行情，Solana 上 PAID 市值现已突破 4000 万美元，24 小时涨幅超 360%，同期成",
+      "link": "https://www.theblockbeats.info/flash/369088",
+      "published": "Sat, 26 Sep 2026 03:21:32 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "安全提醒：若用户曾在Magic Eden以太坊市场交易NFT，建议撤销Limit Break相关合约授权",
+      "summary": "<p>BlockBeats 消息，9 月 26 日，RevokeCash 发布安全提醒，若用户曾经在 Magic Eden 的以太坊市场交易过 NFT，钱包很可能被授权了 Limit Break 的 Payment Processor，这个合约现在存在已知漏洞，建议撤销授权。</p><p><br /></p><p>昨日 Magic Eden 官方表示，当前仍在 Magic Eden 挂单的 NFT 未受此次漏洞影响，约在 2024 年 2 月至 10 月期间通过其 EVM 市场挂单的 NFT 可能受到影响，2024 年 10 月之后的挂单原则上不受影响。平台正联系协议所有者及维护方 Limit Break，研究其他风险缓解措施，包括暂停协议转账，并将继续调查实际影响范围。曾在其 EVM 市场挂单或交易 NFT 的用户，应在以太坊、Polygon 及 Base 网络撤销相关合约授权，用户可通过 revoke. cash 筛选该地址，并撤销所有标记为「approved for all」的 NFT 授权。</p><p><br /></p><p>此外，Yuga Labs 区块链副总裁 Quit",
+      "link": "https://www.theblockbeats.info/flash/369087",
+      "published": "Sat, 26 Sep 2026 03:16:15 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Daily Crypto Discussion",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Welcome to the Daily Crypto Discussion thread. Please read the disclaimer and rules before participating.</p> <p> </p> <h1>Disclaimer:</h1> <p>Consider all information posted here with several liberal heaps of salt, and always cross check any information you may read on this thread with known sources. Any trade information posted in this open thread may be highly misleading, and could be an attempt to manipulate new readers by known &quot;pump and dump (PnD) gro",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wqgpej/daily_crypto_discussion/",
+      "published": "2026-09-26T04:02:37+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Inside the 'Shielded Bitcoin' paper that proposes private BTC payments using Zcash tech - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ29SYVlkYk0ycy1YR2tPWnpqaDlwOW5IOWNtMC1qMHF4YTFVek90emVmUXE5NXFuLVNLVkhJSVNVOGhzSG9xQkZlN0RuMnZfc2FvWVgtbXZ6S3c4V0hPX0VhOFdWdXhhOWVFdWFQaFBtX2ZlMzlhS2JBRGs5bXR5UC1faUM5UzZ5a0daZ2NTMnB1MGIybER6WHJFR3hwZURhbU56bVpZNEpDdDJuRzRqNXdKMGpGSGg5Skpv?oc=5\" target=\"_blank\">Inside the 'Shielded Bitcoin' paper that proposes private BTC payments using Zcash tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ29SYVlkYk0ycy1YR2tPWnpqaDlwOW5IOWNtMC1qMHF4YTFVek90emVmUXE5NXFuLVNLVkhJSVNVOGhzSG9xQkZlN0RuMnZfc2FvWVgtbXZ6S3c4V0hPX0VhOFdWdXhhOWVFdWFQaFBtX2ZlMzlhS2JBRGs5bXR5UC1faUM5UzZ5a0daZ2NTMnB1MGIybER6WHJFR3hwZURhbU56bVpZNEpDdDJuRzRqNXdKMGpGSGg5Skpv?oc=5",
+      "published": "Sat, 26 Sep 2026 04:02:13 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "ETH price on Sep 26, 2026 at 1am EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPZW9nTi1oRjdqeDNoVWJUUF9YanV6RmlHdHAzRXkzZnllVC1WWlphY0lTYks1bG5RTzh2djdNZkoxWmwzQWxxbU13TTNMN0otTjhVTjRaY29OcHhBVExkWndDZlVmc2VyS2EtVWxmclVjUHNvZEt4WUU0RVk4WUxhTHJITWlVd0dacVNMN0dCSHlxczcxajhRai1Uem1WWFhyTWp3SFVsZk5rbVFfWXc?oc=5\" target=\"_blank\">ETH price on Sep 26, 2026 at 1am EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZW9nTi1oRjdqeDNoVWJUUF9YanV6RmlHdHAzRXkzZnllVC1WWlphY0lTYks1bG5RTzh2djdNZkoxWmwzQWxxbU13TTNMN0otTjhVTjRaY29OcHhBVExkWndDZlVmc2VyS2EtVWxmclVjUHNvZEt4WUU0RVk4WUxhTHJITWlVd0dacVNMN0dCSHlxczcxajhRai1Uem1WWFhyTWp3SFVsZk5rbVFfWXc?oc=5",
+      "published": "Sat, 26 Sep 2026 04:02:23 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "New Crypto: AlphaPepe Presale Crosses $2.8M Raised While Bitcoin Price Prediction Targets $150,000 - markets.businessinsider.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSUdiUjZQbXI5NS1BRzM4NzVNTmttRlZGeHVwcWc0TUQwbV92YWxJZFBkTUZvN210T3JLajAwSlowekFkT0tZYkxPN1JkMDBCU0N0dlhRV2pBbWlrUWNFaVVZLTJIQVZmSkhINzh1c1ZPdmJmQUV6NTNYN0RwdGNTZVk0dk5zNl81Y0MxTGN4RWZjdHBKV0h6NE5aN05xR1VEcTBaWHBpRWdueUVKYVNwTlZxYkppc2hZSGNXb2xTaklQWWlyMER4WTdNcjVUbmdCdW93ZTZpTnNjbm9rZVI2TXJMeFhwNEZGclE?oc=5\" target=\"_blank\">New Crypto: AlphaPepe Presale Crosses $2.8M Raised While Bitcoin Price Prediction Targets $150,000</a>&nbsp;&nbs",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSUdiUjZQbXI5NS1BRzM4NzVNTmttRlZGeHVwcWc0TUQwbV92YWxJZFBkTUZvN210T3JLajAwSlowekFkT0tZYkxPN1JkMDBCU0N0dlhRV2pBbWlrUWNFaVVZLTJIQVZmSkhINzh1c1ZPdmJmQUV6NTNYN0RwdGNTZVk0dk5zNl81Y0MxTGN4RWZjdHBKV0h6NE5aN05xR1VEcTBaWHBpRWdueUVKYVNwTlZxYkppc2hZSGNXb2xTaklQWWlyMER4WTdNcjVUbmdCdW93ZTZpTnNjbm9rZVI2TXJMeFhwNEZGclE?oc=5",
+      "published": "Sat, 26 Sep 2026 03:12:11 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BTC price range on Sep 26, 2026 at 1am EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQbzZhN1Y4WndkbTA2V3ZYYlRYTDNwdXZmamVabm13Z1NYVXM4dC1IWTVWdUhKeXl5Q0tXWTU3OVg2Y2NHUWxzbV91V2lMQ0VUeGpOQWpydERneHZsWElCY1RJdnB5U0VuaWNmUlFiaTVFNEtCcGRPcEw2WGpURkx6aG1ZdExqNW5BUW1tSE41MUpiNkxpZGpYNDhqZmlfUUxhMjVza2ZpbU53UFV3OVZVSmxSUUJFdw?oc=5\" target=\"_blank\">BTC price range on Sep 26, 2026 at 1am EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbzZhN1Y4WndkbTA2V3ZYYlRYTDNwdXZmamVabm13Z1NYVXM4dC1IWTVWdUhKeXl5Q0tXWTU3OVg2Y2NHUWxzbV91V2lMQ0VUeGpOQWpydERneHZsWElCY1RJdnB5U0VuaWNmUlFiaTVFNEtCcGRPcEw2WGpURkx6aG1ZdExqNW5BUW1tSE41MUpiNkxpZGpYNDhqZmlfUUxhMjVza2ZpbU53UFV3OVZVSmxSUUJFdw?oc=5",
+      "published": "Sat, 26 Sep 2026 04:04:20 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Markets price in four more Fed rate hikes by 20... - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ2pBRlNqRHpGM0xPQlAwR3FGeG85dllXeGJvM1M0dUFjUzRrbkIzcnhsUG51SVZ4YVVBNkhsdndjZUpNYXRINVQtMTRWTXhWUFdudlpmeDlCbi1OZFpVaGw5SGhmbHNEZm5lUWNLNTktNExISFZSOTlvMHRsOTJZUzFGbWUtTWRBd0lGbGZhVHRRenpsaFJXdmJKaFhKMTdnMVhhbnM0WGRVb00?oc=5\" target=\"_blank\">Markets price in four more Fed rate hikes by 20...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ2pBRlNqRHpGM0xPQlAwR3FGeG85dllXeGJvM1M0dUFjUzRrbkIzcnhsUG51SVZ4YVVBNkhsdndjZUpNYXRINVQtMTRWTXhWUFdudlpmeDlCbi1OZFpVaGw5SGhmbHNEZm5lUWNLNTktNExISFZSOTlvMHRsOTJZUzFGbWUtTWRBd0lGbGZhVHRRenpsaFJXdmJKaFhKMTdnMVhhbnM0WGRVb00?oc=5",
+      "published": "Sat, 26 Sep 2026 03:05:13 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1718842b00ee41479c763ef27b6312f0",
+      "published": "2026-09-24T18:45:04.777000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "summary": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
+      "published": "2026-09-24T15:30:38.608000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "summary": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
+      "published": "2026-09-23T15:15:46.848000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "summary": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c61f3c18a3004f968b53fb09841f7bc7",
+      "published": "2026-09-23T13:30:02.080000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "summary": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+      "published": "2026-09-23T13:00:01.336000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f6c7be7767b4e29bb837dea4650ac7a",
+      "published": "2026-09-23T12:30:01.911000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "summary": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7379b99aa0f349a49c3b3feca1b4bbd6",
+      "published": "2026-09-22T15:31:04.920000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e92a42b474e344a69b620dcee1e9c987",
+      "published": "2026-09-21T17:30:01.032000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "summary": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a0adb246c4a24f108fd0d1f51dfd3d1d",
+      "published": "2026-09-21T15:00:01.157000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "summary": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/533eb2f3998a43e3a34df310998bee48",
+      "published": "2026-09-18T22:00:03.166000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcd1b50824c04192b80091599c452ee8",
+      "published": "2026-09-18T16:00:12.684000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple USDⓈ-Margined Perpetual Contracts (2026-09-18)",
+      "summary": "Binance Futures Will Launch Multiple USDⓈ-Margined Perpetual Contracts (2026-09-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3c2b63c9c3e44d40b8cec99961166fe8",
+      "published": "2026-09-18T15:00:03.437000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Support the Broadcom (AVGO), Invesco QQQ Trust (QQQ), Meta (META), and Seagate (STX) Cash Dividend Distribution via bStocks",
+      "summary": "Binance Will Support the Broadcom (AVGO), Invesco QQQ Trust (QQQ), Meta (META), and Seagate (STX) Cash Dividend Distribution via bStocks",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7df43402f0094e79b293bd7fbb574474",
+      "published": "2026-09-18T13:00:10.872000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-16",
+      "summary": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-16",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a5bf03abedaa4430b1fd04aa760e491b",
+      "published": "2026-09-16T12:30:09.513000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds GoPro (GPROB) and Reddit (RDDTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-16",
+      "summary": "Binance Exchange Adds GoPro (GPROB) and Reddit (RDDTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-16",
+      "link": "https://www.binance.com/zh-CN/support/announcement/da7f14dd847f436ea92330a024ce0245",
+      "published": "2026-09-16T11:00:00.968000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add BNCB bStocks Tokenized Securities as Collateral Asset - 2026-09-14",
+      "summary": "Binance Will Add BNCB bStocks Tokenized Securities as Collateral Asset - 2026-09-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/437f116183e243ce8759ac8cc580881f",
+      "published": "2026-09-14T17:30:06.783000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds CEA Industries (BNCB) bStocks Trading Pair on Binance Spot/Convert - 2026-09-14",
+      "summary": "Binance Exchange Adds CEA Industries (BNCB) bStocks Trading Pair on Binance Spot/Convert - 2026-09-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d625f87897a843febc1f4c139740d875",
+      "published": "2026-09-14T17:00:04.044000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 牛来 (牛来) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add 牛来 (牛来) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/39fe3154675948fbb164b1e63e036629",
+      "published": "2026-09-09T22:15:15.144000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List 牛来 (牛来) with Seed Tag Applied",
+      "summary": "Binance Will List 牛来 (牛来) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6133e417dcfe43a8ad20c0db1b53c7e8",
+      "published": "2026-09-09T19:30:19.513000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-09",
+      "summary": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-09",
+      "link": "https://www.binance.com/zh-CN/support/announcement/026d4dfdc82940a5924b22442bcb651e",
+      "published": "2026-09-09T15:00:16.577000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 74 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 74，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-09-26T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "深入解读《Shielded Bitcoin》论文：利用 Zcash 技术实现私密的比特币支付 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNRTh1VTdCd2Robk9vTlhDV2U4RW0wdHlFYk9ZZ3RNbmtuN2VTMTBkeC1rM2FBWmxFdjNhMXZOUWljZzhlNDVUSkVUSkxIdlhEeEV1UHQ5bGhxS29ueGRGd0NLcUwyQ0tubVQxOV85TmctUE4tNUZWTnlCd1hYOUNPMHFaTVQxeGdCN2htQ3JxLTBiV2FNMUQ3dEJVN0Y1TmprYTlWcGZXQk9KUEVOc3dHR1RvOFFlblMzMk5ZUEJqOA?oc=5\" target=\"_blank\">深入解读《Shielded Bitcoin》论文：利用 Zcash 技术实现私密的比特币支付</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRTh1VTdCd2Robk9vTlhDV2U4RW0wdHlFYk9ZZ3RNbmtuN2VTMTBkeC1rM2FBWmxFdjNhMXZOUWljZzhlNDVUSkVUSkxIdlhEeEV1UHQ5bGhxS29ueGRGd0NLcUwyQ0tubVQxOV85TmctUE4tNUZWTnlCd1hYOUNPMHFaTVQxeGdCN2htQ3JxLTBiV2FNMUQ3dEJVN0Y1TmprYTlWcGZXQk9KUEVOc3dHR1RvOFFlblMzMk5ZUEJqOA?oc=5",
+      "published": "Sat, 26 Sep 2026 04:02:13 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "瑞波消息：XRP账本升级因验证节点重置激活时钟而延迟10天 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPejV2cWdQSXFla2QxR1pRYzBJNXJUY2RYTXdocGdacDhsQWxUNkw1eV9remRYQUY5cGllaGNRWUUxaHFFeVZfQ19MbFk1NVVTODJMd1ZFUi1vdXhscGhHX2lHWGduQkRmRlhTUGY3QmljZ2ZrVUc5dUthcXVrWXFEeW1wcHBWNWQ4b0RGVnVRdE9BcGtHQmFscl9iaFlqRUpSdHEzZ3RESlFqQmtMUjZ1eHRDeTA5Y3c?oc=5\" target=\"_blank\">瑞波消息：XRP账本升级因验证节点重置激活时钟而延迟10天</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPejV2cWdQSXFla2QxR1pRYzBJNXJUY2RYTXdocGdacDhsQWxUNkw1eV9remRYQUY5cGllaGNRWUUxaHFFeVZfQ19MbFk1NVVTODJMd1ZFUi1vdXhscGhHX2lHWGduQkRmRlhTUGY3QmljZ2ZrVUc5dUthcXVrWXFEeW1wcHBWNWQ4b0RGVnVRdE9BcGtHQmFscl9iaFlqRUpSdHEzZ3RESlFqQmtMUjZ1eHRDeTA5Y3c?oc=5",
+      "published": "Sat, 26 Sep 2026 04:30:00 GMT"
+    }
+  ]
+}
