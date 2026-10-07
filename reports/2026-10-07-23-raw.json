@@ -1,0 +1,407 @@
+{
+  "date": "2026-10-07",
+  "hour": "23",
+  "total": 57,
+  "fetched_at": "2026-10-07T23:01:04.563240+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Tether tapped by Kazakhstan’s central bank to explore stablecoin and tokenization",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization",
+      "published": "Wed, 07 Oct 2026 14:27:37 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Quantum computers threaten exposed private keys rather than blockchains, Europol warns",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/10/07/quantum-computers-threaten-exposed-private-keys-rather-than-blockchains-europol-warns",
+      "published": "Wed, 07 Oct 2026 13:20:54 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Moody’s gives Sky Protocol B3 rating as institutional interest in USDS grows",
+      "summary": "Moody's assigned Sky a B3 issuer rating with a stable outlook, its first rating of a stablecoin protocol. Sky is also rated B- by S&amp;P.",
+      "link": "https://www.theblock.co/news/business/2026-10-07-moodys-sky-protocol-b3-rating-first-stablecoin-protocol-417931",
+      "published": "Wed, 07 Oct 2026 14:20:01 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitmine's Relentless Ethereum Buying Is About to End, Tom Lee Says",
+      "summary": "Speaking at Token2049 in Singapore, the chairman said Bitmine is about 100,000 ETH—roughly six to seven weeks—from its 5% cap, setting an end date on a buying spree that made it the world's largest Ethereum treasury.",
+      "link": "https://decrypt.co/380287/bitmine-ethereum-buying-will-stop-tom-lee",
+      "published": "Wed, 07 Oct 2026 14:55:32 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Here’s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 07 Oct 2026 13:07:40 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "European Banks Still Freeze Bitcoin Companies. Bringin Just Handed Them A Named Euro Account. - Bitcoin Magazine",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWU9zVS1fZExqMXF0aEN1cjBqU05FVTUyUl9wUFZLazFaczZuUEFERFlqWlg2UE10U2JUYW5RRHczTGt3SE96SWE0WGRjWmlsbnVJdktiMkZKT3piZWJvZi00bEJCYXlMMzZRR0E1dGZkemVZeFo4SHlNdmxkd2Jjd1IzVVZqR2hncUJUNnVxT3lyMkR4RFFUUXRQSi1OT2FVZmd3UzZjLUlCU1Y3UmpkejRjd05tOThlaGtHYnJYenFDUQ?oc=5\" target=\"_blank\">European Banks Still Freeze Bitcoin Companies. Bringin Just Handed Them A Named Euro Account.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Magazine</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWU9zVS1fZExqMXF0aEN1cjBqU05FVTUyUl9wUFZLazFaczZuUEFERFlqWlg2UE10U2JUYW5RRHczTGt3SE96SWE0WGRjWmlsbnVJdktiMkZKT3piZWJvZi00bEJCYXlMMzZRR0E1dGZkemVZeFo4SHlNdmxkd2Jjd1IzVVZqR2hncUJUNnVxT3lyMkR4RFFUUXRQSi1OT2FVZmd3UzZjLUlCU1Y3UmpkejRjd05tOThlaGtHYnJYenFDUQ?oc=5",
+      "published": "Wed, 07 Oct 2026 13:05:09 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Injective发布新版白皮书，聚焦机构级金融与代币化",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，Injective 发布新版白皮书，这是自 2018 年 12 月首版以来的首次全面重写。首版聚焦以太坊上的抗抢跑交易协议，新版则将 Injective 定位为面向机构级金融及资产代币化的 Layer 1，覆盖代币化资产从发行、交易到结算的完整生命周期。</p><p><br /></p><p>白皮书介绍了原生 RWA 代币化机制，可对铸造、发送、接收及销毁设置角色权限；iAssets 则通过稳定币保证金及预言机定价，提供追踪外部资产的衍生品，无需封装或预先注资。代币化资产在全链上中央限价订单簿交易，每个区块采用密封式高频批量拍卖，以统一价格清算，抵御抢跑及交易排序 MEV。BFT 共识提供确定性最终确认，出块时间约 600 毫秒。</p><p><br /></p><p>新版还涵盖共享同一状态的原生 EVM 与 WASM、永续合约风险管理，以及 AI 智能体金融。智能体可通过 MCP 服务器、受策略约束的签名及 USDC 计价的 x402 机器支付操作代币化资产。链上协议收入将流向定期开展的 INJ 社区回购。</p>",
+      "link": "https://www.theblockbeats.info/flash/370643",
+      "published": "Wed, 07 Oct 2026 14:55:07 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "闪迪、美光科技盘中拉升转涨，闪迪涨幅扩大至2.5%",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 BIT(bit.com) 行情数据，闪迪、美光科技盘中拉升转涨，闪迪涨幅扩大至 2.5%；美光科技涨超 1%，此前一度跌超 3%。</p>",
+      "link": "https://www.theblockbeats.info/flash/370642",
+      "published": "Wed, 07 Oct 2026 14:34:06 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "知名交易员Killa：仍然看涨比特币，将在8万至8.2万美元区间寻找重新建仓多单机会",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，知名交易员 Killa 表示，比特币再次未能突破 87,000 美元，其此前建立的 10 倍杠杆多单已在保本价止损。该仓位属于激进的趋势延续交易，原本预期 BTC 在第二次测试高点时突破，但突破失败后，价格回到了入场位置。</p><p><br /></p><p>Killa 称，接下来将关注 80,000 至 82,000 美元区间，寻找重新建立该 10 倍杠杆多单的机会。目前，仍持有分别在 62,600 美元及 76,400 美元建立的多头仓位，暂时没有理由急于新增多单。他强调，风险管理至关重要，自己现有的 BTC 持仓已经足够。</p><p><br /></p><p>对于后续走势，Killa 仍维持看涨判断，预计价格将继续走高。他认为，目前行情属于短周期震荡，而自己主要依据更长周期进行交易。</p>",
+      "link": "https://www.theblockbeats.info/flash/370641",
+      "published": "Wed, 07 Oct 2026 14:13:31 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美参议员质询贝森特，要求解释财政部对美债市场的「前所未有干预」",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，美国民主党参议员伊丽莎白·沃伦就财政部近期对美国国债市场采取的「前所未有且混乱」的干预措施，向美国财政部长斯科特·贝森特提出一系列质询。沃伦要求贝森特说明，美国财政部计划如何通过降低现金余额为国债回购提供资金，以及将采取哪些措施压低长期美国国债收益率。她还质询财政部是否评估过长期美债收益率上升对消费者融资成本的影响，包括汽车贷款和住房抵押贷款利率等。</p>",
+      "link": "https://www.theblockbeats.info/flash/370639",
+      "published": "Wed, 07 Oct 2026 14:02:12 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "「麻吉」持有的9980万美元ETH多单接近被清算，清算价为2501.38美元",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 Lookonchain 监测，随着市场下跌，「麻吉大哥」黄立成地址持有的 39,025 枚 ETH 多单（价值约 9980 万美元）已接近被清算，清算价格为 2501.38 美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/370638",
+      "published": "Wed, 07 Oct 2026 13:59:06 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "过去24小时全网爆仓突破7亿美元，超12万人被爆仓",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 Coinglass 数据显示，随着比特币跌破 8.3 万美元，过去 24 小时全网爆仓 7.01 亿美元，其中多单爆仓 6.42 亿美元，空单爆仓 5911 万美元。</p><p><br /></p><p>全球共有 122,473 人被爆仓，最大单笔爆仓单发生在 Binance - ETHUSDC 价值 2664.38 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/370637",
+      "published": "Wed, 07 Oct 2026 13:54:45 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股开盘光通信及Neocloud概念股跌幅居前，ALAB跌超6%",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 BIT(bit.com) 行情数据，美股开盘，光通信概念股跌幅居前，Astera Labs（ALAB）跌 6.46%、Applied Optoelectronics（AAOI）跌 5.77%、Coherent（COHR）跌 4.98%、诺基亚（NOK）跌 4.06%、Credo（CRDO）跌 3.97%。</p><p><br /></p><p>Neocloud 股全线走低，Hut 8（HUT）跌 4.99%、Galaxy Digital（GLXY）跌 4.94%、Nebius（NBIS）跌 4.64%、TeraWulf（WULF）跌 4.48%、Applied Digital（APLD）跌 4.34%、CoreWeave（CRWV）跌 2.88%。</p><p><br /></p><p>半导体股多数下跌，泛林集团（LRCX）跌 2.99%、Arm（ARM）跌 2.63%、迈威尔科技（MRVL）跌 1.99%、AMD 跌 1.16%。</p><p><br /></p><p>存储股全线下跌，海力士（SKHY）跌 2.60%、西部数据（",
+      "link": "https://www.theblockbeats.info/flash/370636",
+      "published": "Wed, 07 Oct 2026 13:49:23 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "比特币跌破83,000美元",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 HTX 行情数据，比特币跌破 83,000 美元，24 小时跌幅 4.02%。</p>",
+      "link": "https://www.theblockbeats.info/flash/370635",
+      "published": "Wed, 07 Oct 2026 13:47:31 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股开盘加密概念股全线下跌，BitMine跌超5%",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 BIT(bit.com) 行情数据，美股开盘加密货币概念股全线下跌，BitMine（BMNR）跌 5.04%、SharpLink（SBET）跌 4.78%、American Bitcoin（ABTC）跌 4.62%、Circle（CRCL）跌 4.58%、Strategy（MSTR）跌 4.48%、Robinhood（HOOD）跌 2.99%、Coinbase（COIN）跌 2.95%。</p>",
+      "link": "https://www.theblockbeats.info/flash/370634",
+      "published": "Wed, 07 Oct 2026 13:40:06 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美股三大股指集体低开，存储板块普跌，美光跌超3%",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 BIT(bit.com) 行情数据，美股开盘，道指跌 0.62%，标普 500 指数跌 0.45%，纳指跌 0.61%。存储板块普跌，美光科技 (MU.O) 跌超 3%、SK 海力士 (SKHY.O) 跌超 2%。</p>",
+      "link": "https://www.theblockbeats.info/flash/370633",
+      "published": "Wed, 07 Oct 2026 13:33:17 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Polymarket CEO：追逐百倍币是「非理性繁荣」游戏，部分交易者转向寻求更可预测的机会",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，Polymarket 首席执行官 Shayne Coplan 在新加坡 Token2049 大会上表示，追逐下一个百倍代币，正成为一场「非理性繁荣和烫手山芋的游戏」。他指出，交易者即使认为代币没有价值，仍可能因其百倍上涨潜力而买入，并希望在价格归零前卖出。部分人确实能借此积累财富，但他认为，上涨的资产价格最终仍会回落。</p><p><br /></p><p>Coplan 表示，Polymarket 用户增长反映出部分交易者正在寻找赔率更可预测的机会，而非追逐下一个热门代币。他强调，预测市场不存在指数级上涨空间，但掌握相关信息的交易者仍愿意参与。DefiLlama 数据显示，Polymarket 过去 7 天交易量约为 12.1 亿美元，位列预测市场第二，Kalshi 约为 23 亿美元。</p><p><br /></p><p>不过，预测市场同样面临风险。10x Research 此前报告指出，数据驱动的专业交易者可能利用信息不对称及价差获利。此外，美国十多个州已就体育事件合约对 Polymarket、Kalshi 或两者提起法律行动。",
+      "link": "https://www.theblockbeats.info/flash/370631",
+      "published": "Wed, 07 Oct 2026 13:19:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Vest完成1300万美元种子轮融资，Portal Ventures领投",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据《财富》报道，零售自营交易初创公司 Vest Labs 宣布完成 1300 万美元种子轮融资，Portal Ventures 领投，Citadel Securities、贝莱德及 KKR 的部分高管以个人身份参投。公司未披露融资后的估值。</p><p><br /></p><p>Vest 允许符合资格的交易者使用公司资金，在真实市场全天候交易永续合约，交易者可保留最高 80% 的利润，其余由公司获得。公司表示，相较于部分依靠模拟交易账户收费的零售自营交易机构，这一模式让 Vest 能够从交易者的成功中获益，而非押注其失败。</p><p><br /></p><p>融资将用于开发移动应用、扩充目前 22 人的团队，并增加可全天候交易的资产种类。据 Vest 自行披露，截至 9 月下旬，平台约 27,000 名交易者中有 26% 曾获得现金支付，月活跃交易者及交易量环比均增长超过 300%。</p>",
+      "link": "https://www.theblockbeats.info/flash/370629",
+      "published": "Wed, 07 Oct 2026 13:13:47 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：比特币上涨缺乏量能及新资金支撑，短期投资者在上涨期间选择获利了结",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，Glassnode 发布报告指出，比特币突破 85,000 美元卖单墙时成交量偏低、增量资金有限，随后已回落。现货交易平台及美国现货 ETF 合计日均成交量的 7 日均值约为 68 亿美元，低于 2024 年 1 月以来约 90% 的交易日。截至 10 月 5 日的 30 天内，ETF、稳定币增长及企业财库购入带来约 49 亿美元新资金，不足同期 128 亿美元已实现市值增幅的四成。</p><p><br /></p><p>10 月 4 日，盈利的短期持有者贡献了当天约 86% 的交易平台流入，比例创一年新高，显示近期买家正在止盈。期权市场则重新偏向看涨，未平仓看跌与看涨期权之比约为 0.56。</p><p><br /></p><p>近期清算水平主要集中在价格下方，最近的大型集群位于 81,700 至 83,300 美元，Binance 最大买单区间位于 81,000 至 81,250 美元。若现货成交量及 ETF 买盘回升，并稳固收于 85,500 美元上方，将显示突破获得实际支撑，92,000 美元附近的空头清算集群也可能进入触及范",
+      "link": "https://www.theblockbeats.info/flash/370628",
+      "published": "Wed, 07 Oct 2026 13:03:07 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "Crypto donors navigate mid-term spending dilemma after Senate bill defeat - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczZOOTk2b2wyX3RjWldGakx6UmE4SXlieHVKMGdnSWQyQzUycEZ5eFo1bWptaWdTc3V5M2gzUXItMG9wRUhwZTgwWXVhdE1UX0Z4ZUtwLWYtMlM3eHI0VF9ScVVhRmFpUmFOeS12bDlobG9KbERpSkpGX3YwcFhfeVZqYk05N3VVSzZwaG1idWtBSFBNcU1udVlFMVhzOVY1VXlReDUzZHZCZThXcmVnMzdRbjA0cTUtc1prb2x1UTF4TkZRVTNTeQ?oc=5\" target=\"_blank\">Crypto donors navigate mid-term spending dilemma after Senate bill defeat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczZOOTk2b2wyX3RjWldGakx6UmE4SXlieHVKMGdnSWQyQzUycEZ5eFo1bWptaWdTc3V5M2gzUXItMG9wRUhwZTgwWXVhdE1UX0Z4ZUtwLWYtMlM3eHI0VF9ScVVhRmFpUmFOeS12bDlobG9KbERpSkpGX3YwcFhfeVZqYk05N3VVSzZwaG1idWtBSFBNcU1udVlFMVhzOVY1VXlReDUzZHZCZThXcmVnMzdRbjA0cTUtc1prb2x1UTF4TkZRVTNTeQ?oc=5",
+      "published": "Wed, 07 Oct 2026 14:15:17 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Stocks made a record high. Two big bearish trades point to skepticism - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbFJVNDJ1R0Z0YTVpY3JhOElaRWwwMkNxZ1c2VklEUEhLWlEtT3MtREZtRUFnUlpoY1M2UzJTWU95QjZZRXQyY2hiSTN0SGF4UExPV0xlM0g2TlU0dmhsd1U5b0NJbWRUdWVUTTBINXMtUXdic3FGYlo0T1RuOWJuX2M2YW9IcUw3Rm9RUlZrdC1tc3M2eUpUS1JMeDA2eS15NW5UQmoyZTDSAa4BQVVfeXFMTTh0T1Z6WWlKUE9TaDg1S1R5X0RnTG40UkFabFpFSUlPNU9FdlMxQ2pPUG4wT3M2TmdVbGpVRlc3OVRIUmR5U1VETGhpYjllVGw2WDY4RldoWmN0YlVzVjN1eXV2bUl4S25sYU1EVW9WVU5WWXB0Q2RnaTNFSmlDTzFUamtELTNzZjNQcExlWEJmaE01ZHljYTlFM25YbmVxMHhnLV",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbFJVNDJ1R0Z0YTVpY3JhOElaRWwwMkNxZ1c2VklEUEhLWlEtT3MtREZtRUFnUlpoY1M2UzJTWU95QjZZRXQyY2hiSTN0SGF4UExPV0xlM0g2TlU0dmhsd1U5b0NJbWRUdWVUTTBINXMtUXdic3FGYlo0T1RuOWJuX2M2YW9IcUw3Rm9RUlZrdC1tc3M2eUpUS1JMeDA2eS15NW5UQmoyZTDSAa4BQVVfeXFMTTh0T1Z6WWlKUE9TaDg1S1R5X0RnTG40UkFabFpFSUlPNU9FdlMxQ2pPUG4wT3M2TmdVbGpVRlc3OVRIUmR5U1VETGhpYjllVGw2WDY4RldoWmN0YlVzVjN1eXV2bUl4S25sYU1EVW9WVU5WWXB0Q2RnaTNFSmlDTzFUamtELTNzZjNQcExlWEJmaE01ZHljYTlFM25YbmVxMHhnLVY3V0JvZ2hjS2d3?oc=5",
+      "published": "Wed, 07 Oct 2026 13:59:16 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "This wearable AI stock is set to rally thanks to a broader business focus, Jefferies says - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNOHJrSTVWREROeFFac2tBUFZrMHhZeWZLOURCUHNCaXlmaVRMLVBuU1VOekVtUnpSdEFIb2kwQ21oQ3BnMU93N0d0RGlicS04VkFQRHF5T2U3ei1aUU04NG1uS0U4UGhELXpsLS1vc2RqZ0FreVJ5b01vNV9Ec1NjSXQ0enQyX1MwandCV3VacXY2UG1TT3NYdEVfS1Fqdm5XT1NhNVVVUllDTm45bzNLbA?oc=5\" target=\"_blank\">This wearable AI stock is set to rally thanks to a broader business focus, Jefferies says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOHJrSTVWREROeFFac2tBUFZrMHhZeWZLOURCUHNCaXlmaVRMLVBuU1VOekVtUnpSdEFIb2kwQ21oQ3BnMU93N0d0RGlicS04VkFQRHF5T2U3ei1aUU04NG1uS0U4UGhELXpsLS1vc2RqZ0FreVJ5b01vNV9Ec1NjSXQ0enQyX1MwandCV3VacXY2UG1TT3NYdEVfS1Fqdm5XT1NhNVVVUllDTm45bzNLbA?oc=5",
+      "published": "Wed, 07 Oct 2026 14:15:33 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Micron to nearly triple as investors wake up to value, D.A. Davidson says: 'If you don't buy it, they will' - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQR0d4NFBOUVR0cE5OZEZHNTFBOHBBODBvSWRBZVJUNDQyT3VOdl9kZHFSclV4SXBZN0JtWjFQTXRpbDQ4eC1GNzFWU0Q2dERqcC1rSVFHQ2RfaVBfOEYxbUcxUGVKLW9PaENyQXlEdTNtbXRlYWxLZHk3SklnTmJFSnJaazZkODlPbkdyaUc4SUl5VGxSLW85NjQzbzh2UkxwcFE?oc=5\" target=\"_blank\">Micron to nearly triple as investors wake up to value, D.A. Davidson says: 'If you don't buy it, they will'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR0d4NFBOUVR0cE5OZEZHNTFBOHBBODBvSWRBZVJUNDQyT3VOdl9kZHFSclV4SXBZN0JtWjFQTXRpbDQ4eC1GNzFWU0Q2dERqcC1rSVFHQ2RfaVBfOEYxbUcxUGVKLW9PaENyQXlEdTNtbXRlYWxLZHk3SklnTmJFSnJaazZkODlPbkdyaUc4SUl5VGxSLW85NjQzbzh2UkxwcFE?oc=5",
+      "published": "Wed, 07 Oct 2026 13:01:05 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "France is caught between angry students and unforgiving bond markets - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkxTNXptWmtYelFFRDVGWU9JT0ZfaE85amlzRUVoek5rZDhtd2pXWDhYQk9TMkoweHFBRkdTalNIaDBjaWNpWHlQVGxSYjZOZkZvYS01anlyNkFUOV96V2FrT3ZrUFJFWE50SWxibDAzR09sdmp6VXFtSm5XVl9DaHJR0gGHAUFVX3lxTFBKR0VyU2NkSm9Jd3RkMnY5Rlp0YzlPa1pTVXV1bmxnSXUzX3hJTUt4WXdUTWxYdWMxSTI3MER3NDJ1NEtGSlVMQV9lckRyRHdVY0VBVjd0bEhvdzloaGFmRVNxWWdsQnRmSjYxQmdicU95RkxYNDM5eGtEQ2NON21iUnBJUDJzYw?oc=5\" target=\"_blank\">France is caught between angry students and unforgiving bond mark",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkxTNXptWmtYelFFRDVGWU9JT0ZfaE85amlzRUVoek5rZDhtd2pXWDhYQk9TMkoweHFBRkdTalNIaDBjaWNpWHlQVGxSYjZOZkZvYS01anlyNkFUOV96V2FrT3ZrUFJFWE50SWxibDAzR09sdmp6VXFtSm5XVl9DaHJR0gGHAUFVX3lxTFBKR0VyU2NkSm9Jd3RkMnY5Rlp0YzlPa1pTVXV1bmxnSXUzX3hJTUt4WXdUTWxYdWMxSTI3MER3NDJ1NEtGSlVMQV9lckRyRHdVY0VBVjd0bEhvdzloaGFmRVNxWWdsQnRmSjYxQmdicU95RkxYNDM5eGtEQ2NON21iUnBJUDJzYw?oc=5",
+      "published": "Wed, 07 Oct 2026 13:23:31 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Ethena white label stablecoin ecosystem is growing",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1wzxs6d/ethena_white_label_stablecoin_ecosystem_is_growing/\"> <img alt=\"Ethena white label stablecoin ecosystem is growing\" src=\"https://preview.redd.it/kb1pr4eh02uh1.png?width=140&amp;height=94&amp;auto=webp&amp;s=43de8a2533c3bc43a69e849800e0ea52c2778a62\" title=\"Ethena white label stablecoin ecosystem is growing\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/kb1pr4eh02uh1.png?width=",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wzxs6d/ethena_white_label_stablecoin_ecosystem_is_growing/",
+      "published": "2026-10-07T14:20:02+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto donors navigate mid-term spending dilemma after Senate bill defeat - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczZOOTk2b2wyX3RjWldGakx6UmE4SXlieHVKMGdnSWQyQzUycEZ5eFo1bWptaWdTc3V5M2gzUXItMG9wRUhwZTgwWXVhdE1UX0Z4ZUtwLWYtMlM3eHI0VF9ScVVhRmFpUmFOeS12bDlobG9KbERpSkpGX3YwcFhfeVZqYk05N3VVSzZwaG1idWtBSFBNcU1udVlFMVhzOVY1VXlReDUzZHZCZThXcmVnMzdRbjA0cTUtc1prb2x1UTF4TkZRVTNTeQ?oc=5\" target=\"_blank\">Crypto donors navigate mid-term spending dilemma after Senate bill defeat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczZOOTk2b2wyX3RjWldGakx6UmE4SXlieHVKMGdnSWQyQzUycEZ5eFo1bWptaWdTc3V5M2gzUXItMG9wRUhwZTgwWXVhdE1UX0Z4ZUtwLWYtMlM3eHI0VF9ScVVhRmFpUmFOeS12bDlobG9KbERpSkpGX3YwcFhfeVZqYk05N3VVSzZwaG1idWtBSFBNcU1udVlFMVhzOVY1VXlReDUzZHZCZThXcmVnMzdRbjA0cTUtc1prb2x1UTF4TkZRVTNTeQ?oc=5",
+      "published": "Wed, 07 Oct 2026 14:15:17 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ethereum Drops 5% After Tom Lee Says Bitmine Will Stop Purchases - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDBwQ1ZHQVRwSzNzV0VLOFBkYUtnS28ta2Y5LWh1SFlFcTFnN2NhN2VKLVlPQy1aQ2dqbW1iZXQ4Q2R3d2hGLW1OV0lyWUlWUWVQVFk4MmtaSzVxNFNoNkw1WmpSbHVOc3BoYUpOTVNfVXYwZE9ZQndaSkJHRWt1MVZfX2pqdFdFNDJPYlc1ZVBRZEU?oc=5\" target=\"_blank\">Ethereum Drops 5% After Tom Lee Says Bitmine Will Stop Purchases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDBwQ1ZHQVRwSzNzV0VLOFBkYUtnS28ta2Y5LWh1SFlFcTFnN2NhN2VKLVlPQy1aQ2dqbW1iZXQ4Q2R3d2hGLW1OV0lyWUlWUWVQVFk4MmtaSzVxNFNoNkw1WmpSbHVOc3BoYUpOTVNfVXYwZE9ZQndaSkJHRWt1MVZfX2pqdFdFNDJPYlc1ZVBRZEU?oc=5",
+      "published": "Wed, 07 Oct 2026 13:44:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin falls below $83,000, dragging down Coinbase, Robinhood, and Strategy stocks - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaTVnWTI4QkZZcUVaQUgxMkJKWGVTV0dWdmU3RkNWU1BJanZwQzRidGVRSVNQVk1VU0ZKeFBuQkZNTVJiOUtDbzd5WlNSZEZvemVnY2VHemZHTDB6aWdZbnEzeGxpUjVLNTdjRlVKbzlpYjBzYlowOGRjTlM5Mjd1eF9QcWRZdmJWaFhGUjA4QjVqTW8zSURzVEVxaXg4d2o4U3g3TTJnc0NTb1M3MERsWXVMQ2RFRVJyWnlaamIzU2U2cVVjYkl3MFV1OGRJbXE4?oc=5\" target=\"_blank\">Bitcoin falls below $83,000, dragging down Coinbase, Robinhood, and Strategy stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaTVnWTI4QkZZcUVaQUgxMkJKWGVTV0dWdmU3RkNWU1BJanZwQzRidGVRSVNQVk1VU0ZKeFBuQkZNTVJiOUtDbzd5WlNSZEZvemVnY2VHemZHTDB6aWdZbnEzeGxpUjVLNTdjRlVKbzlpYjBzYlowOGRjTlM5Mjd1eF9QcWRZdmJWaFhGUjA4QjVqTW8zSURzVEVxaXg4d2o4U3g3TTJnc0NTb1M3MERsWXVMQ2RFRVJyWnlaamIzU2U2cVVjYkl3MFV1OGRJbXE4?oc=5",
+      "published": "Wed, 07 Oct 2026 14:49:42 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BitMine Is About to Stop Buying Ethereum: What Happens to ETH Price Then? - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFFVWGsxdnlvbHdiOHpVRUx0TV9BdGpkYjRYSnlBSkFxZ1NDcEhWZ1VUSllfNU1DSlhLZlViQnJ2a1hDSDEyVkpqR1FBaVhwcXI4clhpRnZ6ZU9oODBpVGRlM0p5M0d6ZnVGQUREOHRKcXoxUS1JOHhuWEFrTFhGNU9sLVR2aDJiLU9WckY5NENMenMtaUxPbE0wbnJaMENhc1lN?oc=5\" target=\"_blank\">BitMine Is About to Stop Buying Ethereum: What Happens to ETH Price Then?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFFVWGsxdnlvbHdiOHpVRUx0TV9BdGpkYjRYSnlBSkFxZ1NDcEhWZ1VUSllfNU1DSlhLZlViQnJ2a1hDSDEyVkpqR1FBaVhwcXI4clhpRnZ6ZU9oODBpVGRlM0p5M0d6ZnVGQUREOHRKcXoxUS1JOHhuWEFrTFhGNU9sLVR2aDJiLU9WckY5NENMenMtaUxPbE0wbnJaMENhc1lN?oc=5",
+      "published": "Wed, 07 Oct 2026 13:07:04 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "What If You Invested $1,000 in Bitcoin 5 Years Ago? Gold and US Stocks Both Did Better - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQOTRINjVLbGZ4TTlQMVd2LVM0QzNSbXRJOEVxR05FSmNYdXk5UnE3WlVzbS0yUHJTZEo2emwzTkUxeFp1bDNheGFmZ2xJQ2pSMmZ4Tmt5U2t3SnFHRmE2NFh2SVZBVEN0bjBwOFNScERQd3dTUHhuNEVnbmxaa0FMNkhrVUpGMmlSM21MNUtQTUNfN0U?oc=5\" target=\"_blank\">What If You Invested $1,000 in Bitcoin 5 Years Ago? Gold and US Stocks Both Did Better</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOTRINjVLbGZ4TTlQMVd2LVM0QzNSbXRJOEVxR05FSmNYdXk5UnE3WlVzbS0yUHJTZEo2emwzTkUxeFp1bDNheGFmZ2xJQ2pSMmZ4Tmt5U2t3SnFHRmE2NFh2SVZBVEN0bjBwOFNScERQd3dTUHhuNEVnbmxaa0FMNkhrVUpGMmlSM21MNUtQTUNfN0U?oc=5",
+      "published": "Wed, 07 Oct 2026 14:00:37 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Robinhood Markets Adds $25 Million Of Bitcoin To Its Balance Sheet - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQWURTcVNSTC1lZXlJQURuN3VDc3JiNFJVZ09jMFJWSzZHV01qRjBsQ3lTZ3YwS0hsd2ZzTEhEbG53Q1FQQ1l4YWlJRnVmaTVpZ0R3RUlOUHlDUnVSemdFN3FQejQxa3FtZVBIbmw0a0dsbnE2dEl6aXpmQWhKTm1INnllZi1iVDZMREQ2U3VPVmh4MVR1YWFEcWVNekhla0k?oc=5\" target=\"_blank\">Robinhood Markets Adds $25 Million Of Bitcoin To Its Balance Sheet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWURTcVNSTC1lZXlJQURuN3VDc3JiNFJVZ09jMFJWSzZHV01qRjBsQ3lTZ3YwS0hsd2ZzTEhEbG53Q1FQQ1l4YWlJRnVmaTVpZ0R3RUlOUHlDUnVSemdFN3FQejQxa3FtZVBIbmw0a0dsbnE2dEl6aXpmQWhKTm1INnllZi1iVDZMREQ2U3VPVmh4MVR1YWFEcWVNekhla0k?oc=5",
+      "published": "Wed, 07 Oct 2026 13:46:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Top 10 Undervalued Cryptocurrencies That Could Outperform Bitcoin in Q4 2026 - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPTS14dFRrZE9PcDJtWGVrSUlad0paeEZKeC1TVHdzSU0wZm9IZ3VIbVd1bDVmRmp4SmNYOXN5NHlUQ2xrMllRYXZ5SHlnZ0l4R3BURkdpYjZSU0xldVNfVlc5ZllySmlNMkhlODAzbEI3SlV1QTkxTnJpN2MwUUxUUHNra3U4UGVDZXJNNTZnMlZOcy1wTnJUR0Q4THN2QkEzTi1sYi1tLUNHaDhDNUZz?oc=5\" target=\"_blank\">Top 10 Undervalued Cryptocurrencies That Could Outperform Bitcoin in Q4 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTS14dFRrZE9PcDJtWGVrSUlad0paeEZKeC1TVHdzSU0wZm9IZ3VIbVd1bDVmRmp4SmNYOXN5NHlUQ2xrMllRYXZ5SHlnZ0l4R3BURkdpYjZSU0xldVNfVlc5ZllySmlNMkhlODAzbEI3SlV1QTkxTnJpN2MwUUxUUHNra3U4UGVDZXJNNTZnMlZOcy1wTnJUR0Q4THN2QkEzTi1sYi1tLUNHaDhDNUZz?oc=5",
+      "published": "Wed, 07 Oct 2026 14:09:41 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Cathie Wood Says Bitcoin Is Beating Gold as Strive’s $169M Spree Outpaces Strategy - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNSWQ4NjZrbFhNaTdLX0FuOFd4X1F3SzU1MFFMRlRFSzE1dThNTTdVaEJhODZXSkZNSEhNODhzVmRBek55WXlLaXFKVllIS3MyQ3Rvcmx2STlpR1NjOEtqYXdlLUxjT1FQcUwydTdsOVlzbGpfU3NnOEU2T2F0ZjJYc0hZSHFiaWRJaW5NYTVJR1FkbEVqWWxmUnl1SzhNQQ?oc=5\" target=\"_blank\">Cathie Wood Says Bitcoin Is Beating Gold as Strive’s $169M Spree Outpaces Strategy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWQ4NjZrbFhNaTdLX0FuOFd4X1F3SzU1MFFMRlRFSzE1dThNTTdVaEJhODZXSkZNSEhNODhzVmRBek55WXlLaXFKVllIS3MyQ3Rvcmx2STlpR1NjOEtqYXdlLUxjT1FQcUwydTdsOVlzbGpfU3NnOEU2T2F0ZjJYc0hZSHFiaWRJaW5NYTVJR1FkbEVqWWxmUnl1SzhNQQ?oc=5",
+      "published": "Wed, 07 Oct 2026 13:22:15 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "summary": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
+      "published": "2026-09-28T18:00:13.103000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d4c5a66cdce246cc952d13bab215b688",
+      "published": "2026-09-28T12:45:07.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1718842b00ee41479c763ef27b6312f0",
+      "published": "2026-09-24T18:45:04.777000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "summary": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
+      "published": "2026-09-24T15:30:38.608000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "summary": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
+      "published": "2026-09-23T15:15:46.848000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "summary": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c61f3c18a3004f968b53fb09841f7bc7",
+      "published": "2026-09-23T13:30:02.080000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "summary": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+      "published": "2026-09-23T13:00:01.336000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f6c7be7767b4e29bb837dea4650ac7a",
+      "published": "2026-09-23T12:30:01.911000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "summary": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7379b99aa0f349a49c3b3feca1b4bbd6",
+      "published": "2026-09-22T15:31:04.920000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e92a42b474e344a69b620dcee1e9c987",
+      "published": "2026-09-21T17:30:01.032000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "summary": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a0adb246c4a24f108fd0d1f51dfd3d1d",
+      "published": "2026-09-21T15:00:01.157000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "summary": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/533eb2f3998a43e3a34df310998bee48",
+      "published": "2026-09-18T22:00:03.166000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcd1b50824c04192b80091599c452ee8",
+      "published": "2026-09-18T16:00:12.684000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 71 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 71，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-10-07T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "欧盟刑警组织敦促逐步转向后量子安全，以保护暴露的加密货币钱包 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQamxpUkxjbHZ2YmRPTnpjRFUwR0F5cDBaTG1VWHlEZktfVVlUdlNWVVBPaFc5Z0g0NlFNdzNzMnAzaUdxYzhyQXAtUU1uYWF5N1NVeFlNalEzNjJVMHZtdUpuTFhpYThMT1NZZGNudkJBSS1pS2EzbGpMTkF4SzlxUkxKakxJZVlrT3FsLU52bG5XU01seUkzWGZsY1VjRnotc1l0aUhNc1ZKcnN4bE5oVTJrQXk4dWFiem8tbEd1N1p3X3V5VW5hbw?oc=5\" target=\"_blank\">欧盟刑警组织敦促逐步转向后量子安全，以保护暴露的加密货币钱包</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQamxpUkxjbHZ2YmRPTnpjRFUwR0F5cDBaTG1VWHlEZktfVVlUdlNWVVBPaFc5Z0g0NlFNdzNzMnAzaUdxYzhyQXAtUU1uYWF5N1NVeFlNalEzNjJVMHZtdUpuTFhpYThMT1NZZGNudkJBSS1pS2EzbGpMTkF4SzlxUkxKakxJZVlrT3FsLU52bG5XU01seUkzWGZsY1VjRnotc1l0aUhNc1ZKcnN4bE5oVTJrQXk4dWFiem8tbEd1N1p3X3V5VW5hbw?oc=5",
+      "published": "Wed, 07 Oct 2026 13:20:54 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "哈萨克斯坦中央银行与Tether探讨稳定币及代币化项目 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUxMRmtBVzBmMVMwanNNUWJRc0ZDMDZSM1E5Ynd4ZlVWdlFMcnR6bXFxTjNHbnROdmdaaWVxLS1vZnBOVC1aOVdhWkZqWDVkQ0UtZFdpRDUzVFk4aE10d0pTMUU4UUVCdjAycVpXRFJEWlNHSG5DQ1ZMRWNDRjN6SnZIa2M0NGhDN3JQYUtpUHhXUmQzTkVpbUZkUWg1c2s2SVlxa0IyZnBCZmd5UlZxVnM0UEZjUEt6RGNiVk1DYUJuRlZseEpzSw?oc=5\" target=\"_blank\">哈萨克斯坦中央银行与Tether探讨稳定币及代币化项目</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUxMRmtBVzBmMVMwanNNUWJRc0ZDMDZSM1E5Ynd4ZlVWdlFMcnR6bXFxTjNHbnROdmdaaWVxLS1vZnBOVC1aOVdhWkZqWDVkQ0UtZFdpRDUzVFk4aE10d0pTMUU4UUVCdjAycVpXRFJEWlNHSG5DQ1ZMRWNDRjN6SnZIa2M0NGhDN3JQYUtpUHhXUmQzTkVpbUZkUWg1c2s2SVlxa0IyZnBCZmd5UlZxVnM0UEZjUEt6RGNiVk1DYUJuRlZseEpzSw?oc=5",
+      "published": "Wed, 07 Oct 2026 14:27:37 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Efremova vs Biolay | 预测市场 - Coinbase",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9vc2loc3lEWmNMUzZCVGllUWxLbmhkdTVHUVNyZkp4eGtPbkJFMXZldHNVVDNCNXNLeTd4aTAxblQ4Q3JfVGVOLS13bThkN1RMQkdvZkxVcnFhMW0xbUpZb3BVNzQ0a1VoUWx4TW5zMjJ6VjlqUGtDMmlEU2g4Z0E?oc=5\" target=\"_blank\">Efremova vs Biolay | 预测市场</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinbase</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vc2loc3lEWmNMUzZCVGllUWxLbmhkdTVHUVNyZkp4eGtPbkJFMXZldHNVVDNCNXNLeTd4aTAxblQ4Q3JfVGVOLS13bThkN1RMQkdvZkxVcnFhMW0xbUpZb3BVNzQ0a1VoUWx4TW5zMjJ6VjlqUGtDMmlEU2g4Z0E?oc=5",
+      "published": "Wed, 07 Oct 2026 13:25:00 GMT"
+    }
+  ]
+}
