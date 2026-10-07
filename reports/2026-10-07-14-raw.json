@@ -1,0 +1,456 @@
+{
+  "date": "2026-10-07",
+  "hour": "14",
+  "total": 64,
+  "fetched_at": "2026-10-07T14:00:59.445567+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Pudgy Penguins’ Abstract becomes second Ethereum layer 2 to shut in a week",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
+      "published": "Wed, 07 Oct 2026 04:31:14 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cardano gives token issuers power to freeze, seize and restrict assets",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets",
+      "published": "Wed, 07 Oct 2026 04:11:33 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Kalshi’s 15-min gold markets overtake Ether just weeks after launch",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Kalshi’s 15-min gold markets overtake Ether just weeks after launch \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4ABH5KJ122D9KH3B20EG167/prediction-market-2.jpg\" /></p><p>Gold recorded 542 million contracts and an estimated $5 million in fees in September, surpassing Ether’s 318 million contracts and $2.6 million, though Bitcoin remained far ahead. \n</p>",
+      "link": "https://cointelegraph.com/news/kalshis-15-min-gold-markets-overtake-ether-just-weeks-after-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 07 Oct 2026 04:57:54 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "以太坊活跃验证者降至约86.3万，质押ETH反升至4370万枚",
+      "summary": "【以太坊活跃验证者降至约86.3万，质押ETH反升至4370万枚】金色财经报道，10月7日，据TheDefiant报道，以太坊活跃验证者数量降至约863,000个，7日内下降约2.5%，较年初近975,000个明显回落；与此同时质押ETH总量升至约4370万枚，年初约3630万枚，现约占总供应量的35.8%。报道指出，此消彼长源于Pectra升级：EIP-7251将验证者有效余额上限由32ETH提升至2048ETH，运营商无需提取即可合并余额，多个验证者可由一个承担，进而减少网络消息与签名开销。最大质押服务商Lido正将逾26.5万个验证者合并为约4000个。此外，验证者退出与进入队列均显著拉长。<p>原文链接: <a href=\"https://thedefiant.io/news/blockchains/ethereum-validator-count-falls-to-863-000-as-staked-eth-edges-higher\">https://thedefiant.io/news/blockchains/ethereum-validator-count-falls-t",
+      "link": "https://jinse.com.cn/lives/535247.html",
+      "published": "Wed, 07 Oct 2026 05:50:09 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国散户单股杠杆ETF两月亏约2.3万亿韩元，监管转向限制",
+      "summary": "【韩国散户单股杠杆ETF两月亏约2.3万亿韩元，监管转向限制】金色财经报道，10月7日，据韩国金融监管机构汇总数据，自单只股票杠杆交易所交易产品今年5月推出以来，5月27日至8月14日期间，投资者估计已损失2.3万亿韩元，约合17亿美元，为监管层首次披露该类高杠杆单股产品的整体损失规模。需注明的是，上述数据仅涉及10家韩国头部券商，不代表所有韩国投资者的总亏损。自7月起，监管层陆续出台限制措施，包括暂禁新产品上市、提高最低现金保证金要求、要求交易前接受专门培训。从5月鼓励推出到7月限制扩张，韩国监管政策不到两个月即明显转向。",
+      "link": "https://jinse.com.cn/lives/535246.html",
+      "published": "Wed, 07 Oct 2026 05:42:50 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "WLFI创始人：计划向某Web2公司整合支付技术，后者「拥有数十亿用户」",
+      "summary": "【WLFI创始人：计划向某Web2公司整合支付技术，后者「拥有数十亿用户」】金色财经报道，10月7日，WLFI创始人Zak Folkman在Token 2049上表示，WLFI计划向未具名的Web2公司整合支付技术，这些公司「拥有数十亿用户」，用于向司机、承包商和创作者支付报酬。",
+      "link": "https://jinse.com.cn/lives/535245.html",
+      "published": "Wed, 07 Oct 2026 05:38:03 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Solana白银代币化项目Dominion宣布关停，因9月被盗难以恢复",
+      "summary": "【Solana白银代币化项目Dominion宣布关停，因9月被盗难以恢复】金色财经报道，10月7日，据Dominion官方公告，Solana生态白银代币化项目Dominion宣布关停。其称，9月的黑客攻击一夜之间改变项目走向，导致大量SILV被盗并抛售至市场，随之而来的流动性崩塌、营运资金损失与市场结构受损，使项目最终认定无法可持续恢复。攻击后数周，团队将剩余大部分流动资产用于\"被盗前持有人退款计划\"，让符合条件的早期SILV持有人以每枚63美元退出。团队表示，重建Dominion所需的恢复流动性、重建市场的资金已超出项目剩余可用资源。其仍坚信白银在全球市场中有重要角色、RWA将日益上链，Solana可成为代币化商品的重要家园。<p>原文链接: <a href=\"https://x.com/dominion_market/status/2107662194402005205?s=46\">https://x.com/dominion_market/status/2107662194402005205?s=46</a></p>",
+      "link": "https://jinse.com.cn/lives/535244.html",
+      "published": "Wed, 07 Oct 2026 05:33:50 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Kalshi15分钟黄金合约9月手续费超以太坊，上线仅数周",
+      "summary": "【Kalshi15分钟黄金合约9月手续费超以太坊，上线仅数周】金色财经报道，10月7日，据Cointelegraph报道，Kalshi于8月上线的15分钟黄金合约，9月产生约500万美元预估手续费，约为同期以太坊同类合约260万美元的近两倍。黄金合约9月成交5.42亿份，超过以太坊合约的3.18亿份；比特币仍为最主导市场，预估手续费6040万美元。Kalshi称其大宗商品交易量在7个月内达4亿美元，是同阶段加密市场的四倍多。同期数据显示，截至10月5日的七日内，15分钟加密、商品及金融市场产生2040万美元手续费，占平台非体育类手续费的80%。<p>原文链接: <a href=\"https://cointelegraph.com/news/kalshis-15-min-gold-markets-overtake-ether-just-weeks-after-launch/\">https://cointelegraph.com/news/kalshis-15-min-gold-markets-overtake-ether-just-weeks-after-launch/</a></p>",
+      "link": "https://jinse.com.cn/lives/535243.html",
+      "published": "Wed, 07 Oct 2026 05:29:49 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "OKX Star：未来5到10年，金融将经历两次根本性变革",
+      "summary": "【OKX Star：未来5到10年，金融将经历两次根本性变革】金色财经报道，10月7日，OKX创始人Star Xu在Token2049上表示，未来5到10年，金融将经历两次根本性变革，首先将是用户体验提升。",
+      "link": "https://jinse.com.cn/lives/535242.html",
+      "published": "Wed, 07 Oct 2026 05:14:00 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Santiment：周一有24,073枚BTC净流出交易所",
+      "summary": "【Santiment：周一有24,073枚BTC净流出交易所】金色财经报道，10月7日，据Santiment数据，比特币录得7个月来最大单日净流出：周一有24,073枚BTC净流出交易所，为3月1日以来最大单日流出；交易所供应已降至约占总供应量的6.50%。Santiment表示，大额流出通常偏多，因离开交易所的币不易被立即抛售，若需求保持强劲而流动供应收缩，买方可用筹码减少，价格需走高才能成交。其并称，当前比特币仍守住约8.5万美元，持续提币或表明投资者将BTC转向长期托管而非准备抛售；但单凭流出并不保证任何事，供应下降只是强化了看多格局。<p>原文链接: <a href=\"https://x.com/SantimentData/status/2107612882145857945\">https://x.com/SantimentData/status/2107612882145857945</a></p>",
+      "link": "https://jinse.com.cn/lives/535241.html",
+      "published": "Wed, 07 Oct 2026 05:09:41 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "俄罗斯数字卢布上线首月开户超22万，远超央行预期",
+      "summary": "【俄罗斯数字卢布上线首月开户超22万，远超央行预期】金色财经报道，10月7日，据Cointelegraph报道，俄罗斯央行数字货币\"数字卢布\"9月1日上线后首月开户数超22万，远超官员此前预期的约6万，成为CBDC能否走出试点、实现真实落地的早期检验。俄罗斯央行副行长ZulfiyaKakhrumanova披露了这一数据。报道称，金砖国家（含俄罗斯、中国、印度）正探索将各成员CBDC互联以用于跨境支付；因西方制裁切断其部分全球金融通道，俄罗斯加速了数字卢布开发。上月新德里第18届金砖峰会上，各国领导人支持扩大本币结算并推动成员CBDC互联。此外，美国今年一项住房法案禁止美联储在2030年底前发行CBDC。<p>原文链接: <a href=\"https://cointelegraph.com/news/russia-digital-ruble-adoption-brics-cbdc-payments\">https://cointelegraph.com/news/russia-digital-ruble-adoption-brics-cbdc-payments</a></p>",
+      "link": "https://jinse.com.cn/lives/535240.html",
+      "published": "Wed, 07 Oct 2026 04:56:17 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Arthur Hayes：Flop测试网十月上线，将面向测试网挖矿用户空投",
+      "summary": "【Arthur Hayes：Flop测试网十月上线，将面向测试网挖矿用户空投】金色财经报道，10月7日，Arthur Hayes在Token2049上表示，Flop测试网将于今年10月份上线，周期为90天，2027年第一季度将上线主网，参与测试网挖矿的用户可获得代币空投。",
+      "link": "https://jinse.com.cn/lives/535239.html",
+      "published": "Wed, 07 Oct 2026 04:50:36 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Immunefi：某Base金库遭600万美元漏洞利用，暴露披露机制缺口",
+      "summary": "【Immunefi：某Base金库遭600万美元漏洞利用，暴露披露机制缺口】金色财经报道，10月7日，据crypto.news报道，Immunefi安全主管GonçaloMagalhães表示，某未具名Base金库遭约600万美元漏洞利用，暴露漏洞报告机制缺口，事发时金库内仍留约3170万美元资产。据简报，攻击者用Safe多签钱包将一个恶意合约加入金库借贷白名单，该合约随后提取1783枚aBaswstETH，并经AaveV3兑换为约1783枚wstETH。Magalhães指出，白名单限制地址看似安全，但凡获批准地址即可无抵押取走资产，构成重大漏洞；该白名单弱点于前一周已被发现，但研究人员缺乏明确披露渠道。事发逾24小时，仍无团队公开认领或披露补救。<p>原文链接: <a href=\"https://crypto.news/base-vault-6m-exploit-exposes-disclosure-gap-immunefi/\">https://crypto.news/base-vault-6m-exploit-exposes-disclosure-gap-immunefi/</a",
+      "link": "https://jinse.com.cn/lives/535238.html",
+      "published": "Wed, 07 Oct 2026 04:50:17 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "桥水基金创始人达利欧：AI泡沫或已临近破裂点",
+      "summary": "【桥水基金创始人达利欧：AI泡沫或已临近破裂点】金色财经报道，10月7日，亿万富翁、桥水基金创始人达利欧警告称，人工智能是一个\"典型泡沫\"，随着利率上升以及财富需要转化为现金，泡沫正逐渐接近破裂点。达利欧表示，目前有大量债务被用于为AI提供资金，随着利率持续攀升，泡沫可能在这一节点开始破裂。他称：\"我们正处于周期中临近这一节点的阶段，我认为我们已经离它很近了。\"其补充称，还有其他因素可能引发泡沫破裂，包括财富税及其他旨在将未实现收益转化为现金的措施；要花掉账面财富必须出售资产换取现金，这往往正是泡沫破裂的导火索。",
+      "link": "https://jinse.com.cn/lives/535237.html",
+      "published": "Wed, 07 Oct 2026 04:49:46 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "VanEck CEO：核电审批提速或同时推升 AI 与比特币",
+      "summary": "【VanEck CEO：核电审批提速或同时推升 AI 与比特币】金色财经报道，10月7日，据 CryptoBriefing 报道，VanEck CEO Jan van Eck 表示，放行更多核电项目可同时提振 AI 与比特币：一方面推升 AI 价值，另一方面通过为矿工提供更廉价能源而减轻比特币抛压。其指出，AI 与比特币挖矿都依赖巨量电力，谁掌握廉价可靠电力谁就掌握二者经济性；美国两党对核能支持强劲，目标 25 年内将核电产出翻两番，三里岛反应堆加速重启即为佐证。VanEck 数字资产研究主管 Matthew Sigel 称，矿工手握长期电力合约与基础设施，具备被低估的期权价值；若矿工转向 AI 合约收入，其抛售比特币的压力将随之减轻。<p>原文链接: <a href=\"https://cryptobriefing.com/vaneck-ceo-nuclear-power-ai-bitcoin/\">https://cryptobriefing.com/vaneck-ceo-nuclear-power-ai-bitcoin/</a></p>",
+      "link": "https://jinse.com.cn/lives/535236.html",
+      "published": "Wed, 07 Oct 2026 04:45:41 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "昨日比特币ETF净流入1.188亿美元，以太坊ETF净流出2.019亿美元",
+      "summary": "【昨日比特币ETF净流入1.188亿美元，以太坊ETF净流出2.019亿美元】金色财经报道，10月7日，据FarsideInvestors监测，昨日美国比特币现货ETF净流入1.188亿美元，其中IBIT净流入1.22亿美元。以太坊ETF净流出2.019亿美元，连续6日净流出，贝莱德ETHA净流出2.02亿美元。",
+      "link": "https://jinse.com.cn/lives/535235.html",
+      "published": "Wed, 07 Oct 2026 04:37:11 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美众议员 Don Davis 提案：禁止候选人下注自家选情",
+      "summary": "【美众议员 Don Davis 提案：禁止候选人下注自家选情】金色财经报道，10月7日，据 Decrypt 报道，美国北卡罗来纳州民主党众议员 Don Davis 于10月6日在众议院提出《禁止在自己的选票上下注法案》（No Betting on Your Own Race Act）。该法案将修订联邦选举法，禁止联邦公职候选人、配偶、未成年子女及授权委员会交易以本人选举结果（胜出、留任、得票率、名次等）结算的预测市场合约；违者每项处以 1 万美元民事罚款或三倍净收益（取高者）。交易平台依善意限制、暂停或关闭账户、平仓可豁免责任，并可向 CFTC、司法部或 FEC 举报而不担责。FEC 须每周更新可机读候选人名单。Kalshi 今年已对多名议员下注自家选情罚款。<p>原文链接: <a href=\"https://decrypt.co/380147/don-davis-bill-would-fine-candidates-10k-for-trading-on-their-own-elections\">https://decrypt.co/380147/don-davis-bill-woul",
+      "link": "https://jinse.com.cn/lives/535234.html",
+      "published": "Wed, 07 Oct 2026 04:31:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美众议员 Don Davis 提案：禁止候选人下注自家选情",
+      "summary": "【美众议员 Don Davis 提案：禁止候选人下注自家选情】金色财经报道，10月7日，据 Decrypt 报道，美国北卡罗来纳州民主党众议员 Don Davis 于10月6日在众议院提出《禁止在自己的选票上下注法案》（No Betting on Your Own Race Act）。该法案将修订联邦选举法，禁止联邦公职候选人、配偶、未成年子女及授权委员会交易以本人选举结果（胜出、留任、得票率、名次等）结算的预测市场合约；违者每项处以 1 万美元民事罚款或三倍净收益（取高者）。交易平台依善意限制、暂停或关闭账户、平仓可豁免责任，并可向 CFTC、司法部或 FEC 举报而不担责。FEC 须每周更新可机读候选人名单。Kalshi 今年已对多名议员下注自家选情罚款。<p>原文链接: <a href=\"https://decrypt.co/380147/don-davis-bill-would-fine-candidates-10k-for-trading-on-their-own-elections\">https://decrypt.co/380147/don-davis-bill-woul",
+      "link": "https://jinse.com.cn/lives/535233.html",
+      "published": "Wed, 07 Oct 2026 04:31:08 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Stacks创始人回归出任CEO，公布上任首30天五项计划",
+      "summary": "【Stacks创始人回归出任CEO，公布上任首30天五项计划】金色财经报道，10月7日，据 Stacks 创始人 Muneeb Ali 推文，其重返项目出任 CEO，并公布上任首 30 天的五项计划：拓展机构业务，以缩短比特币债券从洽谈到落地的周期；简化管理层级、加快决策；发布两年路线图，涵盖比特币资本市场之外的机构级 BTC 隐私与后量子方案；召开投资者会议并发布首次公开持仓更新；厘清价值归属，将所有知识产权划归无股东捐赠基金，使价值全部归于 STX。其称已在行业深耕 13 年，将公开建设，代币为 $STX。<p>原文链接: <a href=\"https://x.com/muneeb/status/2107674485264613662?s=46\">https://x.com/muneeb/status/2107674485264613662?s=46</a></p>",
+      "link": "https://jinse.com.cn/lives/535232.html",
+      "published": "Wed, 07 Oct 2026 04:30:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Cardano 推出可编程代币标准 CIP-0113，支持 KYC、制裁筛查等合规规则",
+      "summary": "【Cardano 推出可编程代币标准 CIP-0113，支持 KYC、制裁筛查等合规规则】金色财经报道，10月7日，Cardano 基金会宣布可编程代币标准 CIP-0113 已在 Cardano 主网正式上线。该标准允许稳定币、代币化基金、债券等受监管资产发行方，将 KYC、反洗钱、制裁筛查、冻结与没收资产及转账限制等合规规则直接嵌入代币，由 Cardano 账本在每次转账、铸造和销毁时执行。该标准无需硬分叉，代币仍属 Cardano 原生资产，发行方可随监管变化更新规则模块。此外，瑞士资本市场与技术协会（CMTA）已认可 CIP-0113 可编程资产代币在其认证体系下等同于 CMTAT 智能合约标准。<p>原文链接: <a href=\"https://cardanofoundation.org/blog/programmable-tokens-cardano-mainnet\">https://cardanofoundation.org/blog/programmable-tokens-cardano-mainnet</a></p>",
+      "link": "https://jinse.com.cn/lives/535231.html",
+      "published": "Wed, 07 Oct 2026 04:28:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "金色午报 | 10月7日午间重要动态一览",
+      "summary": "【金色午报 | 10月7日午间重要动态一览】7:00-12:00 关键词：Hyperliquid、Blast、CFTC、Coinbase \n1. Jeff Yan：HIP-3 曾占 Hyperliquid 交易量 51%，平台定位开放金融基础设施 \n2. Robinhood 资产负债表新增 2500 万美元比特币持仓 \n3. 贝莱德数字资产总监：代币化货基可直接作抵押品转移 \n4. Hyperliquid 创始人：HIP-3 市场受青睐因其让金融更普惠 \n5. Blast 网络关停，Coinbase 将于 10 月 20 日暂停 BLAST 交易 \n6. CFTC 主席：拟议规则下仅联邦监管加密交易所可提供杠杆 \n7. Coinbase 将于年底重启 Coinbase Pro，并整合 Deribit 成立 Coinbase Global Exchange",
+      "link": "https://jinse.com.cn/lives/535230.html",
+      "published": "Wed, 07 Oct 2026 04:25:51 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "前Messari分析师Mason Nystrom加入Multicoin任投资合伙人",
+      "summary": "【前Messari分析师Mason Nystrom加入Multicoin任投资合伙人】金色财经报道，10月7日，前Messari分析师Mason Nystrom于X平台发文宣布，已正式加入Multicoin Capital，担任投资合伙人。此前他曾在Pantera Capital和Variant Fund任职。Nystrom表示，凭借在ConsenSys、Messari的背景及对稳定币、代币化与消费者加密货币的深入研究，后续将重点关注稳定币、消费者应用与金融基础设施领域的投资。<p>原文链接: <a href=\"https://x.com/masonnystrom/status/2107493149098783182\">https://x.com/masonnystrom/status/2107493149098783182</a></p>",
+      "link": "https://jinse.com.cn/lives/535229.html",
+      "published": "Wed, 07 Oct 2026 04:24:59 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "央视公开柬埔寨太子集团头目陈志押解画面",
+      "summary": "【央视公开柬埔寨太子集团头目陈志押解画面】金色财经报道，10月7日，据央视法治在线报道，柬埔寨太子集团犯罪头目陈志被押解回国的现场画面被公开。公安部今年1月7日派出工作组，将陈志从金边押解回国；4月1日，将其犯罪集团核心骨干李雄从金边押解回国；6月17日，又将重要骨干刘忍从金边押解回国。警方表示坚持盯着打、追着打、压着打、除恶务尽，并呼吁全球各国政府对电诈犯罪实施严厉打击。<p>原文链接: <a href=\"https://channels.weixin.qq.com/finder-preview/pages/sph?id=AVPLmwD1dO\">https://channels.weixin.qq.com/finder-preview/pages/sph?id=AVPLmwD1dO</a></p>",
+      "link": "https://jinse.com.cn/lives/535228.html",
+      "published": "Wed, 07 Oct 2026 04:21:22 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "WLFI创始人：计划向某Web2公司整合支付技术，后者「拥有数十亿用户」",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，WLFI 创始人 Zak Folkman 在 Token2049 上表示，WLFI 计划向未具名的 Web2 公司整合支付技术，这些公司「拥有数十亿用户」，用于向司机、承包商和创作者支付报酬。</p>",
+      "link": "https://www.theblockbeats.info/flash/370563",
+      "published": "Wed, 07 Oct 2026 05:35:19 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Solana代币化白银项目Dominion宣布关闭，9月遭受攻击后流动性崩塌",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，Solana 代币化白银项目 Dominion 宣布关闭。团队表示，9 月安全事件导致大量 SILV 被攻破并抛售，随后出现流动性崩塌、营运资金损失及市场结构受损，重建所需资本已超过项目剩余资源。Dominion 已将大部分剩余流动资金投入退款计划，允许符合条件的攻击前 SILV 持有人按每枚 63 美元退出。</p><p><br /></p><p>SILV 原设计为由实物白银 1:1 支持的 Solana 代币，每枚对应一金衡盎司白银。9 月 11 日攻击者控制其 3/5 多签密钥，并向流动性较薄的 DEX 抛售约 46,909 枚 SILV，攻击前名义价值约 300 万美元，最终套现约 23.8 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/370562",
+      "published": "Wed, 07 Oct 2026 05:25:14 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "单一股票杠杆ETF成散户收购机，韩国散户两个月内狂亏2.3万亿韩元，约合17亿美元",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，根据韩国金融监管机构汇总的数据，自单只股票杠杆交易所交易产品今年 5 月推出以来，5 月 27 日至 8 月 14 日期间，投资者短短数月估计已经损失 2.3 万亿韩元，约合 17 亿美元。这也是监管层首次披露韩国投资者在这类高杠杆单股产品上的整体损失规模。需要指出的是，上述数据只涉及 10 家韩国头部券商，因此并不代表所有韩国投资者在杠杆产品上的总亏损。</p><p><br /></p><p>自 7 月起，监管层陆续出台措施限制杠杆单股产品交易，包括暂时禁止新的相关产品上市、提高投资者最低现金保证金要求，并要求投资者在交易前接受专门培训。这意味着，从 5 月鼓励本土市场推出相关产品，到 7 月开始限制扩张，韩国监管政策在不到两个月内已经明显转向。</p>",
+      "link": "https://www.theblockbeats.info/flash/370561",
+      "published": "Wed, 07 Oct 2026 05:24:13 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Orca发起回购提案，代币近一周逆势涨超80%",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 HTX 行情，Solana 生态流动性协议 Orca 今日逆势上涨 9.78%，近 7 日累计涨幅超 80%，现报 2.903 美元。</p><p><br /></p><p>消息面上，Orca 近日发起一项费用分成提案，提议新增一个由团队运营的 10% 回购账户，该提案将于 10 月 10 日结束。</p>",
+      "link": "https://www.theblockbeats.info/flash/370560",
+      "published": "Wed, 07 Oct 2026 05:14:35 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "OKX Star：未来5到10年，金融将经历两次根本性变革",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，OKX 创始人 Star Xu 在 Token2049 上表示，未来 5 到 10 年，金融将经历两次根本性变革，首先将是用户体验提升。</p>",
+      "link": "https://www.theblockbeats.info/flash/370559",
+      "published": "Wed, 07 Oct 2026 05:12:23 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "桥水基金创始人瑞·达利欧：AI泡沫正接近破裂",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，亿万富翁、桥水基金创始人达利欧警告称，人工智能是一个「典型泡沫」，随着利率上升以及财富需要转化为现金，泡沫正逐渐接近破裂点。</p><p><br /></p><p>达利欧表示，目前有大量债务被用于为 AI 提供资金。随着利率持续攀升，泡沫可能在这一节点开始破裂。他说：「我们正处于周期中临近这一节点的阶段，我认为我们已经离它很近了。」</p><p><br /></p><p>他补充称，还有其他因素可能引发泡沫破裂，包括财富税以及其他旨在将未实现收益转化为现金的措施。他说：「每个人都说『我的身家有 10 亿美元』，但问题是，要花掉这些财富，你必须出售资产换取现金，而这往往正是导致泡沫破裂的导火索。」</p>",
+      "link": "https://www.theblockbeats.info/flash/370555",
+      "published": "Wed, 07 Oct 2026 04:47:46 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Arthur Hayes：Flop测试网十月上线，将面向测试网挖矿用户空投",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，Arthur Hayes 在 Token2049 上表示，Flop 测试网将于今年 10 月份上线，周期为 90 天，2027 年第一季度将上线主网，参与测试网挖矿的用户可获得代币空投。</p>",
+      "link": "https://www.theblockbeats.info/flash/370552",
+      "published": "Wed, 07 Oct 2026 04:41:12 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Santiment：本周一比特币CEX净流出量创近7个月新高",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，Santiment 今晨发布数据表示，本周一，比特币 CEX 净流出量达 24,073 枚，这是自 3 月 1 日以来最大的单日流出。CEX 供应量已降至总 BTC 供应量的约 6.50%。</p><p><br /></p><p>Santiment 认为，大规模流出通常是利好信号，因为离开 CEX 的币种变得不易立即用于抛售。如果需求保持强劲而流动供应量缩减，买家将有更少的可用币种可供吸收，然后价格就需要向上移动。</p>",
+      "link": "https://www.theblockbeats.info/flash/370551",
+      "published": "Wed, 07 Oct 2026 04:40:48 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "昨日比特币ETF净流入1.188亿美元，以太坊ETF净流出2.019亿美元",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，据 Farside Investors 监测，昨日美国比特币现货 ETF 净流入 1.188 亿美元，其中 IBIT 净流入 1.22 亿美元。</p><p><br /></p><p>以太坊 ETF 净流出 2.019 亿美元，连续 6 日净流出，流出部分全部为贝莱德 ETHA 贡献。</p>",
+      "link": "https://www.theblockbeats.info/flash/370550",
+      "published": "Wed, 07 Oct 2026 04:31:21 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Stacks创始人公布回归后五项重点，计划转移知识产权至无股东Endowment",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，Stacks 创始人 Muneeb Ali 公布其回归 Stacks Labs CEO 后首 30 天的五项重点，包括扩大机构业务拓展、简化管理架构、发布未来两年技术路线图、加强与大型 STX 持有者沟通，以及进一步明确 STX 的价值捕获机制。</p><p><br /></p><p>其表示，Bitcoin Bonds 的机构需求正在增加，未来路线图还将覆盖机构级 BTC 隐私和抗量子技术。Ali 称，Stacks Labs 计划将全部知识产权转移至一个无股东的 Endowment。</p>",
+      "link": "https://www.theblockbeats.info/flash/370548",
+      "published": "Wed, 07 Oct 2026 04:27:31 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "前Messari分析师Mason Nystrom加入Multicoin Capital，担任投资合伙人",
+      "summary": "<p>BlockBeats 消息，10 月 7 日，前 Messari 分析师 Mason Nystrom 于 X 平台发文宣布，已正式加入 Multicoin Capital，担任投资合伙人。在此之前，Mason Nystrom 曾在 Pantera Capital 和 Variant Fund 任职。</p><p><br /></p><p>Mason 表示，凭借在 ConsenSys、Messari 的背景，以及对稳定币、代币化和消费者加密货币的深入研究，后续将密切关注稳定币、消费者应用和金融基础设施的风险投资。</p>",
+      "link": "https://www.theblockbeats.info/flash/370546",
+      "published": "Wed, 07 Oct 2026 04:17:00 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Daily Crypto Discussion",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Welcome to the Daily Crypto Discussion thread. Please read the disclaimer and rules before participating.</p> <p> </p> <h1>Disclaimer:</h1> <p>Consider all information posted here with several liberal heaps of salt, and always cross check any information you may read on this thread with known sources. Any trade information posted in this open thread may be highly misleading, and could be an attempt to manipulate new readers by known &quot;pump and dump (PnD) gro",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wzmxb6/daily_crypto_discussion/",
+      "published": "2026-10-07T04:02:08+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Why is Crypto Down? Bitcoin Lost $2,000 in A Flash Crash - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNNWRTS3Z3bWFTMi0zbDB4cHN6bVI4aDBCV0FjZl9RNFZuSWlMX3ByTHlaT0JlR2dCQks0dHNvZUZPN2dCdll3ZzFIcGJ5cmNjUk41U1VheWlMYVpfdXhfd2x4eUE0NHNGdlRxUUFpTWYzWjhYR2hCTW9MZlhlaU04VWRVdFBEUTFZMUdaWVJwaGtzSi1fMWVFSA?oc=5\" target=\"_blank\">Why is Crypto Down? Bitcoin Lost $2,000 in A Flash Crash</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNWRTS3Z3bWFTMi0zbDB4cHN6bVI4aDBCV0FjZl9RNFZuSWlMX3ByTHlaT0JlR2dCQks0dHNvZUZPN2dCdll3ZzFIcGJ5cmNjUk41U1VheWlMYVpfdXhfd2x4eUE0NHNGdlRxUUFpTWYzWjhYR2hCTW9MZlhlaU04VWRVdFBEUTFZMUdaWVJwaGtzSi1fMWVFSA?oc=5",
+      "published": "Wed, 07 Oct 2026 04:27:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto industry hits back at regulator calls for EU stablecoin reward ban - The Banker",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9PY2dHRkJhdk12QTVpREc3QVB4U2FLblVTNHJGVVUwdG00cVc0YkM2TkpXaG9IY0RZNl9wWHdyZHRhdnJRRTBYZldYb0pjYTZVd2g0YnZmb1VSNWdNM0dkX2ZCWXVLUF9LYWIzRU11RjFpbnJWQnhDWVd3?oc=5\" target=\"_blank\">Crypto industry hits back at regulator calls for EU stablecoin reward ban</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Banker</font>",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PY2dHRkJhdk12QTVpREc3QVB4U2FLblVTNHJGVVUwdG00cVc0YkM2TkpXaG9IY0RZNl9wWHdyZHRhdnJRRTBYZldYb0pjYTZVd2g0YnZmb1VSNWdNM0dkX2ZCWXVLUF9LYWIzRU11RjFpbnJWQnhDWVd3?oc=5",
+      "published": "Wed, 07 Oct 2026 05:03:45 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "ETH price on Oct 7, 2026 at 2am EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPWWJLV2FPNVQwTzUyYVRFQlRHSnBEendXbXJmWTdLLURHNDNRZmVXaGpYV2xnaG5RSVU5TDlWaEJCUUVjaVo3anE3aWJaYXFZSGNfZW9FdnNIbDZiZ290U0NVRjBHY1FzUGUxOXUtbXBBSUQwdVpHTmNlOFdSa2dGTGJrdnRxajhpY2lpaC1mTGU1UHJ5WnJINjJKWmNEQWRoUlg5ZXNDUGdNNExB?oc=5\" target=\"_blank\">ETH price on Oct 7, 2026 at 2am EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWWJLV2FPNVQwTzUyYVRFQlRHSnBEendXbXJmWTdLLURHNDNRZmVXaGpYV2xnaG5RSVU5TDlWaEJCUUVjaVo3anE3aWJaYXFZSGNfZW9FdnNIbDZiZ290U0NVRjBHY1FzUGUxOXUtbXBBSUQwdVpHTmNlOFdSa2dGTGJrdnRxajhpY2lpaC1mTGU1UHJ5WnJINjJKWmNEQWRoUlg5ZXNDUGdNNExB?oc=5",
+      "published": "Wed, 07 Oct 2026 05:07:42 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BTC price range on Oct 7, 2026 at 2am EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQU0w4QnZ1LVhjM1BQcWlzMy1Yb2VjTkJkT3pFZWZXdDBqUER5OVY0ODZLa0kteXVxSGVjY2ZzUERpVVdyeFlJTldmblRPN1dCRDZ2cDZaZ2RYRVh3U2Y0aGRQYnlkanlGQXRSOWc0b2ZqbUFHbVU0eDA0RUw5SFItQlhPVmlOQm05ZElUXzJmQTJSSjRhQVdPYTBLV3hvampNZ2plT01XN21jc2s1Rmk2Q1VkLXA?oc=5\" target=\"_blank\">BTC price range on Oct 7, 2026 at 2am EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU0w4QnZ1LVhjM1BQcWlzMy1Yb2VjTkJkT3pFZWZXdDBqUER5OVY0ODZLa0kteXVxSGVjY2ZzUERpVVdyeFlJTldmblRPN1dCRDZ2cDZaZ2RYRVh3U2Y0aGRQYnlkanlGQXRSOWc0b2ZqbUFHbVU0eDA0RUw5SFItQlhPVmlOQm05ZElUXzJmQTJSSjRhQVdPYTBLV3hvampNZ2plT01XN21jc2s1Rmk2Q1VkLXA?oc=5",
+      "published": "Wed, 07 Oct 2026 05:07:41 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Watch Franklin Templeton's Perkins: AI & Crypto Are Friends - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ2dQMWQ0clRaTWdsWm5JLTdrQmNFTDM3TTJPVWpuR18tdFlDdG1hRDRPNEpHSDl2Z0hMS3NWclQ4STRLazlDeTlodzhhdXl3UDNyQVRqM3lzRVRnSmkwVm5KdjlNZFRYXzJ6OFJ4ZV9CSlZlejNCNXN2dXFSWEhqbHdEZG9CU0lXV2x0cHJZOFlYQmIwWnpybGtiRHo3aFU5OVFIOFVqbUo?oc=5\" target=\"_blank\">Watch Franklin Templeton's Perkins: AI & Crypto Are Friends</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ2dQMWQ0clRaTWdsWm5JLTdrQmNFTDM3TTJPVWpuR18tdFlDdG1hRDRPNEpHSDl2Z0hMS3NWclQ4STRLazlDeTlodzhhdXl3UDNyQVRqM3lzRVRnSmkwVm5KdjlNZFRYXzJ6OFJ4ZV9CSlZlejNCNXN2dXFSWEhqbHdEZG9CU0lXV2x0cHJZOFlYQmIwWnpybGtiRHo3aFU5OVFIOFVqbUo?oc=5",
+      "published": "Wed, 07 Oct 2026 05:16:25 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase's Martin Sees Rising Demand for Crypto - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQMkQ0QlNUSmRhWFdJcHFaQW5OWkxmUDhhbkc2dkJYUmcwblVxcTluamcxMkhNR3d6NGp5ZGItMjZTV0xyaUloSVFBOEZfY3hmUjUtWTFVSUxieS1JUGdHRkY4aWhKanRLYUxBME1FMGkzeVd0RFhFd042UUJzVVlZZmZVc3hXY3ZmNmc?oc=5\" target=\"_blank\">Coinbase's Martin Sees Rising Demand for Crypto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMkQ0QlNUSmRhWFdJcHFaQW5OWkxmUDhhbkc2dkJYUmcwblVxcTluamcxMkhNR3d6NGp5ZGItMjZTV0xyaUloSVFBOEZfY3hmUjUtWTFVSUxieS1JUGdHRkY4aWhKanRLYUxBME1FMGkzeVd0RFhFd042UUJzVVlZZmZVc3hXY3ZmNmc?oc=5",
+      "published": "Wed, 07 Oct 2026 05:24:38 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "summary": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
+      "published": "2026-09-28T18:00:13.103000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d4c5a66cdce246cc952d13bab215b688",
+      "published": "2026-09-28T12:45:07.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1718842b00ee41479c763ef27b6312f0",
+      "published": "2026-09-24T18:45:04.777000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "summary": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
+      "published": "2026-09-24T15:30:38.608000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "summary": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
+      "published": "2026-09-23T15:15:46.848000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "summary": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c61f3c18a3004f968b53fb09841f7bc7",
+      "published": "2026-09-23T13:30:02.080000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "summary": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+      "published": "2026-09-23T13:00:01.336000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f6c7be7767b4e29bb837dea4650ac7a",
+      "published": "2026-09-23T12:30:01.911000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "summary": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7379b99aa0f349a49c3b3feca1b4bbd6",
+      "published": "2026-09-22T15:31:04.920000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e92a42b474e344a69b620dcee1e9c987",
+      "published": "2026-09-21T17:30:01.032000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "summary": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a0adb246c4a24f108fd0d1f51dfd3d1d",
+      "published": "2026-09-21T15:00:01.157000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "summary": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/533eb2f3998a43e3a34df310998bee48",
+      "published": "2026-09-18T22:00:03.166000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcd1b50824c04192b80091599c452ee8",
+      "published": "2026-09-18T16:00:12.684000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 71 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 71，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-10-07T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Cardano赋予代币发行者冻结、扣押及限制资产的权力 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNSGVPWXU2aTU3NWhWaGxxaGNESkIwQlM0MWpXLVJRLUhEVjl1clJpcXQ5WS1BLXBRQ19xcnJMRnhYSTh3cEMwQk45LTZnYUVaZEljNklGWmVlU1N1WGo4OUlxRzVsX2hNTFljNEdFUW5QRG5VbHplZkdoblVUN09EdFVYM3p1RFVJbklLcklHUzFYV19VUWRMOEpsN1VEV1k4WGZxbWVTYlAzdWI3Z3hQQ3J5Yw?oc=5\" target=\"_blank\">Cardano赋予代币发行者冻结、扣押及限制资产的权力</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSGVPWXU2aTU3NWhWaGxxaGNESkIwQlM0MWpXLVJRLUhEVjl1clJpcXQ5WS1BLXBRQ19xcnJMRnhYSTh3cEMwQk45LTZnYUVaZEljNklGWmVlU1N1WGo4OUlxRzVsX2hNTFljNEdFUW5QRG5VbHplZkdoblVUN09EdFVYM3p1RFVJbklLcklHUzFYV19VUWRMOEpsN1VEV1k4WGZxbWVTYlAzdWI3Z3hQQ3J5Yw?oc=5",
+      "published": "Wed, 07 Oct 2026 04:11:33 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Pudgy Penguins 的 Abstract 成为一周内第二个关闭的以太坊 Layer 2 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdThFZkt5RG9VWU1iYkdFT3puT0RuWnlGWTBaekJsVks3V3FDbV9qNXZIR28xTG5zQ3BjdWFTVWlyc2djd2RGM29DWTVCRG9fXzBjOEc3SjRoLUhpeXQwWVNFbFRJNTAxeDMxSTdLSmVHS0ZaVERYNHNnT19CWjVVM3hEY2VfUVJ0NDh1WWRabFIwUUZyQkUtYTB0aDNWYl96ZmVzVWZ2Wk93REdKNzNINEJiNDgyTUJZ?oc=5\" target=\"_blank\">Pudgy Penguins 的 Abstract 成为一周内第二个关闭的以太坊 Layer 2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdThFZkt5RG9VWU1iYkdFT3puT0RuWnlGWTBaekJsVks3V3FDbV9qNXZIR28xTG5zQ3BjdWFTVWlyc2djd2RGM29DWTVCRG9fXzBjOEc3SjRoLUhpeXQwWVNFbFRJNTAxeDMxSTdLSmVHS0ZaVERYNHNnT19CWjVVM3hEY2VfUVJ0NDh1WWRabFIwUUZyQkUtYTB0aDNWYl96ZmVzVWZ2Wk93REdKNzNINEJiNDgyTUJZ?oc=5",
+      "published": "Wed, 07 Oct 2026 04:31:14 GMT"
+    }
+  ]
+}
