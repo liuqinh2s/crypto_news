@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-10",
+  "hour": "19",
+  "total": 45,
+  "fetched_at": "2026-10-10T19:01:00.249746+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin's $19 billion wake-up call: One-year later, has crypto learned anything?",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+      "published": "Sat, 10 Oct 2026 11:00:00 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "orbio完成120万美元种子轮融资 为AI代理构建自主配置算力基础设施",
+      "summary": "【orbio完成120万美元种子轮融资 为AI代理构建自主配置算力基础设施】金色财经报道，10月10日，据orbio官方推文，Robinhood生态AI项目orbio宣布完成120万美元种子轮融资，用于为AI代理构建可自行配置算力资源、硬件及一流私有基础设施的通道。orbio表示，本轮融资旨在「把计算手段交到代理手中」。据TokenPost报道，参投投资方或机构未披露。orbio正开发一个提供折扣AI积分交易的市场，覆盖超过400个AI模型，包括Claude Fable与GPT Astra。ORBIO代币通过Pons平台发行，由一池代币化英伟达股票支持。<p>原文链接: <a href=\"https://x.com/orbiodotso/status/2108863016959987924\">https://x.com/orbiodotso/status/2108863016959987924</a></p>",
+      "link": "https://jinse.com.cn/lives/535650.html",
+      "published": "Sat, 10 Oct 2026 10:44:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Strive募资约5500万美元 足够买入约638枚比特币",
+      "summary": "【Strive募资约5500万美元 足够买入约638枚比特币】金色财经报道，10月10日，据Bitcoin.com报道，Strive的SATA优先股本周募资约5500万美元，足以购买约638枚比特币。据追踪平台Bitcointreasuries.net统计，该数字来自周度仪表盘快照，仅计入以100美元面值或以上成交的成交量，再按经SEC文件校准的捕获比率估算其通过ATM计划售出的新股数量。SATA在10月5日及6日多数时间高于面值成交，但周三至周五全部低于面值，发行随之暂停——这是此类机制的内置刹车：低于面值发行新股会侵蚀计划承诺，须待买方推高价格方能恢复。同期Michael Saylor旗下Strategy在9月28日至10月4日未售出任何STRC股份，其10月1日至4日购入的334枚BTC由出售MSTR普通股提供资金，持仓升至848000枚BTC。Strive截至10月2日持有29462枚BTC。两家公司周一的8-K文件预计将确认实际购币数量。<p>原文链接: <a href=\"https://news.bitcoin.com/featured/strive-sata-638-bi",
+      "link": "https://jinse.com.cn/lives/535649.html",
+      "published": "Sat, 10 Oct 2026 10:40:15 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "XXAntiWar晒单今年合约累计盈利超500万美元 强调操作纪律",
+      "summary": "【XXAntiWar晒单今年合约累计盈利超500万美元 强调操作纪律】金色财经报道，10月10日，加密KOL XXAntiWar今日于X平台展示今年以来合约战绩，据其截图显示，XXAntiWar两个账户累计盈利超500万美元。其同时表示，今年合约操作中亏损最大为ZEC空单。针对合约交易经验，他总结了交易纪律的重要性：「一旦有了爆仓价，你的交易就有了弱点。赚到钱就出金不复投，绝大部分其他可支配资金都拿去塞定期取不出来，防止自己上头补保证金，要给自己可能出现的最大亏损设限。」他称，目前能想到的适合办法，就是只投入可支配资金的3%至10%，杠杆最高只能3倍。<p>原文链接: <a href=\"https://x.com/XXAntiWar/status/2108806025818313078\">https://x.com/XXAntiWar/status/2108806025818313078</a></p>",
+      "link": "https://jinse.com.cn/lives/535648.html",
+      "published": "Sat, 10 Oct 2026 10:26:00 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "LeCun等提出H-JEPA：面向视觉规划的分层世界模型端到端学习",
+      "summary": "【LeCun等提出H-JEPA：面向视觉规划的分层世界模型端到端学习】金色财经报道，10月10日，据arXiv论文，Yann LeCun等研究者提出H-JEPA（分层联合嵌入预测架构世界模型），实现动作条件化JEPA层级结构的端到端训练：每一层在自身学习到的潜在空间内预测更远的未来，规划自顶向下进行——顶层优化向目标推进，各层的预测成为其下层规划器的子目标。当数据中的因素以不同时间尺度演变时，较高层会丢弃快速、不可预测的细节，保留较慢的任务相关状态。在四个模拟导航与操作环境中，分层规划优于扁平JEPA；在Visual AntMaze任务上，三层分层将成功率从18%提升至73%，且规划器算力更少。消融实验将收益归因于时间分解与更高层目标表示。在逆动力学监督下，该方法可扩展至DROID真实机器人视频，分层结构在更低规划算力下提升离线规划保真度。论文于10月5日提交。",
+      "link": "https://jinse.com.cn/lives/535647.html",
+      "published": "Sat, 10 Oct 2026 10:10:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BNB突破750美元",
+      "summary": "【BNB突破750美元】金色财经报道，行情显示，BNB突破750美元，现报750.01美元，24小时涨幅达到0.95%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/535646.html",
+      "published": "Sat, 10 Oct 2026 10:04:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "国务院发布意见，提出建设国家区块链网络",
+      "summary": "【国务院发布意见，提出建设国家区块链网络】金色财经报道，10月9日，据新华社报道，中共中央、国务院印发《关于发展新质生产力的意见》，共七个部分、十九条。意见提出，以科技创新为引领，以全要素生产率大幅提升为核心标志，坚持创新主导、改革为要、因地制宜、先立后破。在产业方面，意见要求培育壮大新兴产业，前瞻布局量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、第六代移动通信等未来产业，并全面实施「人工智能+」行动，加快推进人形机器人等新一代智能终端场景应用。在激励与金融支持方面，意见提出建立企业研发准备金制度、提高企业研发费用加计扣除比例，完善长期资本投早、投小、投长期、投硬科技的支持政策，壮大耐心资本，丰富科技创新债券产品体系，支持优质科技型企业上市融资，优化科技型企业并购重组、股权激励等制度。意见同时强调，不能脱实向虚、贪大求全、搞泡沫化，严禁借发展新质生产力之名违规滥用政策，对一哄而上、盲目投资等造成重大损失的严肃追究责任。<p>原文链接: <a href=\"https://www.gov.cn/zhengce/202610/content_7082820.htm\">https:/",
+      "link": "https://jinse.com.cn/lives/535645.html",
+      "published": "Sat, 10 Oct 2026 10:01:01 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "交易员tetrose押注10月美联储加息，持有445万美元BTC及标普500空仓",
+      "summary": "【交易员tetrose押注10月美联储加息，持有445万美元BTC及标普500空仓】金色财经报道，10月10日消息，Polymarket上10月美联储加息25基点隐含概率约15.5%，交易员tetrose持有29.78万份相关Yes仓位，价值4.62万美元，浮亏2.36万美元。tetrose在Hyperliquid做空20.95枚BTC，价值173.45万美元，浮亏6491美元；另持有271.15万美元标普500指数空仓，浮亏1666美元，两笔空仓合计名义价值约445万美元。",
+      "link": "https://jinse.com.cn/lives/535644.html",
+      "published": "Sat, 10 Oct 2026 09:58:54 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "波场链USDT供应量增加186.7亿枚，总量达942.5亿枚",
+      "summary": "【波场链USDT供应量增加186.7亿枚，总量达942.5亿枚】金色财经报道，过去一年中，波场链上的USDT供应量增加了186.7亿枚，达到942.5亿枚。（Lookonchain）",
+      "link": "https://jinse.com.cn/lives/535643.html",
+      "published": "Sat, 10 Oct 2026 09:57:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "灰度以太坊迷你信托ETF过去20天买入1.03亿美元ETH，ETHE流出7160万美元",
+      "summary": "【灰度以太坊迷你信托ETF过去20天买入1.03亿美元ETH，ETHE流出7160万美元】金色财经报道，10月10日，Arkham监测显示，灰度以太坊迷你信托ETF在过去20天内累计买入约1.033亿美元ETH，同期ETHE基金流出约7160万美元，灰度客户期间净买入约3170万美元ETH。",
+      "link": "https://jinse.com.cn/lives/535642.html",
+      "published": "Sat, 10 Oct 2026 09:55:45 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Amp接入Claude订阅，底层直接换成Claude Code",
+      "summary": "【Amp接入Claude订阅，底层直接换成Claude Code】金色财经报道，10月10日，AI 编程工具 Amp 宣布，现已支持 Claude Pro/Max 订阅，向所有用户免费开放接入。新建任务时选择「Claude Code」模式，绑定 Claude 账号即可。模型使用量直接计入原有订阅限额，无需再向 Amp 单独购买额度。 \n新模式通过 Claude Agent SDK 运行官方 Claude Code，同时保留 Amp 的云端电脑、任务共享、多人协作和 Agent 编排等功能。只有这个模式能使用 Claude 订阅，Amp 原有的 Medium、High、Ultra 模式不在其中。本地运行免费，云端电脑仍需付费。 \nAnthropic 此前曾限制第三方工具使用 Claude 订阅，但今年 6 月暂停了相关政策调整，10 月又确认第三方应用仍可使用订阅额度。不过，官方开发文档依然要求，第三方产品提供 Claude 登录或订阅额度须事先获批。<p>原文链接: <a href=\"https://ampcode.com/news/use-your-claude-plan\">http",
+      "link": "https://jinse.com.cn/lives/535641.html",
+      "published": "Sat, 10 Oct 2026 09:53:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Papertrade预计今晚22时上线 预存款已超9000万美元",
+      "summary": "【Papertrade预计今晚22时上线 预存款已超9000万美元】金色财经报道，10月10日，据官方公告，基于HyperEVM的合成永续协议Papertrade预计将于今晚22时正式上线开放交易，存款将在UTC时间13:45即上线前十五分钟暂停，以确保交易在上线过程中获得最高优先级。另据官网信息，该协议预存款已超9000万美元，现有7280个地址参与。官方9日开启预存款，同时表示交易开启后账户创建与存款会被大幅降权，提前存入有助于避开开盘拥堵，但预存款期内早存没有额外优势。Papertrade是部署在HyperEVM上的全链上合成永续交易平台，价格读取Hyperliquid订单簿BBO中间价，用户直接与协议LP作为对手盘，而非走传统订单簿撮合，主打高杠杆、零滑点、无资金费率。原生代币PAPER初始供应为零，无预挖、团队或VC份额，唯一铸造来源是用户亏损或清算；上线初期代币不可自由转账，主要用于质押。<p>原文链接: <a href=\"https://x.com/papertrade_xyz/status/2108850202585215162\">https://x.com/paper",
+      "link": "https://jinse.com.cn/lives/535640.html",
+      "published": "Sat, 10 Oct 2026 09:49:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "闲置4年后转移钱包遭盗 59枚ETH被Ledger Drainer窃取",
+      "summary": "【闲置4年后转移钱包遭盗 59枚ETH被Ledger Drainer窃取】金色财经报道，10月10日，据链上分析平台Lookonchain监测，一名用户的旧钱包已安全使用8年，但一个月前，在闲置超过4年后他转移至一个新钱包，随后CryptoBillis Ledger Drainer盗走了该钱包内全部59枚ETH（约14.68万美元）。相关地址为0x6eb486CB5Afb1FBf2ccC84fAE649D55272FEEB62。<p>原文链接: <a href=\"https://x.com/lookonchain/status/2108852179381756027\">https://x.com/lookonchain/status/2108852179381756027</a></p>",
+      "link": "https://jinse.com.cn/lives/535639.html",
+      "published": "Sat, 10 Oct 2026 09:43:02 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "OneKey分析Ledger硬件供应链攻击路径 提出硬件钱包五项改进措施",
+      "summary": "【OneKey分析Ledger硬件供应链攻击路径 提出硬件钱包五项改进措施】金色财经报道，10月10日，针对CryptoBilis渠道售出的Ledger设备疑遭篡改导致约9000万美元资产被盗事件，OneKey创始人Yishi发文表示，OneKey截至10月10日未收到相关受损报告。在深入分析Ledger硬件供应链植入攻击的攻击路径后，OneKey宣布推进五项改进措施，包括升级防伪包装、推出免屏幕显示的初始化流程、固件与硬件层面推进主板总线内部通信加密等。Yishi希望制造商、研究人员和分销合作伙伴能够携手合作，仔细研究设备如何到达用户手中，以及敏感数据如何在设备内部传输。<p>原文链接: <a href=\"https://x.com/ohyishi/status/2108823827363102796?s=46\">https://x.com/ohyishi/status/2108823827363102796?s=46</a></p>",
+      "link": "https://jinse.com.cn/lives/535638.html",
+      "published": "Sat, 10 Oct 2026 09:37:49 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国对AI服务器电源等产品发起337调查 立讯精密、工业富联等20家企业列名",
+      "summary": "【美国对AI服务器电源等产品发起337调查 立讯精密、工业富联等20家企业列名】金色财经报道，10月10日，据同花顺消息，美东时间10月9日，美国国际贸易委员会（USITC）发布公告，对「特定垂直电力传输系统、其组件及含该系统的计算系统」发起337调查，针对AI服务器供电环节，共20家企业列名，包括立讯精密、工业富联、鸿海、鸿佰科技、台达电子、广达与云达、英飞凌、芯源系统、伟创力、天弘科技等，横跨中国大陆、中国台湾地区及美国、德国、新加坡、加拿大。调查源于马萨诸塞州电源模块厂商Vicor于9月9日提交的投诉，指控涉案产品侵犯其专利，请求发布有限排除令和禁止令，这是Vicor三年内第三次发起同类投诉。按USITC程序，立案后45天内将确定结案目标日期，本案距正式结论尚需较长时间。<p>原文链接: <a href=\"https://news.10jqka.com.cn/deep-topic/topic/dt_01M4JBV67ZTMREHFP4NJXA6EKP?fontzoom=no&amp;client_userid=O7Cu5&amp;share_hxapp=gsc&amp;share",
+      "link": "https://jinse.com.cn/lives/535637.html",
+      "published": "Sat, 10 Oct 2026 09:24:47 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Robinhood Crypto正与T.Rowe Price Digital Assets探索推出股票代币",
+      "summary": "【Robinhood Crypto正与T.Rowe Price Digital Assets探索推出股票代币】金色财经报道，10月10日，Robinhood Crypto 正与管理资产规模达 1.9 万亿美元的 T. Rowe Price Digital Assets 探索在 Robinhood Chain 上推出与主动管理型 ETF 挂钩的股票代币。相关合作处于探索阶段，潜在产品的推出需完成法律尽职调查、获得发行方董事会批准、公布最终条款并取得相关司法管辖区的监管批准。目前无法保证合作推进或产品推出，具体形式、时间及适用地区尚未确定。",
+      "link": "https://jinse.com.cn/lives/535636.html",
+      "published": "Sat, 10 Oct 2026 09:07:43 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "英伟达被曝停产RTX 5090 顶级游戏显卡让位给高价专业卡",
+      "summary": "【英伟达被曝停产RTX 5090 顶级游戏显卡让位给高价专业卡】金色财经报道，10月10日，英伟达可能停产最强的消费级显卡RTX 5090，把核心芯片留给售价更高的专业显卡。硬件爆料者MEGAsizeGPU称，未来生产的GB202芯片将全部供应RTX PRO系列，不再用于RTX 5090；另一名爆料者hongxing2020晒出疑似工厂通知，称中国特供版本也在停产范围。两者使用同系列GB202芯片但价格相差很大：RTX 5090配备32GB显存，首发价1999美元；面向AI开发与设计的RTX PRO 6000拥有96GB显存，官网标价1.6万美元，为前者的8倍。RTX 5090此前已在美国市场缺货，第三方卖家一度挂出9600美元，若停产属实消费者今后只能依赖剩余库存。另有爆料称，英伟达准备推出24GB版RTX 5080取代RTX 5090成为最高端游戏显卡，而现款RTX 5080的CUDA核心数量仅约RTX 5090的一半，4K游戏性能低约30%。",
+      "link": "https://jinse.com.cn/lives/535635.html",
+      "published": "Sat, 10 Oct 2026 09:04:35 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Is Bitcoin the Best Crypto You Can Buy Right Now? - The Motley Fool",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPNllrUGRRSk9kMG9HUGxidi1JYUJZMlBwQ2RFc0xHRTRhUW53ZzZfOWdpZHM1eEpjZjVGZWNlQTFfbWZmTlR5WEp3S2liamhwRVBZdVlaa2FuNXZrLXdCY3Vzd1c0UkcyZ3Uyc3pMQWs1dk5SUHVOcWpUTkJaaGhFSDRJcjlYYkRLYzRHT1Y5c1NONDdfWUE?oc=5\" target=\"_blank\">Is Bitcoin the Best Crypto You Can Buy Right Now?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNllrUGRRSk9kMG9HUGxidi1JYUJZMlBwQ2RFc0xHRTRhUW53ZzZfOWdpZHM1eEpjZjVGZWNlQTFfbWZmTlR5WEp3S2liamhwRVBZdVlaa2FuNXZrLXdCY3Vzd1c0UkcyZ3Uyc3pMQWs1dk5SUHVOcWpUTkJaaGhFSDRJcjlYYkRLYzRHT1Y5c1NONDdfWUE?oc=5",
+      "published": "Sat, 10 Oct 2026 10:30:26 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Dips to $80,000: How Other Coins Fared in the Market Slide - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOYTlBNm9FT01MWDY2Tm5sc0tWUWJEZl9SZVBiUWNfLWQ5UnpyNGtmVlU1MzJFZXk2azJQMlJkSTdIanpuaDB6WWJJYk5TSWRrMzA4UzAybXFiOTZYbEFYWWMtUzlUS2UwVHFtaGRRUEU4X3BHNkQxQzZPa0FMRkRBWlByRVNrSWpyMm9TbEtaM09GRS1jX1lUTU93OW1iSnFHSVg0eUJ4dUd4WVhKOTAwSUplUTRTU3J0aWVuNTYtSQ?oc=5\" target=\"_blank\">Bitcoin Dips to $80,000: How Other Coins Fared in the Market Slide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYTlBNm9FT01MWDY2Tm5sc0tWUWJEZl9SZVBiUWNfLWQ5UnpyNGtmVlU1MzJFZXk2azJQMlJkSTdIanpuaDB6WWJJYk5TSWRrMzA4UzAybXFiOTZYbEFYWWMtUzlUS2UwVHFtaGRRUEU4X3BHNkQxQzZPa0FMRkRBWlByRVNrSWpyMm9TbEtaM09GRS1jX1lUTU93OW1iSnFHSVg0eUJ4dUd4WVhKOTAwSUplUTRTU3J0aWVuNTYtSQ?oc=5",
+      "published": "Sat, 10 Oct 2026 10:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "SOL price on Oct 10, 2026 at 7am EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNalcxWDZ3Z2J5dHBzcEVyelJrcXotblNiam9VVmJOQmpnaGF3bHpyNFFCQVBzazczWVZJNDlBMV9kUDBpdHFlZFNYcFZkWm9PNnJWcnVfNmtBQTVWSWd6U211TWFGVHRZLVpUdGZjcXFncGhsR0w5S2xLZTJRZk5hazRHczNsUG5PM05Qa1VWaXNOZTJKM2lTamoxV2l3R29EQ19DUVFndnZCc3NkU3c?oc=5\" target=\"_blank\">SOL price on Oct 10, 2026 at 7am EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNalcxWDZ3Z2J5dHBzcEVyelJrcXotblNiam9VVmJOQmpnaGF3bHpyNFFCQVBzazczWVZJNDlBMV9kUDBpdHFlZFNYcFZkWm9PNnJWcnVfNmtBQTVWSWd6U211TWFGVHRZLVpUdGZjcXFncGhsR0w5S2xLZTJRZk5hazRHczNsUG5PM05Qa1VWaXNOZTJKM2lTamoxV2l3R29EQ19DUVFndnZCc3NkU3c?oc=5",
+      "published": "Sat, 10 Oct 2026 10:16:59 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Dips to $80,000: How Other Coins Fared in the Market Slide - AOL.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5Pb2VIN1QxZ0RzOXlYYldVZkJfcG1fSlFrdWlGblVEZEhUZHlNak0xRENRcEZPNWJLdVhtSzhobmRxR0RDS1VsQU9DbEJmWnlWSTgzQkh1OHZ3OVl0RmxPTjZYeGRhWEVQeGN3UFFQUml2MmdxS0w5bA?oc=5\" target=\"_blank\">Bitcoin Dips to $80,000: How Other Coins Fared in the Market Slide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Pb2VIN1QxZ0RzOXlYYldVZkJfcG1fSlFrdWlGblVEZEhUZHlNak0xRENRcEZPNWJLdVhtSzhobmRxR0RDS1VsQU9DbEJmWnlWSTgzQkh1OHZ3OVl0RmxPTjZYeGRhWEVQeGN3UFFQUml2MmdxS0w5bA?oc=5",
+      "published": "Sat, 10 Oct 2026 10:00:32 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Aerodrome rallies 48% in four weeks, outpacing Bitcoin and Ether - TradingView",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNejI4V05zZzdDQWktWVA2OHMyZjk3dzc5R2V5d0dvaWN2WXpJb0FIWVNZUy1oMHdUWVRxN3UtRkNZanJPM2Zvb29vOXc4Zkx1SVlPdXQ2Uy13aXpHU2txTjZZV1dMNnBUb0FmQlBCUVdsXzlReUI2b2FNTmk0QmhrM2dDVkhFem8xMXZ0WnVxaG9Pd0ZfWEw2NEduaFhwdWJ3eFpaVDZQR25rbV9nVU9OcUltQVZHZ0RFU1FTZUJwWk5OLVBnNXc?oc=5\" target=\"_blank\">Aerodrome rallies 48% in four weeks, outpacing Bitcoin and Ether</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNejI4V05zZzdDQWktWVA2OHMyZjk3dzc5R2V5d0dvaWN2WXpJb0FIWVNZUy1oMHdUWVRxN3UtRkNZanJPM2Zvb29vOXc4Zkx1SVlPdXQ2Uy13aXpHU2txTjZZV1dMNnBUb0FmQlBCUVdsXzlReUI2b2FNTmk0QmhrM2dDVkhFem8xMXZ0WnVxaG9Pd0ZfWEw2NEduaFhwdWJ3eFpaVDZQR25rbV9nVU9OcUltQVZHZ0RFU1FTZUJwWk5OLVBnNXc?oc=5",
+      "published": "Sat, 10 Oct 2026 09:37:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "U.S. crypto ETFs see $1.29B outflows in a week, led by Bitcoin and Ethereum funds - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOTXAxQldyNjFwMnF1eXNBRG9VMG01NU14RTIzUG14cS0zeWpKWTRIRUdjamRJMTM1SEJmRDI2NGdFRmJZS2NxZ3hzcmVsbW1GaTJTVGxEN3lmRWQ2N2wySmJxTlQ1Y0FheFk1WW5EUjRVLW1yb2R3N2lQLVNoVk1zVGlQck9qN2ctTmlTMXl3?oc=5\" target=\"_blank\">U.S. crypto ETFs see $1.29B outflows in a week, led by Bitcoin and Ethereum funds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTXAxQldyNjFwMnF1eXNBRG9VMG01NU14RTIzUG14cS0zeWpKWTRIRUdjamRJMTM1SEJmRDI2NGdFRmJZS2NxZ3hzcmVsbW1GaTJTVGxEN3lmRWQ2N2wySmJxTlQ1Y0FheFk1WW5EUjRVLW1yb2R3N2lQLVNoVk1zVGlQck9qN2ctTmlTMXl3?oc=5",
+      "published": "Sat, 10 Oct 2026 09:04:55 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "summary": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
+      "published": "2026-09-28T18:00:13.103000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d4c5a66cdce246cc952d13bab215b688",
+      "published": "2026-09-28T12:45:07.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1718842b00ee41479c763ef27b6312f0",
+      "published": "2026-09-24T18:45:04.777000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "summary": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
+      "published": "2026-09-24T15:30:38.608000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "summary": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
+      "published": "2026-09-23T15:15:46.848000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "summary": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c61f3c18a3004f968b53fb09841f7bc7",
+      "published": "2026-09-23T13:30:02.080000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "summary": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+      "published": "2026-09-23T13:00:01.336000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f6c7be7767b4e29bb837dea4650ac7a",
+      "published": "2026-09-23T12:30:01.911000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "summary": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7379b99aa0f349a49c3b3feca1b4bbd6",
+      "published": "2026-09-22T15:31:04.920000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e92a42b474e344a69b620dcee1e9c987",
+      "published": "2026-09-21T17:30:01.032000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "summary": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a0adb246c4a24f108fd0d1f51dfd3d1d",
+      "published": "2026-09-21T15:00:01.157000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "summary": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/533eb2f3998a43e3a34df310998bee48",
+      "published": "2026-09-18T22:00:03.166000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcd1b50824c04192b80091599c452ee8",
+      "published": "2026-09-18T16:00:12.684000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 64 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 64，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-10-10T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "BTC price on Oct 10, 2026 at 5pm EDT? - Coinbase",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9LZDJPNExaYlFwczFqRW1kOXRfbTZJMElnSXpuNTRZT1ZMak9yZVJKbXY5Y3padk1vSlhvSElGNHhtWnUzZHl5QjVsWC1DQlNaQnBUZWQ1aTR2VDNnQ28tckVoYnk2Mmo4TVExTGtFRDhEckk?oc=5\" target=\"_blank\">BTC price on Oct 10, 2026 at 5pm EDT?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinbase</font>",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LZDJPNExaYlFwczFqRW1kOXRfbTZJMElnSXpuNTRZT1ZMak9yZVJKbXY5Y3padk1vSlhvSElGNHhtWnUzZHl5QjVsWC1DQlNaQnBUZWQ1aTR2VDNnQ28tckVoYnk2Mmo4TVExTGtFRDhEckk?oc=5",
+      "published": "Sat, 10 Oct 2026 10:38:36 GMT"
+    }
+  ]
+}
