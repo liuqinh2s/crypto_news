@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-10",
+  "hour": "10",
+  "total": 32,
+  "fetched_at": "2026-10-10T10:00:55.547712+08:00",
+  "news": [
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Life Insurer Meanwhile Raises $37.5M as Wealthy Families Look to Pass On Their BTC",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/10/Pics-7.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/meanwhile-bitcoin-raises-37-million\" rel=\"nofollow\">Bitcoin Life Insurer Meanwhile Raises $37.5M as Wealthy Families Look to Pass On Their BTC</a></p>\n<p>The Bermuda-regulated startup, whose backers include Bain Capital Crypto and Sam Altman, has",
+      "link": "https://bitcoinmagazine.com/news/meanwhile-bitcoin-raises-37-million",
+      "published": "Sat, 10 Oct 2026 00:53:09 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "3个早期ETH钱包沉睡9年后向Coinbase存入2903枚ETH",
+      "summary": "【3个早期ETH钱包沉睡9年后向Coinbase存入2903枚ETH】金色财经报道，10月10日，据Lookonchain监测，3个可能属于同一巨鲸的钱包在沉寂超过9年后，将2,903枚ETH转入Coinbase，按当前价格计算价值约722万美元。数据显示，这些钱包于9年前收到相关ETH时，ETH价格仅为9.9美元。目前，这笔资产的账面利润约为719万美元，投资回报率约达250倍。<p>原文链接: <a href=\"https://x.com/lookonchain/status/2108737230294663238\">https://x.com/lookonchain/status/2108737230294663238</a></p>",
+      "link": "https://jinse.com.cn/lives/535605.html",
+      "published": "Sat, 10 Oct 2026 01:55:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "F2Pool联创Wang Chun连续加仓ETH，两日累计换仓及提币超3200万美元",
+      "summary": "【F2Pool联创Wang Chun连续加仓ETH，两日累计换仓及提币超3200万美元】金色财经报道，10月10日，据Ai姨监测，F2Pool联合创始人Wang Chun近期似乎更看好ETH的走势。昨日，其将235.51枚WBTC换仓为7,848.53枚ETH，价值约1,900万美元，对应ETH/BTC汇率约为0.03；过去7小时内，其又从Binance提出5,173.41枚ETH，价值约1,286万美元，提币均价为2,485.89美元。 \n数据显示，10月以来ETH/BTC汇率持续走低，从0.03212降至0.03013。<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2108733920640672182\">https://x.com/ai_9684xtpa/status/2108733920640672182</a></p>",
+      "link": "https://jinse.com.cn/lives/535604.html",
+      "published": "Sat, 10 Oct 2026 01:44:36 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Ledger盗币案新线索：经销商CryptoBilis 3月易主，股权登记指向中国籍人士",
+      "summary": "【Ledger盗币案新线索：经销商CryptoBilis 3月易主，股权登记指向中国籍人士】金色财经报道，10月10日，马来西亚硬件钱包经销商CryptoBilis在Ledger设备疑似遭遇供应链攻击的调查期间，被曝此前已发生所有权变更。新披露的公司记录显示，一名登记地址位于中国黑龙江省、名为Jiaming的人士自8月3日起持有该公司100%股份。 \nCryptoBilis前联合创始人证实，公司已于今年3月被收购，原股东随后退出所有运营、管理及行政职务。其表示，创始团队在交接后已无法了解公司的实际运营情况，仅继续协助部分活动协调工作，并强调「我们已不再是公司的一部分」，敦促现任管理层透明地处理此次事件。 \n此次股权变更信息曝光之际，CryptoBilis正因涉嫌涉及Ledger硬件钱包供应链攻击而受到关注，相关设备据称被植入可窃取助记词的隐藏模块。不过，目前尚无确凿证据表明CryptoBilis的所有权变更与相关钱包被盗事件存在关联。 \nCryptoBilis已暂时暂停马来西亚、菲律宾和印尼所有门店及线上渠道的各品牌硬件钱包销售与发货，并关闭线下门店，直至另行通知。<p>原文链接: <",
+      "link": "https://jinse.com.cn/lives/535603.html",
+      "published": "Sat, 10 Oct 2026 01:16:40 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "慢雾解析Ledger疑似硬件植入攻击：恶意模块或通过屏幕数据线窃取助记词",
+      "summary": "【慢雾解析Ledger疑似硬件植入攻击：恶意模块或通过屏幕数据线窃取助记词】金色财经报道，10月10日，慢雾安全首席信息安全官23pds发文称，如果Ledger设备PCB被修改的方式确如Mt.Gox前CEO Mark Karpelès所描述，那么攻击者将具备相当高的技术水平。 \n攻击流程可能是：钱包在安全元件（SE）内生成助记词，随后将助记词显示在屏幕上供用户抄写；恶意模块通过SPI等屏幕数据线路获取显示内容，记录完整助记词后，再通过LTE/eSIM将数据发送给攻击者，最终导致用户资产被盗。 \n安全元件的作用是防止私钥被直接读取或导出，但无法阻止外部模块获取屏幕正在显示的信息。不过，上述分析建立在PCB确实遭到所述方式改装的前提下，相关攻击路径及硬件植入情况仍有待独立验证。 \n昨日报道，Mt.Gox前CEO Mark Karpelès发文披露称，其收到的一台Ledger硬件钱包疑似被植入间谍模块，设备来自马来西亚，外包装热缩膜完好，拆开后也难以立即发现异常，植入物隐藏在屏幕原本应有的缓冲垫位置。 \nKarpelès进一步解释称，该模块包含LTE通信组件、天线、eSIM及连接Ledger",
+      "link": "https://jinse.com.cn/lives/535602.html",
+      "published": "Sat, 10 Oct 2026 01:15:32 GMT"
+    },
+    {
+      "source": "PANews",
+      "title": "如何通过 DeFi 每天稳定产生 1000U 现金流？ - PANews",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1BXzdnSjh5R3dFSTFVWDBOVnl6UmZRSHVpcnlpZkN5MTJrWnlQSW9KTERWTTk0WFpyZERnZV9URWdBUHBpWUdrdUtYSENfOFRONnV6WmVmS1pzWEdxRHFqb1ItSzVpVnVKVnVJVFNxci1SREFGem1BWmlaVmE1OWs?oc=5\" target=\"_blank\">如何通过 DeFi 每天稳定产生 1000U 现金流？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PANews</font>",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BXzdnSjh5R3dFSTFVWDBOVnl6UmZRSHVpcnlpZkN5MTJrWnlQSW9KTERWTTk0WFpyZERnZV9URWdBUHBpWUdrdUtYSENfOFRONnV6WmVmS1pzWEdxRHFqb1ItSzVpVnVKVnVJVFNxci1SREFGem1BWmlaVmE1OWs?oc=5",
+      "published": "Sat, 10 Oct 2026 01:57:00 GMT"
+    },
+    {
+      "source": "吴说区块链",
+      "title": "吴说周精选：渣打 Circle 等参与OKX 250 亿估值融资、开发者呼吁加密行业进入“安全堡垒模式”与新闻Top10 - 吴说",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPUjkxbjN3dDdpUVJiWUc5bTJDcHlLSmNaa0U0RzY0RGRYX2NiT2FLTkFMZW5rQzlzQ1F2YkpORDg0NkpSSENKbnUzM3FtV3phdEhfanowUWIyZUFKcngzejV1Mm12SVZVcXJGejBFVm9fOHJSbXhqV0tTMXVGb1JGMHRqNjEwQkc0ZTlrLS1rYXVOZ0VhbkdxNGJLc3VHNUZWSFdBUGY3ZjItS0o0djd5cURhaUxkLXFaSFBBbzZsMDZBLWNaNDVYRHNLSQ?oc=5\" target=\"_blank\">吴说周精选：渣打 Circle 等参与OKX 250 亿估值融资、开发者呼吁加密行业进入“安全堡垒模式”与新闻Top10</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">吴说</font>",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUjkxbjN3dDdpUVJiWUc5bTJDcHlLSmNaa0U0RzY0RGRYX2NiT2FLTkFMZW5rQzlzQ1F2YkpORDg0NkpSSENKbnUzM3FtV3phdEhfanowUWIyZUFKcngzejV1Mm12SVZVcXJGejBFVm9fOHJSbXhqV0tTMXVGb1JGMHRqNjEwQkc0ZTlrLS1rYXVOZ0VhbkdxNGJLc3VHNUZWSFdBUGY3ZjItS0o0djd5cURhaUxkLXFaSFBBbzZsMDZBLWNaNDVYRHNLSQ?oc=5",
+      "published": "Sat, 10 Oct 2026 00:44:00 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "After all, why not just blame Reddit",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1x21zog/after_all_why_not_just_blame_reddit/\"> <img alt=\"After all, why not just blame Reddit\" src=\"https://preview.redd.it/gcask85qdjuh1.png?width=140&amp;height=105&amp;auto=webp&amp;s=5840a34ea0bfb57aea9ac35420341eec368bf47f\" title=\"After all, why not just blame Reddit\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>(this is a sh*tpost) Just like most of this sub I don't actually know about the state of the Liteco",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x21zog/after_all_why_not_just_blame_reddit/",
+      "published": "2026-10-10T00:53:15+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Life Insurer Meanwhile Raises $37.5M as Wealthy Families Look to Pass On Their BTC - Bitcoin Magazine",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9JRjVERkRBdzhfUVF2ZHR2MjRqSkU1YXpvWDFmQVNBN3BISEZnTDdPbzlfWnRSa1pKU2lPZWNwZE5wSXlhVDlLLVl5T1pic2tOTTBSYU5SUFAxeG01aFp3Q3h0SGF6TXBRekNBeXpaYWJlbVZIcGk0?oc=5\" target=\"_blank\">Bitcoin Life Insurer Meanwhile Raises $37.5M as Wealthy Families Look to Pass On Their BTC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Magazine</font>",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JRjVERkRBdzhfUVF2ZHR2MjRqSkU1YXpvWDFmQVNBN3BISEZnTDdPbzlfWnRSa1pKU2lPZWNwZE5wSXlhVDlLLVl5T1pic2tOTTBSYU5SUFAxeG01aFp3Q3h0SGF6TXBRekNBeXpaYWJlbVZIcGk0?oc=5",
+      "published": "Sat, 10 Oct 2026 00:57:41 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BitMine Approaches Its ETH Purchase Limit: Who Will Buy Ethereum Next? - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPaHIwb3BSM0U5T3VZVFA2UjBwZ0pNT3R6UG50enBDdF9uZzMxMklOTUVhdmxGaU1XVjd3S1c3N2dxeDM3S0dQQTBHdDV1c2kwd2lJcVdoYVVkeWFlNUNWcU9DZjdPcmFLdzRaWDFOaDc0MzRma3UyM0FaeGpTVjRLQ3VDUzBGM3hiekVJWWNNUTRRWHFhRGVJVlJLcDJLTjU0cVo2NmJTZzc4a2hMaldFbDhmZHpNOC1NbDREaWtQV0ZVeVRRWWc?oc=5\" target=\"_blank\">BitMine Approaches Its ETH Purchase Limit: Who Will Buy Ethereum Next?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaHIwb3BSM0U5T3VZVFA2UjBwZ0pNT3R6UG50enBDdF9uZzMxMklOTUVhdmxGaU1XVjd3S1c3N2dxeDM3S0dQQTBHdDV1c2kwd2lJcVdoYVVkeWFlNUNWcU9DZjdPcmFLdzRaWDFOaDc0MzRma3UyM0FaeGpTVjRLQ3VDUzBGM3hiekVJWWNNUTRRWHFhRGVJVlJLcDJLTjU0cVo2NmJTZzc4a2hMaldFbDhmZHpNOC1NbDREaWtQV0ZVeVRRWWc?oc=5",
+      "published": "Sat, 10 Oct 2026 00:20:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BTC price range on Oct 9, 2026 at 10pm EDT Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQWDZRcm1PbmFLcVRBQWNGLW40MlFrb3JWb2ZDbFB2OUZsQzlVeVhOaElSMWZhX0pkbEMyQlpZVkRvNFFUSGx3UHBZYVBhTE1lQVpxRDJlamNya1MxR2NpQ3NOSFVBaGNRbnFjcUVRTjNOcWEtRUlYMDB1X3FHVTFrbjE1eklZQnJ5bF9YRjNhQ3d5VXpRdm9sVm5PXzA0Uk45M1dJVFRKX09iWlZCNWtuaDRwWUlLUQ?oc=5\" target=\"_blank\">BTC price range on Oct 9, 2026 at 10pm EDT Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWDZRcm1PbmFLcVRBQWNGLW40MlFrb3JWb2ZDbFB2OUZsQzlVeVhOaElSMWZhX0pkbEMyQlpZVkRvNFFUSGx3UHBZYVBhTE1lQVpxRDJlamNya1MxR2NpQ3NOSFVBaGNRbnFjcUVRTjNOcWEtRUlYMDB1X3FHVTFrbjE1eklZQnJ5bF9YRjNhQ3d5VXpRdm9sVm5PXzA0Uk45M1dJVFRKX09iWlZCNWtuaDRwWUlLUQ?oc=5",
+      "published": "Sat, 10 Oct 2026 01:02:36 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "summary": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
+      "published": "2026-09-28T18:00:13.103000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d4c5a66cdce246cc952d13bab215b688",
+      "published": "2026-09-28T12:45:07.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1718842b00ee41479c763ef27b6312f0",
+      "published": "2026-09-24T18:45:04.777000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "summary": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
+      "published": "2026-09-24T15:30:38.608000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "summary": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
+      "published": "2026-09-23T15:15:46.848000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "summary": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c61f3c18a3004f968b53fb09841f7bc7",
+      "published": "2026-09-23T13:30:02.080000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "summary": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+      "published": "2026-09-23T13:00:01.336000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f6c7be7767b4e29bb837dea4650ac7a",
+      "published": "2026-09-23T12:30:01.911000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "summary": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7379b99aa0f349a49c3b3feca1b4bbd6",
+      "published": "2026-09-22T15:31:04.920000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e92a42b474e344a69b620dcee1e9c987",
+      "published": "2026-09-21T17:30:01.032000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "summary": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a0adb246c4a24f108fd0d1f51dfd3d1d",
+      "published": "2026-09-21T15:00:01.157000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "summary": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/533eb2f3998a43e3a34df310998bee48",
+      "published": "2026-09-18T22:00:03.166000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcd1b50824c04192b80091599c452ee8",
+      "published": "2026-09-18T16:00:12.684000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 64 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 64，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-10-10T08:00:00+08:00"
+    }
+  ]
+}
