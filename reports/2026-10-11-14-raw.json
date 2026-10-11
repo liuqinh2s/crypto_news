@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-11",
+  "hour": "14",
+  "total": 37,
+  "fetched_at": "2026-10-11T14:00:56.813939+08:00",
+  "news": [
+    {
+      "source": "金色财经",
+      "title": "ASML零部件价格全线上调10%，三星SK海力士接受涨价",
+      "summary": "【ASML零部件价格全线上调10%，三星SK海力士接受涨价】金色财经报道，10月11日，据报道，ASML总部于上月初通过韩国法人向三星和SK海力士发出涨价通知，经双方采购部门协商后确认。此次涨价覆盖EUV与DUV光刻机的全部零部件，包括定期采购的消耗性部件，以及因故障或性能下降而需更换的核心组件，涉及光学系统、光源、精密驱动装置等。",
+      "link": "https://jinse.com.cn/lives/535735.html",
+      "published": "Sun, 11 Oct 2026 05:50:45 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "摩根大通计划未来五年欧洲管理资产规模翻倍至2万亿美元",
+      "summary": "【摩根大通计划未来五年欧洲管理资产规模翻倍至2万亿美元】金色财经报道，摩根大通资产管理公司公布了雄心勃勃的发展目标，计划在未来五年内将其欧洲地区管理资产规模扩大一倍，达到2万亿美元。该机构押注欧洲富裕人群能够推动这家华尔街银行旗下资管部门的业务增长。摩根大通资管欧洲、中东及非洲地区首席执行官帕特里克·汤姆森在采访中表示：“欧洲是我们持续拓展业务的优质市场。我们的三大战略重点——主动型交易所交易基金（主动ETF）、另类资产，以及与头部财富管理机构搭建合作关系，将成为拉动增长的核心动力。”得益于市场上涨以及新老客户持续流入资金，摩根大通资管欧洲业务的管理资产规模在过去9年间已经实现翻倍，从5000亿美元增长至1万亿美元。",
+      "link": "https://jinse.com.cn/lives/535734.html",
+      "published": "Sun, 11 Oct 2026 05:20:42 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "民调：特朗普结束战争也难改选民立场，共和党中期选举翻盘无望",
+      "summary": "【民调：特朗普结束战争也难改选民立场，共和党中期选举翻盘无望】金色财经报道，10月11日，一项民调发现，随着中期选举进入最后几周，多数美国人认为共和党找不到清晰途径重获竞选优势；就连共和党选民也怀疑，总统唐纳德·特朗普能否拿出临门一脚的举措改写选情。多数选民表示，即便特朗普在11月大选前取得重大政绩——例如宣布结束伊朗战争、将汽油价格下调1美元，或是新增10万个就业岗位，他们也不会因此更倾向投给共和党。 民调显示，民主党选民和摇摆选民尤其如此：无论发生哪类事件，无论政绩有多重大，这两类群体的投票意愿几乎没有变化。 选民对于特朗普施政表现和经济状况的看法已经固化，这对于选情愈发艰难的共和党而言是个不妙信号。",
+      "link": "https://jinse.com.cn/lives/535733.html",
+      "published": "Sun, 11 Oct 2026 04:49:39 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "观点：Papertrade疑遭两地址价格操纵利用，协议存在明显漏洞",
+      "summary": "【观点：Papertrade疑遭两地址价格操纵利用，协议存在明显漏洞】金色财经报道，10月11日，X平台Boblob用户发文称，Papertrade正遭到两个钱包地址积极利用。相关地址通过在Hyperliquid上以约2000万美元为单笔规模进行交易，使ETH价格波动约10至20个基点，并在Papertrade上建立名义价值达数亿美元的多头仓位。 \n该用户认为，这暴露了Papertrade协议当前存在的明显漏洞，必须尽快修复，否则将难以实现长期可持续发展。上述说法目前该为用户单方面指控。<p>原文链接: <a href=\"https://x.com/Dr_bobo54/status/2109046831271268488\">https://x.com/Dr_bobo54/status/2109046831271268488</a></p>",
+      "link": "https://jinse.com.cn/lives/535732.html",
+      "published": "Sun, 11 Oct 2026 04:14:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：Papertrade未采用Hyperliquid官方预言机报价机制，某交易员操纵获利128万美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据 butler 监测，Papertrade 上线仅约 8 小时，便遭一地址利用定价机制获利约 128 万美元。某交易员在 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 上的历史累计盈利超过 1300 万美元，交易量达 140 亿美元。由于 Papertrade 根据 Hyperliquid 的 ETH 实时价格为交易定价，攻击者反复在 Papertrade 上建立大额多空仓位，同时在 Hyperliquid 上买卖 ETH，短暂推动价格上涨或下跌，再平仓获利。数据显示，该交易者总计进行 305 笔交易，其中 296 笔盈利，胜率约 97%，典型持仓时间仅 98 秒，累计交易利润一度达到 173 万美元。</p><p><br /></p><p>不过，攻击者随后在 Papertrade 上以 2507.35 美元的价格建立 30 笔空头仓位，名义价值约 2.97 亿美元，并在 Hyperliq",
+      "link": "https://www.theblockbeats.info/flash/371209",
+      "published": "Sun, 11 Oct 2026 04:58:57 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Papertrade千倍杠杆激进涌入：超75%交易者曾爆仓，清算规模逾2000万美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据 <a href=\"https://tradingbeats.xyz/\" rel=\"noopener\" target=\"_blank\">TradingBeats</a> 监测，自 10 月 10 日 22:00 开放交易以来，Papertrade 共有 7962 个地址完成开仓，其中 5836 个地址使用过 1000 倍杠杆，占比约 73.3%，累计建立 61,222 笔千倍杠杆仓位。</p><p><br /></p><p>高杠杆风险已迅速兑现。其中 4395 个地址至少发生过一次千倍仓位清算，占千倍杠杆参与地址的 75.3%；累计 12,657 笔千倍仓位被清算，损失逐仓保证金约 2007.71 万美元。其中，BTC 仓位约 800.06 万美元，ETH 仓位约 1207.64 万美元。</p><p><br /></p><p>全平台同期共有 4861 个地址发生过仓位清算，累计清算 14,158 笔仓位，损失逐仓保证金约 2311.62 万美元。千倍仓位贡献了约 89.4% 的清算笔数，以及 86.9% 的清算保证金损失。</p",
+      "link": "https://www.theblockbeats.info/flash/371208",
+      "published": "Sun, 11 Oct 2026 04:37:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "观点：Papertrade疑遭两地址价格操纵利用，协议存在明显漏洞",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，X 平台 Boblob 用户发文称，Papertrade 正遭到两个钱包地址积极利用。相关地址通过在 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 上以约 2000 万美元为单笔规模进行交易，使 ETH 价格波动约 10 至 20 个基点，并在 Papertrade 上建立名义价值达数亿美元的多头仓位。</p><p><br /></p><p>该用户认为，这暴露了 Papertrade 协议当前存在的明显漏洞，必须尽快修复，否则将难以实现长期可持续发展。上述说法目前为该用户单方面指控。</p><p><br /></p><p>据 Papertrade 官方文档披露，该协议在底层设计上面临的主要风险，是 Hyperliquid 订单簿上的 BBO（最优买价与最优卖价）价格操纵。Papertrade 直接读取 Hyperliquid 的 BBO 作为成交价格。BTC 和 ETH 的正常 BBO 买卖",
+      "link": "https://www.theblockbeats.info/flash/371207",
+      "published": "Sun, 11 Oct 2026 04:13:03 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某交易员昨日开多STRK现浮盈85万美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据余烬监测，一新钱包昨天上午在 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 上花费 44 万枚 USDC 开多 STRK，STRK 此后上涨超 50%，其在一天时间内浮盈 85 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/371206",
+      "published": "Sun, 11 Oct 2026 04:07:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Papertrade全场杠杆高达114倍，日交易规模突破6000亿美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据 <a href=\"https://tradingbeats.xyz/\" rel=\"noopener\" target=\"_blank\">TradingBeats</a> 监测及 DefiLlama 数据显示，Papertrade TVL 约 9600 万美元，24 小时增长 64.26%，位列 HyperEVM 应用第五；按子协议统计，在其跨链衍生品分类中排名第六。</p><p><br /></p><p>截至发稿，Papertrade 官方数据显示，过去 24 小时名义交易规模约 6004 亿美元（统计包含开仓、主动平仓及清算环节）。Papertrade 当前未平仓名义规模约 19.79 亿美元。同期已占用保证金约 1737.66 万美元，名义持仓约为保证金的 114 倍。</p><p><br /></p><p>交易排行榜显示：过去 24 小时单笔盈利榜前 15 席全部为 ETH 多单，涉及 11 个账户，合计盈利约 79.23 万美元。入场价集中在 2495.65 至 2502.95 美元，退出价介于 2508.75 至 251",
+      "link": "https://www.theblockbeats.info/flash/371205",
+      "published": "Sun, 11 Oct 2026 04:02:37 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "I opened my jade wallet",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1x2zbi6/i_opened_my_jade_wallet/\"> <img alt=\"I opened my jade wallet\" src=\"https://external-preview.redd.it/czM5M240ZmdycnVoMVIsvUMF7EqnVkdxIpj0GwCPf7dje3DvMLZ8evOTPiWI.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d24f14e60efae270ce041ecabd50832ecd976430\" title=\"I opened my jade wallet\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I just open my Jade wallet but I don’t have any knowledge for checking is it ok or not.",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1x2zbi6/i_opened_my_jade_wallet/",
+      "published": "2026-10-11T04:54:06+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Don't lose the plot",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1x2zvm1/dont_lose_the_plot/\"> <img alt=\"Don't lose the plot\" src=\"https://preview.redd.it/bp6wk908xruh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a251a863504ee5c6e68de8ec11e56c169cac4171\" title=\"Don't lose the plot\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fumoneymoto\"> /u/fumoneymoto </a> <br /> <span><a href=\"https://i.redd.it/bp6wk908xruh1.jpeg\">[link]</a></span> &#32; <span><a h",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1x2zvm1/dont_lose_the_plot/",
+      "published": "2026-10-11T05:26:23+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Why are manufacturers of hardware wallets trusted either?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I understand that its always been advised to source a hardware wallet directly from the manufacturer, never from amazon or a reseller, and ive obeyed those recommendations.</p> <p>But why is the manufacturer to be trusted either?</p> <p>Say a hardware wallet from Trezor, who seem to have been top standard for many years. Even their old models appear to have used entropy of multi sources, but is the next attack going to shock everyone and be one of these companie",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1x2zvhm/why_are_manufacturers_of_hardware_wallets_trusted/",
+      "published": "2026-10-11T05:26:10+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin struggles near $83,000 a year after $19 billion crypto crash - Investing.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNXzFORmtjZmVZSUZjNDZBWml6dEs2RTRyN0NGbUNFS2UxUFhvOHZrUTQ4U0FwSXF3Tk9LVGhWV3dLUWxRc0JoNGREcTYxaFl2dXFqRGY0U09OMGtkTjZpc3JJNkdQNXYwdUNYSWxlMVdHSUhnNXlfeWFVUnI2djBSNVFSRGs3cjhleTMyNnJ3dlctWjJrUmh3V01sQjRZcDVheWRTZDNqVDR0ZFg0Q1FlMVdwNlFBU1QtUEtlekJUeXp5UQ?oc=5\" target=\"_blank\">Bitcoin struggles near $83,000 a year after $19 billion crypto crash</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNXzFORmtjZmVZSUZjNDZBWml6dEs2RTRyN0NGbUNFS2UxUFhvOHZrUTQ4U0FwSXF3Tk9LVGhWV3dLUWxRc0JoNGREcTYxaFl2dXFqRGY0U09OMGtkTjZpc3JJNkdQNXYwdUNYSWxlMVdHSUhnNXlfeWFVUnI2djBSNVFSRGs3cjhleTMyNnJ3dlctWjJrUmh3V01sQjRZcDVheWRTZDNqVDR0ZFg0Q1FlMVdwNlFBU1QtUEtlekJUeXp5UQ?oc=5",
+      "published": "Sun, 11 Oct 2026 05:26:44 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "1011 crypto - cecildaily.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1I2ZnZxdTJwZFBUOHFsZHlXenFTNnAteGpodWpyU3lka1RUOC1vRkRPdUUzNWlKMkp1ZDBUSzl6ZnNwcFl6ZGxGT2FiUmVsUnJ0Vzg0MjFEOHNHSjBud2VTYUJ6LWd6azhlQkVEb21zUEwxNHJCWW9MNHJpYnVVYm9nSFplWVBqcHlyMHp6MlNDUWVtV2NZdGJYSnRsdmxvYVJuamZXWXh2QQ?oc=5\" target=\"_blank\">1011 crypto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cecildaily.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1I2ZnZxdTJwZFBUOHFsZHlXenFTNnAteGpodWpyU3lka1RUOC1vRkRPdUUzNWlKMkp1ZDBUSzl6ZnNwcFl6ZGxGT2FiUmVsUnJ0Vzg0MjFEOHNHSjBud2VTYUJ6LWd6azhlQkVEb21zUEwxNHJCWW9MNHJpYnVVYm9nSFplWVBqcHlyMHp6MlNDUWVtV2NZdGJYSnRsdmxvYVJuamZXWXh2QQ?oc=5",
+      "published": "Sun, 11 Oct 2026 05:00:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "How Crypto Card Launch At SoFi Technologies (SOFI) Has Changed Its Investment Story - Simply Wall Street",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcVNLTXJwbHlIQnhzMjB1UFRPbDJ5OXVqTThGM1BNT1lJYjFYSV9TQ1kzb0p1OGRLQkZkb2x0eGxTYnozM1NJdElXUjQ0aHpWNDI1MWlpenQ0WmhlVXdxQnZEcnJ3aVM4eDFzUnFZUklFX3laYl9STGwzVXZrbkY4b2ZBdVFfaWhMR2haNTktbXdMcE8xbDdOM0w5Z1AyYUw5Snk2R1NTY3VlbTluWTBpdEgtZjJZVVdFc1ZwcXpTWFhSeThIR0tuN3FLOGRCRW5iUlF0T0dfU3pvX0p3WUFfRXdCUULSAeoBQVVfeXFMUDE1VGlPSmw0dnh1SkY4ZUM5R0xmLTBUQUV1NEJCaTNnWGUwS1lySGFkZUhxN0xZd3RhMy14Zk5QeWpMVW1wTFJ6emgzaTFKcnM5cVY3c1BBemJvcDlzdzBlYldGY2NoY1",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcVNLTXJwbHlIQnhzMjB1UFRPbDJ5OXVqTThGM1BNT1lJYjFYSV9TQ1kzb0p1OGRLQkZkb2x0eGxTYnozM1NJdElXUjQ0aHpWNDI1MWlpenQ0WmhlVXdxQnZEcnJ3aVM4eDFzUnFZUklFX3laYl9STGwzVXZrbkY4b2ZBdVFfaWhMR2haNTktbXdMcE8xbDdOM0w5Z1AyYUw5Snk2R1NTY3VlbTluWTBpdEgtZjJZVVdFc1ZwcXpTWFhSeThIR0tuN3FLOGRCRW5iUlF0T0dfU3pvX0p3WUFfRXdCUULSAeoBQVVfeXFMUDE1VGlPSmw0dnh1SkY4ZUM5R0xmLTBUQUV1NEJCaTNnWGUwS1lySGFkZUhxN0xZd3RhMy14Zk5QeWpMVW1wTFJ6emgzaTFKcnM5cVY3c1BBemJvcDlzdzBlYldGY2NoY1RYNno2VlNCMDRJRzY2MzNTVEtZTWF1aUhqdWJ5SFlnTGFRMVh3RE5nTFdaLUd0OGdKdnpzZkRSdkI4ejV6RExzeHZ2SGtKSmE2M2xjQklIdWMxVnRDNzRkS2pnUThZVnVWMWdadmVyNGJWX1JVd1IyQnFFeDBVaTVqMmlLZnk2Umx3?oc=5",
+      "published": "Sun, 11 Oct 2026 05:39:51 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "summary": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
+      "published": "2026-09-28T18:00:13.103000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d4c5a66cdce246cc952d13bab215b688",
+      "published": "2026-09-28T12:45:07.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1718842b00ee41479c763ef27b6312f0",
+      "published": "2026-09-24T18:45:04.777000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "summary": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
+      "published": "2026-09-24T15:30:38.608000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "summary": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
+      "published": "2026-09-23T15:15:46.848000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "summary": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c61f3c18a3004f968b53fb09841f7bc7",
+      "published": "2026-09-23T13:30:02.080000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "summary": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+      "published": "2026-09-23T13:00:01.336000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f6c7be7767b4e29bb837dea4650ac7a",
+      "published": "2026-09-23T12:30:01.911000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "summary": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7379b99aa0f349a49c3b3feca1b4bbd6",
+      "published": "2026-09-22T15:31:04.920000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e92a42b474e344a69b620dcee1e9c987",
+      "published": "2026-09-21T17:30:01.032000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "summary": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a0adb246c4a24f108fd0d1f51dfd3d1d",
+      "published": "2026-09-21T15:00:01.157000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "summary": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/533eb2f3998a43e3a34df310998bee48",
+      "published": "2026-09-18T22:00:03.166000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcd1b50824c04192b80091599c452ee8",
+      "published": "2026-09-18T16:00:12.684000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 61 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 61，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-10-11T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Where will it rain on Oct 10, 2026? - Coinbase",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE45d2YwQWpheWQ1SXUycnRtc1FLY1lJb08zVDRybEhSdzhQaWlnQ3IzNXJlMmxLS0g0UF8wMXI1c0oweC1aMmF6aXhSMVgwUUlUb193a2sxRjhvZlVmb3lYZHZvbXFIZlBPVTlkNDlCRFA?oc=5\" target=\"_blank\">Where will it rain on Oct 10, 2026?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinbase</font>",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45d2YwQWpheWQ1SXUycnRtc1FLY1lJb08zVDRybEhSdzhQaWlnQ3IzNXJlMmxLS0g0UF8wMXI1c0oweC1aMmF6aXhSMVgwUUlUb193a2sxRjhvZlVmb3lYZHZvbXFIZlBPVTlkNDlCRFA?oc=5",
+      "published": "Sun, 11 Oct 2026 04:15:01 GMT"
+    }
+  ]
+}
