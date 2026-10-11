@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-11",
+  "hour": "13",
+  "total": 34,
+  "fetched_at": "2026-10-11T13:00:59.020003+08:00",
+  "news": [
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：Papertrade未采用Hyperliquid官方预言机报价机制，某交易员操纵获利128万美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据 butler 监测，Papertrade 上线仅约 8 小时，便遭一地址利用定价机制获利约 128 万美元。某交易员在 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 上的历史累计盈利超过 1300 万美元，交易量达 140 亿美元。由于 Papertrade 根据 Hyperliquid 的 ETH 实时价格为交易定价，攻击者反复在 Papertrade 上建立大额多空仓位，同时在 Hyperliquid 上买卖 ETH，短暂推动价格上涨或下跌，再平仓获利。数据显示，该交易者总计进行 305 笔交易，其中 296 笔盈利，胜率约 97%，典型持仓时间仅 98 秒，累计交易利润一度达到 173 万美元。</p><p><br /></p><p>不过，攻击者随后在 Papertrade 上以 2507.35 美元的价格建立 30 笔空头仓位，名义价值约 2.97 亿美元，并在 Hyperliq",
+      "link": "https://www.theblockbeats.info/flash/371209",
+      "published": "Sun, 11 Oct 2026 04:58:57 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Papertrade千倍杠杆激进涌入：超75%交易者曾爆仓，清算规模逾2000万美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据 <a href=\"https://tradingbeats.xyz/\" rel=\"noopener\" target=\"_blank\">TradingBeats</a> 监测，自 10 月 10 日 22:00 开放交易以来，Papertrade 共有 7962 个地址完成开仓，其中 5836 个地址使用过 1000 倍杠杆，占比约 73.3%，累计建立 61,222 笔千倍杠杆仓位。</p><p><br /></p><p>高杠杆风险已迅速兑现。其中 4395 个地址至少发生过一次千倍仓位清算，占千倍杠杆参与地址的 75.3%；累计 12,657 笔千倍仓位被清算，损失逐仓保证金约 2007.71 万美元。其中，BTC 仓位约 800.06 万美元，ETH 仓位约 1207.64 万美元。</p><p><br /></p><p>全平台同期共有 4861 个地址发生过仓位清算，累计清算 14,158 笔仓位，损失逐仓保证金约 2311.62 万美元。千倍仓位贡献了约 89.4% 的清算笔数，以及 86.9% 的清算保证金损失。</p",
+      "link": "https://www.theblockbeats.info/flash/371208",
+      "published": "Sun, 11 Oct 2026 04:37:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "观点：Papertrade疑遭两地址价格操纵利用，协议存在明显漏洞",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，X 平台 Boblob 用户发文称，Papertrade 正遭到两个钱包地址积极利用。相关地址通过在 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 上以约 2000 万美元为单笔规模进行交易，使 ETH 价格波动约 10 至 20 个基点，并在 Papertrade 上建立名义价值达数亿美元的多头仓位。</p><p><br /></p><p>该用户认为，这暴露了 Papertrade 协议当前存在的明显漏洞，必须尽快修复，否则将难以实现长期可持续发展。上述说法目前为该用户单方面指控。</p><p><br /></p><p>据 Papertrade 官方文档披露，该协议在底层设计上面临的主要风险，是 Hyperliquid 订单簿上的 BBO（最优买价与最优卖价）价格操纵。Papertrade 直接读取 Hyperliquid 的 BBO 作为成交价格。BTC 和 ETH 的正常 BBO 买卖",
+      "link": "https://www.theblockbeats.info/flash/371207",
+      "published": "Sun, 11 Oct 2026 04:13:03 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某交易员昨日开多STRK现浮盈85万美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据余烬监测，一新钱包昨天上午在 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 上花费 44 万枚 USDC 开多 STRK，STRK 此后上涨超 50%，其在一天时间内浮盈 85 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/371206",
+      "published": "Sun, 11 Oct 2026 04:07:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Papertrade全场杠杆高达114倍，日交易规模突破6000亿美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据 <a href=\"https://tradingbeats.xyz/\" rel=\"noopener\" target=\"_blank\">TradingBeats</a> 监测及 DefiLlama 数据显示，Papertrade TVL 约 9600 万美元，24 小时增长 64.26%，位列 HyperEVM 应用第五；按子协议统计，在其跨链衍生品分类中排名第六。</p><p><br /></p><p>截至发稿，Papertrade 官方数据显示，过去 24 小时名义交易规模约 6004 亿美元（统计包含开仓、主动平仓及清算环节）。Papertrade 当前未平仓名义规模约 19.79 亿美元。同期已占用保证金约 1737.66 万美元，名义持仓约为保证金的 114 倍。</p><p><br /></p><p>交易排行榜显示：过去 24 小时单笔盈利榜前 15 席全部为 ETH 多单，涉及 11 个账户，合计盈利约 79.23 万美元。入场价集中在 2495.65 至 2502.95 美元，退出价介于 2508.75 至 251",
+      "link": "https://www.theblockbeats.info/flash/371205",
+      "published": "Sun, 11 Oct 2026 04:02:37 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "本周美国比特币现货ETF累计净流出6.789亿美元",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据 Farside 监测数据，本周美国比特币现货 ETF 累计净流出 6.789 亿美元，以太坊现货 ETF 累计净流出 5.422 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/371204",
+      "published": "Sun, 11 Oct 2026 03:58:01 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "加密恐慌与贪婪指数降至61，市场「贪婪」情绪持续降温",
+      "summary": "<p>BlockBeats 消息，10 月 11 日，据 Alternative 数据，今日加密恐慌与贪婪指数报 61（昨日为 64），市场「贪婪」情绪持续降温。</p><p><br /></p><p>注：恐慌指数阈值为 0-100，包含指标：波动性（25%）＋市场交易量（25%）＋社交媒体热度（15%）＋市场调查（15%）＋比特币在整个市场中的比例（10%）＋谷歌热词分析（10%）。</p>",
+      "link": "https://www.theblockbeats.info/flash/371202",
+      "published": "Sun, 11 Oct 2026 03:25:20 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Need this for winters 😄",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1x2y8gi/need_this_for_winters/\"> <img alt=\"Need this for winters 😄\" src=\"https://preview.redd.it/8h3miibmgruh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=5365e5410eb4d16e392d062cd9ae3af55827ba00\" title=\"Need this for winters 😄\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Need this</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pirstaef\"> /u/pirstaef </a> <br /> <span><a href",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1x2y8gi/need_this_for_winters/",
+      "published": "2026-10-11T03:53:18+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Eventually the entire financial system will be compromised by AI",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>And the population will be switched to the new financial system of digital programmable currency.</p> <p>They'll accept, because they'll have no choice.</p> <p>Bitcoin in self custody, and those holding physical assets will be the least effected by this.</p> <p>Do not let amplified news of self custody failures shake you from owning and managing your own keys. Remain diligent and self sovereign as humanly possible or become subordinate to whatver the future pivo",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1x2y3ba/eventually_the_entire_financial_system_will_be/",
+      "published": "2026-10-11T03:45:21+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "I opened my jade wallet",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1x2zbi6/i_opened_my_jade_wallet/\"> <img alt=\"I opened my jade wallet\" src=\"https://external-preview.redd.it/czM5M240ZmdycnVoMVIsvUMF7EqnVkdxIpj0GwCPf7dje3DvMLZ8evOTPiWI.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d24f14e60efae270ce041ecabd50832ecd976430\" title=\"I opened my jade wallet\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I just open my Jade wallet but I don’t have any knowledge for checking is it ok or not.",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1x2zbi6/i_opened_my_jade_wallet/",
+      "published": "2026-10-11T04:54:06+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Are Wealthy HNWI Or UHNWI And Highly Educated People More Likely To Use Robinhood Compared To Other Investing/Crypto Platforms?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I am just curious as I (25M) currently use Fidelity as my stock brokerage and Coinbase/Kraken as my crypto exchange. For me, I just don't like Robinhood and knew about the Gamestop/AMC fiasco and their PFOF system and spreads. RH's customer service also leaves a lot to be desired. My cousin (31M) told me he is a genius investor and financial advisor but I have seen his account dip from 250,000 USD in 2017 to 50,000 USD in 2026 due to contrarian trading.</p> <p>M",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1x2ybdr/are_wealthy_hnwi_or_uhnwi_and_highly_educated/",
+      "published": "2026-10-11T03:57:55+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Visa (V) Puts Crypto Spending Into 40 Plus Countries With New Payment Card - Simply Wall Street",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQY3MtRVFjRkc5M0JQS0hVank1d3VkSGNLc3ZSWWZMWlI0TzI2SXlRakhmc3hHRXhYZU5PZXZjU3JQekNiU2JSdGZhbDQ0QVNCeWNtWEFFSkZkSmhBeU04eFhmUVpqbmxuYnBfTl9ZckFsQzJOa01UOGtZQURZbjJFdUFST01teEswZFROcFhMQU9hY2pPZ1hqUU52TEFXY3IwME45WUdzWVM4YTFzdzA4MDNsLVVQQ01ndHlhWmpiODlkU2g1eVRObzJzNNIB0AFBVV95cUxPUjBPQ1djT3pHWHlCaEx5Xy1GYTJyUkdtZ3hZbU1kNlVJRFNEdmpXTHJkMlZlaGxoY3BtMkZlUXY3QXd5REp5UmRiNUZ2UndlUnZOMEhpMDYtc1h0Ty1SQWdNeVUwWmJ1V3VIUERxMzB3TG5fUm1CQXhhazVYQXlZOC",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY3MtRVFjRkc5M0JQS0hVank1d3VkSGNLc3ZSWWZMWlI0TzI2SXlRakhmc3hHRXhYZU5PZXZjU3JQekNiU2JSdGZhbDQ0QVNCeWNtWEFFSkZkSmhBeU04eFhmUVpqbmxuYnBfTl9ZckFsQzJOa01UOGtZQURZbjJFdUFST01teEswZFROcFhMQU9hY2pPZ1hqUU52TEFXY3IwME45WUdzWVM4YTFzdzA4MDNsLVVQQ01ndHlhWmpiODlkU2g1eVRObzJzNNIB0AFBVV95cUxPUjBPQ1djT3pHWHlCaEx5Xy1GYTJyUkdtZ3hZbU1kNlVJRFNEdmpXTHJkMlZlaGxoY3BtMkZlUXY3QXd5REp5UmRiNUZ2UndlUnZOMEhpMDYtc1h0Ty1SQWdNeVUwWmJ1V3VIUERxMzB3TG5fUm1CQXhhazVYQXlZOC1hWFRmUWNnYzBXRmxzVDYwdWVROExTNTRVUFJEcmk1OGN0QUVNaEc2anh6SGlHLVJqNXJjV2x4UU1MdE9vYjdUNnk5NXI3SjFvQjdfYjc3?oc=5",
+      "published": "Sun, 11 Oct 2026 03:04:59 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "90 Crypto Kidnappings and Robberies in 7 Months: Why France Is the Most Dangerous Country for Bitcoin Holders - CryptoTicker",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNYy1DUGhBR0RTS1EzN1o1QndtakZtV0pvbFpqMU1zWnpQSVQ1UEhKUTlzVGlHUEo5anZVVlRHWksxNE96TmV5TE1aRno2bmRvR3d1UlRkUEM2bTBUU1REUWFodXA3clRiOUtQT3FvYkhncFJQTWtyNXVlUzZfOXR0YUVkZE5jSWxTRVhRR21tSlZBUGJO?oc=5\" target=\"_blank\">90 Crypto Kidnappings and Robberies in 7 Months: Why France Is the Most Dangerous Country for Bitcoin Holders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoTicker</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYy1DUGhBR0RTS1EzN1o1QndtakZtV0pvbFpqMU1zWnpQSVQ1UEhKUTlzVGlHUEo5anZVVlRHWksxNE96TmV5TE1aRno2bmRvR3d1UlRkUEM2bTBUU1REUWFodXA3clRiOUtQT3FvYkhncFJQTWtyNXVlUzZfOXR0YUVkZE5jSWxTRVhRR21tSlZBUGJO?oc=5",
+      "published": "Sun, 11 Oct 2026 03:50:00 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "summary": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
+      "published": "2026-09-28T18:00:13.103000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d4c5a66cdce246cc952d13bab215b688",
+      "published": "2026-09-28T12:45:07.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "summary": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1718842b00ee41479c763ef27b6312f0",
+      "published": "2026-09-24T18:45:04.777000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "summary": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
+      "published": "2026-09-24T15:30:38.608000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "summary": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
+      "published": "2026-09-23T15:15:46.848000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "summary": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c61f3c18a3004f968b53fb09841f7bc7",
+      "published": "2026-09-23T13:30:02.080000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "summary": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
+      "published": "2026-09-23T13:00:01.336000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "summary": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "link": "https://www.binance.com/zh-CN/support/announcement/4f6c7be7767b4e29bb837dea4650ac7a",
+      "published": "2026-09-23T12:30:01.911000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "summary": "Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/7379b99aa0f349a49c3b3feca1b4bbd6",
+      "published": "2026-09-22T15:31:04.920000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "summary": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e92a42b474e344a69b620dcee1e9c987",
+      "published": "2026-09-21T17:30:01.032000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "summary": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a0adb246c4a24f108fd0d1f51dfd3d1d",
+      "published": "2026-09-21T15:00:01.157000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "summary": "Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/533eb2f3998a43e3a34df310998bee48",
+      "published": "2026-09-18T22:00:03.166000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "summary": "Binance Futures Will List USDⓈ-M & COIN-M Quarterly 0326 Delivery Contracts",
+      "link": "https://www.binance.com/zh-CN/support/announcement/fcd1b50824c04192b80091599c452ee8",
+      "published": "2026-09-18T16:00:12.684000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 61 (Greed)",
+      "summary": "当前加密市场恐惧贪婪指数为 61，分类为「Greed」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-10-11T08:00:00+08:00"
+    }
+  ]
+}
