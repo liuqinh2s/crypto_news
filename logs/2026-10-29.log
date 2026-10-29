@@ -2143,3 +2143,96 @@
 2026-10-29 14:01:17 [ERROR] ❌ 所有提供商均失败，返回空列表
 2026-10-29 14:01:17 [INFO] 📦 JSON 已保存: reports/2026-10-29-22.json
 2026-10-29 14:01:17 [INFO] ✅ AI 筛选完成，共 0 条交易相关消息
+2026-10-29 15:01:09 [INFO] 🚀 开始抓取 2026-10-29 23:00 币圈新闻
+2026-10-29 15:01:09 [INFO] 📡 抓取 RSS 新闻源...
+2026-10-29 15:01:09 [INFO] 📡 抓取交易所公告 & 链上数据...
+2026-10-29 15:01:09 [INFO]   ⏭ Decrypt: 过滤掉 35 条非近期新闻
+2026-10-29 15:01:09 [INFO]   ⏭ CoinTelegraph: 过滤掉 25 条非近期新闻
+2026-10-29 15:01:09 [INFO]   ⏭ The Block: 过滤掉 18 条非近期新闻
+2026-10-29 15:01:09 [INFO]   ⏭ CoinDesk: 过滤掉 21 条非近期新闻
+2026-10-29 15:01:09 [INFO]   ⏭ Bitcoin Magazine: 过滤掉 7 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ Bloomberg Crypto: 过滤掉 50 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ Reuters Crypto: 过滤掉 50 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ CNBC Crypto: 过滤掉 49 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ Decrypt: 过滤掉 50 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ 宏观经济: 过滤掉 46 条非近期新闻
+2026-10-29 15:01:10 [WARNING] 解析失败 Bitget公告: 'NoneType' object is not subscriptable
+2026-10-29 15:01:10 [INFO]   ⏭ Reddit r/cryptocurrency: 过滤掉 24 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ Blockworks: 过滤掉 50 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ DeFi Llama: 过滤掉 34 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ DL News: 过滤掉 50 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ 雪球加密: 过滤掉 49 条非近期新闻
+2026-10-29 15:01:10 [INFO]   ⏭ 律动BlockBeats: 过滤掉 3 条非近期新闻
+2026-10-29 15:01:11 [INFO]   ⏭ Crypto Twitter: 过滤掉 38 条非近期新闻
+2026-10-29 15:01:11 [INFO]   ⏭ 吴说区块链: 过滤掉 40 条非近期新闻
+2026-10-29 15:01:25 [DEBUG] 请求失败 https://rsshub.rssforever.com/bloomberg/crypto: 
+2026-10-29 15:01:25 [DEBUG] 请求失败 https://rsshub.rssforever.com/panewslab/news: 
+2026-10-29 15:01:25 [DEBUG] 请求失败 https://rsshub.rssforever.com/jinse/lives: 
+2026-10-29 15:01:26 [INFO]   ⏭ PANews: 过滤掉 50 条非近期新闻
+2026-10-29 15:01:26 [INFO]   ✓ CoinDesk: 4 条
+2026-10-29 15:01:26 [INFO]   ✓ The Block: 2 条
+2026-10-29 15:01:26 [INFO]   ✓ Decrypt: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ CoinTelegraph: 5 条
+2026-10-29 15:01:26 [INFO]   ✓ Bitcoin Magazine: 3 条
+2026-10-29 15:01:26 [INFO]   ✓ Blockworks: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ DL News: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ 金色财经: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ PANews: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ 律动BlockBeats: 17 条
+2026-10-29 15:01:26 [INFO]   ✓ 吴说区块链: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ Bloomberg Crypto: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ Reuters Crypto: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ CNBC Crypto: 1 条
+2026-10-29 15:01:26 [INFO]   ✓ Reddit r/cryptocurrency: 1 条
+2026-10-29 15:01:26 [INFO]   ✓ Reddit r/bitcoin: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ Crypto Twitter: 12 条
+2026-10-29 15:01:26 [INFO]   ✓ 宏观经济: 4 条
+2026-10-29 15:01:26 [INFO]   ✓ Binance公告: 20 条
+2026-10-29 15:01:26 [INFO]   ✓ OKX公告: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ Bitget公告: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ Whale Alert: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ Fear & Greed Index: 1 条
+2026-10-29 15:01:26 [INFO]   ✓ DeFi Llama: 0 条
+2026-10-29 15:01:26 [INFO]   ✓ 雪球加密: 1 条
+2026-10-29 15:01:26 [INFO] 📊 共抓取 71 条新闻
+2026-10-29 15:01:26 [INFO] 📋 原始新闻已保存: reports/2026-10-29-23-raw.json (71 条)
+2026-10-29 15:01:26 [INFO] 📋 标题摘要已保存: reports/2026-10-29-23-raw-titles.md
+2026-10-29 15:01:26 [INFO] ✅ 抓取完成，共 71 条，已保存到 reports/2026-10-29-23-raw.json
+2026-10-29 15:01:26 [INFO] 🤖 开始 AI 筛选 2026-10-29 23:00 币圈消息
+2026-10-29 15:01:26 [INFO] 📋 已加载原始新闻: reports/2026-10-29-23-raw.json (71 条)
+2026-10-29 15:01:26 [INFO] 📚 已加载历史新闻标题（32822 字符）
+2026-10-29 15:01:26 [INFO] 📚 已加载历史筛选标题 0 条、URL 0 个，用于去重
+2026-10-29 15:01:26 [INFO] 🔄 尝试 AI 提供商: deepseek
+2026-10-29 15:01:27 [INFO] 🤖 使用 AI 提供商: deepseek (模型: deepseek-v4-flash)
+2026-10-29 15:01:27 [INFO] 🤖 AI 筛选 [[deepseek] 1/6 策略=仅标题+链接 retry=0]（71 条，15844 字符，temp=0.3）
+2026-10-29 15:01:27 [ERROR] AI 调用异常 ([deepseek] 1/6 策略=仅标题+链接 retry=0): Error code: 401 - Authentication Fails, Your api key: ****df0d is invalid (request_id: 08b35f27-2cb5-4b82-9735-11a5b4ad82d4)
+2026-10-29 15:01:27 [WARNING] [[deepseek] 1/6 策略=仅标题+链接 retry=0] AI 调用失败或解析失败，继续下一次尝试
+2026-10-29 15:01:27 [INFO] 🤖 AI 筛选 [[deepseek] 2/6 策略=仅标题+链接 retry=1]（71 条，15844 字符，temp=0.3）
+2026-10-29 15:01:28 [ERROR] AI 调用异常 ([deepseek] 2/6 策略=仅标题+链接 retry=1): Error code: 401 - Authentication Fails, Your api key: ****df0d is invalid (request_id: 50a312ad-167d-4ccb-8ff1-c704fae09791)
+2026-10-29 15:01:28 [WARNING] [[deepseek] 2/6 策略=仅标题+链接 retry=1] AI 调用失败或解析失败，继续下一次尝试
+2026-10-29 15:01:28 [INFO] 🤖 AI 筛选 [[deepseek] 3/6 策略=仅标题+链接 retry=2]（71 条，15844 字符，temp=0.3）
+2026-10-29 15:01:28 [ERROR] AI 调用异常 ([deepseek] 3/6 策略=仅标题+链接 retry=2): Error code: 401 - Authentication Fails, Your api key: ****df0d is invalid (request_id: 1a67acbd-ff58-4bc2-b031-aecb644a01a7)
+2026-10-29 15:01:28 [WARNING] [[deepseek] 3/6 策略=仅标题+链接 retry=2] AI 调用失败或解析失败，继续下一次尝试
+2026-10-29 15:01:28 [INFO] 🤖 AI 筛选 [[deepseek] 4/6 策略=完整内容 retry=0]（71 条，24360 字符，temp=0.3）
+2026-10-29 15:01:29 [ERROR] AI 调用异常 ([deepseek] 4/6 策略=完整内容 retry=0): Error code: 401 - Authentication Fails, Your api key: ****df0d is invalid (request_id: 88db8170-c723-4fe0-9868-cde8b6a6ca50)
+2026-10-29 15:01:29 [WARNING] [[deepseek] 4/6 策略=完整内容 retry=0] AI 调用失败或解析失败，继续下一次尝试
+2026-10-29 15:01:29 [INFO] 🤖 AI 筛选 [[deepseek] 5/6 策略=完整内容 retry=1]（71 条，24360 字符，temp=0.3）
+2026-10-29 15:01:30 [ERROR] AI 调用异常 ([deepseek] 5/6 策略=完整内容 retry=1): Error code: 401 - Authentication Fails, Your api key: ****df0d is invalid (request_id: f0407cc0-9c69-4b88-b510-d6aa9f44c528)
+2026-10-29 15:01:30 [WARNING] [[deepseek] 5/6 策略=完整内容 retry=1] AI 调用失败或解析失败，继续下一次尝试
+2026-10-29 15:01:30 [INFO] 🤖 AI 筛选 [[deepseek] 6/6 策略=仅标题（无历史） retry=0]（71 条，15844 字符，temp=0.3）
+2026-10-29 15:01:30 [ERROR] AI 调用异常 ([deepseek] 6/6 策略=仅标题（无历史） retry=0): Error code: 401 - Authentication Fails, Your api key: ****df0d is invalid (request_id: 9933de68-1d5c-4916-9e07-81009b23585d)
+2026-10-29 15:01:30 [WARNING] [[deepseek] 6/6 策略=仅标题（无历史） retry=0] AI 调用失败或解析失败，继续下一次尝试
+2026-10-29 15:01:30 [WARNING] [deepseek] 已达最大尝试次数 6，停止
+2026-10-29 15:01:30 [INFO] ⚠️ deepseek 未能产出满意结果，尝试下一个提供商
+2026-10-29 15:01:30 [INFO] 🔄 尝试 AI 提供商: zhipu
+2026-10-29 15:01:30 [ERROR] 未设置环境变量 ZHIPU_API_KEY，无法使用 zhipu
+2026-10-29 15:01:30 [INFO] ⚠️ zhipu 未能产出满意结果，尝试下一个提供商
+2026-10-29 15:01:30 [INFO] 🔄 尝试 AI 提供商: kimi
+2026-10-29 15:01:30 [ERROR] 未设置环境变量 KIMI_API_KEY，无法使用 kimi
+2026-10-29 15:01:30 [INFO] ⚠️ kimi 未能产出满意结果，尝试下一个提供商
+2026-10-29 15:01:30 [INFO] 🔄 尝试 AI 提供商: huoshan
+2026-10-29 15:01:30 [ERROR] 未设置环境变量 HUOSHAN_API_KEY，无法使用 huoshan
+2026-10-29 15:01:30 [INFO] ⚠️ huoshan 未能产出满意结果，尝试下一个提供商
+2026-10-29 15:01:30 [ERROR] ❌ 所有提供商均失败，返回空列表
+2026-10-29 15:01:30 [INFO] 📦 JSON 已保存: reports/2026-10-29-23.json
+2026-10-29 15:01:30 [INFO] ✅ AI 筛选完成，共 0 条交易相关消息
