@@ -1,0 +1,694 @@
+{
+  "date": "2026-10-30",
+  "hour": "09",
+  "total": 98,
+  "fetched_at": "2026-10-30T09:00:57.869111+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Binance hack drained wallets backing customer assets, reserve data shows",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
+      "published": "Fri, 30 Oct 2026 00:17:10 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Binance hack may involve private key ‘misuse,’ not theft: Blockaid CEO",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Binance hack may involve private key ‘misuse,’ not theft: Blockaid CEO \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6527RDQRJD95JK0XDRPNDD2/key.jpg\" /></p><p>Blockaid’s Ido Ben-Natan suspects attackers manipulated Binance’s transaction-signing infrastructure, drawing parallels with the Bybit hack.</p>",
+      "link": "https://cointelegraph.com/news/binance-hack-may-involve-private-key-misuse-not-theft-blockaid-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 30 Oct 2026 00:11:26 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M64Y4PTFHTAMEWNV8MMJQWCT/hi-crypto-trading-basics-a-beginners-guide-to-cryptocurrency-order-types1.jpeg\" /></p><p>Bitcoin and Ether tumbled as the broader crypto market fell 3.3%, with reports of suspicious multibillion-dollar transfers from Binance-linked wallets fue",
+      "link": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 29 Oct 2026 23:24:21 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Strategy (MSTR) Posts Record Operating Income as Bitcoin Rebounds in Q3 2026",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/03/Strategy-MSTR-is-About-to-Have-More-Bitcoin-Than-BlackRocks-IBIT-.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/strategy-posts-record-operating-income\" rel=\"nofollow\">Strategy (MSTR) Posts Record Operating Income as Bitcoin Rebounds in Q3 2026</a></p>\n<p>Strategy reported record $20.91 billion in Q3",
+      "link": "https://bitcoinmagazine.com/news/strategy-posts-record-operating-income",
+      "published": "Thu, 29 Oct 2026 23:18:27 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/02/Binance-France-CEO-Targeted-in-Failed-Home-Invasion-Near-Paris-Three-Arrested.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/bitcoin-price-slides-binance\" rel=\"nofollow\">Bitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack</a></p>\n<p>Bitcoin price fell below $79,000 as rep",
+      "link": "https://bitcoinmagazine.com/news/bitcoin-price-slides-binance",
+      "published": "Thu, 29 Oct 2026 23:06:37 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "慢雾余弦：Binance攻击者链上操作粗糙且事前有演练，使用EIP-7702仅为方便批量清扫",
+      "summary": "【慢雾余弦：Binance攻击者链上操作粗糙且事前有演练，使用EIP-7702仅为方便批量清扫】金色财经报道，10 月 30 日，慢雾创始人余弦发文称，攻击者在以太坊上选用 EIP-7702，主要为方便批量清扫 Binance 相关热钱包中的代币。从链上看，其操作较粗糙，且在真实盗币前还做了数小时演练准备，可参考相关地址前 5 笔交易记录。 \n余弦指出，EIP-7702 机制本身没有问题，即便没有该协议，也仍有其它方式可达成类似效果。<p>原文链接: <a href=\"https://x.com/evilcos/status/2115967626564563454\">https://x.com/evilcos/status/2115967626564563454</a></p>",
+      "link": "https://jinse.com.cn/lives/538487.html",
+      "published": "Fri, 30 Oct 2026 00:49:49 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "币安被盗地址已撤销 EIP-7702 授权",
+      "summary": "【币安被盗地址已撤销 EIP-7702 授权】金色财经报道，10月30日，据链上数据显示，币安被盗热钱包之一的Binance 14已于北京时间今日8:10撤销EIP-7702授权。<p>原文链接: <a href=\"https://etherscan.io/tx/0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209\">https://etherscan.io/tx/0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209</a></p>",
+      "link": "https://jinse.com.cn/lives/538486.html",
+      "published": "Fri, 30 Oct 2026 00:44:10 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Arbitrum安全委员会冻结币安攻击事件中约3050万美元资金",
+      "summary": "【Arbitrum安全委员会冻结币安攻击事件中约3050万美元资金】金色财经报道，10月30日，据ZachXBT监测，Arbitrum安全委员会已执行一笔交易，冻结币安漏洞利用中约3050万美元资金。",
+      "link": "https://jinse.com.cn/lives/538485.html",
+      "published": "Fri, 30 Oct 2026 00:39:25 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BTC跌破77000美元",
+      "summary": "【BTC跌破77000美元】金色财经报道，行情显示，BTC跌破77000美元，现报76962.13美元，24小时跌幅达到5.28%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/538484.html",
+      "published": "Fri, 30 Oct 2026 00:25:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "分析：疑似币安攻击者误用MetaMask代付Gas，或留下可追溯日志",
+      "summary": "【分析：疑似币安攻击者误用MetaMask代付Gas，或留下可追溯日志】金色财经报道，10月30日，协议工程师 Justin Kalland 发文称，疑似 Binance 热钱包攻击相关地址向新钱包转入约 1.75 亿枚 USDT 后约 2.5 分钟又收到 2 枚 ETH，随后虽已有足够 Gas，仍调用 MetaMask Gas Station。同一区块内连续出现 Gas Station 补 ETH、对 Kyber 路由无限额 USDT 授权，以及向 Gas Station 支付约 127.67 USDT，补入 ETH 数额与两笔交易的最大 Gas 预算精确到 wei 一致。 \n分析师指出，这或因攻击者使用 MetaMask 钱包时匆忙误选 USDT 支付 Gas。经 MetaMask Sentinel 代付的交易会走其通道而非普通 RPC，可能留下含 IP 等信息的链下日志。Kalland 称在所检查的攻击相关钱包中，仅该地址出现 Gas Station 使用记录，并呼吁 MetaMask 保留相关 Web2 日志。涉事地址为 0xAa24......654a0。<p>原文链接: <",
+      "link": "https://jinse.com.cn/lives/538483.html",
+      "published": "Fri, 30 Oct 2026 00:18:23 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "分析：币安被盗资产约34.3亿美元，黑客持有ETH已达46.7万枚",
+      "summary": "【分析：币安被盗资产约34.3亿美元，黑客持有ETH已达46.7万枚】金色财经报道，10月30日，据 EmberCN 监测，Binance 今日凌晨被盗约 34.3 亿美元资产（已剔除被稳定币发行方冻结的 24.3 亿美元稳定币）。最大被盗资产为 18270 枚 BTC（价值 14.4 亿美元），目前黑客尚未动用；其余山寨币正被卖为 ETH，黑客持有的 ETH 已高达 46.7 万枚（价值 10.6 亿美元）。<p>原文链接: <a href=\"https://x.com/EmberCN/status/2115957559119204820\">https://x.com/EmberCN/status/2115957559119204820</a></p>",
+      "link": "https://jinse.com.cn/lives/538481.html",
+      "published": "Fri, 30 Oct 2026 00:15:57 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Bitwise：公司管理的金库无币安敞口，管理策略所使用的抵押资产未受影响",
+      "summary": "【Bitwise：公司管理的金库无币安敞口，管理策略所使用的抵押资产未受影响】金色财经报道，10月30日，Bitwise DeFi策略主管Jonathan Man发文表示，Bitwise管理的金库没有币安敞口，并已确认其管理策略所使用的抵押资产未受影响。DeFi似乎相对未受波及，但目前资金正流向安全资产，许多主要借贷市场流动性紧张。Bitwise将继续监测情况。<p>原文链接: <a href=\"https://x.com/0x_JMan/status/2115949955680772290\">https://x.com/0x_JMan/status/2115949955680772290</a></p>",
+      "link": "https://jinse.com.cn/lives/538480.html",
+      "published": "Fri, 30 Oct 2026 00:15:57 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Lido：在币安无直接风险敞口，stETH未受影响且协议正常运行",
+      "summary": "【Lido：在币安无直接风险敞口，stETH未受影响且协议正常运行】金色财经报道，10月30日，Lido在X平台发文称，其已知悉币安钱包被盗事件相关报道。stETH未受影响，Lido质押协议继续正常运行，包括提款。Lido Earn没有直接风险敞口，正关注事态发展以相应管理风险，所有用户存款仍然安全。Lido将在需要时提供更多信息。<p>原文链接: <a href=\"https://x.com/LidoFinance/status/2115934955649798192\">https://x.com/LidoFinance/status/2115934955649798192</a></p>",
+      "link": "https://jinse.com.cn/lives/538479.html",
+      "published": "Fri, 30 Oct 2026 00:15:38 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "币安：正持续追踪并冻结相关资产，累计冻结金额有望提高",
+      "summary": "【币安：正持续追踪并冻结相关资产，累计冻结金额有望提高】金色财经报道，10月30日，Binance 华语官方账号发文称，团队正持续与执法部门、资产发行方、区块链情报机构及行业合作伙伴密切协作，追踪并冻结更多相关资产，累计冻结金额有望进一步提升，将在有更多确认信息后及时同步进展。<p>原文链接: <a href=\"https://x.com/binancezh/status/2115958108090782075\">https://x.com/binancezh/status/2115958108090782075</a></p>",
+      "link": "https://jinse.com.cn/lives/538478.html",
+      "published": "Fri, 30 Oct 2026 00:15:04 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "何一：币安将承担所有黑客攻击损失，用户资金安全",
+      "summary": "【何一：币安将承担所有黑客攻击损失，用户资金安全】金色财经报道，10月30日，Binance CEO 何一表示，用户资金安全，Binance 将承担所有黑客攻击损失。在团队进行安全检查、冻结资金并与执法部门合作期间，充值和提现暂时暂停。调查完成后，将分享完整的事后分析。请仅依赖官方渠道获取更新。<p>原文链接: <a href=\"https://x.com/heyibinance/status/2115958049244631357#\">https://x.com/heyibinance/status/2115958049244631357#</a></p>",
+      "link": "https://jinse.com.cn/lives/538477.html",
+      "published": "Fri, 30 Oct 2026 00:14:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "过去24小时全网爆仓11.12亿美元",
+      "summary": "【过去24小时全网爆仓11.12亿美元】金色财经报道，10月30日，据 Coinglass 数据，过去 24 小时全网爆仓 11.12 亿美元，其中多单爆仓 9.3 亿美元，空单爆仓 1.75 亿美元。 \n此外，BTC 爆仓金额达 3.5 亿美元，ETH 爆仓金额约 2.53 亿美元。<p>原文链接: <a href=\"https://www.coinglass.com/zh/liquidations\">https://www.coinglass.com/zh/liquidations</a></p>",
+      "link": "https://jinse.com.cn/lives/538476.html",
+      "published": "Fri, 30 Oct 2026 00:00:54 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Ethena：已关注币安潜在安全事件，抵押品由场外托管",
+      "summary": "【Ethena：已关注币安潜在安全事件，抵押品由场外托管】金色财经报道，10月30日，合成美元 USDe 发行方 Ethena 在 X 发文称，已关注与币安相关的潜在安全事件。Ethena 表示，所有存在交易所敞口的抵押品均存放于场外托管方，而非直接存放在交易所本身。Ethena 称，将在了解事件更多细节后通过官方账号提供更新。 \n随后 Ethena 补充，对币安的未实现盈亏敞口总计约 880 万美元，远低于超过 6000 万美元的超额储备基金。Ethena 表示，抵押品与储备基金信息可在其透明度页面查询，并将在数小时内提供由多家外部机构执行的储备证明，发布于该讨论串。 \n同日，币安表示正在调查有关潜在安全问题的报告，并将通过官方渠道公布经核实的信息。币安联合创始人赵长鹏发文称，相关情况看起来像是针对币安的攻击，并表示预期用户资金将得到全额覆盖。<p>原文链接: <a href=\"https://x.com/ethena/status/2115909676395286530?s=46\">https://x.com/ethena/status/2115909676395286530?s=",
+      "link": "https://jinse.com.cn/lives/538474.html",
+      "published": "Thu, 29 Oct 2026 23:57:00 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "AAVE跌破120美元",
+      "summary": "【AAVE跌破120美元】金色财经报道，行情显示，AAVE跌破120美元，现报119.97美元，24小时跌幅达到10.52%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/538472.html",
+      "published": "Thu, 29 Oct 2026 23:48:12 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "LTC跌破55美元",
+      "summary": "【LTC跌破55美元】金色财经报道，行情显示，LTC跌破55美元，现报54.98美元，24小时跌幅达到6.72%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/538471.html",
+      "published": "Thu, 29 Oct 2026 23:48:09 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "BTC跌破78000美元",
+      "summary": "【BTC跌破78000美元】金色财经报道，行情显示，BTC跌破78000美元，现报77964.65美元，24小时跌幅达到4.13%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/538470.html",
+      "published": "Thu, 29 Oct 2026 23:48:02 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "OKX创始人Star：呼吁行业共建实时安全响应与冻结机制",
+      "summary": "【OKX创始人Star：呼吁行业共建实时安全响应与冻结机制】金色财经报道，10月30日，据 OKX 创始人 Star 在 X 发文，其肯定 Circle 与 Tether 此次在币安疑似被盗事件中的处置表现，并呼吁交易所、稳定币发行方等行业参与者联手建立全行业的安全响应机制。 \nStar 提出，行业需要一套实时预警系统：一旦发生黑客攻击，参与方可第一时间共享信息、协同快速响应，并在被盗资金转移或洗白前对可疑资金进行临时冻结。他强调速度是关键，应制定标准化流程、明确各方职责并配套适当的保障措施，确保在几分钟内而非数小时或数天内完成处置；保护用户及其资产应是全行业的共同责任，而不只是单个平台的事。 \n此前报道称，Circle 表示已配合执法部门冻结与该事件相关的超 8 亿枚 USDC，Tether 亦冻结了多笔相关 USDT。<p>原文链接: <a href=\"https://x.com/star_okx/status/2115935586347520421\">https://x.com/star_okx/status/2115935586347520421</a></p>",
+      "link": "https://jinse.com.cn/lives/538469.html",
+      "published": "Thu, 29 Oct 2026 23:43:54 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "神鱼：Binance 14热钱包仍未撤销7702委托，一笔2961 ETH的交易正转向该钱包",
+      "summary": "【神鱼：Binance 14热钱包仍未撤销7702委托，一笔2961 ETH的交易正转向该钱包】金色财经报道，10月30日，神鱼在 X 平台发文表示：“Binance 14 的 7702 委托过了 2 小时仍没撤销，有笔转去 Binance 14 的 2961 ETH 还卡着，因 gas fee 较低一直 pending，一旦上链（base fee 回落到 4.4 gwei 以下），攻击者就能把约 2961 ETH 再扫走。”<p>原文链接: <a href=\"https://x.com/bitfish/status/2115940855408451588\">https://x.com/bitfish/status/2115940855408451588</a></p>",
+      "link": "https://jinse.com.cn/lives/538468.html",
+      "published": "Thu, 29 Oct 2026 23:41:50 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "UNI跌破6.5美元",
+      "summary": "【UNI跌破6.5美元】金色财经报道，行情显示，UNI跌破6.5美元，现报6.49美元，24小时跌幅达到10.24%，行情波动较大，请做好风险控制。",
+      "link": "https://jinse.com.cn/lives/538467.html",
+      "published": "Thu, 29 Oct 2026 23:40:35 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Coinbase预测市场Q3年化收入超2亿美元，日交易者数量环比增长逾60%",
+      "summary": "【Coinbase预测市场Q3年化收入超2亿美元，日交易者数量环比增长逾60%】金色财经报道，10月30日，Coinbase 在 X 平台发文表示，其预测市场 Q3 年化收入超过 2 亿美元，日交易者数量环比增长逾 60%。Coinbase 加密货币交易量市场份额连续第四个季度增长，较去年同期接近翻倍；其产品中的 USDC 平均持有量连续第 14 个季度创历史新高，CB1 订阅量连续第 5 个季度创历史新高。<p>原文链接: <a href=\"https://x.com/coinbase/status/2115909061694701981\">https://x.com/coinbase/status/2115909061694701981</a></p>",
+      "link": "https://jinse.com.cn/lives/538466.html",
+      "published": "Thu, 29 Oct 2026 23:39:46 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Aave：作为预防措施，V3和V4中所有由DAO运营的市场均已冻结",
+      "summary": "【Aave：作为预防措施，V3和V4中所有由DAO运营的市场均已冻结】金色财经报道，10月30日，Aave 在社交媒体上发文表示，其已知悉有关币安关联钱包可能受到事件影响的报道。Aave 的合约未受影响，头寸仍保持超额抵押。作为预防措施，V3 和 V4 中所有由 DAO 运营的市场均已冻结。此次冻结暂停新的存款和借款，用户仍可提取和偿还其现有头寸。将持续关注事件进展，并尽快恢复正常运行。<p>原文链接: <a href=\"https://x.com/aave/status/2115937863162339637\">https://x.com/aave/status/2115937863162339637</a></p>",
+      "link": "https://jinse.com.cn/lives/538465.html",
+      "published": "Thu, 29 Oct 2026 23:35:40 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Binance：已核实冻结总额升至约30亿美元",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，Binance 更新称，当前已核实的冻结总额约 30 亿美元。团队正继续与执法部门、发行方、链上情报机构及行业伙伴协作，追踪并冻结更多资产，并表示将仅公布经确认的数据。此前官方曾公布已核实冻结额为 25.4 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/374509",
+      "published": "Fri, 30 Oct 2026 00:53:31 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Benson Sun：被盗BTC短期抛压几近为零，ETH更可能形成卖压",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，Coinkarma 创始人 Benson Sun 发文称，Binance 此次被盗中官方已确认冻结约 25 亿美元资产，约占被盗总额一半，其余主要为 BTC 与 ETH。被盗的 BTC 约十余亿美元，但比特币缺乏类似 Tornado Cash 的深度混币池，相关地址会被交易平台与链上分析公司标记，变现难度远高于 ETH。回顾 2016 年 Bitfinex 被盗比特币多年未动、今年 7 月 Coldcard 被盗约 1800 枚 BTC 至 9 月初仍有九成未动等案例，本次规模更大，拆分地址、混币再折价 OTC 或以年计，短期抛压几近为零。若 Binance 动用 SAFU 赔付并回补比特币，反而可能形成买盘。</p><p><br /></p><p>相较之下，大量 ERC-20 换成 ETH 后再进入 Tornado 后较难追踪，真正可能转为市场抛压的规模或在十余亿美元量级。Benson Sun 认为市场信心会受冲击，但比特币直接卖压没有想象中大，并呼吁行业正视后 AI 时代的热钱包管理、签名授权与抗量子等安全布局。</p>",
+      "link": "https://www.theblockbeats.info/flash/374508",
+      "published": "Fri, 30 Oct 2026 00:52:08 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Arbitrum安全委员会紧急转移涉Binance事件约7456万枚ARB与8425枚ETH",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，Arbitrum 官方发文称，安全委员会已采取紧急行动，将 Arbitrum One 上与 Binance 攻击相关地址中约 74,559,805 枚 ARB 与 8425 ETH 转移至安全处。经技术研判后，安全委员会采用不改变其余链状态、不影响其他用户的方式完成转移。截至 10 月 30 日，资金已转入中间冻结钱包，原地址无法再动用，后续仅可由安全委员会进一步处置或经 Arbitrum DAO 治理投票决定，并将与相关方协调。</p>",
+      "link": "https://www.theblockbeats.info/flash/374507",
+      "published": "Fri, 30 Oct 2026 00:49:40 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "慢雾余弦：Binance攻击者链上操作粗糙且事前有演练，使用EIP-7702仅为方便批量清扫",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，慢雾创始人余弦发文称，攻击者在以太坊上选用 EIP-7702，主要为方便批量清扫 Binance 相关热钱包中的代币。从链上看，其操作较粗糙，且在真实盗币前还做了数小时演练准备，可参考相关地址前 5 笔交易记录。</p><p><br /></p><p>余弦指出，EIP-7702 机制本身没有问题，即便没有该协议，也仍有其它方式可达成类似效果。</p>",
+      "link": "https://www.theblockbeats.info/flash/374505",
+      "published": "Fri, 30 Oct 2026 00:44:53 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Binance被盗资金更新：累计冻结约28.29亿美元，Arbitrum、Paxos再冻结相关资产",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，随着 Arbitrum 已冻结约 3050 万美元 ARB，Paxos 已冻结约 21.57 万美元 USDP，按链上分析师 Specter 统计，累计冻结金额约 28.29 亿美元。</p><p><br /></p><p>上述数额为其链上监测口径，尚未见官方确认。</p>",
+      "link": "https://www.theblockbeats.info/flash/374504",
+      "published": "Fri, 30 Oct 2026 00:42:37 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Binance被盗地址已撤销EIP-7702授权",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，据链上数据显示，Binance 被盗热钱包之一的 Binance 14 已于北京时间今日 8:10 撤销 7702 授权。</p><p><br /></p><p>据悉，Binance 此次事件涉及 EIP-7702 授权机制。签署此类授权后，钱包将由一段特定程序接管，直至授权撤销。</p><p><br /></p><p>这次攻击正是滥用了这个功能：攻击者设法让 Binance 的热钱包签署了一份 EIP-7702 授权，将钱包的控制权委托给了攻击者预先部署的恶意「清扫器」（Sweeper）合约。授权一旦生效，这个恶意合约就获得了操作钱包的权限，可以自动将资产批量转走，整个过程不再需要钱包主人的额外签名。</p>",
+      "link": "https://www.theblockbeats.info/flash/374502",
+      "published": "Fri, 30 Oct 2026 00:36:52 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "数据：Binance被盗关联地址从Aave借出约1.98万枚ETH",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，一个与 Binance 热钱包被盗事件相关的地址向 Aave 存入约 6000 万枚 USDT，并借出 19762 枚 ETH（约 4470 万美元）。Etherscan 数据显示，该地址已被标记为「Binance Hot Wallet Exploiter 3」，于北京时间 10 月 30 日 04:57 起授权并向 Aave V3 存入 USDT，随后分两笔借出约 19762 枚 ETH，并已将共计 23314.5 枚 ETH 转至另一被盗关联地址。</p>",
+      "link": "https://www.theblockbeats.info/flash/374501",
+      "published": "Fri, 30 Oct 2026 00:31:47 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "黑客抛售攻击Binance热钱包所获7.77万亿枚PEPE，换得14049枚ETH",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，据链上分析师 Ai 姨（@ai_9684xtpa）监测，黑客已将 Binance 热钱包中的 7.77 万亿枚 PEPE 尽数抛售为 14049 枚 ETH，致使币价暴跌 12.33%，金额超 3190 万美元，平均抛售价格约 0.0000041 美元。</p><p><br /></p><p>目前 Justin Sun 自 10 月 17 日以来转出的 11.8 万亿枚 PEPE，浮盈缩小至 445 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/374500",
+      "published": "Fri, 30 Oct 2026 00:28:13 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "近12小时全网多单爆仓突破10亿美元",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，据 Coinglass 数据显示，过去 12 小时全网爆仓升至 12.31 亿美元，其中多单爆仓 10.69 亿美元，空单爆仓 1.62 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/374499",
+      "published": "Fri, 30 Oct 2026 00:25:04 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "以太坊跌破2200美元，24小时跌幅6.1%",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，据 HTX 行情信息，以太坊跌破 2200 美元，24 小时跌幅 6.1%。</p>",
+      "link": "https://www.theblockbeats.info/flash/374498",
+      "published": "Fri, 30 Oct 2026 00:23:11 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "比特币跌破77,000美元，24小时跌幅5.1%",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，据 HTX 行情信息，比特币跌破 77,000 美元，24 小时跌幅 5.1%。</p>",
+      "link": "https://www.theblockbeats.info/flash/374497",
+      "published": "Fri, 30 Oct 2026 00:22:39 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "神鱼复盘Binance被盗始末：攻击者提前演练2次，预先制定64种代币转移清单",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，Cobo 联合创始人神鱼在社交媒体上发布视频，以链上视角详细复盘了 Binance 本次被盗案始末。</p><p><br /></p><p><strong>攻击开端与资产转移</strong></p><p><br /></p><p>10 月 30 日凌晨 4 时 20 分，一笔包含 50 项授权请求的交易被广播上链。授权方为 Binance 交易平台的一个热钱包，该交易使用了此钱包自身的私钥进行签名。约 3 分多钟后，钱包内资产遭到批量转移。按今早币价估算，三条链上合计被转走资产约 58 亿美元，其中涉及比特币的 14 亿美元资产，Binance 尚未确认是否被盗。</p><p><br /></p><p><strong>攻击技术路径与事前准备</strong></p><p><br /></p><p>此次事件涉及 EIP-7702 授权机制。签署此类授权后，钱包将由一段特定程序接管，直至授权撤销。攻击者的程序具有单一指向性，仅认一个控制人且仅执行转移资产。这 50 张授权请求附带了连续的 50 个序号，当序列号与钱包当前状态匹配时即告",
+      "link": "https://www.theblockbeats.info/flash/374496",
+      "published": "Fri, 30 Oct 2026 00:20:57 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "SOL跌破95美元，24小时跌幅扩大至8.1%",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，据 HTX 行情信息，SOL 跌破 95 美元，24 小时跌幅扩大至 8.1%。</p>",
+      "link": "https://www.theblockbeats.info/flash/374495",
+      "published": "Fri, 30 Oct 2026 00:20:41 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Ripple：正冻结与Binance事件相关的RLUSD，并配合调查",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，Ripple 稳定币业务高级副总裁 Jack McDonald 发文称，正密切关注涉及 Binance 的潜在攻击及相关攻击者所持 RLUSD，并已积极冻结受影响资金。团队正与相关方协调，随时准备支持调查并采取适当措施以保护用户。</p>",
+      "link": "https://www.theblockbeats.info/flash/374494",
+      "published": "Fri, 30 Oct 2026 00:19:32 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Binance：正持续追踪并冻结相关资产，累计冻结金额有望提高",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，Binance 华语官方账号发文称，团队正持续与执法部门、资产发行方、区块链情报机构及行业合作伙伴密切协作，追踪并冻结更多相关资产，累计冻结金额有望进一步提升，将在有更多确认信息后及时同步进展。</p>",
+      "link": "https://www.theblockbeats.info/flash/374490",
+      "published": "Fri, 30 Oct 2026 00:11:42 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "何一：Binance将承担所有黑客攻击损失，用户资金安全",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，Binance CEO 何一表示，用户资金安全，Binance 将承担所有黑客攻击损失。在团队进行安全检查、冻结资金并与执法部门合作期间，充值和提现暂时暂停。调查完成后，将分享完整的事后分析。请仅依赖官方渠道获取更新。</p>",
+      "link": "https://www.theblockbeats.info/flash/374489",
+      "published": "Fri, 30 Oct 2026 00:07:44 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：Binance凌晨被盗资产约34.3亿美元，黑客手持ETH已达46.7万枚",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，据 EmberCN 监测，Binance 今日凌晨被盗约 34.3 亿美元资产（已剔除被稳定币发行方冻结的 24.3 亿美元稳定币）。最大被盗资产为 18270 枚 BTC（价值 14.4 亿美元），目前黑客尚未动用；其余山寨币正被卖为 ETH，黑客持有的 ETH 已高达 46.7 万枚（价值 10.6 亿美元）。</p>",
+      "link": "https://www.theblockbeats.info/flash/374487",
+      "published": "Fri, 30 Oct 2026 00:05:29 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：疑似Binance攻击者误用MetaMask代付Gas，或留下可追溯日志",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，协议工程师 Justin Kalland 发文称，疑似 Binance 热钱包攻击相关地址向新钱包转入约 1.75 亿枚 USDT 后约 2.5 分钟又收到 2 枚 ETH，随后虽已有足够 Gas，仍调用 MetaMask Gas Station。同一区块内连续出现 Gas Station 补 ETH、对 Kyber 路由无限额 USDT 授权，以及向 Gas Station 支付约 127.67 USDT，补入 ETH 数额与两笔交易的最大 Gas 预算精确到 wei 一致。</p><p><br /></p><p>分析师指出，这或因攻击者使用 MetaMask 钱包时匆忙误选 USDT 支付 Gas。经 MetaMask Sentinel 代付的交易会走其通道而非普通 RPC，可能留下含 IP 等信息的链下日志。Kalland 称在所检查的攻击相关钱包中，仅该地址出现 Gas Station 使用记录，并呼吁 MetaMask 保留相关 Web2 日志。涉事地址为 0xAa246BF639586a6Ba46762D378CE50c",
+      "link": "https://www.theblockbeats.info/flash/374486",
+      "published": "Fri, 30 Oct 2026 00:01:58 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "神鱼：Binance 14热钱包EIP-7702委托超2小时未撤销，约2961枚ETH或再被扫走",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，Cobo 联合创始人神鱼发文称，标记为 Binance 14 的热钱包 EIP-7702 委托已超 2 小时仍未撤销。另有一笔转往该地址约 2961 ETH 的交易因 Gas 偏低长期处于待确认状态，一旦上链且基础费用回落至 4.4 gwei 以下，攻击者或可将这批 ETH 再次转走。</p>",
+      "link": "https://www.theblockbeats.info/flash/374484",
+      "published": "Thu, 29 Oct 2026 23:58:39 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "过去12小时全网爆仓9.49亿美元，多单爆仓8.03亿美元",
+      "summary": "<p>BlockBeats 消息，10 月 30 日，据 Coinglass 数据显示，过去 12 小时全网爆仓 9.49 亿美元，其中多单爆仓 8.03 亿美元，空单爆仓 1.46 亿美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/374483",
+      "published": "Thu, 29 Oct 2026 23:56:07 GMT"
+    },
+    {
+      "source": "吴说区块链",
+      "title": "突发：币安遭黑客攻击，数十亿美元资产流出，或成历史金额最大被盗事件 - 吴说",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOVW9ZYmdhVWhPMWpfZEg0TjQwYnFDbGl6NFNxYXBsU0VLNWV4enQ5Y0xsUzVqUGFxOG9Nenlacm4tVmh2VlRTUGdjX3hnUUZHTDhuczVtdW5zY3VXaDZ2OVRINmFESXpZNFpfclJod09CYk53Q0t6ZGt2WFhEX0FjZ0doOHk5RlVfSUc3Nmp3SllwZlBESUNFY3FR?oc=5\" target=\"_blank\">突发：币安遭黑客攻击，数十亿美元资产流出，或成历史金额最大被盗事件</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">吴说</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVW9ZYmdhVWhPMWpfZEg0TjQwYnFDbGl6NFNxYXBsU0VLNWV4enQ5Y0xsUzVqUGFxOG9Nenlacm4tVmh2VlRTUGdjX3hnUUZHTDhuczVtdW5zY3VXaDZ2OVRINmFESXpZNFpfclJod09CYk53Q0t6ZGt2WFhEX0FjZ0doOHk5RlVfSUc3Nmp3SllwZlBESUNFY3FR?oc=5",
+      "published": "Fri, 30 Oct 2026 00:07:00 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "Suspected Billion-Dollar Binance Hack Sends Fear Through Crypto - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNW1MdGRoUFFwNW96WUJ5SHUzUUdhT1NVeXVZN2dBc0hQeGxzNkNvSTNiMG4xQTFHTTVCdVEwaTdJSmNDaUtXaU5KRWI2VmdSRUNybkNzeHdvbXVaZWZnZ01EbEdzdTZpemNiY0E0dDdTLTNGa3dCNXpqU1JEVXZFOHJGekRMY3hOMUFwRVBGckNZdTd2WUREakdBY1EtRV90SXM5aC1sRFdvMzJGT29wOQ?oc=5\" target=\"_blank\">Suspected Billion-Dollar Binance Hack Sends Fear Through Crypto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNW1MdGRoUFFwNW96WUJ5SHUzUUdhT1NVeXVZN2dBc0hQeGxzNkNvSTNiMG4xQTFHTTVCdVEwaTdJSmNDaUtXaU5KRWI2VmdSRUNybkNzeHdvbXVaZWZnZ01EbEdzdTZpemNiY0E0dDdTLTNGa3dCNXpqU1JEVXZFOHJGekRMY3hOMUFwRVBGckNZdTd2WUREakdBY1EtRV90SXM5aC1sRFdvMzJGT29wOQ?oc=5",
+      "published": "Fri, 30 Oct 2026 00:43:00 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "Bitcoin, cryptocurrency prices fall after Binance reports security issue - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQbl9LV3Z6eEFpLVBKcmR2ZG9YM1lNRmZBTGRQUF9qeVRLVmlaYnc2ZDdkNERRd3VPTTNtQ0dkRGluRG56czhmbUJKaFNYU1NSX1k0VllaY2l3bGxpNTBOOG1acWdmcW90ZW5UMVF1OU11OG1HOXhZaEF3b0lucWZpLUpQaldUMEV0V1BXU3lKUXBndXBBMGtyMzJDLVFzSzZ0MGViYlNhMGJETXFUd1l0Q0s2TmNGeDFHS2c?oc=5\" target=\"_blank\">Bitcoin, cryptocurrency prices fall after Binance reports security issue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbl9LV3Z6eEFpLVBKcmR2ZG9YM1lNRmZBTGRQUF9qeVRLVmlaYnc2ZDdkNERRd3VPTTNtQ0dkRGluRG56czhmbUJKaFNYU1NSX1k0VllaY2l3bGxpNTBOOG1acWdmcW90ZW5UMVF1OU11OG1HOXhZaEF3b0lucWZpLUpQaldUMEV0V1BXU3lKUXBndXBBMGtyMzJDLVFzSzZ0MGViYlNhMGJETXFUd1l0Q0s2TmNGeDFHS2c?oc=5",
+      "published": "Fri, 30 Oct 2026 00:35:00 GMT"
+    },
+    {
+      "source": "Reuters Crypto",
+      "title": "Bitcoin, cryptocurrency prices fall after Binance reports security issue By Reuters - Investing.com Canada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQWHFoQWFJQ2VWWHFFUnFDNEk0QVdoM3NIdHV4X2tieFNCZ1FJNGxaV0JOUThOMEpCc0VzSS04ejlnc3VsWERaQUFFOWE0NUk2aUhRUFFMeFh5S1VJWGdkSExXcEVrYnZmdVlpRU4xaGxIRWluLVhuWGc5QTdpeUJyM3ljeDNsdm9lakhrQ2tWM2RYc2cyYjdSaklBT3pROG5jaExjUWFMRlVONEZUU2R5VWd2UmhYVzJyTlhtOA?oc=5\" target=\"_blank\">Bitcoin, cryptocurrency prices fall after Binance reports security issue By Reuters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Canada</font>",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWHFoQWFJQ2VWWHFFUnFDNEk0QVdoM3NIdHV4X2tieFNCZ1FJNGxaV0JOUThOMEpCc0VzSS04ejlnc3VsWERaQUFFOWE0NUk2aUhRUFFMeFh5S1VJWGdkSExXcEVrYnZmdVlpRU4xaGxIRWluLVhuWGc5QTdpeUJyM3ljeDNsdm9lakhrQ2tWM2RYc2cyYjdSaklBT3pROG5jaExjUWFMRlVONEZUU2R5VWd2UmhYVzJyTlhtOA?oc=5",
+      "published": "Fri, 30 Oct 2026 00:46:59 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxORldrZ2pOTUZna1VES3lITU95T2JSSlM1R0lUWWpIc1ZPb0Y2TDFObHhsX2NpVk5YU2RQTTAweElsRjdGZXo3NUZBUEU4LTIxWnJVRjdIY183SDRIbmpPVDN5b1ZVcFdWNGE2cTMwbE82WnRaa1R4OXpSYy1tRUlZUmdndFR0OGJuQmlGOW1aTWJuYkdzdk9ZQmhB?oc=5\" target=\"_blank\">Friday's big stock stories: What’s likely to move the market in the next trading session</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORldrZ2pOTUZna1VES3lITU95T2JSSlM1R0lUWWpIc1ZPb0Y2TDFObHhsX2NpVk5YU2RQTTAweElsRjdGZXo3NUZBUEU4LTIxWnJVRjdIY183SDRIbmpPVDN5b1ZVcFdWNGE2cTMwbE82WnRaa1R4OXpSYy1tRUlZUmdndFR0OGJuQmlGOW1aTWJuYkdzdk9ZQmhB?oc=5",
+      "published": "Thu, 29 Oct 2026 23:28:33 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "How elections worldwide are testing Trump’s influence abroad - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5jb2J6dVVZMjhDQWNIa251U0wtV3FaQy03MXhBbDFNbmtnTzBKNWFmUVY2NGFFMjM2c29JVWpFd1JqOWdZV1VhaU1zMzdtQVd5VG5IT01adWw5RVgxUTZsb3lMOERxS1lMTlFoUUJUMDJjc0dienpsWmk5cjhaZ9IBgwFBVV95cUxNdzAyX0ZZR0U5aWxmVTFqZVMtdjNjakNEYWtyVklQVDhXbGxGWmNhZ3poOVBlZkE1eGQ2eU1PSzJER1Zka29aY3ZQX1BFLTA1aWFhYlYwMEk1NzMzUVk5cUlYZHB1Vm1EbmpaTWlpVExGOS0wUi1mYlJDbXRLck9DakIwZw?oc=5\" target=\"_blank\">How elections worldwide are testing Trump’s influence abroad</a>&nbsp;&nbsp;<",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jb2J6dVVZMjhDQWNIa251U0wtV3FaQy03MXhBbDFNbmtnTzBKNWFmUVY2NGFFMjM2c29JVWpFd1JqOWdZV1VhaU1zMzdtQVd5VG5IT01adWw5RVgxUTZsb3lMOERxS1lMTlFoUUJUMDJjc0dienpsWmk5cjhaZ9IBgwFBVV95cUxNdzAyX0ZZR0U5aWxmVTFqZVMtdjNjakNEYWtyVklQVDhXbGxGWmNhZ3poOVBlZkE1eGQ2eU1PSzJER1Zka29aY3ZQX1BFLTA1aWFhYlYwMEk1NzMzUVk5cUlYZHB1Vm1EbmpaTWlpVExGOS0wUi1mYlJDbXRLck9DakIwZw?oc=5",
+      "published": "Fri, 30 Oct 2026 00:13:00 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "We're cutting our Amazon price target after a rough quarter. But it isn't all bad - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOEVxNktlX1FRdjBjaWE1V3pwSDFxU2UybUJmdkxOQTM1VWtjSmRNb2p1V0ZkMkd1aWh6elRKS0hoWXdUY1NUTXRiVW1UTVlCMFdLQ2dFZ3d6QkFXVllJSzRUWFRrN3JrOHZ0cXA5RTVNb3dTSEhtLV9hTW80QTV5VlZLX1BHaENmdlFIRGY5d1dJSml5dm9oVnozTVJXeEh0Wk9IMnRnTklhaXQ4eUhVQVlqNVRzQWZtNDFDak9YSktBbmxVMDFCVA?oc=5\" target=\"_blank\">We're cutting our Amazon price target after a rough quarter. But it isn't all bad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOEVxNktlX1FRdjBjaWE1V3pwSDFxU2UybUJmdkxOQTM1VWtjSmRNb2p1V0ZkMkd1aWh6elRKS0hoWXdUY1NUTXRiVW1UTVlCMFdLQ2dFZ3d6QkFXVllJSzRUWFRrN3JrOHZ0cXA5RTVNb3dTSEhtLV9hTW80QTV5VlZLX1BHaENmdlFIRGY5d1dJSml5dm9oVnozTVJXeEh0Wk9IMnRnTklhaXQ4eUhVQVlqNVRzQWZtNDFDak9YSktBbmxVMDFCVA?oc=5",
+      "published": "Thu, 29 Oct 2026 23:05:49 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Starbucks serves up a solid quarter and full-year outlook. Why we're staying invested - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPQzFKZlBycEpnN3VOWXBkSDB5SU9CMEIyajVRb2s4Z3JkT1Raa25BUnRxTDdtUVN5dDc3QUc5U3JoVU5jbTlJSGNLOWVNeFNoQVRkRUF0NjVOd1h6bjRvdGZHWjhoWjFiSWZzaFY3QmtnS3BqWDRaWjdMbUtMR1lVUm96WE9RSVdKdUJwZ3RQeDlEcE5DM1NsampwS05wYkpJX1JIdEJEWDlqbmI3YlE4Z01fVWVoaHJiRlNCRDREdTFBRzJtLXlqWDJicDhkams?oc=5\" target=\"_blank\">Starbucks serves up a solid quarter and full-year outlook. Why we're staying invested</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQzFKZlBycEpnN3VOWXBkSDB5SU9CMEIyajVRb2s4Z3JkT1Raa25BUnRxTDdtUVN5dDc3QUc5U3JoVU5jbTlJSGNLOWVNeFNoQVRkRUF0NjVOd1h6bjRvdGZHWjhoWjFiSWZzaFY3QmtnS3BqWDRaWjdMbUtMR1lVUm96WE9RSVdKdUJwZ3RQeDlEcE5DM1NsampwS05wYkpJX1JIdEJEWDlqbmI3YlE4Z01fVWVoaHJiRlNCRDREdTFBRzJtLXlqWDJicDhkams?oc=5",
+      "published": "Thu, 29 Oct 2026 23:44:27 GMT"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "GET YOUR COIN OFF OF EXCHANGES",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Sorry to shout. AI hacks an exchange 2 bill dang. </p> <p>Not your keys not your coins. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Grizly2000\"> /u/Grizly2000 </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1xizstm/get_your_coin_off_of_exchanges/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1xizstm/get_your_coin_off_of_exchanges/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1xizstm/get_your_coin_off_of_exchanges/",
+      "published": "2026-10-29T23:32:01+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Funds are SAFU (NoOooTttTT)",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/Bitcoin/comments/1xj0g2r/funds_are_safu_noooottttt/\"> <img alt=\"Funds are SAFU (NoOooTttTT)\" src=\"https://external-preview.redd.it/Zjljd2R6cWR3aHloMbQwLqI1Uvno65kR7g2Cu7pJjTVni7V34PqYqzrOtVa-.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e42a5bb1dba181f7605adf0be7703e39a836d867\" title=\"Funds are SAFU (NoOooTttTT)\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/-cip-\"> /u/-cip- </a> <br /> <span><a href=\"https:",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1xj0g2r/funds_are_safu_noooottttt/",
+      "published": "2026-10-30T00:00:29+00:00"
+    },
+    {
+      "source": "Reddit r/bitcoin",
+      "title": "Binance who is affected?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>After the Ledger Hack I moved my coins to my existing Binance account while looking for an alternative for the Ledger. How can I check if Iam affected by the Binance Hack, are all affected?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sebonze\"> /u/Sebonze </a> <br /> <span><a href=\"https://www.reddit.com/r/Bitcoin/comments/1xiz6kg/binance_who_is_affected/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/B",
+      "link": "https://www.reddit.com/r/Bitcoin/comments/1xiz6kg/binance_who_is_affected/",
+      "published": "2026-10-29T23:05:53+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Binance probes possible $5.7 billion crypto hack, possibly the biggest in history - Axios",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE83OUdSVGpVR2RxZkhXbHdVcDVzcElOMHl6dmhCN1hQWThicVA0dnpmZTQ0TF91WHU5ejQtNVQtaUFRWU1tU0wxUzZJMnlTaXBYbkpVNkdnNXQwWFM3ajJMdkNLaXFFVDhyemhrQ3RQZnY4eDA?oc=5\" target=\"_blank\">Binance probes possible $5.7 billion crypto hack, possibly the biggest in history</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83OUdSVGpVR2RxZkhXbHdVcDVzcElOMHl6dmhCN1hQWThicVA0dnpmZTQ0TF91WHU5ejQtNVQtaUFRWU1tU0wxUzZJMnlTaXBYbkpVNkdnNXQwWFM3ajJMdkNLaXFFVDhyemhrQ3RQZnY4eDA?oc=5",
+      "published": "Thu, 29 Oct 2026 23:56:32 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin tumbles below $78,000, extending losses as Binance security scare rattles crypto markets - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPbi1kcVNYWHc2TXJmY2R5ajNFdy0zaUxQZFVZeTEtdmo4Vk1XbGJzM2p2cUdvSU8yS05zdDNaRmR3Z0R6MXpsUGplZVpjcFdVMHJscUZpRFZVdGFMQXdQQzV6NE16QUg0aTBfSU1mUFFCc2IwcGlMMWliV2hqbW5JOUlOSjkzSXVmMFBHbEJwUThkbHkyWnFXd29BeWFtQl9SaGRJWdIBqgFBVV95cUxNR3lRVHNvRWxOY21XeW9NZnFCb2JxRlpSbUxaRXM5NldrMWdIVmJCejhWZ0NZZ21VMWR0d0ZMQUNZTlM5Y3lKZjBKeDJYTkhpaVl5NE5ZZ2hSalhSU0JFemlFdmF5aTZIUjZfUkUySUVEUHhTRkxNZGJCQXk3Rml2S1gyUWw3TmVQR3l1Z2hBQUNTU09Pa1hWcEtWVXhxYTYxa01xSjZxQ3",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbi1kcVNYWHc2TXJmY2R5ajNFdy0zaUxQZFVZeTEtdmo4Vk1XbGJzM2p2cUdvSU8yS05zdDNaRmR3Z0R6MXpsUGplZVpjcFdVMHJscUZpRFZVdGFMQXdQQzV6NE16QUg0aTBfSU1mUFFCc2IwcGlMMWliV2hqbW5JOUlOSjkzSXVmMFBHbEJwUThkbHkyWnFXd29BeWFtQl9SaGRJWdIBqgFBVV95cUxNR3lRVHNvRWxOY21XeW9NZnFCb2JxRlpSbUxaRXM5NldrMWdIVmJCejhWZ0NZZ21VMWR0d0ZMQUNZTlM5Y3lKZjBKeDJYTkhpaVl5NE5ZZ2hSalhSU0JFemlFdmF5aTZIUjZfUkUySUVEUHhTRkxNZGJCQXk3Rml2S1gyUWw3TmVQR3l1Z2hBQUNTU09Pa1hWcEtWVXhxYTYxa01xSjZxQ3NhZw?oc=5",
+      "published": "Fri, 30 Oct 2026 00:32:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Suspected Billion-Dollar Binance Hack Sends Fear Through Crypto - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNW1MdGRoUFFwNW96WUJ5SHUzUUdhT1NVeXVZN2dBc0hQeGxzNkNvSTNiMG4xQTFHTTVCdVEwaTdJSmNDaUtXaU5KRWI2VmdSRUNybkNzeHdvbXVaZWZnZ01EbEdzdTZpemNiY0E0dDdTLTNGa3dCNXpqU1JEVXZFOHJGekRMY3hOMUFwRVBGckNZdTd2WUREakdBY1EtRV90SXM5aC1sRFdvMzJGT29wOQ?oc=5\" target=\"_blank\">Suspected Billion-Dollar Binance Hack Sends Fear Through Crypto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNW1MdGRoUFFwNW96WUJ5SHUzUUdhT1NVeXVZN2dBc0hQeGxzNkNvSTNiMG4xQTFHTTVCdVEwaTdJSmNDaUtXaU5KRWI2VmdSRUNybkNzeHdvbXVaZWZnZ01EbEdzdTZpemNiY0E0dDdTLTNGa3dCNXpqU1JEVXZFOHJGekRMY3hOMUFwRVBGckNZdTd2WUREakdBY1EtRV90SXM5aC1sRFdvMzJGT29wOQ?oc=5",
+      "published": "Fri, 30 Oct 2026 00:43:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "World’s largest crypto exchange investigating reports of potential hack - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWN2c3ZkZWFYdzZaTS0tZTFQTDJVQVZTazhTakl5LXRZalQ5WjRUVkZXWGxXR2VCcEJGV3E4N3JkNjlPOTRBZUJKMHY3TC1tRElPTHItaEprTDFHMDlOYlcwblB0cVlCZkJFSVoxLW9aVWZRclRQRFVCWkpBRnA3RHRFRQ?oc=5\" target=\"_blank\">World’s largest crypto exchange investigating reports of potential hack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWN2c3ZkZWFYdzZaTS0tZTFQTDJVQVZTazhTakl5LXRZalQ5WjRUVkZXWGxXR2VCcEJGV3E4N3JkNjlPOTRBZUJKMHY3TC1tRElPTHItaEprTDFHMDlOYlcwblB0cVlCZkJFSVoxLW9aVWZRclRQRFVCWkpBRnA3RHRFRQ?oc=5",
+      "published": "Fri, 30 Oct 2026 00:02:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "AI Price Prediction: Bitcoin Is 35% Below ATH. ChatGPT AI Says When It Could Get Back to $126,000 - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYXhlbmJMbnlyck9Ycjh4UVljSnVCRld5MkZzV0tEemEySTR2UTR4OTJoeUNoZnVGMUhQMWNxTFg5a3gwUjBUdTFhdEQzRG90SGI5ZWR2OG5ESEVRLWVtQVhFX0FiUHMzVUdEamhFTWN4WXhLbFZKQ2dpUHNkY2JfRXdubVJXMjJFZ1Q1b3l0NTZwYmRsUHRhdlZDWjJNSUFZZHg0QUNNM3B2aC1lVUU5ZkM4enpnTUFqTkdONWtCb2ZaNXN4MmNLUWJLcldiSDZiT3FSZFhKbTZfNmFyVmo5Mk03U0RVdw?oc=5\" target=\"_blank\">AI Price Prediction: Bitcoin Is 35% Below ATH. ChatGPT AI Says When It Could Get Back to $126,000</a>&nbsp;&nbsp;<fon",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYXhlbmJMbnlyck9Ycjh4UVljSnVCRld5MkZzV0tEemEySTR2UTR4OTJoeUNoZnVGMUhQMWNxTFg5a3gwUjBUdTFhdEQzRG90SGI5ZWR2OG5ESEVRLWVtQVhFX0FiUHMzVUdEamhFTWN4WXhLbFZKQ2dpUHNkY2JfRXdubVJXMjJFZ1Q1b3l0NTZwYmRsUHRhdlZDWjJNSUFZZHg0QUNNM3B2aC1lVUU5ZkM4enpnTUFqTkdONWtCb2ZaNXN4MmNLUWJLcldiSDZiT3FSZFhKbTZfNmFyVmo5Mk03U0RVdw?oc=5",
+      "published": "Fri, 30 Oct 2026 00:31:27 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Why is Bitcoin dropping today? - Investing.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNc0wyZTJBNkQ4UzVwNkQ3TXpwbGcxajZteGZjS0pnN0JrLVM2NEd3cFRFQmdUN00zSEt5cS1aNHZ5OHFIdmtsb29jbjhwYlZOa3FDYWhpdmJBQXZvUUdaeWtWVks5ZUh1OUpCYXBVa0RJUzNIR1hiWHkxVEJKVXZ5a1haQ2dJV2laX0o0a0dXWU5DN245Z3c?oc=5\" target=\"_blank\">Why is Bitcoin dropping today?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc0wyZTJBNkQ4UzVwNkQ3TXpwbGcxajZteGZjS0pnN0JrLVM2NEd3cFRFQmdUN00zSEt5cS1aNHZ5OHFIdmtsb29jbjhwYlZOa3FDYWhpdmJBQXZvUUdaeWtWVks5ZUh1OUpCYXBVa0RJUzNIR1hiWHkxVEJKVXZ5a1haQ2dJV2laX0o0a0dXWU5DN245Z3c?oc=5",
+      "published": "Fri, 30 Oct 2026 00:45:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Binance says $2.54bn in crypto funds frozen amid ‘potential security issue’ - Al Jazeera",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR2l6N2lrZThFSm1uSnJyMTZFZ1E3czZHdnNLYnBCSm5DN0s0YW5MVXJIRnk3VEktZmxyMTdxemh4cGdVT2xWdFQzTThpRXFISFRZVnlsaEEzQXM1RUJhYy1pM1o0aWVnSHJGTWFEbXcyMEVrc1g4LXZ4OEYxaGt1MFdOY1dTVHlIcEFQX183RnJrdkJLa284ZXlWVEJLWF9RaUZ5YXpLX3VxV0FfVkhyMkp0Z3E1SVJx0gG-AUFVX3lxTFBNeUs0MjdQdXFna0tZUjJWTGhKNFhSWVc0U2s0bVVqbVAzVUVZUWd3Wm5ReVdMVkM1VHZGUFhWSE9za3VFRG1qQnF0cGJsTXQ3WjZKbEN6SnUxTDJrYjBNd0c4eTFQQUFfMFdWZ09icnhLRU0wejVuSDJHOFVmVHRGMGVGODVLV0ItSlM5eWdIVUhJR1",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR2l6N2lrZThFSm1uSnJyMTZFZ1E3czZHdnNLYnBCSm5DN0s0YW5MVXJIRnk3VEktZmxyMTdxemh4cGdVT2xWdFQzTThpRXFISFRZVnlsaEEzQXM1RUJhYy1pM1o0aWVnSHJGTWFEbXcyMEVrc1g4LXZ4OEYxaGt1MFdOY1dTVHlIcEFQX183RnJrdkJLa284ZXlWVEJLWF9RaUZ5YXpLX3VxV0FfVkhyMkp0Z3E1SVJx0gG-AUFVX3lxTFBNeUs0MjdQdXFna0tZUjJWTGhKNFhSWVc0U2s0bVVqbVAzVUVZUWd3Wm5ReVdMVkM1VHZGUFhWSE9za3VFRG1qQnF0cGJsTXQ3WjZKbEN6SnUxTDJrYjBNd0c4eTFQQUFfMFdWZ09icnhLRU0wejVuSDJHOFVmVHRGMGVGODVLV0ItSlM5eWdIVUhJR1F6UEpfOFFUQ3FoVHk3QURNYjYtM01VSThJLTRWVldfNmlqRFM4VzNYRUE?oc=5",
+      "published": "Fri, 30 Oct 2026 00:31:24 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack - Bitcoin Magazine",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1oREdtTXR2SFVNWEtDbWEwOVI1MkdMTzAyYl91TVVKVFBZVWFnUV9VMXVjbXVRd3JsNGdkN0NWbzlZQ0dzM3dmamlIdFJ3VEhhbTVTUjBNX3l6T1lUWkFZVnEtdWNHSlE0RjFjSEpR?oc=5\" target=\"_blank\">Bitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Magazine</font>",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oREdtTXR2SFVNWEtDbWEwOVI1MkdMTzAyYl91TVVKVFBZVWFnUV9VMXVjbXVRd3JsNGdkN0NWbzlZQ0dzM3dmamlIdFJ3VEhhbTVTUjBNX3l6T1lUWkFZVnEtdWNHSlE0RjFjSEpR?oc=5",
+      "published": "Thu, 29 Oct 2026 23:10:52 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin, cryptocurrency prices fall after Binance reports security issue - Reuters",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQbl9LV3Z6eEFpLVBKcmR2ZG9YM1lNRmZBTGRQUF9qeVRLVmlaYnc2ZDdkNERRd3VPTTNtQ0dkRGluRG56czhmbUJKaFNYU1NSX1k0VllaY2l3bGxpNTBOOG1acWdmcW90ZW5UMVF1OU11OG1HOXhZaEF3b0lucWZpLUpQaldUMEV0V1BXU3lKUXBndXBBMGtyMzJDLVFzSzZ0MGViYlNhMGJETXFUd1l0Q0s2TmNGeDFHS2c?oc=5\" target=\"_blank\">Bitcoin, cryptocurrency prices fall after Binance reports security issue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbl9LV3Z6eEFpLVBKcmR2ZG9YM1lNRmZBTGRQUF9qeVRLVmlaYnc2ZDdkNERRd3VPTTNtQ0dkRGluRG56czhmbUJKaFNYU1NSX1k0VllaY2l3bGxpNTBOOG1acWdmcW90ZW5UMVF1OU11OG1HOXhZaEF3b0lucWZpLUpQaldUMEV0V1BXU3lKUXBndXBBMGtyMzJDLVFzSzZ0MGViYlNhMGJETXFUd1l0Q0s2TmNGeDFHS2c?oc=5",
+      "published": "Fri, 30 Oct 2026 00:35:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto worth billions frozen over 'potential security issue' - Sky News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxONWVrYVV1U0tXUlBXYnNndFVWUTFlNmNQcXBxMVNKWF9PalVSNHpOdWNpdlBLT2h6OE8wdWdHRmpjZUdjSC1lTnVjVndJbVh1LU8xdHFhTHFCekhScWVVdTNwTEJXQm1FV3RlcDhjWkpuMGtpVGZSZzJCS0lOLWRzSjVPaFVBakxHLVFqVjRkRlFaWFhaY0NBejdB?oc=5\" target=\"_blank\">Crypto worth billions frozen over 'potential security issue'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONWVrYVV1U0tXUlBXYnNndFVWUTFlNmNQcXBxMVNKWF9PalVSNHpOdWNpdlBLT2h6OE8wdWdHRmpjZUdjSC1lTnVjVndJbVh1LU8xdHFhTHFCekhScWVVdTNwTEJXQm1FV3RlcDhjWkpuMGtpVGZSZzJCS0lOLWRzSjVPaFVBakxHLVFqVjRkRlFaWFhaY0NBejdB?oc=5",
+      "published": "Thu, 29 Oct 2026 23:50:52 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto giant Binance freezes $2.5bn of assets over suspected hack - BBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ocUpaWWozVHpsR0I5N0xtb0dNdlFJUWRiWWJYN2xoY2NOS3E0MzJxdFpMS29xU20yd3Mtc0c2dmtfU1FTa3BBZF8zY3BvYndzRnBnY3NXSEl3d0U?oc=5\" target=\"_blank\">Crypto giant Binance freezes $2.5bn of assets over suspected hack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ocUpaWWozVHpsR0I5N0xtb0dNdlFJUWRiWWJYN2xoY2NOS3E0MzJxdFpMS29xU20yd3Mtc0c2dmtfU1FTa3BBZF8zY3BvYndzRnBnY3NXSEl3d0U?oc=5",
+      "published": "Fri, 30 Oct 2026 00:37:59 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Strategy Posts $21 Billion Bitcoin Gain. Investors Have Bigger Concerns. - Barron's",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5FZ3hEVmFoMHlPS2FEN05BVlBYU0VZdE5Cb2t0MFpzengxb3RlZ3MyUk51NGF6bkpWYXdoZE9mZEFNWkJ5ck13ZXFsY2NPcnV1MFBWREJLS0RpVmwwNU9HbVRpcVZlUkdERXdUQVRnSjczTDJVQ01fbEswMA?oc=5\" target=\"_blank\">Strategy Posts $21 Billion Bitcoin Gain. Investors Have Bigger Concerns.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FZ3hEVmFoMHlPS2FEN05BVlBYU0VZdE5Cb2t0MFpzengxb3RlZ3MyUk51NGF6bkpWYXdoZE9mZEFNWkJ5ck13ZXFsY2NPcnV1MFBWREJLS0RpVmwwNU9HbVRpcVZlUkdERXdUQVRnSjczTDJVQ01fbEswMA?oc=5",
+      "published": "Thu, 29 Oct 2026 23:18:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Galaxy’s Alex Thorn Says Bitcoin Held Near $80,000 Because Hedge Funds Had Already Sold - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNTXhSYzlOdGQ2TmxvSlJqWDZxTVllcXpUNWFMOFBIM1V1TlQwdjZjQkYzd1UzamJIUWtJbEtTV2JJc2o0T0tMVE8taFB0SjFQNU5IZjBQZnNyazNncDF3WThjZGpnb3pKYmJJUVJLZ09vZVd2Qkg5Zk5GTlNESXdvU1VaekhUd29neXNLcUhQaGpPNEpqVzBFRGJ0cw?oc=5\" target=\"_blank\">Galaxy’s Alex Thorn Says Bitcoin Held Near $80,000 Because Hedge Funds Had Already Sold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTXhSYzlOdGQ2TmxvSlJqWDZxTVllcXpUNWFMOFBIM1V1TlQwdjZjQkYzd1UzamJIUWtJbEtTV2JJc2o0T0tMVE8taFB0SjFQNU5IZjBQZnNyazNncDF3WThjZGpnb3pKYmJJUVJLZ09vZVd2Qkg5Zk5GTlNESXdvU1VaekhUd29neXNLcUhQaGpPNEpqVzBFRGJ0cw?oc=5",
+      "published": "Thu, 29 Oct 2026 23:40:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Binance halts withdrawals amid $5.3 bln crypto hack - Investing.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOYTZ4QmFWQ2s2dWpTY0lLLWJEUFVxOUN1cGxUZlo2T0Vza2lQc29TM2xvc1JZWTFCeGdndkxaZThzWGtBZmc3UTZDejBZTy1teFFkN3Rkd1NOMDRvQ0VoSWJXY1dZZVVKd2xmaDNLWnFGTnhNUGlqZXlrTDNXYW5EOXpuSXZGdUkydXE0dlZGYmlmejlXcWtyQzZKSXNzbXpJNlk1UQ?oc=5\" target=\"_blank\">Binance halts withdrawals amid $5.3 bln crypto hack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYTZ4QmFWQ2s2dWpTY0lLLWJEUFVxOUN1cGxUZlo2T0Vza2lQc29TM2xvc1JZWTFCeGdndkxaZThzWGtBZmc3UTZDejBZTy1teFFkN3Rkd1NOMDRvQ0VoSWJXY1dZZVVKd2xmaDNLWnFGTnhNUGlqZXlrTDNXYW5EOXpuSXZGdUkydXE0dlZGYmlmejlXcWtyQzZKSXNzbXpJNlk1UQ?oc=5",
+      "published": "Thu, 29 Oct 2026 23:37:51 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "$100 a Month Into Solana or Ethereum Since 2021: Which Is Worth More Today? - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlVlMzdOYWo0cW9rZ0tLaVpRcUkwSlliODMwMGlCWTEyNjBWVndnOUlONTJSc2dQNnprWG9CX3VxdFd1MHNSTWxZOTd4N0RYWnE0dDNMaXU0Y3FNUWw3UVVFWU5abEVsajYyMlQ2bTNFcUREVjdaaVlHZ05Hd3pQQ2luRlZxbDlSbWJPMi1kWmtHMnB1a3N0VjBZd2t4Nmw2VHlHSVU4RVdtSWgzZzBoaGN2WGF0endUenprbmNVaWktcmFVNFR2WHBUVQ?oc=5\" target=\"_blank\">$100 a Month Into Solana or Ethereum Since 2021: Which Is Worth More Today?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlVlMzdOYWo0cW9rZ0tLaVpRcUkwSlliODMwMGlCWTEyNjBWVndnOUlONTJSc2dQNnprWG9CX3VxdFd1MHNSTWxZOTd4N0RYWnE0dDNMaXU0Y3FNUWw3UVVFWU5abEVsajYyMlQ2bTNFcUREVjdaaVlHZ05Hd3pQQ2luRlZxbDlSbWJPMi1kWmtHMnB1a3N0VjBZd2t4Nmw2VHlHSVU4RVdtSWgzZzBoaGN2WGF0endUenprbmNVaWktcmFVNFR2WHBUVQ?oc=5",
+      "published": "Fri, 30 Oct 2026 00:25:32 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin (BTCUSD) Suddenly Goes down 1.09% on Oct 30: What's Driving This - TradingKey",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUk4S2VHZjdzVUJpSWFIbnprT0RtR3B5WWYxSzlWbktUYWxic0JVREtTY1RwZWNTXzYwQ0pyelJVXzBOdzVBZUtjanY0TXd6aDJJdmluSkpDYTM3bS1VRzdTUy13RHBpcEdLb2pZR0gwWlBvb0IzS2MwMkdBRmNNZDVsaHpiSUF5V2ZXcExR?oc=5\" target=\"_blank\">Bitcoin (BTCUSD) Suddenly Goes down 1.09% on Oct 30: What's Driving This</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUk4S2VHZjdzVUJpSWFIbnprT0RtR3B5WWYxSzlWbktUYWxic0JVREtTY1RwZWNTXzYwQ0pyelJVXzBOdzVBZUtjanY0TXd6aDJJdmluSkpDYTM3bS1VRzdTUy13RHBpcEdLb2pZR0gwWlBvb0IzS2MwMkdBRmNNZDVsaHpiSUF5V2ZXcExR?oc=5",
+      "published": "Fri, 30 Oct 2026 00:00:16 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Coinbase Posts $719 Million Profit on $715 Million Crypto Gain, With Revenue Down 35% - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxObVJNbGJ6UWNEZ1N0TDItU3NKWTdKVW1EOXJaRi1vRmREejlPb055YTNLT1VoeWZZNjFlaWkzc0o1cXlGN0YyVHQ3X0tfenhTemN5Y3E5U1dTcVFvNEZkYjZIYmZZS3IwTllRYTRpcjJvU3ZkaUpRZE9sY0FIS3ljTmR3dDFsTnljRHQ0QzUzMHF2aWxXOWw0S3VaOW81YVk?oc=5\" target=\"_blank\">Coinbase Posts $719 Million Profit on $715 Million Crypto Gain, With Revenue Down 35%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObVJNbGJ6UWNEZ1N0TDItU3NKWTdKVW1EOXJaRi1vRmREejlPb055YTNLT1VoeWZZNjFlaWkzc0o1cXlGN0YyVHQ3X0tfenhTemN5Y3E5U1dTcVFvNEZkYjZIYmZZS3IwTllRYTRpcjJvU3ZkaUpRZE9sY0FIS3ljTmR3dDFsTnljRHQ0QzUzMHF2aWxXOWw0S3VaOW81YVk?oc=5",
+      "published": "Thu, 29 Oct 2026 23:19:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Binance flags 'potential security issue,' says crypto firms froze more than $2.5 billion | National News | 2news.com - KTVN",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxQM0J3TVJlejVDU05zRDQ2UGtadE51MWQ4bW5FVlhKT0FPSGlqWl96bmtPUS1sMUNnTG1fSm5TOEZsS3pXNVJ4TkFGNUVlZDdZY2hRbnp2TTNQeGVsS1ZoTGZ3VC03djg0M2RLNXRmX0F3MTFnS2NaMlNuUi1IaVNBaXY1QWNOdDFpS2h2QlRxUVFVUG5LNm5BbzdmaGw3VXRyWjBvU0hkSFFjaVBrWDY2UjhTeURCaGJEV25IMFdaRmJxeEZ2MmZWZGhwRzhtLWs0Z3VnWl95TmVaeGhNWUE3YkUyY0drRXBFcEc5OHh4WWV3a1gzcmhrbjhuN0Q?oc=5\" target=\"_blank\">Binance flags 'potential security issue,' says crypto firms froze more than $2.5 billion",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQM0J3TVJlejVDU05zRDQ2UGtadE51MWQ4bW5FVlhKT0FPSGlqWl96bmtPUS1sMUNnTG1fSm5TOEZsS3pXNVJ4TkFGNUVlZDdZY2hRbnp2TTNQeGVsS1ZoTGZ3VC03djg0M2RLNXRmX0F3MTFnS2NaMlNuUi1IaVNBaXY1QWNOdDFpS2h2QlRxUVFVUG5LNm5BbzdmaGw3VXRyWjBvU0hkSFFjaVBrWDY2UjhTeURCaGJEV25IMFdaRmJxeEZ2MmZWZGhwRzhtLWs0Z3VnWl95TmVaeGhNWUE3YkUyY0drRXBFcEc5OHh4WWV3a1gzcmhrbjhuN0Q?oc=5",
+      "published": "Fri, 30 Oct 2026 00:17:57 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "The Fed’s rate freeze will mean nothing unless banks fix a repo market bottleneck - CryptoSlate",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeGVsV1paZE95V1Fqb2RicDJHdzhtcUFObTdiX0kzNHQ2LTYtVms1NUJsYVdwU2Y0aDl6X2FkY3hHLWFJM25hTnp0REhyM1VfUE5wV09WZ0NGOHQwTXhMUEV4UGp4S2lzbGE3M2RYUjFJYS1lM3I0ZXFtQm16bGQ0RGowVlQtUVljU0RCd3d2aTBjMUhSUGJjck5Td2ZUWTVHZEtJT0wtT1Y?oc=5\" target=\"_blank\">The Fed’s rate freeze will mean nothing unless banks fix a repo market bottleneck</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoSlate</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeGVsV1paZE95V1Fqb2RicDJHdzhtcUFObTdiX0kzNHQ2LTYtVms1NUJsYVdwU2Y0aDl6X2FkY3hHLWFJM25hTnp0REhyM1VfUE5wV09WZ0NGOHQwTXhMUEV4UGp4S2lzbGE3M2RYUjFJYS1lM3I0ZXFtQm16bGQ0RGowVlQtUVljU0RCd3d2aTBjMUhSUGJjck5Td2ZUWTVHZEtJT0wtT1Y?oc=5",
+      "published": "Thu, 29 Oct 2026 23:20:53 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "summary": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
+      "published": "2026-10-29T19:48:52.329000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/784c65be33d44de0b2099cadf8742846",
+      "published": "2026-10-29T16:45:10.993000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f180bddad424ea5b7a00148433721dc",
+      "published": "2026-10-28T11:30:13.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "summary": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a326408b6404d69b474f3fab7acfa66",
+      "published": "2026-10-28T11:00:17.379000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/02d204fc963f4f8687599fc22a13d538",
+      "published": "2026-10-26T14:15:01.713000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
+      "published": "2026-10-25T15:05:15.552000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3afa938f499d403382d01d0c0644507e",
+      "published": "2026-10-21T11:31:11.286000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "summary": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b965e028041c4d0fbb4291372f55e4d4",
+      "published": "2026-10-21T11:00:12.952000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4e52d711946c88762f0ba2259de2e",
+      "published": "2026-10-21T10:15:10.766000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e52ef13311eb4e1a96f07099152e61d5",
+      "published": "2026-10-14T11:30:08.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "summary": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/927d3a7b5d6c43fb888e38f110005906",
+      "published": "2026-10-14T11:00:04.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "summary": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
+      "published": "2026-10-13T11:30:01.158000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/394e61b6f81e4a349272dcb9d78876d6",
+      "published": "2026-10-12T14:15:02.026000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 30 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 30，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-10-30T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "币安遭黑客攻击损失约530亿元，紧急暂停提款 提供者 Investing.com - 英为财情 Investing.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE1GWDJleHBxMlNKd2xldzh1dXJ5S3ladlRzNXl2a3FiMlM4ZS1wTlYycG01YkNwUVlTNVo3UTNrZ3lxaC1sczM5SU1xdmhlQUhOTnY2bGZqVERBYXVha0JIdlZuVXBtd0t4ODZjYW1pR2NJcTg?oc=5\" target=\"_blank\">币安遭黑客攻击损失约530亿元，紧急暂停提款 提供者 Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">英为财情 Investing.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GWDJleHBxMlNKd2xldzh1dXJ5S3ladlRzNXl2a3FiMlM4ZS1wTlYycG01YkNwUVlTNVo3UTNrZ3lxaC1sczM5SU1xdmhlQUhOTnY2bGZqVERBYXVha0JIdlZuVXBtd0t4ODZjYW1pR2NJcTg?oc=5",
+      "published": "Thu, 29 Oct 2026 23:35:00 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "以太坊价格预测：美国PCE通胀数据强化12月加息预期，ETH下跌 - www.tmgm.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxPa3VBZko4RVNpQWt3LTVMNk43NVhRbjlHR3ZUdVpWQ0ZpSmY0WTE3OWJrRE1fV0xubDdvLTRxbHlDZUIxd3liamF5RjFXd185QXZLWWNsOXRXRTI4LTQyZ3RKcF9tNXhkQUhnNS1yVEhQbm4zbldGSmRYbGpxMDJfQjdmaWJjeDUwZXcwa29YUG5zOTBfZTFndFdrcTQ0YmhCa3ZDLTN1QmdFQVFKNFNpakhPSlE0anRXVTJDdFcyY1AwY1JDeHRuc0stT1ljejlGbXpjUHlOd2IwWGtFTkpFd0xtZVZ6UWp5?oc=5\" target=\"_blank\">以太坊价格预测：美国PCE通胀数据强化12月加息预期，ETH下跌</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www.tmgm.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPa3VBZko4RVNpQWt3LTVMNk43NVhRbjlHR3ZUdVpWQ0ZpSmY0WTE3OWJrRE1fV0xubDdvLTRxbHlDZUIxd3liamF5RjFXd185QXZLWWNsOXRXRTI4LTQyZ3RKcF9tNXhkQUhnNS1yVEhQbm4zbldGSmRYbGpxMDJfQjdmaWJjeDUwZXcwa29YUG5zOTBfZTFndFdrcTQ0YmhCa3ZDLTN1QmdFQVFKNFNpakhPSlE0anRXVTJDdFcyY1AwY1JDeHRuc0stT1ljejlGbXpjUHlOd2IwWGtFTkpFd0xtZVZ6UWp5?oc=5",
+      "published": "Thu, 29 Oct 2026 23:01:07 GMT"
+    }
+  ]
+}
