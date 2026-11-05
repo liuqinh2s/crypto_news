@@ -1,0 +1,491 @@
+{
+  "date": "2026-11-05",
+  "hour": "16",
+  "total": 69,
+  "fetched_at": "2026-11-05T16:00:56.595738+08:00",
+  "news": [
+    {
+      "source": "CoinTelegraph",
+      "title": "Crédit Mutuel Arkéa resumes operations after attack, assesses losses",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Crédit Mutuel Arkéa resumes operations after attack, assesses losses\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6N6NXVHKBRJXY07Q6DE59G9/bank-french-credit-mutuel-arkea.png\" /></p><p>The bank said customer funds were unaffected after attackers accessed its systems through a service provider’s platform.</p>",
+      "link": "https://cointelegraph.com/news/credit-mutuel-arkea-resumes-operations-133m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 05 Nov 2026 07:23:06 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Here’s what happened in crypto today",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 05 Nov 2026 06:21:12 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6N3H7D7JKVJG1M4FYAN87WP/polygon-hard-fork.png\" /></p><p>Polygon block producers have already frozen the stolen tokens, but a proposed hard fork would allow the funds to be recovered and returned to their owners.</p>",
+      "link": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 05 Nov 2026 06:02:29 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "SSO漏洞致生产环境遭未授权访问并停机约16小时",
+      "summary": "【SSO漏洞致生产环境遭未授权访问并停机约16小时】金色财经报道，GitBook于11月4日发布事故复盘报告：11月2日，攻击者利用其SSO登录流程漏洞伪造员工会话，经配置错误的GitHub App取得内部代码仓库与Cloudflare API密钥，进而访问生产环境密钥、通过服务账号获完整基础设施权限。时间线(UTC)显示11月2日16:32取得员工会话与源码、17:48进入生产环境、19:58修复SSO漏洞、20:32隔离账号并下线应用；11月3日11:56密钥轮换完毕、服务恢复，停机约16小时。攻击者于11月2日晚约2小时45分、3日凌晨约40分钟访问生产环境，可触及GitBook API令牌、集成令牌与密钥、会话签名密钥、认证访问文档站点、GitHub与GitLab仓库及客户内容；账单信息、密码、IP地址未泄露，未发现客户内容被修改证据。调查指向针对单一客户的定向攻击，GitBook按全部客户数据已暴露处理，已轮换全部基础设施及客户密钥、作废旧API令牌，并称攻击由AI代理驱动。报告由CEO Sara Tandowsky与联合创始人兼CTO Samy Pessé署名。<p>原文链",
+      "link": "https://jinse.com.cn/lives/539265.html",
+      "published": "Thu, 05 Nov 2026 07:59:28 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "南下资金净卖出港股超190亿港元",
+      "summary": "【南下资金净卖出港股超190亿港元】金色财经报道，11月5日，南下资金净卖出港股超190亿港元。",
+      "link": "https://jinse.com.cn/lives/539264.html",
+      "published": "Thu, 05 Nov 2026 07:50:19 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Jupiter第三季度交易量居全链DEX聚合器首位 连续8个季度领先",
+      "summary": "【Jupiter第三季度交易量居全链DEX聚合器首位 连续8个季度领先】金色财经报道，11月5日，SolanaFloor于X平台发文称，Jupiter以2026年第三季度交易量位居全链DEX聚合器第一，已连续8个季度保持领先，尽管其仅在Solana上运营。附图显示，DefiLlama相关排名中Jupiter居首，其后依次为DFlow、0x Protocol、KyberSwap、OKX DEX、LiquidMesh、Uniswap、CoWSwap、1inch、Binance Wallet等。<p>原文链接: <a href=\"https://x.com/SolanaFloor/status/2118166912395850055\">https://x.com/SolanaFloor/status/2118166912395850055</a></p>",
+      "link": "https://jinse.com.cn/lives/539263.html",
+      "published": "Thu, 05 Nov 2026 07:48:24 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "民主党选情推动美元走软，金价反弹逾2%",
+      "summary": "【民主党选情推动美元走软，金价反弹逾2%】金色财经报道，11月4日，周三，现货黄金上涨逾2%，美国中期选举中民主党赢得关键选举后，美元走弱为金价提供支撑。与此同时，投资者等待本周晚些时候公布的美国非农就业数据，以寻找美联储未来政策路径的线索。Pepperstone研究主管克里斯·韦斯顿表示：“美元走弱，加上美国名义国债收益率和实际国债收益率双双大幅下跌，显然为金价提供了支撑。投资者希望对冲特朗普政府可能变得更加难以预测、对抗性更强所带来的风险，这种避险需求似乎为黄金买家创造了有力的市场环境。”周三，民主党在美国中期选举中取得决定性胜利，全球股市下跌，美元走软。美元走弱使以美元计价的黄金对海外买家而言更加便宜。",
+      "link": "https://jinse.com.cn/lives/539262.html",
+      "published": "Thu, 05 Nov 2026 07:46:42 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Soter Insure完成B轮第二次交割 SC Ventures与SBI集团加入",
+      "summary": "【Soter Insure完成B轮第二次交割 SC Ventures与SBI集团加入】金色财经报道，11月5日，据PR Newswire报道，数字资产专业保险公司Soter Insure宣布，渣打银行旗下创新投资平台SC Ventures与日本SBI集团作为战略投资者加入其由Galaxy领投的B轮融资，Token Bay Capital追加投资。7月首次交割参与方包括Coinbase Ventures、Franklin Templeton和Brevan Howard Digital。本次公告未披露融资金额。<p>原文链接: <a href=\"https://www.prnewswire.com/news-releases/sc-ventures-and-sbi-join-soter-insures-series-b-alongside-follow-on-from-token-bay-capital-302930335.html\">https://www.prnewswire.com/news-releases/sc-ventures-and-sbi-join-soter-insure",
+      "link": "https://jinse.com.cn/lives/539261.html",
+      "published": "Thu, 05 Nov 2026 07:45:31 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "新地址分两笔从Binance累计转入约6277枚ETH 价值约1476万美元",
+      "summary": "【新地址分两笔从Binance累计转入约6277枚ETH 价值约1476万美元】金色财经报道，11月5日，据链上分析师Ai姨监测，一个新地址分两笔从Binance热钱包累计转入约6277枚ETH，价值合计约1476万美元。配图显示，两笔转账分别为3000枚(约680万美元)和3277枚(约796万美元)ETH。<p>原文链接: <a href=\"https://x.com/ai_9684xtpa/status/2118241838830420182\">https://x.com/ai_9684xtpa/status/2118241838830420182</a></p>",
+      "link": "https://jinse.com.cn/lives/539260.html",
+      "published": "Thu, 05 Nov 2026 07:42:23 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "韩国拟将加密货币收益税推迟两年至2029年 并研究亏损结转",
+      "summary": "【韩国拟将加密货币收益税推迟两年至2029年 并研究亏损结转】金色财经报道，11月5日，韩国财政部长李炯一(Lee Hyoung-il)表示，政府计划将原定2027年实施的加密货币收益税推迟两年至2029年，并与国会协商推进立法。政府称，韩国计划2029年开始与美国交换虚拟资产税务信息，拟在此之前完善国内外交易征税机制。现行方案规定，个人年度加密货币收益超过250万韩元(约1869美元)的部分适用22%税率。政府还计划研究允许投资者在三年内结转亏损以抵扣未来收益，并于2027年例行会期向国会提交相关修正案。<p>原文链接: <a href=\"https://en.yna.co.kr/view/AEN20261105005700320\">https://en.yna.co.kr/view/AEN20261105005700320</a></p>",
+      "link": "https://jinse.com.cn/lives/539259.html",
+      "published": "Thu, 05 Nov 2026 07:38:48 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "商务部回应扩大自美采购农产品：持开放态度 对等降税落地是前提",
+      "summary": "【商务部回应扩大自美采购农产品：持开放态度 对等降税落地是前提】金色财经报道，商务部新闻发言人黄玲在5日举行的例行新闻发布会上回答有关进口美国农产品的提问时表示，中美农产品贸易是双边经贸合作的重要组成部分。扩大两国在农业领域合作，既可以丰富两国民众的餐桌，也能给两国企业和农民提供稳定的经济收入，为双方带来实实在在的好处。中方一直对扩大自美采购农产品持开放态度，但前提是双方达成的“300亿对300亿”对等降税安排落地。希望美方与中方共同努力，通过共同降低关税、减少非关税壁垒、扩大市场准入等方式，为两国农产品贸易创造更多有利条件。（新华社）",
+      "link": "https://jinse.com.cn/lives/539258.html",
+      "published": "Thu, 05 Nov 2026 07:37:12 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "市场消化中期选举结果，美国国债收益率跌至八周低点",
+      "summary": "【市场消化中期选举结果，美国国债收益率跌至八周低点】金色财经报道，11月5日，据华尔街日报报道，周四，随着投资者认为民主党在美国中期选举中全面获胜后，财政约束可能趋紧，从而有利于债券市场，长期美债收益率跌至八周低点。据Tradeweb数据，各期限美债收益率普遍下跌。其中，10年期和30年期美债收益率盘中分别触及八周低点4.837%和5.229%，随后小幅反弹，但当日仍处于下跌状态。两年期美债收益率在周三跌至两个月低点后，最新交易水平略高于这一低点。MissionSquare首席投资官Shari，Hensrud表示，国会陷入分裂可能有利于债券市场，但这并不能解决财政赤字问题。财政风险下降可能支撑长期美债，并对长期收益率形成一定下行压力；而短期美债收益率则仍更多受到美联储政策、通胀和劳动力市场状况的影响。",
+      "link": "https://jinse.com.cn/lives/539257.html",
+      "published": "Thu, 05 Nov 2026 07:35:10 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "外资单日大举出逃韩芯片双雄",
+      "summary": "<figure><img alt=\"530\" src=\"https://img.jinse.com.cn/jinse_1793864025620176551_live-rb.png\" /></figure>【外资单日大举出逃韩芯片双雄】金色财经报道，据韩国交易所11月5日的最新数据，当日外资大举抛售半导体巨头，同时将资金净买入聚焦于互联网平台、游戏及部分传统制造和军工企业。其中，SK海力士净卖出额高达 15,427.3亿韩元，净卖出量达120.4万股，位居外资抛售榜首。三星电子净卖出额为 11,687.2亿韩元，净卖出量571.8万股。仅这两家半导体巨头，单日就被外资净抛售超2.7万亿韩元，反映出外资对AI监管担忧下芯片板块的强烈避险情绪。买入方面，Naver净买入额达 710.7亿韩元，位居榜首。大德电子净买入 465.5亿韩元。",
+      "link": "https://jinse.com.cn/lives/539256.html",
+      "published": "Thu, 05 Nov 2026 07:33:16 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "软银集团收购瑞士-瑞典合资企业机器人业务将被中国发改委阻挠？外交部回应",
+      "summary": "【软银集团收购瑞士-瑞典合资企业机器人业务将被中国发改委阻挠？外交部回应】金色财经报道，外交部发言人郭嘉昆主持例行记者会。法新社记者提问，据报道，中国已告知日本软银集团（SoftBank），不会批准其收购瑞士-瑞典合资企业ABB旗下的机器人业务。报道称，软银近期获悉该交易将被中国国家发展和改革委员会阻挠。外交部能否确认相关消息？ \n“这个问题建议向中方主管部门进行询问。”郭嘉昆说。（澎湃）",
+      "link": "https://jinse.com.cn/lives/539255.html",
+      "published": "Thu, 05 Nov 2026 07:31:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Bithumb将在韩元市场上线MAGMA代币",
+      "summary": "【Bithumb将在韩元市场上线MAGMA代币】金色财经报道，据官方公告，韩国加密交易所 Bithumb 将在韩元市场上线 MAGMA 代币，具体交易开放时间以官方公告为准。",
+      "link": "https://jinse.com.cn/lives/539254.html",
+      "published": "Thu, 05 Nov 2026 07:30:56 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "分析师称AI资本支出放缓或影响美联储加息前景及美债收益率",
+      "summary": "【分析师称AI资本支出放缓或影响美联储加息前景及美债收益率】金色财经报道，11月5日，据金十，Aptus Capital Advisors投资组合经理兼固定收益业务主管约翰·卢克·泰纳在报告中表示，民主党在州长选举中取得进展后，市场仍需关注AI资本支出与数据中心建设是否受影响，抑或仅转移至政策更友好的州；他判断相关投资会放缓，但幅度或许不及市场担忧。谈及美联储加息前景，泰纳称若通胀主要压力来自能源价格和AI支出，9月加息25个基点很可能为本轮周期最后一次；政府陷入僵局通常拖累GDP增长，或为整条收益率曲线进一步下行打开空间。",
+      "link": "https://jinse.com.cn/lives/539253.html",
+      "published": "Thu, 05 Nov 2026 07:29:13 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "币安11月6日调整SAMSUNGUSDT永续合约股息 每股1001韩元",
+      "summary": "【币安11月6日调整SAMSUNGUSDT永续合约股息 每股1001韩元】金色财经报道，11月5日，据官方公告，币安将于北京时间2026年11月6日14:00对SAMSUNGUSDT U本位永续合约进行股息调整，金额为每股1,001韩元，相当于-0.037336%，整个过程预计约30分钟完成。本次调整仅适用于在除息日(北京时间2026年9月29日07:00)持有该合约净持仓的用户；符合条件者可通过\"资金流水\"页面选择\"特殊资金费用\"类型查看调整金额。",
+      "link": "https://jinse.com.cn/lives/539252.html",
+      "published": "Thu, 05 Nov 2026 07:23:58 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "火币HTX上线「十大交易机会」百亿$HTX交易学习活动",
+      "summary": "【火币HTX上线「十大交易机会」百亿$HTX交易学习活动】金色财经报道，据官方公告， 火币HTX将于11月5日15:00至11月19日15:00（UTC+8）启动「十大交易机会」学习与交易活动，0门槛报名后，即可参与BTC涨跌竞猜、热币交易赛双赛道玩法，总奖池高达百亿枚$HTX。BTC涨跌竞猜活动无论结果对错，参与均有奖励；热币交易赛奖池达15,000美元等值$HTX，用户报名后参与「十大交易机会」指定币种交易（以活动页展示为准），有效交易额达到一定要求，即可进入排名奖池，冠军将独享3,000美元等值$HTX。 \n据悉，火币HTX每日通过官方社群发布投研栏目“每日十大交易机会”，旨在将分散的市场信息整合为当日交易主线，帮助用户以更低的信息成本把握全资产行情，形成清晰的交易思路。内容每日从加密货币及美股、大宗商品、外汇、指数等TradFi资产中精选十个标的，逐条给出方向判断、核心逻辑与评级。目前该内容已发布51期，多空命中率达到59.6%，操作盈亏比1.79:1。",
+      "link": "https://jinse.com.cn/lives/539251.html",
+      "published": "Thu, 05 Nov 2026 07:18:04 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "数据：短期持有者过去24小时内共计将28,690枚处于盈利状态的BTC转入交易所",
+      "summary": "【数据：短期持有者过去24小时内共计将28,690枚处于盈利状态的BTC转入交易所】金色财经报道，11月5日，加密分析师Darkfost发文表示，随着比特币迎来突破80,000美元的新一轮上涨，短期持有者（STH）选择止盈离场。在过去24小时内，短期持有者共计将28,690枚处于盈利状态的BTC转入交易所。尽管面临获利盘抛压，比特币当日仍成功收于80,000美元上方，并站稳在21日与50日均线（EMA）之上，从短期来看这是一个非常积极的技术面利好信号。<p>原文链接: <a href=\"https://x.com/Darkfost_Coc/status/2118236266835661192\">https://x.com/Darkfost_Coc/status/2118236266835661192</a></p>",
+      "link": "https://jinse.com.cn/lives/539250.html",
+      "published": "Thu, 05 Nov 2026 07:12:14 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "火币HTX已上线FTNT永续合约",
+      "summary": "【火币HTX已上线FTNT永续合约】11月5日消息，据官方公告，火币HTX已于11月5日上线FTNT/USDT永续合约，支持1-20倍做多和做空操作。<p>原文链接: <a href=\"https://www.htx.net.im/zh-cn/support/85048172336425\">https://www.htx.net.im/zh-cn/support/85048172336425</a></p>",
+      "link": "https://jinse.com.cn/lives/539249.html",
+      "published": "Thu, 05 Nov 2026 06:48:36 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "分析师：美国中期选举结果被视为利好债券与股票",
+      "summary": "【分析师：美国中期选举结果被视为利好债券与股票】金色财经报道，11月5日，BondBloxx投资管理公司高级投资策略师乔安妮·比安科表示，投资者认为美国中期选举结果对债券和股票市场构成支撑，因为选举结果提高了进一步扩大财政支出的门槛，也增加了政策受到更多制衡的可能性。她指出，尽管如今华盛顿已很难找到真正主张财政紧缩的鹰派人士，但政策环境更加分散，应该会使财政赤字进一步扩大的难度增加，并有望改善财政前景。比安科在一份报告中表示，展望未来，市场关注焦点将重新转向地缘政治局势，以及美国经济能否继续保持稳健。(金十)",
+      "link": "https://jinse.com.cn/lives/539248.html",
+      "published": "Thu, 05 Nov 2026 06:42:55 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "日韩股市低收 韩股跌超5%",
+      "summary": "【日韩股市低收 韩股跌超5%】金色财经报道，11月5日，AI监管担忧冲击日韩股市，日经225指数收盘下跌1110.73点，跌幅1.79%，报61077.90点。韩国KOSPI指数收盘下跌300.15点，跌幅5.28%，报5383.65点，韩国创业板指（KOSDAQ）跌5.11%，盘中相继触发侧车机制，程序化交易一度暂停；SK海力士跌9.45%，三星电子跌7.56%。(金十)",
+      "link": "https://jinse.com.cn/lives/539247.html",
+      "published": "Thu, 05 Nov 2026 06:33:42 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Upbit将上线CARDS韩元、BTC及USDT交易对",
+      "summary": "【Upbit将上线CARDS韩元、BTC及USDT交易对】金色财经报道，11月5日，据官方消息，Upbit将上线CARDS韩元、BTC及USDT交易对。<p>原文链接: <a href=\"https://x.com/bwenews/status/2118222552812376166\">https://x.com/bwenews/status/2118222552812376166</a></p>",
+      "link": "https://jinse.com.cn/lives/539246.html",
+      "published": "Thu, 05 Nov 2026 06:08:51 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "从Kimi、Manus到AirBuild，王慧文又押注一家AI Agent创业公司",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，11 月 4 日，美团联合创始人王慧文在即刻透露，AirBuild 是他最新投资的项目。他的家办投资机构 Lollapalooza Capital 官网，也已将 AirBuild 背后的 YellowPlus 列入投资组合。</p><p><br /></p><p>AirBuild 想让 AI 包办一款 iOS 应用从开发到上架的流程。用户描述想做什么，产品、设计、工程等多个 AI Agent 就会协作完成需求规划、界面设计和原生 iOS 代码。</p><p><br /></p><p>它的一大特点是自动处理苹果 App Store 审核。AI 可以准备应用截图和介绍、提交审核。如果遭到苹果拒绝，还能读取审核意见、修改代码或补充材料，再回复审核人员并重新提交，减少开发者的手动操作。</p><p><br /></p><p>AirBuild 的创始人兼 CEO 是 Hwang，此前负责过开源知识管理工具 AFFiNE 的产品设计，也是 AI",
+      "link": "https://www.theblockbeats.info/flash/375679",
+      "published": "Thu, 05 Nov 2026 07:56:21 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某新地址3日内买入6,277枚ETH，当前浮盈约47.7万美元",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，据 Ai 姨监测，地址 0x4AB…845b8 于三天前以 2,267.83 美元的价格从交易平台提出 3,000 枚 ETH，并于 17 分钟前以 2,429 美元的价格再次买入 3,277 枚 ETH。</p><p><br /></p><p>该地址三天内累计建仓 6,277 枚 ETH，总投入超过 1,476 万美元，买入均价约为 2,352 美元。目前持仓浮盈约 47.7 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/375677",
+      "published": "Thu, 05 Nov 2026 07:26:53 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "硅谷大佬态度微妙转变：AI发展不能只靠特朗普",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，美国中期选举当晚，硅谷知名播客 All-In 举行直播，几位科技投资人讨论了民主党胜选可能给 AI 行业带来的影响。</p><p><br /></p><p>主持人 Chamath Palihapitiya 担忧，AI 投资已经成为美国经济增长的重要支柱，而数据中心建设又高度依赖电力供应。如果民主党在得州等地限制新建数据中心，整个 AI 行业都可能受到冲击。</p><p><br /></p><p>主持人 Jason Calacanis 则提出，科技行业此前积极支持特朗普，如今也应该主动与民主党接触，就 AI 监管政策展开合作。他还认为，科技界过去反复宣传 AI 可能导致人类灭绝、大规模失业，反而加剧了公众对 AI 的恐惧。</p><p><br /></p><p>All-In 常驻嘉宾、Altimeter Capital 创始人 Brad Gerstner 认为，许多民主党胜选者只是希望在 AI 监管中拥有更多话语权，并不打算全面叫停 A",
+      "link": "https://www.theblockbeats.info/flash/375676",
+      "published": "Thu, 05 Nov 2026 07:23:39 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "过去24小时比特币短期持有者向CEX存入28,690枚BTC",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，比特币突破 80,000 美元后，短期持有者（STH）开始选择获利了结。过去 24 小时内，短期持有者向交易平台转入 28,690 枚处于盈利状态的 BTC。</p><p><br /></p><p>尽管面临短期抛售压力，比特币仍成功收于 80,000 美元上方，同时站上 21 日和 50 日指数移动平均线（EMA）。这一表现对比特币短期走势而言是积极信号。</p>",
+      "link": "https://www.theblockbeats.info/flash/375675",
+      "published": "Thu, 05 Nov 2026 07:22:20 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "韩国拟将加密货币收益税推迟两年至2029年，或允许亏损结转抵扣",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，据韩联社报道，韩国财政部长李炯一（Lee Hyoung-il）今日表示，政府计划将原定于 2027 年实施的加密货币收益税推迟两年至 2029 年，并将与国会协商推进相关立法。</p><p><br /></p><p>韩国政府解释称，韩国计划于 2029 年开始与美国交换虚拟资产税务信息，若在此之前征税，可能使韩国本土加密货币市场处于竞争劣势。此次延期旨在完善国内外交易的征税机制，提高税收公平性。</p><p><br /></p><p>根据现行方案，个人年度加密货币收益超过 250 万韩元（约 1,869 美元）的部分，将适用 22% 的税率。若延期方案最终获批，这将是韩国自 2020 年首次推动加密货币收益征税以来，第四次推迟实施时间。</p><p><br /></p><p>此外，韩国政府还计划研究允许投资者将亏损结转，用于抵扣未来收益，拟设三年期限；同时成立政企工作组，完善不同交易场景的征税细则，并推动数字资产法案立法。政府计划于 2027 年例行会期向国会提交相关修正案。</p>",
+      "link": "https://www.theblockbeats.info/flash/375673",
+      "published": "Thu, 05 Nov 2026 07:06:08 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Binance将于明日结算SAMSUNGUSDT永续合约股息调整，调整金额为每股1,001韩元",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，Binance 公告称，将于北京时间 2026 年 11 月 6 日 14:00 起，对美元Ⓢ保证金 SAMSUNGUSDT 永续合约进行股息调整结算，调整金额为每股 1,001 韩元，相当于 -0.037336%。结算预计持续约 30 分钟。</p><p><br /></p><p>此次调整适用于在除息日（北京时间 9 月 29 日 07:00）持有该合约净头寸的用户。符合条件的用户可在「交易历史」中选择「特殊资金费用」（Special Funding Fee）查看具体调整金额。</p><p><br /></p><p>调整金额将计入或从用户的 U 本位合约全仓账户中扣除。Binance 提醒用户提前评估股息调整影响并管理仓位。结算期间，合约资金费率间隔保持不变，也不会提前切换至仅减仓模式。</p>",
+      "link": "https://www.theblockbeats.info/flash/375671",
+      "published": "Thu, 05 Nov 2026 07:01:25 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国AI要被踩刹车了？民主党夺回国会，议员要求永久禁止超级智能",
+      "summary": "<p><a href=\"https://t.me/OneMillion_AI\" target=\"_blank\">动察 Beating</a> AI 快讯，美国民主党在当地时间 11 月 3 日举行的中期选举中夺回国会参众两院。次日，民主党众议员 Yassamin Ansari 公开号召，民主党上台后应优先暂停先进 AI 研发、加强行业监管，并禁止超级人工智能。</p><p><br /></p><p>这项主张此前已被写进法案。今年 9 月，独立参议员 Bernie Sanders 与民主党众议员 Greg Casar 共同推动《禁止人工超级智能法案》，Ansari、Ro Khanna 等民主党议员参与联署。</p><p><br /></p><p>法案要求暂停训练计算量达到 10²⁵ 次运算的先进 AI 系统的训练、修改和微调，并禁止部署尚未发布的同类系统，直到新设的联邦 AI 监管部门制定安全规则。对于能力超过人类的超级人工智能，法案则要求永久禁止。</p><p><br /></p><p>其他民主党重要人物也主张限制 AI 发展速度，但态度不尽相同。</p><p><br /></p><p",
+      "link": "https://www.theblockbeats.info/flash/375670",
+      "published": "Thu, 05 Nov 2026 06:58:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Bithumb将在韩元市场上线MAGMA",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，Bithumb 将在韩元市场上线 MAGMA。</p>",
+      "link": "https://www.theblockbeats.info/flash/375668",
+      "published": "Thu, 05 Nov 2026 06:51:16 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：2027至2028年存储芯片真实订单远超供应能力，民主党政策冲击难以改变供需格局",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，韩国证券公司 Meritz Securities 指出，存储芯片厂商目前收到的 2027 至 2028 年订单远超产能，即使美国民主党在中期选举中取得优势，导致部分数据中心项目延期或调整，也不太可能从根本上改变存储芯片供应短缺的局面。</p><p><br /></p><p>Meritz 表示，今年存储芯片订单交付率（可供应产能与订单量之比）一直维持在 80% 至 85% 的较低水平，推动存储芯片售价大幅上涨。预计 2027 年供需缺口将进一步扩大，订单交付率可能降至约 80%。</p><p><br /></p><p>此外，OpenAI CEO Sam Altman 近期访问韩国期间，曾要求 SK hynix 和 Samsung Electronics 提供 2027 至 2030 年的 HBM 等定制化存储产品，需求规模甚至超过两家公司的可供应产能。</p><p><br /></p><p>对此，社区用户 Teng Yan 补充称，三星在 10 月 29 日与 Meritz 的电话会议中表示，已有 10 家大型客户签署多年期存储供应协议",
+      "link": "https://www.theblockbeats.info/flash/375667",
+      "published": "Thu, 05 Nov 2026 06:40:22 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "日韩股市低收，存储概念股持续承压，SK海力士跌9.45%",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，据 Bitget 行情数据，AI 监管担忧冲击日韩股市，日经 225 指数收盘下跌 1110.73 点，跌幅 1.79%，报 61077.90 点。</p><p><br /></p><p>韩国 KOSPI 指数收盘下跌 300.15 点，跌幅 5.28%，报 5383.65 点，韩国创业板指（KOSDAQ）跌 5.11%，盘中相继触发侧车机制，程序化交易一度暂停；SK 海力士跌 9.45%，三星电子跌 7.56%。</p>",
+      "link": "https://www.theblockbeats.info/flash/375666",
+      "published": "Thu, 05 Nov 2026 06:36:19 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Bitget将推出开放托管网络Open Custody Network（OCN），重新定义资产托管与交易的关系",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，据 Bitget 官方消息，平台宣布将推出开放式托管网络 Open Custody Network（OCN）。以「资产存银行，交易在 Bitget」（Assets in Bank, Tradings on Bitget）为核心理念，旨在连接银行、托管公司等专业金融机构与 Bitget 交易基础设施。该网络整合独立资产托管、银行及机构级安全保障、交易所一体化交易服务及资金效率等核心能力，打破传统中心化交易所将资产托管与交易集中于同一平台的模式。</p><p><br /></p><p>OCN 通过资产映射机制，打通独立资产托管与交易服务之间的通道，使所有符合条件的用户在保留资产独立托管权的同时，参与 Bitget 现货、杠杆及合约交易，享受交易所级流动性与一体化交易服务，进一步降低交易参与门槛，让更多用户能够以更平等的方式获取金融服务。</p><p><br /></p><p>Bitget CEO Gracy Chen 表示，OCN 旨在打破用户须将资产托管于交易所才能使用其交易服务的传统模式，让用户在自主选择资产托管方式的同时，享受优质流",
+      "link": "https://www.theblockbeats.info/flash/375665",
+      "published": "Thu, 05 Nov 2026 06:26:12 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普：弹劾我将「摧毁」民主党，不会解雇赫格塞思",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，美国总统特朗普表示，如果民主党人在明年掌控国会后发起弹劾他的行动，那将会「摧毁」民主党。</p>",
+      "link": "https://www.theblockbeats.info/flash/375664",
+      "published": "Thu, 05 Nov 2026 06:25:25 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "中期选举后巨鲸换仓，资金大洗牌：「高回报」项目有哪些？",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，中期选举结果出炉，Hyperliquid 股票市场巨鲸迅速开启资金大洗牌，千万级规模地址的连环换仓。</p><p><br /></p><p>有的账户刚砸下 1600 万美元建新仓，反手就清空了 1400 万的早期持仓。部分资产正遭某些亮眼账户止盈，或清仓，新目标已迎来重金入场，哪些标的可能迎来行情？</p>",
+      "link": "https://www.theblockbeats.info/flash/375663",
+      "published": "Thu, 05 Nov 2026 06:21:19 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "汇丰下调Arm目标价至215美元，上调Visa目标价至465美元",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，汇丰将 Arm Holdings 目标价从 230 美元下调至 215 美元，同时将 Visa 目标价从 375 美元上调至 465 美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/375662",
+      "published": "Thu, 05 Nov 2026 06:20:47 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "CARDS短时触及0.333美元，15分钟内涨幅30.48%",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，据 <a href=\"https://t.me/gmgnaibot?start=i_m4TE56o8\" rel=\"noopener\" target=\"_blank\">GMGN</a> 行情显示，或受 Upbit 将上线 CARDS 韩元、BTC 及 USDT 交易对影响，Collector Crypt（CARDS）短时触及 0.333 美元，现报 0.332 美元，15 分钟内涨幅达 30.48%。</p>",
+      "link": "https://www.theblockbeats.info/flash/375660",
+      "published": "Thu, 05 Nov 2026 06:11:32 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "某交易员2小时前开立45万枚LINK的10倍杠杆多单，价值518万美元",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，据 Lookonchain 监测，某地址约 2 小时前开立一笔 LINK 10 倍杠杆多单，仓位规模为 45 万枚 LINK，价值约 518 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/375659",
+      "published": "Thu, 05 Nov 2026 06:10:16 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "马斯克罕见删帖，给共和党拉票的帖文已消失",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，多家美国主流媒体发布预测，民主党在 3 日举行的美国中期选举大获全胜，重获国会参议院和众议院控制权。此前花费数亿美元为共和党候选人助选的马斯克，则在选举结束后悄悄删掉了一条拉票帖文。</p><p><br /></p><p>据美国《华盛顿邮报》11 月 4 日报道，选举日当天，马斯克曾在社交平台 X 上发帖，呼吁选民「今天投红色！」然而，到了当地时间 11 月 4 日，这条帖文已从马斯克的账号上消失。</p><p><br /></p><p>此前消息，马斯克在本轮中期选举中的资金投入达 4.74 亿美元，创下非参选捐赠者单个选举周期政治支出的历史纪录。他不仅利用 X 平台为共和党拉票，还多次公开攻击民主党候选人。但选举结果并未如马斯克所愿。（环球时报）</p>",
+      "link": "https://www.theblockbeats.info/flash/375658",
+      "published": "Thu, 05 Nov 2026 06:09:07 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "分析：比特币熊市周期已持续396天，当前或正处于熊市周期尾声",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，CryptoBoost 创始人发文表示，BTC 本轮熊市始于 2025 年 10 月 6 日历史高点，截至发文时已持续 396 天，略超 2014 年以来熊市触底所需的平均 391 天。从历史回撤幅度来看，2014 年熊市最大跌幅约 86%，2018 年约 84%，2022 年约 77%，而本轮回撤幅度约为 53%，相对温和。</p><p><br /></p><p>随着现货 ETF、企业及基金等机构参与者的增加，可能使市场持仓结构更加稳固，从而减轻下跌幅度。BTC 巨鲸自 7 月以来持续增持。不过，周期时间达到历史平均水平并不意味着熊市已经结束，BTC 仍需重新站上 8 万至 8.2 万美元并维持在该区间上方，才能进一步确认市场走势。其同时将近期美股科技股与半导体板块下跌、资金转向银行股，以及美国中期选举后道指上涨和油价下跌等市场变化作为背景，认为当前华尔街资金流向不明，而 BTC 可能正处于熊市周期尾声。</p>",
+      "link": "https://www.theblockbeats.info/flash/375657",
+      "published": "Thu, 05 Nov 2026 06:08:24 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Upbit将上线CARDS韩元、BTC及USDT交易对",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，据官方消息，Upbit 将上线 CARDS 韩元、BTC 及 USDT 交易对。</p>",
+      "link": "https://www.theblockbeats.info/flash/375655",
+      "published": "Thu, 05 Nov 2026 06:03:51 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Zcash将于NU7升级后冻结Sprout隐私池约12200枚ZEC，价值约1600万美元",
+      "summary": "<p>BlockBeats 消息，11 月 5 日，Zcash 计划于周四晚间进行 NU7 网络升级，届时将停止接受版本 4 交易，而这是目前唯一能够从 Sprout 隐私池转出资金的交易格式。升级后，仍留在 Sprout 中的 ZEC 将无法使用，即使持有者拥有有效私钥也无法转出。</p><p><br /></p><p>截至周四上午，Sprout 池中仍有约 12,226 枚 ZEC，较一周前的约 22,263 枚减少约 10,037 枚。其中，约 9,094 枚在周日转出，而周三仅有约 40 枚转出。按每枚 ZEC 约 1,300 美元计算，剩余资产价值约 1,600 万美元。Sprout 是 Zcash 于 2016 年 10 月推出的首个隐私池，之后已被更新的隐私池取代。</p><p><br /></p><p>此次升级预计在区块高度 3,543,405 激活，按当前出块速度估算，时间约为美东周四晚 9:30，但实际时间取决于矿工出块速度，也可能推迟至周五亚洲时段。ZIP 2003 规范为未来恢复 Sprout 资金访问保留了可能性，但也警告称，相关资产可能永远无法重新使用。此外",
+      "link": "https://www.theblockbeats.info/flash/375654",
+      "published": "Thu, 05 Nov 2026 06:03:25 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Elite Crypto Stocks To Own In November 2026 - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPZVExVENhd2x5dXk5SmNQdmJEYlM4WEdGZFBQZ0FZbWF6cmRVT0FKc0tqTHIwYWpKSElTbi12YU9lRGdIdDJDYTZlSjhDSUhaQy01MVg3MU10WHp1MVY3WVdpOE9Fd252YXB3SUhLZ0M0ZDlJanV2Wmh0aURjb0NkV2h1aHlmMGxRd0RfMGhWWkhFc3NFcERqMloxbEYtZw?oc=5\" target=\"_blank\">Elite Crypto Stocks To Own In November 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZVExVENhd2x5dXk5SmNQdmJEYlM4WEdGZFBQZ0FZbWF6cmRVT0FKc0tqTHIwYWpKSElTbi12YU9lRGdIdDJDYTZlSjhDSUhaQy01MVg3MU10WHp1MVY3WVdpOE9Fd252YXB3SUhLZ0M0ZDlJanV2Wmh0aURjb0NkV2h1aHlmMGxRd0RfMGhWWkhFc3NFcERqMloxbEYtZw?oc=5",
+      "published": "Thu, 05 Nov 2026 06:18:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Korea seeks another delay to crypto tax until 2029 - The Korea Herald",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE0tbXIyWTl4UkZZOTNpbnlSemctTFg3em9BSk9UR1drQkE1ekdFd0JpaXhxbHBROVNRZVVJdlR1ZjdlSW5QejlEN1BZcDZaQ3FwbGN4N3ZJcw?oc=5\" target=\"_blank\">Korea seeks another delay to crypto tax until 2029</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0tbXIyWTl4UkZZOTNpbnlSemctTFg3em9BSk9UR1drQkE1ekdFd0JpaXhxbHBROVNRZVVJdlR1ZjdlSW5QejlEN1BZcDZaQ3FwbGN4N3ZJcw?oc=5",
+      "published": "Thu, 05 Nov 2026 07:36:59 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "TST Images: Kings defeat Sharks, 7-2, at Crypto Arena - The Sporting Tribune",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5ia1dyeHFuNy1yLU5mb0dUZ1VPSlJORXJNaWZHMHQtMFZSZ3htaTc4OHZKWW5HVmV0Vk92T0FfdGtuUWQ4RUxqcUVWMEhQNkc4eXZ3YjNmdTRITU1Zc2ZMamxwZVAySVBkQURTRGwzNHc2ODlfSGcw?oc=5\" target=\"_blank\">TST Images: Kings defeat Sharks, 7-2, at Crypto Arena</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sporting Tribune</font>",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ia1dyeHFuNy1yLU5mb0dUZ1VPSlJORXJNaWZHMHQtMFZSZ3htaTc4OHZKWW5HVmV0Vk92T0FfdGtuUWQ4RUxqcUVWMEhQNkc4eXZ3YjNmdTRITU1Zc2ZMamxwZVAySVBkQURTRGwzNHc2ODlfSGcw?oc=5",
+      "published": "Thu, 05 Nov 2026 06:45:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin firms to $80.5k as U.S. elections buoy risk appetite, but outlook unclear - Investing.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcDdLcURpdko3WF9GNWlNTkdIVW44NVNnYUhaQkotYjY1bXhvOFlSdnd6Um1tSTNIN0o4YUNxZEF5VGJpUHZnNjUwOFBheFVhQ3RxRS1PbHJITDZYX0U3QTdOSGFZdmVSd3hJRUR4OVItY0t5aWVqYXdhU2h4UnZORFQtZG9qaU9qMlhUN0xhM19aSm5RbjdlRHlKRW5YQ2NyaHJvcUNFdkE2MmZqRXhfUjVoLUpRaTQ2VzZ6UWR5ZTdiOU9wYmdqd2U3TlhMMFpS?oc=5\" target=\"_blank\">Bitcoin firms to $80.5k as U.S. elections buoy risk appetite, but outlook unclear</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcDdLcURpdko3WF9GNWlNTkdIVW44NVNnYUhaQkotYjY1bXhvOFlSdnd6Um1tSTNIN0o4YUNxZEF5VGJpUHZnNjUwOFBheFVhQ3RxRS1PbHJITDZYX0U3QTdOSGFZdmVSd3hJRUR4OVItY0t5aWVqYXdhU2h4UnZORFQtZG9qaU9qMlhUN0xhM19aSm5RbjdlRHlKRW5YQ2NyaHJvcUNFdkE2MmZqRXhfUjVoLUpRaTQ2VzZ6UWR5ZTdiOU9wYmdqd2U3TlhMMFpS?oc=5",
+      "published": "Thu, 05 Nov 2026 06:06:58 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "summary": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
+      "published": "2026-10-29T19:48:52.329000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/784c65be33d44de0b2099cadf8742846",
+      "published": "2026-10-29T16:45:10.993000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f180bddad424ea5b7a00148433721dc",
+      "published": "2026-10-28T11:30:13.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "summary": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a326408b6404d69b474f3fab7acfa66",
+      "published": "2026-10-28T11:00:17.379000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/02d204fc963f4f8687599fc22a13d538",
+      "published": "2026-10-26T14:15:01.713000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
+      "published": "2026-10-25T15:05:15.552000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3afa938f499d403382d01d0c0644507e",
+      "published": "2026-10-21T11:31:11.286000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "summary": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b965e028041c4d0fbb4291372f55e4d4",
+      "published": "2026-10-21T11:00:12.952000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4e52d711946c88762f0ba2259de2e",
+      "published": "2026-10-21T10:15:10.766000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e52ef13311eb4e1a96f07099152e61d5",
+      "published": "2026-10-14T11:30:08.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "summary": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/927d3a7b5d6c43fb888e38f110005906",
+      "published": "2026-10-14T11:00:04.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "summary": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
+      "published": "2026-10-13T11:30:01.158000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/394e61b6f81e4a349272dcb9d78876d6",
+      "published": "2026-10-12T14:15:02.026000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 50 (Neutral)",
+      "summary": "当前加密市场恐惧贪婪指数为 50，分类为「Neutral」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-11-05T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Tether 比特币持仓飙升至 15 万枚，BitMNR 再购 5000 枚 ETH 总持仓破 606 万 - CryptoRank",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wTXg0QlNfdElqQlhReEd4NlQ3NDJpXzZ4N0Vjb0ZGbUV0Q3JGNURtY0pNSVBJb2ZwU0h1VUVHdGZRZFRkbXgtRy1XdUlTT1N5VlQ3Nk1RdE1TZWZt?oc=5\" target=\"_blank\">Tether 比特币持仓飙升至 15 万枚，BitMNR 再购 5000 枚 ETH 总持仓破 606 万</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wTXg0QlNfdElqQlhReEd4NlQ3NDJpXzZ4N0Vjb0ZGbUV0Q3JGNURtY0pNSVBJb2ZwU0h1VUVHdGZRZFRkbXgtRy1XdUlTT1N5VlQ3Nk1RdE1TZWZt?oc=5",
+      "published": "Thu, 05 Nov 2026 07:31:52 GMT"
+    }
+  ]
+}
