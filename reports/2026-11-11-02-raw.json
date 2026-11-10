@@ -1,0 +1,533 @@
+{
+  "date": "2026-11-11",
+  "hour": "02",
+  "total": 75,
+  "fetched_at": "2026-11-11T02:01:05.577175+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+      "published": "Tue, 10 Nov 2026 17:32:22 +0000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto is now teamed up with U.S. government in two legal battles over perps",
+      "summary": "",
+      "link": "https://www.coindesk.com/news-analysis/2026/11/10/crypto-teams-up-with-u-s-government-to-defend-stock-perps-in-legal-fight",
+      "published": "Tue, 10 Nov 2026 17:07:22 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Grayscale pledges $1 million alongside Zcash ad blitz as token and ETF fall 12%",
+      "summary": "Grayscale’s Zcash push comes as its ETF faces continued withdrawals, extending October’s net outflows.",
+      "link": "https://www.theblock.co/news/markets/2026-11-10-grayscale-pledges-1-million-alongside-zcash-ad-blitz-as-token-and-etf-fall-12-437277",
+      "published": "Tue, 10 Nov 2026 17:52:14 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "TON Strategy earns $13.1 million from GRAM staking in Q3 as Telegram rolls out native wallet",
+      "summary": "TON Strategy reported $13.1M in Q3 revenue, mostly from GRAM staking, and a $24M net loss as Telegram rolled out its native Gram Wallet.",
+      "link": "https://www.theblock.co/news/markets/2026-11-10-ton-strategy-tonx-q3-2026-earnings-gram-staking-437278",
+      "published": "Tue, 10 Nov 2026 17:24:44 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Alta raises $47.5 million Series A to build a blockchain for financial institutions",
+      "summary": "Alta’s blockchain will combine privacy and compliance controls for banks and other financial firms.",
+      "link": "https://www.theblock.co/news/business/2026-11-10-alta-raises-80-million-build-blockchain-banks-payment-firms-437244",
+      "published": "Tue, 10 Nov 2026 16:19:16 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Canaan’s Q3 revenue plunges 90% to $14.5 million as bitcoin mining hardware sales slump",
+      "summary": "Canaan's Q3 revenue fell 90% to $14.5 million, though cryptocurrency and derivatives gains supported an $8 million profit.",
+      "link": "https://www.theblock.co/news/business/2026-11-10-canaans-q3-revenue-plunges-90-to-14-5-million-as-bitcoin-mining-hardware-sales-slump-437252",
+      "published": "Tue, 10 Nov 2026 16:02:02 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike",
+      "summary": "Bitcoin fell below $74,000 after October inflation beat forecasts, increasing pressure on the Federal Reserve to raise rates again at its December meeting.",
+      "link": "https://decrypt.co/382950/bitcoin-falls-hot-us-inflation-fears-bigger-fed-rate-hike",
+      "published": "Tue, 10 Nov 2026 16:27:57 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Hot US inflation raises odds of half-point Fed hike in December",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hot US inflation raises odds of half-point Fed hike in December\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7336RAJMBE41VQRYSYWFP63/us-federal-reserve-1.jpg\" /></p><p>US inflation came in above forecasts in October, increasing expectations of a bigger rate hike in December and raising concerns for crypto investors.</p>",
+      "link": "https://cointelegraph.com/news/hot-us-inflation-raises-rate-hike-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 10 Nov 2026 17:31:09 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Polymarket US trading volume jumps 266% despite regulatory battles",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Polymarket US trading volume jumps 266% despite regulatory battles\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M733KDA3PZPHNST4578G33HY/hi-9-bets-declined-bad-influence-on-the-market-polymarket.png\" /></p><p>Trading volume on Polymarket’s US exchange surged from June to October, fueled by sports betting, even as the platform faces mounting regulatory scrutiny. </p>",
+      "link": "https://cointelegraph.com/news/polymarket-us-trading-volume-jumps-regulatory-battles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 10 Nov 2026 17:07:48 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7321EC4JJA90DW6KN2X8639/us-inflation-1-960x640.webp\" /></p><p>Bitcoin and US stocks initially fall after October inflation tops forecasts, with traders expecting a quarter-point Fed rate hike in December.</p>",
+      "link": "https://cointelegraph.com/markets/bitcoin-11-week-low-discouraging-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 10 Nov 2026 16:25:03 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Canaan (CAN) Swings to an $8 Million Profit on Bitcoin Gains as Rig Sales Collapse 96%",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/02/Bitcoin-Miner-Canaan-Acquires-Ciphers-Stake-in-Texas-Mining-Projects-Expands-AI-and-Power-Strategy.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/canaan-can-swings-8-million-profit\" rel=\"nofollow\">Canaan (CAN) Swings to an $8 Million Profit on Bitcoin Gains as Rig Sales Collapse 96%</a></p>\n<p>Canaan",
+      "link": "https://bitcoinmagazine.com/news/canaan-can-swings-8-million-profit",
+      "published": "Tue, 10 Nov 2026 17:15:25 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Binance Warns iOS Flaw Could Expose Wallet Seed Phrases as Apple’s Latest iPhone Patch Stays Silent",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/06/Anchorage-Digital-and-Binance-Launch-Off-Exchange-Settlement-for-Institutional-Crypto-Trading.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/binance-warns-ios-flaw-wallet-seed-phrases\" rel=\"nofollow\">Binance Warns iOS Flaw Could Expose Wallet Seed Phrases as Apple&#8217;s Latest iPhone Patch Stays Si",
+      "link": "https://bitcoinmagazine.com/news/binance-warns-ios-flaw-wallet-seed-phrases",
+      "published": "Tue, 10 Nov 2026 17:00:00 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Miami-Dade County Now Accepts Bitcoin for Property Taxes",
+      "summary": "<p><a href=\"https://bitcoinmagazine.com\" rel=\"nofollow\">Bitcoin Magazine</a><br />\n<img src=\"https://bitcoinmagazine.com/wp-content/uploads/2026/11/Miami-Dade-Takes-Bitcoin-Property-Taxes-County-Holds-None.jpg\" style=\"display: block; margin: 1em auto;\" /><br />\n<a href=\"https://bitcoinmagazine.com/news/miami-dade-takes-bitcoin-property-taxes\" rel=\"nofollow\">Miami-Dade County Now Accepts Bitcoin for Property Taxes</a></p>\n<p>Miami-Dade Tax Collector Dariel Fernandez said Monday his office now acc",
+      "link": "https://bitcoinmagazine.com/news/miami-dade-takes-bitcoin-property-taxes",
+      "published": "Tue, 10 Nov 2026 16:15:58 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "EIA上调今明两年美、布两油价格预期",
+      "summary": "【EIA上调今明两年美、布两油价格预期】金色财经报道，11月11日，EIA短期能源展望报告：预计2026年WTI原油均价为88.29美元/桶，此前预期为88.21美元/桶；预计2027年WTI原油均价为80.54美元/桶，此前预期为79.74美元/桶。预计2026年布伦特原油均价为97.44美元/桶，此前预期为96.32美元/桶；预计2027年布伦特原油均价为85.78美元/桶，此前预期为83.74美元/桶。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20261111010305055800\">https://flash.jin10.com/detail/20261111010305055800</a></p>",
+      "link": "https://jinse.com.cn/lives/540414.html",
+      "published": "Tue, 10 Nov 2026 17:28:56 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "微软市值自2025年6月以来首次超过英伟达",
+      "summary": "【微软市值自2025年6月以来首次超过英伟达】金色财经报道，11月11日，微软(MSFT.O)市值自2025年6月以来首次超过英伟达(NVDA.O)。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20261111005105838800\">https://flash.jin10.com/detail/20261111005105838800</a></p>",
+      "link": "https://jinse.com.cn/lives/540413.html",
+      "published": "Tue, 10 Nov 2026 16:59:02 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "纽约联储：美国家庭贷款逾期率小幅上升 房贷逾期率创2018年以来新高",
+      "summary": "【纽约联储：美国家庭贷款逾期率小幅上升 房贷逾期率创2018年以来新高】金色财经报道，11月11日，纽约联储公布的第三季度家庭债务与信贷报告显示，美国逾期至少30天的贷款余额占比升至5%，高于第二季度的4.7%；家庭债务总额环比增长1.8%，达到19.1万亿美元。其中，逾期超过90天的房贷余额占比升至1.13%，创2018年第一季度以来最高水平，房屋净值信贷额度余额增加230亿美元，为2005年以来最大增幅。汽车贷款新增逾期比例也有所上升，而学生贷款逾期速度放缓，信用卡逾期情况有所改善。纽约联储表示，尽管住房贷款逾期率有所上升，但整体信贷质量仍然稳健。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20261111003422203800\">https://flash.jin10.com/detail/20261111003422203800</a></p>",
+      "link": "https://jinse.com.cn/lives/540412.html",
+      "published": "Tue, 10 Nov 2026 16:58:03 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "伊朗称美国有关继续谈判及卡塔尔会谈的说法均为谎言",
+      "summary": "【伊朗称美国有关继续谈判及卡塔尔会谈的说法均为谎言】金色财经报道，11月11日，据伊朗媒体FarsNews：伊朗最高国家安全委员会秘书雷扎伊表示，已要求美国就伊朗提出的条件作出明确、清晰的答复，但美方至今未予回应。美国的答复带有欺骗性。美国有关继续与伊朗谈判及在卡塔尔举行会谈的所有说法均为谎言。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20261111001611445800\">https://flash.jin10.com/detail/20261111001611445800</a></p>",
+      "link": "https://jinse.com.cn/lives/540411.html",
+      "published": "Tue, 10 Nov 2026 16:28:22 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Anthropic七名联创拟在重磅IPO中套现17.5亿美元",
+      "summary": "<p>BlockBeats 消息，11 月 11 日，根据周二公布的最新招股书，Anthropic PBC 的七名联合创始人将在下周的首次公开募股中合计出售价值 17.5 亿美元的股票。</p><p><br /></p><p>按 IPO 发行价区间中点计算，每位联合创始人拟出售价值约 2.5 亿美元的股票。据彭博亿万富翁指数，按这一估值计算，每人的净资产将达到约 180 亿美元。</p><p><br /></p><p>根据文件，总部位于旧金山的 Anthropic 寻求通过首次公开募股和私募配售筹集最多 904 亿美元，对应估值约 1.4 万亿美元。根据彭博看到的交易条款，此次 IPO 计划于 11 月 18 日定价，并于次日开始交易。</p>",
+      "link": "https://www.theblockbeats.info/flash/376644",
+      "published": "Tue, 10 Nov 2026 16:57:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "微软市值自2025年6月以来首次超过英伟达",
+      "summary": "<p>BlockBeats 消息，11 月 11 日，据 BIT 股票平台数据显示，微软 (MSFT.O) 市值自 2025 年 6 月以来首次超过英伟达 (NVDA.O)。</p>",
+      "link": "https://www.theblockbeats.info/flash/376643",
+      "published": "Tue, 10 Nov 2026 16:51:38 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美国10年期国债收益率回升至5%，为11月以来首次",
+      "summary": "<p>BlockBeats 消息，11 月 11 日，美国 10 年期国债收益率回升至 5%，为 11 月以来首次。</p>",
+      "link": "https://www.theblockbeats.info/flash/376641",
+      "published": "Tue, 10 Nov 2026 16:33:13 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "伊朗最高国家安全委员会秘书：伊朗与美国目前没有进行任何谈判",
+      "summary": "<p>BlockBeats 消息，11 月 11 日，伊朗最高国家安全委员会秘书雷扎伊表示，伊朗与美国目前没有进行任何谈判。</p>",
+      "link": "https://www.theblockbeats.info/flash/376640",
+      "published": "Tue, 10 Nov 2026 16:31:56 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "伊朗称美国有关继续谈判及卡塔尔会谈的说法均为谎言",
+      "summary": "<p>BlockBeats 消息，11 月 11 日，据伊朗媒体 FarsNews 报道，伊朗最高国家安全委员会秘书雷扎伊表示，已要求美国就伊朗提出的条件作出明确、清晰的答复，但美方至今未予回应。美国的答复带有欺骗性。美国有关继续与伊朗谈判及在卡塔尔举行会谈的所有说法均为谎言。</p>",
+      "link": "https://www.theblockbeats.info/flash/376636",
+      "published": "Tue, 10 Nov 2026 16:16:46 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "德意志银行：预计美联储将连续加息三次",
+      "summary": "<p>BlockBeats 消息，11 月 11 日，在 10 月 CPI 数据高于预期后，德意志银行将明年 1 月加息纳入其预测。目前，该行预计美联储将在 12 月、明年 1 月和 3 月分别加息 25 个基点，届时联邦基金利率目标区间将升至 4.50% 至 4.75%。</p><p><br /></p><p>分析师表示，考虑到美联储理事沃勒近期发表的鹰派言论，12 月加息 50 个基点也存在可能性，但这仍不属于该行的基本预测情景。此外，德意志银行将中性利率预期上调至 3.75% 至 4.00%，表明其认为利率将在更长时间内维持高位。</p>",
+      "link": "https://www.theblockbeats.info/flash/376635",
+      "published": "Tue, 10 Nov 2026 16:10:05 GMT"
+    },
+    {
+      "source": "Bloomberg Crypto",
+      "title": "Bitcoin Drops to Almost Three-Month Low as US Inflation Dims Risk Appetite - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0FLMWZvR0pfNmNSdVFyODBWRG9FT21PSEd4RHBuOVpXVVJid21RQmx5Tjh3MFR5OGNud2NfX0ZhSEMyX3FRT0EwekhVMUpITFVheE5oQ2NWQXNZbFIxTkxTNVFJNDZQR0F3ZmthY0hBc2lYR2lnOVVoRHQtRWY1ci03LWZobjNzT0NMUVVleVJMcFRPWnFRRnNrZDhXNGhST2MzN2ZoMkJJRWFXTlZ6TVhiNXg2aF9KUGpEaUdZb0JiZW8?oc=5\" target=\"_blank\">Bitcoin Drops to Almost Three-Month Low as US Inflation Dims Risk Appetite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0FLMWZvR0pfNmNSdVFyODBWRG9FT21PSEd4RHBuOVpXVVJid21RQmx5Tjh3MFR5OGNud2NfX0ZhSEMyX3FRT0EwekhVMUpITFVheE5oQ2NWQXNZbFIxTkxTNVFJNDZQR0F3ZmthY0hBc2lYR2lnOVVoRHQtRWY1ci03LWZobjNzT0NMUVVleVJMcFRPWnFRRnNrZDhXNGhST2MzN2ZoMkJJRWFXTlZ6TVhiNXg2aF9KUGpEaUdZb0JiZW8?oc=5",
+      "published": "Tue, 10 Nov 2026 17:24:35 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Survey for common operations on crypto wallets",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hi-brawlstars\"> /u/hi-brawlstars </a> <br /> <span><a href=\"/r/ethereum/comments/1xsndcu/survey_for_common_operations_on_crypto_wallets/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1xss7r0/survey_for_common_operations_on_crypto_wallets/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xss7r0/survey_for_common_operations_on_crypto_wallets/",
+      "published": "2026-11-10T16:59:43+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "The old banks are dumb, so we should give them blockchain-derived ideas (to benefit blockchain tech).",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>The old banks are dumb and haven't figured out there is a gigantic gap in the market for their customers to give them smart contracts: ways for their customers to produce complex code - within limits of security - to satisfy certain conditions before money exchanges hands (they don't need blockchain hardware and software to do that btw: just centralized software).</p> <p>One might think that would hurt the blockchain world but that's not true because it would be",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xsspqo/the_old_banks_are_dumb_so_we_should_give_them/",
+      "published": "2026-11-10T17:18:07+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Trump's crypto profits raise alarms for transparency advocates : Trump's Terms - NPR",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0ZlQWxnSjNLQ2VZbmRaUXZqMUtBQ3d1OVZTLWpBUVR5ZUpqeDdOSjd6M05ZMzN6UHEyYlFTZ3M4U19kZUJBZUtlWDNOU2lKc01kdjU2U3F2NzVCR09RR19PMEdSMzMyOVNPQy1heDA3bEQyakw5czJvQ2djbk9TV01idUR3eWdLRF85VzZ2eDZIT01ONGxWbE1SejRvaTFUQjhtZFc3MHYtZw?oc=5\" target=\"_blank\">Trump's crypto profits raise alarms for transparency advocates : Trump's Terms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0ZlQWxnSjNLQ2VZbmRaUXZqMUtBQ3d1OVZTLWpBUVR5ZUpqeDdOSjd6M05ZMzN6UHEyYlFTZ3M4U19kZUJBZUtlWDNOU2lKc01kdjU2U3F2NzVCR09RR19PMEdSMzMyOVNPQy1heDA3bEQyakw5czJvQ2djbk9TV01idUR3eWdLRF85VzZ2eDZIT01ONGxWbE1SejRvaTFUQjhtZFc3MHYtZw?oc=5",
+      "published": "Tue, 10 Nov 2026 16:06:06 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Drops to Almost Three-Month Low as US Inflation Dims Risk Appetite - Bloomberg.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0FLMWZvR0pfNmNSdVFyODBWRG9FT21PSEd4RHBuOVpXVVJid21RQmx5Tjh3MFR5OGNud2NfX0ZhSEMyX3FRT0EwekhVMUpITFVheE5oQ2NWQXNZbFIxTkxTNVFJNDZQR0F3ZmthY0hBc2lYR2lnOVVoRHQtRWY1ci03LWZobjNzT0NMUVVleVJMcFRPWnFRRnNrZDhXNGhST2MzN2ZoMkJJRWFXTlZ6TVhiNXg2aF9KUGpEaUdZb0JiZW8?oc=5\" target=\"_blank\">Bitcoin Drops to Almost Three-Month Low as US Inflation Dims Risk Appetite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0FLMWZvR0pfNmNSdVFyODBWRG9FT21PSEd4RHBuOVpXVVJid21RQmx5Tjh3MFR5OGNud2NfX0ZhSEMyX3FRT0EwekhVMUpITFVheE5oQ2NWQXNZbFIxTkxTNVFJNDZQR0F3ZmthY0hBc2lYR2lnOVVoRHQtRWY1ci03LWZobjNzT0NMUVVleVJMcFRPWnFRRnNrZDhXNGhST2MzN2ZoMkJJRWFXTlZ6TVhiNXg2aF9KUGpEaUdZb0JiZW8?oc=5",
+      "published": "Tue, 10 Nov 2026 17:24:35 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin at $73,600 Is Below Strategy's Average Cost. How Long Can Saylor Go Without Selling? - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMEMxUHp5dURBVDd2NmhXWXktd0ZsbDkyWnNNNVdqd3laUFlCWkZ2ZnBoNWFib3BDZnMtQnltQjdrdFAxb2swUlpxUnY0enRoSVVwWi1YV2ViaFFPaTY2WXFHVHhDM1Nud3NVRHB5RkZXX1EyYWpmbmlycHBhUG13RGJkVDZzSENDRTNsRTAxX1Z2aVo4Rnl6cmpoQkJYYkpaVUMyM0t2UEdBQWhYMW9qNkwzUHZlUkdNOWRNWUpkRVdaNUNmcGRROUh0UGpILWFOVHp4VnFMTmd4Z3gyLThF?oc=5\" target=\"_blank\">Bitcoin at $73,600 Is Below Strategy's Average Cost. How Long Can Saylor Go Without Selling?</a>&nbsp;&nbsp;<font color=\"#6f6f6",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMEMxUHp5dURBVDd2NmhXWXktd0ZsbDkyWnNNNVdqd3laUFlCWkZ2ZnBoNWFib3BDZnMtQnltQjdrdFAxb2swUlpxUnY0enRoSVVwWi1YV2ViaFFPaTY2WXFHVHhDM1Nud3NVRHB5RkZXX1EyYWpmbmlycHBhUG13RGJkVDZzSENDRTNsRTAxX1Z2aVo4Rnl6cmpoQkJYYkpaVUMyM0t2UEdBQWhYMW9qNkwzUHZlUkdNOWRNWUpkRVdaNUNmcGRROUh0UGpILWFOVHp4VnFMTmd4Z3gyLThF?oc=5",
+      "published": "Tue, 10 Nov 2026 16:31:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPNXV1UVBxYzdRTDU1Z01Ybk1pNS1aNU1JaDdtTUJVTDdFNW43MlF5dFNacEVfX2xxeE40cnNhWXpaX09Jb0F0ZHpjQWdGUER5MFZ2eFU4UXBJbXhQMS0tazVDUEhLd1RMV3Z6d0RKRWFJNmhNNnloOEt4NTlUVzgxZjEzODNVNHRaeFpDLXJmRFE2NHhGaWxUWVBjTQ?oc=5\" target=\"_blank\">Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNXV1UVBxYzdRTDU1Z01Ybk1pNS1aNU1JaDdtTUJVTDdFNW43MlF5dFNacEVfX2xxeE40cnNhWXpaX09Jb0F0ZHpjQWdGUER5MFZ2eFU4UXBJbXhQMS0tazVDUEhLd1RMV3Z6d0RKRWFJNmhNNnloOEt4NTlUVzgxZjEzODNVNHRaeFpDLXJmRFE2NHhGaWxUWVBjTQ?oc=5",
+      "published": "Tue, 10 Nov 2026 16:27:57 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto teams up with U.S. government to defend stock perps in legal fight - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPQkxpNmJGWk5IODZOSkY5VmxTWlBsZ0JnUnpob3d1WXc3VjU0Z184c1RMc29MM0dqU0I1QVl2eks1ZXBwRC11ZUYtQ0VjRXBxMlBmTTQ1UWM4eTFybDhldG05SnFGQXJsQjEzb3UwLXRWdzJfMjcxeEVaRjQyZFY1WmlBRUg4OFdIeVU4Y3RUV3I1b1dRamFwUnBIdG9paERHdU5lMS1MOGwyTl9CVzVNMHdfWFM4QQ?oc=5\" target=\"_blank\">Crypto teams up with U.S. government to defend stock perps in legal fight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQkxpNmJGWk5IODZOSkY5VmxTWlBsZ0JnUnpob3d1WXc3VjU0Z184c1RMc29MM0dqU0I1QVl2eks1ZXBwRC11ZUYtQ0VjRXBxMlBmTTQ1UWM4eTFybDhldG05SnFGQXJsQjEzb3UwLXRWdzJfMjcxeEVaRjQyZFY1WmlBRUg4OFdIeVU4Y3RUV3I1b1dRamFwUnBIdG9paERHdU5lMS1MOGwyTl9CVzVNMHdfWFM4QQ?oc=5",
+      "published": "Tue, 10 Nov 2026 17:07:22 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Ethereum Is Down 17% and Solana 23% in 30 Days. How Low Can Each Go? - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNUFLT2ZhMXN5RFFVZjB0V0Q0MTE1SmVyb29HZWt6Y2hBcFQ2WWdzazZDelJDMmN0YVlaTGFLNDRtdGdDVzlOUXJHUU1EQ1VidlUxcFRNWGtPZm5hUnZsX1EyU1pJN0hMbVoweGVpMURSSXVTV0NHR256Z2xFd3pHNl9CMVpucDRQUFA2Sjc1Y0hzRWU2bDN1ankzZUxKSjZGd1hCTzFRWmRhR3BLUzhKdWxESGJLQTdGTTNfZEF2Nm4?oc=5\" target=\"_blank\">Ethereum Is Down 17% and Solana 23% in 30 Days. How Low Can Each Go?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNUFLT2ZhMXN5RFFVZjB0V0Q0MTE1SmVyb29HZWt6Y2hBcFQ2WWdzazZDelJDMmN0YVlaTGFLNDRtdGdDVzlOUXJHUU1EQ1VidlUxcFRNWGtPZm5hUnZsX1EyU1pJN0hMbVoweGVpMURSSXVTV0NHR256Z2xFd3pHNl9CMVpucDRQUFA2Sjc1Y0hzRWU2bDN1ankzZUxKSjZGd1hCTzFRWmRhR3BLUzhKdWxESGJLQTdGTTNfZEF2Nm4?oc=5",
+      "published": "Tue, 10 Nov 2026 17:34:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Canaan (CAN) Swings to an $8 Million Profit on Bitcoin Gains as Rig Sales Collapse 96% - Bitcoin Magazine",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1vUEdJV1Nsc3FIeGdpTVZ2SUM0dUtCNk1lMXVBSzFYcGhHNGJEWkdySkhRY2NiYnExSFJpR01QM08teVNINGpDTFh1SGFnYTA1SHI5MjJORFVqVmZ3Tm5odUhPNWE0RHYxTmpqWUp5NkNmWEl1eFE?oc=5\" target=\"_blank\">Canaan (CAN) Swings to an $8 Million Profit on Bitcoin Gains as Rig Sales Collapse 96%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Magazine</font>",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vUEdJV1Nsc3FIeGdpTVZ2SUM0dUtCNk1lMXVBSzFYcGhHNGJEWkdySkhRY2NiYnExSFJpR01QM08teVNINGpDTFh1SGFnYTA1SHI5MjJORFVqVmZ3Tm5odUhPNWE0RHYxTmpqWUp5NkNmWEl1eFE?oc=5",
+      "published": "Tue, 10 Nov 2026 17:20:50 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Etoro Earnings, Stock Takes a Hit On Crypto Slump - Barron's",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxORTQwYUpYc1ktU2E4SFA1bUtyNWtMVERQUHdQbDRoclRnczc1dkJueXhZUUNMeEVHZGF0ejh5dmdlT2NUZXlNMWNEZlRYSV9BMmh1Y1FzZlpGd19TcEd5aHlOYjI4aE1MOTMyUTFtdEk1Q1N4bVM4eDNWODBITDEwUFdn?oc=5\" target=\"_blank\">Etoro Earnings, Stock Takes a Hit On Crypto Slump</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORTQwYUpYc1ktU2E4SFA1bUtyNWtMVERQUHdQbDRoclRnczc1dkJueXhZUUNMeEVHZGF0ejh5dmdlT2NUZXlNMWNEZlRYSV9BMmh1Y1FzZlpGd19TcEd5aHlOYjI4aE1MOTMyUTFtdEk1Q1N4bVM4eDNWODBITDEwUFdn?oc=5",
+      "published": "Tue, 10 Nov 2026 16:32:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "ETH price on Nov 10, 2026 at 12pm EST Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkVFaHdHT09HVW83SVc4ZV9RbHAwZXZEVTJ1MUQxOWMwWFJJcUlpMndsSUVHbGVCN19Bc3RlSkNibEJoZFdRVmJaMHRjTVB3NTlTVzdfR0NoaElWeVI2ZDh1aTdXUTJDdk9LRDFmXzVGNDIzM05yV293MmRrbHMwUVlMTWdrdGZ0c3NhS3hMYWZhWnFSUG9OV2VCRlJiNnNOSEJxQXlfeGluN3JKdWI4?oc=5\" target=\"_blank\">ETH price on Nov 10, 2026 at 12pm EST Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkVFaHdHT09HVW83SVc4ZV9RbHAwZXZEVTJ1MUQxOWMwWFJJcUlpMndsSUVHbGVCN19Bc3RlSkNibEJoZFdRVmJaMHRjTVB3NTlTVzdfR0NoaElWeVI2ZDh1aTdXUTJDdk9LRDFmXzVGNDIzM05yV293MmRrbHMwUVlMTWdrdGZ0c3NhS3hMYWZhWnFSUG9OV2VCRlJiNnNOSEJxQXlfeGluN3JKdWI4?oc=5",
+      "published": "Tue, 10 Nov 2026 16:03:41 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Trump Media Jumps 9% as Crypto Gains Drive $410 Million Q3 Profit; Rumble Falls 3%, Meta Holds Steady - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMXlBUloxaU10ZDNCZTRfVmhCT1ZWbzVLU3FUallTa1c4TjVIZDkyeVFlZm0zX2t1b0s2TjZfTTFoSU8wQzBwVUhSZm9nU1QyM2lMcEM2aVhySzl1MENkcWlsNHRfX1AzaHJxd2Z4M3BSQUJxNlY1OU1qSGlibllUSnFqSVNSd1lEOS02MWFrSW9oRUM3LWlxal9TdXV1NkFTNGJCNHQyaXRjT3lNRUItc21ETHB2SnM4NWV4eWtSQ3lPT2NtVFg4ckdPQ19JaVV0UndmaE9SOA?oc=5\" target=\"_blank\">Trump Media Jumps 9% as Crypto Gains Drive $410 Million Q3 Profit; Rumble Falls 3%, Meta Holds Steady</a>&nbsp;&nbsp;<font color=\"#6f6f6f",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMXlBUloxaU10ZDNCZTRfVmhCT1ZWbzVLU3FUallTa1c4TjVIZDkyeVFlZm0zX2t1b0s2TjZfTTFoSU8wQzBwVUhSZm9nU1QyM2lMcEM2aVhySzl1MENkcWlsNHRfX1AzaHJxd2Z4M3BSQUJxNlY1OU1qSGlibllUSnFqSVNSd1lEOS02MWFrSW9oRUM3LWlxal9TdXV1NkFTNGJCNHQyaXRjT3lNRUItc21ETHB2SnM4NWV4eWtSQ3lPT2NtVFg4ckdPQ19JaVV0UndmaE9SOA?oc=5",
+      "published": "Tue, 10 Nov 2026 16:57:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "2 Cryptocurrencies to Buy Before January 2027 - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOdVNKeU9vNDlMcEF3aGZIck52dFBOV01HRWFmVGgzQ2xkOU1Yd0xVNVN1MzNwd0Jqa0lMSGQ1cWdNQkNFcERDVk1UVWItazE1ZXJMUXI0Nkx5SWNnbUgxNWJQNWcxckhZeXFmZVpqZ1otRzhfZXFxNHNUY1g4OTdkN1JnQjU4djRsTldYOFE2TTRYMHFSRnRRT1IxanZvWnBOUkE?oc=5\" target=\"_blank\">2 Cryptocurrencies to Buy Before January 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdVNKeU9vNDlMcEF3aGZIck52dFBOV01HRWFmVGgzQ2xkOU1Yd0xVNVN1MzNwd0Jqa0lMSGQ1cWdNQkNFcERDVk1UVWItazE1ZXJMUXI0Nkx5SWNnbUgxNWJQNWcxckhZeXFmZVpqZ1otRzhfZXFxNHNUY1g4OTdkN1JnQjU4djRsTldYOFE2TTRYMHFSRnRRT1IxanZvWnBOUkE?oc=5",
+      "published": "Tue, 10 Nov 2026 17:25:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Traders Have Borrowed Into a Falling Market 5 Times Since October. How Did the First 4 End? - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSGtvQTlrMWsta0R1dERzWHp0cW13V1BWR1RFeHBEZTdfWlJSN25qVXpOSWRWMWJwWWdyR2h4bmREQVpMSTVORWZfRllBZEJORGpLaTA0NllmNjBWa2pZSkVSTVpRbVZXT1AxU3ZEaHY4LXYxWVpLdUlsX09kQnRmemNMaG95bkt2dkp0ME5VNGdOREVxM1A2UEpfYTBzenpSLWVNZXljYWxFd1JfZ2pFMm5icGUyTmhwdXFWcUQwNGdsaHVscVhnYzl5Q3gzdlczNGFVMFVwYy1wWDl2MG1BQ2k5eHA3c056dkFvTA?oc=5\" target=\"_blank\">Bitcoin Traders Have Borrowed Into a Falling Market 5 Times Since October. How Did the First 4 End?</a>&nbsp;",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSGtvQTlrMWsta0R1dERzWHp0cW13V1BWR1RFeHBEZTdfWlJSN25qVXpOSWRWMWJwWWdyR2h4bmREQVpMSTVORWZfRllBZEJORGpLaTA0NllmNjBWa2pZSkVSTVpRbVZXT1AxU3ZEaHY4LXYxWVpLdUlsX09kQnRmemNMaG95bkt2dkp0ME5VNGdOREVxM1A2UEpfYTBzenpSLWVNZXljYWxFd1JfZ2pFMm5icGUyTmhwdXFWcUQwNGdsaHVscVhnYzl5Q3gzdlczNGFVMFVwYy1wWDl2MG1BQ2k5eHA3c056dkFvTA?oc=5",
+      "published": "Tue, 10 Nov 2026 17:47:00 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPNXV1UVBxYzdRTDU1Z01Ybk1pNS1aNU1JaDdtTUJVTDdFNW43MlF5dFNacEVfX2xxeE40cnNhWXpaX09Jb0F0ZHpjQWdGUER5MFZ2eFU4UXBJbXhQMS0tazVDUEhLd1RMV3Z6d0RKRWFJNmhNNnloOEt4NTlUVzgxZjEzODNVNHRaeFpDLXJmRFE2NHhGaWxUWVBjTQ?oc=5\" target=\"_blank\">Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNXV1UVBxYzdRTDU1Z01Ybk1pNS1aNU1JaDdtTUJVTDdFNW43MlF5dFNacEVfX2xxeE40cnNhWXpaX09Jb0F0ZHpjQWdGUER5MFZ2eFU4UXBJbXhQMS0tazVDUEhLd1RMV3Z6d0RKRWFJNmhNNnloOEt4NTlUVzgxZjEzODNVNHRaeFpDLXJmRFE2NHhGaWxUWVBjTQ?oc=5",
+      "published": "Tue, 10 Nov 2026 16:27:57 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "October U.S. CPI Beats Forecasts as Core Inflation Stays Firm - Bitcoin Foundation",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOdHZLQURGVE1OUXlVUDFUdFNGdzk3UlZTb0hCdlNfV2hLZVhFNFlxbUVpXzJTNFQ1SjJCZHJkcjRRZzNlNlZHU01JOVF4ZHVrLXg2MlhwNFpydVM5SWRQampnLVZ0YTJwUEowRU9vWE9RUmk5a3VuR295Y2pQOEpmRFhob0tHYkRLWThFcVd6em5YVmdLdG5zZA?oc=5\" target=\"_blank\">October U.S. CPI Beats Forecasts as Core Inflation Stays Firm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Foundation</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdHZLQURGVE1OUXlVUDFUdFNGdzk3UlZTb0hCdlNfV2hLZVhFNFlxbUVpXzJTNFQ1SjJCZHJkcjRRZzNlNlZHU01JOVF4ZHVrLXg2MlhwNFpydVM5SWRQampnLVZ0YTJwUEowRU9vWE9RUmk5a3VuR295Y2pQOEpmRFhob0tHYkRLWThFcVd6em5YVmdLdG5zZA?oc=5",
+      "published": "Tue, 10 Nov 2026 16:19:35 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Hot US inflation raises odds of half-point Fed hike in December - TradingView",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ2Q5MnZaTk5yUWkwZ2xGMFk2ZmdiU0tnbkM4YkFrRlJiVVYxMEJmYVV4NWpDX2lsWGtsMXphaDBaQWRVUlJKMGFQVkpNUHM1Y2JzbmJUSDQzLXhhRXhNdmVvanBSbTNucXBST2J5Tk1hc2UybVRoM2FzekRrN3RSVVkxeDgwTC1jUHJhdkhDZmtXZEJ1NkYzREhxVWJDZlRVQ1BkUi1QazEzT3lOVkI2dFhxS1RzcldrSWM0WjlPYXVMSVdNM0E?oc=5\" target=\"_blank\">Hot US inflation raises odds of half-point Fed hike in December</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ2Q5MnZaTk5yUWkwZ2xGMFk2ZmdiU0tnbkM4YkFrRlJiVVYxMEJmYVV4NWpDX2lsWGtsMXphaDBaQWRVUlJKMGFQVkpNUHM1Y2JzbmJUSDQzLXhhRXhNdmVvanBSbTNucXBST2J5Tk1hc2UybVRoM2FzekRrN3RSVVkxeDgwTC1jUHJhdkhDZmtXZEJ1NkYzREhxVWJDZlRVQ1BkUi1QazEzT3lOVkI2dFhxS1RzcldrSWM0WjlPYXVMSVdNM0E?oc=5",
+      "published": "Tue, 10 Nov 2026 17:55:01 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike - Decrypt",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYmVDcEFyREZqVkJYR3E1bUlrT3F4bnNNRmppZEdqWV9VU3pzY0JpejcxTTNFcExoNms4MDd0OFA1TVFXbmIyU3RYamhKT1VMcS1zNGJGd1VpWW54N2J1TVZJeWVLaHM3TkhFNjF3d3VmUUdSMVdXM2VJdkJJMnNMbzJFenZya0NtLV9n?oc=5\" target=\"_blank\">Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Decrypt</font>",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYmVDcEFyREZqVkJYR3E1bUlrT3F4bnNNRmppZEdqWV9VU3pzY0JpejcxTTNFcExoNms4MDd0OFA1TVFXbmIyU3RYamhKT1VMcS1zNGJGd1VpWW54N2J1TVZJeWVLaHM3TkhFNjF3d3VmUUdSMVdXM2VJdkJJMnNMbzJFenZya0NtLV9n?oc=5",
+      "published": "Tue, 10 Nov 2026 16:27:57 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Coinbase Falls 4%, Robinhood Slides 3% as Hot Inflation Data Drags Bitcoin Lower; Webull Declines 2% - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMEJIVzZDajJZSDNmb3BHVnFJS1VUbTdoOVRqb1IzLW52ckcySTZzampHVl95UzdiV0tTbWYzYXR0VEhQQW9NVnZrMFhsTWZFb2pMU3UxamFOSUFCa28xemJfa1UzMnZoODFXc1pjWjF1dFJCTFAxUnRZcVF3NmtrQ2tMWk9yREZuQ1V6R1NqSGo2eWwxblZKVG5iSFB4b2t3YnhQaThJeWlocWZMSElMSWYxcXhFODRiMVFrbzZMN2JtUlZmUUJTN1plNlZlRTdCT1VQZWF3?oc=5\" target=\"_blank\">Coinbase Falls 4%, Robinhood Slides 3% as Hot Inflation Data Drags Bitcoin Lower; Webull Declines 2%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">2",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMEJIVzZDajJZSDNmb3BHVnFJS1VUbTdoOVRqb1IzLW52ckcySTZzampHVl95UzdiV0tTbWYzYXR0VEhQQW9NVnZrMFhsTWZFb2pMU3UxamFOSUFCa28xemJfa1UzMnZoODFXc1pjWjF1dFJCTFAxUnRZcVF3NmtrQ2tMWk9yREZuQ1V6R1NqSGo2eWwxblZKVG5iSFB4b2t3YnhQaThJeWlocWZMSElMSWYxcXhFODRiMVFrbzZMN2JtUlZmUUJTN1plNlZlRTdCT1VQZWF3?oc=5",
+      "published": "Tue, 10 Nov 2026 17:51:00 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin crashes as US CPI reignites hawkish Fed expectations as bond yields approach 5% - FXStreet",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNYjQ5a0FzbHBLT29ld19aVzBFTUlSV3FfWHlFQjAyeF9iVElYb3N2OVlPck8zcG1zVkVudmp5OHF4YlhORnp0MVh0UUZiN1dVa0tzbFIyOGJFYThhMzk0RGhQblZmRVJRWk9GYlpkaHhkYjQ0UzFRZ19VOXVtVHNLcVBGYmlzNE9MYWN4Tkh3Qng1VkxFeWJyYWpudGhlNmpvWDBPRWVNaHJHQjFNUlhjX2lwRWNPSDRBYXhPaWdHUUJjaUxGLWVMVUM0U3p3Zw?oc=5\" target=\"_blank\">Bitcoin crashes as US CPI reignites hawkish Fed expectations as bond yields approach 5%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FXStreet</font>",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYjQ5a0FzbHBLT29ld19aVzBFTUlSV3FfWHlFQjAyeF9iVElYb3N2OVlPck8zcG1zVkVudmp5OHF4YlhORnp0MVh0UUZiN1dVa0tzbFIyOGJFYThhMzk0RGhQblZmRVJRWk9GYlpkaHhkYjQ0UzFRZ19VOXVtVHNLcVBGYmlzNE9MYWN4Tkh3Qng1VkxFeWJyYWpudGhlNmpvWDBPRWVNaHJHQjFNUlhjX2lwRWNPSDRBYXhPaWdHUUJjaUxGLWVMVUM0U3p3Zw?oc=5",
+      "published": "Tue, 10 Nov 2026 16:23:54 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Fed Hike Odds Hit 84% After Bitcoin ETFs Lose $1.28 Billion - BeInCrypto",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1UWVU0SUJsM1FPLUNyWmdCUXJKSHJUd2pZNzY2c2RvdmR2OURvUmdoeHdjWHcwOXJ5ajF3Rnh2MUdYOWdTaUdhbllQVTBlUm05azNadkpVREpSWHZkNFdkY1liUjhQaWNjdVE?oc=5\" target=\"_blank\">Fed Hike Odds Hit 84% After Bitcoin ETFs Lose $1.28 Billion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UWVU0SUJsM1FPLUNyWmdCUXJKSHJUd2pZNzY2c2RvdmR2OURvUmdoeHdjWHcwOXJ5ajF3Rnh2MUdYOWdTaUdhbllQVTBlUm05azNadkpVREpSWHZkNFdkY1liUjhQaWNjdVE?oc=5",
+      "published": "Tue, 10 Nov 2026 17:18:16 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Crypto market trends turned lower in October as market value fell 9.1% - Cryptonews.net",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ySF9uSGRWSTU2dlhDTjRrQTNzNWJseHZtT1dSWndPMHVWRjROTzVUa0lSN0RKRkZneU9XcGNaeFNnZjBlcTNMRHB3TWVPdHpYRFBxRWtJajU1NW8?oc=5\" target=\"_blank\">Crypto market trends turned lower in October as market value fell 9.1%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews.net</font>",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ySF9uSGRWSTU2dlhDTjRrQTNzNWJseHZtT1dSWndPMHVWRjROTzVUa0lSN0RKRkZneU9XcGNaeFNnZjBlcTNMRHB3TWVPdHpYRFBxRWtJajU1NW8?oc=5",
+      "published": "Tue, 10 Nov 2026 17:22:37 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin Falls to $72,787 After CPI as Crypto Liquidations Top $632M - www.tokenpost.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE15MDN6RmM5MW5zZE5kSkNGZWpsblZtM2pYdFpNQ2hhQ3BzVjhWVnlHQ2NvdV9GQkVCWXRyYjdVLWxoMEhHcGlTSTI3cG5LcGNrMHc1ZG5ZUkRwdw?oc=5\" target=\"_blank\">Bitcoin Falls to $72,787 After CPI as Crypto Liquidations Top $632M</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www.tokenpost.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15MDN6RmM5MW5zZE5kSkNGZWpsblZtM2pYdFpNQ2hhQ3BzVjhWVnlHQ2NvdV9GQkVCWXRyYjdVLWxoMEhHcGlTSTI3cG5LcGNrMHc1ZG5ZUkRwdw?oc=5",
+      "published": "Tue, 10 Nov 2026 16:40:35 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin Threatened Almost Certain Rate Hike in December - Cointribune",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPbXJhMGhBdHh5aU1wOUlsM2dPSkV2Q0tWanR5aU1QdnpiZVJlZkNfUThFQzM2M1BCeDBaY2VLczhOR2hKbTVpX1dkTkFkSzkzemJCTDdYT2tKakF3aE1pNEU2SUt4bDFMZFU5M3JNVzVjREgxVXNobHNtaHhNbGU5NWk0NDJLX1RDYXVrYjlIUHA?oc=5\" target=\"_blank\">Bitcoin Threatened Almost Certain Rate Hike in December</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cointribune</font>",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbXJhMGhBdHh5aU1wOUlsM2dPSkV2Q0tWanR5aU1QdnpiZVJlZkNfUThFQzM2M1BCeDBaY2VLczhOR2hKbTVpX1dkTkFkSzkzemJCTDdYT2tKakF3aE1pNEU2SUt4bDFMZFU5M3JNVzVjREgxVXNobHNtaHhNbGU5NWk0NDJLX1RDYXVrYjlIUHA?oc=5",
+      "published": "Tue, 10 Nov 2026 17:14:06 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin dips near $73K as US inflation surprises higher, boosting Fed rate hike bets. - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ0hMdC12QlVTczk5clhtSzU4WmpZU0pTLXlBY28xZkk4MF9MZkFDWDhuQU9kNHFoQ01xaXRtUl9PWUhfNEtBNTlwS2E4Z2NVY2YwTU9XMk5ST2JqWUlmWEowRlFwTWl6YVc4NEJrZ0E0cnJ1b19iRFVYZEppOTA0S0tDajVXc250YnVMclhMMEFpUHJaSTdhYlB2YlVEa2hDY002TnNR?oc=5\" target=\"_blank\">Bitcoin dips near $73K as US inflation surprises higher, boosting Fed rate hike bets.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ0hMdC12QlVTczk5clhtSzU4WmpZU0pTLXlBY28xZkk4MF9MZkFDWDhuQU9kNHFoQ01xaXRtUl9PWUhfNEtBNTlwS2E4Z2NVY2YwTU9XMk5ST2JqWUlmWEowRlFwTWl6YVc4NEJrZ0E0cnJ1b19iRFVYZEppOTA0S0tDajVXc250YnVMclhMMEFpUHJaSTdhYlB2YlVEa2hDY002TnNR?oc=5",
+      "published": "Tue, 10 Nov 2026 16:26:36 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "October CPI rise boosts odds of December Fed ra... - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEtXdHQ2ZktOLW1RelRrU3ZubkJ5SGdEcGVZeWdNalI3VHNlcUVibnZubUZLbDFhbVVTeFNROGcwc3Z4OTZwZ0ZNaEd4OGRKSVp4S0xQUUYyRW55Q0pGOUVqa0dhcjJDYVRlcFFXb04zREZzX3NQODlwbURhMWdJTk0wV0F2UEhw?oc=5\" target=\"_blank\">October CPI rise boosts odds of December Fed ra...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEtXdHQ2ZktOLW1RelRrU3ZubkJ5SGdEcGVZeWdNalI3VHNlcUVibnZubUZLbDFhbVVTeFNROGcwc3Z4OTZwZ0ZNaEd4OGRKSVp4S0xQUUYyRW55Q0pGOUVqa0dhcjJDYVRlcFFXb04zREZzX3NQODlwbURhMWdJTk0wV0F2UEhw?oc=5",
+      "published": "Tue, 10 Nov 2026 17:24:25 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin dips to $72,787 as US inflation rises, triggering $632M crypto liquidations and higher Fed rate hike odds. - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkRGcFdCaElRQm9OYlp0czBCLVVfWVE5OTRtb3VKbUJhRnVzYzdibTd6U3lQazNGak5FQk9aY3VoeU1ybm1BUEhCZnVqa2hlWnBxNXpUTjdIRGpJVWh1czN4YU0tWUpUdkJFMDBrNi1iT2RqaGVpeVV5Vk5pUGNSdy1zanJ3UHVFMW5veDlndThtcmdNY1E?oc=5\" target=\"_blank\">Bitcoin dips to $72,787 as US inflation rises, triggering $632M crypto liquidations and higher Fed rate hike odds.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkRGcFdCaElRQm9OYlp0czBCLVVfWVE5OTRtb3VKbUJhRnVzYzdibTd6U3lQazNGak5FQk9aY3VoeU1ybm1BUEhCZnVqa2hlWnBxNXpUTjdIRGpJVWh1czN4YU0tWUpUdkJFMDBrNi1iT2RqaGVpeVV5Vk5pUGNSdy1zanJ3UHVFMW5veDlndThtcmdNY1E?oc=5",
+      "published": "Tue, 10 Nov 2026 17:05:54 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin dips near $73K as US inflation rises, s... - Pluang",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQdWlaNllJUGRNeGM0NmVjUDhFNUVqejhCNFdnTHozUTdac0l3V25sU3RSWm5qQi1oSmhXb21HelE4MGdocHA3NmppemNhYkgwZkY4NXJzTTJVdm54U05XRkItdF95ck1Na0U2cXpMRE9TcGlsRkJNN1M3VklzbWg4WUhPMU1xLTA3QnhQWTlnRkpYRk9PRHhj?oc=5\" target=\"_blank\">Bitcoin dips near $73K as US inflation rises, s...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdWlaNllJUGRNeGM0NmVjUDhFNUVqejhCNFdnTHozUTdac0l3V25sU3RSWm5qQi1oSmhXb21HelE4MGdocHA3NmppemNhYkgwZkY4NXJzTTJVdm54U05XRkItdF95ck1Na0U2cXpMRE9TcGlsRkJNN1M3VklzbWg4WUhPMU1xLTA3QnhQWTlnRkpYRk9PRHhj?oc=5",
+      "published": "Tue, 10 Nov 2026 16:26:35 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "summary": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
+      "published": "2026-10-29T19:48:52.329000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/784c65be33d44de0b2099cadf8742846",
+      "published": "2026-10-29T16:45:10.993000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f180bddad424ea5b7a00148433721dc",
+      "published": "2026-10-28T11:30:13.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "summary": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a326408b6404d69b474f3fab7acfa66",
+      "published": "2026-10-28T11:00:17.379000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/02d204fc963f4f8687599fc22a13d538",
+      "published": "2026-10-26T14:15:01.713000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
+      "published": "2026-10-25T15:05:15.552000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3afa938f499d403382d01d0c0644507e",
+      "published": "2026-10-21T11:31:11.286000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "summary": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b965e028041c4d0fbb4291372f55e4d4",
+      "published": "2026-10-21T11:00:12.952000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4e52d711946c88762f0ba2259de2e",
+      "published": "2026-10-21T10:15:10.766000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e52ef13311eb4e1a96f07099152e61d5",
+      "published": "2026-10-14T11:30:08.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "summary": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/927d3a7b5d6c43fb888e38f110005906",
+      "published": "2026-10-14T11:00:04.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "summary": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
+      "published": "2026-10-13T11:30:01.158000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/394e61b6f81e4a349272dcb9d78876d6",
+      "published": "2026-10-12T14:15:02.026000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "summary": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/172e44302d6143578e40acc48570a2e5",
+      "published": "2026-09-30T11:00:04.692000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/0c6ea14ba89b451db6ec9ec364045d22",
+      "published": "2026-09-29T12:45:01.338000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 32 (Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 32，分类为「Fear」。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-11-10T08:00:00+08:00"
+    },
+    {
+      "source": "DeFi Llama",
+      "title": "Pendle Emerges as Leading DeFi Protocol for Tokenized Stocks - Coinfomania",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQMFl4RW0xeExTaVhzTDllUVFwWGJhWFlTampCOU9CMmhNLU5BM3p3aEtWN1RXT0NrdllWMHBMX2VRYm40b3VRWWxGc1lMZS1BbGxsaF9HekVqSW95TnFrd2RHM3NVMTFLNTZ3ajUzTGZEYVlBLXpCbFZmVXdJY3hwemdQU2JNUkhmVVJGNWNB?oc=5\" target=\"_blank\">Pendle Emerges as Leading DeFi Protocol for Tokenized Stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinfomania</font>",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMFl4RW0xeExTaVhzTDllUVFwWGJhWFlTampCOU9CMmhNLU5BM3p3aEtWN1RXT0NrdllWMHBMX2VRYm40b3VRWWxGc1lMZS1BbGxsaF9HekVqSW95TnFrd2RHM3NVMTFLNTZ3ajUzTGZEYVlBLXpCbFZmVXdJY3hwemdQU2JNUkhmVVJGNWNB?oc=5",
+      "published": "Tue, 10 Nov 2026 16:41:50 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "高盛、花旗等多家银行向美国稳定币项目投入2.7亿美元 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXZsenJpaGFjd1YzNG9DNmNoUy1UMTVKN0NFQWtlTUp6akxPOURYMUZ2bUREUzFYaGFaNy1mTWNqS3JKZlNKOU9aZUNybmk2TXhVOTVjcng2b1dOV0RCWFRvQjNfV1FUblRWZGItUkI1WEROTFNtVVkxaVRUR0kwdTRuWmRDcTMtMm1HdlZxMUFVUjFrNWhLZ2Y4M254cENyYi1rcUV3NUprSnNDREJaT05oU2tFNjhHRE5qcVdmcmVTVFoyTGZhU0Z3?oc=5\" target=\"_blank\">高盛、花旗等多家银行向美国稳定币项目投入2.7亿美元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXZsenJpaGFjd1YzNG9DNmNoUy1UMTVKN0NFQWtlTUp6akxPOURYMUZ2bUREUzFYaGFaNy1mTWNqS3JKZlNKOU9aZUNybmk2TXhVOTVjcng2b1dOV0RCWFRvQjNfV1FUblRWZGItUkI1WEROTFNtVVkxaVRUR0kwdTRuWmRDcTMtMm1HdlZxMUFVUjFrNWhLZ2Y4M254cENyYi1rcUV3NUprSnNDREJaT05oU2tFNjhHRE5qcVdmcmVTVFoyTGZhU0Z3?oc=5",
+      "published": "Tue, 10 Nov 2026 17:32:22 GMT"
+    }
+  ]
+}
