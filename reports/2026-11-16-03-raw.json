@@ -1,0 +1,281 @@
+{
+  "date": "2026-11-16",
+  "hour": "03",
+  "total": 39,
+  "fetched_at": "2026-11-16T03:00:58.352807+08:00",
+  "news": [
+    {
+      "source": "金色财经",
+      "title": "FBI披露朝鲜FaceDealer骗局，18个月盗取逾4亿美元",
+      "summary": "【FBI披露朝鲜FaceDealer骗局，18个月盗取逾4亿美元】金色财经报道，11月16日，据美国联邦调查局洛杉矶分局反间谍与网络事务负责人Jeremy Robertson在X发布的视频，朝鲜黑客以“FaceDealer”手法攻击加密从业者，18个月内盗取逾4亿美元。其流程为：劫持目标熟识的业内人士Telegram或LinkedIn账号、冒名发出会面邀请，引导目标进入攻击者搭建并完全控制的仿冒Zoom或Teams会议；等待开始时秘密录制目标摄像头以便后续冒用其身份，会中“邀请人”画面实为前一名受害者的录像，并以数名虚假参会者及“对方听不到你”的说辞施压。随后弹出伪造错误提示，称需执行更新、其他人均在等待，目标运行后即被植入恶意程序，电脑、加密钱包与社交账号随之失守。FBI称已发现并阻断900余名受害者的相关录像，受害者均为加密、Web3与网络安全领域的资深从业者。上月币安约63亿美元被盗案，FBI指为朝鲜“TraderTraitor”行动所为；朝方否认相关指控，称其为“荒谬言论”。<p>原文链接: <a href=\"https://cryptopotato.com/crypto-ex",
+      "link": "https://jinse.com.cn/lives/541029.html",
+      "published": "Sun, 15 Nov 2026 18:55:12 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "CFTC起诉路易斯安那州，寻求阻止其对预测市场博彩执法",
+      "summary": "【CFTC起诉路易斯安那州，寻求阻止其对预测市场博彩执法】金色财经报道，11月16日，美国商品期货交易委员会（CFTC）与联邦政府在路易斯安那州东区联邦法院起诉该州，寻求阻止其依博彩法对联邦监管的事件合约市场执法。起诉书被告含该州、总检察长Liz Murrill、州博彩控制委员会与州警察博彩执法局。此前该州第21司法区法院11月12日未经通知或听证发出临时限制令，禁止向州内任何人提供、清算或结算未持牌的事件合约，范围含体育、选举、颁奖活动及州法下视为体育博彩的其他合约；州方执法对象32家实体。Murrill点名Kalshi、Polymarket、Coinbase与Robinhood，称其活动属非法赌博。CFTC主张事件合约为《商品交易法》下的互换，指定合约市场属其专属管辖，联邦法优先于州博彩法；此为原告立场而非裁决。诉状请求宣告相关州法不适用，并禁止对该类实体及其关联方、合作方调查与执法。CFTC主席Michael Selig称诉讼旨在维持现状，Murrill于11月14日反驳。诉讼本身不撤销州禁令。<p>原文链接: <a href=\"https://thedefiant.io/new",
+      "link": "https://jinse.com.cn/lives/541028.html",
+      "published": "Sun, 15 Nov 2026 18:37:12 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Telegram禁止普通机器人发送HTML widget，称漏洞已在服务端修补",
+      "summary": "【Telegram禁止普通机器人发送HTML widget，称漏洞已在服务端修补】金色财经报道，11月16消息，11月13日前后，Telegram禁止普通机器人在消息中发送HTML widget（消息内运行的交互组件），私聊亦受限。Bot API仓库贡献者Aliaksei Levin11月13日在GitHub发文确认“目前普通机器人即使在私聊中也不被允许使用widget”。此举背景是研究者披露旧版客户端漏洞：机器人消息携带HTML与JavaScript，widget在已打开的聊天中随消息布局即执行、无需点击；受影响版本含Android 13.2.0、iOS 13.2、Desktop 7.4.0与macOS 13.1，研究者称当前版本已修复，且未声称root级漏洞。Telegram创始人Pavel Durov称仅收到消息不会被黑，用户须先主动启动第三方服务，“即便那样也已在服务端完全修补”。该限制仅涉发送widget，并非冻结机器人注册或全面关停Mini Apps，亦未说明已送达widget是否仍渲染及恢复时间。<p>原文链接: <a href=\"https://thedefiant.i",
+      "link": "https://jinse.com.cn/lives/541027.html",
+      "published": "Sun, 15 Nov 2026 18:21:59 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Aave两日内借款人清算约3,900万美元，Aave Labs高管披露",
+      "summary": "【Aave两日内借款人清算约3,900万美元，Aave Labs高管披露】金色财经报道，11月16日，据Aave Labs首席战略与业务官Luigi D'Onorio DeMeo在X的发帖，Aave借款人在过去两天内发生约3,900万美元清算，其中前一日约1,800万美元，次日截至发帖约2,100万美元，即第二日仅计入部分时段。按Aave公开规则，当借款人的健康因子（抵押品对债务的支撑比例）低于1时，仓位即进入可清算状态，抵押品贬值或债务价值上升均可能触发。清算人代为偿还部分或全部债务，并获得抵押品及奖励；借款人失去已质押资产，但清算不一定平掉全部仓位。报道时，TokenLogic的Aave看板显示未偿活跃贷款约113亿美元。<p>原文链接: <a href=\"https://thedefiant.io/news/defi/aave-executive-reports-39-million-in-liquidations\">https://thedefiant.io/news/defi/aave-executive-reports-39-million-in-liquidations<",
+      "link": "https://jinse.com.cn/lives/541026.html",
+      "published": "Sun, 15 Nov 2026 18:07:46 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "P2Pool V2开发开源比特币挖矿协议，取消矿池运营方对交易选择与支付的控制",
+      "summary": "【P2Pool V2开发开源比特币挖矿协议，取消矿池运营方对交易选择与支付的控制】金色财经报道，11月16日，据Bitcoin News在X发布的消息，P2Pool V2正在开发一项开源比特币挖矿协议，旨在取消中心化矿池运营方对交易选择、份额核算和支付的控制。与Stratum V2、DATUM主要去中心化区块模板构建不同，该协议允许每个节点独立验证矿工的工作量与收益，并支持无需许可挖矿、由节点验证的去中心化份额核算，以及直接向矿工支付、由矿工自行托管的比特币。协议还计划支持可交易的挖矿份额，并通过Lightning与Ark上的原子交换帮助小型矿工收款；可变难度与减少孤块份额损失亦旨在改善对小型矿工的支持。目前该协议已在比特币测试网运行，份额交易与主网上线准备仍在开发中。<p>原文链接: <a href=\"https://x.com/BitcoinNewsCom/status/2122019989410422884\">https://x.com/BitcoinNewsCom/status/2122019989410422884</a></p>",
+      "link": "https://jinse.com.cn/lives/541025.html",
+      "published": "Sun, 15 Nov 2026 17:37:34 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "加密恐慌与贪婪指数降至21，ETH与XRP创多月新低",
+      "summary": "【加密恐慌与贪婪指数降至21，ETH与XRP创多月新低】金色财经报道，11月16日，加密恐慌与贪婪指数降至21，处于“极度恐慌”区间，一周前为39，七个交易日下跌18点；因统计平台不同，alternative.me、CoinGecko等同期读数在10至21之间，周跌幅约8至18点。行情方面，以太坊一度跌至约1,709美元，期间报告低点落在1,709至1,800美元区间；XRP跌至约0.8922美元，为2024年11月以来最低，本季累计跌约36%。资金流向方面，美国现货XRP ETF在截至11月13日至14日当周净流出1,913万美元，为约八个月来最大单周流出；USDT与USDC合计市值降至2,440亿美元，为2025年9月以来最低，过去一个月缩水约170亿美元。该指数由波动率、社交媒体活跃度与市场动能等指标合成，属滞后指标，反映市场已发生的行为而非预测后市。<p>原文链接: <a href=\"https://cryptobriefing.com/crypto-fear-greed-index-drops-to-21/\">https://cryptobriefing.com/crypto",
+      "link": "https://jinse.com.cn/lives/541023.html",
+      "published": "Sun, 15 Nov 2026 17:31:56 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Peter Brandt警告比特币或永远无法重回历史高点",
+      "summary": "【Peter Brandt警告比特币或永远无法重回历史高点】金色财经报道，11月16日，资深交易员Peter Brandt在X发布比特币周线图并警告，比特币可能永远无法重回历史高点。他称图中疑似形成大型头肩顶形态，由左肩、更高的头部与较低的右肩构成，目前价格正测试约60,000至65,000美元的颈线。他写道，若该头肩顶成立，可构建“历史高点已现、至少在其有生之年不会被超越”的技术叙事。Brandt未宣布形态完成，其警告以形态被确认为前提。行情方面，比特币11月14日跌至约62,830美元，周跌幅超16%；11月13日跌破70,000美元，为8月以来首次。文章将跌势归因于美国通胀数据强于预期、推升12月加息预期，以及美元走强、美债收益率上升与英伟达相关动荡。比特币最近历史高点为2025年10月6日的逾126,000美元，此后已近腰斩；2021年11月14日收于约65,467美元，当前价位较五年前同期低约4%。<p>原文链接: <a href=\"https://u.today/bitcoin-may-never-hit-new-ath-legendary-trader-peter-bra",
+      "link": "https://jinse.com.cn/lives/541022.html",
+      "published": "Sun, 15 Nov 2026 17:27:26 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "What I know and respect about Colette Kress, the person now leading Nvidia - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNN05TY0ZYaEpTRlktS2tXZTBrSTA2Y3o0MEdjNkpJRll1VEZXVWdNY0pxM2ttcXFPdlhJa1B5d1Z1UzZ2dnVySVFIRGpIa09qdUdvSGo4S013cmhINjFoTXJCakEtdjB6Q2NVUXJBd0lLdXpBaEoxZXFEN2VkQ0NnOWoweEFwVHB5bGk1MGkxRktvZVdQdDYzZGlXWQ?oc=5\" target=\"_blank\">What I know and respect about Colette Kress, the person now leading Nvidia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN05TY0ZYaEpTRlktS2tXZTBrSTA2Y3o0MEdjNkpJRll1VEZXVWdNY0pxM2ttcXFPdlhJa1B5d1Z1UzZ2dnVySVFIRGpIa09qdUdvSGo4S013cmhINjFoTXJCakEtdjB6Q2NVUXJBd0lLdXpBaEoxZXFEN2VkQ0NnOWoweEFwVHB5bGk1MGkxRktvZVdQdDYzZGlXWQ?oc=5",
+      "published": "Sun, 15 Nov 2026 17:14:17 GMT"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "The Only Real \"Fundamental\" Bitcoin Indicator I Know Of Says It May Be Time To Buy.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been a long-time gold owner and my interest in Bitcoin since late-2022 is solely as &quot;digital gold.&quot; I never believed it would ever become legal tender and I do not believe it ever will, simply because hard money periods have never lasted long anywhere in world history and I do not believe humanity or history will ever change. It will be, like gold, a &quot;shadow&quot; reserve asset. I also believe that Bitcoin, as digital gold, will continue to e",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xx2lsc/the_only_real_fundamental_bitcoin_indicator_i/",
+      "published": "2026-11-15T18:19:03+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Who Pays to Mine Bitcoin’s Play Money? Inside the Launch of Testnet5.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1xx1zdf/who_pays_to_mine_bitcoins_play_money_inside_the/\"> <img alt=\"Who Pays to Mine Bitcoin’s Play Money? Inside the Launch of Testnet5.\" src=\"https://external-preview.redd.it/Gqss9RmPQXZhv47jQQrtOkTcBDOooPJjetvG6plaH9A.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a903c81032a8798b15beb8e28394cb04aede435f\" title=\"Who Pays to Mine Bitcoin’s Play Money? Inside the Launch of Testnet5.\" /> </a> </td><td> <!-- SC_OFF -->",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xx1zdf/who_pays_to_mine_bitcoins_play_money_inside_the/",
+      "published": "2026-11-15T17:54:52+00:00"
+    },
+    {
+      "source": "Reddit r/cryptocurrency",
+      "title": "Crypto is getting obliterated by online gambling.",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bella_Ciao__\"> /u/Bella_Ciao__ </a> <br /> <span><a href=\"/r/Bitcoin/comments/1xx2g6r/crypto_is_getting_obliterated_by_online_gambling/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CryptoCurrency/comments/1xx2gmv/crypto_is_getting_obliterated_by_online_gambling/\">[comments]</a></span>",
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xx2gmv/crypto_is_getting_obliterated_by_online_gambling/",
+      "published": "2026-11-15T18:13:28+00:00"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell? - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQSXBIME9PRGtMQi16RUV2Vk5hRVl4YzZVTmpkWTNKR2JRcV9laXM0cl9fN0k4UWNQTXBqLUxVOTlTODlRN0tQMnAxUFR4YVhjWWp3WE0zM250b05QRHJlZVJUbk12X1RPTUtfQWduTFBCZnRJWm10UXowSGFhNkMwNHBCZ0RYYXoxejg4RzY0bHhGeERqUWdHMHpQcUhOR1E?oc=5\" target=\"_blank\">Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSXBIME9PRGtMQi16RUV2Vk5hRVl4YzZVTmpkWTNKR2JRcV9laXM0cl9fN0k4UWNQTXBqLUxVOTlTODlRN0tQMnAxUFR4YVhjWWp3WE0zM250b05QRHJlZVJUbk12X1RPTUtfQWduTFBCZnRJWm10UXowSGFhNkMwNHBCZ0RYYXoxejg4RzY0bHhGeERqUWdHMHpQcUhOR1E?oc=5",
+      "published": "Sun, 15 Nov 2026 17:28:50 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOenV5VVdxS2p1VWNqYW1vVmRrTHZneHBjMHY1emdONWFJSjUyMkk2OVl5cUZpR2xwNEVBQjVsRGhWamV1cjA3MllSX2NVMTZQdjFZS0d3cWp6SDRLdnJBX2pvaE85NHhKeV9uVHdLd2Vsa3BmeUtQeS1UTG1ERl9Qd0hJa0p4VnZwdXU0QnQwc0ppX0t6Y3AtMUZ0ZFM?oc=5\" target=\"_blank\">Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOenV5VVdxS2p1VWNqYW1vVmRrTHZneHBjMHY1emdONWFJSjUyMkk2OVl5cUZpR2xwNEVBQjVsRGhWamV1cjA3MllSX2NVMTZQdjFZS0d3cWp6SDRLdnJBX2pvaE85NHhKeV9uVHdLd2Vsa3BmeUtQeS1UTG1ERl9Qd0hJa0p4VnZwdXU0QnQwc0ppX0t6Y3AtMUZ0ZFM?oc=5",
+      "published": "Sun, 15 Nov 2026 17:05:36 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "South Florida Dirt: You can now pay your property taxes with Bitcoin - The Real Deal",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNYk5XX0oxTHlBNFRXc3NkZ0cwMXdTNnlxdV9YYlVydUJrV0FOT3Z1X0tNWWtweTY3Z2hycDYyQUlTaVh1SVMyMjJHUWNwZURycmFaVjJqTlA2bk5lS1E0ZXNCWjdBcmlrT1FEemMtd2FfeURVMnJwNHBhYWlsZHNzM1VBbGkxWFNWMDhqV1Frc0NUdURHWkRYMnRJQ2NsV0pZQzQ4?oc=5\" target=\"_blank\">South Florida Dirt: You can now pay your property taxes with Bitcoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Real Deal</font>",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYk5XX0oxTHlBNFRXc3NkZ0cwMXdTNnlxdV9YYlVydUJrV0FOT3Z1X0tNWWtweTY3Z2hycDYyQUlTaVh1SVMyMjJHUWNwZURycmFaVjJqTlA2bk5lS1E0ZXNCWjdBcmlrT1FEemMtd2FfeURVMnJwNHBhYWlsZHNzM1VBbGkxWFNWMDhqV1Frc0NUdURHWkRYMnRJQ2NsV0pZQzQ4?oc=5",
+      "published": "Sun, 15 Nov 2026 18:06:55 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "XRP price at Nov 15, 2026 at 2pm EST Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNVmxHUVRMd0wtMjVhcGpPeU4yS3NuZmtnMTZ2U21HUlJEYkpsOHpNZ3czal9SVVJfR1FseFY3QmJVTjE2QUxQenhEUExMRFVkQ1VvQWNGSW5UdzNxZ2VZWm9VVklYaDFOeWVPa3JwUzl1X2lRWkVaOFRpWlhUb1IzaVVLNHkyS0psb0Y1MHF6Y3NPT3Zsckxxa0RGRkxEUUhSZFJPLTJHS2xNOEd1NHc?oc=5\" target=\"_blank\">XRP price at Nov 15, 2026 at 2pm EST Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVmxHUVRMd0wtMjVhcGpPeU4yS3NuZmtnMTZ2U21HUlJEYkpsOHpNZ3czal9SVVJfR1FseFY3QmJVTjE2QUxQenhEUExMRFVkQ1VvQWNGSW5UdzNxZ2VZWm9VVklYaDFOeWVPa3JwUzl1X2lRWkVaOFRpWlhUb1IzaVVLNHkyS0psb0Y1MHF6Y3NPT3Zsckxxa0RGRkxEUUhSZFJPLTJHS2xNOEd1NHc?oc=5",
+      "published": "Sun, 15 Nov 2026 18:06:06 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "AERO Falls 27% in a Week, Lagging Bitcoin and Ether - The Defiant",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNTld1dzBJcG5vVUlja2NQd1Y1eDMwX09ZWlZiWVFRMnMwbkp5dWR4c2JRWjRBZHVmRVhaUFpoVHRaLTlXTE84OGoyblY1MkRqaXZHbG91MV8wN0NmQTJKTGFYSGtmNmVjbllvemwzWUplU1NqWnVxM29WWjRud1k1dmhBU2x6YUV5Z2dHRQ?oc=5\" target=\"_blank\">AERO Falls 27% in a Week, Lagging Bitcoin and Ether</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Defiant</font>",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTld1dzBJcG5vVUlja2NQd1Y1eDMwX09ZWlZiWVFRMnMwbkp5dWR4c2JRWjRBZHVmRVhaUFpoVHRaLTlXTE84OGoyblY1MkRqaXZHbG91MV8wN0NmQTJKTGFYSGtmNmVjbllvemwzWUplU1NqWnVxM29WWjRud1k1dmhBU2x6YUV5Z2dHRQ?oc=5",
+      "published": "Sun, 15 Nov 2026 17:58:28 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Ethereum slips as Fed official signals higher rates could limit liquidity - Traders Union",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQWlMwY1dqaV9yMUFzWHptN1FrZzdRZ0JZWE1HbjA0RnZyb2xMUVRvQmxoZ3h4cVY0dUk4QnZDakhrcUFud1M2NW1fLUp6cVZIV2FiWWZwUW9PM0dST1BkX0ZZcEVOUXR4bk5IV3R5V2hQN2Z0dENpVmktdWIxeFp2LU5ZVXhsazZDQVVCSFhuX2JIV01adGl3QU83cldCQQ?oc=5\" target=\"_blank\">Ethereum slips as Fed official signals higher rates could limit liquidity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Traders Union</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWlMwY1dqaV9yMUFzWHptN1FrZzdRZ0JZWE1HbjA0RnZyb2xMUVRvQmxoZ3h4cVY0dUk4QnZDakhrcUFud1M2NW1fLUp6cVZIV2FiWWZwUW9PM0dST1BkX0ZZcEVOUXR4bk5IV3R5V2hQN2Z0dENpVmktdWIxeFp2LU5ZVXhsazZDQVVCSFhuX2JIV01adGl3QU83cldCQQ?oc=5",
+      "published": "Sun, 15 Nov 2026 18:33:18 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e7a88ff576b541608d0845f3b666ec66",
+      "published": "2026-11-11T17:45:18.328000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined HYPEUSDC and TRXUSDC Perpetual Contracts (2026-11-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined HYPEUSDC and TRXUSDC Perpetual Contracts (2026-11-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2d89a5966b174a2689ab2c2a15db1757",
+      "published": "2026-11-11T13:00:31.295000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "summary": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
+      "published": "2026-10-29T19:48:52.329000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/784c65be33d44de0b2099cadf8742846",
+      "published": "2026-10-29T16:45:10.993000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f180bddad424ea5b7a00148433721dc",
+      "published": "2026-10-28T11:30:13.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "summary": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a326408b6404d69b474f3fab7acfa66",
+      "published": "2026-10-28T11:00:17.379000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/02d204fc963f4f8687599fc22a13d538",
+      "published": "2026-10-26T14:15:01.713000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
+      "published": "2026-10-25T15:05:15.552000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3afa938f499d403382d01d0c0644507e",
+      "published": "2026-10-21T11:31:11.286000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "summary": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b965e028041c4d0fbb4291372f55e4d4",
+      "published": "2026-10-21T11:00:12.952000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4e52d711946c88762f0ba2259de2e",
+      "published": "2026-10-21T10:15:10.766000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e52ef13311eb4e1a96f07099152e61d5",
+      "published": "2026-10-14T11:30:08.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "summary": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/927d3a7b5d6c43fb888e38f110005906",
+      "published": "2026-10-14T11:00:04.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "summary": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
+      "published": "2026-10-13T11:30:01.158000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/394e61b6f81e4a349272dcb9d78876d6",
+      "published": "2026-10-12T14:15:02.026000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 10 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 10，分类为「Extreme Fear」。 市场处于极度恐惧状态，历史上往往是抄底机会。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-11-15T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "美联储官员暗示加息可能限制流动性，以太坊走低 - Traders Union",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOQUh0UmYxZ29ucE1VR3hZVjNoeXV2Z1pHV01GVGpLNGZmYkFjcjJQY28tZjBvVXZTLTFwN2J3YWluNTNqYUFaU04yUFdmdVBqcFJLb0RHUkw2WDVpZTdVd0QtX0FwTDBLRHdkQzlYeEhJTTVIM29nWVVmZHVWbWkyaE5mel9TczI4ZG0zZXFLT2tMblRnLXoteDFzc2M1TVlVcnc?oc=5\" target=\"_blank\">美联储官员暗示加息可能限制流动性，以太坊走低</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Traders Union</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQUh0UmYxZ29ucE1VR3hZVjNoeXV2Z1pHV01GVGpLNGZmYkFjcjJQY28tZjBvVXZTLTFwN2J3YWluNTNqYUFaU04yUFdmdVBqcFJLb0RHUkw2WDVpZTdVd0QtX0FwTDBLRHdkQzlYeEhJTTVIM29nWVVmZHVWbWkyaE5mel9TczI4ZG0zZXFLT2tMblRnLXoteDFzc2M1TVlVcnc?oc=5",
+      "published": "Sun, 15 Nov 2026 18:33:34 GMT"
+    }
+  ]
+}
