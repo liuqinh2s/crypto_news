@@ -1,0 +1,372 @@
+{
+  "date": "2026-11-17",
+  "hour": "10",
+  "total": 52,
+  "fetched_at": "2026-11-17T10:01:06.511127+08:00",
+  "news": [
+    {
+      "source": "CoinTelegraph",
+      "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hackers inject credit card, crypto-stealing malware into 178 major websites\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7KGB8P723WG4K1R3Q3WMM6J/hi-how-cybercriminals-use-youtube-and-github-to-spread-crypto-malware.jpg\" /></p><p>Researchers say attackers compromised scripts delivered through Optimizely, exposing visitors to malware designed to replace crypto wallet addresses an",
+      "link": "https://cointelegraph.com/news/hackers-inject-malware-into-178-major-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 17 Nov 2026 01:02:05 +0000"
+    },
+    {
+      "source": "金色财经",
+      "title": "疑似Arthur Hayes关联钱包向Coinbase存入1500枚ETH",
+      "summary": "【疑似Arthur Hayes关联钱包向Coinbase存入1500枚ETH】金色财经报道，11月17日，据Lookonchain监测，一个可能与Arthur Hayes（@CryptoHayes）关联的钱包在4小时前向Coinbase存入1500枚ETH（273万美元）。<p>原文链接: <a href=\"https://x.com/lookonchain/status/2122502289915277569\">https://x.com/lookonchain/status/2122502289915277569</a></p>",
+      "link": "https://jinse.com.cn/lives/541195.html",
+      "published": "Tue, 17 Nov 2026 01:50:02 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Solana 基金会要求所有 Agave 和 Firedancer 节点紧急应对 Linux 内核漏洞 NoisyTCP",
+      "summary": "【Solana 基金会要求所有 Agave 和 Firedancer 节点紧急应对 Linux 内核漏洞 NoisyTCP】金色财经报道，11月17日，据 SolanaFloor 报道，Solana 基金会发布安全通知，要求所有运行 Agave 或 Firedancer 客户端的节点（无论是否质押）立即采取措施，应对 Linux 内核漏洞 CVE-2026-99288（NoisyTCP）。节点运营者需查看 Linux 发行版的安全公告，确认当前内核是否受影响，并在修复补丁发布后尽快升级内核。若补丁尚未发布，可暂时禁用 SYN Cookies，无需重启验证节点。在启动已修复的内核后，应将 SYN Cookies 恢复至原有设置。<p>原文链接: <a href=\"https://x.com/SolanaFloor/status/2122355199511834705?s=20\">https://x.com/SolanaFloor/status/2122355199511834705?s=20</a></p>",
+      "link": "https://jinse.com.cn/lives/541194.html",
+      "published": "Tue, 17 Nov 2026 01:28:38 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "富国银行增持IBIT至约23.5亿美元，较此前持仓翻倍",
+      "summary": "【富国银行增持IBIT至约23.5亿美元，较此前持仓翻倍】金色财经报道，11月17日，据Thedefiant报道，根据汇总的13F持仓数据，截至9月底，富国银行（Wells Fargo）报告持有贝莱德现货比特币ETF（IBIT）4958万股，价值约23.5亿美元，较此前持仓增加了一倍以上。报告指出，这些申报数据并不构成富国银行直接押注比特币的证据。13F表格由管理资产超过1亿美元的机构投资者每季度向美国证券交易委员会提交，用于披露其美股持仓，反映的是截至申报日期的头寸。<p>原文链接: <a href=\"https://thedefiant.io/converge/tradfi-and-fintech/wells-fargo-s-reported-ibit-position-more-than-doubles\">https://thedefiant.io/converge/tradfi-and-fintech/wells-fargo-s-reported-ibit-position-more-than-doubles</a></p>",
+      "link": "https://jinse.com.cn/lives/541193.html",
+      "published": "Tue, 17 Nov 2026 01:09:18 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Ledger、汇丰银行、Zoom 等 178 家机构网站遭恶意代码入侵，黑客通过篡改钱包地址盗取加密资产",
+      "summary": "【Ledger、汇丰银行、Zoom 等 178 家机构网站遭恶意代码入侵，黑客通过篡改钱包地址盗取加密资产】金色财经报道，11月17日，据网络安全公司 Report URI 11 月 16 日披露，黑客通过网站优化平台 Optimizely，向全球 178 家机构使用的 188 个 JavaScript 脚本文件植入恶意代码，涉及 Ledger、汇丰银行、BBC、CNN、Zoom、Salesforce 等知名企业及机构。恶意程序可将用户复制或输入的 BTC、ETH、SOL 等加密钱包地址替换为攻击者地址，并窃取银行卡信息、浏览器 Cookie 和网页截图，同时针对部分 iOS 设备投放漏洞利用工具。研究人员已追踪到攻击者钱包收到约 7040 美元加密资产。此次攻击利用第三方受信任脚本传播，具体入侵途径仍在调查。截至 11 月 16 日 21:52 UTC，188 个受影响脚本中已有 187 个完成清理。<p>原文链接: <a href=\"https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via",
+      "link": "https://jinse.com.cn/lives/541192.html",
+      "published": "Tue, 17 Nov 2026 01:05:22 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "福克斯：万斯并未排除参加总统竞选的可能性",
+      "summary": "【福克斯：万斯并未排除参加总统竞选的可能性】金色财经报道，11月17日，据福克斯新闻：美国副总统万斯并未排除参加总统竞选的可能性，并透露预计将在2027年的某个时候作出决定。万斯表示，竞选美国总统需要进行大量筹款和充分准备，因此这不是一件可以拖到最后一刻才作出决定的事情。",
+      "link": "https://jinse.com.cn/lives/541191.html",
+      "published": "Tue, 17 Nov 2026 00:59:26 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Flow EVM 上 MORE Markets 遭攻击，已有约 30.8 万美元资金被转出",
+      "summary": "【Flow EVM 上 MORE Markets 遭攻击，已有约 30.8 万美元资金被转出】金色财经报道，11月17日，据 Blockaid 监测，Flow EVM 上的非托管型全链金库 MORE Markets 正遭受攻击。攻击者利用闪电贷对 e-mode 模式下的 ankrFLOW/WFLOW 头寸进行自清算，导致 WFLOW 产生缺乏抵押资产支持的坏账，并从 WFLOW 储备池中提取资金。截至发稿时，攻击者已通过约 10 笔交易从 WFLOW 储备池中转出约 30.8 万美元，攻击仍在持续。 \n随后 More Market 发推表示，目前协议已暂停，AnkrFLOW 协议亦暂停，以确保情况得到控制。工程团队正在调查解决根本原因。更多细节即将公布。<p>原文链接: <a href=\"https://x.com/blockaid_/status/2122386020624707607?s=20\">https://x.com/blockaid_/status/2122386020624707607?s=20</a></p>",
+      "link": "https://jinse.com.cn/lives/541190.html",
+      "published": "Tue, 17 Nov 2026 00:56:00 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Pump.fun通过与Polymarket合作上线应用内预测市场功能",
+      "summary": "【Pump.fun通过与Polymarket合作上线应用内预测市场功能】金色财经报道，11月17日，Pump.fun宣布与Polymarket合作，在Pump.fun应用内面向允许司法管辖区的用户上线预测市场功能。用户可交易体育、世界事件、加密货币及大宗商品等，包括BTC五分钟涨跌市场。 Pump.fun指出，该预测市场由Polymarket提供，不适用于美国、英国、法国、西班牙、荷兰等受限司法管辖区。该应用作为非托管技术接口，不运营、结算或解决任何市场，也不持有用户资金。<p>原文链接: <a href=\"https://x.com/Pumpfun/status/2122404731415093477\">https://x.com/Pumpfun/status/2122404731415093477</a></p>",
+      "link": "https://jinse.com.cn/lives/541189.html",
+      "published": "Tue, 17 Nov 2026 00:50:16 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "R3 的 Corda 协议在 Solana 上线，并推出链上结构化产品 EPIC",
+      "summary": "【R3 的 Corda 协议在 Solana 上线，并推出链上结构化产品 EPIC】金色财经报道，11月17日，Corda 发推表示，其第一款产品 EPIC 已在 Solana 上线，上线即可与各类 DeFi 协议组合使用。Corda 表示，当前链上收益产品要么收益低于担保隔夜融资利率（SOFR），要么伴随较高的风险和波动，其将通过 R3 等发行方引入优质的风险型 RWA 资产。Solana 称，EPIC 将向链上资本开放一个规模达 2.5 万亿美元的市场。<p>原文链接: <a href=\"https://x.com/Cordaxyz/status/2122343637900009758\">https://x.com/Cordaxyz/status/2122343637900009758</a></p>",
+      "link": "https://jinse.com.cn/lives/541188.html",
+      "published": "Tue, 17 Nov 2026 00:46:34 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Twenty One Capital增持154.32枚BTC，为2025年7月以来首次购买",
+      "summary": "【Twenty One Capital增持154.32枚BTC，为2025年7月以来首次购买】金色财经报道，11月17日，据The Block报道，Twenty One Capital以约1000万美元购买了154.32枚BTC，这是该公司自2025年7月以来的首次比特币购买。此次现金出资的购买使其持仓量达到约43,668枚BTC，成为上市公司中第三大比特币财库。该公司首席执行官Rapha Zagury表示：“波动创造机会。我们看到了机会，采取了行动并逢低买入。”<p>原文链接: <a href=\"https://x.com/TheBlockCo/status/2122453617768906827\">https://x.com/TheBlockCo/status/2122453617768906827</a></p>",
+      "link": "https://jinse.com.cn/lives/541187.html",
+      "published": "Tue, 17 Nov 2026 00:28:27 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "美国四名民主党参议员警告 SEC 代币化股票豁免存在反洗钱漏洞",
+      "summary": "【美国四名民主党参议员警告 SEC 代币化股票豁免存在反洗钱漏洞】金色财经报道，11月17日，美国民主党参议员 Angela Alsobrooks、Ruben Gallego、Mark Warner 和 Catherine Cortez Masto 致信 SEC 主席 Paul Atkins，指出 SEC 于今年 9 月推出的五年期代币化证券创新豁免存在反洗钱监管漏洞。该豁免允许符合条件的代币化证券交易场所无需注册为证券交易所，但未明确客户身份识别（KYC）、反洗钱（AML）要求如何适用于相关交易，也未规定平台是否需要限制代币接收方。参议员警告，经过身份验证的投资者购买代币化股票后，可能将其转移至未经验证的钱包，包括境外人士或非法活动参与者持有的钱包。此外，四人还对散户交易定价保护提出质疑，主张允许股票发行方选择不参与代币化，并要求 SEC 说明如何落实反洗钱标准、核实信息披露及平台自行验证结果，同时通过公开透明的规则制定程序调整代币化证券监管框架。<p>原文链接: <a href=\"https://www.theblock.co/news/regulation/2026-11-16-",
+      "link": "https://jinse.com.cn/lives/541186.html",
+      "published": "Tue, 17 Nov 2026 00:21:09 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "中国湖南一男子遇线下买币骗局，警方半小时拨61个电话全被拒接，线下民警终成功拦截",
+      "summary": "<p>BlockBeats 消息，近日，中国湖南省醴陵警方成功拦截一起虚拟币线下交易诈骗。市民王先生在某平台萌生购币想法后，<strong>被陌生人私聊以低价虚拟币为由引流，转至其他软件沟通，并要求携带 2.4 万元现金前往指定地点线下交易</strong>。<strong>交易途中骗子多次更改地点并要求独自放置现金</strong>，王先生准备下车放钱时，醴陵公安反诈中心精准预警，<strong>半小时内轮番拨打 61 个电话均被拒接，最终另一组民警线下成功拦截</strong>，帮其守住钱款。</p><p><br /></p><p>警方表示，此类骗局中骗子瞄准虚拟货币爱好者，以低价购币、私下交易无手续费为诱饵，主动私聊引流。同时引导受骗者脱离正规社交平台，使用 Teams 等小众境外软件沟通，规避反诈监测，事后便于随时失联、销毁证据。交易过程中，骗子往往以平台风控、监管严格、线上限额为由，诱导大额现金线下交易，现金交易无流水、难追溯，是骗子洗钱、诈骗的主要手段。</p><p><br /></p><p>警方同时再度提醒：虚拟货币交易不受法律保护，线上谈交易、线下收现金基本均为诈骗。<",
+      "link": "https://www.theblockbeats.info/flash/377668",
+      "published": "Tue, 17 Nov 2026 02:01:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "神秘巨鲸本轮下跌投入1.58亿美元抄底ETH，其抄底动作或进入尾声",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，据余烬监测，神秘巨鲸近期累计投入 1.581 亿美元抄底 ETH，共买入 82,277 枚 ETH，抄底均价 1921 美元。他们目前持有的 ETH 数量已高达 63.61 万枚 (11.5 亿美元)。</p><p><br /></p><p>账户余额显示其稳定币仅剩 1100 万美元，预示抄底动作或进入尾声。</p><p><br /></p><p>需要指出的是，该神秘巨鲸与早期比特币支持者、ShapeShift 创始人 Erik Voorhees 存在关联，但后者明确表示自己不是抄底巨鲸。</p>",
+      "link": "https://www.theblockbeats.info/flash/377667",
+      "published": "Tue, 17 Nov 2026 01:47:45 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Arthur Hayes：ETH、ZEC、NEAR、VVV将扮演AI叙事泡沫的「末日四骑士」",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，Arthur Hayes 于 X 平台表示，「四骑士将拉盘，然后迎来 AI 泡沫的终结。」Arthur Hayes 同时给出四个标的的目标价分别如下：</p><p><br /></p><p>ETH = 2800 美元；ZEC = 1800 美元；NEAR = 6.00 美元；VVV = 40 美元；</p><p><br /></p><p>需要指出的是，Arthur Hayes 关联地址 4 小时前向 Coinbase 存入 1500 枚 ETH，价值约合 273 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/377666",
+      "published": "Tue, 17 Nov 2026 01:41:49 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "OpenAI首席财务官：Anthropic IPO对生态有利，OpenAI不介意「老二」地位",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，OpenAI 首席财务官 Sarah Friar 周一在 Semafor 的硅谷与世界大会上表示，Anthropic 的 IPO「对生态系统有利」，「对我们也有好处」，并补充说，OpenAI 并不在意排名第二。</p><p><br /></p><p>Friar 还表示，OpenAI 的广告模式非常成功，在不到 200 天的时间里就获得了超过 10 亿美元的收入——这是该公司创下的纪录。</p>",
+      "link": "https://www.theblockbeats.info/flash/377665",
+      "published": "Tue, 17 Nov 2026 01:36:06 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "滚仓交易员AguilaTrades胜率回落，昨日8战仅1胜，目前仍40倍做空比特币",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，据链上分析师 Ai 姨（@ai_9684xtpa）监测，昨天起 AguilaTrades 累计开单 8 次，战果 1 胜 7 负，85.7% 为空单，共亏损 211.5 万美元，使得近一周的累计盈利缩窄至 398 万美元。</p><p><br /></p><p>目前他持有 1500 枚 BTC 40x 空单，价值 9690 万美元，开仓价 64,756.9 美元，浮盈 23 万美元。</p><p><br /></p><p>近一周下跌中，AguilaTrades 曾精准做空比特币后抄底，盈利一度超 500 万美元。</p>",
+      "link": "https://www.theblockbeats.info/flash/377662",
+      "published": "Tue, 17 Nov 2026 01:29:32 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "伯克希尔·哈撒韦Q3再加码房产与航空股，增持科技公司Bending Spoons引人关注",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，伯克希尔向美国证监会（SEC）提交的 2026 年第三季度 13F 文件显示，在 Greg Abel 接棒巴菲特掌舵的第三个季度，公司继续调整股票组合：增持房屋建筑商 Lennar（LEN）和达美航空（DAL），其中 Lennar A 类股持仓接近翻倍；另一方面，伯克希尔继续减持美国银行（BAC）、信用卡公司 Capital One（COF）、零售商 Kroger（KR）和医疗服务公司 DaVita（DVA），并削减域名注册服务商 VeriSign（VRSN）的持仓。</p><p><br /></p><p>整体来看，伯克希尔三季度的股票配置呈现出继续加码美国住宅建筑和航空业、削减部分金融及消费类资产的特点。值得注意的是，此前连续两个季度大举增持的谷歌母公司 Alphabet，本季度持股数量没有变化；而新进的 Bending Spoons 则成为组合中一笔颇受关注的科技投资。</p>",
+      "link": "https://www.theblockbeats.info/flash/377660",
+      "published": "Tue, 17 Nov 2026 01:22:03 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Robinhood软件工程师认罪，曾利用上币内部信息建立合约老鼠仓",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，据美国南纽约区联邦检察官办公室（SDNY），前 Robinhood 软件工程师 Huaisong Xiang（华裔，30 岁）16 日在曼哈顿联邦法院向法官 Colleen McMahon 认罪，承认犯有电汇欺诈（wire fraud）罪。此次，Xiang 承认共非法获利 125,523 美元，并同意全部没收，量刑定于 2027 年 2 月 25 日由同一法官进行。</p><p><br /></p><p>今年 9 月，SDNY 指控称，Huaisong Xiang 与 Hefu Chai 在 Robinhood 任职期间，能够接触到 Robinhood Crypto 关于新增代币上线与上线时间的保密信息。2025 年至 2026 年间，两人涉嫌在公司公开宣布相关代币上线前，多次买入对应代币的 <a href=\"https://app.hyperliquid.xyz/join/NTOD\" rel=\"noopener\" target=\"_blank\">Hyperliquid</a> 永续合约，并在消息落地后获利；两人各自涉嫌收益超过 5",
+      "link": "https://www.theblockbeats.info/flash/377659",
+      "published": "Tue, 17 Nov 2026 01:14:49 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "Pump.fun与Polymarket合作，上线应用内预测市场功能",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，Pump.fun 发推表示，其与 Polymarket 合作，在 Pump.fun 应用内面向允许司法管辖区的用户上线预测市场功能。官方表示，该应用作为非托管技术接口，不运营、结算或解决任何市场，也不持有用户资金。</p>",
+      "link": "https://www.theblockbeats.info/flash/377657",
+      "published": "Tue, 17 Nov 2026 01:05:10 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "顶级富豪Q3「精准逃顶」英伟达，索罗斯家族办公室领衔",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，据彭博从季度监管文件汇编的数据显示，乔治索罗斯的同名家族办公室在截至 9 月 30 日的季度内将其英伟达持仓削减近五分之一，这是该机构今年首次披露的减仓操作，此前其一直在增持该股。</p><p><br /></p><p>与此同时，Michael Platt 旗下的 BlueCrest 资管公司以及阿布扎比统治者 Sheikh Mohamed bin Zayed Al Nahyan 的投资机构，也在同期削减了英伟达持仓。</p><p><br /></p><p><strong>据统计，参与减持的家族办公室至少达十余家，但均保留了部分英伟达仓位。</strong></p><p><br /></p><p>这一系列减仓操作发生的时间节点颇为微妙。黄仁勋于 11 月 12 日遭董事会解除 CEO 职务，此前曝出其多起婚外情丑闻。</p>",
+      "link": "https://www.theblockbeats.info/flash/377656",
+      "published": "Tue, 17 Nov 2026 01:00:00 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普账户103次买卖英伟达股票，交易频度与特、黄关系同步升温",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，据 CNBC 统计，自特朗普重返白宫以来，其投资账户至少买卖英伟达股票 103 次，累计交易金额在 2700 万美元至 9750 万美元之间。相关披露文件截至 2026 年 8 月。</p><p><br /></p><p><strong>到 2025 年底，英伟达是特朗普持仓市值最大的三只个股之一，持仓价值介于 1250 万美元至 5800 万美元之间</strong>。而在一年前，这一数字仅为 61.5 万美元至 130 万美元。</p><p><br /></p><p>按照周一纽约午盘英伟达股价约 157 美元计算，<strong>以特朗普 8 月份申报的持仓价值为基础，其英伟达股票目前价值可能在 450 万美元至 5770 万美元之间</strong>。不过，财务披露文件只提供持仓价值区间，没有公布具体持股数量，因此无法确定特朗普目前实际持有的股份规模。</p><p><br /></p><p>报告称，<strong>特朗普账户对于英伟达股票的偏好，与特朗普、黄仁勋两人关系的密切程度呈现高度正相关关系</strong>。2025",
+      "link": "https://www.theblockbeats.info/flash/377654",
+      "published": "Tue, 17 Nov 2026 00:51:51 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "段永平H&H三季度减持63%英伟达股份，加仓拼多多和特斯拉",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，段永平旗下投资机构 H&amp;H International Investment 向美国 SEC 提交的 2026 年第三季度 13F 持仓报告显示，截至 9 月 30 日，其美股持仓共 16 只，总市值约 171.9 亿美元，较二季度末约 191.0 亿美元下降。</p><p><br /></p><p>文件显示，该机构三季度将英伟达（NVDA）持股从约 628.1 万股减至约 231.9 万股，减持约 63%，期末市值约 5.30 亿美元，占组合 3.08%；谷歌（GOOG）和苹果（AAPL）持股分别减少约 41.5% 和 21.8%。同期增持拼多多（PDD）约 11.9% 至约 2799 万股，市值约 21.82 亿美元，占组合 12.69%；特斯拉（TSLA）增持约 20.7% 至 408 万股。</p><p><br /></p><p>前两大持仓仍为苹果约 70.61 亿美元（41.07%）和伯克希尔（BRK.B）约 41.61 亿美元（24.21%）。该机构还新建 SpaceX 仓位约 19.99 万股，市值约 3016",
+      "link": "https://www.theblockbeats.info/flash/377652",
+      "published": "Tue, 17 Nov 2026 00:40:26 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "黄仁勋遗产规划曝光，价值92亿美元英伟达股票主要惠及其两位子女",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，据《巴伦周刊》，2026 年 3 月，英伟达创始人黄仁勋的两个 2016 年设立的 Grantor Retained Annuity Trusts（GRATs，授予人保留年金信托）到期终止。根据 SEC 文件，这两个信托合计将约 5896 万股英伟达股票转入 Huang Irrevocable Remainder Trust（不可撤销剩余信托），这些股票现价值约为 92 亿美元。</p><p><br /></p><p>据悉，该信托主要惠及黄仁勋的两位子女 Madison Huang（Nvidia 产品营销高级总监）、Spencer Huang（Nvidia 机器人产品总监），黄仁勋本人仍担任该信托的受托人（trustee）。</p><p><br /></p><p>报道强调，这笔转让发生在黄仁勋 11 月 12 日辞任 CEO 约 8 个月前，当时已依规披露，属于遗产规划安排，并非减持。</p>",
+      "link": "https://www.theblockbeats.info/flash/377651",
+      "published": "Tue, 17 Nov 2026 00:38:45 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "加密黑客向知名品牌网站注入恶意脚本，包括BBC、CNN、汇丰、Ledger、宜家等",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，据安全研究员 Scott Helme 报告，11 月 16 日，加密黑客通过 Optimizely Web（A/B 测试与实验平台）向约 178 个组织（188 个受感染脚本）的访客注入了恶意 JavaScript。<strong>受影响的知名品牌包括 Zoom、BBC、CNN、HSBC、Ledger、Salesforce、GitLab、IKEA、Equifax、Air France-KLM、Peacock 等</strong>。Optimizely 自己的网站也受影响。</p><p><br /></p><p>据悉，攻击者将恶意代码写入客户在 Optimizely 后台的「Project JavaScript」字段。这些代码由 Optimizely 的官方 CDN 正常提供，因此绕过了多数网站的信任机制。<strong>恶意代码可实现加密货币地址替换、信用卡信息窃取、Cookie 与截图窃取、iOS 设备攻击等功能</strong>，截至 11 月 16 日 19:25 UTC，攻击者钱包已收到约 7000 美元加密货币。</p>",
+      "link": "https://www.theblockbeats.info/flash/377650",
+      "published": "Tue, 17 Nov 2026 00:30:56 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "「AI股神」Leopold旗下基金最新持仓公布，Q3重仓SHAZ，持仓或再迎大幅浮亏",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，「AI 股神」Leopold Aschenbrenner 旗下基金 Situational Awareness LP<strong> 截至 2026 年 9 月 30 日的 13F 已提交披露</strong>。Q3 季度中，该基金再次大量买入人工智能股票。但过去一个半月以来，其所有持仓均大幅下跌。</p><p><br /></p><p>截至 9 月 30 日，Situational Awareness LP 主要持仓为价值超 4.4 亿美元的 SharonAI（SHAZ）正股，持仓占比 27.9%，这也是该基金报告期内最大单一持仓；Bloom Energy（BE）看涨期权，持仓占比约 24.7%；Nebius（NBIS）看涨期权，持仓占比约 21.1%；Sandisk（SNDK）看涨期权，持仓占比约 11.6%；Roundhill Memory ETF（DRAM）看涨期权，持仓占比约 8.9%。</p><p><br /></p><p>总体而言，相较于 Q2 末（6 月 30 日）报告的公开持仓名义价值约 202 亿美元（高度集中于",
+      "link": "https://www.theblockbeats.info/flash/377649",
+      "published": "Tue, 17 Nov 2026 00:18:23 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "美情报称伊朗研究在华盛顿发动脏弹或化武袭击",
+      "summary": "<p>BlockBeats 消息，11 月 17 日，据 CNN 报道，美国情报机构近期截获的通信显示，伊朗据称正在考虑针对特朗普政府高级官员发动袭击，可能涉及在华盛顿特区引爆放射性「脏弹」或使用化学武器。七名美国官员证实，相关情报已引起政府高度关注。</p><p><br /></p><p>不过，熟悉情报内容的消息人士强调，目前这些谋划更多是伊朗为未来可能采取的行动预留选项，并不代表袭击即将发生。两名消息人士表示，美国情报机构掌握的部分计划已经涉及具体袭击地点和目标，促使政府启动一系列紧急防范措施。</p><p><br /></p><p>白宫发言人 Lauren Bis 在声明中表示，美国正在「监测所有潜在威胁，但截至目前，并不存在可信的美国本土安全威胁」。</p>",
+      "link": "https://www.theblockbeats.info/flash/377647",
+      "published": "Tue, 17 Nov 2026 00:01:45 GMT"
+    },
+    {
+      "source": "CNBC Crypto",
+      "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means - CNBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQNFNqUm9CTHJXWWFqem0xbVVJUXA0UjQ4MmprNk1YbWdKNl80dGR5ejdlV01lem03SkRQdi1YRVdPcmdld3FVSnl4VU1EaUNxOHFWQTZIY0ZNLWszR3E3cFpqMmVldk9KdnlMd09RVWZQWWRqZm56Y3luVk5CTTE2VDhFald6YWRHUkdzWVEyOUd4RTZRMnRv0gGcAUFVX3lxTFBzZE9SVGEzeVVBNTBWWjM4SmVtVFk0N1Z3R0hvLUxEcDJKTVF4OGFrVm1CNTJCSGlVdXNwMllWbzNqTWpSTEZMXzIxUUctMVJvWUVINXVjQWkyemtCY2JKZ1NJeGdXVThvc2QzNy10Zy1xX0o1SllaLTExM19ubzVKVC01eDJqSW1aWmZWQS1oRF9SQUNDMmNUeXJJaQ?oc=5\" target=\"_blank\">Analysis:",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNFNqUm9CTHJXWWFqem0xbVVJUXA0UjQ4MmprNk1YbWdKNl80dGR5ejdlV01lem03SkRQdi1YRVdPcmdld3FVSnl4VU1EaUNxOHFWQTZIY0ZNLWszR3E3cFpqMmVldk9KdnlMd09RVWZQWWRqZm56Y3luVk5CTTE2VDhFald6YWRHUkdzWVEyOUd4RTZRMnRv0gGcAUFVX3lxTFBzZE9SVGEzeVVBNTBWWjM4SmVtVFk0N1Z3R0hvLUxEcDJKTVF4OGFrVm1CNTJCSGlVdXNwMllWbzNqTWpSTEZMXzIxUUctMVJvWUVINXVjQWkyemtCY2JKZ1NJeGdXVThvc2QzNy10Zy1xX0o1SllaLTExM19ubzVKVC01eDJqSW1aWmZWQS1oRF9SQUNDMmNUeXJJaQ?oc=5",
+      "published": "Tue, 17 Nov 2026 00:42:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Traders Cash Out Stablecoins as Bitcoin Hits 4-Month Low - PYMNTS.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ3ZURTJxQk1XMC04MHRMWXY0ZnVpSk1yLXNZUHNyWk8ybWt1OTE1X1QxMm00dnRXR0EzdTVMX0hkeU8tOHJWb3Q0TGhranR3WVlKWjUwSkFuWUxkaVlRYy14dTA4T1c2eVA0NGxvV1VkX3pLVFFWNDA0T1FLekVrR1lxRXhjX21RUWJqVDVlSEZ1VEd2WThQTHpCRThrQWxKaWVCVXZYWF9ISVk?oc=5\" target=\"_blank\">Crypto Traders Cash Out Stablecoins as Bitcoin Hits 4-Month Low</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PYMNTS.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ3ZURTJxQk1XMC04MHRMWXY0ZnVpSk1yLXNZUHNyWk8ybWt1OTE1X1QxMm00dnRXR0EzdTVMX0hkeU8tOHJWb3Q0TGhranR3WVlKWjUwSkFuWUxkaVlRYy14dTA4T1c2eVA0NGxvV1VkX3pLVFFWNDA0T1FLekVrR1lxRXhjX21RUWJqVDVlSEZ1VEd2WThQTHpCRThrQWxKaWVCVXZYWF9ISVk?oc=5",
+      "published": "Tue, 17 Nov 2026 01:19:06 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "ETH price range on Nov 16, 2026 at 9pm EST Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQQUppeWUtSFUyN0h1NmZpLTh6V0lQbGhDbTlrZE5sWEYtdDIwZUFuZWFucHBqSmVDWnlwU2NYQjdIbjBzcGVzaTZTOHJfZmlxc0ZudW5uQUNVZ3l1Y0pTS19tNEwxSFlUNkhrVVlBdDdsMG1xM3VObHpTVEN6dUotR18yRUdid20zRlJ2Ni1pWktfZ2xDb2ZOMExIQkxFNnI4Ykt3MmdlNHJpUW4wZ1NnbEN0VjdIUQ?oc=5\" target=\"_blank\">ETH price range on Nov 16, 2026 at 9pm EST Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQUppeWUtSFUyN0h1NmZpLTh6V0lQbGhDbTlrZE5sWEYtdDIwZUFuZWFucHBqSmVDWnlwU2NYQjdIbjBzcGVzaTZTOHJfZmlxc0ZudW5uQUNVZ3l1Y0pTS19tNEwxSFlUNkhrVVlBdDdsMG1xM3VObHpTVEN6dUotR18yRUdid20zRlJ2Ni1pWktfZ2xDb2ZOMExIQkxFNnI4Ykt3MmdlNHJpUW4wZ1NnbEN0VjdIUQ?oc=5",
+      "published": "Tue, 17 Nov 2026 01:18:06 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Dogecoin price on Nov 16, 2026 at 9pm EST Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQNjJOM012QlgxX2laZVA5STVTNDM3SG5YQjhUcWpNcV9ZUi1oNlBxN0NETkx3d0t5UG9WeXlFbHhFMGF4eFBXR012RUszRms3bzRlZnNVQVFoTE9DUWJFQXF0Qm1PanQzYk5HWmtjQ1RWbkNIeDcxR19IbERwbW9jZXZ5QzFBUWV1WV9kbGg3U091TDQ0LUJlazZ1Y3F2RUgzU1B5YU9nemFxRGJxbk4xZHlPcE4?oc=5\" target=\"_blank\">Dogecoin price on Nov 16, 2026 at 9pm EST Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNjJOM012QlgxX2laZVA5STVTNDM3SG5YQjhUcWpNcV9ZUi1oNlBxN0NETkx3d0t5UG9WeXlFbHhFMGF4eFBXR012RUszRms3bzRlZnNVQVFoTE9DUWJFQXF0Qm1PanQzYk5HWmtjQ1RWbkNIeDcxR19IbERwbW9jZXZ5QzFBUWV1WV9kbGg3U091TDQ0LUJlazZ1Y3F2RUgzU1B5YU9nemFxRGJxbk4xZHlPcE4?oc=5",
+      "published": "Tue, 17 Nov 2026 01:18:07 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "XRP price at Nov 16, 2026 at 9pm EST Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPQVZvQnllbGkwT1pOUXdpR2JpalotRGhuQ3U1MWVQT241ZndWSEdmMTd5WF9lUUJhRzhCQVdOLS15elRuTlc2bjFFSHNHaE9Jek9aZGNXSGJOTE1CbUM4UFZGOEF3d2lVazc3VkdKQmN5ZWRvYlpRWjhWVFBTdEZ2RW5oOThja0tRWDN4Q2FTRndVamE5Z21QZWJDS0YzaWRKU190NmJ4VnFCV0hMU3c?oc=5\" target=\"_blank\">XRP price at Nov 16, 2026 at 9pm EST Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQVZvQnllbGkwT1pOUXdpR2JpalotRGhuQ3U1MWVQT241ZndWSEdmMTd5WF9lUUJhRzhCQVdOLS15elRuTlc2bjFFSHNHaE9Jek9aZGNXSGJOTE1CbUM4UFZGOEF3d2lVazc3VkdKQmN5ZWRvYlpRWjhWVFBTdEZ2RW5oOThja0tRWDN4Q2FTRndVamE5Z21QZWJDS0YzaWRKU190NmJ4VnFCV0hMU3c?oc=5",
+      "published": "Tue, 17 Nov 2026 01:08:48 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e7a88ff576b541608d0845f3b666ec66",
+      "published": "2026-11-11T17:45:18.328000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined HYPEUSDC and TRXUSDC Perpetual Contracts (2026-11-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined HYPEUSDC and TRXUSDC Perpetual Contracts (2026-11-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2d89a5966b174a2689ab2c2a15db1757",
+      "published": "2026-11-11T13:00:31.295000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "summary": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
+      "published": "2026-10-29T19:48:52.329000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/784c65be33d44de0b2099cadf8742846",
+      "published": "2026-10-29T16:45:10.993000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f180bddad424ea5b7a00148433721dc",
+      "published": "2026-10-28T11:30:13.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "summary": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a326408b6404d69b474f3fab7acfa66",
+      "published": "2026-10-28T11:00:17.379000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/02d204fc963f4f8687599fc22a13d538",
+      "published": "2026-10-26T14:15:01.713000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
+      "published": "2026-10-25T15:05:15.552000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3afa938f499d403382d01d0c0644507e",
+      "published": "2026-10-21T11:31:11.286000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "summary": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b965e028041c4d0fbb4291372f55e4d4",
+      "published": "2026-10-21T11:00:12.952000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4e52d711946c88762f0ba2259de2e",
+      "published": "2026-10-21T10:15:10.766000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e52ef13311eb4e1a96f07099152e61d5",
+      "published": "2026-10-14T11:30:08.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "summary": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/927d3a7b5d6c43fb888e38f110005906",
+      "published": "2026-10-14T11:00:04.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "summary": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
+      "published": "2026-10-13T11:30:01.158000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/394e61b6f81e4a349272dcb9d78876d6",
+      "published": "2026-10-12T14:15:02.026000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a1a7996170f246da90ea49f199a61bcd",
+      "published": "2026-10-07T12:00:08.051000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "summary": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "link": "https://www.binance.com/zh-CN/support/announcement/9c34999b27234dfe9c43d2ac33cebde4",
+      "published": "2026-10-07T11:00:06.945000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/ea19450f515843098a5d5e55fc6e3589",
+      "published": "2026-10-06T14:15:28.410000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+      "published": "2026-10-01T14:30:01.040000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1a94597986cf476f939609c02b87ee79",
+      "published": "2026-09-30T11:30:01.555000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 12 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 12，分类为「Extreme Fear」。 市场处于极度恐惧状态，历史上往往是抄底机会。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-11-17T08:00:00+08:00"
+    }
+  ]
+}
