@@ -1,0 +1,365 @@
+{
+  "date": "2026-11-21",
+  "hour": "03",
+  "total": 51,
+  "fetched_at": "2026-11-21T03:01:02.548122+08:00",
+  "news": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
+      "published": "Fri, 20 Nov 2026 18:13:52 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
+      "summary": "Elliptic says little has likely been cashed out, despite a sharp rise in bitcoin mixing since Nov. 17.",
+      "link": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+      "published": "Fri, 20 Nov 2026 18:22:39 +0000"
+    },
+    {
+      "source": "The Block",
+      "title": "JPMorgan says bitcoin price correction widens gap to estimated $86,000 production cost",
+      "summary": "Bitcoin's recent price drop has widened the gap between its market price and JPMorgan's estimated production cost of $86,000.",
+      "link": "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763",
+      "published": "Fri, 20 Nov 2026 18:17:39 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+      "summary": "The firm bought 934,968 Anthropic shares across six ETFs on the Claude maker’s Nasdaq debut while trimming a combined $4.1 million from its Ethereum and Solana staking ETFs.",
+      "link": "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure",
+      "published": "Fri, 20 Nov 2026 18:46:03 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Google Gives Gemini Control of Mac Apps, But Its New AI Agent Comes With Risks",
+      "summary": "Gemini's new Mac computer-use feature navigates apps, files, and websites in a separate window, but Google's own documentation warns about prompt injection.",
+      "link": "https://decrypt.co/383733/google-gives-gemini-control-mac-apps-ai-agent",
+      "published": "Fri, 20 Nov 2026 18:16:02 +0000"
+    },
+    {
+      "source": "Decrypt",
+      "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
+      "summary": "Wagyu’s XMR1 token fell more than 99% after an attacker moved 5.2 million tokens out of its deployer account and sold a fraction of them for $13.5 million.",
+      "link": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host",
+      "published": "Fri, 20 Nov 2026 17:41:45 +0000"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims",
+      "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7X2CXDXB4B5SGSAMFZAXXE0/hi-kraken-ipo-1.png\" /></p><p>Sky says its USDS stablecoin held its $1 value despite more than $2 billion in withdrawals, as it disputes a report linking the protocol to illicit activity.</p>",
+      "link": "https://cointelegraph.com/news/sky-protocol-sees-2b-in-stablecoin-withdrawals-disputes-illicit-fund-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 20 Nov 2026 18:37:10 +0000"
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin: It’s So Over - Bitcoin Magazine",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVY2M3Ymx5RDIwWnZQN3BTMGswREk5ZVppX3dUN0RSTWFPRVdqSjBKTmh2N2JwOFdjUUo5UllLbFNQNjM4OUNhR0dvVzF6VnJkN1BoUzZtOXhsd0JycnlWb05DZzg?oc=5\" target=\"_blank\">Bitcoin: It’s So Over</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin Magazine</font>",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVY2M3Ymx5RDIwWnZQN3BTMGswREk5ZVppX3dUN0RSTWFPRVdqSjBKTmh2N2JwOFdjUUo5UllLbFNQNjM4OUNhR0dvVzF6VnJkN1BoUzZtOXhsd0JycnlWb05DZzg?oc=5",
+      "published": "Fri, 20 Nov 2026 18:16:34 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Elliptic：币安被盗资产中约1.49亿美元BTC已进入混币",
+      "summary": "【Elliptic：币安被盗资产中约1.49亿美元BTC已进入混币】金色财经报道，11月21日，Elliptic 披露，币安被盗资产中至少 2310 枚 BTC 已通过 CoinJoin 混币交易，交易时价值约 1.49 亿美元，其中约 90% 的混币活动发生在 11 月 17 日以来。 \nElliptic 表示，混币所涉 BTC 来自 ETH、XRP 和 SOL 等其他被盗资产的兑换。约 48.8 万枚 ETH 从五个钱包转出，其中约 7000 万美元通过 THORChain 兑换为 BTC，随后数小时内进入混币交易。 \nElliptic 认为，尽管混币活动增加，被盗资产可能只有很小一部分已被套现。该机构最新统计显示，约 23.5 亿美元仍在与盗窃事件相关的钱包中，另有约 28.5 亿美元被冻结。<p>原文链接: <a href=\"https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-44",
+      "link": "https://jinse.com.cn/lives/541917.html",
+      "published": "Fri, 20 Nov 2026 18:53:11 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "特朗普对Anthropic态度缓和 称尊重其CEO",
+      "summary": "【特朗普对Anthropic态度缓和 称尊重其CEO】金色财经报道，11月21日，美国总统特朗普周五祝贺Anthropic(ANT.O)成功上市，并称自己对该公司首席执行官达里奥·阿莫代伊“非常尊重”。这番表态可能意味着白宫与Anthropic的关系出现缓和。今年早些时候，特朗普政府曾要求联邦机构停止使用Anthropic的AI产品，并将该公司列为国家安全风险，随后这一决定被联邦法官推翻。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20261121020325116800\">https://flash.jin10.com/detail/20261121020325116800</a></p>",
+      "link": "https://jinse.com.cn/lives/541916.html",
+      "published": "Fri, 20 Nov 2026 18:33:44 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "特朗普：不允许美国企业在海外建设数据中心",
+      "summary": "【特朗普：不允许美国企业在海外建设数据中心】金色财经报道，11月21日，美国总统特朗普周五表示，美国将不允许本国企业在海外建设数据中心，并威胁对违规企业征收“巨额税款”。特朗普在白宫新闻发布会上谈及人工智能产业时表示，美国企业的数据中心建设应留在本土，但他未进一步说明相关限制措施及征税方案的具体细节。<p>原文链接: <a href=\"https://flash.jin10.com/detail/20261121015122057800\">https://flash.jin10.com/detail/20261121015122057800</a></p>",
+      "link": "https://jinse.com.cn/lives/541915.html",
+      "published": "Fri, 20 Nov 2026 17:58:32 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "Anthropic股价跌幅扩大至14%，触及盘中低点",
+      "summary": "【Anthropic股价跌幅扩大至14%，触及盘中低点】金色财经报道，11月21日，Anthropic股价跌幅扩大至14%，触及盘中低点。",
+      "link": "https://jinse.com.cn/lives/541914.html",
+      "published": "Fri, 20 Nov 2026 17:49:58 GMT"
+    },
+    {
+      "source": "金色财经",
+      "title": "标普500指数日内跌幅扩大至2%",
+      "summary": "【标普500指数日内跌幅扩大至2%】金色财经报道，11月21日，标普500指数日内跌幅扩大至2%，费城半导体指数跌幅扩大至9%。",
+      "link": "https://jinse.com.cn/lives/541913.html",
+      "published": "Fri, 20 Nov 2026 17:14:46 GMT"
+    },
+    {
+      "source": "律动BlockBeats",
+      "title": "特朗普：希望黄仁勋道歉并重返英伟达，黄仁勋应该得到保护",
+      "summary": "<p>BlockBeats 消息，11 月 21 日，美国总统特朗普表示，黄仁勋非常出色，但做了一些糟糕的决定。希望黄仁勋道歉并回归。杰出人才必须受到保护。</p><p><br /></p><p>「我希望看到黄仁勋回来」英伟达对美国而言是一家非常重要的公司。英伟达如果明智，就应接受道歉并让黄仁勋回归。</p>",
+      "link": "https://www.theblockbeats.info/flash/378479",
+      "published": "Fri, 20 Nov 2026 18:37:42 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Crypto Brief - Lowenstein Crypto Newsletter - November 19, 2026 - JD Supra",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5taFpVSFpJUGRUTzh2S1ExU2FuWENfRDljRGh4OVp4d3Nqd3h3TzVsdXAxV2lkeUFMWGJGallyd01lNHRTdENRN0dMbmNCQS1BMFZ5VTNUdkJBRjJEZGtWaURwQWRYYlp2ZWdGX2dsRHdGQkR0MmlhZjJwck1EZw?oc=5\" target=\"_blank\">Crypto Brief - Lowenstein Crypto Newsletter - November 19, 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JD Supra</font>",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5taFpVSFpJUGRUTzh2S1ExU2FuWENfRDljRGh4OVp4d3Nqd3h3TzVsdXAxV2lkeUFMWGJGallyd01lNHRTdENRN0dMbmNCQS1BMFZ5VTNUdkJBRjJEZGtWaURwQWRYYlp2ZWdGX2dsRHdGQkR0MmlhZjJwck1EZw?oc=5",
+      "published": "Fri, 20 Nov 2026 17:12:03 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Tanks 7% To 2026 Low—Now Below $59,000 - Forbes",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPLVNqeHRuZFNnVU13SUFEbmdRZ19nYjl4X2p4SHIwaVpYNUF5VGMzNGhET2ZhNW9vS1V3MmFPZEphMkQ1Zl92YndiLVBtMXROaHZWVl8wSmtHd2xEcHVLSlY1b2M4VlVBdll0T2k0VDJ0dDFWb1FNeFNRTWprdGpRNjlyTTJIeFY0Qno4V1I3R01JWGxQZXVJQVF3Vjh3cGFVRVYxeWZzUkYtUlRDWEMwYXdxdmxsbkN3LWVfa252RVFEVmhYV2lpVHpNZzI?oc=5\" target=\"_blank\">Bitcoin Tanks 7% To 2026 Low—Now Below $59,000</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLVNqeHRuZFNnVU13SUFEbmdRZ19nYjl4X2p4SHIwaVpYNUF5VGMzNGhET2ZhNW9vS1V3MmFPZEphMkQ1Zl92YndiLVBtMXROaHZWVl8wSmtHd2xEcHVLSlY1b2M4VlVBdll0T2k0VDJ0dDFWb1FNeFNRTWprdGpRNjlyTTJIeFY0Qno4V1I3R01JWGxQZXVJQVF3Vjh3cGFVRVYxeWZzUkYtUlRDWEMwYXdxdmxsbkN3LWVfa252RVFEVmhYV2lpVHpNZzI?oc=5",
+      "published": "Fri, 20 Nov 2026 18:52:14 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Why Crypto Is Crashing: Bitcoin (BTC) nears new 2026 low as strategists say cash Is king amid Fed fears - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPejRKV3BfU3ZHQ2s5SUFweDJXRXdvdHdiaHA5R2ZjQXZzS3JpTG1ieXYwbXR1NGl0bWw0cTY5c1RMUmpseFZaTHlfVnFyWEYxd2RBY3NwNldRdDg5RU5mZWUxWl9xellrX1NUamN3MzF4dkwzYkNXcFdDdkhob3BoaFZITjM2eThQSzVvNlBXWndWREVpT0NWb2FJLU9WZzFJTnNPSUhUWGVuTW1nVmd2Z2tiWmZYVEhnX3VnYzY5ZXh2UWRoYXAweWR3?oc=5\" target=\"_blank\">Why Crypto Is Crashing: Bitcoin (BTC) nears new 2026 low as strategists say cash Is king amid Fed fears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPejRKV3BfU3ZHQ2s5SUFweDJXRXdvdHdiaHA5R2ZjQXZzS3JpTG1ieXYwbXR1NGl0bWw0cTY5c1RMUmpseFZaTHlfVnFyWEYxd2RBY3NwNldRdDg5RU5mZWUxWl9xellrX1NUamN3MzF4dkwzYkNXcFdDdkhob3BoaFZITjM2eThQSzVvNlBXWndWREVpT0NWb2FJLU9WZzFJTnNPSUhUWGVuTW1nVmd2Z2tiWmZYVEhnX3VnYzY5ZXh2UWRoYXAweWR3?oc=5",
+      "published": "Fri, 20 Nov 2026 18:13:52 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Falls Below $60K as ETFs Bleed - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPSmd6OHZkVXBjeW9fdUxxQ0Vnc2NJN2dESExEMFYzNVVUdGEzejhXUU9PcG55MWtnSHlIdk8zVnpBSm53bUxxN01lc1hNQmlKc3JVS0l1c0IxU2toR1hYajB2eW5uR3Qxcll3MF9vMW1jdjBMcDRKSXVZV3lCYmV2WGtLMW9NbFBLaGVXWDd5M2dhZkFxeGZUZA?oc=5\" target=\"_blank\">Bitcoin Falls Below $60K as ETFs Bleed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSmd6OHZkVXBjeW9fdUxxQ0Vnc2NJN2dESExEMFYzNVVUdGEzejhXUU9PcG55MWtnSHlIdk8zVnpBSm53bUxxN01lc1hNQmlKc3JVS0l1c0IxU2toR1hYajB2eW5uR3Qxcll3MF9vMW1jdjBMcDRKSXVZV3lCYmV2WGtLMW9NbFBLaGVXWDd5M2dhZkFxeGZUZA?oc=5",
+      "published": "Fri, 20 Nov 2026 17:51:02 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Falls Below $60,000 for First Time Since July in AI-Led Selloff - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNSFpQUzJETTkzMy0tMXlOaXVmNUdxMkFvWFloVGRlWC1GcHFhSVZBcDNXQ1IyMURCa3p2SnJOekFydEwxdUpfQS13OUVTWXhtWkJQWTZsZldtZWFqN1FBeWRKRmZZMDhpcW9waUREdURYLVlaWENwb3JHN1VsWkt5NGdCa3JTdk0tdTcwM01nRjhhSkc2RHc?oc=5\" target=\"_blank\">Bitcoin Falls Below $60,000 for First Time Since July in AI-Led Selloff</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSFpQUzJETTkzMy0tMXlOaXVmNUdxMkFvWFloVGRlWC1GcHFhSVZBcDNXQ1IyMURCa3p2SnJOekFydEwxdUpfQS13OUVTWXhtWkJQWTZsZldtZWFqN1FBeWRKRmZZMDhpcW9waUREdURYLVlaWENwb3JHN1VsWkt5NGdCa3JTdk0tdTcwM01nRjhhSkc2RHc?oc=5",
+      "published": "Fri, 20 Nov 2026 18:19:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "BTC price range on Nov 20, 2026 at 2pm EST Crypto Prediction Market - Robinhood",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1Zfc2F0RGREVFNyX0R2QTNIUUF4c09jUWJpTHpaM0NqRmpyY3V1SENielBERnAyR0tMTUpIaDVCbnFXbE5WX3BvRDk4b0djWFU0Zm5Ea2lFX053b0VtdGNMWUE1eDl2bGpZLUdzMzByQUxZbjRCQzRRWTNJaEpmSVRlYWxBY0FxN3NfNWNwZVc4Wk5vNFJ5SGNiUTdSRnZDd000bHhVU0loUFFsTDNhSjRzY1c5dw?oc=5\" target=\"_blank\">BTC price range on Nov 20, 2026 at 2pm EST Crypto Prediction Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Robinhood</font>",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1Zfc2F0RGREVFNyX0R2QTNIUUF4c09jUWJpTHpaM0NqRmpyY3V1SENielBERnAyR0tMTUpIaDVCbnFXbE5WX3BvRDk4b0djWFU0Zm5Ea2lFX053b0VtdGNMWUE1eDl2bGpZLUdzMzByQUxZbjRCQzRRWTNJaEpmSVRlYWxBY0FxN3NfNWNwZVc4Wk5vNFJ5SGNiUTdSRnZDd000bHhVU0loUFFsTDNhSjRzY1c5dw?oc=5",
+      "published": "Fri, 20 Nov 2026 18:10:14 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Tokenized Stocks In Crypto Wallets Raise Questions Around What Investors Actually Own - Forbes",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNakYyUXpaQUJBa3ZlMlhJbTVXUFBOMnVJdkJjRWRIQ3dOOTVoVXlVcHU0SDN6NS1kZHI2M3ZpbC1DVy11V0x4ZU1JNFZRZUp1RGFzdU9wZDQyWl9CbTB2TmlBUjVoSWhGNWhhVVRPNjhsRGpvZG1sc0NabHZmSThjQTFrdFIxM0pUc1RVS18xNFp4U2VyUnFSS2ZnS2FxbVNYN21kT1l6dE9sbVluTW9fcmJubDBUWnp0ZkdyTTZCUlJGYmFray1pdUxFNy10V0hsM044eFNBNng?oc=5\" target=\"_blank\">Tokenized Stocks In Crypto Wallets Raise Questions Around What Investors Actually Own</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNakYyUXpaQUJBa3ZlMlhJbTVXUFBOMnVJdkJjRWRIQ3dOOTVoVXlVcHU0SDN6NS1kZHI2M3ZpbC1DVy11V0x4ZU1JNFZRZUp1RGFzdU9wZDQyWl9CbTB2TmlBUjVoSWhGNWhhVVRPNjhsRGpvZG1sc0NabHZmSThjQTFrdFIxM0pUc1RVS18xNFp4U2VyUnFSS2ZnS2FxbVNYN21kT1l6dE9sbVluTW9fcmJubDBUWnp0ZkdyTTZCUlJGYmFray1pdUxFNy10V0hsM044eFNBNng?oc=5",
+      "published": "Fri, 20 Nov 2026 18:23:00 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Falls to $59,000: Was the 30% Rally a 'Bull Trap?' - Benzinga",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPMURPTWY3bzdVSW80U21IRmdLNnQ5ekRBd21BNTJEXzFFQ1NWZ1Y2dU90UC00Y0s3UEF4ME5JcUhOOWtZVWZyc1FYZl96RzVtRmU0SVJvNFZyU3g1XzZRRE9EdzZ6eXRfLXFHZnZSWHBUenNaeFlhNE9HdHNwS0hCamVFc1RJbjI1V1hXVVpwOWZBT3A3R2RfMVVqWkNTbWFfaE54bHBFNzNlQU1Ubk9RcUUtRQ?oc=5\" target=\"_blank\">Bitcoin Falls to $59,000: Was the 30% Rally a 'Bull Trap?'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMURPTWY3bzdVSW80U21IRmdLNnQ5ekRBd21BNTJEXzFFQ1NWZ1Y2dU90UC00Y0s3UEF4ME5JcUhOOWtZVWZyc1FYZl96RzVtRmU0SVJvNFZyU3g1XzZRRE9EdzZ6eXRfLXFHZnZSWHBUenNaeFlhNE9HdHNwS0hCamVFc1RJbjI1V1hXVVpwOWZBT3A3R2RfMVVqWkNTbWFfaE54bHBFNzNlQU1Ubk9RcUUtRQ?oc=5",
+      "published": "Fri, 20 Nov 2026 18:01:41 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "World's most profitable hedge fund dumps $65M worth Bitcoin - Yahoo Finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNcER5UVExZHdubE1CT25ieXpfa3NwYndmVUVZY0VCTDhqTDliOF8yb0ZKMER4dHRBSWQ0S0hzem5DMHkzdmZQNUQzcmNVR1FkY3dQUW9fcTI4RFg3TkdmR0Z3RUFUUkVrYVAzVndfM2ItcmdENlRzeWtWaGstNlNLXzNuS3lYcjgtcE1iYlRBRFZJcHk0bVdUTGVWSkhhY0U?oc=5\" target=\"_blank\">World's most profitable hedge fund dumps $65M worth Bitcoin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcER5UVExZHdubE1CT25ieXpfa3NwYndmVUVZY0VCTDhqTDliOF8yb0ZKMER4dHRBSWQ0S0hzem5DMHkzdmZQNUQzcmNVR1FkY3dQUW9fcTI4RFg3TkdmR0Z3RUFUUkVrYVAzVndfM2ItcmdENlRzeWtWaGstNlNLXzNuS3lYcjgtcE1iYlRBRFZJcHk0bVdUTGVWSkhhY0U?oc=5",
+      "published": "Fri, 20 Nov 2026 17:02:17 GMT"
+    },
+    {
+      "source": "Crypto Twitter",
+      "title": "Bitcoin Fell More Than 20% in November. History Says This Happens Next. - The Motley Fool",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVNNXFIZUh6WGpuMHhDbHlKWXlYN0dJREM0Qk1RQmVtOFhreTZIaUhuMDNBSUxRLXRQSHBycWhDN3NPTjNDa1g1RnpWb3RUWkZmNmFXT21kdDlTZ25qYU9tUjktOE5IWmstcWV1YzRyWVhRZk1UaXlRNGwzZmRwVVFQWlljckxQYmhoTW41N19kMjZDZ0otYzNtbktyTEtOd0V3V2NsZWw5Vi1iWTZYQg?oc=5\" target=\"_blank\">Bitcoin Fell More Than 20% in November. History Says This Happens Next.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVNNXFIZUh6WGpuMHhDbHlKWXlYN0dJREM0Qk1RQmVtOFhreTZIaUhuMDNBSUxRLXRQSHBycWhDN3NPTjNDa1g1RnpWb3RUWkZmNmFXT21kdDlTZ25qYU9tUjktOE5IWmstcWV1YzRyWVhRZk1UaXlRNGwzZmRwVVFQWlljckxQYmhoTW41N19kMjZDZ0otYzNtbktyTEtOd0V3V2NsZWw5Vi1iWTZYQg?oc=5",
+      "published": "Fri, 20 Nov 2026 17:15:02 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Is the Anthropic IPO Really Why Bitcoin Is Crashing? - 24/7 Wall St.",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNS1hLTXc0a05FNlRFandDZW5xY1BvVW55YTVMN1RMNVd6dmI5cDBVNjB5MWQ5MV9hcHBQWnNoVWVWT21EOEZiVUo1d2JtQ0dtODJ6TG51Tlg0WUhpSkhGem9QTENod21SSFhJTXRHM2R6RVVxMUc2LUd6QnpuNE43eDZjNUF0dklxZ2RXWUl5NkpoZDZ3a0tBeTVCM0FMRXRqamRRNHA5QnZQVWlyamhn?oc=5\" target=\"_blank\">Is the Anthropic IPO Really Why Bitcoin Is Crashing?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS1hLTXc0a05FNlRFandDZW5xY1BvVW55YTVMN1RMNVd6dmI5cDBVNjB5MWQ5MV9hcHBQWnNoVWVWT21EOEZiVUo1d2JtQ0dtODJ6TG51Tlg0WUhpSkhGem9QTENod21SSFhJTXRHM2R6RVVxMUc2LUd6QnpuNE43eDZjNUF0dklxZ2RXWUl5NkpoZDZ3a0tBeTVCM0FMRXRqamRRNHA5QnZQVWlyamhn?oc=5",
+      "published": "Fri, 20 Nov 2026 18:46:00 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "JPMorgan says Bitcoin price drop widens gap to $86,000 production cost - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1JVjRiN1pjTzZtNHZscm9lVElXWVJuUWVxMzdTWkNqZVhveW9vVTJzYW1TcHIwbDU2UENVUWZ1X29OY2R0eFVjZGNWSERXYzN1V1hvY0Q3NnlLQnBnY0VEVnlvbW41dUhvNDdnQTlKZzJtdTlxX1k2d3JsUQ?oc=5\" target=\"_blank\">JPMorgan says Bitcoin price drop widens gap to $86,000 production cost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JVjRiN1pjTzZtNHZscm9lVElXWVJuUWVxMzdTWkNqZVhveW9vVTJzYW1TcHIwbDU2UENVUWZ1X29OY2R0eFVjZGNWSERXYzN1V1hvY0Q3NnlLQnBnY0VEVnlvbW41dUhvNDdnQTlKZzJtdTlxX1k2d3JsUQ?oc=5",
+      "published": "Fri, 20 Nov 2026 18:25:34 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Bitcoin falls over 20% in November as ETF outflows mount, but history offers some hope - Crypto Briefing",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFB5anB6SUFyQUVMd3Q1MmJoMm5WbFNqaTdqSVUwdFNuMDdIRG9oa1NVY0ZjTnk3by02RElWV1hUcXA5Z3Q2cENEajZiY3ROTFNERUs3WTVXb0JHaFdvLWItbGlRSVBUekZQNW9hWFp3?oc=5\" target=\"_blank\">Bitcoin falls over 20% in November as ETF outflows mount, but history offers some hope</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5anB6SUFyQUVMd3Q1MmJoMm5WbFNqaTdqSVUwdFNuMDdIRG9oa1NVY0ZjTnk3by02RElWV1hUcXA5Z3Q2cENEajZiY3ROTFNERUs3WTVXb0JHaFdvLWItbGlRSVBUekZQNW9hWFp3?oc=5",
+      "published": "Fri, 20 Nov 2026 17:19:53 GMT"
+    },
+    {
+      "source": "宏观经济",
+      "title": "Why is bitcoin falling? Price drops below $60,000 for the first time since July - Nacionale",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNbWpVWVlucDlBNS1kQXBwdGctRnhIelJud2dqRkVoVHZUZ2RZWC1TOTdDQzBGa1oxNEdoend1RVo3TF9PcUxPYVZobkNZbjFkQnp3RzVSTmstYkMwaVA1R2QxSVpPZl9QRFBEM3Q4SFpCLU5STlZGSHVtVVlvblhQR1lGRVZiZU1nTVRjVzBfSVUyQnI4YnU4Y0NpUmt0UHA5di1abm9Bd0h1QzNEUmtiYXZR?oc=5\" target=\"_blank\">Why is bitcoin falling? Price drops below $60,000 for the first time since July</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nacionale</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbWpVWVlucDlBNS1kQXBwdGctRnhIelJud2dqRkVoVHZUZ2RZWC1TOTdDQzBGa1oxNEdoend1RVo3TF9PcUxPYVZobkNZbjFkQnp3RzVSTmstYkMwaVA1R2QxSVpPZl9QRFBEM3Q4SFpCLU5STlZGSHVtVVlvblhQR1lGRVZiZU1nTVRjVzBfSVUyQnI4YnU4Y0NpUmt0UHA5di1abm9Bd0h1QzNEUmtiYXZR?oc=5",
+      "published": "Fri, 20 Nov 2026 18:08:36 GMT"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-20)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-20)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5947f1c3a2904daab60fa896fe0fafea",
+      "published": "2026-11-20T14:15:30.908000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add Anthropic (ANTB) bStocks Tokenized Securities as Collateral Asset - 2026-11-19",
+      "summary": "Binance Will Add Anthropic (ANTB) bStocks Tokenized Securities as Collateral Asset - 2026-11-19",
+      "link": "https://www.binance.com/zh-CN/support/announcement/c4a6afb79b32434a88e826b9632242c0",
+      "published": "2026-11-20T01:10:04.122000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Anthropic (ANTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-11-19",
+      "summary": "Binance Exchange Adds Anthropic (ANTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-11-19",
+      "link": "https://www.binance.com/zh-CN/support/announcement/830c320848af4257812d5b6e99e031f9",
+      "published": "2026-11-20T00:52:15.297000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e881bca4de484755b172ec53141bd422",
+      "published": "2026-11-18T14:15:24.513000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-11-18",
+      "summary": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-11-18",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e559d54271c748e080ba4180d453ea1b",
+      "published": "2026-11-18T11:45:27.288000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds New bStocks Trading Pairs on Binance Spot/Convert - 2026-11-18",
+      "summary": "Binance Exchange Adds New bStocks Trading Pairs on Binance Spot/Convert - 2026-11-18",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a3ffb6df9de942a9bb40e19f904041e6",
+      "published": "2026-11-18T11:30:27.391000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e7a88ff576b541608d0845f3b666ec66",
+      "published": "2026-11-11T17:45:18.328000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined HYPEUSDC and TRXUSDC Perpetual Contracts (2026-11-16)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined HYPEUSDC and TRXUSDC Perpetual Contracts (2026-11-16)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/2d89a5966b174a2689ab2c2a15db1757",
+      "published": "2026-11-11T13:00:31.295000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "summary": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "link": "https://www.binance.com/zh-CN/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
+      "published": "2026-10-29T19:48:52.329000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/784c65be33d44de0b2099cadf8742846",
+      "published": "2026-10-29T16:45:10.993000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3f180bddad424ea5b7a00148433721dc",
+      "published": "2026-10-28T11:30:13.531000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "summary": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5a326408b6404d69b474f3fab7acfa66",
+      "published": "2026-10-28T11:00:17.379000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/02d204fc963f4f8687599fc22a13d538",
+      "published": "2026-10-26T14:15:01.713000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "summary": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
+      "published": "2026-10-25T15:05:15.552000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "summary": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/3afa938f499d403382d01d0c0644507e",
+      "published": "2026-10-21T11:31:11.286000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "summary": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "link": "https://www.binance.com/zh-CN/support/announcement/b965e028041c4d0fbb4291372f55e4d4",
+      "published": "2026-10-21T11:00:12.952000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "summary": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
+      "link": "https://www.binance.com/zh-CN/support/announcement/29e4e52d711946c88762f0ba2259de2e",
+      "published": "2026-10-21T10:15:10.766000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "summary": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/e52ef13311eb4e1a96f07099152e61d5",
+      "published": "2026-10-14T11:30:08.368000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "summary": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "link": "https://www.binance.com/zh-CN/support/announcement/927d3a7b5d6c43fb888e38f110005906",
+      "published": "2026-10-14T11:00:04.033000+08:00"
+    },
+    {
+      "source": "Binance公告",
+      "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "summary": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "link": "https://www.binance.com/zh-CN/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
+      "published": "2026-10-13T11:30:01.158000+08:00"
+    },
+    {
+      "source": "Fear & Greed Index",
+      "title": "恐惧贪婪指数: 12 (Extreme Fear)",
+      "summary": "当前加密市场恐惧贪婪指数为 12，分类为「Extreme Fear」。 市场处于极度恐惧状态，历史上往往是抄底机会。",
+      "link": "https://alternative.me/crypto/fear-and-greed-index/",
+      "published": "2026-11-20T08:00:00+08:00"
+    },
+    {
+      "source": "雪球加密",
+      "title": "Anthropic与SpaceX两大IPO前一个月，比特币均跌22%，流动性逻辑如何驱动后市行情？ - 华尔街见闻",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tSGdnQWoxaTRiaUVGVDBRN2VWQnVKeWV5Sm1SVTZmZHdmQUlvZVZycHFSUFhGck1RTnVzZThaZEhWcm11WDFoblJZWWdTQjRRSVJF?oc=5\" target=\"_blank\">Anthropic与SpaceX两大IPO前一个月，比特币均跌22%，流动性逻辑如何驱动后市行情？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">华尔街见闻</font>",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tSGdnQWoxaTRiaUVGVDBRN2VWQnVKeWV5Sm1SVTZmZHdmQUlvZVZycHFSUFhGck1RTnVzZThaZEhWcm11WDFoblJZWWdTQjRRSVJF?oc=5",
+      "published": "Fri, 20 Nov 2026 18:06:57 GMT"
+    },
+    {
+      "source": "雪球加密",
+      "title": "加密货币为何暴跌：随着策略师称现金为王，比特币（BTC）接近2026年新低，市场担忧美联储政策 - CoinDesk",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPeVJ0dS01QmdnZXhRV01haFlCNGd5SlNCR0N2azRRTURrSF82bmlWUlRuLXRINEQtbzFpbDFWanRMZFN6d2VWSXVVeDJxUTM0S0tJX3ZraC0ybTBZOXhwUnQ2QzVRbmZBcVI1YjhlUjdiOEdSXzFhLWl2RTEtVlBrVUlRZkRPUXRiaGx4SldnTUhySEZHa1owNzhWejBSRl9xenN0R0tGQ1kxNGM2bGdhQmttMTFOQnNkR21pLTAtbTdBcTFZZ1RkZ2t3RGRtQQ?oc=5\" target=\"_blank\">加密货币为何暴跌：随着策略师称现金为王，比特币（BTC）接近2026年新低，市场担忧美联储政策</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDesk</font>",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeVJ0dS01QmdnZXhRV01haFlCNGd5SlNCR0N2azRRTURrSF82bmlWUlRuLXRINEQtbzFpbDFWanRMZFN6d2VWSXVVeDJxUTM0S0tJX3ZraC0ybTBZOXhwUnQ2QzVRbmZBcVI1YjhlUjdiOEdSXzFhLWl2RTEtVlBrVUlRZkRPUXRiaGx4SldnTUhySEZHa1owNzhWejBSRl9xenN0R0tGQ1kxNGM2bGdhQmttMTFOQnNkR21pLTAtbTdBcTFZZ1RkZ2t3RGRtQQ?oc=5",
+      "published": "Fri, 20 Nov 2026 18:13:52 GMT"
+    }
+  ]
+}
